@@ -1,0 +1,45 @@
+{
+  "kategori": "elektronik",
+  "kapak": {
+    "satir1": "VOLTAJ BÖLÜCÜ",
+    "satir2": "YANLIŞ OKUTUYOR",
+    "spot": "Sensör bozuk değil. Suçlu ADC'nin girişi.",
+    "rozetler": [["Giriş empedansı", "tema"], ["100 kΩ tuzağı", "turuncu"], ["Tampon opamp", "yesil"]],
+    "cizim": [
+      {"t": "t", "x": 200, "y": 300, "metin": "+12V"},
+      {"t": "w", "p": [[285, 300], [400, 300]]},
+      {"t": "r", "x": 400, "y": 262, "yon": "h", "ad": "R1", "deger": "100 kΩ", "etiket": "ust"},
+      {"t": "w", "p": [[640, 300], [1360, 300]]},
+      {"t": "n", "x": 1000, "y": 300},
+      {"t": "w", "p": [[1000, 300], [1000, 480]]},
+      {"t": "r", "x": 962, "y": 480, "yon": "v", "ad": "R2", "deger": "100 kΩ", "etiket": "sol"},
+      {"t": "w", "p": [[1000, 720], [1000, 790]]},
+      {"t": "g", "x": 1000, "y": 790},
+      {"t": "k", "x0": 1340, "y0": 190, "x1": 1872, "y1": 620, "metin": "GPIO34 / ADC"},
+      {"t": "w", "p": [[1360, 300], [1450, 300]]},
+      {"t": "n", "x": 1450, "y": 300},
+      {"t": "w", "p": [[1456, 294], [1548, 248]]},
+      {"t": "n", "x": 1560, "y": 300},
+      {"t": "w", "p": [[1560, 300], [1590, 300], [1590, 400]]},
+      {"t": "c", "x": 1590, "y": 400, "yon": "v", "ad": "Cs", "deger": "≈10 pF"},
+      {"t": "w", "p": [[1590, 432], [1590, 500]]},
+      {"t": "g", "x": 1590, "y": 500, "b": 100}
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "ADC girişi bedava ölçmüyor",
+      "aciklama": "Her okumada devrenden akım çekiyor. Voltmetre gibi davranmıyor.",
+      "vurgu": [1320, 170, 1890, 640]
+    },
+    {
+      "baslik": "100 kΩ'da okuma düşük çıkar",
+      "aciklama": "Dirençler büyükse kondansatör örnekleme süresinde dolamıyor. Değer gerçeğin altında kalıyor.",
+      "vurgu": [340, 130, 1060, 870]
+    },
+    {
+      "baslik": "Dirençleri düşür, kondansatör ekle",
+      "aciklama": "Aynı bölme oranını 10 kΩ ile kur, düğüme 100 nF koy."
+    }
+  ]
+}

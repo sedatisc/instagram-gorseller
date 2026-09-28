@@ -1,0 +1,11 @@
+{
+  "baslangic": "2026-09-29",
+  "kullanilan": {
+    "3dbaski": [],
+    "elektronik": [8],
+    "proje": []
+  },
+  "gecmis": [
+    {"tarih": "2026-09-29", "slot": "elektronik", "konu": 8, "klasor": "2026-09-29-voltaj-bolucu"}
+  ]
+}
