@@ -1,11 +1,20 @@
 {
   "baslangic": "2026-09-29",
   "kullanilan": {
-    "3dbaski": [],
-    "elektronik": [8],
-    "proje": []
+    "3dbaski": [1, 2, 3, 4],
+    "elektronik": [1, 2, 8],
+    "proje": [1, 2, 3]
   },
   "gecmis": [
-    {"tarih": "2026-09-29", "slot": "elektronik", "konu": 8, "klasor": "2026-09-29-voltaj-bolucu"}
+    {"tarih": "2026-09-29", "slot": "elektronik", "konu": 8, "klasor": "2026-09-29-voltaj-bolucu"},
+    {"tarih": "2026-09-29", "slot": "3dbaski", "konu": 1, "klasor": "2026-09-29-filament-secimi"},
+    {"tarih": "2026-09-29", "slot": "proje", "konu": 1, "klasor": "2026-09-29-bilge-sesli-asistan"},
+    {"tarih": "2026-09-30", "slot": "3dbaski", "konu": 2, "klasor": "2026-09-30-katman-yuksekligi"},
+    {"tarih": "2026-09-30", "slot": "elektronik", "konu": 1, "klasor": "2026-09-30-iot-kartlari"},
+    {"tarih": "2026-09-30", "slot": "proje", "konu": 3, "klasor": "2026-09-30-katir-ugv"},
+    {"tarih": "2026-10-01", "slot": "3dbaski", "konu": 3, "klasor": "2026-10-01-bambu-a2l"},
+    {"tarih": "2026-10-01", "slot": "elektronik", "konu": 2, "klasor": "2026-10-01-role-mi-mosfet-mi"},
+    {"tarih": "2026-10-01", "slot": "proje", "konu": 2, "klasor": "2026-10-01-atolye-duzeni"},
+    {"tarih": "2026-10-02", "slot": "3dbaski", "konu": 4, "klasor": "2026-10-02-dolgu-orani"}
   ]
 }
