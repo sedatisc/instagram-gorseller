@@ -49,6 +49,7 @@ Rozet rengi: `tema` (kategori rengi), `turuncu`, `yesil`, `sari`, `kirmizi`, `gr
 | `k` | `x0, y0, x1, y1, metin` | IC / modül kutusu (mavi) |
 | `d` | `x, y, metin, renk` | Rozet (`YANLIŞ` / `DOĞRU`) |
 | `y` | `x, y, metin, boy, renk, hiza` | Serbest yazı |
+| `renk` | `x, y, w, h, hex, ad` | Renk kartelası karesi (filament tanıtımı) |
 | `cizgi` | `x0, y0, x1, y1` | Ayraç çizgisi |
 
 Yatay direnç 240 × 76, dikey 76 × 240. `x, y` sol üst köşedir.

@@ -250,6 +250,16 @@ def ciz(d, ogeler):
             d.text((o["x"], o["y"]), P(o["metin"]),
                    font=pop(o.get("boy", 38), "Medium"), fill=col,
                    anchor=o.get("hiza", "mm"))
+        elif t == "renk":
+            w = o.get("w", 190)
+            h = o.get("h", 190)
+            d.rounded_rectangle([o["x"], o["y"], o["x"] + w, o["y"] + h],
+                                radius=18, fill=o["hex"],
+                                outline=a(WHITE, 0.25), width=4)
+            if o.get("ad"):
+                d.text((o["x"] + w / 2, o["y"] + h + 44), P(o["ad"]),
+                       font=pop(32, "Medium"), fill=(225, 233, 245),
+                       anchor="mm")
         elif t == "cizgi":
             d.line([(o["x0"], o["y0"]), (o["x1"], o["y1"])],
                    fill=a(ACC, 0.18), width=3)

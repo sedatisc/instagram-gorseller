@@ -145,37 +145,39 @@ Erişilebilirlik metni (alt text) her slayta yazılacak — hem görme engelli o
 
 ## SABAH 08.12 — 3D BASKI
 
+Her altı günde bir ürün tanıtımı geliyor (3, 9, 15, 21, 27). Bu gönderiler mağazaya en yakın içerik; ürün etiketi ve marka etiketi mutlaka kullanılacak.
+
 | # | Konu | Tür · Slayt |
 |---|---|---|
 | 1 | PLA, PETG, ABS, ASA: hangi parçada hangisi | Liste · 6 |
 | 2 | Katman yüksekliği görünümü mü hızı mı belirler | Rehber · 4 |
-| 3 | Dolgu oranı gerçekte neyi değiştirir | Rehber · 4 |
-| 4 | Duvar sayısı dolgudan neden daha önemli | Rehber · 4 |
-| 5 | Parça yönü mukavemeti nasıl değiştirir | Rehber · 4 |
-| 6 | Destek yapısı: ağaç mı normal mi | Rehber · 4 |
-| 7 | Köprüleme ayarları | Rehber · 4 |
+| 3 | **Ürün:** Bambu Lab A2L Combo — kime göre, kime değil | Ürün · 5 |
+| 4 | Dolgu oranı gerçekte neyi değiştirir | Rehber · 4 |
+| 5 | Duvar sayısı dolgudan neden daha önemli | Rehber · 4 |
+| 6 | Parça yönü mukavemeti nasıl değiştirir | Rehber · 4 |
+| 7 | Destek yapısı: ağaç mı normal mi | Rehber · 4 |
 | 8 | 0,4 dışına çıkmak: 0,2 ve 0,6 nozzle | Rehber · 4 |
-| 9 | Sertleştirilmiş nozzle ne zaman şart | Rehber · 4 |
-| 10 | Filament kurutma: hangisi kaç saat | Liste · 6 |
-| 11 | Elephant foot: ilk katman değil ilk beş katman | Rehber · 4 |
-| 12 | Stringing: retraction mı sıcaklık mı | Rehber · 4 |
-| 13 | Warping ve kapalı kabin meselesi | Rehber · 4 |
-| 14 | Yüksek akışlı nozzle gerçekten hızlandırıyor mu | Rehber · 4 |
-| 15 | Input shaping ve pressure advance | Rehber · 4 |
-| 16 | Hızı artırınca ilk bozulan şey | Rehber · 4 |
-| 17 | Geçme parçalarda tolerans: kaç mm boşluk | Rehber · 4 |
-| 18 | Heat-set insert ile vidalı birleşim | Rehber · 4 |
-| 19 | Baskı dişi mi somun yuvası mı | Rehber · 4 |
-| 20 | Yüzey işlemi: zımpara, astar, boya | Liste · 5 |
-| 21 | ABS buhar parlatma neden riskli | Rehber · 4 |
-| 22 | AMS ve MMU: renk değişiminin israf maliyeti | Rehber · 4 |
-| 23 | Vazo modu ne işe yarar | Rehber · 4 |
+| 9 | **Ürün:** Sunlu PLA renk kartelası ve gerçek özellikleri | Ürün · 6 |
+| 10 | Sertleştirilmiş nozzle ne zaman şart | Rehber · 4 |
+| 11 | Filament kurutma: hangisi kaç saat | Liste · 6 |
+| 12 | Elephant foot: ilk katman değil ilk beş katman | Rehber · 4 |
+| 13 | Stringing: retraction mı sıcaklık mı | Rehber · 4 |
+| 14 | Warping ve kapalı kabin meselesi | Rehber · 4 |
+| 15 | **Ürün:** Takım değiştiren yazıcılarda 2026 durumu | Ürün · 5 |
+| 16 | Yüksek akışlı nozzle gerçekten hızlandırıyor mu | Rehber · 4 |
+| 17 | Input shaping ve pressure advance | Rehber · 4 |
+| 18 | Hızı artırınca ilk bozulan şey | Rehber · 4 |
+| 19 | Geçme parçalarda tolerans: kaç mm boşluk | Rehber · 4 |
+| 20 | Heat-set insert ile vidalı birleşim | Rehber · 4 |
+| 21 | **Ürün:** Filament sınıfları — PLA, PLA+, Silk, Matte | Ürün · 6 |
+| 22 | Yüzey işlemi: zımpara, astar, boya | Liste · 5 |
+| 23 | AMS ve MMU: renk değişiminin israf maliyeti | Rehber · 4 |
 | 24 | STL mi 3MF mi | Rehber · 4 |
 | 25 | Slicer profilini sıfırdan kurmak | Rehber · 4 |
 | 26 | Yapışma yüzeyleri: PEI, garolit, cam | Liste · 5 |
-| 27 | Baskı sonrası ölçü sapması ve büzülme payı | Rehber · 4 |
-| 28 | Reçine ne zaman FDM'den iyi | Rehber · 4 |
-| 29 | Dış mekân dayanıklılığı: UV ve ASA | Rehber · 4 |
+| 27 | **Ürün:** A2L mi P2S mi — bütçe aynıysa hangisi | Ürün · 5 |
+| 28 | Baskı sonrası ölçü sapması ve büzülme payı | Rehber · 4 |
+| 29 | Reçine ne zaman FDM'den iyi | Rehber · 4 |
 | 30 | 3D baskı gıdayla temasta güvenli mi | Rehber · 4 |
 
 ## ÖĞLE 12.38 — ELEKTRONİK & IoT
@@ -254,7 +256,21 @@ Kendi projelerinden besleniyor. Bu slot hesabın kimliği: diğer ikisi bilgi ve
 
 ---
 
-# 8. HAFTALIK İŞ DÜZENİ
+# 8. ÜRÜN TANITIMI KURALLARI
+
+Ürün gönderileri hesabın mağazaya bakan yüzü. Üçü birden zorunlu:
+
+**Doğrula, hatırlama.** Her ürün gönderisinden önce web'de ara. Model adları, fiyatlar ve ürün gamları hızlı değişiyor; hafızadan yazılan özellik yanlış çıkıyor.
+
+**Çıkmamış ürünü çıkmış gibi anlatma.** Duyurulmuş ama raflarda olmayan ürün karşılaştırmaya sokulmaz. Konu buysa açıkça "henüz çıkmadı" denir — bu zaten kendi başına haberdir.
+
+**Fiyat yazma.** Fiyat en hızlı eskiyen bilgi. Gönderide fiyat yerine konumlandırma yazılır ("giriş seviyesi", "kapalı kabinli orta sınıf"). Fiyat sermenkreatif.com'da, gönderi oraya yönlendirir.
+
+Görsel: ürün fotoğrafı kullanma — üretici basın görselleri telifli. Bunun yerine `tablo` paneli (özellik karşılaştırması) veya `renk` öğesi (filament kartelası) kullan. İlhan kendi çektiği fotoğrafı verirse o kullanılır.
+
+Etiketler: `@bambulab`, `@sunlu3d`, `@snapmaker`, `@creality3dofficial` — hangi marka geçiyorsa. Ürün etiketi ve konum etiketi eklenir.
+
+# 9. HAFTALIK İŞ DÜZENİ
 
 Günde 3 gönderi = haftada 21 gönderi. Her gün tek tek üretmek sürdürülemez.
 

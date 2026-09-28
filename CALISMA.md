@@ -68,6 +68,15 @@ Sayı ve birim arasında boşluk, ondalıkta virgül: `100 kΩ`, `0,2 mm`, `210 
 
 Slayt başlıklarında yalnız ilk kelime ve özel adlar büyük.
 
+## Ürün gönderileri
+
+`PLAN.md`'de **Ürün:** ile başlayan konularda, yazmadan önce web'de ara ve doğrula. Model adları ve ürün gamları hızlı değişiyor.
+
+- Fiyat yazma. Konumlandırma yaz ("giriş seviyesi", "kapalı kabinli orta sınıf"), fiyat için sermenkreatif.com'a yönlendir.
+- Henüz çıkmamış ürünü çıkmış gibi anlatma, karşılaştırmaya sokma. Durum buysa açıkça yaz.
+- Üretici basın görseli kullanma, telifli. `tablo` paneli veya `renk` öğesi kullan.
+- Geçen markanın hesabını açıklamada etiketle: `@bambulab`, `@sunlu3d`, `@snapmaker`, `@creality3dofficial`.
+
 ## Sınırlar
 
 - Konu listesi bittiğinde yeni gönderi üretme. Çalışmayı bitir ve listenin tükendiğini bildir.
