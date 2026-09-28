@@ -28,7 +28,7 @@ Saatler bilerek tam ve buçuk değil. Herkes 12.00 ve 20.30'a kurduğu için o d
 
 | Slot | Kategori | Hafta içi | Cumartesi | Pazar |
 |---|---|---|---|---|
-| Sabah | 3D BASKI | **08.12** | 11.10 | 11.40 |
+| Sabah | 3D BASKI & DONANIM | **08.12** | 11.10 | 11.40 |
 | Öğle | ELEKTRONİK & IoT | **12.38** | 12.20 | 12.20 |
 | Akşam | PROJE & ATÖLYE | **20.42** | 20.10 | **21.00** |
 
@@ -48,7 +48,7 @@ Gün bazında kayma:
 | Slot | Ne | Kural |
 |---|---|---|
 | 1 | Marka | Her gönderide `#sermenkreatif` |
-| 2 | Kategori | `#3dbaski` · `#elektronik` · `#maker` |
+| 2 | Kategori | `#3dbaski` · `#lazer` · `#elektronik` · `#maker` |
 | 3 | Topluluk | 50 bin – 500 bin gönderilik niş etiket |
 | 4 | Konu | Gönderinin ana terimi: `#esp32`, `#petg`, `#arduino` |
 | 5 | Dil/bölge | `#makerturkiye` veya `#3dbaskiturkiye` |
@@ -143,9 +143,9 @@ Erişilebilirlik metni (alt text) her slayta yazılacak — hem görme engelli o
 
 # 7. KONU LİSTESİ — 30 GÜN × 3 SLOT
 
-## SABAH 08.12 — 3D BASKI
+## SABAH 08.12 — 3D BASKI & ÜRETİM DONANIMI
 
-Her altı günde bir ürün tanıtımı geliyor (3, 9, 15, 21, 27). Bu gönderiler mağazaya en yakın içerik; ürün etiketi ve marka etiketi mutlaka kullanılacak.
+Slot yalnız 3D baskıyı değil üretim donanımının tamamını kapsıyor: yazıcı, filament ve lazer. Beş günde bir ürün gönderisi geliyor (3, 8, 13, 18, 23, 28) — bunlar mağazaya en yakın içerik, ürün ve marka etiketi zorunlu.
 
 | # | Konu | Tür · Slayt |
 |---|---|---|
@@ -156,27 +156,27 @@ Her altı günde bir ürün tanıtımı geliyor (3, 9, 15, 21, 27). Bu gönderil
 | 5 | Duvar sayısı dolgudan neden daha önemli | Rehber · 4 |
 | 6 | Parça yönü mukavemeti nasıl değiştirir | Rehber · 4 |
 | 7 | Destek yapısı: ağaç mı normal mi | Rehber · 4 |
-| 8 | 0,4 dışına çıkmak: 0,2 ve 0,6 nozzle | Rehber · 4 |
-| 9 | **Ürün:** Sunlu PLA renk kartelası ve gerçek özellikleri | Ürün · 6 |
+| 8 | **Ürün:** Bambu Lab R1 — 55 W CO₂ lazer ne yapar | Ürün · 5 |
+| 9 | 0,4 dışına çıkmak: 0,2 ve 0,6 nozzle | Rehber · 4 |
 | 10 | Sertleştirilmiş nozzle ne zaman şart | Rehber · 4 |
 | 11 | Filament kurutma: hangisi kaç saat | Liste · 6 |
 | 12 | Elephant foot: ilk katman değil ilk beş katman | Rehber · 4 |
-| 13 | Stringing: retraction mı sıcaklık mı | Rehber · 4 |
-| 14 | Warping ve kapalı kabin meselesi | Rehber · 4 |
-| 15 | **Ürün:** Snapmaker U1 mi Creality K3 mü — biri rafta, biri ekimde | Ürün · 5 |
+| 13 | **Ürün:** Sunlu PLA renk kartelası ve gerçek özellikleri | Ürün · 6 |
+| 14 | Stringing: retraction mı sıcaklık mı | Rehber · 4 |
+| 15 | Warping ve kapalı kabin meselesi | Rehber · 4 |
 | 16 | Yüksek akışlı nozzle gerçekten hızlandırıyor mu | Rehber · 4 |
 | 17 | Input shaping ve pressure advance | Rehber · 4 |
-| 18 | Hızı artırınca ilk bozulan şey | Rehber · 4 |
-| 19 | Geçme parçalarda tolerans: kaç mm boşluk | Rehber · 4 |
-| 20 | Heat-set insert ile vidalı birleşim | Rehber · 4 |
-| 21 | **Ürün:** Filament sınıfları — PLA, PLA+, Silk, Matte | Ürün · 6 |
+| 18 | **Ürün:** Diyot mu CO₂ mü — Falcon2 Pro ve R1 karşılaştırması | Ürün · 5 |
+| 19 | Hızı artırınca ilk bozulan şey | Rehber · 4 |
+| 20 | Geçme parçalarda tolerans: kaç mm boşluk | Rehber · 4 |
+| 21 | Heat-set insert ile vidalı birleşim | Rehber · 4 |
 | 22 | Yüzey işlemi: zımpara, astar, boya | Liste · 5 |
-| 23 | AMS ve MMU: renk değişiminin israf maliyeti | Rehber · 4 |
-| 24 | STL mi 3MF mi | Rehber · 4 |
+| 23 | **Ürün:** Snapmaker U1 mi Creality K3 mü — biri rafta, biri ekimde | Ürün · 5 |
+| 24 | AMS ve MMU: renk değişiminin israf maliyeti | Rehber · 4 |
 | 25 | Slicer profilini sıfırdan kurmak | Rehber · 4 |
 | 26 | Yapışma yüzeyleri: PEI, garolit, cam | Liste · 5 |
-| 27 | **Ürün:** A2L mi P2S mi — bütçe aynıysa hangisi | Ürün · 5 |
-| 28 | Baskı sonrası ölçü sapması ve büzülme payı | Rehber · 4 |
+| 27 | Baskı sonrası ölçü sapması ve büzülme payı | Rehber · 4 |
+| 28 | **Ürün:** Filament sınıfları — PLA, PLA+, Silk, Matte | Ürün · 6 |
 | 29 | Reçine ne zaman FDM'den iyi | Rehber · 4 |
 | 30 | 3D baskı gıdayla temasta güvenli mi | Rehber · 4 |
 
@@ -268,7 +268,7 @@ Kendi projelerinden besleniyor. Bu slot hesabın kimliği: diğer ikisi bilgi ve
 
 Görsel: ürün fotoğrafı kullanma — üretici basın görselleri telifli. Bunun yerine `tablo` paneli (özellik karşılaştırması) veya `renk` öğesi (filament kartelası) kullan. İlhan kendi çektiği fotoğrafı verirse o kullanılır.
 
-Etiketler: `@bambulab`, `@sunlu3d`, `@snapmaker`, `@creality3dofficial` — hangi marka geçiyorsa. Ürün etiketi ve konum etiketi eklenir.
+Etiketler: `@bambulab`, `@sunlu3d`, `@snapmaker`, `@creality3dofficial`, `@crealityfalcon` — hangi marka geçiyorsa. Ürün etiketi ve konum etiketi eklenir.
 
 # 9. HAFTALIK İŞ DÜZENİ
 

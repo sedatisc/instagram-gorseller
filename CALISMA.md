@@ -4,7 +4,7 @@ Bu depo @sermenkreatif Instagram hesabının içerik üretim hattıdır. Bu dosy
 
 ## Görev
 
-Metricool kuyruğunda **her zaman 5 günlük gönderi** bulunacak şekilde eksikleri tamamla. Her gün 3 gönderi: sabah 3D baskı, öğle elektronik, akşam proje.
+Metricool kuyruğunda **her zaman 5 günlük gönderi** bulunacak şekilde eksikleri tamamla. Her gün 3 gönderi: sabah 3D baskı ve üretim donanımı (yazıcı, filament, lazer), öğle elektronik, akşam proje. Günlük gönderi sayısı 3'tür, artırılmaz.
 
 ## Sabitler
 
@@ -75,7 +75,7 @@ Slayt başlıklarında yalnız ilk kelime ve özel adlar büyük.
 - Fiyat yazma. Konumlandırma yaz ("giriş seviyesi", "kapalı kabinli orta sınıf"), fiyat için sermenkreatif.com'a yönlendir.
 - Ürünün durumunu ayır: **duyuruldu** (özellik yok), **fuarda gösterildi** (özellik açık, satış yok), **satışta**. Duyuru aşamasındakini karşılaştırmaya sokma; fuar aşamasındakini sok ama "şu an alınamıyor, tarih şu" diye yaz.
 - Üretici basın görseli kullanma, telifli. `tablo` paneli veya `renk` öğesi kullan.
-- Geçen markanın hesabını açıklamada etiketle: `@bambulab`, `@sunlu3d`, `@snapmaker`, `@creality3dofficial`.
+- Geçen markanın hesabını açıklamada etiketle: `@bambulab`, `@sunlu3d`, `@snapmaker`, `@creality3dofficial`, `@crealityfalcon`.
 
 ## Sınırlar
 
