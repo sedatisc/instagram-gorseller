@@ -73,7 +73,7 @@ Slayt başlıklarında yalnız ilk kelime ve özel adlar büyük.
 `PLAN.md`'de **Ürün:** ile başlayan konularda, yazmadan önce web'de ara ve doğrula. Model adları ve ürün gamları hızlı değişiyor.
 
 - Fiyat yazma. Konumlandırma yaz ("giriş seviyesi", "kapalı kabinli orta sınıf"), fiyat için sermenkreatif.com'a yönlendir.
-- Henüz çıkmamış ürünü çıkmış gibi anlatma, karşılaştırmaya sokma. Durum buysa açıkça yaz.
+- Ürünün durumunu ayır: **duyuruldu** (özellik yok), **fuarda gösterildi** (özellik açık, satış yok), **satışta**. Duyuru aşamasındakini karşılaştırmaya sokma; fuar aşamasındakini sok ama "şu an alınamıyor, tarih şu" diye yaz.
 - Üretici basın görseli kullanma, telifli. `tablo` paneli veya `renk` öğesi kullan.
 - Geçen markanın hesabını açıklamada etiketle: `@bambulab`, `@sunlu3d`, `@snapmaker`, `@creality3dofficial`.
 

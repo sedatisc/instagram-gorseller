@@ -163,7 +163,7 @@ Her altı günde bir ürün tanıtımı geliyor (3, 9, 15, 21, 27). Bu gönderil
 | 12 | Elephant foot: ilk katman değil ilk beş katman | Rehber · 4 |
 | 13 | Stringing: retraction mı sıcaklık mı | Rehber · 4 |
 | 14 | Warping ve kapalı kabin meselesi | Rehber · 4 |
-| 15 | **Ürün:** Takım değiştiren yazıcılarda 2026 durumu | Ürün · 5 |
+| 15 | **Ürün:** Snapmaker U1 mi Creality K3 mü — biri rafta, biri ekimde | Ürün · 5 |
 | 16 | Yüksek akışlı nozzle gerçekten hızlandırıyor mu | Rehber · 4 |
 | 17 | Input shaping ve pressure advance | Rehber · 4 |
 | 18 | Hızı artırınca ilk bozulan şey | Rehber · 4 |
