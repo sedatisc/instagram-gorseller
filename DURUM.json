@@ -5,19 +5,26 @@
       1,
       2,
       3,
-      4
+      4,
+      5,
+      6
     ],
     "elektronik": [
       1,
       2,
       3,
       4,
+      5,
+      6,
+      7,
       8
     ],
     "proje": [
       1,
       2,
       3,
+      4,
+      5,
       10
     ]
   },
@@ -87,6 +94,48 @@
       "slot": "proje",
       "konu": 10,
       "klasor": "2026-10-02-sk-3d-toplulugu"
+    },
+    {
+      "tarih": "2026-10-02",
+      "slot": "elektronik",
+      "konu": 5,
+      "klasor": "2026-10-02-mosfet-rdson"
+    },
+    {
+      "tarih": "2026-10-03",
+      "slot": "3dbaski",
+      "konu": 5,
+      "klasor": "2026-10-03-duvar-sayisi"
+    },
+    {
+      "tarih": "2026-10-03",
+      "slot": "elektronik",
+      "konu": 6,
+      "klasor": "2026-10-03-debounce"
+    },
+    {
+      "tarih": "2026-10-03",
+      "slot": "proje",
+      "konu": 4,
+      "klasor": "2026-10-03-bakim-takvimi"
+    },
+    {
+      "tarih": "2026-10-04",
+      "slot": "3dbaski",
+      "konu": 6,
+      "klasor": "2026-10-04-parca-yonu"
+    },
+    {
+      "tarih": "2026-10-04",
+      "slot": "elektronik",
+      "konu": 7,
+      "klasor": "2026-10-04-iot-kavramlari"
+    },
+    {
+      "tarih": "2026-10-04",
+      "slot": "proje",
+      "konu": 5,
+      "klasor": "2026-10-04-arama-kurtarma-roveri"
     }
   ],
   "yayinlanmis_disarida": [
