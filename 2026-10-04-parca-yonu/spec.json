@@ -1,0 +1,76 @@
+{
+  "kategori": "3dbaski",
+  "kapak": {
+    "satir1": "AYNI MODEL",
+    "satir2": "NEDEN KIRILDI?",
+    "spot": "Değişen tek şey parçanın tablaya nasıl yerleştirildiği.",
+    "rozetler": [
+      [
+        "Z ekseni",
+        "tema"
+      ],
+      [
+        "Katman arası",
+        "kirmizi"
+      ],
+      [
+        "Destek",
+        "turuncu"
+      ]
+    ],
+    "tablo": [
+      [
+        "KATMAN YÖNÜ",
+        "en zayıf eksen Z"
+      ],
+      [
+        "YATIK BASKI",
+        "yük katman boyunca"
+      ],
+      [
+        "DİKEY BASKI",
+        "yük katman arasında"
+      ],
+      [
+        "KANCA VE KOL",
+        "yükü katmana paralel ver"
+      ],
+      [
+        "DESTEK",
+        "yön değişince artıyor"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "En zayıf eksen Z",
+      "aciklama": "Katmanlar birbirine eriyerek tutunuyor ve bu bağ malzemenin kendi mukavemetine ulaşmıyor. Kırılma neredeyse her zaman katman arasından geliyor.",
+      "vurgu": [
+        100,
+        100,
+        1810,
+        260
+      ]
+    },
+    {
+      "baslik": "Yükü katman boyunca ver",
+      "aciklama": "Aynı kanca yatık basıldığında yük katmanın içinden geçiyor, dikey basıldığında katmanları ayırmaya çalışıyor. Parçayı yüke göre çevir.",
+      "vurgu": [
+        100,
+        250,
+        1810,
+        560
+      ]
+    },
+    {
+      "baslik": "Yön değişince destek geliyor",
+      "aciklama": "Mukavemet için çevirdiğin parça askıda kalan yüzey üretebiliyor. Kazandığın dayanımla ödediğin destek ve yüzey bedelini birlikte hesapla.",
+      "vurgu": [
+        100,
+        700,
+        1810,
+        860
+      ]
+    }
+  ]
+}

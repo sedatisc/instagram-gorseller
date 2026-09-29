@@ -1,0 +1,228 @@
+{
+  "kategori": "elektronik",
+  "kapak": {
+    "satir1": "BUTONA BİR KEZ",
+    "satir2": "BASTIN MI?",
+    "spot": "Mekanik kontak kapanırken titriyor. Kart bunu üç ayrı basış sayıyor.",
+    "rozetler": [
+      [
+        "RC süzgeci",
+        "tema"
+      ],
+      [
+        "Yazılım",
+        "yesil"
+      ],
+      [
+        "Kontak",
+        "turuncu"
+      ]
+    ],
+    "cizim": [
+      {
+        "t": "t",
+        "x": 500,
+        "y": 95,
+        "metin": "+3V3"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            500,
+            133
+          ],
+          [
+            500,
+            200
+          ]
+        ]
+      },
+      {
+        "t": "r",
+        "x": 462,
+        "y": 200,
+        "yon": "v",
+        "h": 190,
+        "ad": "R1",
+        "deger": "10 kΩ",
+        "etiket": "sol"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            500,
+            390
+          ],
+          [
+            500,
+            560
+          ]
+        ]
+      },
+      {
+        "t": "n",
+        "x": 500,
+        "y": 460
+      },
+      {
+        "t": "s",
+        "x": 500,
+        "y": 560,
+        "yon": "v",
+        "h": 110,
+        "ad": "S1",
+        "deger": "buton"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            500,
+            670
+          ],
+          [
+            500,
+            730
+          ]
+        ]
+      },
+      {
+        "t": "g",
+        "x": 500,
+        "y": 730,
+        "b": 140
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            500,
+            460
+          ],
+          [
+            680,
+            460
+          ]
+        ]
+      },
+      {
+        "t": "r",
+        "x": 680,
+        "y": 422,
+        "yon": "h",
+        "w": 200,
+        "ad": "R2",
+        "deger": "10 kΩ",
+        "etiket": "ust"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            880,
+            460
+          ],
+          [
+            1300,
+            460
+          ]
+        ]
+      },
+      {
+        "t": "n",
+        "x": 1020,
+        "y": 460
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            1020,
+            460
+          ],
+          [
+            1020,
+            520
+          ]
+        ]
+      },
+      {
+        "t": "c",
+        "x": 1020,
+        "y": 520,
+        "yon": "v",
+        "ad": "C1",
+        "deger": "100 nF"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            1020,
+            552
+          ],
+          [
+            1020,
+            640
+          ]
+        ]
+      },
+      {
+        "t": "g",
+        "x": 1020,
+        "y": 640,
+        "b": 130
+      },
+      {
+        "t": "k",
+        "x0": 1300,
+        "y0": 380,
+        "x1": 1580,
+        "y1": 540,
+        "metin": "MCU"
+      },
+      {
+        "t": "y",
+        "x": 1230,
+        "y": 418,
+        "metin": "GPIO",
+        "boy": 32,
+        "hiza": "mm"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Kontak kapanırken zıplıyor",
+      "aciklama": "Metal yay yerine oturana kadar birkaç milisaniye açılıp kapanıyor. Mikrodenetleyici bu kadar hızlı okuduğu için her zıplamayı ayrı basış sayıyor.",
+      "vurgu": [
+        420,
+        420,
+        800,
+        830
+      ]
+    },
+    {
+      "baslik": "Donanım: RC süzgeci",
+      "aciklama": "Direnç ve kondansatör gerilimin ani sıçramasını yuvarlıyor. 10 kΩ ile 100 nF yaklaşık 1 ms'lik yumuşama veriyor, titreme pine hiç ulaşmıyor.",
+      "vurgu": [
+        640,
+        380,
+        1180,
+        700
+      ]
+    },
+    {
+      "baslik": "Yazılım: bekle ve yeniden oku",
+      "aciklama": "Kenar yakalandıktan sonra 20 – 50 ms bekleyip pini tekrar oku. Bedava ama her butonda kod yazmayı ve gecikmeyi kabul etmeyi gerektiriyor.",
+      "vurgu": [
+        1150,
+        355,
+        1650,
+        585
+      ]
+    }
+  ]
+}

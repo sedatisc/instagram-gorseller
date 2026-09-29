@@ -1,0 +1,48 @@
+{
+  "kategori": "proje",
+  "kapak": {
+    "satir1": "GECE DEVRİYESİ",
+    "satir2": "ARAMA ROVERİ",
+    "spot": "Gündüz sorunsuz çalışan robot gece kör kalıyor. Mesele kamera değil, ısı farkı ve aydınlatma.",
+    "rozetler": [["Termal", "tema"], ["IR", "yesil"], ["Paletli", "turuncu"]],
+    "tablo": [
+      ["GÖREV", "karanlıkta alan tarama"],
+      ["GÖRÜŞ", "termal + IR aydınlatma"],
+      ["TAHRİK", "paletli, düşük devir yüksek tork"],
+      ["BESLEME", "motor ve lojik ayrı hat"],
+      ["BAĞLANTI", "uzun menzil telemetri"]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Karanlıkta kamera yetmiyor",
+      "aciklama": "Normal kamera ışık olmadan hiçbir şey vermiyor, beyaz ışık ise hem pili bitiriyor hem robotun yerini belli ediyor. Isı farkı ışığa ihtiyaç duymuyor.",
+      "vurgu": [100, 250, 1810, 410]
+    },
+    {
+      "baslik": "Paletli gövde engeli aşıyor",
+      "aciklama": "Enkaz ve moloz üstünde tekerlek boşta dönüyor. Palet temas alanını büyütüyor; devir yerine tork seçilince robot yüküyle tırmanabiliyor.",
+      "vurgu": [100, 400, 1810, 560]
+    },
+    {
+      "baslik": "Motor kalkışı kartı resetliyor",
+      "aciklama": "Paletler aynı anda kalktığında gerilim çöküyor ve denetleyici yeniden başlıyor. Motor hattı lojik hattından ayrılınca sorun tamamen bitiyor.",
+      "vurgu": [100, 550, 1810, 710]
+    },
+    {
+      "baslik": "Menzil bitince robot kayboluyor",
+      "aciklama": "Görüntü bağlantısı kesilse bile telemetri ayakta kalmalı. Konum ve pil durumu düşük bant genişliğiyle gittiği için robot geri çağrılabiliyor.",
+      "vurgu": [100, 700, 1810, 860]
+    }
+  ],
+  "kapanis": {
+    "satir1": "NEREDE",
+    "satir2": "İŞE YARIYOR?",
+    "kriterler": [
+      ["ENKAZ", "insan giremeyen boşluk"],
+      ["GECE ARAMA", "ısı farkıyla tarama"],
+      ["KEŞİF", "önden gidip görüntü yollama"]
+    ],
+    "not": "Sermen Kreatif atölye projesi. Geliştirme sürüyor."
+  }
+}

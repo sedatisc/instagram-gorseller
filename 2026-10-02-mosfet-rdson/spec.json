@@ -1,0 +1,202 @@
+{
+  "kategori": "elektronik",
+  "kapak": {
+    "satir1": "MOSFET NEDEN",
+    "satir2": "ISINIYOR?",
+    "spot": "Açık konumda bile bir direnci var. O direnç akımın karesiyle ısıya dönüşüyor.",
+    "rozetler": [
+      [
+        "RDS(on)",
+        "tema"
+      ],
+      [
+        "Isınma",
+        "kirmizi"
+      ],
+      [
+        "Gate gerilimi",
+        "turuncu"
+      ]
+    ],
+    "cizim": [
+      {
+        "t": "t",
+        "x": 900,
+        "y": 95,
+        "metin": "+12V"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            900,
+            133
+          ],
+          [
+            900,
+            200
+          ]
+        ]
+      },
+      {
+        "t": "r",
+        "x": 862,
+        "y": 200,
+        "yon": "v",
+        "h": 190,
+        "ad": "YÜK",
+        "deger": "5 A",
+        "etiket": "sag"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            900,
+            390
+          ],
+          [
+            900,
+            460
+          ]
+        ]
+      },
+      {
+        "t": "n",
+        "x": 900,
+        "y": 460
+      },
+      {
+        "t": "k",
+        "x0": 780,
+        "y0": 460,
+        "x1": 1020,
+        "y1": 610,
+        "metin": "MOSFET"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            900,
+            610
+          ],
+          [
+            900,
+            670
+          ]
+        ]
+      },
+      {
+        "t": "r",
+        "x": 862,
+        "y": 670,
+        "yon": "v",
+        "h": 190,
+        "ad": "RDS(on)",
+        "deger": "0,10 Ω",
+        "etiket": "sag"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            900,
+            860
+          ],
+          [
+            900,
+            880
+          ]
+        ]
+      },
+      {
+        "t": "g",
+        "x": 900,
+        "y": 880,
+        "b": 140
+      },
+      {
+        "t": "k",
+        "x0": 300,
+        "y0": 460,
+        "x1": 520,
+        "y1": 610,
+        "metin": "MCU"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            520,
+            535
+          ],
+          [
+            600,
+            535
+          ]
+        ]
+      },
+      {
+        "t": "r",
+        "x": 600,
+        "y": 497,
+        "yon": "h",
+        "w": 180,
+        "ad": "Rg",
+        "deger": "220 Ω",
+        "etiket": "ust"
+      },
+      {
+        "t": "y",
+        "x": 1420,
+        "y": 520,
+        "metin": "P = I² × RDS(on)",
+        "boy": 44,
+        "renk": "sari",
+        "hiza": "lm"
+      },
+      {
+        "t": "y",
+        "x": 1420,
+        "y": 600,
+        "metin": "5 A akımda 2,5 W ısı",
+        "boy": 40,
+        "renk": "kirmizi",
+        "hiza": "lm"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Açık MOSFET bir direnç",
+      "aciklama": "İletime geçtiğinde kontak gibi sıfır ohm olmuyor. Veri sayfasındaki RDS(on) değeri yükle seri duran gerçek bir direnç.",
+      "vurgu": [
+        740,
+        430,
+        1120,
+        900
+      ]
+    },
+    {
+      "baslik": "Isı akımın karesiyle artıyor",
+      "aciklama": "Akımı iki katına çıkarmak ısıyı dörde katlıyor. 0,10 Ω ve 5 A birlikte 2,5 W demek; bu değer soğutma ister.",
+      "vurgu": [
+        820,
+        460,
+        1830,
+        900
+      ]
+    },
+    {
+      "baslik": "Gate'i tam aç",
+      "aciklama": "RDS(on) veri sayfasında belirli bir gate gerilimi için verilir. 3,3 V ile sürülen çoğu MOSFET yarı açık kalıyor, direnç büyüyor.",
+      "vurgu": [
+        270,
+        430,
+        800,
+        640
+      ]
+    }
+  ]
+}

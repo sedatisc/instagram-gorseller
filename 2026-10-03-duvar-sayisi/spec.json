@@ -1,0 +1,76 @@
+{
+  "kategori": "3dbaski",
+  "kapak": {
+    "satir1": "DOLGUYU ARTIRMA",
+    "satir2": "DUVARI ARTIR",
+    "spot": "Eğilen parçada gerilim dış yüzeyde toplanıyor. Merkezdeki dolgu neredeyse hiç yük taşımıyor.",
+    "rozetler": [
+      [
+        "Duvar",
+        "tema"
+      ],
+      [
+        "Dolgu",
+        "yesil"
+      ],
+      [
+        "Ağırlık",
+        "turuncu"
+      ]
+    ],
+    "tablo": [
+      [
+        "DUVAR (WALL)",
+        "dış kabuğun kalınlığı"
+      ],
+      [
+        "2 DUVAR",
+        "varsayılan, görsel parça"
+      ],
+      [
+        "3 – 4 DUVAR",
+        "yük taşıyan parça"
+      ],
+      [
+        "EĞİLME YÜKÜ",
+        "gerilim dış yüzeyde"
+      ],
+      [
+        "AĞIRLIK",
+        "duvar dolgudan hafif"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Gerilim dış yüzeyde toplanıyor",
+      "aciklama": "Bir parça eğilmeye zorlandığında en büyük gerilim yüzeye en yakın malzemede oluşuyor. Tam ortadaki dolgu bu yükün çok azını görüyor.",
+      "vurgu": [
+        100,
+        550,
+        1810,
+        710
+      ]
+    },
+    {
+      "baslik": "İki duvardan dörde çıkmak",
+      "aciklama": "Dolguyu %20'den %40'a çıkarmak yerine duvarı ikiden dörde al. Aynı sürede ve daha az filamentle belirgin şekilde sağlam parça çıkıyor.",
+      "vurgu": [
+        100,
+        250,
+        1810,
+        560
+      ]
+    },
+    {
+      "baslik": "Duvar dolgudan hafif",
+      "aciklama": "Duvar yalnız kabukta malzeme ekliyor, dolgu ise parçanın tüm hacmine yayılıyor. Mukavemet artarken ağırlık ve süre daha az büyüyor.",
+      "vurgu": [
+        100,
+        700,
+        1810,
+        860
+      ]
+    }
+  ]
+}
