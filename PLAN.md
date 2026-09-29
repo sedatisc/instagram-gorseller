@@ -225,7 +225,7 @@ Kendi projelerinden besleniyor. Bu slot hesabın kimliği: diğer ikisi bilgi ve
 
 | # | Konu | Tür · Slayt |
 |---|---|---|
-| 1 | BİLGE: Raspberry Pi 5 sesli asistan | Proje · 6 |
+| 1 | ATLAS: bilgisayarı kullanan sesli asistan | Proje · 5 |
 | 2 | Atölye düzeni: tezgâh, depolama, ışık | Liste · 5 |
 | 3 | SIPA/KATIR: 4x4 yük taşıyıcı UGV | Proje · 6 |
 | 4 | 3D yazıcı bakım takvimi | Liste · 5 |
@@ -249,7 +249,7 @@ Kendi projelerinden besleniyor. Bu slot hesabın kimliği: diğer ikisi bilgi ve
 | 22 | Başarısız baskı arşivi: 6 ders | Liste · 8 |
 | 23 | Pi 5 ekran standı | Proje · 4 |
 | 24 | Oyuncak yol seti: modüler parça tasarımı | Proje · 5 |
-| 25 | ATLAS: bilgisayarı kullanan asistan | Proje · 5 |
+| 25 | 3D tarayıcı ile var olan parçayı kopyalamak | Rehber · 4 |
 | 26 | Cam sehpa küre ayak üretimi | Proje · 4 |
 | 27 | Anatomi maketleri: 15 parçalık iş | Proje · 5 |
 | 28 | AR-GE biriminde 3D baskı nasıl işliyor | Proje · 5 |
@@ -258,7 +258,14 @@ Kendi projelerinden besleniyor. Bu slot hesabın kimliği: diğer ikisi bilgi ve
 
 ---
 
-# 8. TOPLULUK GÖNDERİLERİ
+# 8. KAPSAM DIŞI
+
+Bu hesap **Sermen Kreatif**'in hesabı. AR-GE biriminin kurumsal projeleri buraya girmez.
+
+- **BİLGE** kurumun yüzü, bu hesapta anlatılmaz. Sesli asistan konusu işlenecekse **ATLAS** üzerinden işlenir.
+- Kurumsal bir işten söz edilecekse ürüne ya da yönteme odaklanılır, kurumun adı öne çıkarılmaz.
+
+# 9. TOPLULUK GÖNDERİLERİ
 
 WhatsApp grubu hesabın en değerli çıktısı: takipçi akışta kaybolur, gruba giren kalır.
 
@@ -268,7 +275,7 @@ WhatsApp grubu hesabın en değerli çıktısı: takipçi akışta kaybolur, gru
 
 **Vaat abartılmaz.** Grupta gerçekten ne varsa o yazılır. "Binlerce model" gibi doğrulanamayan sayı kullanılmaz.
 
-# 9. ÜRÜN TANITIMI KURALLARI
+# 10. ÜRÜN TANITIMI KURALLARI
 
 Ürün gönderileri hesabın mağazaya bakan yüzü. Üçü birden zorunlu:
 
@@ -282,7 +289,7 @@ Görsel: ürün fotoğrafı kullanma — üretici basın görselleri telifli. Bu
 
 Etiketler: `@bambulab`, `@sunlu3d`, `@snapmaker`, `@creality3dofficial`, `@crealityfalcon` — hangi marka geçiyorsa. Ürün etiketi ve konum etiketi eklenir.
 
-# 10. HAFTALIK İŞ DÜZENİ
+# 11. HAFTALIK İŞ DÜZENİ
 
 Günde 3 gönderi = haftada 21 gönderi. Her gün tek tek üretmek sürdürülemez.
 

@@ -110,6 +110,13 @@ Slayt başlıklarında yalnız ilk kelime ve özel adlar büyük.
 - Üretici basın görseli kullanma, telifli. `tablo` paneli veya `renk` öğesi kullan.
 - Geçen markanın hesabını açıklamada etiketle: `@bambulab`, `@sunlu3d`, `@snapmaker`, `@creality3dofficial`, `@crealityfalcon`.
 
+## Kapsam dışı
+
+Bu hesap Sermen Kreatif'in hesabı, AR-GE biriminin değil.
+
+- **BİLGE** kurumun projesi; bu hesapta anlatılmaz. Sesli asistan konusu **ATLAS** üzerinden işlenir.
+- `DURUM.json` içindeki `yayinlanmis_disarida` listesi, plan dışında elle yayınlanmış konuları tutar. Oradaki konular tekrar üretilmez.
+
 ## Topluluk gönderileri
 
 `PLAN.md`'de **Topluluk:** ile başlayan konular SK 3D Topluluğu WhatsApp grubuna çağrı.

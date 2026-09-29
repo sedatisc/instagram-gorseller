@@ -10,6 +10,8 @@
     "elektronik": [
       1,
       2,
+      3,
+      4,
       8
     ],
     "proje": [
@@ -22,21 +24,21 @@
   "gecmis": [
     {
       "tarih": "2026-09-29",
-      "slot": "elektronik",
-      "konu": 8,
-      "klasor": "2026-09-29-voltaj-bolucu"
-    },
-    {
-      "tarih": "2026-09-29",
       "slot": "3dbaski",
       "konu": 1,
       "klasor": "2026-09-29-filament-secimi"
     },
     {
       "tarih": "2026-09-29",
+      "slot": "elektronik",
+      "konu": 3,
+      "klasor": "2026-09-29-pullup-direnci"
+    },
+    {
+      "tarih": "2026-09-29",
       "slot": "proje",
       "konu": 1,
-      "klasor": "2026-09-29-bilge-sesli-asistan"
+      "klasor": "2026-09-29-atlas"
     },
     {
       "tarih": "2026-09-30",
@@ -47,8 +49,8 @@
     {
       "tarih": "2026-09-30",
       "slot": "elektronik",
-      "konu": 1,
-      "klasor": "2026-09-30-iot-kartlari"
+      "konu": 4,
+      "klasor": "2026-09-30-i2c-calismiyor"
     },
     {
       "tarih": "2026-09-30",
@@ -85,6 +87,18 @@
       "slot": "proje",
       "konu": 10,
       "klasor": "2026-10-02-sk-3d-toplulugu"
+    }
+  ],
+  "yayinlanmis_disarida": [
+    {
+      "konu": "2026'nın en iyi 8 IoT geliştirme kartı",
+      "slot": "elektronik",
+      "no": 1
+    },
+    {
+      "konu": "Voltaj bölücü ile sensör okumak neden yanıltır",
+      "slot": "elektronik",
+      "no": 8
     }
   ]
 }
