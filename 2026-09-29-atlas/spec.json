@@ -1,0 +1,43 @@
+{
+  "kategori": "proje",
+  "kapak": {
+    "satir1": "BİLGİSAYARI",
+    "satir2": "KULLANAN ASİSTAN",
+    "spot": "ATLAS soruya cevap vermiyor, Windows'ta işi kendisi yapıyor.",
+    "rozetler": [["Masaüstü", "tema"], ["Sesli", "yesil"], ["Çoklu ajan", "turuncu"]],
+    "tablo": [
+      ["ÇALIŞTIĞI YER", "kontrol ettiği PC'nin kendisi"],
+      ["SES", "konuşma tanıma + sentez"],
+      ["ARAYÜZ", "çerçevesiz tam ekran, açık tema"],
+      ["GÜNCELLEME", "uygulama içinden, kendi kendine"],
+      ["YAPI", "iş bölen çoklu ajan"]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Sohbet kutusu değil, masaüstü",
+      "aciklama": "Cevabı yazıp bırakmıyor. Klasörü açıyor, dosyayı buluyor, programı çalıştırıyor. İş bilgisayarın üstünde bitiyor.",
+      "vurgu": [100, 100, 1810, 280]
+    },
+    {
+      "baslik": "Sunucu uzakta değil, PC'nin içinde",
+      "aciklama": "Kurulum tek klasörde duruyor ve kontrol ettiği makinede çalışıyor. Araya ayrı bir sunucu girmiyor.",
+      "vurgu": [100, 100, 1810, 280]
+    },
+    {
+      "baslik": "Kendi kendini güncelliyor",
+      "aciklama": "Yeni sürüm çıkınca uygulama içindeki düğmeye basılıyor, gerisini kendisi hallediyor. Kurulum dosyası indirilmiyor.",
+      "vurgu": [100, 560, 1810, 730]
+    }
+  ],
+  "kapanis": {
+    "satir1": "NEREDE",
+    "satir2": "İŞE YARIYOR?",
+    "kriterler": [
+      ["TEKRAR EDEN İŞ", "klasör, dosya, rapor"],
+      ["ELLER DOLUYKEN", "sesle komut"],
+      ["ÇOK ADIMLI İŞ", "ajanlar bölüşüyor"]
+    ],
+    "not": "Sermen Kreatif ürünü. Geliştirme sürüyor."
+  }
+}

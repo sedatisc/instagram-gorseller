@@ -1,0 +1,73 @@
+{
+  "kategori": "elektronik",
+  "kapak": {
+    "satir1": "I2C ÇALIŞMIYOR",
+    "satir2": "5 SEBEP",
+    "spot": "Tarayıcı hiçbir adres bulamıyorsa sorun neredeyse her zaman bu beşinden biri.",
+    "rozetler": [["Pull-up", "tema"], ["Adres", "yesil"], ["Hat uzunluğu", "turuncu"]],
+    "cizim": [
+      {"t": "t", "x": 420, "y": 120, "metin": "+3V3"},
+      {"t": "w", "p": [[420, 158], [420, 200], [1700, 200]]},
+      {"t": "w", "p": [[620, 200], [620, 240]]},
+      {"t": "r", "x": 582, "y": 240, "yon": "v", "h": 190, "ad": "R1", "deger": "4,7 kΩ", "etiket": "sol"},
+      {"t": "w", "p": [[620, 430], [620, 480]]},
+      {"t": "n", "x": 620, "y": 480},
+      {"t": "w", "p": [[960, 200], [960, 240]]},
+      {"t": "r", "x": 922, "y": 240, "yon": "v", "h": 190, "ad": "R2", "deger": "4,7 kΩ", "etiket": "sag"},
+      {"t": "w", "p": [[960, 430], [960, 640]]},
+      {"t": "n", "x": 960, "y": 640},
+      {"t": "k", "x0": 120, "y0": 420, "x1": 330, "y1": 700, "metin": "MCU"},
+      {"t": "w", "p": [[330, 480], [1720, 480]]},
+      {"t": "w", "p": [[330, 640], [1720, 640]]},
+      {"t": "y", "x": 350, "y": 440, "metin": "SCL", "boy": 36, "hiza": "lm"},
+      {"t": "y", "x": 350, "y": 600, "metin": "SDA", "boy": 36, "hiza": "lm"},
+      {"t": "n", "x": 1260, "y": 480},
+      {"t": "w", "p": [[1260, 480], [1260, 740]]},
+      {"t": "n", "x": 1320, "y": 640},
+      {"t": "w", "p": [[1320, 640], [1320, 740]]},
+      {"t": "k", "x0": 1180, "y0": 740, "x1": 1420, "y1": 880, "metin": "SENSÖR"},
+      {"t": "n", "x": 1560, "y": 480},
+      {"t": "w", "p": [[1560, 480], [1560, 740]]},
+      {"t": "n", "x": 1620, "y": 640},
+      {"t": "w", "p": [[1620, 640], [1620, 740]]},
+      {"t": "k", "x0": 1480, "y0": 740, "x1": 1720, "y1": 880, "metin": "EKRAN"}
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Pull-up direnci yok",
+      "aciklama": "I2C hattı kendi kendine yukarı çekilmiyor. İki hatta da 4,7 kΩ gerekiyor; modülün üstünde varsa ikinciyi ekleme.",
+      "vurgu": [540, 170, 1020, 520]
+    },
+    {
+      "baslik": "Adres yanlış ya da çakışıyor",
+      "aciklama": "Aynı hatta iki cihaz aynı adresteyse ikisi de kaybolur. Tarayıcı kodunu çalıştır, gerçek adresi gör.",
+      "vurgu": [1150, 700, 1760, 910]
+    },
+    {
+      "baslik": "SDA ve SCL ters bağlı",
+      "aciklama": "En sık yapılan hata. Modülün üstündeki yazı ile kartın pin adını tek tek karşılaştır.",
+      "vurgu": [300, 420, 1000, 680]
+    },
+    {
+      "baslik": "Hat fazla uzun",
+      "aciklama": "Uzun kablo hattın kapasitesini artırıyor, sinyalin kenarları yuvarlanıyor. Kısalt ya da direnci düşür.",
+      "vurgu": [1000, 430, 1760, 690]
+    },
+    {
+      "baslik": "Gerilim seviyeleri uyuşmuyor",
+      "aciklama": "5 V modülü 3,3 V karta doğrudan bağlanmıyor. Araya seviye dönüştürücü giriyor.",
+      "vurgu": [100, 100, 700, 720]
+    }
+  ],
+  "kapanis": {
+    "satir1": "SIRAYLA",
+    "satir2": "KONTROL ET",
+    "kriterler": [
+      ["ÖNCE", "tarayıcı kodunu çalıştır"],
+      ["ADRES YOKSA", "pull-up ve kablolama"],
+      ["ADRES VARSA", "kütüphane ve seviye"]
+    ],
+    "not": "Tarayıcı kodu her kartta hazır örnek olarak geliyor."
+  }
+}

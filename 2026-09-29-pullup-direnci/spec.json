@@ -1,0 +1,55 @@
+{
+  "kategori": "elektronik",
+  "kapak": {
+    "satir1": "PULL-UP DİRENCİ",
+    "satir2": "DAHİLİ Mİ HARİCİ Mİ",
+    "spot": "Buton bazen çalışıyor bazen çalışmıyorsa suçlu genelde dahili pull-up.",
+    "rozetler": [["Dahili zayıf", "tema"], ["Harici güçlü", "yesil"], ["Gürültü", "turuncu"]],
+    "cizim": [
+      {"t": "d", "x": 430, "y": 70, "metin": "DAHİLİ", "renk": "mavi"},
+      {"t": "t", "x": 430, "y": 175, "metin": "+3V3"},
+      {"t": "w", "p": [[430, 213], [430, 290]]},
+      {"t": "r", "x": 392, "y": 290, "yon": "v", "ad": "Rint", "deger": "30-50 kΩ", "etiket": "sol"},
+      {"t": "w", "p": [[430, 530], [430, 620]]},
+      {"t": "n", "x": 430, "y": 620},
+      {"t": "w", "p": [[430, 620], [430, 700]]},
+      {"t": "s", "x": 430, "y": 700, "yon": "v", "h": 90, "ad": "SW", "deger": ""},
+      {"t": "w", "p": [[430, 790], [430, 840]]},
+      {"t": "g", "x": 430, "y": 840},
+      {"t": "w", "p": [[430, 620], [650, 620]]},
+      {"t": "k", "x0": 650, "y0": 560, "x1": 880, "y1": 680, "metin": "GPIO"},
+
+      {"t": "cizgi", "x0": 960, "y0": 60, "x1": 960, "y1": 900},
+
+      {"t": "d", "x": 1400, "y": 70, "metin": "HARİCİ", "renk": "yesil"},
+      {"t": "t", "x": 1400, "y": 175, "metin": "+3V3"},
+      {"t": "w", "p": [[1400, 213], [1400, 290]]},
+      {"t": "r", "x": 1362, "y": 290, "yon": "v", "ad": "Rext", "deger": "4,7 kΩ", "etiket": "sol"},
+      {"t": "w", "p": [[1400, 530], [1400, 620]]},
+      {"t": "n", "x": 1400, "y": 620},
+      {"t": "w", "p": [[1400, 620], [1400, 700]]},
+      {"t": "s", "x": 1400, "y": 700, "yon": "v", "h": 90, "ad": "SW", "deger": ""},
+      {"t": "w", "p": [[1400, 790], [1400, 840]]},
+      {"t": "g", "x": 1400, "y": 840},
+      {"t": "w", "p": [[1400, 620], [1620, 620]]},
+      {"t": "k", "x0": 1620, "y0": 560, "x1": 1850, "y1": 680, "metin": "GPIO"}
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Dahili pull-up ne kadar zayıf",
+      "aciklama": "Mikrodenetleyicinin içindeki direnç 30-50 kΩ arasında ve modele göre değişiyor. Datasheet bile aralık veriyor, tek değer vermiyor.",
+      "vurgu": [330, 150, 700, 700]
+    },
+    {
+      "baslik": "Uzun kabloda gürültü biniyor",
+      "aciklama": "Yüksek dirençli hat antene dönüşüyor. Butona basılmadığı hâlde giriş düşük okunuyor, program basılmış sanıyor.",
+      "vurgu": [330, 550, 950, 950]
+    },
+    {
+      "baslik": "Harici 4,7 kΩ meseleyi kapatıyor",
+      "aciklama": "Akım artıyor ama hat sağlamlaşıyor. Kablo uzunsa, hat gürültülüyse ya da I2C kuruyorsan harici direnç şart.",
+      "vurgu": [1250, 150, 1900, 750]
+    }
+  ]
+}

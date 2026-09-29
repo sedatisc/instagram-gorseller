@@ -250,6 +250,27 @@ def ciz(d, ogeler):
             d.text((o["x"], o["y"]), P(o["metin"]),
                    font=pop(o.get("boy", 38), "Medium"), fill=col,
                    anchor=o.get("hiza", "mm"))
+        elif t == "s":
+            yon = o.get("yon", "v")
+            if yon == "v":
+                h = o.get("h", 90)
+                d.ellipse([o["x"] - 9, o["y"] - 9, o["x"] + 9, o["y"] + 9],
+                          fill=WIRE)
+                d.ellipse([o["x"] - 9, o["y"] + h - 9, o["x"] + 9,
+                           o["y"] + h + 9], fill=WIRE)
+                d.line([(o["x"], o["y"]), (o["x"] + 60, o["y"] + h - 12)],
+                       fill=WIRE, width=8)
+                lx, ly, an = o["x"] + 96, o["y"] + h / 2 - 26, "lm"
+            else:
+                w = o.get("w", 90)
+                d.ellipse([o["x"] - 9, o["y"] - 9, o["x"] + 9, o["y"] + 9],
+                          fill=WIRE)
+                d.ellipse([o["x"] + w - 9, o["y"] - 9, o["x"] + w + 9,
+                           o["y"] + 9], fill=WIRE)
+                d.line([(o["x"], o["y"]), (o["x"] + w - 12, o["y"] - 60)],
+                       fill=WIRE, width=8)
+                lx, ly, an = o["x"] + w / 2, o["y"] + 70, "mm"
+            _label(d, lx, ly, o.get("ad", ""), o.get("deger", ""), an)
         elif t == "renk":
             w = o.get("w", 190)
             h = o.get("h", 190)
