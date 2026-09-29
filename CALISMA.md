@@ -110,6 +110,14 @@ Slayt başlıklarında yalnız ilk kelime ve özel adlar büyük.
 - Üretici basın görseli kullanma, telifli. `tablo` paneli veya `renk` öğesi kullan.
 - Geçen markanın hesabını açıklamada etiketle: `@bambulab`, `@sunlu3d`, `@snapmaker`, `@creality3dofficial`, `@crealityfalcon`.
 
+## Topluluk gönderileri
+
+`PLAN.md`'de **Topluluk:** ile başlayan konular SK 3D Topluluğu WhatsApp grubuna çağrı.
+
+- Link açıklama metnine yazılmaz, Instagram'da tıklanmıyor. "Profildeki linkten katıl" denir.
+- Grupta gerçekten olan şeyler yazılır: soru-cevap, arıza çözümü, STL paylaşımı, yazıcı ve filament tedariki, deneyim aktarımı. Doğrulanamayan sayı ("binlerce model") kullanılmaz.
+- Aynı gönderi tekrar yayınlanmaz; her seferinde çağrının farklı açısı öne çıkarılır.
+
 ## Sınırlar
 
 - Konu listesi bittiğinde yeni gönderi üretme. Çalışmayı bitir ve listenin tükendiğini bildir.
