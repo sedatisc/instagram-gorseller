@@ -221,6 +221,8 @@ Eleme ve güncelleme yapılmış liste. Tarihler yeni takvime göre kaydırıld�
 
 Kendi projelerinden besleniyor. Bu slot hesabın kimliği: diğer ikisi bilgi verir, bu slot "bunu gerçekten yapan adam" olduğunu gösterir.
 
+10, 20 ve 30. günler topluluk gönderisi — WhatsApp grubuna çağrı. Her seferinde aynı gönderi değil, aynı çağrının farklı açısı (soru sorma, arıza çözme, model paylaşımı).
+
 | # | Konu | Tür · Slayt |
 |---|---|---|
 | 1 | BİLGE: Raspberry Pi 5 sesli asistan | Proje · 6 |
@@ -232,31 +234,41 @@ Kendi projelerinden besleniyor. Bu slot hesabın kimliği: diğer ikisi bilgi ve
 | 7 | Rover V2: Arduino Mega ve NRF24 | Proje · 5 |
 | 8 | Model nereden bulunur: Printables, MakerWorld | Liste · 5 |
 | 9 | Vida sayım sistemi DİRHEM | Proje · 5 |
-| 10 | Ürün fotoğrafı: tek ışıkla stüdyo | Rehber · 4 |
-| 11 | NFC ile demirbaş takibi | Proje · 5 |
-| 12 | Fusion mı Onshape mi | Rehber · 4 |
-| 13 | Tavan arası kamera robotu | Proje · 5 |
-| 14 | Atölyede olması gereken 10 alet | Liste · 12 |
-| 15 | RC tank: büyük baskı projesi | Proje · 6 |
-| 16 | Prototipten ürüne: ölçü doğrulama | Rehber · 4 |
-| 17 | FPV drone: Cinelog20 kurulumu | Proje · 5 |
-| 18 | Müşteriye fiyat vermek | Rehber · 4 |
-| 19 | Cephe yıkama dronu | Proje · 6 |
-| 20 | Başarısız baskı arşivi: 6 ders | Liste · 8 |
-| 21 | Pi 5 ekran standı | Proje · 4 |
-| 22 | Yarışmaya proje hazırlamak | Rehber · 4 |
-| 23 | Su altı ROV araştırması | Proje · 5 |
+| 10 | **Topluluk:** SK 3D Topluluğu — takıldığın yerde soracak biri var | Topluluk · 5 |
+| 11 | Ürün fotoğrafı: tek ışıkla stüdyo | Rehber · 4 |
+| 12 | NFC ile demirbaş takibi | Proje · 5 |
+| 13 | Fusion mı Onshape mi | Rehber · 4 |
+| 14 | Tavan arası kamera robotu | Proje · 5 |
+| 15 | Atölyede olması gereken 10 alet | Liste · 12 |
+| 16 | RC tank: büyük baskı projesi | Proje · 6 |
+| 17 | Prototipten ürüne: ölçü doğrulama | Rehber · 4 |
+| 18 | FPV drone: Cinelog20 kurulumu | Proje · 5 |
+| 19 | Müşteriye fiyat vermek | Rehber · 4 |
+| 20 | **Topluluk:** SK 3D Topluluğu — takıldığın yerde soracak biri var | Topluluk · 5 |
+| 21 | Cephe yıkama dronu | Proje · 6 |
+| 22 | Başarısız baskı arşivi: 6 ders | Liste · 8 |
+| 23 | Pi 5 ekran standı | Proje · 4 |
 | 24 | Oyuncak yol seti: modüler parça tasarımı | Proje · 5 |
 | 25 | ATLAS: bilgisayarı kullanan asistan | Proje · 5 |
 | 26 | Cam sehpa küre ayak üretimi | Proje · 4 |
 | 27 | Anatomi maketleri: 15 parçalık iş | Proje · 5 |
 | 28 | AR-GE biriminde 3D baskı nasıl işliyor | Proje · 5 |
 | 29 | Yeşilay astronot maskotu | Proje · 4 |
-| 30 | SK 3D Topluluğu: neden ve nasıl | Proje · 4 |
+| 30 | **Topluluk:** SK 3D Topluluğu — takıldığın yerde soracak biri var | Topluluk · 5 |
 
 ---
 
-# 8. ÜRÜN TANITIMI KURALLARI
+# 8. TOPLULUK GÖNDERİLERİ
+
+WhatsApp grubu hesabın en değerli çıktısı: takipçi akışta kaybolur, gruba giren kalır.
+
+**Link bio'da.** Instagram açıklama metninde link tıklanmıyor. Grup bağlantısı profildeki bio alanında duracak, gönderiler oraya yönlendirecek ("profildeki linkten katıl"). Gönderi metnine ham WhatsApp adresi yazma, tıklanmadığı için sadece kalabalık yapar.
+
+**Hikayeye link çıkartması ekle.** Hikayede link çalışıyor. Topluluk hikayesi yayınlandıktan sonra Instagram'dan link çıkartması eklenip öne çıkanlara kaydedilirse kalıcı bir giriş kapısı oluyor. Bu adım elle yapılıyor, otomatik değil.
+
+**Vaat abartılmaz.** Grupta gerçekten ne varsa o yazılır. "Binlerce model" gibi doğrulanamayan sayı kullanılmaz.
+
+# 9. ÜRÜN TANITIMI KURALLARI
 
 Ürün gönderileri hesabın mağazaya bakan yüzü. Üçü birden zorunlu:
 
@@ -270,7 +282,7 @@ Görsel: ürün fotoğrafı kullanma — üretici basın görselleri telifli. Bu
 
 Etiketler: `@bambulab`, `@sunlu3d`, `@snapmaker`, `@creality3dofficial`, `@crealityfalcon` — hangi marka geçiyorsa. Ürün etiketi ve konum etiketi eklenir.
 
-# 9. HAFTALIK İŞ DÜZENİ
+# 10. HAFTALIK İŞ DÜZENİ
 
 Günde 3 gönderi = haftada 21 gönderi. Her gün tek tek üretmek sürdürülemez.
 

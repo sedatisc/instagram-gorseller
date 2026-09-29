@@ -1,0 +1,95 @@
+{
+  "kategori": "proje",
+  "kapak": {
+    "satir1": "TAKILDIĞIN YERDE",
+    "satir2": "SORACAK BİRİ VAR",
+    "spot": "SK 3D Topluluğu — ücretsiz WhatsApp grubu. Profildeki linkten katılabilirsin.",
+    "rozetler": [
+      [
+        "Ücretsiz katılım",
+        "tema"
+      ],
+      [
+        "Herkese açık",
+        "yesil"
+      ],
+      [
+        "Tedarik desteği",
+        "turuncu"
+      ]
+    ],
+    "tablo": [
+      [
+        "SORU - CEVAP",
+        "yazıcı, filament, ayar"
+      ],
+      [
+        "ARIZA",
+        "fotoğrafı at, birlikte bakalım"
+      ],
+      [
+        "STL",
+        "model paylaşımı"
+      ],
+      [
+        "TEDARİK",
+        "yazıcı ve filament temini"
+      ],
+      [
+        "DENEYİM",
+        "ne işe yaradı, ne yaramadı"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Aynı hatayı herkes ayrı ayrı yapıyor",
+      "aciklama": "Stringing, warping, yapışmayan ilk katman. Hepsinin cevabı biliniyor ama herkes tek başına arıyor.",
+      "vurgu": [
+        100,
+        100,
+        1810,
+        260
+      ]
+    },
+    {
+      "baslik": "Arızaya fotoğrafla bakılıyor",
+      "aciklama": "Bozuk baskının fotoğrafını at, sorunu görenler söylesin. Tarif etmekten hızlı.",
+      "vurgu": [
+        100,
+        250,
+        1810,
+        410
+      ]
+    },
+    {
+      "baslik": "Model, deneyim ve tedarik bir arada",
+      "aciklama": "Kendi çizdiğin parçayı paylaş, başkasının denediği ayarı öğren. Yazıcı ya da filament lazımsa aynı yerden hallolur.",
+      "vurgu": [
+        100,
+        380,
+        1810,
+        880
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "NASIL",
+    "satir2": "KATILIRSIN?",
+    "kriterler": [
+      [
+        "1",
+        "Profile git"
+      ],
+      [
+        "2",
+        "Bio'daki linke dokun"
+      ],
+      [
+        "3",
+        "WhatsApp açılır, katıl"
+      ]
+    ],
+    "not": "Ücretsiz. İstediğin an çıkabilirsin."
+  }
+}

@@ -416,7 +416,9 @@ def adim(spec, govde_fn, no, toplam, sayac, yol):
         d.text((GUT, ty), ln, font=fs, fill=(196, 208, 226), anchor="la")
         ty += 45
 
-    place(img, panel(956, 556, govde_fn, spec.get("vurgu")), GUT, 600)
+    py = max(600, int(ty) + 34)
+    ph = min(556, 1244 - py)
+    place(img, panel(956, ph, govde_fn, spec.get("vurgu")), GUT, py)
     img.convert("RGB").save(yol)
 
 
