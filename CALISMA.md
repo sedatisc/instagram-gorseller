@@ -6,6 +6,8 @@ Bu depo @sermenkreatif Instagram hesabının içerik üretim hattıdır. Bu dosy
 
 Metricool kuyruğunda **her zaman 5 günlük gönderi** bulunacak şekilde eksikleri tamamla. Her gün 3 gönderi: sabah 3D baskı ve üretim donanımı (yazıcı, filament, lazer), öğle elektronik, akşam proje. Günlük gönderi sayısı 3'tür, artırılmaz.
 
+Her gönderinin **bir de hikayesi** var: gönderiden 40 dakika sonra yayınlanan, ona yönlendiren tek kare.
+
 ## Sabitler
 
 - Metricool blogId: `7137084`
@@ -34,7 +36,9 @@ Slaytlar `1.png`, `2.png` … diye çıkar. Slayt sayısı `PLAN.md`'deki tür s
 
 **5. Depoya yükle.** Klasörü commit edip push et. Sonra her adresi `curl -sI` ile doğrula, hepsi 200 dönmeli.
 
-**6. Kuyruğa ekle.** `createScheduledPost` ile:
+**6. Kuyruğa ekle.** Her konu için **iki** kayıt açılıyor: gönderi, sonra hikayesi.
+
+Gönderi — `createScheduledPost` ile:
 - `media`: raw adresler, slayt sırasıyla
 - `mediaAltText`: her slayt için ayrı alt metin, aynı sırada
 - `providers`: `[{"network": "instagram"}]`
@@ -42,6 +46,13 @@ Slaytlar `1.png`, `2.png` … diye çıkar. Slayt sayısı `PLAN.md`'deki tür s
 - `autoPublish`: `true`
 - `publicationDate`: `{"dateTime": "...", "timezone": "Europe/Istanbul"}`
 - `firstCommentText`: konuyu bir adım ileri taşıyan tek cümle
+
+Hikaye — aynı araçla, gönderiden **40 dakika sonrasına**:
+- `media`: yalnız `hikaye.png` adresi
+- `mediaAltText`: tek satır
+- `instagramData`: `{"type": "STORY"}`
+- `text` **gönderme** — hikayede açıklama alanı yok, tek ağ hikayeyse metin hata veriyor
+- `firstCommentText` de gönderme
 
 **7. Durumu güncelle.** `DURUM.json` içindeki `kullanilan` listesine konu numarasını ekle, commit ve push et. Bu adım atlanırsa ertesi gün aynı konu tekrar üretilir.
 
@@ -64,11 +75,12 @@ Sabit olanlar:
 - Kategori rengi: elektronik camgöbeği, 3D baskı turuncu, proje mor
 - Kapakta iki satır Anton başlık — birinci beyaz, ikinci kategori renginde ve ışık halesi
 - Panel: neon çerçeveli koyu kart, içinde ızgara, dışında parıltı
+- Hikaye 1080 × 1920; üstteki ve alttaki 250 px'e içerik girmez, Instagram arayüzü kapatıyor
 - Vurgu sarı hale olarak bileşeni sarar, vurgulanmayan her şey söner
 
 Bunların hiçbiri gönderi bazında değiştirilmez. Değişen tek şey içeriktir.
 
-**Ürettikten sonra kontrol et.** Her gönderinin 1. ve son slaydını `Read` ile aç ve bak: yazı taşmış mı, öğeler üst üste binmiş mi, etiket kırpılmış mı, panel boş mu duruyor. Sorun varsa spec'i düzelt ve yeniden üret. Kontrol etmeden kuyruğa ekleme.
+**Ürettikten sonra kontrol et.** Her gönderinin 1. slaydını, son slaydını ve `hikaye.png` dosyasını `Read` ile aç ve bak: yazı taşmış mı, öğeler üst üste binmiş mi, etiket kırpılmış mı, panel boş mu duruyor. Sorun varsa spec'i düzelt ve yeniden üret. Kontrol etmeden kuyruğa ekleme.
 
 ## Metin kuralları
 

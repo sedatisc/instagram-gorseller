@@ -467,6 +467,87 @@ def kapanis(spec, sayac, yol):
     img.convert("RGB").save(yol)
 
 
+def hikaye(spec, yol):
+    """1080 x 1920 hikaye — gönderiye yönlendiren tek kare."""
+    SW, SH = 1080, 1920
+    img = Image.new("RGBA", (SW, SH), BG + (255,))
+
+    def bands(d):
+        d.line([(-300, 900), (860, -360)], fill=a(ACC, 0.85), width=170)
+        d.line([(60, 1240), (1160, -60)], fill=a(BLUE, 0.55), width=100)
+        d.line([(300, 2200), (1400, 900)], fill=a(ACC, 0.55), width=150)
+    img.alpha_composite(glow((SW, SH), bands, 90))
+
+    def cores(d):
+        d.line([(-300, 900), (860, -360)], fill=a(ACC, 0.95), width=6)
+        d.line([(300, 2200), (1400, 900)], fill=a(ACC, 0.7), width=5)
+    img.alpha_composite(glow((SW, SH), cores, 4))
+
+    dots = Image.new("RGBA", (SW, SH), (0, 0, 0, 0))
+    dd = ImageDraw.Draw(dots)
+    for y in range(0, SH, 54):
+        for x in range(0, SW, 54):
+            dd.ellipse([x - 1, y - 1, x + 1, y + 1], fill=a(ACC, 0.10))
+    img.alpha_composite(dots)
+
+    # üst şerit — Instagram arayüzü ilk 250 px'i kapatıyor
+    logo = bright_logo(34)
+    img.alpha_composite(logo, (GUT, 300))
+    d = ImageDraw.Draw(img)
+    fl = mono(24, True)
+    lw = d.textlength(LABEL, font=fl)
+    lx = GUT + logo.width + 26
+    over(img, lambda g: g.rounded_rectangle(
+        [lx, 296, lx + lw + 40, 338], radius=21, fill=a(ACC, 0.12),
+        outline=a(ACC, 0.45), width=2))
+    d = ImageDraw.Draw(img)
+    d.text((lx + 20, 317), LABEL, font=fl, fill=ACC, anchor="lm")
+
+    s1, s2 = spec["satir1"], spec["satir2"]
+    f = fit(d, max(s1, s2, key=len), anton, 956, 132)
+    y = 420
+    img.alpha_composite(glow((SW, SH), lambda g: g.text(
+        (GUT, y + f.size * 1.16), s2, font=f, fill=a(ACC, 0.75), anchor="la"),
+        26))
+    d = ImageDraw.Draw(img)
+    d.text((GUT, y), s1, font=f, fill=WHITE, anchor="la")
+    d.text((GUT, y + f.size * 1.16), s2, font=f, fill=ACC, anchor="la")
+    bot = d.textbbox((GUT, y + f.size * 1.16), s2, font=f, anchor="la")[3]
+
+    fs = pop(34, "Medium")
+    ty = bot + 50
+    for ln in wrap(d, P(spec["spot"]), fs, 900):
+        d.text((GUT, ty), ln, font=fs, fill=(205, 216, 232), anchor="la")
+        ty += 50
+
+    # alt çağrı — arayüz son 250 px'i kapatıyor
+    by = 1560
+    py = int(ty) + 66
+    ph = min(640, by - 80 - py)
+    kart = panel(956, ph, govde(spec))
+    img.alpha_composite(glow((SW, SH), lambda g: g.rounded_rectangle(
+        [GUT + 10, py + 16, GUT + 946, py + ph + 10], radius=30,
+        fill=a(ACC, 0.30)), 40))
+    img.alpha_composite(kart, (GUT, py))
+
+    d = ImageDraw.Draw(img)
+    btn = "GÖNDERİYE BAK"
+    fb = pop(32, "Bold")
+    tw = d.textlength(btn, font=fb)
+    img.alpha_composite(glow((SW, SH), lambda g: g.rounded_rectangle(
+        [GUT, by, GUT + tw + 120, by + 80], radius=40, fill=a(ACC, 0.55)), 30))
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([GUT, by, GUT + tw + 120, by + 80], radius=40, fill=ACC)
+    d.text((GUT + 46, by + 40), btn, font=fb, fill=(6, 10, 20), anchor="lm")
+    ax = GUT + 46 + tw + 28
+    d.line([(ax, by + 40), (ax + 28, by + 40)], fill=(6, 10, 20), width=5)
+    d.polygon([(ax + 25, by + 31), (ax + 44, by + 40), (ax + 25, by + 49)],
+              fill=(6, 10, 20))
+    d.text((GUT, by + 128), "profilde yeni gönderi", font=pop(28), fill=MUTE,
+           anchor="lm")
+    img.convert("RGB").save(yol)
+
+
 def main():
     spec = json.load(open(sys.argv[1], encoding="utf-8"))
     out = sys.argv[2]
@@ -488,7 +569,8 @@ def main():
         n += 1
         kapanis(spec["kapanis"], "%d/%d" % (n, toplam),
                 os.path.join(out, "%d.png" % n))
-    print("%d slayt: %s" % (n, out))
+    hikaye(spec["kapak"], os.path.join(out, "hikaye.png"))
+    print("%d slayt + hikaye: %s" % (n, out))
 
 
 if __name__ == "__main__":
