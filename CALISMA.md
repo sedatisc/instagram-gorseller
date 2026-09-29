@@ -34,6 +34,8 @@ python3 uret.py <spec.json> <YYYY-AA-GG-slug>/
 ```
 Slaytlar `1.png`, `2.png` … diye çıkar. Slayt sayısı `PLAN.md`'deki tür sütununa uyacak: rehber 4, liste ise başlıktaki sayı + kapak + kapanış.
 
+**4b. Spec'i sakla.** Yazdığın spec JSON'unu gönderi klasörüne `spec.json` olarak koy. Sonradan yeniden üretmek gerekirse bu şart.
+
 **5. Depoya yükle.** Klasörü commit edip push et. Sonra her adresi `curl -sI` ile doğrula, hepsi 200 dönmeli.
 
 **6. Kuyruğa ekle.** Her konu için **iki** kayıt açılıyor: gönderi, sonra hikayesi.
@@ -114,3 +116,4 @@ Slayt başlıklarında yalnız ilk kelime ve özel adlar büyük.
 - Bir slotu asla iki kez doldurma; önce `getScheduledPosts` ile kontrol et.
 - Görsel adresi 200 dönmüyorsa o gönderiyi kuyruğa ekleme, sonraki çalışmaya bırak.
 - Yayınlanmış gönderiyi silme veya değiştirme.
+- Spec'i olmayan eski bir gönderiye hikaye gerekirse `python3 hikaye_kapaktan.py <klasor> <kategori>` kullan; kapaktan üretiyor.
