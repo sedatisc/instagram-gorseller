@@ -7,7 +7,8 @@
       3,
       4,
       5,
-      6
+      6,
+      7
     ],
     "elektronik": [
       1,
@@ -17,7 +18,8 @@
       5,
       6,
       7,
-      8
+      8,
+      9
     ],
     "proje": [
       1,
@@ -25,6 +27,7 @@
       3,
       4,
       5,
+      6,
       10
     ]
   },
@@ -136,6 +139,24 @@
       "slot": "proje",
       "konu": 5,
       "klasor": "2026-10-04-arama-kurtarma-roveri"
+    },
+    {
+      "tarih": "2026-10-05",
+      "slot": "3dbaski",
+      "konu": 7,
+      "klasor": "2026-10-05-destek-yapisi"
+    },
+    {
+      "tarih": "2026-10-05",
+      "slot": "elektronik",
+      "konu": 9,
+      "klasor": "2026-10-05-usbc-cc-direnci"
+    },
+    {
+      "tarih": "2026-10-05",
+      "slot": "proje",
+      "konu": 6,
+      "klasor": "2026-10-05-maliyet-hesabi"
     }
   ],
   "yayinlanmis_disarida": [
