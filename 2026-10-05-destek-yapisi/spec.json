@@ -1,0 +1,37 @@
+{
+  "kategori": "3dbaski",
+  "kapak": {
+    "satir1": "AĞAÇ DESTEK",
+    "satir2": "HER ZAMAN İYİ Mİ?",
+    "spot": "Az malzeme harcıyor, kolay sökülüyor. Yine de her parçada doğru seçim değil.",
+    "rozetler": [
+      ["Ağaç", "tema"],
+      ["Normal", "mavi"],
+      ["Yüzey izi", "kirmizi"]
+    ],
+    "tablo": [
+      ["AĞAÇ DESTEK", "eğimli ve organik yüzey"],
+      ["MALZEME VE SÜRE", "belirgin şekilde az"],
+      ["NORMAL DESTEK", "geniş düz askı"],
+      ["ALT YÜZEY", "normal daha düzgün"],
+      ["YÜZEY İZİ", "temas noktasında kalıyor"]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Ağaç az yerden dokunuyor",
+      "aciklama": "Dallar parçaya birkaç noktada değiyor, aradaki hacim boş kalıyor. Daha az filament, daha kısa süre ve elle sökülebilen bir yapı çıkıyor.",
+      "vurgu": [100, 100, 1810, 410]
+    },
+    {
+      "baslik": "Geniş düz askıda normal kazanıyor",
+      "aciklama": "Düz bir askının altı baştan sona taşınmak istiyor. Ağaç dalları arasındaki boşlukta ilk katmanlar sarkıyor, normal destek yüzeyi eşit tutuyor.",
+      "vurgu": [100, 405, 1810, 710]
+    },
+    {
+      "baslik": "İz temas noktasında kalıyor",
+      "aciklama": "Destek hangi yüzeye dokunursa izi orada kalıyor. Parçayı görünen yüzü destek almayacak şekilde çevir, kalan izi temas alanı ve Z boşluğu ile küçült.",
+      "vurgu": [100, 705, 1810, 860]
+    }
+  ]
+}

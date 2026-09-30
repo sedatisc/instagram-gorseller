@@ -1,0 +1,37 @@
+{
+  "kategori": "proje",
+  "kapak": {
+    "satir1": "BASKIYA FİYAT",
+    "satir2": "NASIL VERİLİR?",
+    "spot": "Gram hesabı kolay olanı. Fiyatı belirleyen kalem başka yerde duruyor.",
+    "rozetler": [
+      ["Gram", "tema"],
+      ["Saat", "turuncu"],
+      ["Başarısız baskı", "kirmizi"]
+    ],
+    "tablo": [
+      ["FİLAMENT", "gram × birim maliyet"],
+      ["MAKİNE SAATİ", "amortisman ve elektrik"],
+      ["BAŞARISIZ BASKI", "her işe sabit pay"],
+      ["İŞÇİLİK", "destek temizliği, montaj"],
+      ["TASARIM", "modelleme ayrı kalem"]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Gram en küçük kalem",
+      "aciklama": "Kırk gramlık bir parçanın filament maliyeti küçük bir sayı çıkıyor. Teklifin tamamı bu sayıysa makineyi ve kendi saatini bedava veriyorsun.",
+      "vurgu": [100, 100, 1810, 260]
+    },
+    {
+      "baslik": "Saat ücretini baştan belirle",
+      "aciklama": "Makine saati, yazıcı bedelinin öngörülen çalışma ömrüne bölümü artı elektrik. Üstüne başarısız baskı payı ekle; iş başına ayrı ayrı hesaplanmıyor, sabit oran olarak yürüyor.",
+      "vurgu": [100, 255, 1810, 560]
+    },
+    {
+      "baslik": "Elle geçen süre hesapta yok",
+      "aciklama": "Destek temizliği, zımpara ve montaj tezgâhta geçen zaman. Modelleme de ayrı kalem; ikisi de saat ücretiyle yazılıyor, iyilik olarak değil.",
+      "vurgu": [100, 555, 1810, 860]
+    }
+  ]
+}
