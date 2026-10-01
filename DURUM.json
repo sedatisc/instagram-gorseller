@@ -8,7 +8,8 @@
       4,
       5,
       6,
-      7
+      7,
+      8
     ],
     "elektronik": [
       1,
@@ -19,7 +20,8 @@
       6,
       7,
       8,
-      9
+      9,
+      10
     ],
     "proje": [
       1,
@@ -28,6 +30,7 @@
       4,
       5,
       6,
+      7,
       10
     ]
   },
@@ -157,6 +160,24 @@
       "slot": "proje",
       "konu": 6,
       "klasor": "2026-10-05-maliyet-hesabi"
+    },
+    {
+      "tarih": "2026-10-06",
+      "slot": "3dbaski",
+      "konu": 8,
+      "klasor": "2026-10-06-bambu-r1-lazer"
+    },
+    {
+      "tarih": "2026-10-06",
+      "slot": "elektronik",
+      "konu": 10,
+      "klasor": "2026-10-06-bypass-kondansatoru"
+    },
+    {
+      "tarih": "2026-10-06",
+      "slot": "proje",
+      "konu": 7,
+      "klasor": "2026-10-06-rover-v2"
     }
   ],
   "yayinlanmis_disarida": [
