@@ -1,0 +1,47 @@
+{
+  "kategori": "proje",
+  "kapak": {
+    "satir1": "ROVER V2",
+    "satir2": "MEGA VE NRF24",
+    "spot": "Kumanda bağlantısı kopunca araç durmalı. V2'de asıl iş burada bitti.",
+    "rozetler": [
+      ["Arduino Mega", "tema"],
+      ["NRF24L01", "mavi"],
+      ["Failsafe", "kirmizi"]
+    ],
+    "tablo": [
+      ["DENETLEYİCİ", "Arduino Mega 2560"],
+      ["TELSİZ", "NRF24L01 · 2,4 GHz · SPI"],
+      ["BESLEME", "modüle ayrı 3,3 V"],
+      ["TAHRİK", "4 motor, sürücü ayrı hat"],
+      ["GÜVENLİK", "paket gelmezse motor durur"]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Mega'yı pin sayısı seçtirdi",
+      "aciklama": "Dört motor sürücüsü, telsizin SPI hattı ve sensörler aynı kartta buluşuyor. Uno'da pin biterken Mega'da hepsi ayrı donanım hattına düşüyor.",
+      "vurgu": [100, 100, 1810, 260]
+    },
+    {
+      "baslik": "NRF24 gerilim dalgalanmasını sevmiyor",
+      "aciklama": "Modül verici anında akımı sıçratıyor, kartın 3,3 V regülatörü bu ani talebi karşılamıyor. Modülün besleme bacaklarının dibine 10 µF koymak menzil sorunlarının büyük kısmını kapatıyor.",
+      "vurgu": [100, 250, 1810, 560]
+    },
+    {
+      "baslik": "Motor hattı lojikten ayrı",
+      "aciklama": "Dört motor birden kalkınca gerilim çöküyor ve kart yeniden başlıyor. Sürücüler kendi hattından besleniyor, iki taraf yalnız toprakta birleşiyor.",
+      "vurgu": [100, 550, 1810, 710]
+    }
+  ],
+  "kapanis": {
+    "satir1": "BAĞLANTI",
+    "satir2": "KOPARSA?",
+    "kriterler": [
+      ["ZAMAN AŞIMI", "500 ms paket yoksa dur"],
+      ["MOTOR", "gaz sıfıra çekilir"],
+      ["DÖNÜŞ", "sinyal gelince devam eder"]
+    ],
+    "not": "Failsafe'i en sona bırakmak, aracı duvarda denemek demek."
+  }
+}

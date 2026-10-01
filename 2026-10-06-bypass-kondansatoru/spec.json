@@ -1,0 +1,47 @@
+{
+  "kategori": "elektronik",
+  "kapak": {
+    "satir1": "HER IC'NİN YANINDA",
+    "satir2": "O KONDANSATÖR",
+    "spot": "100 nF'ı oraya alışkanlıktan koymuyorsun. Besleme hattının kendi direnci var.",
+    "rozetler": [
+      ["100 nF", "tema"],
+      ["10 µF", "yesil"],
+      ["Hat endüktansı", "turuncu"]
+    ],
+    "cizim": [
+      {"t": "t", "x": 200, "y": 240, "metin": "+5V"},
+      {"t": "w", "p": [[290, 240], [1430, 240]]},
+      {"t": "n", "x": 640, "y": 240},
+      {"t": "w", "p": [[640, 240], [640, 400]]},
+      {"t": "c", "x": 640, "y": 400, "yon": "v", "ad": "C2", "deger": "10 µF"},
+      {"t": "w", "p": [[640, 432], [640, 580]]},
+      {"t": "g", "x": 640, "y": 580, "b": 120},
+      {"t": "n", "x": 1150, "y": 240},
+      {"t": "w", "p": [[1150, 240], [1150, 400]]},
+      {"t": "c", "x": 1150, "y": 400, "yon": "v", "ad": "C1", "deger": "100 nF"},
+      {"t": "w", "p": [[1150, 432], [1150, 580]]},
+      {"t": "g", "x": 1150, "y": 580, "b": 120},
+      {"t": "k", "x0": 1430, "y0": 160, "x1": 1870, "y1": 600, "metin": "IC — VCC / GND"},
+      {"t": "w", "p": [[1650, 600], [1650, 700]]},
+      {"t": "g", "x": 1650, "y": 700, "b": 120}
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Besleme hattı mükemmel değil",
+      "aciklama": "Kaynak ile IC arasındaki her santim yol, direnç ve endüktans demek. IC anahtarlama anında akımı mikrosaniyede istiyor, hat bu akımı o hızda geçiremiyor.",
+      "vurgu": [150, 170, 1320, 320]
+    },
+    {
+      "baslik": "100 nF bacağın dibinde durur",
+      "aciklama": "Yakındaki küçük kondansatör ani akımı anında veriyor, besleme çökmesini engelliyor. İşi mesafeye bağlı: aynı kondansatör iki santim uzakta neredeyse hiçbir şey yapmıyor.",
+      "vurgu": [1060, 180, 1890, 660]
+    },
+    {
+      "baslik": "10 µF yavaş yükü karşılar",
+      "aciklama": "Büyük kondansatör hattın girişinde duruyor ve uzun süren akım taleplerini karşılıyor. İkisi birlikte çalışıyor; biri hızlı sıçramayı, diğeri yavaş yükü alıyor.",
+      "vurgu": [520, 180, 1000, 680]
+    }
+  ]
+}

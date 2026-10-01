@@ -1,0 +1,47 @@
+{
+  "kategori": "3dbaski",
+  "kapak": {
+    "satir1": "BAMBU LAB R1",
+    "satir2": "NE KESEBİLİR?",
+    "spot": "55 W CO2 lazer, 600 × 300 mm alan. Ahşap ve akrilikte sınıf atlıyor, metale hiç dokunmuyor.",
+    "rozetler": [
+      ["55 W CO2", "tema"],
+      ["600 × 300 mm", "mavi"],
+      ["Sevkiyat ekimde", "sari"]
+    ],
+    "tablo": [
+      ["LAZER", "55 W CO2"],
+      ["ALAN", "600 × 300 mm"],
+      ["KESME", "18 mm ahşap, 20 mm akrilik"],
+      ["KAZIMA", "1.000 mm/s"],
+      ["DURUM", "önsipariş, sevkiyat ekimde"]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "CO2 lazerin işi ahşap ve akrilik",
+      "aciklama": "55 W ile 18 mm ceviz kontrplak ve 20 mm akrilik kesiliyor; kalın kesim opsiyonel lens istiyor. Metal kesmiyor, CO2 lazerin fiziği buna izin vermiyor; kaplamalı metalde yalnız kazıma oluyor.",
+      "vurgu": [100, 100, 1810, 560]
+    },
+    {
+      "baslik": "Konveyör tezgâhı uzatıyor",
+      "aciklama": "Standart alan 600 × 300 mm. Opsiyonel konveyör malzemeyi 3 metreye kadar ilerletiyor, tabela ve uzun panel işi tek parçada çıkıyor.",
+      "vurgu": [100, 250, 1810, 410]
+    },
+    {
+      "baslik": "Hizalama kameradan, duman dışarıdan",
+      "aciklama": "Kuş bakışı kamera 0,2 mm konumlama veriyor, aynalar otomatik hizalanıyor. Hava desteği dahili ama yalnız aç-kapa; duman arıtıcı ayrı alınıyor ve ses seviyesi makineyi atölyeye bağlıyor.",
+      "vurgu": [100, 550, 1810, 710]
+    }
+  ],
+  "kapanis": {
+    "satir1": "KİME GÖRE,",
+    "satir2": "KİME DEĞİL?",
+    "kriterler": [
+      ["UYGUN", "ahşap ve akrilik kesen atölye"],
+      ["UYGUN DEĞİL", "metal kesmek isteyen"],
+      ["BEKLEYECEK", "ev içine makine arayan"]
+    ],
+    "not": "Konumlandırma ve ayrıntılar sermenkreatif.com'da."
+  }
+}
