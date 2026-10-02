@@ -9,7 +9,8 @@
       5,
       6,
       7,
-      8
+      8,
+      9
     ],
     "elektronik": [
       1,
@@ -21,7 +22,8 @@
       7,
       8,
       9,
-      10
+      10,
+      11
     ],
     "proje": [
       1,
@@ -31,6 +33,7 @@
       5,
       6,
       7,
+      8,
       10
     ]
   },
@@ -178,6 +181,24 @@
       "slot": "proje",
       "konu": 7,
       "klasor": "2026-10-06-rover-v2"
+    },
+    {
+      "tarih": "2026-10-07",
+      "slot": "3dbaski",
+      "konu": 9,
+      "klasor": "2026-10-07-stringing"
+    },
+    {
+      "tarih": "2026-10-07",
+      "slot": "elektronik",
+      "konu": 11,
+      "klasor": "2026-10-07-5v-33v-seviye"
+    },
+    {
+      "tarih": "2026-10-07",
+      "slot": "proje",
+      "konu": 8,
+      "klasor": "2026-10-07-model-kaynaklari"
     }
   ],
   "yayinlanmis_disarida": [
