@@ -125,6 +125,13 @@ Bu hesap Sermen Kreatif'in hesabı, AR-GE biriminin değil.
 - Grupta gerçekten olan şeyler yazılır: soru-cevap, arıza çözümü, STL paylaşımı, yazıcı ve filament tedariki, deneyim aktarımı. Doğrulanamayan sayı ("binlerce model") kullanılmaz.
 - Aynı gönderi tekrar yayınlanmaz; her seferinde çağrının farklı açısı öne çıkarılır.
 
+## Reklam yaratıcıları
+
+`REKLAM.md` soğuk kitle reklamlarının brifini tutar. `reklam-` ile başlayan klasörler reklam yaratıcısıdır.
+
+- Bunlar kuyruğa **eklenmez**; Meta Ads Manager'dan elle kullanılıyor.
+- Organik gönderi üretirken bu klasörlere dokunma.
+
 ## Sınırlar
 
 - Konu listesi bittiğinde yeni gönderi üretme. Çalışmayı bitir ve listenin tükendiğini bildir.

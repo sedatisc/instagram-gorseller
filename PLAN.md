@@ -157,24 +157,24 @@ Slot yalnız 3D baskıyı değil üretim donanımının tamamını kapsıyor: ya
 | 6 | Parça yönü mukavemeti nasıl değiştirir | Rehber · 4 |
 | 7 | Destek yapısı: ağaç mı normal mi | Rehber · 4 |
 | 8 | **Ürün:** Bambu Lab R1 — 55 W CO₂ lazer ne yapar | Ürün · 5 |
-| 9 | 0,4 dışına çıkmak: 0,2 ve 0,6 nozzle | Rehber · 4 |
-| 10 | Sertleştirilmiş nozzle ne zaman şart | Rehber · 4 |
-| 11 | Filament kurutma: hangisi kaç saat | Liste · 6 |
-| 12 | Elephant foot: ilk katman değil ilk beş katman | Rehber · 4 |
+| 9 | Stringing: retraction mı sıcaklık mı | Rehber · 4 |
+| 10 | Warping ve kapalı kabin meselesi | Rehber · 4 |
+| 11 | Elephant foot: ilk katman değil ilk beş katman | Rehber · 4 |
+| 12 | Filament kurutma: hangisi kaç saat | Liste · 6 |
 | 13 | **Ürün:** Sunlu PLA renk kartelası ve gerçek özellikleri | Ürün · 6 |
-| 14 | Stringing: retraction mı sıcaklık mı | Rehber · 4 |
-| 15 | Warping ve kapalı kabin meselesi | Rehber · 4 |
-| 16 | Yüksek akışlı nozzle gerçekten hızlandırıyor mu | Rehber · 4 |
-| 17 | Input shaping ve pressure advance | Rehber · 4 |
+| 14 | Yapışma yüzeyleri: PEI, garolit, cam | Liste · 5 |
+| 15 | 0,4 dışına çıkmak: 0,2 ve 0,6 nozzle | Rehber · 4 |
+| 16 | Yüzey işlemi: zımpara, astar, boya | Liste · 5 |
+| 17 | Geçme parçalarda tolerans: kaç mm boşluk | Rehber · 4 |
 | 18 | **Ürün:** Diyot mu CO₂ mü — Falcon2 Pro ve R1 karşılaştırması | Ürün · 5 |
 | 19 | Hızı artırınca ilk bozulan şey | Rehber · 4 |
-| 20 | Geçme parçalarda tolerans: kaç mm boşluk | Rehber · 4 |
+| 20 | Sertleştirilmiş nozzle ne zaman şart | Rehber · 4 |
 | 21 | Heat-set insert ile vidalı birleşim | Rehber · 4 |
-| 22 | Yüzey işlemi: zımpara, astar, boya | Liste · 5 |
+| 22 | AMS ve MMU: renk değişiminin israf maliyeti | Rehber · 4 |
 | 23 | **Ürün:** Snapmaker U1 mi Creality K3 mü — biri rafta, biri ekimde | Ürün · 5 |
-| 24 | AMS ve MMU: renk değişiminin israf maliyeti | Rehber · 4 |
+| 24 | Yüksek akışlı nozzle gerçekten hızlandırıyor mu | Rehber · 4 |
 | 25 | Slicer profilini sıfırdan kurmak | Rehber · 4 |
-| 26 | Yapışma yüzeyleri: PEI, garolit, cam | Liste · 5 |
+| 26 | Input shaping ve pressure advance | Rehber · 4 |
 | 27 | Baskı sonrası ölçü sapması ve büzülme payı | Rehber · 4 |
 | 28 | **Ürün:** Filament sınıfları — PLA, PLA+, Silk, Matte | Ürün · 6 |
 | 29 | Reçine ne zaman FDM'den iyi | Rehber · 4 |
@@ -196,21 +196,21 @@ Eleme ve güncelleme yapılmış liste. Tarihler yeni takvime göre kaydırıld�
 | 8 | Voltaj bölücü ile sensör okumak neden yanıltır | Rehber · 4 |
 | 9 | USB-C'den 5 V almak: CC direnci | Rehber · 4 |
 | 10 | Bypass kondansatörü neden her IC'nin yanında | Rehber · 4 |
-| 11 | Optokuplör ne işe yarar, ne zaman şart | Rehber · 4 |
-| 12 | ESP32 deep sleep: gerçek akım ölçümü | Rehber · 4 |
+| 11 | 5 V sensörü 3,3 V karta bağlamak | Rehber · 4 |
+| 12 | Motor açılınca kart resetleniyor | Rehber · 4 |
 | 13 | Buck dönüştürücü ısınıyorsa 4 sebep | Liste · 6 |
-| 14 | 5 V sensörü 3,3 V karta bağlamak | Rehber · 4 |
+| 14 | TP4056 ile Li-ion şarj: 3 yaygın hata | Liste · 5 |
 | 15 | Kart tanıtımı: Jetson Orin Nano Super | Tanıtım · 4 |
-| 16 | Li-Po koruma devresi (BMS) nasıl çalışır | Rehber · 4 |
-| 17 | TP4056 ile Li-ion şarj: 3 yaygın hata | Liste · 5 |
-| 18 | Motor açılınca kart resetleniyor | Rehber · 4 |
+| 16 | ESP32 deep sleep: gerçek akım ölçümü | Rehber · 4 |
+| 17 | Optokuplör ne işe yarar, ne zaman şart | Rehber · 4 |
+| 18 | Li-Po koruma devresi (BMS) nasıl çalışır | Rehber · 4 |
 | 19 | Ayrık H köprüsü mü, DRV8833 mü | Rehber · 4 |
-| 20 | Kondansatör sağlam mı bozuk mu: ESR meselesi | Rehber · 4 |
+| 20 | Sigorta, PTC ve TVS: devre koruma üçlüsü | Rehber · 4 |
 | 21 | Kart tanıtımı: Pixhawk 6C mi SpeedyBee F405 mi | Tanıtım · 4 |
-| 22 | Sigorta, PTC ve TVS: devre koruma üçlüsü | Rehber · 4 |
-| 23 | Zener yerine TL431 | Rehber · 4 |
-| 24 | Ground loop gürültüsü nasıl biter | Rehber · 4 |
-| 25 | ESP32 antenini öldüren 4 yerleşim hatası | Liste · 6 |
+| 22 | Kondansatör sağlam mı bozuk mu: ESR meselesi | Rehber · 4 |
+| 23 | Ground loop gürültüsü nasıl biter | Rehber · 4 |
+| 24 | ESP32 antenini öldüren 4 yerleşim hatası | Liste · 6 |
+| 25 | Zener yerine TL431 | Rehber · 4 |
 | 26 | ArduRover: uçuş kontrol kartı yerde | Rehber · 4 |
 | 27 | AHT20 verisini MQTT ile buluta gönderme | Rehber · 4 |
 | 28 | ESP32'ye kablosuz OTA güncelleme | Rehber · 4 |
@@ -233,39 +233,49 @@ Kendi projelerinden besleniyor. Bu slot hesabın kimliği: diğer ikisi bilgi ve
 | 6 | Maliyet hesabı: gram ve saat | Rehber · 4 |
 | 7 | Rover V2: Arduino Mega ve NRF24 | Proje · 5 |
 | 8 | Model nereden bulunur: Printables, MakerWorld | Liste · 5 |
-| 9 | Vida sayım sistemi DİRHEM | Proje · 5 |
+| 9 | Atölyede olması gereken 10 alet | Liste · 12 |
 | 10 | **Topluluk:** SK 3D Topluluğu — takıldığın yerde soracak biri var | Topluluk · 5 |
-| 11 | Ürün fotoğrafı: tek ışıkla stüdyo | Rehber · 4 |
-| 12 | NFC ile demirbaş takibi | Proje · 5 |
-| 13 | Fusion mı Onshape mi | Rehber · 4 |
-| 14 | Tavan arası kamera robotu | Proje · 5 |
-| 15 | Atölyede olması gereken 10 alet | Liste · 12 |
-| 16 | RC tank: büyük baskı projesi | Proje · 6 |
-| 17 | Prototipten ürüne: ölçü doğrulama | Rehber · 4 |
-| 18 | FPV drone: Cinelog20 kurulumu | Proje · 5 |
-| 19 | Müşteriye fiyat vermek | Rehber · 4 |
-| 20 | **Topluluk:** SK 3D Topluluğu — takıldığın yerde soracak biri var | Topluluk · 5 |
-| 21 | Cephe yıkama dronu | Proje · 6 |
-| 22 | Başarısız baskı arşivi: 6 ders | Liste · 8 |
-| 23 | Pi 5 ekran standı | Proje · 4 |
-| 24 | Oyuncak yol seti: modüler parça tasarımı | Proje · 5 |
-| 25 | 3D tarayıcı ile var olan parçayı kopyalamak | Rehber · 4 |
+| 11 | Başarısız baskı arşivi: 6 ders | Liste · 8 |
+| 12 | Fusion mı Onshape mi | Rehber · 4 |
+| 13 | Müşteriye fiyat vermek | Rehber · 4 |
+| 14 | Ürün fotoğrafı: tek ışıkla stüdyo | Rehber · 4 |
+| 15 | Prototipten ürüne: ölçü doğrulama | Rehber · 4 |
+| 16 | Siparişi kabul etmeden önce sorulacak 5 soru | Liste · 7 |
+| 17 | 3D tarayıcı ile var olan parçayı kopyalamak | Rehber · 4 |
+| 18 | Vida sayım sistemi DİRHEM | Proje · 5 |
+| 19 | NFC ile demirbaş takibi | Proje · 5 |
+| 20 | **Topluluk:** SK 3D Topluluğu — arıza çözme açısı | Topluluk · 5 |
+| 21 | Tavan arası kamera robotu | Proje · 5 |
+| 22 | RC tank: büyük baskı projesi | Proje · 6 |
+| 23 | Oyuncak yol seti: modüler parça tasarımı | Proje · 5 |
+| 24 | FPV drone: Cinelog20 kurulumu | Proje · 5 |
+| 25 | Pi 5 ekran standı | Proje · 4 |
 | 26 | Cam sehpa küre ayak üretimi | Proje · 4 |
 | 27 | Anatomi maketleri: 15 parçalık iş | Proje · 5 |
-| 28 | AR-GE biriminde 3D baskı nasıl işliyor | Proje · 5 |
+| 28 | Cephe yıkama dronu | Proje · 6 |
 | 29 | Yeşilay astronot maskotu | Proje · 4 |
-| 30 | **Topluluk:** SK 3D Topluluğu — takıldığın yerde soracak biri var | Topluluk · 5 |
+| 30 | **Topluluk:** SK 3D Topluluğu — model paylaşımı açısı | Topluluk · 5 |
 
 ---
 
-# 8. KAPSAM DIŞI
+# 8. SIRALAMA MANTIĞI
+
+İlk üç günün verisi: en geniş ve en acemi dostu konu (dört filament karşılaştırması) diğerlerinin üç katı erişim aldı, en dar ve en kişisel olan (atölye düzeni) en dibe düştü. Paylaşım ve yeni takipçi her gönderide sıfır.
+
+Kalan konular bu yüzden zorluk sırasına göre yeniden dizildi: önce herkesin karşılaştığı sorunlar (stringing, warping, elephant foot), derin teknik konular ve proje anlatıları sona bırakıldı. Takipçi tabanı oluştukça o konular da karşılığını bulur.
+
+Proje slotunda da aynı mantık: "benim projem" içeriği henüz kimse hesabı tanımadığı için tutmuyor. Önce işe yarayan şeyler (model kaynakları, alet listesi, fiyatlama), projeler sonra.
+
+Kullanılmış konuların numaraları değişmedi; `DURUM.json` ile uyum korunuyor.
+
+# 9. KAPSAM DIŞI
 
 Bu hesap **Sermen Kreatif**'in hesabı. AR-GE biriminin kurumsal projeleri buraya girmez.
 
 - **BİLGE** kurumun yüzü, bu hesapta anlatılmaz. Sesli asistan konusu işlenecekse **ATLAS** üzerinden işlenir.
 - Kurumsal bir işten söz edilecekse ürüne ya da yönteme odaklanılır, kurumun adı öne çıkarılmaz.
 
-# 9. TOPLULUK GÖNDERİLERİ
+# 10. TOPLULUK GÖNDERİLERİ
 
 WhatsApp grubu hesabın en değerli çıktısı: takipçi akışta kaybolur, gruba giren kalır.
 
@@ -275,7 +285,7 @@ WhatsApp grubu hesabın en değerli çıktısı: takipçi akışta kaybolur, gru
 
 **Vaat abartılmaz.** Grupta gerçekten ne varsa o yazılır. "Binlerce model" gibi doğrulanamayan sayı kullanılmaz.
 
-# 10. ÜRÜN TANITIMI KURALLARI
+# 11. ÜRÜN TANITIMI KURALLARI
 
 Ürün gönderileri hesabın mağazaya bakan yüzü. Üçü birden zorunlu:
 
@@ -289,7 +299,7 @@ Görsel: ürün fotoğrafı kullanma — üretici basın görselleri telifli. Bu
 
 Etiketler: `@bambulab`, `@sunlu3d`, `@snapmaker`, `@creality3dofficial`, `@crealityfalcon` — hangi marka geçiyorsa. Ürün etiketi ve konum etiketi eklenir.
 
-# 11. HAFTALIK İŞ DÜZENİ
+# 12. HAFTALIK İŞ DÜZENİ
 
 Günde 3 gönderi = haftada 21 gönderi. Her gün tek tek üretmek sürdürülemez.
 

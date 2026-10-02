@@ -1,0 +1,38 @@
+{
+  "kategori": "proje",
+  "kapak": {
+    "satir1": "BASKIN BOZUK",
+    "satir2": "ÇIKIYORSA SOR",
+    "spot": "SK 3D Topluluğu — ücretsiz WhatsApp grubu. Fotoğrafı at, sorunu görenler söylesin.",
+    "rozetler": [["Ücretsiz", "tema"], ["Türkiye", "yesil"], ["Her seviye", "turuncu"]],
+    "tablo": [
+      ["BOZUK BASKI", "fotoğrafı at, sebebini söylesinler"],
+      ["AYAR", "hangi filamentte kaç derece"],
+      ["STL", "hazır model paylaşımı"],
+      ["YAZICI ALACAKSAN", "kullananlara sor"],
+      ["TEDARİK", "yazıcı ve filament temini"]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Soru sormak için uzman olman gerekmiyor",
+      "aciklama": "Yazıcıyı daha yeni aldıysan da sor. Grubun yarısı aynı yerden geçti, çoğu soru zaten tanıdık.",
+      "vurgu": [100, 100, 1810, 280]
+    },
+    {
+      "baslik": "Yazıcı ya da filament lazımsa aynı yerde",
+      "aciklama": "Ne alacağını kullananlara sorarsın, almaya karar verince tedarik de aynı yerden hallolur.",
+      "vurgu": [100, 560, 1810, 900]
+    }
+  ],
+  "kapanis": {
+    "satir1": "KATILMAK",
+    "satir2": "ÜCRETSİZ",
+    "kriterler": [
+      ["NE ZAMAN", "istediğin an girer, istediğin an çıkarsın"],
+      ["KİM KATILABİLİR", "yazıcısı olan da olmayan da"],
+      ["NE SATILIYOR", "kimse bir şey almak zorunda değil"]
+    ],
+    "not": "Aşağıdaki butona dokun, WhatsApp açılır."
+  }
+}
