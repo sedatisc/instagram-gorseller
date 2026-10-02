@@ -1,0 +1,48 @@
+{
+  "kategori": "elektronik",
+  "zemin": "kobalt",
+  "kapak": {
+    "tip": "rakam",
+    "ustbilgi": "ESP32 GPIO SINIRI",
+    "rakam": "3,6 V",
+    "rakam_alt": "Üstü o pini yakıyor",
+    "spot": "5 V sensörün çıkışı doğrudan buraya giremiyor. Araya iki direnç ya da bir seviye çevirici giriyor.",
+    "rozetler": [
+      ["1,8 kΩ + 3,3 kΩ", "tema"],
+      ["3,24 V", "yesil"],
+      ["I2C'de çalışmaz", "kirmizi"]
+    ],
+    "cizim": [
+      {"t": "k", "x0": 60, "y0": 300, "x1": 440, "y1": 560, "metin": "5 V SENSÖR"},
+      {"t": "y", "x": 530, "y": 392, "metin": "OUT 5 V", "boy": 32, "hiza": "mm"},
+      {"t": "w", "p": [[440, 430], [640, 430]]},
+      {"t": "r", "x": 640, "y": 392, "yon": "h", "ad": "R1", "deger": "1,8 kΩ", "etiket": "ust"},
+      {"t": "w", "p": [[880, 430], [1150, 430]]},
+      {"t": "n", "x": 1150, "y": 430},
+      {"t": "w", "p": [[1150, 430], [1150, 500]]},
+      {"t": "r", "x": 1112, "y": 500, "yon": "v", "ad": "R2", "deger": "3,3 kΩ", "etiket": "sag"},
+      {"t": "w", "p": [[1150, 740], [1150, 810]]},
+      {"t": "g", "x": 1150, "y": 810, "b": 150},
+      {"t": "w", "p": [[1150, 430], [1430, 430]]},
+      {"t": "y", "x": 1290, "y": 372, "metin": "3,24 V", "boy": 34, "hiza": "mm"},
+      {"t": "k", "x0": 1430, "y0": 300, "x1": 1860, "y1": 560, "metin": "ESP32 — GPIO"}
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Pin 3,3 V için yapılmış",
+      "aciklama": "ESP32 ve Pico gibi kartlarda GPIO ucunun mutlak sınırı 3,6 V. Üstündeki her gerilim girişteki koruma diyodundan akıyor; kart bir süre çalışıyor, sonra o pin ölüyor.",
+      "vurgu": [1390, 260, 1900, 610]
+    },
+    {
+      "baslik": "İki direnç yavaş sinyale yeter",
+      "aciklama": "1,8 kΩ ve 3,3 kΩ ile 5 V, 3,24 V'a iniyor. Buton, röle çıkışı ve yavaş seri hat için yeterli. Bölücü tek yönlü çalışıyor; karttan sensöre giden hatta iş görmüyor.",
+      "vurgu": [600, 340, 1250, 800]
+    },
+    {
+      "baslik": "Önce sensörün belgesine bak",
+      "aciklama": "5 V ile beslenen pek çok modül zaten 3,3 V lojikle konuşuyor; o zaman arada hiçbir şey gerekmiyor. Gerçekten 5 V sürüyorsa ve hat I2C ise bölücü iş görmüyor: iki yönlü ve açık kollektör olduğu için BSS138'li modül gibi bir seviye çevirici gerekiyor.",
+      "vurgu": [20, 260, 700, 610]
+    }
+  ]
+}

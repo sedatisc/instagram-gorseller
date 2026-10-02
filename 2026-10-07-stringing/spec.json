@@ -1,0 +1,88 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "izgara",
+    "satir1": "ARADA KALAN",
+    "satir2": "O İNCE TELLER",
+    "spot": "Retraction'ı artırmadan önce bakılacak tek bir ayar var.",
+    "kartlar": [
+      {
+        "etiket": "ÖNCE SICAKLIK",
+        "deger": "-5 °C",
+        "alt": "Beşer derece in. PLA 210 yerine 195, PETG 240 yerine 230.",
+        "renk": "kirmizi",
+        "ikon": "isi",
+        "genis": true,
+        "durum": "dogru"
+      },
+      {
+        "etiket": "DIRECT DRIVE",
+        "deger": "0,4-1 mm",
+        "alt": "Retraction mesafesi",
+        "renk": "mavi",
+        "ikon": "nozzle"
+      },
+      {
+        "etiket": "BOWDEN",
+        "deger": "3-6 mm",
+        "alt": "Tüp boyunca pay gerekiyor",
+        "renk": "mor",
+        "ikon": "olcu"
+      },
+      {
+        "etiket": "RETRACTION HIZI",
+        "deger": "25-40 mm/s",
+        "alt": "Fazlası filamenti sıyırıyor",
+        "renk": "yesil",
+        "ikon": "dis"
+      },
+      {
+        "etiket": "GEZİNME HIZI",
+        "deger": "200 mm/s",
+        "alt": "Hızlı geçiş sızmaya zaman bırakmıyor",
+        "renk": "turuncu",
+        "ikon": "hiz"
+      },
+      {
+        "etiket": "NEMLİ FİLAMENT",
+        "deger": "45 °C · 6 saat",
+        "alt": "Çıtlayarak basıyorsa sebep nem. PETG 65 °C.",
+        "renk": "sari",
+        "ikon": "damla"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Sıcaklık ilk sırada",
+      "aciklama": "Tel bırakma çoğu zaman retraction eksikliği değil, fazla sıcak nozzle. Beş derece düşür ve aynı parçayı tekrar bas; tel azalıyorsa sebep buydu.",
+      "vurgu": [
+        100,
+        55,
+        1810,
+        200
+      ]
+    },
+    {
+      "baslik": "Retraction mesafesi ekstrudere bağlı",
+      "aciklama": "Direct drive ekstruderde filament nozzle'a yakın, bir milimetre yetiyor. Bowden'da tüp boyunca pay gerektiği için mesafe birkaç katına çıkıyor.",
+      "vurgu": [
+        100,
+        195,
+        1810,
+        610
+      ]
+    },
+    {
+      "baslik": "Hâlâ tel varsa filament nemli",
+      "aciklama": "Nem buharlaşırken nozzle içinde kabarcık yapıyor ve malzemeyi dışarı itiyor. Ayarla çözülmüyor; filamenti kurutmadan aynı sonucu almaya devam ediyorsun.",
+      "vurgu": [
+        100,
+        605,
+        1810,
+        885
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "kategori": "proje",
+  "zemin": "indigo",
+  "kapak": {
+    "tip": "klasik",
+    "satir1": "HER MODEL",
+    "satir2": "BASILMIYOR",
+    "spot": "Aynı parça üç sitede birden var; fark modelde değil, yanındaki bilgide.",
+    "tablo": [
+      [
+        "MAKERWORLD",
+        "hazır 3mf profili"
+      ],
+      [
+        "PRINTABLES",
+        "baskı fotoğrafı ve yorum"
+      ],
+      [
+        "THINGIVERSE",
+        "en büyük arşiv, denetimsiz"
+      ],
+      [
+        "DOĞRULAMA",
+        "başkası basmış mı"
+      ],
+      [
+        "LİSANS",
+        "CC BY-NC satılamaz"
+      ]
+    ],
+    "rozetler": [
+      [
+        "MakerWorld",
+        "tema"
+      ],
+      [
+        "Printables",
+        "yesil"
+      ],
+      [
+        "lisans",
+        "kirmizi"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Hazır profil işi yarıya indiriyor",
+      "aciklama": "MakerWorld modeli 3mf olarak profiliyle birlikte veriyor, dosya slicer'a ayarlı geliyor. Printables'ta profil her modelde yok ama baskı fotoğrafı ve yorumlar aynı işi görüyor.",
+      "vurgu": [
+        100,
+        55,
+        1810,
+        390
+      ]
+    },
+    {
+      "baslik": "Arşiv büyük ama denetimsiz",
+      "aciklama": "Thingiverse'te başka yerde bulunmayan eski parçalar duruyor. Karşılığı şu: model hiç basılmamış olabilir, duvar kalınlığı ya da tolerans tutmayabilir. Dosyayı indirmeden önce yorumları oku.",
+      "vurgu": [
+        100,
+        385,
+        1810,
+        555
+      ]
+    },
+    {
+      "baslik": "Satacaksan belirleyici olan lisans",
+      "aciklama": "Modellerin çoğu Creative Commons ile paylaşılıyor ve NC işareti ticari kullanımı kapatıyor. Müşteriye basacağın parçada lisans baskı ayarından daha önemli; tasarımcı adını ve koşulu indirirken not et.",
+      "vurgu": [
+        100,
+        550,
+        1810,
+        885
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "NEREDEN",
+    "satir2": "BAŞLAMALI?",
+    "kriterler": [
+      [
+        "YENİ BAŞLIYORSAN",
+        "MakerWorld — hazır profil"
+      ],
+      [
+        "KALİTE ÖNEMLİYSE",
+        "Printables — basılmış örnek"
+      ],
+      [
+        "ESKİ PARÇA ARIYORSAN",
+        "Thingiverse arşivi"
+      ],
+      [
+        "MÜŞTERİYE BASACAKSAN",
+        "önce lisansı oku"
+      ]
+    ],
+    "not": "Üçü de ücretsiz; indirmeden önce basılmış fotoğrafa bak."
+  }
+}
