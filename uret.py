@@ -369,6 +369,157 @@ def govde(spec):
     return lambda d: ciz(d, spec.get("cizim", []))
 
 
+def _rozetler(img, d, spec):
+    fx = pop(25, "Medium")
+    boxes, x = [], GUT
+    for metin, renk in spec.get("rozetler", []):
+        metin = P(metin)
+        col = RENKLER.get(renk, ACC) if renk != "tema" else ACC
+        w = d.textlength(metin, font=fx) + 76
+        boxes.append((x, w, metin, col))
+        x += w + 14
+    over(img, lambda g: [g.rounded_rectangle(
+        [px, 1196, px + pw, 1264], radius=34, fill=a(col, 0.14),
+        outline=a(col, 0.6), width=2) for px, pw, _, col in boxes])
+    dd = ImageDraw.Draw(img)
+    for px, pw, metin, col in boxes:
+        dd.ellipse([px + 26, 1222, px + 42, 1238], fill=col)
+        dd.text((px + 58, 1230), metin, font=fx, fill=(225, 233, 245),
+                anchor="lm")
+
+
+def kapak_rakam(spec, sayac, yol):
+    """Dev rakam kapağı — tek sayı ekranı dolduruyor."""
+    img = base()
+    chrome(img, sayac)
+    d = ImageDraw.Draw(img)
+
+    d.text((GUT, 190), P(spec["ustbilgi"]).upper(), font=mono(30, True),
+           fill=ACC, anchor="la")
+
+    rakam = P(spec["rakam"])
+    f = fit(d, rakam, anton, 956, 400, 120)
+    ry = 250
+    img.alpha_composite(glow((W, H), lambda g: g.text(
+        (GUT - 10, ry), rakam, font=f, fill=a(ACC, 0.9), anchor="la"), 50))
+    img.alpha_composite(glow((W, H), lambda g: g.text(
+        (GUT - 10, ry), rakam, font=f, fill=a(WHITE, 0.5), anchor="la"), 14))
+    d = ImageDraw.Draw(img)
+    d.text((GUT - 10, ry), rakam, font=f, fill=WHITE, anchor="la")
+    bot = d.textbbox((GUT - 10, ry), rakam, font=f, anchor="la")[3]
+
+    fa = fit(d, P(spec["rakam_alt"]), archivo, 956, 70, 38)
+    d.text((GUT, bot + 26), P(spec["rakam_alt"]), font=fa, fill=ACC,
+           anchor="la")
+    ab = d.textbbox((GUT, bot + 26), P(spec["rakam_alt"]), font=fa,
+                    anchor="la")[3]
+
+    fs = pop(32, "Medium")
+    ty = ab + 54
+    for ln in wrap(d, P(spec["spot"]), fs, 900):
+        d.text((GUT, ty), ln, font=fs, fill=(205, 216, 232), anchor="la")
+        ty += 46
+
+    _rozetler(img, d, spec)
+    img.convert("RGB").save(yol)
+
+
+def kapak_carpisma(spec, sayac, yol):
+    """Çapraz bölünmüş kapak — yanlış ile doğru karşı karşıya."""
+    img = base()
+
+    kirmizi = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(kirmizi).polygon([(0, 0), (W, 0), (W, 430), (0, 930)],
+                                    fill=a(RED, 0.20))
+    img.alpha_composite(kirmizi.filter(ImageFilter.GaussianBlur(60)))
+    yesil = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(yesil).polygon([(0, 930), (W, 430), (W, H), (0, H)],
+                                  fill=a(GREEN, 0.18))
+    img.alpha_composite(yesil.filter(ImageFilter.GaussianBlur(60)))
+
+    img.alpha_composite(glow((W, H), lambda g: g.line(
+        [(0, 930), (W, 430)], fill=a(WHITE, 0.55), width=5), 18))
+    chrome(img, sayac)
+    d = ImageDraw.Draw(img)
+
+    f = fit(d, max(spec["satir1"], spec["satir2"], key=len), anton, 956, 118)
+    y = 210
+    img.alpha_composite(glow((W, H), lambda g: [
+        g.text((GUT, y), spec["satir1"], font=f, fill=a(RED, 0.5), anchor="la"),
+        g.text((GUT, y + f.size * 1.16), spec["satir2"], font=f,
+               fill=a(GREEN, 0.5), anchor="la")], 30))
+    d = ImageDraw.Draw(img)
+    d.text((GUT, y), spec["satir1"], font=f, fill=WHITE, anchor="la")
+    d.text((GUT, y + f.size * 1.16), spec["satir2"], font=f, fill=WHITE,
+           anchor="la")
+    bot = d.textbbox((GUT, y + f.size * 1.16), spec["satir2"], font=f,
+                     anchor="la")[3]
+
+    for metin, col, cy in [(spec["sol_etiket"], RED, bot + 86),
+                           (spec["sag_etiket"], GREEN, bot + 232)]:
+        fb = pop(34, "Bold")
+        tw = d.textlength(P(metin), font=fb)
+        over(img, lambda g, t=cy, c=col, w=tw: g.rounded_rectangle(
+            [GUT, t - 34, GUT + w + 60, t + 34], radius=34,
+            fill=a(c, 0.18), outline=a(c, 0.9), width=3))
+        d = ImageDraw.Draw(img)
+        d.text((GUT + 30, cy), P(metin), font=fb, fill=col, anchor="lm")
+
+    fs = pop(32, "Medium")
+    for metin, cy in [(spec["sol_metin"], bot + 86), (spec["sag_metin"],
+                                                      bot + 232)]:
+        d.text((RIGHT, cy), P(metin), font=fs, fill=(215, 225, 240),
+               anchor="rm")
+
+    fsp = pop(32, "Medium")
+    ty = bot + 320
+    for ln in wrap(d, P(spec["spot"]), fsp, 900):
+        d.text((GUT, ty), ln, font=fsp, fill=(195, 208, 228), anchor="la")
+        ty += 46
+
+    _rozetler(img, d, spec)
+    img.convert("RGB").save(yol)
+
+
+def kapak_yakin(spec, sayac, yol):
+    """Çerçeveyi kıran yakın plan — çizim kenarlardan taşıyor."""
+    img = base()
+    kart = panel(1480, 1100, govde(spec), spec.get("vurgu"))
+    kirp = kart.crop((170, 120, 170 + 1080, 120 + 760))
+    img.alpha_composite(kirp, (0, 600))
+
+    perde = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    pd = ImageDraw.Draw(perde)
+    for i in range(760):
+        pd.line([(0, i), (W, i)], fill=BG + (int(255 * min(1, (760 - i) / 180)),))
+    for i in range(1150, H):
+        pd.line([(0, i), (W, i)], fill=BG + (int(255 * min(1, (i - 1150) / 110)),))
+    img.alpha_composite(perde)
+
+    chrome(img, sayac)
+    d = ImageDraw.Draw(img)
+    f = fit(d, max(spec["satir1"], spec["satir2"], key=len), anton, 956, 124)
+    y = 190
+    img.alpha_composite(glow((W, H), lambda g: g.text(
+        (GUT, y + f.size * 1.16), spec["satir2"], font=f, fill=a(ACC, 0.8),
+        anchor="la"), 28))
+    d = ImageDraw.Draw(img)
+    d.text((GUT, y), spec["satir1"], font=f, fill=WHITE, anchor="la")
+    d.text((GUT, y + f.size * 1.16), spec["satir2"], font=f, fill=ACC,
+           anchor="la")
+    bot = d.textbbox((GUT, y + f.size * 1.16), spec["satir2"], font=f,
+                     anchor="la")[3]
+
+    fs = pop(32, "Medium")
+    ty = bot + 42
+    for ln in wrap(d, P(spec["spot"]), fs, 860):
+        d.text((GUT, ty), ln, font=fs, fill=(205, 216, 232), anchor="la")
+        ty += 46
+
+    _rozetler(img, d, spec)
+    img.convert("RGB").save(yol)
+
+
 def kapak(spec, sayac, yol):
     img = base()
     chrome(img, sayac)
@@ -526,7 +677,8 @@ def hikaye(spec, yol):
     d = ImageDraw.Draw(img)
     d.text((lx + 20, 317), LABEL, font=fl, fill=ACC, anchor="lm")
 
-    s1, s2 = spec["satir1"], spec["satir2"]
+    s1 = spec.get("satir1", spec.get("ustbilgi", "").upper())
+    s2 = spec.get("satir2", spec.get("rakam", ""))
     f = fit(d, max(s1, s2, key=len), anton, 956, 132)
     y = 420
     img.alpha_composite(glow((SW, SH), lambda g: g.text(
@@ -580,8 +732,10 @@ def main():
     slaytlar = spec["slaytlar"]
     toplam = 1 + len(slaytlar) + (1 if spec.get("kapanis") else 0)
     n = 1
-    kapak(spec["kapak"], "%d/%d" % (n, toplam),
-          os.path.join(out, "%d.png" % n))
+    tip = spec["kapak"].get("tip", "klasik")
+    {"rakam": kapak_rakam, "carpisma": kapak_carpisma,
+     "yakin": kapak_yakin}.get(tip, kapak)(
+        spec["kapak"], "%d/%d" % (n, toplam), os.path.join(out, "%d.png" % n))
     ortak = govde(spec["kapak"])
     for i, sl in enumerate(slaytlar, 1):
         n += 1

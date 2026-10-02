@@ -72,6 +72,19 @@ Gün bazlı kaymalar: pazartesi akşamı 19.40 · cuma akşamı 18.10 · çarşa
 
 Görsel dil `uret.py` içinde kodlanmış; bozma, sadeleştirme, "daha temiz" hâle getirme. İstenen his: koyu zemin, tek neon renk, dev başlık, parlayan panel. Canlı ve dikkat çekici olacak, sakin ve editoryal değil.
 
+**Kapak düzeni her gönderide değişir.** Tekdüzelik merak uyandırmıyor. `spec["kapak"]["tip"]` ile seç, arka arkaya aynı tipi kullanma:
+
+| tip | Ne zaman | Nasıl görünür |
+|---|---|---|
+| `rakam` | Konunun merkezinde bir sayı, oran veya ayar varsa (%15 dolgu, 4,7 kΩ, 0,2 mm, 3 duvar) | Dev rakam ekranı dolduruyor, altında ne anlama geldiği |
+| `carpisma` | İki seçenek karşı karşıyaysa (röle/MOSFET, PLA/PETG, dahili/harici) | Çapraz bölünmüş zemin, üstte kırmızı altta yeşil, iki etiket |
+| `yakin` | Şema ya da tablo tek başına ilgi çekiciyse | Çizim %180 büyütülüp kenarlardan taşıyor, üstte karartma, vurgulanan parça yanıyor |
+| `klasik` | Diğerleri | Başlık üstte, panel altta |
+
+`rakam` ek alanlar ister: `ustbilgi`, `rakam`, `rakam_alt`.
+`carpisma` ek alanlar ister: `sol_etiket`, `sag_etiket`, `sol_metin`, `sag_metin`.
+`yakin` mevcut `cizim`/`tablo` ve `vurgu` alanlarını kullanır.
+
 Sabit olanlar:
 - Siyaha yakın zemin (#05080F), köşeden geçen neon ışık huzmeleri
 - Kategori rengi: elektronik camgöbeği, 3D baskı turuncu, proje mor
@@ -80,7 +93,7 @@ Sabit olanlar:
 - Hikaye 1080 × 1920; üstteki ve alttaki 250 px'e içerik girmez, Instagram arayüzü kapatıyor
 - Vurgu sarı hale olarak bileşeni sarar, vurgulanmayan her şey söner
 
-Bunların hiçbiri gönderi bazında değiştirilmez. Değişen tek şey içeriktir.
+Bu beş madde sabittir. Kapak düzeni ve kompozisyon değişkendir — her gönderi aynı görünmemeli.
 
 **Ürettikten sonra kontrol et.** Her gönderinin 1. slaydını, son slaydını ve `hikaye.png` dosyasını `Read` ile aç ve bak: yazı taşmış mı, öğeler üst üste binmiş mi, etiket kırpılmış mı, panel boş mu duruyor. Sorun varsa spec'i düzelt ve yeniden üret. Kontrol etmeden kuyruğa ekleme.
 

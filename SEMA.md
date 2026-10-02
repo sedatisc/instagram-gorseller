@@ -6,6 +6,7 @@
 {
   "kategori": "elektronik | 3dbaski | proje",
   "kapak": {
+    "tip": "klasik | rakam | carpisma | yakin",
     "satir1": "BEYAZ SATIR",
     "satir2": "RENKLİ SATIR",
     "spot": "Bir iki cümlelik kanca.",
@@ -33,6 +34,15 @@
 Slaytta `cizim` veya `tablo` yoksa kapaktaki görsel kullanılır, yalnız `vurgu` değişir. Rehber gönderilerde doğru kullanım budur: tek çizim, üç farklı vurgu.
 
 `kapanis` yalnız liste gönderilerinde bulunur.
+
+## Kapak tipleri
+
+- **`klasik`** — başlık üstte, panel altta. `satir1`, `satir2`, `spot`.
+- **`rakam`** — dev sayı kapağı. `ustbilgi` (küçük üst etiket), `rakam` (dev metin: `%15`, `4,7 kΩ`, `0,2 mm`), `rakam_alt` (ne anlama geldiği), `spot`.
+- **`carpisma`** — çapraz bölünmüş karşılaştırma. `satir1`, `satir2`, `sol_etiket`, `sag_etiket`, `sol_metin`, `sag_metin`, `spot`.
+- **`yakin`** — çizim büyütülüp kenarlardan taşırılır. `satir1`, `satir2`, `spot`, ayrıca `cizim`/`tablo` ve `vurgu`.
+
+Arka arkaya aynı tipi kullanma.
 
 Rozet rengi: `tema` (kategori rengi), `turuncu`, `yesil`, `sari`, `kirmizi`, `gri`, `mavi`, `beyaz`.
 
