@@ -91,6 +91,10 @@ Görsel dil `uret.py` içinde kodlanmış; bozma, sadeleştirme, "daha temiz" h�
 
 **Her kartta gerçek bir sayı olsun.** "Yüksek", "düşük", "dengeli" yazma; 0,20 mm · 205-215 °C · 60 mm/s · %15 yaz. Kaydedilmeyi sağlayan şey kavram değil rakam.
 
+**Her kartta simge olsun ve her kart farklı renkte olsun.** Kartı canlı yapan şey bu ikisi. Tek renge bağlı kalma — turuncu, kırmızı, mavi, yeşil, mor, sarı, camgöbeği hepsi serbest; önemli olanı `genis` yapıp `durum` rozeti ver.
+
+Simgeler: `katman` · `nozzle` · `makara` · `kup` · `isi` · `hiz` · `duvar` · `tabla` · `uyari` · `zaman` · `cip` · `pil` · `dalga` · `damla` · `terazi` · `dis` · `olcu` · `soru`
+
 Sabit olanlar:
 - Siyaha yakın zemin (#05080F), köşeden geçen neon ışık huzmeleri
 - Kategori rengi: elektronik camgöbeği, 3D baskı turuncu, proje mor

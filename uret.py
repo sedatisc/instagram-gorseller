@@ -5,6 +5,7 @@ Kullanım:  python3 uret.py gonderi.json cikis_klasoru
 JSON şeması için SEMA.md dosyasına bak.
 """
 import json
+import math
 import os
 import sys
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageChops
@@ -28,7 +29,8 @@ YELLOW = (250, 204, 21)
 RED = (255, 71, 102)
 GREY = (150, 165, 195)
 
-RENKLER = {"mavi": BLUE, "yesil": GREEN, "turuncu": ORANGE, "sari": YELLOW,
+MOR = (167, 139, 250)
+RENKLER = {"mavi": BLUE, "mor": MOR, "yesil": GREEN, "turuncu": ORANGE, "sari": YELLOW,
            "kirmizi": RED, "gri": GREY, "beyaz": WHITE}
 
 THEMES = {
@@ -525,6 +527,154 @@ def kapak_yakin(spec, sayac, yol):
     img.convert("RGB").save(yol)
 
 
+def ikon(d, ad, cx, cy, s, col):
+    """Kart içi vektör simgesi — kalın, ikonik, tek renk."""
+    w3 = max(4, int(s * 0.075))
+    r = s * 0.5
+
+    if ad == "katman":
+        for i in range(4):
+            gen = r * (1.75 - i * 0.18)
+            yy = cy + r * 0.62 - i * s * 0.21
+            d.rounded_rectangle([cx - gen / 2, yy - s * 0.085,
+                                 cx + gen / 2, yy + s * 0.085],
+                                radius=s * 0.05, outline=col, width=w3)
+    elif ad == "nozzle":
+        d.polygon([(cx - r * 0.72, cy - r * 0.9), (cx + r * 0.72, cy - r * 0.9),
+                   (cx + r * 0.72, cy - r * 0.15), (cx + r * 0.2, cy + r * 0.5),
+                   (cx - r * 0.2, cy + r * 0.5), (cx - r * 0.72, cy - r * 0.15)],
+                  outline=col, width=w3)
+        d.ellipse([cx - r * 0.17, cy + r * 0.68, cx + r * 0.17, cy + r * 1.02],
+                  fill=col)
+    elif ad == "makara":
+        for sg in (-1, 1):
+            d.rounded_rectangle([cx + sg * r * 0.78 - r * 0.17, cy - r * 0.92,
+                                 cx + sg * r * 0.78 + r * 0.17, cy + r * 0.92],
+                                radius=s * 0.05, outline=col, width=w3)
+        d.rectangle([cx - r * 0.61, cy - r * 0.46, cx + r * 0.61, cy + r * 0.46],
+                    outline=col, width=w3)
+        for t in (-0.2, 0.2):
+            d.line([(cx - r * 0.61, cy + r * t), (cx + r * 0.61, cy + r * t)],
+                   fill=col, width=max(2, w3 - 2))
+        d.line([(cx + r * 0.95, cy - r * 0.55), (cx + r * 1.25, cy - r * 0.9)],
+               fill=col, width=w3)
+    elif ad == "dis":
+        d.ellipse([cx - r * 0.56, cy - r * 0.56, cx + r * 0.56, cy + r * 0.56],
+                  outline=col, width=w3)
+        for i in range(8):
+            a_ = i * 3.1416 / 4
+            d.line([(cx + math.cos(a_) * r * 0.62, cy + math.sin(a_) * r * 0.62),
+                    (cx + math.cos(a_) * r * 0.97, cy + math.sin(a_) * r * 0.97)],
+                   fill=col, width=int(w3 * 1.5))
+    elif ad == "olcu":
+        d.rounded_rectangle([cx - r * 0.98, cy - r * 0.34, cx + r * 0.98,
+                             cy + r * 0.34], radius=s * 0.04, outline=col,
+                            width=w3)
+        for i in range(5):
+            xx = cx - r * 0.72 + i * r * 0.36
+            uz = r * 0.3 if i % 2 == 0 else r * 0.17
+            d.line([(xx, cy - r * 0.34), (xx, cy - r * 0.34 + uz)], fill=col,
+                   width=max(2, w3 - 2))
+    elif ad == "soru":
+        d.ellipse([cx - r * 0.95, cy - r * 0.95, cx + r * 0.95, cy + r * 0.95],
+                  outline=col, width=w3)
+        d.arc([cx - r * 0.38, cy - r * 0.62, cx + r * 0.38, cy + r * 0.04],
+              180, 20, fill=col, width=w3)
+        d.line([(cx + r * 0.05, cy - r * 0.08), (cx, cy + r * 0.3)], fill=col,
+               width=w3)
+        d.ellipse([cx - w3 * 0.9, cy + r * 0.5, cx + w3 * 0.9,
+                   cy + r * 0.5 + w3 * 1.8], fill=col)
+    elif ad == "kup":
+        ust = [(cx, cy - r * 0.95), (cx + r * 0.85, cy - r * 0.45),
+               (cx, cy + r * 0.05), (cx - r * 0.85, cy - r * 0.45)]
+        d.polygon(ust, outline=col, width=w3)
+        d.line([(cx - r * 0.85, cy - r * 0.45), (cx - r * 0.85, cy + r * 0.5),
+                (cx, cy + r * 0.98), (cx + r * 0.85, cy + r * 0.5),
+                (cx + r * 0.85, cy - r * 0.45)], fill=col, width=w3)
+        d.line([(cx, cy + r * 0.05), (cx, cy + r * 0.98)], fill=col, width=w3)
+        for t in (0.3, 0.62):
+            d.line([(cx - r * 0.85, cy - r * 0.45 + r * 0.95 * t),
+                    (cx, cy + r * 0.05 + r * 0.93 * t)], fill=col,
+                   width=max(2, w3 - 2))
+    elif ad == "isi":
+        for i, ox in enumerate((-r * 0.6, 0, r * 0.6)):
+            pts = []
+            for j in range(13):
+                t = j / 12
+                pts.append((cx + ox + math.sin(t * 6.3 + i) * r * 0.22,
+                            cy + r * 0.95 - t * r * 1.9))
+            d.line(pts, fill=col, width=w3)
+    elif ad == "hiz":
+        for i, (uz, yy) in enumerate([(1.5, -0.55), (1.1, 0), (1.5, 0.55)]):
+            d.line([(cx - r * 0.95, cy + r * yy),
+                    (cx - r * 0.95 + r * uz * 0.72, cy + r * yy)],
+                   fill=col, width=w3)
+        d.polygon([(cx + r * 0.42, cy - r * 0.42), (cx + r * 0.98, cy),
+                   (cx + r * 0.42, cy + r * 0.42)], fill=col)
+    elif ad == "duvar":
+        for i in range(3):
+            g = r * (0.95 - i * 0.26)
+            d.rounded_rectangle([cx - g, cy - g, cx + g, cy + g],
+                                radius=s * 0.06, outline=col, width=w3)
+    elif ad == "tabla":
+        d.rounded_rectangle([cx - r * 0.98, cy - r * 0.22, cx + r * 0.98,
+                             cy + r * 0.18], radius=s * 0.04, outline=col,
+                            width=w3)
+        for ox in (-r * 0.5, 0, r * 0.5):
+            pts = [(cx + ox + math.sin(t / 4 * 6.3) * r * 0.14,
+                    cy + r * 0.4 + t * r * 0.14) for t in range(5)]
+            d.line(pts, fill=col, width=max(3, w3 - 1))
+    elif ad == "uyari":
+        d.polygon([(cx, cy - r * 0.95), (cx + r * 0.98, cy + r * 0.78),
+                   (cx - r * 0.98, cy + r * 0.78)], outline=col, width=w3)
+        d.line([(cx, cy - r * 0.3), (cx, cy + r * 0.24)], fill=col, width=w3)
+        d.ellipse([cx - w3 * 0.8, cy + r * 0.44, cx + w3 * 0.8, cy + r * 0.44 +
+                   w3 * 1.6], fill=col)
+    elif ad == "zaman":
+        d.ellipse([cx - r * 0.92, cy - r * 0.92, cx + r * 0.92, cy + r * 0.92],
+                  outline=col, width=w3)
+        d.line([(cx, cy), (cx, cy - r * 0.52)], fill=col, width=w3)
+        d.line([(cx, cy), (cx + r * 0.44, cy + r * 0.2)], fill=col, width=w3)
+    elif ad == "cip":
+        d.rounded_rectangle([cx - r * 0.62, cy - r * 0.62, cx + r * 0.62,
+                             cy + r * 0.62], radius=s * 0.06, outline=col,
+                            width=w3)
+        for t in (-0.34, 0, 0.34):
+            for sg in (-1, 1):
+                d.line([(cx + sg * r * 0.62, cy + r * t),
+                        (cx + sg * r * 0.97, cy + r * t)], fill=col, width=w3)
+                d.line([(cx + r * t, cy + sg * r * 0.62),
+                        (cx + r * t, cy + sg * r * 0.97)], fill=col, width=w3)
+    elif ad == "pil":
+        d.rounded_rectangle([cx - r * 0.95, cy - r * 0.5, cx + r * 0.75,
+                             cy + r * 0.5], radius=s * 0.05, outline=col,
+                            width=w3)
+        d.rectangle([cx + r * 0.78, cy - r * 0.2, cx + r * 0.98, cy + r * 0.2],
+                    fill=col)
+        for i in range(2):
+            d.rectangle([cx - r * 0.78 + i * r * 0.46, cy - r * 0.26,
+                         cx - r * 0.48 + i * r * 0.46, cy + r * 0.26], fill=col)
+    elif ad == "dalga":
+        pts = [(cx - r * 0.98 + i / 24 * r * 1.96,
+                cy - math.sin(i / 24 * 12.6) * r * 0.62) for i in range(25)]
+        d.line(pts, fill=col, width=w3, joint="curve")
+    elif ad == "damla":
+        d.polygon([(cx, cy - r * 0.98), (cx + r * 0.6, cy + r * 0.25),
+                   (cx - r * 0.6, cy + r * 0.25)], outline=col, width=w3)
+        d.ellipse([cx - r * 0.6, cy - r * 0.35, cx + r * 0.6, cy + r * 0.85],
+                  outline=col, width=w3)
+    elif ad == "terazi":
+        d.line([(cx, cy - r * 0.9), (cx, cy + r * 0.85)], fill=col, width=w3)
+        d.line([(cx - r * 0.92, cy - r * 0.5), (cx + r * 0.92, cy - r * 0.5)],
+               fill=col, width=w3)
+        for sg in (-1, 1):
+            d.arc([cx + sg * r * 0.92 - r * 0.38, cy - r * 0.5,
+                   cx + sg * r * 0.92 + r * 0.38, cy + r * 0.26], 0, 180,
+                  fill=col, width=w3)
+        d.line([(cx - r * 0.5, cy + r * 0.85), (cx + r * 0.5, cy + r * 0.85)],
+               fill=col, width=w3)
+
+
 def _kart(img, x, y, w, h, k):
     col = RENKLER.get(k.get("renk", "tema"), ACC)
     if k.get("renk", "tema") == "tema":
@@ -552,13 +702,23 @@ def _kart(img, x, y, w, h, k):
             d.line([(cx - 8, cy - 8), (cx + 8, cy + 8)], fill=dc, width=4)
             d.line([(cx + 8, cy - 8), (cx - 8, cy + 8)], fill=dc, width=4)
 
+    simge = k.get("ikon")
+    ik_s = min(h * 0.52, 108) if simge else 0
+    metin_gen = w - 52 - (ik_s + 26 if simge else 0)
+    if simge:
+        ikx, iky = x + w - 30 - ik_s / 2, y + h / 2 + 8
+        img.alpha_composite(glow((W, H), lambda g: ikon(
+            g, simge, ikx, iky, ik_s, a(col, 0.85)), 16))
+        d = ImageDraw.Draw(img)
+        ikon(d, simge, ikx, iky, ik_s, col)
+
     fa = pop(24, "Medium")
-    satir = wrap(d, P(k["alt"]), fa, w - 52)[:2] if k.get("alt") else []
+    satir = wrap(d, P(k["alt"]), fa, metin_gen)[:2] if k.get("alt") else []
     alt_ust = y + h - 26 - (len(satir) - 1) * 30 if satir else y + h - 8
 
     deger = P(k["deger"])
     bant = max(44, alt_ust - 22 - (y + 58))
-    fd = fit(d, deger, anton, w - 52, int(bant * 1.1), 30)
+    fd = fit(d, deger, anton, metin_gen, int(bant * 1.1), 30)
     dy = (y + 58 + alt_ust - 22) / 2
     img.alpha_composite(glow((W, H), lambda g: g.text(
         (x + 26, dy), deger, font=fd, fill=a(YELLOW, 0.75), anchor="lm"), 18))
