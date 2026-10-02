@@ -70,7 +70,7 @@ Gün bazlı kaymalar: pazartesi akşamı 19.40 · cuma akşamı 18.10 · çarşa
 
 ## Görsel kuralları
 
-Görsel dil `uret.py` içinde kodlanmış; bozma, sadeleştirme, "daha temiz" hâle getirme. İstenen his: koyu zemin, tek neon renk, dev başlık, parlayan panel. Canlı ve dikkat çekici olacak, sakin ve editoryal değil.
+Görsel dil `uret.py` içinde kodlanmış; bozma, sadeleştirme, "daha temiz" hâle getirme. İstenen his: dev başlık, yoğun bilgi, canlı renk. Dikkat çekici olacak, sakin ve editoryal değil.
 
 **Kapak düzeni her gönderide değişir.** Tekdüzelik merak uyandırmıyor. `spec["kapak"]["tip"]` ile seç, arka arkaya aynı tipi kullanma:
 
@@ -95,15 +95,31 @@ Görsel dil `uret.py` içinde kodlanmış; bozma, sadeleştirme, "daha temiz" h�
 
 Simgeler: `katman` · `nozzle` · `makara` · `kup` · `isi` · `hiz` · `duvar` · `tabla` · `uyari` · `zaman` · `cip` · `pil` · `dalga` · `damla` · `terazi` · `dis` · `olcu` · `soru`
 
-Sabit olanlar:
-- Siyaha yakın zemin (#05080F), köşeden geçen neon ışık huzmeleri
-- Kategori rengi: elektronik camgöbeği, 3D baskı turuncu, proje mor
-- Kapakta iki satır Anton başlık — birinci beyaz, ikinci kategori renginde ve ışık halesi
-- Panel: neon çerçeveli koyu kart, içinde ızgara, dışında parıltı
-- Hikaye 1080 × 1920; üstteki ve alttaki 250 px'e içerik girmez, Instagram arayüzü kapatıyor
-- Vurgu sarı hale olarak bileşeni sarar, vurgulanmayan her şey söner
+**Zemin de her gönderide değişir.** `spec["zemin"]` ile seç. Hepsi siyah olursa akışta tek düze görünüyor:
 
-Bu beş madde sabittir. Kapak düzeni ve kompozisyon değişkendir — her gönderi aynı görünmemeli.
+| zemin | Nasıl görünür |
+|---|---|
+| `koyu` | Siyaha yakın, köşeden geçen neon huzmeler — kurulu neon dil |
+| `acik` | Aydınlık gri-mavi, koyu lacivert yazı, kart rakamları kendi renginde |
+| `indigo` | Derin mor-mavi, altın sarısı vurgu |
+| `kobalt` | Koyu mavi, su yeşili vurgu |
+| `okyanus` | Derin petrol, sarı vurgu |
+| `orman` | Koyu yeşil, limon vurgu |
+| `mor` | Mor, pembe vurgu |
+| `kiraz` | Koyu vişne, şeftali vurgu |
+
+`acik` zeminde kart rakamları kartın kendi rengini alıyor, panel beyaza dönüyor, şema koyu mürekkeple çiziliyor — hepsi otomatik, ek alan gerekmez.
+
+**Günün üç gönderisi hem `tip` hem `zemin` bakımından farklı olacak.** Aynı gün iki `klasik` ya da iki `koyu` çıkmayacak. Ard arda iki günde aynı kombinasyon tekrarlanmayacak. Haftada en az bir `acik` gönderi olsun — akışta koyu kareler arasında o fark ediliyor.
+
+Sabit olanlar:
+- Kategori rengi: elektronik camgöbeği, 3D baskı turuncu, proje mor
+- Kapakta iki satır Anton başlık — birinci kontrast renkte, ikinci vurgu renginde ve ışık halesi
+- Panel: çerçeveli kart, içinde ızgara, dışında parıltı
+- Hikaye 1080 × 1920; üstteki ve alttaki 250 px'e içerik girmez, Instagram arayüzü kapatıyor
+- Vurgu hale olarak bileşeni sarar, vurgulanmayan her şey söner
+
+Bunlar sabittir. Kapak düzeni, zemin ve kompozisyon değişkendir — her gönderi aynı görünmemeli.
 
 **Ürettikten sonra kontrol et.** Her gönderinin 1. slaydını, son slaydını ve `hikaye.png` dosyasını `Read` ile aç ve bak: yazı taşmış mı, öğeler üst üste binmiş mi, etiket kırpılmış mı, panel boş mu duruyor. Sorun varsa spec'i düzelt ve yeniden üret. Kontrol etmeden kuyruğa ekleme.
 

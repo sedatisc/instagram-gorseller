@@ -5,6 +5,7 @@
 ```json
 {
   "kategori": "elektronik | 3dbaski | proje",
+  "zemin": "koyu | acik | indigo | kobalt | okyanus | orman | mor | kiraz",
   "kapak": {
     "tip": "klasik | rakam | carpisma | yakin | izgara",
     "satir1": "BEYAZ SATIR",
@@ -48,6 +49,16 @@ Simge listesi: `katman` (katman yığını) · `nozzle` · `makara` (filament ma
 Renkler: `tema` · `turuncu` · `kirmizi` · `mavi` · `yesil` · `mor` · `sari` · `gri` · `beyaz`. Her kart farklı renkte olsun. 5-7 kart ideal; ara slaytlar kart listesinden otomatik tablo üretir.
 
 Arka arkaya aynı tipi kullanma.
+
+## Zemin
+
+`zemin` tüm slaytları ve hikayeyi birlikte değiştirir:
+
+- `koyu` — varsayılan. Siyaha yakın zemin, neon huzmeler.
+- `acik` — aydınlık zemin, koyu yazı. Panel beyaza döner, şema koyu mürekkeple çizilir, kart rakamları kartın kendi rengini alır.
+- `indigo` · `kobalt` · `okyanus` · `orman` · `mor` · `kiraz` — doygun renk zemin. Her biri kendi vurgu rengini getirir; kategori rengi yalnız logo şeridinde kalır.
+
+Renk uyumu otomatik: kart renkleri, iletkenler ve panel zemine göre açılıp koyulaşıyor. Spec'te renk ayarı yapmaya gerek yok.
 
 Rozet rengi: `tema` (kategori rengi), `turuncu`, `yesil`, `sari`, `kirmizi`, `gri`, `mavi`, `beyaz`.
 

@@ -74,6 +74,122 @@ def P(s):
     return s.replace("\u03a9", "\u2126")
 
 
+PAL = {}
+
+
+def _kar(c, t):
+    return tuple(int(c[i] + (255 - c[i]) * t) for i in range(3))
+
+
+def _koy(c, t):
+    return tuple(int(c[i] * (1 - t)) for i in range(3))
+
+
+CANLI = {
+    "indigo":  ((46, 40, 128), (16, 12, 52), (255, 214, 102)),
+    "kobalt":  ((18, 58, 146), (5, 20, 66), (94, 234, 212)),
+    "okyanus": ((8, 84, 102), (3, 32, 50), (253, 224, 71)),
+    "orman":   ((10, 84, 60), (3, 32, 28), (190, 242, 100)),
+    "mor":     ((80, 30, 118), (26, 8, 50), (244, 114, 182)),
+    "kiraz":   ((128, 24, 62), (46, 6, 28), (253, 186, 116)),
+}
+
+
+def zemin_ayarla(mod):
+    """Zemin: koyu · acik · canlı renklerden biri (indigo, kobalt,
+    okyanus, orman, mor, kiraz)."""
+    global PAL
+    if mod in CANLI:
+        ust, alt, vurgu = CANLI[mod]
+        PAL = {"mod": "canli", "ad": mod, "ust": ust, "alt": alt,
+               "fg": WHITE, "fg2": _kar(ust, 0.74), "soluk": _kar(ust, 0.52),
+               "rakam": WHITE, "vurgu": vurgu,
+               "kart_op": 0.15, "kontur_op": 0.62}
+    elif mod == "acik":
+        PAL = {"mod": mod, "ust": (247, 249, 253), "alt": (224, 233, 247),
+               "fg": (10, 20, 44), "fg2": (84, 98, 126),
+               "soluk": (120, 134, 162), "rakam": None, "vurgu": None,
+               "kart_op": 0.12, "kontur_op": 0.85}
+    else:
+        PAL = {"mod": "koyu", "ust": BG, "alt": BG, "fg": WHITE,
+               "fg2": (190, 203, 224), "soluk": MUTE, "rakam": YELLOW,
+               "vurgu": None, "kart_op": 0.09, "kontur_op": 0.55}
+
+
+def _mod():
+    return PAL.get("mod", "koyu") if PAL else "koyu"
+
+
+def _P(k, d):
+    v = PAL.get(k) if PAL else None
+    return d if v is None else v
+
+
+def FG():
+    return _P("fg", WHITE)
+
+
+def FG2():
+    return _P("fg2", (205, 216, 232))
+
+
+def SOFT():
+    return _P("soluk", MUTE)
+
+
+def AC():
+    """Zemin moduna göre okunur vurgu rengi."""
+    m = _mod()
+    if m == "canli":
+        return PAL["vurgu"]
+    if m == "acik":
+        return _koy(ACC, 0.42)
+    return ACC
+
+
+def RK(col=None):
+    """Dev rakam rengi — açık zeminde kartın kendi rengi."""
+    m = _mod()
+    if m == "canli":
+        return WHITE
+    if m == "acik":
+        return col if col else (12, 22, 46)
+    return YELLOW
+
+
+def KC(col):
+    """Kart rengini zemine göre dengele."""
+    m = _mod()
+    if m == "canli":
+        return _kar(col, 0.12)
+    if m == "acik":
+        l = 0.2126 * col[0] + 0.7152 * col[1] + 0.0722 * col[2]
+        if l > 118:
+            return tuple(int(v * 118.0 / l) for v in col)
+    return col
+
+
+def UZER(col):
+    """Dolu buton üstünde okunur yazı rengi."""
+    l = 0.2126 * col[0] + 0.7152 * col[1] + 0.0722 * col[2]
+    return (6, 10, 20) if l > 140 else WHITE
+
+
+def WR():
+    """İletken rengi — açık zeminde koyu mürekkep."""
+    return (22, 32, 56) if _mod() == "acik" else WIRE
+
+
+def PNL():
+    """Panel dolgusu."""
+    return (252, 253, 255) if _mod() == "acik" else PANEL
+
+
+def ISIK(x):
+    """Açık zeminde parıltı kısılır."""
+    return x * 0.26 if _mod() == "acik" else x
+
+
 def a(c, alpha):
     return tuple(c) + (int(255 * alpha),)
 
@@ -96,12 +212,17 @@ _logo = Image.open(os.path.join(HERE, "marka", "logo-yatay.png")).convert("RGBA"
 def bright_logo(h):
     im = _logo.copy()
     r, g, b, al = im.split()
-    lift = lambda v: min(255, int(70 + v * 0.86))
+    if _mod() == "acik":
+        lift = lambda v: int(v * 0.42)
+    else:
+        lift = lambda v: min(255, int(70 + v * 0.86))
     im = Image.merge("RGBA", (r.point(lift), g.point(lift), b.point(lift), al))
     return im.resize((int(im.width * h / im.height), h), Image.LANCZOS)
 
 
 def base():
+    if PAL and PAL.get("mod") != "koyu":
+        return base_renkli()
     img = Image.new("RGBA", (W, H), BG + (255,))
 
     def bands(d):
@@ -125,6 +246,46 @@ def base():
     return img
 
 
+def base_renkli(W=W, H=H):
+    """Canlı ya da açık zemin — düz siyah yerine renk."""
+    img = Image.new("RGB", (W, H), PAL["ust"])
+    d = ImageDraw.Draw(img)
+    for y in range(H):
+        t = y / (H - 1)
+        d.line([(0, y), (W, y)], fill=tuple(
+            int(PAL["ust"][i] + (PAL["alt"][i] - PAL["ust"][i]) * t)
+            for i in range(3)))
+    img = img.convert("RGBA")
+
+    acik = PAL["mod"] == "acik"
+    oy = H / 1350.0
+    vur = PAL.get("vurgu") or ACC
+    for cx, cy, rad, col, op in [
+            (210, 230 * oy, 560, ACC if acik else vur, 0.16 if acik else 0.22),
+            (930, 1180 * oy, 520, BLUE if acik else WHITE,
+             0.10 if acik else 0.13)]:
+        blob = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(blob).ellipse([cx - rad, cy - rad, cx + rad, cy + rad],
+                                     fill=a(col, op))
+        img.alpha_composite(blob.filter(ImageFilter.GaussianBlur(170)))
+
+    cizgi = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    cd = ImageDraw.Draw(cizgi)
+    taban = (10, 20, 44) if acik else WHITE
+    cd.line([(-300, 760 * oy), (820, -420)], fill=a(taban, 0.07), width=200)
+    cd.line([(320, 1700 * oy), (1400, 560 * oy)], fill=a(taban, 0.05),
+            width=160)
+    img.alpha_composite(cizgi.filter(ImageFilter.GaussianBlur(50)))
+
+    dots = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    dd = ImageDraw.Draw(dots)
+    for y in range(0, H, 54):
+        for x in range(0, W, 54):
+            dd.ellipse([x - 1, y - 1, x + 1, y + 1], fill=a(taban, 0.11))
+    img.alpha_composite(dots)
+    return img
+
+
 def chrome(img, counter):
     logo = bright_logo(34)
     img.alpha_composite(logo, (GUT, 56))
@@ -136,18 +297,21 @@ def chrome(img, counter):
     lw = d.textlength(LABEL, font=fl)
     lx = GUT + logo.width + 26
 
+    AA = AC()
+
     def wash(g):
         g.rounded_rectangle([x0, 50, RIGHT, 98], radius=24,
-                            fill=a(ACC, 0.14), outline=a(ACC, 0.6), width=2)
+                            fill=a(AA, 0.14), outline=a(AA, 0.6), width=2)
         g.rounded_rectangle([lx, 58, lx + lw + 40, 100], radius=21,
-                            fill=a(ACC, 0.12), outline=a(ACC, 0.45), width=2)
-        g.line([(GUT, 124), (RIGHT, 124)], fill=a(ACC, 0.30), width=2)
-        g.line([(GUT + 212, 1296), (RIGHT, 1296)], fill=a(ACC, 0.20), width=2)
+                            fill=a(AA, 0.12), outline=a(AA, 0.45), width=2)
+        g.line([(GUT, 124), (RIGHT, 124)], fill=a(AA, 0.30), width=2)
+        g.line([(GUT + 212, 1296), (RIGHT, 1296)], fill=a(AA, 0.20), width=2)
     over(img, wash)
     d = ImageDraw.Draw(img)
-    d.text(((x0 + RIGHT) / 2, 74), counter, font=f, fill=ACC, anchor="mm")
-    d.text((lx + 20, 79), LABEL, font=fl, fill=ACC, anchor="lm")
-    d.text((GUT, 1296), "@sermenkreatif", font=mono(26), fill=MUTE, anchor="lm")
+    d.text(((x0 + RIGHT) / 2, 74), counter, font=f, fill=AA, anchor="mm")
+    d.text((lx + 20, 79), LABEL, font=fl, fill=AA, anchor="lm")
+    d.text((GUT, 1296), "@sermenkreatif", font=mono(26), fill=SOFT(),
+           anchor="lm")
 
 
 def fit(d, text, maker, maxw, start, floor=40):
@@ -172,9 +336,9 @@ def wrap(d, text, font, maxw):
 
 # ------------------------------------------------------------------ çizim
 def _label(d, x, y, ad, deger, anchor="mm"):
-    d.text((x, y), ad, font=mono(42, True), fill=WHITE, anchor=anchor)
+    d.text((x, y), ad, font=mono(42, True), fill=FG(), anchor=anchor)
     if deger:
-        d.text((x, y + 52), P(deger), font=pop(38, "Medium"), fill=MUTE,
+        d.text((x, y + 52), P(deger), font=pop(38, "Medium"), fill=SOFT(),
                anchor=anchor)
 
 
@@ -190,16 +354,16 @@ def ciz(d, ogeler):
         t = o["t"]
         if t == "w":
             pts = [tuple(p) for p in o["p"]]
-            d.line(pts, fill=WIRE, width=8, joint="curve")
+            d.line(pts, fill=WR(), width=8, joint="curve")
         elif t == "n":
             d.ellipse([o["x"] - 13, o["y"] - 13, o["x"] + 13, o["y"] + 13],
-                      fill=WIRE)
+                      fill=WR())
         elif t == "r":
             yon = o.get("yon", "h")
             w, h = (240, 76) if yon == "h" else (76, 240)
             w, h = o.get("w", w), o.get("h", h)
             d.rectangle([o["x"], o["y"], o["x"] + w, o["y"] + h],
-                        fill=PANEL + (255,), outline=ORANGE, width=8)
+                        fill=PNL() + (255,), outline=KC(ORANGE), width=8)
             lx, ly, an = _etiket_konum(o.get("etiket", "ust"), o["x"], o["y"],
                                        w, h)
             _label(d, lx, ly, o.get("ad", ""), o.get("deger", ""), an)
@@ -207,39 +371,41 @@ def ciz(d, ogeler):
             yon = o.get("yon", "v")
             if yon == "v":
                 d.line([(o["x"] - 50, o["y"]), (o["x"] + 50, o["y"])],
-                       fill=GREEN, width=8)
+                       fill=KC(GREEN), width=8)
                 d.line([(o["x"] - 50, o["y"] + 32), (o["x"] + 50, o["y"] + 32)],
-                       fill=GREEN, width=8)
+                       fill=KC(GREEN), width=8)
                 lx, ly, an = o["x"] + 78, o["y"] - 6, "lm"
             else:
                 d.line([(o["x"], o["y"] - 50), (o["x"], o["y"] + 50)],
-                       fill=GREEN, width=8)
+                       fill=KC(GREEN), width=8)
                 d.line([(o["x"] + 32, o["y"] - 50), (o["x"] + 32, o["y"] + 50)],
-                       fill=GREEN, width=8)
+                       fill=KC(GREEN), width=8)
                 lx, ly, an = o["x"] + 16, o["y"] + 86, "mm"
             _label(d, lx, ly, o.get("ad", ""), o.get("deger", ""), an)
         elif t == "g":
             b = o.get("b", 130)
             for i, ww in enumerate((b, int(b * 0.62), int(b * 0.3))):
                 d.line([(o["x"] - ww / 2, o["y"] + i * 26),
-                        (o["x"] + ww / 2, o["y"] + i * 26)], fill=WIRE, width=8)
+                        (o["x"] + ww / 2, o["y"] + i * 26)], fill=WR(), width=8)
         elif t == "t":
             f = mono(38, True)
             tw = ImageDraw.Draw(Image.new("RGB", (1, 1))).textlength(
                 o["metin"], font=f)
             d.rounded_rectangle([o["x"] - tw / 2 - 30, o["y"] - 38,
                                  o["x"] + tw / 2 + 30, o["y"] + 38], radius=38,
-                                fill=a(ACC, 0.14), outline=a(ACC, 0.6), width=3)
-            d.text((o["x"], o["y"]), o["metin"], font=f, fill=ACC, anchor="mm")
+                                fill=a(AC(), 0.14), outline=a(AC(), 0.6),
+                                width=3)
+            d.text((o["x"], o["y"]), o["metin"], font=f, fill=AC(),
+                   anchor="mm")
         elif t == "k":
             d.rounded_rectangle([o["x0"], o["y0"], o["x1"], o["y1"]], radius=24,
-                                fill=a(BLUE, 0.10), outline=a(BLUE, 0.7),
+                                fill=a(KC(BLUE), 0.10), outline=a(KC(BLUE), 0.7),
                                 width=5)
             if o.get("metin"):
                 d.text(((o["x0"] + o["x1"]) / 2, o["y0"] + 48), o["metin"],
-                       font=mono(34), fill=BLUE, anchor="mm")
+                       font=mono(34), fill=KC(BLUE), anchor="mm")
         elif t == "d":
-            col = RENKLER.get(o.get("renk", "kirmizi"), RED)
+            col = KC(RENKLER.get(o.get("renk", "kirmizi"), RED))
             f = pop(36, "Bold")
             tw = ImageDraw.Draw(Image.new("RGB", (1, 1))).textlength(
                 o["metin"], font=f)
@@ -248,7 +414,7 @@ def ciz(d, ogeler):
                                 fill=a(col, 0.16), outline=a(col, 0.9), width=3)
             d.text((o["x"], o["y"]), o["metin"], font=f, fill=col, anchor="mm")
         elif t == "y":
-            col = RENKLER.get(o.get("renk", "beyaz"), WHITE)
+            col = KC(RENKLER.get(o.get("renk", "beyaz"), WHITE))
             d.text((o["x"], o["y"]), P(o["metin"]),
                    font=pop(o.get("boy", 38), "Medium"), fill=col,
                    anchor=o.get("hiza", "mm"))
@@ -257,20 +423,20 @@ def ciz(d, ogeler):
             if yon == "v":
                 h = o.get("h", 90)
                 d.ellipse([o["x"] - 9, o["y"] - 9, o["x"] + 9, o["y"] + 9],
-                          fill=WIRE)
+                          fill=WR())
                 d.ellipse([o["x"] - 9, o["y"] + h - 9, o["x"] + 9,
-                           o["y"] + h + 9], fill=WIRE)
+                           o["y"] + h + 9], fill=WR())
                 d.line([(o["x"], o["y"]), (o["x"] + 60, o["y"] + h - 12)],
-                       fill=WIRE, width=8)
+                       fill=WR(), width=8)
                 lx, ly, an = o["x"] + 96, o["y"] + h / 2 - 26, "lm"
             else:
                 w = o.get("w", 90)
                 d.ellipse([o["x"] - 9, o["y"] - 9, o["x"] + 9, o["y"] + 9],
-                          fill=WIRE)
+                          fill=WR())
                 d.ellipse([o["x"] + w - 9, o["y"] - 9, o["x"] + w + 9,
-                           o["y"] + 9], fill=WIRE)
+                           o["y"] + 9], fill=WR())
                 d.line([(o["x"], o["y"]), (o["x"] + w - 12, o["y"] - 60)],
-                       fill=WIRE, width=8)
+                       fill=WR(), width=8)
                 lx, ly, an = o["x"] + w / 2, o["y"] + 70, "mm"
             _label(d, lx, ly, o.get("ad", ""), o.get("deger", ""), an)
         elif t == "renk":
@@ -285,19 +451,24 @@ def ciz(d, ogeler):
                        anchor="mm")
         elif t == "cizgi":
             d.line([(o["x0"], o["y0"]), (o["x1"], o["y1"])],
-                   fill=a(ACC, 0.18), width=3)
+                   fill=a(AC(), 0.25), width=3)
 
 
 def tablo(d, satirlar):
-    """Devre yerine veri paneli — 3D baskı ve proje kategorileri için."""
-    top = 120
+    """Devre yerine veri paneli — satırlar paneli dolduracak kadar açılır."""
+    n = max(1, len(satirlar))
+    ust, alt, ara = 60, 880, 26
+    h = min(250, (alt - ust) / n - ara)
+    adim_y = h + ara
+    y0 = ust + ((alt - ust) - (adim_y * n - ara)) / 2
+    fk = mono(max(30, min(54, int(h * 0.30))), True)
+    fv = pop(max(32, min(58, int(h * 0.33))), "Medium")
     for i, (k, v) in enumerate(satirlar):
-        y = top + i * 150
-        d.rounded_rectangle([120, y, 1790, y + 120], radius=22,
-                            fill=a(ACC, 0.07), outline=a(ACC, 0.30), width=3)
-        d.text((165, y + 60), k, font=mono(40, True), fill=ACC, anchor="lm")
-        d.text((1745, y + 60), P(v), font=pop(42, "Medium"),
-               fill=(225, 233, 245), anchor="rm")
+        y = y0 + i * adim_y
+        d.rounded_rectangle([120, y, 1790, y + h], radius=22,
+                            fill=a(AC(), 0.09), outline=a(AC(), 0.34), width=3)
+        d.text((165, y + h / 2), k, font=fk, fill=AC(), anchor="lm")
+        d.text((1745, y + h / 2), P(v), font=fv, fill=FG(), anchor="rm")
 
 
 def panel(w, h, fn, vurgu=None):
@@ -331,18 +502,20 @@ def panel(w, h, fn, vurgu=None):
             lambda v: min(255, int(v * 2.6)))
         far = ra.filter(ImageFilter.GaussianBlur(56 * S)).point(
             lambda v: min(140, int(v * 1.7)))
-        halo = Image.new("RGBA", (dw, dh), YELLOW + (0,))
+        halo = Image.new("RGBA", (dw, dh), (AC() if _mod() == "acik"
+                                           else YELLOW) + (0,))
         halo.putalpha(ImageChops.lighter(near, far))
 
     card = Image.new("RGBA", (dw, dh), (0, 0, 0, 0))
     ImageDraw.Draw(card).rounded_rectangle([0, 0, dw - 1, dh - 1],
-                                           radius=30 * S, fill=PANEL + (255,))
+                                           radius=30 * S, fill=PNL() + (255,))
     grid = Image.new("RGBA", (dw, dh), (0, 0, 0, 0))
     gd = ImageDraw.Draw(grid)
+    izgara_renk = a(AC(), 0.09 if _mod() == "acik" else 0.05)
     for gy in range(0, dh, 44 * S):
-        gd.line([(0, gy), (dw, gy)], fill=a(ACC, 0.05), width=2)
+        gd.line([(0, gy), (dw, gy)], fill=izgara_renk, width=2)
     for gx in range(0, dw, 44 * S):
-        gd.line([(gx, 0), (gx, dh)], fill=a(ACC, 0.05), width=2)
+        gd.line([(gx, 0), (gx, dh)], fill=izgara_renk, width=2)
     mask = Image.new("L", (dw, dh), 0)
     ImageDraw.Draw(mask).rounded_rectangle([0, 0, dw - 1, dh - 1],
                                            radius=30 * S, fill=255)
@@ -352,7 +525,9 @@ def panel(w, h, fn, vurgu=None):
         card.alpha_composite(halo)
     card.alpha_composite(ink)
     ImageDraw.Draw(card).rounded_rectangle([1, 1, dw - 2, dh - 2],
-                                           radius=30 * S, outline=a(ACC, 0.55),
+                                           radius=30 * S,
+                                           outline=a(AC(), _P("kontur_op",
+                                                              0.55)),
                                            width=2 * S)
     return card.resize((w, h), Image.LANCZOS)
 
@@ -360,7 +535,8 @@ def panel(w, h, fn, vurgu=None):
 def place(img, card, x, y):
     img.alpha_composite(glow((W, H), lambda g: g.rounded_rectangle(
         [x + 10, y + 16, x + card.width - 10, y + card.height + 10],
-        radius=30, fill=a(ACC, 0.30)), 40), (0, 0))
+        radius=30, fill=a(AC(), 0.30 if _mod() != "acik" else 0.22)), 40),
+        (0, 0))
     img.alpha_composite(card, (x, y))
 
 
@@ -381,7 +557,7 @@ def _rozetler(img, d, spec):
     boxes, x = [], GUT
     for metin, renk in spec.get("rozetler", []):
         metin = P(metin)
-        col = RENKLER.get(renk, ACC) if renk != "tema" else ACC
+        col = KC(RENKLER.get(renk, ACC)) if renk != "tema" else AC()
         w = d.textlength(metin, font=fx) + 76
         boxes.append((x, w, metin, col))
         x += w + 14
@@ -391,8 +567,7 @@ def _rozetler(img, d, spec):
     dd = ImageDraw.Draw(img)
     for px, pw, metin, col in boxes:
         dd.ellipse([px + 26, 1222, px + 42, 1238], fill=col)
-        dd.text((px + 58, 1230), metin, font=fx, fill=(225, 233, 245),
-                anchor="lm")
+        dd.text((px + 58, 1230), metin, font=fx, fill=FG2(), anchor="lm")
 
 
 def kapak_rakam(spec, sayac, yol):
@@ -402,21 +577,23 @@ def kapak_rakam(spec, sayac, yol):
     d = ImageDraw.Draw(img)
 
     d.text((GUT, 190), P(spec["ustbilgi"]).upper(), font=mono(30, True),
-           fill=ACC, anchor="la")
+           fill=AC(), anchor="la")
 
     rakam = P(spec["rakam"])
     f = fit(d, rakam, anton, 956, 400, 120)
     ry = 250
     img.alpha_composite(glow((W, H), lambda g: g.text(
-        (GUT - 10, ry), rakam, font=f, fill=a(ACC, 0.9), anchor="la"), 50))
+        (GUT - 10, ry), rakam, font=f, fill=a(AC(), ISIK(0.9)), anchor="la"),
+        50))
     img.alpha_composite(glow((W, H), lambda g: g.text(
-        (GUT - 10, ry), rakam, font=f, fill=a(WHITE, 0.5), anchor="la"), 14))
+        (GUT - 10, ry), rakam, font=f, fill=a(FG(), ISIK(0.5)), anchor="la"),
+        14))
     d = ImageDraw.Draw(img)
-    d.text((GUT - 10, ry), rakam, font=f, fill=WHITE, anchor="la")
+    d.text((GUT - 10, ry), rakam, font=f, fill=FG(), anchor="la")
     bot = d.textbbox((GUT - 10, ry), rakam, font=f, anchor="la")[3]
 
     fa = fit(d, P(spec["rakam_alt"]), archivo, 956, 70, 38)
-    d.text((GUT, bot + 26), P(spec["rakam_alt"]), font=fa, fill=ACC,
+    d.text((GUT, bot + 26), P(spec["rakam_alt"]), font=fa, fill=AC(),
            anchor="la")
     ab = d.textbbox((GUT, bot + 26), P(spec["rakam_alt"]), font=fa,
                     anchor="la")[3]
@@ -424,7 +601,7 @@ def kapak_rakam(spec, sayac, yol):
     fs = pop(32, "Medium")
     ty = ab + 54
     for ln in wrap(d, P(spec["spot"]), fs, 900):
-        d.text((GUT, ty), ln, font=fs, fill=(205, 216, 232), anchor="la")
+        d.text((GUT, ty), ln, font=fs, fill=FG2(), anchor="la")
         ty += 46
 
     _rozetler(img, d, spec)
@@ -520,7 +697,7 @@ def kapak_yakin(spec, sayac, yol):
     fs = pop(32, "Medium")
     ty = bot + 42
     for ln in wrap(d, P(spec["spot"]), fs, 860):
-        d.text((GUT, ty), ln, font=fs, fill=(205, 216, 232), anchor="la")
+        d.text((GUT, ty), ln, font=fs, fill=FG2(), anchor="la")
         ty += 46
 
     _rozetler(img, d, spec)
@@ -676,12 +853,12 @@ def ikon(d, ad, cx, cy, s, col):
 
 
 def _kart(img, x, y, w, h, k):
-    col = RENKLER.get(k.get("renk", "tema"), ACC)
+    col = KC(RENKLER.get(k.get("renk", "tema"), ACC))
     if k.get("renk", "tema") == "tema":
-        col = ACC
+        col = AC()
     over(img, lambda g: g.rounded_rectangle(
-        [x, y, x + w, y + h], radius=20, fill=a(col, 0.09),
-        outline=a(col, 0.55), width=3))
+        [x, y, x + w, y + h], radius=20, fill=a(col, _P("kart_op", 0.09)),
+        outline=a(col, _P("kontur_op", 0.55)), width=3))
     d = ImageDraw.Draw(img)
 
     d.text((x + 26, y + 34), P(k["etiket"]).upper(), font=mono(23, True),
@@ -689,7 +866,7 @@ def _kart(img, x, y, w, h, k):
 
     durum = k.get("durum")
     if durum:
-        dc = GREEN if durum == "dogru" else RED
+        dc = KC(GREEN) if durum == "dogru" else KC(RED)
         bx = x + w - 26
         over(img, lambda g, c=dc, b=bx: g.ellipse(
             [b - 34, y + 17, b, y + 51], fill=a(c, 0.18), outline=c, width=3))
@@ -721,13 +898,14 @@ def _kart(img, x, y, w, h, k):
     fd = fit(d, deger, anton, metin_gen, int(bant * 1.1), 30)
     dy = (y + 58 + alt_ust - 22) / 2
     img.alpha_composite(glow((W, H), lambda g: g.text(
-        (x + 26, dy), deger, font=fd, fill=a(YELLOW, 0.75), anchor="lm"), 18))
+        (x + 26, dy), deger, font=fd, fill=a(RK(col), ISIK(0.75)),
+        anchor="lm"), 18))
     d = ImageDraw.Draw(img)
-    d.text((x + 26, dy), deger, font=fd, fill=YELLOW, anchor="lm")
+    d.text((x + 26, dy), deger, font=fd, fill=RK(col), anchor="lm")
 
     ay = alt_ust
     for ln in satir:
-        d.text((x + 26, ay), ln, font=fa, fill=(190, 203, 224), anchor="lm")
+        d.text((x + 26, ay), ln, font=fa, fill=FG2(), anchor="lm")
         ay += 30
 
 
@@ -741,15 +919,15 @@ def kapak_izgara(spec, sayac, yol):
     f = fit(d, max(s1, s2, key=len), anton, 956, 92)
     y = 172
     img.alpha_composite(glow((W, H), lambda g: g.text(
-        (GUT, y + f.size * 1.12), s2, font=f, fill=a(ACC, 0.8), anchor="la"),
-        24))
+        (GUT, y + f.size * 1.12), s2, font=f, fill=a(AC(), ISIK(0.8)),
+        anchor="la"), 24))
     d = ImageDraw.Draw(img)
-    d.text((GUT, y), s1, font=f, fill=WHITE, anchor="la")
-    d.text((GUT, y + f.size * 1.12), s2, font=f, fill=ACC, anchor="la")
+    d.text((GUT, y), s1, font=f, fill=FG(), anchor="la")
+    d.text((GUT, y + f.size * 1.12), s2, font=f, fill=AC(), anchor="la")
     ust = d.textbbox((GUT, y + f.size * 1.12), s2, font=f, anchor="la")[3] + 26
     if spec.get("spot"):
         fs = pop(28, "Medium")
-        d.text((GUT, ust), P(spec["spot"]), font=fs, fill=(195, 208, 228),
+        d.text((GUT, ust), P(spec["spot"]), font=fs, fill=FG2(),
                anchor="la")
         ust += 52
 
@@ -787,17 +965,17 @@ def kapak(spec, sayac, yol):
     f = fit(d, max(s1, s2, key=len), anton, 956, 128)
     y = 178
     img.alpha_composite(glow((W, H), lambda g: g.text(
-        (GUT, y + f.size * 1.16), s2, font=f, fill=a(ACC, 0.75), anchor="la"),
-        26))
+        (GUT, y + f.size * 1.16), s2, font=f, fill=a(AC(), ISIK(0.75)),
+        anchor="la"), 26))
     d = ImageDraw.Draw(img)
-    d.text((GUT, y), s1, font=f, fill=WHITE, anchor="la")
-    d.text((GUT, y + f.size * 1.16), s2, font=f, fill=ACC, anchor="la")
+    d.text((GUT, y), s1, font=f, fill=FG(), anchor="la")
+    d.text((GUT, y + f.size * 1.16), s2, font=f, fill=AC(), anchor="la")
     bot = d.textbbox((GUT, y + f.size * 1.16), s2, font=f, anchor="la")[3]
 
     fs = pop(32, "Medium")
     ty = bot + 44
     for ln in wrap(d, P(spec["spot"]), fs, 780):
-        d.text((GUT, ty), ln, font=fs, fill=(205, 216, 232), anchor="la")
+        d.text((GUT, ty), ln, font=fs, fill=FG2(), anchor="la")
         ty += 46
 
     place(img, panel(956, 466, govde(spec)), GUT, 690)
@@ -805,7 +983,7 @@ def kapak(spec, sayac, yol):
     fx = pop(25, "Medium")
     boxes, x = [], GUT
     for metin, renk in spec.get("rozetler", []):
-        col = RENKLER.get(renk, ACC) if renk != "tema" else ACC
+        col = KC(RENKLER.get(renk, ACC)) if renk != "tema" else AC()
         metin = P(metin)
         w = d.textlength(metin, font=fx) + 76
         boxes.append((x, w, metin, col))
@@ -816,8 +994,7 @@ def kapak(spec, sayac, yol):
     d = ImageDraw.Draw(img)
     for px, pw, metin, col in boxes:
         d.ellipse([px + 26, 1222, px + 42, 1238], fill=col)
-        d.text((px + 58, 1230), metin, font=fx, fill=(225, 233, 245),
-               anchor="lm")
+        d.text((px + 58, 1230), metin, font=fx, fill=FG2(), anchor="lm")
     img.convert("RGB").save(yol)
 
 
@@ -826,25 +1003,26 @@ def adim(spec, govde_fn, no, toplam, sayac, yol):
     chrome(img, sayac)
     d = ImageDraw.Draw(img)
     over(img, lambda g: g.rounded_rectangle(
-        [GUT, 168, GUT + 96, 264], radius=22, fill=a(ACC, 0.14),
-        outline=a(ACC, 0.6), width=3))
+        [GUT, 168, GUT + 96, 264], radius=22, fill=a(AC(), 0.14),
+        outline=a(AC(), 0.6), width=3))
     d = ImageDraw.Draw(img)
-    d.text((GUT + 48, 216), "%02d" % no, font=anton(58), fill=ACC, anchor="mm")
+    d.text((GUT + 48, 216), "%02d" % no, font=anton(58), fill=AC(),
+           anchor="mm")
     d.text((GUT + 124, 216), "ADIM %d / %d" % (no, toplam), font=mono(28),
-           fill=MUTE, anchor="lm")
+           fill=SOFT(), anchor="lm")
 
     fh = fit(d, max(wrap(d, spec["baslik"], archivo(58), 940), key=len),
              archivo, 940, 58)
     y = 320
     for ln in wrap(d, spec["baslik"], fh, 940):
-        d.text((GUT, y), ln, font=fh, fill=WHITE, anchor="la")
+        d.text((GUT, y), ln, font=fh, fill=FG(), anchor="la")
         y += fh.size * 1.26
-    d.rectangle([GUT, y + 18, GUT + 110, y + 24], fill=ACC)
+    d.rectangle([GUT, y + 18, GUT + 110, y + 24], fill=AC())
 
     fs = pop(30)
     ty = y + 66
     for ln in wrap(d, P(spec["aciklama"]), fs, 860):
-        d.text((GUT, ty), ln, font=fs, fill=(196, 208, 226), anchor="la")
+        d.text((GUT, ty), ln, font=fs, fill=FG2(), anchor="la")
         ty += 45
 
     py = max(600, int(ty) + 34)
@@ -860,12 +1038,12 @@ def kapanis(spec, sayac, yol):
     s1, s2 = spec["satir1"], spec["satir2"]
     f = fit(d, max(s1, s2, key=len), anton, 956, 118)
     y = 210
-    d.text((GUT, y), s1, font=f, fill=WHITE, anchor="la")
+    d.text((GUT, y), s1, font=f, fill=FG(), anchor="la")
     img.alpha_composite(glow((W, H), lambda g: g.text(
-        (GUT, y + f.size * 1.16), s2, font=f, fill=a(ACC, 0.75), anchor="la"),
-        26))
+        (GUT, y + f.size * 1.16), s2, font=f, fill=a(AC(), ISIK(0.75)),
+        anchor="la"), 26))
     d = ImageDraw.Draw(img)
-    d.text((GUT, y + f.size * 1.16), s2, font=f, fill=ACC, anchor="la")
+    d.text((GUT, y + f.size * 1.16), s2, font=f, fill=AC(), anchor="la")
     bot = d.textbbox((GUT, y + f.size * 1.16), s2, font=f, anchor="la")[3]
 
     fy = bot + 86
@@ -873,12 +1051,12 @@ def kapanis(spec, sayac, yol):
     for i, (k, v) in enumerate(spec["kriterler"]):
         top = fy + i * 128
         over(img, lambda g, t=top: g.rounded_rectangle(
-            [GUT, t, RIGHT, t + 104], radius=18, fill=a(ACC, 0.07),
-            outline=a(ACC, 0.30), width=2))
+            [GUT, t, RIGHT, t + 104], radius=18, fill=a(AC(), 0.08),
+            outline=a(AC(), 0.32), width=2))
         dd = ImageDraw.Draw(img)
-        dd.text((GUT + 30, top + 52), k, font=mono(26, True), fill=ACC,
+        dd.text((GUT + 30, top + 52), k, font=mono(26, True), fill=AC(),
                 anchor="lm")
-        dd.text((RIGHT - 30, top + 52), P(v), font=fs, fill=(225, 233, 245),
+        dd.text((RIGHT - 30, top + 52), P(v), font=fs, fill=FG(),
                 anchor="rm")
 
     d = ImageDraw.Draw(img)
@@ -886,16 +1064,18 @@ def kapanis(spec, sayac, yol):
     fb = pop(30, "Bold")
     tw = d.textlength(btn, font=fb)
     by = 1176
+    BC, BY = AC(), UZER(AC())
     img.alpha_composite(glow((W, H), lambda g: g.rounded_rectangle(
-        [GUT, by, GUT + tw + 112, by + 74], radius=37, fill=a(ACC, 0.55)), 30))
+        [GUT, by, GUT + tw + 112, by + 74], radius=37,
+        fill=a(BC, ISIK(0.55))), 30))
     d = ImageDraw.Draw(img)
-    d.rounded_rectangle([GUT, by, GUT + tw + 112, by + 74], radius=37, fill=ACC)
-    d.text((GUT + 44, by + 37), btn, font=fb, fill=(6, 10, 20), anchor="lm")
+    d.rounded_rectangle([GUT, by, GUT + tw + 112, by + 74], radius=37, fill=BC)
+    d.text((GUT + 44, by + 37), btn, font=fb, fill=BY, anchor="lm")
     ax = GUT + 44 + tw + 26
-    d.line([(ax, by + 37), (ax + 26, by + 37)], fill=(6, 10, 20), width=5)
+    d.line([(ax, by + 37), (ax + 26, by + 37)], fill=BY, width=5)
     d.polygon([(ax + 23, by + 29), (ax + 40, by + 37), (ax + 23, by + 45)],
-              fill=(6, 10, 20))
-    d.text((GUT, by - 46), P(spec.get("not", "")), font=pop(26), fill=MUTE,
+              fill=BY)
+    d.text((GUT, by - 46), P(spec.get("not", "")), font=pop(26), fill=SOFT(),
            anchor="lm")
     img.convert("RGB").save(yol)
 
@@ -903,25 +1083,28 @@ def kapanis(spec, sayac, yol):
 def hikaye(spec, yol):
     """1080 x 1920 hikaye — gönderiye yönlendiren tek kare."""
     SW, SH = 1080, 1920
-    img = Image.new("RGBA", (SW, SH), BG + (255,))
+    if _mod() != "koyu":
+        img = base_renkli(SW, SH)
+    else:
+        img = Image.new("RGBA", (SW, SH), BG + (255,))
 
-    def bands(d):
-        d.line([(-300, 900), (860, -360)], fill=a(ACC, 0.85), width=170)
-        d.line([(60, 1240), (1160, -60)], fill=a(BLUE, 0.55), width=100)
-        d.line([(300, 2200), (1400, 900)], fill=a(ACC, 0.55), width=150)
-    img.alpha_composite(glow((SW, SH), bands, 90))
+        def bands(d):
+            d.line([(-300, 900), (860, -360)], fill=a(ACC, 0.85), width=170)
+            d.line([(60, 1240), (1160, -60)], fill=a(BLUE, 0.55), width=100)
+            d.line([(300, 2200), (1400, 900)], fill=a(ACC, 0.55), width=150)
+        img.alpha_composite(glow((SW, SH), bands, 90))
 
-    def cores(d):
-        d.line([(-300, 900), (860, -360)], fill=a(ACC, 0.95), width=6)
-        d.line([(300, 2200), (1400, 900)], fill=a(ACC, 0.7), width=5)
-    img.alpha_composite(glow((SW, SH), cores, 4))
+        def cores(d):
+            d.line([(-300, 900), (860, -360)], fill=a(ACC, 0.95), width=6)
+            d.line([(300, 2200), (1400, 900)], fill=a(ACC, 0.7), width=5)
+        img.alpha_composite(glow((SW, SH), cores, 4))
 
-    dots = Image.new("RGBA", (SW, SH), (0, 0, 0, 0))
-    dd = ImageDraw.Draw(dots)
-    for y in range(0, SH, 54):
-        for x in range(0, SW, 54):
-            dd.ellipse([x - 1, y - 1, x + 1, y + 1], fill=a(ACC, 0.10))
-    img.alpha_composite(dots)
+        dots = Image.new("RGBA", (SW, SH), (0, 0, 0, 0))
+        dd = ImageDraw.Draw(dots)
+        for y in range(0, SH, 54):
+            for x in range(0, SW, 54):
+                dd.ellipse([x - 1, y - 1, x + 1, y + 1], fill=a(ACC, 0.10))
+        img.alpha_composite(dots)
 
     # üst şerit — Instagram arayüzü ilk 250 px'i kapatıyor
     logo = bright_logo(34)
@@ -931,27 +1114,27 @@ def hikaye(spec, yol):
     lw = d.textlength(LABEL, font=fl)
     lx = GUT + logo.width + 26
     over(img, lambda g: g.rounded_rectangle(
-        [lx, 296, lx + lw + 40, 338], radius=21, fill=a(ACC, 0.12),
-        outline=a(ACC, 0.45), width=2))
+        [lx, 296, lx + lw + 40, 338], radius=21, fill=a(AC(), 0.12),
+        outline=a(AC(), 0.45), width=2))
     d = ImageDraw.Draw(img)
-    d.text((lx + 20, 317), LABEL, font=fl, fill=ACC, anchor="lm")
+    d.text((lx + 20, 317), LABEL, font=fl, fill=AC(), anchor="lm")
 
     s1 = spec.get("satir1", spec.get("ustbilgi", "").upper())
     s2 = spec.get("satir2", spec.get("rakam", ""))
     f = fit(d, max(s1, s2, key=len), anton, 956, 132)
     y = 420
     img.alpha_composite(glow((SW, SH), lambda g: g.text(
-        (GUT, y + f.size * 1.16), s2, font=f, fill=a(ACC, 0.75), anchor="la"),
-        26))
+        (GUT, y + f.size * 1.16), s2, font=f, fill=a(AC(), ISIK(0.75)),
+        anchor="la"), 26))
     d = ImageDraw.Draw(img)
-    d.text((GUT, y), s1, font=f, fill=WHITE, anchor="la")
-    d.text((GUT, y + f.size * 1.16), s2, font=f, fill=ACC, anchor="la")
+    d.text((GUT, y), s1, font=f, fill=FG(), anchor="la")
+    d.text((GUT, y + f.size * 1.16), s2, font=f, fill=AC(), anchor="la")
     bot = d.textbbox((GUT, y + f.size * 1.16), s2, font=f, anchor="la")[3]
 
     fs = pop(34, "Medium")
     ty = bot + 50
     for ln in wrap(d, P(spec["spot"]), fs, 900):
-        d.text((GUT, ty), ln, font=fs, fill=(205, 216, 232), anchor="la")
+        d.text((GUT, ty), ln, font=fs, fill=FG2(), anchor="la")
         ty += 50
 
     # alt çağrı — arayüz son 250 px'i kapatıyor
@@ -968,17 +1151,19 @@ def hikaye(spec, yol):
     btn = "GÖNDERİYE BAK"
     fb = pop(32, "Bold")
     tw = d.textlength(btn, font=fb)
+    BC, BY = AC(), UZER(AC())
     img.alpha_composite(glow((SW, SH), lambda g: g.rounded_rectangle(
-        [GUT, by, GUT + tw + 120, by + 80], radius=40, fill=a(ACC, 0.55)), 30))
+        [GUT, by, GUT + tw + 120, by + 80], radius=40,
+        fill=a(BC, ISIK(0.55))), 30))
     d = ImageDraw.Draw(img)
-    d.rounded_rectangle([GUT, by, GUT + tw + 120, by + 80], radius=40, fill=ACC)
-    d.text((GUT + 46, by + 40), btn, font=fb, fill=(6, 10, 20), anchor="lm")
+    d.rounded_rectangle([GUT, by, GUT + tw + 120, by + 80], radius=40, fill=BC)
+    d.text((GUT + 46, by + 40), btn, font=fb, fill=BY, anchor="lm")
     ax = GUT + 46 + tw + 28
-    d.line([(ax, by + 40), (ax + 28, by + 40)], fill=(6, 10, 20), width=5)
+    d.line([(ax, by + 40), (ax + 28, by + 40)], fill=BY, width=5)
     d.polygon([(ax + 25, by + 31), (ax + 44, by + 40), (ax + 25, by + 49)],
-              fill=(6, 10, 20))
-    d.text((GUT, by + 128), "profilde yeni gönderi", font=pop(28), fill=MUTE,
-           anchor="lm")
+              fill=BY)
+    d.text((GUT, by + 128), "profilde yeni gönderi", font=pop(28),
+           fill=SOFT(), anchor="lm")
     img.convert("RGB").save(yol)
 
 
@@ -987,6 +1172,7 @@ def main():
     out = sys.argv[2]
     os.makedirs(out, exist_ok=True)
     theme(spec["kategori"])
+    zemin_ayarla(spec.get("zemin", spec["kapak"].get("zemin", "koyu")))
 
     slaytlar = spec["slaytlar"]
     toplam = 1 + len(slaytlar) + (1 if spec.get("kapanis") else 0)
