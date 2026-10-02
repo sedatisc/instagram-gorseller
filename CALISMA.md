@@ -79,11 +79,17 @@ Görsel dil `uret.py` içinde kodlanmış; bozma, sadeleştirme, "daha temiz" h�
 | `rakam` | Konunun merkezinde bir sayı, oran veya ayar varsa (%15 dolgu, 4,7 kΩ, 0,2 mm, 3 duvar) | Dev rakam ekranı dolduruyor, altında ne anlama geldiği |
 | `carpisma` | İki seçenek karşı karşıyaysa (röle/MOSFET, PLA/PETG, dahili/harici) | Çapraz bölünmüş zemin, üstte kırmızı altta yeşil, iki etiket |
 | `yakin` | Şema ya da tablo tek başına ilgi çekiciyse | Çizim %180 büyütülüp kenarlardan taşıyor, üstte karartma, vurgulanan parça yanıyor |
+| `izgara` | Konu birden çok somut sayıya iniyorsa (ayar tablosu, sıcaklık/hız değerleri, kontrol listesi) | 5-7 renkli kart, her birinde dev sarı rakam — kopya kâğıdı |
 | `klasik` | Diğerleri | Başlık üstte, panel altta |
 
 `rakam` ek alanlar ister: `ustbilgi`, `rakam`, `rakam_alt`.
 `carpisma` ek alanlar ister: `sol_etiket`, `sag_etiket`, `sol_metin`, `sag_metin`.
 `yakin` mevcut `cizim`/`tablo` ve `vurgu` alanlarını kullanır.
+`izgara` `kartlar` listesi ister: her kartta `etiket`, `deger`, `alt`, `renk`, isteğe bağlı `durum` (`dogru`/`yanlis`) ve `genis`.
+
+**`izgara`yı olabildiğince sık kullan.** Rakip hesaplarda en çok kaydedilen ve yollanan biçim bu: tek karede yoğun, somut, sonradan lazım olacak bilgi. Bir konu sayıya indirgenebiliyorsa `izgara` seç.
+
+**Her kartta gerçek bir sayı olsun.** "Yüksek", "düşük", "dengeli" yazma; 0,20 mm · 205-215 °C · 60 mm/s · %15 yaz. Kaydedilmeyi sağlayan şey kavram değil rakam.
 
 Sabit olanlar:
 - Siyaha yakın zemin (#05080F), köşeden geçen neon ışık huzmeleri

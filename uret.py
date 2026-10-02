@@ -366,7 +366,12 @@ def place(img, card, x, y):
 def govde(spec):
     if spec.get("tablo"):
         return lambda d: tablo(d, [tuple(r) for r in spec["tablo"]])
-    return lambda d: ciz(d, spec.get("cizim", []))
+    if spec.get("cizim"):
+        return lambda d: ciz(d, spec["cizim"])
+    if spec.get("kartlar"):
+        satir = [(k["etiket"], k["deger"]) for k in spec["kartlar"]]
+        return lambda d: tablo(d, satir)
+    return lambda d: ciz(d, [])
 
 
 def _rozetler(img, d, spec):
@@ -517,6 +522,100 @@ def kapak_yakin(spec, sayac, yol):
         ty += 46
 
     _rozetler(img, d, spec)
+    img.convert("RGB").save(yol)
+
+
+def _kart(img, x, y, w, h, k):
+    col = RENKLER.get(k.get("renk", "tema"), ACC)
+    if k.get("renk", "tema") == "tema":
+        col = ACC
+    over(img, lambda g: g.rounded_rectangle(
+        [x, y, x + w, y + h], radius=20, fill=a(col, 0.09),
+        outline=a(col, 0.55), width=3))
+    d = ImageDraw.Draw(img)
+
+    d.text((x + 26, y + 34), P(k["etiket"]).upper(), font=mono(23, True),
+           fill=col, anchor="lm")
+
+    durum = k.get("durum")
+    if durum:
+        dc = GREEN if durum == "dogru" else RED
+        bx = x + w - 26
+        over(img, lambda g, c=dc, b=bx: g.ellipse(
+            [b - 34, y + 17, b, y + 51], fill=a(c, 0.18), outline=c, width=3))
+        d = ImageDraw.Draw(img)
+        cx, cy = bx - 17, y + 34
+        if durum == "dogru":
+            d.line([(cx - 8, cy), (cx - 2, cy + 7)], fill=dc, width=4)
+            d.line([(cx - 2, cy + 7), (cx + 9, cy - 7)], fill=dc, width=4)
+        else:
+            d.line([(cx - 8, cy - 8), (cx + 8, cy + 8)], fill=dc, width=4)
+            d.line([(cx + 8, cy - 8), (cx - 8, cy + 8)], fill=dc, width=4)
+
+    fa = pop(24, "Medium")
+    satir = wrap(d, P(k["alt"]), fa, w - 52)[:2] if k.get("alt") else []
+    alt_ust = y + h - 26 - (len(satir) - 1) * 30 if satir else y + h - 8
+
+    deger = P(k["deger"])
+    bant = max(44, alt_ust - 22 - (y + 58))
+    fd = fit(d, deger, anton, w - 52, int(bant * 1.1), 30)
+    dy = (y + 58 + alt_ust - 22) / 2
+    img.alpha_composite(glow((W, H), lambda g: g.text(
+        (x + 26, dy), deger, font=fd, fill=a(YELLOW, 0.75), anchor="lm"), 18))
+    d = ImageDraw.Draw(img)
+    d.text((x + 26, dy), deger, font=fd, fill=YELLOW, anchor="lm")
+
+    ay = alt_ust
+    for ln in satir:
+        d.text((x + 26, ay), ln, font=fa, fill=(190, 203, 224), anchor="lm")
+        ay += 30
+
+
+def kapak_izgara(spec, sayac, yol):
+    """Kopya kâğıdı kapağı — tek karede yoğun, kaydedilesi bilgi."""
+    img = base()
+    chrome(img, sayac)
+    d = ImageDraw.Draw(img)
+
+    s1, s2 = spec["satir1"], spec["satir2"]
+    f = fit(d, max(s1, s2, key=len), anton, 956, 92)
+    y = 172
+    img.alpha_composite(glow((W, H), lambda g: g.text(
+        (GUT, y + f.size * 1.12), s2, font=f, fill=a(ACC, 0.8), anchor="la"),
+        24))
+    d = ImageDraw.Draw(img)
+    d.text((GUT, y), s1, font=f, fill=WHITE, anchor="la")
+    d.text((GUT, y + f.size * 1.12), s2, font=f, fill=ACC, anchor="la")
+    ust = d.textbbox((GUT, y + f.size * 1.12), s2, font=f, anchor="la")[3] + 26
+    if spec.get("spot"):
+        fs = pop(28, "Medium")
+        d.text((GUT, ust), P(spec["spot"]), font=fs, fill=(195, 208, 228),
+               anchor="la")
+        ust += 52
+
+    kartlar = spec["kartlar"]
+    bosluk = 22
+    satirlar, i = [], 0
+    while i < len(kartlar):
+        if kartlar[i].get("genis"):
+            satirlar.append([kartlar[i]])
+            i += 1
+        else:
+            satirlar.append(kartlar[i:i + 2])
+            i += 2
+
+    alt = 1268
+    yuk = (alt - ust - bosluk * (len(satirlar) - 1)) / len(satirlar)
+    cy = ust
+    for satir in satirlar:
+        if len(satir) == 1:
+            _kart(img, GUT, cy, RIGHT - GUT, yuk, satir[0])
+        else:
+            gen = (RIGHT - GUT - bosluk) / 2
+            for j, k in enumerate(satir):
+                _kart(img, GUT + j * (gen + bosluk), cy, gen, yuk, k)
+        cy += yuk + bosluk
+
     img.convert("RGB").save(yol)
 
 
@@ -734,7 +833,7 @@ def main():
     n = 1
     tip = spec["kapak"].get("tip", "klasik")
     {"rakam": kapak_rakam, "carpisma": kapak_carpisma,
-     "yakin": kapak_yakin}.get(tip, kapak)(
+     "yakin": kapak_yakin, "izgara": kapak_izgara}.get(tip, kapak)(
         spec["kapak"], "%d/%d" % (n, toplam), os.path.join(out, "%d.png" % n))
     ortak = govde(spec["kapak"])
     for i, sl in enumerate(slaytlar, 1):
