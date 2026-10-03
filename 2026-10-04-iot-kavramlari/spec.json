@@ -1,58 +1,172 @@
 {
   "kategori": "elektronik",
   "kapak": {
-    "satir1": "ÖNCE ALTI KAVRAM",
-    "satir2": "SONRA KART",
-    "spot": "Kart seçmeden bunlara karar verilirse proje yarı yolda kalmıyor.",
-    "rozetler": [["6 kavram", "tema"], ["MQTT", "yesil"], ["OTA", "turuncu"]],
+    "satir1": "KART SEÇMEDEN",
+    "satir2": "ALTI KARAR",
+    "spot": "Bunlara karar verilmeden alınan kart yarı yolda kalıyor.",
+    "rozetler": [
+      [
+        "6 kavram",
+        "tema"
+      ],
+      [
+        "MQTT",
+        "yesil"
+      ],
+      [
+        "OTA",
+        "turuncu"
+      ]
+    ],
     "tablo": [
-      ["DENETLEYİCİ", "ESP32, Pico, STM32"],
-      ["GÜÇ BÜTÇESİ", "pil ömrünü akım belirler"],
-      ["PROTOKOL", "Wi-Fi, BLE, LoRa, Thread"],
-      ["VERİ VE TAŞIMA", "MQTT, JSON, zaman damgası"],
-      ["GÜNCELLEME", "OTA baştan planlanır"]
+      [
+        "DENETLEYİCİ",
+        "ESP32, Pico, STM32"
+      ],
+      [
+        "GÜÇ BÜTÇESİ",
+        "pil ömrünü akım belirler"
+      ],
+      [
+        "PROTOKOL",
+        "Wi-Fi, BLE, LoRa, Thread"
+      ],
+      [
+        "VERİ VE TAŞIMA",
+        "MQTT, JSON, zaman damgası"
+      ],
+      [
+        "GÜNCELLEME",
+        "OTA baştan planlanır"
+      ]
+    ],
+    "tip": "izgara",
+    "kartlar": [
+      {
+        "etiket": "GÜÇ BÜTÇESİ",
+        "deger": "ilk karar",
+        "alt": "Pil ömrünü uyku akımı belirliyor, pil kapasitesi değil.",
+        "renk": "yesil",
+        "ikon": "pil"
+      },
+      {
+        "etiket": "PROTOKOL",
+        "deger": "menzile göre",
+        "alt": "Wi-Fi ev içi · BLE birkaç metre · LoRa kilometre.",
+        "renk": "mavi",
+        "ikon": "dalga"
+      },
+      {
+        "etiket": "TAŞIMA",
+        "deger": "MQTT",
+        "alt": "Sürekli veri akıyorsa MQTT, tek seferlik istekte HTTP.",
+        "renk": "mor",
+        "ikon": "cip"
+      },
+      {
+        "etiket": "VERİ BİÇİMİ",
+        "deger": "JSON + UTC",
+        "alt": "Zaman damgasını baştan UTC sabitle; sonradan düzeltilmiyor.",
+        "renk": "turuncu",
+        "ikon": "olcu"
+      },
+      {
+        "etiket": "GÜNCELLEME",
+        "deger": "OTA",
+        "alt": "Sahaya çıkan cihaza elle firmware atılamıyor; OTA baştan planlanıyor.",
+        "renk": "kirmizi",
+        "ikon": "zaman"
+      },
+      {
+        "etiket": "DENETLEYİCİ",
+        "deger": "en son",
+        "alt": "ESP32 · Pico · STM32 — kart, yukarıdaki beş karar netleştikten sonra seçiliyor.",
+        "renk": "sari",
+        "ikon": "cip",
+        "genis": true
+      }
     ]
   },
   "slaytlar": [
     {
       "baslik": "Denetleyici en son seçilir",
       "aciklama": "Kart, projenin ihtiyacını karşılayan en sade seçenek olmalı. Wi-Fi gerekmiyorsa ESP32 fazladan akım ve gereksiz karmaşıklık demek.",
-      "vurgu": [100, 100, 1810, 260]
+      "vurgu": [
+        100,
+        100,
+        1810,
+        260
+      ]
     },
     {
       "baslik": "Güç bütçesi ilk karar",
       "aciklama": "Pille çalışacak cihazda ortalama akım her şeyi belirliyor. Uyku akımı mikroamper mertebesinde değilse pil ömrü hafta değil gün oluyor.",
-      "vurgu": [100, 250, 1810, 410]
+      "vurgu": [
+        100,
+        250,
+        1810,
+        410
+      ]
     },
     {
       "baslik": "Protokol menzile göre seçilir",
       "aciklama": "Wi-Fi ev içi ve akım yüklü, BLE kısa menzil ve tasarruflu, LoRa kilometrelerce ama yavaş. Menzil ile akım arasında her zaman bir takas var.",
-      "vurgu": [100, 400, 1810, 560]
+      "vurgu": [
+        100,
+        400,
+        1810,
+        560
+      ]
     },
     {
       "baslik": "MQTT mi HTTP mi",
       "aciklama": "HTTP her ölçümde bağlantı kurup kapatıyor. MQTT tek bağlantı üstünden sürekli konuşuyor; sık veri gönderen cihazda hem hızlı hem tasarruflu.",
-      "vurgu": [100, 550, 1810, 710]
+      "vurgu": [
+        100,
+        550,
+        1810,
+        710
+      ]
     },
     {
       "baslik": "Veri biçimini baştan sabitle",
       "aciklama": "Alan adları ve birimler sonradan değişince eski kayıtlar okunamaz oluyor. JSON anahtarlarını ve zaman damgası biçimini ilk günde yaz.",
-      "vurgu": [100, 550, 1810, 710]
+      "vurgu": [
+        100,
+        550,
+        1810,
+        710
+      ]
     },
     {
       "baslik": "OTA sonradan eklenmiyor",
       "aciklama": "Cihaz duvara monte edildikten sonra kabloyla güncelleme yapılamıyor. Kablosuz güncelleme ilk firmware'e girmezse her düzeltme sökme işi oluyor.",
-      "vurgu": [100, 700, 1810, 860]
+      "vurgu": [
+        100,
+        700,
+        1810,
+        860
+      ]
     }
   ],
   "kapanis": {
     "satir1": "SIRA",
     "satir2": "ÖNEMLİ",
     "kriterler": [
-      ["ÖNCE", "güç bütçesi ve protokol"],
-      ["SONRA", "kart ve sensör"],
-      ["EN SON", "bulut ve arayüz"]
+      [
+        "ÖNCE",
+        "güç bütçesi ve protokol"
+      ],
+      [
+        "SONRA",
+        "kart ve sensör"
+      ],
+      [
+        "EN SON",
+        "bulut ve arayüz"
+      ]
     ],
     "not": "Ters sırada başlayan proje yarı yolda kart değiştirmek zorunda kalıyor."
-  }
+  },
+  "zemin": "acik"
 }

@@ -5,44 +5,204 @@
     "satir2": "5 V GELMİYOR?",
     "spot": "Kaynak karşısında bir yük görmeden VBUS'ı açmıyor. Görmesi iki dirence bakıyor.",
     "rozetler": [
-      ["CC1 ve CC2", "tema"],
-      ["5,1 kΩ", "turuncu"],
-      ["Boşta kalırsa", "kirmizi"]
+      [
+        "CC1 ve CC2",
+        "tema"
+      ],
+      [
+        "5,1 kΩ",
+        "turuncu"
+      ],
+      [
+        "Boşta kalırsa",
+        "kirmizi"
+      ]
     ],
     "cizim": [
-      {"t": "k", "x0": 160, "y0": 200, "x1": 600, "y1": 780, "metin": "USB-C DİŞİ"},
-      {"t": "y", "x": 680, "y": 222, "metin": "VBUS", "boy": 32, "hiza": "mm"},
-      {"t": "w", "p": [[600, 260], [1020, 260]]},
-      {"t": "t", "x": 1100, "y": 260, "metin": "+5V"},
-      {"t": "y", "x": 680, "y": 398, "metin": "CC1", "boy": 32, "hiza": "mm"},
-      {"t": "w", "p": [[600, 438], [760, 438]]},
-      {"t": "r", "x": 760, "y": 400, "yon": "h", "ad": "R1", "deger": "5,1 kΩ", "etiket": "alt"},
-      {"t": "w", "p": [[1000, 438], [1400, 438]]},
-      {"t": "n", "x": 1400, "y": 438},
-      {"t": "y", "x": 680, "y": 678, "metin": "CC2", "boy": 32, "hiza": "mm"},
-      {"t": "w", "p": [[600, 718], [760, 718]]},
-      {"t": "r", "x": 760, "y": 680, "yon": "h", "ad": "R2", "deger": "5,1 kΩ", "etiket": "alt"},
-      {"t": "w", "p": [[1000, 718], [1400, 718]]},
-      {"t": "n", "x": 1400, "y": 718},
-      {"t": "w", "p": [[1400, 438], [1400, 800]]},
-      {"t": "g", "x": 1400, "y": 800, "b": 150}
-    ]
+      {
+        "t": "k",
+        "x0": 160,
+        "y0": 200,
+        "x1": 600,
+        "y1": 780,
+        "metin": "USB-C DİŞİ"
+      },
+      {
+        "t": "y",
+        "x": 680,
+        "y": 222,
+        "metin": "VBUS",
+        "boy": 32,
+        "hiza": "mm"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            600,
+            260
+          ],
+          [
+            1020,
+            260
+          ]
+        ]
+      },
+      {
+        "t": "t",
+        "x": 1100,
+        "y": 260,
+        "metin": "+5V"
+      },
+      {
+        "t": "y",
+        "x": 680,
+        "y": 398,
+        "metin": "CC1",
+        "boy": 32,
+        "hiza": "mm"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            600,
+            438
+          ],
+          [
+            760,
+            438
+          ]
+        ]
+      },
+      {
+        "t": "r",
+        "x": 760,
+        "y": 400,
+        "yon": "h",
+        "ad": "R1",
+        "deger": "5,1 kΩ",
+        "etiket": "alt"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            1000,
+            438
+          ],
+          [
+            1400,
+            438
+          ]
+        ]
+      },
+      {
+        "t": "n",
+        "x": 1400,
+        "y": 438
+      },
+      {
+        "t": "y",
+        "x": 680,
+        "y": 678,
+        "metin": "CC2",
+        "boy": 32,
+        "hiza": "mm"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            600,
+            718
+          ],
+          [
+            760,
+            718
+          ]
+        ]
+      },
+      {
+        "t": "r",
+        "x": 760,
+        "y": 680,
+        "yon": "h",
+        "ad": "R2",
+        "deger": "5,1 kΩ",
+        "etiket": "alt"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            1000,
+            718
+          ],
+          [
+            1400,
+            718
+          ]
+        ]
+      },
+      {
+        "t": "n",
+        "x": 1400,
+        "y": 718
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            1400,
+            438
+          ],
+          [
+            1400,
+            800
+          ]
+        ]
+      },
+      {
+        "t": "g",
+        "x": 1400,
+        "y": 800,
+        "b": 150
+      }
+    ],
+    "tip": "klasik"
   },
   "slaytlar": [
     {
       "baslik": "CC boştaysa VBUS ölü",
       "aciklama": "Girişte gerilim bulunmasının tek yolu kaynağın karşısında bir yük algılaması. Algılama VBUS üzerinden değil CC uçları üzerinden yürüyor.",
-      "vurgu": [140, 360, 850, 800]
+      "vurgu": [
+        140,
+        360,
+        850,
+        800
+      ]
     },
     {
       "baslik": "Her iki uca ayrı direnç",
       "aciklama": "CC1 ve CC2 kendi 5,1 kΩ direnciyle toprağa çekiliyor. Tek direnci ikisine paylaştırmak ya da uçları birbirine bağlamak yön algılamasını bozuyor.",
-      "vurgu": [690, 330, 1090, 880]
+      "vurgu": [
+        690,
+        330,
+        1090,
+        880
+      ]
     },
     {
       "baslik": "5 V geliyor, 3 A gelmiyor",
       "aciklama": "İki direnç yerine oturduğunda kaynak varsayılan akımla 5 V veriyor. Daha yüksek akım kaynağın kendi direncine ve pazarlığa bakıyor, 5,1 kΩ tek başına istemiyor.",
-      "vurgu": [580, 180, 1480, 340]
+      "vurgu": [
+        580,
+        180,
+        1480,
+        340
+      ]
     }
-  ]
+  ],
+  "zemin": "kobalt"
 }

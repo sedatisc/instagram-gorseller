@@ -83,13 +83,19 @@ Görsel dil `uret.py` içinde kodlanmış; bozma, sadeleştirme, "daha temiz" h�
 | `klasik` | Diğerleri | Başlık üstte, panel altta |
 
 `rakam` ek alanlar ister: `ustbilgi`, `rakam`, `rakam_alt`.
-`carpisma` ek alanlar ister: `sol_etiket`, `sag_etiket`, `sol_metin`, `sag_metin`.
-`yakin` mevcut `cizim`/`tablo` ve `vurgu` alanlarını kullanır.
+`carpisma` ek alanlar ister: `sol_etiket`, `sag_etiket`, `sol_metin`, `sag_metin`. Etiketler tek kelime olsun; uzun etiket açıklamayı alt satıra itiyor.
+`yakin` mevcut `cizim` ve `vurgu` alanlarını kullanır.
+
+İki kısıt var, bunlara uy:
+- **`yakin` yalnız `cizim` olan gönderilerde.** Çizimi kenarlardan taşırıyor; tabloda sağa yaslı değerler kırpılıyor.
+- **`carpisma` yalnız `koyu` zeminde.** Kırmızı ve yeşil yarımlar renkli zeminde birbirine karışıyor.
 `izgara` `kartlar` listesi ister: her kartta `etiket`, `deger`, `alt`, `renk`, isteğe bağlı `durum` (`dogru`/`yanlis`) ve `genis`.
 
 **`izgara`yı olabildiğince sık kullan.** Rakip hesaplarda en çok kaydedilen ve yollanan biçim bu: tek karede yoğun, somut, sonradan lazım olacak bilgi. Bir konu sayıya indirgenebiliyorsa `izgara` seç.
 
 **Her kartta gerçek bir sayı olsun.** "Yüksek", "düşük", "dengeli" yazma; 0,20 mm · 205-215 °C · 60 mm/s · %15 yaz. Kaydedilmeyi sağlayan şey kavram değil rakam.
+
+**Kartın `alt` metni iki satıra sığsın** — yaklaşık 55 karakter. Üretici sığmayan metinde puntoyu düşürüp üçüncü satıra geçiyor, o zaman dev rakam eziliyor. Uzun açıklamayı `genis` karta koy.
 
 **Her kartta simge olsun ve her kart farklı renkte olsun.** Kartı canlı yapan şey bu ikisi. Tek renge bağlı kalma — turuncu, kırmızı, mavi, yeşil, mor, sarı, camgöbeği hepsi serbest; önemli olanı `genis` yapıp `durum` rozeti ver.
 

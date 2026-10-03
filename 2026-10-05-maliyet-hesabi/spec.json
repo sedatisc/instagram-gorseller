@@ -3,35 +3,121 @@
   "kapak": {
     "satir1": "BASKIYA FİYAT",
     "satir2": "NASIL VERİLİR?",
-    "spot": "Gram hesabı kolay olanı. Fiyatı belirleyen kalem başka yerde duruyor.",
+    "spot": "Gram en kolay kalem; fiyatı belirleyen başka yerde.",
     "rozetler": [
-      ["Gram", "tema"],
-      ["Saat", "turuncu"],
-      ["Başarısız baskı", "kirmizi"]
+      [
+        "Gram",
+        "tema"
+      ],
+      [
+        "Saat",
+        "turuncu"
+      ],
+      [
+        "Başarısız baskı",
+        "kirmizi"
+      ]
     ],
     "tablo": [
-      ["FİLAMENT", "gram × birim maliyet"],
-      ["MAKİNE SAATİ", "amortisman ve elektrik"],
-      ["BAŞARISIZ BASKI", "her işe sabit pay"],
-      ["İŞÇİLİK", "destek temizliği, montaj"],
-      ["TASARIM", "modelleme ayrı kalem"]
+      [
+        "FİLAMENT",
+        "gram × birim maliyet"
+      ],
+      [
+        "MAKİNE SAATİ",
+        "amortisman ve elektrik"
+      ],
+      [
+        "BAŞARISIZ BASKI",
+        "her işe sabit pay"
+      ],
+      [
+        "İŞÇİLİK",
+        "destek temizliği, montaj"
+      ],
+      [
+        "TASARIM",
+        "modelleme ayrı kalem"
+      ]
+    ],
+    "tip": "izgara",
+    "kartlar": [
+      {
+        "etiket": "FİLAMENT",
+        "deger": "gram × kg fiyatı",
+        "alt": "Dilimleyicinin gramı, makaranın kilo fiyatına bölünüyor.",
+        "renk": "yesil",
+        "ikon": "makara"
+      },
+      {
+        "etiket": "MAKİNE SAATİ",
+        "deger": "saat ücreti",
+        "alt": "Yazıcı bedeli ömrüne bölünüp elektrikle toplanıyor.",
+        "renk": "mavi",
+        "ikon": "zaman"
+      },
+      {
+        "etiket": "BAŞARISIZ BASKI",
+        "deger": "sabit pay",
+        "alt": "Pay eklenmezse zarar tek baskıya biniyor.",
+        "renk": "kirmizi",
+        "ikon": "uyari"
+      },
+      {
+        "etiket": "İŞÇİLİK",
+        "deger": "elle geçen süre",
+        "alt": "Destek temizliği, zımpara, montaj — hesapta yok.",
+        "renk": "turuncu",
+        "ikon": "dis"
+      },
+      {
+        "etiket": "TASARIM",
+        "deger": "ayrı kalem",
+        "alt": "Modelleme baskı ücretine katılmıyor, ayrı ücretlendiriliyor.",
+        "renk": "mor",
+        "ikon": "olcu"
+      },
+      {
+        "etiket": "SIRA",
+        "deger": "önce süre",
+        "alt": "Çoğu işte makine saati ve işçilik, filamentten büyük çıkıyor. Hesaba gramdan değil saatten başla.",
+        "renk": "sari",
+        "ikon": "terazi",
+        "genis": true
+      }
     ]
   },
   "slaytlar": [
     {
       "baslik": "Gram en küçük kalem",
       "aciklama": "Kırk gramlık bir parçanın filament maliyeti küçük bir sayı çıkıyor. Teklifin tamamı bu sayıysa makineyi ve kendi saatini bedava veriyorsun.",
-      "vurgu": [100, 100, 1810, 260]
+      "vurgu": [
+        100,
+        100,
+        1810,
+        260
+      ]
     },
     {
       "baslik": "Saat ücretini baştan belirle",
       "aciklama": "Makine saati, yazıcı bedelinin öngörülen çalışma ömrüne bölümü artı elektrik. Üstüne başarısız baskı payı ekle; iş başına ayrı ayrı hesaplanmıyor, sabit oran olarak yürüyor.",
-      "vurgu": [100, 255, 1810, 560]
+      "vurgu": [
+        100,
+        255,
+        1810,
+        560
+      ]
     },
     {
       "baslik": "Elle geçen süre hesapta yok",
       "aciklama": "Destek temizliği, zımpara ve montaj tezgâhta geçen zaman. Modelleme de ayrı kalem; ikisi de saat ücretiyle yazılıyor, iyilik olarak değil.",
-      "vurgu": [100, 555, 1810, 860]
+      "vurgu": [
+        100,
+        555,
+        1810,
+        860
+      ]
     }
-  ]
+  ],
+  "zemin": "mor"
 }

@@ -581,7 +581,16 @@ def kapak_rakam(spec, sayac, yol):
 
     rakam = P(spec["rakam"])
     f = fit(d, rakam, anton, 956, 400, 120)
-    ry = 250
+
+    # blok yüksekliğini ölç, boşluğu üste ve alta eşit dağıt
+    fa0 = fit(d, P(spec["rakam_alt"]), archivo, 956, 70, 38)
+    fs0 = pop(32, "Medium")
+    h_rakam = d.textbbox((0, 0), rakam, font=f, anchor="la")[3]
+    h_alt = d.textbbox((0, 0), P(spec["rakam_alt"]), font=fa0,
+                       anchor="la")[3]
+    h_spot = 46 * len(wrap(d, P(spec["spot"]), fs0, 900))
+    blok = h_rakam + 26 + h_alt + 54 + h_spot
+    ry = max(250, int(250 + ((1160 - 250) - blok) / 2))
     img.alpha_composite(glow((W, H), lambda g: g.text(
         (GUT - 10, ry), rakam, font=f, fill=a(AC(), ISIK(0.9)), anchor="la"),
         50))
@@ -614,51 +623,58 @@ def kapak_carpisma(spec, sayac, yol):
 
     kirmizi = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ImageDraw.Draw(kirmizi).polygon([(0, 0), (W, 0), (W, 430), (0, 930)],
-                                    fill=a(RED, 0.20))
+                                    fill=a(KC(RED), 0.32))
     img.alpha_composite(kirmizi.filter(ImageFilter.GaussianBlur(60)))
     yesil = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ImageDraw.Draw(yesil).polygon([(0, 930), (W, 430), (W, H), (0, H)],
-                                  fill=a(GREEN, 0.18))
+                                  fill=a(KC(GREEN), 0.30))
     img.alpha_composite(yesil.filter(ImageFilter.GaussianBlur(60)))
 
     img.alpha_composite(glow((W, H), lambda g: g.line(
-        [(0, 930), (W, 430)], fill=a(WHITE, 0.55), width=5), 18))
+        [(0, 930), (W, 430)], fill=a(FG(), ISIK(0.55)), width=5), 18))
     chrome(img, sayac)
     d = ImageDraw.Draw(img)
 
     f = fit(d, max(spec["satir1"], spec["satir2"], key=len), anton, 956, 118)
     y = 210
     img.alpha_composite(glow((W, H), lambda g: [
-        g.text((GUT, y), spec["satir1"], font=f, fill=a(RED, 0.5), anchor="la"),
+        g.text((GUT, y), spec["satir1"], font=f, fill=a(KC(RED), ISIK(0.5)),
+               anchor="la"),
         g.text((GUT, y + f.size * 1.16), spec["satir2"], font=f,
-               fill=a(GREEN, 0.5), anchor="la")], 30))
+               fill=a(KC(GREEN), ISIK(0.5)), anchor="la")], 30))
     d = ImageDraw.Draw(img)
-    d.text((GUT, y), spec["satir1"], font=f, fill=WHITE, anchor="la")
-    d.text((GUT, y + f.size * 1.16), spec["satir2"], font=f, fill=WHITE,
+    d.text((GUT, y), spec["satir1"], font=f, fill=FG(), anchor="la")
+    d.text((GUT, y + f.size * 1.16), spec["satir2"], font=f, fill=FG(),
            anchor="la")
     bot = d.textbbox((GUT, y + f.size * 1.16), spec["satir2"], font=f,
                      anchor="la")[3]
 
-    for metin, col, cy in [(spec["sol_etiket"], RED, bot + 86),
-                           (spec["sag_etiket"], GREEN, bot + 232)]:
+    fs = pop(32, "Medium")
+    taraf = [(spec["sol_etiket"], spec["sol_metin"], KC(RED), bot + 132),
+             (spec["sag_etiket"], spec["sag_metin"], KC(GREEN), bot + 344)]
+    for etiket, metin, col, cy in taraf:
         fb = pop(34, "Bold")
-        tw = d.textlength(P(metin), font=fb)
+        tw = d.textlength(P(etiket), font=fb)
+        sag = GUT + tw + 60
         over(img, lambda g, t=cy, c=col, w=tw: g.rounded_rectangle(
             [GUT, t - 34, GUT + w + 60, t + 34], radius=34,
             fill=a(c, 0.18), outline=a(c, 0.9), width=3))
         d = ImageDraw.Draw(img)
-        d.text((GUT + 30, cy), P(metin), font=fb, fill=col, anchor="lm")
-
-    fs = pop(32, "Medium")
-    for metin, cy in [(spec["sol_metin"], bot + 86), (spec["sag_metin"],
-                                                      bot + 232)]:
-        d.text((RIGHT, cy), P(metin), font=fs, fill=(215, 225, 240),
-               anchor="rm")
+        d.text((GUT + 30, cy), P(etiket), font=fb, fill=col, anchor="lm")
+        # açıklama sığıyorsa aynı satırda, sığmıyorsa altında
+        mw = d.textlength(P(metin), font=fs)
+        if sag + 30 + mw <= RIGHT:
+            d.text((RIGHT, cy), P(metin), font=fs, fill=FG(), anchor="rm")
+        else:
+            my = cy + 58
+            for ln in wrap(d, P(metin), fs, RIGHT - GUT):
+                d.text((GUT, my), ln, font=fs, fill=FG(), anchor="lm")
+                my += 44
 
     fsp = pop(32, "Medium")
-    ty = bot + 320
+    ty = bot + 496
     for ln in wrap(d, P(spec["spot"]), fsp, 900):
-        d.text((GUT, ty), ln, font=fsp, fill=(195, 208, 228), anchor="la")
+        d.text((GUT, ty), ln, font=fsp, fill=FG2(), anchor="la")
         ty += 46
 
     _rozetler(img, d, spec)
@@ -674,10 +690,14 @@ def kapak_yakin(spec, sayac, yol):
 
     perde = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     pd = ImageDraw.Draw(perde)
+    ust = tuple(_P("ust", BG))
+    alt = tuple(_P("alt", BG))
     for i in range(760):
-        pd.line([(0, i), (W, i)], fill=BG + (int(255 * min(1, (760 - i) / 180)),))
+        pd.line([(0, i), (W, i)],
+                fill=ust + (int(255 * min(1, (760 - i) / 180)),))
     for i in range(1150, H):
-        pd.line([(0, i), (W, i)], fill=BG + (int(255 * min(1, (i - 1150) / 110)),))
+        pd.line([(0, i), (W, i)],
+                fill=alt + (int(255 * min(1, (i - 1150) / 110)),))
     img.alpha_composite(perde)
 
     chrome(img, sayac)
@@ -685,11 +705,11 @@ def kapak_yakin(spec, sayac, yol):
     f = fit(d, max(spec["satir1"], spec["satir2"], key=len), anton, 956, 124)
     y = 190
     img.alpha_composite(glow((W, H), lambda g: g.text(
-        (GUT, y + f.size * 1.16), spec["satir2"], font=f, fill=a(ACC, 0.8),
-        anchor="la"), 28))
+        (GUT, y + f.size * 1.16), spec["satir2"], font=f,
+        fill=a(AC(), ISIK(0.8)), anchor="la"), 28))
     d = ImageDraw.Draw(img)
-    d.text((GUT, y), spec["satir1"], font=f, fill=WHITE, anchor="la")
-    d.text((GUT, y + f.size * 1.16), spec["satir2"], font=f, fill=ACC,
+    d.text((GUT, y), spec["satir1"], font=f, fill=FG(), anchor="la")
+    d.text((GUT, y + f.size * 1.16), spec["satir2"], font=f, fill=AC(),
            anchor="la")
     bot = d.textbbox((GUT, y + f.size * 1.16), spec["satir2"], font=f,
                      anchor="la")[3]
@@ -889,14 +909,31 @@ def _kart(img, x, y, w, h, k):
         d = ImageDraw.Draw(img)
         ikon(d, simge, ikx, iky, ik_s, col)
 
-    fa = pop(24, "Medium")
-    satir = wrap(d, P(k["alt"]), fa, metin_gen)[:2] if k.get("alt") else []
-    alt_ust = y + h - 26 - (len(satir) - 1) * 30 if satir else y + h - 8
+    fa, satir = pop(24, "Medium"), []
+    if k.get("alt"):
+        maks = 3 if h >= 165 else 2
+        for boy in (24, 23, 22, 21, 20, 19, 18, 17, 16):
+            fa = pop(boy, "Medium")
+            satir = wrap(d, P(k["alt"]), fa, metin_gen)
+            if len(satir) <= maks:
+                break
+        satir = satir[:maks]
+    ara = fa.size + 6
+    alt_ust = y + h - 26 - (len(satir) - 1) * ara if satir else y + h - 8
 
     deger = P(k["deger"])
-    bant = max(44, alt_ust - 22 - (y + 58))
-    fd = fit(d, deger, anton, metin_gen, int(bant * 1.1), 30)
-    dy = (y + 58 + alt_ust - 22) / 2
+    ust_sinir, alt_sinir = y + 56, alt_ust - 20
+    bant = max(40, alt_sinir - ust_sinir)
+    boy = int(bant * 1.05)
+    while boy > 28:
+        fd = anton(boy)
+        bb = d.textbbox((0, 0), deger, font=fd, anchor="ls")
+        if (d.textlength(deger, font=fd) <= metin_gen
+                and bb[3] - bb[1] <= bant):
+            break
+        boy -= 2
+    fd = anton(max(28, boy))
+    dy = (ust_sinir + alt_sinir) / 2
     img.alpha_composite(glow((W, H), lambda g: g.text(
         (x + 26, dy), deger, font=fd, fill=a(RK(col), ISIK(0.75)),
         anchor="lm"), 18))
@@ -906,7 +943,7 @@ def _kart(img, x, y, w, h, k):
     ay = alt_ust
     for ln in satir:
         d.text((x + 26, ay), ln, font=fa, fill=FG2(), anchor="lm")
-        ay += 30
+        ay += ara
 
 
 def kapak_izgara(spec, sayac, yol):
@@ -938,9 +975,12 @@ def kapak_izgara(spec, sayac, yol):
         if kartlar[i].get("genis"):
             satirlar.append([kartlar[i]])
             i += 1
-        else:
+        elif i + 1 < len(kartlar) and not kartlar[i + 1].get("genis"):
             satirlar.append(kartlar[i:i + 2])
             i += 2
+        else:
+            satirlar.append([kartlar[i]])
+            i += 1
 
     alt = 1268
     yuk = (alt - ust - bosluk * (len(satirlar) - 1)) / len(satirlar)

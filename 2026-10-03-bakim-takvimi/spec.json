@@ -4,40 +4,94 @@
     "satir1": "YAZICI BOZULMUYOR",
     "satir2": "BAKIMSIZ KALIYOR",
     "spot": "Arızaların çoğu ani değil. Takvime bağlanınca baskı kalitesi kendiliğinden sabitleniyor.",
-    "rozetler": [["Haftalık", "tema"], ["Aylık", "yesil"], ["Yıllık", "turuncu"]],
+    "rozetler": [
+      [
+        "Haftalık",
+        "tema"
+      ],
+      [
+        "Aylık",
+        "yesil"
+      ],
+      [
+        "Yıllık",
+        "turuncu"
+      ]
+    ],
     "tablo": [
-      ["HER BASKI", "tabla temizliği"],
-      ["HAFTALIK", "nozzle ve fan kontrolü"],
-      ["AYLIK", "mil ve rulman yağlama"],
-      ["3 AYLIK", "kayış gerginliği, vida torku"],
-      ["YILLIK", "nozzle ve PTFE değişimi"]
-    ]
+      [
+        "HER BASKI",
+        "tabla temizliği"
+      ],
+      [
+        "HAFTALIK",
+        "nozzle ve fan kontrolü"
+      ],
+      [
+        "AYLIK",
+        "mil ve rulman yağlama"
+      ],
+      [
+        "3 AYLIK",
+        "kayış gerginliği, vida torku"
+      ],
+      [
+        "YILLIK",
+        "nozzle ve PTFE değişimi"
+      ]
+    ],
+    "tip": "klasik"
   },
   "slaytlar": [
     {
       "baslik": "Her baskıdan önce tabla",
       "aciklama": "Yapışma sorunlarının çoğu parmak izi yüzünden çıkıyor. İzopropil alkolle silmek otuz saniye alıyor ve ilk katman derdini büyük ölçüde bitiriyor.",
-      "vurgu": [100, 100, 1810, 260]
+      "vurgu": [
+        100,
+        100,
+        1810,
+        260
+      ]
     },
     {
       "baslik": "Haftalık: nozzle ve fanlar",
       "aciklama": "Nozzle ucundaki birikmiş filament ve tozlanan soğutma fanı önce yüzeyi, sonra boyutu bozuyor. Fanın sesi değiştiyse zaten gecikmiş demek.",
-      "vurgu": [100, 250, 1810, 410]
+      "vurgu": [
+        100,
+        250,
+        1810,
+        410
+      ]
     },
     {
       "baslik": "Aylık ve üstü: hareket sistemi",
       "aciklama": "Millere ince yağ, kayışlara gerginlik kontrolü. Gevşeyen kayış köşelerde hayalet iz bırakıyor; bu iz ayar değil bakım sorunu.",
-      "vurgu": [100, 400, 1810, 710]
+      "vurgu": [
+        100,
+        400,
+        1810,
+        710
+      ]
     }
   ],
   "kapanis": {
     "satir1": "BUGÜN",
     "satir2": "NE YAPILIR?",
     "kriterler": [
-      ["5 DAKİKA", "tablayı izopropil ile sil"],
-      ["15 DAKİKA", "kayış gerginliğine bak"],
-      ["NOT AL", "her bakımı tarihiyle yaz"]
+      [
+        "5 DAKİKA",
+        "tablayı izopropil ile sil"
+      ],
+      [
+        "15 DAKİKA",
+        "kayış gerginliğine bak"
+      ],
+      [
+        "NOT AL",
+        "her bakımı tarihiyle yaz"
+      ]
     ],
     "not": "Bakım defteri tutulan yazıcıda aynı arıza tekrar etmiyor."
-  }
+  },
+  "zemin": "indigo"
 }

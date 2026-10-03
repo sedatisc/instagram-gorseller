@@ -3,7 +3,7 @@
   "kapak": {
     "satir1": "BUTONA BİR KEZ",
     "satir2": "BASTIN MI?",
-    "spot": "Mekanik kontak kapanırken titriyor. Kart bunu üç ayrı basış sayıyor.",
+    "spot": "Metal yay yerine oturana kadar titriyor. Kart her titremeyi ayrı basış sayıyor.",
     "rozetler": [
       [
         "RC süzgeci",
@@ -191,7 +191,11 @@
         "boy": 32,
         "hiza": "mm"
       }
-    ]
+    ],
+    "tip": "rakam",
+    "ustbilgi": "MEKANİK BUTON",
+    "rakam": "20 ms",
+    "rakam_alt": "KONTAK OTURANA KADAR BEKLE"
   },
   "slaytlar": [
     {
@@ -224,5 +228,6 @@
         585
       ]
     }
-  ]
+  ],
+  "zemin": "koyu"
 }

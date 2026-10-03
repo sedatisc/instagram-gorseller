@@ -1,9 +1,9 @@
 {
   "kategori": "3dbaski",
   "kapak": {
-    "satir1": "DOLGUYU ARTIRMA",
+    "satir1": "DOLGUYU DEĞİL",
     "satir2": "DUVARI ARTIR",
-    "spot": "Eğilen parçada gerilim dış yüzeyde toplanıyor. Merkezdeki dolgu neredeyse hiç yük taşımıyor.",
+    "spot": "Eğilen parçada gerilim dış yüzeyde toplanıyor.",
     "rozetler": [
       [
         "Duvar",
@@ -39,6 +39,46 @@
         "AĞIRLIK",
         "duvar dolgudan hafif"
       ]
+    ],
+    "tip": "izgara",
+    "kartlar": [
+      {
+        "etiket": "VARSAYILAN",
+        "deger": "2 duvar",
+        "alt": "0,8 mm kabuk. Görsel parça, kutu, maket.",
+        "renk": "mavi",
+        "ikon": "duvar"
+      },
+      {
+        "etiket": "YÜK TAŞIYAN",
+        "deger": "4 duvar",
+        "alt": "1,6 mm kabuk. Vidalanan, eğilen parça.",
+        "renk": "yesil",
+        "ikon": "duvar",
+        "durum": "dogru"
+      },
+      {
+        "etiket": "DOLGU",
+        "deger": "%15",
+        "alt": "Duvar yeterliyse dolguyu artırmaya gerek yok.",
+        "renk": "mor",
+        "ikon": "kup"
+      },
+      {
+        "etiket": "DUVAR KALINLIĞI",
+        "deger": "0,4 × n",
+        "alt": "Nozzle'ın tam katı olacak: 0,8 · 1,2 · 1,6 mm.",
+        "renk": "turuncu",
+        "ikon": "nozzle"
+      },
+      {
+        "etiket": "KURAL",
+        "deger": "Önce duvar",
+        "alt": "Eğilme yükünde gerilim yüzeyde toplanıyor; merkezdeki dolgu bu yükün çok azını görüyor.",
+        "renk": "sari",
+        "ikon": "uyari",
+        "genis": true
+      }
     ]
   },
   "slaytlar": [
@@ -72,5 +112,6 @@
         860
       ]
     }
-  ]
+  ],
+  "zemin": "okyanus"
 }

@@ -1,9 +1,9 @@
 {
   "kategori": "3dbaski",
   "kapak": {
-    "satir1": "AYNI MODEL",
-    "satir2": "NEDEN KIRILDI?",
-    "spot": "Değişen tek şey parçanın tablaya nasıl yerleştirildiği.",
+    "satir1": "DİKEY BASTIN",
+    "satir2": "YATIK BAS",
+    "spot": "Aynı model, aynı ayar. Değişen tek şey parçanın tablaya nasıl yerleştirildiği.",
     "rozetler": [
       [
         "Z ekseni",
@@ -39,7 +39,12 @@
         "DESTEK",
         "yön değişince artıyor"
       ]
-    ]
+    ],
+    "tip": "carpisma",
+    "sol_etiket": "DİKEY",
+    "sag_etiket": "YATIK",
+    "sol_metin": "yük katman arasında, katmanlar ayrılıyor",
+    "sag_metin": "yük katman boyunca, filamente biniyor"
   },
   "slaytlar": [
     {
@@ -72,5 +77,6 @@
         860
       ]
     }
-  ]
+  ],
+  "zemin": "koyu"
 }
