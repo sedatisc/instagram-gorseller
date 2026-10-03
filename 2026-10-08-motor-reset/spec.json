@@ -1,0 +1,221 @@
+{
+  "kategori": "elektronik",
+  "zemin": "indigo",
+  "kapak": {
+    "tip": "yakin",
+    "satir1": "MOTOR KALKINCA",
+    "satir2": "KART RESETLENİYOR",
+    "spot": "Kodda hata aramayı bırak. Gerilim kalkış anında mikrosaniyelerde çöküyor.",
+    "rozetler": [
+      [
+        "1000 µF",
+        "tema"
+      ],
+      [
+        "Ayrı hat",
+        "yesil"
+      ],
+      [
+        "Tek toprak",
+        "turuncu"
+      ]
+    ],
+    "cizim": [
+      {
+        "t": "t",
+        "x": 120,
+        "y": 200,
+        "metin": "+12V"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            210,
+            200
+          ],
+          [
+            1180,
+            200
+          ]
+        ]
+      },
+      {
+        "t": "n",
+        "x": 520,
+        "y": 200
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            520,
+            200
+          ],
+          [
+            520,
+            330
+          ]
+        ]
+      },
+      {
+        "t": "c",
+        "x": 520,
+        "y": 330,
+        "yon": "v",
+        "ad": "C1",
+        "deger": "1000 µF"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            520,
+            362
+          ],
+          [
+            520,
+            500
+          ]
+        ]
+      },
+      {
+        "t": "g",
+        "x": 520,
+        "y": 500,
+        "b": 140
+      },
+      {
+        "t": "k",
+        "x0": 1180,
+        "y0": 100,
+        "x1": 1720,
+        "y1": 340,
+        "metin": "MOTOR SÜRÜCÜ"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            1450,
+            340
+          ],
+          [
+            1450,
+            500
+          ]
+        ]
+      },
+      {
+        "t": "g",
+        "x": 1450,
+        "y": 500,
+        "b": 140
+      },
+      {
+        "t": "n",
+        "x": 860,
+        "y": 200
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            860,
+            200
+          ],
+          [
+            860,
+            660
+          ]
+        ]
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            860,
+            660
+          ],
+          [
+            1180,
+            660
+          ]
+        ]
+      },
+      {
+        "t": "y",
+        "x": 1010,
+        "y": 616,
+        "metin": "AYRI HAT",
+        "boy": 30,
+        "hiza": "mm"
+      },
+      {
+        "t": "k",
+        "x0": 1180,
+        "y0": 560,
+        "x1": 1720,
+        "y1": 800,
+        "metin": "MCU — LOJİK"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            1450,
+            800
+          ],
+          [
+            1450,
+            860
+          ]
+        ]
+      },
+      {
+        "t": "g",
+        "x": 1450,
+        "y": 860,
+        "b": 140
+      }
+    ],
+    "vurgu": [
+      370,
+      250,
+      835,
+      680
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Kalkış akımı gerilimi çökertiyor",
+      "aciklama": "Duran bir DC motor ilk anda çalışma akımının 5-8 katını çekiyor. Besleme bu sıçramayı karşılayamayınca gerilim anlık düşüyor ve denetleyici brown-out eşiğinin altına inip yeniden başlıyor.",
+      "vurgu": [
+        1120,
+        80,
+        1760,
+        380
+      ]
+    },
+    {
+      "baslik": "Büyük kondansatör sıçramayı karşılar",
+      "aciklama": "Motor sürücünün besleme girişine 470-1000 µF elektrolitik kondansatör gidiyor ve kalkış anındaki akımı o veriyor. Kondansatör sürücünün dibinde duracak; yarım metre kabloyla bağlanan kondansatör işe yaramıyor.",
+      "vurgu": [
+        370,
+        250,
+        835,
+        680
+      ]
+    },
+    {
+      "baslik": "Lojik hattı motordan ayrılır",
+      "aciklama": "Denetleyici beslemesi motor hattından değil, kaynaktan ayrı çekilen hattan geliyor; iki taraf yalnız toprakta birleşiyor. Aynı kablodan beslenen kart, kondansatör de koysan motorun gerilim dalgalanmasını görüyor.",
+      "vurgu": [
+        820,
+        540,
+        1780,
+        880
+      ]
+    }
+  ]
+}

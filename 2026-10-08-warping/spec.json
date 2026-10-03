@@ -1,0 +1,89 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "okyanus",
+  "kapak": {
+    "tip": "izgara",
+    "satir1": "KÖŞELER",
+    "satir2": "NEDEN KALKIYOR",
+    "spot": "Sorun tabla yapışkanlığında değil, soğuma hızında.",
+    "kartlar": [
+      {
+        "etiket": "ABS BÜZÜLME",
+        "deger": "%0,8",
+        "alt": "100 mm'lik parça soğurken 0,8 mm kısalıyor.",
+        "renk": "kirmizi",
+        "ikon": "uyari",
+        "genis": true,
+        "durum": "yanlis"
+      },
+      {
+        "etiket": "PLA BÜZÜLME",
+        "deger": "%0,2",
+        "alt": "Kabin olmadan da köşe tutuyor",
+        "renk": "yesil",
+        "ikon": "makara",
+        "durum": "dogru"
+      },
+      {
+        "etiket": "TABLA",
+        "deger": "100-110 °C",
+        "alt": "ABS ve ASA'da alt sınır bu",
+        "renk": "turuncu",
+        "ikon": "tabla"
+      },
+      {
+        "etiket": "KABİN İÇİ",
+        "deger": "40-50 °C",
+        "alt": "Kapalı kabin bu aralığa çıkıyor",
+        "renk": "mavi",
+        "ikon": "isi"
+      },
+      {
+        "etiket": "FAN",
+        "deger": "%0",
+        "alt": "İlk 5 katmanda kapalı kalıyor",
+        "renk": "mor",
+        "ikon": "hiz"
+      },
+      {
+        "etiket": "BRIM",
+        "deger": "5-8 mm",
+        "alt": "Köşeyi tablaya bağlı tutuyor",
+        "renk": "sari",
+        "ikon": "duvar"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Warping büzülme farkından çıkıyor",
+      "aciklama": "Üst katmanlar soğurken kısalıyor, tablaya yapışan alt katman kısalamıyor ve aradaki gerilim köşeyi yukarı çekiyor. ABS %0,8 büzülürken PLA %0,2 kalıyor; aynı tablada biri kalkıp diğeri düz çıkıyor.",
+      "vurgu": [
+        100,
+        55,
+        1810,
+        330
+      ]
+    },
+    {
+      "baslik": "Tabla ve kabin sıcaklığı farkı kapatır",
+      "aciklama": "ABS ve ASA'da tabla 100-110 °C'ye çıkmadan köşe tutmuyor. Kapalı kabin ortam havasını 40-50 °C'ye getiriyor; parçanın altı ve üstü aynı hızda soğuyunca gerilim birikmiyor.",
+      "vurgu": [
+        100,
+        335,
+        1810,
+        605
+      ]
+    },
+    {
+      "baslik": "Fan kapalı kalır, brim açılır",
+      "aciklama": "Soğutma fanı ilk katmanlarda çalışırsa kabinin yaptığı işi bozuyor; ABS'de ilk beş katmanda fan kapalı. Brim 5-8 mm temas ekliyor ve köşeyi parça soğuyana kadar tablaya bağlı tutuyor.",
+      "vurgu": [
+        100,
+        610,
+        1810,
+        885
+      ]
+    }
+  ]
+}
