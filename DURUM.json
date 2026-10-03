@@ -10,7 +10,8 @@
       6,
       7,
       8,
-      9
+      9,
+      10
     ],
     "elektronik": [
       1,
@@ -23,7 +24,8 @@
       8,
       9,
       10,
-      11
+      11,
+      12
     ],
     "proje": [
       1,
@@ -34,6 +36,7 @@
       6,
       7,
       8,
+      9,
       10
     ]
   },
@@ -199,6 +202,24 @@
       "slot": "proje",
       "konu": 8,
       "klasor": "2026-10-07-model-kaynaklari"
+    },
+    {
+      "tarih": "2026-10-08",
+      "slot": "3dbaski",
+      "konu": 10,
+      "klasor": "2026-10-08-warping"
+    },
+    {
+      "tarih": "2026-10-08",
+      "slot": "elektronik",
+      "konu": 12,
+      "klasor": "2026-10-08-motor-reset"
+    },
+    {
+      "tarih": "2026-10-08",
+      "slot": "proje",
+      "konu": 9,
+      "klasor": "2026-10-08-atolye-aletleri"
     }
   ],
   "yayinlanmis_disarida": [
