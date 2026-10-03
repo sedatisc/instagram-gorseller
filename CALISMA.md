@@ -56,6 +56,8 @@ Hikaye — aynı araçla, gönderiden **40 dakika sonrasına**:
 - `text` **gönderme** — hikayede açıklama alanı yok, tek ağ hikayeyse metin hata veriyor
 - `firstCommentText` de gönderme
 
+**Görseli sonradan değiştirdiysen planlanmış gönderiyi de güncelle.** Metricool, gönderiyi planlarken görseli kendi sunucusuna kopyalıyor (`static.metricool.com/...`). GitHub'daki dosyayı değiştirmek planlanmış gönderiyi değiştirmiyor; eski görsel yayınlanıyor. Bir klasörü yeniden ürettiysen `getScheduledPosts` ile o gönderiyi bul, `updateScheduledPost` ile `media` alanına GitHub ham bağlantılarını yeniden ver — hem gönderiyi hem hikayesini. Metricool bağlantıları o anda yeniden çekiyor. Yayınlanmış gönderinin görseli değiştirilemiyor.
+
 **7. Durumu güncelle.** `DURUM.json` içindeki `kullanilan` listesine konu numarasını ekle, commit ve push et. Bu adım atlanırsa ertesi gün aynı konu tekrar üretilir.
 
 ## Paylaşım saatleri
