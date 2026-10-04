@@ -1,0 +1,173 @@
+{
+  "kategori": "proje",
+  "zemin": "orman",
+  "kapak": {
+    "tip": "liste",
+    "satir1": "BAŞARISIZ BASKI",
+    "satir2": "ARŞİVİ",
+    "spot": "Çöpe atılan her parça bir ayarı öğretti; altısı burada.",
+    "rozetler": [
+      [
+        "İlk 2 dakika",
+        "tema"
+      ],
+      [
+        "İvme 3.000 mm/s²",
+        "sari"
+      ],
+      [
+        "Büzülme %0,2",
+        "turuncu"
+      ]
+    ],
+    "satirlar": [
+      {
+        "etiket": "İlk katman",
+        "deger": "2 dakika",
+        "ikon": "katman",
+        "renk": "tema"
+      },
+      {
+        "etiket": "Katman kayması",
+        "deger": "3.000 mm/s²",
+        "ikon": "hiz",
+        "renk": "sari"
+      },
+      {
+        "etiket": "Ortada kopma",
+        "deger": "8 mm brim",
+        "ikon": "duvar",
+        "renk": "kirmizi"
+      },
+      {
+        "etiket": "Nozzle tıkanması",
+        "deger": "300 saat",
+        "ikon": "nozzle",
+        "renk": "mavi"
+      },
+      {
+        "etiket": "Destek izi",
+        "deger": "0,2 mm",
+        "ikon": "kup",
+        "renk": "yesil"
+      },
+      {
+        "etiket": "Ölçü sapması",
+        "deger": "%0,2",
+        "ikon": "olcu",
+        "renk": "turuncu"
+      }
+    ],
+    "tablo": [
+      [
+        "İLK KATMAN",
+        "2 dakika izle"
+      ],
+      [
+        "KATMAN KAYMASI",
+        "3.000 mm/s²"
+      ],
+      [
+        "ORTADA KOPMA",
+        "8 mm brim"
+      ],
+      [
+        "NOZZLE TIKANMASI",
+        "300 saat"
+      ],
+      [
+        "DESTEK İZİ",
+        "0,2 mm Z boşluğu"
+      ],
+      [
+        "ÖLÇÜ SAPMASI",
+        "%0,2 büzülme"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "İlk iki dakika baskının tamamını söyler",
+      "aciklama": "Yapışmayan ilk katman sekiz saat sonra spagetti olarak çıkıyor; başındaki iki dakikada belli oluyor. Tablayı izopropil alkolle sil, PLA'da 60 °C'yi bekle ve ilk katman otursun diye tezgâhtan ayrılma.",
+      "vurgu": [
+        100,
+        55,
+        1810,
+        200
+      ]
+    },
+    {
+      "baslik": "Kayma hızdan değil ivmeden geliyor",
+      "aciklama": "Katmanların yana atması çoğu zaman gevşek kayıştan ya da fazla ivmeden çıkıyor. İvmeyi 5.000'den 3.000 mm/s²'ye indirip kayış gerginliğini ve kasnak vidasını kontrol etmek sorunu bitiriyor; baskı hızını düşürmek tek başına çözmüyor.",
+      "vurgu": [
+        100,
+        196,
+        1810,
+        335
+      ]
+    },
+    {
+      "baslik": "Ortada kopan parça baştan kopmuştu",
+      "aciklama": "Uzun parçanın köşesi ilk katmanlarda sessizce kalkıyor, kopma saatler sonra görünüyor. 20 cm üstü parçalarda 8 mm brim, kapalı ortam ve hava akımı kesmek gerekiyor; kopan parça tablayı bir de nozzle'a yapıştırıyor.",
+      "vurgu": [
+        100,
+        332,
+        1810,
+        471
+      ]
+    },
+    {
+      "baslik": "Tıkanan nozzle çoğu zaman yorgun nozzle",
+      "aciklama": "Pirinç 0,4 mm nozzle normal PLA ile birkaç yüz saat sonra ağzını açıyor ve akışı bozuluyor. Önce cold pull dene; aynı tıkanma tekrarlıyorsa nozzle'ı değiştir. Karbon ve cam elyaflı filament pirinci bunun çok altında bitiriyor, orada sertleştirilmiş uç şart.",
+      "vurgu": [
+        100,
+        468,
+        1810,
+        608
+      ]
+    },
+    {
+      "baslik": "Destek izi sökmeden önce ayarlanıyor",
+      "aciklama": "Zorlanarak sökülen destek yüzeyden parça koparıyor. Z boşluğunu 0,2 mm'ye al, temas alanını küçült ve parçayı görünen yüzü destek almayacak şekilde çevir. Çevirmek bedava, zımpara değil.",
+      "vurgu": [
+        100,
+        605,
+        1810,
+        745
+      ]
+    },
+    {
+      "baslik": "Parça doğru basıldı ama ölçü tutmadı",
+      "aciklama": "PLA soğurken %0,2 büzülüyor; 100 mm'lik parça 99,8 mm çıkıyor ve montajda anlaşılıyor. Test küpü değil gerçek parçayı ölç, geçme yerlerine büzülme payı ekle. Ölçü sapması baskıyı bozmuyor, işi bozuyor.",
+      "vurgu": [
+        100,
+        741,
+        1810,
+        882
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "HANGİ DERS",
+    "satir2": "EN PAHALI?",
+    "kriterler": [
+      [
+        "EN SIK",
+        "ilk katman — iki dakika izlemek"
+      ],
+      [
+        "EN MALİYETLİ",
+        "ortada kopma — saatler çöpe"
+      ],
+      [
+        "EN SİNSİ",
+        "ölçü sapması — parça tamam görünüyor"
+      ],
+      [
+        "EN KOLAY",
+        "destek izi — tek ayar"
+      ]
+    ],
+    "not": "Attığın parçanın fotoğrafını çek; arşiv aynı hatayı tekrarlatmıyor."
+  }
+}

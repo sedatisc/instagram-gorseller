@@ -1,0 +1,90 @@
+{
+  "kategori": "elektronik",
+  "zemin": "koyu",
+  "kapak": {
+    "tip": "izgara",
+    "satir1": "BUCK ISINIYORSA",
+    "satir2": "4 SEBEP",
+    "spot": "Modül bozuk değil; dördünden biri mutlaka tutuyor.",
+    "kartlar": [
+      {
+        "etiket": "GİRİŞ-ÇIKIŞ FARKI",
+        "deger": "24 V/3,3 V",
+        "alt": "Verim %85'ten %72'ye iniyor.",
+        "renk": "kirmizi",
+        "ikon": "uyari",
+        "genis": true,
+        "durum": "yanlis"
+      },
+      {
+        "etiket": "SÜREKLİ AKIM",
+        "deger": "%70",
+        "alt": "3 A modül 2,1 A üstünde ısınıyor.",
+        "renk": "turuncu",
+        "ikon": "pil"
+      },
+      {
+        "etiket": "BOBİN DOYGUNLUĞU",
+        "deger": "1,5×",
+        "alt": "Doygunluk akımı çıkışın katı olacak.",
+        "renk": "mavi",
+        "ikon": "dalga"
+      },
+      {
+        "etiket": "BAKIR ALAN",
+        "deger": "100 mm²",
+        "alt": "IC altındaki bakır 10 °C düşürüyor.",
+        "renk": "yesil",
+        "ikon": "tabla",
+        "durum": "dogru"
+      },
+      {
+        "etiket": "GÖVDE SICAKLIĞI",
+        "deger": "85 °C",
+        "alt": "Üstündeyse yükü düşür, modülü büyüt.",
+        "renk": "sari",
+        "ikon": "isi"
+      },
+      {
+        "etiket": "SOĞUTUCU",
+        "deger": "8 °C",
+        "alt": "Yapışkanlı alüminyum soğutucunun kazancı.",
+        "renk": "mor",
+        "ikon": "hiz"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Fark büyüdükçe kayıp büyüyor",
+      "aciklama": "12 V'tan 5 V almakla 24 V'tan 3,3 V almak aynı iş değil. Çıkış oranı düştükçe anahtarın iletim süresi kısalıyor, aynı güç için tepe akım yükseliyor; ucuz modülde verim %85 bandından %72'ye iniyor ve aradaki fark ısı olarak kalıyor.",
+      "vurgu": [100, 55, 1810, 200]
+    },
+    {
+      "baslik": "Etiketteki akım sürekli akım değil",
+      "aciklama": "3 A yazan modül o akımı ancak soğutucuyla ve kısa süre veriyor. Sürekli yükte nominalin %70'i güvenli sınır: 3 A modülde 2,1 A. Üstüne çıkınca MOSFET'in RDS(on) direnci sıcaklıkla artıyor ve ısınma kendini besliyor.",
+      "vurgu": [100, 196, 1810, 335]
+    },
+    {
+      "baslik": "Bobin doygunluğa girince ısı patlıyor",
+      "aciklama": "Bobinin doygunluk akımı çıkış akımının en az 1,5 katı olacak. Altında kalırsa çekirdek doyuyor, endüktans düşüyor, dalgalanma akımı katlanıyor; ısınan şey yalnız IC değil bobinin kendisi oluyor. Elle tuttuğunda en sıcak parça bobinse sebep bu.",
+      "vurgu": [100, 332, 1810, 471]
+    },
+    {
+      "baslik": "Isının gideceği bir yer olacak",
+      "aciklama": "IC gövdesinin altındaki bakır alan soğutucunun kendisi: 100 mm² bakır gövde sıcaklığını 10 °C civarı düşürüyor, yapışkanlı alüminyum soğutucu 8 °C daha alıyor. Gövde 85 °C üstündeyse yük düşürülecek ya da modül büyütülecek; o sıcaklıkta kondansatörün ömrü hızla kısalıyor.",
+      "vurgu": [100, 468, 1810, 882]
+    }
+  ],
+  "kapanis": {
+    "satir1": "HANGİSİNDEN",
+    "satir2": "BAŞLAMALI?",
+    "kriterler": [
+      ["ÖNCE", "gövde sıcaklığını ölç"],
+      ["SONRA", "yükü nominalin %70'ine indir"],
+      ["YERLEŞİM", "bakır alanı ve soğutucuyu ekle"],
+      ["ÇÖZÜLMEZSE", "daha yüksek akımlı modüle geç"]
+    ],
+    "not": "Lineer regülatör çözüm değil: 7805 ile 24 V'tan 1 A çekmek 19 W ısı demek."
+  }
+}

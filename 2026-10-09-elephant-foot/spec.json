@@ -1,0 +1,40 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "rakam",
+    "ustbilgi": "ELEPHANT FOOT TELAFİSİ",
+    "rakam": "0,2 mm",
+    "rakam_alt": "Taban kenarı bu kadar içeri çekiliyor",
+    "spot": "Taban şişmesi ilk katmanda bitmiyor; tabla sıcağında kalan ilk beş katman da yayılıyor.",
+    "rozetler": [
+      ["Tabla 60, sonra 55 °C", "tema"],
+      ["Etkilenen 5 katman", "turuncu"],
+      ["Pah 0,5 mm", "yesil"]
+    ],
+    "tablo": [
+      ["TABLA SICAKLIĞI", "60 sonra 55 °C"],
+      ["ETKİLENEN KATMAN", "ilk 5 katman"],
+      ["Z OFSETİ ADIMI", "0,02 mm"],
+      ["TELAFİ DEĞERİ", "0,2 mm"],
+      ["PAH (CHAMFER)", "0,5 mm × 45°"]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Taban tek katman değil",
+      "aciklama": "PLA 60 °C tablada cam geçiş sıcaklığının yakınında kalıyor; üstteki katmanların ağırlığı altındaki beş katmanı yana yayıyor. İlk katman bittikten sonra tablayı 55 °C'ye indirmek şişmenin büyük kısmını alıyor.",
+      "vurgu": [100, 55, 1810, 390]
+    },
+    {
+      "baslik": "Önce ofset, sonra telafi",
+      "aciklama": "Nozzle fazla yakınsa ilk katman ezilip kenardan taşıyor; Z ofsetini 0,02 mm adımlarla açıp ilk katman testiyle doğrula. Ofset doğruyken kalan şişme için slicer'daki elephant foot telafisi 0,1 - 0,2 mm arası yeterli oluyor.",
+      "vurgu": [100, 385, 1810, 718]
+    },
+    {
+      "baslik": "Kalıcı çözüm pah",
+      "aciklama": "Tabanın kenarına modelde 0,5 mm × 45° pah vermek şişecek malzemeye yer açıyor; parça hangi yazıcıda basılırsa basılsın ölçü tutuyor. Geçme ve vidalı birleşimlerde ayarla uğraşmak yerine bunu yapmak daha az deneme istiyor.",
+      "vurgu": [100, 712, 1810, 882]
+    }
+  ]
+}
