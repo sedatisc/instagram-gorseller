@@ -11,7 +11,8 @@
       7,
       8,
       9,
-      10
+      10,
+      11
     ],
     "elektronik": [
       1,
@@ -25,7 +26,8 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ],
     "proje": [
       1,
@@ -37,7 +39,8 @@
       7,
       8,
       9,
-      10
+      10,
+      11
     ]
   },
   "gecmis": [
@@ -220,6 +223,24 @@
       "slot": "proje",
       "konu": 9,
       "klasor": "2026-10-08-atolye-aletleri"
+    },
+    {
+      "tarih": "2026-10-09",
+      "slot": "3dbaski",
+      "konu": 11,
+      "klasor": "2026-10-09-elephant-foot"
+    },
+    {
+      "tarih": "2026-10-09",
+      "slot": "elektronik",
+      "konu": 13,
+      "klasor": "2026-10-09-buck-isinmasi"
+    },
+    {
+      "tarih": "2026-10-09",
+      "slot": "proje",
+      "konu": 11,
+      "klasor": "2026-10-09-basarisiz-baski-arsivi"
     }
   ],
   "yayinlanmis_disarida": [
