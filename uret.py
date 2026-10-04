@@ -70,8 +70,9 @@ def mono(s, bold=False):
 
 
 def P(s):
-    """Poppins'te U+03A9 yok, U+2126 var — omega'yı ohm işaretine çevir."""
-    return s.replace("\u03a9", "\u2126")
+    """Poppins'te U+03A9 ve birleşik nokta yok — ikisini de temizle."""
+    return (s.replace("\u03a9", "\u2126")
+             .replace("i\u0307", "i").replace("\u0307", ""))
 
 
 PAL = {}
@@ -286,7 +287,7 @@ def base_renkli(W=W, H=H):
     return img
 
 
-def chrome(img, counter):
+def chrome(img, counter, kaydir=False):
     logo = bright_logo(34)
     img.alpha_composite(logo, (GUT, 56))
     d = ImageDraw.Draw(img)
@@ -305,13 +306,24 @@ def chrome(img, counter):
         g.rounded_rectangle([lx, 58, lx + lw + 40, 100], radius=21,
                             fill=a(AA, 0.12), outline=a(AA, 0.45), width=2)
         g.line([(GUT, 124), (RIGHT, 124)], fill=a(AA, 0.30), width=2)
-        g.line([(GUT + 212, 1296), (RIGHT, 1296)], fill=a(AA, 0.20), width=2)
+        g.line([(GUT + 212, 1296), (cizgi_sag, 1296)], fill=a(AA, 0.20),
+               width=2)
+    fk = pop(24, "Bold")
+    kw = d.textlength("KAYDIR", font=fk) + 46 if kaydir else 0
+    cizgi_sag = RIGHT - kw - 24 if kaydir else RIGHT
     over(img, wash)
     d = ImageDraw.Draw(img)
     d.text(((x0 + RIGHT) / 2, 74), counter, font=f, fill=AA, anchor="mm")
     d.text((lx + 20, 79), LABEL, font=fl, fill=AA, anchor="lm")
     d.text((GUT, 1296), "@sermenkreatif", font=mono(26), fill=SOFT(),
            anchor="lm")
+    if kaydir:
+        ox = RIGHT - kw
+        d.text((ox, 1296), "KAYDIR", font=fk, fill=AA, anchor="lm")
+        ax = RIGHT - 34
+        d.line([(ax, 1296), (ax + 22, 1296)], fill=AA, width=4)
+        d.polygon([(ax + 18, 1288), (ax + 34, 1296), (ax + 18, 1304)],
+                  fill=AA)
 
 
 def fit(d, text, maker, maxw, start, floor=40):
@@ -573,7 +585,7 @@ def _rozetler(img, d, spec):
 def kapak_rakam(spec, sayac, yol):
     """Dev rakam kapağı — tek sayı ekranı dolduruyor."""
     img = base()
-    chrome(img, sayac)
+    chrome(img, sayac, kaydir=True)
     d = ImageDraw.Draw(img)
 
     d.text((GUT, 190), P(spec["ustbilgi"]).upper(), font=mono(30, True),
@@ -632,7 +644,7 @@ def kapak_carpisma(spec, sayac, yol):
 
     img.alpha_composite(glow((W, H), lambda g: g.line(
         [(0, 930), (W, 430)], fill=a(FG(), ISIK(0.55)), width=5), 18))
-    chrome(img, sayac)
+    chrome(img, sayac, kaydir=True)
     d = ImageDraw.Draw(img)
 
     f = fit(d, max(spec["satir1"], spec["satir2"], key=len), anton, 956, 118)
@@ -700,7 +712,7 @@ def kapak_yakin(spec, sayac, yol):
                 fill=alt + (int(255 * min(1, (i - 1150) / 110)),))
     img.alpha_composite(perde)
 
-    chrome(img, sayac)
+    chrome(img, sayac, kaydir=True)
     d = ImageDraw.Draw(img)
     f = fit(d, max(spec["satir1"], spec["satir2"], key=len), anton, 956, 124)
     y = 190
@@ -949,7 +961,7 @@ def _kart(img, x, y, w, h, k):
 def kapak_izgara(spec, sayac, yol):
     """Kopya kâğıdı kapağı — tek karede yoğun, kaydedilesi bilgi."""
     img = base()
-    chrome(img, sayac)
+    chrome(img, sayac, kaydir=True)
     d = ImageDraw.Draw(img)
 
     s1, s2 = spec["satir1"], spec["satir2"]
@@ -997,9 +1009,98 @@ def kapak_izgara(spec, sayac, yol):
     img.convert("RGB").save(yol)
 
 
+def kapak_liste(spec, sayac, yol):
+    """Solda ikonlu liste, sağda katlı kule — her satır kendi katına bağlı."""
+    img = base()
+    chrome(img, sayac, kaydir=True)
+    d = ImageDraw.Draw(img)
+
+    s1, s2 = spec["satir1"], spec["satir2"]
+    f = fit(d, max(s1, s2, key=len), anton, 956, 84)
+    y = 168
+    img.alpha_composite(glow((W, H), lambda g: g.text(
+        (GUT, y + f.size * 1.12), s2, font=f, fill=a(AC(), ISIK(0.8)),
+        anchor="la"), 24))
+    d = ImageDraw.Draw(img)
+    d.text((GUT, y), s1, font=f, fill=FG(), anchor="la")
+    d.text((GUT, y + f.size * 1.12), s2, font=f, fill=AC(), anchor="la")
+    ust = d.textbbox((GUT, y + f.size * 1.12), s2, font=f, anchor="la")[3] + 24
+    if spec.get("spot"):
+        fs = pop(27, "Medium")
+        for ln in wrap(d, P(spec["spot"]), fs, 956)[:2]:
+            d.text((GUT, ust), ln, font=fs, fill=FG2(), anchor="la")
+            ust += 40
+        ust += 14
+
+    satirlar = spec["satirlar"][:10]
+    n = len(satirlar)
+    alt = 1258
+    ara = 12 if n > 7 else 16
+    yuk = (alt - ust - ara * (n - 1)) / n
+
+    SOL, SAG = GUT, 648           # liste sütunu
+    KUL_X0, KUL_X1 = 742, RIGHT   # kule
+
+    renkler = [KC(RENKLER.get(r.get("renk", "tema"), ACC))
+               if r.get("renk", "tema") != "tema" else AC()
+               for r in satirlar]
+
+    # kule gövdesi
+    over(img, lambda g: g.rounded_rectangle(
+        [KUL_X0, ust, KUL_X1, alt], radius=26, fill=a(AC(), 0.07),
+        outline=a(AC(), _P("kontur_op", 0.55)), width=3))
+
+    fe = pop(max(20, min(27, int(yuk * 0.34))), "SemiBold")
+    fd = mono(max(19, min(26, int(yuk * 0.31))), True)
+
+    for i, (r, col) in enumerate(zip(satirlar, renkler)):
+        ry = ust + i * (yuk + ara)
+        cy = ry + yuk / 2
+
+        # --- liste satırı
+        over(img, lambda g, t=ry, c=col: g.rounded_rectangle(
+            [SOL, t, SAG, t + yuk], radius=16, fill=a(c, _P("kart_op", 0.09)),
+            outline=a(c, _P("kontur_op", 0.55)), width=2))
+        d = ImageDraw.Draw(img)
+        isim = P(r["etiket"])
+        deger = P(r.get("deger", ""))
+        dw = d.textlength(deger, font=fd) if deger else 0
+        ikx = SOL + 26 + yuk * 0.22
+        if r.get("ikon"):
+            ikon(d, r["ikon"], ikx, cy, yuk * 0.52, col)
+            tx = ikx + yuk * 0.30 + 16
+        else:
+            tx = SOL + 26
+        fi = fe
+        while (d.textlength(isim, font=fi) > SAG - 24 - dw - tx
+               and fi.size > 17):
+            fi = pop(fi.size - 1, "SemiBold")
+        d.text((tx, cy), isim, font=fi, fill=FG(), anchor="lm")
+        if deger:
+            d.text((SAG - 22, cy), deger, font=fd, fill=col, anchor="rm")
+
+        # --- bağlantı çizgisi
+        over(img, lambda g, c=col, m=cy: [
+            g.ellipse([x, m - 2, x + 4, m + 2], fill=a(c, 0.75))
+            for x in range(SAG + 14, KUL_X0 - 8, 14)])
+
+        # --- kule katı
+        ky0, ky1 = ry + 2, ry + yuk - 2
+        over(img, lambda g, c=col, p0=ky0, p1=ky1: (
+            g.rectangle([KUL_X0 + 6, p0, KUL_X1 - 6, p1], fill=a(c, 0.20)),
+            g.line([(KUL_X0 + 6, p1 + ara / 2), (KUL_X1 - 6, p1 + ara / 2)],
+                   fill=a(AC(), 0.35), width=2)))
+        d = ImageDraw.Draw(img)
+        fn = anton(int(min(yuk * 0.66, 64)))
+        d.text(((KUL_X0 + KUL_X1) / 2, cy), str(n - i), font=fn, fill=col,
+               anchor="mm")
+
+    img.convert("RGB").save(yol)
+
+
 def kapak(spec, sayac, yol):
     img = base()
-    chrome(img, sayac)
+    chrome(img, sayac, kaydir=True)
     d = ImageDraw.Draw(img)
     s1, s2 = spec["satir1"], spec["satir2"]
     f = fit(d, max(s1, s2, key=len), anton, 956, 128)
@@ -1040,7 +1141,7 @@ def kapak(spec, sayac, yol):
 
 def adim(spec, govde_fn, no, toplam, sayac, yol):
     img = base()
-    chrome(img, sayac)
+    chrome(img, sayac, kaydir=True)
     d = ImageDraw.Draw(img)
     over(img, lambda g: g.rounded_rectangle(
         [GUT, 168, GUT + 96, 264], radius=22, fill=a(AC(), 0.14),
@@ -1219,7 +1320,8 @@ def main():
     n = 1
     tip = spec["kapak"].get("tip", "klasik")
     {"rakam": kapak_rakam, "carpisma": kapak_carpisma,
-     "yakin": kapak_yakin, "izgara": kapak_izgara}.get(tip, kapak)(
+     "yakin": kapak_yakin, "izgara": kapak_izgara,
+     "liste": kapak_liste}.get(tip, kapak)(
         spec["kapak"], "%d/%d" % (n, toplam), os.path.join(out, "%d.png" % n))
     ortak = govde(spec["kapak"])
     for i, sl in enumerate(slaytlar, 1):

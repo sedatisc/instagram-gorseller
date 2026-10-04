@@ -42,6 +42,7 @@ Slaytta `cizim` veya `tablo` yoksa kapaktaki görsel kullanılır, yalnız `vurg
 - **`rakam`** — dev sayı kapağı. `ustbilgi` (küçük üst etiket), `rakam` (dev metin: `%15`, `4,7 kΩ`, `0,2 mm`), `rakam_alt` (ne anlama geldiği), `spot`.
 - **`carpisma`** — çapraz bölünmüş karşılaştırma. `satir1`, `satir2`, `sol_etiket`, `sag_etiket`, `sol_metin`, `sag_metin`, `spot`.
 - **`yakin`** — çizim büyütülüp kenarlardan taşırılır. `satir1`, `satir2`, `spot`, ayrıca `cizim`/`tablo` ve `vurgu`.
+- **`liste`** — sıralı liste. `satir1`, `satir2`, `spot`, `satirlar`. Her satır: `etiket`, `deger`, `ikon`, `renk`. Solda ikonlu satırlar, sağda katlı kule; her satır noktalı çizgiyle kendi katına bağlanıyor, katlarda sıra numarası yazıyor. 5-10 satır. "N tane şey" gönderilerinin kapağı bu.
 - **`izgara`** — kopya kâğıdı. `satir1`, `satir2`, `spot`, `kartlar`. Her kart: `etiket` (küçük başlık), `deger` (dev sarı rakam), `alt` (bir iki satır açıklama), `renk`, `ikon`, isteğe bağlı `durum` (`dogru` / `yanlis` rozeti) ve `genis` (tam satır kaplar).
 
 Simge listesi: `katman` (katman yığını) · `nozzle` · `makara` (filament makarası) · `kup` (dolgulu küp) · `isi` (ısı dalgaları) · `hiz` · `duvar` (iç içe duvarlar) · `tabla` (ısıtıcı tabla) · `uyari` · `zaman` · `cip` (IC) · `pil` · `dalga` (sinyal) · `damla` · `terazi` (karşılaştırma) · `dis` (dişli) · `olcu` (cetvel) · `soru`

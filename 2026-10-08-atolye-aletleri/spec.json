@@ -2,88 +2,247 @@
   "kategori": "proje",
   "zemin": "kiraz",
   "kapak": {
-    "tip": "rakam",
-    "ustbilgi": "ATÖLYEDE OLMASI GEREKEN",
-    "rakam": "10 alet",
-    "rakam_alt": "Yazıcıdan çıkan parça burada bitiyor",
-    "spot": "Baskı bitince iş başlıyor: destek temizliği, ölçü kontrolü, montaj. Tezgâhta eksik alet varsa parça orada bekliyor.",
+    "tip": "liste",
+    "spot": "Baskı bitince iş başlıyor; eksik alet varsa parça tezgâhta bekliyor.",
     "rozetler": [
-      ["Yan keski 120 mm", "tema"],
-      ["Kumpas 0,01 mm", "yesil"],
-      ["FFP2 maske", "kirmizi"]
+      [
+        "Yan keski 120 mm",
+        "tema"
+      ],
+      [
+        "Kumpas 0,01 mm",
+        "yesil"
+      ],
+      [
+        "FFP2 maske",
+        "kirmizi"
+      ]
     ],
     "tablo": [
-      ["YAN KESKİ", "120 mm"],
-      ["MAKET BIÇAĞI", "9 mm"],
-      ["DİJİTAL KUMPAS", "0,01 mm"],
-      ["ZIMPARA SETİ", "120-800 kum"],
-      ["ALLEN TAKIMI", "1,5-6 mm"],
-      ["HAVYA", "60 W"],
-      ["ISI TABANCASI", "300-500 °C"],
-      ["MULTİMETRE", "600 V / 10 A"],
-      ["MENGENE", "75 mm ağız"],
-      ["GÖZLÜK + MASKE", "FFP2"]
+      [
+        "YAN KESKİ",
+        "120 mm"
+      ],
+      [
+        "MAKET BIÇAĞI",
+        "9 mm"
+      ],
+      [
+        "DİJİTAL KUMPAS",
+        "0,01 mm"
+      ],
+      [
+        "ZIMPARA SETİ",
+        "120-800 kum"
+      ],
+      [
+        "ALLEN TAKIMI",
+        "1,5-6 mm"
+      ],
+      [
+        "HAVYA",
+        "60 W"
+      ],
+      [
+        "ISI TABANCASI",
+        "300-500 °C"
+      ],
+      [
+        "MULTİMETRE",
+        "600 V / 10 A"
+      ],
+      [
+        "MENGENE",
+        "75 mm ağız"
+      ],
+      [
+        "GÖZLÜK + MASKE",
+        "FFP2"
+      ]
+    ],
+    "satir1": "ATÖLYEDE",
+    "satir2": "10 ALET",
+    "satirlar": [
+      {
+        "etiket": "Yan keski",
+        "deger": "120 mm",
+        "ikon": "nozzle",
+        "renk": "mavi"
+      },
+      {
+        "etiket": "Maket bıçağı",
+        "deger": "9 mm",
+        "ikon": "kup",
+        "renk": "yesil"
+      },
+      {
+        "etiket": "Dijital kumpas",
+        "deger": "0,01 mm",
+        "ikon": "olcu",
+        "renk": "turuncu"
+      },
+      {
+        "etiket": "Zımpara seti",
+        "deger": "120-800 kum",
+        "ikon": "katman",
+        "renk": "mor"
+      },
+      {
+        "etiket": "Allen takımı",
+        "deger": "1,5-6 mm",
+        "ikon": "dis",
+        "renk": "sari"
+      },
+      {
+        "etiket": "Havya",
+        "deger": "60 W",
+        "ikon": "isi",
+        "renk": "kirmizi"
+      },
+      {
+        "etiket": "Isı tabancası",
+        "deger": "300-500 °C",
+        "ikon": "dalga",
+        "renk": "tema"
+      },
+      {
+        "etiket": "Multimetre",
+        "deger": "600 V / 10 A",
+        "ikon": "pil",
+        "renk": "mavi"
+      },
+      {
+        "etiket": "Mengene",
+        "deger": "75 mm ağız",
+        "ikon": "terazi",
+        "renk": "yesil"
+      },
+      {
+        "etiket": "Gözlük + maske",
+        "deger": "FFP2",
+        "ikon": "uyari",
+        "renk": "kirmizi"
+      }
     ]
   },
   "slaytlar": [
     {
       "baslik": "Yan keski desteği dibinden alır",
       "aciklama": "Düz ağızlı 120 mm yan keski destek izini parçanın yüzeyiyle aynı seviyede kesiyor. Normal pense ağzı iz bırakıyor, sonra o izi zımparayla kapatmak zorunda kalıyorsun.",
-      "vurgu": [100, 55, 1810, 147]
+      "vurgu": [
+        100,
+        55,
+        1810,
+        147
+      ]
     },
     {
       "baslik": "Maket bıçağı tek seferde temiz keser",
       "aciklama": "9 mm kırılabilir uçlu bıçak brim ve elephant foot temizliğinde işi görüyor. Uç körelince kırılıp atılıyor; körelmiş uçla bastırarak kesmek parçayı çatlatıyor.",
-      "vurgu": [100, 137, 1810, 229]
+      "vurgu": [
+        100,
+        137,
+        1810,
+        229
+      ]
     },
     {
       "baslik": "Kumpas tahmini bitirir",
       "aciklama": "0,01 mm çözünürlüklü 150 mm dijital kumpas parçanın gerçekte kaç mm çıktığını söylüyor. Geçme parçada 0,2 mm boşluk hedeflemek ancak ölçerek mümkün.",
-      "vurgu": [100, 219, 1810, 311]
+      "vurgu": [
+        100,
+        219,
+        1810,
+        311
+      ]
     },
     {
       "baslik": "Zımpara iki aşamada çalışır",
       "aciklama": "120 kum katman izini alıyor, 400-800 kum yüzeyi boyaya hazırlıyor. Tek kumla baştan sona zımparalamak ya iz bırakıyor ya saatler alıyor; ıslak zımpara toz da çıkarmıyor.",
-      "vurgu": [100, 301, 1810, 393]
+      "vurgu": [
+        100,
+        301,
+        1810,
+        393
+      ]
     },
     {
       "baslik": "Allen takımı yazıcının kendi bakımı için",
       "aciklama": "1,5-6 mm arası altı köşe takım kayış gerginliği, nozzle değişimi ve eksen kasnaklarının tamamını karşılıyor. Yazıcıyla gelen tek anahtar birkaç sökmede yuvasını kaybediyor.",
-      "vurgu": [100, 383, 1810, 475]
+      "vurgu": [
+        100,
+        383,
+        1810,
+        475
+      ]
     },
     {
       "baslik": "Havya sıcaklık ayarlı olacak",
       "aciklama": "60 W ve 200-450 °C ayarlı havya hem kablo lehimini hem heat-set insert gömmeyi yapıyor. Ayarsız havya PLA'yı kontrolsüz eritiyor, lehim noktası da soğuk kalıyor.",
-      "vurgu": [100, 465, 1810, 557]
+      "vurgu": [
+        100,
+        465,
+        1810,
+        557
+      ]
     },
     {
       "baslik": "Isı tabancası vida yuvasını gömer",
       "aciklama": "300-500 °C sıcak hava daralan makaron için de insert öncesi ısıtma için de kullanılıyor. Çakmakla yapılan iş kurumlanıyor ve plastiği tek noktadan yakıyor.",
-      "vurgu": [100, 547, 1810, 639]
+      "vurgu": [
+        100,
+        547,
+        1810,
+        639
+      ]
     },
     {
       "baslik": "Multimetre arızayı yerinde bulur",
       "aciklama": "600 V ve 10 A ölçebilen bir multimetre süreklilik, gerilim ve akım üçlüsünü karşılıyor. Yazıcı ısınmıyorsa termistör mü kablo mu sorusu ancak ölçerek ayrılıyor.",
-      "vurgu": [100, 629, 1810, 721]
+      "vurgu": [
+        100,
+        629,
+        1810,
+        721
+      ]
     },
     {
       "baslik": "Mengene iki elini serbest bırakır",
       "aciklama": "75 mm ağızlı tezgâh mengenesi parçayı sabit tutuyor; delme, raspalama ve lehimleme tek elle yapılamıyor. Ağza konan plastik çene baskı yüzeyini ezmiyor.",
-      "vurgu": [100, 711, 1810, 803]
+      "vurgu": [
+        100,
+        711,
+        1810,
+        803
+      ]
     },
     {
       "baslik": "Gözlük ve maske sıraya girmez",
       "aciklama": "Kesilen destek parçası gözden yüksekte uçuyor, zımpara tozu ise mikron boyutunda. Koruyucu gözlük ve FFP2 maske listenin sonunda değil ilk gününde tezgâhta duruyor.",
-      "vurgu": [100, 793, 1810, 885]
+      "vurgu": [
+        100,
+        793,
+        1810,
+        885
+      ]
     }
   ],
   "kapanis": {
     "satir1": "NEREDEN",
     "satir2": "BAŞLAMALI?",
     "kriterler": [
-      ["İLK ÜÇ", "yan keski, maket bıçağı, kumpas"],
-      ["SONRA", "zımpara, allen takımı, havya"],
-      ["EN SON", "ısı tabancası, multimetre, mengene"]
+      [
+        "İLK ÜÇ",
+        "yan keski, maket bıçağı, kumpas"
+      ],
+      [
+        "SONRA",
+        "zımpara, allen takımı, havya"
+      ],
+      [
+        "EN SON",
+        "ısı tabancası, multimetre, mengene"
+      ]
     ],
     "not": "Gözlük ve maske sıraya girmiyor; ilk günden tezgâhta duruyor."
   }
