@@ -82,7 +82,7 @@ Görsel dil `uret.py` içinde kodlanmış; bozma, sadeleştirme, "daha temiz" h�
 | `carpisma` | İki seçenek karşı karşıyaysa (röle/MOSFET, PLA/PETG, dahili/harici) | Çapraz bölünmüş zemin, üstte kırmızı altta yeşil, iki etiket |
 | `yakin` | Şema ya da tablo tek başına ilgi çekiciyse | Çizim %180 büyütülüp kenarlardan taşıyor, üstte karartma, vurgulanan parça yanıyor |
 | `izgara` | Konu birden çok somut sayıya iniyorsa (ayar tablosu, sıcaklık/hız değerleri, kontrol listesi) | 5-7 renkli kart, her birinde dev sarı rakam — kopya kâğıdı |
-| `liste` | Başlıkta sayı geçen sıralı liste gönderileri ("10 alet", "8 kart", "6 karar") | Solda ikonlu satırlar, sağda numaralı katlardan oluşan kule; satırlar noktalı çizgiyle katlara bağlı |
+| `liste` | Başlıkta sayı geçen sıralı liste gönderileri ("10 alet", "8 kart", "6 karar") | Solda ikonlu satırlar, sağda kesit cepheli bina; her satır kendi katına noktalı çizgiyle bağlı, kat içi o satırın rengiyle döşeli |
 | `klasik` | Diğerleri | Başlık üstte, panel altta |
 
 `rakam` ek alanlar ister: `ustbilgi`, `rakam`, `rakam_alt`.
