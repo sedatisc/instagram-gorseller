@@ -9,6 +9,7 @@ import math
 import os
 import sys
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageChops
+from cizim import kutu, yuzey, golge
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 F = os.path.join(HERE, "fonts") + "/"
@@ -1009,143 +1010,85 @@ def kapak_izgara(spec, sayac, yol):
     img.convert("RGB").save(yol)
 
 
-def _bina(img, x0, yust, yalt, katlar, derin_x=118, derin_y=66):
-    """Kesit cepheli bina — her kat kendi rengiyle döşenmiş bir sahne.
+GORSEL_DIZIN = os.path.join(HERE, "gorsel")
 
-    katlar: [(renk, ikon)] üstten alta. x0 ön cephenin sol kenarı.
-    """
+
+def gorsel_var(ad):
+    if not ad:
+        return None
+    yol = os.path.join(GORSEL_DIZIN, ad)
+    return yol if os.path.exists(yol) else None
+
+
+def gorsel_yerlestir(img, yol, x0, y0, y1, yumusat=200):
+    """Görseli sağ sütuna yerleştir, sol kenarını zemine doğru erit."""
+    gw, gh = img.width - x0, int(y1 - y0)
+    im = Image.open(yol).convert("RGB")
+    o = max(gw / im.width, gh / im.height)
+    im = im.resize((max(1, int(im.width * o)), max(1, int(im.height * o))),
+                   Image.LANCZOS)
+    kx = (im.width - gw) // 2
+    ky = (im.height - gh) // 2
+    im = im.crop((kx, ky, kx + gw, ky + gh)).convert("RGBA")
+
+    # sol kenarda yumuşak geçiş, altta zemine karışma
+    m = Image.new("L", (gw, gh), 255)
+    md = ImageDraw.Draw(m)
+    for t in range(min(yumusat, gw)):
+        md.line([(t, 0), (t, gh)], fill=int(255 * (t / yumusat) ** 1.4))
+    for t in range(90):
+        v = int(255 * (t / 90))
+        md.line([(0, gh - 1 - t), (gw, gh - 1 - t)],
+                fill=v, width=1)
+    im.putalpha(ImageChops.multiply(im.getchannel("A"), m))
+    img.alpha_composite(im, (x0, int(y0)))
+
+
+def _iso_bina(img, ox, oy, katlar, s=1.0):
+    """İzometrik kule — her kat kendi renginde bir blok, camları aydınlık."""
     n = len(katlar)
-    FW = 300                       # ön cephe genişliği
-    x1 = x0 + FW                   # ön cephenin sağ kenarı
-    dx, dy = derin_x, derin_y      # yan yüzey kayması
-    beton = (214, 208, 198) if _mod() == "acik" else (74, 80, 96)
-    beton_ic = _koy(beton, 0.34)
-    cam = (16, 20, 32)
-    kat_h = (yalt - yust) / n
-
-    def kirik(g, pts, renk):
-        g.polygon(pts, fill=renk)
-
+    G, D, KH = 92, 92, 46            # genişlik, derinlik, kat yüksekliği
+    img.alpha_composite(golge(img.size, ox, oy, -10, -10, G + 20, D + 20,
+                              s, 0.42, 26))
     lay = Image.new("RGBA", img.size, (0, 0, 0, 0))
     g = ImageDraw.Draw(lay)
 
-    # --- kaidenin üst yüzeyi (bina bunun üstüne oturuyor)
-    kirik(g, [(x0 - 20, yalt), (x1 + 20, yalt), (x1 + 20 + dx, yalt - dy),
-              (x0 - 20 + dx, yalt - dy)], _kar(beton, 0.14) + (255,))
+    beton = (206, 203, 198) if _mod() == "acik" else (96, 103, 122)
+    # kaide
+    kutu(g, ox, oy, -16, -16, 0, G + 32, D + 32, 16, _koy(beton, 0.22), s)
 
-    # --- yan yüzey (tüm bina boyunca tek parça)
-    kirik(g, [(x1, yust), (x1 + dx, yust - dy),
-              (x1 + dx, yalt - dy), (x1, yalt)], _koy(beton, 0.46) + (255,))
-    # --- çatı
-    kirik(g, [(x0, yust), (x1, yust), (x1 + dx, yust - dy),
-              (x0 + dx, yust - dy)], _kar(beton, 0.10) + (255,))
-    # çatı parapeti
-    g.line([(x0, yust), (x0 + dx, yust - dy)], fill=_koy(beton, 0.2) + (255,),
-           width=3)
-    g.line([(x0 + dx, yust - dy), (x1 + dx, yust - dy)],
-           fill=_kar(beton, 0.3) + (255,), width=4)
-    # çatı üstü ünite
-    ux = x0 + dx * 0.45 + FW * 0.44
-    uy = yust - dy * 0.55
-    g.rectangle([ux, uy - 30, ux + 70, uy], fill=beton + (255,))
-    kirik(g, [(ux, uy - 30), (ux + 70, uy - 30), (ux + 86, uy - 40),
-              (ux + 16, uy - 40)], _kar(beton, 0.22) + (255,))
-    kirik(g, [(ux + 70, uy - 30), (ux + 86, uy - 40), (ux + 86, uy - 10),
-              (ux + 70, uy)], _koy(beton, 0.3) + (255,))
+    for k, col in enumerate(reversed(katlar)):
+        z = 16 + k * KH
+        kutu(g, ox, oy, 0, 0, z, G, D, KH - 8, beton, s, ust=False)
+        # cam bandı — katın kendi rengi, ışık içeriden
+        cz0, cz1 = z + 9, z + KH - 17
+        yuzey(g, ox, oy, [(0, D, cz1), (G, D, cz1), (G, D, cz0), (0, D, cz0)],
+              col, s, 1.18)
+        yuzey(g, ox, oy, [(G, 0, cz1), (G, D, cz1), (G, D, cz0), (G, 0, cz0)],
+              col, s, 0.80)
+        # kat döşemesi — ince aydınlık şerit
+        kutu(g, ox, oy, -4, -4, z + KH - 8, G + 8, D + 8, 8,
+             _kar(beton, 0.22), s)
 
-    # --- ön cephe gövdesi
-    g.rectangle([x0, yust, x1, yalt], fill=beton_ic + (255,))
-
-    for i, (col, ad) in enumerate(katlar):
-        ky0 = yust + i * kat_h
-        ky1 = ky0 + kat_h
-        ic0, ic1 = ky0 + kat_h * 0.16, ky1 - kat_h * 0.20   # oda boşluğu
-        oda_h = ic1 - ic0
-
-        # oda — koyu cam, üstten sıcak ışık
-        g.rectangle([x0 + 16, ic0, x1 - 14, ic1], fill=cam + (255,))
-        for t in range(int(oda_h)):
-            o = 0.30 * (1 - t / max(1, oda_h))
-            g.line([(x0 + 16, ic0 + t), (x1 - 14, ic0 + t)],
-                   fill=a(col, o))
-
-        # arka duvarda renkli ekran paneli
-        ex0 = x0 + 34
-        ew = FW * 0.40
-        g.rounded_rectangle([ex0, ic0 + oda_h * 0.16, ex0 + ew,
-                             ic0 + oda_h * 0.58], radius=4, fill=a(col, 0.55))
-
-        # masa + monitör + oturan siluet
-        mz = ic1 - oda_h * 0.08
-        g.rectangle([x1 - 150, mz - oda_h * 0.10, x1 - 34, mz],
-                    fill=_koy(beton, 0.1) + (255,))
-        g.rectangle([x1 - 132, mz - oda_h * 0.40, x1 - 74,
-                     mz - oda_h * 0.12], fill=a(col, 0.85))
-        kx = x1 - 170
-        g.ellipse([kx - oda_h * 0.09, mz - oda_h * 0.44,
-                   kx + oda_h * 0.09, mz - oda_h * 0.26],
-                  fill=_koy(beton, 0.2) + (255,))
-        g.rounded_rectangle([kx - oda_h * 0.13, mz - oda_h * 0.28,
-                             kx + oda_h * 0.13, mz], radius=4,
-                            fill=_koy(beton, 0.2) + (255,))
-
-        # saksı
-        px = x0 + 30
-        g.polygon([(px - oda_h * 0.08, mz - oda_h * 0.14),
-                   (px + oda_h * 0.08, mz - oda_h * 0.14),
-                   (px + oda_h * 0.06, mz), (px - oda_h * 0.06, mz)],
-                  fill=(150, 96, 62) + (255,))
-        for ac in (-0.9, 0, 0.9):
-            g.line([(px, mz - oda_h * 0.14),
-                    (px + ac * oda_h * 0.16, mz - oda_h * 0.40)],
-                   fill=(92, 168, 108) + (255,), width=max(2, int(oda_h * 0.05)))
-
-        # döşeme plakası — ön kenar + yan yüzeyde devamı
-        g.rectangle([x0, ic1, x1, ky1], fill=beton + (255,))
-        kirik(g, [(x1, ic1), (x1 + dx, ic1 - dy),
-                  (x1 + dx, ky1 - dy), (x1, ky1)], _koy(beton, 0.3) + (255,))
-        g.line([(x0, ic1), (x1, ic1)], fill=_kar(beton, 0.35) + (255,), width=3)
-
-        # yan yüzeyde aynı katın penceresi
-        oran = 0.22
-        px0 = x1 + dx * oran
-        px1 = x1 + dx * 0.88
-        py = lambda yy, t: yy - dy * t
-        kirik(g, [(px0, py(ic0, oran)), (px1, py(ic0, 0.88)),
-                  (px1, py(ic1, 0.88)), (px0, py(ic1, oran))],
-              a(_koy(col, 0.35), 0.95))
-        kirik(g, [(px0, py(ic0, oran)), (px1, py(ic0, 0.88)),
-                  (px1, py(ic0 + (ic1 - ic0) * 0.30, 0.88)),
-                  (px0, py(ic0 + (ic1 - ic0) * 0.30, oran))],
-              a(col, 0.45))
-
-    # --- kaidenin ön ve yan yüzü
-    g.rectangle([x0 - 20, yalt, x1 + 20, yalt + 26],
-                fill=_koy(beton, 0.12) + (255,))
-    kirik(g, [(x1 + 20, yalt), (x1 + 20 + dx, yalt - dy),
-              (x1 + 20 + dx, yalt - dy + 26), (x1 + 20, yalt + 26)],
-          _koy(beton, 0.38) + (255,))
-    # kaidede saksılar
-    for sx in (x0 - 4, x1 - 42):
-        g.polygon([(sx - 2, yalt + 2), (sx + 48, yalt + 2),
-                   (sx + 42, yalt + 26), (sx + 4, yalt + 26)],
-                  fill=(154, 100, 64) + (255,))
-        for ac in (-1, 0, 1):
-            g.line([(sx + 23, yalt + 4), (sx + 23 + ac * 15, yalt - 14)],
-                   fill=(96, 174, 112) + (255,), width=4)
-
+    # çatı ünitesi
+    zc = 16 + n * KH
+    kutu(g, ox, oy, G * 0.30, D * 0.30, zc, G * 0.34, D * 0.34, 20,
+         _koy(beton, 0.1), s)
     img.alpha_composite(lay)
-    return x1 + dx
 
 
 def kapak_liste(spec, sayac, yol):
-    """Solda ikonlu liste, sağda kesit cepheli bina — satırlar katlara bağlı."""
+    """Solda ikonlu liste, sağda görsel — görsel yoksa izometrik kule."""
     img = base()
     chrome(img, sayac, kaydir=True)
     d = ImageDraw.Draw(img)
 
+    foto = gorsel_var(spec.get("gorsel"))
+    SOL = GUT
+    SAG = 500 if foto else 560
+
     s1, s2 = spec["satir1"], spec["satir2"]
-    f = fit(d, max(s1, s2, key=len), anton, 600, 76)
+    f = fit(d, max(s1, s2, key=len), anton, SAG - GUT, 78)
     y = 170
     img.alpha_composite(glow((W, H), lambda g: g.text(
         (GUT, y + f.size * 1.12), s2, font=f, fill=a(AC(), ISIK(0.8)),
@@ -1156,7 +1099,7 @@ def kapak_liste(spec, sayac, yol):
     ust = d.textbbox((GUT, y + f.size * 1.12), s2, font=f, anchor="la")[3] + 22
     if spec.get("spot"):
         fs = pop(25, "Medium")
-        for ln in wrap(d, P(spec["spot"]), fs, 470)[:3]:
+        for ln in wrap(d, P(spec["spot"]), fs, SAG - GUT)[:3]:
             d.text((GUT, ust), ln, font=fs, fill=FG2(), anchor="la")
             ust += 36
         ust += 12
@@ -1164,31 +1107,27 @@ def kapak_liste(spec, sayac, yol):
     satirlar = spec["satirlar"][:10]
     n = len(satirlar)
     alt = 1248
-    ust = max(ust, 470)
+    ust = max(ust, 440)
     ara = 10 if n > 7 else 14
     yuk = (alt - ust - ara * (n - 1)) / n
-
-    SOL, SAG = GUT, 466           # liste sütunu
-    BINA_X = 600                  # ön cephenin sol kenarı
 
     renkler = [KC(RENKLER.get(r.get("renk", "tema"), ACC))
                if r.get("renk", "tema") != "tema" else AC()
                for r in satirlar]
 
-    # --- bina
-    _bina(img, BINA_X, ust + 54, alt - 30,
-          [(c, r.get("ikon")) for c, r in zip(renkler, satirlar)])
+    # --- sağ sütun
+    if foto:
+        gorsel_yerlestir(img, foto, SAG + 40, ust - 120, alt + 60)
+    else:
+        _iso_bina(img, SAG + 258, alt - 78, renkler,
+                  s=min(1.12, (alt - 78 - ust) / (16 + n * 46 + 80)))
 
     fe = pop(max(18, min(25, int(yuk * 0.34))), "SemiBold")
     fd = mono(max(16, min(23, int(yuk * 0.29))), True)
-    kat_h = (alt - 30 - ust - 54) / n
 
     for i, (r, col) in enumerate(zip(satirlar, renkler)):
         ry = ust + i * (yuk + ara)
         cy = ry + yuk / 2
-        kat_y = ust + 54 + (i + 0.40) * kat_h   # katın pencere hizası
-
-        # --- liste satırı
         over(img, lambda g, t=ry, c=col: g.rounded_rectangle(
             [SOL, t, SAG, t + yuk], radius=14, fill=a(c, _P("kart_op", 0.09)),
             outline=a(c, _P("kontur_op", 0.55)), width=2))
@@ -1211,17 +1150,6 @@ def kapak_liste(spec, sayac, yol):
                    anchor="lm")
         else:
             d.text((tx, cy), isim, font=fi, fill=FG(), anchor="lm")
-
-        # --- satırı kendi katına bağlayan noktalı çizgi
-        x_bas, x_son = SAG + 14, BINA_X - 16
-        acik = max(1, x_son - x_bas)
-        over(img, lambda g, c=col, y0=cy, y1=kat_y, xb=x_bas, aa=acik: (
-            [g.ellipse([x, y0 + (y1 - y0) * (x - xb) / aa - 2,
-                        x + 4, y0 + (y1 - y0) * (x - xb) / aa + 2],
-                       fill=a(c, 0.85))
-             for x in range(xb, x_son, 13)],
-            g.ellipse([x_son - 2, y1 - 6, x_son + 10, y1 + 6],
-                      fill=a(c, 0.95))))
 
     img.convert("RGB").save(yol)
 

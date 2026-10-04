@@ -82,7 +82,7 @@ Görsel dil `uret.py` içinde kodlanmış; bozma, sadeleştirme, "daha temiz" h�
 | `carpisma` | İki seçenek karşı karşıyaysa (röle/MOSFET, PLA/PETG, dahili/harici) | Çapraz bölünmüş zemin, üstte kırmızı altta yeşil, iki etiket |
 | `yakin` | Şema ya da tablo tek başına ilgi çekiciyse | Çizim %180 büyütülüp kenarlardan taşıyor, üstte karartma, vurgulanan parça yanıyor |
 | `izgara` | Konu birden çok somut sayıya iniyorsa (ayar tablosu, sıcaklık/hız değerleri, kontrol listesi) | 5-7 renkli kart, her birinde dev sarı rakam — kopya kâğıdı |
-| `liste` | Başlıkta sayı geçen sıralı liste gönderileri ("10 alet", "8 kart", "6 karar") | Solda ikonlu satırlar, sağda kesit cepheli bina; her satır kendi katına noktalı çizgiyle bağlı, kat içi o satırın rengiyle döşeli |
+| `liste` | Başlıkta sayı geçen sıralı liste gönderileri ("10 alet", "8 kart", "6 karar") | Solda ikonlu satırlar, sağda görsel ya da izometrik kule |
 | `klasik` | Diğerleri | Başlık üstte, panel altta |
 
 `rakam` ek alanlar ister: `ustbilgi`, `rakam`, `rakam_alt`.
@@ -93,6 +93,7 @@ Görsel dil `uret.py` içinde kodlanmış; bozma, sadeleştirme, "daha temiz" h�
 - **`yakin` yalnız `cizim` olan gönderilerde.** Çizimi kenarlardan taşırıyor; tabloda sağa yaslı değerler kırpılıyor.
 - **`carpisma` yalnız `koyu` zeminde.** Kırmızı ve yeşil yarımlar renkli zeminde birbirine karışıyor.
 `izgara` `kartlar` listesi ister: her kartta `etiket`, `deger`, `alt`, `renk`, isteğe bağlı `durum` (`dogru`/`yanlis`) ve `genis`.
+`liste` kapağında `gorsel/` klasöründe uygun bir dosya varsa `"gorsel": "atolye.png"` ekle — sağ sütun o görselle doluyor. Dosya yoksa alanı hiç yazma, üretici kuleyi kendisi çiziyor.
 `liste` `satirlar` listesi ister: her satırda `etiket`, `deger`, `ikon`, `renk`. 5-10 satır; her satırda farklı ikon ve farklı renk kullan. Başlıkta sayı geçen gönderilerde (`10 ALET`, `8 KART`) `rakam` yerine bunu seç — kapak hem sayıyı hem listenin kendisini gösteriyor.
 
 Kapanış slaydı dışındaki her karede sağ altta otomatik **KAYDIR →** işareti çıkıyor; spec'te bir şey yapmaya gerek yok.
