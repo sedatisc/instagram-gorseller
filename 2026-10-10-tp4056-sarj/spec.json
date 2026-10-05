@@ -1,0 +1,250 @@
+{
+  "kategori": "elektronik",
+  "zemin": "kobalt",
+  "kapak": {
+    "tip": "rakam",
+    "ustbilgi": "TP4056 ŞARJ AKIMI",
+    "rakam": "1,2 kΩ",
+    "rakam_alt": "Karttaki hazır direnç 1 A şarj akımı demek",
+    "spot": "Üç lirallık modül çalışıyor gibi görünüyor. Hücreyi bitiren üç hata hep aynı yerden geliyor.",
+    "rozetler": [
+      [
+        "R_PROG 1,2 kΩ = 1 A",
+        "tema"
+      ],
+      [
+        "Koruma ayrı devre",
+        "kirmizi"
+      ],
+      [
+        "Yük OUT'tan",
+        "yesil"
+      ]
+    ],
+    "cizim": [
+      {
+        "t": "t",
+        "x": 220,
+        "y": 175,
+        "metin": "+5V USB"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            220,
+            213
+          ],
+          [
+            220,
+            330
+          ]
+        ]
+      },
+      {
+        "t": "n",
+        "x": 220,
+        "y": 330
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            220,
+            330
+          ],
+          [
+            620,
+            330
+          ]
+        ]
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            220,
+            330
+          ],
+          [
+            220,
+            430
+          ]
+        ]
+      },
+      {
+        "t": "c",
+        "x": 220,
+        "y": 430,
+        "yon": "v",
+        "ad": "C1",
+        "deger": "10 µF"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            220,
+            462
+          ],
+          [
+            220,
+            560
+          ]
+        ]
+      },
+      {
+        "t": "g",
+        "x": 220,
+        "y": 560
+      },
+      {
+        "t": "k",
+        "x0": 620,
+        "y0": 230,
+        "x1": 1180,
+        "y1": 560,
+        "metin": "TP4056"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            900,
+            560
+          ],
+          [
+            900,
+            600
+          ]
+        ]
+      },
+      {
+        "t": "r",
+        "x": 862,
+        "y": 600,
+        "yon": "v",
+        "ad": "R_PROG",
+        "deger": "1,2 kΩ",
+        "etiket": "sag"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            900,
+            840
+          ],
+          [
+            900,
+            880
+          ]
+        ]
+      },
+      {
+        "t": "g",
+        "x": 900,
+        "y": 880
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            1180,
+            330
+          ],
+          [
+            1500,
+            330
+          ]
+        ]
+      },
+      {
+        "t": "n",
+        "x": 1400,
+        "y": 330
+      },
+      {
+        "t": "t",
+        "x": 1500,
+        "y": 295,
+        "metin": "BAT+"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            1400,
+            330
+          ],
+          [
+            1400,
+            570
+          ]
+        ]
+      },
+      {
+        "t": "d",
+        "x": 1400,
+        "y": 620,
+        "metin": "YÜK HATASI",
+        "renk": "kirmizi"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Hazır direnç hücreyi zorluyor",
+      "aciklama": "Karttan çıkan 1,2 kΩ'luk R_PROG direnci 1 A şarj akımı demek. 500 mAh'lik bir hücreye bu 2C yükleme, hücre ısınıyor ve ömrü kısalıyor. Güvenli sınır 0,5C: 500 mAh hücre için 250 mA, yani R_PROG 4 kΩ civarına çıkarılacak.",
+      "vurgu": [
+        780,
+        560,
+        1120,
+        900
+      ]
+    },
+    {
+      "baslik": "Kartta koruma devresi yok",
+      "aciklama": "TP4056 yalnız şarj kontrolcüsü; aşırı boşalmaya ve kısa devreye karşı koruma vermiyor. Koruma istiyorsan kartta DW01 ve FS8205 ikilisinin bulunduğu sürümü al. Çıplak sürümle hücre 2,5 V altına inerse hücre geri gelmiyor.",
+      "vurgu": [
+        580,
+        200,
+        1220,
+        580
+      ]
+    },
+    {
+      "baslik": "Yükü pile paralel bağlamak",
+      "aciklama": "Devreyi doğrudan BAT bacağına bağlarsan yükün çektiği akım şarj akımına karışıyor ve modül şarjın bittiğini anlayamıyor. Korumalı kartta yük OUT bacağından beslenecek; aynı anda şarj ve çalışma gerekiyorsa P kanallı MOSFET ile yük paylaşımı kurulacak.",
+      "vurgu": [
+        1320,
+        260,
+        1620,
+        660
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "HANGİSİNİ",
+    "satir2": "ÖNCE DÜZELT?",
+    "kriterler": [
+      [
+        "ÖNCE",
+        "R_PROG'u hücrenin 0,5C'sine ayarla"
+      ],
+      [
+        "SONRA",
+        "korumalı sürüme (DW01) geç"
+      ],
+      [
+        "BAĞLANTI",
+        "yükü BAT değil OUT bacağından al"
+      ],
+      [
+        "ISINMA",
+        "1 A şarjda modül 1,3 W ısı atıyor"
+      ]
+    ],
+    "not": "Lineer şarj ediyor: giriş ile hücre farkı ısıya dönüyor."
+  }
+}

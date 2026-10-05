@@ -1,0 +1,135 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "indigo",
+  "kapak": {
+    "tip": "izgara",
+    "satir1": "FILAMENT KURUTMA",
+    "satir2": "HANGİSİ KAÇ SAAT",
+    "spot": "Her malzemenin kendi sıcaklığı ve kendi süresi var.",
+    "rozetler": [
+      [
+        "Kurutucu 45-80 °C",
+        "tema"
+      ],
+      [
+        "Nem hedefi %20 RH",
+        "yesil"
+      ],
+      [
+        "Cam geçişine dikkat",
+        "kirmizi"
+      ]
+    ],
+    "kartlar": [
+      {
+        "etiket": "PLA · 45 °C",
+        "deger": "4 saat",
+        "alt": "Cam geçişi 60 °C, üstü riskli.",
+        "renk": "turuncu",
+        "ikon": "makara"
+      },
+      {
+        "etiket": "PETG · 65 °C",
+        "deger": "6 saat",
+        "alt": "Nemi en hızlı çeken malzeme.",
+        "renk": "mavi",
+        "ikon": "damla"
+      },
+      {
+        "etiket": "ABS / ASA · 70 °C",
+        "deger": "4 saat",
+        "alt": "Nem yüzeyde kabarcık bırakıyor.",
+        "renk": "kirmizi",
+        "ikon": "isi"
+      },
+      {
+        "etiket": "NYLON · 80 °C",
+        "deger": "12 saat",
+        "alt": "En nem sever; altı yetmiyor.",
+        "renk": "mor",
+        "ikon": "zaman"
+      },
+      {
+        "etiket": "TPU · 50 °C",
+        "deger": "8 saat",
+        "alt": "55 °C üstünde makarada deforme oluyor.",
+        "renk": "yesil",
+        "ikon": "hiz"
+      },
+      {
+        "etiket": "KURU KUTU",
+        "deger": "%20 RH",
+        "alt": "Kurutma sonrası bu bandın altında tutulacak; silika jelli kapalı kutu tek tedbir.",
+        "renk": "sari",
+        "ikon": "olcu",
+        "genis": true,
+        "durum": "dogru"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Nem baskıyı nasıl bozuyor",
+      "aciklama": "Filamentin içine giren su nozzle sıcaklığında buharlaşıyor ve eriyiğin içinde patlıyor. Dışarıdan çıtlama sesi, yüzeyde kabarcık ve boşluk, kesitte zayıf katman olarak görünüyor. Tıkanma sandığın şey çoğu zaman tıkanma değil, nemli filament.",
+      "vurgu": [
+        100,
+        55,
+        1810,
+        335
+      ]
+    },
+    {
+      "baslik": "Sıcaklığı malzeme belirliyor",
+      "aciklama": "Kurutma sıcaklığı malzemenin cam geçişinin altında kalacak. PLA'yı 60 °C'ye koyarsan makara sarımı birbirine kaynıyor ve filament artık beslenmiyor. PETG 65 °C, ABS ve ASA 70 °C taşıyor; PLA 45 °C'de bırakılacak.",
+      "vurgu": [
+        100,
+        332,
+        1810,
+        607
+      ]
+    },
+    {
+      "baslik": "En nem sever olan en uzun sürüyor",
+      "aciklama": "Nylon 80 °C'de 12 saat istiyor, TPU 50 °C'de 8 saat. Süreyi kısaltmak yerine sıcaklığı yükseltmek işe yaramıyor, sadece malzemeyi bozuyor. Makarayı kurutucuya koyup baskıyı oradan beslemek en pratik çözüm.",
+      "vurgu": [
+        100,
+        468,
+        1810,
+        743
+      ]
+    },
+    {
+      "baslik": "Kurutmak yetmez, kuru tutmak gerek",
+      "aciklama": "Kurutulmuş makara açıkta birkaç günde eski hâline dönüyor. Baskı bittiğinde makara silika jelli kapalı kutuya girecek ve nem %20 RH altında tutulacak. Ucuz bir nem ölçer bu işin tek ölçüm aletidir.",
+      "vurgu": [
+        100,
+        740,
+        1810,
+        879
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "HANGİSİNDEN",
+    "satir2": "BAŞLAMALI?",
+    "kriterler": [
+      [
+        "ÖNCE",
+        "nem ölçerle makarayı kontrol et"
+      ],
+      [
+        "SONRA",
+        "malzemenin kendi sıcaklığında kurut"
+      ],
+      [
+        "SÜRE",
+        "nylon 12, PETG 6, PLA 4 saat"
+      ],
+      [
+        "SAKLAMA",
+        "silika jelli kapalı kutuya al"
+      ]
+    ],
+    "not": "Mutfak fırını riskli: çoğu fırın 50 °C'nin altını tutamıyor."
+  }
+}

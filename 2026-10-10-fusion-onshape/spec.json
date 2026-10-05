@@ -1,0 +1,82 @@
+{
+  "kategori": "proje",
+  "zemin": "koyu",
+  "kapak": {
+    "tip": "carpisma",
+    "satir1": "FUSION MI",
+    "satir2": "ONSHAPE MI",
+    "spot": "İkisi de hobi kullanımında ücretsiz. Bedeli farklı yerden ödüyorsun: biri dosya sayısını, biri gizliliği alıyor.",
+    "sol_etiket": "FUSION",
+    "sag_etiket": "ONSHAPE",
+    "sol_metin": "dosyan sende kalıyor, 10 aktif dosya sınırı var",
+    "sag_metin": "sınırsız dosya, ama hepsi herkese açık",
+    "rozetler": [
+      [
+        "Fusion 10 dosya",
+        "turuncu"
+      ],
+      [
+        "Onshape hepsi açık",
+        "kirmizi"
+      ],
+      [
+        "Ticari ücretli",
+        "tema"
+      ]
+    ],
+    "tablo": [
+      [
+        "ÇALIŞMA YERİ",
+        "Fusion masaüstü, Onshape tarayıcı"
+      ],
+      [
+        "ÜCRETSİZ SINIR",
+        "Fusion 10 aktif dosya"
+      ],
+      [
+        "GİZLİLİK",
+        "Onshape ücretsizde her şey açık"
+      ],
+      [
+        "SÜRÜM TAKİBİ",
+        "Onshape dallanma ve birleştirme"
+      ],
+      [
+        "TİCARİ KULLANIM",
+        "ikisinde de ücretli şart"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Fusion dosya sayısını sınırlıyor",
+      "aciklama": "Kişisel kullanım sürümü ev işi ve ticari olmayan projelerle sınırlı ve aynı anda yalnız 10 dosya düzenlenebilir durumda tutuluyor. Diğer tasarımlar silinmiyor, pasife alınıyor; düzenlemek istediğinde birini kapatıp onu aktif ediyorsun. STL, STEP ve eskizden DXF çıkışı açık.",
+      "vurgu": [
+        100,
+        100,
+        1810,
+        410
+      ]
+    },
+    {
+      "baslik": "Onshape'te her şey herkese açık",
+      "aciklama": "Ücretsiz plan sınırsız dosya veriyor ama tamamı açık depolamada: tasarımın linkiyle herkes görebiliyor. Müşteri işi ya da paylaşmak istemediğin parça varsa bu plan uygun değil. Buna karşılık tarayıcıda çalıştığı için Linux'ta ve tablette de açılıyor, kurulum gerekmiyor.",
+      "vurgu": [
+        100,
+        250,
+        1810,
+        560
+      ]
+    },
+    {
+      "baslik": "Seçim projenin türüne bakıyor",
+      "aciklama": "Paylaşmakta sakınca olmayan hobi parçaları ve okul işi için Onshape'in sürüm takibi ve dallanması rahat çalışıyor. Dosyası az ama gizli kalması gereken iş için Fusion mantıklı. Para kazanmaya başladığın anda ikisinde de ücretli plana geçmek zorunlu.",
+      "vurgu": [
+        100,
+        705,
+        1810,
+        860
+      ]
+    }
+  ]
+}
