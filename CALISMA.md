@@ -58,6 +58,8 @@ Hikaye — aynı araçla, gönderiden **40 dakika sonrasına**:
 
 **Görseli sonradan değiştirdiysen planlanmış gönderiyi de güncelle.** Metricool, gönderiyi planlarken görseli kendi sunucusuna kopyalıyor (`static.metricool.com/...`). GitHub'daki dosyayı değiştirmek planlanmış gönderiyi değiştirmiyor; eski görsel yayınlanıyor. Bir klasörü yeniden ürettiysen `getScheduledPosts` ile o gönderiyi bul, `updateScheduledPost` ile `media` alanına GitHub ham bağlantılarını yeniden ver — hem gönderiyi hem hikayesini. Metricool bağlantıları o anda yeniden çekiyor. Yayınlanmış gönderinin görseli değiştirilemiyor.
 
+**Planlamadan önce kotayı kontrol et.** `getScheduledPosts` ile son iki günü çek. Herhangi bir gönderinin durumu `ERROR` ve sebebi "You have reached your Metricool account limit" ise kota dolmuş demektir: **yeni gönderi planlama**, görselleri üret ve depoya push et, sonra dur. Kotası dolu hesaba gönderi eklemek kuyruğu şişiriyor, hiçbiri yayınlanmıyor. Durumu kullanıcıya bildir; kota ay başında sıfırlanıyor.
+
 **7. Durumu güncelle.** `DURUM.json` içindeki `kullanilan` listesine konu numarasını ekle, commit ve push et. Bu adım atlanırsa ertesi gün aynı konu tekrar üretilir.
 
 ## Paylaşım saatleri
