@@ -12,7 +12,9 @@
       8,
       9,
       10,
-      11
+      11,
+      12,
+      13
     ],
     "elektronik": [
       1,
@@ -27,7 +29,9 @@
       10,
       11,
       12,
-      13
+      13,
+      14,
+      15
     ],
     "proje": [
       1,
@@ -40,7 +44,9 @@
       8,
       9,
       10,
-      11
+      11,
+      12,
+      13
     ]
   },
   "gecmis": [
@@ -241,6 +247,42 @@
       "slot": "proje",
       "konu": 11,
       "klasor": "2026-10-09-basarisiz-baski-arsivi"
+    },
+    {
+      "tarih": "2026-10-10",
+      "slot": "3dbaski",
+      "konu": 12,
+      "klasor": "2026-10-10-filament-kurutma"
+    },
+    {
+      "tarih": "2026-10-10",
+      "slot": "elektronik",
+      "konu": 14,
+      "klasor": "2026-10-10-tp4056-sarj"
+    },
+    {
+      "tarih": "2026-10-10",
+      "slot": "proje",
+      "konu": 12,
+      "klasor": "2026-10-10-fusion-onshape"
+    },
+    {
+      "tarih": "2026-10-11",
+      "slot": "3dbaski",
+      "konu": 13,
+      "klasor": "2026-10-11-sunlu-pla-kartelasi"
+    },
+    {
+      "tarih": "2026-10-11",
+      "slot": "elektronik",
+      "konu": 15,
+      "klasor": "2026-10-11-jetson-orin-nano"
+    },
+    {
+      "tarih": "2026-10-11",
+      "slot": "proje",
+      "konu": 13,
+      "klasor": "2026-10-11-musteriye-fiyat"
     }
   ],
   "yayinlanmis_disarida": [
@@ -254,5 +296,40 @@
       "slot": "elektronik",
       "no": 8
     }
-  ]
+  ],
+  "kuyruk_bekleyen": {
+    "not": "Metricool kotasi dolu oldugu icin kuyruga eklenemedi. Kota acilinca bu klasorler uretilmeden dogrudan createScheduledPost ile planlanacak; yeniden uretilmeyecek.",
+    "slotlar": [
+      {
+        "tarih": "2026-10-10",
+        "slot": "3dbaski",
+        "klasor": "2026-10-10-filament-kurutma"
+      },
+      {
+        "tarih": "2026-10-10",
+        "slot": "elektronik",
+        "klasor": "2026-10-10-tp4056-sarj"
+      },
+      {
+        "tarih": "2026-10-10",
+        "slot": "proje",
+        "klasor": "2026-10-10-fusion-onshape"
+      },
+      {
+        "tarih": "2026-10-11",
+        "slot": "3dbaski",
+        "klasor": "2026-10-11-sunlu-pla-kartelasi"
+      },
+      {
+        "tarih": "2026-10-11",
+        "slot": "elektronik",
+        "klasor": "2026-10-11-jetson-orin-nano"
+      },
+      {
+        "tarih": "2026-10-11",
+        "slot": "proje",
+        "klasor": "2026-10-11-musteriye-fiyat"
+      }
+    ]
+  }
 }
