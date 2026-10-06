@@ -1,0 +1,83 @@
+{
+  "kategori": "proje",
+  "zemin": "kiraz",
+  "kapak": {
+    "tip": "rakam",
+    "ustbilgi": "MÜŞTERİYE FİYAT VERMEK",
+    "rakam": "6 kalem",
+    "rakam_alt": "Filament bunlardan yalnız biri.",
+    "spot": "Gram hesabı fiyat değil, maliyetin tek satırı. Kalan beş kalemi unutan baskıyı kendi cebinden yapıyor.",
+    "rozetler": [
+      [
+        "Malzeme en küçük",
+        "tema"
+      ],
+      [
+        "Makine saati ayrı",
+        "turuncu"
+      ],
+      [
+        "%10-15 risk payı",
+        "kirmizi"
+      ]
+    ],
+    "tablo": [
+      [
+        "1 · MALZEME",
+        "slicer gramı × makara gram fiyatı"
+      ],
+      [
+        "2 · MAKİNE SAATİ",
+        "elektrik, amortisman, bakım"
+      ],
+      [
+        "3 · BAŞARISIZ PAY",
+        "iş başına %10-15"
+      ],
+      [
+        "4 · İŞÇİLİK",
+        "hazırlık, destek temizliği, zımpara"
+      ],
+      [
+        "5 · TASARIM",
+        "modelleme saati ayrı faturalanır"
+      ],
+      [
+        "6 · KÂR MARJI",
+        "maliyetin üstüne eklenen pay"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Malzeme en küçük kalem",
+      "aciklama": "Dilimleyici parçanın kaç gram olduğunu söylüyor; makaranın gram fiyatıyla çarpınca malzeme çıkıyor. 60 g bir parça 1 kg makaranın yalnız %6'sı. Fiyatı buradan verirsen makineyi, elektriği ve kendi saatini bedava vermiş oluyorsun.",
+      "vurgu": [
+        100,
+        55,
+        1810,
+        215
+      ]
+    },
+    {
+      "baslik": "Makine saatini ayrı yaz",
+      "aciklama": "Yazıcı çalışırken elektrik harcıyor, nozzle ve kayış aşınıyor, tabla yüzeyi ömrünü tüketiyor. Bunların toplamını yıllık tutup çalışma saatine bölünce bir saatlik makine ücreti çıkıyor. On saatlik baskıda bu kalem malzemeyi geçiyor.",
+      "vurgu": [
+        100,
+        190,
+        1810,
+        350
+      ]
+    },
+    {
+      "baslik": "Emeği ve riski fiyata koy",
+      "aciklama": "Dosyayı hazırlamak, desteği temizlemek, zımparalamak ve paketlemek senin saatin. Başarısız baskı ihtimali için her işe %10-15 pay ekle; müşteri için modelleme yaptıysan o saat ayrı faturalanır. Kâr marjı bunların üstüne gelir, içinden çıkmaz.",
+      "vurgu": [
+        100,
+        325,
+        1810,
+        760
+      ]
+    }
+  ]
+}

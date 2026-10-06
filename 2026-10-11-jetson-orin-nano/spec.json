@@ -1,0 +1,102 @@
+{
+  "kategori": "elektronik",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "izgara",
+    "satir1": "JETSON ORIN",
+    "satir2": "NANO SUPER",
+    "spot": "Süper olan donanım değil, yazılım.",
+    "rozetler": [
+      [
+        "67 TOPS seyrek",
+        "tema"
+      ],
+      [
+        "8 GB LPDDR5",
+        "yesil"
+      ],
+      [
+        "Bellek dar boğaz",
+        "kirmizi"
+      ]
+    ],
+    "kartlar": [
+      {
+        "etiket": "YAPAY ZEKA",
+        "deger": "67 TOPS",
+        "alt": "Seyrek kipte; yoğun kipte 33 TOPS.",
+        "renk": "mavi",
+        "ikon": "cip"
+      },
+      {
+        "etiket": "GPU",
+        "deger": "1024 çekirdek",
+        "alt": "Ampere, 32 tensor çekirdeği, 1.020 MHz.",
+        "renk": "mor",
+        "ikon": "dis"
+      },
+      {
+        "etiket": "İŞLEMCİ",
+        "deger": "6 çekirdek",
+        "alt": "Arm Cortex-A78AE, 1,7 GHz.",
+        "renk": "turuncu",
+        "ikon": "hiz"
+      },
+      {
+        "etiket": "BELLEK",
+        "deger": "8 GB",
+        "alt": "LPDDR5, 102 GB/s bant genişliği.",
+        "renk": "yesil",
+        "ikon": "kup"
+      },
+      {
+        "etiket": "GÜÇ KİPİ",
+        "deger": "7-25 W",
+        "alt": "7 W, 15 W ve 25 W arasında seçiliyor.",
+        "renk": "kirmizi",
+        "ikon": "pil"
+      },
+      {
+        "etiket": "SÜPER NE DEMEK",
+        "deger": "1,7 kat",
+        "alt": "GPU 635'ten 1.020 MHz'e, bellek 68'den 102 GB/s'ye çıktı.",
+        "renk": "sari",
+        "ikon": "zaman",
+        "genis": true,
+        "durum": "dogru"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Yeni kart değil, yeni güç profili",
+      "aciklama": "Orin Nano Super ayrı bir donanım değil; var olan kartın saatleri yükseltilmiş hâli. GPU 635 MHz'den 1.020 MHz'e, işlemci 1,5 GHz'den 1,7 GHz'e çıkıyor. Elindeki kart JetPack güncellemesiyle aynı rakamlara geliyor.",
+      "vurgu": [
+        100,
+        740,
+        1810,
+        885
+      ]
+    },
+    {
+      "baslik": "8 GB bellek neyi sınırlıyor",
+      "aciklama": "Bellek işlemci ile GPU arasında paylaşılıyor, yani modelin tamamı 8 GB'ın içine sığacak. Küçük dil modelleri ve görüntü işleme rahat çalışıyor; büyük modelde nicemleme şart. Darboğaz çoğu projede TOPS değil, bu 8 GB.",
+      "vurgu": [
+        100,
+        470,
+        1810,
+        605
+      ]
+    },
+    {
+      "baslik": "Raspberry Pi ne zaman yetmez",
+      "aciklama": "Tek kamera ve klasik görüntü işleme için Pi yeterli. Birden çok kamera akışı, gerçek zamanlı nesne takibi ya da yerel dil modeli için CUDA ve tensor çekirdekleri gerekiyor. 25 W kipinde soğutma da buna göre seçilecek.",
+      "vurgu": [
+        100,
+        55,
+        1810,
+        332
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "okyanus",
+  "kapak": {
+    "tip": "yakin",
+    "satir1": "SUNLU PLA",
+    "satir2": "HANGİ SERİ NE YAPAR",
+    "spot": "Aynı marka, bir düzineden fazla PLA serisi. Renk seçmeden önce serinin sıcaklığına ve hız sınırına bakılacak.",
+    "rozetler": [
+      [
+        "Çap 1,75 ± 0,02 mm",
+        "tema"
+      ],
+      [
+        "Tabla 50-60 °C",
+        "yesil"
+      ],
+      [
+        "Wood tablada 40-50 °C",
+        "kirmizi"
+      ]
+    ],
+    "cizim": [
+      {
+        "t": "renk",
+        "x": 196,
+        "y": 150,
+        "w": 230,
+        "h": 230,
+        "hex": "#E0392B",
+        "ad": "PLA"
+      },
+      {
+        "t": "renk",
+        "x": 636,
+        "y": 150,
+        "w": 230,
+        "h": 230,
+        "hex": "#1F6FD0",
+        "ad": "PLA+ 2.0"
+      },
+      {
+        "t": "renk",
+        "x": 1076,
+        "y": 150,
+        "w": 230,
+        "h": 230,
+        "hex": "#6C7F70",
+        "ad": "MATTE"
+      },
+      {
+        "t": "renk",
+        "x": 1516,
+        "y": 150,
+        "w": 230,
+        "h": 230,
+        "hex": "#D8B13C",
+        "ad": "SILK"
+      },
+      {
+        "t": "renk",
+        "x": 196,
+        "y": 560,
+        "w": 230,
+        "h": 230,
+        "hex": "#F2A6BE",
+        "ad": "META"
+      },
+      {
+        "t": "renk",
+        "x": 636,
+        "y": 560,
+        "w": 230,
+        "h": 230,
+        "hex": "#A5743C",
+        "ad": "WOOD"
+      },
+      {
+        "t": "renk",
+        "x": 1076,
+        "y": 560,
+        "w": 230,
+        "h": 230,
+        "hex": "#79EE9A",
+        "ad": "GLOW"
+      },
+      {
+        "t": "renk",
+        "x": 1516,
+        "y": 560,
+        "w": 230,
+        "h": 230,
+        "hex": "#BBD6E6",
+        "ad": "ŞEFFAF"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Önce çapa ve toleransa bak",
+      "aciklama": "Sunlu PLA serilerinin tamamı 1,75 ± 0,02 mm veriyor. Tolerans dar olduğu sürece akış sabit kalıyor; geniş toleransta aynı dilimleme ayarı bir katmanda az, bir katmanda çok malzeme basıyor. Renk seçimi bu rakamdan sonra gelen iş."
+    },
+    {
+      "baslik": "Sıcaklık seriye göre değişiyor",
+      "aciklama": "Düz PLA 185-230 °C, PLA+ 2.0 205-245 °C, Matte 200-260 °C, Silk PLA+ 210-230 °C istiyor. Wood ise 190-220 °C nozzle ve 40-50 °C tabla ile çalışıyor; diğerlerinde tabla 50-60 °C. Seriyi değiştirip profili değiştirmemek en sık yapılan hata.",
+      "vurgu": [
+        150,
+        540,
+        1800,
+        900
+      ]
+    },
+    {
+      "baslik": "Hız sınırı da seriye yazılı",
+      "aciklama": "High Speed PLA+ 2.0 300-600 mm/s bandında veriliyor, Matte 450 mm/s'ye kadar çıkıyor. Buna karşılık Silk PLA+ ve Glow 50-200 mm/s ile sınırlı; hızlı yazıcıda aynı profili kullanınca parlaklık kayboluyor ve katman yapışması düşüyor.",
+      "vurgu": [
+        150,
+        120,
+        1800,
+        480
+      ]
+    },
+    {
+      "baslik": "Görünüm seçerken neyi veriyorsun",
+      "aciklama": "Silk parlak çıkıyor ama katman yapışması düz PLA'nın altında, taşıyıcı parçada kullanılmıyor. Matte ışığı yansıtmadığı için yüzey hatasını gizliyor, ince detayı da gizliyor. Wood ve Glow dolgulu: nozzle'ı aşındırıyor, sertleştirilmiş nozzle istiyor."
+    }
+  ],
+  "kapanis": {
+    "satir1": "HANGİ SERİYİ",
+    "satir2": "ALMALISIN?",
+    "kriterler": [
+      [
+        "İLK MAKARA",
+        "düz PLA ya da PLA+ 2.0"
+      ],
+      [
+        "HIZLI YAZICI",
+        "High Speed PLA+ 2.0"
+      ],
+      [
+        "GÖRÜNÜR PARÇA",
+        "Matte ya da Silk PLA+"
+      ],
+      [
+        "TAŞIYICI PARÇA",
+        "Silk değil, PLA+ 2.0"
+      ]
+    ],
+    "not": "Dolgulu seride sertleştirilmiş nozzle şart."
+  }
+}
