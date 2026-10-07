@@ -14,7 +14,8 @@
       10,
       11,
       12,
-      13
+      13,
+      14
     ],
     "elektronik": [
       1,
@@ -31,7 +32,8 @@
       12,
       13,
       14,
-      15
+      15,
+      16
     ],
     "proje": [
       1,
@@ -46,7 +48,8 @@
       10,
       11,
       12,
-      13
+      13,
+      14
     ]
   },
   "gecmis": [
@@ -283,6 +286,24 @@
       "slot": "proje",
       "konu": 13,
       "klasor": "2026-10-11-musteriye-fiyat"
+    },
+    {
+      "tarih": "2026-10-12",
+      "slot": "3dbaski",
+      "konu": 14,
+      "klasor": "2026-10-12-yapisma-yuzeyleri"
+    },
+    {
+      "tarih": "2026-10-12",
+      "slot": "elektronik",
+      "konu": 16,
+      "klasor": "2026-10-12-deep-sleep-akim"
+    },
+    {
+      "tarih": "2026-10-12",
+      "slot": "proje",
+      "konu": 14,
+      "klasor": "2026-10-12-urun-fotografi"
     }
   ],
   "yayinlanmis_disarida": [
@@ -298,7 +319,7 @@
     }
   ],
   "kuyruk_bekleyen": {
-    "not": "Metricool kotasi dolu oldugu icin kuyruga eklenemedi. Kota acilinca bu klasorler uretilmeden dogrudan createScheduledPost ile planlanacak; yeniden uretilmeyecek.",
+    "not": "Metricool kotasi hala dolu (7 Ekim gonderileri ERROR: 'You have reached your Metricool account limit'). Kota acilinca bu klasorler yeniden uretilmeden dogrudan createScheduledPost ile planlanacak; her biri icin gonderi + 40 dk sonra hikaye. Tum gorsel adresleri 8 Ekim'de 200 donuyor.",
     "slotlar": [
       {
         "tarih": "2026-10-10",
@@ -329,6 +350,21 @@
         "tarih": "2026-10-11",
         "slot": "proje",
         "klasor": "2026-10-11-musteriye-fiyat"
+      },
+      {
+        "tarih": "2026-10-12",
+        "slot": "3dbaski",
+        "klasor": "2026-10-12-yapisma-yuzeyleri"
+      },
+      {
+        "tarih": "2026-10-12",
+        "slot": "elektronik",
+        "klasor": "2026-10-12-deep-sleep-akim"
+      },
+      {
+        "tarih": "2026-10-12",
+        "slot": "proje",
+        "klasor": "2026-10-12-urun-fotografi"
       }
     ]
   }
