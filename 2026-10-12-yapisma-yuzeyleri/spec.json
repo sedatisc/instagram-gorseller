@@ -1,0 +1,89 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "mor",
+  "kapak": {
+    "tip": "izgara",
+    "satir1": "YAPIŞMA YÜZEYLERİ",
+    "satir2": "PEI, GAROLİT, CAM",
+    "spot": "Suçlu her zaman ayar değil; yüzey malzemeyi seçiyor.",
+    "rozetler": [
+      ["Yapıştırıcısız PEI", "tema"],
+      ["Garolit 110 °C", "turuncu"],
+      ["Yağ yapışmayı bitiriyor", "kirmizi"]
+    ],
+    "kartlar": [
+      {
+        "etiket": "PEI PÜRÜZLÜ",
+        "deger": "60 °C",
+        "alt": "PLA ve PETG yapıştırıcısız tutuyor, alt yüzey mat.",
+        "renk": "turuncu",
+        "ikon": "tabla"
+      },
+      {
+        "etiket": "PEI DÜZ",
+        "deger": "60 °C",
+        "alt": "Alt yüzey parlak. PETG fazla yapışıyor.",
+        "renk": "mavi",
+        "ikon": "katman"
+      },
+      {
+        "etiket": "GAROLİT (G10)",
+        "deger": "110 °C",
+        "alt": "ABS, ASA ve nylon burada tutuyor.",
+        "renk": "kirmizi",
+        "ikon": "isi"
+      },
+      {
+        "etiket": "CAM",
+        "deger": "0,02 mm",
+        "alt": "En düz yüzey, ama kendi başına tutmuyor.",
+        "renk": "yesil",
+        "ikon": "olcu"
+      },
+      {
+        "etiket": "AYIRICI",
+        "deger": "1 kat",
+        "alt": "Düz PEI ve camda yapıştırıcı kalemi ayırıcı olur.",
+        "renk": "mor",
+        "ikon": "damla"
+      },
+      {
+        "etiket": "TEMİZLİK",
+        "deger": "%90 IPA",
+        "alt": "Parmak izindeki yağ tek başına ilk katmanı kaldırıyor; her baskıdan önce silinecek.",
+        "renk": "sari",
+        "ikon": "uyari",
+        "genis": true,
+        "durum": "dogru"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "PEI iki ayrı yüzey",
+      "aciklama": "Pürüzlü PEI, PLA ve PETG'yi yapıştırıcı olmadan tutuyor ve parçanın altına mat bir doku bırakıyor. Düz PEI parlak bir taban veriyor ama PETG'ye fazla yapışıyor; ayırıcı sürülmezse yüzeyden parça kopuyor.",
+      "vurgu": [100, 55, 1810, 330]
+    },
+    {
+      "baslik": "Garolit ve cam farklı işler",
+      "aciklama": "Garolit 110 °C tablada ABS, ASA ve nylonu tutuyor; aynı yüzeyde PLA zor kalkıyor. Cam en düz yüzey, ölçü hassasiyeti isteyen parçada avantajı bu; karşılığı kendi başına hiçbir şeyi tutmaması.",
+      "vurgu": [100, 330, 1810, 605]
+    },
+    {
+      "baslik": "Ayırıcı ve temizlik ayarın önünde",
+      "aciklama": "Düz PEI ve camda yapıştırıcı kalemi hem tutturucu hem ayırıcı görevi yapıyor. Yüzey ne olursa olsun parmak izindeki yağ ilk katmanı kaldırıyor; %90 izopropil alkolle silmek Z ofsetiyle oynamaktan önce gelir.",
+      "vurgu": [100, 605, 1810, 880]
+    }
+  ],
+  "kapanis": {
+    "satir1": "HANGİ YÜZEY",
+    "satir2": "SENİN İŞİNE?",
+    "kriterler": [
+      ["PLA VE PETG", "pürüzlü PEI, yapıştırıcı yok"],
+      ["PARLAK TABAN", "düz PEI, PETG'de ayırıcı"],
+      ["ABS VE ASA", "garolit, tabla 110 °C"],
+      ["ÖLÇÜ HASSAS", "cam, yapıştırıcı kalemiyle"]
+    ],
+    "not": "Yüzeyi değiştirdiğinde Z ofsetini yeniden al; her plakanın kalınlığı aynı değil."
+  }
+}

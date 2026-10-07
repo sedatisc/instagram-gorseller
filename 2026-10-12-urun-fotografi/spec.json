@@ -1,0 +1,42 @@
+{
+  "kategori": "proje",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "rakam",
+    "ustbilgi": "ÜRÜN FOTOĞRAFI",
+    "rakam": "1 ışık",
+    "rakam_alt": "Geri kalanını beyaz kart yapıyor.",
+    "spot": "İkinci lamba parçayı düzeltmiyor, gölgeyi ikiye çıkarıyor. Tek kaynak ve bir dolgu kartı yetiyor.",
+    "rozetler": [
+      ["60 × 60 cm softbox", "tema"],
+      ["f/8 - f/11", "turuncu"],
+      ["Oda ışığı kapalı", "kirmizi"]
+    ],
+    "tablo": [
+      ["IŞIK", "60 × 60 cm softbox, 45° yandan"],
+      ["DOLGU", "karşı yana beyaz köpük kart"],
+      ["ZEMİN", "dikişsiz beyaz kâğıt kıvrımı"],
+      ["DİYAFRAM", "f/8 - f/11"],
+      ["ISO VE SÜRE", "ISO 100, tripotta 1/60 s"],
+      ["BEYAZ AYARI", "elle 5.000 - 5.500 K"],
+      ["ODA IŞIĞI", "kapalı tutulacak"]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Bir ışık, bir dolgu kartı",
+      "aciklama": "Softbox parçanın 45° yanına ve göz hizasının biraz üstüne geliyor; kaynak büyüdükçe ve yaklaştıkça gölge yumuşuyor. Karşı tarafa konan beyaz köpük kart ışığı geri yansıtıp karanlık yüzü açıyor, ikinci lambaya gerek kalmıyor.",
+      "vurgu": [100, 55, 1810, 290]
+    },
+    {
+      "baslik": "Zemin ve netlik makinede ayarlanır",
+      "aciklama": "Zemin kıvrımsız tek parça beyaz kâğıt olacak; iki yüzeyin birleştiği çizgi fotoğrafta düzeltilmesi en zor şey. Diyaframı f/8 - f/11 arasında tutmak parçayı baştan sona net veriyor, ISO 100 ve tripot gürültüyü sıfıra indiriyor.",
+      "vurgu": [100, 290, 1810, 645]
+    },
+    {
+      "baslik": "İki renk sıcaklığı karıştırılmaz",
+      "aciklama": "Beyaz ayarı elle 5.000 - 5.500 K'ye alınıyor, otomatiğe bırakılmıyor. Softbox açıkken oda ışığı da yanıyorsa parçanın bir yanı sarı bir yanı mavi çıkıyor ve bu sonradan düzeltilemiyor; oda ışığı kapatılacak.",
+      "vurgu": [100, 645, 1810, 880]
+    }
+  ]
+}

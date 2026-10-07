@@ -1,0 +1,46 @@
+{
+  "kategori": "elektronik",
+  "zemin": "koyu",
+  "kapak": {
+    "tip": "yakin",
+    "satir1": "DEEP SLEEP 10 µA",
+    "satir2": "KARTTA ÇIKMIYOR",
+    "spot": "Veri sayfasındaki sayı çipin sayısı. Ölçtüğün şey kartın tamamı.",
+    "rozetler": [
+      ["Seri bağlanır", "tema"],
+      ["Regülatörden önce", "yesil"],
+      ["Uyanma sıçraması", "kirmizi"]
+    ],
+    "cizim": [
+      {"t": "t", "x": 140, "y": 230, "metin": "+3V7"},
+      {"t": "w", "p": [[230, 230], [600, 230]]},
+      {"t": "y", "x": 400, "y": 150, "metin": "REGÜLATÖRDEN ÖNCE", "boy": 28, "hiza": "mm"},
+      {"t": "k", "x0": 600, "y0": 130, "x1": 1060, "y1": 330, "metin": "µA METRE"},
+      {"t": "y", "x": 830, "y": 400, "metin": "SERİ BAĞLANIR", "boy": 30, "hiza": "mm"},
+      {"t": "w", "p": [[1060, 230], [1380, 230]]},
+      {"t": "n", "x": 1380, "y": 230},
+      {"t": "k", "x0": 1380, "y0": 120, "x1": 1830, "y1": 400, "metin": "ESP32 MODÜL"},
+      {"t": "w", "p": [[1605, 400], [1605, 580]]},
+      {"t": "g", "x": 1605, "y": 580, "b": 140},
+      {"t": "y", "x": 1605, "y": 780, "metin": "UYANIKKEN 300 mA", "boy": 30, "hiza": "mm"}
+    ],
+    "vurgu": [540, 110, 1090, 450]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Ölçtüğün şey çip değil kart",
+      "aciklama": "ESP32'nin deep sleep akımı veri sayfasında 10 µA mertebesinde. Geliştirme kartında aynı sayı çıkmıyor: USB-UART çevirici, kart üstündeki LDO ve güç ledi uyurken de akım çekiyor. Çıplak DevKit tipik olarak milliamper bandında kalıyor.",
+      "vurgu": [1350, 90, 1850, 440]
+    },
+    {
+      "baslik": "Metre seri bağlanır, besleme hattına",
+      "aciklama": "Ampermetre besleme hattının üstüne, kaynakla kart arasına giriyor; paralel bağlanan metre hiçbir şey ölçmüyor. Ölçüm noktası kartın regülatöründen önce olacak, yoksa regülatörün kendi boşta akımı sayının dışında kalıyor.",
+      "vurgu": [100, 110, 1100, 460]
+    },
+    {
+      "baslik": "Uyanma sıçraması µA kademesini yakıyor",
+      "aciklama": "Kart uyanıp Wi-Fi'yi açtığında akım yüz milliamperlerin üstüne çıkıyor; µA kademesindeki metre ya sigortayı atıyor ya da hattı kısıtlayıp kartı resetliyor. Uyku akımını µA kademesinde, uyanık akımı ayrı ölçümde al.",
+      "vurgu": [1350, 380, 1850, 880]
+    }
+  ]
+}
