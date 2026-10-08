@@ -1,0 +1,102 @@
+{
+  "kategori": "proje",
+  "zemin": "orman",
+  "kapak": {
+    "tip": "izgara",
+    "satir1": "PROTOTİP ÇALIŞTI",
+    "satir2": "ÜRÜN TUTMUYOR",
+    "spot": "Tek parça çalışıyorsa tasarım doğru demek değil.",
+    "rozetler": [
+      [
+        "Kumpas 0,01 mm",
+        "tema"
+      ],
+      [
+        "5 parça örneklem",
+        "yesil"
+      ],
+      [
+        "Tek ölçüm yetmiyor",
+        "kirmizi"
+      ]
+    ],
+    "kartlar": [
+      {
+        "etiket": "KUMPAS",
+        "deger": "0,01 mm",
+        "alt": "Göz kararı ölçüm burada bitiyor.",
+        "renk": "mavi",
+        "ikon": "olcu"
+      },
+      {
+        "etiket": "BÜZÜLME",
+        "deger": "%0,2",
+        "alt": "PLA soğurken 100 mm, 99,8 mm çıkıyor.",
+        "renk": "turuncu",
+        "ikon": "isi"
+      },
+      {
+        "etiket": "ÖLÇÜM EKSENİ",
+        "deger": "3 eksen",
+        "alt": "X, Y ve Z ayrı sapıyor; tek ölçüm yetmiyor.",
+        "renk": "kirmizi",
+        "ikon": "kup"
+      },
+      {
+        "etiket": "ÖRNEKLEM",
+        "deger": "5 parça",
+        "alt": "Tek parça tesadüf, beş parça tekrarlanabilirlik.",
+        "renk": "yesil",
+        "ikon": "katman"
+      },
+      {
+        "etiket": "GEÇME BOŞLUĞU",
+        "deger": "0,2 mm",
+        "alt": "Hareketli geçmede hedef; sıkı geçmede 0,1 mm.",
+        "renk": "mor",
+        "ikon": "terazi"
+      },
+      {
+        "etiket": "İLK PARÇA ONAYI",
+        "deger": "1 adet",
+        "alt": "Seriye başlamadan tek parça ölçülüp yazılı onaylanıyor; onaysız başlayan seride hata bütün adetlere yayılıyor.",
+        "renk": "sari",
+        "ikon": "uyari",
+        "genis": true,
+        "durum": "dogru"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Ölçmediğin parçayı onaylamış sayılmıyorsun",
+      "aciklama": "Dijital kumpas 0,01 mm çözünürlükte okuyor; prototipin tuttuğu yerde serinin sapması ancak bu hassasiyette görünüyor. PLA soğurken %0,2 büzülüyor, yani 100 mm'lik bir kenar 99,8 mm çıkıyor. Modeli bu payı bilerek çizmek baskıdan sonra zımparalamaktan ucuz.",
+      "vurgu": [
+        100,
+        55,
+        1810,
+        330
+      ]
+    },
+    {
+      "baslik": "Üç eksen ayrı ayrı sapıyor",
+      "aciklama": "X ve Y'deki sapma kayış gerginliğinden ve akıştan, Z'deki sapma katman yüksekliğinden geliyor; üçü aynı sayıyı vermiyor. Tek parça ölçüp geçmek yazıcının tekrarlanabilirliğini göstermiyor: aynı dosyadan beş parça basıp beşini de ölçmek, sapmanın tesadüf mü sistematik mi olduğunu ayırıyor.",
+      "vurgu": [
+        100,
+        330,
+        1810,
+        605
+      ]
+    },
+    {
+      "baslik": "Geçme boşluğunu baştan yaz",
+      "aciklama": "Hareketli geçmede 0,2 mm, sıkı geçmede 0,1 mm boşluk hedefleniyor; bu sayı modelde duracak, baskıda telafi edilmeyecek. Seriye başlamadan önce tek parçayı ölçüp yazılı onaylamak zorunlu: onaysız başlayan seride ölçü hatası bütün adetlere yayılıyor ve hepsi ikinci kez basılıyor.",
+      "vurgu": [
+        100,
+        605,
+        1810,
+        880
+      ]
+    }
+  ]
+}

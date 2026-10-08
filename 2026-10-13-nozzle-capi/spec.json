@@ -1,0 +1,82 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "koyu",
+  "kapak": {
+    "tip": "carpisma",
+    "satir1": "0,4 HER İŞE",
+    "satir2": "YETİYOR MU",
+    "spot": "0,2 mm detay için, 0,6 mm hız için. İkisi de aynı parçayı başka bir şeye çeviriyor.",
+    "sol_etiket": "0,2 MM",
+    "sag_etiket": "0,6 MM",
+    "sol_metin": "0,05 mm katman, 0,21 mm duvar; süre üç katına çıkıyor",
+    "sag_metin": "0,42 mm katman, üç kat akış; küçük detay kayboluyor",
+    "rozetler": [
+      [
+        "Katman nozzle'ın %75'i",
+        "tema"
+      ],
+      [
+        "0,6 üç kat akış",
+        "yesil"
+      ],
+      [
+        "Dolguluya 0,6 şart",
+        "kirmizi"
+      ]
+    ],
+    "tablo": [
+      [
+        "KATMAN YÜKSEKLİĞİ",
+        "0,2 mm'de 0,05-0,15, 0,6 mm'de 0,1-0,42"
+      ],
+      [
+        "DUVAR KALINLIĞI",
+        "0,21 mm · 0,42 mm · 0,63 mm"
+      ],
+      [
+        "AKIŞ",
+        "0,6 nozzle 0,4'ün üç katı malzeme basıyor"
+      ],
+      [
+        "BASKI SÜRESİ",
+        "0,2 nozzle aynı parçayı üç katına çıkarıyor"
+      ],
+      [
+        "TIKANMA",
+        "0,2 mm'de karbon ve ahşap dolgulu filament elenir"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Katman yüksekliğini uç çapı belirliyor",
+      "aciklama": "Güvenli üst sınır uç çapının %75'i: 0,2 mm uçta 0,15 mm, 0,4 mm uçta 0,30 mm, 0,6 mm uçta 0,42 mm. Üstüne çıkınca katman alttakine tam oturmuyor ve parça katman arasından ayrılıyor.",
+      "vurgu": [
+        100,
+        40,
+        1810,
+        225
+      ]
+    },
+    {
+      "baslik": "Duvar kalınlığı ölçüyü belirliyor",
+      "aciklama": "Varsayılan duvar genişliği uç çapının 1,05 katı: 0,21 mm, 0,42 mm ve 0,63 mm. 0,6 mm uçla basılan 1 mm'lik bir kenar iki duvara sığmıyor; ya 1,26 mm'ye şişiyor ya içi boş kalıyor. İnce cidarlı parça 0,6 mm uçla ölçü tutmuyor.",
+      "vurgu": [
+        100,
+        215,
+        1810,
+        400
+      ]
+    },
+    {
+      "baslik": "Süre ve tıkanma bedeli",
+      "aciklama": "0,6 mm uç, 0,4 mm uca göre üç kata kadar fazla malzeme basıyor; büyük ve basit parçada süreyi yarıya indiriyor. 0,2 mm uç ters yöne gidiyor: aynı parça üç katı sürede çıkıyor ve karbon ya da ahşap dolgulu filament bu çaptan geçmiyor.",
+      "vurgu": [
+        100,
+        390,
+        1810,
+        940
+      ]
+    }
+  ]
+}

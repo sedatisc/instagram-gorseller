@@ -1,0 +1,267 @@
+{
+  "kategori": "elektronik",
+  "zemin": "kobalt",
+  "kapak": {
+    "tip": "yakin",
+    "satir1": "OPTOKUPLÖR",
+    "satir2": "NE ZAMAN ŞART",
+    "spot": "Seviye çevirici gerilimi düşürüyor. Optokuplör toprağı tamamen kesiyor; yaptığı iş bu.",
+    "rozetler": [
+      [
+        "Yalıtım 5 kV",
+        "tema"
+      ],
+      [
+        "LED akımı 10 mA",
+        "yesil"
+      ],
+      [
+        "İki toprak ayrı",
+        "kirmizi"
+      ]
+    ],
+    "cizim": [
+      {
+        "t": "t",
+        "x": 120,
+        "y": 340,
+        "metin": "+3V3"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            210,
+            340
+          ],
+          [
+            400,
+            340
+          ]
+        ]
+      },
+      {
+        "t": "r",
+        "x": 400,
+        "y": 302,
+        "yon": "h",
+        "ad": "R1",
+        "deger": "390 Ω",
+        "etiket": "ust"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            640,
+            340
+          ],
+          [
+            820,
+            340
+          ]
+        ]
+      },
+      {
+        "t": "k",
+        "x0": 820,
+        "y0": 260,
+        "x1": 1160,
+        "y1": 620,
+        "metin": "PC817"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            930,
+            620
+          ],
+          [
+            930,
+            740
+          ]
+        ]
+      },
+      {
+        "t": "g",
+        "x": 930,
+        "y": 740,
+        "b": 140
+      },
+      {
+        "t": "y",
+        "x": 480,
+        "y": 880,
+        "metin": "MCU TARAFI",
+        "boy": 30,
+        "hiza": "mm"
+      },
+      {
+        "t": "t",
+        "x": 1640,
+        "y": 80,
+        "metin": "+5V"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            1640,
+            120
+          ],
+          [
+            1640,
+            150
+          ]
+        ]
+      },
+      {
+        "t": "r",
+        "x": 1602,
+        "y": 150,
+        "yon": "v",
+        "ad": "R2",
+        "deger": "4,7 kΩ",
+        "etiket": "sag"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            1640,
+            390
+          ],
+          [
+            1640,
+            430
+          ]
+        ]
+      },
+      {
+        "t": "n",
+        "x": 1640,
+        "y": 430
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            1160,
+            340
+          ],
+          [
+            1400,
+            340
+          ],
+          [
+            1400,
+            430
+          ],
+          [
+            1640,
+            430
+          ]
+        ]
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            1640,
+            430
+          ],
+          [
+            1830,
+            430
+          ]
+        ]
+      },
+      {
+        "t": "y",
+        "x": 1790,
+        "y": 370,
+        "metin": "ÇIKIŞ",
+        "boy": 30,
+        "hiza": "mm"
+      },
+      {
+        "t": "w",
+        "p": [
+          [
+            1160,
+            540
+          ],
+          [
+            1330,
+            540
+          ],
+          [
+            1330,
+            740
+          ]
+        ]
+      },
+      {
+        "t": "g",
+        "x": 1330,
+        "y": 740,
+        "b": 140
+      },
+      {
+        "t": "y",
+        "x": 1540,
+        "y": 880,
+        "metin": "YÜK TARAFI",
+        "boy": 30,
+        "hiza": "mm"
+      },
+      {
+        "t": "y",
+        "x": 990,
+        "y": 180,
+        "metin": "YALITIM 5 kV",
+        "boy": 32,
+        "hiza": "mm"
+      }
+    ],
+    "vurgu": [
+      790,
+      150,
+      1200,
+      660
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "İçinde kablo yok, ışık var",
+      "aciklama": "Optokuplörün girişi bir LED, çıkışı o ışığı gören fototransistör. İki taraf arasında iletken bağlantı olmadığı için PC817 gibi yaygın bir parça 5.000 V'a kadar yalıtım veriyor. Seviye çevirici bunu yapmıyor: o gerilimi uyarlıyor, toprağı ortak bırakıyor.",
+      "vurgu": [
+        790,
+        150,
+        1200,
+        660
+      ]
+    },
+    {
+      "baslik": "LED akımını seri direnç belirliyor",
+      "aciklama": "LED'in ileri gerilimi 1,2 V civarı; akımı dışarıdan sınırlamak zorunlu. 3,3 V'luk bir GPIO için (3,3 - 1,2) / 0,01 = 210 Ω, 5 V için 390 Ω yaklaşık 10 mA veriyor. Çıkış akımı bu akımla CTR'nin çarpımı: PC817'de CTR %50-600 arasında değişiyor, yani çıkış tarafını geniş bir banda göre tasarla.",
+      "vurgu": [
+        100,
+        230,
+        700,
+        430
+      ]
+    },
+    {
+      "baslik": "İki toprak birleşmiyorsa işini yapıyor",
+      "aciklama": "Optokuplörün tek anlamı toprakları ayrı tutmak: şebeke tarafı, motor sürücünün gürültülü toprağı ve RS-485 hattı bu yüzden yalıtılıyor. İki tarafın toprağını bir yerde birleştirirsen parça devrede durur ama hiçbir işe yaramaz. PC817 mikrosaniye mertebesinde yavaş; hızlı SPI için 6N137 gibi yüksek hızlı bir parça gerekiyor.",
+      "vurgu": [
+        860,
+        600,
+        1450,
+        900
+      ]
+    }
+  ]
+}
