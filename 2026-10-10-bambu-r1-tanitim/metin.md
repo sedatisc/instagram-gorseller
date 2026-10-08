@@ -12,7 +12,7 @@ Güvenlik → kapalı kullanımda Class 1. Kapak açılınca lazer duruyor, alev
 
 Dikkat edilecek yer: 2.499 dolar gövdenin fiyatı. Konveyör, Vision Encoder, ayna hizalama sensörü, otomatik yangın söndürme ve E1 Pro hava temizleyici ayrı satılıyor.
 
-Türkiye'de resmi stok yok, satış şimdilik Bambu Lab'in kendi mağazasından.
+Türkiye tarafı → MetaTech üç varyantı da listelemiş: standart R1, Long Material Bundle ve Long Material & Rotary Bundle. Üçü de şu an tükenmiş görünüyor ve fiyat sayfada yazmıyor. Yani makine Türkiye'ye geliyor, sırayı beklemek gerekiyor.
 
 Atölyesine lazer almayı konuşan bir arkadaşın varsa bu gönderiyi ona yolla.
 

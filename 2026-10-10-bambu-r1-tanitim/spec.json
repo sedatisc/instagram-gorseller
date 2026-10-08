@@ -59,9 +59,9 @@
     "kriterler": [
       ["AHŞAP / AKRİLİK", "evet, sahası bu"],
       ["METAL KESİM", "hayır, CO2 kesmiyor"],
-      ["TÜRKİYE STOĞU", "yok, kendi mağazası"],
+      ["TÜRKİYE SATICISI", "var, üçü de tükendi"],
       ["SEVKİYAT", "Ekim 2026"]
     ],
-    "not": "Fiyat 2.499 $ vergisiz, kargo dahil. Avrupa'da 2.499 € vergi dahil, kargo hariç."
+    "not": "Fiyat 2.499 $ vergisiz, kargo dahil. Türkiye'de MetaTech listeliyor; stok gelince fiyat netleşir."
   }
 }
