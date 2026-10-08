@@ -50,6 +50,16 @@ Slaytlar `1.png`, `2.png` … diye çıkar. Slayt sayısı `PLAN.md`'deki tür s
 
 Metin yalnız Metricool'da kalırsa, planlama durduğu anda o günün metni kayboluyor; 10-11 Ekim'de bu oldu. `metin.md` olmayan klasör tamamlanmış sayılmıyor.
 
+**4d. Reels gerekiyorsa üret.** Aynı spec'ten dikey video çıkıyor:
+
+```
+python3 reels.py <klasor>/spec.json <klasor>/reels.mp4
+```
+
+1080 × 1920, 30 fps, ~23 saniye, sessiz. Ses Instagram'da eklenir; uygulamadaki trend sesi hem kolay hem erişime yarıyor. Sahne sırası: kanca → künye şeridi → her slayttan bir kart sahnesi (en çok 3) → kapanış. `kapak.gorsel` dosyasının yanında `<ad>-reels.jpg` varsa video onu kullanıyor — kapak karesi bandın oranına uymuyor, Reels için ayrı hazırlanıyor (1080 × 1240, konu alta yakın).
+
+Reels her gönderi için üretilmiyor; haftada 3 tane yeterli, gerisi karusel kalıyor.
+
 **5. Depoya yükle.** Klasörü commit edip push et. Sonra her adresi `curl -sI` ile doğrula, hepsi 200 dönmeli.
 
 **6. Kuyruğa ekle.** Her konu için **iki** kayıt açılıyor: gönderi, sonra hikayesi.
