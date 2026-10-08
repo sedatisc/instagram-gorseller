@@ -12,6 +12,8 @@ Prize de bakın → 1.150 W. Bu tek başına bir su ısıtıcısı demek. Uzatma
 
 Bağlantı USB, 2,4 GHz Wi-Fi ve Creality Cloud. Filament bitti ve dolaşma algılama var.
 
+Fotoğraflardaki uyarı → üstteki çok renkli besleme ünitesi (CFS) makineyle birlikte gelmiyor. Creality onu "yakında" diye listelemiş, çok renkli baskı desteğini de henüz teyit etmedi. Tanıtım görsellerine bakıp kutudan o düzenin çıkacağını varsaymayın.
+
 Fiyat tarafı → Çin lansman fiyatı 3.399 RMB. Global fiyat ve tarih açıklanmadı. Türkiye'de 36.399 TL'ye listelendi ama stok yok, şimdilik gelince haber ver kaydı alınıyor.
 
 Benim görüşüm: büyük tabla acil değilse ilk bağımsız testleri beklemek mantıklı. Yukarıdaki rakamların hepsi üretici beyanı, hiçbiri henüz bağımsız ölçülmedi.

@@ -1195,6 +1195,39 @@ def _perde(img, y0, y1, op0, op1):
     img.alpha_composite(lay)
 
 
+def _parlaklik(img, y0, y1):
+    """Bandın ortalama parlaklığı — perde koyuluğunu buna göre seçiyoruz."""
+    y0, y1 = max(0, int(y0)), min(img.height, int(y1))
+    if y1 <= y0:
+        return 0.0
+    k = img.convert("RGB").crop((0, y0, img.width, y1)) \
+           .resize((1, 1), Image.LANCZOS).getpixel((0, 0))
+    return 0.2126 * k[0] + 0.7152 * k[1] + 0.0722 * k[2]
+
+
+def _perde_op(parlaklik):
+    """Beyaz stüdyo fotoğrafı koyu fotoğraftan daha ağır perde istiyor."""
+    if parlaklik > 170:
+        return 0.93
+    if parlaklik > 110:
+        return 0.88
+    if parlaklik > 60:
+        return 0.80
+    return 0.70
+
+
+def _taban(img, y0, op, yumusak=160):
+    """y0'dan aşağısını karart: yumusak px içinde op'a çıkıp sabit kalıyor."""
+    y0 = int(y0)
+    lay = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    g = ImageDraw.Draw(lay)
+    for i in range(max(0, y0), img.height):
+        t = min(1.0, (i - y0) / float(yumusak))
+        g.line([(0, i), (img.width, i)],
+               fill=(2, 4, 10, int(255 * op * (t ** 0.75))))
+    img.alpha_composite(lay)
+
+
 def foto_dolgu(img, ad, x0, y0, x1, y1, odak=0.42):
     """Fotoğrafı banda cover-crop ile oturt. Dosya yoksa yer tutucu çizer."""
     yol = gorsel_var(ad)
@@ -1258,13 +1291,7 @@ def _ozet_serit(img, oz, y, h=96):
 
 def kapak_urun(spec, sayac, yol):
     """Tam kare ürün fotoğrafı, yazı fotoğrafın üstünde."""
-    img = Image.new("RGBA", (W, H), BG + (255,))
-    var = foto_dolgu(img, spec.get("gorsel"), 0, 0, W, H,
-                     odak=spec.get("odak", 0.38))
-    if var:
-        _perde(img, 0, 340, 0.88, 0.0)
-        _perde(img, 520, H, 0.0, 0.96)
-    chrome(img, sayac, kaydir=True)
+    img = base()
     d = ImageDraw.Draw(img)
 
     s1, s2 = spec["satir1"], spec["satir2"]
@@ -1278,6 +1305,14 @@ def kapak_urun(spec, sayac, yol):
     blok += len(spot) * 40 + (14 if spot else 0)
     blok += 114 if oz else 0
     y = 1252 - blok
+
+    # fotoğraf yazının başladığı yere kadar iniyor, alt kenarı zemine eriyor
+    var = foto_ust(img, spec.get("gorsel"), y1=int(y) + 26, erit=230,
+                   odak=spec.get("odak", 0.38))
+    if var:
+        _perde(img, 0, 300, _perde_op(_parlaklik(img, 0, 170)) * 0.92, 0.0)
+    chrome(img, sayac, kaydir=True)
+    d = ImageDraw.Draw(img)
 
     d.text((GUT, y), etiket, font=mono(27, True), fill=AC(), anchor="la")
     y += 44
@@ -1303,9 +1338,10 @@ def kapak_urun(spec, sayac, yol):
 def adim_foto(spec, no, toplam, sayac, yol):
     """Üstte fotoğraf, altta başlık ve künye satırları."""
     img = base()
-    var = foto_ust(img, spec.get("foto"), y1=spec.get("bant", 628))
+    var = foto_ust(img, spec.get("foto"), y1=spec.get("bant", 628),
+                   odak=spec.get("odak", 0.35))
     if var:
-        _perde(img, 0, 212, 0.80, 0.0)
+        _perde(img, 0, 212, _perde_op(_parlaklik(img, 0, 150)) * 0.95, 0.0)
     chrome(img, sayac, kaydir=True)
     d = ImageDraw.Draw(img)
 
@@ -1361,19 +1397,31 @@ def adim_foto(spec, no, toplam, sayac, yol):
 def hikaye_urun(spec, yol):
     """1080 x 1920 ürün hikayesi — tam kare fotoğraf."""
     SW, SH = 1080, 1920
-    img = Image.new("RGBA", (SW, SH), BG + (255,))
-    var = foto_dolgu(img, spec.get("gorsel"), 0, 0, SW, SH,
-                     odak=spec.get("odak", 0.38))
+    img = base_renkli(SW, SH) if _mod() != "koyu" else \
+        Image.new("RGBA", (SW, SH), BG + (255,))
+    d0 = ImageDraw.Draw(img)
+    f0 = fit(d0, max(spec["satir1"], spec["satir2"], key=len), anton, 956, 118)
+    oz0 = [tuple(r) for r in spec.get("ozet", [])]
+    spot0 = wrap(d0, P(spec["spot"]), pop(32, "Medium"), 900)[:3] \
+        if spec.get("spot") else []
+    ust0 = 1560 - 80 - (44 + f0.size * 1.1 * 2 + 42 + len(spot0) * 46
+                        + (118 if oz0 else 0))
+    var = foto_ust(img, spec.get("gorsel"), y1=int(ust0) + 26, erit=280,
+                   odak=spec.get("odak", 0.38))
     if var:
-        _perde(img, 0, 620, 0.90, 0.0)
-        _perde(img, 840, SH, 0.0, 0.96)
+        _perde(img, 0, 520, _perde_op(_parlaklik(img, 0, 380)) * 0.92, 0.0)
 
     logo = bright_logo(34)
-    img.alpha_composite(logo, (GUT, 300))
     d = ImageDraw.Draw(img)
     fl = mono(24, True)
     lw = d.textlength(LABEL, font=fl)
     lx = GUT + logo.width + 26
+    if var and _parlaklik(img, 285, 350) > 105:
+        # şerit beyaz zemine denk geldi — altına yumuşak karartma
+        img.alpha_composite(glow((SW, SH), lambda g: g.rounded_rectangle(
+            [GUT - 30, 278, lx + lw + 62, 358], radius=42,
+            fill=(2, 4, 10, 225)), 30))
+    img.alpha_composite(logo, (GUT, 300))
     over(img, lambda g: g.rounded_rectangle(
         [lx, 296, lx + lw + 40, 338], radius=21, fill=a(AC(), 0.14),
         outline=a(AC(), 0.5), width=2))

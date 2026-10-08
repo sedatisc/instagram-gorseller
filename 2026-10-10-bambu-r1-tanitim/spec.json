@@ -4,15 +4,24 @@
   "kapak": {
     "tip": "urun",
     "gorsel": "bambu-r1.jpg",
-    "odak": 0.40,
+    "odak": 0.0,
     "ustbilgi": "YENİ MAKİNE · ÖN SİPARİŞ",
     "satir1": "BAMBU LAB",
     "satir2": "R1 LAZER",
     "spot": "55 W CO2 lazer, 600 × 300 mm tezgâh, 2.499 dolar. Atölyeye lazer koymayı düşünüyorsan rakamlar burada.",
     "ozet": [
-      ["LAZER", "55 W CO2"],
-      ["ALAN", "600×300 mm"],
-      ["FİYAT", "2.499 $"]
+      [
+        "LAZER",
+        "55 W CO2"
+      ],
+      [
+        "ALAN",
+        "600×300 mm"
+      ],
+      [
+        "FİYAT",
+        "2.499 $"
+      ]
     ]
   },
   "slaytlar": [
@@ -22,45 +31,105 @@
       "baslik": "Kalın kesiyor, metale dokunmuyor",
       "aciklama": "CO2 lazerin sahası organik malzeme. Çıplak metali kesmiyor; kaplamalı metalde yalnız gravür yapıyor.",
       "satirlar": [
-        ["CEVİZ KONTRPLAK", "18 mm kesim"],
-        ["ŞEFFAF AKRİLİK", "20 mm kesim"],
-        ["AYRICA KESER", "deri · kâğıt · kumaş"],
-        ["YALNIZ GRAVÜR", "cam · taş · kaplamalı metal"]
-      ]
+        [
+          "CEVİZ KONTRPLAK",
+          "18 mm kesim"
+        ],
+        [
+          "ŞEFFAF AKRİLİK",
+          "20 mm kesim"
+        ],
+        [
+          "AYRICA KESER",
+          "deri · kâğıt · kumaş"
+        ],
+        [
+          "YALNIZ GRAVÜR",
+          "cam · taş · kaplamalı metal"
+        ]
+      ],
+      "odak": 0.3
     },
     {
       "baslik": "Hizalamayı kamera yapıyor",
       "aciklama": "Lazerde işin yarısı malzemeyi doğru yere koymak. R1 bunu dört ayrı sensöre dağıtmış; basılı desenin üstüne 0,2 mm'de oturuyor.",
       "tablo": [
-        ["KUŞ BAKIŞI KAMERA", "tüm tezgâh"],
-        ["KAFA KAMERASI", "kesim yeri"],
-        ["NOKTA LAZERİ", "işaretleme"],
-        ["MESAFE LAZERİ", "odak"],
-        ["XY ENKODER", "kafa konumu"],
-        ["KESİM HASSASİYETİ", "0,2 mm altı"]
+        [
+          "KUŞ BAKIŞI KAMERA",
+          "tüm tezgâh"
+        ],
+        [
+          "KAFA KAMERASI",
+          "kesim yeri"
+        ],
+        [
+          "NOKTA LAZERİ",
+          "işaretleme"
+        ],
+        [
+          "MESAFE LAZERİ",
+          "odak"
+        ],
+        [
+          "XY ENKODER",
+          "kafa konumu"
+        ],
+        [
+          "KESİM HASSASİYETİ",
+          "0,2 mm altı"
+        ]
       ]
     },
     {
+      "foto": "bambu-r1-aks.jpg",
+      "bant": 470,
       "baslik": "Gövde fiyatı her şey değil",
-      "aciklama": "2.499 dolar makinenin kendisi. Kutudan çıkan hâliyle kapalı kullanımda Class 1; aşağıdaki parçaların hepsi ayrı satılıyor.",
-      "tablo": [
-        ["KONVEYÖR", "3 m uzunluğa kadar"],
-        ["VISION ENCODER", "600 mm'de 0,1 mm"],
-        ["AYNA HİZALAMA SENSÖRÜ", "1 dakikada"],
-        ["YANGIN SÖNDÜRME", "otomatik"],
-        ["E1 PRO HAVA TEMİZLEYİCİ", "aktif karbon"],
-        ["KAİDE / KONVEYÖR İLE", "Class 4 olur"]
-      ]
+      "aciklama": "2.499 dolar makinenin kendisi. Fotoğraftaki parçaların hepsi ayrı satılıyor.",
+      "satirlar": [
+        [
+          "KONVEYÖR",
+          "3 m uzunluğa kadar"
+        ],
+        [
+          "VISION ENCODER",
+          "600 mm'de 0,1 mm"
+        ],
+        [
+          "AYNA HİZALAMA",
+          "1 dakikada"
+        ],
+        [
+          "YANGIN SÖNDÜRME",
+          "otomatik"
+        ],
+        [
+          "E1 PRO HAVA TEMİZLEYİCİ",
+          "aktif karbon"
+        ]
+      ],
+      "odak": 0.42
     }
   ],
   "kapanis": {
     "satir1": "SENİN İŞİNE",
     "satir2": "YARAR MI?",
     "kriterler": [
-      ["AHŞAP / AKRİLİK", "evet, sahası bu"],
-      ["METAL KESİM", "hayır, CO2 kesmiyor"],
-      ["TÜRKİYE SATICISI", "var, üçü de tükendi"],
-      ["SEVKİYAT", "Ekim 2026"]
+      [
+        "AHŞAP / AKRİLİK",
+        "evet, sahası bu"
+      ],
+      [
+        "METAL KESİM",
+        "hayır, CO2 kesmiyor"
+      ],
+      [
+        "TÜRKİYE SATICISI",
+        "var, üçü de tükendi"
+      ],
+      [
+        "SEVKİYAT",
+        "Ekim 2026"
+      ]
     ],
     "not": "Fiyat 2.499 $ vergisiz, kargo dahil. Türkiye'de MetaTech listeliyor; stok gelince fiyat netleşir."
   }
