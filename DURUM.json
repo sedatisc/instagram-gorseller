@@ -15,7 +15,8 @@
       11,
       12,
       13,
-      14
+      14,
+      15
     ],
     "elektronik": [
       1,
@@ -33,7 +34,8 @@
       13,
       14,
       15,
-      16
+      16,
+      17
     ],
     "proje": [
       1,
@@ -49,7 +51,8 @@
       11,
       12,
       13,
-      14
+      14,
+      15
     ]
   },
   "gecmis": [
@@ -304,6 +307,24 @@
       "slot": "proje",
       "konu": 14,
       "klasor": "2026-10-12-urun-fotografi"
+    },
+    {
+      "tarih": "2026-10-13",
+      "slot": "3dbaski",
+      "konu": 15,
+      "klasor": "2026-10-13-nozzle-capi"
+    },
+    {
+      "tarih": "2026-10-13",
+      "slot": "elektronik",
+      "konu": 17,
+      "klasor": "2026-10-13-optokuplor"
+    },
+    {
+      "tarih": "2026-10-13",
+      "slot": "proje",
+      "konu": 15,
+      "klasor": "2026-10-13-olcu-dogrulama"
     }
   ],
   "yayinlanmis_disarida": [
@@ -319,7 +340,7 @@
     }
   ],
   "kuyruk_bekleyen": {
-    "not": "Metricool kotasi hala dolu (7 Ekim gonderileri ERROR: 'You have reached your Metricool account limit'). Kota acilinca bu klasorler yeniden uretilmeden dogrudan createScheduledPost ile planlanacak; her biri icin gonderi + 40 dk sonra hikaye. Tum gorsel adresleri 8 Ekim'de 200 donuyor.",
+    "not": "Metricool kotasi hala dolu (7-8 Ekim gonderilerinin hepsi ERROR: 'You have reached your Metricool account limit'). 9 Ekim gonderileri PENDING, onceden planlanmisti. Kota acilinca asagidaki klasorler yeniden uretilmeden dogrudan createScheduledPost ile planlanacak; her biri icin gonderi + 40 dk sonra hikaye. Tum gorsel adresleri 9 Ekim'de 200 donuyor. Gecmis saatli slotlar atlanacak.",
     "slotlar": [
       {
         "tarih": "2026-10-10",
@@ -365,6 +386,21 @@
         "tarih": "2026-10-12",
         "slot": "proje",
         "klasor": "2026-10-12-urun-fotografi"
+      },
+      {
+        "tarih": "2026-10-13",
+        "slot": "3dbaski",
+        "klasor": "2026-10-13-nozzle-capi"
+      },
+      {
+        "tarih": "2026-10-13",
+        "slot": "elektronik",
+        "klasor": "2026-10-13-optokuplor"
+      },
+      {
+        "tarih": "2026-10-13",
+        "slot": "proje",
+        "klasor": "2026-10-13-olcu-dogrulama"
       }
     ]
   }
