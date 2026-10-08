@@ -1,0 +1,67 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "koyu",
+  "kapak": {
+    "tip": "urun",
+    "gorsel": "ender-v3-mega.jpg",
+    "odak": 0.38,
+    "ustbilgi": "YENİ MAKİNE · ÇİN LANSMANI",
+    "satir1": "CREALITY ENDER-3",
+    "satir2": "V3 MEGA",
+    "spot": "420 mm küp baskı alanı, 500 mm/s, 1.150 W. Büyük tabla isteyenin masasına ne geliyor, ne gelmiyor.",
+    "ozet": [
+      ["ALAN", "420³ mm"],
+      ["HIZ", "500 mm/s"],
+      ["GÜÇ", "1.150 W"]
+    ]
+  },
+  "slaytlar": [
+    {
+      "foto": "ender-v3-mega-is.jpg",
+      "bant": 600,
+      "baslik": "Önce şu karışıklığı düzeltelim",
+      "aciklama": "Türkiye'deki ilk listelemelerde baskı alanı iki farklı şekilde yazılı. Üreticinin kendi lansman verisi 420 mm küp; 220 × 220 × 240 eski Ender-3 ölçüsü.",
+      "satirlar": [
+        ["ÜRETİCİ BEYANI", "420 × 420 × 420 mm"],
+        ["SAYFADA YAZAN", "220 × 220 × 240 mm"],
+        ["DOĞRUSU", "420 küp"],
+        ["EKRAN", "3,2\" dokunmatik"]
+      ]
+    },
+    {
+      "baslik": "Üreticinin verdiği rakamlar",
+      "aciklama": "Hepsi Creality lansman belgesinden. Gerçek baskıda bu hızlara çıkılıp çıkılmadığını bağımsız test yok, henüz bilmiyoruz.",
+      "tablo": [
+        ["BASKI ALANI", "420 × 420 × 420 mm"],
+        ["HIZ", "300 mm/s tipik · 500 maks"],
+        ["İVME", "8.000 mm/s²"],
+        ["EKSTRUDER", "2. nesil Sprite direct"],
+        ["NOZUL / TABLA", "300 °C / 100 °C"],
+        ["TABLA HİZALAMA", "81 nokta otomatik"]
+      ]
+    },
+    {
+      "baslik": "Masaya ve prize bakın",
+      "aciklama": "420 küp tabla, cihazı da büyütüyor. 1.150 W tek başına bir su ısıtıcısı; uzatma kablosuna takılacak bir yük değil.",
+      "tablo": [
+        ["CİHAZ ÖLÇÜSÜ", "590 × 588 × 697 mm"],
+        ["AĞIRLIK", "20,2 kg"],
+        ["GÜÇ", "1.150 W"],
+        ["BAĞLANTI", "USB · 2,4 GHz Wi-Fi"],
+        ["FİLAMENT SENSÖRÜ", "bitti + dolaşma"],
+        ["ÇİN LANSMAN FİYATI", "3.399 RMB"]
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "ŞİMDİ",
+    "satir2": "ALINIR MI?",
+    "kriterler": [
+      ["TÜRKİYE STOĞU", "yok, ön kayıt var"],
+      ["LİSTE FİYATI", "36.399 TL"],
+      ["GLOBAL FİYAT", "açıklanmadı"],
+      ["BAĞIMSIZ TEST", "henüz yok"]
+    ],
+    "not": "Büyük tabla acil değilse ilk testleri beklemek mantıklı. Rakamların tamamı üretici beyanı."
+  }
+}

@@ -36,6 +36,20 @@ Slaytlar `1.png`, `2.png` … diye çıkar. Slayt sayısı `PLAN.md`'deki tür s
 
 **4b. Spec'i sakla.** Yazdığın spec JSON'unu gönderi klasörüne `spec.json` olarak koy. Sonradan yeniden üretmek gerekirse bu şart.
 
+**4c. Metni de klasöre yaz.** Gönderi metnini ve ilk yorumu gönderi klasörüne `metin.md` olarak kaydet — Metricool'a yazmadan önce, her gönderi için. Biçim:
+
+```
+## Gönderi metni
+
+<metin>
+
+## İlk yorum
+
+<tek cümle>
+```
+
+Metin yalnız Metricool'da kalırsa, planlama durduğu anda o günün metni kayboluyor; 10-11 Ekim'de bu oldu. `metin.md` olmayan klasör tamamlanmış sayılmıyor.
+
 **5. Depoya yükle.** Klasörü commit edip push et. Sonra her adresi `curl -sI` ile doğrula, hepsi 200 dönmeli.
 
 **6. Kuyruğa ekle.** Her konu için **iki** kayıt açılıyor: gönderi, sonra hikayesi.
@@ -159,9 +173,13 @@ Slayt başlıklarında yalnız ilk kelime ve özel adlar büyük.
 
 `PLAN.md`'de **Ürün:** ile başlayan konularda, yazmadan önce web'de ara ve doğrula. Model adları ve ürün gamları hızlı değişiyor.
 
-- Fiyat yazma. Konumlandırma yaz ("giriş seviyesi", "kapalı kabinli orta sınıf"), fiyat için sermenkreatif.com'a yönlendir.
+- **Sermenkreatif'in sattığı ürünlerde fiyat yazma.** Konumlandırma yaz ("giriş seviyesi", "kapalı kabinli orta sınıf"), fiyat için sermenkreatif.com'a yönlendir.
+- **Mağazada olmayan makinelerin tanıtımında fiyat haberin kendisidir;** yaz ama kaynağını ve kapsamını belirt: "2.499 $ vergisiz, kargo dahil", "Çin lansman fiyatı 3.399 RMB, global fiyat açıklanmadı". Türkiye'de stok yoksa bunu açıkça söyle.
 - Ürünün durumunu ayır: **duyuruldu** (özellik yok), **fuarda gösterildi** (özellik açık, satış yok), **satışta**. Duyuru aşamasındakini karşılaştırmaya sokma; fuar aşamasındakini sok ama "şu an alınamıyor, tarih şu" diye yaz.
-- Üretici basın görseli kullanma, telifli. `tablo` paneli veya `renk` öğesi kullan.
+- Üretici beyanı olan rakamı öyle etiketle. Bağımsız test yoksa "henüz bağımsız ölçülmedi" de.
+- Satıcı sayfası üreticiyle çelişiyorsa çelişkiyi gönderiye koy — takipçiye en çok yarayan kısım orası.
+
+**Ürün tanıtımı kapağı fotoğrafla yapılıyor, çizimle değil.** `urun` kapak tipi (bkz. `SEMA.md`) tam kareyi gerçek fotoğrafla dolduruyor. Fotoğraf üreticinin basın kitinden ya da kendi çekimimizden gelecek; arama sonucundan indirilen görsel kullanılmaz. Dosya `gorsel/` klasörüne konur, şartları `gorsel/BENIOKU.md`'de. Fotoğraf yoksa üretici yer tutucu basıp uyarı veriyor — o kare yayınlanmaz, fotoğraf gelene kadar gönderi planlanmaz.
 - Geçen markanın hesabını açıklamada etiketle: `@bambulab`, `@sunlu3d`, `@snapmaker`, `@creality3dofficial`, `@crealityfalcon`.
 
 ## Kapsam dışı

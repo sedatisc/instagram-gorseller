@@ -1154,6 +1154,278 @@ def kapak_liste(spec, sayac, yol):
     img.convert("RGB").save(yol)
 
 
+# --------------------------------------------------------- ürün fotoğrafı
+def _yer_tutucu(img, x0, y0, x1, y1, ad):
+    """Fotoğraf yoksa ne beklendiğini yazan blok.
+
+    Ürün gönderisi gerçek fotoğrafla çalışıyor; dosya yoksa üretici
+    sessizce vektör çizime düşmüyor, eksiği karenin üstüne yazıyor.
+    """
+    x0, y0, x1, y1 = int(x0), int(y0), int(x1), int(y1)
+    lay = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    g = ImageDraw.Draw(lay)
+    g.rectangle([x0, y0, x1, y1], fill=(14, 17, 24, 255))
+    for t in range(y0 - (x1 - x0), y1 + (x1 - x0), 56):
+        g.line([(x0 - 20, t), (x1 + 20, t - (x1 - x0) - 40)],
+               fill=(255, 255, 255, 11), width=16)
+    g.rectangle([x0 + 4, y0 + 4, x1 - 4, y1 - 4],
+                outline=(255, 255, 255, 54), width=4)
+    img.alpha_composite(lay)
+    d = ImageDraw.Draw(img)
+    cx = (x0 + x1) / 2
+    cy = y0 + (y1 - y0) * (0.30 if y1 - y0 > 900 else 0.50)
+    d.text((cx, cy - 38), "FOTOĞRAF YOK", font=anton(52),
+           fill=(255, 118, 118), anchor="mm")
+    d.text((cx, cy + 22), P("gorsel/" + (ad or "?")), font=mono(27, True),
+           fill=(236, 241, 250), anchor="mm")
+    d.text((cx, cy + 68), P("gerçek ürün fotoğrafı bekleniyor"),
+           font=pop(23), fill=(168, 180, 200), anchor="mm")
+
+
+def _perde(img, y0, y1, op0, op1):
+    """Dikey karartma — yazı fotoğrafın üstünde okunsun."""
+    y0, y1 = int(y0), int(y1)
+    lay = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    g = ImageDraw.Draw(lay)
+    n = max(1, y1 - y0)
+    for i in range(n):
+        t = i / n
+        g.line([(0, y0 + i), (img.width, y0 + i)],
+               fill=(2, 4, 10, int(255 * max(0.0, op0 + (op1 - op0) * t))))
+    img.alpha_composite(lay)
+
+
+def foto_dolgu(img, ad, x0, y0, x1, y1, odak=0.42):
+    """Fotoğrafı banda cover-crop ile oturt. Dosya yoksa yer tutucu çizer."""
+    yol = gorsel_var(ad)
+    x0, y0, x1, y1 = int(x0), int(y0), int(x1), int(y1)
+    if not yol:
+        _yer_tutucu(img, x0, y0, x1, y1, ad)
+        return False
+    gw, gh = x1 - x0, y1 - y0
+    im = Image.open(yol).convert("RGB")
+    o = max(gw / im.width, gh / im.height)
+    im = im.resize((max(1, int(im.width * o)), max(1, int(im.height * o))),
+                   Image.LANCZOS)
+    kx = max(0, (im.width - gw) // 2)
+    ky = max(0, int((im.height - gh) * odak))
+    img.paste(im.crop((kx, ky, kx + gw, ky + gh)), (x0, y0))
+    return True
+
+
+def foto_ust(img, ad, y1=628, erit=176, odak=0.35):
+    """Üst banda fotoğraf — alt kenarı zemine eriyor."""
+    yol = gorsel_var(ad)
+    if not yol:
+        _yer_tutucu(img, 0, 0, W, y1, ad)
+        return False
+    gw, gh = W, int(y1)
+    im = Image.open(yol).convert("RGB")
+    o = max(gw / im.width, gh / im.height)
+    im = im.resize((max(1, int(im.width * o)), max(1, int(im.height * o))),
+                   Image.LANCZOS)
+    kx = max(0, (im.width - gw) // 2)
+    ky = max(0, int((im.height - gh) * odak))
+    im = im.crop((kx, ky, kx + gw, ky + gh)).convert("RGBA")
+    m = Image.new("L", (gw, gh), 255)
+    md = ImageDraw.Draw(m)
+    for t in range(min(erit, gh)):
+        md.line([(0, gh - 1 - t), (gw, gh - 1 - t)],
+                fill=int(255 * (t / erit) ** 0.9))
+    im.putalpha(ImageChops.multiply(im.getchannel("A"), m))
+    img.alpha_composite(im, (0, 0))
+    return True
+
+
+def _ozet_serit(img, oz, y, h=96):
+    """Kapağın altındaki 2-3 gözlü künye şeridi."""
+    n = max(1, len(oz))
+    gen = (RIGHT - GUT) / n
+    over(img, lambda g: g.rounded_rectangle(
+        [GUT, y, RIGHT, y + h], radius=18, fill=a(AC(), 0.14),
+        outline=a(AC(), 0.46), width=2))
+    d = ImageDraw.Draw(img)
+    for i, (k, v) in enumerate(oz[:3]):
+        cx = GUT + gen * (i + 0.5)
+        if i:
+            d.line([(GUT + gen * i, y + 20), (GUT + gen * i, y + h - 20)],
+                   fill=a(AC(), 0.38), width=2)
+        fv = fit(d, P(v), lambda s: mono(s, True), gen - 36, 34, 20)
+        d.text((cx, y + h * 0.62), P(v), font=fv, fill=AC(), anchor="mm")
+        d.text((cx, y + h * 0.26), P(k).upper(), font=mono(19, True),
+               fill=SOFT(), anchor="mm")
+
+
+def kapak_urun(spec, sayac, yol):
+    """Tam kare ürün fotoğrafı, yazı fotoğrafın üstünde."""
+    img = Image.new("RGBA", (W, H), BG + (255,))
+    var = foto_dolgu(img, spec.get("gorsel"), 0, 0, W, H,
+                     odak=spec.get("odak", 0.38))
+    if var:
+        _perde(img, 0, 340, 0.88, 0.0)
+        _perde(img, 520, H, 0.0, 0.96)
+    chrome(img, sayac, kaydir=True)
+    d = ImageDraw.Draw(img)
+
+    s1, s2 = spec["satir1"], spec["satir2"]
+    f = fit(d, max(s1, s2, key=len), anton, 956, 106)
+    etiket = P(spec.get("ustbilgi", "YENİ ÜRÜN")).upper()
+    oz = [tuple(r) for r in spec.get("ozet", [])]
+    spot = wrap(d, P(spec["spot"]), pop(26, "Medium"), 900)[:2] \
+        if spec.get("spot") else []
+
+    blok = 44 + f.size * 1.08 * 2 + 44
+    blok += len(spot) * 40 + (14 if spot else 0)
+    blok += 114 if oz else 0
+    y = 1252 - blok
+
+    d.text((GUT, y), etiket, font=mono(27, True), fill=AC(), anchor="la")
+    y += 44
+    d.text((GUT, y), s1, font=f, fill=WHITE, anchor="la")
+    y += f.size * 1.08
+    img.alpha_composite(glow((W, H), lambda g: g.text(
+        (GUT, y), s2, font=f, fill=a(AC(), 0.78), anchor="la"), 26))
+    d = ImageDraw.Draw(img)
+    d.text((GUT, y), s2, font=f, fill=AC(), anchor="la")
+    y += f.size * 1.08 + 44
+
+    for ln in spot:
+        d.text((GUT, y), ln, font=pop(26, "Medium"), fill=(214, 224, 240),
+               anchor="la")
+        y += 40
+    if spot:
+        y += 14
+    if oz:
+        _ozet_serit(img, oz, y)
+    img.convert("RGB").save(yol)
+
+
+def adim_foto(spec, no, toplam, sayac, yol):
+    """Üstte fotoğraf, altta başlık ve künye satırları."""
+    img = base()
+    var = foto_ust(img, spec.get("foto"), y1=spec.get("bant", 628))
+    if var:
+        _perde(img, 0, 212, 0.80, 0.0)
+    chrome(img, sayac, kaydir=True)
+    d = ImageDraw.Draw(img)
+
+    ust = spec.get("bant", 628) - (28 if var else -18)
+    over(img, lambda g: g.rounded_rectangle(
+        [GUT, ust, GUT + 96, ust + 68], radius=18, fill=a(AC(), 0.16),
+        outline=a(AC(), 0.62), width=3))
+    d = ImageDraw.Draw(img)
+    d.text((GUT + 48, ust + 34), "%02d" % no, font=anton(44), fill=AC(),
+           anchor="mm")
+    d.text((GUT + 116, ust + 34), "%d / %d" % (no, toplam), font=mono(24),
+           fill=SOFT(), anchor="lm")
+
+    y = ust + 100
+    fh = fit(d, max(wrap(d, spec["baslik"], archivo(50), 940), key=len),
+             archivo, 940, 50, 34)
+    for ln in wrap(d, spec["baslik"], fh, 940):
+        d.text((GUT, y), ln, font=fh, fill=FG(), anchor="la")
+        y += fh.size * 1.24
+    d.rectangle([GUT, y + 14, GUT + 100, y + 20], fill=AC())
+    y += 54
+
+    if spec.get("aciklama"):
+        for ln in wrap(d, P(spec["aciklama"]), pop(27), 920):
+            d.text((GUT, y), ln, font=pop(27), fill=FG2(), anchor="la")
+            y += 41
+        y += 12
+
+    satirlar = [tuple(r) for r in spec.get("satirlar", [])][:6]
+    if satirlar:
+        n = len(satirlar)
+        alt = 1248
+        h = min(104, (alt - y - 12 * (n - 1)) / n)
+        fv = pop(max(20, min(28, int(h * 0.30))), "Medium")
+        for i, (k, v) in enumerate(satirlar):
+            t = y + i * (h + 12)
+            over(img, lambda g, t=t: g.rounded_rectangle(
+                [GUT, t, RIGHT, t + h], radius=16, fill=a(AC(), 0.08),
+                outline=a(AC(), 0.30), width=2))
+            dd = ImageDraw.Draw(img)
+            dd.text((GUT + 26, t + h / 2), P(k).upper(), font=mono(23, True),
+                    fill=AC(), anchor="lm")
+            fi = fv
+            while dd.textlength(P(v), font=fi) > RIGHT - 26 - (
+                    GUT + 26 + dd.textlength(P(k).upper(), font=mono(23, True))
+                    + 40) and fi.size > 17:
+                fi = pop(fi.size - 1, "Medium")
+            dd.text((RIGHT - 26, t + h / 2), P(v), font=fi, fill=FG(),
+                    anchor="rm")
+    img.convert("RGB").save(yol)
+
+
+def hikaye_urun(spec, yol):
+    """1080 x 1920 ürün hikayesi — tam kare fotoğraf."""
+    SW, SH = 1080, 1920
+    img = Image.new("RGBA", (SW, SH), BG + (255,))
+    var = foto_dolgu(img, spec.get("gorsel"), 0, 0, SW, SH,
+                     odak=spec.get("odak", 0.38))
+    if var:
+        _perde(img, 0, 620, 0.90, 0.0)
+        _perde(img, 840, SH, 0.0, 0.96)
+
+    logo = bright_logo(34)
+    img.alpha_composite(logo, (GUT, 300))
+    d = ImageDraw.Draw(img)
+    fl = mono(24, True)
+    lw = d.textlength(LABEL, font=fl)
+    lx = GUT + logo.width + 26
+    over(img, lambda g: g.rounded_rectangle(
+        [lx, 296, lx + lw + 40, 338], radius=21, fill=a(AC(), 0.14),
+        outline=a(AC(), 0.5), width=2))
+    d = ImageDraw.Draw(img)
+    d.text((lx + 20, 317), LABEL, font=fl, fill=AC(), anchor="lm")
+
+    s1, s2 = spec["satir1"], spec["satir2"]
+    f = fit(d, max(s1, s2, key=len), anton, 956, 118)
+    oz = [tuple(r) for r in spec.get("ozet", [])]
+    spot = wrap(d, P(spec["spot"]), pop(32, "Medium"), 900)[:3] \
+        if spec.get("spot") else []
+    by = 1560
+    blok = 44 + f.size * 1.1 * 2 + 42 + len(spot) * 46 + (118 if oz else 0)
+    y = by - 80 - blok
+
+    d.text((GUT, y), P(spec.get("ustbilgi", "YENİ ÜRÜN")).upper(),
+           font=mono(28, True), fill=AC(), anchor="la")
+    y += 44
+    d.text((GUT, y), s1, font=f, fill=WHITE, anchor="la")
+    y += f.size * 1.1
+    img.alpha_composite(glow((SW, SH), lambda g: g.text(
+        (GUT, y), s2, font=f, fill=a(AC(), 0.78), anchor="la"), 26))
+    d = ImageDraw.Draw(img)
+    d.text((GUT, y), s2, font=f, fill=AC(), anchor="la")
+    y += f.size * 1.1 + 42
+    for ln in spot:
+        d.text((GUT, y), ln, font=pop(32, "Medium"), fill=(216, 226, 242),
+               anchor="la")
+        y += 46
+    if oz:
+        _ozet_serit(img, oz, y + 10, 100)
+
+    d = ImageDraw.Draw(img)
+    btn = "GÖNDERİYE BAK"
+    fb = pop(32, "Bold")
+    tw = d.textlength(btn, font=fb)
+    BC, BY = AC(), UZER(AC())
+    img.alpha_composite(glow((SW, SH), lambda g: g.rounded_rectangle(
+        [GUT, by, GUT + tw + 120, by + 80], radius=40,
+        fill=a(BC, 0.55)), 30))
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([GUT, by, GUT + tw + 120, by + 80], radius=40, fill=BC)
+    d.text((GUT + 46, by + 40), btn, font=fb, fill=BY, anchor="lm")
+    ax = GUT + 46 + tw + 28
+    d.line([(ax, by + 40), (ax + 28, by + 40)], fill=BY, width=5)
+    d.polygon([(ax + 25, by + 31), (ax + 44, by + 40), (ax + 25, by + 49)],
+              fill=BY)
+    d.text((GUT, by + 128), "profilde yeni gönderi", font=pop(28),
+           fill=(176, 188, 206), anchor="lm")
+    img.convert("RGB").save(yol)
+
+
 def kapak(spec, sayac, yol):
     img = base()
     chrome(img, sayac, kaydir=True)
@@ -1272,8 +1544,17 @@ def kapanis(spec, sayac, yol):
     d.line([(ax, by + 37), (ax + 26, by + 37)], fill=BY, width=5)
     d.polygon([(ax + 23, by + 29), (ax + 40, by + 37), (ax + 23, by + 45)],
               fill=BY)
-    d.text((GUT, by - 46), P(spec.get("not", "")), font=pop(26), fill=SOFT(),
-           anchor="lm")
+    notu = P(spec.get("not", ""))
+    if notu:
+        fn = pop(26)
+        satir = wrap(d, notu, fn, 956)
+        while len(satir) > 2 and fn.size > 19:
+            fn = pop(fn.size - 1)
+            satir = wrap(d, notu, fn, 956)
+        ny = by - 40 - (len(satir) - 1) * (fn.size + 8)
+        for ln in satir[:2]:
+            d.text((GUT, ny), ln, font=fn, fill=SOFT(), anchor="lm")
+            ny += fn.size + 8
     img.convert("RGB").save(yol)
 
 
@@ -1377,19 +1658,30 @@ def main():
     tip = spec["kapak"].get("tip", "klasik")
     {"rakam": kapak_rakam, "carpisma": kapak_carpisma,
      "yakin": kapak_yakin, "izgara": kapak_izgara,
-     "liste": kapak_liste}.get(tip, kapak)(
+     "liste": kapak_liste, "urun": kapak_urun}.get(tip, kapak)(
         spec["kapak"], "%d/%d" % (n, toplam), os.path.join(out, "%d.png" % n))
     ortak = govde(spec["kapak"])
     for i, sl in enumerate(slaytlar, 1):
         n += 1
+        hedef = os.path.join(out, "%d.png" % n)
+        if sl.get("foto"):
+            adim_foto(sl, i, len(slaytlar), "%d/%d" % (n, toplam), hedef)
+            continue
         fn = govde(sl) if (sl.get("cizim") or sl.get("tablo")) else ortak
-        adim(sl, fn, i, len(slaytlar), "%d/%d" % (n, toplam),
-             os.path.join(out, "%d.png" % n))
+        adim(sl, fn, i, len(slaytlar), "%d/%d" % (n, toplam), hedef)
     if spec.get("kapanis"):
         n += 1
         kapanis(spec["kapanis"], "%d/%d" % (n, toplam),
                 os.path.join(out, "%d.png" % n))
-    hikaye(spec["kapak"], os.path.join(out, "hikaye.png"))
+    hik = hikaye_urun if tip == "urun" else hikaye
+    hik(spec["kapak"], os.path.join(out, "hikaye.png"))
+
+    eksik = sorted({a for a in [spec["kapak"].get("gorsel")] +
+                    [s.get("foto") for s in slaytlar]
+                    if a and not gorsel_var(a)})
+    if eksik:
+        print("UYARI — fotoğraf yok, kareye yer tutucu basıldı: %s"
+              % ", ".join("gorsel/" + e for e in eksik))
     print("%d slayt + hikaye: %s" % (n, out))
 
 
