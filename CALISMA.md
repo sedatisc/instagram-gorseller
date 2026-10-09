@@ -109,7 +109,14 @@ Gün bazlı kaymalar: pazartesi akşamı 19.40 · cuma akşamı 18.10 · çarşa
 
 ## Görsel kuralları
 
-Görsel dil `uret.py` içinde kodlanmış; bozma, sadeleştirme, "daha temiz" hâle getirme. İstenen his: dev başlık, yoğun bilgi, canlı renk. Dikkat çekici olacak, sakin ve editoryal değil.
+Görsel dil `uret.py` içinde kodlanmış; bozma. İstenen his: dev başlık, yoğun bilgi, canlı renk. Dikkat çekici olacak, sakin ve editoryal değil.
+
+**Stil anahtarı (9 Ekim 2026).** Zemin ve panel işlenişi `stil` alanına bağlandı; renk, tipografi ve bilgi yoğunluğu değişmedi.
+
+- `duru` (varsayılan) — zeminde çapraz neon huzme yok, metin arkasında parıltı yok, veri satırları panel çerçevesi olmadan doğrudan zeminin üstünde ve üstteki metin sütunuyla aynı hizada. Panel içeriğe göre kısalıyor.
+- `neon` — eski görünüm. Tek gönderide `"stil": "neon"` ile, hepsinde `uret.py` içindeki `STIL` varsayılanıyla geri alınıyor.
+
+Bu bir sadeleştirme; yukarıdaki "sadeleştirme" yasağının istisnası ve İlhan'ın talebiyle yapıldı. Kendiliğinden daha ileri gidilmeyecek: kart rengi, rakam boyu, bilgi yoğunluğu azaltılmayacak.
 
 **Kapak düzeni her gönderide değişir.** Tekdüzelik merak uyandırmıyor. `spec["kapak"]["tip"]` ile seç, arka arkaya aynı tipi kullanma:
 

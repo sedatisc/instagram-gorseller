@@ -6,6 +6,7 @@
 {
   "kategori": "elektronik | 3dbaski | proje",
   "zemin": "koyu | acik | indigo | kobalt | okyanus | orman | mor | kiraz",
+  "stil": "duru | neon",
   "kapak": {
     "tip": "klasik | rakam | carpisma | yakin | izgara",
     "satir1": "BEYAZ SATIR",
@@ -54,6 +55,22 @@ Simge listesi: `gunes` · `ev` · `arac` · `kalkan` · `yaprak` · `yagmur` · 
 Renkler: `tema` · `turuncu` · `kirmizi` · `mavi` · `yesil` · `mor` · `sari` · `gri` · `beyaz`. Her kart farklı renkte olsun. 5-7 kart ideal; ara slaytlar kart listesinden otomatik tablo üretir.
 
 Arka arkaya aynı tipi kullanma.
+
+## Stil
+
+`stil` zeminin ve panelin işlenişini değiştirir, renkleri değiştirmez.
+
+- **`duru`** — varsayılan. Zeminde çapraz neon huzme yok, düz bir geçiş ve
+  ince nokta ızgarası var. Metnin arkasında parıltı yok. Veri satırları
+  panel çerçevesi olmadan doğrudan zeminin üstünde duruyor ve üstteki metin
+  sütunuyla aynı hizada başlıyor. Panel içeriğe göre kısalıyor, altında boş
+  alan kalmıyor.
+- **`neon`** — eski görünüm: çapraz huzmeler, metin parıltısı, yuvarlak
+  köşeli panel kartı ve renkli hale. Tek tek gönderide `"stil": "neon"`
+  yazarak geri alınabiliyor.
+
+Stil yalnız `uret.py` çıktısını etkiliyor; `pano` kapağı kendi zeminini
+çizdiği için ondan etkilenmiyor.
 
 ## Zemin
 

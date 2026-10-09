@@ -214,6 +214,27 @@ def glow(size, fn, radius):
     return lay.filter(ImageFilter.GaussianBlur(radius))
 
 
+# ---------------------------------------------------------------------- stil
+# "duru"  — düz zemin, keskin kenar, parıltı yok (varsayılan)
+# "neon"  — eski görünüm: çapraz huzmeler, metin parıltısı, panel halesi
+STIL = "duru"
+
+
+def stil_ayarla(ad):
+    global STIL
+    STIL = "neon" if ad == "neon" else "duru"
+
+
+def _duru():
+    return STIL == "duru"
+
+
+def metin_isik(img, lay):
+    """Metin parıltısı yalnız neon stilinde basılıyor."""
+    if not _duru():
+        img.alpha_composite(lay)
+
+
 _logo = Image.open(os.path.join(HERE, "marka", "logo-yatay.png")).convert("RGBA")
 
 
@@ -228,10 +249,34 @@ def bright_logo(h):
     return im.resize((int(im.width * h / im.height), h), Image.LANCZOS)
 
 
+def _nokta(renk, adim=54, boy=None):
+    """İnce nokta ızgarası — her iki stilde de zeminin tek dokusu."""
+    yuk = boy or H
+    dots = Image.new("RGBA", (W, yuk), (0, 0, 0, 0))
+    dd = ImageDraw.Draw(dots)
+    for y in range(0, yuk, adim):
+        for x in range(0, W, adim):
+            dd.ellipse([x - 1, y - 1, x + 1, y + 1], fill=renk)
+    return dots
+
+
 def base():
     if PAL and PAL.get("mod") != "koyu":
         return base_renkli()
     img = Image.new("RGBA", (W, H), BG + (255,))
+
+    if _duru():
+        # Üstten alta çok hafif açılan düz zemin, köşelerde ağırlık yok.
+        gr = Image.new("RGB", (W, H), BG)
+        gd = ImageDraw.Draw(gr)
+        ust = _kar(BG, 0.055)
+        for y in range(H):
+            t = y / (H - 1)
+            gd.line([(0, y), (W, y)], fill=tuple(
+                int(ust[i] + (BG[i] - ust[i]) * t) for i in range(3)))
+        img = gr.convert("RGBA")
+        img.alpha_composite(_nokta(a(ACC, 0.09)))
+        return img
 
     def bands(d):
         d.line([(-300, 620), (760, -420)], fill=a(ACC, 0.85), width=150)
@@ -268,6 +313,12 @@ def base_renkli(W=W, H=H):
     acik = PAL["mod"] == "acik"
     oy = H / 1350.0
     vur = PAL.get("vurgu") or ACC
+
+    if _duru():
+        taban = (10, 20, 44) if acik else WHITE
+        img.alpha_composite(_nokta(a(taban, 0.10), boy=H))
+        return img
+
     for cx, cy, rad, col, op in [
             (210, 230 * oy, 560, ACC if acik else vur, 0.16 if acik else 0.22),
             (930, 1180 * oy, 520, BLUE if acik else WHITE,
@@ -519,17 +570,28 @@ def maddeler(d, satirlar):
             ty += f.size * 1.24
 
 
-def panel(w, h, fn, vurgu=None):
+def panel(w, h, fn, vurgu=None, sik=True):
     S = 2
     dw, dh = w * S, h * S
     ink = Image.new("RGBA", (dw, dh), (0, 0, 0, 0))
     fn(ImageDraw.Draw(ink))
 
-    pad = 56 * S
-    bb = ink.getbbox()
+    # Çerçeve kalkınca iç boşluğa da gerek kalmıyor; satırlar üstteki
+    # metin sütunuyla aynı hizada başlasın.
+    pad = (10 if (_duru() and sik) else 56) * S
+    bb = ink.getbbox() or (0, 0, dw, dh)
     k = min((dw - 2 * pad) / (bb[2] - bb[0]), (dh - 2 * pad) / (bb[3] - bb[1]),
             1.4)
     nw, nh = int((bb[2] - bb[0]) * k), int((bb[3] - bb[1]) * k)
+
+    # Kart içeriğe otursun: çizim panelin boyunu doldurmuyorsa panel kısalıyor.
+    # Tablo zaten boyu dolduruyor, orada bir şey değişmiyor.
+    tam = nh + 2 * pad
+    if sik and tam < dh:
+        yeni = max(tam, int(dh * 0.42))
+        h = int(round(h * yeni / dh))
+        dh = yeni
+
     ox, oy = (dw - nw) // 2, (dh - nh) // 2
     fitted = Image.new("RGBA", (dw, dh), (0, 0, 0, 0))
     fitted.alpha_composite(ink.crop(bb).resize((nw, nh), Image.LANCZOS),
@@ -554,12 +616,22 @@ def panel(w, h, fn, vurgu=None):
                                            else YELLOW) + (0,))
         halo.putalpha(ImageChops.lighter(near, far))
 
+    if _duru():
+        # Çerçeve yok: satırlar doğrudan zeminin üstünde duruyor. Kutu
+        # içine kutu koymak kareyi daraltıyordu.
+        card = Image.new("RGBA", (dw, dh), (0, 0, 0, 0))
+        if halo is not None:
+            card.alpha_composite(halo)
+        card.alpha_composite(ink)
+        return card.resize((w, h), Image.LANCZOS)
+
     card = Image.new("RGBA", (dw, dh), (0, 0, 0, 0))
     ImageDraw.Draw(card).rounded_rectangle([0, 0, dw - 1, dh - 1],
                                            radius=30 * S, fill=PNL() + (255,))
     grid = Image.new("RGBA", (dw, dh), (0, 0, 0, 0))
     gd = ImageDraw.Draw(grid)
-    izgara_renk = a(AC(), 0.09 if _mod() == "acik" else 0.05)
+    izgara_renk = a(AC(), (0.05 if _mod() == "acik" else 0.028) if _duru()
+                    else (0.09 if _mod() == "acik" else 0.05))
     for gy in range(0, dh, 44 * S):
         gd.line([(0, gy), (dw, gy)], fill=izgara_renk, width=2)
     for gx in range(0, dw, 44 * S):
@@ -581,10 +653,14 @@ def panel(w, h, fn, vurgu=None):
 
 
 def place(img, card, x, y):
-    img.alpha_composite(glow((W, H), lambda g: g.rounded_rectangle(
-        [x + 10, y + 16, x + card.width - 10, y + card.height + 10],
-        radius=30, fill=a(AC(), 0.30 if _mod() != "acik" else 0.22)), 40),
-        (0, 0))
+    if _duru():
+        img.alpha_composite(card, (x, y))      # çerçevesiz, gölgesiz
+        return
+    else:
+        img.alpha_composite(glow((W, H), lambda g: g.rounded_rectangle(
+            [x + 10, y + 16, x + card.width - 10, y + card.height + 10],
+            radius=30, fill=a(AC(), 0.30 if _mod() != "acik" else 0.22)), 40),
+            (0, 0))
     img.alpha_composite(card, (x, y))
 
 
@@ -645,10 +721,10 @@ def kapak_rakam(spec, sayac, yol):
     h_spot = 46 * len(wrap(d, P(spec["spot"]), fs0, 900))
     blok = h_rakam + 26 + h_alt + 54 + h_spot
     ry = max(250, int(250 + ((1160 - 250) - blok) / 2))
-    img.alpha_composite(glow((W, H), lambda g: g.text(
+    metin_isik(img, glow((W, H), lambda g: g.text(
         (GUT - 10, ry), rakam, font=f, fill=a(AC(), ISIK(0.9)), anchor="la"),
         50))
-    img.alpha_composite(glow((W, H), lambda g: g.text(
+    metin_isik(img, glow((W, H), lambda g: g.text(
         (GUT - 10, ry), rakam, font=f, fill=a(FG(), ISIK(0.5)), anchor="la"),
         14))
     d = ImageDraw.Draw(img)
@@ -738,7 +814,8 @@ def kapak_carpisma(spec, sayac, yol):
 def kapak_yakin(spec, sayac, yol):
     """Çerçeveyi kıran yakın plan — çizim kenarlardan taşıyor."""
     img = base()
-    kart = panel(1480, 1100, govde(spec), spec.get("vurgu"))
+    kart = panel(1480, 1100, govde(spec), spec.get("vurgu"),
+                 sik=False)
     kirp = kart.crop((170, 120, 170 + 1080, 120 + 760))
     img.alpha_composite(kirp, (0, 600))
 
@@ -758,7 +835,7 @@ def kapak_yakin(spec, sayac, yol):
     d = ImageDraw.Draw(img)
     f = fit(d, max(spec["satir1"], spec["satir2"], key=len), anton, 956, 124)
     y = 190
-    img.alpha_composite(glow((W, H), lambda g: g.text(
+    metin_isik(img, glow((W, H), lambda g: g.text(
         (GUT, y + f.size * 1.16), spec["satir2"], font=f,
         fill=a(AC(), ISIK(0.8)), anchor="la"), 28))
     d = ImageDraw.Draw(img)
@@ -1064,7 +1141,7 @@ def _kart(img, x, y, w, h, k):
         boy -= 2
     fd = anton(max(28, boy))
     dy = (ust_sinir + alt_sinir) / 2
-    img.alpha_composite(glow((W, H), lambda g: g.text(
+    metin_isik(img, glow((W, H), lambda g: g.text(
         (x + 26, dy), deger, font=fd, fill=a(RK(col), ISIK(0.75)),
         anchor="lm"), 18))
     d = ImageDraw.Draw(img)
@@ -1085,7 +1162,7 @@ def kapak_izgara(spec, sayac, yol):
     s1, s2 = spec["satir1"], spec["satir2"]
     f = fit(d, max(s1, s2, key=len), anton, 956, 92)
     y = 172
-    img.alpha_composite(glow((W, H), lambda g: g.text(
+    metin_isik(img, glow((W, H), lambda g: g.text(
         (GUT, y + f.size * 1.12), s2, font=f, fill=a(AC(), ISIK(0.8)),
         anchor="la"), 24))
     d = ImageDraw.Draw(img)
@@ -1212,7 +1289,7 @@ def kapak_liste(spec, sayac, yol):
     s1, s2 = spec["satir1"], spec["satir2"]
     f = fit(d, max(s1, s2, key=len), anton, SAG - GUT, 78)
     y = 170
-    img.alpha_composite(glow((W, H), lambda g: g.text(
+    metin_isik(img, glow((W, H), lambda g: g.text(
         (GUT, y + f.size * 1.12), s2, font=f, fill=a(AC(), ISIK(0.8)),
         anchor="la"), 24))
     d = ImageDraw.Draw(img)
@@ -1456,7 +1533,7 @@ def kapak_urun(spec, sayac, yol):
     y += 44
     d.text((GUT, y), s1, font=f, fill=FG(), anchor="la")
     y += f.size * 1.08
-    img.alpha_composite(glow((W, H), lambda g: g.text(
+    metin_isik(img, glow((W, H), lambda g: g.text(
         (GUT, y), s2, font=f, fill=a(AC(), 0.78), anchor="la"), 26))
     d = ImageDraw.Draw(img)
     d.text((GUT, y), s2, font=f, fill=AC(), anchor="la")
@@ -1619,7 +1696,7 @@ def kapak(spec, sayac, yol):
     s1, s2 = spec["satir1"], spec["satir2"]
     f = fit(d, max(s1, s2, key=len), anton, 956, 128)
     y = 178
-    img.alpha_composite(glow((W, H), lambda g: g.text(
+    metin_isik(img, glow((W, H), lambda g: g.text(
         (GUT, y + f.size * 1.16), s2, font=f, fill=a(AC(), ISIK(0.75)),
         anchor="la"), 26))
     d = ImageDraw.Draw(img)
@@ -1633,7 +1710,8 @@ def kapak(spec, sayac, yol):
         d.text((GUT, ty), ln, font=fs, fill=FG2(), anchor="la")
         ty += 46
 
-    place(img, panel(956, 466, govde(spec)), GUT, 690)
+    kkart = panel(956, 466, govde(spec))
+    place(img, kkart, GUT, 690 + (466 - kkart.height) // 2)
 
     fx = pop(25, "Medium")
     boxes, x = [], GUT
@@ -1682,7 +1760,8 @@ def adim(spec, govde_fn, no, toplam, sayac, yol):
 
     py = max(600, int(ty) + 34)
     ph = min(556, 1244 - py)
-    place(img, panel(956, ph, govde_fn, spec.get("vurgu")), GUT, py)
+    kart = panel(956, ph, govde_fn, spec.get("vurgu"))
+    place(img, kart, GUT, py + (ph - kart.height) // 2)
     img.convert("RGB").save(yol)
 
 
@@ -1694,7 +1773,7 @@ def kapanis(spec, sayac, yol):
     f = fit(d, max(s1, s2, key=len), anton, 956, 118)
     y = 210
     d.text((GUT, y), s1, font=f, fill=FG(), anchor="la")
-    img.alpha_composite(glow((W, H), lambda g: g.text(
+    metin_isik(img, glow((W, H), lambda g: g.text(
         (GUT, y + f.size * 1.16), s2, font=f, fill=a(AC(), ISIK(0.75)),
         anchor="la"), 26))
     d = ImageDraw.Draw(img)
@@ -1806,9 +1885,12 @@ def hikaye(spec, yol):
     py = int(ty) + 66
     ph = min(640, by - 80 - py)
     kart = panel(956, ph, govde(spec))
-    img.alpha_composite(glow((SW, SH), lambda g: g.rounded_rectangle(
-        [GUT + 10, py + 16, GUT + 946, py + ph + 10], radius=30,
-        fill=a(ACC, 0.30)), 40))
+    py += (ph - kart.height) // 2
+    kh = kart.height
+    if not _duru():
+        img.alpha_composite(glow((SW, SH), lambda g: g.rounded_rectangle(
+            [GUT + 10, py + 16, GUT + 946, py + kh + 10], radius=30,
+            fill=a(ACC, 0.30)), 40))
     img.alpha_composite(kart, (GUT, py))
 
     d = ImageDraw.Draw(img)
@@ -1837,6 +1919,7 @@ def main():
     os.makedirs(out, exist_ok=True)
     theme(spec["kategori"])
     zemin_ayarla(spec.get("zemin", spec["kapak"].get("zemin", "koyu")))
+    stil_ayarla(spec.get("stil", "duru"))
 
     slaytlar = spec["slaytlar"]
     toplam = 1 + len(slaytlar) + (1 if spec.get("kapanis") else 0)

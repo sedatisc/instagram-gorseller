@@ -59,10 +59,23 @@ def _zemin_ciz():
         return U.base_renkli(SW, SH)
     img = Image.new("RGBA", (SW, SH), U.BG + (255,))
 
-    def huzme(d):
-        d.line([(-300, 1200), (900, -200)], fill=a(U.AC(), 0.55), width=190)
-        d.line([(200, 2200), (1400, 700)], fill=a(U.AC(), 0.35), width=130)
-    img.alpha_composite(glow((SW, SH), huzme, 110))
+    if U._duru():
+        gr = Image.new("RGB", (SW, SH), U.BG)
+        gd = ImageDraw.Draw(gr)
+        ust = U._kar(U.BG, 0.055)
+        for y in range(SH):
+            t = y / (SH - 1)
+            gd.line([(0, y), (SW, y)], fill=tuple(
+                int(ust[i] + (U.BG[i] - ust[i]) * t) for i in range(3)))
+        img = gr.convert("RGBA")
+    else:
+        def huzme(d):
+            d.line([(-300, 1200), (900, -200)], fill=a(U.AC(), 0.55),
+                   width=190)
+            d.line([(200, 2200), (1400, 700)], fill=a(U.AC(), 0.35),
+                   width=130)
+        img.alpha_composite(glow((SW, SH), huzme, 110))
+
     nokta = Image.new("RGBA", (SW, SH), (0, 0, 0, 0))
     nd = ImageDraw.Draw(nokta)
     for y in range(0, SH, 58):
@@ -304,6 +317,7 @@ def main():
     cikti = sys.argv[2]
     U.theme(spec["kategori"])
     U.zemin_ayarla(spec.get("zemin", "koyu"))
+    U.stil_ayarla(spec.get("stil", "duru"))
 
     sahneler = kurgu(spec)
     toplam = sum(s for s, _ in sahneler)
