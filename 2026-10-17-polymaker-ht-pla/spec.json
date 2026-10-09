@@ -70,12 +70,12 @@
         [
           "HT-PLA-GF",
           "Cam elyaf takviyeli. En yüksek HDT ve rijitlik."
-        ],
-        [
-          "SEÇİM",
-          "Araç içinde kalacak parça varsa GF."
         ]
-      ]
+      ],
+      "foto": "urun/htpla-uclu.jpg",
+      "bant": 520,
+      "odak": 0.45,
+      "sigdir": true
     },
     {
       "baslik": "Baskı ayarları",

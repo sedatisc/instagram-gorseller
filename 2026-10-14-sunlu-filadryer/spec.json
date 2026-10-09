@@ -3,8 +3,8 @@
   "zemin": "koyu",
   "kapak": {
     "tip": "urun",
-    "gorsel": "urun/filadryer.jpg",
-    "odak": 0.0,
+    "gorsel": "urun/filadryer-uclu.jpg",
+    "odak": 0.7,
     "ustbilgi": "FİLAMENT KURUTUCU · STOKTA",
     "satir1": "SUNLU FILADRYER",
     "satir2": "S2 · SP2 · E2",
@@ -22,7 +22,8 @@
         "PROFİL",
         "hazır"
       ]
-    ]
+    ],
+    "sigdir": true
   },
   "slaytlar": [
     {
@@ -70,12 +71,11 @@
         [
           "03",
           "70 °C üstü kurutmada makaranın kendisi de ısıya dayanmalı, plastik makara deforme olabiliyor"
-        ],
-        [
-          "04",
-          "Kurutucu nem ölçmüyorsa saat tutarsın; bu seride ekranda PV, SV ve süre birlikte duruyor"
         ]
-      ]
+      ],
+      "foto": "urun/filadryer-e2.jpg",
+      "bant": 560,
+      "odak": 0.45
     },
     {
       "baslik": "Nem neye mal oluyor",

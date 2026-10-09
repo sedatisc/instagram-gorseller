@@ -1294,20 +1294,32 @@ def foto_dolgu(img, ad, x0, y0, x1, y1, odak=0.42):
     return True
 
 
-def foto_ust(img, ad, y1=628, erit=176, odak=0.35):
-    """Üst banda fotoğraf — alt kenarı zemine eriyor."""
+def foto_ust(img, ad, y1=628, erit=176, odak=0.35, sigdir=False):
+    """Üst banda fotoğraf — alt kenarı zemine eriyor.
+
+    sigdir=True: fotoğrafı kırpmadan genişliğe sığdırır, kalan yeri
+    fotoğrafın kendi zemin rengiyle doldurur. Geniş şeritler için.
+    """
     yol = gorsel_var(ad)
     if not yol:
         _yer_tutucu(img, 0, 0, W, y1, ad)
         return False
     gw, gh = W, int(y1)
     im = Image.open(yol).convert("RGB")
-    o = max(gw / im.width, gh / im.height)
-    im = im.resize((max(1, int(im.width * o)), max(1, int(im.height * o))),
-                   Image.LANCZOS)
-    kx = max(0, (im.width - gw) // 2)
-    ky = max(0, int((im.height - gh) * odak))
-    im = im.crop((kx, ky, kx + gw, ky + gh)).convert("RGBA")
+    if sigdir:
+        o = gw / im.width
+        kucuk = im.resize((gw, max(1, int(im.height * o))), Image.LANCZOS)
+        kenar = kucuk.crop((0, 0, gw, 6)).resize((1, 1), Image.LANCZOS)
+        tuval = Image.new("RGB", (gw, gh), kenar.getpixel((0, 0)))
+        tuval.paste(kucuk, (0, int((gh - kucuk.height) * odak)))
+        im = tuval.convert("RGBA")
+    else:
+        o = max(gw / im.width, gh / im.height)
+        im = im.resize((max(1, int(im.width * o)), max(1, int(im.height * o))),
+                       Image.LANCZOS)
+        kx = max(0, (im.width - gw) // 2)
+        ky = max(0, int((im.height - gh) * odak))
+        im = im.crop((kx, ky, kx + gw, ky + gh)).convert("RGBA")
     m = Image.new("L", (gw, gh), 255)
     md = ImageDraw.Draw(m)
     for t in range(min(erit, gh)):
@@ -1359,7 +1371,8 @@ def kapak_urun(spec, sayac, yol):
 
     # fotoğraf yazının başladığı yere kadar iniyor, alt kenarı zemine eriyor
     var = foto_ust(img, spec.get("gorsel"), y1=int(y) + 26, erit=230,
-                   odak=spec.get("odak", 0.38))
+                   odak=spec.get("odak", 0.38),
+                   sigdir=spec.get("sigdir", False))
     if var:
         _perde(img, 0, 300, _perde_op(_parlaklik(img, 0, 170)) * 0.92, 0.0)
     chrome(img, sayac, kaydir=True)
@@ -1389,7 +1402,8 @@ def adim_foto(spec, no, toplam, sayac, yol):
     """Üstte fotoğraf, altta başlık ve künye satırları."""
     img = base()
     var = foto_ust(img, spec.get("foto"), y1=spec.get("bant", 628),
-                   odak=spec.get("odak", 0.35))
+                   odak=spec.get("odak", 0.35),
+                   sigdir=spec.get("sigdir", False))
     if var:
         _perde(img, 0, 212, _perde_op(_parlaklik(img, 0, 150)) * 0.95, 0.0)
     chrome(img, sayac, kaydir=True)
@@ -1457,7 +1471,8 @@ def hikaye_urun(spec, yol):
     ust0 = 1560 - 80 - (44 + f0.size * 1.1 * 2 + 42 + len(spot0) * 46
                         + (118 if oz0 else 0))
     var = foto_ust(img, spec.get("gorsel"), y1=int(ust0) + 26, erit=280,
-                   odak=spec.get("odak", 0.38))
+                   odak=spec.get("odak", 0.38),
+                   sigdir=spec.get("sigdir", False))
     if var:
         _perde(img, 0, 520, _perde_op(_parlaklik(img, 0, 380)) * 0.92, 0.0)
 
