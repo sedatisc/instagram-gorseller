@@ -35,6 +35,27 @@ UYARI — fotoğraf yok, kareye yer tutucu basıldı: gorsel/bambu-r1.jpg
 | `ender-v3-mega.jpg` | 2026-10-11 · kapak + hikaye | Creality ürün çekimi, 1080 × 800 kadraja hazırlandı |
 | `ender-v3-mega-is.jpg` | aynı gönderi · 2. kare | Creality önden çekim, orijinal; `odak` 0,74 ile tablaya bakıyor |
 
+## urun/ klasörü — stüdyo kompozitleri
+
+Bu dosyalar ham fotoğraftan türetiliyor: arka plan `rembg` ile kesiliyor
+(`kesik-*.png`), sonra `arac/studyo.py` zemini, gölgeyi ve yansımayı
+çiziyor. Ham fotoğraf değişirse kesimi ve kompoziti yeniden üret.
+
+| Dosya | Nerede kullanılıyor | Kaynak |
+|---|---|---|
+| `filadryer.jpg` | 10-14 · kapak, 2. kare bandı | SUNLU FilaDryer S2, tek ürün stüdyo |
+| `filadryer-uclu.jpg` | 10-14 · kapak | S2 · S4 · E2 üçlü dizilim |
+| `filadryer-e2.jpg` | yedek | E2 tek ürün |
+| `ams-heater.jpg` | 10-15 · kapak + hikaye | SUNLU AMS Heater, tek ürün stüdyo |
+| `liber.jpg` | 10-16 · kapak + hikaye | Phaetus × Snapmaker Liber dörtlü set (U1'in dört kafası için) |
+| `ht-pla.jpg` · `htpla-uclu.jpg` | 10-17 | Polymaker HT-PLA |
+| `kesik-s2.png` · `kesik-s4.png` · `kesik-e2.png` | 10-18 pano sütunları | arka planı kesilmiş PNG |
+| `kesik-htpla*.png` | 10-19 pano sütunları | arka planı kesilmiş PNG |
+
+**Orta kurutucu S4'tür, SP2 değil.** Gelen fotoğraf SP2 diye
+adlandırılmıştı; dört dikey makara yuvası ve sekiz çıkışıyla SUNLU'nun
+S4'ü olduğu doğrulandı. SP2 gerekirse ayrı fotoğraf lazım.
+
 Fotoğrafı değiştirince gönderiyi yeniden üret:
 
 ```

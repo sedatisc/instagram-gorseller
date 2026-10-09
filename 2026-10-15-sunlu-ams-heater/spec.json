@@ -57,24 +57,29 @@
     },
     {
       "baslik": "Dikkat: yalnız AMS 1. nesil",
-      "aciklama": "Bu üründeki tek iade sebebi uyumluluk. Sipariş öncesi AMS'inin hangi nesil olduğuna bak.",
-      "satirlar": [
-        [
-          "01",
-          "Yalnız Bambu Lab AMS 1. nesil ile çalışıyor"
-        ],
-        [
-          "02",
-          "AMS Lite için ayrı bir ürün var, bu değil"
-        ],
-        [
-          "03",
-          "AMS 2 Pro ve AMS HT için SUNLU'nun ürünü yok"
-        ],
-        [
-          "04",
-          "Orijinal kapak sökülüp bu takılıyor; kalıcı değişiklik değil, kapak geri takılabiliyor"
-        ]
+      "aciklama": "Bu üründeki tek iade sebebi uyumluluk. Sipariş öncesi AMS'inin hangi nesil olduğuna bak. Kapak sökülüp bu takılıyor, kalıcı değişiklik değil.",
+      "cizim": [
+        {"t": "y", "x": 140, "y": 100, "metin": "UYUMLU", "boy": 46, "renk": "yesil", "hiza": "lm"},
+        {"t": "cizgi", "x0": 140, "y0": 142, "x1": 880, "y1": 142},
+        {"t": "d", "x": 250, "y": 250, "metin": "DOĞRU", "renk": "yesil"},
+        {"t": "y", "x": 390, "y": 228, "metin": "Bambu Lab AMS", "boy": 52, "hiza": "lm"},
+        {"t": "y", "x": 390, "y": 288, "metin": "1. nesil · dört makaralı kutu", "boy": 32, "renk": "gri", "hiza": "lm"},
+        {"t": "y", "x": 140, "y": 480, "metin": "Nasıl anlarsın:", "boy": 34, "renk": "gri", "hiza": "lm"},
+        {"t": "y", "x": 140, "y": 542, "metin": "Kapağı düz gri, üstünde ekran yok.", "boy": 36, "hiza": "lm"},
+        {"t": "y", "x": 140, "y": 598, "metin": "AMS 2 Pro'da kapak şeffaf ve", "boy": 36, "hiza": "lm"},
+        {"t": "y", "x": 140, "y": 654, "metin": "kurutma zaten içinde geliyor.", "boy": 36, "hiza": "lm"},
+
+        {"t": "cizgi", "x0": 955, "y0": 80, "x1": 955, "y1": 720},
+
+        {"t": "y", "x": 1030, "y": 100, "metin": "UYUMLU DEĞİL", "boy": 46, "renk": "kirmizi", "hiza": "lm"},
+        {"t": "cizgi", "x0": 1030, "y0": 142, "x1": 1780, "y1": 142},
+        {"t": "d", "x": 1140, "y": 250, "metin": "YANLIŞ", "renk": "kirmizi"},
+        {"t": "y", "x": 1290, "y": 250, "metin": "AMS 2 Pro", "boy": 46, "hiza": "lm"},
+        {"t": "d", "x": 1140, "y": 410, "metin": "YANLIŞ", "renk": "kirmizi"},
+        {"t": "y", "x": 1290, "y": 410, "metin": "AMS HT", "boy": 46, "hiza": "lm"},
+        {"t": "d", "x": 1140, "y": 570, "metin": "YANLIŞ", "renk": "kirmizi"},
+        {"t": "y", "x": 1290, "y": 552, "metin": "AMS Lite", "boy": 46, "hiza": "lm"},
+        {"t": "y", "x": 1290, "y": 606, "metin": "ayrı ürünü var, bu değil", "boy": 30, "renk": "gri", "hiza": "lm"}
       ]
     },
     {

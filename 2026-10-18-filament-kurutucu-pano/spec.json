@@ -8,7 +8,7 @@
     "ust_sag": "DOĞRU MODEL · DOĞRU SICAKLIK",
     "satir1": "HANGİ KURUTUCU",
     "satir2": "SANA UYGUN?",
-    "spot": "Üç modelin farkı kapasite değil, sıcaklık tavanı. Hangi filamenti kurutacağın bu rakamı belirliyor.",
+    "spot": "Üç modelin farkı kapasite değil, sıcaklık tavanı ve kaç yazıcıyı besleyebildiği. Rakamlar SUNLU'nun kendi karşılaştırmasından.",
     "sutunlar": [
       {
         "baslik": "FILADRYER S2",
@@ -16,53 +16,116 @@
         "renk": "gri",
         "gorsel": "urun/kesik-s2.png",
         "ozellikler": [
-          ["makara", "1 × 1 kg kapasite"],
-          ["isi", "35-70 °C sıcaklık aralığı"],
-          ["olcu", "Ø 210 × 85 mm makara"],
-          ["zaman", "Ekranda sıcaklık ve süre"]
+          [
+            "makara",
+            "1 makara · Ø 210 × 85 mm"
+          ],
+          [
+            "isi",
+            "35-70 °C"
+          ],
+          [
+            "pil",
+            "48 W ısıtıcı"
+          ],
+          [
+            "olcu",
+            "265 × 274 × 118 mm · 1,19 kg"
+          ]
         ],
         "kullanim": [
-          ["kup", "PLA ve PETG baskısı"],
-          ["ev", "Masaüstü tek yazıcı"],
-          ["kutu", "Az makara, düzenli kullanım"]
+          [
+            "kup",
+            "PLA, PETG, ABS hazır profili"
+          ],
+          [
+            "ev",
+            "Masaüstü tek yazıcı"
+          ],
+          [
+            "hiz",
+            "PTFE çıkışla baskı sürerken kurutma"
+          ]
         ]
       },
       {
-        "baslik": "FILADRYER SP2",
-        "alt": "ÇİFT MAKARA · GÜNLÜK ÜRETİM",
+        "baslik": "FILADRYER S4",
+        "alt": "DÖRT MAKARA · ÇOK YAZICI",
         "renk": "yesil",
-        "gorsel": "urun/kesik-sp2.png",
+        "gorsel": "urun/kesik-s4.png",
         "ozellikler": [
-          ["makara", "2 × 1 kg ya da 1 × 3 kg"],
-          ["isi", "35-70 °C sıcaklık aralığı"],
-          ["olcu", "Ø 250 × 153 mm makara"],
-          ["hiz", "Baskı sürerken besleme"]
+          [
+            "makara",
+            "4 × 1 kg makara"
+          ],
+          [
+            "isi",
+            "70 °C'ye kadar"
+          ],
+          [
+            "pil",
+            "320-350 W PTC · üç fan"
+          ],
+          [
+            "olcu",
+            "458 × 218 × 312 mm · 4,8-5,5 kg"
+          ]
         ],
         "kullanim": [
-          ["kup", "PLA, PETG, TPU, ABS"],
-          ["dis", "Sürekli çalışan atölye"],
-          ["kutu", "Büyük makara kullananlar"]
+          [
+            "dis",
+            "Sekiz çıkış, dört yazıcıya kadar"
+          ],
+          [
+            "kutu",
+            "Çok makarayı birlikte kuru tutma"
+          ],
+          [
+            "kalkan",
+            "±3 °C sıcaklık homojenliği"
+          ]
         ]
       },
       {
         "baslik": "FILADRYER E2",
-        "alt": "110 °C · NAYLON SINIFI",
+        "alt": "110 °C · MÜHENDİSLİK SINIFI",
         "renk": "mavi",
         "gorsel": "urun/kesik-e2.png",
         "ozellikler": [
-          ["isi", "35-110 °C — serinin tavanı"],
-          ["makara", "2 × 1 kg ya da 1 × 3 kg"],
-          ["kalkan", "PA6 ve PA12 hazır profili"],
-          ["olcu", "Ø 250 × 153 mm makara"]
+          [
+            "isi",
+            "35-110 °C — serinin tavanı"
+          ],
+          [
+            "makara",
+            "2 × 1 kg · 2 × 2 kg · 1 × 3 kg"
+          ],
+          [
+            "pil",
+            "500 W PTC · çift hazne"
+          ],
+          [
+            "kalkan",
+            "110 °C içeride, dış yüzey 60 °C altı"
+          ]
         ],
         "kullanim": [
-          ["dis", "Naylon ve mühendislik parçası"],
-          ["arac", "Fonksiyonel teknik baskı"],
-          ["kalkan", "Nem hassas malzemeler"]
+          [
+            "arac",
+            "PA6-CF, PA12-CF, PC, PPS profili"
+          ],
+          [
+            "dis",
+            "Tavlama modu ve tepsisi"
+          ],
+          [
+            "olcu",
+            "400 × 220 × 307 mm · 6,1 kg"
+          ]
         ]
       }
     ],
-    "ipucu": "PLA ve PETG için S2 yeterli. Naylon basıyorsan tek seçenek E2.",
+    "ipucu": "PLA ve PETG için S2 yeterli. Çok yazıcı varsa S4, naylon basıyorsan E2.",
     "alt_cagri": "Filament kurutucuları keşfet"
   },
   "slaytlar": [],

@@ -5,7 +5,7 @@ Filament ve malzeme karşılaştırmaları. Her biri tek kare `pano`,
 
 | # | Konu | Sütunlar | Gereken fotoğraf |
 |---|---|---|---|
-| ✓ | Filament kurutucu | S2 · SP2 · E2 | tamam |
+| ✓ | Filament kurutucu | S2 · S4 · E2 | tamam |
 | ✓ | HT-PLA serisi | HT-PLA · Gradient · GF | tamam |
 | 1 | Temel üçlü | PLA · PETG · ABS | 3 makara |
 | 2 | ASA ne zaman tercih edilir | UV · dış mekân · sıcaklık | 1 makara + 2 basılmış parça |

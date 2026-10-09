@@ -7,12 +7,12 @@
     "odak": 0.0,
     "ustbilgi": "FİLAMENT KURUTUCU · STOKTA",
     "satir1": "SUNLU FILADRYER",
-    "satir2": "S2 · SP2 · E2",
-    "spot": "Üç model, üç ayrı iş. Aralarındaki fark kapasite değil, sıcaklık tavanı — ve o tavan hangi filamenti kurutabileceğini belirliyor.",
+    "satir2": "S2 · S4 · E2",
+    "spot": "Üç model, üç ayrı iş. Fark kapasite değil: kaç yazıcıyı besleyebildiği ve sıcaklık tavanı — o tavan hangi filamenti kurutabileceğini belirliyor.",
     "ozet": [
       [
         "KAPASİTE",
-        "3 kg'a kadar"
+        "1 · 4 · 3 kg"
       ],
       [
         "SICAKLIK",
@@ -27,45 +27,45 @@
   "slaytlar": [
     {
       "baslik": "Üç modelin farkı tek tabloda",
-      "aciklama": "S2 ile SP2 arasındaki fark kapasite, SP2 ile E2 arasındaki fark sıcaklık. Hangisini alacağın bastığın malzemeye bağlı.",
+      "aciklama": "S2 ile S4 arasındaki fark kaç yazıcıyı beslediği, S4 ile E2 arasındaki fark sıcaklık. Hangisini alacağın bastığın malzemeye ve yazıcı sayına bağlı.",
       "tablo": [
         [
           "S2 KAPASİTE",
-          "1 × 1 kg"
+          "1 × 1 kg · Ø 210 × 85 mm"
         ],
         [
-          "SP2 · E2 KAPASİTE",
-          "2 × 1 kg ya da 1 × 3 kg"
+          "S4 KAPASİTE",
+          "4 × 1 kg · sekiz çıkış"
         ],
         [
-          "S2 MAKARA ÖLÇÜSÜ",
-          "Ø 210 × 85 mm"
+          "E2 KAPASİTE",
+          "2 × 1 kg · 2 × 2 kg · 1 × 3 kg"
         ],
         [
-          "SP2 · E2 MAKARA",
-          "Ø 250 × 153 mm"
-        ],
-        [
-          "S2 · SP2 SICAKLIK",
+          "S2 · S4 SICAKLIK",
           "35-70 °C"
         ],
         [
           "E2 SICAKLIK",
           "35-110 °C"
+        ],
+        [
+          "ISITICI GÜCÜ",
+          "48 W · 320-350 W · 500 W"
         ]
       ]
     },
     {
       "baslik": "110 °C neyi değiştiriyor",
-      "aciklama": "PLA ve PETG 70 °C'nin altında kuruyor; S2 ve SP2 bu işi görüyor. Naylon ailesi daha yükseğini istiyor, E2'nin ayrı durduğu yer burası.",
+      "aciklama": "PLA ve PETG 70 °C'nin altında kuruyor; S2 ve S4 bu işi görüyor. Naylon ailesi daha yükseğini istiyor, E2'nin ayrı durduğu yer burası.",
       "satirlar": [
         [
           "01",
-          "S2 ve SP2 hazır profilleri: PLA, PETG, TPU, ABS, PA, PC"
+          "S2 ve S4 hazır profilleri: PLA, PETG, TPU, ABS gibi günlük malzemeler"
         ],
         [
           "02",
-          "E2 bunlara PA6 ve PA12 ekliyor — naylon basan atölyenin ihtiyacı"
+          "E2 bunlara PA6-CF, PA12-CF, PC ve PPS ekliyor; ayrıca tavlama modu ve tepsisi var"
         ],
         [
           "03",
@@ -112,12 +112,12 @@
     "satir2": "ALMALISIN?",
     "kriterler": [
       [
-        "TEK MAKARA, PLA/PETG",
+        "TEK YAZICI, PLA/PETG",
         "S2"
       ],
       [
-        "İKİ MAKARA YA DA 3 KG",
-        "SP2"
+        "BİRDEN ÇOK YAZICI",
+        "S4"
       ],
       [
         "NAYLON BASIYORSAN",
@@ -128,6 +128,6 @@
         "sermenkreatif.com"
       ]
     ],
-    "not": "Kapasite ve sıcaklık değerleri SUNLU'nun ürün bilgisinden. Kurutma süresini üretici vermiyor."
+    "not": "Rakamlar SUNLU'nun kendi S2 / S4 / E2 karşılaştırmasından. Kurutma süresini üretici vermiyor."
   }
 }
