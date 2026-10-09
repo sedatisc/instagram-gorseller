@@ -1,0 +1,179 @@
+{
+  "kategori": "proje",
+  "zemin": "orman",
+  "kapak": {
+    "tip": "liste",
+    "satir1": "SİPARİŞİ KABUL",
+    "satir2": "ETMEDEN ÖNCE",
+    "spot": "Zarar eden işlerin ortak yanı fiyat değil; bu beş sorunun sorulmamış olması.",
+    "satirlar": [
+      {
+        "etiket": "01",
+        "deger": "Dosya baskıya hazır mı",
+        "ikon": "olcu",
+        "renk": "mavi"
+      },
+      {
+        "etiket": "02",
+        "deger": "Parça ne iş yapacak",
+        "ikon": "dis",
+        "renk": "turuncu"
+      },
+      {
+        "etiket": "03",
+        "deger": "Hangi ölçü kritik",
+        "ikon": "terazi",
+        "renk": "yesil"
+      },
+      {
+        "etiket": "04",
+        "deger": "Kaç adet, ne zaman",
+        "ikon": "zaman",
+        "renk": "sari"
+      },
+      {
+        "etiket": "05",
+        "deger": "Olmazsa ne oluyor",
+        "ikon": "uyari",
+        "renk": "kirmizi"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "01 · Dosya baskıya hazır mı",
+      "aciklama": "Gelen dosyanın açılması işin kabul edildiği anlamına gelmiyor. Tamir gerekiyorsa o da iş, saati de ücreti de ayrı.",
+      "tablo": [
+        [
+          "İSTENEN",
+          "STL ya da 3MF"
+        ],
+        [
+          "GELEN",
+          "çoğu zaman STEP ya da fotoğraf"
+        ],
+        [
+          "KONTROL",
+          "kapalı yüzey, ters normal, delik"
+        ],
+        [
+          "DUVAR",
+          "0,8 mm altı basılmıyor"
+        ],
+        [
+          "TAMİR SÜRESİ",
+          "ücrete eklenir, hediye değil"
+        ],
+        [
+          "MODELLEME",
+          "sıfırdan çizim ayrı kalem"
+        ]
+      ]
+    },
+    {
+      "baslik": "02 · Parça ne iş yapacak",
+      "aciklama": "Müşteri malzeme seçmiyor, kullanım seçiyor. \"PLA olsun\" diyen kişi parçanın araç içinde duracağını söylemiyorsa yazın deforme olduğunda suç sende kalıyor.",
+      "tablo": [
+        [
+          "RAFTA DURACAK",
+          "PLA yeterli"
+        ],
+        [
+          "ARAÇ İÇİ · GÜNEŞ",
+          "PLA olmaz, ASA ya da PETG"
+        ],
+        [
+          "YÜK TAŞIYACAK",
+          "duvar sayısı artar, süre artar"
+        ],
+        [
+          "SÜRTÜNME VAR",
+          "PETG ya da naylon"
+        ],
+        [
+          "GIDAYLA TEMAS",
+          "taahhüt verme"
+        ],
+        [
+          "DIŞ MEKÂN",
+          "UV ve nem — ASA"
+        ]
+      ]
+    },
+    {
+      "baslik": "03 · Hangi ölçü kritik",
+      "aciklama": "Her ölçüyü ±0,1 mm tutmaya çalışmak maliyeti katlıyor. Müşteriye tek soru: hangi yüzey başka parçaya oturuyor?",
+      "tablo": [
+        [
+          "FDM GERÇEĞİ",
+          "tipik ±0,2-0,3 mm"
+        ],
+        [
+          "GEÇME DELİK",
+          "çap 0,2-0,4 mm büyütülür"
+        ],
+        [
+          "KRİTİK YÜZEY",
+          "baskı yönü ona göre seçilir"
+        ],
+        [
+          "BÜZÜLME",
+          "PLA ~%0,2, ABS ~%0,7"
+        ],
+        [
+          "ÖLÇÜ TUTMUYORSA",
+          "önce numune, sonra adet"
+        ],
+        [
+          "YAZIYA DÖK",
+          "tolerans teklifte geçsin"
+        ]
+      ]
+    },
+    {
+      "baslik": "04-05 · Adet, tarih ve risk",
+      "aciklama": "Tek parça ile elli parça aynı iş değil. Elli parçada başarısızlık payı, makine saati ve teslim tarihi baştan konuşulur.",
+      "satirlar": [
+        [
+          "ADET",
+          "Tek numune ayrı fiyat, seri ayrı — makine saati ikisinde farklı"
+        ],
+        [
+          "FİRE",
+          "Seride %5-10 başarısızlık payı fiyata yazılır"
+        ],
+        [
+          "TARİH",
+          "Baskı süresi değil, teslim süresi söylenir; kuyruğu hesaba kat"
+        ],
+        [
+          "RİSK",
+          "Parça olmazsa müşterinin ne kaybettiğini sor — cevap büyükse o işi alma"
+        ]
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "TEKLİFİ",
+    "satir2": "NE ZAMAN VER?",
+    "kriterler": [
+      [
+        "DOSYA HAZIR DEĞİL",
+        "önce tamir ücreti"
+      ],
+      [
+        "KULLANIM BELİRSİZ",
+        "malzeme seçme"
+      ],
+      [
+        "ÖLÇÜ KRİTİK",
+        "önce tek numune"
+      ],
+      [
+        "TARİH SIKIŞIK",
+        "kuyruğu söyle, söz verme"
+      ]
+    ],
+    "not": "Beş sorunun cevabı yazışmada kalsın. Sözlü anlaşmada en çok tartışılan konu teslim tarihi oluyor."
+  }
+}

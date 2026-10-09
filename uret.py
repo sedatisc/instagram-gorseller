@@ -593,7 +593,11 @@ def govde(spec):
     if spec.get("tablo"):
         return lambda d: tablo(d, [tuple(r) for r in spec["tablo"]])
     if spec.get("satirlar"):
-        return lambda d: maddeler(d, [tuple(r) for r in spec["satirlar"]])
+        sat = spec["satirlar"]
+        if sat and isinstance(sat[0], dict):     # liste kapağının satırları
+            cift = [(r.get("etiket", ""), r.get("deger", "")) for r in sat]
+            return lambda d: tablo(d, cift)
+        return lambda d: maddeler(d, [tuple(r) for r in sat])
     if spec.get("cizim"):
         return lambda d: ciz(d, spec["cizim"])
     if spec.get("kartlar"):

@@ -1,0 +1,109 @@
+{
+  "kategori": "proje",
+  "zemin": "mor",
+  "kapak": {
+    "tip": "izgara",
+    "satir1": "VAR OLAN PARÇAYI",
+    "satir2": "TARAYIP KOPYALAMAK",
+    "spot": "Tarayıcı ölçülü model vermiyor, yüzey veriyor. Aradaki farkı bilmeyen tarama dosyasını doğrudan baskıya gönderip parçayı çöpe atıyor.",
+    "kartlar": [
+      {
+        "etiket": "TARAMA ÇIKTISI",
+        "deger": "MESH",
+        "alt": "Milyonlarca üçgen. Ölçüsü yok, düzenlenemiyor.",
+        "renk": "mavi",
+        "ikon": "katman"
+      },
+      {
+        "etiket": "BASKIYA GİDEN",
+        "deger": "CAD",
+        "alt": "Ölçülü katı model. Taramadan yeniden çizilir.",
+        "renk": "yesil",
+        "ikon": "olcu"
+      },
+      {
+        "etiket": "TİPİK DOĞRULUK",
+        "deger": "0,05 mm",
+        "alt": "Masaüstü yapısal ışık tarayıcıda, iyi koşulda.",
+        "renk": "turuncu",
+        "ikon": "terazi"
+      },
+      {
+        "etiket": "PARLAK YÜZEY",
+        "deger": "TARANMAZ",
+        "alt": "Mat sprey ya da talk gerekiyor; sprey de 0,01-0,02 mm kalınlık ekliyor.",
+        "renk": "kirmizi",
+        "ikon": "uyari"
+      },
+      {
+        "etiket": "DELİK VE DİŞ",
+        "deger": "KAÇAR",
+        "alt": "Derin delik ve vida dişi taramada çıkmıyor, kumpasla ölçülür.",
+        "renk": "sari",
+        "ikon": "soru"
+      },
+      {
+        "etiket": "GERÇEK SÜRE",
+        "deger": "%80",
+        "alt": "İşin çoğu tarama değil, taramadan model çıkarmak.",
+        "renk": "mor",
+        "ikon": "zaman"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Taramadan önce parçayı hazırla",
+      "aciklama": "Kötü tarama düzeltilmiyor, yeniden taranıyor. Hazırlık taramanın kendisinden daha belirleyici.",
+      "vurgu": [
+        40,
+        460,
+        1880,
+        755
+      ]
+    },
+    {
+      "baslik": "Mesh ile model aynı şey değil",
+      "aciklama": "Tarama dosyası ölçülendirilebilir bir model değil; üstünde \"çap 20 mm\" diye bir bilgi yok. Kopyalanacak parça için mesh referans alınır, model yeniden çizilir.",
+      "vurgu": [
+        40,
+        50,
+        1880,
+        345
+      ]
+    },
+    {
+      "baslik": "Doğruluk rakamına kanma",
+      "aciklama": "0,05 mm \"iyi koşulda\" geçerli: sabit ışık, hareketsiz parça, yeterli örtüşme. Elde gezdirilen taramada bu rakam birkaç katına çıkıyor ve sapma montaj deliklerinde toplanıyor — geçme yapacak her ölçü ayrıca kumpasla doğrulanır.",
+      "vurgu": [
+        40,
+        325,
+        1880,
+        480
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "TARAMAK MI",
+    "satir2": "ÖLÇMEK Mİ?",
+    "kriterler": [
+      [
+        "DÜZ YÜZEY, DELİK, PAH",
+        "kumpas yeter, tarama gereksiz"
+      ],
+      [
+        "SERBEST FORM YÜZEY",
+        "tarama şart"
+      ],
+      [
+        "GEÇME PARÇA",
+        "tarama + kumpas birlikte"
+      ],
+      [
+        "DİŞLİ VE VİDA DİŞİ",
+        "standart tablodan çizilir"
+      ]
+    ],
+    "not": "Taranan parça başkasının ürünüyse kopyalamadan önce tasarım hakkına bak; birebir kopya satışa çıkmaz."
+  }
+}

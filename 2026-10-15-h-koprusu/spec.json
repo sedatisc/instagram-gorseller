@@ -1,0 +1,69 @@
+{
+  "kategori": "elektronik",
+  "zemin": "kobalt",
+  "kapak": {
+    "tip": "carpisma",
+    "satir1": "AYRIK H KÖPRÜSÜ",
+    "satir2": "MÜ, DRV8833 MÜ",
+    "sol_etiket": "AYRIK MOSFET",
+    "sag_etiket": "DRV8833",
+    "sol_metin": "Düşük RDS(on), yüksek akım, sürücü entegresi ve ölü zaman senin derdin.",
+    "sag_metin": "İki kanal, koruma içeride, 1,5 A sürekli. Kaybın gerilim düşümü.",
+    "spot": "Seçim akımda değil, kaybın nerede olacağında. Küçük motorda hazır entegre, büyük motorda ayrık devre kazanıyor.",
+    "tablo": [
+      ["DRV8833 SÜREKLİ", "1,5 A / kanal"],
+      ["DRV8833 TEPE", "2 A"],
+      ["DRV8833 GERİLİM", "2,7-10,8 V"],
+      ["AYRIK SINIRI", "MOSFET ve soğutma"],
+      ["AYRIKTA ŞART", "gate sürücü + ölü zaman"],
+      ["L298N", "2 V düşüm — artık kullanma"]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Entegre nerede kazanıyor",
+      "aciklama": "DRV8833 iki tam köprüyü, aşırı akım ve aşırı sıcaklık korumasını tek kılıfa koyuyor. 6 V'luk oyuncak motorunda ayrık devre kurmak zaman kaybı.",
+      "tablo": [
+        ["KANAL", "2 tam köprü ya da 1 tanesi birleştirilmiş"],
+        ["KORUMA", "aşırı akım, aşırı sıcaklık, UVLO"],
+        ["AKIM SINIRLAMA", "kılıf altı direnciyle ayarlanıyor"],
+        ["DÜŞÜM", "yaklaşık 0,5 V — düşük gerilimde hissedilir"],
+        ["ISI", "kılıf altındaki bakır alan soğutucudur"],
+        ["UYGUN", "N20, TT motor, küçük pompa"]
+      ]
+    },
+    {
+      "baslik": "Ayrık devre nerede şart",
+      "aciklama": "10 A üstü ya da 24 V'luk sürüşte hazır entegre kalmıyor. Ayrık MOSFET'te RDS(on) 5 mΩ'a iniyor; kayıp entegreye göre onda bire düşüyor.",
+      "satirlar": [
+        ["GATE SÜRÜCÜ", "Üst kol MOSFET'i doğrudan sürülmez; IR2104 gibi bootstrap'lı sürücü şart"],
+        ["ÖLÜ ZAMAN", "Üst ve alt kol aynı anda açılırsa kısa devre olur, ikisi arasında 1-2 µs boşluk bırak"],
+        ["FREKANS", "Anahtarlama 20 kHz üstünde tutulur, altında motor ötüyor"],
+        ["SNUBBER", "Motor endüktansı kapanma anında tepe gerilim üretiyor, TVS ya da RC şart"]
+      ]
+    },
+    {
+      "baslik": "İkisinde de atlanan şey",
+      "aciklama": "Sürücü seçimi doğru olsa da devre besleme tarafında çöküyor. Motor kalkışında çekilen akım sürekli akımın birkaç katı.",
+      "tablo": [
+        ["KALKIŞ AKIMI", "sürekli akımın 3-6 katı"],
+        ["BESLEME KONDANSATÖRÜ", "motor başına 100-470 µF"],
+        ["BESLEME KABLOSU", "kalın ve kısa, kart üstünde geniş iz"],
+        ["TOPRAK", "güç ve sinyal toprağı tek noktada"],
+        ["AKIM ÖLÇÜMÜ", "shunt direnciyle, tahminle değil"],
+        ["ISINMA TESTİ", "yükte 10 dakika, elle değil termometreyle"]
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "HANGİSİNİ",
+    "satir2": "KURMALISIN?",
+    "kriterler": [
+      ["1,5 A ALTI, 10 V ALTI", "DRV8833"],
+      ["3-10 A ARASI", "hazır modül (BTS7960 gibi)"],
+      ["10 A ÜSTÜ YA DA 24 V", "ayrık MOSFET + gate sürücü"],
+      ["L298N", "2 V düşümü var, kullanma"]
+    ],
+    "not": "Ayrık devre kuracaksan önce akımı ölç. Tahmini akıma göre seçilen MOSFET'in yarısı ilk yük testinde gidiyor."
+  }
+}

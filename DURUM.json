@@ -16,7 +16,9 @@
       12,
       13,
       14,
-      15
+      15,
+      16,
+      17
     ],
     "elektronik": [
       1,
@@ -35,7 +37,9 @@
       14,
       15,
       16,
-      17
+      17,
+      18,
+      19
     ],
     "proje": [
       1,
@@ -52,7 +56,9 @@
       12,
       13,
       14,
-      15
+      15,
+      16,
+      17
     ]
   },
   "gecmis": [
@@ -340,7 +346,7 @@
     }
   ],
   "kuyruk_bekleyen": {
-    "not": "Metricool kotasi hala dolu (7-8 Ekim gonderilerinin hepsi ERROR: 'You have reached your Metricool account limit'). 9 Ekim gonderileri PENDING, onceden planlanmisti. Kota acilinca asagidaki klasorler yeniden uretilmeden dogrudan createScheduledPost ile planlanacak; her biri icin gonderi + 40 dk sonra hikaye. Tum gorsel adresleri 9 Ekim'de 200 donuyor. Gecmis saatli slotlar atlanacak.",
+    "not": "Gunde 4 gonderi + 4 hikaye + 1 reels. Saat izgarasi sira.py icinde, liste YAYIN-LISTESI.md. Metricool kotasi 9 Ekim itibariyla hala dolu (tum gonderiler ERROR: 'You have reached your Metricool account limit'). Kota acilinca klasorler yeniden uretilmeden dogrudan createScheduledPost ile planlanacak; gorseller GitHub raw adresinden cekilecek. Gecmis saatli slotlar atlanacak.",
     "slotlar": [
       {
         "tarih": "2026-10-10",
@@ -351,6 +357,11 @@
         "tarih": "2026-10-10",
         "slot": "elektronik",
         "klasor": "2026-10-10-tp4056-sarj"
+      },
+      {
+        "tarih": "2026-10-10",
+        "slot": "urun",
+        "klasor": "2026-10-10-bambu-r1-tanitim"
       },
       {
         "tarih": "2026-10-10",
@@ -369,6 +380,11 @@
       },
       {
         "tarih": "2026-10-11",
+        "slot": "urun",
+        "klasor": "2026-10-11-ender-v3-mega-tanitim"
+      },
+      {
+        "tarih": "2026-10-11",
         "slot": "proje",
         "klasor": "2026-10-11-musteriye-fiyat"
       },
@@ -381,6 +397,11 @@
         "tarih": "2026-10-12",
         "slot": "elektronik",
         "klasor": "2026-10-12-deep-sleep-akim"
+      },
+      {
+        "tarih": "2026-10-12",
+        "slot": "urun",
+        "klasor": "2026-10-14-sunlu-filadryer"
       },
       {
         "tarih": "2026-10-12",
@@ -399,8 +420,79 @@
       },
       {
         "tarih": "2026-10-13",
+        "slot": "urun",
+        "klasor": "2026-10-15-sunlu-ams-heater"
+      },
+      {
+        "tarih": "2026-10-13",
         "slot": "proje",
         "klasor": "2026-10-13-olcu-dogrulama"
+      },
+      {
+        "tarih": "2026-10-14",
+        "slot": "3dbaski",
+        "klasor": "2026-10-18-filament-kurutucu-pano"
+      },
+      {
+        "tarih": "2026-10-14",
+        "slot": "urun",
+        "klasor": "2026-10-16-phaetus-liber-u1"
+      },
+      {
+        "tarih": "2026-10-15",
+        "slot": "3dbaski",
+        "klasor": "2026-10-19-ht-pla-pano"
+      },
+      {
+        "tarih": "2026-10-15",
+        "slot": "urun",
+        "klasor": "2026-10-17-polymaker-ht-pla"
+      },
+      {
+        "tarih": "2026-10-14",
+        "slot": "elektronik",
+        "klasor": "2026-10-14-lipo-bms"
+      },
+      {
+        "tarih": "2026-10-14",
+        "slot": "proje",
+        "klasor": "2026-10-14-siparis-sorulari"
+      },
+      {
+        "tarih": "2026-10-15",
+        "slot": "elektronik",
+        "klasor": "2026-10-15-h-koprusu"
+      },
+      {
+        "tarih": "2026-10-15",
+        "slot": "proje",
+        "klasor": "2026-10-15-3d-tarayici"
+      }
+    ],
+    "reels": [
+      {
+        "tarih": "2026-10-10",
+        "klasor": "2026-10-10-bambu-r1-tanitim"
+      },
+      {
+        "tarih": "2026-10-11",
+        "klasor": "2026-10-11-ender-v3-mega-tanitim"
+      },
+      {
+        "tarih": "2026-10-12",
+        "klasor": "2026-10-14-sunlu-filadryer"
+      },
+      {
+        "tarih": "2026-10-13",
+        "klasor": "2026-10-15-sunlu-ams-heater"
+      },
+      {
+        "tarih": "2026-10-14",
+        "klasor": "2026-10-16-phaetus-liber-u1"
+      },
+      {
+        "tarih": "2026-10-15",
+        "klasor": "2026-10-17-polymaker-ht-pla"
       }
     ]
   }

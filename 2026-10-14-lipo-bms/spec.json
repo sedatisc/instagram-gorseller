@@ -1,0 +1,146 @@
+{
+  "kategori": "elektronik",
+  "zemin": "indigo",
+  "kapak": {
+    "tip": "rakam",
+    "ustbilgi": "LI-PO KORUMA DEVRESİ",
+    "rakam": "2,5 V",
+    "rakam_alt": "Hücrenin bir daha dönmediği sınır",
+    "satir1": "BMS",
+    "satir2": "NEYİ KORUYOR",
+    "spot": "Koruma kartı pili şarj etmiyor, yalnız iki MOSFET'i açıp kapatıyor. Hangi dört eşikte kestiğini bilmeden Li-Po kullanılmıyor.",
+    "tablo": [
+      [
+        "AŞIRI ŞARJ",
+        "4,25 V"
+      ],
+      [
+        "AŞIRI DEŞARJ",
+        "2,50 V"
+      ],
+      [
+        "AŞIRI AKIM",
+        "karta göre"
+      ],
+      [
+        "KISA DEVRE",
+        "µs içinde"
+      ],
+      [
+        "DENGELEME",
+        "yalnız BMS'te"
+      ],
+      [
+        "SICAKLIK",
+        "NTC yoksa yok"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Dört eşik, tek kart",
+      "aciklama": "Koruma kartının yaptığı iş bu dört sınırı izlemek. Hepsinde aynı şey oluyor: seri bağlı MOSFET kapanıp hücreyi devreden ayırıyor.",
+      "tablo": [
+        [
+          "AŞIRI ŞARJ",
+          "4,25-4,30 V'ta keser"
+        ],
+        [
+          "AŞIRI DEŞARJ",
+          "2,50-3,00 V'ta keser"
+        ],
+        [
+          "AŞIRI AKIM",
+          "karta göre 3-10 A"
+        ],
+        [
+          "KISA DEVRE",
+          "birkaç yüz µs içinde"
+        ],
+        [
+          "GERİ DÖNÜŞ",
+          "yük kalkınca kendiliğinden"
+        ],
+        [
+          "KORUMADIĞI",
+          "sıcaklık — NTC'si yoksa"
+        ]
+      ]
+    },
+    {
+      "baslik": "Koruma kartı dengeleme yapmaz",
+      "aciklama": "Tek hücrede sorun yok. Seri bağlı 2S ve üstünde hücreler zamanla ayrışıyor; dengeleme yoksa biri dolarken diğeri boşta kalıyor.",
+      "satirlar": [
+        [
+          "PCM",
+          "Yalnız koruma. Tek hücrede (1S) yeterli."
+        ],
+        [
+          "BMS",
+          "Koruma + dengeleme. 2S ve üstünde bunu ara."
+        ],
+        [
+          "DENGELEME UCU",
+          "2S kartta B-, BM, B+ olmak üzere üç lehim ucu olur"
+        ],
+        [
+          "AYIRT ETME",
+          "Kartta hücre sayısı kadar algılama ucu yoksa dengeleme de yoktur"
+        ]
+      ]
+    },
+    {
+      "baslik": "Kart seçerken bakılan tek rakam değil",
+      "aciklama": "Sürekli akım kartın MOSFET'ine bağlı. Motor kalkışında çekilen tepe akım sürekli akımın üç katına çıkabiliyor; kart orada kesiyor ve sistem resetleniyor.",
+      "tablo": [
+        [
+          "SÜREKLİ AKIM",
+          "yükün tepe akımının 1,5 katı"
+        ],
+        [
+          "RDS(on)",
+          "düşük olan daha az ısınır"
+        ],
+        [
+          "HÜCRE SAYISI",
+          "1S · 2S · 3S — karışmaz"
+        ],
+        [
+          "BAĞLANTI",
+          "B- karttan, P- yüke"
+        ],
+        [
+          "LEHİM",
+          "hücre ucuna doğrudan lehim yapma, nokta kaynak"
+        ],
+        [
+          "ŞARJ",
+          "koruma kartı şarj devresi değil, TP4056 ayrı"
+        ]
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "KORUMA MI",
+    "satir2": "ŞARJ MI?",
+    "kriterler": [
+      [
+        "TEK HÜCRE, ŞARJ",
+        "TP4056 (korumalı sürümü)"
+      ],
+      [
+        "TEK HÜCRE, YALNIZ KORUMA",
+        "1S PCM"
+      ],
+      [
+        "2S VE ÜSTÜ",
+        "dengelemeli BMS"
+      ],
+      [
+        "MOTOR SÜRÜYORSAN",
+        "sürekli akımı 1,5 kat al"
+      ]
+    ],
+    "not": "Korumalı hücrenin üstündeki ince kart zaten PCM'dir; üstüne ikinci koruma takmak kesme eşiğini öne çeker."
+  }
+}

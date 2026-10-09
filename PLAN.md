@@ -1,6 +1,9 @@
-# @sermenkreatif — 90 GÖNDERİLİK YAYIN PLANI
+# @sermenkreatif — YAYIN PLANI
 
-Günde 3 gönderi · her gönderi en az 3 slayt · 30 gün
+Günde **4 gönderi · 4 hikaye · 1 reels** · her gönderi en az 3 slayt
+
+Günlük sıra ve klasörler `YAYIN-LISTESI.md` dosyasında; o dosyayı `sira.py`
+üretiyor, kuyruk `DURUM.json` içinde duruyor.
 
 ---
 
@@ -28,16 +31,40 @@ Saatler bilerek tam ve buçuk değil. Herkes 12.00 ve 20.30'a kurduğu için o d
 
 | Slot | Kategori | Hafta içi | Cumartesi | Pazar |
 |---|---|---|---|---|
-| Sabah | 3D BASKI & DONANIM | **08.12** | 11.10 | 11.40 |
+| Sabah | 3D BASKI & ÜRETİM DONANIMI | **08.12** | 11.10 | 11.40 |
 | Öğle | ELEKTRONİK & IoT | **12.38** | 12.20 | 12.20 |
+| İkindi | ÜRÜN & MAĞAZA | **17.24** | 16.50 | 17.10 |
+| — | **REELS** | **19.36** | 19.20 | 19.50 |
 | Akşam | PROJE & ATÖLYE | **20.42** | 20.10 | **21.00** |
+
+**Hikaye** her gönderiden 40 dakika sonra, aynı gönderinin `hikaye.png`
+dosyasından. Günde 4 gönderi = günde 4 hikaye; ayrıca hikaye üretilmiyor.
+
+**Reels** günde bir tane, akşam gönderisinden hemen önce. Kaynağı o günün
+ürün gönderisi; `reels.py` aynı spec'ten üretiyor.
 
 Gün bazında kayma:
 
-- **Pazartesi** sabah slotu güçlü, akşamı zayıf → akşam gönderisini 19.40'a al
+- **Pazartesi** sabah slotu güçlü, akşamı zayıf → akşam gönderisi 19.40, reels 21.10
 - **Çarşamba** akşamı en iyi → haftanın en iddialı gönderisi çarşamba 20.42'ye
-- **Cuma** akşamı düşüyor → cuma akşamını 18.10'a çek
+- **Cuma** akşamı düşüyor → ürün 16.40, akşam 18.10, reels 20.30
 - **Pazar** 21.00 haftanın zirvesi → serinin en güçlü işi buraya
+
+Saatlerin tamamı `sira.py` içindeki `IZGARA` tablosunda; değiştirince
+`python3 sira.py` listeyi yeniden üretiyor.
+
+## Dördüncü slot ne ile besleniyor
+
+ÜRÜN & MAĞAZA slotu hesabın mağazaya bakan yüzü ve günlük. Üç kaynağı var:
+
+1. **Mağaza ürünleri** — stokta olan filament, kurutucu, hotend, aksesuar
+2. **Cihaz kataloğu** — `cihazlar/` içinde 37 cihaz kaydı; `cihaz.py --sira`
+   markaları dönüşümlü sıraya diziyor. Her biri için kapak fotoğrafı lazım
+   (`cihaz.py --foto` eksikleri listeliyor)
+3. **Pano gönderileri** — `PANO-SIRASI.md`'deki karşılaştırma panoları
+
+Bu slot tek başına 37 günlük cihaz içeriği taşıyor; darboğaz konu değil,
+fotoğraf.
 
 ---
 
@@ -141,9 +168,13 @@ Erişilebilirlik metni (alt text) her slayta yazılacak — hem görme engelli o
 
 ---
 
-# 7. KONU LİSTESİ — 30 GÜN × 3 SLOT
+# 7. KONU LİSTESİ
 
-## SABAH 08.12 — 3D BASKI & ÜRETİM DONANIMI
+Aşağıdaki üç liste ilk üç slotun konu havuzu. Dördüncü slot (ÜRÜN & MAĞAZA)
+sabit konu listesi tutmuyor; `cihazlar/`, `PANO-SIRASI.md` ve mağaza
+stoğundan besleniyor (bkz. bölüm 2).
+
+## SLOT 1 · SABAH — 3D BASKI & ÜRETİM DONANIMI
 
 Slot yalnız 3D baskıyı değil üretim donanımının tamamını kapsıyor: yazıcı, filament ve lazer. Beş günde bir ürün gönderisi geliyor (3, 8, 13, 18, 23, 28) — bunlar mağazaya en yakın içerik, ürün ve marka etiketi zorunlu.
 
@@ -180,7 +211,7 @@ Slot yalnız 3D baskıyı değil üretim donanımının tamamını kapsıyor: ya
 | 29 | Reçine ne zaman FDM'den iyi | Rehber · 4 |
 | 30 | 3D baskı gıdayla temasta güvenli mi | Rehber · 4 |
 
-## ÖĞLE 12.38 — ELEKTRONİK & IoT
+## SLOT 2 · ÖĞLE — ELEKTRONİK & IoT
 
 Eleme ve güncelleme yapılmış liste. Tarihler yeni takvime göre kaydırıldı.
 
@@ -217,7 +248,7 @@ Eleme ve güncelleme yapılmış liste. Tarihler yeni takvime göre kaydırıld�
 | 29 | BME280 + Raspberry Pi Pico 2 W | Rehber · 4 |
 | 30 | Kart tanıtımı: ESP32-P4 | Tanıtım · 4 |
 
-## AKŞAM 20.42 — PROJE & ATÖLYE
+## SLOT 4 · AKŞAM — PROJE & ATÖLYE
 
 Kendi projelerinden besleniyor. Bu slot hesabın kimliği: diğer ikisi bilgi verir, bu slot "bunu gerçekten yapan adam" olduğunu gösterir.
 
@@ -295,15 +326,19 @@ WhatsApp grubu hesabın en değerli çıktısı: takipçi akışta kaybolur, gru
 
 **Fiyat yazma.** Fiyat en hızlı eskiyen bilgi. Gönderide fiyat yerine konumlandırma yazılır ("giriş seviyesi", "kapalı kabinli orta sınıf"). Fiyat sermenkreatif.com'da, gönderi oraya yönlendirir.
 
-Görsel: ürün fotoğrafı kullanma — üretici basın görselleri telifli. Bunun yerine `tablo` paneli (özellik karşılaştırması) veya `renk` öğesi (filament kartelası) kullan. İlhan kendi çektiği fotoğrafı verirse o kullanılır.
+**Görsel gerçek fotoğraf olacak, vektör çizim değil.** Fotoğrafı İlhan veriyor; ham kareden arka planı kesilip `arac/studyo.py` ile stüdyo karesine çevriliyor (bkz. `gorsel/BENIOKU.md`). Fotoğraf yoksa gönderi üretilmiyor — kareye "FOTOĞRAF YOK" basılıyor ve üretici uyarı veriyor. Google görselinden indirilen kare ticari gönderide kullanılmıyor.
+
+Gelen fotoğrafın anlatılan ürün olduğu doğrulanmadan klasöre konmuyor. Bu sette iki kere lazım oldu: R1 gönderisi için gelen kare aslında açık gövdeli bir diyot lazerdi, kurutucu setindeki "SP2" aslında S4'tü.
 
 Etiketler: `@bambulab`, `@sunlu3d`, `@snapmaker`, `@creality3dofficial`, `@crealityfalcon` — hangi marka geçiyorsa. Ürün etiketi ve konum etiketi eklenir.
 
 # 12. HAFTALIK İŞ DÜZENİ
 
-Günde 3 gönderi = haftada 21 gönderi. Her gün tek tek üretmek sürdürülemez.
+Günde 4 gönderi + 4 hikaye + 1 reels = haftada 28 gönderi, 28 hikaye, 7 reels. Her gün tek tek üretmek sürdürülemez.
 
-**Pazar günü toplu üretim.** Haftanın 21 gönderisinin görselleri tek oturumda üretilir, metinleri yazılır, Metricool'a yüklenip zamanlanır. Hafta içi sadece yorum yanıtlamak kalır.
+**Pazar günü toplu üretim.** Haftanın 28 gönderisinin görselleri tek oturumda üretilir, metinleri yazılır, reels'ler render edilir, Metricool'a yüklenip zamanlanır. Hafta içi sadece yorum yanıtlamak kalır.
+
+**Metricool kotası.** Ücretsiz planda aylık 20 planlama hakkı var; 28'lik haftaya yetmiyor. Kota dolunca gönderiler `ERROR: You have reached your Metricool account limit` ile düşüyor ve sessizce yayınlanmıyor. İki yol var: plan yükseltilecek ya da günlük yayın Meta Business Suite üzerinden elle yapılacak. `YAYIN-LISTESI.md` her iki durumda da sıranın tek kaynağı.
 
 **Yorumlara ilk bir saat içinde dön.** Gönderi sonrası ilk saatteki etkileşim dağılımı belirliyor.
 
