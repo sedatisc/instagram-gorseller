@@ -1,0 +1,70 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "pano",
+    "marka_alt": "Yüksek Sıcaklık PLA Rehberi",
+    "ust_sol": "PLA 58 °C'DE EĞİLİR",
+    "ust_sag": "TAVLANMIŞ HT-PLA 107 °C",
+    "satir1": "HT-PLA NE ZAMAN",
+    "satir2": "TERCİH EDİLİR?",
+    "spot": "Isı dayanımı kutudan çıkmıyor, tavlamayla geliyor. 80-90 °C'de üç dakika, rakamı ikiye katlıyor.",
+    "sutunlar": [
+      {
+        "baslik": "HT-PLA",
+        "alt": "ISIYA DAYANIKLI DÜZ SÜRÜM",
+        "renk": "mavi",
+        "gorsel": "urun/kesik-htpla.png",
+        "ozellikler": [
+          ["isi", "61,4 → 107,2 °C (0,45 MPa)"],
+          ["zaman", "80-90 °C'de 3 dakika tavlama"],
+          ["kalkan", "Vicat yumuşama 156,2 °C"],
+          ["nozzle", "230 °C nozul · 50 °C tabla"]
+        ],
+        "kullanim": [
+          ["dis", "Fonksiyonel parça ve aparat"],
+          ["ev", "Ev ve atölye düzenleyicileri"],
+          ["kutu", "Günlük baskının geneli"]
+        ]
+      },
+      {
+        "baslik": "HT-PLA GRADIENT",
+        "alt": "RENK GEÇİŞLİ · DEKORATİF",
+        "renk": "kiraz",
+        "gorsel": "urun/kesik-htpla-grad.png",
+        "ozellikler": [
+          ["dalga", "Makara boyunca renk geçişi"],
+          ["isi", "Düz sürümle aynı ısı dayanımı"],
+          ["zaman", "Tavlama gereksinimi aynı"],
+          ["uyari", "Renk periyodu parça boyuna bağlı"]
+        ],
+        "kullanim": [
+          ["kup", "Vazo modu ve tek parça baskı"],
+          ["yaprak", "Dekoratif obje, hediyelik"],
+          ["gunes", "Vitrin ve sergi parçası"]
+        ]
+      },
+      {
+        "baslik": "HT-PLA-GF",
+        "alt": "CAM ELYAF TAKVİYELİ",
+        "renk": "turuncu",
+        "gorsel": "urun/kesik-htpla-gf.png",
+        "ozellikler": [
+          ["isi", "75,5 → 114,7 °C (0,45 MPa)"],
+          ["kalkan", "Ailenin en yüksek HDT'si"],
+          ["duvar", "Cam elyafla artırılmış rijitlik"],
+          ["olcu", "Çekme 50,1 MPa (XY)"]
+        ],
+        "kullanim": [
+          ["arac", "Araç içinde kalacak parça"],
+          ["dis", "Yük taşıyan teknik parça"],
+          ["kalkan", "Eğilmemesi gereken aparat"]
+        ]
+      }
+    ],
+    "ipucu": "Tavlamadan basarsan elinde normal PLA'dan farkı az, pahalı bir makara kalır.",
+    "alt_cagri": "HT-PLA serisini keşfet"
+  },
+  "slaytlar": [],
+  "kapanis": null
+}

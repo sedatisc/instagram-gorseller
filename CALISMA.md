@@ -69,6 +69,8 @@ python3 cihaz.py cihazlar/bambu-lab/x2d.json <klasor>    # spec + metin
 
 Sıra, fotoğraf durumu ve veriyle ilgili uyarılar `cihazlar/BENIOKU.md` dosyasında. Fotoğrafı olmayan cihaz planlanmıyor.
 
+**4f. Pano gönderisi.** Malzeme/ürün karşılaştırmalarında `pano` kapak tipi kullanılıyor: tek karede açık zeminli, üç sütunlu bilgi panosu (bkz. `SEMA.md`). Karusel değil tek kare; kaydedilip yakınlaştırılan tip. Sütun görselleri arka planı temizlenmiş PNG olmalı, `arac/BENIOKU.md` nasıl yapılacağını anlatıyor. Pano gönderisinde `slaytlar` boş, `kapanis` null, hikaye otomatik olarak pano düzeninde çıkıyor.
+
 **5. Depoya yükle.** Klasörü commit edip push et. Sonra her adresi `curl -sI` ile doğrula, hepsi 200 dönmeli.
 
 **6. Kuyruğa ekle.** Her konu için **iki** kayıt açılıyor: gönderi, sonra hikayesi.

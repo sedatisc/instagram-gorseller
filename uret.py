@@ -71,8 +71,14 @@ def mono(s, bold=False):
 
 
 def P(s):
-    """Poppins'te U+03A9 ve birleşik nokta yok — ikisini de temizle."""
-    return (s.replace("\u03a9", "\u2126")
+    """Poppins'te olmayan karakterleri yerine koy.
+
+    U+2192 ok, U+03A9 omega ve birleşik nokta Poppins'te yok; kutu
+    (tofu) olarak basılıyordu. JetBrains Mono'da ok var ama metin
+    fontuna güvenemiyoruz, bu yüzden hepsinde çift açılı ayraç.
+    """
+    return (s.replace("\u2192", "\u00bb").replace("\u2190", "\u00ab")
+             .replace("\u03a9", "\u2126")
              .replace("i\u0307", "i").replace("\u0307", ""))
 
 
@@ -772,6 +778,70 @@ def ikon(d, ad, cx, cy, s, col):
     """Kart içi vektör simgesi — kalın, ikonik, tek renk."""
     w3 = max(4, int(s * 0.075))
     r = s * 0.5
+
+    if ad == "gunes":
+        d.ellipse([cx - r * 0.44, cy - r * 0.44, cx + r * 0.44, cy + r * 0.44],
+                  outline=col, width=w3)
+        for i in range(8):
+            a1 = i * math.pi / 4
+            d.line([(cx + math.cos(a1) * r * 0.64, cy + math.sin(a1) * r * 0.64),
+                    (cx + math.cos(a1) * r * 0.95, cy + math.sin(a1) * r * 0.95)],
+                   fill=col, width=w3)
+        return
+    if ad == "ev":
+        d.line([(cx - r * 0.85, cy - r * 0.05), (cx, cy - r * 0.8),
+                (cx + r * 0.85, cy - r * 0.05)], fill=col, width=w3, joint="curve")
+        d.rectangle([cx - r * 0.6, cy - r * 0.05, cx + r * 0.6, cy + r * 0.8],
+                    outline=col, width=w3)
+        d.rectangle([cx - r * 0.2, cy + r * 0.25, cx + r * 0.2, cy + r * 0.8],
+                    outline=col, width=w3)
+        return
+    if ad == "arac":
+        d.rounded_rectangle([cx - r * 0.9, cy - r * 0.1, cx + r * 0.9, cy + r * 0.45],
+                            radius=r * 0.18, outline=col, width=w3)
+        d.line([(cx - r * 0.62, cy - r * 0.1), (cx - r * 0.38, cy - r * 0.62),
+                (cx + r * 0.42, cy - r * 0.62), (cx + r * 0.66, cy - r * 0.1)],
+               fill=col, width=w3, joint="curve")
+        for sx in (-0.48, 0.48):
+            d.ellipse([cx + r * sx - r * 0.2, cy + r * 0.3,
+                       cx + r * sx + r * 0.2, cy + r * 0.7], outline=col, width=w3)
+        return
+    if ad == "kalkan":
+        d.line([(cx, cy - r * 0.88), (cx + r * 0.72, cy - r * 0.55),
+                (cx + r * 0.6, cy + r * 0.35), (cx, cy + r * 0.88),
+                (cx - r * 0.6, cy + r * 0.35), (cx - r * 0.72, cy - r * 0.55),
+                (cx, cy - r * 0.88)], fill=col, width=w3, joint="curve")
+        d.line([(cx - r * 0.3, cy + r * 0.02), (cx - r * 0.06, cy + r * 0.3),
+                (cx + r * 0.36, cy - r * 0.28)], fill=col, width=w3, joint="curve")
+        return
+    if ad == "yaprak":
+        d.line([(cx - r * 0.7, cy + r * 0.7), (cx + r * 0.55, cy - r * 0.55)],
+               fill=col, width=w3)
+        d.arc([cx - r * 0.75, cy - r * 0.8, cx + r * 0.85, cy + r * 0.75],
+              160, 340, fill=col, width=w3)
+        d.arc([cx - r * 0.85, cy - r * 0.75, cx + r * 0.8, cy + r * 0.8],
+              340, 160, fill=col, width=w3)
+        return
+    if ad == "yagmur":
+        d.arc([cx - r * 0.85, cy - r * 0.7, cx + r * 0.45, cy + r * 0.1],
+              180, 360, fill=col, width=w3)
+        d.arc([cx - r * 0.2, cy - r * 0.85, cx + r * 0.9, cy + r * 0.05],
+              200, 20, fill=col, width=w3)
+        d.line([(cx - r * 0.7, cy + r * 0.1), (cx + r * 0.75, cy + r * 0.1)],
+               fill=col, width=w3)
+        for sx in (-0.42, 0.0, 0.42):
+            d.line([(cx + r * sx, cy + r * 0.32), (cx + r * sx - r * 0.1, cy + r * 0.78)],
+                   fill=col, width=w3)
+        return
+    if ad == "kutu":
+        d.line([(cx - r * 0.85, cy - r * 0.35), (cx, cy - r * 0.78),
+                (cx + r * 0.85, cy - r * 0.35), (cx + r * 0.85, cy + r * 0.45),
+                (cx, cy + r * 0.85), (cx - r * 0.85, cy + r * 0.45),
+                (cx - r * 0.85, cy - r * 0.35)], fill=col, width=w3, joint="curve")
+        d.line([(cx - r * 0.85, cy - r * 0.35), (cx, cy + r * 0.06),
+                (cx + r * 0.85, cy - r * 0.35)], fill=col, width=w3, joint="curve")
+        d.line([(cx, cy + r * 0.06), (cx, cy + r * 0.85)], fill=col, width=w3)
+        return
 
     if ad == "katman":
         for i in range(4):
@@ -1770,7 +1840,8 @@ def main():
     tip = spec["kapak"].get("tip", "klasik")
     {"rakam": kapak_rakam, "carpisma": kapak_carpisma,
      "yakin": kapak_yakin, "izgara": kapak_izgara,
-     "liste": kapak_liste, "urun": kapak_urun}.get(tip, kapak)(
+     "liste": kapak_liste, "urun": kapak_urun,
+     "pano": kapak_pano}.get(tip, kapak)(
         spec["kapak"], "%d/%d" % (n, toplam), os.path.join(out, "%d.png" % n))
     ortak = govde(spec["kapak"])
     for i, sl in enumerate(slaytlar, 1):
@@ -1786,7 +1857,7 @@ def main():
         n += 1
         kapanis(spec["kapanis"], "%d/%d" % (n, toplam),
                 os.path.join(out, "%d.png" % n))
-    hik = hikaye_urun if tip == "urun" else hikaye
+    hik = {"urun": hikaye_urun, "pano": hikaye_pano}.get(tip, hikaye)
     hik(spec["kapak"], os.path.join(out, "hikaye.png"))
 
     eksik = sorted({a for a in [spec["kapak"].get("gorsel")] +
@@ -1796,6 +1867,246 @@ def main():
         print("UYARI — fotoğraf yok, kareye yer tutucu basıldı: %s"
               % ", ".join("gorsel/" + e for e in eksik))
     print("%d slayt + hikaye: %s" % (n, out))
+
+
+
+
+# ------------------------------------------------------------------ pano
+PANO_RENK = {"mavi": ((22, 58, 120), (236, 243, 252)),
+             "yesil": ((28, 110, 60), (235, 247, 239)),
+             "turuncu": ((176, 74, 18), (253, 243, 234)),
+             "mor": ((78, 42, 124), (243, 238, 252)),
+             "kiraz": ((146, 28, 62), (253, 237, 242)),
+             "gri": ((52, 60, 74), (240, 242, 246))}
+
+
+
+def _pano_boy(d, w, s, orta):
+    """Kartın içeriğinin gerektirdiği yükseklik."""
+    bh = 104 if orta else 92
+    gh = 188 if orta else 170
+    h = bh + 12 + gh + 16
+    fs = pop(13, "Medium")
+    for anahtar in ("ozellikler", "kullanim"):
+        satir = s.get(anahtar) or []
+        if not satir:
+            continue
+        h += 20 + 12
+        for _, metin in satir[:4]:
+            h += 18 * len(wrap(d, P(metin), fs, w - 70)[:2]) + 12
+        h += 8
+    return h + 18
+
+
+def _pano_kart(img, x, y, w, h, s, i):
+    """Üç sütunlu panonun tek kartı: renkli başlık, görsel, iki liste."""
+    koyu, acikr = PANO_RENK.get(s.get("renk", "mavi"), PANO_RENK["mavi"])
+    orta = i == 1
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([x, y, x + w, y + h], radius=20, fill=(255, 255, 255),
+                        outline=(226, 231, 238), width=2)
+
+    # renkli başlık bandı
+    bh = 104 if orta else 92
+    kart = Image.new("RGBA", (int(w), int(bh)), (0, 0, 0, 0))
+    ImageDraw.Draw(kart).rounded_rectangle([0, 0, w, bh + 26], radius=20,
+                                           fill=koyu + (255,))
+    img.alpha_composite(kart, (int(x), int(y)))
+    d = ImageDraw.Draw(img)
+
+    fb = fit(d, P(s["baslik"]), lambda t: archivo(t), w - 36, 34 if orta else 28, 18)
+    d.text((x + w / 2, y + bh * 0.38), P(s["baslik"]), font=fb,
+           fill=(255, 255, 255), anchor="mm")
+    fa = pop(13, "SemiBold")
+    ay = y + bh * 0.66
+    for ln in wrap(d, P(s.get("alt", "")), fa, w - 30)[:2]:
+        d.text((x + w / 2, ay), ln, font=fa, fill=(255, 255, 255), anchor="mm")
+        ay += 17
+
+    # görsel alanı
+    gy, gh = y + bh + 12, 188 if orta else 170
+    foto = gorsel_var(s.get("gorsel"))
+    if foto:
+        im = Image.open(foto).convert("RGBA")
+        o = min((w - 28) / im.width, gh / im.height)
+        im = im.resize((max(1, int(im.width * o)), max(1, int(im.height * o))),
+                       Image.LANCZOS)
+        img.alpha_composite(im, (int(x + (w - im.width) / 2),
+                                 int(gy + (gh - im.height) / 2)))
+    else:
+        d2 = ImageDraw.Draw(img)
+        d2.rounded_rectangle([x + 14, gy, x + w - 14, gy + gh], radius=14,
+                             fill=acikr)
+        ikon(d2, s.get("ikon", "kup"), x + w / 2, gy + gh / 2, gh * 0.52, koyu)
+
+    yy = gy + gh + 16
+    for etiket, anahtar in (("ÖZELLİKLERİ", "ozellikler"),
+                            ("KULLANIM ALANLARI", "kullanim")):
+        satir = s.get(anahtar) or []
+        if not satir:
+            continue
+        d = ImageDraw.Draw(img)
+        d.text((x + 18, yy), etiket, font=mono(14, True), fill=(26, 32, 44),
+               anchor="la")
+        yy += 20
+        d.line([(x + 18, yy), (x + w - 18, yy)], fill=(226, 231, 238), width=2)
+        yy += 12
+        fs = pop(13, "Medium")
+        for sim, metin in satir[:4]:
+            ikon(d, sim, x + 30, yy + 14, 24, koyu)
+            satirlar = wrap(d, P(metin), fs, w - 70)[:2]
+            ty = yy + 14 - (len(satirlar) - 1) * 9
+            for ln in satirlar:
+                d.text((x + 48, ty), ln, font=fs, fill=(62, 70, 86), anchor="lm")
+                ty += 18
+            yy += 18 * len(satirlar) + 12
+        yy += 8
+
+
+def kapak_pano(spec, sayac, yol):
+    """Tek karede yoğun bilgi panosu — açık zemin, üç sütunlu kart düzeni."""
+    img = Image.new("RGBA", (W, H), (255, 255, 255, 255))
+    d = ImageDraw.Draw(img)
+    for i in range(-H, W, 46):            # köşelerde ince dekoratif çizgiler
+        d.line([(i, H), (i + H * 0.5, 0)], fill=(243, 246, 250), width=3)
+    d.rectangle([0, 0, W, 8], fill=AC())
+
+    logo = bright_logo(30)
+    img.alpha_composite(logo, (int((W - logo.width) / 2), 34))
+    d = ImageDraw.Draw(img)
+    d.text((W / 2, 86), P(spec.get("marka_alt", "3D Baskı Malzeme Rehberi")),
+           font=pop(15, "Medium"), fill=(110, 120, 138), anchor="mm")
+    for metin, hiza, x in ((spec.get("ust_sol", ""), "la", GUT),
+                           (spec.get("ust_sag", ""), "ra", RIGHT)):
+        yv = 42
+        for ln in P(metin).split(" · "):
+            d.text((x, yv), ln, font=mono(13, True), fill=(140, 150, 168),
+                   anchor=hiza)
+            yv += 19
+
+    s1, s2 = spec["satir1"], spec["satir2"]
+    f = fit(d, max(s1, s2, key=len), anton, 940, 76)
+    y = 128
+    d.text((W / 2, y), s1, font=f, fill=(14, 30, 64), anchor="ma")
+    y += f.size * 1.02
+    d.text((W / 2, y), s2, font=f, fill=AC(), anchor="ma")
+    y = d.textbbox((W / 2, y), s2, font=f, anchor="ma")[3] + 18
+    d.line([(W / 2 - 60, y), (W / 2 + 60, y)], fill=AC(), width=3)
+    y += 18
+    fs = pop(19, "Medium")
+    for ln in wrap(d, P(spec.get("spot", "")), fs, 880)[:2]:
+        d.text((W / 2, y), ln, font=fs, fill=(74, 84, 104), anchor="ma")
+        y += 27
+
+    sut = spec["sutunlar"][:3]
+    n = len(sut)
+    ara = 16
+    kw = (W - 2 * 44 - ara * (n - 1)) / n
+    ust = y + 18
+    kh = max(_pano_boy(d, kw, c, n == 3 and j == 1)
+             for j, c in enumerate(sut))
+    kh = min(kh, 1168 - ust)
+    # artan boşluğu kartların üstüne ve altına dağıt, alt bant boşta kalmasın
+    artan = (1258 - 66 - 26) - (ust + kh)
+    if artan > 20:
+        ust += artan * 0.42
+    for i, c in enumerate(sut):
+        kx = 44 + i * (kw + ara)
+        buyut = 14 if (n == 3 and i == 1) else 0
+        _pano_kart(img, kx, ust - buyut, kw, kh + buyut, c, i)
+
+    d = ImageDraw.Draw(img)
+    if spec.get("ipucu"):
+        iy = min(1196, int(ust + kh + 30))
+        d.rounded_rectangle([44, iy, W - 44, iy + 66], radius=14,
+                            fill=(236, 247, 240), outline=(198, 228, 209), width=2)
+        ikon(d, "uyari", 86, iy + 33, 30, (28, 110, 60))
+        fi = fit(d, P(spec["ipucu"]), lambda t: pop(t, "SemiBold"), W - 200, 20, 14)
+        d.text((116, iy + 33), P(spec["ipucu"]), font=fi, fill=(24, 78, 48),
+               anchor="lm")
+
+    d.rectangle([0, 1282, W, H], fill=(14, 22, 40))
+    d.text((GUT, 1316), P(spec.get("alt_cagri", "")), font=pop(19, "SemiBold"),
+           fill=(226, 233, 244), anchor="lm")
+    d.text((RIGHT, 1316), "sermenkreatif.com", font=mono(19, True),
+           fill=AC(), anchor="rm")
+    img.convert("RGB").save(yol)
+
+
+def hikaye_pano(spec, yol):
+    """Pano gönderisinin hikayesi — açık zemin, üç sütun özeti, çağrı."""
+    SW, SH = 1080, 1920
+    img = Image.new("RGBA", (SW, SH), (255, 255, 255, 255))
+    d = ImageDraw.Draw(img)
+    for i in range(-SH, SW, 54):
+        d.line([(i, SH), (i + SH * 0.5, 0)], fill=(243, 246, 250), width=3)
+    d.rectangle([0, 0, SW, 8], fill=AC())
+
+    logo = bright_logo(32)
+    img.alpha_composite(logo, (int((SW - logo.width) / 2), 300))
+    d = ImageDraw.Draw(img)
+    d.text((SW / 2, 362), P(spec.get("marka_alt", "")), font=pop(17, "Medium"),
+           fill=(110, 120, 138), anchor="mm")
+
+    s1, s2 = spec["satir1"], spec["satir2"]
+    f = fit(d, max(s1, s2, key=len), anton, 920, 92)
+    y = 430
+    d.text((SW / 2, y), s1, font=f, fill=(14, 30, 64), anchor="ma")
+    y += f.size * 1.04
+    d.text((SW / 2, y), s2, font=f, fill=AC(), anchor="ma")
+    y += f.size * 1.04 + 10
+    d.line([(SW / 2 - 70, y), (SW / 2 + 70, y)], fill=AC(), width=4)
+    y += 22
+    fs = pop(26, "Medium")
+    for ln in wrap(d, P(spec.get("spot", "")), fs, 880)[:3]:
+        d.text((SW / 2, y), ln, font=fs, fill=(74, 84, 104), anchor="ma")
+        y += 37
+
+    y += 26
+    for s in spec["sutunlar"][:3]:
+        koyu, acikr = PANO_RENK.get(s.get("renk", "mavi"), PANO_RENK["mavi"])
+        d.rounded_rectangle([GUT, y, SW - GUT, y + 150], radius=18,
+                            fill=acikr, outline=koyu + (0,), width=0)
+        d.rounded_rectangle([GUT, y, GUT + 10, y + 150], radius=5, fill=koyu)
+        foto = gorsel_var(s.get("gorsel"))
+        tx = GUT + 36
+        if foto:
+            im = Image.open(foto).convert("RGBA")
+            o = min(150.0 / im.width, 118.0 / im.height)
+            im = im.resize((max(1, int(im.width * o)), max(1, int(im.height * o))),
+                           Image.LANCZOS)
+            img.alpha_composite(im, (int(GUT + 40), int(y + (150 - im.height) / 2)))
+            tx = GUT + 210
+            d = ImageDraw.Draw(img)
+        d.text((tx, y + 52), P(s["baslik"]), font=archivo(30), fill=koyu,
+               anchor="lm")
+        ia = pop(19, "Medium")
+        ay = y + 92
+        for ln in wrap(d, P(s.get("alt", "")), ia, SW - GUT - tx - 30)[:2]:
+            d.text((tx, ay), ln, font=ia, fill=(74, 84, 104), anchor="lm")
+            ay += 26
+        y += 168
+
+    if spec.get("ipucu"):
+        y += 10
+        fi = fit(d, P(spec["ipucu"]), lambda t: pop(t, "SemiBold"), SW - 2 * GUT, 24, 17)
+        d.text((SW / 2, y + 18), P(spec["ipucu"]), font=fi, fill=(24, 78, 48),
+               anchor="mm")
+
+    btn = "GÖNDERİYE BAK"
+    fb = pop(32, "Bold")
+    tw = d.textlength(btn, font=fb)
+    by = 1560
+    BC = AC()
+    d.rounded_rectangle([GUT, by, GUT + tw + 120, by + 80], radius=40, fill=BC)
+    d.text((GUT + 46, by + 40), btn, font=fb, fill=UZER(BC), anchor="lm")
+    ax = GUT + 46 + tw + 28
+    d.line([(ax, by + 40), (ax + 28, by + 40)], fill=UZER(BC), width=5)
+    d.polygon([(ax + 25, by + 31), (ax + 44, by + 40), (ax + 25, by + 49)],
+              fill=UZER(BC))
+    d.text((GUT, by + 128), "profilde yeni gönderi", font=pop(26),
+           fill=(120, 130, 148), anchor="lm")
+    img.convert("RGB").save(yol)
 
 
 if __name__ == "__main__":
