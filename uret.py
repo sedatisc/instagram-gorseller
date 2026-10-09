@@ -963,11 +963,23 @@ def _kart(img, x, y, w, h, k):
                 break
         satir = satir[:maks]
     ara = fa.size + 6
-    alt_ust = y + h - 26 - (len(satir) - 1) * ara if satir else y + h - 8
+    ust_sinir = y + 56
+
+    def _altust(n):
+        return y + h - 26 - (n - 1) * ara if n else y + h - 8
+
+    # değere en az 46 px kalsın; kalmıyorsa alt metinden satır düş
+    tam = len(satir)
+    while len(satir) > 1 and _altust(len(satir)) - 20 < ust_sinir + 46:
+        satir = satir[:-1]
+    if satir and len(satir) < tam:
+        # kesildiğini gizleme — son satıra üç nokta koy
+        satir[-1] = satir[-1].rstrip(" ,;.·") + "…"
+    alt_ust = _altust(len(satir))
 
     deger = P(k["deger"])
-    ust_sinir, alt_sinir = y + 56, alt_ust - 20
-    bant = max(40, alt_sinir - ust_sinir)
+    alt_sinir = max(ust_sinir + 40, alt_ust - 20)
+    bant = alt_sinir - ust_sinir
     boy = int(bant * 1.05)
     while boy > 28:
         fd = anton(boy)
@@ -1008,9 +1020,14 @@ def kapak_izgara(spec, sayac, yol):
     ust = d.textbbox((GUT, y + f.size * 1.12), s2, font=f, anchor="la")[3] + 26
     if spec.get("spot"):
         fs = pop(28, "Medium")
-        d.text((GUT, ust), P(spec["spot"]), font=fs, fill=FG2(),
-               anchor="la")
-        ust += 52
+        satir = wrap(d, P(spec["spot"]), fs, RIGHT - GUT)
+        while len(satir) > 2 and fs.size > 22:
+            fs = pop(fs.size - 2, "Medium")
+            satir = wrap(d, P(spec["spot"]), fs, RIGHT - GUT)
+        for ln in satir[:2]:
+            d.text((GUT, ust), ln, font=fs, fill=FG2(), anchor="la")
+            ust += fs.size * 1.34
+        ust += 18
 
     kartlar = spec["kartlar"]
     bosluk = 22

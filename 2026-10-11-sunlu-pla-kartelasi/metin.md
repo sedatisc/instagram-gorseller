@@ -1,20 +1,21 @@
 ## Gönderi metni
 
-Sunlu PLA serileri arasındaki fark renk değil; sıcaklık bandı, hız sınırı ve katman yapışması değişiyor.
+SUNLU'nun on altı ayrı PLA serisi var ve hepsi aynı profille basılmıyor. Renge bakıp sepete atmadan önce bakılacak iki rakam: nozul sıcaklığı ve hız sınırı.
 
-Çap ve tolerans → serilerin tamamı 1,75 ± 0,02 mm. Tolerans dar olduğu sürece akış sabit kalıyor.
+Sıcaklık → düz PLA 185-230 °C, PLA Meta 185-225 °C, Wood 190-220 °C, Glow 200-240 °C, PLA+ 2.0 ve Matte 205-245 °C, Silk PLA+ 210-230 °C. Seriyi değiştirip dilimleyicideki profili aynı bırakmak en sık yapılan hata.
 
-Sıcaklık seriye yazılı:
-Düz PLA 185-230 °C · PLA+ 2.0 205-245 °C · Matte 200-260 °C · Silk PLA+ 210-230 °C · Wood 190-220 °C nozzle, 40-50 °C tabla
+Hız → PLA+ 2.0 ve Silk 50-200 mm/s, Matte 50-230 mm/s, Rainbow 100-260 mm/s. High Speed PLA+ 2.0 ise 50-600 mm/s; ama 600 mm/s yalnız 230-260 °C nozul bandında geçerli, düşük sıcaklıkta o hızı zorlarsan akış yetişmiyor.
 
-Hız da öyle: High Speed PLA+ 2.0 300-600 mm/s bandında veriliyor, Matte 450 mm/s'ye kadar çıkıyor. Silk PLA+ ve Glow ise 50-200 mm/s ile sınırlı; hızlı yazıcıda zorlarsan yüzey bozuluyor.
+Karışan iki isim → Matte PLA ile High Speed Matte PLA ayrı ürün. Matte 205-245 °C ve 50-230 mm/s, High Speed Matte 200-260 °C ve 450 mm/s'ye kadar. Kutuda "High Speed" yazıyorsa parametre tablosu da farklı. Mermer isteyen de dikkat: katalogda düz "Marble PLA" yok, yalnız High Speed Marble var.
 
-Görünüm seçerken bir şey veriyorsun: Silk parlak çıkıyor ama katman yapışması düz PLA'nın altında, taşıyıcı parçada kullanılmıyor. Matte ışığı yansıtmadığı için yüzey hatasını gizliyor.
+Tabla → Wood PLA 40-50 °C, ailenin tek istisnası. Diğer tüm PLA serileri 50-60 °C.
 
-Renk beğenip seri bakmadan makara alan bir arkadaşın varsa bu gönderiyi ona yolla.
+Kurutma → SUNLU tek bir rakam veriyor: 50 °C. Süre vermiyor, depolamada %20 altı nem istiyor. "8 saat kurutun" diyen herkes kendi deneyimini söylüyor, üretici verisini değil.
 
-#sermenkreatif #3dbaski #3dprinting #sunlu #3dbaskiturkiye
+Yanlış seriye doğru profili uygulayıp makarayı çöpe atan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #sunlu #filament #3dyazici #makerturkiye
 
 ## İlk yorum
 
-Dolgulu serilerde (Wood, Marble, Glow) sertleştirilmiş nozzle şart; pirinç uç birkaç makarada çapını büyütüyor.
+Rakamlar SUNLU'nun ürün sayfalarından. Kendi wiki tablosu Matte PLA ve High Speed PLA+ 2.0'da ürün sayfasıyla çelişiyor; o tabloda bazı satırlar birden fazla seriye kopyalanmış görünüyor, ürün sayfasını esas aldım.
