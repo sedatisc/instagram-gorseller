@@ -49,6 +49,30 @@ Uyarı satırı çıkmıyorsa bütün fotoğraflar yerine oturmuş demektir.
 
 Burada kadraj hazırlığı gerekmiyor — üretici `odak` ile kendi kırpıyor. Dikey ya da kare, en az 1200 px genişlik yeterli.
 
+## Pano sütun görseli
+
+`pano` gönderisinde her sütunda bir ürün duruyor. Arka planı ben
+temizliyorum (`arac/BENIOKU.md`), senin göndermen gereken sadece ham
+fotoğraf.
+
+**İyi kaynak:**
+- Tek ürün, tek kare. Üç ürünü tek afişte değil, ayrı ayrı gönder.
+- Sade zemin: beyaz, açık gri ya da düz renk. Tezgâh/atölye fonu da
+  olur ama arka planda yazı, logo ya da başka ürün olmasın.
+- En az 600 px genişlik. Küçük kare büyütünce bulanıklaşıyor,
+  kullanamıyorum.
+- Ürün kadrajın içinde tam dursun, kenarından kesilmiş olmasın.
+- Üstünde "ŞİMDİ STOKTA", fiyat etiketi gibi yazı olmasın — kesince
+  o yazı da geliyor.
+
+**Olmaz:**
+- Afiş/banner kırpıntısı (yazı ve diyagonal ayraçlar geliyor)
+- Ekran görüntüsü (düşük çözünürlük)
+- Birden çok ürünün aynı karede olduğu tanıtım görseli
+
+**Dosya adı:** `gorsel/urun/<marka>-<model>.jpg`. Gönderirken sadece
+hangisi olduğunu yaz, adlandırmayı ben yaparım.
+
 ## Fotoğrafı koymadan önce kontrol et
 
 Gönderilen her görsel anlatılan ürünün kendisi olmayabilir. Arama sonuçlarında ve stok görsel sitelerinde benzer makineler dolaşıyor. **Makineyi tanımadan dosyayı klasöre koyma** — yanlış makineyi tanıtmak vektör çizimden daha kötü. Bu sette bir kare bu yüzden elendi: R1 gönderisi için gelen açık gövdeli diyot lazer karesi kullanılmadı.
