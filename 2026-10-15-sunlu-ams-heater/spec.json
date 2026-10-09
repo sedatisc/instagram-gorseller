@@ -1,0 +1,134 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "kobalt",
+  "kapak": {
+    "tip": "urun",
+    "gorsel": "urun/ams-heater.jpg",
+    "odak": 0.0,
+    "ustbilgi": "AMS AKSESUARI · STOKTA",
+    "satir1": "SUNLU",
+    "satir2": "AMS HEATER",
+    "spot": "AMS'in kapağının yerine takılıyor ve baskı sürerken içerideki filamenti kurutuyor. Tek şartı var: AMS'inin 1. nesil olması.",
+    "ozet": [
+      [
+        "SICAKLIK",
+        "35-70 °C"
+      ],
+      [
+        "NEM",
+        "%10-90 ölçüm"
+      ],
+      [
+        "KURULUM",
+        "~2 dakika"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Baskıyı durdurmadan kurutuyor",
+      "aciklama": "Normalde makarayı AMS'ten çıkarıp kurutucuya koyman gerekiyor. Bu kapak o adımı kaldırıyor; kurutma ve baskı aynı anda yürüyor.",
+      "tablo": [
+        [
+          "SICAKLIK ARALIĞI",
+          "35-70 °C"
+        ],
+        [
+          "ISINMA",
+          "20 dakikada 70 °C"
+        ],
+        [
+          "NEM GÖSTERİMİ",
+          "%10-90, ölçüyor"
+        ],
+        [
+          "OTOMATİK MOD",
+          "%50'de başlar, %20'de durur"
+        ],
+        [
+          "EŞİK AYARI",
+          "%25-50 arası"
+        ],
+        [
+          "ZAMANLAYICI",
+          "0-99 saat"
+        ]
+      ]
+    },
+    {
+      "baslik": "Dikkat: yalnız AMS 1. nesil",
+      "aciklama": "Bu üründeki tek iade sebebi uyumluluk. Sipariş öncesi AMS'inin hangi nesil olduğuna bak.",
+      "satirlar": [
+        [
+          "01",
+          "Yalnız Bambu Lab AMS 1. nesil ile çalışıyor"
+        ],
+        [
+          "02",
+          "AMS Lite için ayrı bir ürün var, bu değil"
+        ],
+        [
+          "03",
+          "AMS 2 Pro ve AMS HT için SUNLU'nun ürünü yok"
+        ],
+        [
+          "04",
+          "Orijinal kapak sökülüp bu takılıyor; kalıcı değişiklik değil, kapak geri takılabiliyor"
+        ]
+      ]
+    },
+    {
+      "baslik": "Masaya ve prize bakın",
+      "aciklama": "Anma gücü 220 W ama ısınma anında 390 W'a çıkıyor. Çoklu AMS kurulumunda bunu hesaba kat.",
+      "tablo": [
+        [
+          "TEPE GÜCÜ",
+          "390 W"
+        ],
+        [
+          "ANMA GÜCÜ",
+          "220 W"
+        ],
+        [
+          "BEKLEME",
+          "0,6 W"
+        ],
+        [
+          "ÖLÇÜ",
+          "363 × 278 × 131 mm"
+        ],
+        [
+          "AĞIRLIK",
+          "1,7 kg"
+        ],
+        [
+          "İSTİFLEME",
+          "üst yüzey düz, üst üste konuyor"
+        ]
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "SANA",
+    "satir2": "UYAR MI?",
+    "kriterler": [
+      [
+        "AMS 1. NESİL",
+        "evet, bu ürün"
+      ],
+      [
+        "AMS LITE",
+        "hayır, ayrı ürün"
+      ],
+      [
+        "AMS 2 PRO · HT",
+        "ürün yok"
+      ],
+      [
+        "FİYAT VE STOK",
+        "sermenkreatif.com"
+      ]
+    ],
+    "not": "Rakamlar SUNLU'nun ürün sayfasından. Makara başına ayrı sıcaklık kontrolü yok, dört makara birlikte ısınıyor."
+  }
+}

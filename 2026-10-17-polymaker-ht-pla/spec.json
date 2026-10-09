@@ -1,0 +1,134 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "kiraz",
+  "kapak": {
+    "tip": "urun",
+    "gorsel": "urun/ht-pla.jpg",
+    "odak": 0.0,
+    "ustbilgi": "YÜKSEK SICAKLIK PLA · İNDİRİMDE",
+    "satir1": "POLYMAKER",
+    "satir2": "HT-PLA SERİSİ",
+    "spot": "Isı dayanımı kutudan çıkmıyor, tavlamayla geliyor. Üç dakikalık bir işlem, PLA'yı 61 °C'den 107 °C'ye taşıyor.",
+    "ozet": [
+      [
+        "TAVLAMA ÖNCESİ",
+        "61,4 °C"
+      ],
+      [
+        "SONRASI",
+        "107,2 °C"
+      ],
+      [
+        "SÜRE",
+        "3 dakika"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Tavlamazsan elinde pahalı PLA kalır",
+      "aciklama": "Isıl deformasyon sıcaklığı (HDT) tavlama öncesi normal PLA seviyesinde. Rakamlar Polymaker'ın kendi teknik veri sayfasından.",
+      "tablo": [
+        [
+          "HT-PLA · 0,45 MPa",
+          "61,4 → 107,2 °C"
+        ],
+        [
+          "HT-PLA · 1,8 MPa",
+          "58,6 → 71,7 °C"
+        ],
+        [
+          "HT-PLA-GF · 0,45 MPa",
+          "75,5 → 114,7 °C"
+        ],
+        [
+          "HT-PLA-GF · 1,8 MPa",
+          "59,7 → 84 °C"
+        ],
+        [
+          "TAVLAMA",
+          "80-90 °C'de 3 dakika"
+        ],
+        [
+          "OKUMA",
+          "önce → sonra"
+        ]
+      ]
+    },
+    {
+      "baslik": "Üç çeşidin işi ayrı",
+      "aciklama": "Aynı aileden ama aynı işi yapmıyorlar. Hangisini alacağın parçanın ne yapacağına bağlı.",
+      "satirlar": [
+        [
+          "HT-PLA",
+          "Isıya dayanıklı düz sürüm. Fonksiyonel parçanın geneli."
+        ],
+        [
+          "GRADIENT",
+          "Aynı ısı dayanımı, makara boyunca renk geçişi. Dekoratif."
+        ],
+        [
+          "HT-PLA-GF",
+          "Cam elyaf takviyeli. En yüksek HDT ve rijitlik."
+        ],
+        [
+          "SEÇİM",
+          "Araç içinde kalacak parça varsa GF."
+        ]
+      ]
+    },
+    {
+      "baslik": "Baskı ayarları",
+      "aciklama": "Üç çeşitte de nozul ve tabla aynı. Teknik veri sayfası tek değer veriyor, aralık değil.",
+      "tablo": [
+        [
+          "NOZUL",
+          "230 °C"
+        ],
+        [
+          "TABLA",
+          "50 °C"
+        ],
+        [
+          "NOZUL ÇAPI",
+          "0,4 mm referans"
+        ],
+        [
+          "VICAT · HT-PLA",
+          "156,2 °C"
+        ],
+        [
+          "VICAT · GF",
+          "148,9 °C"
+        ],
+        [
+          "ÇEKME · HT-PLA",
+          "42,9 MPa (XY)"
+        ]
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "ALMADAN ÖNCE",
+    "satir2": "ŞUNU BİL",
+    "kriterler": [
+      [
+        "TAVLAMA",
+        "şart, yoksa fark yok"
+      ],
+      [
+        "İŞLEM SÜRESİ",
+        "80-90 °C, 3 dakika"
+      ],
+      [
+        "İNCE PARÇA",
+        "düşük sıcaklıkta tavla"
+      ],
+      [
+        "FİYAT VE STOK",
+        "sermenkreatif.com"
+      ]
+    ],
+    "not": "Rakamlar Polymaker teknik veri sayfasından. GF cam elyaf içeriyor; aşındırıcılık için üretici beyanı yok."
+  }
+}

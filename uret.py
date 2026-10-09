@@ -1346,8 +1346,11 @@ def kapak_urun(spec, sayac, yol):
     f = fit(d, max(s1, s2, key=len), anton, 956, 106)
     etiket = P(spec.get("ustbilgi", "YENİ ÜRÜN")).upper()
     oz = [tuple(r) for r in spec.get("ozet", [])]
-    spot = wrap(d, P(spec["spot"]), pop(26, "Medium"), 900)[:2] \
+    spot = wrap(d, P(spec["spot"]), pop(26, "Medium"), 900) \
         if spec.get("spot") else []
+    if len(spot) > 2:                 # kesildiğini gizleme
+        spot = spot[:2]
+        spot[-1] = spot[-1].rstrip(" ,;.—-") + "…"
 
     blok = 44 + f.size * 1.08 * 2 + 44
     blok += len(spot) * 40 + (14 if spot else 0)
@@ -1364,7 +1367,7 @@ def kapak_urun(spec, sayac, yol):
 
     d.text((GUT, y), etiket, font=mono(27, True), fill=AC(), anchor="la")
     y += 44
-    d.text((GUT, y), s1, font=f, fill=WHITE, anchor="la")
+    d.text((GUT, y), s1, font=f, fill=FG(), anchor="la")
     y += f.size * 1.08
     img.alpha_composite(glow((W, H), lambda g: g.text(
         (GUT, y), s2, font=f, fill=a(AC(), 0.78), anchor="la"), 26))
@@ -1373,8 +1376,7 @@ def kapak_urun(spec, sayac, yol):
     y += f.size * 1.08 + 44
 
     for ln in spot:
-        d.text((GUT, y), ln, font=pop(26, "Medium"), fill=(214, 224, 240),
-               anchor="la")
+        d.text((GUT, y), ln, font=pop(26, "Medium"), fill=FG2(), anchor="la")
         y += 40
     if spot:
         y += 14
@@ -1488,7 +1490,7 @@ def hikaye_urun(spec, yol):
     d.text((GUT, y), P(spec.get("ustbilgi", "YENİ ÜRÜN")).upper(),
            font=mono(28, True), fill=AC(), anchor="la")
     y += 44
-    d.text((GUT, y), s1, font=f, fill=WHITE, anchor="la")
+    d.text((GUT, y), s1, font=f, fill=FG(), anchor="la")
     y += f.size * 1.1
     img.alpha_composite(glow((SW, SH), lambda g: g.text(
         (GUT, y), s2, font=f, fill=a(AC(), 0.78), anchor="la"), 26))
@@ -1496,8 +1498,7 @@ def hikaye_urun(spec, yol):
     d.text((GUT, y), s2, font=f, fill=AC(), anchor="la")
     y += f.size * 1.1 + 42
     for ln in spot:
-        d.text((GUT, y), ln, font=pop(32, "Medium"), fill=(216, 226, 242),
-               anchor="la")
+        d.text((GUT, y), ln, font=pop(32, "Medium"), fill=FG2(), anchor="la")
         y += 46
     if oz:
         _ozet_serit(img, oz, y + 10, 100)

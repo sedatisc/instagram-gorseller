@@ -1,0 +1,134 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "okyanus",
+  "kapak": {
+    "tip": "urun",
+    "gorsel": "urun/liber.jpg",
+    "odak": 0.0,
+    "ustbilgi": "SNAPMAKER U1 AKSESUARI · STOKTA",
+    "satir1": "PHAETUS × SNAPMAKER",
+    "satir2": "LIBER HOTEND",
+    "spot": "Eriyik kanalını bölerek aynı güçte daha çok filament eritiyor. Sertleştirilmiş çelik, ama aşındırıcı filament için değil.",
+    "ozet": [
+      [
+        "AKIŞ",
+        "ABS'de +%87"
+      ],
+      [
+        "NOZUL",
+        "0,4 mm DLC"
+      ],
+      [
+        "SICAKLIK",
+        "300 °C"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Kazanç hızda değil, akışta",
+      "aciklama": "Nozul içindeki eriyik birden çok kanala bölünüyor, yüzey/hacim oranı artıyor ve aynı enerjiyle birim zamanda daha fazla filament eriyor.",
+      "tablo": [
+        [
+          "PLA AKIŞ",
+          "+%66"
+        ],
+        [
+          "ABS AKIŞ",
+          "+%87"
+        ],
+        [
+          "PETG HF AKIŞ",
+          "+%43"
+        ],
+        [
+          "NOZUL SERTLİĞİ",
+          "HV 725-780, DLC kaplı"
+        ],
+        [
+          "ISI KESİCİ",
+          "dikişsiz, Ra ≤ 0,2 µm"
+        ],
+        [
+          "ÖLÇÜM KOŞULU",
+          "eşit enerji tüketimi"
+        ]
+      ]
+    },
+    {
+      "baslik": "Bunu aşındırıcı filament için alma",
+      "aciklama": "Sertleştirilmiş çelik deyince akla karbon fiber geliyor ama üretici tam tersini söylüyor. Bu hotend o iş için önerilmiyor.",
+      "satirlar": [
+        [
+          "01",
+          "Karbon ve cam elyaf takviyeli filament önerilmiyor"
+        ],
+        [
+          "02",
+          "Ahşap dolgulu filament ve TPU da önerilmiyor"
+        ],
+        [
+          "03",
+          "Aşındırıcı malzeme için Snapmaker'ın kendi sertleştirilmiş çelik seti var"
+        ],
+        [
+          "04",
+          "Maksimum sıcaklık 300 °C — standart hotend ile birebir aynı, sıcaklık kazancı yok"
+        ]
+      ]
+    },
+    {
+      "baslik": "U1 dört başlıklı, dört adet gerekiyor",
+      "aciklama": "Tek hotend alıp kalanını standart bırakırsan baskı en yavaş kafaya göre ilerliyor. Set alımı hem ucuz hem tutarlı.",
+      "tablo": [
+        [
+          "ÇAP SEÇENEĞİ",
+          "yalnız 0,4 mm"
+        ],
+        [
+          "DESTEKLENEN",
+          "PLA, PETG, ABS, ASA, PA, PC"
+        ],
+        [
+          "ÖNERİLEN NOZUL",
+          "240-260 °C"
+        ],
+        [
+          "ÖNERİLEN TABLA",
+          "60-85 °C"
+        ],
+        [
+          "ÖNERİLEN HIZ",
+          "50-150 mm/s"
+        ],
+        [
+          "TAKMA",
+          "standart hotend ile aynı, 2 vida"
+        ]
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "SENİN İŞİNE",
+    "satir2": "YARAR MI?",
+    "kriterler": [
+      [
+        "BÜYÜK, DÜZ PARÇA",
+        "evet, akış kazancı burada"
+      ],
+      [
+        "KARBON / CAM ELYAF",
+        "hayır, önerilmiyor"
+      ],
+      [
+        "DETAYLI KÜÇÜK PARÇA",
+        "fark küçülüyor"
+      ],
+      [
+        "FİYAT VE STOK",
+        "sermenkreatif.com"
+      ]
+    ],
+    "not": "Akış yüzdeleri üretici testinden, eşit enerji koşulunda. Mutlak mm³/s değeri yayınlanmadı."
+  }
+}
