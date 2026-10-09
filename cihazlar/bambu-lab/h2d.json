@@ -1,0 +1,52 @@
+{
+  "marka": "Bambu Lab",
+  "model": "H2D",
+  "tip": "FDM",
+  "sira": 1,
+  "durum": "satista",
+  "cikis": "2025-03",
+  "ozet": "Büyük hacimli, çift nozullu ve ısıtmalı kabinli amiral gemisi FDM yazıcı; lazer/kesici modülleriyle atölyeye dönüşen profesyonel ve ileri seviye kullanıcılar için.",
+  "alan": "325 × 320 × 325 mm (tek nozul) · 300 × 320 × 320 mm (çift nozul)",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "1.000 mm/s",
+  "ivme": "20.000 mm/s²",
+  "ekstruder": "Çift nozul tek kafada, direct drive, 0,4 mm sertleştirilmiş çelik",
+  "nozul_sicaklik": "350 °C",
+  "tabla_sicaklik": "120 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": true,
+  "cok_renk": "AMS 2 Pro / AMS HT, 25 renge kadar; çift nozul ile ayrıca iki malzeme",
+  "baglanti": "Wi-Fi 2,4/5 GHz · LAN modu · Bambu Handy",
+  "olcu": "492 × 514 × 626 mm",
+  "agirlik": "31 kg",
+  "guc": "220 V'ta en fazla 2.200 W (110 V'ta 1.320 W)",
+  "one_cikan": [
+    "Çift nozul: destek/renk değişiminde purge atığı tek nozullu makinelere göre belirgin azalıyor",
+    "Aktif 65 °C ısıtmalı kabin + 3 kademeli filtre (G3 + H12 HEPA + karbon) ile ABS, ASA, PA, PPS sınıfı mühendislik filamentleri",
+    "Opsiyonel 10 W / 40 W lazer, bıçak ve kalem modülleri — tek gövdede yazıcı + lazer kesim + plotter",
+    "İki nozulun ayrı ayrı otomatik tabla kalibrasyonu ve nozul başına akış kalibrasyonu"
+  ],
+  "dikkat": [
+    "Lazer, bıçak ve AMS modülleri ayrı satılıyor; vitrindeki fiyat çıplak makinenin fiyatı",
+    "Yazıcıda lidar yok — mikro lidar sadece lazer modülünde ve yalnız Z yüksekliği için",
+    "31 kg ve 492 × 514 × 626 mm gövde; masaüstünden çok sabit tezgâh işi",
+    "Çift nozul modunda baskı alanı 325 mm'den 300 mm'ye düşüyor"
+  ],
+  "fiyat_usd": "1.549 $",
+  "tr_satici": "MetaTech (store.metatechtr.com)",
+  "tr_fiyat": "97.464,40 TL (KDV dahil)",
+  "tr_stok": "bilinmiyor",
+  "tr_link": "https://store.metatechtr.com/bambu-lab-h2d-3d-printer",
+  "dogrulanmadi": [
+    "TR stok durumu (sayfada hem \"Ön Sipariş\" hem \"Tükendi\" etiketi görünüyor, çelişkili)"
+  ],
+  "kaynak": [
+    "https://en.wikipedia.org/wiki/Bambu_Lab",
+    "https://bambuhub.net/printers/h2d",
+    "https://bambuhub.net/all-printers",
+    "https://store.metatechtr.com/bambu-lab-h2d-3d-printer"
+  ],
+  "slug": "h2d",
+  "gorsel": "cihaz/bambu-lab-h2d.jpg"
+}

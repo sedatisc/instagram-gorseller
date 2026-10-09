@@ -1,0 +1,54 @@
+{
+  "marka": "Creality",
+  "model": "Ender-3 V3 KE",
+  "tip": "FDM",
+  "sira": 8,
+  "durum": "satista",
+  "cikis": null,
+  "ozet": "Klipper tabanlı firmware ve Sprite direct drive ile gelen klasik Ender gövdesinin hızlı sürümü; en düşük bütçeyle işe yarar yazıcı isteyene.",
+  "alan": "220 × 220 × 240 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "500 mm/s (standart 300 mm/s)",
+  "ivme": "8.000 mm/s²",
+  "ekstruder": "Sprite direct drive, pirinç 0,4 mm nozul, 60 W seramik ısıtıcı",
+  "nozul_sicaklik": "300 °C",
+  "tabla_sicaklik": "100 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": false,
+  "cok_renk": null,
+  "baglanti": "Wi-Fi · LAN · USB · Creality Cloud",
+  "olcu": "433 × 366 × 490 mm",
+  "agirlik": "7,8 kg",
+  "guc": "350 W",
+  "one_cikan": [
+    "279 dolar liste ile Creality'nin en ucuz güncel modeli",
+    "Klipper tabanlı açık kaynak firmware, input shaping, otomatik tabla seviyeleme",
+    "Sprite direct drive ve 300 °C nozul: TPU 95A, PETG, ABS, ASA listede",
+    "7,8 kg, taşıması ve kurması kolay",
+    "Ender ekosistemi: yedek parça ve topluluk profili bulmak en kolay"
+  ],
+  "dikkat": [
+    "8.000 mm/s² ivme çok düşük — 500 mm/s pratikte ulaşılmıyor",
+    "Pirinç nozul standart; CF filament için sertleştirilmiş nozul ayrı",
+    "Açık gövde ve kabin ısıtması yok — ABS/ASA için uygun değil",
+    "Çok renk desteği yok",
+    "Resmî sayfadaki katman yüksekliği değeri hatalı yazılmış"
+  ],
+  "fiyat_usd": "279 $",
+  "tr_satici": "Robotzade",
+  "tr_fiyat": "17.760,00 TL",
+  "tr_stok": "yok",
+  "tr_link": "https://www.robotzade.com/urun/creality-ender-3-v3-ke-hizli-3d-yazici",
+  "dogrulanmadi": [
+    "çıkış tarihi",
+    "bağımsız hız testi",
+    "stokta satan bayi"
+  ],
+  "kaynak": [
+    "https://www.creality.com/support/creality-ender-3-v3-ke",
+    "https://www.3djake.com/creality-3d-printers-spare-parts/ender-3-v3-ke"
+  ],
+  "slug": "ender-3-v3-ke",
+  "gorsel": "cihaz/creality-ender-3-v3-ke.jpg"
+}

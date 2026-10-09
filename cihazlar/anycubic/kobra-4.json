@@ -1,0 +1,51 @@
+{
+  "marka": "Anycubic",
+  "model": "Kobra 4",
+  "tip": "FDM",
+  "sira": 5,
+  "durum": "satista",
+  "cikis": "2026-05",
+  "ozet": "Kobra X ile aynı gövdeyi ve hızı paylaşan, çok renkliliği harici ACE 2 Pro ünitesine bırakan açık gövdeli ucuz giriş seviyesi FDM yazıcı.",
+  "alan": "260 × 260 × 260 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "600 mm/s (önerilen 300 mm/s)",
+  "ivme": "20.000 mm/s² (önerilen 10.000 mm/s²)",
+  "ekstruder": "Kısa mesafeli doğrudan ekstrüzyon",
+  "nozul_sicaklik": "300 °C",
+  "tabla_sicaklik": "100 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": false,
+  "cok_renk": "Dahili değil; ACE 2 Pro ile 4 renk, ikinci ünite ve hub ile 8 renk",
+  "baglanti": "Çift bant Wi-Fi (2,4 / 5 GHz) · LAN · USB · Anycubic App",
+  "olcu": "455,4 × 445,3 × 461,3 mm",
+  "agirlik": "9,9 kg",
+  "guc": null,
+  "one_cikan": [
+    "260 mm küp baskı alanı ve 600 mm/s hız: mekanik olarak Kobra X ile aynı",
+    "Elinizde ACE 2 Pro varsa doğrudan kullanılabiliyor (Kobra X bu üniteyi kullanamıyor)",
+    "Tek renk gövde 279 $ ile sınıfının en ucuzlarından; Combo 379 $",
+    "Çok sessiz çalışma, güncel nesil Anycubic kart ve dilimleyici ekosistemi"
+  ],
+  "dikkat": [
+    "Çok renk için harici ACE 2 Pro şart; renk değişimi Kobra X'ten yavaş ve daha fazla purge atığı üretiyor",
+    "Açık gövde: ABS/ASA için uygun değil",
+    "Kobra X ile neredeyse birebir aynı; incelemelerin ortak eleştirisi ürün gamında kafa karışıklığı yaratması",
+    "Henüz bağımsız inceleme sayısı az"
+  ],
+  "fiyat_usd": "279 $ (Combo 379 $)",
+  "tr_satici": "DomiRobot (Anycubic Türkiye yetkili satıcısı)",
+  "tr_fiyat": "15.550,00 TL",
+  "tr_stok": "var",
+  "tr_link": "https://www.domirobot.com/anycubic-kobra-4-3d-yazici-pmu8024",
+  "dogrulanmadi": [
+    "Güç tüketimi (W)"
+  ],
+  "kaynak": [
+    "https://store.anycubic.com/products/kobra-4-3d-printer",
+    "https://3dbite.com/anycubic-kobra-4-vs-kobra-x-comparison/",
+    "https://www.domirobot.com/anycubic-kobra-4-3d-yazici-pmu8024"
+  ],
+  "slug": "kobra-4",
+  "gorsel": "cihaz/anycubic-kobra-4.jpg"
+}

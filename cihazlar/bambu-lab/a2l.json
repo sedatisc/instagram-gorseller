@@ -1,0 +1,56 @@
+{
+  "marka": "Bambu Lab",
+  "model": "A2L",
+  "tip": "FDM",
+  "sira": 4,
+  "durum": "satista",
+  "cikis": "2026-06",
+  "ozet": "A1'in yerine geçen, çok daha büyük baskı alanlı açık gövdeli giriş seviyesi yazıcı; bütçesi kısıtlı ama büyük parça basmak isteyen hobi kullanıcıları için.",
+  "alan": "330 × 320 × 325 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "500 mm/s",
+  "ivme": "10.000 mm/s²",
+  "ekstruder": "Direct drive, entegre filament kesicili, 0,4 mm nozul (0,2–0,8 mm destekli)",
+  "nozul_sicaklik": "300 °C",
+  "tabla_sicaklik": "80 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": false,
+  "cok_renk": "AMS Lite; 1 AMS Lite + 4 adede kadar kutu AMS ile 19 renge kadar",
+  "baglanti": "Wi-Fi 2,4 GHz · Bambu-Bus · LAN modu (Ethernet yok)",
+  "olcu": null,
+  "agirlik": null,
+  "guc": "en fazla 1.000 W",
+  "one_cikan": [
+    "A1'e göre yaklaşık %105 daha fazla baskı hacmi — aynı sınıfta açık ara en büyük alan",
+    "469 $ gibi bir fiyata 330 × 320 × 325 mm; kapalı kabinli büyük makinelerin dörtte biri maliyet",
+    "Ekstrüdere entegre filament kesici ile AMS Lite renk değişimleri daha temiz ve hızlı",
+    "69 $'lık opsiyonel Cutting Upgrade Kit ile sürgülü bıçak ve kalem modülü — kesim ve çizim de yapıyor (H2 serisi dışında bu özelliğin olduğu tek model)"
+  ],
+  "dikkat": [
+    "Kabin ve ısıtmalı hazne yok; ABS, ASA ve naylon için uygun değil — PLA, PETG ve TPU odaklı",
+    "Tabla 80 °C ile sınırlı; Bambu bunu ev elektrik çekişi gerekçesiyle bilinçli sınırladığını söylüyor",
+    "Lidar yok",
+    "Tek nozul: çok renk AMS purge mantığıyla çalışıyor, atık ve süre artıyor",
+    "Kesim kiti ayrı ücretli",
+    "Geniş açık tabla hava akımından etkileniyor, cereyansız ve bol yer gerekiyor",
+    "Wi-Fi yalnız 2,4 GHz"
+  ],
+  "fiyat_usd": "469 $ (tek başına) · 569 $ (AMS Lite Combo)",
+  "tr_satici": "Robolink (yetkili satıcı) · MetaTech",
+  "tr_fiyat": "25.986,00 TL (KDV dahil)",
+  "tr_stok": "bilinmiyor",
+  "tr_link": "https://www.robolinkmarket.com/bambu-lab-a2l-3d-yazici",
+  "dogrulanmadi": [
+    "Cihaz ölçüleri ve ağırlığı",
+    "TR stok durumu (sayfada \"Tükendi\" ile \"Sepete Ekle\" aynı anda görünüyor)"
+  ],
+  "kaynak": [
+    "https://en.wikipedia.org/wiki/Bambu_Lab",
+    "https://bambuhub.net/printers/a2l",
+    "https://bambuhub.net/all-printers",
+    "https://www.robolinkmarket.com/bambu-lab-a2l-3d-yazici"
+  ],
+  "slug": "a2l",
+  "gorsel": "cihaz/bambu-lab-a2l.jpg"
+}

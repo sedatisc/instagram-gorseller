@@ -1,0 +1,57 @@
+{
+  "marka": "Snapmaker",
+  "model": "Ray 40W",
+  "tip": "Lazer",
+  "sira": 6,
+  "durum": "satista",
+  "cikis": "2023-08",
+  "ozet": "Snapmaker'ın çok işlevli gövdeden ayrı çıkardığı saf diyot lazer kazıma ve kesme makinesi; 400 × 600 mm'lik geniş alanda ahşap ve akrilik kesmek isteyen kullanıcıya hitap ediyor.",
+  "alan": null,
+  "lazer": "40 W (450–460 nm yarı iletken), 400 × 600 mm; lazer noktası 0,1 × 0,15 mm",
+  "cnc": null,
+  "hiz": "500 mm/s (azami çalışma hızı); azami kesme hızı 20 mm/s",
+  "ivme": null,
+  "ekstruder": null,
+  "nozul_sicaklik": null,
+  "tabla_sicaklik": null,
+  "ekran_cozunurluk": null,
+  "kapali_kabin": false,
+  "cok_renk": null,
+  "baglanti": "Wi-Fi · USB",
+  "olcu": "849 × 600 × 303 mm (kabinsiz) · 933 × 665 × 417 mm (kabinli)",
+  "agirlik": "15,06 kg (kabinsiz)",
+  "guc": "215 W (makine, kabinsiz); lazer elektrik gücü 140 W",
+  "one_cikan": [
+    "400 × 600 mm çalışma alanı, Artisan'ın 400 × 400 mm lazer alanından belirgin biçimde büyük",
+    "Tek geçişte 15 mm kavak kontrplak kesiyor; hava destek (air assist) kutuda geliyor ve kesim kenarını temiz bırakıyor",
+    "Silindirik ayak takımıyla azami 160 mm çalışma yüksekliği — kalın ve hacimli parçaların üstüne kazıma yapılabiliyor",
+    "Luban ve LightBurn ile çalışıyor; 1.000'den fazla hazır tasarım şablonu ile geliyor",
+    "20 W sürümü aynı gövdede daha ince lazer noktası (0,08 × 0,1 mm) veriyor ama kesme hızı 10 mm/s ve tek geçiş kalınlığı 10 mm'de kalıyor"
+  ],
+  "dikkat": [
+    "Kabin standart değil, ayrı satılıyor (299 $); diyot lazerde duman ve koku ciddi mesele olduğu için hava temizleyici de pratikte zorunlu ve ayrı fiyatlanıyor",
+    "Resmi mağazada 40 W makine \"Sold out\" görünüyor, bazı Avrupa bayileri ürünü tamamen listeden çıkarmış — hattın devam edip etmediği net değil",
+    "Diyot lazer; CO2 lazerin aksine şeffaf akrilik, cam ve çıplak metali kesemiyor",
+    "Ekran/arayüz bilgisi resmi teknik tabloda verilmiyor"
+  ],
+  "fiyat_usd": "699 $ (liste 1.699 $)",
+  "tr_satici": null,
+  "tr_fiyat": null,
+  "tr_stok": "bilinmiyor",
+  "tr_link": null,
+  "dogrulanmadi": [
+    "üretimin sürüp sürmediği (resmi mağazada tükendi, bir Avrupa bayisi \"artık satılmıyor\" diyor)",
+    "ekran varlığı ve çözünürlüğü",
+    "ivme değeri",
+    "TR satıcı"
+  ],
+  "kaynak": [
+    "https://shop.snapmaker.com/products/snapmaker-ray-20w-40w-laser-engraver-and-cutter-with-air-assist",
+    "https://3djake.com/snapmaker/snapmaker-ray-including-enclosure",
+    "https://www.robotshop.com/products/snapmaker-ray-40w-laser-engraver-cutter-w-air-assist",
+    "https://www.snapmaker.com/product-comparison",
+    "https://www.aap.com.au/aapreleases/cision20230822ae85768"
+  ],
+  "slug": "ray-40w",
+  "gorsel": "cihaz/snapmaker-ray-40w.jpg"
+}

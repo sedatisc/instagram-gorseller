@@ -1,0 +1,56 @@
+{
+  "marka": "Anycubic",
+  "model": "Photon P1",
+  "tip": "Recine",
+  "sira": 4,
+  "durum": "satista",
+  "cikis": "2025-12",
+  "ozet": "14K 10,1 inç ekranlı, opsiyonel çift hazne platformuyla tek baskıda iki renk/iki malzeme basabilen, yarı profesyonel sınıfa nişan alan reçine yazıcı.",
+  "alan": "223 × 126 × 230 mm (6,5 L)",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "25–35 mm/sa (0,05 mm katman, standart reçine)",
+  "ivme": null,
+  "ekstruder": null,
+  "nozul_sicaklik": null,
+  "tabla_sicaklik": null,
+  "ekran_cozunurluk": "14K mono LCD, 10,1 inç, 13.312 × 5.120 px, 16,8 × 24,8 µm piksel",
+  "kapali_kabin": true,
+  "cok_renk": "Opsiyonel çift renk / çift malzeme baskı platformu (ayrı satılıyor)",
+  "baglanti": "Wi-Fi · USB (Ethernet yok)",
+  "olcu": "366 × 338 × 539 mm",
+  "agirlik": "13,6 kg",
+  "guc": "215 W",
+  "one_cikan": [
+    "Çift hazne platformu ile tek baskıda iki farklı reçine (renk veya malzeme)",
+    "Z ekseninde çift ray + bilyalı vida, 0,02–0,15 mm katman aralığı",
+    "Isıtmalı hazne (40 °C'ye kadar) ve şeffaf NFEP/PFA film",
+    "Paslanmaz çelik baskı tablası, mandallı kapak ve döküm ağızlığı",
+    "COB + Fresnel + maske optik sistemi, 5.000 µW/cm² ışık şiddeti, ≤45 dB"
+  ],
+  "dikkat": [
+    "Tanıtımdaki \"otomatik tablalama\" aslında 4 basınç sensörlü yardımlı manuel ayar",
+    "\"Endüstriyel\" söylemine rağmen bilyalı vida C7 sınıfı, C5 değil",
+    "Ethernet portu ve fiziksel güç düğmesi yok",
+    "Haznedeki maksimum dolum çizgisine kadar doldurmak taşmaya yol açabiliyor",
+    "Çok tanıtılan çift hazne platformu ayrı satılan niş bir aksesuar; ilk partideki UV kapağı ışık geçiriyordu (üretici değiştirdi)"
+  ],
+  "fiyat_usd": "689 $",
+  "tr_satici": "Rhino3D Printer",
+  "tr_fiyat": "37.595,92 TL",
+  "tr_stok": "bilinmiyor",
+  "tr_link": "https://www.rhino3dprinter.com/anycubic-photon-p1",
+  "dogrulanmadi": [
+    "Katman pozlama süresi (s)",
+    "TR stok (Rhino3D sayfasında belirtilmiyor; Hepsiburada'da \"20 adetten az\" görünüyor)"
+  ],
+  "kaynak": [
+    "https://store.anycubic.com/products/photon-p1-resin-3d-printer",
+    "https://www.fauxhammer.com/reviews/anycubic-photon-p1-review-a-capable-14k-resin-printer-wearing-prosumer-clothing/",
+    "https://www.prnewswire.com/news-releases/anycubic-unveils-photon-p1-industrial-grade-precision-for-the-prosumer-resin-era-302646943.html",
+    "https://www.rhino3dprinter.com/anycubic-photon-p1",
+    "https://www.hepsiburada.com/anycubic-photon-p1-recine-3d-yazici-pm-HBC0000EUPLKS"
+  ],
+  "slug": "photon-p1",
+  "gorsel": "cihaz/anycubic-photon-p1.jpg"
+}

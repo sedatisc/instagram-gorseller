@@ -1,0 +1,58 @@
+{
+  "marka": "Prusa",
+  "model": "CORE One+ (Gen 2)",
+  "tip": "FDM",
+  "sira": 1,
+  "durum": "satista",
+  "cikis": "2026-08",
+  "ozet": "Prusa'nın kapalı kabinli CoreXY amiral gemisi; mühendislik malzemeleriyle güvenilir baskı isteyen ileri seviye hobici ve kurumsal kullanıcıya hitap ediyor.",
+  "alan": "250 × 220 × 270 mm (14,9 L)",
+  "lazer": null,
+  "cnc": null,
+  "hiz": null,
+  "ivme": null,
+  "ekstruder": "Nextruder (direkt tahrik, 10:1 planet redüktör, adaptörle E3D V6 uyumlu)",
+  "nozul_sicaklik": "290 °C",
+  "tabla_sicaklik": "120 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": true,
+  "cok_renk": "MMU3 ile 5 renk (opsiyonel) · INDX 4/8 takım yükseltmesi (opsiyonel)",
+  "baglanti": "Ethernet · USB bellek · NFC · çıkarılabilir Wi-Fi modülü · Prusa Connect",
+  "olcu": "415 × 444 × 555 mm",
+  "agirlik": "22,5 kg",
+  "guc": "240 W güç kaynağı · 90 W (PLA) / 110 W (ABS)",
+  "one_cikan": [
+    "Aktif ısıtmalı kapalı kabin: 55 °C'ye kadar, ABS/ASA/PC gibi malzemeler kapı kapalı basılabiliyor",
+    "Ağustos 2026 Gen 2 yenilemesi: yeniden tasarlanmış tabla bağlantısı (daha düzgün ve hızlı ısınan), 85 °C ve altı malzemelerde (PLA, PETG) ısı bekleme adımının kalkması, sökülebilir üst panel",
+    "GT1.5 kayışlar ve baskı öncesi nozulu temizleyen silecek — yüzeydeki VFA desenlerini azaltıyor",
+    "Açık kaynak yazılım/donanım; internet ve hesap gerekmeden tamamen çevrimdışı çalışır, Prusa Connect zorunlu değil",
+    "Filament çipi/DRM yok (her markanın 1,75 mm filamenti), tornavidayla sökülebilir gövde, tek tek satılan yedek parça ve yayımlanmış tamir kılavuzları"
+  ],
+  "dikkat": [
+    "MK4S'e göre yüksek hızlarda belirgin şekilde daha gürültülü",
+    "Rakiplerine göre pahalı; çok renk kutudan çıkmıyor, MMU3/INDX ayrı satılıyor",
+    "MMU3 çok renk ünitesi Bambu Lab AMS kadar olgun/kullanıcı dostu değil",
+    "Otomatik filament tanıma temel modelde yok; filament makarası kabin dışında, açıkta duruyor",
+    "Prusa resmî maksimum baskı hızı/ivme değeri yayımlamıyor — rakiplerle sayısal hız kıyası yapılamıyor"
+  ],
+  "fiyat_usd": "925 $ (kit) · 1.202,78 $ (montajlı) — Prusa e-mağaza; ABD'de PrintedSolid üzerinden 1.149 $ / 1.449 $",
+  "tr_satici": null,
+  "tr_fiyat": null,
+  "tr_stok": "yok",
+  "tr_link": null,
+  "dogrulanmadi": [
+    "maksimum baskı hızı",
+    "ivme",
+    "Türkiye yetkili satıcı",
+    "Prusa'nın Türkiye'ye doğrudan gönderim koşulları"
+  ],
+  "kaynak": [
+    "https://www.prusa3d.com/ja/product/prusa-core-one-kit-5/",
+    "https://www.printedsolid.com/products/original-prusa-core-one-gen-2",
+    "https://chiptron.eu/prusa-has-updated-its-entire-printer-lineup-xl-core-one-l-and-core-one-gen-2/",
+    "https://www.techradar.com/pro/original-prusa-core-one-3d-printer-review",
+    "https://www.3djake.com/prusa/core-one-gen-2"
+  ],
+  "slug": "core-one-plus-gen-2",
+  "gorsel": "cihaz/prusa-core-one-plus-gen-2.jpg"
+}

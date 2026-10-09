@@ -1,0 +1,57 @@
+{
+  "marka": "Prusa",
+  "model": "MK4S",
+  "tip": "FDM",
+  "sira": 2,
+  "durum": "satista",
+  "cikis": "2024-08",
+  "ozet": "Prusa'nın açık gövdeli i3 serisindeki klasik çok yönlü makinesi; en uygun fiyatla tam boy Prusa isteyen hobici ve eğitim kurumlarına hitap ediyor.",
+  "alan": "250 × 210 × 220 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": null,
+  "ivme": null,
+  "ekstruder": "Nextruder (direkt tahrik, 10:1 planet redüktör, adaptörle E3D V6 uyumlu)",
+  "nozul_sicaklik": "290 °C",
+  "tabla_sicaklik": "120 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": false,
+  "cok_renk": "MMU3 ile 5 renk (opsiyonel)",
+  "baglanti": "Ethernet · NFC · çıkarılabilir Wi-Fi modülü (kutuda geliyor) · Prusa Connect",
+  "olcu": "500 × 550 × 400 mm (makara hariç)",
+  "agirlik": "7 kg",
+  "guc": "240 W güç kaynağı · 80 W (PLA) / 120 W (ABS)",
+  "one_cikan": [
+    "Yüksek akışlı Prusa CHT pirinç nozul (0,4 mm) standart; MK3S+'ın iki katı hız iddiası",
+    "360° çepeçevre parça soğutma — desteksiz 75°'ye kadar çıkıntı",
+    "CORE One'a dönüşüm kiti var: makineyi atmadan kapalı kabinli CoreXY'ye yükseltme yolu",
+    "Sadece 7 kg; seriye göre en hafif ve en kolay taşınan tam boy Prusa",
+    "Açık kaynak, çevrimdışı çalışma, DRM'siz filament ve tek tek satılan yedek parça; opsiyonel GPIO kartı (8 giriş / 8 çıkış, G-code ile kontrol)"
+  ],
+  "dikkat": [
+    "Açık gövde: ABS/ASA/PC için kabin ayrı satılıyor (enclosure paketi)",
+    "Hareketli tabla (i3) mimarisi; Prusa CORE One'ı MK4S'ten %15-20 daha hızlı olarak tanıtıyor",
+    "Tam boy modeller içinde en küçük baskı hacmi (Z sadece 220 mm)",
+    "Çin menşeli rakiplere göre fiyatı yüksek; çok renk için MMU3 eklenmesi gerekiyor",
+    "Prusa'nın kendi karşılaştırma tablosu kit için 729 $ / montajlı için 999 $ yazıyor, ürün sayfasındaki güncel fiyatlarla çelişiyor"
+  ],
+  "fiyat_usd": "657,40 $ (kit) · 925 $ (montajlı) — Prusa e-mağazada görülen güncel fiyat",
+  "tr_satici": null,
+  "tr_fiyat": null,
+  "tr_stok": "yok",
+  "tr_link": null,
+  "dogrulanmadi": [
+    "maksimum baskı hızı",
+    "ivme",
+    "liste fiyatı (sayfa içi fiyat çelişkisi)",
+    "Türkiye yetkili satıcı"
+  ],
+  "kaynak": [
+    "https://www.prusa3d.com/product/original-prusa-mk4s-3d-printer-kit/",
+    "https://www.prusa3d.com/product/original-prusa-mk4s-3d-printer-kit-5/",
+    "https://all3dp.com/4/prusa-releases-mk4s-3d-printer-and-mk4-upgrade-kit/",
+    "https://blog.prusa3d.com/one-year-with-the-mk4shere-to-stay-permanent-price-drop_121571/"
+  ],
+  "slug": "mk4s",
+  "gorsel": "cihaz/prusa-mk4s.jpg"
+}

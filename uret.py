@@ -484,6 +484,35 @@ def tablo(d, satirlar):
         d.text((1745, y + h / 2), P(v), font=fv, fill=FG(), anchor="rm")
 
 
+def maddeler(d, satirlar):
+    """Etiketli madde listesi — uzun metin alt satıra sarıyor."""
+    n = max(1, len(satirlar))
+    ust, alt, ara = 60, 880, 28
+    h = min(220, (alt - ust) / n - ara)
+    adim_y = h + ara
+    y0 = ust + ((alt - ust) - (adim_y * n - ara)) / 2
+    fk = mono(max(26, min(42, int(h * 0.26))), True)
+    fv = pop(max(28, min(50, int(h * 0.30))), "Medium")
+    for i, (k, v) in enumerate(satirlar):
+        y = y0 + i * adim_y
+        d.rounded_rectangle([120, y, 1790, y + h], radius=22,
+                            fill=a(AC(), 0.09), outline=a(AC(), 0.34), width=3)
+        etiket = P(str(k)).upper()
+        ex = 165
+        d.text((ex, y + h / 2), etiket, font=fk, fill=AC(), anchor="lm")
+        tx = ex + d.textlength(etiket, font=fk) + 44
+        f = fv
+        sat = wrap(d, P(str(v)), f, 1745 - tx)
+        while len(sat) > 2 and f.size > 26:
+            f = pop(f.size - 2, "Medium")
+            sat = wrap(d, P(str(v)), f, 1745 - tx)
+        sat = sat[:2]
+        ty = y + h / 2 - (len(sat) - 1) * (f.size * 0.62)
+        for ln in sat:
+            d.text((tx, ty), ln, font=f, fill=FG(), anchor="lm")
+            ty += f.size * 1.24
+
+
 def panel(w, h, fn, vurgu=None):
     S = 2
     dw, dh = w * S, h * S
@@ -557,6 +586,8 @@ def place(img, card, x, y):
 def govde(spec):
     if spec.get("tablo"):
         return lambda d: tablo(d, [tuple(r) for r in spec["tablo"]])
+    if spec.get("satirlar"):
+        return lambda d: maddeler(d, [tuple(r) for r in spec["satirlar"]])
     if spec.get("cizim"):
         return lambda d: ciz(d, spec["cizim"])
     if spec.get("kartlar"):
@@ -1715,7 +1746,8 @@ def main():
         if sl.get("foto"):
             adim_foto(sl, i, len(slaytlar), "%d/%d" % (n, toplam), hedef)
             continue
-        fn = govde(sl) if (sl.get("cizim") or sl.get("tablo")) else ortak
+        fn = govde(sl) if (sl.get("cizim") or sl.get("tablo")
+                           or sl.get("satirlar")) else ortak
         adim(sl, fn, i, len(slaytlar), "%d/%d" % (n, toplam), hedef)
     if spec.get("kapanis"):
         n += 1

@@ -1,0 +1,55 @@
+{
+  "marka": "Prusa",
+  "model": "CORE One+ (Gen 2) INDX",
+  "tip": "FDM",
+  "sira": 5,
+  "durum": "satista",
+  "cikis": "2026-04",
+  "ozet": "CORE One+ gövdesine Bondtech ile geliştirilen INDX nozul değiştiricinin takıldığı sürüm; atıksız çok renkli/çok malzemeli baskı isteyenlere hitap ediyor.",
+  "alan": "248 × 205 × 270 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": null,
+  "ivme": null,
+  "ekstruder": "INDX Smart Head — endüktif ısıtmalı pasif nozul takımları (Bondtech geliştirmesi)",
+  "nozul_sicaklik": "290 °C",
+  "tabla_sicaklik": "120 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": true,
+  "cok_renk": "4 veya 8 takım; kule/atık kulesi yok",
+  "baglanti": "Ethernet · USB bellek · NFC · çıkarılabilir Wi-Fi modülü · Prusa Connect",
+  "olcu": "630 × 471 × 690 mm (makara tutucu ve üst kapak dahil)",
+  "agirlik": "24 kg",
+  "guc": null,
+  "one_cikan": [
+    "Takım değişimi başına yalnızca ~13 mg (0,013 g) hazırlık atığı — atık kulesi tamamen ortadan kalkıyor",
+    "Her takım kendi filamentiyle yüklü kalıyor; aktif tek kafa takımı alırken endüktif olarak ısıtıyor",
+    "Baskı alanı dışındaki çift hedefli eddy-current kalibrasyon istasyonu: takım başına yaklaşık 15 saniye",
+    "Mevcut CORE One ve CORE One+ sahiplerine sonradan takılabiliyor — gerekli yükseltme parçaları kitin içinde, önce CORE One+ almak gerekmiyor",
+    "PrusaSlicer ve EasyPrint'e FullSpectrum renk karıştırma ve eşleşen Prusament CMY filament seti geliyor"
+  ],
+  "dikkat": [
+    "Pahalı: Formnext'teki 499/699 $ beklentisinin 250-300 $ üzerine çıktı (kit 749 $ / 999 $)",
+    "Çıkışta TPU (Flex) profili yoktu; incelemede kendi profiliyle sızdırma ve tıkanma yaşandı",
+    "Dilimleyicide filament eşlemesi elle yapılıyor; yazıcı üzerinde otomatik renk eşleme yok",
+    "Takım rafı, CORE One+'a göre baskı alanından 15 mm Y ve 2 mm X yiyor; takımlar açıkta duruyor",
+    "Çıkışta tamamı sertleştirilmiş çelik nozulla gelemedi; ilk parti anında tükendi"
+  ],
+  "fiyat_usd": "1.699 $ (4 takım) · 2.119 $ (8 takım) — yalnız INDX yükseltme kiti: 749 $ (4 takım) / 999 $ (8 takım)",
+  "tr_satici": null,
+  "tr_fiyat": null,
+  "tr_stok": "yok",
+  "tr_link": null,
+  "dogrulanmadi": [
+    "maksimum baskı hızı",
+    "ivme",
+    "güç tüketimi",
+    "Türkiye yetkili satıcı"
+  ],
+  "kaynak": [
+    "https://tomshardware.com/3d-printing/prusa-core-one-plus-indx-review",
+    "https://all3dp.com/4/prusa-indx-orders-are-open-but-the-price-has-jumped-250-from-formnext-estimate/"
+  ],
+  "slug": "core-one-plus-gen-2-indx",
+  "gorsel": "cihaz/prusa-core-one-plus-gen-2-indx.jpg"
+}

@@ -1,0 +1,54 @@
+{
+  "marka": "Creality",
+  "model": "HALOT-X1",
+  "tip": "Recine",
+  "sira": 6,
+  "durum": "satista",
+  "cikis": "2025-08",
+  "ozet": "16K ekranlı, otomatik reçine besleme opsiyonlu güncel reçine amiral gemisi; minyatür ve yüksek detaylı figür basana.",
+  "alan": "211,68 × 118,37 × 200 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "170 mm/sa",
+  "ivme": null,
+  "ekstruder": null,
+  "nozul_sicaklik": null,
+  "tabla_sicaklik": null,
+  "ekran_cozunurluk": "16K mono LCD, 10,1 inç — 15.120 × 6.230 px (piksel 14 × 19 µm)",
+  "kapali_kabin": true,
+  "cok_renk": null,
+  "baglanti": "Wi-Fi · USB",
+  "olcu": "344 × 331 × 434 mm",
+  "agirlik": "12,93 kg",
+  "guc": "350 W",
+  "one_cikan": [
+    "14 × 19 µm piksel — minyatür ve takıda doğrudan fark edilen çözünürlük",
+    "AFU otomatik reçine besleme: dolum, tahliye, seviye takibi, 30–35 °C ısıtma",
+    "Petek matris ışık kaynağı, 92 bölgeli akıllı pozlama",
+    "RFID reçine tanıma — şişeden parametreleri otomatik yüklüyor",
+    "469 $ ile 16K sınıfında agresif fiyat"
+  ],
+  "dikkat": [
+    "Pozlama şiddeti kullanıcı tarafından ayarlanamıyor",
+    "211,68 × 118,37 mm tabla — büyük tek parça için uygun değil",
+    "Üretici PioCreat; Creality ve PioCreat listelemeleri karıştırılıyor",
+    "Reçine IPA yıkama, UV kür, eldiven ve havalandırma istiyor",
+    "170 mm/sa üretici beyanı, bağımsız ölçüm yok"
+  ],
+  "fiyat_usd": "469 $ (Combo 499 $)",
+  "tr_satici": "Porima3D",
+  "tr_fiyat": "38.564,46 TL",
+  "tr_stok": "yok",
+  "tr_link": "https://porima3d.com/products/creality-halot-x1-combo-recine-3d-yazici",
+  "dogrulanmadi": [
+    "katman pozlama süresi",
+    "bağımsız hız testi",
+    "stokta satan bayi"
+  ],
+  "kaynak": [
+    "https://www.creality.com/products/halot-x1",
+    "https://3dwithus.com/piocreat-halot-x1-launch-features-and-pricing"
+  ],
+  "slug": "halot-x1",
+  "gorsel": "cihaz/creality-halot-x1.jpg"
+}

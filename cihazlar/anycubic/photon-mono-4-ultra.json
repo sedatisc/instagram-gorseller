@@ -1,0 +1,54 @@
+{
+  "marka": "Anycubic",
+  "model": "Photon Mono 4 Ultra",
+  "tip": "Recine",
+  "sira": 8,
+  "durum": "satista",
+  "cikis": "2024-09",
+  "ozet": "7 inç 10K ekranlı, 5 kg gövdesiyle küçük masaya sığan ve güncel gamın en ucuz reçine modeli; minyatür ve takı ölçeğinde başlangıç makinesi.",
+  "alan": "153,4 × 87 × 165 mm (2,2 L)",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "≤80 mm/sa standart, ≤120 mm/sa yüksek hızlı reçine (0,1 mm katman)",
+  "ivme": null,
+  "ekstruder": null,
+  "nozul_sicaklik": null,
+  "tabla_sicaklik": null,
+  "ekran_cozunurluk": "10K mono LCD, 7 inç, 9.024 × 5.120 px, 17 × 17 µm piksel",
+  "kapali_kabin": true,
+  "cok_renk": null,
+  "baglanti": "USB · Wi-Fi · Anycubic App (LAN yok)",
+  "olcu": "231 × 236 × 430 mm",
+  "agirlik": "5 kg",
+  "guc": "66 W",
+  "one_cikan": [
+    "17 × 17 µm kare piksel: iki eksende eşit detay, minyatürde temiz yüzey",
+    "Sadece 5 kg ve 23 × 24 × 43 cm; küçük masaya ya da dolaba sığıyor",
+    "66 W düşük tüketim, ≤120 mm/sa yüksek hızlı reçine performansı",
+    "COB ışık kaynağı + Fresnel mercek, ≥%90 ışık homojenliği, ≥3.500 µW/cm²",
+    "FEP yerine ACF ayırma filmi: daha düşük ayırma kuvveti, daha az baskı kaybı"
+  ],
+  "dikkat": [
+    "2,2 L hacim küçük; büyük parçaları parçalara bölmek gerekiyor",
+    "LAN yok; dosya aktarımı USB veya Wi-Fi ile",
+    "Koku ve buhar için havalandırma, IPA ile yıkama ve UV kür reçinenin değişmeyen ek maliyeti",
+    "Türkiye'de birçok mağazada listeli ama stok sık tükeniyor; doğrulanan iki satıcıda da \"Tükendi\" görünüyor"
+  ],
+  "fiyat_usd": "344 $",
+  "tr_satici": "Robolink Market (Anycubic Türkiye yetkili satıcısı)",
+  "tr_fiyat": "18.999,00 TL (Wash & Cure 3 hediyeli paket)",
+  "tr_stok": "yok",
+  "tr_link": "https://www.robolinkmarket.com/anycubic-photon-mono-4-ultra-msla-3d-yazici",
+  "dogrulanmadi": [
+    "Katman pozlama süresi (s)"
+  ],
+  "kaynak": [
+    "https://store.anycubic.com/products/photon-mono-4-ultra",
+    "https://www.3djake.com/anycubic-3d-printer-and-accessories/photon-mono-4-ultra",
+    "https://all3dp.com/4/anycubic-announces-two-new-photon-mono-series-3d-printers/",
+    "https://www.robolinkmarket.com/anycubic-photon-mono-4-ultra-msla-3d-yazici",
+    "https://www.robotistan.com/anycubic-photon-mono-4-ultra-3d-printer-en"
+  ],
+  "slug": "photon-mono-4-ultra",
+  "gorsel": "cihaz/anycubic-photon-mono-4-ultra.jpg"
+}

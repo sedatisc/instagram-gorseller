@@ -1,0 +1,55 @@
+{
+  "marka": "Bambu Lab",
+  "model": "H2S",
+  "tip": "FDM",
+  "sira": 7,
+  "durum": "satista",
+  "cikis": "2025-08",
+  "ozet": "H2D'nin tek nozullu ve en büyük baskı alanlı sürümü; çift nozula ihtiyacı olmayıp maksimum hacim ve mühendislik malzemesi isteyen atölye ve kurumsal kullanıcılar için.",
+  "alan": "340 × 320 × 340 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "1.000 mm/s",
+  "ivme": "20.000 mm/s²",
+  "ekstruder": "Tek nozul direct drive, PMSM servo (DynaSense) ekstrüder, 10 kg'a kadar itme kuvveti, 0,4 mm sertleştirilmiş çelik",
+  "nozul_sicaklik": "350 °C",
+  "tabla_sicaklik": "120 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": true,
+  "cok_renk": "AMS 2 Pro / AMS HT; 4× AMS 2 Pro + 8× AMS HT ile 24 slot, 24 renge kadar",
+  "baglanti": "Wi-Fi 2,4/5 GHz · LAN modu (tam çevrimdışı çalışabiliyor) · USB",
+  "olcu": "492 × 514 × 626 mm",
+  "agirlik": "30 kg (Laser Edition 30,5 kg)",
+  "guc": "220 V'ta en fazla 2.050 W (110 V'ta 1.170 W)",
+  "one_cikan": [
+    "Tüm Bambu ailesinde en büyük baskı hacmi: 340 × 320 × 340 mm",
+    "Aktif 65 °C ısıtmalı, aleve dayanıklı kabin ve 3 kademeli filtre — PA, PC, PPS sınıfı malzemeler",
+    "10 kg itme kuvvetli PMSM servo ekstrüder; yüksek akış ve zorlu filamentlerde kararlılık",
+    "İnternet gerektirmeden LAN üzerinden tam çevrimdışı çalışma (kurumsal ağlar için önemli)",
+    "24 renge kadar genişleyebilen AMS mimarisi; Laser Edition sürümü de mevcut"
+  ],
+  "dikkat": [
+    "Tek nozul: renk ve destek değişimlerinde purge atığı H2D/H2C'ye göre yüksek",
+    "AMS Lite desteklenmiyor; birinci nesil AMS çalışıyor ama kurutma yapmıyor",
+    "30 kg ve 492 × 514 × 626 mm gövde — taşıma ve yer ihtiyacı ciddi",
+    "220 V'ta 2.050 W'a kadar çekiş; priz/hat kontrolü gerekiyor",
+    "Developer Mode MQTT erişimi lazer veya kesim kullanımı sırasında devre dışı"
+  ],
+  "fiyat_usd": "1.199 $ (liste fiyatı 1.249 $)",
+  "tr_satici": "MetaTech (store.metatechtr.com) · Robolink",
+  "tr_fiyat": "70.237,62 TL (KDV dahil)",
+  "tr_stok": "bilinmiyor",
+  "tr_link": "https://store.metatechtr.com/bambu-lab-h2s-3d-printer",
+  "dogrulanmadi": [
+    "TR stok durumu (sayfada \"Tükendi\" + ön sipariş seçeneği, meta veride \"in stock\")"
+  ],
+  "kaynak": [
+    "https://en.wikipedia.org/wiki/Bambu_Lab",
+    "https://bambuhub.net/printers/h2s",
+    "https://us.store.bambulab.com/products/h2s",
+    "https://bambuhub.net/all-printers",
+    "https://store.metatechtr.com/bambu-lab-h2s-3d-printer"
+  ],
+  "slug": "h2s",
+  "gorsel": "cihaz/bambu-lab-h2s.jpg"
+}

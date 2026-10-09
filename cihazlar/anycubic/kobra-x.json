@@ -1,0 +1,55 @@
+{
+  "marka": "Anycubic",
+  "model": "Kobra X",
+  "tip": "FDM",
+  "sira": 1,
+  "durum": "satista",
+  "cikis": "2026-01",
+  "ozet": "Çok renk ünitesi doğrudan baskı kafasının içine gömülmüş, açık gövdeli giriş seviyesi hızlı FDM yazıcı; ilk çok renkli makinesini alacak hobi kullanıcısına hitap ediyor.",
+  "alan": "260 × 260 × 260 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "600 mm/s (önerilen 300 mm/s)",
+  "ivme": "20.000 mm/s² (önerilen 10.000 mm/s²)",
+  "ekstruder": "Kısa mesafeli doğrudan ekstrüzyon, 0,4 mm sertleştirilmiş çelik nozul (0,25 / 0,6 / 0,8 mm seçenekli)",
+  "nozul_sicaklik": "300 °C",
+  "tabla_sicaklik": "100 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": false,
+  "cok_renk": "4 renk dahili (ACE Gen 2, kafa içinde); ACE 2 Pro üniteleriyle 19 renge kadar",
+  "baglanti": "Çift bant Wi-Fi (2,4 / 5 GHz) · LAN · USB · Anycubic App",
+  "olcu": "455,4 × 445,3 × 461,3 mm",
+  "agirlik": "~9,5 kg",
+  "guc": null,
+  "one_cikan": [
+    "Çok renk ünitesi baskı kafasının içinde: kesici ile nozul arası 10 mm, renk değişimi ortalama 35 saniye (Bambu A1'de 90+ saniye)",
+    "Purge (atık) miktarı harici ünite kullanan sistemlere göre yaklaşık %81 daha az",
+    "260 mm küp baskı alanı bu fiyat sınıfı için büyük",
+    "600 mm/s tepe hız ve 20.000 mm/s² ivme",
+    "RFID filament okuyucu ve kamera standart"
+  ],
+  "dikkat": [
+    "RFID okuyucu yalnızca Anycubic marka filamenti tanıyor",
+    "ACE Gen 2 ünitesinde filament kurutma yok (eski ACE Pro'da vardı)",
+    "Makara yuvasına tam makara takmak zahmetli, makaranın mekanik geri sarması yok",
+    "Açık gövde: ABS/ASA gibi çekme yapan filamentler için uygun değil",
+    "Dilimleyicide ayar seti kısıtlı (sıcaklık, fan ve üç kaba hız modu)"
+  ],
+  "fiyat_usd": "344 $ (liste 399 $)",
+  "tr_satici": "Robolink Market (Anycubic Türkiye yetkili satıcısı)",
+  "tr_fiyat": "17.998,50 TL",
+  "tr_stok": "var",
+  "tr_link": "https://www.robolinkmarket.com/anycubic",
+  "dogrulanmadi": [
+    "Güç tüketimi (W)"
+  ],
+  "kaynak": [
+    "https://store.anycubic.com/products/kobra-x",
+    "https://www.tomshardware.com/3d-printing/anycubic-kobra-x-review",
+    "https://3dbite.com/anycubic-kobra-4-vs-kobra-x-comparison/",
+    "https://www.robolinkmarket.com/anycubic",
+    "https://www.mediamarkt.com.tr/tr/product/_anycubic-kobra-x-3d-yazici-gumus-173574214.html"
+  ],
+  "slug": "kobra-x",
+  "gorsel": "cihaz/anycubic-kobra-x.jpg"
+}

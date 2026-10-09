@@ -1,0 +1,54 @@
+{
+  "marka": "Anycubic",
+  "model": "Photon Mono M7 Pro",
+  "tip": "Recine",
+  "sira": 2,
+  "durum": "satista",
+  "cikis": "2024-08",
+  "ozet": "14K 10,1 inç ekran, ısıtmalı hazne ve otomatik reçine beslemesiyle hızlı çalışan, minyatür ve figür üretenlerin ana makinesi olan reçine yazıcı.",
+  "alan": "223 × 126 × 230 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "1,3–1,7 s/katman; 130 mm/sa standart, 170 mm/sa yüksek hızlı reçine (0,1 mm)",
+  "ivme": null,
+  "ekstruder": null,
+  "nozul_sicaklik": null,
+  "tabla_sicaklik": null,
+  "ekran_cozunurluk": "14K mono LCD, 10,1 inç, 13.312 × 5.120 px, 16,8 × 24,8 µm piksel",
+  "kapali_kabin": true,
+  "cok_renk": null,
+  "baglanti": "Wi-Fi · USB · Anycubic App",
+  "olcu": "312 × 315 × 520 mm",
+  "agirlik": "12,8 kg",
+  "guc": null,
+  "one_cikan": [
+    "16,8 × 24,8 µm piksel: minyatür ve figürde sınıfının en ince detayı",
+    "Isıtmalı hazne (25–40 °C) sayesinde soğuk ortamda da reçine kıvamı sabit, hız düşmüyor",
+    "Otomatik reçine besleme ve seviye sensörü",
+    "Hazne filmi ~45.000 katman ömürlü ve makine kendi film ömrünü sayıyor",
+    "LighTurbo 3.0 COB ışık kaynağı, fabrikada tablalanmış baskı tablası"
+  ],
+  "dikkat": [
+    "Reçine kokusu ve buharı için havalandırma şart; tahliye hortumu opsiyonel aksesuar",
+    "Baskı sonrası IPA ile yıkama + UV kür zorunlu, yıkama/kür makinesi ek maliyet",
+    "Isıtmalı hazne, artan reçineyi geri dökerken hazneyi tutmayı zorlaştırıyor",
+    "Baskı tablası vida çukurlarında reçine birikiyor, temizliği zahmetli",
+    "En hızlı modda yüzey detayı bir tık yumuşuyor"
+  ],
+  "fiyat_usd": "562 $ (liste 669 $)",
+  "tr_satici": "3Dörtgen",
+  "tr_fiyat": "21.852,00 TL",
+  "tr_stok": "var",
+  "tr_link": "https://shop.3dortgen.com/anycubic-photon-mono-m7-pro-3d-yazici",
+  "dogrulanmadi": [
+    "Güç tüketimi (W)"
+  ],
+  "kaynak": [
+    "https://www.3djake.com/anycubic-3d-printer-and-accessories/photon-m7-pro",
+    "https://www.tomshardware.com/3d-printing/anycubic-photon-mono-m7-pro-review",
+    "https://uk.anycubic.com/products/anycubic-photon-mono-m7-pro-14k-resin-3d-printer-170mm-h-fast-printing",
+    "https://shop.3dortgen.com/anycubic-photon-mono-m7-pro-3d-yazici"
+  ],
+  "slug": "photon-mono-m7-pro",
+  "gorsel": "cihaz/anycubic-photon-mono-m7-pro.jpg"
+}

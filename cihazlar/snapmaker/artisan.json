@@ -1,0 +1,57 @@
+{
+  "marka": "Snapmaker",
+  "model": "Artisan",
+  "tip": "Cok islevli",
+  "sira": 2,
+  "durum": "satista",
+  "cikis": "2022-08",
+  "ozet": "400 mm küpte 3D baskı, 10 W lazer ve 200 W CNC'yi tek kapalı gövdede birleştiren amiral gemisi 3'ü 1 arada masaüstü makine; tek cihazla hem baskı hem işleme yapmak isteyen atölye ve okul kullanıcısına hitap ediyor.",
+  "alan": "400 × 400 × 400 mm",
+  "lazer": "10 W (450–460 nm yarı iletken), 400 × 400 mm",
+  "cnc": "200 W iğne (azami 18.000 dev/dk), 400 × 400 mm",
+  "hiz": "300 mm/s (resmi karşılaştırma); önerilen azami 180 mm/s",
+  "ivme": "2.000 mm/s²",
+  "ekstruder": "çift ekstruder (dual extrusion), 5 saniyede değişen Quick Swap hotend, 0,4 mm pirinç nozul standart",
+  "nozul_sicaklik": "300 °C",
+  "tabla_sicaklik": "110 °C (merkez 260 × 260 mm bölge) · 80 °C (dış bölge)",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": true,
+  "cok_renk": "çift ekstruder (2 malzeme)",
+  "baglanti": "Wi-Fi · USB kablo · USB bellek",
+  "olcu": "580 × 620 × 634 mm (kabinle 665 × 943 × 705 mm)",
+  "agirlik": null,
+  "guc": null,
+  "one_cikan": [
+    "Modül ve platform değişimi yaklaşık 1 dakika: baskı tablası, lazer tezgâhı ve CNC tahtası hızlı bağlantıyla sökülüp takılıyor",
+    "Lazer ve toza karşı kapalı kabin, kapı algılama sensörü ve egzoz fanı standart geliyor",
+    "CNC iğnesi 2.0 serisine göre %50 daha hızlı; ER11 kovan, 0,5–6,35 mm sap çapı",
+    "7 inç dokunmatik ekranlı Android denetleyici, ±0,05 mm tekrarlanabilirlikte CNC taşlanmış çelik kızaklı lineer modüller",
+    "10 W lazerle tek geçişte 5 mm kavak kontrplak kesiyor; CNC'de kayında 50 mm/s, akrilikte 33 mm/s"
+  ],
+  "dikkat": [
+    "\"Her işi yapan hiçbirini tam yapmaz\" eleştirisinin tipik örneği: 180–300 mm/s aralığındaki baskı hızı, aynı fiyat bandındaki saf CoreXY yazıcıların çok altında",
+    "10 W lazer, ayrı bir lazer kesici yanında zayıf; metal ve camı işaretleyemiyor, kalın kesimde çok geçiş gerekiyor",
+    "Resmi sayfada güç değeri 300 W + 400 W ve 300 W + 450 W olarak çelişkili veriliyor; lazer kazıma hızı da 200 mm/s ve 100 mm/s olarak iki ayrı yerde farklı yazılmış",
+    "Net makine ağırlığı yayınlanmıyor, yalnız paket ağırlığı veriliyor (37,3 kg + 25,2 kg) — tek başına taşınabilir bir cihaz değil",
+    "Aksesuar maliyeti yüksek (rotary modül, hava temizleyici, IR lazer ayrı satılıyor)"
+  ],
+  "fiyat_usd": "2.099 $ (liste 2.999 $)",
+  "tr_satici": null,
+  "tr_fiyat": null,
+  "tr_stok": "bilinmiyor",
+  "tr_link": null,
+  "dogrulanmadi": [
+    "net makine ağırlığı",
+    "güç tüketimi (resmi sayfada çelişkili)",
+    "ekran çözünürlüğü (yalnız 7 inç bilgisi var)",
+    "TR satıcı"
+  ],
+  "kaynak": [
+    "https://www.snapmaker.com/product-comparison",
+    "https://shop.snapmaker.com/products/snapmaker-artisan-3-in-1-3d-printer",
+    "https://eu.snapmaker.com/fr/products/snapmaker-artisan-3-in-1-3d-printer",
+    "https://www.aap.com.au/aapreleases/cision20220809ae31071"
+  ],
+  "slug": "artisan",
+  "gorsel": "cihaz/snapmaker-artisan.jpg"
+}

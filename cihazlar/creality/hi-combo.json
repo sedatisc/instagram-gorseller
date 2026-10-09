@@ -1,0 +1,53 @@
+{
+  "marka": "Creality",
+  "model": "Hi Combo",
+  "tip": "FDM",
+  "sira": 4,
+  "durum": "satista",
+  "cikis": "2025-03",
+  "ozet": "500 mm/s hızı ve CFS çok renk ünitesini 400 dolar bandına indiren açık gövdeli yazıcı; çok renkli baskıya en ucuzdan girene.",
+  "alan": "260 × 260 × 300 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "500 mm/s (standart 300 mm/s)",
+  "ivme": "12.000 mm/s²",
+  "ekstruder": "Çelik dişli direct drive, üç metalli 0,4 mm nozul (0,6 ve 0,8 uyumlu)",
+  "nozul_sicaklik": "300 °C",
+  "tabla_sicaklik": "100 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": false,
+  "cok_renk": "CFS, 4 makara (ek üniteyle 16 renk)",
+  "baglanti": "Wi-Fi · USB",
+  "olcu": "409 × 392 × 477 mm",
+  "agirlik": "11,58 kg",
+  "guc": "1.150 W (220 V)",
+  "one_cikan": [
+    "4 makaralı CFS dâhil 400 dolar bandı — çok renge en düşük giriş maliyeti",
+    "260 × 260 × 300 mm, K1C'den büyük ve daha yüksek",
+    "11,58 kg ile sınıfında hafif, alüminyum gövde",
+    "300 °C nozul ve üç metalli nozul: PETG, ABS, PLA-CF listede",
+    "PVA ve BVOH destek malzemesi destekleniyor"
+  ],
+  "dikkat": [
+    "Açık gövde, ısıtmalı kabin yok — ABS/ASA'da çekme riski yüksek",
+    "12.000 mm/s² ivme K2 serisinin çok altında; 500 mm/s pratikte sınırlı",
+    "Bed-slinger kinematik: yüksek parçalarda titreşim belirgin",
+    "CFS renk değişimi purge atığı ve uzun süre demek",
+    "Pazar yeri fiyatları 20.999–37.552 TL arasında değişiyor, satıcı seçimine dikkat"
+  ],
+  "fiyat_usd": "399 $",
+  "tr_satici": "Vatan Bilgisayar",
+  "tr_fiyat": "22.500,00 TL",
+  "tr_stok": "var",
+  "tr_link": "https://www.vatanbilgisayar.com/creality-hi-combo-3d-yazici.html",
+  "dogrulanmadi": [
+    "kampanya dışı liste fiyatı",
+    "bağımsız hız testi"
+  ],
+  "kaynak": [
+    "https://www.creality.com/support/creality-hi-combo",
+    "https://www.vatanbilgisayar.com/creality-hi-combo-3d-yazici.html"
+  ],
+  "slug": "hi-combo",
+  "gorsel": "cihaz/creality-hi-combo.jpg"
+}

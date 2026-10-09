@@ -1,0 +1,54 @@
+{
+  "marka": "Creality",
+  "model": "HALOT-MAGE S",
+  "tip": "Recine",
+  "sira": 7,
+  "durum": "satista",
+  "cikis": "2024-05",
+  "ozet": "14K ekranlı, hava filtreli orta-üst segment reçine yazıcı; yüksek detaylı figür ve maket üretene.",
+  "alan": "223 × 126 × 230 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "150 mm/sa",
+  "ivme": null,
+  "ekstruder": null,
+  "nozul_sicaklik": null,
+  "tabla_sicaklik": null,
+  "ekran_cozunurluk": "14K mono LCD, 10,1 inç — 13.320 × 5.120 px (piksel 16,8 × 24,8 µm)",
+  "kapali_kabin": true,
+  "cok_renk": null,
+  "baglanti": "Wi-Fi · Ethernet · USB",
+  "olcu": "333 × 270 × 608 mm",
+  "agirlik": "13,13 kg",
+  "guc": "100 W",
+  "one_cikan": [
+    "223 × 126 × 230 mm ile X1'den yüksek Z — uzun tek parça figürlerde avantaj",
+    "3. nesil ışık kaynağı, %90 üstü ışık homojenliği (üretici beyanı)",
+    "Aktif karbon filtreli hava arıtma dâhil",
+    "Ethernet girişi var; X1'de kablolu ağ yok",
+    "100 W tüketim, CNC alüminyum tabla"
+  ],
+  "dikkat": [
+    "14K ekran, X1'in 16K ekranının gerisinde",
+    "Mayıs 2024 modeli; yerini X1 ailesi aldı, uzun vadeli destek riskli",
+    "Otomatik reçine besleme opsiyonel ve ayrı fiyatlı",
+    "Hız iddiaları üretici beyanı, bağımsız test yok",
+    "Resmî destek sayfasında parametre tablosu boş geliyor"
+  ],
+  "fiyat_usd": "459 $ (lansman)",
+  "tr_satici": "Robotzade",
+  "tr_fiyat": "28.500,00 TL",
+  "tr_stok": "yok",
+  "tr_link": "https://www.robotzade.com/urun/creality-halot-mage-s-14k-recineli-sla-3d-yazici",
+  "dogrulanmadi": [
+    "güncel global fiyat",
+    "katman pozlama süresi",
+    "stokta satan bayi"
+  ],
+  "kaynak": [
+    "https://3dprinting.com/news/creality-unveils-14k-halot-mage-s-resin-printer/",
+    "https://www.3djake.com/creality-3d-printers-spare-parts/halot-mage-s"
+  ],
+  "slug": "halot-mage-s",
+  "gorsel": "cihaz/creality-halot-mage-s.jpg"
+}

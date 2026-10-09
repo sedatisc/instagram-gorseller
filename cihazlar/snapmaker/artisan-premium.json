@@ -1,0 +1,56 @@
+{
+  "marka": "Snapmaker",
+  "model": "Artisan Premium",
+  "tip": "Cok islevli",
+  "sira": 3,
+  "durum": "satista",
+  "cikis": "2024-05",
+  "ozet": "Artisan'ın 10 W lazer modülü yerine 40 W lazerle gelen üst sürümü; aynı gövdede ciddi lazer kesim gücü de isteyen kullanıcıya hitap ediyor.",
+  "alan": "400 × 400 × 400 mm",
+  "lazer": "40 W (450–460 nm yarı iletken), 400 × 400 mm",
+  "cnc": "200 W iğne (azami 18.000 dev/dk), 400 × 400 mm",
+  "hiz": "300 mm/s (resmi karşılaştırma); önerilen azami 180 mm/s",
+  "ivme": "2.000 mm/s²",
+  "ekstruder": "çift ekstruder (dual extrusion), 5 saniyede değişen Quick Swap hotend",
+  "nozul_sicaklik": "300 °C",
+  "tabla_sicaklik": "110 °C (merkez 260 × 260 mm bölge) · 80 °C (dış bölge)",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": true,
+  "cok_renk": "çift ekstruder (2 malzeme)",
+  "baglanti": "Wi-Fi · USB kablo · USB bellek",
+  "olcu": "580 × 620 × 634 mm (kabinle 665 × 943 × 705 mm)",
+  "agirlik": null,
+  "guc": null,
+  "one_cikan": [
+    "Standart Artisan'dan tek farkı lazer modülü: 10 W yerine 40 W geliyor, 3D baskı ve CNC modülleri birebir aynı",
+    "40 W lazerle tek geçişte 15 mm kavak kontrplak kesiyor (10 W sürümde bu 5 mm)",
+    "Snapmaker'ın 8. yıl dönümünde 28 Mayıs 2024'te ön siparişe açıldı, o dönemki fiyatı 2.999 $",
+    "1064 nm kızılötesi lazer, rotary modül ve hava temizleyici içeren kombo paketleri mevcut"
+  ],
+  "dikkat": [
+    "Resmi mağazada güncel durum \"Unavailable / Notify Me\" — ürün listede ve indirimli ama stok dışı görünüyor",
+    "Liste fiyatı 5.046 $ ile çok yükseldi; 3.196 $'lık indirimli fiyat bile ayrı bir yazıcı + ayrı bir lazer kesici almaktan pahalı",
+    "40 W lazer modülü tek başına da satılıyor; standart Artisan alıp sonradan yükseltmek çoğu zaman daha hesaplı",
+    "Artisan ile aynı hız kısıtı geçerli: 3D baskı tarafı aynı fiyattaki saf yazıcıların gerisinde"
+  ],
+  "fiyat_usd": "3.196 $ (liste 5.046 $)",
+  "tr_satici": null,
+  "tr_fiyat": null,
+  "tr_stok": "bilinmiyor",
+  "tr_link": null,
+  "dogrulanmadi": [
+    "net makine ağırlığı",
+    "güç tüketimi (resmi sayfada çelişkili)",
+    "ekran çözünürlüğü",
+    "TR satıcı"
+  ],
+  "kaynak": [
+    "https://support.snapmaker.com/hc/en-us/articles/27729437769111-Difference-between-the-Artisan-and-Artisan-Premium",
+    "https://shop.snapmaker.com/products/snapmaker-artisan-3-in-1-3d-printer",
+    "https://eu.snapmaker.com/fr/products/snapmaker-artisan-3-in-1-3d-printer",
+    "https://all3dp.com/4/snapmakers-8th-anniversary-sees-launch-of-3-in-1-artisan-premium/",
+    "https://3djake.com/snapmaker/artisan-premium"
+  ],
+  "slug": "artisan-premium",
+  "gorsel": "cihaz/snapmaker-artisan-premium.jpg"
+}

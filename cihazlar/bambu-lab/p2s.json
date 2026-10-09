@@ -1,0 +1,55 @@
+{
+  "marka": "Bambu Lab",
+  "model": "P2S",
+  "tip": "FDM",
+  "sira": 5,
+  "durum": "satista",
+  "cikis": "2025-10",
+  "ozet": "P1S'in yerine geçen kapalı kabinli CoreXY orta segment yazıcı; ABS/ASA basmak isteyen ama amiral gemisi bütçesi olmayan kullanıcılar için fiyat/performans modeli.",
+  "alan": "256 × 256 × 256 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "600 mm/s",
+  "ivme": "20.000 mm/s²",
+  "ekstruder": "Direct drive, hızlı değiştirilebilir nozul, 0,4 mm",
+  "nozul_sicaklik": "300 °C",
+  "tabla_sicaklik": "110 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": true,
+  "cok_renk": "AMS / AMS 2 Pro / AMS HT, 20 slota kadar",
+  "baglanti": "Wi-Fi 2,4/5 GHz · LAN modu (Ethernet yok)",
+  "olcu": "392 × 406 × 478 mm",
+  "agirlik": "14,9 kg",
+  "guc": "220 V'ta en fazla 1.200 W (110 V'ta 1.000 W)",
+  "one_cikan": [
+    "P1S'e göre dokunmatik ekran, direct drive ekstrüder ve hızlı değişen nozul — P serisinin en belirgin yenilenmesi",
+    "549 $ ile kapalı kabinli ABS/ASA kabiliyeti; kapalı kabine en ucuz giriş noktalarından biri",
+    "Gelişmiş hava akışı kontrolü ve aktif karbon filtre",
+    "Kompakt gövde (392 × 406 × 478 mm) ve 14,9 kg ile masaüstüne sığıyor"
+  ],
+  "dikkat": [
+    "Kabin pasif, yaklaşık 50 °C — H2S'teki 65 °C aktif ısıtmalı hazne yok",
+    "Filtre yalnız aktif karbon; HEPA kademesi yok",
+    "Nozul 300 °C, PPS basılamıyor",
+    "Lidar/ilk katman taraması yok",
+    "AMS 2 Pro ayrı satılıyor (299 $)",
+    "Kullanıcı bildirimleri: PETG'de veya uzun PLA işlerinde ekstrüder motor aşırı yük hatası, bazı ünitelerde VFA izleri",
+    "120 V'ta baskı başlangıcında ~1.000 W çekiyor; küçük UPS'leri zorluyor"
+  ],
+  "fiyat_usd": "549 $",
+  "tr_satici": "MetaTech (store.metatechtr.com)",
+  "tr_fiyat": "33.880,36 TL (KDV dahil)",
+  "tr_stok": "bilinmiyor",
+  "tr_link": "https://store.metatechtr.com/bambu-lab-p2s-3d-printer",
+  "dogrulanmadi": [
+    "TR stok durumu (sayfada \"Tükendi\" düğmesi ile \"Stoktan Teslim\" etiketi birlikte görünüyor)"
+  ],
+  "kaynak": [
+    "https://en.wikipedia.org/wiki/Bambu_Lab",
+    "https://bambuhub.net/printers/p2s",
+    "https://bambuhub.net/all-printers",
+    "https://store.metatechtr.com/bambu-lab-p2s-3d-printer"
+  ],
+  "slug": "p2s",
+  "gorsel": "cihaz/bambu-lab-p2s.jpg"
+}

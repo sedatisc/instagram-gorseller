@@ -1,0 +1,59 @@
+{
+  "marka": "Snapmaker",
+  "model": "2.0 A350T",
+  "tip": "Cok islevli",
+  "sira": 4,
+  "durum": "satista",
+  "cikis": null,
+  "ozet": "Snapmaker'ı tanıtan modüler 3'ü 1 arada platformun uzun ömürlü büyük boy modeli; 3D baskı, lazer ve CNC'yi tek seferde düşük bütçeyle denemek isteyen okul ve hobi kullanıcısına hitap ediyor.",
+  "alan": "320 × 350 × 330 mm (Quick Swap çift ekstruder modülüyle 320 × 335 × 310 mm)",
+  "lazer": "1,6 W / 1.600 mW (450 nm), 320 × 350 mm",
+  "cnc": "50 W iğne (6.000–12.000 dev/dk), 320 × 350 mm",
+  "hiz": "100 mm/s (resmi karşılaştırma); testlerde kalite bozulmadan yaklaşık 60 mm/s",
+  "ivme": "1.000 mm/s²",
+  "ekstruder": "tek ekstruder, 0,4 mm nozul (Quick Swap çift ekstruder modülü ayrı satılıyor)",
+  "nozul_sicaklik": "275 °C",
+  "tabla_sicaklik": "80 °C",
+  "ekran_cozunurluk": "5 inç dokunmatik, 720 × 1280",
+  "kapali_kabin": false,
+  "cok_renk": null,
+  "baglanti": "Wi-Fi · USB kablo · USB bellek",
+  "olcu": null,
+  "agirlik": "25 kg üzeri",
+  "guc": "320 W",
+  "one_cikan": [
+    "Tamamen modüler: 5 lineer modül, denetleyici, güç modülü ve ekran ayrı ayrı sökülüp değiştirilebiliyor; A250T ile aynı parçaları paylaşıyor",
+    "Üç modül (3D baskı + 1,6 W lazer + 50 W CNC) kutuda birlikte geliyor, lazer modülünde dâhili kamera var",
+    "Çerçeve yüksek dayanımlı alüminyum alaşım; ER11 kovan, 0,5–6,35 mm sap çapı",
+    "Kutu fiyatı 1.499–1.799 $ bandında (A250T/A350T) — 3'ü 1 arada girişi en ucuz Snapmaker"
+  ],
+  "dikkat": [
+    "Modül değiştirme gerçekten zahmetli: ısıtmalı tabla 22, lazer tezgâhı 14, CNC tahtası 14 cıvata ile bağlı — mod değişimi dakikalar değil, uzun bir iş",
+    "Vidalı mil tahriki hızı kısıtlıyor; 100 mm/s nominal, pratikte 60 mm/s civarı",
+    "1,6 W lazer lazer kesim için çok zayıf, metal ve camı işaretleyemiyor",
+    "80 °C tabla ABS ve yüksek sıcaklık filamentleri için yetersiz, tabla yavaş ısınıyor ve sıcaklık dağılımı homojen değil",
+    "Kabin standart değil ve aksesuarlar pahalı (kabin ~600 $, 10 W lazer modülü ~450 $, rotary ~600 $)",
+    "Parça soğutma zayıf, dik çıkıntılarda belli oluyor; CNC çalışırken çok gürültülü"
+  ],
+  "fiyat_usd": "1.499 – 1.799 $ (A250T/A350T paket aralığı)",
+  "tr_satici": "Direnc.net",
+  "tr_fiyat": null,
+  "tr_stok": "yok",
+  "tr_link": "https://www.direnc.net/snapmaker-20-modular-3-in-1-3d-yazici-a350t",
+  "dogrulanmadi": [
+    "çıkış tarihi",
+    "makine ölçüleri (resmi sayfada A350T ve F350 sütunları ayrışmıyor)",
+    "net ağırlık (yalnız \"25 kg üzeri\" doğrulandı)",
+    "TR fiyat (Direnc.net sayfası ürünü listeliyor ama fiyat göstermiyor, stok durumu \"out of stock\")"
+  ],
+  "kaynak": [
+    "https://www.snapmaker.com/product-comparison",
+    "https://snapmaker.com/snapmaker-2/specs-at",
+    "https://www.robotshop.com/products/snapmaker-20-modular-3-in-1-3d-printer-a350t",
+    "https://clevercreations.org/snapmaker-2-0-3d-printer-a350t-a250t-review/",
+    "https://eu.snapmaker.com/de/collections/machines/products/snapmaker-2-0-bundle-a350t-a250t",
+    "https://www.direnc.net/snapmaker-20-modular-3-in-1-3d-yazici-a350t"
+  ],
+  "slug": "2-0-a350t",
+  "gorsel": "cihaz/snapmaker-2-0-a350t.jpg"
+}

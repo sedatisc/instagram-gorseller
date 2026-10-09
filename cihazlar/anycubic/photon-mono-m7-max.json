@@ -1,0 +1,53 @@
+{
+  "marka": "Anycubic",
+  "model": "Photon Mono M7 Max",
+  "tip": "Recine",
+  "sira": 6,
+  "durum": "satista",
+  "cikis": "2024-11",
+  "ozet": "13,6 inç 7K ekranla 14,7 litrelik hacme kask, büst ve büyük maket basan, büyük format reçine yazıcı.",
+  "alan": "298 × 164 × 300 mm (14,7 L)",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "4 s/katman (0,05 mm); 31 mm/sa (0,05 mm) ve 63 mm/sa (0,1 mm) standart, 86 mm/sa yüksek hızlı reçine",
+  "ivme": null,
+  "ekstruder": null,
+  "nozul_sicaklik": null,
+  "tabla_sicaklik": null,
+  "ekran_cozunurluk": "7K mono LCD, 13,6 inç, 6.480 × 3.600 px, 46 × 46 µm piksel",
+  "kapali_kabin": true,
+  "cok_renk": null,
+  "baglanti": "USB · Wi-Fi · LAN (üretici tablosunda \"planlanan\")",
+  "olcu": "425 × 362 × 652 mm",
+  "agirlik": "24 kg",
+  "guc": "180 W",
+  "one_cikan": [
+    "14,7 L hacim: M7 Pro'nun %72 üzerinde, büyük parçayı bölmeden tek seferde basıyor",
+    "0,05 mm katmanda 4 saniye, ~31 mm/sa baskı hızı",
+    "Dinamik sıcaklık kontrollü hazne (25–40 °C)",
+    "Reçine geri kazanım: tabla 5° eğilerek fazla reçineyi hazneye geri döküyor",
+    "Intelligent Release Control 2.0, COB + Fresnel optik, 4.500 µW/cm² ışık şiddeti"
+  ],
+  "dikkat": [
+    "46 × 46 µm piksel, M7 Pro'nun 16,8 µm'sine göre kaba: ince minyatür detayı arayan için ideal değil",
+    "24 kg ağırlık ve 425 × 362 × 652 mm gövde; sağlam masa ve iyi havalandırma istiyor",
+    "Büyük hazne tek dolumda çok reçine tüketiyor, IPA ve yıkama kabı maliyeti artıyor",
+    "LAN desteği resmî spesifikasyonda hâlâ \"planlanan\" olarak geçiyor"
+  ],
+  "fiyat_usd": "861 $",
+  "tr_satici": "Teknosa (Aykon Bilişim)",
+  "tr_fiyat": "43.990,00 TL",
+  "tr_stok": "bilinmiyor",
+  "tr_link": "https://www.teknosa.com/anycubic-photon-mono-m7-max-3d-yazici-p-785559720",
+  "dogrulanmadi": [
+    "TR stok (sayfada hem \"1-3 iş günü içinde kargoda\" hem gizli stok yok metni var)"
+  ],
+  "kaynak": [
+    "https://store.anycubic.com/products/photon-mono-m7-max",
+    "https://www.3djake.com/anycubic-3d-printer-and-accessories/photon-mono-m7-max",
+    "https://www.notebookcheck.net/Anycubic-Photon-Mono-M7-Max-previewed-as-ultra-fast-resin-3D-printer.912219.0.html",
+    "https://www.teknosa.com/anycubic-photon-mono-m7-max-3d-yazici-p-785559720"
+  ],
+  "slug": "photon-mono-m7-max",
+  "gorsel": "cihaz/anycubic-photon-mono-m7-max.jpg"
+}

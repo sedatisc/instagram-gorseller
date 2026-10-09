@@ -1,0 +1,52 @@
+{
+  "marka": "Anycubic",
+  "model": "Kobra S1 Max",
+  "tip": "FDM",
+  "sira": 7,
+  "durum": "satista",
+  "cikis": "2025-11",
+  "ozet": "350 mm küp hacim, 350 °C nozul ve aktif ısıtmalı kabinle karbon/cam elyaf takviyeli mühendislik filamentlerine odaklanan büyük format kapalı FDM yazıcı.",
+  "alan": "350 × 350 × 350 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "600 mm/s (önerilen 300 mm/s)",
+  "ivme": "20.000 mm/s² (önerilen 10.000 mm/s²)",
+  "ekstruder": "Kısa mesafeli doğrudan ekstrüzyon, sertleştirilmiş çelik ekstrüzyon dişlileri ve nozul",
+  "nozul_sicaklik": "350 °C",
+  "tabla_sicaklik": "120 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": true,
+  "cok_renk": "ACE 2 Pro ile 4 renk; 4 üniteye kadar 16 renk (ayrı satılıyor)",
+  "baglanti": "Çift bant Wi-Fi 6 · Ethernet · yerel ağ · USB",
+  "olcu": "502,7 × 483 × 584 mm",
+  "agirlik": "25,7 kg",
+  "guc": "2.200 W (220 V)",
+  "one_cikan": [
+    "350 mm küp hacim ve 65 °C aktif ısıtmalı kabin (Kobra S1'de pasif)",
+    "350 °C nozul: PA6-CF, PC-CF/GF, PET-CF, PETG-CF gibi takviyeli filamentler",
+    "Sertleştirilmiş çelik nozul ve ekstrüzyon dişlileri, abrazif malzemeye dayanıklı",
+    "720p kamera ve Ethernet portu (S1'de 480p, Ethernet yok)",
+    "ACE 2 Pro aynı zamanda sızdırmaz filament kurutucu; 4 üniteye kadar 16 renk"
+  ],
+  "dikkat": [
+    "2.200 W güç çekiyor; priz hattı ve sigorta kapasitesine dikkat edilmeli",
+    "25,7 kg ağırlık ve 50 × 48 × 58 cm gövde, ciddi yer gerektiriyor",
+    "Atıksız çok renk teknolojisi yok; 16 renge çıkıldığında purge atığı yüksek",
+    "Türkiye'de listeleniyor ama stok bulunabilirliği düzensiz; doğrulanan sayfada \"Tükendi\" görünüyor"
+  ],
+  "fiyat_usd": "804 $ (Combo 1.034 $, 16 renk seti 1.789 $)",
+  "tr_satici": "Porima3D",
+  "tr_fiyat": null,
+  "tr_stok": "yok",
+  "tr_link": "https://porima3d.com/products/anycubic-kobra-s1-max-combo-3d-yazici",
+  "dogrulanmadi": [
+    "TR fiyat (sayfadaki tutar hatalı görünüyor)"
+  ],
+  "kaynak": [
+    "https://store.anycubic.com/products/kobra-s1-max",
+    "https://www.fabbaloo.com/news/anycubic-launches-kobra-s1-max-combo-with-larger-build-volume-and-enhanced-material-capabilities",
+    "https://porima3d.com/products/anycubic-kobra-s1-max-combo-3d-yazici"
+  ],
+  "slug": "kobra-s1-max",
+  "gorsel": "cihaz/anycubic-kobra-s1-max.jpg"
+}

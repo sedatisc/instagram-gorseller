@@ -1,0 +1,60 @@
+{
+  "marka": "Bambu Lab",
+  "model": "H2C",
+  "tip": "FDM",
+  "sira": 8,
+  "durum": "satista",
+  "cikis": "2025-11",
+  "ozet": "Vortek hotend değiştirme sistemiyle 7 malzemeyi purge atığı olmadan basan en üst segment çok malzemeli yazıcı; çok renkli/çok malzemeli seri işler yapan profesyonel atölyeler için.",
+  "alan": "305 × 320 × 325 mm (sağ nozul) · 325 × 320 × 320 mm (sol nozul) · iki nozul toplamı 330 × 320 × 325 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "1.000 mm/s",
+  "ivme": null,
+  "ekstruder": "Vortek: 1 sabit sol hotend + 6 değiştirilebilir indüksiyonlu hotend (anlık 2 aktif), PMSM servo ekstrüder, 10 kg'a kadar itme; 0,2 / 0,4 / 0,6 / 0,8 mm nozul",
+  "nozul_sicaklik": "350 °C",
+  "tabla_sicaklik": "120 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": true,
+  "cok_renk": "Tek işte 7 malzeme purge atığı olmadan; AMS 2 Pro / AMS HT ile 24 filament, 25 renge kadar",
+  "baglanti": null,
+  "olcu": "492 × 514 × 626 mm",
+  "agirlik": "32,5 kg",
+  "guc": null,
+  "one_cikan": [
+    "Vortek: elektrik pini olmayan, indüksiyonla ısıtılan ve sıcaklığını kablosuz bildiren 6 değiştirilebilir hotend — klasik takım değiştiricilerin arıza yapan konnektör problemi yok",
+    "Tek işte 7 ayrı malzeme/renk, purge atığı olmadan; çok renkli seri üretimde filament tasarrufu asıl satış argümanı",
+    "Hotend yaklaşık 8 saniyede ısınıyor, takım değişimi saniyeler içinde",
+    "\"The Hotend Remembers\": önceki filament atamalarını hatırlıyor, hangi hotend'in yeniden kullanılacağını öneriyor",
+    "Vision Encoder ile 50 mikronun altında hareket doğruluğu; BirdsEye kamera 3.264 × 2.448, nozul ve kafa kameraları 1.920 × 1.080"
+  ],
+  "dikkat": [
+    "Sadece AMS Combo olarak satılıyor; H2D AMS Combo'dan yaklaşık 450 $ pahalı",
+    "Yalnız H2C tablaları uyumlu — H2D ve H2S tablaları takılmıyor",
+    "Sağ nozulda X genişliği 305 mm; H2D'de 325, H2S'te 340 mm",
+    "01.02.00.00 firmware'inde PTFE hortum ayrılma algılaması geçici olarak kapalı (bilinen sorun)",
+    "Vortek mandalı ve rafının binlerce değişim sonrası aşınması henüz bilinmiyor",
+    "Karmaşık, çok renkli işlerde gerçek purge tasarrufu bağımsız olarak doğrulanmış değil",
+    "32,5 kg; en ağır Bambu modeli"
+  ],
+  "fiyat_usd": "2.199 $ (AMS Combo)",
+  "tr_satici": "Robotistan · Robolink",
+  "tr_fiyat": "135.357,93 TL (H2C Combo, indirimli)",
+  "tr_stok": "bilinmiyor",
+  "tr_link": "https://www.robotistan.com/bambu-lab-h2c-combo-3d-printer-en",
+  "dogrulanmadi": [
+    "İvme değeri",
+    "Bağlantı arayüzleri",
+    "Güç tüketimi",
+    "TR stok durumu (sayfada \"Out Of Stock\" ile \"Sepete Ekle\" birlikte görünüyor)"
+  ],
+  "kaynak": [
+    "https://en.wikipedia.org/wiki/Bambu_Lab",
+    "https://bambuhub.net/printers/h2c",
+    "https://3dprintingindustry.com/news/bambu-lab-launches-the-new-h2c-multi-material-3d-printer-technical-specifications-and-pricing-246509/",
+    "https://bambuhub.net/all-printers",
+    "https://www.robotistan.com/bambu-lab-h2c-combo-3d-printer-en"
+  ],
+  "slug": "h2c",
+  "gorsel": "cihaz/bambu-lab-h2c.jpg"
+}

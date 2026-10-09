@@ -1,0 +1,53 @@
+{
+  "marka": "Creality",
+  "model": "K1C",
+  "tip": "FDM",
+  "sira": 5,
+  "durum": "satista",
+  "cikis": "2024-02",
+  "ozet": "Karbon fiber katkılı filamentler için sertleştirilmiş nozul ve kapalı gövdeyle çıkan kompakt CoreXY; tek renk fonksiyonel parça basana.",
+  "alan": "220 × 220 × 250 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "600 mm/s",
+  "ivme": "20.000 mm/s²",
+  "ekstruder": "Direct drive, tam metal hotend, sertleştirilmiş çelik 0,4 mm nozul",
+  "nozul_sicaklik": "300 °C",
+  "tabla_sicaklik": "100 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": true,
+  "cok_renk": null,
+  "baglanti": "Wi-Fi · LAN · USB · Creality Cloud",
+  "olcu": "355 × 355 × 480 mm",
+  "agirlik": "12,5 kg",
+  "guc": "350 W",
+  "one_cikan": [
+    "Sertleştirilmiş nozul ve tam metal hotend standart — PLA-CF, PETG-CF doğrudan",
+    "Kapalı gövde + karbon filtre; küçük atölyede ABS kokusunu azaltıyor",
+    "355 × 355 × 480 mm ve 12,5 kg ile masaya sığan en kompakt CoreXY Creality",
+    "20.000 mm/s² ivme, 350 W düşük tüketim",
+    "Hızlı değiştirilebilir nozul — Plus'ın vidalı sisteminden pratik"
+  ],
+  "dikkat": [
+    "220 × 220 × 250 mm serinin en küçüğü",
+    "Kabin ısıtması pasif; ASA ve büyük ABS parçada K2 kadar güvenilir değil",
+    "Çok renk desteği yok, CFS bağlanmıyor",
+    "300 °C nozul sınırı yüksek sıcaklık malzemelerini dışarıda bırakıyor",
+    "2024 başı modeli, K2 serisinin yanında bir nesil geride"
+  ],
+  "fiyat_usd": "499 $ (liste 559 $)",
+  "tr_satici": "Robolink Market",
+  "tr_fiyat": "28.053,00 TL",
+  "tr_stok": "yok",
+  "tr_link": "https://www.robolinkmarket.com/creality-k1c-3d-yazici",
+  "dogrulanmadi": [
+    "bağımsız hız testi",
+    "stokta satan bayi"
+  ],
+  "kaynak": [
+    "https://www.creality.com/support/k1c-carbon-3d-printer",
+    "https://www.matterhackers.com/store/l/creality3d-k1c-high-speed-3d-printer/sk/MC5WAP6T"
+  ],
+  "slug": "k1c",
+  "gorsel": "cihaz/creality-k1c.jpg"
+}

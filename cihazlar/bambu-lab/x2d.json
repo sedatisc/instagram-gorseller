@@ -1,0 +1,57 @@
+{
+  "marka": "Bambu Lab",
+  "model": "X2D",
+  "tip": "FDM",
+  "sira": 2,
+  "durum": "satista",
+  "cikis": "2026-04",
+  "ozet": "X1 Carbon'ın yerine geçen, çift nozullu ve ısıtmalı kabinli orta sınıf kapalı yazıcı; amiral gemisi özelliklerini çok daha düşük fiyata isteyen hobi ve küçük işletme kullanıcıları için.",
+  "alan": "256 × 256 × 260 mm (ana nozul) · 235,5 × 256 × 256 mm (çift nozul)",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "1.000 mm/s",
+  "ivme": "20.000 mm/s²",
+  "ekstruder": "Çift nozul: ana nozul direct drive + yardımcı nozul Bowden beslemeli, 0,4 mm, Quick-Swap uyumlu",
+  "nozul_sicaklik": "300 °C",
+  "tabla_sicaklik": "120 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": true,
+  "cok_renk": "AMS 2 Pro / AMS HT, 25 renge kadar",
+  "baglanti": "Wi-Fi 2,4/5 GHz · LAN modu (Ethernet portu yok)",
+  "olcu": null,
+  "agirlik": "16,25 kg",
+  "guc": "220 V'ta en fazla 1.600 W (110 V'ta 1.100 W)",
+  "one_cikan": [
+    "649 $ ile aktif 65 °C ısıtmalı kabin — bu fiyat sınıfında ilk",
+    "Çift nozul sayesinde destek ve ikinci renk için purge atığı yok",
+    "3 kademeli karbon filtreli kabin ile ABS/ASA ve karbon katkılı filamentler",
+    "İki AI kamera + gerçek zamanlı akış sensörü ve filament dolaşma algılama",
+    "X1C'nin 256 mm küpünü korur, Z'de 260 mm'ye çıkar"
+  ],
+  "dikkat": [
+    "Nozul 300 °C'de kalıyor; PPS gibi 350 °C isteyen malzemeler için H serisi şart",
+    "Yardımcı ekstrüder 200 mm/s ve 10.000 mm/s² değil 1.000 mm/s² ile sınırlı — sıkışma riskine karşı yavaş kalıyor",
+    "Lidar yok; hareket doğruluğu için Vision Encoder ayrı satılan opsiyon",
+    "TPU yalnız ana nozuldan basılabiliyor",
+    "Çift malzemeli baskıda X ekseni 235,5 mm'ye daralıyor",
+    "Çok yeni model, uzun vadeli dayanıklılık verisi yok"
+  ],
+  "fiyat_usd": "649 $ (tek başına) · 899 $ (AMS Combo)",
+  "tr_satici": "Robolink (yetkili satıcı) · MetaTech",
+  "tr_fiyat": "57.975,00 TL (KDV dahil, X2D Combo)",
+  "tr_stok": "bilinmiyor",
+  "tr_link": "https://www.robolinkmarket.com/bambu-lab-x2d-combo-3d-yazici",
+  "dogrulanmadi": [
+    "Cihaz ölçüleri (en × derinlik × yükseklik)",
+    "TR'de combo olmayan tek X2D fiyatı",
+    "TR stok durumu (sayfada hem \"Sepete Ekle\" hem \"Tükendi\" görünüyor, çelişkili)"
+  ],
+  "kaynak": [
+    "https://en.wikipedia.org/wiki/Bambu_Lab",
+    "https://bambuhub.net/printers/x2d",
+    "https://bambuhub.net/all-printers",
+    "https://www.robolinkmarket.com/bambu-lab-x2d-combo-3d-yazici"
+  ],
+  "slug": "x2d",
+  "gorsel": "cihaz/bambu-lab-x2d.jpg"
+}

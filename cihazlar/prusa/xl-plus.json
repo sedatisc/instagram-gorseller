@@ -1,0 +1,56 @@
+{
+  "marka": "Prusa",
+  "model": "XL+",
+  "tip": "FDM",
+  "sira": 4,
+  "durum": "satista",
+  "cikis": "2026-08",
+  "ozet": "Otomatik takım değiştiren, 5 bağımsız baskı kafasına kadar büyüyebilen 360 mm küp hacimli üst sınıf makine; gerçek çok malzemeli üretim yapan profesyonellere hitap ediyor.",
+  "alan": "360 × 360 × 360 mm (46,7 L)",
+  "lazer": null,
+  "cnc": null,
+  "hiz": null,
+  "ivme": null,
+  "ekstruder": "Nextruder (direkt tahrik) × 1-5 bağımsız takım kafası",
+  "nozul_sicaklik": "290 °C",
+  "tabla_sicaklik": "115 °C (16 bölmeli segment tabla)",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": false,
+  "cok_renk": "1-5 bağımsız takım kafası, otomatik takım değişimi",
+  "baglanti": "Ethernet · Wi-Fi (opsiyonel) · Prusa Connect (opsiyonel, tamamen çevrimdışı çalışabilir)",
+  "olcu": "yaklaşık 700 × 900 × 720 mm",
+  "agirlik": "yaklaşık 30 kg",
+  "guc": "235 W (PETG baskısında)",
+  "one_cikan": [
+    "5 ayrı takım kafası her biri kendi filamentiyle yüklü kalıyor — renk/malzeme değişiminde MMU tipi geri-ileri sarma ve atık yok",
+    "16 bölmeye ayrılmış segment ısıtmalı tabla: sadece kullanılan alan ısıtılıyor, büyük tablada enerji tasarrufu",
+    "INDX'ten türetilen yeni eddy-current takım ofset sensörü — eski pimli kalibrasyondan yaklaşık 20 kat hızlı",
+    "Ağustos 2026 XL+ yenilemesi: yüksek akışlı nozullar standart, 360° parça soğutma, daha iyi yalıtan kabin, GT1.5 kayış ve nozul sileceği",
+    "Q4 2026'da silikon baskı kafası planlanıyor; açık kaynak, çevrimdışı, DRM'siz filament, Prag ve Delaware üretimi"
+  ],
+  "dikkat": [
+    "Serinin en pahalı modeli: tek kafa ~2.129 $, 5 kafa ~3.610 $",
+    "Kabin standart değil, ayrı satılıyor; 60 °C kabin için henüz çıkış tarihi olmayan harici ısıtıcı gerekiyor",
+    "Yarı montajlı ve kit sürümleri kaldırıldı — yalnızca montajlı satılıyor",
+    "Yüksek talep nedeniyle 4-5 hafta teslim süresi",
+    "Prusa sayfasında tabla sıcaklığı 115 °C, karşılaştırma tablosunda 120 °C yazıyor — kaynak içi çelişki"
+  ],
+  "fiyat_usd": "2.128,70 $ (tek kafa, montajlı) · 3.610,18 $ (5 kafa, montajlı)",
+  "tr_satici": null,
+  "tr_fiyat": null,
+  "tr_stok": "yok",
+  "tr_link": null,
+  "dogrulanmadi": [
+    "maksimum baskı hızı",
+    "ivme",
+    "tabla sıcaklığı (115 °C / 120 °C çelişkisi)",
+    "Türkiye yetkili satıcı"
+  ],
+  "kaynak": [
+    "https://www.prusa3d.com/product/original-prusa-xl-5/",
+    "https://www.prusa3d.com/en/product/original-prusa-xl-assembled-5-toolhead-3d-printer/",
+    "https://chiptron.eu/prusa-has-updated-its-entire-printer-lineup-xl-core-one-l-and-core-one-gen-2/"
+  ],
+  "slug": "xl-plus",
+  "gorsel": "cihaz/prusa-xl-plus.jpg"
+}

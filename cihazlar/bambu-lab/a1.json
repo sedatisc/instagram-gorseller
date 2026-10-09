@@ -1,0 +1,55 @@
+{
+  "marka": "Bambu Lab",
+  "model": "A1",
+  "tip": "FDM",
+  "sira": 3,
+  "durum": "satista",
+  "cikis": "2023-12",
+  "ozet": "Açık gövdeli, tablası hareketli (bed-slinger) giriş seviyesi yazıcı; ilk makinesini alan ve ağırlıkla PLA/PETG basan kullanıcılar için markanın en çok satan modeli.",
+  "alan": "256 × 256 × 256 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "500 mm/s",
+  "ivme": "10.000 mm/s²",
+  "ekstruder": "Direct drive, 0,4 mm paslanmaz çelik nozul",
+  "nozul_sicaklik": "300 °C",
+  "tabla_sicaklik": "100 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": false,
+  "cok_renk": "AMS Lite, 4 makara; A Serisi AMS Hub ile 4 adede kadar AMS/AMS 2 Pro/AMS HT",
+  "baglanti": "Wi-Fi 2,4 GHz · Bambu-Bus · microSD",
+  "olcu": "465 × 410 × 430 mm",
+  "agirlik": "8,3 kg",
+  "guc": "220 V'ta en fazla 1.300 W (110 V'ta 350 W)",
+  "one_cikan": [
+    "256 mm küp baskı alanını 299 $ seviyesinde veren tek Bambu modeli",
+    "Strain gauge tabanlı tam otomatik tabla seviyeleme, titreşim telafisi ve otomatik akış kalibrasyonu — kullanıcı ayarı neredeyse sıfır",
+    "AMS Lite ile 4 renkli baskı; kapalı kabinli modellere göre çok daha ucuz çok renk girişi",
+    "Sessiz modda 48 dB altı — ev/ofis ortamında çalıştırılabiliyor",
+    "3,5\" dokunmatik ekran, dahili kamera ve timelapse"
+  ],
+  "dikkat": [
+    "Kabin yok: ABS ve ASA güvenilir basılmıyor; PLA-CF/GF, PA ve PC de önerilmiyor",
+    "HEPA veya karbon filtre yok",
+    "Kamera düşük kare hızlı, canlı video yayını değil",
+    "AMS Lite, tam AMS üniteleriyle birlikte kullanılamıyor",
+    "Varsayılan olarak bulut bağımlı (LAN modu ile aşılabiliyor)",
+    "30 Ocak 2024 öncesi satılan ünitelerde ısıtıcı tabla kablosu için ABD geri çağırması var — ikinci el alımda sorulması gereken konu"
+  ],
+  "fiyat_usd": "299 $",
+  "tr_satici": "Robolink (yetkili satıcı) · MetaTech",
+  "tr_fiyat": "18.426,00 TL (KDV dahil)",
+  "tr_stok": "bilinmiyor",
+  "tr_link": "https://www.robolinkmarket.com/bambu-lab-a1-3d-yazici",
+  "dogrulanmadi": [
+    "TR stok durumu (sayfada \"Tükendi\" yazıyor ancak meta veride \"in stock\" görünüyor)"
+  ],
+  "kaynak": [
+    "https://en.wikipedia.org/wiki/Bambu_Lab",
+    "https://bambuhub.net/printers/a1",
+    "https://bambuhub.net/all-printers",
+    "https://www.robolinkmarket.com/bambu-lab-a1-3d-yazici"
+  ],
+  "slug": "a1",
+  "gorsel": "cihaz/bambu-lab-a1.jpg"
+}

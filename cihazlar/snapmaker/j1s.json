@@ -1,0 +1,56 @@
+{
+  "marka": "Snapmaker",
+  "model": "J1s",
+  "tip": "FDM",
+  "sira": 5,
+  "durum": "satista",
+  "cikis": null,
+  "ozet": "Snapmaker'ın tek saf 3D yazıcı serisi: bağımsız çift ekstruderli (IDEX) kapalı kabinli makine; çözünür destekli ve iki malzemeli baskı ile kopya/ayna modunda seri üretim isteyen kullanıcıya hitap ediyor.",
+  "alan": "300 × 200 × 200 mm (kopya modu 160 × 200 × 200 mm, ayna modu 150 × 200 × 200 mm)",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "350 mm/s (pratikte kalite için ~200 mm/s)",
+  "ivme": "10.000 mm/s²",
+  "ekstruder": "çift ekstruder, IDEX (bağımsız çift ekstruder); 0,4 mm standart, 0,2 / 0,6 / 0,8 mm ve sertleştirilmiş çelik ayrı",
+  "nozul_sicaklik": "300 °C",
+  "tabla_sicaklik": "100 °C",
+  "ekran_cozunurluk": "5 inç dokunmatik, 1280 × 720",
+  "kapali_kabin": true,
+  "cok_renk": "IDEX çift ekstruder (2 malzeme); varsayılan, yedek, kopya ve ayna modları",
+  "baglanti": "Wi-Fi · USB kablo · USB bellek",
+  "olcu": "539 × 401 × 464 mm",
+  "agirlik": "25 kg",
+  "guc": "100–240 V, azami 4,4 A giriş",
+  "one_cikan": [
+    "Gerçek IDEX: iki kafa bağımsız hareket ettiği için PVA/breakaway çözünür destek ve iki malzemeli baskı sorunsuz; kullanılmayan kafa kenarda park edip sızdırma yapmıyor",
+    "Kopya modu aynı parçadan iki, ayna modu simetrik çift parça basıyor — küçük seri üretimde süreyi yarıya indiriyor",
+    "Kapalı kabin ve fırçalanmış alüminyum gövde standart; tabla 100 °C'de kabini ~35 °C'ye getiriyor",
+    "Çift taraflı PEI kaplı cam tabla, 5 inç 1280 × 720 Android arayüz; resmi Cura eklentisi var"
+  ],
+  "dikkat": [
+    "Otomatik tabla seviyeleme sensörü yok, kalibrasyon \"bazen tutuyor bazen tutmuyor\" — adımları tekrarlamak gerekebiliyor",
+    "Konsol (tek taraftan bağlı) tabla tasarımı yüzünden yüksek hızda hafif Z salınımı, özellikle dış kesitlerde belli oluyor",
+    "Tabla sıcaklığı homojen değil: seviyeleme pedleri yanında ve kenarlarda soğuk bölgeler var, ABS'de çarpılmaya yol açıyor; 100 °C'ye çıkması ~11 dakika sürüyor",
+    "Kartezyen kinematik, çift ekstruder kullanılmadığında CoreXY yazıcılardan yavaş kalıyor",
+    "Dâhili HEPA filtre yok; stok makara tutucular kısa, 70 mm genişliğin üstündeki makaraları almıyor",
+    "Resmi mağaza ve bayilerde çoğunlukla stok dışı / ön sipariş görünüyor"
+  ],
+  "fiyat_usd": "1.399 $",
+  "tr_satici": null,
+  "tr_fiyat": null,
+  "tr_stok": "bilinmiyor",
+  "tr_link": null,
+  "dogrulanmadi": [
+    "çıkış tarihi (J1 Kasım 2022'de ön siparişe açıldı; J1s revizyonunun tarihi doğrulanamadı)",
+    "watt cinsinden güç tüketimi",
+    "TR satıcı"
+  ],
+  "kaynak": [
+    "https://www.snapmaker.com/product-comparison",
+    "https://www.matterhackers.com/store/l/snapmaker-j1-high-speed-independent-dual-extrusion-idex-fdm-3d-printer/sk/M8FDL79C",
+    "https://clevercreations.org/snapmaker-j1s-3d-printer-review/",
+    "https://shop.snapmaker.com/pages/snapmaker-3d-printer"
+  ],
+  "slug": "j1s",
+  "gorsel": "cihaz/snapmaker-j1s.jpg"
+}

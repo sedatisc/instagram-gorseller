@@ -1,0 +1,54 @@
+{
+  "marka": "Creality",
+  "model": "K2 Plus Combo",
+  "tip": "FDM",
+  "sira": 1,
+  "durum": "satista",
+  "cikis": "2024-11",
+  "ozet": "Aktif ısıtmalı kapalı kabine ve CFS çok renk sistemine sahip 350 mm'lik CoreXY amiral gemisi; mühendislik filamentleriyle büyük parça basan atölyeye hitap ediyor.",
+  "alan": "350 × 350 × 350 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "600 mm/s",
+  "ivme": "30.000 mm/s²",
+  "ekstruder": "Apus çift dişli direct drive, sertleştirilmiş çelik nozul, 40 mm³/s akış",
+  "nozul_sicaklik": "350 °C",
+  "tabla_sicaklik": "120 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": true,
+  "cok_renk": "CFS, 4 makara (4 üniteyle 16 makara)",
+  "baglanti": "Wi-Fi 2,4/5 GHz · Ethernet · USB · Creality Cloud",
+  "olcu": "495 × 515 × 640 mm",
+  "agirlik": "33,5 kg",
+  "guc": "1.200 W (kabin ısıtıcısı 800 W)",
+  "one_cikan": [
+    "60 °C aktif ısıtmalı kabin — ABS, ASA, PA-CF, PPA-CF kapaklı ortamda basılıyor",
+    "350 °C nozul ve 120 °C tabla, serinin en yüksek değerleri",
+    "350 mm küp alan: tek seferde büyük parça ya da dolu plaka",
+    "Kabin ve nozul kamerası ile akış kalibrasyonu ve hata takibi",
+    "0,2–0,8 mm nozul desteği; 0,6 mm ile büyük parçada belirgin süre kazancı"
+  ],
+  "dikkat": [
+    "33,5 kg ve 495 × 515 × 640 mm — iki kişi taşıyor, sağlam tezgâh şart",
+    "TPU önerilmiyor, esnek filament CFS'ten geçmiyor",
+    "CFS'te aktif kurutma yok; renk değişiminde purge atığı var",
+    "Nozul değişimi vidalı, önce ısıtmak gerekiyor",
+    "600 mm/s ve 30.000 mm/s² üretici beyanı; 300 mm/s üstünde köşelerde ringing bildiriliyor"
+  ],
+  "fiyat_usd": "1.199 $ (liste 1.499 $)",
+  "tr_satici": "Robolink Market",
+  "tr_fiyat": "85.575,00 TL",
+  "tr_stok": "yok",
+  "tr_link": "https://www.robolinkmarket.com/creality-k2-plus-combo-3d-yazici-rlxa03-7539",
+  "dogrulanmadi": [
+    "bağımsız hız/ivme testi",
+    "kampanya dışı liste fiyatı",
+    "stokta satan bayi"
+  ],
+  "kaynak": [
+    "https://www.creality.com/support/creality-k2-plus-cfs-combo",
+    "https://3dwork.io/en/creality-k2-plus-review/"
+  ],
+  "slug": "k2-plus-combo",
+  "gorsel": "cihaz/creality-k2-plus-combo.jpg"
+}

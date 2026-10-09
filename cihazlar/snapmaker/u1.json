@@ -1,0 +1,53 @@
+{
+  "marka": "Snapmaker",
+  "model": "U1",
+  "tip": "FDM",
+  "sira": 1,
+  "durum": "satista",
+  "cikis": "2025-08",
+  "ozet": "Dört bağımsız araç kafasını yaklaşık 5 saniyede değiştiren çok renkli FDM yazıcı; purge kulesi dışında atık üretmeden 4 renk/malzeme basmak isteyen hobi ve atölye kullanıcısına hitap ediyor.",
+  "alan": "270 × 270 × 270 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "500 mm/s (azami araç kafası hızı), azami akış 32 mm³/s",
+  "ivme": "20.000 mm/s²",
+  "ekstruder": "4 bağımsız araç kafası (toolchanger), her biri 0,4 mm paslanmaz nozul, ~5 s değişim",
+  "nozul_sicaklik": "300 °C",
+  "tabla_sicaklik": "100 °C",
+  "ekran_cozunurluk": "3,5 inç dokunmatik, 320 × 480",
+  "kapali_kabin": false,
+  "cok_renk": "4 renk / 4 malzeme, araç kafası değiştirme",
+  "baglanti": "Wi-Fi (2,4 GHz) · USB bellek",
+  "olcu": "584 × 499 × 730 mm",
+  "agirlik": "18,2 kg",
+  "guc": "1.150 W (220–240 V) · 400 W (100–120 V)",
+  "one_cikan": [
+    "Araç kafası değiştirme yaklaşık 5 saniye; renk geçişinde filament boşa akıtılmadığı için AMS/CFS tipi sistemlere göre çok daha az atık çıkıyor",
+    "Klipper yazılımı, Snapmaker Orca / OrcaSlicer dilimleyici; otomatik tabla tarama, input shaping, pressure advance ve nozul ofset kalibrasyonu fabrika çıkışlı",
+    "Pogo pin kontakları 1.000.000 değişim için derecelendirilmiş; 2 MP kabin kamerası ile spagetti ve filament bitti algılama var",
+    "Kickstarter'da 20 milyon doları aşarak 3D baskı tarihinin en büyük kampanyalarından biri oldu; 10 Nisan 2026'da global stoklu perakende satışa geçti"
+  ],
+  "dikkat": [
+    "Kabin standart değil: ABS, ASA, PET, PA ve PC için ayrıca satılan Üst Kapak şart, karbon/cam elyaflı malzeme için üstüne sertleştirilmiş çelik nozul da gerekiyor",
+    "Aktif kabin ısıtma yok; Üst Kapak ile kabin ancak 50 °C civarına çıkıyor",
+    "4 renkten fazlası için baskıyı durdurup filamenti elle değiştirmek gerekiyor",
+    "Üçüncü parti filamentte akış oranı elle girilmeli; otomatik kalibrasyon yalnız pressure advance yapıyor",
+    "Kurulum yaklaşık 120 dakika sürüyor (yazılım kurulumu hariç)"
+  ],
+  "fiyat_usd": "849 $ (liste 999 $)",
+  "tr_satici": "incehesap.com",
+  "tr_fiyat": "49.989 TL",
+  "tr_stok": "var",
+  "tr_link": "https://www.incehesap.com/snapmaker-u1-kapali-kasa-3d-yazici-fiyati-89118/",
+  "dogrulanmadi": [],
+  "kaynak": [
+    "https://us.snapmaker.com/products/snapmaker-u1-3d-printer",
+    "https://forum.snapmaker.com/t/u1-faq-official-info-summary/39648",
+    "https://www.3djake.com/snapmaker/u1",
+    "https://all3dp.com/4/snapmaker-u1-hits-retail-april-10-price-to-jump-to-899/",
+    "https://makers101.com/snapmaker-u1-kickstarter-2025-multicolor-3d-printer/",
+    "https://www.incehesap.com/snapmaker-u1-kapali-kasa-3d-yazici-fiyati-89118/"
+  ],
+  "slug": "u1",
+  "gorsel": "cihaz/snapmaker-u1.jpg"
+}

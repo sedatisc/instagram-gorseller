@@ -1,0 +1,57 @@
+{
+  "marka": "Prusa",
+  "model": "MINI+",
+  "tip": "FDM",
+  "sira": 6,
+  "durum": "satista",
+  "cikis": null,
+  "ozet": "Prusa ekosistemine en ucuz giriş noktası olan kompakt açık gövdeli yazıcı; küçük masa alanı ve düşük bütçeyle başlayanlara ve okul/atölye filolarına hitap ediyor.",
+  "alan": "180 × 180 × 180 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": null,
+  "ivme": null,
+  "ekstruder": "Bowden sistem, 3:1 redüktör (direkt tahrik yükseltmesi ayrı satılıyor)",
+  "nozul_sicaklik": "280 °C",
+  "tabla_sicaklik": "100 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": false,
+  "cok_renk": "yok",
+  "baglanti": "Ethernet (RJ-45) · USB · Wi-Fi modülü (opsiyonel) · Prusa Connect",
+  "olcu": "380 × 330 × 380 mm (makara tutucu ve harici güç kaynağı hariç)",
+  "agirlik": "4,5 kg",
+  "guc": "240 W güç kaynağı (AC 100-120 / 200-240 V, 50/60 Hz)",
+  "one_cikan": [
+    "Serinin en ucuzu ve en küçük yer kaplayanı: 380 mm genişlik, 4,5 kg — birden fazla alıp filo kurmaya uygun",
+    "Input Shaper ve Pressure Advance desteği, PrusaSlicer'ın hazır profil kütüphanesinin tamamı",
+    "Yarı montajlı geliyor; kurulumu birkaç saat, acemi kullanıcı için öğretici bir deneyim",
+    "Açık kaynak yazılım, çevrimdışı çalışma, DRM'siz filament ve tek tek satılan yedek parça — büyük modellerle aynı destek politikası"
+  ],
+  "dikkat": [
+    "2021 çıkışından bu yana büyük bir donanım yenilemesi almadı; serinin en eski tasarımı",
+    "Bowden ekstrüder — direkt tahrik ancak ayrı alınan yükseltmeyle geliyor, TPU/esnek filamentte zayıf",
+    "280 °C nozul ve 100 °C tabla sınırı: PC, PA gibi mühendislik malzemeleri pratikte dışarıda kalıyor",
+    "Kabin yok, çok renk desteği (MMU3) yok",
+    "Kaynaklar katman yüksekliğini 0,05-0,25 mm ve 0,05-0,35 mm olarak farklı veriyor"
+  ],
+  "fiyat_usd": "508,33 $ (yarı montajlı, Prusa e-mağaza)",
+  "tr_satici": null,
+  "tr_fiyat": null,
+  "tr_stok": "yok",
+  "tr_link": null,
+  "dogrulanmadi": [
+    "çıkış ayı (yıl: 2021)",
+    "maksimum baskı hızı",
+    "ivme",
+    "kit sürümünün güncel fiyatı ve satışta olup olmadığı",
+    "Türkiye yetkili satıcı"
+  ],
+  "kaynak": [
+    "https://www.prusa3d.com/original-prusa-mini/",
+    "https://www.prusa3d.com/product/original-prusa-mini-semi-assembled-3d-printer-enclosure-bundle-11/",
+    "https://eolasprints.com/en-gb/products/original-prusa-mini-semi-assembled",
+    "https://stacksheriff.com/3d-printing/prusa-buyers-guide/"
+  ],
+  "slug": "mini-plus",
+  "gorsel": "cihaz/prusa-mini-plus.jpg"
+}

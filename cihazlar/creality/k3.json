@@ -1,0 +1,57 @@
+{
+  "marka": "Creality",
+  "model": "K3",
+  "tip": "FDM",
+  "sira": 2,
+  "durum": "duyuruldu",
+  "cikis": null,
+  "ozet": "KliTek nozul değiştirme sistemiyle çok renkli baskıda purge atığını ortadan kaldırmayı hedefleyen yeni nesil FDM; IFA 2026'da duyuruldu.",
+  "alan": null,
+  "lazer": null,
+  "cnc": null,
+  "hiz": null,
+  "ivme": null,
+  "ekstruder": "KliTek nozul değiştirici — 4 nozul, 4,8 s nozul değişimi, 15 s malzeme geçişi",
+  "nozul_sicaklik": null,
+  "tabla_sicaklik": null,
+  "ekran_cozunurluk": null,
+  "kapali_kabin": null,
+  "cok_renk": "Kutudan 4 nozul + 4 makara; CFS Hub ile daha fazla",
+  "baglanti": null,
+  "olcu": null,
+  "agirlik": null,
+  "guc": null,
+  "one_cikan": [
+    "Nozul değiştirerek renk geçtiği için purge atığı yok — üretici %85'e kadar az malzeme diyor",
+    "0,4 mm duvar + 0,8 mm dolgu nozulu birlikte; üreticiye göre %30 verim",
+    "Kutudan 95A TPU; kitle 90A ve 85A, tek baskıda farklı sertlik",
+    "800.000 nozul değişimi testi, XYZ sapması 25 µm altı (üretici beyanı)",
+    "Kutudan root erişimi ve Klipper firmware sözü"
+  ],
+  "dikkat": [
+    "Henüz piyasada yok; ön sipariş açıldı, sevkiyat tarihi belirsiz",
+    "Baskı hacmi, hız, sıcaklık gibi temel değerler açıklanmadı",
+    "Fiyat \"900 $ altı\" hedef; kesin fiyat yok",
+    "Verim rakamlarının tamamı üretici iç testi",
+    "4 renk üstü için ek CFS Hub, yani ek maliyet"
+  ],
+  "fiyat_usd": "900 $ altı (üretici hedefi)",
+  "tr_satici": null,
+  "tr_fiyat": null,
+  "tr_stok": "bilinmiyor",
+  "tr_link": null,
+  "dogrulanmadi": [
+    "baskı hacmi",
+    "hız ve ivme",
+    "sıcaklıklar",
+    "ölçü, ağırlık, güç",
+    "kesin fiyat ve sevkiyat",
+    "Türkiye tedariki"
+  ],
+  "kaynak": [
+    "https://3dprintingindustry.com/news/creality-introduces-k3-sparkx-i8-and-new-product-lineup-at-ifa-2026-254664/",
+    "https://www.creality.com/blog/k3-questions-answered"
+  ],
+  "slug": "k3",
+  "gorsel": "cihaz/creality-k3.jpg"
+}

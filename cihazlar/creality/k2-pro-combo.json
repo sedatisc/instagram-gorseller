@@ -1,0 +1,53 @@
+{
+  "marka": "Creality",
+  "model": "K2 Pro Combo",
+  "tip": "FDM",
+  "sira": 3,
+  "durum": "satista",
+  "cikis": "2025-08",
+  "ozet": "K2 Plus'ın küçültülmüş hâli: 300 mm küp, aktif ısıtmalı kabin ve çift AI kamera; mühendislik malzemesi isteyip Plus fiyatına çıkmayana.",
+  "alan": "300 × 300 × 300 mm",
+  "lazer": null,
+  "cnc": null,
+  "hiz": "600 mm/s",
+  "ivme": "20.000 mm/s²",
+  "ekstruder": "Çift dişli direct drive, sertleştirilmiş nozul, 40 mm³/s akış, 70 W hotend",
+  "nozul_sicaklik": "300 °C",
+  "tabla_sicaklik": "110 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": true,
+  "cok_renk": "CFS, 4 makara (4 üniteyle 16 makara)",
+  "baglanti": "Wi-Fi 2,4 GHz · Ethernet · USB",
+  "olcu": "445 × 477 × 573 mm",
+  "agirlik": "23,7 kg",
+  "guc": null,
+  "one_cikan": [
+    "60 °C aktif ısıtmalı tam kapalı kabin — ASA, PA-CF, PPA-CF listede",
+    "Çift AI kamera: kabin kamerası + nozul kamerası, otomatik akış kalibrasyonu",
+    "RFID makara okuyucu ve 32 GB depolama (standart K2'de yok)",
+    "Plus ile aynı 600 mm/s ve 40 mm³/s akış, yaklaşık yarı fiyata",
+    "23,7 kg ile Plus'a göre taşınabilir"
+  ],
+  "dikkat": [
+    "300 mm eksen ve 300 °C nozul — PPA/PPS sınıfı malzemeler dışarıda",
+    "Tabla 110 °C, Plus'ın 120 °C'sinin altında",
+    "CFS'te kurutma yok, purge atığı var, esnek filament geçmiyor",
+    "Lansman fiyatı kaynaklar arasında tutarsız",
+    "Kameranın yanlış alarm ürettiği bildiriliyor"
+  ],
+  "fiyat_usd": "799 $ (liste 1.099 $)",
+  "tr_satici": "MediaMarkt Türkiye",
+  "tr_fiyat": "49.999,00 TL",
+  "tr_stok": "var",
+  "tr_link": "https://www.mediamarkt.com.tr/tr/product/_creality-k2-pro-combo-3d-yazici-siyah-1256179.html",
+  "dogrulanmadi": [
+    "güç tüketimi",
+    "bağımsız hız testi",
+    "lansman fiyatı (kaynaklar çelişkili)"
+  ],
+  "kaynak": [
+    "https://3dprintingindustry.com/news/creality-launches-its-new-k2-and-k2-pro-desktop-3d-printers-technical-specifications-and-pricing-243390/"
+  ],
+  "slug": "k2-pro-combo",
+  "gorsel": "cihaz/creality-k2-pro-combo.jpg"
+}

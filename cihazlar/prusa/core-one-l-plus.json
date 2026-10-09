@@ -1,0 +1,57 @@
+{
+  "marka": "Prusa",
+  "model": "CORE One L+",
+  "tip": "FDM",
+  "sira": 3,
+  "durum": "satista",
+  "cikis": "2026-08",
+  "ozet": "CORE One'ın büyük hacimli kardeşi; 300 mm küp sınıfı parça basan stüdyo, laboratuvar ve profesyonel atölyelere yönelik kapalı kabinli CoreXY.",
+  "alan": "300 × 300 × 330 mm (29,7 L)",
+  "lazer": null,
+  "cnc": null,
+  "hiz": null,
+  "ivme": null,
+  "ekstruder": "Nextruder (direkt tahrik, 10:1 planet redüktör, adaptörle E3D V6 uyumlu)",
+  "nozul_sicaklik": "290 °C",
+  "tabla_sicaklik": "120 °C",
+  "ekran_cozunurluk": null,
+  "kapali_kabin": true,
+  "cok_renk": "INDX 8 takım sürümü mevcut · MMU3 opsiyonel",
+  "baglanti": "Ethernet · USB bellek · NFC · çıkarılabilir Wi-Fi modülü · Prusa Connect · Prusa App (iOS/Android)",
+  "olcu": "469 × 521 × 635 mm",
+  "agirlik": "21,9 kg",
+  "guc": "Bekleme 16 W · ön ısıtma 630 W · baskı 90 W (PLA) / 155 W (PETG) / 215 W (ASA)",
+  "one_cikan": [
+    "60 °C kabin sıcaklığı: tabla altındaki fanlarla konveksiyon ısıtma, mühendislik malzemeleri için serinin en sıcak kabini",
+    "Döküm alüminyum AC ısıtmalı tabla, gömülü mıknatıslarla plakayı tutuyor — büyük alanda düzlem ve hızlı ısınma",
+    "G-code ile otomatik havalandırma kontrolü; TPU beslemeyi kolaylaştıran dahili anahtar",
+    "OpenPrintTag açık kaynak makara etiketleme sistemiyle tam uyumlu ilk yazıcı",
+    "Elektronik Prag'da Prusa bünyesinde üretiliyor, parçaların çoğu AB kaynaklı; açık kaynak, çevrimdışı çalışma, DRM'siz filament"
+  ],
+  "dikkat": [
+    "Standart olarak tek filament — çok malzeme desteği (MMU3 / INDX) ayrı alınıyor, incelemelerde en büyük eksik olarak gösteriliyor",
+    "Sadece montajlı satılıyor; kit sürümü yok",
+    "Ev kullanıcısı için fazla iri ve pahalı; fiyat/işletme maliyeti stüdyo ve laboratuvar ölçeğine uygun",
+    "Ön ısıtmada 630 W çekiyor — elektrik maliyeti CORE One'a göre belirgin yüksek",
+    "ABD'de tarife farkıyla fiyat 2.299 $'a kadar çıkıyor (Prusa e-mağaza fiyatının çok üstü)"
+  ],
+  "fiyat_usd": "1.799 $ (montajlı, Prusa e-mağaza) — ABD'de PrintedSolid liste fiyatı 2.299 $",
+  "tr_satici": null,
+  "tr_fiyat": null,
+  "tr_stok": "yok",
+  "tr_link": null,
+  "dogrulanmadi": [
+    "maksimum baskı hızı",
+    "ivme",
+    "L+ sürümünün güncel liste fiyatı (fiyat CORE One L dönemine ait)",
+    "Türkiye yetkili satıcı"
+  ],
+  "kaynak": [
+    "https://www.printedsolid.com/products/original-prusa-core-one-l",
+    "https://www.techradar.com/pro/original-prusa-core-one-l-3d-printer-review",
+    "https://www.3dtested.com/3d-printing/prusa-launches-two-new-3d-printers-open-source-filament-tags-and-printable-silicone-at-private-event",
+    "https://chiptron.eu/prusa-has-updated-its-entire-printer-lineup-xl-core-one-l-and-core-one-gen-2/"
+  ],
+  "slug": "core-one-l-plus",
+  "gorsel": "cihaz/prusa-core-one-l-plus.jpg"
+}

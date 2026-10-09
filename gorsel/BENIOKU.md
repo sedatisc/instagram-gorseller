@@ -43,6 +43,12 @@ python3 uret.py 2026-10-10-bambu-r1-tanitim/spec.json 2026-10-10-bambu-r1-taniti
 
 Uyarı satırı çıkmıyorsa bütün fotoğraflar yerine oturmuş demektir.
 
+## cihaz/ klasörü
+
+`gorsel/cihaz/` cihaz tanıtımlarının kapak fotoğraflarını tutuyor. Dosya adı `<marka>-<model>.jpg` kalıbında ve `cihazlar/<marka>/<model>.json` içindeki `gorsel` alanıyla birebir eşleşiyor. Hangi cihazın hangi dosyayı beklediği `cihazlar/BENIOKU.md` tablosunda yazıyor.
+
+Burada kadraj hazırlığı gerekmiyor — üretici `odak` ile kendi kırpıyor. Dikey ya da kare, en az 1200 px genişlik yeterli.
+
 ## Fotoğrafı koymadan önce kontrol et
 
 Gönderilen her görsel anlatılan ürünün kendisi olmayabilir. Arama sonuçlarında ve stok görsel sitelerinde benzer makineler dolaşıyor. **Makineyi tanımadan dosyayı klasöre koyma** — yanlış makineyi tanıtmak vektör çizimden daha kötü. Bu sette bir kare bu yüzden elendi: R1 gönderisi için gelen açık gövdeli diyot lazer karesi kullanılmadı.
