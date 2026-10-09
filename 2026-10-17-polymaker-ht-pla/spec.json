@@ -73,9 +73,8 @@
         ]
       ],
       "foto": "urun/htpla-uclu.jpg",
-      "bant": 520,
-      "odak": 0.45,
-      "sigdir": true
+      "bant": 620,
+      "odak": 0.0
     },
     {
       "baslik": "Baskı ayarları",

@@ -4,7 +4,7 @@
   "kapak": {
     "tip": "urun",
     "gorsel": "urun/filadryer-uclu.jpg",
-    "odak": 0.7,
+    "odak": 0.0,
     "ustbilgi": "FİLAMENT KURUTUCU · STOKTA",
     "satir1": "SUNLU FILADRYER",
     "satir2": "S2 · SP2 · E2",
@@ -22,8 +22,7 @@
         "PROFİL",
         "hazır"
       ]
-    ],
-    "sigdir": true
+    ]
   },
   "slaytlar": [
     {
@@ -73,9 +72,9 @@
           "70 °C üstü kurutmada makaranın kendisi de ısıya dayanmalı, plastik makara deforme olabiliyor"
         ]
       ],
-      "foto": "urun/filadryer-e2.jpg",
-      "bant": 560,
-      "odak": 0.45
+      "foto": "urun/filadryer.jpg",
+      "bant": 620,
+      "odak": 0.0
     },
     {
       "baslik": "Nem neye mal oluyor",
