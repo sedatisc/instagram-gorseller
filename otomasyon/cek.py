@@ -259,6 +259,21 @@ def main():
             satir.append("| %s | HATA | %s |" % (slug, str(e)[:90]))
             hata += 1
 
+    # Aynı kareyi iki ürüne atamak en sinsi hata: ada göre eşleşme yanlış
+    # sayfaya gidince iki modelin görseli aynı çıkıyor ve gözden kaçıyor.
+    import hashlib
+    ozet = {}
+    for f_ in sorted(os.listdir(HAM)):
+        yol = os.path.join(HAM, f_)
+        if os.path.isfile(yol):
+            h = hashlib.md5(open(yol, "rb").read()).hexdigest()
+            ozet.setdefault(h, []).append(os.path.splitext(f_)[0])
+    cift = [v for v in ozet.values() if len(v) > 1]
+    for grup in cift:
+        satir.append("| %s | **AYNI GÖRSEL** | bu ürünler birebir aynı "
+                     "kareyi aldı — birine tam 'sayfa' adresi ver |"
+                     % " + ".join(grup))
+
     with open(RAPOR, "w", encoding="utf-8") as f:
         f.write("# Son çalışma\n\n")
         f.write("%s · %d yeni · %d hata\n\n"

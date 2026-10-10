@@ -5,31 +5,93 @@
     "https://sermenkreatif.com"
   ],
   "urunler": [
-    { "slug": "sunlu-pla-plus-2",      "ara": "SUNLU PLA+ 2.0" },
-    { "slug": "sunlu-pla-mat",         "ara": "SUNLU PLA Mat" },
-    { "slug": "sunlu-petg",            "ara": "SUNLU PETG" },
-    { "slug": "sunlu-abs",             "ara": "SUNLU ABS" },
-
-    { "slug": "polymaker-polylite-abs",    "ara": "Polymaker PolyLite ABS" },
-    { "slug": "polymaker-polylite-petg",   "ara": "Polymaker PolyLite PETG" },
-    { "slug": "polymaker-polyterra-pla",   "ara": "Polymaker PolyTerra PLA" },
-    { "slug": "polymaker-polysmooth",      "ara": "Polymaker PolySmooth" },
-    { "slug": "polymaker-panchroma-mat",   "ara": "Polymaker Panchroma Mat PLA" },
-    { "slug": "polymaker-panchroma-silk",  "ara": "Polymaker Panchroma Silk PLA" },
-
-    { "slug": "snapmaker-u1",          "ara": "Snapmaker U1" },
-    { "slug": "bambu-h2d",             "ara": "Bambu Lab H2D" },
-    { "slug": "creality-sparkx-i7",    "ara": "Creality SparkX i7" },
-    { "slug": "elegoo-centauri-carbon2", "ara": "Elegoo Centauri Carbon 2" },
-    { "slug": "flashforge-ad5x",       "ara": "Flashforge Adventurer 5X" },
-    { "slug": "entina-tina2-plus",     "ara": "Entina Tina2 Plus" },
-
-    { "slug": "anycubic-mono-m7-pro",  "ara": "Anycubic Photon Mono M7 Pro" },
-    { "slug": "anycubic-mono-m7-max",  "ara": "Anycubic Photon Mono M7 Max" },
-    { "slug": "elegoo-mars5-ultra",    "ara": "Elegoo Mars 5 Ultra" },
-
-    { "slug": "phaetus-ad5x-sic-06",   "ara": "Phaetus AD5X SiC Nozzle 0.6" },
-    { "slug": "phaetus-qidi-q2-02",    "ara": "Phaetus QIDI Q2 0.2 hotend" },
-    { "slug": "phaetus-k1-dxc",        "ara": "Phaetus K1 DXC Extruder" }
+    {
+      "slug": "sunlu-pla-plus-2",
+      "ara": "SUNLU PLA+ 2.0"
+    },
+    {
+      "slug": "sunlu-pla-mat",
+      "ara": "SUNLU PLA Mat"
+    },
+    {
+      "slug": "sunlu-petg",
+      "ara": "SUNLU PETG"
+    },
+    {
+      "slug": "sunlu-abs",
+      "ara": "SUNLU ABS"
+    },
+    {
+      "slug": "polymaker-polylite-abs",
+      "sayfa": "https://filamentdepom.com/filament/abs/prd-polylite-abs-siyah-filament"
+    },
+    {
+      "slug": "polymaker-polylite-petg",
+      "sayfa": "https://filamentdepom.com/polylite-petg-translucent-filament-mavi-1-kg-1.75mm"
+    },
+    {
+      "slug": "polymaker-polyterra-pla",
+      "sayfa": "https://filamentdepom.com/filament/estetik-pla/mat-pla/prd-polyterra-pla-filament-toprak-kahverengi"
+    },
+    {
+      "slug": "polymaker-polysmooth",
+      "sayfa": "https://filamentdepom.com/filament/pvb/polysmooth/prd-polysmooth-beyaz-filament"
+    },
+    {
+      "slug": "polymaker-panchroma-mat",
+      "sayfa": "https://filamentdepom.com/filament/estetik-pla/mat-pla/prd-panchroma-pla-mat-arktik-camgobegi"
+    },
+    {
+      "slug": "polymaker-panchroma-silk",
+      "sayfa": "https://filamentdepom.com/filament/estetik-pla/silk-pla/prd-panchroma-silk-pla-filament-altin"
+    },
+    {
+      "slug": "snapmaker-u1",
+      "sayfa": "https://filamentdepom.com/snapmaker-u1-3d-yazici-4-baslikli-cok-renkli-yazici-on-siparis-954"
+    },
+    {
+      "slug": "bambu-h2d",
+      "ara": "Bambu Lab H2D"
+    },
+    {
+      "slug": "creality-sparkx-i7",
+      "ara": "Creality SparkX i7"
+    },
+    {
+      "slug": "elegoo-centauri-carbon2",
+      "ara": "Elegoo Centauri Carbon 2"
+    },
+    {
+      "slug": "flashforge-ad5x",
+      "ara": "Flashforge Adventurer 5X"
+    },
+    {
+      "slug": "entina-tina2-plus",
+      "ara": "Entina Tina2 Plus"
+    },
+    {
+      "slug": "anycubic-mono-m7-pro",
+      "sayfa": "https://filamentdepom.com/anycubic-mono-m7-pro-recine-3d-yazici"
+    },
+    {
+      "slug": "anycubic-mono-m7-max",
+      "sayfa": "https://filamentdepom.com/anycubic-photon-mono-m7-max-recine-3d-yazici"
+    },
+    {
+      "slug": "elegoo-mars5-ultra",
+      "ara": "Elegoo Mars 5 Ultra"
+    },
+    {
+      "slug": "phaetus-ad5x-sic-06",
+      "ara": "Phaetus AD5X SiC Nozzle 0.6"
+    },
+    {
+      "slug": "phaetus-qidi-q2-02",
+      "ara": "Phaetus QIDI Q2 0.2 hotend"
+    },
+    {
+      "slug": "phaetus-k1-dxc",
+      "ara": "Phaetus K1 DXC Extruder"
+    }
   ]
 }
