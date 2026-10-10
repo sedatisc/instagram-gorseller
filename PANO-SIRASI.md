@@ -35,9 +35,26 @@ sayfasından alınacak, hafızadan yazılmayacak. Kart fotoğrafları için
 | # | Konu | Sütunlar | Gereken fotoğraf |
 |---|---|---|---|
 | ✓ | Projeye hangi kart girer | Pico 2 W · ESP32-S3 · Pi 5 | tamam — üretici GitHub deposundan |
+| ✓ | Hangi ESP32 | S3 · C6 · P4 | tamam — esp-dev-kits deposundan |
 | 1 | Kablosuz seçimi | Wi-Fi · BLE · LoRa | 3 modül |
 | 2 | Motor sürücü sınıfı | DRV8833 · BTS7960 · ayrık MOSFET | 3 modül/kart |
 | 3 | Güç kaynağı | lineer · buck · buck-boost | 3 modül |
 | 4 | Sensör ailesi | DHT22 · BME280 · SHT41 | 3 sensör |
-| 5 | Uçuş/sürüş kontrol | Pixhawk 6C · SpeedyBee F405 · Arduino | 3 kart |
+| ✓ | Uçuş kontrol kartı | Pixhawk 6C · 6C mini · 6X | tamam — PX4 deposundan (CC BY 4.0) |
+| ✓ | Raspberry Pi kamerası | Module 3 · HQ · GS | tamam — rpi deposundan |
 | 6 | Ekran seçimi | OLED · TFT · e-ink | 3 ekran |
+
+## Denenip çıkmayanlar
+
+Fotoğraf aramak için boşuna tekrar bakma:
+
+- **Bambu Lab** (`bambulab/BambuStudio`) — yazıcı görselleri var ama
+  dilimleyici arayüzü için, 104 × 104 piksel. Panoda kullanılamaz.
+- **Prusa** (`prusa3d/Prusa-Firmware-Buddy`) — yalnız doküman ekran
+  görüntüleri, ürün fotoğrafı yok.
+- **Voron** (`VoronDesign/Voron-Documentation`) — tek bir yazıcı
+  fotoğrafı var, üçlü pano çıkmıyor; ayrıca depo GPL-3.0.
+
+Yani **yazıcı ve filament tarafının fotoğrafı İlhan'dan gelecek.**
+Elektronik tarafı (Raspberry Pi, Espressif, PX4/Pixhawk) kendi
+depolarından çıkıyor.

@@ -61,7 +61,8 @@
       15,
       16,
       17,
-      18
+      18,
+      19
     ]
   },
   "gecmis": [
@@ -485,6 +486,11 @@
         "tarih": "2026-10-16",
         "slot": "proje",
         "klasor": "2026-10-20-pixhawk-pano"
+      },
+      {
+        "tarih": "2026-10-17",
+        "slot": "proje",
+        "klasor": "2026-10-21-pi-kamera-pano"
       }
     ],
     "reels": [

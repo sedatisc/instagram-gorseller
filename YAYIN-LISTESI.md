@@ -109,7 +109,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 13:00 | Hikaye | ELEKTRONİK & IoT | `2026-10-17-esp32-ailesi-pano/hikaye.png` | 1 |
 | 16:50 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
-| 20:10 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
+| 20:10 | Gönderi | PROJE & ATÖLYE | `2026-10-21-pi-kamera-pano` | 1 |
+| 20:50 | Hikaye | PROJE & ATÖLYE | `2026-10-21-pi-kamera-pano/hikaye.png` | 1 |
 
 ## Boş slotlar
 
@@ -120,5 +121,4 @@ Bu slotlar için içerik henüz üretilmedi:
 - 2026-10-16 · REELS
 - 2026-10-17 · 3D BASKI & ÜRETİM DONANIMI
 - 2026-10-17 · ÜRÜN & MAĞAZA
-- 2026-10-17 · PROJE & ATÖLYE
 - 2026-10-17 · REELS

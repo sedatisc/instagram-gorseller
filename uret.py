@@ -2080,10 +2080,22 @@ def kapak_pano(spec, sayac, yol):
     y = d.textbbox((W / 2, y), s2, font=f, anchor="ma")[3] + 18
     d.line([(W / 2 - 60, y), (W / 2 + 60, y)], fill=AC(), width=3)
     y += 18
-    fs = pop(19, "Medium")
-    for ln in wrap(d, P(spec.get("spot", "")), fs, 880)[:2]:
+    # Spot 2 satıra sığmıyorsa önce küçülüyor, sonra 3. satıra iniyor;
+    # yine sığmazsa cümle ortasında kesilmeyip "…" ile bitiyor.
+    metin = P(spec.get("spot", ""))
+    fs, satir = pop(19, "Medium"), []
+    if metin:
+        for boy, en_cok in ((19, 2), (18, 2), (17, 3), (16, 3)):
+            fs = pop(boy, "Medium")
+            satir = wrap(d, metin, fs, 880)
+            if len(satir) <= en_cok:
+                break
+        else:
+            satir = satir[:3]
+            satir[-1] = satir[-1].rstrip(" ,;.:") + "…"
+    for ln in satir:
         d.text((W / 2, y), ln, font=fs, fill=(74, 84, 104), anchor="ma")
-        y += 27
+        y += fs.size + 8
 
     sut = spec["sutunlar"][:3]
     n = len(sut)

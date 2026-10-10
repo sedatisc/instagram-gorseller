@@ -1,0 +1,70 @@
+{
+  "kategori": "proje",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "pano",
+    "marka_alt": "Raspberry Pi Kamera Seçim Rehberi",
+    "ust_sol": "ROBOT · GÜVENLİK · MAKİNE GÖRÜŞÜ",
+    "ust_sag": "ÇÖZÜNÜRLÜK · LENS · DEKLANŞÖR",
+    "satir1": "HANGİ PI",
+    "satir2": "KAMERASI?",
+    "spot": "Üçü de aynı şerit kabloya takılıyor ama aynı işi yapmıyor. Ayrım megapikselde değil: biri kendi odaklanıyor, biri lens değiştiriyor, biri hareketi bozmadan yakalıyor. Rakamlar Raspberry Pi'nin kendi karşılaştırma tablosundan.",
+    "sutunlar": [
+      {
+        "baslik": "CAMERA MODULE 3",
+        "alt": "GÜNLÜK KULLANIM · OTOFOKUS",
+        "renk": "yesil",
+        "gorsel": "urun/kesik-picam3.png",
+        "ozellikler": [
+          ["cip", "Sony IMX708 · 11,9 MP"],
+          ["olcu", "4608 × 2592 · 1/2,43\" · F1.8"],
+          ["hiz", "2304 × 1296p56 · 30 fps HDR"],
+          ["kutu", "25 × 24 × 11,5 mm · 4 g"]
+        ],
+        "kullanim": [
+          ["soru", "Motorlu otofokus, 10 cm'den sonsuza"],
+          ["arac", "4 gram — dron ve robotta yük yapmıyor"],
+          ["olcu", "Geniş açı sürümünde 102° yatay görüş"]
+        ]
+      },
+      {
+        "baslik": "HQ CAMERA",
+        "alt": "DEĞİŞTİRİLEBİLİR LENS · C/CS",
+        "renk": "kiraz",
+        "gorsel": "urun/kesik-picam-hq.png",
+        "ozellikler": [
+          ["cip", "Sony IMX477 · 12,3 MP"],
+          ["olcu", "4056 × 3040 · 1/2,3\""],
+          ["terazi", "1,55 µm piksel — düşük ışıkta avantaj"],
+          ["kutu", "38 × 38 × 18,4 mm (lenssiz) · 30,4 g"]
+        ],
+        "kullanim": [
+          ["kutu", "Lens sana ait: makro, tele, geniş"],
+          ["uyari", "Odak ve görüş açısı lense bağlı"],
+          ["ev", "Sabit kurulum, kalite öncelikli iş"]
+        ]
+      },
+      {
+        "baslik": "GS CAMERA",
+        "alt": "GLOBAL SHUTTER · HAREKETLİ SAHNE",
+        "renk": "mavi",
+        "gorsel": "urun/kesik-picam-gs.png",
+        "ozellikler": [
+          ["cip", "Sony IMX296 · 1,58 MP"],
+          ["hiz", "1456 × 1088 · 60 fps"],
+          ["terazi", "3,45 µm piksel — en büyük piksel"],
+          ["kutu", "38 × 38 × 19,8 mm · 34 g"]
+        ],
+        "kullanim": [
+          ["arac", "Hızlı hareket, titreşimli platform"],
+          ["olcu", "Makine görüşü, ölçüm, kod okuma"],
+          ["uyari", "Çözünürlük düşük — fotoğraf için değil"]
+        ]
+      }
+    ],
+    "ipucu": "Günlük kullanım ve dron için Module 3. Sabit kurulum ve lens özgürlüğü için HQ. Hızlı hareket ve makine görüşü için GS.",
+    "alt_cagri": "Projene göre kamerayı seç"
+  },
+  "slaytlar": [],
+  "kapanis": null
+}
