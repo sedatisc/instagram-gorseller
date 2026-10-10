@@ -215,6 +215,27 @@ Slayt başlıklarında yalnız ilk kelime ve özel adlar büyük.
 
 ## Ürün gönderileri
 
+**Stok ve sevkiyat gönderiye yazılmaz (10 Ekim 2026).** Satmaya
+çalıştığımız ürünün altına "tükendi", "stok yok", "sevkiyat ekimde",
+"ön siparişte" yazmak satışı baltalıyor — okur ürünü alamayacağını
+düşünüp geçiyor. Üstelik bu bilgiler günlerle eskiyor; gönderi iki
+hafta sonra yanlış bilgi veriyor.
+
+Gönderide **olmayacaklar:** stok durumu, tükendi/tükenmedi, sevkiyat
+tarihi, ön sipariş durumu, teslim süresi, "gelince haber verelim".
+
+Yerine **konumlandırma** yazılır: ürün ne işe yarar, kime uyar, kime
+uymaz, nelere dikkat edilir. Güncel durum ve fiyat için
+sermenkreatif.com'a yönlendirilir — orası her an güncel, gönderi değil.
+
+İstisna: bir ürünün **henüz piyasada olmadığını** söylemek haberin
+kendisiyse (duyurulmuş ama çıkmamış makine) bu yazılabilir — ama
+yalnız satmadığımız ürün için ve okuru satılan bir ürüne yönlendirmek
+amacıyla. Kendi sattığımız üründe asla.
+
+Bu kural 10 Ekim 2026'da yayındaki R1 gönderisinde "TÜRKİYE SATICISI:
+var, üçü de tükendi" satırı görüldükten sonra yazıldı.
+
 `PLAN.md`'de **Ürün:** ile başlayan konularda, yazmadan önce web'de ara ve doğrula. Model adları ve ürün gamları hızlı değişiyor.
 
 - **Sermenkreatif'in sattığı ürünlerde fiyat yazma.** Konumlandırma yaz ("giriş seviyesi", "kapalı kabinli orta sınıf"), fiyat için sermenkreatif.com'a yönlendir.

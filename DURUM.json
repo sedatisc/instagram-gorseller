@@ -352,28 +352,8 @@
     }
   ],
   "kuyruk_bekleyen": {
-    "not": "Gunde 4 gonderi + 4 hikaye + 1 reels. Saat izgarasi sira.py icinde, liste YAYIN-LISTESI.md. Metricool kotasi 10 Ekim 02:20 itibariyla hala dolu (8-9 Ekim gonderileri ERROR: 'You have reached your Metricool account limit'). Kota acilinca klasorler yeniden uretilmeden dogrudan createScheduledPost ile planlanacak; gorseller GitHub raw adresinden cekilecek. Gecmis saatli slotlar atlanacak.",
+    "not": "11-17 Ekim · gunde 4 gonderi + 4 hikaye + 1 reels. Saat izgarasi sira.py icinde, liste YAYIN-LISTESI.md. Metricool kotasi dolu oldugu icin yayin elle yapiliyor; klasordeki numarali PNG'ler karusel sirasi, hikaye.png hikaye, metin.md aciklama ve ilk yorum. 2026-10-11-ender-v3-mega-tanitim beklemede, bkz. 'beklemede'.",
     "slotlar": [
-      {
-        "tarih": "2026-10-10",
-        "slot": "3dbaski",
-        "klasor": "2026-10-10-filament-kurutma"
-      },
-      {
-        "tarih": "2026-10-10",
-        "slot": "elektronik",
-        "klasor": "2026-10-10-tp4056-sarj"
-      },
-      {
-        "tarih": "2026-10-10",
-        "slot": "urun",
-        "klasor": "2026-10-10-bambu-r1-tanitim"
-      },
-      {
-        "tarih": "2026-10-10",
-        "slot": "proje",
-        "klasor": "2026-10-10-fusion-onshape"
-      },
       {
         "tarih": "2026-10-11",
         "slot": "3dbaski",
@@ -383,6 +363,11 @@
         "tarih": "2026-10-11",
         "slot": "elektronik",
         "klasor": "2026-10-11-jetson-orin-nano"
+      },
+      {
+        "tarih": "2026-10-11",
+        "slot": "urun",
+        "klasor": "2026-10-10-bambu-r1-tanitim"
       },
       {
         "tarih": "2026-10-11",
@@ -412,7 +397,7 @@
       {
         "tarih": "2026-10-13",
         "slot": "3dbaski",
-        "klasor": "2026-10-13-nozzle-capi"
+        "klasor": "2026-10-16-sunlu-filament-pano"
       },
       {
         "tarih": "2026-10-13",
@@ -432,22 +417,7 @@
       {
         "tarih": "2026-10-14",
         "slot": "3dbaski",
-        "klasor": "2026-10-18-filament-kurutucu-pano"
-      },
-      {
-        "tarih": "2026-10-14",
-        "slot": "urun",
-        "klasor": "2026-10-16-phaetus-liber-u1"
-      },
-      {
-        "tarih": "2026-10-15",
-        "slot": "3dbaski",
-        "klasor": "2026-10-19-ht-pla-pano"
-      },
-      {
-        "tarih": "2026-10-15",
-        "slot": "urun",
-        "klasor": "2026-10-17-polymaker-ht-pla"
+        "klasor": "2026-10-13-nozzle-capi"
       },
       {
         "tarih": "2026-10-14",
@@ -456,8 +426,18 @@
       },
       {
         "tarih": "2026-10-14",
+        "slot": "urun",
+        "klasor": "2026-10-16-phaetus-liber-u1"
+      },
+      {
+        "tarih": "2026-10-14",
         "slot": "proje",
         "klasor": "2026-10-14-siparis-sorulari"
+      },
+      {
+        "tarih": "2026-10-15",
+        "slot": "3dbaski",
+        "klasor": "2026-10-18-filament-kurutucu-pano"
       },
       {
         "tarih": "2026-10-15",
@@ -466,8 +446,18 @@
       },
       {
         "tarih": "2026-10-15",
+        "slot": "urun",
+        "klasor": "2026-10-17-polymaker-ht-pla"
+      },
+      {
+        "tarih": "2026-10-15",
         "slot": "proje",
         "klasor": "2026-10-15-3d-tarayici"
+      },
+      {
+        "tarih": "2026-10-16",
+        "slot": "3dbaski",
+        "klasor": "2026-10-18-bambu-h-serisi-pano"
       },
       {
         "tarih": "2026-10-16",
@@ -475,9 +465,9 @@
         "klasor": "2026-10-16-gelistirme-karti-pano"
       },
       {
-        "tarih": "2026-10-17",
-        "slot": "elektronik",
-        "klasor": "2026-10-17-esp32-ailesi-pano"
+        "tarih": "2026-10-16",
+        "slot": "urun",
+        "klasor": "2026-10-21-u1-k3-pano"
       },
       {
         "tarih": "2026-10-16",
@@ -486,48 +476,29 @@
       },
       {
         "tarih": "2026-10-17",
-        "slot": "proje",
-        "klasor": "2026-10-21-pi-kamera-pano"
-      },
-      {
-        "tarih": "2026-10-16",
         "slot": "3dbaski",
-        "klasor": "2026-10-16-sunlu-filament-pano"
-      },
-      {
-        "tarih": "2026-10-17",
-        "slot": "3dbaski",
-        "klasor": "2026-10-17-cok-renkli-yazici-pano"
-      },
-      {
-        "tarih": "2026-10-16",
-        "slot": "urun",
-        "klasor": "2026-10-18-bambu-h-serisi-pano"
-      },
-      {
-        "tarih": "2026-10-17",
-        "slot": "urun",
         "klasor": "2026-10-19-bambu-a-serisi-pano"
       },
       {
-        "tarih": "2026-10-11",
+        "tarih": "2026-10-17",
+        "slot": "elektronik",
+        "klasor": "2026-10-17-esp32-ailesi-pano"
+      },
+      {
+        "tarih": "2026-10-17",
         "slot": "urun",
         "klasor": "2026-10-20-sparkx-i7-i8-pano"
       },
       {
-        "tarih": "2026-10-12",
-        "slot": "urun",
-        "klasor": "2026-10-21-u1-k3-pano"
+        "tarih": "2026-10-17",
+        "slot": "proje",
+        "klasor": "2026-10-21-pi-kamera-pano"
       }
     ],
     "reels": [
       {
-        "tarih": "2026-10-10",
-        "klasor": "2026-10-10-bambu-r1-tanitim"
-      },
-      {
         "tarih": "2026-10-11",
-        "klasor": "2026-10-11-ender-v3-mega-tanitim"
+        "klasor": "2026-10-10-bambu-r1-tanitim"
       },
       {
         "tarih": "2026-10-12",
@@ -544,6 +515,14 @@
       {
         "tarih": "2026-10-15",
         "klasor": "2026-10-17-polymaker-ht-pla"
+      },
+      {
+        "tarih": "2026-10-16",
+        "klasor": "2026-10-18-bambu-h-serisi-pano"
+      },
+      {
+        "tarih": "2026-10-17",
+        "klasor": "2026-10-16-sunlu-filament-pano"
       }
     ],
     "beklemede": [

@@ -292,9 +292,36 @@ def sahne_kapanis(spec, t, sure):
 
 
 # -------------------------------------------------------------------- akış
+def pano_kurgu(spec):
+    """Pano gönderisinin reels'i: kanca, her sütun bir sahne, kapanış.
+
+    Panonun slaytı yok — bilgi sütunlarda duruyor. Her sütunu ayrı
+    sahneye açıp künye satırlarını sırayla gösteriyoruz.
+    """
+    k = dict(spec["kapak"])
+    # panoda ustbilgi yok; marka_alt onun yerine geçiyor, yoksa kanca
+    # sahnesi "YENİ MAKİNE" varsayılanına düşüyor
+    k.setdefault("ustbilgi", k.get("marka_alt", ""))
+    sut = k.get("sutunlar", [])[:3]
+    kat = foto_katman(sut[0].get("gorsel") if sut else None, BANT)
+    sahneler = [(3.6, lambda t, s: sahne_kanca(k, kat, t, s))]
+    for c in sut:
+        oz = [tuple(r) for r in (c.get("ozellikler") or [])][:3]
+        rows = [(c.get("alt", ""), "")] + [(v, "") for _, v in oz]
+        sahneler.append((4.2, lambda t, s, b=c["baslik"], r=rows:
+                         sahne_satir(b, r, t, s)))
+    kapanis = {"satir1": P(k.get("satir1", "")),
+               "satir2": P(k.get("satir2", "")),
+               "kriterler": [], "not": k.get("ipucu", "")}
+    sahneler.append((4.0, lambda t, s: sahne_kapanis(kapanis, t, s)))
+    return sahneler
+
+
 def kurgu(spec):
     """(süre, çizici) listesi."""
     k = spec["kapak"]
+    if k.get("tip") == "pano":
+        return pano_kurgu(spec)
     kat = foto_katman(k.get("gorsel"), BANT)
     kat2 = foto_katman(k.get("gorsel"), 820, odak=0.88)
     sahneler = [(3.6, lambda t, s: sahne_kanca(k, kat, t, s))]

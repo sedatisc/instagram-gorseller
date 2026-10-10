@@ -14,7 +14,7 @@
         "mavi"
       ],
       [
-        "Sevkiyat ekimde",
+        "55 W CO2",
         "sari"
       ]
     ],
@@ -37,7 +37,7 @@
       ],
       [
         "DURUM",
-        "önsipariş, sevkiyat ekimde"
+        "masaüstü CO2 sınıfı"
       ]
     ],
     "tip": "izgara",
@@ -82,7 +82,7 @@
       {
         "etiket": "DURUM",
         "deger": "önsipariş",
-        "alt": "Sevkiyat ekimde başlıyor. Türkiye fiyatı ve stok durumu için yazın.",
+        "alt": "Ayrıntılar ve güncel durum sermenkreatif.com'da.",
         "renk": "sari",
         "ikon": "zaman",
         "genis": true
@@ -134,8 +134,8 @@
         "metal kesmek isteyen"
       ],
       [
-        "BEKLEYECEK",
-        "ev içine makine arayan"
+        "DİKKAT",
+        "baca ve hava pompası ayrı"
       ]
     ],
     "not": "Konumlandırma ve ayrıntılar sermenkreatif.com'da."

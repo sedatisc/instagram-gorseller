@@ -324,6 +324,8 @@ WhatsApp grubu hesabın en değerli çıktısı: takipçi akışta kaybolur, gru
 
 **Çıkmamış ürünü çıkmış gibi anlatma.** Duyurulmuş ama raflarda olmayan ürün karşılaştırmaya sokulmaz. Konu buysa açıkça "henüz çıkmadı" denir — bu zaten kendi başına haberdir.
 
+**Stok ve sevkiyat yazma.** Sattığımız ürünün altına "tükendi" ya da "sevkiyat ekimde" yazmak satışı baltalıyor ve bilgi günlerle eskiyor. Stok durumu, teslim tarihi ve ön sipariş bilgisi gönderide yer almaz; güncel durum sermenkreatif.com'da.
+
 **Fiyat yazma.** Fiyat en hızlı eskiyen bilgi. Gönderide fiyat yerine konumlandırma yazılır ("giriş seviyesi", "kapalı kabinli orta sınıf"). Fiyat sermenkreatif.com'da, gönderi oraya yönlendirir.
 
 **Görsel gerçek fotoğraf olacak, vektör çizim değil.** Fotoğrafı İlhan veriyor; ham kareden arka planı kesilip `arac/studyo.py` ile stüdyo karesine çevriliyor (bkz. `gorsel/BENIOKU.md`). Fotoğraf yoksa gönderi üretilmiyor — kareye "FOTOĞRAF YOK" basılıyor ve üretici uyarı veriyor. Google görselinden indirilen kare ticari gönderide kullanılmıyor.

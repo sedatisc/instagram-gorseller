@@ -1,6 +1,6 @@
 ## Gönderi metni
 
-Bambu Lab 3D yazıcıdan sonra lazere girdi. R1, 55 W CO2 lazerle 2.499 dolardan ön siparişte; sevkiyat bu ay başlıyor.
+Bambu Lab 3D yazıcıdan sonra lazere girdi. R1, 55 W CO2 lazerle 600 × 300 mm tezgâh sunuyor; gövde fiyatı 2.499 dolar.
 
 Ne kesiyor → 18 mm ceviz kontrplak, 20 mm şeffaf akrilik. Deri, kâğıt, kumaş da listede. Cam, taş ve kaplamalı metalde yalnız gravür var; çıplak metal kesmiyor. CO2 lazerin fiziği bu, marka farkı değil.
 
