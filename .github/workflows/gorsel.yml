@@ -55,9 +55,9 @@ jobs:
         run: |
           git config user.name  "gorsel-botu"
           git config user.email "noreply@github.com"
-          git add gorsel/urun otomasyon/SON-CALISMA.md \
-                  otomasyon/site-haritasi.json otomasyon/bulunan-urunler.txt \
-                  2>/dev/null || true
+          # Tek tek ekleme: 'git add a b c' listedeki bir yol yoksa
+          # tümden hata verip hiçbir şeyi stage'lemiyor.
+          git add -A gorsel/urun otomasyon
           if git diff --cached --quiet; then
             echo "Değişiklik yok."
           else
