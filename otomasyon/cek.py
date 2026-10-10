@@ -71,20 +71,25 @@ def temiz(aday, taban):
 
 
 def gorsel_bul(html, sayfa):
-    """Ürün sayfasından en olası ürün görselini seç."""
-    for kalip in (_TICI,):
-        m = kalip.findall(html)
-        if m:
-            # büyük sürüm genelde "orj-" ya da boyutsuz olan
-            m.sort(key=lambda u: (("orj" not in u.lower()), len(u)))
-            u = temiz(m[0], sayfa)
-            if u:
-                return u, "ticimax ürün klasörü"
+    """Ürün sayfasından en olası ürün görselini seç.
+
+    og:image önce geliyor: sayfanın kendi ana ürün karesi odur. Ticimax
+    klasöründeki ilk görsel "benzer ürünler" karuselinden gelebiliyor ve
+    başka bir ürünün karesi çıkıyor (H2S ve A1 mini sayfalarında Entina
+    Tina2 geldi, 10 Ekim 2026).
+    """
     for kalip in (_OG, _OG2):
         m = kalip.search(html)
         u = temiz(m.group(1), sayfa) if m else None
         if u:
             return u, "og:image"
+    for kalip in (_TICI,):
+        m = kalip.findall(html)
+        if m:
+            m.sort(key=lambda u: (("orj" not in u.lower()), len(u)))
+            u = temiz(m[0], sayfa)
+            if u:
+                return u, "ticimax ürün klasörü"
     for aday in _IMG.findall(html):
         u = temiz(aday, sayfa)
         if u:
