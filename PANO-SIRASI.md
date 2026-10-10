@@ -44,6 +44,27 @@ sayfasından alınacak, hafızadan yazılmayacak. Kart fotoğrafları için
 | ✓ | Raspberry Pi kamerası | Module 3 · HQ · GS | tamam — rpi deposundan |
 | 6 | Ekran seçimi | OLED · TFT · e-ink | 3 ekran |
 
+## Pano ne değildir
+
+Pano **tek bir seçim sorusunun** formatı: "bunlardan hangisi benim
+işime?" Üç sütun, aynı türden üç seçenek, aralarından biri seçiliyor.
+
+Pano **vitrin değildir.** Birbiriyle yarışmayan ürünleri yan yana
+dizmek karşılaştırma gibi görünüyor ama değil; okur "hangisini
+alayım" diye bakıyor, cevap çıkmıyor.
+
+Yapılan hata (10 Ekim 2026): iki SUNLU kurutucunun yanına Phaetus
+hotend konup "baskıyı bozan üç sorun" denildi. Kurutucuyla hotend
+birbirinin alternatifi değil. Gönderi kaldırıldı.
+
+Sütunlar şu testi geçmeli: **üçü de aynı soruya verilen üç farklı
+cevap mı?** Değilse pano değil, ya ayrı ayrı ürün gönderisi ya da
+karusel rehber olur.
+
+Mağaza ürünlerinin tanıtımı zaten `urun` tipli karusel gönderilerle
+yapılıyor (10-14 … 10-17). ÜRÜN & MAĞAZA slotu için ayrıca pano
+gerekmiyor.
+
 ## Denenip çıkmayanlar
 
 Fotoğraf aramak için boşuna tekrar bakma:

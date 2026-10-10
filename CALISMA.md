@@ -127,6 +127,12 @@ Ayrıntı ve lisans şartları `gorsel/BENIOKU.md` içinde. Bu kaynaktan
 alınan görsel CC BY-SA 4.0 ile geliyor; atıf `metin.md`'ye yazılacak
 ve İlhan'a söylenecek.
 
+**Pano = karşılaştırma, vitrin değil (10 Ekim 2026).** Üç sütun aynı
+soruya verilen üç farklı cevap olmalı. Birbirinin alternatifi olmayan
+ürünleri (kurutucu + hotend gibi) yan yana dizme; okur "hangisini
+alayım" diye bakıyor ve cevap çıkmıyor. Ayrıntı `PANO-SIRASI.md`.
+
+
 
 **Kapak düzeni her gönderide değişir.** Tekdüzelik merak uyandırmıyor. `spec["kapak"]["tip"]` ile seç, arka arkaya aynı tipi kullanma:
 
