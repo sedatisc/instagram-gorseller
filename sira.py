@@ -223,6 +223,11 @@ def paket():
 if __name__ == "__main__":
     n, e = liste()
     paket()
+    try:                                   # artifact sayfası
+        import paket as _p
+        _p.main()
+    except Exception as _e:                # sayfa olmasa da liste üretilsin
+        print("yayin-paketi.html üretilemedi:", _e)
     if "--eksik" in sys.argv:
         print("%d gün, %d boş slot" % (n, e))
     else:
