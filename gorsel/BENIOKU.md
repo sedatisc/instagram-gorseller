@@ -53,12 +53,15 @@ Buna karşılık WebFetch ürün sayfalarını okuyabiliyor: ürün adı, teknik
 özellik, stok durumu oradan alınabiliyor. Yani **araştırma tarafı
 açık, yalnız fotoğraf kapalı.**
 
-**Fotoğrafı bana ulaştırmanın iki yolu:**
+**Çözüm: GitHub Actions.** Koşucunun tam internet erişimi var.
+`.github/workflows/gorsel.yml` görselleri indirip arka planını kesiyor
+ve depoya işliyor; buradan okunuyor. Elle fotoğraf göndermeye gerek
+kalmadı. Yeni ürün için `otomasyon/urunler.json`'a bir satır yetiyor —
+ayrıntı `otomasyon/BENIOKU.md`.
 
-1. Sohbete ekle — en hızlısı.
-2. `sedatisc/instagram-gorseller` deposuna koy. GitHub okunabiliyor;
-   `gorsel/urun/` altına atılan kare doğrudan kullanılabiliyor.
-   Toplu fotoğraf göndereceksen bu daha pratik.
+Bu yol **yalnız iki sitede satılan ürünler** için çalışıyor. İlhan'ın
+kendi projelerinin (rover, SIPA, DİRHEM, atölye) fotoğrafı hiçbir yerde
+yok; onlar için gönderim gerekiyor.
 
 
 Bu klasör üretilen karelerde kullanılan gerçek fotoğrafları tutuyor. İki yerde kullanılıyor:
