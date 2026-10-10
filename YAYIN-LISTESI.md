@@ -106,17 +106,12 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:40 | — | **3D BASKI & ÜRETİM DONANIMI** | _boş — üretilecek_ | — |
-| 12:20 | — | **ELEKTRONİK & IoT** | _boş — üretilecek_ | — |
+| 11:40 | Gönderi | 3D BASKI & ÜRETİM DONANIMI | `2026-10-18-sert-nozul` | 5 |
+| 12:20 | Gönderi | ELEKTRONİK & IoT | `2026-10-18-kondansator-esr` | 5 |
+| 12:20 | Hikaye | 3D BASKI & ÜRETİM DONANIMI | `2026-10-18-sert-nozul/hikaye.jpg` | 1 |
+| 13:00 | Hikaye | ELEKTRONİK & IoT | `2026-10-18-kondansator-esr/hikaye.jpg` | 1 |
 | 17:10 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-18-ender-3-v4-combo` | 5 |
 | 17:50 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-18-ender-3-v4-combo/hikaye.jpg` | 1 |
 | 19:50 | **Reels** | — | `2026-10-18-ender-3-v4-combo/reels.mp4` | video |
-| 21:00 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
-
-## Boş slotlar
-
-Bu slotlar için içerik henüz üretilmedi:
-
-- 2026-10-18 · 3D BASKI & ÜRETİM DONANIMI
-- 2026-10-18 · ELEKTRONİK & IoT
-- 2026-10-18 · PROJE & ATÖLYE
+| 21:00 | Gönderi | PROJE & ATÖLYE | `2026-10-18-toplulukta-ariza` | 5 |
+| 21:40 | Hikaye | PROJE & ATÖLYE | `2026-10-18-toplulukta-ariza/hikaye.jpg` | 1 |

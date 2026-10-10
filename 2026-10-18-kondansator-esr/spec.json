@@ -1,0 +1,106 @@
+{
+ "kategori": "elektronik",
+ "zemin": "koyu",
+ "stil": "neon",
+ "kapak": {
+  "tip": "klasik",
+  "satir1": "KONDANSATÖR",
+  "satir2": "SAĞLAM GÖRÜNÜP BOZUK",
+  "spot": "Kapasitesi doğru ölçülen kondansatör bozuk olabiliyor. Arızayı gösteren değer kapasite değil, ESR.",
+  "rozetler": [
+   [
+    "Şişmeyen de bozulur",
+    "kirmizi"
+   ],
+   [
+    "ESR yaşla artar",
+    "turuncu"
+   ],
+   [
+    "Düşük ESR ile değiştir",
+    "yesil"
+   ]
+  ],
+  "tablo": [
+   [
+    "ESR NEDİR",
+    "kondansatörün kendi iç direnci"
+   ],
+   [
+    "NEDEN ARTAR",
+    "elektrolit kuruyor, iç bağlantı bozuluyor"
+   ],
+   [
+    "BELİRTİ",
+    "çıkışta dalgalanma, ısınma, kart resetlenmesi"
+   ],
+   [
+    "KAPASİTE ÖLÇÜMÜ",
+    "çoğu zaman hâlâ doğru okuyor — yanıltıyor"
+   ],
+   [
+    "DOĞRU ÖLÇÜM",
+    "ESR metre ya da osiloskopla dalgalanma"
+   ],
+   [
+    "DEĞİŞİM",
+    "düşük ESR, 105 °C sınıfı, aynı ya da üstü gerilim"
+   ]
+  ]
+ },
+ "slaytlar": [
+  {
+   "baslik": "Kapasite ölçümü seni yanıltıyor",
+   "aciklama": "Multimetrenin kapasite kademesi çoğu zaman etiket değerine yakın bir sayı gösteriyor. Elektrolit kuruyunca kapasite az düşüyor ama iç direnç katlanıyor; ölçüm sağlam diyor, devre çalışmıyor.",
+   "vurgu": [
+    100,
+    471,
+    1810,
+    605
+   ]
+  },
+  {
+   "baslik": "Şişmemiş olması sağlam demek değil",
+   "aciklama": "Üstü kabarmış ya da altından elektrolit sızmış kondansatör zaten bellidir. Asıl sinsi olan dışarıdan kusursuz görünendir: anahtarlamalı güç kaynağında ESR yükselince çıkışta dalgalanma büyüyor, kart yük bindiğinde resetleniyor.",
+   "vurgu": [
+    100,
+    334,
+    1810,
+    469
+   ]
+  },
+  {
+   "baslik": "Nasıl ölçülür, neyle değiştirilir",
+   "aciklama": "ESR metre devrede ölçebiliyor, bu yüzden söküp denemeye göre hızlı. Osiloskop varsa çıkıştaki dalgalanmanın tepeden tepeye değerine bakılıyor. Değiştirirken düşük ESR serisi, 105 °C sınıfı ve en az aynı gerilim değeri seçiliyor — kapasiteyi büyütmek ESR'yi düzeltmiyor.",
+   "vurgu": [
+    100,
+    607,
+    1810,
+    878
+   ]
+  }
+ ],
+ "kapanis": {
+  "satir1": "HIZLI",
+  "satir2": "TEŞHİS",
+  "kriterler": [
+   [
+    "ÜSTÜ KABARMIŞ",
+    "kesin değiştir"
+   ],
+   [
+    "KAPASİTE DOĞRU AMA ARIZA VAR",
+    "ESR'ye bak"
+   ],
+   [
+    "YÜK BİNİNCE RESET",
+    "besleme kondansatörü şüpheli"
+   ],
+   [
+    "YEDEK ALIRKEN",
+    "düşük ESR · 105 °C"
+   ]
+  ],
+  "not": "Kapasiteyi büyüterek ESR düzelmiyor. Aynı değerde, düşük ESR serisinden bir parça takılıyor."
+ }
+}

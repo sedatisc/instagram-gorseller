@@ -1,0 +1,102 @@
+{
+ "kategori": "proje",
+ "zemin": "koyu",
+ "stil": "neon",
+ "kapak": {
+  "tip": "klasik",
+  "satir1": "BOZUK BASKIYI",
+  "satir2": "TEK BAŞINA ÇÖZME",
+  "spot": "Aynı beş arıza herkesin başına geliyor, cevapları da belli. SK 3D Topluluğu — ücretsiz WhatsApp grubu.",
+  "rozetler": [
+   [
+    "Ücretsiz",
+    "tema"
+   ],
+   [
+    "Herkese açık",
+    "yesil"
+   ],
+   [
+    "Fotoğrafı at, bakalım",
+    "turuncu"
+   ]
+  ],
+  "tablo": [
+   [
+    "İLK KATMAN TUTMUYOR",
+    "tabla mesafesi · yüzey · sıcaklık"
+   ],
+   [
+    "STRINGING",
+    "retraction mı sıcaklık mı"
+   ],
+   [
+    "KATMAN AYRIŞMASI",
+    "sıcaklık düşük ya da katman çok kalın"
+   ],
+   [
+    "ÖLÇÜ TUTMUYOR",
+    "büzülme payı ve aşınmış nozul"
+   ],
+   [
+    "TIKANMA",
+    "nem · parçacık · ısı sızması"
+   ],
+   [
+    "ARIZA FOTOĞRAFI",
+    "at, birlikte bakalım"
+   ]
+  ]
+ },
+ "slaytlar": [
+  {
+   "baslik": "Tarif etmek yerine fotoğraf",
+   "aciklama": "\"Baskı bozuk çıkıyor\" cümlesi kimseye bir şey anlatmıyor. Parçanın fotoğrafı bir bakışta söylüyor: stringing mi, katman ayrışması mı, ilk katman mı. Grupta yapılan ilk şey bu.",
+   "vurgu": [
+    100,
+    744,
+    1810,
+    878
+   ]
+  },
+  {
+   "baslik": "Aynı arızayı herkes ayrı ayrı yaşıyor",
+   "aciklama": "İlk katmanın tutmaması, stringing, katmanın ayrışması. Üçünün de cevabı belli ama herkes tek başına arıyor; grupta aynı makineyi kullanan biri çoğu zaman aynı ayarı zaten denemiş oluyor.",
+   "vurgu": [
+    100,
+    61,
+    1810,
+    469
+   ]
+  },
+  {
+   "baslik": "Ölçü ve tıkanma tarafı daha sinsi",
+   "aciklama": "Parça çıkıyor ama ölçü tutmuyor ya da ortada tıkanıyorsa sebep ayar olmayabiliyor: büzülme payı, aşınmış nozul, nem çekmiş filament. Bunlar deneyimle ayıklanıyor, tek başına ayar kurcalayarak değil.",
+   "vurgu": [
+    100,
+    471,
+    1810,
+    742
+   ]
+  }
+ ],
+ "kapanis": {
+  "satir1": "NASIL",
+  "satir2": "KATILIRSIN?",
+  "kriterler": [
+   [
+    "1",
+    "Profile git"
+   ],
+   [
+    "2",
+    "Bio'daki linke dokun"
+   ],
+   [
+    "3",
+    "WhatsApp açılır, katıl"
+   ]
+  ],
+  "not": "Ücretsiz, herkese açık. İstediğin an çıkabilirsin."
+ }
+}

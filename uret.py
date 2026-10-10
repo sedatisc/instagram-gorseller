@@ -564,7 +564,19 @@ def tablo(d, satirlar):
         d.rounded_rectangle([120, y, 1790, y + h], radius=22,
                             fill=a(AC(), 0.09), outline=a(AC(), 0.34), width=3)
         d.text((165, y + h / 2), k, font=fk, fill=AC(), anchor="lm")
-        d.text((1745, y + h / 2), P(v), font=fv, fill=FG(), anchor="rm")
+        # Uzun değer etiketin üstüne biniyordu: önce küçült, olmazsa kısalt.
+        yer = 1745 - (165 + d.textlength(k, font=fk) + 40)
+        metin, f = P(v), fv
+        if d.textlength(metin, font=f) > yer:
+            for boy in range(int(fv.size) - 2, 25, -2):
+                f = pop(boy, "Medium")
+                if d.textlength(metin, font=f) <= yer:
+                    break
+            else:
+                while metin and d.textlength(metin + "…", font=f) > yer:
+                    metin = metin[:-1]
+                metin = metin.rstrip(" ·,;") + "…"
+        d.text((1745, y + h / 2), metin, font=f, fill=FG(), anchor="rm")
 
 
 def maddeler(d, satirlar):
@@ -709,21 +721,33 @@ def govde(spec):
 
 
 def _rozetler(img, d, spec):
-    fx = pop(25, "Medium")
+    roz = [(P(m), r) for m, r in spec.get("rozetler", [])]
+    if not roz:
+        return
+    # Rozet şeridi tek satır; sığmayan sonuncusu sağ kenardan taşıyordu.
+    # Yazı boyunu kademeli küçültüyoruz, yine sığmazsa son rozet düşüyor.
+    for boy, dolgu in ((25, 76), (23, 66), (21, 58), (19, 52)):
+        fx = pop(boy, "Medium")
+        gen = sum(d.textlength(m, font=fx) + dolgu for m, _ in roz) \
+            + 14 * (len(roz) - 1)
+        if GUT + gen <= RIGHT:
+            break
+    else:
+        roz = roz[:-1]
     boxes, x = [], GUT
-    for metin, renk in spec.get("rozetler", []):
-        metin = P(metin)
+    for metin, renk in roz:
         col = KC(RENKLER.get(renk, ACC)) if renk != "tema" else AC()
-        w = d.textlength(metin, font=fx) + 76
+        w = d.textlength(metin, font=fx) + dolgu
         boxes.append((x, w, metin, col))
         x += w + 14
     over(img, lambda g: [g.rounded_rectangle(
         [px, 1196, px + pw, 1264], radius=34, fill=a(col, 0.14),
         outline=a(col, 0.6), width=2) for px, pw, _, col in boxes])
     dd = ImageDraw.Draw(img)
+    nx, tx = dolgu * 0.34, dolgu * 0.76          # dolgu küçülünce iç boşluk da küçülsün
     for px, pw, metin, col in boxes:
-        dd.ellipse([px + 26, 1222, px + 42, 1238], fill=col)
-        dd.text((px + 58, 1230), metin, font=fx, fill=FG2(), anchor="lm")
+        dd.ellipse([px + nx, 1222, px + nx + 16, 1238], fill=col)
+        dd.text((px + tx, 1230), metin, font=fx, fill=FG2(), anchor="lm")
 
 
 def kapak_rakam(spec, sayac, yol):
@@ -1730,30 +1754,25 @@ def kapak(spec, sayac, yol):
     d.text((GUT, y + f.size * 1.16), s2, font=f, fill=AC(), anchor="la")
     bot = d.textbbox((GUT, y + f.size * 1.16), s2, font=f, anchor="la")[3]
 
-    fs = pop(32, "Medium")
+    # Spot, 690'da başlayan panelin altına girmesin: önce küçült, sonra kıs.
     ty = bot + 44
-    for ln in wrap(d, P(spec["spot"]), fs, 780):
+    for boy, ara in ((32, 46), (30, 43), (28, 40)):
+        fs = pop(boy, "Medium")
+        satir = wrap(d, P(spec["spot"]), fs, 780)
+        if ty + len(satir) * ara <= 672:
+            break
+    else:
+        while len(satir) > 1 and ty + len(satir) * ara > 672:
+            satir = satir[:-1]
+        satir[-1] = satir[-1].rstrip(" ,;.—-") + "…"
+    for ln in satir:
         d.text((GUT, ty), ln, font=fs, fill=FG2(), anchor="la")
-        ty += 46
+        ty += ara
 
     kkart = panel(956, 466, govde(spec))
     place(img, kkart, GUT, 690 + (466 - kkart.height) // 2)
 
-    fx = pop(25, "Medium")
-    boxes, x = [], GUT
-    for metin, renk in spec.get("rozetler", []):
-        col = KC(RENKLER.get(renk, ACC)) if renk != "tema" else AC()
-        metin = P(metin)
-        w = d.textlength(metin, font=fx) + 76
-        boxes.append((x, w, metin, col))
-        x += w + 14
-    over(img, lambda g: [g.rounded_rectangle(
-        [px, 1196, px + pw, 1264], radius=34, fill=a(col, 0.14),
-        outline=a(col, 0.6), width=2) for px, pw, _, col in boxes])
-    d = ImageDraw.Draw(img)
-    for px, pw, metin, col in boxes:
-        d.ellipse([px + 26, 1222, px + 42, 1238], fill=col)
-        d.text((px + 58, 1230), metin, font=fx, fill=FG2(), anchor="lm")
+    _rozetler(img, d, spec)
     yaz(img, yol)
 
 

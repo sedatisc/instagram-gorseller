@@ -1,0 +1,106 @@
+{
+ "kategori": "3dbaski",
+ "zemin": "koyu",
+ "stil": "neon",
+ "kapak": {
+  "tip": "carpisma",
+  "satir1": "PİRİNÇ UÇ",
+  "satir2": "NE ZAMAN BİTER",
+  "spot": "Karbon ve cam elyaflı filament pirinç ucu içeriden aşındırıyor. Ölçü bozulduğunda suç ayarda değil, uçta.",
+  "sol_etiket": "PİRİNÇ",
+  "sag_etiket": "SERTLEŞTİRİLMİŞ",
+  "sol_metin": "ısıyı iyi iletir, hızlı basar; aşındırıcı filamentte çapı büyür",
+  "sag_metin": "aşınmaz; ısı iletimi daha düşük, sıcaklığı biraz yükselt",
+  "rozetler": [
+   [
+    "Elyaflıda pirinç kullanma",
+    "kirmizi"
+   ],
+   [
+    "Sertte +5-10 °C",
+    "turuncu"
+   ],
+   [
+    "PLA/PETG'de pirinç yeter",
+    "yesil"
+   ]
+  ],
+  "tablo": [
+   [
+    "AŞINDIRAN",
+    "karbon · cam elyafı · ahşap · metal · parlayan"
+   ],
+   [
+    "AŞINDIRMAYAN",
+    "PLA · PETG · ABS · ASA · TPU"
+   ],
+   [
+    "BELİRTİ",
+    "duvar incelir, köşe boşluğu açılır, üst yüzey kapanmaz"
+   ],
+   [
+    "ÖNLEM",
+    "sertleştirilmiş çelik, tungsten karbür ya da yakut uçlu nozul"
+   ],
+   [
+    "AYAR",
+    "sert uçta nozul sıcaklığını 5-10 °C yükselt"
+   ]
+  ]
+ },
+ "slaytlar": [
+  {
+   "baslik": "Aşınma çapı büyütüyor, ayar değil",
+   "aciklama": "Aşınan uçta delik 0,4 mm olmaktan çıkıyor. Dilimleyici hâlâ 0,4 varsayıp malzeme hesapladığı için duvar inceliyor, köşelerde boşluk açılıyor, üst yüzey kapanmıyor. Ayarla uğraşmadan önce ucu değiştir.",
+   "vurgu": [
+    100,
+    389,
+    1810,
+    551
+   ]
+  },
+  {
+   "baslik": "Hangi filament aşındırıyor",
+   "aciklama": "Dolgu maddesi sert olan her filament aşındırıyor: karbon elyaf, cam elyaf, ahşap, metal dolgulu ve karanlıkta parlayan filamentler. Düz PLA, PETG, ABS, ASA ve TPU pirinç uçla sorunsuz.",
+   "vurgu": [
+    100,
+    61,
+    1810,
+    387
+   ]
+  },
+  {
+   "baslik": "Sert uç bedava değil",
+   "aciklama": "Sertleştirilmiş çelik pirinçten daha az ısı iletiyor; aynı sıcaklık ayarıyla basınca alt ekstrüzyon görülebiliyor. Nozul sıcaklığını 5-10 °C yükselt, ilk baskıda akışı gözle kontrol et. Pirinç kadar iyi ileten sert seçenek isteyen tungsten karbür ya da yakut uçlu modellere bakıyor.",
+   "vurgu": [
+    100,
+    553,
+    1810,
+    879
+   ]
+  }
+ ],
+ "kapanis": {
+  "satir1": "SENDE HANGİSİ",
+  "satir2": "OLMALI?",
+  "kriterler": [
+   [
+    "YALNIZ PLA/PETG",
+    "pirinç yeter"
+   ],
+   [
+    "ARA SIRA ELYAFLI",
+    "sertleştirilmiş çelik"
+   ],
+   [
+    "SÜREKLİ ELYAFLI",
+    "tungsten karbür / yakut"
+   ],
+   [
+    "ÖLÇÜ TUTMUYORSA",
+    "önce ucu değiştir, sonra ayar"
+   ]
+  ],
+  "not": "Uç ucuz, bozuk baskı pahalı. Elyaflı filamente geçmeden önce ucu değiştir."
+ }
+}
