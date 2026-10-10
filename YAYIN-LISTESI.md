@@ -92,7 +92,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 08:12 | — | **3D BASKI & ÜRETİM DONANIMI** | _boş — üretilecek_ | — |
+| 08:12 | Gönderi | 3D BASKI & ÜRETİM DONANIMI | `2026-10-16-sunlu-filament-pano` | 1 |
+| 08:52 | Hikaye | 3D BASKI & ÜRETİM DONANIMI | `2026-10-16-sunlu-filament-pano/hikaye.png` | 1 |
 | 12:38 | Gönderi | ELEKTRONİK & IoT | `2026-10-16-gelistirme-karti-pano` | 1 |
 | 13:18 | Hikaye | ELEKTRONİK & IoT | `2026-10-16-gelistirme-karti-pano/hikaye.png` | 1 |
 | 16:40 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
@@ -104,7 +105,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | — | **3D BASKI & ÜRETİM DONANIMI** | _boş — üretilecek_ | — |
+| 11:10 | Gönderi | 3D BASKI & ÜRETİM DONANIMI | `2026-10-17-cok-renkli-yazici-pano` | 1 |
+| 11:50 | Hikaye | 3D BASKI & ÜRETİM DONANIMI | `2026-10-17-cok-renkli-yazici-pano/hikaye.png` | 1 |
 | 12:20 | Gönderi | ELEKTRONİK & IoT | `2026-10-17-esp32-ailesi-pano` | 1 |
 | 13:00 | Hikaye | ELEKTRONİK & IoT | `2026-10-17-esp32-ailesi-pano/hikaye.png` | 1 |
 | 16:50 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
@@ -116,9 +118,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 
 Bu slotlar için içerik henüz üretilmedi:
 
-- 2026-10-16 · 3D BASKI & ÜRETİM DONANIMI
 - 2026-10-16 · ÜRÜN & MAĞAZA
 - 2026-10-16 · REELS
-- 2026-10-17 · 3D BASKI & ÜRETİM DONANIMI
 - 2026-10-17 · ÜRÜN & MAĞAZA
 - 2026-10-17 · REELS

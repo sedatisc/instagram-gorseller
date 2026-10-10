@@ -18,7 +18,9 @@
       14,
       15,
       16,
-      17
+      17,
+      18,
+      19
     ],
     "elektronik": [
       1,
@@ -491,6 +493,16 @@
         "tarih": "2026-10-17",
         "slot": "proje",
         "klasor": "2026-10-21-pi-kamera-pano"
+      },
+      {
+        "tarih": "2026-10-16",
+        "slot": "3dbaski",
+        "klasor": "2026-10-16-sunlu-filament-pano"
+      },
+      {
+        "tarih": "2026-10-17",
+        "slot": "3dbaski",
+        "klasor": "2026-10-17-cok-renkli-yazici-pano"
       }
     ],
     "reels": [

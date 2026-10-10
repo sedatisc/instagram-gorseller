@@ -1,0 +1,70 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "pano",
+    "marka_alt": "SUNLU Filament Seçim Rehberi",
+    "ust_sol": "GÜNLÜK · GÖRÜNÜM · DIŞ MEKÂN",
+    "ust_sag": "STOKTA · TÜRKİYE'DEN",
+    "satir1": "HANGİ SUNLU",
+    "satir2": "FİLAMENT?",
+    "spot": "Üçü de 1,75 mm ve ±0,02 mm toleranslı. Ayrım renkte değil: biri daha tok, biri katman izini gizliyor, biri ısıya ve suya dayanıyor. Rakamlar SUNLU'nun kendi teknik föylerinden.",
+    "sutunlar": [
+      {
+        "baslik": "PLA+ 2.0",
+        "alt": "FONKSİYONEL PARÇA · EN TOK",
+        "renk": "mavi",
+        "gorsel": "urun/kesik-sunlu-pla-plus-2.png",
+        "ozellikler": [
+          ["isi", "Nozul 205-245 °C · tabla 50-60 °C"],
+          ["hiz", "50-200 mm/s"],
+          ["kalkan", "Çekme 46±5 MPa · darbe 10±3 kJ/m²"],
+          ["olcu", "Isı dayanımı 56±3 °C · yoğunluk 1,21"]
+        ],
+        "kullanim": [
+          ["dis", "Yük taşıyan aparat, fonksiyonel parça"],
+          ["kup", "Günlük baskının geneli"],
+          ["kalkan", "Üçünün en yüksek darbe dayanımı"]
+        ]
+      },
+      {
+        "baslik": "PLA MATTE",
+        "alt": "GÖRÜNÜM PARÇASI · MAT YÜZEY",
+        "renk": "gri",
+        "gorsel": "urun/kesik-sunlu-pla-mat.png",
+        "ozellikler": [
+          ["isi", "Nozul 205-245 °C · tabla 50-60 °C"],
+          ["hiz", "50-230 mm/s"],
+          ["terazi", "Çekme 39±6 MPa · darbe 5±2 kJ/m²"],
+          ["olcu", "Yoğunluk 1,31 · ısı dayanımı 55±5 °C"]
+        ],
+        "kullanim": [
+          ["kutu", "Katman izini gizliyor, plastik görünümü azalıyor"],
+          ["gunes", "Vitrin, hediyelik, dekoratif obje"],
+          ["uyari", "Mukavemeti PLA+ 2.0'ın altında"]
+        ]
+      },
+      {
+        "baslik": "PETG",
+        "alt": "DIŞ MEKÂN · SU VE KİMYASAL",
+        "renk": "yesil",
+        "gorsel": "urun/kesik-sunlu-petg.png",
+        "ozellikler": [
+          ["isi", "Nozul 240-260 °C · tabla 60-70 °C"],
+          ["hiz", "300 mm/s'ye kadar"],
+          ["kalkan", "Çekme 48±10 MPa · darbe 3±1 kJ/m²"],
+          ["gunes", "Isı dayanımı 70±5 °C — PLA'ların üstünde"]
+        ],
+        "kullanim": [
+          ["yagmur", "Dış mekân, su ve hava koşulları"],
+          ["damla", "Asit ve alkaliye dayanıklı"],
+          ["arac", "Araç içi, ısınan ortam"]
+        ]
+      }
+    ],
+    "ipucu": "Yük taşıyacaksa PLA+ 2.0. Görünecekse PLA Matte. Dışarıda duracak ya da ısınacaksa PETG.",
+    "alt_cagri": "Üçü de sermenkreatif.com'da"
+  },
+  "slaytlar": [],
+  "kapanis": null
+}
