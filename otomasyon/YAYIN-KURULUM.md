@@ -102,6 +102,14 @@ Depoda **Actions** → **Instagram yayını** → **Run workflow**:
 - Cron 5–30 dakika kayabiliyor. `yayinla.py` vakti 3 saatten fazla
   geçmiş işi yayınlamıyor — akşam sabahın gönderisi düşmesin.
 
+## Reels takılırsa
+
+Görseller `raw.githubusercontent` üzerinden `image/jpeg` olarak gidiyor,
+sorun çıkarmıyor. Video aynı yerden `application/octet-stream` olarak
+geliyor; Meta kabı bunu reddederse `MEDYA_KOK` secret'ı eklenip başka bir
+kök adres (CDN ya da release varlığı) verilebilir, kod değişmiyor. Hata
+iş özetinde `kap ... ERROR` satırı olarak görünür.
+
 ## Elle kalan işler
 
 API bunları yapmıyor, uygulamadan yapılacak:

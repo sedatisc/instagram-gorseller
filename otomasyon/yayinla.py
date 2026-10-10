@@ -47,7 +47,16 @@ GECIKME_SINIRI = timedelta(hours=3)
 
 # ----------------------------------------------------------------- yardım
 def ham(yol, surum=None):
-    """Depodaki dosyanın herkese açık adresi."""
+    """Depodaki dosyanın herkese açık adresi.
+
+    raw.githubusercontent görselleri `image/jpeg` ile veriyor, videoyu
+    `application/octet-stream` ile. Meta video kabı bunu reddederse
+    MEDYA_KOK ortam değişkeniyle başka bir kök (CDN ya da release
+    varlığı) verilebilir; kod değişmiyor.
+    """
+    kok = os.environ.get("MEDYA_KOK")
+    if kok:
+        return "%s/%s" % (kok.rstrip("/"), yol)
     ref = surum or os.environ.get("GITHUB_SHA") or "main"
     return "https://raw.githubusercontent.com/%s/%s/%s" % (DEPO, ref, yol)
 
