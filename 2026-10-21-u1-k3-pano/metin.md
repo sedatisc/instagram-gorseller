@@ -20,7 +20,7 @@ Karar: bugün alınabilen tek seçenek U1. K3'ün yaklaşımı yedek parça tara
 
 ## İlk yorum
 
-U1 verileri Snapmaker'ın kendi sayfalarından, K3 verileri Creality'nin kendi blog ve kampanya sayfalarından. K3'ün ürün fotoğrafı yok çünkü ortada satılan bir ürün yok — panodaki boşluk kasıtlı.
+U1 verileri Snapmaker'ın kendi sayfalarından, K3 verileri Creality'nin kendi blog ve kampanya sayfalarından. K3 görseli Creality'nin kendi tanıtım karesi; makine henüz satışta değil.
 
 ## Doğrulanmayanlar
 

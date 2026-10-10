@@ -79,8 +79,8 @@ gerekmiyor.
 | ✓ | Çok renge nasıl geçilir | AD5X · SPARKX i7 · H2D | tamam |
 | ✓ | Bambu H serisi | H2S · H2C · H2D | tamam |
 | ✓ | Bambu A serisi | A1 mini · A1 · A2L | tamam |
-| ✓ | SPARKX i7 mi i8 mi | i7 · i8 | tamam — iki sütun; i8 kampanyada, sütunda simge |
-| ✓ | Purge atmadan çok renk | Snapmaker U1 · Creality K3 | tamam — iki sütun; K3 sevkiyatta değil |
+| ✓ | SPARKX i7 mi i8 mi | i7 · i8 | tamam — iki sütun; i8 fotoğrafı İlhan'dan |
+| ✓ | Purge atmadan çok renk | Snapmaker U1 · Creality K3 | tamam — iki sütun; K3 fotoğrafı İlhan'dan, makine hâlâ sevkiyatta değil |
 | 1 | Reçine yazıcılar | Mono M7 Pro · M7 Max · Mars 5 Ultra | görseller hazır |
 | 2 | Creality K2 ailesi | K2 · K2 Pro · K2 Plus | görsel gerek |
 

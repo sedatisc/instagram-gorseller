@@ -1,53 +1,96 @@
 {
-  "kategori": "3dbaski",
-  "zemin": "acik",
-  "kapak": {
-    "tip": "pano",
-    "marka_alt": "Purge Atmadan Çok Renk — İki Mekanizma",
-    "ust_sol": "KAFA DEĞİŞTİRME · NOZUL DEĞİŞTİRME",
-    "ust_sag": "BİRİ RAFTA, BİRİ YOLDA",
-    "satir1": "ATIK ÜRETMEDEN",
-    "satir2": "RENK DEĞİŞTİRMEK",
-    "spot": "AMS ve CFS tipi sistemler her renk değişiminde filamenti boşa akıtıyor. İki üretici bunu farklı çözüyor: biri araç kafasının tamamını, diğeri yalnız nozul grubunu değiştiriyor.",
-    "sutunlar": [
-      {
-        "baslik": "SNAPMAKER U1",
-        "alt": "DÖRT BAĞIMSIZ KAFA · SATIŞTA",
-        "renk": "yesil",
-        "gorsel": "urun/kesik-snapmaker-u1.png",
-        "ozellikler": [
-          ["dis", "4 bağımsız araç kafası — yaklaşık 5 saniyede değişim"],
-          ["olcu", "270 × 270 × 270 mm"],
-          ["hiz", "500 mm/s · 20.000 mm/s² · 32 mm³/s akış"],
-          ["isi", "Nozul 300 °C · tabla 100 °C"]
-        ],
-        "kullanim": [
-          ["kutu", "Renk geçişinde filament boşa akmıyor"],
-          ["soru", "2 MP kamera — spagetti ve filament bitti algılama"],
-          ["uyari", "Kabin standart değil; ABS ve ASA için üst kapak ayrı"]
-        ]
-      },
-      {
-        "baslik": "CREALITY K3",
-        "alt": "NOZUL DEĞİŞTİRİCİ · SEVKİYAT YOK",
-        "renk": "gri",
-        "ikon": "soru",
-        "ozellikler": [
-          ["dis", "KliTek — kafa değil, nozul grubu değişiyor, 4,8 saniye"],
-          ["terazi", "Yedek nozul grubu ~14 USD (üretici beyanı)"],
-          ["kutu", "Gövdeye gömülü 4 makara yuvası"],
-          ["uyari", "Baskı alanı, hız ve sıcaklık açıklanmadı"]
-        ],
-        "kullanim": [
-          ["damla", "TPU odaklı — 80A'ya kadar yumuşak filament"],
-          ["zaman", "\"Ön sipariş ekim ortası\" — tarih verilmedi"],
-          ["terazi", "900 USD altı beklentisi, resmi fiyat değil"]
-        ]
-      }
+ "kategori": "3dbaski",
+ "zemin": "acik",
+ "kapak": {
+  "tip": "pano",
+  "marka_alt": "Purge Atmadan Çok Renk — İki Mekanizma",
+  "ust_sol": "KAFA DEĞİŞTİRME · NOZUL DEĞİŞTİRME",
+  "ust_sag": "BİRİ RAFTA, BİRİ YOLDA",
+  "satir1": "ATIK ÜRETMEDEN",
+  "satir2": "RENK DEĞİŞTİRMEK",
+  "spot": "AMS ve CFS tipi sistemler her renk değişiminde filamenti boşa akıtıyor. İki üretici bunu farklı çözüyor: biri araç kafasının tamamını, diğeri yalnız nozul grubunu değiştiriyor.",
+  "sutunlar": [
+   {
+    "baslik": "SNAPMAKER U1",
+    "alt": "DÖRT BAĞIMSIZ KAFA · SATIŞTA",
+    "renk": "yesil",
+    "gorsel": "urun/kesik-snapmaker-u1.png",
+    "ozellikler": [
+     [
+      "dis",
+      "4 bağımsız araç kafası — yaklaşık 5 saniyede değişim"
+     ],
+     [
+      "olcu",
+      "270 × 270 × 270 mm"
+     ],
+     [
+      "hiz",
+      "500 mm/s · 20.000 mm/s² · 32 mm³/s akış"
+     ],
+     [
+      "isi",
+      "Nozul 300 °C · tabla 100 °C"
+     ]
     ],
-    "ipucu": "Bugün alınabilen tek seçenek U1. K3'ün yaklaşımı daha ucuz görünüyor — yedek parça 14 dolar — ama ortada henüz makine yok.",
-    "alt_cagri": "Snapmaker U1 sermenkreatif.com'da"
-  },
-  "slaytlar": [],
-  "kapanis": null
+    "kullanim": [
+     [
+      "kutu",
+      "Renk geçişinde filament boşa akmıyor"
+     ],
+     [
+      "soru",
+      "2 MP kamera — spagetti ve filament bitti algılama"
+     ],
+     [
+      "uyari",
+      "Kabin standart değil; ABS ve ASA için üst kapak ayrı"
+     ]
+    ]
+   },
+   {
+    "baslik": "CREALITY K3",
+    "alt": "NOZUL DEĞİŞTİRİCİ · SEVKİYAT YOK",
+    "renk": "gri",
+    "ikon": "soru",
+    "ozellikler": [
+     [
+      "dis",
+      "KliTek — kafa değil, nozul grubu değişiyor, 4,8 saniye"
+     ],
+     [
+      "terazi",
+      "Yedek nozul grubu ~14 USD (üretici beyanı)"
+     ],
+     [
+      "kutu",
+      "Gövdeye gömülü 4 makara yuvası"
+     ],
+     [
+      "uyari",
+      "Baskı alanı, hız ve sıcaklık açıklanmadı"
+     ]
+    ],
+    "kullanim": [
+     [
+      "damla",
+      "TPU odaklı — 80A'ya kadar yumuşak filament"
+     ],
+     [
+      "zaman",
+      "\"Ön sipariş ekim ortası\" — tarih verilmedi"
+     ],
+     [
+      "terazi",
+      "900 USD altı beklentisi, resmi fiyat değil"
+     ]
+    ],
+    "gorsel": "urun/kesik-creality-k3.png"
+   }
+  ],
+  "ipucu": "Bugün alınabilen tek seçenek U1. K3'ün yaklaşımı daha ucuz görünüyor — yedek parça 14 dolar — ama ortada henüz makine yok.",
+  "alt_cagri": "Snapmaker U1 sermenkreatif.com'da"
+ },
+ "slaytlar": [],
+ "kapanis": null
 }

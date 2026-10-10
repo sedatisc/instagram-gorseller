@@ -38,6 +38,15 @@ doğrulayamadım: Creality'nin hiçbir kendi kaynağında "Ender-3 V3 Mega"
 diye bir model yok. **Kutusunda ya da faturasında yazan tam model adını**
 yolla, gönderiyi ona göre düzelteyim. Gönderi şu an beklemede.
 
+## Cihaz kapak fotoğrafları — bende
+
+37 cihazın (Creality, Bambu Lab, Anycubic, Prusa, Snapmaker) kapak
+fotoğrafı eksikti. 27'si `otomasyon/urunler.json` listesine eklendi,
+koşucu satıcı sayfalarından kendisi çekecek; 9'unun kesilmiş karesi
+zaten elimizde, K3'ünkini sen yolladın. Bunlar için bir şey yapman
+gerekmiyor — çekilemeyenler `otomasyon/SON-CALISMA.md` raporunda
+görünecek.
+
 ## Fotoğraf şartları
 
 - Tek ürün, tek kare. Sade zemin (beyaz, açık gri ya da düz renk).

@@ -1,125 +1,233 @@
 {
-  "_not": "Her ürün için ya 'sayfa' (tam adres) ya da 'ara' (ürün adı) yeter. 'ara' verilirse betik site haritasından eşleştiriyor — Google yerine satıcının kendi sayfası kullanılıyor, böylece hangi ürün olduğu kesin ve görsel kaynağı belli oluyor. kes=false dersen arka plan kesilmez, ham kare kullanılır.",
-  "siteler": [
-    "https://filamentdepom.com",
-    "https://sermenkreatif.com"
-  ],
-  "urunler": [
-    {
-      "slug": "sunlu-pla-plus-2",
-      "ara": "SUNLU PLA+ 2.0"
-    },
-    {
-      "slug": "sunlu-pla-mat",
-      "ara": "SUNLU PLA Mat"
-    },
-    {
-      "slug": "sunlu-petg",
-      "ara": "SUNLU PETG"
-    },
-    {
-      "slug": "sunlu-abs",
-      "ara": "SUNLU ABS"
-    },
-    {
-      "slug": "polymaker-polylite-abs",
-      "sayfa": "https://filamentdepom.com/filament/abs/prd-polylite-abs-siyah-filament"
-    },
-    {
-      "slug": "polymaker-polylite-petg",
-      "sayfa": "https://filamentdepom.com/polylite-petg-translucent-filament-mavi-1-kg-1.75mm"
-    },
-    {
-      "slug": "polymaker-polyterra-pla",
-      "sayfa": "https://filamentdepom.com/filament/estetik-pla/mat-pla/prd-polyterra-pla-filament-toprak-kahverengi"
-    },
-    {
-      "slug": "polymaker-polysmooth",
-      "sayfa": "https://filamentdepom.com/filament/pvb/polysmooth/prd-polysmooth-beyaz-filament"
-    },
-    {
-      "slug": "polymaker-panchroma-mat",
-      "sayfa": "https://filamentdepom.com/filament/estetik-pla/mat-pla/prd-panchroma-pla-mat-arktik-camgobegi"
-    },
-    {
-      "slug": "polymaker-panchroma-silk",
-      "sayfa": "https://filamentdepom.com/filament/estetik-pla/silk-pla/prd-panchroma-silk-pla-filament-altin"
-    },
-    {
-      "slug": "snapmaker-u1",
-      "sayfa": "https://filamentdepom.com/snapmaker-u1-3d-yazici-4-baslikli-cok-renkli-yazici-on-siparis-954"
-    },
-    {
-      "slug": "bambu-h2d",
-      "ara": "Bambu Lab H2D"
-    },
-    {
-      "slug": "creality-sparkx-i7",
-      "ara": "Creality SparkX i7"
-    },
-    {
-      "slug": "elegoo-centauri-carbon2",
-      "ara": "Elegoo Centauri Carbon 2"
-    },
-    {
-      "slug": "flashforge-ad5x",
-      "ara": "Flashforge Adventurer 5X"
-    },
-    {
-      "slug": "entina-tina2-plus",
-      "ara": "Entina Tina2 Plus"
-    },
-    {
-      "slug": "anycubic-mono-m7-pro",
-      "sayfa": "https://filamentdepom.com/anycubic-mono-m7-pro-recine-3d-yazici"
-    },
-    {
-      "slug": "anycubic-mono-m7-max",
-      "sayfa": "https://filamentdepom.com/anycubic-photon-mono-m7-max-recine-3d-yazici"
-    },
-    {
-      "slug": "elegoo-mars5-ultra",
-      "ara": "Elegoo Mars 5 Ultra"
-    },
-    {
-      "slug": "phaetus-ad5x-sic-06",
-      "ara": "Phaetus AD5X SiC Nozzle 0.6"
-    },
-    {
-      "slug": "phaetus-qidi-q2-02",
-      "ara": "Phaetus QIDI Q2 0.2 hotend"
-    },
-    {
-      "slug": "phaetus-k1-dxc",
-      "ara": "Phaetus K1 DXC Extruder"
-    },
-    {
-      "slug": "bambu-h2s-combo",
-      "sayfa": "https://filamentdepom.com/3d-yazici/prd-bambu-lab-h2s-combo-3d-yazici"
-    },
-    {
-      "slug": "bambu-h2c-combo",
-      "sayfa": "https://filamentdepom.com/bambu-lab-h2c-combo-3d-yazici-957"
-    },
-    {
-      "slug": "bambu-h2d-combo",
-      "sayfa": "https://filamentdepom.com/3d-yazici/prd-bambu-lab-h2d-combo-3d-yazici"
-    },
-    {
-      "slug": "bambu-a1-mini-combo",
-      "sayfa": "https://filamentdepom.com/3d-yazici/prd-bambu-lab-a1-mini-combo-3d-yazici"
-    },
-    {
-      "slug": "bambu-a1-combo",
-      "sayfa": "https://filamentdepom.com/3d-yazici/prd-bambu-lab-a1-combo-3d-yazici"
-    },
-    {
-      "slug": "bambu-a2l-combo",
-      "sayfa": "https://sermenkreatif.com/bambu-lab-a2l-combo-3d-yazici-18583"
-    },
-    {
-      "slug": "creality-sparkx-i7-combo",
-      "sayfa": "https://filamentdepom.com/creality-sparkx-i7-combo-3d-yazici"
-    }
-  ]
+ "_not": "Her ürün için ya 'sayfa' (tam adres) ya da 'ara' (ürün adı) yeter. 'ara' verilirse betik site haritasından eşleştiriyor — Google yerine satıcının kendi sayfası kullanılıyor, böylece hangi ürün olduğu kesin ve görsel kaynağı belli oluyor. kes=false dersen arka plan kesilmez, ham kare kullanılır.",
+ "siteler": [
+  "https://filamentdepom.com",
+  "https://sermenkreatif.com"
+ ],
+ "urunler": [
+  {
+   "slug": "sunlu-pla-plus-2",
+   "ara": "SUNLU PLA+ 2.0"
+  },
+  {
+   "slug": "sunlu-pla-mat",
+   "ara": "SUNLU PLA Mat"
+  },
+  {
+   "slug": "sunlu-petg",
+   "ara": "SUNLU PETG"
+  },
+  {
+   "slug": "sunlu-abs",
+   "ara": "SUNLU ABS"
+  },
+  {
+   "slug": "polymaker-polylite-abs",
+   "sayfa": "https://filamentdepom.com/filament/abs/prd-polylite-abs-siyah-filament"
+  },
+  {
+   "slug": "polymaker-polylite-petg",
+   "sayfa": "https://filamentdepom.com/polylite-petg-translucent-filament-mavi-1-kg-1.75mm"
+  },
+  {
+   "slug": "polymaker-polyterra-pla",
+   "sayfa": "https://filamentdepom.com/filament/estetik-pla/mat-pla/prd-polyterra-pla-filament-toprak-kahverengi"
+  },
+  {
+   "slug": "polymaker-polysmooth",
+   "sayfa": "https://filamentdepom.com/filament/pvb/polysmooth/prd-polysmooth-beyaz-filament"
+  },
+  {
+   "slug": "polymaker-panchroma-mat",
+   "sayfa": "https://filamentdepom.com/filament/estetik-pla/mat-pla/prd-panchroma-pla-mat-arktik-camgobegi"
+  },
+  {
+   "slug": "polymaker-panchroma-silk",
+   "sayfa": "https://filamentdepom.com/filament/estetik-pla/silk-pla/prd-panchroma-silk-pla-filament-altin"
+  },
+  {
+   "slug": "snapmaker-u1",
+   "sayfa": "https://filamentdepom.com/snapmaker-u1-3d-yazici-4-baslikli-cok-renkli-yazici-on-siparis-954"
+  },
+  {
+   "slug": "bambu-h2d",
+   "ara": "Bambu Lab H2D"
+  },
+  {
+   "slug": "creality-sparkx-i7",
+   "ara": "Creality SparkX i7"
+  },
+  {
+   "slug": "elegoo-centauri-carbon2",
+   "ara": "Elegoo Centauri Carbon 2"
+  },
+  {
+   "slug": "flashforge-ad5x",
+   "ara": "Flashforge Adventurer 5X"
+  },
+  {
+   "slug": "entina-tina2-plus",
+   "ara": "Entina Tina2 Plus"
+  },
+  {
+   "slug": "anycubic-mono-m7-pro",
+   "sayfa": "https://filamentdepom.com/anycubic-mono-m7-pro-recine-3d-yazici"
+  },
+  {
+   "slug": "anycubic-mono-m7-max",
+   "sayfa": "https://filamentdepom.com/anycubic-photon-mono-m7-max-recine-3d-yazici"
+  },
+  {
+   "slug": "elegoo-mars5-ultra",
+   "ara": "Elegoo Mars 5 Ultra"
+  },
+  {
+   "slug": "phaetus-ad5x-sic-06",
+   "ara": "Phaetus AD5X SiC Nozzle 0.6"
+  },
+  {
+   "slug": "phaetus-qidi-q2-02",
+   "ara": "Phaetus QIDI Q2 0.2 hotend"
+  },
+  {
+   "slug": "phaetus-k1-dxc",
+   "ara": "Phaetus K1 DXC Extruder"
+  },
+  {
+   "slug": "bambu-h2s-combo",
+   "sayfa": "https://filamentdepom.com/3d-yazici/prd-bambu-lab-h2s-combo-3d-yazici"
+  },
+  {
+   "slug": "bambu-h2c-combo",
+   "sayfa": "https://filamentdepom.com/bambu-lab-h2c-combo-3d-yazici-957"
+  },
+  {
+   "slug": "bambu-h2d-combo",
+   "sayfa": "https://filamentdepom.com/3d-yazici/prd-bambu-lab-h2d-combo-3d-yazici"
+  },
+  {
+   "slug": "bambu-a1-mini-combo",
+   "sayfa": "https://filamentdepom.com/3d-yazici/prd-bambu-lab-a1-mini-combo-3d-yazici"
+  },
+  {
+   "slug": "bambu-a1-combo",
+   "sayfa": "https://filamentdepom.com/3d-yazici/prd-bambu-lab-a1-combo-3d-yazici"
+  },
+  {
+   "slug": "bambu-a2l-combo",
+   "sayfa": "https://sermenkreatif.com/bambu-lab-a2l-combo-3d-yazici-18583"
+  },
+  {
+   "slug": "creality-sparkx-i7-combo",
+   "sayfa": "https://filamentdepom.com/creality-sparkx-i7-combo-3d-yazici"
+  },
+  {
+   "slug": "anycubic-kobra-x",
+   "ara": "Anycubic Kobra X"
+  },
+  {
+   "slug": "creality-k2-plus-combo",
+   "ara": "Creality K2 Plus Combo"
+  },
+  {
+   "slug": "prusa-core-one-plus-gen-2",
+   "ara": "Prusa CORE One+ (Gen 2)"
+  },
+  {
+   "slug": "bambu-lab-x2d",
+   "ara": "Bambu Lab X2D"
+  },
+  {
+   "slug": "prusa-mk4s",
+   "ara": "Prusa MK4S"
+  },
+  {
+   "slug": "snapmaker-artisan",
+   "ara": "Snapmaker Artisan"
+  },
+  {
+   "slug": "anycubic-kobra-s1-combo",
+   "ara": "Anycubic Kobra S1 Combo"
+  },
+  {
+   "slug": "creality-k2-pro-combo",
+   "ara": "Creality K2 Pro Combo"
+  },
+  {
+   "slug": "prusa-core-one-l-plus",
+   "ara": "Prusa CORE One L+"
+  },
+  {
+   "slug": "snapmaker-artisan-premium",
+   "ara": "Snapmaker Artisan Premium"
+  },
+  {
+   "slug": "anycubic-photon-p1",
+   "ara": "Anycubic Photon P1"
+  },
+  {
+   "slug": "creality-hi-combo",
+   "ara": "Creality Hi Combo"
+  },
+  {
+   "slug": "prusa-xl-plus",
+   "ara": "Prusa XL+"
+  },
+  {
+   "slug": "snapmaker-2-0-a350t",
+   "ara": "Snapmaker 2.0 A350T"
+  },
+  {
+   "slug": "anycubic-kobra-4",
+   "ara": "Anycubic Kobra 4"
+  },
+  {
+   "slug": "bambu-lab-p2s",
+   "ara": "Bambu Lab P2S"
+  },
+  {
+   "slug": "creality-k1c",
+   "ara": "Creality K1C"
+  },
+  {
+   "slug": "prusa-core-one-plus-gen-2-indx",
+   "ara": "Prusa CORE One+ (Gen 2) INDX"
+  },
+  {
+   "slug": "snapmaker-j1s",
+   "ara": "Snapmaker J1s"
+  },
+  {
+   "slug": "creality-halot-x1",
+   "ara": "Creality HALOT-X1"
+  },
+  {
+   "slug": "prusa-mini-plus",
+   "ara": "Prusa MINI+"
+  },
+  {
+   "slug": "snapmaker-ray-40w",
+   "ara": "Snapmaker Ray 40W"
+  },
+  {
+   "slug": "anycubic-kobra-s1-max",
+   "ara": "Anycubic Kobra S1 Max"
+  },
+  {
+   "slug": "creality-halot-mage-s",
+   "ara": "Creality HALOT-MAGE S"
+  },
+  {
+   "slug": "prusa-sl1s-speed",
+   "ara": "Prusa SL1S Speed"
+  },
+  {
+   "slug": "anycubic-photon-mono-4-ultra",
+   "ara": "Anycubic Photon Mono 4 Ultra"
+  },
+  {
+   "slug": "creality-ender-3-v3-ke",
+   "ara": "Creality Ender-3 V3 KE"
+  }
+ ]
 }
