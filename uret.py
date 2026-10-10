@@ -217,7 +217,7 @@ def glow(size, fn, radius):
 # ---------------------------------------------------------------------- stil
 # "duru"  — düz zemin, keskin kenar, parıltı yok (varsayılan)
 # "neon"  — eski görünüm: çapraz huzmeler, metin parıltısı, panel halesi
-STIL = "duru"
+STIL = "neon"
 
 
 def stil_ayarla(ad):
@@ -1919,7 +1919,7 @@ def main():
     os.makedirs(out, exist_ok=True)
     theme(spec["kategori"])
     zemin_ayarla(spec.get("zemin", spec["kapak"].get("zemin", "koyu")))
-    stil_ayarla(spec.get("stil", "duru"))
+    stil_ayarla(spec.get("stil", "neon"))
 
     slaytlar = spec["slaytlar"]
     toplam = 1 + len(slaytlar) + (1 if spec.get("kapanis") else 0)

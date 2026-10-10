@@ -39,7 +39,8 @@
       16,
       17,
       18,
-      19
+      19,
+      20
     ],
     "proje": [
       1,
@@ -346,7 +347,7 @@
     }
   ],
   "kuyruk_bekleyen": {
-    "not": "Gunde 4 gonderi + 4 hikaye + 1 reels. Saat izgarasi sira.py icinde, liste YAYIN-LISTESI.md. Metricool kotasi 10 Ekim 02:20 itibariyla hala dolu (8-9 Ekim gonderileri ERROR) (tum gonderiler ERROR: 'You have reached your Metricool account limit'). Kota acilinca klasorler yeniden uretilmeden dogrudan createScheduledPost ile planlanacak; gorseller GitHub raw adresinden cekilecek. Gecmis saatli slotlar atlanacak.",
+    "not": "Gunde 4 gonderi + 4 hikaye + 1 reels. Saat izgarasi sira.py icinde, liste YAYIN-LISTESI.md. Metricool kotasi 10 Ekim 02:20 itibariyla hala dolu (8-9 Ekim gonderileri ERROR: 'You have reached your Metricool account limit'). Kota acilinca klasorler yeniden uretilmeden dogrudan createScheduledPost ile planlanacak; gorseller GitHub raw adresinden cekilecek. Gecmis saatli slotlar atlanacak.",
     "slotlar": [
       {
         "tarih": "2026-10-10",
@@ -467,6 +468,11 @@
         "tarih": "2026-10-15",
         "slot": "proje",
         "klasor": "2026-10-15-3d-tarayici"
+      },
+      {
+        "tarih": "2026-10-16",
+        "slot": "elektronik",
+        "klasor": "2026-10-16-gelistirme-karti-pano"
       }
     ],
     "reels": [

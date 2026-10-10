@@ -1,0 +1,133 @@
+{
+  "kategori": "elektronik",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "pano",
+    "marka_alt": "Geliştirme Kartı Seçim Rehberi",
+    "ust_sol": "HANGİ KART · NE İŞE YARAR",
+    "ust_sag": "MİKRODENETLEYİCİ · BİLGİSAYAR",
+    "satir1": "PROJEYE HANGİ",
+    "satir2": "KART GİRER?",
+    "spot": "Üçü de \"kart\" ama aynı işi yapmıyorlar. Ayrım hızda değil: biri pille aylarca çalışıyor, biri işletim sistemi koşturuyor. Rakamlar üreticilerin kendi sayfalarından.",
+    "sutunlar": [
+      {
+        "baslik": "PICO 2 W",
+        "alt": "MİKRODENETLEYİCİ · GİRİŞ SEVİYESİ",
+        "renk": "gri",
+        "ozellikler": [
+          [
+            "cip",
+            "RP2350 · 2 × Cortex-M33 150 MHz"
+          ],
+          [
+            "olcu",
+            "520 KB SRAM · 4 MB flash"
+          ],
+          [
+            "dalga",
+            "Wi-Fi 4 (2,4 GHz) · Bluetooth LE"
+          ],
+          [
+            "pil",
+            "1,8-5,5 V · 26 GPIO, 4 ADC"
+          ]
+        ],
+        "kullanim": [
+          [
+            "zaman",
+            "Sensör okuyup veri yollayan düğüm"
+          ],
+          [
+            "pil",
+            "Pille aylarca çalışması gereken iş"
+          ],
+          [
+            "dis",
+            "Röle, motor, şerit LED sürme"
+          ]
+        ],
+        "ikon": "cip"
+      },
+      {
+        "baslik": "ESP32-S3",
+        "alt": "KABLOSUZ MCU · KAMERA VE SES",
+        "renk": "yesil",
+        "ozellikler": [
+          [
+            "cip",
+            "2 × Xtensa LX7 · 240 MHz"
+          ],
+          [
+            "olcu",
+            "512 KB SRAM · 45 GPIO"
+          ],
+          [
+            "dalga",
+            "Wi-Fi 4 · Bluetooth 5 LE"
+          ],
+          [
+            "hiz",
+            "Vektör komutları — ESP-NN, ESP-DSP"
+          ]
+        ],
+        "kullanim": [
+          [
+            "arac",
+            "Kameralı robot, görüntü aktarma"
+          ],
+          [
+            "ev",
+            "Wi-Fi'li ev otomasyonu, MQTT"
+          ],
+          [
+            "kalkan",
+            "Kart üstünde ses ve görüntü tanıma"
+          ]
+        ],
+        "ikon": "dalga"
+      },
+      {
+        "baslik": "RASPBERRY PI 5",
+        "alt": "LİNUX BİLGİSAYARI · MASAÜSTÜ GÜCÜ",
+        "renk": "kiraz",
+        "ozellikler": [
+          [
+            "cip",
+            "BCM2712 · 4 × Cortex-A76 2,4 GHz"
+          ],
+          [
+            "olcu",
+            "1 · 2 · 4 · 8 · 16 GB LPDDR4X"
+          ],
+          [
+            "dalga",
+            "Wi-Fi 5 çift bant · BT 5.0 · Gigabit"
+          ],
+          [
+            "uyari",
+            "5 V / 5 A USB-C — pil işi değil"
+          ]
+        ],
+        "kullanim": [
+          [
+            "kutu",
+            "Çift 4K ekran, kiosk, medya kutusu"
+          ],
+          [
+            "hiz",
+            "PCIe 2.0 ile NVMe disk (HAT şart)"
+          ],
+          [
+            "soru",
+            "Kamera + yapay zekâ, ROS, sunucu"
+          ]
+        ],
+        "ikon": "katman"
+      }
+    ],
+    "ipucu": "Sensör okuyup veri yolluyorsan Pico 2 W. Kablosuz üstüne kamera ya da ses varsa ESP32-S3. İşletim sistemi gerekiyorsa Pi 5.",
+    "alt_cagri": "Hangi kart senin projene girer?"
+  },
+  "slaytlar": [],
+  "kapanis": null
+}

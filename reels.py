@@ -317,7 +317,7 @@ def main():
     cikti = sys.argv[2]
     U.theme(spec["kategori"])
     U.zemin_ayarla(spec.get("zemin", "koyu"))
-    U.stil_ayarla(spec.get("stil", "duru"))
+    U.stil_ayarla(spec.get("stil", "neon"))
 
     sahneler = kurgu(spec)
     toplam = sum(s for s, _ in sahneler)

@@ -1,7 +1,10 @@
 # Pano gönderi sırası
 
-Filament ve malzeme karşılaştırmaları. Her biri tek kare `pano`,
-üç sütun. İçerik araştırması bende, fotoğraf sende.
+Her biri tek kare `pano`, üç sütun. İçerik araştırması bende, fotoğraf
+sende. Fotoğraf gelmezse sütunda simge çıkıyor — çalışıyor ama zayıf
+duruyor, ürün karesi her zaman daha iyi.
+
+## Filament ve malzeme
 
 | # | Konu | Sütunlar | Gereken fotoğraf |
 |---|---|---|---|
@@ -21,3 +24,19 @@ fotoğrafından daha iyi çalışıyor — izleyici sonucu görüyor.
 
 Fotoğraf şartları `gorsel/BENIOKU.md` içinde. Bir konunun üç
 fotoğrafı gelince o gönderiyi üretip pushluyorum.
+
+## Elektronik kart ve modül
+
+"Bu kart ne işe yarar" sorusu pano formatına birebir oturuyor: üstte
+künye, altta kullanım alanları. Rakamlar üreticinin kendi ürün
+sayfasından alınacak, hafızadan yazılmayacak.
+
+| # | Konu | Sütunlar | Gereken fotoğraf |
+|---|---|---|---|
+| ✓ | Projeye hangi kart girer | Pico 2 W · ESP32-S3 · Pi 5 | 3 kart — şimdilik simge basıldı |
+| 1 | Kablosuz seçimi | Wi-Fi · BLE · LoRa | 3 modül |
+| 2 | Motor sürücü sınıfı | DRV8833 · BTS7960 · ayrık MOSFET | 3 modül/kart |
+| 3 | Güç kaynağı | lineer · buck · buck-boost | 3 modül |
+| 4 | Sensör ailesi | DHT22 · BME280 · SHT41 | 3 sensör |
+| 5 | Uçuş/sürüş kontrol | Pixhawk 6C · SpeedyBee F405 · Arduino | 3 kart |
+| 6 | Ekran seçimi | OLED · TFT · e-ink | 3 ekran |
