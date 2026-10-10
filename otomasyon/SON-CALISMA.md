@@ -1,6 +1,6 @@
 # Son çalışma
 
-2026-10-10 13:04 UTC · 7 yeni · 0 hata
+2026-10-10 14:08 UTC · 2 yeni · 0 hata
 
 | Ürün | Durum | Not |
 |---|---|---|
@@ -26,11 +26,10 @@
 | phaetus-ad5x-sic-06 | atlandı | zaten var |
 | phaetus-qidi-q2-02 | atlandı | zaten var |
 | phaetus-k1-dxc | atlandı | zaten var |
-| bambu-h2s-combo | tamam | 21 KB · ticimax ürün klasörü · kesildi 369×377 |
-| bambu-h2c-combo | tamam | 40 KB · ticimax ürün klasörü · kesildi 399×539 |
-| bambu-h2d-combo | tamam | 41 KB · ticimax ürün klasörü · kesildi 416×564 |
-| bambu-a1-mini-combo | tamam | 21 KB · ticimax ürün klasörü · kesildi 369×377 |
-| bambu-a1-combo | tamam | 185 KB · ticimax ürün klasörü · kesildi 560×434 |
-| bambu-a2l-combo | tamam | 45 KB · ticimax ürün klasörü · kesildi 208×250 |
-| creality-sparkx-i7-combo | tamam | 44 KB · ticimax ürün klasörü · kesildi 628×413 |
-| bambu-a1-mini-combo + bambu-h2s-combo | **AYNI GÖRSEL** | bu ürünler birebir aynı kareyi aldı — birine tam 'sayfa' adresi ver |
+| bambu-h2s-combo | tamam | 83 KB · og:image · kesildi 632×1092 |
+| bambu-h2c-combo | atlandı | zaten var |
+| bambu-h2d-combo | atlandı | zaten var |
+| bambu-a1-mini-combo | tamam | 6774 KB · og:image · kesildi 2310×2305 |
+| bambu-a1-combo | atlandı | zaten var |
+| bambu-a2l-combo | atlandı | zaten var |
+| creality-sparkx-i7-combo | atlandı | zaten var |
