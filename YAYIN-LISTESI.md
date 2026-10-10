@@ -96,8 +96,20 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 12:38 | Gönderi | ELEKTRONİK & IoT | `2026-10-16-gelistirme-karti-pano` | 1 |
 | 13:18 | Hikaye | ELEKTRONİK & IoT | `2026-10-16-gelistirme-karti-pano/hikaye.png` | 1 |
 | 16:40 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
-| 18:10 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
+| 18:10 | Gönderi | PROJE & ATÖLYE | `2026-10-20-pixhawk-pano` | 1 |
+| 18:50 | Hikaye | PROJE & ATÖLYE | `2026-10-20-pixhawk-pano/hikaye.png` | 1 |
 | 20:30 | **Reels** | — | _boş — üretilecek_ | — |
+
+## 2026-10-17 · Cumartesi
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 11:10 | — | **3D BASKI & ÜRETİM DONANIMI** | _boş — üretilecek_ | — |
+| 12:20 | Gönderi | ELEKTRONİK & IoT | `2026-10-17-esp32-ailesi-pano` | 1 |
+| 13:00 | Hikaye | ELEKTRONİK & IoT | `2026-10-17-esp32-ailesi-pano/hikaye.png` | 1 |
+| 16:50 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
+| 19:20 | **Reels** | — | _boş — üretilecek_ | — |
+| 20:10 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
 
 ## Boş slotlar
 
@@ -105,5 +117,8 @@ Bu slotlar için içerik henüz üretilmedi:
 
 - 2026-10-16 · 3D BASKI & ÜRETİM DONANIMI
 - 2026-10-16 · ÜRÜN & MAĞAZA
-- 2026-10-16 · PROJE & ATÖLYE
 - 2026-10-16 · REELS
+- 2026-10-17 · 3D BASKI & ÜRETİM DONANIMI
+- 2026-10-17 · ÜRÜN & MAĞAZA
+- 2026-10-17 · PROJE & ATÖLYE
+- 2026-10-17 · REELS

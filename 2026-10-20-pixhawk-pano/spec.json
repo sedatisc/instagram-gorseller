@@ -1,0 +1,133 @@
+{
+  "kategori": "proje",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "pano",
+    "marka_alt": "Uçuş Kontrol Kartı Seçim Rehberi",
+    "ust_sol": "DRON · ROVER · SABİT KANAT",
+    "ust_sag": "PX4 VE ARDUPILOT",
+    "satir1": "HANGİ PIXHAWK",
+    "satir2": "YETERLİ?",
+    "spot": "Üçünde de aynı H7 işlemci var. Ayrım yedeklilikte ve gövde ölçüsünde: biri küçük, biri standart, biri üç ayrı IMU ile uçuyor. Rakamlar PX4 kullanıcı kılavuzundan.",
+    "sutunlar": [
+      {
+        "baslik": "PIXHAWK 6C",
+        "alt": "STANDART GÖVDE · GİRİŞ SEVİYESİ",
+        "renk": "gri",
+        "gorsel": "urun/kesik-pixhawk6c.png",
+        "ozellikler": [
+          [
+            "cip",
+            "STM32H743 · Cortex-M7 480 MHz"
+          ],
+          [
+            "olcu",
+            "2 MB flash · 1 MB RAM"
+          ],
+          [
+            "terazi",
+            "ICM-42688-P + BMI055 · MS5611"
+          ],
+          [
+            "kutu",
+            "84,8 × 44 × 12,4 mm · 59,3 g"
+          ]
+        ],
+        "kullanim": [
+          [
+            "hiz",
+            "16 PWM çıkış, 3 seri port"
+          ],
+          [
+            "arac",
+            "Çoklu rotor, sabit kanat, rover"
+          ],
+          [
+            "dis",
+            "2 GPS · 2 CAN · I2C"
+          ]
+        ]
+      },
+      {
+        "baslik": "6C MINI",
+        "alt": "KÜÇÜK GÖVDE · AYNI İŞLEMCİ",
+        "renk": "yesil",
+        "gorsel": "urun/kesik-pixhawk6cmini.png",
+        "ozellikler": [
+          [
+            "cip",
+            "STM32H743 · Cortex-M7 480 MHz"
+          ],
+          [
+            "olcu",
+            "Aynı sensör seti, aynı bellek"
+          ],
+          [
+            "kutu",
+            "53,3 × 39 × 16,2 mm · 39,2 g"
+          ],
+          [
+            "uyari",
+            "Port akım sınırı 1 A — 6C'de 1,5 A"
+          ]
+        ],
+        "kullanim": [
+          [
+            "hiz",
+            "14 PWM çıkış"
+          ],
+          [
+            "arac",
+            "Dar gövdeli araç, küçük dron"
+          ],
+          [
+            "pil",
+            "6C'den 20 g hafif"
+          ]
+        ]
+      },
+      {
+        "baslik": "PIXHAWK 6X",
+        "alt": "YEDEKLİ · TİCARİ KULLANIM",
+        "renk": "kiraz",
+        "gorsel": "urun/kesik-pixhawk6x.png",
+        "ozellikler": [
+          [
+            "cip",
+            "STM32H753 · Cortex-M7 480 MHz"
+          ],
+          [
+            "kalkan",
+            "3 × IMU, 2 × BMP388 — ayrı yollarda"
+          ],
+          [
+            "dis",
+            "Titreşim yalıtımı, sıcaklık kontrollü IMU"
+          ],
+          [
+            "pil",
+            "Üçlü yedekli güç girişi"
+          ]
+        ],
+        "kullanim": [
+          [
+            "kalkan",
+            "Sensör arızasında otomatik geçiş"
+          ],
+          [
+            "arac",
+            "Kritik görev, ticari uçuş"
+          ],
+          [
+            "hiz",
+            "16 PWM çıkış, 2 CAN"
+          ]
+        ]
+      }
+    ],
+    "ipucu": "Hobi ve öğrenme için 6C. Gövdede yer darsa 6C mini. Arıza toleransı gerekiyorsa 6X.",
+    "alt_cagri": "Uçuş kontrol kartını doğru seç"
+  },
+  "slaytlar": [],
+  "kapanis": null
+}

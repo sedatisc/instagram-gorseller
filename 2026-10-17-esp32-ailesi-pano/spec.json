@@ -1,0 +1,70 @@
+{
+  "kategori": "elektronik",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "pano",
+    "marka_alt": "ESP32 Ailesi Seçim Rehberi",
+    "ust_sol": "AYNI MARKA · AYRI İŞLER",
+    "ust_sag": "KABLOSUZ · PERFORMANS",
+    "satir1": "HANGİ ESP32",
+    "satir2": "SENİN İŞİNE?",
+    "spot": "ESP32 tek bir yonga değil, bir aile. Üçü ayrı tarafta güçlü: biri kamera ve ses, biri Wi-Fi 6 ve Thread, biri ekran ve işlem gücü. Rakamlar Espressif'in kendi sayfalarından.",
+    "sutunlar": [
+      {
+        "baslik": "ESP32-S3",
+        "alt": "KAMERA VE SES · YAPAY ZEKÂ KOMUTLARI",
+        "renk": "yesil",
+        "gorsel": "urun/kesik-esp32s3.png",
+        "ozellikler": [
+          ["cip", "2 × Xtensa LX7 · 240 MHz"],
+          ["olcu", "512 KB SRAM · 45 GPIO"],
+          ["dalga", "Wi-Fi 4 · Bluetooth 5 LE"],
+          ["hiz", "Vektör komutları — ESP-NN, ESP-DSP"]
+        ],
+        "kullanim": [
+          ["arac", "Kameralı robot, görüntü aktarma"],
+          ["kalkan", "Kart üstünde ses ve görüntü tanıma"],
+          ["ev", "Dokunmatik panel — 14 kanal"]
+        ]
+      },
+      {
+        "baslik": "ESP32-C6",
+        "alt": "WI-FI 6 · THREAD VE ZIGBEE",
+        "renk": "mavi",
+        "gorsel": "urun/kesik-esp32c6.png",
+        "ozellikler": [
+          ["cip", "RISC-V 160 MHz + 20 MHz düşük güç çekirdeği"],
+          ["olcu", "512 KB SRAM · 320 KB ROM"],
+          ["dalga", "Wi-Fi 6 (2,4 GHz) · Bluetooth 5 LE"],
+          ["kutu", "802.15.4 — Thread ve Zigbee"]
+        ],
+        "kullanim": [
+          ["ev", "Matter uyumlu akıllı ev cihazı"],
+          ["pil", "Düşük güç çekirdeğiyle bekleme"],
+          ["dalga", "Kalabalık ağda Wi-Fi 6 avantajı"]
+        ]
+      },
+      {
+        "baslik": "ESP32-P4",
+        "alt": "EKRAN VE İŞLEM GÜCÜ · KABLOSUZU YOK",
+        "renk": "kiraz",
+        "gorsel": "urun/kesik-esp32p4.png",
+        "ozellikler": [
+          ["cip", "2 × RISC-V 400 MHz · FPU"],
+          ["olcu", "768 KB SRAM · harici PSRAM"],
+          ["uyari", "Wi-Fi/BT yok — yardımcı yonga şart"],
+          ["hiz", "MIPI-CSI + MIPI-DSI · 1080p"]
+        ],
+        "kullanim": [
+          ["kutu", "Dokunmatik arayüzlü cihaz (HMI)"],
+          ["arac", "Kamera · H.264 1080p30 kodlama"],
+          ["soru", "Ağır arayüz, kenarda işleme"]
+        ]
+      }
+    ],
+    "ipucu": "Kamera ya da ses varsa S3. Akıllı ev, Thread ve Matter varsa C6. Büyük ekran ve işlem gücü gerekiyorsa P4 — kablosuzu ayrıca ekleyeceksin.",
+    "alt_cagri": "Projene göre doğru ESP32'yi seç"
+  },
+  "slaytlar": [],
+  "kapanis": null
+}

@@ -40,7 +40,8 @@
       17,
       18,
       19,
-      20
+      20,
+      21
     ],
     "proje": [
       1,
@@ -59,7 +60,8 @@
       14,
       15,
       16,
-      17
+      17,
+      18
     ]
   },
   "gecmis": [
@@ -473,6 +475,16 @@
         "tarih": "2026-10-16",
         "slot": "elektronik",
         "klasor": "2026-10-16-gelistirme-karti-pano"
+      },
+      {
+        "tarih": "2026-10-17",
+        "slot": "elektronik",
+        "klasor": "2026-10-17-esp32-ailesi-pano"
+      },
+      {
+        "tarih": "2026-10-16",
+        "slot": "proje",
+        "klasor": "2026-10-20-pixhawk-pano"
       }
     ],
     "reels": [

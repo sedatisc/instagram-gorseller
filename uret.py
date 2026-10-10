@@ -2104,13 +2104,25 @@ def kapak_pano(spec, sayac, yol):
 
     d = ImageDraw.Draw(img)
     if spec.get("ipucu"):
-        iy = min(1196, int(ust + kh + 30))
-        d.rounded_rectangle([44, iy, W - 44, iy + 66], radius=14,
-                            fill=(236, 247, 240), outline=(198, 228, 209), width=2)
-        ikon(d, "uyari", 86, iy + 33, 30, (28, 110, 60))
-        fi = fit(d, P(spec["ipucu"]), lambda t: pop(t, "SemiBold"), W - 200, 20, 14)
-        d.text((116, iy + 33), P(spec["ipucu"]), font=fi, fill=(24, 78, 48),
-               anchor="lm")
+        metin = P(spec["ipucu"])
+        en = W - 200
+        fi = fit(d, metin, lambda t: pop(t, "SemiBold"), en, 20, 14)
+        satir = [metin]
+        if d.textlength(metin, font=fi) > en:   # 14 punto da yetmiyorsa sar
+            fi = pop(17, "SemiBold")
+            satir = wrap(d, metin, fi, en)[:2]
+            if len(satir) == 2 and d.textlength(satir[1], font=fi) > en:
+                satir[1] = satir[1][:int(len(satir[1]) * 0.94)].rstrip() + "…"
+        yuk = 66 if len(satir) == 1 else 92
+        iy = min(1282 - yuk - 14, int(ust + kh + 30))
+        d.rounded_rectangle([44, iy, W - 44, iy + yuk], radius=14,
+                            fill=(236, 247, 240), outline=(198, 228, 209),
+                            width=2)
+        ikon(d, "uyari", 86, iy + yuk / 2, 30, (28, 110, 60))
+        ty = iy + yuk / 2 - (len(satir) - 1) * (fi.size + 5) / 2
+        for ln in satir:
+            d.text((116, ty), ln, font=fi, fill=(24, 78, 48), anchor="lm")
+            ty += fi.size + 5
 
     d.rectangle([0, 1282, W, H], fill=(14, 22, 40))
     d.text((GUT, 1316), P(spec.get("alt_cagri", "")), font=pop(19, "SemiBold"),
