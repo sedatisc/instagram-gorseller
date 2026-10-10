@@ -4,10 +4,16 @@ Bu klasörde iki iş akışı var:
 
 - **Ürün görselleri** (`cek.py`) — satıcı sayfalarından ürün karesi
   indirip arka planını kesiyor. Aşağısı bunu anlatıyor.
-- **Yayın** (`yayinla.py`) — kuyruktaki gönderi, hikaye ve reels'i
-  Instagram Graph API ile kendisi yayınlıyor. Kurulum ve çalışma
-  biçimi `YAYIN-KURULUM.md` içinde. Hattın tamamı hazır; eksik olan
-  tek şey `IG_USER_ID` ve `IG_TOKEN` secret'ları.
+- **Instagram yayını** (`yayinla.py`) — kuyruktaki gönderi, hikaye ve
+  reels'i Instagram Graph API ile kendisi yayınlıyor. Kurulum
+  `YAYIN-KURULUM.md`. Hat hazır; eksik olan `IG_USER_ID` ve `IG_TOKEN`.
+- **YouTube Shorts** (`youtube.py`) — günün reels videosunu aynı
+  kuyruktan alıp Short olarak yüklüyor. Kurulum `YOUTUBE-KURULUM.md`.
+  Hat hazır; eksik olan `YT_CLIENT_ID`, `YT_CLIENT_SECRET`,
+  `YT_REFRESH_TOKEN`.
+- **TikTok** — otomatik yayın yapılamıyor, sebebi `TIKTOK.md` içinde.
+  Elle paylaşılıyor; metin ve video Yayın Paketi sayfasının TikTok
+  sekmesinde hazır duruyor.
 
 ## Ürün görselleri
 

@@ -1,0 +1,81 @@
+name: YouTube Shorts
+
+# Günün reels videosunu aynı kuyruktan alıp YouTube'a Short olarak
+# yüklüyor. Dikey ve 3 dakikanın altındaki video YouTube tarafından
+# kendiliğinden Short sayılıyor; ayrıca bir alan ya da etiket yok.
+#
+# Gereken secret'lar (Settings > Secrets and variables > Actions):
+#   YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN
+# Üçü yoksa iş akışı kuru çalışmaya düşüyor, hiçbir şey yüklenmiyor.
+# Kurulum: otomasyon/YOUTUBE-KURULUM.md
+
+on:
+  workflow_dispatch:
+    inputs:
+      kuru:
+        description: "Kuru çalışma — yükleme yapmaz, başlık ve açıklamayı yazar"
+        type: boolean
+        default: true
+      zorla:
+        description: "Tek günü vakti beklemeden yükle (ör. 2026-10-12)"
+        type: string
+        default: ""
+  schedule:
+    # Türkiye saatiyle 08.00 – 22.00 arası 20 dakikada bir; yayinla.py ile
+    # aynı ızgarayı okuyor, vakti 3 saatten fazla geçmiş videoyu atlıyor.
+    - cron: "*/20 5-19 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: youtube-yukle
+  cancel-in-progress: false
+
+jobs:
+  yukle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bağımlılıklar
+        run: pip install "requests>=2.32"
+
+      - name: Yükle
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          if [ -z "$YT_REFRESH_TOKEN" ] && [ "${{ inputs.kuru }}" != "true" ]; then
+            echo "YT_REFRESH_TOKEN yok — kuru çalışmaya düşülüyor." \
+              >> $GITHUB_STEP_SUMMARY
+            python3 otomasyon/youtube.py --kuru
+            exit 0
+          fi
+          python3 otomasyon/youtube.py \
+            ${{ inputs.kuru == true && '--kuru' || '' }} \
+            ${{ inputs.zorla != '' && format('--zorla {0}', inputs.zorla) || '' }}
+
+      - name: Defteri işle
+        if: always()
+        run: |
+          git config user.name  "youtube-botu"
+          git config user.email "noreply@github.com"
+          git add -A otomasyon
+          if git diff --cached --quiet; then
+            echo "Defterde değişiklik yok."
+          else
+            git commit -m "YouTube defteri güncellendi (otomatik)"
+            git pull --rebase --autostash origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Raporu iş özetine yaz
+        if: always()
+        run: cat otomasyon/SON-YOUTUBE.md >> $GITHUB_STEP_SUMMARY || true

@@ -8,8 +8,13 @@
 - `uret.py` — slayt üreticisi
 - `DURUM.json` — hangi konuların kullanıldığı
 - `sira.py` — saat ızgarası, `YAYIN-LISTESI.md` üreticisi
+- `paket.py` — Yayın Paketi sayfası (`yayin-paketi.html`): kopyalanabilir
+  metin, klasör bağlantısı, Instagram/YouTube/TikTok sekmeleri
 - `otomasyon/yayinla.py` — Instagram'a otomatik yayın (kurulum:
   `otomasyon/YAYIN-KURULUM.md`)
+- `otomasyon/youtube.py` — YouTube Shorts'a otomatik yükleme (kurulum:
+  `otomasyon/YOUTUBE-KURULUM.md`); TikTok neden otomatik değil:
+  `otomasyon/TIKTOK.md`
 - `otomasyon/cek.py` — satıcı sayfalarından ürün görseli çekici
 - `ornek/` — örnek spec
 - `fonts/`, `marka/` — yazı tipleri ve logo
