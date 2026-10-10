@@ -1,0 +1,70 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "pano",
+    "marka_alt": "Creality — Rafta Ne Var, Yolda Ne Var",
+    "ust_sol": "SATIŞTA · KAMPANYADA · DUYURULDU",
+    "ust_sag": "10 EKİM 2026 DURUMU",
+    "satir1": "HANGİSİ GERÇEKTEN",
+    "satir2": "ALINABİLİR?",
+    "spot": "Üçü de aynı haberlerde geçiyor ama yalnız biri rafta. Fotoğrafı olan ürün bugün satın alınabilen ürün; diğer ikisinin henüz ürün karesi bile yok.",
+    "sutunlar": [
+      {
+        "baslik": "SPARKX i7",
+        "alt": "SATIŞTA · BUGÜN ALINIR",
+        "renk": "yesil",
+        "gorsel": "urun/kesik-creality-sparkx-i7-combo.png",
+        "ozellikler": [
+          ["olcu", "260 × 260 × 255 mm"],
+          ["hiz", "500 mm/s · 10.000 mm/s²"],
+          ["isi", "Nozul 300 °C · tabla 100 °C"],
+          ["kutu", "Çok renk harici CFS Lite ile — 4 slot"]
+        ],
+        "kullanim": [
+          ["soru", "720p AI kamera, spagetti algılama"],
+          ["kup", "PLA, PETG, PLA-CF, TPU"],
+          ["uyari", "Açık gövde, kabin ısıtması yok"]
+        ]
+      },
+      {
+        "baslik": "SPARKX i8",
+        "alt": "KİTLESEL FONLAMADA",
+        "renk": "turuncu",
+        "ikon": "zaman",
+        "ozellikler": [
+          ["olcu", "260 × 260 × 255 mm"],
+          ["hiz", "500 mm/s · 10.000 mm/s²"],
+          ["dis", "QuarTeks — nozula gömülü 4 kanal, CFS değil"],
+          ["kutu", "Purge kulesi olmadan 4 renk"]
+        ],
+        "kullanim": [
+          ["uyari", "Indiegogo kampanyası — raf satışı değil"],
+          ["zaman", "Creality sevkiyat tarihi açıklamadı"],
+          ["terazi", "Fiyat sayfada hâlâ \"3XX\" yer tutucu"]
+        ]
+      },
+      {
+        "baslik": "K3",
+        "alt": "DUYURULDU · SEVKİYAT YOK",
+        "renk": "gri",
+        "ikon": "soru",
+        "ozellikler": [
+          ["dis", "KliTek — 4,8 saniyede nozul değişimi"],
+          ["kutu", "Gövdeye gömülü 4 makara yuvası"],
+          ["damla", "TPU odaklı, 80A'ya kadar yumuşak"],
+          ["uyari", "Baskı alanı, hız ve sıcaklık açıklanmadı"]
+        ],
+        "kullanim": [
+          ["zaman", "\"Ön sipariş ekim ortası\" — tarih yok"],
+          ["terazi", "900 USD altı beklentisi, resmi fiyat değil"],
+          ["uyari", "\"K3 Combo\" diye bir paket yok"]
+        ]
+      }
+    ],
+    "ipucu": "Bugün alınabilen tek model i7. i8 kitlesel fonlamada, K3'ün teknik verisi bile yayınlanmadı — ikisi de \"yakında\".",
+    "alt_cagri": "Bugün alınabilen: SparkX i7"
+  },
+  "slaytlar": [],
+  "kapanis": null
+}

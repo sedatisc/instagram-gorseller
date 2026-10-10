@@ -386,11 +386,6 @@
       },
       {
         "tarih": "2026-10-11",
-        "slot": "urun",
-        "klasor": "2026-10-11-ender-v3-mega-tanitim"
-      },
-      {
-        "tarih": "2026-10-11",
         "slot": "proje",
         "klasor": "2026-10-11-musteriye-fiyat"
       },
@@ -503,6 +498,21 @@
         "tarih": "2026-10-17",
         "slot": "3dbaski",
         "klasor": "2026-10-17-cok-renkli-yazici-pano"
+      },
+      {
+        "tarih": "2026-10-16",
+        "slot": "urun",
+        "klasor": "2026-10-18-bambu-h-serisi-pano"
+      },
+      {
+        "tarih": "2026-10-17",
+        "slot": "urun",
+        "klasor": "2026-10-19-bambu-a-serisi-pano"
+      },
+      {
+        "tarih": "2026-10-11",
+        "slot": "urun",
+        "klasor": "2026-10-20-creality-sparkx-k3-pano"
       }
     ],
     "reels": [
@@ -529,6 +539,12 @@
       {
         "tarih": "2026-10-15",
         "klasor": "2026-10-17-polymaker-ht-pla"
+      }
+    ],
+    "beklemede": [
+      {
+        "klasor": "2026-10-11-ender-v3-mega-tanitim",
+        "sebep": "Creality'nin hicbir kendi kaynaginda 'Ender-3 V3 Mega' diye bir model yok (creality.com, store.creality.com, creality.cn, crealitycloud.com arandi). Gonderideki 420x420x420 mm, 500 mm/s ve 1.150 W degerleri yalnizca ucuncu taraf SEO sitelerinde geciyor. Ilhan onay verene kadar yayina alinmayacak. Gercek muadili: Ender-3 V4 Combo, 220x220x235 mm, 500 mm/s, 12.000 mm/s2, CFS dahil, 399 USD."
       }
     ]
   }

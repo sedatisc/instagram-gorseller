@@ -65,6 +65,29 @@ Mağaza ürünlerinin tanıtımı zaten `urun` tipli karusel gönderilerle
 yapılıyor (10-14 … 10-17). ÜRÜN & MAĞAZA slotu için ayrıca pano
 gerekmiyor.
 
+## Yazıcı ve makine
+
+| # | Konu | Sütunlar | Durum |
+|---|---|---|---|
+| ✓ | Çok renge nasıl geçilir | AD5X · SPARKX i7 · H2D | tamam |
+| ✓ | Bambu H serisi | H2S · H2C · H2D | tamam |
+| ✓ | Bambu A serisi | A1 mini · A1 · A2L | tamam |
+| ✓ | Creality: rafta ne var | i7 · i8 · K3 | tamam — i8 ve K3 ürün değil, sütunda simge |
+| 1 | Reçine yazıcılar | Mono M7 Pro · M7 Max · Mars 5 Ultra | görseller hazır |
+| 2 | Creality K2 ailesi | K2 · K2 Pro · K2 Plus | görsel gerek |
+
+## Doğrulamada elenen konular
+
+- **Ender-3 V3 Mega** — Creality'nin hiçbir kendi kaynağında yok
+  (creality.com, store.creality.com, creality.cn, crealitycloud.com).
+  Dolaşan 420 mm küp / 1.150 W değerleri yalnız üçüncü taraf SEO
+  sitelerinde. Gerçek muadili **Ender-3 V4 Combo** (220 × 220 × 235 mm,
+  500 mm/s, 12.000 mm/s², CFS dahil, 399 USD).
+- **K3 Combo** — Creality'de böyle bir paket adı yok; K3'ün kendisi de
+  sevkiyatta değil ve teknik verisi yayınlanmadı.
+- **SparkX i8** — gerçek ama Indiegogo kampanyası, perakende satışta
+  değil. "Alınabilir" diye sunulmayacak.
+
 ## Denenip çıkmayanlar
 
 Fotoğraf aramak için boşuna tekrar bakma:

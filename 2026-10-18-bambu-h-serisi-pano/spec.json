@@ -1,0 +1,70 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "pano",
+    "marka_alt": "Bambu Lab H Serisi Seçim Rehberi",
+    "ust_sol": "AYNI GÖVDE · AYRI KAFA",
+    "ust_sag": "H2S · H2C · H2D",
+    "satir1": "H SERİSİNDE",
+    "satir2": "FARK NE?",
+    "spot": "Üçünde de 350 °C nozul, 120 °C tabla ve 65 °C aktif ısıtmalı kapalı kabin var. Sıcaklık ve hız ayırt etmiyor; karar kafa mimarisi ile baskı alanı arasında.",
+    "sutunlar": [
+      {
+        "baslik": "H2S",
+        "alt": "TEK NOZUL · EN BÜYÜK HACİM",
+        "renk": "yesil",
+        "gorsel": "urun/kesik-bambu-h2s-combo.png",
+        "ozellikler": [
+          ["olcu", "340 × 320 × 340 mm — serinin en büyüğü"],
+          ["nozzle", "Tek nozul, hızlı değişen uç"],
+          ["hiz", "1.000 mm/s kafa · 20.000 mm/s²"],
+          ["uyari", "Yalnız 10 W lazer — 40 W desteklenmiyor"]
+        ],
+        "kullanim": [
+          ["kup", "Tek malzemeyle büyük parça"],
+          ["ev", "X1C'den büyük hacim isteyen"],
+          ["terazi", "Serinin en uygun fiyatlısı"]
+        ]
+      },
+      {
+        "baslik": "H2C",
+        "alt": "VORTEK · ATIKSIZ ÇOK MALZEME",
+        "renk": "kiraz",
+        "gorsel": "urun/kesik-bambu-h2c-combo.png",
+        "ozellikler": [
+          ["dis", "Sağ kafada 6 hotend'li otomatik değiştirici"],
+          ["kutu", "Tek işte 7 malzemeye kadar, purge atığı yok"],
+          ["olcu", "330 × 320 × 325 mm (iki nozul toplamı)"],
+          ["hiz", "1.000 mm/s kafa · 20.000 mm/s²"]
+        ],
+        "kullanim": [
+          ["damla", "Renk değişiminde atılan malzeme derdi bitiyor"],
+          ["makara", "AMS ile 24 filamente kadar"],
+          ["uyari", "Serinin en küçük alanı ve en pahalısı"]
+        ]
+      },
+      {
+        "baslik": "H2D",
+        "alt": "ÇİFT NOZUL · LAZER VE KESİM",
+        "renk": "mavi",
+        "gorsel": "urun/kesik-bambu-h2d-combo.png",
+        "ozellikler": [
+          ["nozzle", "Çift nozul"],
+          ["olcu", "350 × 320 × 325 mm"],
+          ["hiz", "600 mm/s sürekli · 1.000 mm/s kafa"],
+          ["kalkan", "10 W ya da 40 W lazer — 15 mm kontrplak"]
+        ],
+        "kullanim": [
+          ["dis", "Baskı + lazer + kesim + çizim tek masada"],
+          ["makara", "12 üniteye kadar AMS, 25 renk"],
+          ["kutu", "Lazer atölyesi de kuracak olan"]
+        ]
+      }
+    ],
+    "ipucu": "Tek malzemeyle büyük parça basıyorsan H2S. Çok renkte atık istemiyorsan H2C. Lazer ve kesim de lazımsa H2D.",
+    "alt_cagri": "H serisini keşfet"
+  },
+  "slaytlar": [],
+  "kapanis": null
+}

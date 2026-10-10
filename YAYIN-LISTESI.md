@@ -26,8 +26,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 12:20 | Gönderi | ELEKTRONİK & IoT | `2026-10-11-jetson-orin-nano` | 4 |
 | 12:20 | Hikaye | 3D BASKI & ÜRETİM DONANIMI | `2026-10-11-sunlu-pla-kartelasi/hikaye.png` | 1 |
 | 13:00 | Hikaye | ELEKTRONİK & IoT | `2026-10-11-jetson-orin-nano/hikaye.png` | 1 |
-| 17:10 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-11-ender-v3-mega-tanitim` | 5 |
-| 17:50 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-11-ender-v3-mega-tanitim/hikaye.png` | 1 |
+| 17:10 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-20-creality-sparkx-k3-pano` | 1 |
+| 17:50 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-20-creality-sparkx-k3-pano/hikaye.png` | 1 |
 | 19:50 | **Reels** | — | `2026-10-11-ender-v3-mega-tanitim/reels.mp4` | video |
 | 21:00 | Gönderi | PROJE & ATÖLYE | `2026-10-11-musteriye-fiyat` | 4 |
 | 21:40 | Hikaye | PROJE & ATÖLYE | `2026-10-11-musteriye-fiyat/hikaye.png` | 1 |
@@ -96,7 +96,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 08:52 | Hikaye | 3D BASKI & ÜRETİM DONANIMI | `2026-10-16-sunlu-filament-pano/hikaye.png` | 1 |
 | 12:38 | Gönderi | ELEKTRONİK & IoT | `2026-10-16-gelistirme-karti-pano` | 1 |
 | 13:18 | Hikaye | ELEKTRONİK & IoT | `2026-10-16-gelistirme-karti-pano/hikaye.png` | 1 |
-| 16:40 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
+| 16:40 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-18-bambu-h-serisi-pano` | 1 |
+| 17:20 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-18-bambu-h-serisi-pano/hikaye.png` | 1 |
 | 18:10 | Gönderi | PROJE & ATÖLYE | `2026-10-20-pixhawk-pano` | 1 |
 | 18:50 | Hikaye | PROJE & ATÖLYE | `2026-10-20-pixhawk-pano/hikaye.png` | 1 |
 | 20:30 | **Reels** | — | _boş — üretilecek_ | — |
@@ -109,7 +110,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 11:50 | Hikaye | 3D BASKI & ÜRETİM DONANIMI | `2026-10-17-cok-renkli-yazici-pano/hikaye.png` | 1 |
 | 12:20 | Gönderi | ELEKTRONİK & IoT | `2026-10-17-esp32-ailesi-pano` | 1 |
 | 13:00 | Hikaye | ELEKTRONİK & IoT | `2026-10-17-esp32-ailesi-pano/hikaye.png` | 1 |
-| 16:50 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
+| 16:50 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-19-bambu-a-serisi-pano` | 1 |
+| 17:30 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-19-bambu-a-serisi-pano/hikaye.png` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 | 20:10 | Gönderi | PROJE & ATÖLYE | `2026-10-21-pi-kamera-pano` | 1 |
 | 20:50 | Hikaye | PROJE & ATÖLYE | `2026-10-21-pi-kamera-pano/hikaye.png` | 1 |
@@ -118,7 +120,5 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 
 Bu slotlar için içerik henüz üretilmedi:
 
-- 2026-10-16 · ÜRÜN & MAĞAZA
 - 2026-10-16 · REELS
-- 2026-10-17 · ÜRÜN & MAĞAZA
 - 2026-10-17 · REELS
