@@ -1,0 +1,70 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "pano",
+    "marka_alt": "sermenkreatif.com · Mağaza Rehberi",
+    "ust_sol": "NEM · AKIŞ · HIZ",
+    "ust_sag": "STOKTA · TÜRKİYE'DEN",
+    "satir1": "BASKIYI BOZAN ÜÇ ŞEY",
+    "satir2": "VE ÇÖZÜMÜ",
+    "spot": "Tel tel çekme, pürüzlü yüzey ve yavaş baskı. Üçünün de sebebi slicer ayarı değil; üçü de donanım sorunu ve üçünün ayrı çözümü var.",
+    "sutunlar": [
+      {
+        "baslik": "FILADRYER S2",
+        "alt": "MAKARADAKİ NEM",
+        "renk": "gri",
+        "gorsel": "urun/kesik-s2.png",
+        "ozellikler": [
+          ["damla", "Makarayı 35-70 °C'de kurutuyor"],
+          ["makara", "1 makara · Ø 210 × 85 mm"],
+          ["pil", "48 W ısıtıcı · 1,19 kg"],
+          ["hiz", "PTFE çıkış — baskı sürerken kurutma"]
+        ],
+        "kullanim": [
+          ["kup", "PLA, PETG, ABS hazır profili"],
+          ["ev", "Masaüstü, tek yazıcı"],
+          ["zaman", "Nem düşüşü ekrandan izleniyor"]
+        ]
+      },
+      {
+        "baslik": "AMS HEATER",
+        "alt": "AMS İÇİNDEKİ NEM",
+        "renk": "mavi",
+        "gorsel": "urun/kesik-ams-heater.png",
+        "ozellikler": [
+          ["isi", "35-70 °C · 20 dakikada 70 °C"],
+          ["damla", "Nem %10-90 arası ölçülüyor"],
+          ["pil", "220 W anma · 390 W tepe"],
+          ["uyari", "Yalnız Bambu Lab AMS 1. nesil"]
+        ],
+        "kullanim": [
+          ["kutu", "AMS kapağının yerine takılıyor"],
+          ["hiz", "Baskı durmadan dört makara kuruyor"],
+          ["zaman", "Otomatik mod: %50'de başlar, %20'de durur"]
+        ]
+      },
+      {
+        "baslik": "LIBER HOTEND",
+        "alt": "DÜŞÜK AKIŞ",
+        "renk": "kiraz",
+        "gorsel": "urun/kesik-liber.png",
+        "ozellikler": [
+          ["hiz", "ABS'de +%87 akış"],
+          ["nozzle", "0,4 mm DLC kaplı nozul"],
+          ["isi", "300 °C'ye kadar"],
+          ["uyari", "Aşındırıcı filament için değil"]
+        ],
+        "kullanim": [
+          ["dis", "Snapmaker U1 — dört kafa için dörtlü set"],
+          ["kup", "Aynı güçte daha çok filament eriyor"],
+          ["kalkan", "Sertleştirilmiş çelik gövde"]
+        ]
+      }
+    ],
+    "ipucu": "Sırayla git: önce nemi çöz. Filament kuru değilken slicer ayarıyla uğraşmak zaman kaybı.",
+    "alt_cagri": "Üçü de sermenkreatif.com'da"
+  },
+  "slaytlar": [],
+  "kapanis": null
+}

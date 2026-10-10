@@ -95,7 +95,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 08:12 | — | **3D BASKI & ÜRETİM DONANIMI** | _boş — üretilecek_ | — |
 | 12:38 | Gönderi | ELEKTRONİK & IoT | `2026-10-16-gelistirme-karti-pano` | 1 |
 | 13:18 | Hikaye | ELEKTRONİK & IoT | `2026-10-16-gelistirme-karti-pano/hikaye.png` | 1 |
-| 16:40 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
+| 16:40 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-16-magaza-pano` | 1 |
+| 17:20 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-16-magaza-pano/hikaye.png` | 1 |
 | 18:10 | Gönderi | PROJE & ATÖLYE | `2026-10-20-pixhawk-pano` | 1 |
 | 18:50 | Hikaye | PROJE & ATÖLYE | `2026-10-20-pixhawk-pano/hikaye.png` | 1 |
 | 20:30 | **Reels** | — | _boş — üretilecek_ | — |
@@ -117,7 +118,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 Bu slotlar için içerik henüz üretilmedi:
 
 - 2026-10-16 · 3D BASKI & ÜRETİM DONANIMI
-- 2026-10-16 · ÜRÜN & MAĞAZA
 - 2026-10-16 · REELS
 - 2026-10-17 · 3D BASKI & ÜRETİM DONANIMI
 - 2026-10-17 · ÜRÜN & MAĞAZA
