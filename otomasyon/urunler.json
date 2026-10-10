@@ -92,6 +92,34 @@
     {
       "slug": "phaetus-k1-dxc",
       "ara": "Phaetus K1 DXC Extruder"
+    },
+    {
+      "slug": "bambu-h2s-combo",
+      "sayfa": "https://filamentdepom.com/3d-yazici/prd-bambu-lab-h2s-combo-3d-yazici"
+    },
+    {
+      "slug": "bambu-h2c-combo",
+      "sayfa": "https://filamentdepom.com/bambu-lab-h2c-combo-3d-yazici-957"
+    },
+    {
+      "slug": "bambu-h2d-combo",
+      "sayfa": "https://filamentdepom.com/3d-yazici/prd-bambu-lab-h2d-combo-3d-yazici"
+    },
+    {
+      "slug": "bambu-a1-mini-combo",
+      "sayfa": "https://filamentdepom.com/3d-yazici/prd-bambu-lab-a1-mini-combo-3d-yazici"
+    },
+    {
+      "slug": "bambu-a1-combo",
+      "sayfa": "https://filamentdepom.com/3d-yazici/prd-bambu-lab-a1-combo-3d-yazici"
+    },
+    {
+      "slug": "bambu-a2l-combo",
+      "sayfa": "https://sermenkreatif.com/bambu-lab-a2l-combo-3d-yazici-18583"
+    },
+    {
+      "slug": "creality-sparkx-i7-combo",
+      "sayfa": "https://filamentdepom.com/creality-sparkx-i7-combo-3d-yazici"
     }
   ]
 }
