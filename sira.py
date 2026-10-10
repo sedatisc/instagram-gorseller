@@ -10,6 +10,7 @@ ile planlanır; saatler buradan okunur.
 """
 import json
 import os
+import re
 import sys
 from datetime import date, datetime, timedelta
 
@@ -136,8 +137,92 @@ def liste():
     return len(gun), len(eksik)
 
 
+
+
+# --------------------------------------------------------------- paket
+DEPO = "https://github.com/sedatisc/instagram-gorseller/tree/main/"
+HAM = "https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/"
+
+
+def metin_oku(klasor):
+    """metin.md'den gönderi metnini ve ilk yorumu ayır."""
+    yol = os.path.join(klasor, "metin.md")
+    if not os.path.exists(yol):
+        return None, None
+    govde = yorum = None
+    for p in re.split(r"^##\s+", open(yol, encoding="utf-8").read(), flags=re.M):
+        bas = p.split("\n", 1)[0].strip().lower()
+        if bas.startswith("gönderi metni"):
+            govde = p.split("\n", 1)[1].strip()
+        elif bas.endswith("ilk yorum"):
+            yorum = p.split("\n", 1)[1].strip()
+    if govde:
+        govde = re.sub(r"\*\*(.+?)\*\*", r"\1", govde)   # Instagram yıldızı gösteriyor
+    return govde, yorum
+
+
+def kare_adlari(klasor):
+    if not os.path.isdir(klasor):
+        return []
+    f = [x for x in os.listdir(klasor) if x.endswith(".jpg") and x[:-4].isdigit()]
+    return sorted(f, key=lambda x: int(x[:-4]))
+
+
+def paket():
+    """Tek sayfa yayın paketi: kapak küçük resmi, klasör linki, kopyalanabilir
+    metin. Kod bloğunun sağ üstünde GitHub'ın kopyala düğmesi çıkıyor."""
+    d, slotlar = kuyruk()
+    gun = gunler(slotlar)
+    reelsler = {r["tarih"]: r["klasor"]
+                for r in d["kuyruk_bekleyen"].get("reels", [])}
+
+    sat = ["# YAYIN PAKETİ", "",
+           "Her gönderinin kapağı, klasörü ve metni burada. Metin kutusunun "
+           "sağ üstündeki kopyala düğmesine basıp Instagram'a yapıştır; "
+           "başlığa dokununca klasör açılıyor, kareler sırayla orada.", "",
+           "Hikaye gönderiden %d dakika sonra, aynı klasörde `hikaye.jpg`."
+           % HIKAYE_GECIKME, "",
+           "Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme.", ""]
+
+    for tarih, sl in gun.items():
+        g = date.fromisoformat(tarih).weekday()
+        sat += ["---", "", "# %s · %s" % (tarih, GUN[g]), ""]
+        sira_ = []
+        for ad in SLOTLAR:
+            s = sl.get(ad)
+            if s:
+                sira_.append((saat(g, ad), "gonderi", s["klasor"], ad))
+        r = reelsler.get(tarih)
+        if r:
+            sira_.append((saat(g, "reels"), "reels", r, None))
+        for t, tur, kl, ad in sorted(sira_):
+            if tur == "reels":
+                sat += ["## %s · REELS — [%s](%s)" % (t, kl + "/reels.mp4",
+                                                      DEPO + kl), "",
+                        "Açıklama gönderi metniyle aynı. Trend sesi eklemek "
+                        "istersen uygulamadan paylaş.", ""]
+                continue
+            govde, yorum = metin_oku(kl)
+            kare = kare_adlari(kl)
+            sat += ["## %s · %s" % (t, BASLIK[ad]), "",
+                    '<a href="%s%s"><img src="%s%s/1.jpg" width="240"></a>'
+                    % (DEPO, kl, HAM, kl), "",
+                    "**[%s](%s)** · %d kare · hikaye %s"
+                    % (kl, DEPO + kl, len(kare), arti(t, HIKAYE_GECIKME)), ""]
+            if govde:
+                sat += ["```", govde, "```", ""]
+            else:
+                sat += ["_metin.md yok_", ""]
+            if yorum:
+                sat += ["İlk yorum:", "", "```", yorum, "```", ""]
+
+    open("YAYIN-PAKETI.md", "w", encoding="utf-8").write("\n".join(sat) + "\n")
+    return sum(len(v) for v in gun.values())
+
+
 if __name__ == "__main__":
     n, e = liste()
+    paket()
     if "--eksik" in sys.argv:
         print("%d gün, %d boş slot" % (n, e))
     else:

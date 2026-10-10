@@ -1,8 +1,10 @@
-# YAYIN PAKETİ · 11-18 Ekim 2026
+# YAYIN PAKETİ
 
-Her gönderinin kareleri, metni ve ilk yorumu burada. Hikaye, gönderiden 40 dakika sonra, aynı klasördeki `hikaye.jpg`.
+Her gönderinin kapağı, klasörü ve metni burada. Metin kutusunun sağ üstündeki kopyala düğmesine basıp Instagram'a yapıştır; başlığa dokununca klasör açılıyor, kareler sırayla orada.
 
-Kareler depoda: `raw.githubusercontent.com/sedatisc/instagram-gorseller/main/<klasör>/<n>.jpg`
+Hikaye gönderiden 40 dakika sonra, aynı klasörde `hikaye.jpg`.
+
+Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme.
 
 ---
 
@@ -10,11 +12,11 @@ Kareler depoda: `raw.githubusercontent.com/sedatisc/instagram-gorseller/main/<kl
 
 ## 11:40 · 3D BASKI & ÜRETİM DONANIMI
 
-**Klasör:** `2026-10-11-sunlu-pla-kartelasi` — 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg, 6.jpg
-**Hikaye:** 12:20 · `2026-10-11-sunlu-pla-kartelasi/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-11-sunlu-pla-kartelasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-11-sunlu-pla-kartelasi/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-11-sunlu-pla-kartelasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-11-sunlu-pla-kartelasi)** · 6 kare · hikaye 12:20
 
+```
 SUNLU'nun on altı ayrı PLA serisi var ve hepsi aynı profille basılmıyor. Renge bakıp sepete atmadan önce bakılacak iki rakam: nozul sıcaklığı ve hız sınırı.
 
 Sıcaklık → düz PLA 185-230 °C, PLA Meta 185-225 °C, Wood 190-220 °C, Glow 200-240 °C, PLA+ 2.0 ve Matte 205-245 °C, Silk PLA+ 210-230 °C. Seriyi değiştirip dilimleyicideki profili aynı bırakmak en sık yapılan hata.
@@ -30,18 +32,15 @@ Kurutma → SUNLU tek bir rakam veriyor: 50 °C. Süre vermiyor, depolamada %20 
 Yanlış seriye doğru profili uygulayıp makarayı çöpe atan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #sunlu #filament #3dyazici #makerturkiye
-
-### İlk yorum
-
-Rakamlar SUNLU'nun ürün sayfalarından. Kendi wiki tablosu Matte PLA ve High Speed PLA+ 2.0'da ürün sayfasıyla çelişiyor; o tabloda bazı satırlar birden fazla seriye kopyalanmış görünüyor, ürün sayfasını esas aldım.
+```
 
 ## 12:20 · ELEKTRONİK & IoT
 
-**Klasör:** `2026-10-11-jetson-orin-nano` — 1.jpg, 2.jpg, 3.jpg, 4.jpg
-**Hikaye:** 13:00 · `2026-10-11-jetson-orin-nano/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-11-jetson-orin-nano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-11-jetson-orin-nano/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-11-jetson-orin-nano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-11-jetson-orin-nano)** · 4 kare · hikaye 13:00
 
+```
 Jetson Orin Nano Super'da süper olan donanım değil, yazılım. Ayrı bir kart çıkmadı; var olan kartın saatleri yükseltildi ve fiyatı düştü.
 
 Yapay zeka → 67 TOPS seyrek kipte, yoğun kipte 33 TOPS
@@ -59,18 +58,15 @@ Raspberry Pi ne zaman yetmez: tek kamera ve klasik görüntü işlemede Pi yeter
 Pi'ye model sığdırmaya çalışan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #elektronik #embedded #jetson #makerturkiye
-
-### İlk yorum
-
-Güç kipini 25 W'a almadan önce soğutmaya bak; pasif soğutucuyla 25 W kipinde kart kendini kısıyor ve 15 W'tan farkı kalmıyor.
+```
 
 ## 17:10 · ÜRÜN & MAĞAZA
 
-**Klasör:** `2026-10-10-bambu-r1-tanitim` — 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg
-**Hikaye:** 17:50 · `2026-10-10-bambu-r1-tanitim/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-10-bambu-r1-tanitim"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-10-bambu-r1-tanitim/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-10-bambu-r1-tanitim](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-10-bambu-r1-tanitim)** · 5 kare · hikaye 17:50
 
+```
 Bambu Lab 3D yazıcıdan sonra lazere girdi. R1, 55 W CO2 lazerle 600 × 300 mm tezgâh sunuyor; gövde fiyatı 2.499 dolar.
 
 Ne kesiyor → 18 mm ceviz kontrplak, 20 mm şeffaf akrilik. Deri, kâğıt, kumaş da listede. Cam, taş ve kaplamalı metalde yalnız gravür var; çıplak metal kesmiyor. CO2 lazerin fiziği bu, marka farkı değil.
@@ -88,22 +84,19 @@ Türkiye tarafı → MetaTech üç varyantı da listelemiş: standart R1, Long M
 Atölyesine lazer almayı konuşan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #lazerkesim #bambulab #co2lazer #atolye #makerturkiye
+```
 
-### İlk yorum
+## 19:50 · REELS — [2026-10-10-bambu-r1-tanitim/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-10-bambu-r1-tanitim)
 
-Rakamların tamamı Bambu Lab'in lansman bülteninden. Bağımsız test sonuçları çıktıkça buraya not düşeceğim; özellikle 18 mm kesimin tek geçişte mi yoksa çok geçişte mi olduğu önemli.
-
-## 19:50 · REELS — `2026-10-10-bambu-r1-tanitim/reels.mp4`
-
-Açıklama gönderinin metniyle aynı; uygulamadan trend sesi eklemek istersen elle paylaş.
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
 ## 21:00 · PROJE & ATÖLYE
 
-**Klasör:** `2026-10-11-musteriye-fiyat` — 1.jpg, 2.jpg, 3.jpg, 4.jpg
-**Hikaye:** 21:40 · `2026-10-11-musteriye-fiyat/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-11-musteriye-fiyat"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-11-musteriye-fiyat/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-11-musteriye-fiyat](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-11-musteriye-fiyat)** · 4 kare · hikaye 21:40
 
+```
 Müşteriye 3D baskı fiyatı verirken altı kalem var; filament bunlardan yalnız biri ve en küçüğü.
 
 1 · Malzeme → dilimleyicinin verdiği gram × makaranın gram fiyatı. 60 g'lık bir parça 1 kg makaranın %6'sı.
@@ -118,10 +111,7 @@ Saat ücretini bir kez belirle ve her teklifte aynı sayıyı kullan. İş bazı
 Baskı işini gram üzerinden fiyatlayıp ay sonunda kâr edemeyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #maker #3dbaski #fiyatlandirma #makerturkiye
-
-### İlk yorum
-
-Teklifi kalem kalem yazıp müşteriye göster; gram fiyatı tartışılıyor ama işçilik ve makine saati yazılı olduğunda tartışma bitiyor.
+```
 
 ---
 
@@ -129,11 +119,11 @@ Teklifi kalem kalem yazıp müşteriye göster; gram fiyatı tartışılıyor am
 
 ## 08:12 · 3D BASKI & ÜRETİM DONANIMI
 
-**Klasör:** `2026-10-12-yapisma-yuzeyleri` — 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg
-**Hikaye:** 08:52 · `2026-10-12-yapisma-yuzeyleri/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-12-yapisma-yuzeyleri"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-12-yapisma-yuzeyleri/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-12-yapisma-yuzeyleri](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-12-yapisma-yuzeyleri)** · 5 kare · hikaye 08:52
 
+```
 3D baskı tablası yapışma yüzeyi seçimi ayar meselesi değil: PEI, garolit ve cam farklı malzemeleri tutuyor, parça kalkıyorsa önce yüzeye bakılıyor.
 
 Pürüzlü PEI → PLA ve PETG'yi 60 °C tablada yapıştırıcısız tutuyor, parçanın altına mat doku bırakıyor.
@@ -146,18 +136,15 @@ Düz PEI ve camda yapıştırıcı kalemi hem tutturucu hem ayırıcı görevi y
 İlk katman tutmuyor diye Z ofsetiyle sürekli oynayan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #3dprinting #pei #3dbaskiturkiye
-
-### İlk yorum
-
-Yüzeyi değiştirdiğinde Z ofsetini yeniden al; her plakanın kalınlığı aynı değil ve eski ofset yeni plakada ya eziyor ya havada bırakıyor.
+```
 
 ## 12:38 · ELEKTRONİK & IoT
 
-**Klasör:** `2026-10-12-deep-sleep-akim` — 1.jpg, 2.jpg, 3.jpg, 4.jpg
-**Hikaye:** 13:18 · `2026-10-12-deep-sleep-akim/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-12-deep-sleep-akim"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-12-deep-sleep-akim/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-12-deep-sleep-akim](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-12-deep-sleep-akim)** · 4 kare · hikaye 13:18
 
+```
 ESP32 deep sleep akım ölçümü veri sayfasındaki 10 µA'i vermiyor; ölçtüğün şey çip değil kartın tamamı.
 
 Geliştirme kartında USB-UART çevirici, kart üstündeki LDO ve güç ledi uyurken de akım çekiyor; çıplak bir DevKit tipik olarak milliamper bandında kalıyor. Veri sayfasındaki sayıya ancak çıplak modülde yaklaşılıyor.
@@ -169,18 +156,15 @@ Kart uyanıp Wi-Fi'yi açtığında akım yüz milliamperlerin üstüne çıkıy
 Pil ömrünü veri sayfasındaki 10 µA ile hesaplayıp iki günde biten bir projesi olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #elektronik #embedded #esp32 #makerturkiye
-
-### İlk yorum
-
-Gerçek pil ömrü ortalama akımla çıkıyor: uyku akımı ile uyanık akımı, uyanık kalınan süre oranına göre ağırlıklandırılacak; saniyede bir uyanan bir kart 10 µA'lik uykuyu anlamsız kılıyor.
+```
 
 ## 17:24 · ÜRÜN & MAĞAZA
 
-**Klasör:** `2026-10-14-sunlu-filadryer` — 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg
-**Hikaye:** 18:04 · `2026-10-14-sunlu-filadryer/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-sunlu-filadryer"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-14-sunlu-filadryer/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-14-sunlu-filadryer](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-sunlu-filadryer)** · 5 kare · hikaye 18:04
 
+```
 SUNLU FilaDryer'ın bu üç modeli arasındaki asıl fark kapasite değil: kaç yazıcıyı besleyebildiği ve sıcaklık tavanı.
 
 Kapasite » S2 tek makara alıyor, Ø 210 × 85 mm. S4 dört makara alıyor, 4 × 1 kg, sekiz filament çıkışı var. E2 iki 1 kg, iki 2 kg ya da tek 3 kg'lık makara alıyor.
@@ -198,18 +182,15 @@ Nem niye önemli » nemli filament nozul içinde buharlaşıp kabarcık yapıyor
 Retraction mesafesini her baskıda biraz daha artırmaya devam eden bir arkadaşın varsa bu gönderiyi ona yolla — sorun büyük ihtimalle nem.
 
 #sermenkreatif #3dbaski #sunlu #filament #filamentkurutucu #makerturkiye
-
-### İlk yorum
-
-Rakamlar SUNLU'nun kendi S2 / S4 / E2 karşılaştırmasından. Kurutma süresini vermiyorlar, yalnız sıcaklık veriyorlar; "şu kadar saat" diyen herkes kendi deneyimini aktarıyor. Ekrandaki nem değerini izleyip düşüş durunca almak en sağlıklısı.
+```
 
 ## 19:40 · PROJE & ATÖLYE
 
-**Klasör:** `2026-10-12-urun-fotografi` — 1.jpg, 2.jpg, 3.jpg, 4.jpg
-**Hikaye:** 20:20 · `2026-10-12-urun-fotografi/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-12-urun-fotografi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-12-urun-fotografi/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-12-urun-fotografi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-12-urun-fotografi)** · 4 kare · hikaye 20:20
 
+```
 Ürün fotoğrafı için stüdyo kurmak tek ışıkla oluyor; ikinci lamba parçayı düzeltmiyor, gölgeyi ikiye çıkarıyor.
 
 Işık → 60 × 60 cm softbox parçanın 45° yanına ve göz hizasının biraz üstüne geliyor. Kaynak büyüdükçe ve yaklaştıkça gölge yumuşuyor.
@@ -222,14 +203,11 @@ Beyaz ayarı elle 5.000 - 5.500 K'ye alınıyor, otomatiğe bırakılmıyor. Sof
 Bastığı parçayı tezgâhta telefonla çekip satamayan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #maker #3dbaski #urunfotografi #makerturkiye
+```
 
-### İlk yorum
+## 21:10 · REELS — [2026-10-14-sunlu-filadryer/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-sunlu-filadryer)
 
-Aynı parçayı iki kez çek: biri düz önden katalog karesi, biri 45° üstten doku karesi; ürün sayfasında ilk kare satıyor, ikinci kare güven veriyor.
-
-## 21:10 · REELS — `2026-10-14-sunlu-filadryer/reels.mp4`
-
-Açıklama gönderinin metniyle aynı; uygulamadan trend sesi eklemek istersen elle paylaş.
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
 ---
 
@@ -237,11 +215,11 @@ Açıklama gönderinin metniyle aynı; uygulamadan trend sesi eklemek istersen e
 
 ## 08:12 · 3D BASKI & ÜRETİM DONANIMI
 
-**Klasör:** `2026-10-16-sunlu-filament-pano` — 1.jpg
-**Hikaye:** 08:52 · `2026-10-16-sunlu-filament-pano/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-sunlu-filament-pano/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-16-sunlu-filament-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano)** · 1 kare · hikaye 08:52
 
+```
 SUNLU'nun üç filamenti arasındaki fark renk değil. Üçü de 1,75 mm ve ±0,02 mm toleranslı; ayrım nerede kullanacağında.
 
 PLA+ 2.0 » nozul 205-245 °C, tabla 50-60 °C, 50-200 mm/s. Çekme dayanımı 46±5 MPa, çentikli Izod darbe 10±3 kJ/m², ısı deformasyon sıcaklığı 56±3 °C, yoğunluk 1,21 g/cm³.
@@ -263,18 +241,15 @@ Bir isim uyarısı » SUNLU'nun kataloğunda PLA+ 2.0 ile High Speed PLA+ 2.0 ay
 PLA'yla menteşe basıp yazın deforme olduğuna şaşıran bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #sunlu #filament #makerturkiye
-
-### İlk yorum
-
-Rakamlar SUNLU'nun kendi ürün sayfalarındaki teknik föy tablolarından. Mağaza listelerindeki pazarlama maddeleriyle föy tablosu bazı yerlerde çelişiyor; föy esas alındı. Kurutma için SUNLU 50 °C diyor, süre vermiyor.
+```
 
 ## 12:38 · ELEKTRONİK & IoT
 
-**Klasör:** `2026-10-13-optokuplor` — 1.jpg, 2.jpg, 3.jpg, 4.jpg
-**Hikaye:** 13:18 · `2026-10-13-optokuplor/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-optokuplor"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-13-optokuplor/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-13-optokuplor](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-optokuplor)** · 4 kare · hikaye 13:18
 
+```
 Optokuplör ne işe yarar sorusunun cevabı seviye çevirmek değil: iki devrenin toprağını birbirinden tamamen ayırmak.
 
 İçinde kablo yok. Girişi bir LED, çıkışı o ışığı gören fototransistör; aralarında iletken bağlantı olmadığı için PC817 gibi yaygın bir parça 5.000 V'a kadar yalıtım veriyor.
@@ -288,18 +263,15 @@ PC817 mikrosaniye mertebesinde yavaş; hızlı SPI için 6N137 gibi yüksek hız
 Yalıtım için optokuplör koyup iki toprağı yine birleştiren bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #elektronik #embedded #optokuplor #makerturkiye
-
-### İlk yorum
-
-Çıkış tarafındaki pull-up direncini büyütmek hassasiyeti artırıyor ama anahtarlamayı yavaşlatıyor; 4,7 kΩ çoğu lojik hat için dengeli duruyor.
+```
 
 ## 17:24 · ÜRÜN & MAĞAZA
 
-**Klasör:** `2026-10-15-sunlu-ams-heater` — 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg
-**Hikaye:** 18:04 · `2026-10-15-sunlu-ams-heater/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-sunlu-ams-heater"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-15-sunlu-ams-heater/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-15-sunlu-ams-heater](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-sunlu-ams-heater)** · 5 kare · hikaye 18:04
 
+```
 SUNLU AMS Heater, Bambu Lab AMS'in üst kapağının yerine takılan bir ısıtıcı kapak. Yaptığı iş tek cümlede: baskı sürerken AMS'in içindeki filamenti kuru tutuyor.
 
 Normalde makarayı AMS'ten çıkarıp kurutucuya koyman, kuruyunca geri takman gerekiyor. Bu kapak o adımı tamamen kaldırıyor.
@@ -315,22 +287,19 @@ Bilinmesi gerekenler → makara başına ayrı sıcaklık kontrolü yok, dört m
 AMS'inden nemli filament yüzünden sürekli bozuk baskı alan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #bambulab #ams #sunlu #makerturkiye
+```
 
-### İlk yorum
+## 19:36 · REELS — [2026-10-15-sunlu-ams-heater/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-sunlu-ams-heater)
 
-Bambu Lab'in garantisi konusunda SUNLU bir açıklama yapmıyor — ne "etkilenmez" diyor ne de uyarıyor. Konu hiç ele alınmamış; garanti kaygın varsa bunu bilerek karar ver.
-
-## 19:36 · REELS — `2026-10-15-sunlu-ams-heater/reels.mp4`
-
-Açıklama gönderinin metniyle aynı; uygulamadan trend sesi eklemek istersen elle paylaş.
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
 ## 20:42 · PROJE & ATÖLYE
 
-**Klasör:** `2026-10-13-olcu-dogrulama` — 1.jpg, 2.jpg, 3.jpg, 4.jpg
-**Hikaye:** 21:22 · `2026-10-13-olcu-dogrulama/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-olcu-dogrulama"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-13-olcu-dogrulama/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-13-olcu-dogrulama](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-olcu-dogrulama)** · 4 kare · hikaye 21:22
 
+```
 Prototipten ürüne geçerken ölçü doğrulama adımı atlanıyor ve seri üretimde hata bütün adetlere yayılıyor. Tek parçanın çalışması tasarımın doğru olduğunu göstermiyor.
 
 Kumpas → dijital kumpas 0,01 mm çözünürlükte okuyor; göz kararı ölçüm burada bitiyor.
@@ -345,10 +314,7 @@ Seriye başlamadan önce tek parça ölçülüp yazılı onaylanıyor. Onaysız 
 Prototipi tuttu diye on adet basıp hepsini çöpe atan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #maker #3dbaski #olcukontrol #makerturkiye
-
-### İlk yorum
-
-Ölçtüğün değerleri parça adı, filament ve tarihle birlikte bir tabloya yaz; ikinci siparişte aynı sapmayı baştan telafi etmeni sağlayan tek şey o kayıt oluyor.
+```
 
 ---
 
@@ -356,11 +322,11 @@ Prototipi tuttu diye on adet basıp hepsini çöpe atan bir arkadaşın varsa bu
 
 ## 08:12 · 3D BASKI & ÜRETİM DONANIMI
 
-**Klasör:** `2026-10-13-nozzle-capi` — 1.jpg, 2.jpg, 3.jpg, 4.jpg
-**Hikaye:** 08:52 · `2026-10-13-nozzle-capi/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-nozzle-capi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-13-nozzle-capi/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-13-nozzle-capi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-nozzle-capi)** · 4 kare · hikaye 08:52
 
+```
 3D baskıda nozzle çapı seçimi 0,4 mm ile bitmiyor: 0,2 mm ve 0,6 mm uçlar aynı dosyayı bambaşka iki parçaya çeviriyor.
 
 Katman yüksekliği → güvenli üst sınır uç çapının %75'i. 0,2 mm uçta 0,15 mm, 0,4 mm uçta 0,30 mm, 0,6 mm uçta 0,42 mm.
@@ -373,18 +339,15 @@ Dolgulu filament kullanacaksan karar baştan veriliyor: karbon ve ahşap katkıl
 Her baskıyı 0,4 mm uçla basıp küçük yazıların çıkmamasına şaşıran bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #3dprinting #nozzle #3dbaskiturkiye
-
-### İlk yorum
-
-Ucu değiştirdiğinde slicer profilindeki uç çapını da güncelle; profil 0,4 mm'de kalırsa akış hesabı yanlış çıkıyor ve parça ölçü tutmuyor.
+```
 
 ## 12:38 · ELEKTRONİK & IoT
 
-**Klasör:** `2026-10-14-lipo-bms` — 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg
-**Hikaye:** 13:18 · `2026-10-14-lipo-bms/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-lipo-bms"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-14-lipo-bms/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-14-lipo-bms](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-lipo-bms)** · 5 kare · hikaye 13:18
 
+```
 Li-Po koruma devresi (BMS) pili şarj etmiyor. Yaptığı tek iş, seri bağlı iki MOSFET'i dört eşikte açıp kapatmak.
 
 Aşırı şarj » hücre 4,25-4,30 V'a çıkınca şarj yolunu kesiyor.
@@ -403,18 +366,15 @@ Bir not » korumalı hücrenin üstündeki ince kart zaten PCM'dir. Üstüne iki
 Pili bir kez tamamen boşaltıp bir daha şarj edemeyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #elektronik #embedded #lipo #makerturkiye
-
-### İlk yorum
-
-Hücre ucuna doğrudan havya tutma — ısı ayırıcıyı bozuyor. Nokta kaynak yoksa uçları kaynaklı (tabbed) hücre al.
+```
 
 ## 17:24 · ÜRÜN & MAĞAZA
 
-**Klasör:** `2026-10-16-phaetus-liber-u1` — 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg
-**Hikaye:** 18:04 · `2026-10-16-phaetus-liber-u1/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-phaetus-liber-u1/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-16-phaetus-liber-u1](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1)** · 5 kare · hikaye 18:04
 
+```
 Snapmaker ile Phaetus'un U1 için birlikte çıkardığı Liber hotend geldi. Ne yaptığını ve ne YAPMADIĞINI birlikte yazıyorum, çünkü ikincisi daha çok yanlış biliniyor.
 
 Ne yapıyor → nozul içindeki eriyiği birden fazla kanala bölüyor. Eriyiğin yüzey/hacim oranı arttığı için aynı enerjiyle birim zamanda daha fazla filament eriyor. Üreticinin eşit enerji koşulundaki testinde PLA'da %66, ABS'de %87, PETG HF'de %43 daha yüksek hacimsel akış.
@@ -432,22 +392,19 @@ Fiyat ve stok için sermenkreatif.com.
 U1'ine hotend arayan bir arkadaşın varsa bu gönderiyi ona yolla — özellikle karbon fiber basacaksa.
 
 #sermenkreatif #3dbaski #snapmaker #phaetus #hotend #makerturkiye
+```
 
-### İlk yorum
+## 19:36 · REELS — [2026-10-16-phaetus-liber-u1/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1)
 
-Mutlak akış değerini (mm³/s) ne Snapmaker ne Phaetus yayınlamış; yalnız standart hotend'e göre yüzde artış var. Pazar yeri başlıklarında dolaşan "55 mm³/s" ifadesi resmî kaynakta yok, o yüzden burada da kullanmadım.
-
-## 19:36 · REELS — `2026-10-16-phaetus-liber-u1/reels.mp4`
-
-Açıklama gönderinin metniyle aynı; uygulamadan trend sesi eklemek istersen elle paylaş.
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
 ## 20:42 · PROJE & ATÖLYE
 
-**Klasör:** `2026-10-14-siparis-sorulari` — 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg, 6.jpg
-**Hikaye:** 21:22 · `2026-10-14-siparis-sorulari/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-siparis-sorulari"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-14-siparis-sorulari/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-14-siparis-sorulari](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-siparis-sorulari)** · 6 kare · hikaye 21:22
 
+```
 3D baskı siparişinde zarar eden işlerin ortak yanı düşük fiyat değil, bu beş sorunun sorulmamış olması.
 
 1 · Dosya baskıya hazır mı? Dosyanın açılması işin kabul edildiği anlamına gelmiyor. Kapalı olmayan yüzey, ters normal, 0,8 mm'nin altında duvar — hepsi tamir işi. Tamir de iş; saati de ücreti de ayrı. STEP gelirse ya da fotoğraf gelirse o modelleme kalemi.
@@ -465,10 +422,7 @@ Beş sorunun cevabı yazışmada kalsın. Sözlü anlaşmada en çok tartışıl
 İlk siparişinde zarar eden bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #maker #3dbaski #3dbaskisiparisi #makerturkiye
-
-### İlk yorum
-
-Fiyatı dosyayı görmeden verme. "Ortalama şu kadar" demek, gelen dosya 14 saatlik çıktığında geri alınamıyor.
+```
 
 ---
 
@@ -476,11 +430,11 @@ Fiyatı dosyayı görmeden verme. "Ortalama şu kadar" demek, gelen dosya 14 saa
 
 ## 08:12 · 3D BASKI & ÜRETİM DONANIMI
 
-**Klasör:** `2026-10-18-filament-kurutucu-pano` — 1.jpg
-**Hikaye:** 08:52 · `2026-10-18-filament-kurutucu-pano/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-filament-kurutucu-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-filament-kurutucu-pano/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-18-filament-kurutucu-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-filament-kurutucu-pano)** · 1 kare · hikaye 08:52
 
+```
 Filament kurutucu alırken bakılan ilk şey kapasite oluyor ama asıl ayrım orada değil. SUNLU FilaDryer'ın bu üç modelinde farkı yaratan sıcaklık tavanı ve kaç yazıcıyı aynı anda besleyebildiği.
 
 S2 » tek makara, Ø 210 × 85 mm, 35-70 °C, 48 W ısıtıcı. 265 × 274 × 118 mm, 1,19 kg. Masaüstünde tek yazıcıyla PLA, PETG, ABS basıyorsan bu yeterli. PTFE çıkışı var, baskı sürerken kurutmaya devam ediyor.
@@ -498,18 +452,15 @@ Nemli filament neye mal oluyor: tel tel çekme artıyor, yüzey pürüzleniyor, 
 Kurutucusu olmayıp sürekli baskı ayarıyla uğraşan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #sunlu #filamentkurutucu #filament #makerturkiye
-
-### İlk yorum
-
-Rakamlar SUNLU'nun kendi S2 / S4 / E2 karşılaştırmasından. Kurutma süresini vermiyorlar, yalnız sıcaklık veriyorlar; ekrandaki nem değerini izleyip düşüş durunca almak en sağlıklısı. Makaranın ne kadar nem çektiğine göre süre değişiyor.
+```
 
 ## 12:38 · ELEKTRONİK & IoT
 
-**Klasör:** `2026-10-15-h-koprusu` — 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg
-**Hikaye:** 13:18 · `2026-10-15-h-koprusu/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-h-koprusu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-15-h-koprusu/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-15-h-koprusu](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-h-koprusu)** · 5 kare · hikaye 13:18
 
+```
 Motor sürücü seçimi akımla başlamıyor, kaybın nerede olacağıyla başlıyor.
 
 DRV8833 iki tam köprüyü, aşırı akım ve aşırı sıcaklık korumasını tek kılıfa koyuyor. Kanal başına 1,5 A sürekli, 2 A tepe, 2,7-10,8 V besleme. İki kanalı birleştirip tek motoru daha yüksek akımla sürebiliyorsun. Kaybı yaklaşık 0,5 V'luk düşüm — 6 V'ta bu hissediliyor, 12 V'ta önemsiz. Kılıfın altındaki bakır alan soğutucunun kendisi; o alanı kısmak entegreyi ısıtıyor.
@@ -531,18 +482,15 @@ L298N'i listeye almadım: üstünde 2 V'luk düşüm var, 2026'da kurulacak bir 
 Motoru çalıştırınca kartı resetlenen bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #elektronik #embedded #drv8833 #makerturkiye
-
-### İlk yorum
-
-Ayrık devre kuracaksan önce akımı ölç. Tahmini akıma göre seçilen MOSFET'in yarısı ilk yük testinde gidiyor.
+```
 
 ## 17:24 · ÜRÜN & MAĞAZA
 
-**Klasör:** `2026-10-17-polymaker-ht-pla` — 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg
-**Hikaye:** 18:04 · `2026-10-17-polymaker-ht-pla/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-polymaker-ht-pla/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-17-polymaker-ht-pla](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)** · 5 kare · hikaye 18:04
 
+```
 Polymaker HT-PLA serisi yüksek sıcaklığa dayanıklı PLA diye satılıyor ve bu doğru — ama bir şartı var, onu söylemeyen satıcıdan almayın.
 
 Isı dayanımı kutudan çıkmıyor, tavlamayla geliyor.
@@ -563,22 +511,19 @@ Baskı ayarı üçünde de aynı: nozul 230 °C, tabla 50 °C.
 Yazın araçta bıraktığı telefon tutucusu eğilen bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #polymaker #htpla #filament #makerturkiye
+```
 
-### İlk yorum
+## 19:36 · REELS — [2026-10-17-polymaker-ht-pla/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)
 
-Teknik veri sayfası tavlama için 80-90 °C ve 3 dakika veriyor ama parça kalınlığına göre değişiyor; ince cidarda alt uç, kalın parçada üst uç. Polymaker ayrıca bu değerlerin karşılaştırma amaçlı olduğunu, tasarım hesabında kullanılmaması gerektiğini not düşüyor.
-
-## 19:36 · REELS — `2026-10-17-polymaker-ht-pla/reels.mp4`
-
-Açıklama gönderinin metniyle aynı; uygulamadan trend sesi eklemek istersen elle paylaş.
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
 ## 20:42 · PROJE & ATÖLYE
 
-**Klasör:** `2026-10-15-3d-tarayici` — 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg
-**Hikaye:** 21:22 · `2026-10-15-3d-tarayici/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-3d-tarayici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-15-3d-tarayici/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-15-3d-tarayici](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-3d-tarayici)** · 5 kare · hikaye 21:22
 
+```
 3D tarayıcı ölçülü model vermiyor, yüzey veriyor. Aradaki farkı bilmeyen tarama dosyasını doğrudan baskıya gönderip parçayı çöpe atıyor.
 
 Taramadan çıkan şey mesh: milyonlarca üçgen. Üstünde "çap 20 mm" diye bir bilgi yok, bir yüzeyi 0,5 mm kaydıramıyorsun. Kopyalanacak parça için mesh referans alınıyor, model CAD'de yeniden çiziliyor. İşin %80'i burada; tarama kısmı on dakika.
@@ -596,10 +541,7 @@ Bir uyarı » taranan parça başkasının ürünüyse kopyalamadan önce tasar�
 Tarama dosyasını doğrudan slicer'a atıp sonucu beğenmeyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #maker #3dtarayici #3dbaski #makerturkiye
-
-### İlk yorum
-
-Tarama için ayrı tarayıcı almadan önce fotogrametriyi dene: 60-80 fotoğraf ve açık kaynak bir yazılım, büyük ve dokulu parçalarda şaşırtıcı iş görüyor. Küçük ve parlak parçada çalışmıyor.
+```
 
 ---
 
@@ -607,11 +549,11 @@ Tarama için ayrı tarayıcı almadan önce fotogrametriyi dene: 60-80 fotoğraf
 
 ## 08:12 · 3D BASKI & ÜRETİM DONANIMI
 
-**Klasör:** `2026-10-18-bambu-h-serisi-pano` — 1.jpg
-**Hikaye:** 08:52 · `2026-10-18-bambu-h-serisi-pano/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-bambu-h-serisi-pano/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-18-bambu-h-serisi-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano)** · 1 kare · hikaye 08:52
 
+```
 Bambu'nun H serisinde üç makine var ve adları birbirine çok benziyor. Şunu baştan söyleyeyim: sıcaklık ve hız üçünde de aynı. 350 °C nozul, 120 °C tabla, 65 °C'ye kadar aktif ısıtmalı kapalı kabin, 1.000 mm/s kafa hızı, 20.000 mm/s² ivme. Yani "hangisi daha güçlü" diye bakmak yanlış soru.
 
 Gerçek ayrım kafa mimarisi ile baskı alanı arasındaki takasta.
@@ -637,18 +579,15 @@ Bir not » H2D Pro adında kurumsal bir model daha var; tungsten karbür nozulla
 H serisinde hangisini alacağına karar veremeyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #bambulab #3dyazici #makerturkiye
-
-### İlk yorum
-
-Rakamlar Bambu Lab'in kendi sayfalarından: ürün ve spec sayfaları, blog lansman yazıları ve wiki FAQ'leri. H2D'nin azami tabla sıcaklığı Bambu'nun okunabilen sayfalarında yazmıyor; H2S'in 120 °C değerini oraya taşımadım.
+```
 
 ## 12:38 · ELEKTRONİK & IoT
 
-**Klasör:** `2026-10-16-gelistirme-karti-pano` — 1.jpg
-**Hikaye:** 13:18 · `2026-10-16-gelistirme-karti-pano/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-gelistirme-karti-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-gelistirme-karti-pano/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-16-gelistirme-karti-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-gelistirme-karti-pano)** · 1 kare · hikaye 13:18
 
+```
 "Hangi kartı alayım" sorusunun cevabı güçte değil, işin ne olduğunda. Üçü de geliştirme kartı ama üçü ayrı sınıf.
 
 Raspberry Pi Pico 2 W » RP2350, iki Cortex-M33 çekirdek 150 MHz'de (istersen aynı yongadaki RISC-V çekirdekleri de seçebiliyorsun). 520 KB SRAM, 4 MB flash. Wi-Fi 4 ve Bluetooth LE var. 26 GPIO, 4 ADC, 1,8-5,5 V ile besleniyor.
@@ -670,18 +609,15 @@ Karar kısaca: sensör okuyup veri yolluyorsan Pico 2 W. Kablosuzun üstüne kam
 Projesine Pi 5 koyup pille çalıştırmaya uğraşan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #elektronik #raspberrypi #esp32 #makerturkiye
-
-### İlk yorum
-
-Rakamlar üreticilerin kendi ürün sayfalarından. Fiyat yazmadım, en hızlı eskiyen bilgi o. Kart görselleri Raspberry Pi ve Espressif'in kendi dokümantasyonundan, CC BY-SA 4.0 ile: creativecommons.org/licenses/by-sa/4.0
+```
 
 ## 16:40 · ÜRÜN & MAĞAZA
 
-**Klasör:** `2026-10-21-u1-k3-pano` — 1.jpg
-**Hikaye:** 17:20 · `2026-10-21-u1-k3-pano/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-u1-k3-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-u1-k3-pano/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-21-u1-k3-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-u1-k3-pano)** · 1 kare · hikaye 17:20
 
+```
 Çok renkli baskıda asıl maliyet filament değil, her renk değişiminde boşa akıtılan malzeme. AMS ve CFS tipi sistemler nozulu temizlemek için filamenti atıyor; uzun bir çok renkli baskıda çöpe giden miktar parçanın kendisini geçebiliyor.
 
 İki üretici bunu aynı mantıkla çözüyor — temizleme yerine değiştirme — ama farklı seviyede.
@@ -699,18 +635,15 @@ Karar: bugün alınabilen tek seçenek U1. K3'ün yaklaşımı yedek parça tara
 Çok renkli baskıda çöpe giden filamente üzülen bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #snapmaker #cokrenklibaski #makerturkiye
-
-### İlk yorum
-
-U1 verileri Snapmaker'ın kendi sayfalarından, K3 verileri Creality'nin kendi blog ve kampanya sayfalarından. K3 görseli Creality'nin kendi tanıtım karesi; makine henüz satışta değil.
+```
 
 ## 18:10 · PROJE & ATÖLYE
 
-**Klasör:** `2026-10-20-pixhawk-pano` — 1.jpg
-**Hikaye:** 18:50 · `2026-10-20-pixhawk-pano/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-pixhawk-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-20-pixhawk-pano/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-20-pixhawk-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-pixhawk-pano)** · 1 kare · hikaye 18:50
 
+```
 Uçuş kontrol kartı seçerken bakılan şey işlemci değil. Üç Pixhawk'ta da aynı H7 var; ayrım yedeklilikte ve gövde ölçüsünde.
 
 Pixhawk 6C » STM32H743, Cortex-M7 480 MHz, 2 MB flash, 1 MB RAM. Yanında STM32F103 IO işlemcisi. Sensörler: ICM-42688-P ve BMI055 ivme/jiroskop, IST8310 manyetometre, MS5611 barometre. 84,8 × 44 × 12,4 mm, 59,3 g. 16 PWM çıkış (8'i IO'dan, 8'i FMU'dan), 3 seri port, 2 GPS, 2 CAN, I2C.
@@ -734,14 +667,11 @@ Bir not » üçü de hem PX4 hem ArduPilot çalıştırıyor. Kart seçimi yazı
 İlk dronunda hangi kartı alacağına karar veremeyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #maker #pixhawk #dron #makerturkiye
+```
 
-### İlk yorum
+## 20:30 · REELS — [2026-10-18-bambu-h-serisi-pano/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano)
 
-Rakamlar ve görseller PX4 kullanıcı kılavuzundan (PX4 Autopilot), CC BY 4.0 ile: creativecommons.org/licenses/by/4.0
-
-## 20:30 · REELS — `2026-10-18-bambu-h-serisi-pano/reels.mp4`
-
-Açıklama gönderinin metniyle aynı; uygulamadan trend sesi eklemek istersen elle paylaş.
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
 ---
 
@@ -749,11 +679,11 @@ Açıklama gönderinin metniyle aynı; uygulamadan trend sesi eklemek istersen e
 
 ## 11:10 · 3D BASKI & ÜRETİM DONANIMI
 
-**Klasör:** `2026-10-19-bambu-a-serisi-pano` — 1.jpg
-**Hikaye:** 11:50 · `2026-10-19-bambu-a-serisi-pano/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-bambu-a-serisi-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-bambu-a-serisi-pano/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-19-bambu-a-serisi-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-bambu-a-serisi-pano)** · 1 kare · hikaye 11:50
 
+```
 A serisinde üç makine var ve üçü de aynı temeli paylaşıyor: açık gövdeli bed-slinger, 300 °C nozul, Combo paketinde AMS Lite ile dört renk. Karar iki şeye iniyor — ne kadar hacim istediğin ve tablanın kaç dereceye çıktığı.
 
 A1 mini » 180 × 180 × 180 mm. Nozul 300 °C, tabla 80 °C. Tek AMS Lite alıyor, dört renkle sınırlı ve genişlemiyor. Otomatik tabla tesviyesi var, elle ayar gerekmiyor.
@@ -775,18 +705,15 @@ Karar kısaca: masada yer yoksa A1 mini. Esnek ya da çözünür filament basaca
 Hangi Bambu'yu alacağına karar veremeyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #bambulab #3dyazici #makerturkiye
-
-### İlk yorum
-
-Rakamlar Bambu Lab'in kendi spec, FAQ ve blog sayfalarından. A1 mini'nin azami hız ve ivme değerleri için resmi tech-specs sayfası açılamadı, o yüzden panoya koymadım — A1'in değerlerini oraya taşımak yanlış olurdu.
+```
 
 ## 12:20 · ELEKTRONİK & IoT
 
-**Klasör:** `2026-10-17-esp32-ailesi-pano` — 1.jpg
-**Hikaye:** 13:00 · `2026-10-17-esp32-ailesi-pano/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-esp32-ailesi-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-esp32-ailesi-pano/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-17-esp32-ailesi-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-esp32-ailesi-pano)** · 1 kare · hikaye 13:00
 
+```
 "ESP32 alacağım" cümlesi eksik bir cümle. ESP32 tek bir yonga değil, bir aile — ve üçü ayrı tarafta güçlü.
 
 ESP32-S3 » iki Xtensa LX7 çekirdek 240 MHz'de, 512 KB dahili SRAM, 45 GPIO (14'ü dokunmatik olabiliyor). Wi-Fi 4 ve Bluetooth 5 LE. Ayıran özelliği vektör komutları: ESP-NN ve ESP-DSP kütüphaneleriyle sinir ağı ve sinyal işleme kartın üstünde dönüyor.
@@ -808,18 +735,15 @@ Kısaca: kamera ya da ses varsa S3. Akıllı ev, Thread ve Matter varsa C6. Büy
 "ESP32 aldım ama Thread yokmuş" diyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #elektronik #esp32 #embedded #makerturkiye
-
-### İlk yorum
-
-Rakamlar Espressif'in kendi yonga sayfalarından. Kart görselleri Espressif'in esp-dev-kits deposundan, CC BY-SA 4.0 ile: creativecommons.org/licenses/by-sa/4.0
+```
 
 ## 16:50 · ÜRÜN & MAĞAZA
 
-**Klasör:** `2026-10-20-sparkx-i7-i8-pano` — 1.jpg
-**Hikaye:** 17:30 · `2026-10-20-sparkx-i7-i8-pano/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-sparkx-i7-i8-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-20-sparkx-i7-i8-pano/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-20-sparkx-i7-i8-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-sparkx-i7-i8-pano)** · 1 kare · hikaye 17:30
 
+```
 Creality tarafında üç isim aynı haberlerde dolaşıyor ama yalnız biri bugün satın alınabiliyor. Aradaki farkı bilmeden sipariş vermeye kalkan zaman kaybediyor.
 
 SPARKX i7 » satışta. 260 × 260 × 255 mm, 500 mm/s, 10.000 mm/s², nozul 300 °C, tabla 100 °C. Çok renk için yanına harici CFS Lite ünitesi geliyor: 4 slot, nem alıcıyla kurutma, RFID tanıma. 720p AI kamerası spagetti ve dolaşma algılıyor. Açık gövde, kabin ısıtması yok. Desteklediği filament PLA, PETG, PLA-CF ve TPU ile sınırlı.
@@ -835,22 +759,19 @@ Kısaca: bugün alınabilen i7. i8'in mekanizması daha iyi ama makine kitlesel 
 "Yeni çıkan şu makineyi alayım" diyen bir arkadaşın varsa bu gönderiyi ona yolla — önce rafta mı diye baksın.
 
 #sermenkreatif #3dbaski #creality #3dyazici #makerturkiye
+```
 
-### İlk yorum
+## 19:20 · REELS — [2026-10-16-sunlu-filament-pano/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano)
 
-Durum 10 Ekim 2026 itibarıyla, Creality'nin kendi sayfalarından. i8'in ürün fotoğrafı yok çünkü ortada henüz satılan bir ürün yok — panodaki boşluk kasıtlı.
-
-## 19:20 · REELS — `2026-10-16-sunlu-filament-pano/reels.mp4`
-
-Açıklama gönderinin metniyle aynı; uygulamadan trend sesi eklemek istersen elle paylaş.
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
 ## 20:10 · PROJE & ATÖLYE
 
-**Klasör:** `2026-10-21-pi-kamera-pano` — 1.jpg
-**Hikaye:** 20:50 · `2026-10-21-pi-kamera-pano/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi-kamera-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-pi-kamera-pano/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-21-pi-kamera-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi-kamera-pano)** · 1 kare · hikaye 20:50
 
+```
 Raspberry Pi kamerası seçerken megapiksele bakılmıyor. Üçü de aynı şerit kabloya takılıyor ama üçü ayrı işin kamerası.
 
 Camera Module 3 » Sony IMX708, 11,9 MP, 4608 × 2592. 1/2,43" sensör, F1.8. Video 2304 × 1296p56, HDR'de 30 fps. 25 × 24 × 11,5 mm, 4 gram.
@@ -872,10 +793,7 @@ Karar kısaca: günlük kullanım ve dron için Module 3. Sabit kurulum ve lens 
 Dronuna taktığı kameranın görüntüsü neden eğri çıkıyor anlamayan bir arkadaşın varsa bu gönderiyi ona yolla — cevap rolling shutter.
 
 #sermenkreatif #maker #raspberrypi #makinegörüşü #makerturkiye
-
-### İlk yorum
-
-Rakamlar Raspberry Pi'nin kendi donanım karşılaştırma tablosundan. Görseller de aynı dokümantasyondan, CC BY-SA 4.0 ile: creativecommons.org/licenses/by-sa/4.0
+```
 
 ---
 
@@ -883,11 +801,11 @@ Rakamlar Raspberry Pi'nin kendi donanım karşılaştırma tablosundan. Görsell
 
 ## 11:40 · 3D BASKI & ÜRETİM DONANIMI
 
-**Klasör:** `2026-10-18-sert-nozul` — 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg
-**Hikaye:** 12:20 · `2026-10-18-sert-nozul/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-sert-nozul"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-sert-nozul/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-18-sert-nozul](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-sert-nozul)** · 5 kare · hikaye 12:20
 
+```
 Karbon elyaflı filamente geçtikten sonra baskıların bozulmaya başladıysa önce ayarları kurcalama, nozula bak.
 
 Pirinç yumuşak bir malzeme. Isıyı çok iyi ilettiği için standart uç pirinçten yapılıyor, PLA ve PETG'de yıllarca sorun çıkarmıyor. Ama içinden karbon elyaf, cam elyaf, ahşap tozu, metal tozu ya da karanlıkta parlayan filamentin fosfor taneleri geçmeye başladığında delik yavaşça büyüyor.
@@ -902,18 +820,15 @@ Sert uca geçerken bilmen gereken bir ayrıntı var: sertleştirilmiş çelik pi
 Elyaflı filamente geçmeyi düşünüyorsan ucu önceden değiştir. Uç ucuz, bozuk baskı pahalı.
 
 #sermenkreatif #3dbaski #nozzle #karbonfiber #filament #makerturkiye
-
-### İlk yorum
-
-Aşınmayı anlamanın kolay yolu: aynı kalibrasyon küpünü ayda bir bas ve duvar kalınlığını kumpasla ölç. İncelmeye başladıysa uç gitmiş demektir.
+```
 
 ## 12:20 · ELEKTRONİK & IoT
 
-**Klasör:** `2026-10-18-kondansator-esr` — 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg
-**Hikaye:** 13:00 · `2026-10-18-kondansator-esr/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-kondansator-esr"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-kondansator-esr/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-18-kondansator-esr](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-kondansator-esr)** · 5 kare · hikaye 13:00
 
+```
 Kart yük bindiğinde resetleniyor, güç kaynağı ısınıyor, çıkışta dalgalanma var. Kondansatörleri ölçüyorsun, multimetre etiket değerini gösteriyor. "Sağlam" diyip başka yere bakıyorsun. Çoğu zaman hata tam orada.
 
 Kondansatörün kendi iç direnci var: ESR. Elektrolitli kondansatörlerde elektrolit zamanla kuruyor, iç bağlantılar bozuluyor ve bu direnç katlanıyor. Kapasite ise az düşüyor — multimetrenin kapasite kademesi hâlâ makul bir sayı gösteriyor. Ölçüm seni yanıltıyor.
@@ -927,18 +842,15 @@ Nasıl bakılır: ESR metre devrede ölçebiliyor, söküp denemeye göre çok d
 Değiştirirken düşük ESR serisinden, 105 °C sınıfı ve en az aynı gerilim değerinde bir parça seç. Kapasiteyi büyütmek ESR'yi düzeltmiyor — farklı bir problemi çözmeye çalışmış olursun.
 
 #sermenkreatif #elektronik #kondansator #esr #tamir #makerturkiye
-
-### İlk yorum
-
-Elinde ESR metre yoksa bir ipucu: aynı karttaki aynı değerdeki kondansatörleri karşılaştır. Biri diğerlerinden belirgin farklı davranıyorsa şüpheli odur.
+```
 
 ## 17:10 · ÜRÜN & MAĞAZA
 
-**Klasör:** `2026-10-18-ender-3-v4-combo` — 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg
-**Hikaye:** 17:50 · `2026-10-18-ender-3-v4-combo/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-ender-3-v4-combo/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-18-ender-3-v4-combo](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)** · 5 kare · hikaye 17:50
 
+```
 Ender serisi, hobi masasındaki en bilinen isim. Bu kuşakta artık rakamlar da ona göre: 500 mm/s azami hız, 12.000 mm/s² ivme, 300 °C nozul.
 
 Baskı alanı 220 × 220 × 235 mm. Bu sınıf, ilk ciddi makine arayan için doğru yer: küçük parça, fonksiyonel parça, oyuncak, aparat, yedek parça. 220 mm küpü aşan işler basıyorsan bu makine dar gelir, onu baştan söyleyelim.
@@ -954,22 +866,19 @@ Kapalı kabini yok. PLA, PETG ve TPU tarafında rahat; ABS ve ASA basacaksan bu 
 Ender-3 V4 Combo sermenkreatif.com'da.
 
 #sermenkreatif #3dbaski #creality #ender3 #cokrenklibaski #makerturkiye
+```
 
-### İlk yorum
+## 19:50 · REELS — [2026-10-18-ender-3-v4-combo/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)
 
-Rakamların hepsi Creality'nin kendi ürün sayfasındaki tablodan. Combo'nun CFS'li paket olduğunu üretici ölçü tablosu da doğruluyor: tek makine 396 mm genişlikte, Combo 838 mm.
-
-## 19:50 · REELS — `2026-10-18-ender-3-v4-combo/reels.mp4`
-
-Açıklama gönderinin metniyle aynı; uygulamadan trend sesi eklemek istersen elle paylaş.
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
 ## 21:00 · PROJE & ATÖLYE
 
-**Klasör:** `2026-10-18-toplulukta-ariza` — 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg
-**Hikaye:** 21:40 · `2026-10-18-toplulukta-ariza/hikaye.jpg`
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-toplulukta-ariza"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-toplulukta-ariza/1.jpg" width="240"></a>
 
-### Gönderi metni
+**[2026-10-18-toplulukta-ariza](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-toplulukta-ariza)** · 5 kare · hikaye 21:40
 
+```
 Baskı bozuk çıktığında çoğu kişi saatlerce tek başına ayar kurcalıyor. Oysa aynı arıza o gün başka birinin de başına gelmiş ve çözülmüş oluyor.
 
 SK 3D Topluluğu bunun için var: ücretsiz, herkese açık bir WhatsApp grubu.
@@ -983,8 +892,5 @@ Arıza dışında da işliyor: çizdiğin parçayı paylaşıyorsun, başkasın�
 Katılmak için profildeki linke dokunman yeterli. Ücretsiz, istediğin an çıkabilirsin.
 
 #sermenkreatif #3dbaski #3dbaskiturkiye #makerturkiye #topluluk
-
-### İlk yorum
-
-Fotoğrafı çekerken parçayı yan ışıkta çek — katman izleri ve yüzey hataları düz ışıkta kaybolup gidiyor.
+```
 
