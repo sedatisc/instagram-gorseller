@@ -10,6 +10,8 @@ tarafından kendiliğinden Short sayılıyor, ayrıca bir alan yok.
     python3 otomasyon/youtube.py            # vakti geleni yükler
     python3 otomasyon/youtube.py --zorla 2026-10-12
 
+Kuyruk ve metin kuralları: youtube/DURUM.json ve youtube/PLAN.md
+
 Ortam değişkenleri (GitHub Actions secret):
     YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN
 
@@ -28,6 +30,7 @@ sys.path.insert(0, KOK)
 import sira                                              # noqa: E402
 import paket                                             # noqa: E402
 
+KUYRUK = os.path.join(KOK, "youtube", "DURUM.json")
 DEFTER = os.path.join(KOK, "otomasyon", "yayinlanan-youtube.json")
 RAPOR = os.path.join(KOK, "otomasyon", "SON-YOUTUBE.md")
 
@@ -64,52 +67,45 @@ def defter_oku():
 
 
 # ------------------------------------------------------------ metin
-def baslik(klasor):
-    """Kapak manşetinden YouTube başlığı — 100 karakter sınırı var."""
-    b = paket.baslik(klasor)
-    if len(b) > 90:
-        b = b[:87].rstrip() + "…"
-    return b
+def kuyruk():
+    d = json.load(open(KUYRUK, encoding="utf-8"))
+    return d, d.get("kuyruk", [])
 
 
-def aciklama(klasor):
-    govde, yorum = sira.metin_oku(klasor)
-    parca = [govde or ""]
-    if yorum:
-        parca.append(yorum)
-    parca.append("sermenkreatif.com")
-    return "\n\n".join(p for p in parca if p)[:4900]
+def baslik(kayit):
+    b = kayit.get("baslik") or paket.baslik(kayit["klasor"])
+    return b if len(b) <= 98 else b[:95].rstrip() + "…"
 
 
-def etiketler(klasor):
-    """Metindeki #etiketleri YouTube etiketine çevir (# olmadan)."""
-    govde, _ = sira.metin_oku(klasor)
-    if not govde:
-        return []
-    t, uzun = [], 0
-    for kelime in govde.split():
-        if kelime.startswith("#") and len(kelime) > 2:
-            e = kelime[1:].strip(".,;:")
-            if e not in t and uzun + len(e) + 1 < 460:   # 500 karakter sınırı
-                t.append(e)
-                uzun += len(e) + 1
-    return t
+def aciklama(kayit):
+    """youtube/PLAN.md'deki sıra: kanca, maddeler, kaynak, site, hashtag."""
+    p = []
+    if kayit.get("kanca"):
+        p.append(kayit["kanca"])
+    if kayit.get("satirlar"):
+        p.append("\n".join("· " + s for s in kayit["satirlar"]))
+    if kayit.get("kaynak"):
+        p.append(kayit["kaynak"])
+    p.append("sermenkreatif.com")
+    etiket = kayit.get("etiket", [])[:3]
+    if etiket:
+        p.append(" ".join("#" + e for e in etiket))
+    return "\n\n".join(p)[:4900]
+
+
+def etiketler(kayit):
+    return [e for e in kayit.get("etiket", [])][:15]
 
 
 # ------------------------------------------------------------ gündem
 def gundem():
-    """Kuyruktaki reels'ler — tarih, saat, klasör."""
-    d = json.load(open(os.path.join(KOK, "DURUM.json"), encoding="utf-8"))
-    kb = d["kuyruk_bekleyen"]
-    bekle = {b["klasor"] for b in kb.get("beklemede", [])}
+    """YouTube kuyruğu — kendi tarih ve saatiyle."""
+    d, kayitlar = kuyruk()
+    saat = d.get("saat", "18:20")
     isler = []
-    for r in kb.get("reels", []):
-        if r["klasor"] in bekle:
-            continue
-        from datetime import date
-        g = date.fromisoformat(r["tarih"]).weekday()
-        isler.append({"anahtar": r["tarih"], "klasor": r["klasor"],
-                      "zaman": "%sT%s" % (r["tarih"], sira.IZGARA[g]["reels"])})
+    for k in kayitlar:
+        isler.append(dict(k, anahtar=k["tarih"],
+                          zaman="%sT%s" % (k["tarih"], k.get("saat", saat))))
     return sorted(isler, key=lambda i: i["zaman"])
 
 
@@ -213,11 +209,11 @@ def main():
         try:
             if not os.path.exists(yol):
                 raise Hata("%s/reels.mp4 yok" % kl)
-            bas, acik = baslik(kl), aciklama(kl)
+            bas, acik = baslik(is_), aciklama(is_)
             if kuru:
                 print("   başlık: %s" % bas)
                 print("   açıklama %d karakter · etiket: %s"
-                      % (len(acik), ", ".join(etiketler(kl)) or "yok"))
+                      % (len(acik), ", ".join(etiketler(is_)) or "yok"))
                 print("   dosya %.1f MB" % (os.path.getsize(yol) / 1048576.0))
                 satir.append("| %s | kuru | %s |" % (ad, bas))
                 continue
@@ -226,11 +222,11 @@ def main():
                 kanal = kanal_kimligi(jeton)
             vid = yukle(jeton, yol, {
                 "snippet": {"title": bas, "description": acik,
-                            "tags": etiketler(kl), "categoryId": KATEGORI,
+                            "tags": etiketler(is_), "categoryId": KATEGORI,
                             "defaultLanguage": "tr"},
                 "status": {"privacyStatus": "public",
                            "selfDeclaredMadeForKids": False}})
-            _, yorum = sira.metin_oku(kl)
+            yorum = is_.get("yorum") or sira.metin_oku(kl)[1]
             if yorum and kanal:
                 ilk_yorum(jeton, kanal, vid, yorum)
             d["yuklenen"].append({"anahtar": ad, "video": vid, "klasor": kl,

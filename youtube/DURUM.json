@@ -1,0 +1,164 @@
+{
+ "kanal": "@sermenkreatif",
+ "bicim": "Shorts · 1080 × 1920 · 23 sn · dikey",
+ "saat": "18:20",
+ "not": "YouTube kuyrugu Instagram'dan ayri. Video ayni uretim hattindan cikiyor (reels.mp4) ama baslik, aciklama ve sira burada. Kurallar youtube/PLAN.md, hat otomasyon/youtube.py.",
+ "kuyruk": [
+  {
+   "tarih": "2026-10-11",
+   "klasor": "2026-10-10-bambu-r1-tanitim",
+   "baslik": "55 W CO2 lazer ne keser, ne kesmez?",
+   "kanca": "Bambu Lab R1'in sahası organik malzeme — metali kesmiyor.",
+   "satirlar": [
+    "55 W CO2 lazer, 600 × 300 mm tezgâh",
+    "18 mm ceviz kontrplak, 20 mm akrilik kesiyor",
+    "Çıplak metali kesmiyor; kaplamalı metalde yalnız gravür",
+    "Hizalamayı dört ayrı sensör yapıyor, 0,2 mm altı"
+   ],
+   "etiket": [
+    "lazerkesim",
+    "co2lazer",
+    "bambulab",
+    "atolye",
+    "makerturkiye"
+   ]
+  },
+  {
+   "tarih": "2026-10-12",
+   "klasor": "2026-10-14-sunlu-filadryer",
+   "baslik": "Filament kurutucu şart mı? SUNLU S2, S4, E2 farkı",
+   "kanca": "Nem çeken filament tıkanma ve kötü yüzey olarak geri geliyor.",
+   "satirlar": [
+    "S2 · S4 · E2 — kapasite ve sıcaklık farkı",
+    "Hangi filament kaç derecede kurutulur",
+    "Baskı sırasında kurutmak ile önceden kurutmanın farkı"
+   ],
+   "etiket": [
+    "filament",
+    "filamentkurutucu",
+    "sunlu",
+    "3dbaski",
+    "makerturkiye"
+   ]
+  },
+  {
+   "tarih": "2026-10-13",
+   "klasor": "2026-10-15-sunlu-ams-heater",
+   "baslik": "AMS ısıtıcısı işe yarıyor mu?",
+   "kanca": "Kutunun içindeki nem, baskıdaki çoğu yüzey hatasının sebebi.",
+   "satirlar": [
+    "AMS kutusuna ısıtıcı eklemek ne değiştiriyor",
+    "Sıcaklık ve nem hedefi",
+    "Hangi filamentte fark ediliyor, hangisinde gereksiz"
+   ],
+   "etiket": [
+    "ams",
+    "filament",
+    "sunlu",
+    "3dbaski",
+    "makerturkiye"
+   ]
+  },
+  {
+   "tarih": "2026-10-14",
+   "klasor": "2026-10-16-phaetus-liber-u1",
+   "baslik": "Snapmaker U1'e Phaetus Liber hotend: ne değişiyor?",
+   "kanca": "Dört kafalı makinede hotend değişimi akışı ve sıcaklığı değiştiriyor.",
+   "satirlar": [
+    "Liber hotend U1'in kafasına nasıl oturuyor",
+    "Akış ve sıcaklık farkı",
+    "Hangi filamentte anlamlı"
+   ],
+   "etiket": [
+    "phaetus",
+    "snapmaker",
+    "hotend",
+    "3dbaski",
+    "makerturkiye"
+   ]
+  },
+  {
+   "tarih": "2026-10-15",
+   "klasor": "2026-10-17-polymaker-ht-pla",
+   "baslik": "HT-PLA nedir, normal PLA'dan farkı ne?",
+   "kanca": "Arabada eriyen PLA parçanın çözümü ABS değil olabilir.",
+   "satirlar": [
+    "HT-PLA · HT-PLA Gradient · HT-PLA-GF",
+    "Tavlama sonrası sıcaklık dayanımı",
+    "PLA kolaylığıyla daha yüksek sıcaklık"
+   ],
+   "etiket": [
+    "polymaker",
+    "htpla",
+    "filament",
+    "3dbaski",
+    "makerturkiye"
+   ]
+  },
+  {
+   "tarih": "2026-10-16",
+   "klasor": "2026-10-18-bambu-h-serisi-pano",
+   "baslik": "Bambu H2S, H2C ve H2D farkı ne?",
+   "kanca": "Üç makine aynı gövdede, fark çok renk ve lazer tarafında.",
+   "satirlar": [
+    "H2S · H2C · H2D — baskı alanı, hız, sıcaklık",
+    "Hangisi çok renge hazır geliyor",
+    "Lazer modülü hangisinde var"
+   ],
+   "etiket": [
+    "bambulab",
+    "h2d",
+    "3dyazici",
+    "3dbaski",
+    "makerturkiye"
+   ]
+  },
+  {
+   "tarih": "2026-10-17",
+   "klasor": "2026-10-16-sunlu-filament-pano",
+   "baslik": "Hangi SUNLU filament? PLA+, Matte ve Silk farkı",
+   "kanca": "Seriyi değiştirip dilimleyici profilini aynı bırakmak en sık hata.",
+   "satirlar": [
+    "Nozul sıcaklığı ve hız sınırı serilere göre değişiyor",
+    "Matte PLA ile High Speed Matte ayrı ürün",
+    "Hangi seri hangi işte"
+   ],
+   "etiket": [
+    "sunlu",
+    "filament",
+    "pla",
+    "3dbaski",
+    "makerturkiye"
+   ]
+  },
+  {
+   "tarih": "2026-10-18",
+   "klasor": "2026-10-18-ender-3-v4-combo",
+   "baslik": "Ender-3 V4 Combo: 500 mm/s ve CFS ile 4 renk",
+   "kanca": "Ender serisinin bu kuşağı otomatik ayar ve çok renkle geliyor.",
+   "satirlar": [
+    "220 × 220 × 235 mm · 500 mm/s · 12.000 mm/s²",
+    "CFS 4 makara, dört CFS'e kadar 16 renk",
+    "Tam otomatik tabla ayarı, mıknatıslı nozul kapağı",
+    "Kapalı kabin yok — ABS/ASA için uygun değil"
+   ],
+   "etiket": [
+    "creality",
+    "ender3",
+    "3dyazici",
+    "3dbaski",
+    "makerturkiye"
+   ]
+  }
+ ],
+ "kullanilan": [
+  "2026-10-10-bambu-r1-tanitim",
+  "2026-10-14-sunlu-filadryer",
+  "2026-10-15-sunlu-ams-heater",
+  "2026-10-16-phaetus-liber-u1",
+  "2026-10-17-polymaker-ht-pla",
+  "2026-10-18-bambu-h-serisi-pano",
+  "2026-10-16-sunlu-filament-pano",
+  "2026-10-18-ender-3-v4-combo"
+ ]
+}

@@ -178,6 +178,29 @@ def kayitlar():
     return cikti
 
 
+def youtube_gunleri():
+    """YouTube'un kendi kuyruğu — youtube/DURUM.json, ayrı saat ve metin."""
+    yol = os.path.join(KOK, "youtube", "DURUM.json")
+    if not os.path.exists(yol):
+        return []
+    import otomasyon.youtube as YT
+    d = json.load(open(yol, encoding="utf-8"))
+    cikti = []
+    for k in sorted(d.get("kuyruk", []), key=lambda x: x["tarih"]):
+        g = date.fromisoformat(k["tarih"])
+        kayit = {"platform": ["yt"], "saat": k.get("saat", d.get("saat", "18:20")),
+                 "tur": "SHORTS", "slot": "", "baslik": k.get("baslik", ""),
+                 "klasor": k["klasor"], "dosyalar": ["reels.mp4"],
+                 "metin": "", "yorum": "",
+                 "yt": {"baslik": YT.baslik(k), "aciklama": YT.aciklama(k),
+                        "etiket": ", ".join(k.get("etiket", []))}}
+        cikti.append({"tarih": k["tarih"],
+                      "ad": "%d %s · %s" % (g.day, AY[g.month - 1],
+                                            sira.GUN[g.weekday()]),
+                      "kayitlar": [kayit]})
+    return cikti
+
+
 SAYFA = """<title>Yayın Paketi</title>
 <style>
 /* Düzen: solda saat rayı, sağda kart içeriği; günler üst üste dizili. */
@@ -311,6 +334,7 @@ footer { margin-top: 44px; color: var(--soluk); font-size: 13px;
 
 <script>
 const VERI = __VERI__;
+const VERI_YT = __VERI_YT__;
 const DEPO = "__DEPO__", HAM = "__HAM__";
 const KISA = __KISA__;
 
@@ -444,9 +468,9 @@ function kartCiz(k) {
 const PLATFORM = [
   ["ig", "INSTAGRAM", "Gönderi, hikaye ve reels. Meta anahtarları depoya " +
    "girene kadar elle paylaşılıyor."],
-  ["yt", "YOUTUBE", "Günün reels videosu Short olarak çıkıyor. " +
-   "<b>YT_* secret'ları girilince otomatik</b> — kurulum " +
-   "otomasyon/YOUTUBE-KURULUM.md."],
+  ["yt", "YOUTUBE", "<b>Kendi kuyruğu var</b> — youtube/DURUM.json, günde " +
+   "1 Shorts, başlık ve açıklama YouTube'a göre yazılıyor (youtube/PLAN.md). " +
+   "YT_* secret'ları girilince otomatik yükleniyor."],
   ["tt", "TIKTOK", "<b>Elle paylaşılıyor.</b> TikTok, kendi hesabına yükleyen " +
    "araçlara denetim vermiyor; otomatik hat kurulsa gizli paylaşımda kalırdı. " +
    "Sesi uygulamadan ekle."]
@@ -470,7 +494,8 @@ function ciz() {
     b.setAttribute("aria-pressed", PLATFORM[i][0] === secili));
   durum.innerHTML = PLATFORM.find(p => p[0] === secili)[2];
   kap.textContent = "";
-  VERI.forEach(g => {
+  const kaynak = secili === "yt" ? VERI_YT : VERI;
+  kaynak.forEach(g => {
     const kayit = g.kayitlar.filter(
       k => (k.platform || ["ig"]).indexOf(secili) >= 0);
     if (!kayit.length) return;
@@ -499,6 +524,7 @@ def main():
          "%d reels" % reels,
          "%s – %s" % (veri[0]["tarih"], veri[-1]["tarih"]) if veri else ""))
     s = (SAYFA.replace("__VERI__", json.dumps(veri, ensure_ascii=False))
+              .replace("__VERI_YT__", json.dumps(youtube_gunleri(), ensure_ascii=False))
               .replace("__OZET__", ozet)
               .replace("__KISA__", json.dumps(KISA, ensure_ascii=False))
               .replace("__DEPO__", DEPO).replace("__HAM__", HAM))
