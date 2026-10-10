@@ -24,10 +24,30 @@ Projesine Pi 5 koyup pille çalıştırmaya uğraşan bir arkadaşın varsa bu g
 
 ## İlk yorum
 
-Rakamlar üreticilerin kendi ürün sayfalarından: Raspberry Pi Pico 2 W, Espressif ESP32-S3 ve Raspberry Pi 5. Fiyat yazmadım, en hızlı eskiyen bilgi o.
+Rakamlar üreticilerin kendi ürün sayfalarından. Fiyat yazmadım, en hızlı eskiyen bilgi o. Kart görselleri Raspberry Pi ve Espressif'in kendi dokümantasyonundan, CC BY-SA 4.0 ile: creativecommons.org/licenses/by-sa/4.0
 
 ## Kaynak
 
+Rakamlar:
 - Raspberry Pi Pico 2 W — https://www.adafruit.com/product/6087
 - ESP32-S3 — https://www.espressif.com/en/products/socs/esp32-s3
 - Raspberry Pi 5 — https://www.raspberrypi.com/products/raspberry-pi-5/
+
+Görseller (ikisi de CC BY-SA 4.0, atıf zorunlu):
+- Pico 2 W ve Raspberry Pi 5 — github.com/raspberrypi/documentation
+- ESP32-S3-DevKitC-1 — github.com/espressif/esp-dev-kits
+
+## Lisans uyarısı — paylaşmadan önce oku
+
+Bu iki fotoğraf telifsiz değil, **CC BY-SA 4.0**. İki şart var:
+
+1. **Atıf** — kaynağı ve lisansı belirtmek zorunlu. İlk yoruma koydum.
+2. **Aynı lisansla paylaşma (ShareAlike)** — fotoğrafı işleyip ürettiğim bu pano "türetilmiş eser" sayılıyor; harfiyen uygulanırsa panonun kendisinin de CC BY-SA 4.0 ile paylaşılması gerekiyor. Ticari bir mağaza gönderisinde bu zorlayıcı bir şart.
+
+Pratikte sektörde bu fotoğraflar atıfla yaygın kullanılıyor ama risk sıfır değil. Üç temiz yol var:
+
+- Kartlar stokta ya da elinde varsa kendi fotoğrafını çek — en temizi.
+- Raspberry Pi ve Espressif'in basın (press kit) birimlerinden görsel iste; basın görselleri genelde daha serbest şartlarla veriliyor.
+- Gönderiyi atıfla yayınla, kararı sen ver.
+
+Ayrıca Raspberry Pi ve Espressif'in marka (logo/isim) kullanım kuralları ayrı bir konu; ürünü tanıtan içerikte isim kullanmak sorun değil, logolarını öne çıkarmamak gerekiyor.

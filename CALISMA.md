@@ -118,6 +118,16 @@ Görsel dil `uret.py` içinde kodlanmış; bozma. İstenen his: dev başlık, yo
 
 Bu bir sadeleştirme; yukarıdaki "sadeleştirme" yasağının istisnası ve İlhan'ın talebiyle yapıldı. Kendiliğinden daha ileri gidilmeyecek: kart rengi, rakam boyu, bilgi yoğunluğu azaltılmayacak.
 
+**Fotoğraf aramadan "bulunamıyor" deme (10 Ekim 2026).** Web indirmesi
+kapalı ama GitHub anonim klonu açık; Raspberry Pi ve Espressif ürün
+fotoğraflarını kendi dokümantasyon depolarında tutuyor ve oradan
+alınabiliyor. Bir ürün görseli lazım olduğunda sıra: (1) İlhan'ın
+gönderdiği kare, (2) üreticinin GitHub deposu, (3) yer tutucu.
+Ayrıntı ve lisans şartları `gorsel/BENIOKU.md` içinde. Bu kaynaktan
+alınan görsel CC BY-SA 4.0 ile geliyor; atıf `metin.md`'ye yazılacak
+ve İlhan'a söylenecek.
+
+
 **Kapak düzeni her gönderide değişir.** Tekdüzelik merak uyandırmıyor. `spec["kapak"]["tip"]` ile seç, arka arkaya aynı tipi kullanma:
 
 | tip | Ne zaman | Nasıl görünür |

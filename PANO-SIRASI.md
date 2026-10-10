@@ -29,11 +29,12 @@ fotoğrafı gelince o gönderiyi üretip pushluyorum.
 
 "Bu kart ne işe yarar" sorusu pano formatına birebir oturuyor: üstte
 künye, altta kullanım alanları. Rakamlar üreticinin kendi ürün
-sayfasından alınacak, hafızadan yazılmayacak.
+sayfasından alınacak, hafızadan yazılmayacak. Kart fotoğrafları için
+önce üreticinin GitHub dokümantasyon deposuna bak (`gorsel/BENIOKU.md`).
 
 | # | Konu | Sütunlar | Gereken fotoğraf |
 |---|---|---|---|
-| ✓ | Projeye hangi kart girer | Pico 2 W · ESP32-S3 · Pi 5 | 3 kart — şimdilik simge basıldı |
+| ✓ | Projeye hangi kart girer | Pico 2 W · ESP32-S3 · Pi 5 | tamam — üretici GitHub deposundan |
 | 1 | Kablosuz seçimi | Wi-Fi · BLE · LoRa | 3 modül |
 | 2 | Motor sürücü sınıfı | DRV8833 · BTS7960 · ayrık MOSFET | 3 modül/kart |
 | 3 | Güç kaynağı | lineer · buck · buck-boost | 3 modül |

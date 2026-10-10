@@ -1,5 +1,45 @@
 # Fotoğraflar
 
+## Fotoğraf nereden geliyor — üç kaynak
+
+**1. İlhan'ın gönderdiği kare.** En iyisi, şartı yok. Filament, kurutucu,
+hotend tarafı böyle yürüyor.
+
+**2. Üreticinin GitHub dokümantasyon deposu.** Oturumun ağ erişimi
+kapalı ama GitHub'dan anonim `git clone` çalışıyor. Birçok elektronik
+üreticisi ürün fotoğraflarını dokümantasyon deposunda tutuyor:
+
+```
+GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 \
+  https://github.com/raspberrypi/documentation /home/claude/rpi-doc
+```
+
+Doğrulanmış depolar:
+
+| Depo | Ne var | Lisans |
+|---|---|---|
+| `raspberrypi/documentation` | Pi 2/3/4/5, 400/500, Pico ailesi, CM modülleri — stüdyo kareleri, 1920 px'e kadar | CC BY-SA 4.0 |
+| `espressif/esp-dev-kits` | ESP32 geliştirme kartları, izometrik PNG (çoğu saydam zeminli) | kod Apache-2.0, **görseller CC BY-SA 4.0** |
+
+Denenmemiş ama muhtemel: `arduino`, `adafruit`, `sparkfun`, `Seeed-Studio`,
+`prusa3d`. Gereken kart çıkınca önce buraya bak.
+
+**CC BY-SA 4.0 ne demek:** atıf zorunlu *ve* türetilmiş eser aynı
+lisansla paylaşılmalı. İkinci şart ticari gönderide zorlayıcı. Bu
+kaynaktan görsel kullanılan her gönderinin `metin.md` dosyasına
+kaynak + lisans satırı yazılacak ve İlhan'a ayrıca söylenecek —
+sessizce kullanılmayacak.
+
+**3. Hiçbiri yoksa.** Kareye yer tutucu basılır, gönderi yayına
+alınmaz. Vektör çizimle ürün tanıtımı yapılmıyor.
+
+**Web'den indirme çalışmıyor:** kabuk yalnız paket deposu ve GitHub'a
+çıkabiliyor, diğer host'lar 403 dönüyor; WebFetch metin döndürüyor,
+ikili dosya değil. Yani bambulab.com ya da sunlu.com'dan fotoğraf
+çekilemiyor — SUNLU, Bambu Lab, Creality ve Anycubic görselleri için
+İlhan'ın göndermesi gerekiyor.
+
+
 Bu klasör üretilen karelerde kullanılan gerçek fotoğrafları tutuyor. İki yerde kullanılıyor:
 
 1. **`liste` kapağının sağ sütunu** — `"kapak": { "tip": "liste", "gorsel": "atolye.png", ... }`. Fotoğraf varsa kullanılıyor, yoksa izometrik kule çiziliyor.

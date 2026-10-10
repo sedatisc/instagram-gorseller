@@ -46,11 +46,11 @@
             "Röle, motor, şerit LED sürme"
           ]
         ],
-        "ikon": "cip"
+        "gorsel": "urun/kesik-pico2w.png"
       },
       {
         "baslik": "ESP32-S3",
-        "alt": "KABLOSUZ MCU · KAMERA VE SES",
+        "alt": "KABLOSUZ MCU · DEVKITC-1 KARTI",
         "renk": "yesil",
         "ozellikler": [
           [
@@ -84,7 +84,7 @@
             "Kart üstünde ses ve görüntü tanıma"
           ]
         ],
-        "ikon": "dalga"
+        "gorsel": "urun/kesik-esp32s3.png"
       },
       {
         "baslik": "RASPBERRY PI 5",
@@ -122,7 +122,7 @@
             "Kamera + yapay zekâ, ROS, sunucu"
           ]
         ],
-        "ikon": "katman"
+        "gorsel": "urun/kesik-pi5.png"
       }
     ],
     "ipucu": "Sensör okuyup veri yolluyorsan Pico 2 W. Kablosuz üstüne kamera ya da ses varsa ESP32-S3. İşletim sistemi gerekiyorsa Pi 5.",
