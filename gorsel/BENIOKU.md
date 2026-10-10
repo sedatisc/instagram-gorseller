@@ -35,9 +35,30 @@ alınmaz. Vektör çizimle ürün tanıtımı yapılmıyor.
 
 **Web'den indirme çalışmıyor:** kabuk yalnız paket deposu ve GitHub'a
 çıkabiliyor, diğer host'lar 403 dönüyor; WebFetch metin döndürüyor,
-ikili dosya değil. Yani bambulab.com ya da sunlu.com'dan fotoğraf
-çekilemiyor — SUNLU, Bambu Lab, Creality ve Anycubic görselleri için
-İlhan'ın göndermesi gerekiyor.
+ikili dosya değil.
+
+**10 Ekim 2026'da tek tek denendi:**
+
+| Host | Kabuk (curl) | WebFetch |
+|---|---|---|
+| `sermenkreatif.com` | 403 — egress politikası | — |
+| `filamentdepom.com` | 403 — egress politikası | **çalışıyor**, sayfayı metin olarak okuyor |
+| `static.ticimax.cloud` (görsel sunucusu) | 403 — `connect_rejected` | ikili dosya döndürmüyor |
+
+Yani **kendi sitemizden ve filamentdepom'dan görsel indirilemiyor.**
+`/root/.ccr/README.md` 403'ler için "deneme, raporla" diyor; başka
+yoldan dolaşılmayacak.
+
+Buna karşılık WebFetch ürün sayfalarını okuyabiliyor: ürün adı, teknik
+özellik, stok durumu oradan alınabiliyor. Yani **araştırma tarafı
+açık, yalnız fotoğraf kapalı.**
+
+**Fotoğrafı bana ulaştırmanın iki yolu:**
+
+1. Sohbete ekle — en hızlısı.
+2. `sedatisc/instagram-gorseller` deposuna koy. GitHub okunabiliyor;
+   `gorsel/urun/` altına atılan kare doğrudan kullanılabiliyor.
+   Toplu fotoğraf göndereceksen bu daha pratik.
 
 
 Bu klasör üretilen karelerde kullanılan gerçek fotoğrafları tutuyor. İki yerde kullanılıyor:
