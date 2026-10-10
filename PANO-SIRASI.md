@@ -57,9 +57,16 @@ Yapılan hata (10 Ekim 2026): iki SUNLU kurutucunun yanına Phaetus
 hotend konup "baskıyı bozan üç sorun" denildi. Kurutucuyla hotend
 birbirinin alternatifi değil. Gönderi kaldırıldı.
 
-Sütunlar şu testi geçmeli: **üçü de aynı soruya verilen üç farklı
-cevap mı?** Değilse pano değil, ya ayrı ayrı ürün gönderisi ya da
+Sütunlar şu testi geçmeli: **hepsi aynı soruya verilen farklı
+cevaplar mı?** Değilse pano değil, ya ayrı ayrı ürün gönderisi ya da
 karusel rehber olur.
+
+**Sütun sayısı üç olmak zorunda değil.** İki sütun da düzgün
+çıkıyor ve bazen doğrusu o: aynı sınıftan olmayan bir ürünü üçüncü
+sütuna doldurmak karşılaştırmayı bozuyor. 10 Ekim 2026'da SPARKX i7/i8
+panosuna Creality K3 konulmuştu — K3 nozul değiştirici bir üst sınıf
+makine, SparkX'lerle aynı soruyu cevaplamıyor. Çıkarıldı ve kendi
+mekanizma eşleşmesiyle (Snapmaker U1) ayrı panoya alındı.
 
 Mağaza ürünlerinin tanıtımı zaten `urun` tipli karusel gönderilerle
 yapılıyor (10-14 … 10-17). ÜRÜN & MAĞAZA slotu için ayrıca pano
@@ -72,7 +79,8 @@ gerekmiyor.
 | ✓ | Çok renge nasıl geçilir | AD5X · SPARKX i7 · H2D | tamam |
 | ✓ | Bambu H serisi | H2S · H2C · H2D | tamam |
 | ✓ | Bambu A serisi | A1 mini · A1 · A2L | tamam |
-| ✓ | Creality: rafta ne var | i7 · i8 · K3 | tamam — i8 ve K3 ürün değil, sütunda simge |
+| ✓ | SPARKX i7 mi i8 mi | i7 · i8 | tamam — iki sütun; i8 kampanyada, sütunda simge |
+| ✓ | Purge atmadan çok renk | Snapmaker U1 · Creality K3 | tamam — iki sütun; K3 sevkiyatta değil |
 | 1 | Reçine yazıcılar | Mono M7 Pro · M7 Max · Mars 5 Ultra | görseller hazır |
 | 2 | Creality K2 ailesi | K2 · K2 Pro · K2 Plus | görsel gerek |
 

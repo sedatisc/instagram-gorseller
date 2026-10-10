@@ -1,0 +1,95 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "pano",
+    "marka_alt": "Creality SPARKX — i7 ve i8",
+    "ust_sol": "SATIŞTA · KAMPANYADA",
+    "ust_sag": "10 EKİM 2026 DURUMU",
+    "satir1": "SPARKX i7 Mİ",
+    "satir2": "i8 Mİ?",
+    "spot": "Aynı gövde, aynı hız, aynı sıcaklık. Tek fark çok renk mekanizması — ve biri rafta, diğeri henüz kampanyada.",
+    "sutunlar": [
+      {
+        "baslik": "SPARKX i7",
+        "alt": "SATIŞTA · BUGÜN ALINIR",
+        "renk": "yesil",
+        "gorsel": "urun/kesik-creality-sparkx-i7-combo.png",
+        "ozellikler": [
+          [
+            "olcu",
+            "260 × 260 × 255 mm"
+          ],
+          [
+            "hiz",
+            "500 mm/s · 10.000 mm/s²"
+          ],
+          [
+            "isi",
+            "Nozul 300 °C · tabla 100 °C"
+          ],
+          [
+            "kutu",
+            "Çok renk harici CFS Lite ile — 4 slot"
+          ]
+        ],
+        "kullanim": [
+          [
+            "soru",
+            "720p AI kamera, spagetti algılama"
+          ],
+          [
+            "kup",
+            "PLA, PETG, PLA-CF, TPU"
+          ],
+          [
+            "uyari",
+            "Açık gövde, kabin ısıtması yok"
+          ]
+        ]
+      },
+      {
+        "baslik": "SPARKX i8",
+        "alt": "KİTLESEL FONLAMADA",
+        "renk": "turuncu",
+        "ikon": "zaman",
+        "ozellikler": [
+          [
+            "olcu",
+            "260 × 260 × 255 mm"
+          ],
+          [
+            "hiz",
+            "500 mm/s · 10.000 mm/s²"
+          ],
+          [
+            "dis",
+            "QuarTeks — nozula gömülü 4 kanal, CFS değil"
+          ],
+          [
+            "kutu",
+            "Purge kulesi olmadan 4 renk"
+          ]
+        ],
+        "kullanim": [
+          [
+            "uyari",
+            "Indiegogo kampanyası — raf satışı değil"
+          ],
+          [
+            "zaman",
+            "Creality sevkiyat tarihi açıklamadı"
+          ],
+          [
+            "terazi",
+            "Fiyat sayfada hâlâ \"3XX\" yer tutucu"
+          ]
+        ]
+      }
+    ],
+    "ipucu": "Bugün alınabilen i7. i8'in QuarTeks sistemi purge kulesini kaldırıyor ama makine kitlesel fonlamada, teslim tarihi yok.",
+    "alt_cagri": "Bugün alınabilen: SparkX i7"
+  },
+  "slaytlar": [],
+  "kapanis": null
+}

@@ -26,8 +26,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 12:20 | Gönderi | ELEKTRONİK & IoT | `2026-10-11-jetson-orin-nano` | 4 |
 | 12:20 | Hikaye | 3D BASKI & ÜRETİM DONANIMI | `2026-10-11-sunlu-pla-kartelasi/hikaye.png` | 1 |
 | 13:00 | Hikaye | ELEKTRONİK & IoT | `2026-10-11-jetson-orin-nano/hikaye.png` | 1 |
-| 17:10 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-20-creality-sparkx-k3-pano` | 1 |
-| 17:50 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-20-creality-sparkx-k3-pano/hikaye.png` | 1 |
+| 17:10 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-20-sparkx-i7-i8-pano` | 1 |
+| 17:50 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-20-sparkx-i7-i8-pano/hikaye.png` | 1 |
 | 19:50 | **Reels** | — | `2026-10-11-ender-v3-mega-tanitim/reels.mp4` | video |
 | 21:00 | Gönderi | PROJE & ATÖLYE | `2026-10-11-musteriye-fiyat` | 4 |
 | 21:40 | Hikaye | PROJE & ATÖLYE | `2026-10-11-musteriye-fiyat/hikaye.png` | 1 |
@@ -40,8 +40,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 08:52 | Hikaye | 3D BASKI & ÜRETİM DONANIMI | `2026-10-12-yapisma-yuzeyleri/hikaye.png` | 1 |
 | 12:38 | Gönderi | ELEKTRONİK & IoT | `2026-10-12-deep-sleep-akim` | 4 |
 | 13:18 | Hikaye | ELEKTRONİK & IoT | `2026-10-12-deep-sleep-akim/hikaye.png` | 1 |
-| 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-14-sunlu-filadryer` | 5 |
-| 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-14-sunlu-filadryer/hikaye.png` | 1 |
+| 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-21-u1-k3-pano` | 1 |
+| 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-21-u1-k3-pano/hikaye.png` | 1 |
 | 19:40 | Gönderi | PROJE & ATÖLYE | `2026-10-12-urun-fotografi` | 4 |
 | 20:20 | Hikaye | PROJE & ATÖLYE | `2026-10-12-urun-fotografi/hikaye.png` | 1 |
 | 21:10 | **Reels** | — | `2026-10-14-sunlu-filadryer/reels.mp4` | video |

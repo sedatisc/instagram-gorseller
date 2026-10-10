@@ -8,13 +8,9 @@ Creality tarafında üç isim aynı haberlerde dolaşıyor ama yalnız biri bug�
 
 Ama bu bir kitlesel fonlama kampanyası, normal perakende satış değil. Creality'nin kendi sayfasında fiyat hâlâ "3XX" yer tutucu olarak duruyor ve sevkiyat tarihi açıklanmamış. Kitlesel fonlamada teslim gecikmesi riski ve tüketici hakları ayrı bir konu — Türkiye'den alacaksan hesaba kat.
 
-**K3 » duyuruldu, sevkiyat yok.** Öne çıkan yanı KliTek nozul değiştirici: tam kafa değil, sadece nozul grubu değişiyor, 4,8 saniyede. Gövdesine gömülü 4 makara yuvası var, TPU odaklı — 80A'ya kadar yumuşak filament basıyor.
+K3 bu karşılaştırmaya girmiyor: farklı sınıf, farklı mekanizma. Onu Snapmaker U1 ile karşılaştırdığım ayrı bir gönderide ele aldım.
 
-Creality bu makinenin **baskı alanını, hızını, ivmesini ve sıcaklıklarını henüz yayınlamadı.** Kendi blogunda "ön siparişler ekim ortasında açılıyor" yazıyor, kampanya sayfasında "Coming Q3 2026" ve tek buton abone ol. Fiyat için söylediği "900 USD altında olması bekleniyor" — resmi fiyat değil.
-
-Bir uyarı » Creality'nin kendi mağazasında K3 adıyla 185 USD'lik bir kayıt görünüyor ama o sayfanın görsel dosyası ve açıklaması Sermoon D3'e ait; bozuk bir kayıt, K3 fiyatı değil. Ayrıca Creality'nin hiçbir kaynağında "K3 Combo" diye bir paket geçmiyor.
-
-Kısaca: bugün alınabilen tek model i7. Diğer ikisi "yakında" ve ikisinin de teslim tarihi belli değil.
+Kısaca: bugün alınabilen i7. i8'in mekanizması daha iyi ama makine kitlesel fonlamada ve teslim tarihi yok.
 
 "Yeni çıkan şu makineyi alayım" diyen bir arkadaşın varsa bu gönderiyi ona yolla — önce rafta mı diye baksın.
 
@@ -22,10 +18,8 @@ Kısaca: bugün alınabilen tek model i7. Diğer ikisi "yakında" ve ikisinin de
 
 ## İlk yorum
 
-Durum 10 Ekim 2026 itibarıyla, Creality'nin kendi sayfalarından. i8 ve K3'ün ürün fotoğrafı yok çünkü ortada henüz satılan bir ürün yok — panodaki boşluk kasıtlı.
+Durum 10 Ekim 2026 itibarıyla, Creality'nin kendi sayfalarından. i8'in ürün fotoğrafı yok çünkü ortada henüz satılan bir ürün yok — panodaki boşluk kasıtlı.
 
 ## Doğrulanmayanlar
 
 - i8 fiyatı ve sevkiyat tarihi — Creality yayınlamadı.
-- K3'ün baskı alanı, hızı, ivmesi, sıcaklıkları, kabin ve kamera bilgisi — Creality yayınlamadı.
-- K3 resmi fiyatı ve ön sipariş tarihi.
