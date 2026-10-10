@@ -101,3 +101,22 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 19:20 | **Reels** | — | `2026-10-16-sunlu-filament-pano/reels.mp4` | video |
 | 20:10 | Gönderi | PROJE & ATÖLYE | `2026-10-21-pi-kamera-pano` | 1 |
 | 20:50 | Hikaye | PROJE & ATÖLYE | `2026-10-21-pi-kamera-pano/hikaye.jpg` | 1 |
+
+## 2026-10-18 · Pazar
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 11:40 | — | **3D BASKI & ÜRETİM DONANIMI** | _boş — üretilecek_ | — |
+| 12:20 | — | **ELEKTRONİK & IoT** | _boş — üretilecek_ | — |
+| 17:10 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-18-ender-3-v4-combo` | 5 |
+| 17:50 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-18-ender-3-v4-combo/hikaye.jpg` | 1 |
+| 19:50 | **Reels** | — | `2026-10-18-ender-3-v4-combo/reels.mp4` | video |
+| 21:00 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
+
+## Boş slotlar
+
+Bu slotlar için içerik henüz üretilmedi:
+
+- 2026-10-18 · 3D BASKI & ÜRETİM DONANIMI
+- 2026-10-18 · ELEKTRONİK & IoT
+- 2026-10-18 · PROJE & ATÖLYE

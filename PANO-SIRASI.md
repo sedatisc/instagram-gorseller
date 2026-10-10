@@ -86,11 +86,13 @@ gerekmiyor.
 
 ## Doğrulamada elenen konular
 
-- **Ender-3 V3 Mega** — Creality'nin hiçbir kendi kaynağında yok
-  (creality.com, store.creality.com, creality.cn, crealitycloud.com).
-  Dolaşan 420 mm küp / 1.150 W değerleri yalnız üçüncü taraf SEO
-  sitelerinde. Gerçek muadili **Ender-3 V4 Combo** (220 × 220 × 235 mm,
-  500 mm/s, 12.000 mm/s², CFS dahil, 399 USD).
+- **Ender-3 V3 Mega** — Creality'nin hiçbir kendi kaynağında yok;
+  kendi karşılaştırma sayfasında V3 serisi Plus / V3 / KE / SE'den
+  ibaret. Dolaşan 420 mm küp / 1.150 W değerleri yalnız üçüncü taraf
+  SEO sitelerinde. 10 Ekim 2026'da gönderi iptal edildi, yerine
+  **Ender-3 V4 Combo** yapıldı (220 × 220 × 235 mm, 500 mm/s,
+  12.000 mm/s², CFS 4 slot — rakamlar üreticinin kendi sayfasından,
+  makine mağazada satılıyor).
 - **K3 Combo** — Creality'de böyle bir paket adı yok; K3'ün kendisi de
   sevkiyatta değil ve teknik verisi yayınlanmadı.
 - **SparkX i8** — gerçek ama Indiegogo kampanyası, perakende satışta

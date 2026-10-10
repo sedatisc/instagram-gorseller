@@ -1,0 +1,136 @@
+{
+ "kategori": "3dbaski",
+ "zemin": "koyu",
+ "stil": "neon",
+ "kapak": {
+  "tip": "urun",
+  "gorsel": "urun/kesik-creality-ender-3-v4-combo.png",
+  "odak": 0.5,
+  "ustbilgi": "CREALITY · ENDER-3 SERİSİ",
+  "satir1": "ENDER-3 V4",
+  "satir2": "COMBO",
+  "spot": "Ender serisinin bu kuşağı 500 mm/s'ye ve 12.000 mm/s² ivmeye çıkıyor; Combo paketi CFS ile dört renge hazır geliyor.",
+  "ozet": [
+   [
+    "HIZ",
+    "500 mm/s"
+   ],
+   [
+    "İVME",
+    "12.000 mm/s²"
+   ],
+   [
+    "RENK",
+    "CFS · 4 slot"
+   ]
+  ],
+  "sigdir": true
+ },
+ "slaytlar": [
+  {
+   "baslik": "Rakamlar",
+   "aciklama": "Hepsi Creality'nin kendi ürün sayfasındaki tablodan; burada tahmin yok.",
+   "tablo": [
+    [
+     "BASKI ALANI",
+     "220 × 220 × 235 mm"
+    ],
+    [
+     "AZAMİ HIZ",
+     "500 mm/s"
+    ],
+    [
+     "AZAMİ İVME",
+     "12.000 mm/s²"
+    ],
+    [
+     "NOZUL",
+     "300 °C · 0,4 mm"
+    ],
+    [
+     "TABLA",
+     "100 °C"
+    ],
+    [
+     "EKSTRÜDER",
+     "çift dişli doğrudan tahrik"
+    ]
+   ]
+  },
+  {
+   "baslik": "Dört renge CFS ile geçiyor",
+   "aciklama": "CFS dört makara taşıyor. Dört CFS'e kadar bağlanabiliyor; Creality üst sınırı 16 renk diye veriyor.",
+   "tablo": [
+    [
+     "CFS SLOT",
+     "4 makara"
+    ],
+    [
+     "AZAMİ CFS",
+     "4 adet · 16 renk"
+    ],
+    [
+     "DOLAŞMA ALGILAMA",
+     "CFS ile birlikte"
+    ],
+    [
+     "OTOMATİK AKTARMA",
+     "makara bitince sıradakine"
+    ],
+    [
+     "NOZUL DEĞİŞİMİ",
+     "mıknatıslı kapak"
+    ]
+   ]
+  },
+  {
+   "baslik": "Kurulum ve bakım tarafı",
+   "aciklama": "Bu sınıfta zamanı yiyen iki iş var: tabla ayarı ve nozul değişimi. İkisi de kısaltılmış.",
+   "satirlar": [
+    [
+     "TABLA AYARI",
+     "tam otomatik"
+    ],
+    [
+     "TİTREŞİM",
+     "input shaping"
+    ],
+    [
+     "NOZUL KAPAĞI",
+     "mıknatıslı, elle çekiliyor"
+    ],
+    [
+     "BAĞLANTI",
+     "USB bellek · Wi-Fi · Creality Cloud"
+    ],
+    [
+     "ÇOKLU MAKİNE",
+     "Creality Print üzerinden LAN"
+    ]
+   ]
+  }
+ ],
+ "kapanis": {
+  "satir1": "SENİN İŞİNE",
+  "satir2": "YARAR MI?",
+  "kriterler": [
+   [
+    "İLK CİDDİ MAKİNE",
+    "evet — otomatik ayar, hazır profil"
+   ],
+   [
+    "ÇOK RENKLİ BASKI",
+    "evet — CFS kutuda"
+   ],
+   [
+    "BÜYÜK PARÇA",
+    "hayır — 220 mm küp sınıfı"
+   ],
+   [
+    "KAPALI KABİN",
+    "yok — ABS/ASA için uygun değil"
+   ]
+  ],
+  "not": "220 × 220 × 235 mm'yi aşan parça basıyorsan bu makine dar gelir; gövde ölçüsünü işine göre seç."
+ }
+}

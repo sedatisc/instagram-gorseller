@@ -31,12 +31,19 @@ iyisi.
 - PETG ile basılmış, dışarıda/araçta duran bir parça
 - Aynı parçanın mat ve parlak filamentle iki hâli (yan yana çekim)
 
-## 3 — Ender-3 V3 Mega meselesi
+## 3 — Ender-3 V3 Mega kapandı
 
-Bana gönderdiğin makine fotoğraflarının hangi makineye ait olduğunu
-doğrulayamadım: Creality'nin hiçbir kendi kaynağında "Ender-3 V3 Mega"
-diye bir model yok. **Kutusunda ya da faturasında yazan tam model adını**
-yolla, gönderiyi ona göre düzelteyim. Gönderi şu an beklemede.
+Gönderi iptal edildi. Creality'nin kendi karşılaştırma sayfasında
+Ender-3 V3 serisi Plus / V3 / KE / SE'den ibaret; "Mega" diye bir model
+ve 420 mm küp diye bir ölçü yok. Yolladığın kare bir bayi render'ı,
+600 × 799 piksel — makinenin künyesini okumaya yetmiyor. Mağazanın
+kendi site haritasında da "mega" geçen ürün bulunmuyor.
+
+Yerine mağazada gerçekten satılan model yapıldı:
+**Ender-3 V4 Combo** (`2026-10-18-ender-3-v4-combo`), rakamları
+Creality'nin kendi ürün sayfasından, görseli kendi ürün sayfandan.
+Elinde o makine varsa kendi çektiğin bir kare gönderebilirsin —
+satıcı karesi 605 piksel, biraz yumuşak duruyor.
 
 ## Cihaz kapak fotoğrafları — bende
 

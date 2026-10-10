@@ -493,6 +493,11 @@
     "tarih": "2026-10-17",
     "slot": "proje",
     "klasor": "2026-10-21-pi-kamera-pano"
+   },
+   {
+    "tarih": "2026-10-18",
+    "slot": "urun",
+    "klasor": "2026-10-18-ender-3-v4-combo"
    }
   ],
   "reels": [
@@ -523,12 +528,18 @@
    {
     "tarih": "2026-10-17",
     "klasor": "2026-10-16-sunlu-filament-pano"
+   },
+   {
+    "tarih": "2026-10-18",
+    "klasor": "2026-10-18-ender-3-v4-combo"
    }
   ],
-  "beklemede": [
+  "beklemede": [],
+  "iptal": [
    {
     "klasor": "2026-10-11-ender-v3-mega-tanitim",
-    "sebep": "Creality'nin hicbir kendi kaynaginda 'Ender-3 V3 Mega' diye bir model yok (creality.com, store.creality.com, creality.cn, crealitycloud.com arandi). Gonderideki 420x420x420 mm, 500 mm/s ve 1.150 W degerleri yalnizca ucuncu taraf SEO sitelerinde geciyor. Ilhan onay verene kadar yayina alinmayacak. Gercek muadili: Ender-3 V4 Combo, 220x220x235 mm, 500 mm/s, 12.000 mm/s2, CFS dahil, 399 USD."
+    "sebep": "Iptal edildi 10 Ekim 2026. Creality'nin kendi karsilastirma sayfasinda Ender-3 V3 serisi Plus/V3/KE/SE'den ibaret; Mega yok, 420x420x420 mm yok. Ilhan'in yolladigi kare bir bayi render'i, cozunurlugu kunyeyi okumaya yetmiyor. Magazanin kendi site haritasinda da 'mega' gecen urun yok. Yerine gercek ve magazada satilan model yapildi: 2026-10-18-ender-3-v4-combo.",
+    "yerine": "2026-10-18-ender-3-v4-combo"
    }
   ]
  }
