@@ -8,6 +8,7 @@ Claude da depodan okuyor. Kimsenin elle fotoğraf göndermesi gerekmiyor.
 
     python3 otomasyon/cek.py                 # urunler.json'daki eksikleri çek
     python3 otomasyon/cek.py --yenile        # var olanları da yeniden çek
+    python3 otomasyon/cek.py --urun SLUG     # yalnız o ürünü yeniden çek
     python3 otomasyon/cek.py --kesfet URL    # site haritasından ürün sayfalarını listele
 """
 import json
@@ -77,24 +78,65 @@ def gorsel_bul(html, sayfa):
     klasöründeki ilk görsel "benzer ürünler" karuselinden gelebiliyor ve
     başka bir ürünün karesi çıkıyor (H2S ve A1 mini sayfalarında Entina
     Tina2 geldi, 10 Ekim 2026).
+
+    og:image çoğu temada 600 × 600'e küçültülmüş hâl oluyor; kapak karesi
+    için bu az kalıyor. Aynı ürünün ticimax klasöründeki büyük hâli varsa
+    ikisi de indirilip büyük olan seçiliyor (Ender-3 V4 Combo, 10 Ekim).
     """
+    aday = None
     for kalip in (_OG, _OG2):
         m = kalip.search(html)
         u = temiz(m.group(1), sayfa) if m else None
         if u:
-            return u, "og:image"
-    for kalip in (_TICI,):
-        m = kalip.findall(html)
-        if m:
-            m.sort(key=lambda u: (("orj" not in u.lower()), len(u)))
-            u = temiz(m[0], sayfa)
-            if u:
-                return u, "ticimax ürün klasörü"
-    for aday in _IMG.findall(html):
-        u = temiz(aday, sayfa)
+            aday = (u, "og:image")
+            break
+    tici = []
+    for u in _TICI.findall(html):
+        t = temiz(u, sayfa)
+        if t and t not in tici:
+            tici.append(t)
+    if aday and tici:
+        buyuk = _en_buyuk([aday[0]] + tici[:4])
+        if buyuk and buyuk != aday[0]:
+            return buyuk, "ticimax büyük kare"
+        return aday
+    if aday:
+        return aday
+    if tici:
+        tici.sort(key=lambda u: (("orj" not in u.lower()), len(u)))
+        return tici[0], "ticimax ürün klasörü"
+    for ad in _IMG.findall(html):
+        u = temiz(ad, sayfa)
         if u:
             return u, "sayfadaki ilk uygun img"
     return None, None
+
+
+def _en_buyuk(adresler):
+    """Adaylar arasından piksel alanı en büyük olanı seç.
+
+    Yalnız aynı ürünün farklı boyları arasında çalışsın diye kare oranı
+    ilkinden belirgin sapan aday eleniyor — başka ürünün karesi gelmesin.
+    """
+    from io import BytesIO
+    from PIL import Image
+    olcu, oran0 = [], None
+    for u in adresler:
+        try:
+            im = Image.open(BytesIO(getir(u, ikili=True, deneme=1)))
+            w, h = im.size
+        except Exception:
+            continue
+        oran = w / float(h or 1)
+        if oran0 is None:
+            oran0 = oran
+        elif not (0.6 < oran / oran0 < 1.7):
+            continue
+        olcu.append((w * h, u))
+    if not olcu:
+        return None
+    olcu.sort(reverse=True)
+    return olcu[0][1]
 
 
 # --------------------------------------------------------------- kesme
@@ -201,6 +243,10 @@ def kesfet(kok):
 # --------------------------------------------------------------- ana akış
 def main():
     yenile = "--yenile" in sys.argv
+    tek = None
+    if "--urun" in sys.argv:                      # tek ürünü yeniden çek
+        tek = sys.argv[sys.argv.index("--urun") + 1]
+        yenile = True
     if "--kesfet" in sys.argv:
         kok = sys.argv[sys.argv.index("--kesfet") + 1]
         bulunan = kesfet(kok)
@@ -218,6 +264,8 @@ def main():
 
     for u in urunler:
         slug, sayfa = u["slug"], u.get("sayfa")
+        if tek and slug != tek:
+            continue
         hedef = os.path.join(KESIK, "kesik-%s.png" % slug)
         ham_yol = None
         for uzanti in (".jpg", ".png", ".webp"):

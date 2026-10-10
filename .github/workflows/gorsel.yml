@@ -12,6 +12,10 @@ on:
         description: "Var olan görselleri de yeniden çek"
         type: boolean
         default: false
+      urun:
+        description: "Yalnız bu ürünü çek (slug). Boş bırakılırsa hepsi."
+        type: string
+        default: ""
   schedule:
     - cron: "17 3 * * 1"        # her pazartesi 03.17 UTC
 
@@ -49,7 +53,9 @@ jobs:
         env:
           U2NET_HOME: ~/.u2net
         run: |
-          python3 otomasyon/cek.py ${{ inputs.yenile && '--yenile' || '' }}
+          python3 otomasyon/cek.py \
+            ${{ inputs.yenile && '--yenile' || '' }} \
+            ${{ inputs.urun != '' && format('--urun {0}', inputs.urun) || '' }}
 
       - name: Değişiklikleri işle
         run: |
