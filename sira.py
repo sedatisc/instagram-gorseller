@@ -71,7 +71,7 @@ def kare_sayisi(klasor):
     if not os.path.isdir(klasor):
         return 0
     return len([f for f in os.listdir(klasor)
-                if f[:-4].isdigit() and f.endswith(".png")])
+                if f[:-4].isdigit() and f.endswith(".jpg")])
 
 
 def liste():
@@ -109,7 +109,7 @@ def liste():
             satirlar.append((saat(g, ad),
                              "Gönderi | %s | `%s` | %d" % (BASLIK[ad], k, n)))
             satirlar.append((arti(saat(g, ad), HIKAYE_GECIKME),
-                             "Hikaye | %s | `%s/hikaye.png` | 1"
+                             "Hikaye | %s | `%s/hikaye.jpg` | 1"
                              % (BASLIK[ad], k)))
 
         r = reelsler.get(tarih)

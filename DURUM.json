@@ -1,535 +1,535 @@
 {
-  "baslangic": "2026-09-29",
-  "kullanilan": {
-    "3dbaski": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19
-    ],
-    "elektronik": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21
-    ],
-    "proje": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19
-    ]
+ "baslangic": "2026-09-29",
+ "kullanilan": {
+  "3dbaski": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "elektronik": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21
+  ],
+  "proje": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ]
+ },
+ "gecmis": [
+  {
+   "tarih": "2026-09-29",
+   "slot": "3dbaski",
+   "konu": 1,
+   "klasor": "2026-09-29-filament-secimi"
   },
-  "gecmis": [
-    {
-      "tarih": "2026-09-29",
-      "slot": "3dbaski",
-      "konu": 1,
-      "klasor": "2026-09-29-filament-secimi"
-    },
-    {
-      "tarih": "2026-09-29",
-      "slot": "elektronik",
-      "konu": 3,
-      "klasor": "2026-09-29-pullup-direnci"
-    },
-    {
-      "tarih": "2026-09-29",
-      "slot": "proje",
-      "konu": 1,
-      "klasor": "2026-09-29-atlas"
-    },
-    {
-      "tarih": "2026-09-30",
-      "slot": "3dbaski",
-      "konu": 2,
-      "klasor": "2026-09-30-katman-yuksekligi"
-    },
-    {
-      "tarih": "2026-09-30",
-      "slot": "elektronik",
-      "konu": 4,
-      "klasor": "2026-09-30-i2c-calismiyor"
-    },
-    {
-      "tarih": "2026-09-30",
-      "slot": "proje",
-      "konu": 3,
-      "klasor": "2026-09-30-katir-ugv"
-    },
-    {
-      "tarih": "2026-10-01",
-      "slot": "3dbaski",
-      "konu": 3,
-      "klasor": "2026-10-01-bambu-a2l"
-    },
-    {
-      "tarih": "2026-10-01",
-      "slot": "elektronik",
-      "konu": 2,
-      "klasor": "2026-10-01-role-mi-mosfet-mi"
-    },
-    {
-      "tarih": "2026-10-01",
-      "slot": "proje",
-      "konu": 2,
-      "klasor": "2026-10-01-atolye-duzeni"
-    },
-    {
-      "tarih": "2026-10-02",
-      "slot": "3dbaski",
-      "konu": 4,
-      "klasor": "2026-10-02-dolgu-orani"
-    },
-    {
-      "tarih": "2026-10-02",
-      "slot": "proje",
-      "konu": 10,
-      "klasor": "2026-10-02-sk-3d-toplulugu"
-    },
-    {
-      "tarih": "2026-10-02",
-      "slot": "elektronik",
-      "konu": 5,
-      "klasor": "2026-10-02-mosfet-rdson"
-    },
-    {
-      "tarih": "2026-10-03",
-      "slot": "3dbaski",
-      "konu": 5,
-      "klasor": "2026-10-03-duvar-sayisi"
-    },
-    {
-      "tarih": "2026-10-03",
-      "slot": "elektronik",
-      "konu": 6,
-      "klasor": "2026-10-03-debounce"
-    },
-    {
-      "tarih": "2026-10-03",
-      "slot": "proje",
-      "konu": 4,
-      "klasor": "2026-10-03-bakim-takvimi"
-    },
-    {
-      "tarih": "2026-10-04",
-      "slot": "3dbaski",
-      "konu": 6,
-      "klasor": "2026-10-04-parca-yonu"
-    },
-    {
-      "tarih": "2026-10-04",
-      "slot": "elektronik",
-      "konu": 7,
-      "klasor": "2026-10-04-iot-kavramlari"
-    },
-    {
-      "tarih": "2026-10-04",
-      "slot": "proje",
-      "konu": 5,
-      "klasor": "2026-10-04-arama-kurtarma-roveri"
-    },
-    {
-      "tarih": "2026-10-05",
-      "slot": "3dbaski",
-      "konu": 7,
-      "klasor": "2026-10-05-destek-yapisi"
-    },
-    {
-      "tarih": "2026-10-05",
-      "slot": "elektronik",
-      "konu": 9,
-      "klasor": "2026-10-05-usbc-cc-direnci"
-    },
-    {
-      "tarih": "2026-10-05",
-      "slot": "proje",
-      "konu": 6,
-      "klasor": "2026-10-05-maliyet-hesabi"
-    },
-    {
-      "tarih": "2026-10-06",
-      "slot": "3dbaski",
-      "konu": 8,
-      "klasor": "2026-10-06-bambu-r1-lazer"
-    },
-    {
-      "tarih": "2026-10-06",
-      "slot": "elektronik",
-      "konu": 10,
-      "klasor": "2026-10-06-bypass-kondansatoru"
-    },
-    {
-      "tarih": "2026-10-06",
-      "slot": "proje",
-      "konu": 7,
-      "klasor": "2026-10-06-rover-v2"
-    },
-    {
-      "tarih": "2026-10-07",
-      "slot": "3dbaski",
-      "konu": 9,
-      "klasor": "2026-10-07-stringing"
-    },
-    {
-      "tarih": "2026-10-07",
-      "slot": "elektronik",
-      "konu": 11,
-      "klasor": "2026-10-07-5v-33v-seviye"
-    },
-    {
-      "tarih": "2026-10-07",
-      "slot": "proje",
-      "konu": 8,
-      "klasor": "2026-10-07-model-kaynaklari"
-    },
-    {
-      "tarih": "2026-10-08",
-      "slot": "3dbaski",
-      "konu": 10,
-      "klasor": "2026-10-08-warping"
-    },
-    {
-      "tarih": "2026-10-08",
-      "slot": "elektronik",
-      "konu": 12,
-      "klasor": "2026-10-08-motor-reset"
-    },
-    {
-      "tarih": "2026-10-08",
-      "slot": "proje",
-      "konu": 9,
-      "klasor": "2026-10-08-atolye-aletleri"
-    },
-    {
-      "tarih": "2026-10-09",
-      "slot": "3dbaski",
-      "konu": 11,
-      "klasor": "2026-10-09-elephant-foot"
-    },
-    {
-      "tarih": "2026-10-09",
-      "slot": "elektronik",
-      "konu": 13,
-      "klasor": "2026-10-09-buck-isinmasi"
-    },
-    {
-      "tarih": "2026-10-09",
-      "slot": "proje",
-      "konu": 11,
-      "klasor": "2026-10-09-basarisiz-baski-arsivi"
-    },
-    {
-      "tarih": "2026-10-10",
-      "slot": "3dbaski",
-      "konu": 12,
-      "klasor": "2026-10-10-filament-kurutma"
-    },
-    {
-      "tarih": "2026-10-10",
-      "slot": "elektronik",
-      "konu": 14,
-      "klasor": "2026-10-10-tp4056-sarj"
-    },
-    {
-      "tarih": "2026-10-10",
-      "slot": "proje",
-      "konu": 12,
-      "klasor": "2026-10-10-fusion-onshape"
-    },
-    {
-      "tarih": "2026-10-11",
-      "slot": "3dbaski",
-      "konu": 13,
-      "klasor": "2026-10-11-sunlu-pla-kartelasi"
-    },
-    {
-      "tarih": "2026-10-11",
-      "slot": "elektronik",
-      "konu": 15,
-      "klasor": "2026-10-11-jetson-orin-nano"
-    },
-    {
-      "tarih": "2026-10-11",
-      "slot": "proje",
-      "konu": 13,
-      "klasor": "2026-10-11-musteriye-fiyat"
-    },
-    {
-      "tarih": "2026-10-12",
-      "slot": "3dbaski",
-      "konu": 14,
-      "klasor": "2026-10-12-yapisma-yuzeyleri"
-    },
-    {
-      "tarih": "2026-10-12",
-      "slot": "elektronik",
-      "konu": 16,
-      "klasor": "2026-10-12-deep-sleep-akim"
-    },
-    {
-      "tarih": "2026-10-12",
-      "slot": "proje",
-      "konu": 14,
-      "klasor": "2026-10-12-urun-fotografi"
-    },
-    {
-      "tarih": "2026-10-13",
-      "slot": "3dbaski",
-      "konu": 15,
-      "klasor": "2026-10-13-nozzle-capi"
-    },
-    {
-      "tarih": "2026-10-13",
-      "slot": "elektronik",
-      "konu": 17,
-      "klasor": "2026-10-13-optokuplor"
-    },
-    {
-      "tarih": "2026-10-13",
-      "slot": "proje",
-      "konu": 15,
-      "klasor": "2026-10-13-olcu-dogrulama"
-    }
-  ],
-  "yayinlanmis_disarida": [
-    {
-      "konu": "2026'nın en iyi 8 IoT geliştirme kartı",
-      "slot": "elektronik",
-      "no": 1
-    },
-    {
-      "konu": "Voltaj bölücü ile sensör okumak neden yanıltır",
-      "slot": "elektronik",
-      "no": 8
-    }
-  ],
-  "kuyruk_bekleyen": {
-    "not": "11-17 Ekim · gunde 4 gonderi + 4 hikaye + 1 reels. Saat izgarasi sira.py icinde, liste YAYIN-LISTESI.md. Metricool kotasi dolu oldugu icin yayin elle yapiliyor; klasordeki numarali PNG'ler karusel sirasi, hikaye.png hikaye, metin.md aciklama ve ilk yorum. 2026-10-11-ender-v3-mega-tanitim beklemede, bkz. 'beklemede'.",
-    "slotlar": [
-      {
-        "tarih": "2026-10-11",
-        "slot": "3dbaski",
-        "klasor": "2026-10-11-sunlu-pla-kartelasi"
-      },
-      {
-        "tarih": "2026-10-11",
-        "slot": "elektronik",
-        "klasor": "2026-10-11-jetson-orin-nano"
-      },
-      {
-        "tarih": "2026-10-11",
-        "slot": "urun",
-        "klasor": "2026-10-10-bambu-r1-tanitim"
-      },
-      {
-        "tarih": "2026-10-11",
-        "slot": "proje",
-        "klasor": "2026-10-11-musteriye-fiyat"
-      },
-      {
-        "tarih": "2026-10-12",
-        "slot": "3dbaski",
-        "klasor": "2026-10-12-yapisma-yuzeyleri"
-      },
-      {
-        "tarih": "2026-10-12",
-        "slot": "elektronik",
-        "klasor": "2026-10-12-deep-sleep-akim"
-      },
-      {
-        "tarih": "2026-10-12",
-        "slot": "urun",
-        "klasor": "2026-10-14-sunlu-filadryer"
-      },
-      {
-        "tarih": "2026-10-12",
-        "slot": "proje",
-        "klasor": "2026-10-12-urun-fotografi"
-      },
-      {
-        "tarih": "2026-10-13",
-        "slot": "3dbaski",
-        "klasor": "2026-10-16-sunlu-filament-pano"
-      },
-      {
-        "tarih": "2026-10-13",
-        "slot": "elektronik",
-        "klasor": "2026-10-13-optokuplor"
-      },
-      {
-        "tarih": "2026-10-13",
-        "slot": "urun",
-        "klasor": "2026-10-15-sunlu-ams-heater"
-      },
-      {
-        "tarih": "2026-10-13",
-        "slot": "proje",
-        "klasor": "2026-10-13-olcu-dogrulama"
-      },
-      {
-        "tarih": "2026-10-14",
-        "slot": "3dbaski",
-        "klasor": "2026-10-13-nozzle-capi"
-      },
-      {
-        "tarih": "2026-10-14",
-        "slot": "elektronik",
-        "klasor": "2026-10-14-lipo-bms"
-      },
-      {
-        "tarih": "2026-10-14",
-        "slot": "urun",
-        "klasor": "2026-10-16-phaetus-liber-u1"
-      },
-      {
-        "tarih": "2026-10-14",
-        "slot": "proje",
-        "klasor": "2026-10-14-siparis-sorulari"
-      },
-      {
-        "tarih": "2026-10-15",
-        "slot": "3dbaski",
-        "klasor": "2026-10-18-filament-kurutucu-pano"
-      },
-      {
-        "tarih": "2026-10-15",
-        "slot": "elektronik",
-        "klasor": "2026-10-15-h-koprusu"
-      },
-      {
-        "tarih": "2026-10-15",
-        "slot": "urun",
-        "klasor": "2026-10-17-polymaker-ht-pla"
-      },
-      {
-        "tarih": "2026-10-15",
-        "slot": "proje",
-        "klasor": "2026-10-15-3d-tarayici"
-      },
-      {
-        "tarih": "2026-10-16",
-        "slot": "3dbaski",
-        "klasor": "2026-10-18-bambu-h-serisi-pano"
-      },
-      {
-        "tarih": "2026-10-16",
-        "slot": "elektronik",
-        "klasor": "2026-10-16-gelistirme-karti-pano"
-      },
-      {
-        "tarih": "2026-10-16",
-        "slot": "urun",
-        "klasor": "2026-10-21-u1-k3-pano"
-      },
-      {
-        "tarih": "2026-10-16",
-        "slot": "proje",
-        "klasor": "2026-10-20-pixhawk-pano"
-      },
-      {
-        "tarih": "2026-10-17",
-        "slot": "3dbaski",
-        "klasor": "2026-10-19-bambu-a-serisi-pano"
-      },
-      {
-        "tarih": "2026-10-17",
-        "slot": "elektronik",
-        "klasor": "2026-10-17-esp32-ailesi-pano"
-      },
-      {
-        "tarih": "2026-10-17",
-        "slot": "urun",
-        "klasor": "2026-10-20-sparkx-i7-i8-pano"
-      },
-      {
-        "tarih": "2026-10-17",
-        "slot": "proje",
-        "klasor": "2026-10-21-pi-kamera-pano"
-      }
-    ],
-    "reels": [
-      {
-        "tarih": "2026-10-11",
-        "klasor": "2026-10-10-bambu-r1-tanitim"
-      },
-      {
-        "tarih": "2026-10-12",
-        "klasor": "2026-10-14-sunlu-filadryer"
-      },
-      {
-        "tarih": "2026-10-13",
-        "klasor": "2026-10-15-sunlu-ams-heater"
-      },
-      {
-        "tarih": "2026-10-14",
-        "klasor": "2026-10-16-phaetus-liber-u1"
-      },
-      {
-        "tarih": "2026-10-15",
-        "klasor": "2026-10-17-polymaker-ht-pla"
-      },
-      {
-        "tarih": "2026-10-16",
-        "klasor": "2026-10-18-bambu-h-serisi-pano"
-      },
-      {
-        "tarih": "2026-10-17",
-        "klasor": "2026-10-16-sunlu-filament-pano"
-      }
-    ],
-    "beklemede": [
-      {
-        "klasor": "2026-10-11-ender-v3-mega-tanitim",
-        "sebep": "Creality'nin hicbir kendi kaynaginda 'Ender-3 V3 Mega' diye bir model yok (creality.com, store.creality.com, creality.cn, crealitycloud.com arandi). Gonderideki 420x420x420 mm, 500 mm/s ve 1.150 W degerleri yalnizca ucuncu taraf SEO sitelerinde geciyor. Ilhan onay verene kadar yayina alinmayacak. Gercek muadili: Ender-3 V4 Combo, 220x220x235 mm, 500 mm/s, 12.000 mm/s2, CFS dahil, 399 USD."
-      }
-    ]
+  {
+   "tarih": "2026-09-29",
+   "slot": "elektronik",
+   "konu": 3,
+   "klasor": "2026-09-29-pullup-direnci"
+  },
+  {
+   "tarih": "2026-09-29",
+   "slot": "proje",
+   "konu": 1,
+   "klasor": "2026-09-29-atlas"
+  },
+  {
+   "tarih": "2026-09-30",
+   "slot": "3dbaski",
+   "konu": 2,
+   "klasor": "2026-09-30-katman-yuksekligi"
+  },
+  {
+   "tarih": "2026-09-30",
+   "slot": "elektronik",
+   "konu": 4,
+   "klasor": "2026-09-30-i2c-calismiyor"
+  },
+  {
+   "tarih": "2026-09-30",
+   "slot": "proje",
+   "konu": 3,
+   "klasor": "2026-09-30-katir-ugv"
+  },
+  {
+   "tarih": "2026-10-01",
+   "slot": "3dbaski",
+   "konu": 3,
+   "klasor": "2026-10-01-bambu-a2l"
+  },
+  {
+   "tarih": "2026-10-01",
+   "slot": "elektronik",
+   "konu": 2,
+   "klasor": "2026-10-01-role-mi-mosfet-mi"
+  },
+  {
+   "tarih": "2026-10-01",
+   "slot": "proje",
+   "konu": 2,
+   "klasor": "2026-10-01-atolye-duzeni"
+  },
+  {
+   "tarih": "2026-10-02",
+   "slot": "3dbaski",
+   "konu": 4,
+   "klasor": "2026-10-02-dolgu-orani"
+  },
+  {
+   "tarih": "2026-10-02",
+   "slot": "proje",
+   "konu": 10,
+   "klasor": "2026-10-02-sk-3d-toplulugu"
+  },
+  {
+   "tarih": "2026-10-02",
+   "slot": "elektronik",
+   "konu": 5,
+   "klasor": "2026-10-02-mosfet-rdson"
+  },
+  {
+   "tarih": "2026-10-03",
+   "slot": "3dbaski",
+   "konu": 5,
+   "klasor": "2026-10-03-duvar-sayisi"
+  },
+  {
+   "tarih": "2026-10-03",
+   "slot": "elektronik",
+   "konu": 6,
+   "klasor": "2026-10-03-debounce"
+  },
+  {
+   "tarih": "2026-10-03",
+   "slot": "proje",
+   "konu": 4,
+   "klasor": "2026-10-03-bakim-takvimi"
+  },
+  {
+   "tarih": "2026-10-04",
+   "slot": "3dbaski",
+   "konu": 6,
+   "klasor": "2026-10-04-parca-yonu"
+  },
+  {
+   "tarih": "2026-10-04",
+   "slot": "elektronik",
+   "konu": 7,
+   "klasor": "2026-10-04-iot-kavramlari"
+  },
+  {
+   "tarih": "2026-10-04",
+   "slot": "proje",
+   "konu": 5,
+   "klasor": "2026-10-04-arama-kurtarma-roveri"
+  },
+  {
+   "tarih": "2026-10-05",
+   "slot": "3dbaski",
+   "konu": 7,
+   "klasor": "2026-10-05-destek-yapisi"
+  },
+  {
+   "tarih": "2026-10-05",
+   "slot": "elektronik",
+   "konu": 9,
+   "klasor": "2026-10-05-usbc-cc-direnci"
+  },
+  {
+   "tarih": "2026-10-05",
+   "slot": "proje",
+   "konu": 6,
+   "klasor": "2026-10-05-maliyet-hesabi"
+  },
+  {
+   "tarih": "2026-10-06",
+   "slot": "3dbaski",
+   "konu": 8,
+   "klasor": "2026-10-06-bambu-r1-lazer"
+  },
+  {
+   "tarih": "2026-10-06",
+   "slot": "elektronik",
+   "konu": 10,
+   "klasor": "2026-10-06-bypass-kondansatoru"
+  },
+  {
+   "tarih": "2026-10-06",
+   "slot": "proje",
+   "konu": 7,
+   "klasor": "2026-10-06-rover-v2"
+  },
+  {
+   "tarih": "2026-10-07",
+   "slot": "3dbaski",
+   "konu": 9,
+   "klasor": "2026-10-07-stringing"
+  },
+  {
+   "tarih": "2026-10-07",
+   "slot": "elektronik",
+   "konu": 11,
+   "klasor": "2026-10-07-5v-33v-seviye"
+  },
+  {
+   "tarih": "2026-10-07",
+   "slot": "proje",
+   "konu": 8,
+   "klasor": "2026-10-07-model-kaynaklari"
+  },
+  {
+   "tarih": "2026-10-08",
+   "slot": "3dbaski",
+   "konu": 10,
+   "klasor": "2026-10-08-warping"
+  },
+  {
+   "tarih": "2026-10-08",
+   "slot": "elektronik",
+   "konu": 12,
+   "klasor": "2026-10-08-motor-reset"
+  },
+  {
+   "tarih": "2026-10-08",
+   "slot": "proje",
+   "konu": 9,
+   "klasor": "2026-10-08-atolye-aletleri"
+  },
+  {
+   "tarih": "2026-10-09",
+   "slot": "3dbaski",
+   "konu": 11,
+   "klasor": "2026-10-09-elephant-foot"
+  },
+  {
+   "tarih": "2026-10-09",
+   "slot": "elektronik",
+   "konu": 13,
+   "klasor": "2026-10-09-buck-isinmasi"
+  },
+  {
+   "tarih": "2026-10-09",
+   "slot": "proje",
+   "konu": 11,
+   "klasor": "2026-10-09-basarisiz-baski-arsivi"
+  },
+  {
+   "tarih": "2026-10-10",
+   "slot": "3dbaski",
+   "konu": 12,
+   "klasor": "2026-10-10-filament-kurutma"
+  },
+  {
+   "tarih": "2026-10-10",
+   "slot": "elektronik",
+   "konu": 14,
+   "klasor": "2026-10-10-tp4056-sarj"
+  },
+  {
+   "tarih": "2026-10-10",
+   "slot": "proje",
+   "konu": 12,
+   "klasor": "2026-10-10-fusion-onshape"
+  },
+  {
+   "tarih": "2026-10-11",
+   "slot": "3dbaski",
+   "konu": 13,
+   "klasor": "2026-10-11-sunlu-pla-kartelasi"
+  },
+  {
+   "tarih": "2026-10-11",
+   "slot": "elektronik",
+   "konu": 15,
+   "klasor": "2026-10-11-jetson-orin-nano"
+  },
+  {
+   "tarih": "2026-10-11",
+   "slot": "proje",
+   "konu": 13,
+   "klasor": "2026-10-11-musteriye-fiyat"
+  },
+  {
+   "tarih": "2026-10-12",
+   "slot": "3dbaski",
+   "konu": 14,
+   "klasor": "2026-10-12-yapisma-yuzeyleri"
+  },
+  {
+   "tarih": "2026-10-12",
+   "slot": "elektronik",
+   "konu": 16,
+   "klasor": "2026-10-12-deep-sleep-akim"
+  },
+  {
+   "tarih": "2026-10-12",
+   "slot": "proje",
+   "konu": 14,
+   "klasor": "2026-10-12-urun-fotografi"
+  },
+  {
+   "tarih": "2026-10-13",
+   "slot": "3dbaski",
+   "konu": 15,
+   "klasor": "2026-10-13-nozzle-capi"
+  },
+  {
+   "tarih": "2026-10-13",
+   "slot": "elektronik",
+   "konu": 17,
+   "klasor": "2026-10-13-optokuplor"
+  },
+  {
+   "tarih": "2026-10-13",
+   "slot": "proje",
+   "konu": 15,
+   "klasor": "2026-10-13-olcu-dogrulama"
   }
+ ],
+ "yayinlanmis_disarida": [
+  {
+   "konu": "2026'nın en iyi 8 IoT geliştirme kartı",
+   "slot": "elektronik",
+   "no": 1
+  },
+  {
+   "konu": "Voltaj bölücü ile sensör okumak neden yanıltır",
+   "slot": "elektronik",
+   "no": 8
+  }
+ ],
+ "kuyruk_bekleyen": {
+  "not": "11-17 Ekim · gunde 4 gonderi + 4 hikaye + 1 reels. Saat izgarasi sira.py icinde, liste YAYIN-LISTESI.md. Yayin otomatik: otomasyon/yayinla.py GitHub Actions'ta 20 dakikada bir bakip vakti geleni Instagram Graph API ile atiyor, defter otomasyon/yayinlanan.json. Calismasi icin depoda IG_USER_ID ve IG_TOKEN secret'lari olmali (otomasyon/YAYIN-KURULUM.md); onlar yoksa hicbir sey yayinlanmaz. Kareler JPEG, reels'te sessiz AAC yolu var - Graph API ikisini de sart kosuyor. Metricool kotasi dolu, o yol kullanilmiyor. 2026-10-11-ender-v3-mega-tanitim beklemede, bkz. 'beklemede'.",
+  "slotlar": [
+   {
+    "tarih": "2026-10-11",
+    "slot": "3dbaski",
+    "klasor": "2026-10-11-sunlu-pla-kartelasi"
+   },
+   {
+    "tarih": "2026-10-11",
+    "slot": "elektronik",
+    "klasor": "2026-10-11-jetson-orin-nano"
+   },
+   {
+    "tarih": "2026-10-11",
+    "slot": "urun",
+    "klasor": "2026-10-10-bambu-r1-tanitim"
+   },
+   {
+    "tarih": "2026-10-11",
+    "slot": "proje",
+    "klasor": "2026-10-11-musteriye-fiyat"
+   },
+   {
+    "tarih": "2026-10-12",
+    "slot": "3dbaski",
+    "klasor": "2026-10-12-yapisma-yuzeyleri"
+   },
+   {
+    "tarih": "2026-10-12",
+    "slot": "elektronik",
+    "klasor": "2026-10-12-deep-sleep-akim"
+   },
+   {
+    "tarih": "2026-10-12",
+    "slot": "urun",
+    "klasor": "2026-10-14-sunlu-filadryer"
+   },
+   {
+    "tarih": "2026-10-12",
+    "slot": "proje",
+    "klasor": "2026-10-12-urun-fotografi"
+   },
+   {
+    "tarih": "2026-10-13",
+    "slot": "3dbaski",
+    "klasor": "2026-10-16-sunlu-filament-pano"
+   },
+   {
+    "tarih": "2026-10-13",
+    "slot": "elektronik",
+    "klasor": "2026-10-13-optokuplor"
+   },
+   {
+    "tarih": "2026-10-13",
+    "slot": "urun",
+    "klasor": "2026-10-15-sunlu-ams-heater"
+   },
+   {
+    "tarih": "2026-10-13",
+    "slot": "proje",
+    "klasor": "2026-10-13-olcu-dogrulama"
+   },
+   {
+    "tarih": "2026-10-14",
+    "slot": "3dbaski",
+    "klasor": "2026-10-13-nozzle-capi"
+   },
+   {
+    "tarih": "2026-10-14",
+    "slot": "elektronik",
+    "klasor": "2026-10-14-lipo-bms"
+   },
+   {
+    "tarih": "2026-10-14",
+    "slot": "urun",
+    "klasor": "2026-10-16-phaetus-liber-u1"
+   },
+   {
+    "tarih": "2026-10-14",
+    "slot": "proje",
+    "klasor": "2026-10-14-siparis-sorulari"
+   },
+   {
+    "tarih": "2026-10-15",
+    "slot": "3dbaski",
+    "klasor": "2026-10-18-filament-kurutucu-pano"
+   },
+   {
+    "tarih": "2026-10-15",
+    "slot": "elektronik",
+    "klasor": "2026-10-15-h-koprusu"
+   },
+   {
+    "tarih": "2026-10-15",
+    "slot": "urun",
+    "klasor": "2026-10-17-polymaker-ht-pla"
+   },
+   {
+    "tarih": "2026-10-15",
+    "slot": "proje",
+    "klasor": "2026-10-15-3d-tarayici"
+   },
+   {
+    "tarih": "2026-10-16",
+    "slot": "3dbaski",
+    "klasor": "2026-10-18-bambu-h-serisi-pano"
+   },
+   {
+    "tarih": "2026-10-16",
+    "slot": "elektronik",
+    "klasor": "2026-10-16-gelistirme-karti-pano"
+   },
+   {
+    "tarih": "2026-10-16",
+    "slot": "urun",
+    "klasor": "2026-10-21-u1-k3-pano"
+   },
+   {
+    "tarih": "2026-10-16",
+    "slot": "proje",
+    "klasor": "2026-10-20-pixhawk-pano"
+   },
+   {
+    "tarih": "2026-10-17",
+    "slot": "3dbaski",
+    "klasor": "2026-10-19-bambu-a-serisi-pano"
+   },
+   {
+    "tarih": "2026-10-17",
+    "slot": "elektronik",
+    "klasor": "2026-10-17-esp32-ailesi-pano"
+   },
+   {
+    "tarih": "2026-10-17",
+    "slot": "urun",
+    "klasor": "2026-10-20-sparkx-i7-i8-pano"
+   },
+   {
+    "tarih": "2026-10-17",
+    "slot": "proje",
+    "klasor": "2026-10-21-pi-kamera-pano"
+   }
+  ],
+  "reels": [
+   {
+    "tarih": "2026-10-11",
+    "klasor": "2026-10-10-bambu-r1-tanitim"
+   },
+   {
+    "tarih": "2026-10-12",
+    "klasor": "2026-10-14-sunlu-filadryer"
+   },
+   {
+    "tarih": "2026-10-13",
+    "klasor": "2026-10-15-sunlu-ams-heater"
+   },
+   {
+    "tarih": "2026-10-14",
+    "klasor": "2026-10-16-phaetus-liber-u1"
+   },
+   {
+    "tarih": "2026-10-15",
+    "klasor": "2026-10-17-polymaker-ht-pla"
+   },
+   {
+    "tarih": "2026-10-16",
+    "klasor": "2026-10-18-bambu-h-serisi-pano"
+   },
+   {
+    "tarih": "2026-10-17",
+    "klasor": "2026-10-16-sunlu-filament-pano"
+   }
+  ],
+  "beklemede": [
+   {
+    "klasor": "2026-10-11-ender-v3-mega-tanitim",
+    "sebep": "Creality'nin hicbir kendi kaynaginda 'Ender-3 V3 Mega' diye bir model yok (creality.com, store.creality.com, creality.cn, crealitycloud.com arandi). Gonderideki 420x420x420 mm, 500 mm/s ve 1.150 W degerleri yalnizca ucuncu taraf SEO sitelerinde geciyor. Ilhan onay verene kadar yayina alinmayacak. Gercek muadili: Ender-3 V4 Combo, 220x220x235 mm, 500 mm/s, 12.000 mm/s2, CFS dahil, 399 USD."
+   }
+  ]
+ }
 }

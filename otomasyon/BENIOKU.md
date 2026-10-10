@@ -1,4 +1,15 @@
-# Otomasyon — ürün görselleri
+# Otomasyon
+
+Bu klasörde iki iş akışı var:
+
+- **Ürün görselleri** (`cek.py`) — satıcı sayfalarından ürün karesi
+  indirip arka planını kesiyor. Aşağısı bunu anlatıyor.
+- **Yayın** (`yayinla.py`) — kuyruktaki gönderi, hikaye ve reels'i
+  Instagram Graph API ile kendisi yayınlıyor. Kurulum ve çalışma
+  biçimi `YAYIN-KURULUM.md` içinde. Hattın tamamı hazır; eksik olan
+  tek şey `IG_USER_ID` ve `IG_TOKEN` secret'ları.
+
+## Ürün görselleri
 
 Claude'un çalıştığı kutu `sermenkreatif.com`, `filamentdepom.com` ve
 görsellerin durduğu `static.ticimax.cloud` adreslerine çıkamıyor; üçü de

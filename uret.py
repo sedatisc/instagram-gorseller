@@ -14,6 +14,32 @@ from cizim import kutu, yuzey, golge
 HERE = os.path.dirname(os.path.abspath(__file__))
 F = os.path.join(HERE, "fonts") + "/"
 
+
+def _srgb():
+    """Instagram renk profilini yorumlamıyor; etiketsiz kare başka cihazda
+    sönük çıkıyor. sRGB profilini kareye gömüyoruz."""
+    try:
+        from PIL import ImageCms
+        return ImageCms.ImageCmsProfile(ImageCms.createProfile("sRGB")).tobytes()
+    except Exception:
+        return None
+
+
+SRGB = _srgb()
+
+
+def yaz(img, yol):
+    """Kareyi diske yaz. Tek çıkış noktası burası.
+
+    JPEG zorunlu: Instagram Graph API'si /media ucuna verilen görselde
+    yalnız JPEG kabul ediyor, PNG'de kap oluşturma hata veriyor. Bu yüzden
+    uzantı ne verilirse verilsin .jpg olarak yazılıyor.
+    """
+    kok = os.path.splitext(yol)[0] + ".jpg"
+    img.convert("RGB").save(kok, "JPEG", quality=92, subsampling=0,
+                            optimize=True, icc_profile=SRGB)
+    return kok
+
 W, H = 1080, 1350
 GUT = 62
 RIGHT = W - GUT
@@ -744,7 +770,7 @@ def kapak_rakam(spec, sayac, yol):
         ty += 46
 
     _rozetler(img, d, spec)
-    img.convert("RGB").save(yol)
+    yaz(img, yol)
 
 
 def kapak_carpisma(spec, sayac, yol):
@@ -808,7 +834,7 @@ def kapak_carpisma(spec, sayac, yol):
         ty += 46
 
     _rozetler(img, d, spec)
-    img.convert("RGB").save(yol)
+    yaz(img, yol)
 
 
 def kapak_yakin(spec, sayac, yol):
@@ -852,7 +878,7 @@ def kapak_yakin(spec, sayac, yol):
         ty += 46
 
     _rozetler(img, d, spec)
-    img.convert("RGB").save(yol)
+    yaz(img, yol)
 
 
 def ikon(d, ad, cx, cy, s, col):
@@ -1206,7 +1232,7 @@ def kapak_izgara(spec, sayac, yol):
                 _kart(img, GUT + j * (gen + bosluk), cy, gen, yuk, k)
         cy += yuk + bosluk
 
-    img.convert("RGB").save(yol)
+    yaz(img, yol)
 
 
 GORSEL_DIZIN = os.path.join(HERE, "gorsel")
@@ -1350,7 +1376,7 @@ def kapak_liste(spec, sayac, yol):
         else:
             d.text((tx, cy), isim, font=fi, fill=FG(), anchor="lm")
 
-    img.convert("RGB").save(yol)
+    yaz(img, yol)
 
 
 # --------------------------------------------------------- ürün fotoğrafı
@@ -1546,7 +1572,7 @@ def kapak_urun(spec, sayac, yol):
         y += 14
     if oz:
         _ozet_serit(img, oz, y)
-    img.convert("RGB").save(yol)
+    yaz(img, yol)
 
 
 def adim_foto(spec, no, toplam, sayac, yol):
@@ -1606,7 +1632,7 @@ def adim_foto(spec, no, toplam, sayac, yol):
                 fi = pop(fi.size - 1, "Medium")
             dd.text((RIGHT - 26, t + h / 2), P(v), font=fi, fill=FG(),
                     anchor="rm")
-    img.convert("RGB").save(yol)
+    yaz(img, yol)
 
 
 def hikaye_urun(spec, yol):
@@ -1686,7 +1712,7 @@ def hikaye_urun(spec, yol):
               fill=BY)
     d.text((GUT, by + 128), "profilde yeni gönderi", font=pop(28),
            fill=(176, 188, 206), anchor="lm")
-    img.convert("RGB").save(yol)
+    yaz(img, yol)
 
 
 def kapak(spec, sayac, yol):
@@ -1728,7 +1754,7 @@ def kapak(spec, sayac, yol):
     for px, pw, metin, col in boxes:
         d.ellipse([px + 26, 1222, px + 42, 1238], fill=col)
         d.text((px + 58, 1230), metin, font=fx, fill=FG2(), anchor="lm")
-    img.convert("RGB").save(yol)
+    yaz(img, yol)
 
 
 def adim(spec, govde_fn, no, toplam, sayac, yol):
@@ -1762,7 +1788,7 @@ def adim(spec, govde_fn, no, toplam, sayac, yol):
     ph = min(556, 1244 - py)
     kart = panel(956, ph, govde_fn, spec.get("vurgu"))
     place(img, kart, GUT, py + (ph - kart.height) // 2)
-    img.convert("RGB").save(yol)
+    yaz(img, yol)
 
 
 def kapanis(spec, sayac, yol):
@@ -1820,7 +1846,7 @@ def kapanis(spec, sayac, yol):
         for ln in satir[:2]:
             d.text((GUT, ny), ln, font=fn, fill=SOFT(), anchor="lm")
             ny += fn.size + 8
-    img.convert("RGB").save(yol)
+    yaz(img, yol)
 
 
 def hikaye(spec, yol):
@@ -1910,7 +1936,7 @@ def hikaye(spec, yol):
               fill=BY)
     d.text((GUT, by + 128), "profilde yeni gönderi", font=pop(28),
            fill=SOFT(), anchor="lm")
-    img.convert("RGB").save(yol)
+    yaz(img, yol)
 
 
 def main():
@@ -1929,11 +1955,11 @@ def main():
      "yakin": kapak_yakin, "izgara": kapak_izgara,
      "liste": kapak_liste, "urun": kapak_urun,
      "pano": kapak_pano}.get(tip, kapak)(
-        spec["kapak"], "%d/%d" % (n, toplam), os.path.join(out, "%d.png" % n))
+        spec["kapak"], "%d/%d" % (n, toplam), os.path.join(out, "%d.jpg" % n))
     ortak = govde(spec["kapak"])
     for i, sl in enumerate(slaytlar, 1):
         n += 1
-        hedef = os.path.join(out, "%d.png" % n)
+        hedef = os.path.join(out, "%d.jpg" % n)
         if sl.get("foto"):
             adim_foto(sl, i, len(slaytlar), "%d/%d" % (n, toplam), hedef)
             continue
@@ -1943,9 +1969,9 @@ def main():
     if spec.get("kapanis"):
         n += 1
         kapanis(spec["kapanis"], "%d/%d" % (n, toplam),
-                os.path.join(out, "%d.png" % n))
+                os.path.join(out, "%d.jpg" % n))
     hik = {"urun": hikaye_urun, "pano": hikaye_pano}.get(tip, hikaye)
-    hik(spec["kapak"], os.path.join(out, "hikaye.png"))
+    hik(spec["kapak"], os.path.join(out, "hikaye.jpg"))
 
     eksik = sorted({a for a in [spec["kapak"].get("gorsel")] +
                     [s.get("foto") for s in slaytlar]
@@ -2141,7 +2167,7 @@ def kapak_pano(spec, sayac, yol):
            fill=(226, 233, 244), anchor="lm")
     d.text((RIGHT, 1316), "sermenkreatif.com", font=mono(19, True),
            fill=AC(), anchor="rm")
-    img.convert("RGB").save(yol)
+    yaz(img, yol)
 
 
 def hikaye_pano(spec, yol):
@@ -2217,7 +2243,7 @@ def hikaye_pano(spec, yol):
               fill=UZER(BC))
     d.text((GUT, by + 128), "profilde yeni gönderi", font=pop(26),
            fill=(120, 130, 148), anchor="lm")
-    img.convert("RGB").save(yol)
+    yaz(img, yol)
 
 
 if __name__ == "__main__":

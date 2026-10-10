@@ -351,11 +351,15 @@ def main():
     tk = int(toplam * FPS)
 
     ff = subprocess.Popen(
+        # Sessiz AAC yolu zorunlu: Instagram reels kabında ses akışı
+        # olmayan dosyayı reddediyor (Graph API media_type=REELS).
         ["ffmpeg", "-y", "-loglevel", "error",
          "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", "%dx%d" % (SW, SH),
          "-r", str(FPS), "-i", "-",
+         "-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100",
          "-c:v", "libx264", "-preset", "medium", "-crf", "20",
-         "-pix_fmt", "yuv420p", "-movflags", "+faststart", cikti],
+         "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "128k",
+         "-shortest", "-movflags", "+faststart", cikti],
         stdin=subprocess.PIPE)
 
     gecen = 0.0

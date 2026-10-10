@@ -14,7 +14,11 @@ Her gönderinin **bir de hikayesi** var: gönderiden 40 dakika sonra yayınlanan
 - Zaman dilimi: `Europe/Istanbul`
 - Instagram: `@sermenkreatif` (işletme hesabı, Facebook sayfasına bağlı)
 - Görsel barındırma: bu depo. Adres kalıbı:
-  `https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/<klasör>/<n>.png`
+  `https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/<klasör>/<n>.jpg`
+- **Çıktı biçimi JPEG.** Instagram Graph API'si `/media` ucunda yalnız JPEG
+  kabul ediyor, PNG'de kap oluşturma hata veriyor; reels kabında da ses
+  akışı zorunlu. `uret.py` sRGB profilli JPEG yazıyor (`yaz()`), `reels.py`
+  videoya sessiz AAC yolu ekliyor. PNG yazan bir yol açma.
 
 ## Ortam
 
@@ -32,7 +36,7 @@ Her gönderinin **bir de hikayesi** var: gönderiden 40 dakika sonra yayınlanan
 ```
 python3 uret.py <spec.json> <YYYY-AA-GG-slug>/
 ```
-Slaytlar `1.png`, `2.png` … diye çıkar. Slayt sayısı `PLAN.md`'deki tür sütununa uyacak: rehber 4, liste ise başlıktaki sayı + kapak + kapanış.
+Slaytlar `1.jpg`, `2.jpg` … diye çıkar. Slayt sayısı `PLAN.md`'deki tür sütununa uyacak: rehber 4, liste ise başlıktaki sayı + kapak + kapanış.
 
 **4b. Spec'i sakla.** Yazdığın spec JSON'unu gönderi klasörüne `spec.json` olarak koy. Sonradan yeniden üretmek gerekirse bu şart.
 
@@ -73,7 +77,34 @@ Sıra, fotoğraf durumu ve veriyle ilgili uyarılar `cihazlar/BENIOKU.md` dosyas
 
 **5. Depoya yükle.** Klasörü commit edip push et. Sonra her adresi `curl -sI` ile doğrula, hepsi 200 dönmeli.
 
-**6. Kuyruğa ekle.** Her konu için **iki** kayıt açılıyor: gönderi, sonra hikayesi.
+**6. Kuyruğa ekle.** Kuyruk `DURUM.json` → `kuyruk_bekleyen` içinde:
+`slotlar` listesine `{"tarih", "slot", "klasor"}`, reels gerekiyorsa
+`reels` listesine `{"tarih", "klasor"}`. Sonra `python3 sira.py` çalıştır —
+saat ızgarasını uygulayıp `YAYIN-LISTESI.md`'yi yeniden üretiyor.
+
+Yayını **`otomasyon/yayinla.py` yapıyor**: GitHub Actions 20 dakikada bir
+bakıyor, ızgaradaki saati gelen gönderiyi/hikayeyi/reels'i Instagram Graph
+API ile kendisi atıyor ve `otomasyon/yayinlanan.json` defterine yazıyor.
+Ayrıntı: `otomasyon/YAYIN-KURULUM.md`.
+
+Kuyruğa eklemeden önce **kuru çalışma ile doğrula**:
+
+```
+python3 otomasyon/yayinla.py --kuru --zorla "2026-10-11|3dbaski|gonderi"
+```
+
+Kare sayısı, metin uzunluğu ve adresler doğru çıkmalı. `metin.md` yoksa ya
+da klasörde `.jpg` kare yoksa kuru çalışma hata veriyor — yayın anında
+değil, şimdi görülmesi gereken hata budur.
+
+Üretilen her şey **JPEG** olacak (uret.py zaten böyle yazıyor) ve reels'in
+**ses yolu** olacak (reels.py zaten ekliyor). Graph API PNG'yi ve sessiz
+kabı reddediyor; elle dosya koyarken bunu bozma.
+
+### Metricool (yedek yol, şu an kullanılmıyor)
+
+Kota dolu olduğu için Metricool'dan planlama yapılmıyor. Kota açılırsa
+aynı kuyruk oradan da planlanabilir; kayıt biçimi şöyleydi.
 
 Gönderi — `createScheduledPost` ile:
 - `media`: raw adresler, slayt sırasıyla
@@ -85,7 +116,7 @@ Gönderi — `createScheduledPost` ile:
 - `firstCommentText`: konuyu bir adım ileri taşıyan tek cümle
 
 Hikaye — aynı araçla, gönderiden **40 dakika sonrasına**:
-- `media`: yalnız `hikaye.png` adresi
+- `media`: yalnız `hikaye.jpg` adresi
 - `mediaAltText`: tek satır
 - `instagramData`: `{"type": "STORY"}`
 - `text` **gönderme** — hikayede açıklama alanı yok, tek ağ hikayeyse metin hata veriyor
@@ -194,7 +225,7 @@ Sabit olanlar:
 
 Bunlar sabittir. Kapak düzeni, zemin ve kompozisyon değişkendir — her gönderi aynı görünmemeli.
 
-**Ürettikten sonra kontrol et.** Her gönderinin 1. slaydını, son slaydını ve `hikaye.png` dosyasını `Read` ile aç ve bak: yazı taşmış mı, öğeler üst üste binmiş mi, etiket kırpılmış mı, panel boş mu duruyor. Sorun varsa spec'i düzelt ve yeniden üret. Kontrol etmeden kuyruğa ekleme.
+**Ürettikten sonra kontrol et.** Her gönderinin 1. slaydını, son slaydını ve `hikaye.jpg` dosyasını `Read` ile aç ve bak: yazı taşmış mı, öğeler üst üste binmiş mi, etiket kırpılmış mı, panel boş mu duruyor. Sorun varsa spec'i düzelt ve yeniden üret. Kontrol etmeden kuyruğa ekleme.
 
 ## Metin kuralları
 

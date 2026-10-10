@@ -3,7 +3,7 @@
 
 Kullanım:  python3 hikaye_kapaktan.py <klasor> <kategori>
 Spec JSON'u elde olmayan eski gönderiler için. Yeni gönderilerde
-uret.py zaten hikaye.png üretiyor, bunu kullanma.
+uret.py zaten hikaye.jpg üretiyor, bunu kullanma.
 """
 import os
 import sys
@@ -21,7 +21,10 @@ def main():
     theme(kategori)
     acc, label = uret.ACC, uret.LABEL
 
-    kapak = Image.open(os.path.join(klasor, "1.png")).convert("RGBA")
+    ilk = os.path.join(klasor, "1.jpg")
+    if not os.path.exists(ilk):
+        ilk = os.path.join(klasor, "1.png")
+    kapak = Image.open(ilk).convert("RGBA")
     img = Image.new("RGBA", (SW, SH), BG + (255,))
 
     def bands(d):
@@ -69,9 +72,7 @@ def main():
     d.text((GUT, by + 128), "profilde yeni gönderi", font=pop(28), fill=MUTE,
            anchor="lm")
 
-    yol = os.path.join(klasor, "hikaye.png")
-    img.convert("RGB").save(yol)
-    print(yol)
+    print(uret.yaz(img, os.path.join(klasor, "hikaye.jpg")))
 
 
 if __name__ == "__main__":
