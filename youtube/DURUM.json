@@ -1,5 +1,5 @@
 {
- "kanal": "@sermenkreatif",
+ "kanal": "Sermen Kreatif Teknolojileri",
  "bicim": "Shorts · 1080 × 1920 · 23 sn · dikey",
  "saat": "18:20",
  "not": "YouTube kuyrugu Instagram'dan ayri. Video ayni uretim hattindan cikiyor (reels.mp4) ama baslik, aciklama ve sira burada. Kurallar youtube/PLAN.md, hat otomasyon/youtube.py.",
@@ -160,5 +160,7 @@
   "2026-10-18-bambu-h-serisi-pano",
   "2026-10-16-sunlu-filament-pano",
   "2026-10-18-ender-3-v4-combo"
- ]
+ ],
+ "kanal_id": "UCEwu_2EOMmS5AuRRulxVnag",
+ "kanal_adres": "https://www.youtube.com/channel/UCEwu_2EOMmS5AuRRulxVnag"
 }

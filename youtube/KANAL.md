@@ -1,5 +1,10 @@
 # Kanal kurulumu
 
+**Kanal:** Sermen Kreatif Teknolojileri
+**Kimlik:** `UCEwu_2EOMmS5AuRRulxVnag`
+**Kullanıcı adı:** @SermenKreatifTeknolojileri
+**Adres:** https://www.youtube.com/channel/UCEwu_2EOMmS5AuRRulxVnag
+
 Görseller `youtube/gorsel/` altında, `arac/youtube_kanal.py` üretiyor.
 Metinler aşağıda olduğu gibi yapıştırılacak.
 
@@ -12,11 +17,35 @@ Metinler aşağıda olduğu gibi yapıştırılacak.
 Banner'da yazı ve logo ortadaki 1235 × 338'lik alanda; televizyonda
 kenarlar kırpılıyor, telefonda yalnız o alan görünüyor.
 
+## Hangisini ben yapabiliyorum
+
+Anahtarlar depoya girdikten sonra API ile **ben** yapabiliyorum:
+
+| İş | Uç | Kota |
+|---|---|---|
+| Hakkında metni | `channels.update` → `brandingSettings.channel.description` | 50 |
+| Anahtar kelimeler | `channels.update` → `brandingSettings.channel.keywords` | 50 |
+| Banner | `channelBanners.insert` sonra `channels.update` → `bannerExternalUrl` | 50 + 50 |
+
+**Elle yapılacaklar — API'de yok:**
+
+- **Kanal adı.** `channels.update` adı değiştirmeyi reddediyor
+  (`channelTitleUpdateForbidden`); YouTube Studio'dan değişiyor.
+- **Kullanıcı adı (@handle).** API'de yok.
+- **Profil fotoğrafı.** API'de yok.
+- **Oynatma listeleri ve bölümler.** API'de var ama elle yapmak daha hızlı.
+
 ## Künye
 
-**Kanal adı:** Sermen Kreatif
-**Kullanıcı adı:** @sermenkreatif (Instagram'la aynı olsun; doluysa
-`@sermenkreatif3d`)
+**Kanal adı:** "Sermen Kreatif Teknolojileri" duruyor. Önerim
+**"Sermen Kreatif"** — mağaza ve Instagram'la aynı, videoda söylerken
+kısa. Ar-Ge/yazılım tarafı için yeni bir firma adı arıyorsun; o iş
+netleşince ayrı kanal açılır, bu kanal mağazanın kanalı olarak kalır.
+
+**Kullanıcı adı:** @SermenKreatifTeknolojileri uzun. Boşsa
+**@sermenkreatif** alınsın — Instagram'la aynı olması hem akılda kalıyor
+hem videoda "sermenkreatif" demek yetiyor. YouTube kullanıcı adı
+değişikliğinde sınır koyuyor, bir kerede doğrusunu al.
 
 **Hakkında** (Kanalı özelleştir → Temel bilgiler → Açıklama):
 
@@ -120,10 +149,13 @@ kütüphanesinden müzik eklemek (elle, yükleme sonrası), (c) seslendirme.
 
 ## Sıra
 
-1. Kanalı aç ya da var olanı düzenle, kullanıcı adını al.
-2. Üç görseli yükle, künye metnini ve anahtar kelimeleri yapıştır.
-3. Yükleme varsayılanlarını ayarla.
-4. Beş oynatma listesini oluştur.
-5. `otomasyon/YOUTUBE-KURULUM.md` adımlarıyla üç anahtarı depoya koy —
-   o andan sonra günün videosu kendiliğinden yükleniyor.
-6. İlk hafta dolduktan sonra fragmanı üretip öne çıkan video yap.
+1. **Sende:** kanal adını kısalt, kullanıcı adını al, profil fotoğrafını
+   yükle (`youtube/gorsel/profil.png`).
+2. **Sende:** yükleme varsayılanlarını ayarla, beş oynatma listesini aç.
+3. **Sende:** `otomasyon/YOUTUBE-KURULUM.md` adımlarıyla üç anahtarı
+   depoya koy.
+4. **Bende:** anahtarlar girince hakkında metnini, anahtar kelimeleri ve
+   banner'ı API ile yazarım; günün videosu da 18:20'de kendiliğinden
+   yüklenmeye başlar.
+5. **Bende:** ilk hafta dolunca fragmanı üretirim, sen öne çıkan video
+   yaparsın.
