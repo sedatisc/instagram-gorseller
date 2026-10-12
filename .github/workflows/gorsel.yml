@@ -16,6 +16,10 @@ on:
         description: "Yalnız bu ürünü çek (slug). Boş bırakılırsa hepsi."
         type: string
         default: ""
+      kesfet:
+        description: "Bu adresin site haritasından ürün sayfalarını listele (görsel çekilmez)"
+        type: string
+        default: ""
   schedule:
     - cron: "17 3 * * 1"        # her pazartesi 03.17 UTC
 
@@ -49,7 +53,12 @@ jobs:
           pip install "requests>=2.32" "pillow>=10.4" \
                       "rembg==2.0.59" "onnxruntime>=1.18"
 
+      - name: Ürün sayfalarını keşfet
+        if: inputs.kesfet != ''
+        run: python3 otomasyon/cek.py --kesfet "${{ inputs.kesfet }}"
+
       - name: Görselleri çek
+        if: inputs.kesfet == ''
         env:
           U2NET_HOME: ~/.u2net
         run: |
