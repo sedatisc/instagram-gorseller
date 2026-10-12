@@ -1,0 +1,71 @@
+{
+ "kategori": "kurumsal",
+ "zemin": "koyu",
+ "kapak": {
+  "tip": "izgara",
+  "ustbilgi": "SAMSUN · 3D BASKI",
+  "satir1": "NEDEN",
+  "satir2": "SERMEN KREATİF",
+  "spot": "Mağaza, servis ve baskı hizmeti aynı yerde.",
+  "rozetler": [
+   [
+    "10+ marka",
+    "tema"
+   ],
+   [
+    "6 malzeme ailesi",
+    "tema"
+   ],
+   [
+    "Samsun'dan",
+    "tema"
+   ]
+  ],
+  "kartlar": [
+   {
+    "etiket": "MALZEME",
+    "deger": "6 aile",
+    "alt": "PLA · PETG · ABS · ASA · TPU · reçine",
+    "renk": "kirmizi",
+    "ikon": "makara"
+   },
+   {
+    "etiket": "MARKA",
+    "deger": "10+",
+    "alt": "Bambu Lab · Creality · Anycubic · Snapmaker · Phaetus",
+    "renk": "kirmizi",
+    "ikon": "kup"
+   },
+   {
+    "etiket": "YEDEK PARÇA",
+    "deger": "Aynı gün",
+    "alt": "Nozul, hotend, tabla, kaplama.",
+    "renk": "kirmizi",
+    "ikon": "nozzle"
+   },
+   {
+    "etiket": "TAKSİT",
+    "deger": "3 taksit",
+    "alt": "Vade farksız. Havale ile ödemede %3 indirim.",
+    "renk": "kirmizi",
+    "ikon": "terazi"
+   },
+   {
+    "etiket": "KARGO",
+    "deger": "2.500 ₺",
+    "alt": "Üzeri siparişte kargo bizden.",
+    "renk": "kirmizi",
+    "ikon": "kutu"
+   },
+   {
+    "etiket": "BASKI HİZMETİ",
+    "deger": "Dosyadan parçaya",
+    "alt": "Yazıcın yoksa ya da işin yetişmiyorsa: modeli gönder, parçayı al. Prototipten seri üretime.",
+    "renk": "kirmizi",
+    "ikon": "katman",
+    "genis": true
+   }
+  ]
+ },
+ "slaytlar": []
+}

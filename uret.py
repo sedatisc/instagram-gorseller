@@ -64,6 +64,9 @@ THEMES = {
     "elektronik": {"accent": (34, 211, 238), "label": "ELEKTRONİK & IoT"},
     "3dbaski": {"accent": (255, 138, 60), "label": "3D BASKI"},
     "proje": {"accent": (167, 139, 250), "label": "PROJE & ATÖLYE"},
+    # Kurumsal gönderiler: mağaza, servis ve baskı hizmeti. Markanın
+    # kendi kırmızısı, teknik kategorilerden ilk bakışta ayrılsın diye.
+    "kurumsal": {"accent": (244, 93, 90), "label": "SERMEN KREATİF"},
 }
 ACC = THEMES["elektronik"]["accent"]
 LABEL = THEMES["elektronik"]["label"]
@@ -181,9 +184,23 @@ def AC():
     return ACC
 
 
+_SADE = {"v": False}
+
+
+def sade_ayarla(v):
+    """Tek vurgu renkli (sade) mod — kurumsal gönderiler için.
+
+    Izgara kartlarındaki dev değer koyu zeminde sarı basılıyor. Teknik
+    gönderide renk ayrımı işe yarıyor; kurumsal gönderide tek renk
+    isteniyor, sarı o düzeni bozuyor."""
+    _SADE["v"] = bool(v)
+
+
 def RK(col=None):
     """Dev rakam rengi — açık zeminde kartın kendi rengi."""
     m = _mod()
+    if _SADE["v"]:
+        return WHITE if m != "acik" else (col or (12, 22, 46))
     if m == "canli":
         return WHITE
     if m == "acik":
@@ -2048,6 +2065,7 @@ def main():
     theme(spec["kategori"])
     zemin_ayarla(spec.get("zemin", spec["kapak"].get("zemin", "koyu")))
     stil_ayarla(spec.get("stil", "neon"))
+    sade_ayarla(spec.get("sade", spec["kategori"] == "kurumsal"))
 
     slaytlar = spec["slaytlar"]
     toplam = 1 + len(slaytlar) + (1 if spec.get("kapanis") else 0)
