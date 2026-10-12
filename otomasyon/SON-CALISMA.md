@@ -1,7 +1,7 @@
 # Son çalışma
 
-2026-10-10 16:47 UTC · 1 yeni · 0 hata
+2026-10-12 04:08 UTC · 1 yeni · 0 hata
 
 | Ürün | Durum | Not |
 |---|---|---|
-| creality-ender-3-v4-uretici | tamam | 1 KB · sayfadaki ilk uygun img · kesildi 148×148 |
+| cekilis-silk-blue | tamam | 101 KB · ticimax büyük kare · kesildi 338×288 |
