@@ -21,6 +21,39 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, KOK)
 import uret as U                                         # noqa: E402
 
+def makara(dosya, pay=1.07):
+    """Kareden yalnız makarayı kırp — dördü aynı çapta dursun.
+
+    Ürün kareleri farklı çerçevelenmiş, bazılarında makaranın yanında
+    basılmış bir parça duruyor. Kutu sınırına göre ölçekleyince makaralar
+    farklı boyda çıkıyordu. Makara daire olduğu için en büyük iç daireyi
+    (uzaklık dönüşümünün tepesi) buluyoruz: merkezi ve yarıçapı oradan,
+    kırpma da ona göre. Yanındaki parça bu kırpmanın dışında kalıyor.
+    """
+    import numpy as np
+    from scipy import ndimage
+    yol = os.path.join(KOK, "gorsel", "urun", "kesik-%s.png" % dosya)
+    if not os.path.exists(yol):
+        return None
+    im = Image.open(yol).convert("RGBA")
+    a = (np.asarray(im.split()[-1]) > 24).astype(np.uint8)
+    u = ndimage.distance_transform_edt(a)
+    cy, cx = np.unravel_index(int(np.argmax(u)), u.shape)
+    r = float(u.max()) * pay
+    kutu = (int(cx - r), int(cy - r), int(cx + r), int(cy + r))
+    kare = Image.new("RGBA", (kutu[2] - kutu[0], kutu[3] - kutu[1]),
+                     (0, 0, 0, 0))
+    kare.alpha_composite(im, (-kutu[0], -kutu[1]))
+    # Köşede kalan yan parça kırıntısını temizle: daire dışını sil
+    maske = Image.new("L", kare.size, 0)
+    ImageDraw.Draw(maske).ellipse([0, 0, kare.width - 1, kare.height - 1],
+                                  fill=255)
+    maske = maske.filter(ImageFilter.GaussianBlur(2))
+    alfa = kare.split()[-1].point(lambda v: v)
+    kare.putalpha(Image.composite(alfa, Image.new("L", kare.size, 0), maske))
+    return kare
+
+
 URUN = [("1 Adet", "Silk Blue", "cekilis-silk-blue"),
         ("1 Adet", "TPU · Black", "cekilis-tpu-siyah"),
         ("1 Adet", "PETG · Blue", "cekilis-petg-mavi"),
@@ -127,11 +160,22 @@ def urun_sirasi(img, ust, yuk, kucuk=False):
         d.text((cx, ust), adet, font=fk, fill=a(BEYAZ, 0.82)[:3], anchor="mm")
         d.text((cx, ust + 34), ad, font=fb, fill=BEYAZ, anchor="mm")
 
-        yol = os.path.join(KOK, "gorsel", "urun", "kesik-%s.png" % dosya)
-        if not os.path.exists(yol):
+        im = makara(dosya)
+        if im is None:                       # fotoğrafı olmayan ürün
+            taban = ust + 70 + yuk
+            cap = int(min(pay - 60, yuk * 0.82))
+            kat = Image.new("RGBA", img.size, (0, 0, 0, 0))
+            kg = ImageDraw.Draw(kat)
+            kg.ellipse([cx - cap / 2, taban - cap, cx + cap / 2, taban],
+                       outline=a(ACIK, 0.55), width=5)
+            kg.ellipse([cx - cap / 6, taban - cap * 0.66,
+                        cx + cap / 6, taban - cap * 0.34],
+                       outline=a(ACIK, 0.45), width=5)
+            kg.text((cx, taban - cap / 2 + cap * 0.42), "fotoğraf bekleniyor",
+                    font=U.pop(19, "Medium"), fill=a(BEYAZ, 0.6), anchor="mm")
+            img.alpha_composite(kat)
             continue
-        im = Image.open(yol).convert("RGBA")
-        k = min((pay - 34) / im.width, yuk / im.height)
+        k = min((pay - 44) / im.width, yuk / im.height)
         im = im.resize((max(1, int(im.width * k)), max(1, int(im.height * k))),
                        Image.LANCZOS)
         y0 = ust + 70
