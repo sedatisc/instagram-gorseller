@@ -400,7 +400,7 @@
    {
     "tarih": "2026-10-13",
     "slot": "3dbaski",
-    "klasor": "2026-10-16-sunlu-filament-pano"
+    "klasor": "2026-10-21-filament-rehberi"
    },
    {
     "tarih": "2026-10-13",
@@ -521,6 +521,11 @@
     "tarih": "2026-10-19",
     "slot": "elektronik",
     "klasor": "2026-10-13-optokuplor"
+   },
+   {
+    "tarih": "2026-10-20",
+    "slot": "3dbaski",
+    "klasor": "2026-10-16-sunlu-filament-pano"
    }
   ],
   "reels": [

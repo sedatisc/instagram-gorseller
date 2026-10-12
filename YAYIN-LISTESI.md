@@ -38,8 +38,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 08:12 | Gönderi | 3D BASKI & ÜRETİM DONANIMI | `2026-10-16-sunlu-filament-pano` | 1 |
-| 08:52 | Hikaye | 3D BASKI & ÜRETİM DONANIMI | `2026-10-16-sunlu-filament-pano/hikaye.jpg` | 1 |
+| 08:12 | Gönderi | 3D BASKI & ÜRETİM DONANIMI | `2026-10-21-filament-rehberi` | 1 |
+| 08:52 | Hikaye | 3D BASKI & ÜRETİM DONANIMI | `2026-10-21-filament-rehberi/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | ELEKTRONİK & IoT | `2026-10-13-phaetus-conch-nozul` | 4 |
 | 13:18 | Hikaye | ELEKTRONİK & IoT | `2026-10-13-phaetus-conch-nozul/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-15-sunlu-ams-heater` | 5 |
@@ -133,6 +133,17 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 19:40 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
 | 21:10 | **Reels** | — | _boş — üretilecek_ | — |
 
+## 2026-10-20 · Salı
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 08:12 | Gönderi | 3D BASKI & ÜRETİM DONANIMI | `2026-10-16-sunlu-filament-pano` | 1 |
+| 08:52 | Hikaye | 3D BASKI & ÜRETİM DONANIMI | `2026-10-16-sunlu-filament-pano/hikaye.jpg` | 1 |
+| 12:38 | — | **ELEKTRONİK & IoT** | _boş — üretilecek_ | — |
+| 17:24 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
+| 19:36 | **Reels** | — | _boş — üretilecek_ | — |
+| 20:42 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
+
 ## Boş slotlar
 
 Bu slotlar için içerik henüz üretilmedi:
@@ -141,3 +152,7 @@ Bu slotlar için içerik henüz üretilmedi:
 - 2026-10-19 · ÜRÜN & MAĞAZA
 - 2026-10-19 · PROJE & ATÖLYE
 - 2026-10-19 · REELS
+- 2026-10-20 · ELEKTRONİK & IoT
+- 2026-10-20 · ÜRÜN & MAĞAZA
+- 2026-10-20 · PROJE & ATÖLYE
+- 2026-10-20 · REELS

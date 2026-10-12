@@ -215,33 +215,11 @@ Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan payl
 
 ## 08:12 · 3D BASKI & ÜRETİM DONANIMI
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-sunlu-filament-pano/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-rehberi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-filament-rehberi/1.jpg" width="240"></a>
 
-**[2026-10-16-sunlu-filament-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano)** · 1 kare · hikaye 08:52
+**[2026-10-21-filament-rehberi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-rehberi)** · 1 kare · hikaye 08:52
 
-```
-SUNLU'nun üç filamenti arasındaki fark renk değil. Üçü de 1,75 mm ve ±0,02 mm toleranslı; ayrım nerede kullanacağında.
-
-PLA+ 2.0 » nozul 205-245 °C, tabla 50-60 °C, 50-200 mm/s. Çekme dayanımı 46±5 MPa, çentikli Izod darbe 10±3 kJ/m², ısı deformasyon sıcaklığı 56±3 °C, yoğunluk 1,21 g/cm³.
-
-Üçünün en toku bu. Darbe dayanımı mat PLA'nın iki katı. Yük taşıyan aparat, fonksiyonel parça ve günlük baskının geneli buradan.
-
-PLA Matte » nozul 205-245 °C, tabla 50-60 °C, 50-230 mm/s. Çekme 39±6 MPa, darbe 5±2 kJ/m², yoğunluk 1,31 g/cm³.
-
-Mat yüzey katman izlerini gizliyor, parçanın plastik görünümünü azaltıyor. Vitrin, hediyelik ve dekoratif obje için. Karşılığında mukavemeti PLA+ 2.0'ın altında — görünüm parçası basıyorsan sorun değil, menteşe basıyorsan sorun.
-
-PETG » nozul 240-260 °C, tabla 60-70 °C, 300 mm/s'ye kadar. Çekme 48±10 MPa, ısı deformasyon sıcaklığı 70±5 °C.
-
-Asıl farkı ısı ve kimyasal direnci. 70 °C'lik ısı dayanımı iki PLA'nın da belirgin üstünde; araç içinde yazın deforme olmuyor. Suya, asit ve alkaliye dayanıklı, dış mekânda duruyor. Darbe dayanımı düşük (3±1 kJ/m²) — sert darbe alacak parça için değil.
-
-Karar kısaca: yük taşıyacaksa PLA+ 2.0, görünecekse PLA Matte, dışarıda duracak ya da ısınacaksa PETG.
-
-Bir isim uyarısı » SUNLU'nun kataloğunda PLA+ 2.0 ile High Speed PLA+ 2.0 ayrı iki ürün; yoğunlukları, mukavemetleri ve sıcaklık bantları farklı. Buradaki rakamlar PLA+ 2.0'ın. Aynı şekilde PLA Matte ile High Speed Matte PLA da ayrı ürünler, karıştırma.
-
-PLA'yla menteşe basıp yazın deforme olduğuna şaşıran bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #sunlu #filament #makerturkiye
-```
+_metin.md yok_
 
 ## 12:38 · ELEKTRONİK & IoT
 
@@ -904,5 +882,39 @@ PC817 mikrosaniye mertebesinde yavaş; hızlı SPI için 6N137 gibi yüksek hız
 Yalıtım için optokuplör koyup iki toprağı yine birleştiren bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #elektronik #embedded #optokuplor #makerturkiye
+```
+
+---
+
+# 2026-10-20 · Salı
+
+## 08:12 · 3D BASKI & ÜRETİM DONANIMI
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-sunlu-filament-pano/1.jpg" width="240"></a>
+
+**[2026-10-16-sunlu-filament-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano)** · 1 kare · hikaye 08:52
+
+```
+SUNLU'nun üç filamenti arasındaki fark renk değil. Üçü de 1,75 mm ve ±0,02 mm toleranslı; ayrım nerede kullanacağında.
+
+PLA+ 2.0 » nozul 205-245 °C, tabla 50-60 °C, 50-200 mm/s. Çekme dayanımı 46±5 MPa, çentikli Izod darbe 10±3 kJ/m², ısı deformasyon sıcaklığı 56±3 °C, yoğunluk 1,21 g/cm³.
+
+Üçünün en toku bu. Darbe dayanımı mat PLA'nın iki katı. Yük taşıyan aparat, fonksiyonel parça ve günlük baskının geneli buradan.
+
+PLA Matte » nozul 205-245 °C, tabla 50-60 °C, 50-230 mm/s. Çekme 39±6 MPa, darbe 5±2 kJ/m², yoğunluk 1,31 g/cm³.
+
+Mat yüzey katman izlerini gizliyor, parçanın plastik görünümünü azaltıyor. Vitrin, hediyelik ve dekoratif obje için. Karşılığında mukavemeti PLA+ 2.0'ın altında — görünüm parçası basıyorsan sorun değil, menteşe basıyorsan sorun.
+
+PETG » nozul 240-260 °C, tabla 60-70 °C, 300 mm/s'ye kadar. Çekme 48±10 MPa, ısı deformasyon sıcaklığı 70±5 °C.
+
+Asıl farkı ısı ve kimyasal direnci. 70 °C'lik ısı dayanımı iki PLA'nın da belirgin üstünde; araç içinde yazın deforme olmuyor. Suya, asit ve alkaliye dayanıklı, dış mekânda duruyor. Darbe dayanımı düşük (3±1 kJ/m²) — sert darbe alacak parça için değil.
+
+Karar kısaca: yük taşıyacaksa PLA+ 2.0, görünecekse PLA Matte, dışarıda duracak ya da ısınacaksa PETG.
+
+Bir isim uyarısı » SUNLU'nun kataloğunda PLA+ 2.0 ile High Speed PLA+ 2.0 ayrı iki ürün; yoğunlukları, mukavemetleri ve sıcaklık bantları farklı. Buradaki rakamlar PLA+ 2.0'ın. Aynı şekilde PLA Matte ile High Speed Matte PLA da ayrı ürünler, karıştırma.
+
+PLA'yla menteşe basıp yazın deforme olduğuna şaşıran bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #sunlu #filament #makerturkiye
 ```
 

@@ -269,10 +269,35 @@ def ciz(spec, cikti):
     print("%s  %dx%d" % (cikti, W, H))
 
 
+def hikaye(gonderi, cikti):
+    """Hikaye sürümü: tablo olduğu gibi, koyu zemin ortasında.
+
+    Tabloyu 9:16'ya yeniden dizmek satırları inceltip okunmaz yapıyor;
+    kare olduğu gibi duruyor, hikayede zaten yakınlaştırılıp okunuyor."""
+    kare = Image.open(gonderi).convert("RGB")
+    sh = 1920
+    img = Image.new("RGB", (W, sh), (14, 18, 30))
+    o = (W - 2 * 24) / float(kare.width)
+    k = kare.resize((int(kare.width * o), int(kare.height * o)),
+                    Image.LANCZOS)
+    img.paste(k, (24, int((sh - k.height) / 2)))
+    d = ImageDraw.Draw(img)
+    d.text((W / 2, 120), "KAYDET", font=U.anton(74), fill=(255, 255, 255),
+           anchor="mm")
+    d.text((W / 2, 182), "lazım olacak", font=f_reg(30),
+           fill=(150, 164, 192), anchor="mm")
+    d.text((W / 2, sh - 110), "sermenkreatif.com", font=f_mono(28),
+           fill=(150, 164, 192), anchor="mm")
+    img.save(cikti, "JPEG", quality=92, subsampling=0, optimize=True)
+    print("%s  %dx%d" % (cikti, W, sh))
+
+
 def main():
     spec = json.load(open(sys.argv[1], encoding="utf-8"))
     U.theme(spec.get("kategori", "3dbaski"))
     ciz(spec, sys.argv[2])
+    if len(sys.argv) > 3:
+        hikaye(sys.argv[2], sys.argv[3])
 
 
 if __name__ == "__main__":
