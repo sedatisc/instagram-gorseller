@@ -58,6 +58,24 @@ Arkadaş etiketlemek isteğe bağlı. Katılım ücretsiz; link, form, ödeme yo
 Türkiye içinden, 18 yaş ve üstü. Dört makaranın hepsi tek kazanana gidiyor.
 Değerlendirmeyi sermenkreatif yapıyor, Instagram'ın seçimle ilgisi yok.
 
+## Afiş nasıl üretiliyor
+
+Kampanya kapağı normal gönderi kapaklarından ayrı: dev başlık, konfeti,
+podyumda dört ürün, kural kutusu ve alt şerit.
+
+```
+python3 uret.py 2026-10-12-cekilis-duyuru/spec.json 2026-10-12-cekilis-duyuru
+python3 arac/cekilis_afis.py 2026-10-12-cekilis-duyuru
+python3 arac/cekilis_afis.py 2026-10-15-cekilis-son-gun --son
+```
+
+**Sıra önemli:** `uret.py` 2-5. slaytları üretiyor, `cekilis_afis.py`
+sonra çalışıp `1.jpg` ve `hikaye.jpg` dosyalarının üzerine afişi yazıyor.
+Ters sırada çalıştırılırsa afiş silinir, normal kapak geri gelir.
+
+Ürün kareleri `gorsel/urun/kesik-cekilis-*.png` — satıcı sayfalarından
+otomasyonla çekildi.
+
 ## Dolandırıcılık uyarısı
 
 Kazanana **yalnız @sermenkreatif hesabından** DM atılıyor. Ödül için
