@@ -60,6 +60,12 @@ def kuyruk():
     return d, d["kuyruk_bekleyen"]["slotlar"]
 
 
+def kampanyalar():
+    """Izgara dışı kampanya gönderileri — çekiliş, duyuru, kutlama."""
+    d = json.load(open("DURUM.json", encoding="utf-8"))
+    return d["kuyruk_bekleyen"].get("kampanya", [])
+
+
 def gunler(slotlar):
     """Kuyruğu tarihe göre grupla, slot sırasına diz."""
     out = {}
@@ -78,6 +84,7 @@ def kare_sayisi(klasor):
 def liste():
     d, slotlar = kuyruk()
     gun = gunler(slotlar)
+    kamp = kampanyalar()
     reelsler = {r["tarih"]: r["klasor"]
                 for r in d["kuyruk_bekleyen"].get("reels", [])}
 
@@ -112,6 +119,21 @@ def liste():
             satirlar.append((arti(saat(g, ad), HIKAYE_GECIKME),
                              "Hikaye | %s | `%s/hikaye.jpg` | 1"
                              % (BASLIK[ad], k)))
+
+        for k in kamp:
+            if k["tarih"] != tarih:
+                continue
+            tur = k.get("tur", "gonderi")
+            ad = "**Kampanya**" if tur == "gonderi" else "Kampanya hikaye"
+            dosya = k["klasor"] if tur == "gonderi" \
+                else "%s/hikaye.jpg" % k["klasor"]
+            satirlar.append((k["saat"], "%s | — | `%s` | %s"
+                             % (ad, dosya, kare_sayisi(k["klasor"])
+                                if tur == "gonderi" else 1)))
+            if tur == "gonderi":
+                satirlar.append((arti(k["saat"], HIKAYE_GECIKME),
+                                 "Kampanya hikaye | — | `%s/hikaye.jpg` | 1"
+                                 % k["klasor"]))
 
         r = reelsler.get(tarih)
         if r:

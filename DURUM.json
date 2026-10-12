@@ -559,6 +559,37 @@
     "sebep": "Iptal edildi 10 Ekim 2026. Creality'nin kendi karsilastirma sayfasinda Ender-3 V3 serisi Plus/V3/KE/SE'den ibaret; Mega yok, 420x420x420 mm yok. Ilhan'in yolladigi kare bir bayi render'i, cozunurlugu kunyeyi okumaya yetmiyor. Magazanin kendi site haritasinda da 'mega' gecen urun yok. Yerine gercek ve magazada satilan model yapildi: 2026-10-18-ender-3-v4-combo.",
     "yerine": "2026-10-18-ender-3-v4-combo"
    }
-  ]
+  ],
+  "kampanya": [
+   {
+    "tarih": "2026-10-12",
+    "saat": "13:30",
+    "tur": "gonderi",
+    "klasor": "2026-10-12-cekilis-duyuru",
+    "not": "Dört makara çekiliş duyurusu"
+   },
+   {
+    "tarih": "2026-10-13",
+    "saat": "19:10",
+    "tur": "hikaye",
+    "klasor": "2026-10-12-cekilis-duyuru",
+    "not": "hatırlatma"
+   },
+   {
+    "tarih": "2026-10-14",
+    "saat": "19:10",
+    "tur": "hikaye",
+    "klasor": "2026-10-12-cekilis-duyuru",
+    "not": "hatırlatma"
+   },
+   {
+    "tarih": "2026-10-15",
+    "saat": "18:40",
+    "tur": "gonderi",
+    "klasor": "2026-10-15-cekilis-son-gun",
+    "not": "son gün"
+   }
+  ],
+  "kampanya_not": "Cekilis 12-15 Ekim, sonuc 16 Ekim. Sonuc gonderisi kazananlar belli olunca uretilecek — simdiden uretilmiyor. Kurallar ve hukuki not KAMPANYA.md icinde."
  }
 }

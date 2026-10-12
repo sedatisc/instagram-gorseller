@@ -158,6 +158,28 @@ def kayitlar():
                           "tur": "HİKAYE", "slot": ad, "baslik": baslik(kl),
                           "klasor": kl, "dosyalar": ["hikaye.jpg"],
                           "metin": "", "yorum": ""})
+        for k in sira.kampanyalar():
+            if k["tarih"] != tarih:
+                continue
+            kl = k["klasor"]
+            govde, yorum = sira.metin_oku(kl)
+            tur = k.get("tur", "gonderi")
+            if tur == "gonderi":
+                kayit.append({"platform": ["ig"], "saat": k["saat"],
+                              "tur": "KAMPANYA", "slot": "", "baslik": baslik(kl),
+                              "klasor": kl, "dosyalar": sira.kare_adlari(kl),
+                              "metin": govde or "", "yorum": yorum or ""})
+                kayit.append({"platform": ["ig"],
+                              "saat": sira.arti(k["saat"], sira.HIKAYE_GECIKME),
+                              "tur": "HİKAYE", "slot": "", "baslik": baslik(kl),
+                              "klasor": kl, "dosyalar": ["hikaye.jpg"],
+                              "metin": "", "yorum": ""})
+            else:
+                kayit.append({"platform": ["ig"], "saat": k["saat"],
+                              "tur": "HİKAYE", "slot": "", "baslik": baslik(kl),
+                              "klasor": kl, "dosyalar": ["hikaye.jpg"],
+                              "metin": "", "yorum": ""})
+
         r = reelsler.get(tarih)
         if r:
             govde, _ = sira.metin_oku(r)
@@ -302,6 +324,8 @@ button.oldu { background: var(--urun); border-color: var(--urun);
 .kart[data-slot="urun"] .rozet { color: var(--urun); }
 .kart[data-slot="proje"] .rozet { color: var(--proje); }
 .kart[data-tur="REELS"] .rozet { color: var(--reels); }
+.kart[data-tur="KAMPANYA"] { border-color: var(--3dbaski); }
+.kart[data-tur="KAMPANYA"] .ray b { color: var(--3dbaski); }
 .kart[data-tur="HİKAYE"] { opacity: 0.86; }
 footer { margin-top: 44px; color: var(--soluk); font-size: 13px;
          border-top: 1px solid var(--cizgi); padding-top: 14px; }
@@ -518,10 +542,12 @@ def main():
     gonderi = sum(1 for g in veri for k in g["kayitlar"] if k["tur"] == "GÖNDERİ")
     hikaye = sum(1 for g in veri for k in g["kayitlar"] if k["tur"] == "HİKAYE")
     reels = sum(1 for g in veri for k in g["kayitlar"] if k["tur"] == "REELS")
+    kamp = sum(1 for g in veri for k in g["kayitlar"] if k["tur"] == "KAMPANYA")
     ozet = "".join(
         "<span>%s</span>" % html.escape(x) for x in
         ("%d gün" % len(veri), "%d gönderi" % gonderi, "%d hikaye" % hikaye,
          "%d reels" % reels,
+         ("%d kampanya" % kamp) if kamp else "",
          "%s – %s" % (veri[0]["tarih"], veri[-1]["tarih"]) if veri else ""))
     s = (SAYFA.replace("__VERI__", json.dumps(veri, ensure_ascii=False))
               .replace("__VERI_YT__", json.dumps(youtube_gunleri(), ensure_ascii=False))

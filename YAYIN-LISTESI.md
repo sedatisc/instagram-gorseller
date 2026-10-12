@@ -26,6 +26,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 08:52 | Hikaye | 3D BASKI & ÜRETİM DONANIMI | `2026-10-12-yapisma-yuzeyleri/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | ELEKTRONİK & IoT | `2026-10-12-deep-sleep-akim` | 4 |
 | 13:18 | Hikaye | ELEKTRONİK & IoT | `2026-10-12-deep-sleep-akim/hikaye.jpg` | 1 |
+| 13:30 | **Kampanya** | — | `2026-10-12-cekilis-duyuru` | 4 |
+| 14:10 | Kampanya hikaye | — | `2026-10-12-cekilis-duyuru/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-14-sunlu-filadryer` | 5 |
 | 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-14-sunlu-filadryer/hikaye.jpg` | 1 |
 | 19:40 | Gönderi | PROJE & ATÖLYE | `2026-10-12-urun-fotografi` | 4 |
@@ -42,6 +44,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 13:18 | Hikaye | ELEKTRONİK & IoT | `2026-10-13-optokuplor/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-15-sunlu-ams-heater` | 5 |
 | 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-15-sunlu-ams-heater/hikaye.jpg` | 1 |
+| 19:10 | Kampanya hikaye | — | `2026-10-12-cekilis-duyuru/hikaye.jpg` | 1 |
 | 19:36 | **Reels** | — | `2026-10-15-sunlu-ams-heater/reels.mp4` | video |
 | 20:42 | Gönderi | PROJE & ATÖLYE | `2026-10-13-olcu-dogrulama` | 4 |
 | 21:22 | Hikaye | PROJE & ATÖLYE | `2026-10-13-olcu-dogrulama/hikaye.jpg` | 1 |
@@ -56,6 +59,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 13:18 | Hikaye | ELEKTRONİK & IoT | `2026-10-14-lipo-bms/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-16-phaetus-liber-u1` | 5 |
 | 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-16-phaetus-liber-u1/hikaye.jpg` | 1 |
+| 19:10 | Kampanya hikaye | — | `2026-10-12-cekilis-duyuru/hikaye.jpg` | 1 |
 | 19:36 | **Reels** | — | `2026-10-16-phaetus-liber-u1/reels.mp4` | video |
 | 20:42 | Gönderi | PROJE & ATÖLYE | `2026-10-14-siparis-sorulari` | 6 |
 | 21:22 | Hikaye | PROJE & ATÖLYE | `2026-10-14-siparis-sorulari/hikaye.jpg` | 1 |
@@ -70,6 +74,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 13:18 | Hikaye | ELEKTRONİK & IoT | `2026-10-15-h-koprusu/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-17-polymaker-ht-pla` | 5 |
 | 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-17-polymaker-ht-pla/hikaye.jpg` | 1 |
+| 18:40 | **Kampanya** | — | `2026-10-15-cekilis-son-gun` | 1 |
+| 19:20 | Kampanya hikaye | — | `2026-10-15-cekilis-son-gun/hikaye.jpg` | 1 |
 | 19:36 | **Reels** | — | `2026-10-17-polymaker-ht-pla/reels.mp4` | video |
 | 20:42 | Gönderi | PROJE & ATÖLYE | `2026-10-15-3d-tarayici` | 5 |
 | 21:22 | Hikaye | PROJE & ATÖLYE | `2026-10-15-3d-tarayici/hikaye.jpg` | 1 |

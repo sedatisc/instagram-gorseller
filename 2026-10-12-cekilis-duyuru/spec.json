@@ -1,0 +1,118 @@
+{
+ "kategori": "3dbaski",
+ "zemin": "koyu",
+ "stil": "neon",
+ "kapak": {
+  "tip": "izgara",
+  "satir1": "DÖRT MAKARA",
+  "satir2": "DÖRT KAZANAN",
+  "spot": "Dört makara, dört ayrı kazanan. 1,75 mm · 1 kg, kargo bizden.",
+  "kartlar": [
+   {
+    "etiket": "CREALITY · MAVİ",
+    "deger": "SILK",
+    "renk": "mavi",
+    "ikon": "makara",
+    "alt": "Parlak yüzey; dekoratif ve hediyelik baskı."
+   },
+   {
+    "etiket": "CREALITY · SİYAH",
+    "deger": "TPU",
+    "renk": "mor",
+    "ikon": "hiz",
+    "alt": "Esnek parça: conta, tampon, kayış, kılıf."
+   },
+   {
+    "etiket": "CREALITY · MAVİ",
+    "deger": "PETG",
+    "renk": "yesil",
+    "ikon": "damla",
+    "alt": "Dayanıklı, dış mekâna uygun; aparat ve kutu."
+   },
+   {
+    "etiket": "CREALITY · MAVİ",
+    "deger": "ABS",
+    "renk": "kirmizi",
+    "ikon": "isi",
+    "alt": "Isıya dayanıklı; kapalı kabin isteyen işler."
+   }
+  ]
+ },
+ "slaytlar": [
+  {
+   "baslik": "Nasıl katılıyorsun",
+   "aciklama": "Üç adım, hepsi bu gönderinin altında bitiyor. Ücret yok, link yok, form yok.",
+   "tablo": [
+    [
+     "1 · TAKİP",
+     "@sermenkreatif hesabını takip et"
+    ],
+    [
+     "2 · BEĞEN",
+     "bu gönderiyi beğen"
+    ],
+    [
+     "3 · YORUM",
+     "hangi filamenti neden istediğini yaz"
+    ],
+    [
+     "İSTEĞE BAĞLI",
+     "bir arkadaşını etiketle"
+    ],
+    [
+     "SON TARİH",
+     "15 Ekim Perşembe 23.59"
+    ]
+   ]
+  },
+  {
+   "baslik": "Kura çekmiyoruz, cevaplara bakıyoruz",
+   "aciklama": "Dört makara, yorumlarda ne basacağını en net anlatan dört kişiye gidiyor. \"Katıldım\" yazan yüz yorum arasında kaybolmak yok: bir cümle yeter ama o cümle bir iş anlatsın.",
+   "tablo": [
+    [
+     "DEĞERLENDİREN",
+     "sermenkreatif"
+    ],
+    [
+     "ÖLÇÜ",
+     "ne basacağını anlatan somut cevap"
+    ],
+    [
+     "KAZANAN SAYISI",
+     "4 kişi · kişi başı 1 makara"
+    ],
+    [
+     "AÇIKLAMA",
+     "16 Ekim Cuma, gönderi ve hikayede"
+    ],
+    [
+     "TESLİMAT",
+     "kargo bizden, Türkiye içi"
+    ]
+   ]
+  }
+ ],
+ "kapanis": {
+  "satir1": "KAZANANLAR",
+  "satir2": "16 EKİM'DE",
+  "kriterler": [
+   [
+    "KATILIM",
+    "takip + beğeni + yorum"
+   ],
+   [
+    "SÜRE",
+    "12-15 Ekim"
+   ],
+   [
+    "SONUÇ",
+    "16 Ekim, gönderi ve hikayede"
+   ],
+   [
+    "ULAŞMA",
+    "kazananlara DM atıyoruz"
+   ]
+  ],
+  "not": "Kazananlara yalnız @sermenkreatif hesabından yazıyoruz. Başka bir hesap size ödül için yazarsa o hesap bize ait değil."
+ }
+}

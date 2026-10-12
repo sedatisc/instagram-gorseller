@@ -123,6 +123,19 @@ def gundem():
                       "zaman": "%sT%s" % (s["tarih"],
                                           sira.arti(hhmm, sira.HIKAYE_GECIKME)),
                       "tur": "hikaye", "klasor": s["klasor"]})
+    for k in kb.get("kampanya", []):
+        if k["klasor"] in bekle:
+            continue
+        tur = k.get("tur", "gonderi")
+        isler.append({"anahtar": "%s|kampanya|%s" % (k["tarih"], tur),
+                      "zaman": "%sT%s" % (k["tarih"], k["saat"]),
+                      "tur": tur, "klasor": k["klasor"]})
+        if tur == "gonderi":                   # kampanya gönderisinin hikayesi
+            isler.append({"anahtar": "%s|kampanya|hikaye" % k["tarih"],
+                          "zaman": "%sT%s" % (k["tarih"],
+                                              sira.arti(k["saat"],
+                                                        sira.HIKAYE_GECIKME)),
+                          "tur": "hikaye", "klasor": k["klasor"]})
     for tarih, klasor in reelsler.items():
         if klasor in bekle:
             continue

@@ -1,0 +1,28 @@
+{
+ "kategori": "3dbaski",
+ "zemin": "koyu",
+ "stil": "neon",
+ "kapak": {
+  "tip": "rakam",
+  "ustbilgi": "SON GÜN · DÖRT MAKARA",
+  "rakam": "23.59",
+  "spot": "Silk, TPU, PETG, ABS — dört makara, dört ayrı kazanan. Yorumunda ne basacağını yaz, sonuç yarın.",
+  "rozetler": [
+   [
+    "Takip + beğeni + yorum",
+    "tema"
+   ],
+   [
+    "Kura değil, cevaplar",
+    "yesil"
+   ],
+   [
+    "Sonuç 16 Ekim",
+    "turuncu"
+   ]
+  ],
+  "rakam_alt": "Yorumlar bu gece kapanıyor."
+ },
+ "slaytlar": [],
+ "kapanis": null
+}
