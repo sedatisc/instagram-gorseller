@@ -608,7 +608,13 @@ def maddeler(d, satirlar):
             ty += f.size * 1.24
 
 
-def panel(w, h, fn, vurgu=None, sik=True):
+def panel(w, h, fn, vurgu=None, sik=True, yakin=False, kirp=None):
+    """`yakin` → vurgulanan yere kırpıp yakınlaş.
+
+    Varsayılanda her slayt kapağın çizimini bütün gösterip yalnız vurgulu
+    yeri aydınlatıyordu; üç slayt telefonda aynı kareye benziyor ve
+    kimse kaydırmıyordu. Yakınlaşınca her slayt ayrı bir kare oluyor ve
+    8 puntoda okunmayan etiketler okunur boya geliyor."""
     S = 2
     dw, dh = w * S, h * S
     ink = Image.new("RGBA", (dw, dh), (0, 0, 0, 0))
@@ -618,8 +624,34 @@ def panel(w, h, fn, vurgu=None, sik=True):
     # metin sütunuyla aynı hizada başlasın.
     pad = (10 if (_duru() and sik) else 56) * S
     bb = ink.getbbox() or (0, 0, dw, dh)
+    tavan = 1.4
+    # Kırpma kutusu ayrı yazılabiliyor: `vurgu` karartma için yazılmış,
+    # kırpmaya göre fazla dar ya da fazla uzun olabiliyor.
+    kv = kirp or vurgu
+    if yakin and kv:
+        mx = max(50, (kv[2] - kv[0]) * 0.10)
+        my = max(50, (kv[3] - kv[1]) * 0.16)
+        kutu = [kv[0] - mx, kv[1] - my, kv[2] + mx, kv[3] + my]
+        # Kırpma panelin oranına oturuyor; yoksa dar bir vurgu panelin
+        # ortasında küçük kalıp iki yanı boş bırakıyor.
+        oran = (dw - 2 * pad) / float(dh - 2 * pad)
+        cx, cy = (kutu[0] + kutu[2]) / 2.0, (kutu[1] + kutu[3]) / 2.0
+        kw, kh = kutu[2] - kutu[0], kutu[3] - kutu[1]
+        if kw / max(1.0, kh) < oran:
+            kw = kh * oran
+        else:
+            kh = kw / oran
+        kutu = [int(cx - kw / 2), int(cy - kh / 2),
+                int(cx + kw / 2), int(cy + kh / 2)]
+        bb = (max(bb[0], kutu[0]), max(bb[1], kutu[1]),
+              min(bb[2], kutu[2]), min(bb[3], kutu[3]))
+        if bb[2] - bb[0] < 40 or bb[3] - bb[1] < 40:   # kırpma boşa çıktı
+            bb = ink.getbbox() or (0, 0, dw, dh)
+        else:
+            vurgu = None          # yakınlaştık, ayrıca karartmaya gerek yok
+            tavan = 2.6
     k = min((dw - 2 * pad) / (bb[2] - bb[0]), (dh - 2 * pad) / (bb[3] - bb[1]),
-            1.4)
+            tavan)
     nw, nh = int((bb[2] - bb[0]) * k), int((bb[3] - bb[1]) * k)
 
     # Kart içeriğe otursun: çizim panelin boyunu doldurmuyorsa panel kısalıyor.
@@ -1805,7 +1837,8 @@ def adim(spec, govde_fn, no, toplam, sayac, yol):
 
     py = max(600, int(ty) + 34)
     ph = min(556, 1244 - py)
-    kart = panel(956, ph, govde_fn, spec.get("vurgu"))
+    kart = panel(956, ph, govde_fn, spec.get("vurgu"),
+                 yakin=spec.get("yakin", False), kirp=spec.get("kirp"))
     place(img, kart, GUT, py + (ph - kart.height) // 2)
     yaz(img, yol)
 
