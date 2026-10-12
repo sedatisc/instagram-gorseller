@@ -71,7 +71,7 @@ def temiz(aday, taban):
     return u
 
 
-def gorsel_bul(html, sayfa):
+def gorsel_bul(html, sayfa, yalniz_og=False):
     """Ürün sayfasından en olası ürün görselini seç.
 
     og:image önce geliyor: sayfanın kendi ana ürün karesi odur. Ticimax
@@ -90,6 +90,8 @@ def gorsel_bul(html, sayfa):
         if u:
             aday = (u, "og:image")
             break
+    if yalniz_og and aday:
+        return aday
     tici = []
     for u in _TICI.findall(html):
         t = temiz(u, sayfa)
@@ -290,7 +292,7 @@ def main():
             continue
         try:
             html = getir(sayfa)
-            gu, nereden = gorsel_bul(html, sayfa)
+            gu, nereden = gorsel_bul(html, sayfa, u.get("og", False))
             if not gu:
                 satir.append("| %s | HATA | sayfada ürün görseli bulunamadı |"
                              % slug)

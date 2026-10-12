@@ -45,6 +45,9 @@ hangi ürün geldi, hangisi gelmedi, neden.
   buluyor. Çoğu durumda bu yeterli.
 - **`sayfa`** — tam adres. Ad eşleşmesi yanlış ürünü bulursa bunu ver.
 - **`kes`** — varsayılan `true`. `false` dersen arka plan kesilmez.
+- **`og`** — `true` dersen yalnız sayfanın `og:image` karesi alınır. Ticimax
+  klasöründeki büyük kare bazen yan üründen geliyor (Silk Blue yerine Silk
+  Rainbow geldi, 12 Ekim 2026); renk varyantı olan ürünlerde bunu kullan.
 
 Çıktı: ham kare `gorsel/urun/ham/<slug>.jpg`, kesilmiş `gorsel/urun/kesik-<slug>.png`.
 
