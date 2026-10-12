@@ -24,6 +24,10 @@ on:
         description: "Bu kategori sayfasındaki ürünleri listele (görsel çekilmez)"
         type: string
         default: ""
+      bilgi:
+        description: "Ürün sayfalarından bilgi ve görsel çek (boşlukla ayrılmış adresler)"
+        type: string
+        default: ""
   schedule:
     - cron: "17 3 * * 1"        # her pazartesi 03.17 UTC
 
@@ -68,8 +72,15 @@ jobs:
           python3 -m playwright install --with-deps chromium
           python3 otomasyon/kategori.py "${{ inputs.liste }}" --sayfa 4
 
+      - name: Ürün sayfalarından bilgi çek
+        if: inputs.bilgi != ''
+        run: |
+          pip install --quiet playwright
+          python3 -m playwright install --with-deps chromium
+          python3 otomasyon/urun_bilgi.py ${{ inputs.bilgi }}
+
       - name: Görselleri çek
-        if: inputs.kesfet == '' && inputs.liste == ''
+        if: inputs.kesfet == '' && inputs.liste == '' && inputs.bilgi == ''
         env:
           U2NET_HOME: ~/.u2net
         run: |
