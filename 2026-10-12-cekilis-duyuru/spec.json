@@ -5,8 +5,8 @@
  "kapak": {
   "tip": "izgara",
   "satir1": "DÖRT MAKARA",
-  "satir2": "DÖRT KAZANAN",
-  "spot": "Dört makara, dört ayrı kazanan. 1,75 mm · 1 kg, kargo bizden.",
+  "satir2": "TEK KAZANAN",
+  "spot": "Creality Silk, TPU, PETG ve ABS — dördü birden tek kişiye. 1,75 mm · 1 kg, kargo bizden.",
   "kartlar": [
    {
     "etiket": "CREALITY · MAVİ",
@@ -40,6 +40,13 @@
  },
  "slaytlar": [
   {
+   "foto": "cekilis-dortlu.png",
+   "bant": 800,
+   "baslik": "Dördü birden aynı kişiye",
+   "aciklama": "Silk, TPU, PETG ve ABS. Bu dördü bir atölyenin işinin çoğunu karşılıyor: görünüm, esneklik, dayanıklılık ve ısı. Hepsi tek kutuda.",
+   "odak": 0.5
+  },
+  {
    "baslik": "Nasıl katılıyorsun",
    "aciklama": "Üç adım, hepsi bu gönderinin altında bitiyor. Ücret yok, link yok, form yok.",
    "tablo": [
@@ -67,7 +74,7 @@
   },
   {
    "baslik": "Kura çekmiyoruz, cevaplara bakıyoruz",
-   "aciklama": "Dört makara, yorumlarda ne basacağını en net anlatan dört kişiye gidiyor. \"Katıldım\" yazan yüz yorum arasında kaybolmak yok: bir cümle yeter ama o cümle bir iş anlatsın.",
+   "aciklama": "Dört makaralık set, yorumlarda ne basacağını en net anlatan kişiye gidiyor. \"Katıldım\" yazan yüz yorum arasında kaybolmak yok: bir cümle yeter ama o cümle bir iş anlatsın.",
    "tablo": [
     [
      "DEĞERLENDİREN",
@@ -79,7 +86,7 @@
     ],
     [
      "KAZANAN SAYISI",
-     "4 kişi · kişi başı 1 makara"
+     "1 kişi · dört makaranın hepsi"
     ],
     [
      "AÇIKLAMA",
@@ -93,7 +100,7 @@
   }
  ],
  "kapanis": {
-  "satir1": "KAZANANLAR",
+  "satir1": "KAZANAN",
   "satir2": "16 EKİM'DE",
   "kriterler": [
    [
@@ -105,14 +112,14 @@
     "12-15 Ekim"
    ],
    [
-    "SONUÇ",
-    "16 Ekim, gönderi ve hikayede"
+    "ÖDÜL",
+    "4 makara, tek kişiye"
    ],
    [
-    "ULAŞMA",
-    "kazananlara DM atıyoruz"
+    "SONUÇ",
+    "16 Ekim, gönderi ve hikayede"
    ]
   ],
-  "not": "Kazananlara yalnız @sermenkreatif hesabından yazıyoruz. Başka bir hesap size ödül için yazarsa o hesap bize ait değil."
+  "not": "Kazanana yalnız @sermenkreatif hesabından yazıyoruz. Başka bir hesap size ödül için yazarsa o hesap bize ait değil."
  }
 }

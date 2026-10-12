@@ -1,7 +1,7 @@
 # Dört Makara — 12-15 Ekim 2026
 
-Dört Creality filament, dört ayrı kazanan. Duyuru 12 Ekim, son gün
-15 Ekim 23.59, sonuç 16 Ekim.
+Dört Creality filament, **hepsi tek kazanana**. Duyuru 12 Ekim, son
+gün 15 Ekim 23.59, sonuç 16 Ekim.
 
 | Ödül | Ürün | Kime yarar |
 |---|---|---|
@@ -10,7 +10,7 @@ Dört Creality filament, dört ayrı kazanan. Duyuru 12 Ekim, son gün
 | 3 | Creality CR-PETG · Mavi | dayanıklı, dış mekâna uygun |
 | 4 | Creality CR-ABS · Mavi | ısıya dayanıklı, kabin isteyen işler |
 
-Hepsi 1,75 mm · 1 kg. Kişi başı bir makara, kargo bizden, Türkiye içi.
+Hepsi 1,75 mm · 1 kg. Dördü tek kutuda tek kişiye, kargo bizden, Türkiye içi.
 
 ## Kura yok — sebebi
 
@@ -39,12 +39,12 @@ Olmayan Piyangolar ve Çekilişler Hakkında Yönetmelik.
 3. Yoruma hangi filamenti neden istediğini yaz — ne basacağını anlat
 
 Arkadaş etiketlemek isteğe bağlı. Katılım ücretsiz; link, form, ödeme yok.
-Türkiye içinden, 18 yaş ve üstü. Aynı kişi birden fazla makara alamıyor.
+Türkiye içinden, 18 yaş ve üstü. Dört makaranın hepsi tek kazanana gidiyor.
 Değerlendirmeyi sermenkreatif yapıyor, Instagram'ın seçimle ilgisi yok.
 
 ## Dolandırıcılık uyarısı
 
-Kazananlara **yalnız @sermenkreatif hesabından** DM atılıyor. Ödül için
+Kazanana **yalnız @sermenkreatif hesabından** DM atılıyor. Ödül için
 ödeme, kart bilgisi ya da kargo ücreti isteyen her mesaj sahtedir. Bu
 uyarı hem kapanış slaydında hem gönderi metninde duruyor — ödüllü
 kampanyaların ardından taklit hesaplar her seferinde yazıyor.
@@ -65,13 +65,13 @@ dört slotluk günlük ızgaranın dışında duruyor.
 
 ## Sonuç gönderisi
 
-**Henüz üretilmedi.** Kazananlar belli olmadan üretilmiyor; 16 Ekim'de
-yorumlar değerlendirilince dört kazananın kullanıcı adı ve hangi makarayı
-aldığı yazılarak çıkarılacak. O gün yapılacak:
+**Henüz üretilmedi.** Kazanan belli olmadan üretilmiyor; 16 Ekim'de
+yorumlar değerlendirilince kazananın kullanıcı adı ve ne basacağı
+yazılarak çıkarılacak. O gün yapılacak:
 
-1. Yorumları oku, dört kazananı seç (ne basacağını en net anlatanlar).
-2. `2026-10-16-cekilis-sonuc` klasörünü üret — kapakta dört kazanan.
+1. Yorumları oku, kazananı seç (ne basacağını en net anlatan).
+2. `2026-10-16-cekilis-sonuc` klasörünü üret — kapakta kazanan ve
+   dört makaralık set.
 3. Kuyruğa `kampanya` kaydı olarak ekle, `python3 sira.py` ve
    `python3 paket.py` çalıştır.
-4. Kazananlara @sermenkreatif hesabından DM at, adres ve kargo bilgisi
-   iste.
+4. Kazanana @sermenkreatif hesabından DM at, adres ve kargo bilgisi iste.
