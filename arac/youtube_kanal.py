@@ -74,7 +74,27 @@ def zemin(W, H):
     return img
 
 
-def banner():
+def kelime(img, orta, boy=96):
+    """Logo PNG'si 'sermenkreatif' yazıyor; başka ad için işaret + yazı."""
+    im = Image.open(os.path.join(KOK, "marka", "logo-dikey.png")).convert("RGBA")
+    isaret = im.crop((0, 0, im.width, int(im.height * 0.74)))
+    k = (boy * 1.25) / isaret.height
+    isaret = isaret.resize((int(isaret.width * k), int(isaret.height * k)),
+                           Image.LANCZOS)
+    d = ImageDraw.Draw(img)
+    f1 = U.pop(boy, "Bold")
+    f2 = U.pop(boy, "Light")
+    w1 = d.textlength("Sermen", font=f1)
+    w2 = d.textlength("Lab", font=f2)
+    tam = isaret.width + 26 + w1 + w2
+    x = orta[0] - tam / 2
+    img.alpha_composite(isaret, (int(x), int(orta[1] - isaret.height / 2)))
+    x += isaret.width + 26
+    d.text((x, orta[1]), "Sermen", font=f1, fill=BEYAZ, anchor="lm")
+    d.text((x + w1, orta[1]), "Lab", font=f2, fill=KIRMIZI, anchor="lm")
+
+
+def banner(ad=None):
     W, H = 2048, 1152
     GW, GH = 1235, 338                        # her ekranda görünen alan
     img = zemin(W, H)
@@ -84,10 +104,13 @@ def banner():
            KIRMIZI, 0.20, 180)
     isilti(img, [W * 0.62, H * 0.1, W * 1.1, H * 0.7], TURUNCU, 0.10, 220)
 
-    lg = U._logo.copy()                       # yatay logo
-    k = 760.0 / lg.width
-    lg = lg.resize((760, max(1, int(lg.height * k))), Image.LANCZOS)
-    img.alpha_composite(lg, (gx + (GW - lg.width) // 2, gy + 42))
+    if ad == "lab":
+        kelime(img, (W / 2, gy + 92), boy=92)
+    else:
+        lg = U._logo.copy()                   # yatay logo
+        k = 760.0 / lg.width
+        lg = lg.resize((760, max(1, int(lg.height * k))), Image.LANCZOS)
+        img.alpha_composite(lg, (gx + (GW - lg.width) // 2, gy + 42))
 
     d = ImageDraw.Draw(img)
     d.text((W / 2, gy + 196), "3D BASKI · ELEKTRONİK · ATÖLYE",
@@ -99,7 +122,8 @@ def banner():
            font=U.pop(27, "Medium"), fill=SOLUK, anchor="mm")
 
     # güvenli alanın dışı: yalnız doku kalsın, yazı girmesin
-    img.convert("RGB").save(os.path.join(CIKTI, "banner.png"))
+    img.convert("RGB").save(os.path.join(
+        CIKTI, "banner-lab.png" if ad == "lab" else "banner.png"))
     return (W, H)
 
 
@@ -138,6 +162,7 @@ def main():
     os.makedirs(CIKTI, exist_ok=True)
     U.theme("3dbaski")
     print("banner.png   %dx%d" % banner())
+    print("banner-lab.png %dx%d" % banner("lab"))
     print("profil.png   %dx%d" % profil())
     print("filigran.png %dx%d" % filigran())
 
