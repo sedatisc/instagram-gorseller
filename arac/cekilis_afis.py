@@ -21,14 +21,14 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, KOK)
 import uret as U                                         # noqa: E402
 
-def makara(dosya, pay=1.07):
-    """Kareden yalnız makarayı kırp — dördü aynı çapta dursun.
+def makara(dosya, pay=1.24):
+    """Kareden makarayı al — dördü aynı çapta ve tam görünsün.
 
-    Ürün kareleri farklı çerçevelenmiş, bazılarında makaranın yanında
-    basılmış bir parça duruyor. Kutu sınırına göre ölçekleyince makaralar
-    farklı boyda çıkıyordu. Makara daire olduğu için en büyük iç daireyi
-    (uzaklık dönüşümünün tepesi) buluyoruz: merkezi ve yarıçapı oradan,
-    kırpma da ona göre. Yanındaki parça bu kırpmanın dışında kalıyor.
+    Makara daire; en büyük iç daireyi (uzaklık dönüşümünün tepesi) bulup
+    merkezini ve yarıçapını oradan okuyoruz. Kırpma bu merkeze göre
+    dikdörtgen: makaranın kendisi tam kalıyor, yanındaki basılmış parça
+    dışarıda. Daire maskesi KULLANILMIYOR — makaralar açılı çekilmiş,
+    maske kenarlarını kesip yarım gösteriyordu.
     """
     import numpy as np
     from scipy import ndimage
@@ -36,21 +36,15 @@ def makara(dosya, pay=1.07):
     if not os.path.exists(yol):
         return None
     im = Image.open(yol).convert("RGBA")
-    a = (np.asarray(im.split()[-1]) > 24).astype(np.uint8)
-    u = ndimage.distance_transform_edt(a)
+    al = (np.asarray(im.split()[-1]) > 24).astype(np.uint8)
+    u = ndimage.distance_transform_edt(al)
     cy, cx = np.unravel_index(int(np.argmax(u)), u.shape)
-    r = float(u.max()) * pay
-    kutu = (int(cx - r), int(cy - r), int(cx + r), int(cy + r))
+    r = float(u.max())
+    kutu = (int(cx - r * pay), int(cy - r * pay),
+            int(cx + r * pay), int(cy + r * pay))
     kare = Image.new("RGBA", (kutu[2] - kutu[0], kutu[3] - kutu[1]),
                      (0, 0, 0, 0))
     kare.alpha_composite(im, (-kutu[0], -kutu[1]))
-    # Köşede kalan yan parça kırıntısını temizle: daire dışını sil
-    maske = Image.new("L", kare.size, 0)
-    ImageDraw.Draw(maske).ellipse([0, 0, kare.width - 1, kare.height - 1],
-                                  fill=255)
-    maske = maske.filter(ImageFilter.GaussianBlur(2))
-    alfa = kare.split()[-1].point(lambda v: v)
-    kare.putalpha(Image.composite(alfa, Image.new("L", kare.size, 0), maske))
     return kare
 
 

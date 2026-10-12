@@ -78,12 +78,11 @@ otomasyonla çekildi. Afiş her makarayı kendi çapına göre ölçekliyor
 (kutu sınırına göre değil), yanındaki basılmış parçayı kırpıyor; böylece
 dördü aynı boyda duruyor.
 
-**Silk Blue karesi eksik.** `sermenkreatif.com/creality-cr-pla-silk-blue-18661`
-sayfasında ürün fotoğrafı yok, site "RESİM HAZIRLANIYOR" yer tutucusu
-veriyor. İlk denemede ticimax klasöründen yan ürünün (Silk Rainbow) karesi
-gelmişti — yanlış ürün olduğu için silindi, afişte o göze "fotoğraf
-bekleniyor" halkası konuyor. Çözüm: makaranın tek karesi (sade zemin,
-600 px+) ya da ödülü sitede fotoğrafı olan bir Silk rengiyle değiştirmek.
+**Silk Blue karesi İlhan'dan geldi.** Satıcı sayfasında ürün fotoğrafı
+yok (site "RESİM HAZIRLANIYOR" yer tutucusu veriyor), ilk denemede
+ticimax klasöründen yan ürünün karesi gelmişti. Doğru kare 12 Ekim'de
+elle eklendi: `gorsel/urun/kesik-cekilis-silk-blue.png`. Sayfaya
+fotoğraf konulursa otomasyon da çekebilir.
 
 ## Dolandırıcılık uyarısı
 
