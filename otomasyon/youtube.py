@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """YouTube Shorts'a otomatik yükleme — GitHub Actions üzerinde çalışır.
 
-Aynı kuyruktan besleniyor: her günün reels videosu aynı gün YouTube'a
-Short olarak çıkıyor. Dikey ve 3 dakikanın altındaki video YouTube
-tarafından kendiliğinden Short sayılıyor, ayrıca bir alan yok.
+Video `shorts.py` ile ayrı üretiliyor (`<klasor>/shorts.mp4`); Instagram
+reels'i yalnız o dosya yoksa yedek olarak gidiyor. Dikey ve 3 dakikanın
+altındaki video YouTube tarafından kendiliğinden Short sayılıyor.
 
     python3 otomasyon/youtube.py --kuru     # hiçbir şey yüklemez, ne
                                             # yapacağını ve başlığı yazar
@@ -204,7 +204,7 @@ def main():
                              % (ad, is_["zaman"], str(an - t).split(".")[0]))
                 continue
         kl = is_["klasor"]
-        # YouTube sürümü varsa o: sonunda abone kartı var
+        # YouTube kurgusu varsa o (shorts.py); yoksa Instagram reels'i
         yol = os.path.join(KOK, kl, "shorts.mp4")
         if not os.path.exists(yol):
             yol = os.path.join(KOK, kl, "reels.mp4")

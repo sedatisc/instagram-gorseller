@@ -2,16 +2,42 @@
 
 Kanal: **SermenLab** (@sermenlab). Günde **1 Shorts**, saat **18:20**.
 
-Video YouTube sürümü: `python3 reels.py <klasor>/spec.json
-<klasor>/shorts.mp4 --yt`. Instagram'ın `reels.mp4` dosyasından farkı
-sondaki 2,6 saniyelik abone kartı (SermenLab, "ABONE OL", mağaza adresi).
+Video **ayrı bir kurgudan** çıkıyor: `python3 shorts.py <klasor>` →
+`<klasor>/shorts.mp4`. Tamamı için `python3 shorts.py --tumu`.
 Yükleyici `shorts.mp4` varsa onu, yoksa `reels.mp4` dosyasını atıyor.
-Kuyruk `youtube/DURUM.json` içinde ve Instagram kuyruğundan ayrı:
-video aynı üretim hattından çıkıyor (`<klasör>/reels.mp4`), ama hangi gün
-hangi video, başlık ve açıklama burada belirleniyor.
 
 Neden ayrı: Instagram'da insan akışta gezerken denk geliyor, YouTube'da
-**arayarak** buluyor. Aynı metin iki yerde aynı işi yapmıyor.
+**arayarak** buluyor. Aynı metin iki yerde aynı işi yapmıyor. Kurgu da
+aynı işi yapmıyor — bir ara shorts dosyası reels'in sonuna abone kartı
+eklenmiş hâliydi, ekranda hiçbir farkı yoktu ve zayıf iş yapıyordu.
+
+## Kurgu — reels'ten farkı
+
+| | reels.py (Instagram) | shorts.py (YouTube) |
+|---|---|---|
+| Sahne | ~4 sn, yavaş açılan panel | 1,9 sn, vuruş ızgarasında |
+| Ürün | beyaz zeminli kare fotoğraf | arka planı kesilmiş, kadraja taşan |
+| Rakam | cümlenin içinde | ekranı dolduruyor, sıfırdan yukarı sayıyor |
+| Ses | sessiz | kendi ürettiğimiz ritim (96 BPM) |
+| Süre | ~23 sn | 10-13 sn |
+
+Ayrıntılar:
+
+- **Ürün kesiliyor.** `gorsel/urun/kesik-*.png` varsa o kullanılıyor, yoksa
+  rembg ile kesilip oraya kaydediliyor. Koyu zeminde beyaz zeminli
+  fotoğraf beyaz bir kutu gibi duruyordu.
+- **Rakam metinden ayrılıyor.** "55 W CO2 lazer, 600 × 300 mm tezgâh" →
+  ekranda dev "55 W", altında cümlenin kalanı. Rakam, modelin adından
+  gelmiyorsa (R1, S2, i8) ve bir birimi varsa ayrılıyor; yoksa cümle
+  olduğu gibi kelime kelime vuruyor.
+- **Kesimler 96 BPM ızgarasında.** Kanca 5 vuruş, her madde 3, kapanış 3.
+  Altındaki ritim de aynı tempoda üretiliyor, kesim sese denk geliyor.
+- **Ses telifsiz**, çünkü kick/hi-hat/trampet/bas numpy ile burada
+  üretiliyor. YouTube'un ses kütüphanesine ya da başkasının parçasına
+  ihtiyaç yok. `--sessiz` ile kapatılıyor.
+- **Üstte ilerleme çubuğu** var: izleyici videonun kısa olduğunu görüyor.
+- Her sahnede ürünün ölçeği ve yeri değişiyor; kadraj baştan sona aynı
+  kalırsa video tek kare gibi görünüyor.
 
 ## Başlık kuralı
 
@@ -49,8 +75,9 @@ yazımları yakalıyor.
   burada da geçerli; video aylarca izleniyor, o bilgi en hızlı bayatlayan
   şey.
 - Doğrulanmamış rakam yok. Üreticinin kendi sayfası yoksa o satır yazılmaz.
-- Ses: videolar sessiz AAC yoluyla gidiyor. YouTube kabul ediyor ama
-  sessiz Short zayıf iş yapıyor — sesli sürüm ayrı bir karar.
+- **`satirlar` videonun kendisi.** Açıklamaya yazılan o üç dört satır
+  aynı zamanda ekrandaki vuruşlar. Rakamla başlayan satır daha iyi iş
+  çıkarıyor: "55 W CO2 lazer…" ekranda dev "55 W" oluyor.
 
 ## Kuyruğa video ekleme
 
@@ -65,8 +92,14 @@ yazımları yakalıyor.
   "etiket": ["bambulab", "a1mini", "3dyazici", "3dbaski", "makerturkiye"] }
 ```
 
-`klasor` içinde `reels.mp4` olmak zorunda. `python3 paket.py` çalıştırınca
-Yayın Paketi sayfasının YouTube sekmesi de yenileniyor.
+`klasor` içinde `spec.json` olmak zorunda; video oradan üretiliyor:
+
+```
+python3 shorts.py 2026-10-19-bambu-a-serisi-pano
+```
+
+`python3 paket.py` çalıştırınca Yayın Paketi sayfasının YouTube sekmesi
+de yenileniyor.
 
 ## Sıradaki konular
 

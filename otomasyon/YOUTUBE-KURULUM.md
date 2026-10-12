@@ -114,5 +114,6 @@ Anahtarları sohbete ya da dosyaya yazma, yalnız secret alanına.
   kullanılıyor, ayrı küçük resim şart değil.
 - **Oynatma listesi.** İstersen sonradan ekleriz, `playlistItems.insert`
   ile oluyor.
-- **Ses.** Videolar sessiz AAC yoluyla gidiyor. YouTube kabul ediyor ama
-  sessiz Short zayıf iş yapıyor; sesli versiyon istersen ayrıca konuşalım.
+- **Ses.** Videoda kendi ürettiğimiz ritim var (`shorts.py`, 96 BPM) —
+  telifsiz, çünkü burada üretiliyor. Konuşma yok; seslendirme ayrı karar,
+  gerekçesi `youtube/KANAL.md` içinde.

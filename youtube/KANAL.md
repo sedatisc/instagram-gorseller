@@ -141,14 +141,17 @@ yapılacak.
 
 ## Uzun video meselesi
 
-Şu an üretebildiğimiz şey Shorts: 1080 × 1920, ~23 saniye, sessiz. Uzun
-video (5-10 dakika) için ya kamera karşısına geçmek ya da seslendirme
-gerekiyor — ikisi de elle iş. Kanalı Shorts'la açmak doğru; uzun videoya
-geçilecekse ayrı karar.
+Şu an üretebildiğimiz şey Shorts: 1080 × 1920, 10-13 saniye, müzikli.
+Uzun video (5-10 dakika) için ya kamera karşısına geçmek ya da
+seslendirme gerekiyor — ikisi de elle iş. Kanalı Shorts'la açmak doğru;
+uzun videoya geçilecekse ayrı karar.
 
-Şu anki videolar **sessiz**. YouTube kabul ediyor ama sessiz Short zayıf
-iş yapıyor. Seçenekler: (a) böyle devam, (b) YouTube'un kendi ses
-kütüphanesinden müzik eklemek (elle, yükleme sonrası), (c) seslendirme.
+**Ses var ama konuşma yok.** Altındaki ritmi `shorts.py` kendi üretiyor
+(96 BPM kick/hi-hat/trampet/bas), telif derdi yok. Seslendirme ayrı
+mesele: Türkçe ses modeli bu makineden indirilemiyor (huggingface ve
+GitHub releases kapalı). Üç yol var: (a) modeli GitHub Actions
+koşucusunda indirip depoya koymak, (b) kendi sesinle okuman, (c) böyle
+devam. Şimdilik (c).
 
 ## Sıra
 
