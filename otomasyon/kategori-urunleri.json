@@ -1,89 +1,217 @@
 {
  "https://sermenkreatif.com/espressif-116": {
-  "https://sermenkreatif.com/{{Value}}": "{{Name}}",
-  "https://sermenkreatif.com/{{getSayfalamaLink currentPage nextPage}}": "{{translate 'Urunler_DahaFazlaUrunYukle'}}",
-  "https://sermenkreatif.com/{{url}}": "{{name}} {{variant}} {{ price }} x&nbsp;{{ piece }} {{ salesUnit }} {{ tPrice }} aa",
-  "https://sermenkreatif.com/{{basketUrl}}": "{{translate 'BlokModul_SepetBlok_Sepetim'}}",
-  "https://sermenkreatif.com/stl-dunyasi": "STL Dünyası",
-  "https://sermenkreatif.com/3d-yazici": "3D Yazıcılar",
-  "https://sermenkreatif.com/creality1": "Creality",
-  "https://sermenkreatif.com/flagship": "Flagship",
-  "https://sermenkreatif.com/hi-series": "Hi Series",
-  "https://sermenkreatif.com/ender-series": "Ender Series",
-  "https://sermenkreatif.com/halot-series": "HALOT Series",
-  "https://sermenkreatif.com/bambu-lab1": "Bambu Lab",
-  "https://sermenkreatif.com/h-": "H Series",
-  "https://sermenkreatif.com/p-series": "P Series",
-  "https://sermenkreatif.com/x-series": "X Series",
-  "https://sermenkreatif.com/a-series": "A Series",
-  "https://sermenkreatif.com/anycubic": "Anycubic",
-  "https://sermenkreatif.com/snapmaker": "Snapmaker",
-  "https://sermenkreatif.com/3d-tarayuci": "3D Tarayıcılar",
-  "https://sermenkreatif.com/creality2": "Creality",
-  "https://sermenkreatif.com/revopoint": "Revopoint",
-  "https://sermenkreatif.com/filamentler": "Filamentler",
-  "https://sermenkreatif.com/creality3": "Creality",
-  "https://sermenkreatif.com/ender-plus": "Ender Plus PLA",
-  "https://sermenkreatif.com/ender-fast": "Ender Fast PLA",
-  "https://sermenkreatif.com/soleyin-ultra": "Soleyin Ultra PLA",
-  "https://sermenkreatif.com/hyper-pla-cf": "Hyper PLA - CF",
-  "https://sermenkreatif.com/hyper-pla1": "Hyper PLA",
-  "https://sermenkreatif.com/hyper-pla-rfid-stardust": "Hyper PLA RFID Stardust",
-  "https://sermenkreatif.com/hyper-luminous-pla": "Hyper Luminous PLA",
-  "https://sermenkreatif.com/hyper-pla-rfid": "Hyper PLA RFID",
-  "https://sermenkreatif.com/hyper-lightweight-pla": "Hyper Lightweight PLA",
-  "https://sermenkreatif.com/soleyin-basic-petg-": "Soleyin Basic PETG",
-  "https://sermenkreatif.com/hyper-petg": "Hyper PETG",
-  "https://sermenkreatif.com/hyper-petg-cf": "Hyper PETG - CF",
-  "https://sermenkreatif.com/hyper-abs": "Hyper ABS",
-  "https://sermenkreatif.com/pla-2.0": "PLA+ 2.0",
-  "https://sermenkreatif.com/yuksek-hizli-pla": "Yüksek Hızlı PLA",
-  "https://sermenkreatif.com/yuksek-hizli-petg": "Yüksek Hızlı PETG",
-  "https://sermenkreatif.com/refill-pla": "Refill PLA",
-  "https://sermenkreatif.com/ozel-efektli-pla": "Özel Efektli PLA",
-  "https://sermenkreatif.com/hyper-speed1": "Hyper Speed",
-  "https://sermenkreatif.com/silk-pla": "Silk PLA",
-  "https://sermenkreatif.com/polymaker1": "Polymaker",
-  "https://sermenkreatif.com/panchroma-pla": "Panchroma PLA Basic",
-  "https://sermenkreatif.com/panchroma-pla-satin-colours": "Panchroma PLA Satin Colours",
-  "https://sermenkreatif.com/anchrom-pla-satin-colours": "PolyTerra PLA",
-  "https://sermenkreatif.com/polyterra-": "PolyTerra Pastel Colours",
-  "https://sermenkreatif.com/polymaker-petg": "Polymaker Petg",
-  "https://sermenkreatif.com/polymaker-fiberon": "Polymaker Fiberon",
-  "https://sermenkreatif.com/recineler": "Reçineler",
-  "https://sermenkreatif.com/anycubic2": "Anycubic",
-  "https://sermenkreatif.com/yedek-parca-aksesuar": "Yedek Parça & Aksesuar",
-  "https://sermenkreatif.com/bambu-lab2": "Bambu Lab",
-  "https://sermenkreatif.com/anycubic1": "Anycubic",
-  "https://sermenkreatif.com/snapmaker1": "Snapmaker",
-  "https://sermenkreatif.com/3d-baski-urunleri": "3D Baskı Ürünleri",
-  "https://sermenkreatif.com/anahtarlik-aksesuar": "Anahtarlık & Aksesuar",
-  "https://sermenkreatif.com/kutu-oyunlari": "Kutu Oyunları",
-  "https://sermenkreatif.com/vazo-saksi": "Saksı & Vazo",
-  "https://sermenkreatif.com/home-dekor": "Home & Dekor",
-  "https://sermenkreatif.com/evcil-hayvalar": "Evcil Hayvan Aksesuarları",
-  "https://sermenkreatif.com/mutfak-aksesuarlari": "Mutfak Aksesuarları",
-  "https://sermenkreatif.com/cossplay-katana": "Cossplay & Katana",
-  "https://sermenkreatif.com/laboratuvar-malzemeleri": "Laboratuvar Malzemeleri",
-  "https://sermenkreatif.com/banyo-urunleri": "Banyo Ürünleri",
-  "https://sermenkreatif.com/anahtarliklar": "Anahtarlıklar",
-  "https://sermenkreatif.com/organizerler": "Organizerler",
-  "https://sermenkreatif.com/kalemlik": "Kalemlik",
-  "https://sermenkreatif.com/maskeler": "Maskeler",
-  "https://sermenkreatif.com/egitici-araclar": "Eğitici Araçlar",
-  "https://sermenkreatif.com/telefon-kulaklik-standlari": "Telefon & Kulaklık Standları",
-  "https://sermenkreatif.com/abajur": "Aydınlatma",
-  "https://sermenkreatif.com/3d-baski-hizmeti2": "3D Baskı Hizmeti",
-  "https://sermenkreatif.com/hakkimizda": "Hakkımızda",
-  "https://sermenkreatif.com/magazalar": "Mağazalar",
-  "https://sermenkreatif.com/mesafeli-satis-sozlesmesi": "Mesafeli Satış Sözleşmesi",
-  "https://sermenkreatif.com/kvkk-politikasi": "KVKK Aydınlatma Metni",
-  "https://sermenkreatif.com/teslimat-ve-siparis-kosullari": "Teslimat ve İade Koşulları",
-  "https://sermenkreatif.com/iletisim1": "İletişim",
-  "https://sermenkreatif.com/{{categoryUrl}}": "{{category}}",
-  "https://sermenkreatif.com/{{productUrl}}": "{{productName}}",
-  "https://sermenkreatif.com/{{fastOrderUrl}}": "{{translate 'SiparisTamamla_Baslik'}}",
-  "https://sermenkreatif.com/UyeGiris": "{{translate 'UyeGiris_Giris'}}",
-  "https://sermenkreatif.com/{{orderCompleteUrl}}": "{{translate 'SiparisTamamla_Baslik'}}"
+  "https://sermenkreatif.com/3d-yazici": {
+   "ad": "3D Yazıcılar"
+  },
+  "https://sermenkreatif.com/creality1": {
+   "ad": "Creality"
+  },
+  "https://sermenkreatif.com/flagship": {
+   "ad": "Flagship"
+  },
+  "https://sermenkreatif.com/hi-series": {
+   "ad": "Hi Series"
+  },
+  "https://sermenkreatif.com/ender-series": {
+   "ad": "Ender Series"
+  },
+  "https://sermenkreatif.com/halot-series": {
+   "ad": "HALOT Series"
+  },
+  "https://sermenkreatif.com/bambu-lab1": {
+   "ad": "Bambu Lab"
+  },
+  "https://sermenkreatif.com/h-": {
+   "ad": "H Series"
+  },
+  "https://sermenkreatif.com/p-series": {
+   "ad": "P Series"
+  },
+  "https://sermenkreatif.com/x-series": {
+   "ad": "X Series"
+  },
+  "https://sermenkreatif.com/a-series": {
+   "ad": "A Series"
+  },
+  "https://sermenkreatif.com/anycubic": {
+   "ad": "Anycubic"
+  },
+  "https://sermenkreatif.com/snapmaker": {
+   "ad": "Snapmaker"
+  },
+  "https://sermenkreatif.com/3d-tarayuci": {
+   "ad": "3D Tarayıcılar"
+  },
+  "https://sermenkreatif.com/creality2": {
+   "ad": "Creality"
+  },
+  "https://sermenkreatif.com/revopoint": {
+   "ad": "Revopoint"
+  },
+  "https://sermenkreatif.com/filamentler": {
+   "ad": "Filamentler"
+  },
+  "https://sermenkreatif.com/creality3": {
+   "ad": "Creality"
+  },
+  "https://sermenkreatif.com/ender-plus": {
+   "ad": "Ender Plus PLA"
+  },
+  "https://sermenkreatif.com/ender-fast": {
+   "ad": "Ender Fast PLA"
+  },
+  "https://sermenkreatif.com/soleyin-ultra": {
+   "ad": "Soleyin Ultra PLA"
+  },
+  "https://sermenkreatif.com/hyper-pla-cf": {
+   "ad": "Hyper PLA - CF"
+  },
+  "https://sermenkreatif.com/hyper-pla1": {
+   "ad": "Hyper PLA"
+  },
+  "https://sermenkreatif.com/hyper-pla-rfid-stardust": {
+   "ad": "Hyper PLA RFID Stardust"
+  },
+  "https://sermenkreatif.com/hyper-luminous-pla": {
+   "ad": "Hyper Luminous PLA"
+  },
+  "https://sermenkreatif.com/hyper-pla-rfid": {
+   "ad": "Hyper PLA RFID"
+  },
+  "https://sermenkreatif.com/hyper-lightweight-pla": {
+   "ad": "Hyper Lightweight PLA"
+  },
+  "https://sermenkreatif.com/soleyin-basic-petg-": {
+   "ad": "Soleyin Basic PETG"
+  },
+  "https://sermenkreatif.com/hyper-petg": {
+   "ad": "Hyper PETG"
+  },
+  "https://sermenkreatif.com/hyper-petg-cf": {
+   "ad": "Hyper PETG - CF"
+  },
+  "https://sermenkreatif.com/hyper-abs": {
+   "ad": "Hyper ABS"
+  },
+  "https://sermenkreatif.com/pla-2.0": {
+   "ad": "PLA+ 2.0"
+  },
+  "https://sermenkreatif.com/yuksek-hizli-pla": {
+   "ad": "Yüksek Hızlı PLA"
+  },
+  "https://sermenkreatif.com/yuksek-hizli-petg": {
+   "ad": "Yüksek Hızlı PETG"
+  },
+  "https://sermenkreatif.com/refill-pla": {
+   "ad": "Refill PLA"
+  },
+  "https://sermenkreatif.com/ozel-efektli-pla": {
+   "ad": "Özel Efektli PLA"
+  },
+  "https://sermenkreatif.com/hyper-speed1": {
+   "ad": "Hyper Speed"
+  },
+  "https://sermenkreatif.com/silk-pla": {
+   "ad": "Silk PLA"
+  },
+  "https://sermenkreatif.com/polymaker1": {
+   "ad": "Polymaker"
+  },
+  "https://sermenkreatif.com/panchroma-pla": {
+   "ad": "Panchroma PLA Basic"
+  },
+  "https://sermenkreatif.com/panchroma-pla-satin-colours": {
+   "ad": "Panchroma PLA Satin Colours"
+  },
+  "https://sermenkreatif.com/anchrom-pla-satin-colours": {
+   "ad": "PolyTerra PLA"
+  },
+  "https://sermenkreatif.com/polyterra-": {
+   "ad": "PolyTerra Pastel Colours"
+  },
+  "https://sermenkreatif.com/polymaker-petg": {
+   "ad": "Polymaker Petg"
+  },
+  "https://sermenkreatif.com/polymaker-fiberon": {
+   "ad": "Polymaker Fiberon"
+  },
+  "https://sermenkreatif.com/recineler": {
+   "ad": "Reçineler"
+  },
+  "https://sermenkreatif.com/anycubic2": {
+   "ad": "Anycubic"
+  },
+  "https://sermenkreatif.com/yedek-parca-aksesuar": {
+   "ad": "Yedek Parça & Aksesuar"
+  },
+  "https://sermenkreatif.com/bambu-lab2": {
+   "ad": "Bambu Lab"
+  },
+  "https://sermenkreatif.com/anycubic1": {
+   "ad": "Anycubic"
+  },
+  "https://sermenkreatif.com/snapmaker1": {
+   "ad": "Snapmaker"
+  },
+  "https://sermenkreatif.com/3d-baski-urunleri": {
+   "ad": "3D Baskı Ürünleri"
+  },
+  "https://sermenkreatif.com/anahtarlik-aksesuar": {
+   "ad": "Anahtarlık & Aksesuar"
+  },
+  "https://sermenkreatif.com/kutu-oyunlari": {
+   "ad": "Kutu Oyunları"
+  },
+  "https://sermenkreatif.com/vazo-saksi": {
+   "ad": "Saksı & Vazo"
+  },
+  "https://sermenkreatif.com/home-dekor": {
+   "ad": "Home & Dekor"
+  },
+  "https://sermenkreatif.com/evcil-hayvalar": {
+   "ad": "Evcil Hayvan Aksesuarları"
+  },
+  "https://sermenkreatif.com/mutfak-aksesuarlari": {
+   "ad": "Mutfak Aksesuarları"
+  },
+  "https://sermenkreatif.com/cossplay-katana": {
+   "ad": "Cossplay & Katana"
+  },
+  "https://sermenkreatif.com/laboratuvar-malzemeleri": {
+   "ad": "Laboratuvar Malzemeleri"
+  },
+  "https://sermenkreatif.com/banyo-urunleri": {
+   "ad": "Banyo Ürünleri"
+  },
+  "https://sermenkreatif.com/anahtarliklar": {
+   "ad": "Anahtarlıklar"
+  },
+  "https://sermenkreatif.com/organizerler": {
+   "ad": "Organizerler"
+  },
+  "https://sermenkreatif.com/kalemlik": {
+   "ad": "Kalemlik"
+  },
+  "https://sermenkreatif.com/maskeler": {
+   "ad": "Maskeler"
+  },
+  "https://sermenkreatif.com/egitici-araclar": {
+   "ad": "Eğitici Araçlar"
+  },
+  "https://sermenkreatif.com/telefon-kulaklik-standlari": {
+   "ad": "Telefon & Kulaklık Standları"
+  },
+  "https://sermenkreatif.com/abajur": {
+   "ad": "Aydınlatma"
+  },
+  "https://sermenkreatif.com/3d-baski-hizmeti2": {
+   "ad": "3D Baskı Hizmeti"
+  },
+  "https://sermenkreatif.com/magazalar": {
+   "ad": "Mağazalar"
+  },
+  "https://sermenkreatif.com/teslimat-ve-siparis-kosullari": {
+   "ad": "Teslimat ve İade Koşulları"
+  }
  }
 }
