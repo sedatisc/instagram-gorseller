@@ -5,8 +5,8 @@
 
 Çıktılar `youtube/gorsel/` altına yazılıyor:
 
-- `banner.png`   2048 × 1152 — YouTube'un istediği boy. Yazı ve logo
-  ortadaki 1235 × 338'lik güvenli alanda; televizyonda kenarlar kırpılıyor,
+- `banner.png`   2048 × 1152 — YouTube'un istediği boy. SermenLab
+  yazısı ortadaki 1235 × 338'lik güvenli alanda; televizyonda kenarlar kırpılıyor,
   telefonda yalnız bu alan görünüyor.
 - `profil.png`   800 × 800 — daire kırpıldığında taşmasın diye marka
   işareti ortada ve kenarda bol boşluk var.
@@ -94,7 +94,7 @@ def kelime(img, orta, boy=96):
     d.text((x + w1, orta[1]), "Lab", font=f2, fill=KIRMIZI, anchor="lm")
 
 
-def banner(ad=None):
+def banner(ad="lab"):
     W, H = 2048, 1152
     GW, GH = 1235, 338                        # her ekranda görünen alan
     img = zemin(W, H)
@@ -123,7 +123,7 @@ def banner(ad=None):
 
     # güvenli alanın dışı: yalnız doku kalsın, yazı girmesin
     img.convert("RGB").save(os.path.join(
-        CIKTI, "banner-lab.png" if ad == "lab" else "banner.png"))
+        CIKTI, "banner.png" if ad == "lab" else "banner-eski.png"))
     return (W, H)
 
 
@@ -162,7 +162,6 @@ def main():
     os.makedirs(CIKTI, exist_ok=True)
     U.theme("3dbaski")
     print("banner.png   %dx%d" % banner())
-    print("banner-lab.png %dx%d" % banner("lab"))
     print("profil.png   %dx%d" % profil())
     print("filigran.png %dx%d" % filigran())
 

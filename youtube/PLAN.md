@@ -1,6 +1,6 @@
 # YouTube — kendi yapısı
 
-Kanal: **@sermenkreatif**. Günde **1 Shorts**, saat **18:20**.
+Kanal: **SermenLab** (@sermenlab). Günde **1 Shorts**, saat **18:20**.
 Kuyruk `youtube/DURUM.json` içinde ve Instagram kuyruğundan ayrı:
 video aynı üretim hattından çıkıyor (`<klasör>/reels.mp4`), ama hangi gün
 hangi video, başlık ve açıklama burada belirleniyor.

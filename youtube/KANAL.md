@@ -1,8 +1,9 @@
 # Kanal kurulumu
 
-**Kanal:** Sermen Kreatif Teknolojileri
+**Kanal:** SermenLab
 **Kimlik:** `UCEwu_2EOMmS5AuRRulxVnag`
-**Kullanıcı adı:** @SermenKreatifTeknolojileri
+**Kullanıcı adı:** @sermenlab (alınacak; şu an
+@SermenKreatifTeknolojileri)
 **Adres:** https://www.youtube.com/channel/UCEwu_2EOMmS5AuRRulxVnag
 
 Görseller `youtube/gorsel/` altında, `arac/youtube_kanal.py` üretiyor.
@@ -37,20 +38,22 @@ Anahtarlar depoya girdikten sonra API ile **ben** yapabiliyorum:
 
 ## Künye
 
-**Kanal adı:** "Sermen Kreatif Teknolojileri" duruyor. Önerim
-**"Sermen Kreatif"** — mağaza ve Instagram'la aynı, videoda söylerken
-kısa. Ar-Ge/yazılım tarafı için yeni bir firma adı arıyorsun; o iş
-netleşince ayrı kanal açılır, bu kanal mağazanın kanalı olarak kalır.
+**Kanal adı:** SermenLab. Studio → Özelleştirme → Temel bilgiler →
+Ad alanına `SermenLab` yazılacak (şu an "Sermen Kreatif Teknolojileri").
 
-**Kullanıcı adı:** @SermenKreatifTeknolojileri uzun. Boşsa
-**@sermenkreatif** alınsın — Instagram'la aynı olması hem akılda kalıyor
-hem videoda "sermenkreatif" demek yetiyor. YouTube kullanıcı adı
-değişikliğinde sınır koyuyor, bir kerede doğrusunu al.
+**Kullanıcı adı:** `@sermenlab`. Aynı ekranda Tanıtıcı alanı; boş olup
+olmadığını alan anında söylüyor. Doluysa `@sermenlab3d`. Değiştirme hakkı
+sınırlı, bir kerede doğrusunu al.
+
+**Mağaza ile ilişkisi:** SermenLab içerik yüzü, satış sermenkreatif.com'da.
+Banner'da, hakkında metninde ve her video açıklamasında mağaza adresi
+geçiyor; ikisi birbirine bağlı kalıyor.
 
 **Hakkında** (Kanalı özelleştir → Temel bilgiler → Açıklama):
 
 ```
-3D baskı, filament ve elektronik tarafında işe yarayan kısa videolar.
+SermenLab — 3D baskı, filament ve elektronik tarafında işe yarayan kısa
+videolar. sermenkreatif.com'un atölyesi.
 
 Burada her rakam üreticinin kendi sayfasından geliyor: baskı alanı, hız,
 sıcaklık, akım. Tahmin, "bence" ve kulaktan dolma yok; bir bilgi
@@ -68,9 +71,9 @@ Her gün yeni bir Short. Ürünler: sermenkreatif.com
 **Kanal anahtar kelimeleri** (Ayarlar → Kanal → Temel bilgiler):
 
 ```
-3d baskı, 3d yazıcı, filament, pla, petg, abs, tpu, creality, bambu lab,
-sunlu, polymaker, elektronik, esp32, raspberry pi, arduino, maker,
-türkçe 3d baskı, 3d baskı türkiye
+sermenlab, sermen kreatif, 3d baskı, 3d yazıcı, filament, pla, petg, abs,
+tpu, creality, bambu lab, sunlu, polymaker, elektronik, esp32,
+raspberry pi, arduino, maker, türkçe 3d baskı, 3d baskı türkiye
 ```
 
 **Ülke:** Türkiye · **Dil:** Türkçe
@@ -149,8 +152,8 @@ kütüphanesinden müzik eklemek (elle, yükleme sonrası), (c) seslendirme.
 
 ## Sıra
 
-1. **Sende:** kanal adını kısalt, kullanıcı adını al, profil fotoğrafını
-   yükle (`youtube/gorsel/profil.png`).
+1. **Sende:** kanal adını `SermenLab` yap, `@sermenlab` tanıtıcısını al,
+   profil fotoğrafını yükle (`youtube/gorsel/profil.png`).
 2. **Sende:** yükleme varsayılanlarını ayarla, beş oynatma listesini aç.
 3. **Sende:** `otomasyon/YOUTUBE-KURULUM.md` adımlarıyla üç anahtarı
    depoya koy.
