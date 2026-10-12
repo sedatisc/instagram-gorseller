@@ -1631,6 +1631,56 @@ def kapak_urun(spec, sayac, yol):
     yaz(img, yol)
 
 
+def adim_dev(spec, no, toplam, sayac, yol):
+    """Rakamın ekranı doldurduğu slayt.
+
+    Her slayt aynı kalıpta (rozet, başlık, paragraf, kutu) gidince gönderi
+    tek tip okunuyor. Bir sayının taşıdığı slaytta o sayı kutuya sıkışmak
+    yerine kareyi dolduruyor — Shorts'ta işe yarayan şey bu.
+
+    Slayt alanları: `dev` (sayı), `dev_alt` (tek satır), `aciklama`.
+    """
+    img = base()
+    chrome(img, sayac, kaydir=True)
+    d = ImageDraw.Draw(img)
+
+    over(img, lambda g: g.rounded_rectangle(
+        [GUT, 168, GUT + 96, 264], radius=22, fill=a(AC(), 0.14),
+        outline=a(AC(), 0.6), width=3))
+    d = ImageDraw.Draw(img)
+    d.text((GUT + 48, 216), "%02d" % no, font=anton(58), fill=AC(),
+           anchor="mm")
+    d.text((GUT + 124, 216), "ADIM %d / %d" % (no, toplam), font=mono(28),
+           fill=SOFT(), anchor="lm")
+
+    dev = P(spec["dev"])
+    f = fit(d, dev, anton, RIGHT - GUT, 360, 130)
+    y = 400
+    metin_isik(img, glow((W, H), lambda g: g.text(
+        (GUT, y), dev, font=f, fill=a(AC(), 0.55), anchor="la"), 34))
+    d = ImageDraw.Draw(img)
+    d.text((GUT, y), dev, font=f, fill=FG(), anchor="la")
+    # Punto üzerinden ilerleyince virgülün kuyruğu alt satıra biniyordu;
+    # çizilen kutunun kendisi ölçülüyor.
+    y = d.textbbox((GUT, y), dev, font=f, anchor="la")[3] + 30
+
+    alt = P(spec.get("dev_alt", ""))
+    if alt:
+        fa = fit(d, max(wrap(d, alt, archivo(52), 940), key=len), archivo,
+                 940, 52, 36)
+        for ln in wrap(d, alt, fa, 940):
+            d.text((GUT, y), ln, font=fa, fill=AC(), anchor="la")
+            y += fa.size * 1.2
+    d.rectangle([GUT, y + 26, GUT + 110, y + 32], fill=AC())
+
+    fs = pop(30)
+    ty = y + 80
+    for ln in wrap(d, P(spec.get("aciklama", "")), fs, 880):
+        d.text((GUT, ty), ln, font=fs, fill=FG2(), anchor="la")
+        ty += 45
+    yaz(img, yol)
+
+
 def adim_foto(spec, no, toplam, sayac, yol):
     """Üstte fotoğraf, altta başlık ve künye satırları."""
     img = base()
@@ -2014,6 +2064,9 @@ def main():
         hedef = os.path.join(out, "%d.jpg" % n)
         if sl.get("foto"):
             adim_foto(sl, i, len(slaytlar), "%d/%d" % (n, toplam), hedef)
+            continue
+        if sl.get("dev"):
+            adim_dev(sl, i, len(slaytlar), "%d/%d" % (n, toplam), hedef)
             continue
         fn = govde(sl) if (sl.get("cizim") or sl.get("tablo")
                            or sl.get("satirlar")) else ortak
