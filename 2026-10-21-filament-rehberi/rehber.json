@@ -1,0 +1,185 @@
+{
+ "kategori": "3dbaski",
+ "baslik": "FİLAMENT AYAR REHBERİ",
+ "alt": "Sunlu ailesi — nozul, tabla, hız. Rakamlar ürün sayfalarından.",
+ "cipler": [
+  [
+   "AİLE",
+   "8"
+  ],
+  [
+   "ÇAP",
+   "1,75"
+  ],
+  [
+   "TOLERANS",
+   "±0,02"
+  ],
+  [
+   "MARKA",
+   "SUNLU"
+  ]
+ ],
+ "sutunlar": [
+  {
+   "ad": "Malzeme",
+   "pay": 1.25
+  },
+  {
+   "ad": "Nozul",
+   "pay": 0.95
+  },
+  {
+   "ad": "Tabla",
+   "pay": 0.9
+  },
+  {
+   "ad": "Hız",
+   "pay": 1.0
+  },
+  {
+   "ad": "Ne için",
+   "pay": 1.6
+  }
+ ],
+ "satir_yuksekligi": 88,
+ "satirlar": [
+  {
+   "renk": "yesil",
+   "hucre": [
+    "PLA",
+    "190-220 °C",
+    "50-60 °C",
+    "50-150 mm/s",
+    "Günlük baskı, prototip"
+   ]
+  },
+  {
+   "renk": "turkuaz",
+   "hucre": [
+    "PLA Mat",
+    "190-220 °C",
+    "50-60 °C",
+    "50-200 mm/s",
+    "Görünüm parçası, katman izini gizler"
+   ]
+  },
+  {
+   "renk": "mavi",
+   "hucre": [
+    "PLA+ 2.0",
+    "205-225 °C",
+    "55-65 °C",
+    "50-200 mm/s",
+    "Yük taşıyan parça, en tok"
+   ]
+  },
+  {
+   "renk": "mor",
+   "hucre": [
+    "Yüksek Hızlı PLA",
+    "200-230 °C",
+    "50-60 °C",
+    "150-600 mm/s",
+    "Hızlı makine, seri iş"
+   ]
+  },
+  {
+   "renk": "turuncu",
+   "hucre": [
+    "PETG",
+    "230-250 °C",
+    "70-90 °C",
+    "50-250 mm/s",
+    "Dış mekân, su ve kimyasal"
+   ]
+  },
+  {
+   "renk": "kirmizi",
+   "hucre": [
+    "ABS",
+    "240-260 °C",
+    "90-110 °C",
+    "40-150 mm/s",
+    "Isıya dayanım, kapalı kabin"
+   ]
+  },
+  {
+   "renk": "sari",
+   "hucre": [
+    "ASA",
+    "240-260 °C",
+    "90-110 °C",
+    "40-150 mm/s",
+    "Dış mekân, güneş altında"
+   ]
+  },
+  {
+   "renk": "pembe",
+   "hucre": [
+    "TPU 95A",
+    "210-230 °C",
+    "30-50 °C",
+    "20-40 mm/s",
+    "Esnek parça, conta, tampon"
+   ]
+  }
+ ],
+ "kutular": [
+  {
+   "baslik": "Önce buna bak",
+   "renk": "yesil",
+   "satirlar": [
+    [
+     "ok",
+     "Seri değişince dilimleyicideki profili de değiştir"
+    ],
+    [
+     "ok",
+     "TPU 20-40 mm/s: hız artarsa filament ezilir"
+    ],
+    [
+     "ok",
+     "Yüksek Hızlı PLA 150 mm/s'den başlıyor"
+    ]
+   ]
+  },
+  {
+   "baslik": "Sık yapılan hata",
+   "renk": "kirmizi",
+   "satirlar": [
+    [
+     "yok",
+     "PLA profiliyle PETG basmak — 30-40 °C eksik"
+    ],
+    [
+     "yok",
+     "ABS'yi açık kabinde basmak, köşeler kalkar"
+    ],
+    [
+     "yok",
+     "Mat PLA'yı yük taşıyan parçada kullanmak"
+    ]
+   ]
+  },
+  {
+   "baslik": "Kurutma",
+   "renk": "mavi",
+   "satirlar": [
+    [
+     "nokta",
+     "Sunlu tek rakam veriyor: 50 °C"
+    ],
+    [
+     "nokta",
+     "Süre vermiyor, depoda %20 altı nem istiyor"
+    ],
+    [
+     "nokta",
+     "En çok etkilenen: PETG, TPU, naylon"
+    ]
+   ]
+  }
+ ],
+ "kunye": "Kaydet — lazım olacak"
+}
