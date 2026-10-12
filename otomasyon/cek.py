@@ -242,6 +242,53 @@ def kesfet(kok):
     return sorted(set(adaylar))
 
 
+def liste(sayfa, derin=3):
+    """Kategori sayfasındaki ürün bağlantılarını çıkar.
+
+    Elektronik ürünleri site haritasında yok; haritada yalnız marka
+    sayfaları geçiyor (espressif-116, pixhawk-65 gibi). Ürünlere ancak o
+    sayfadan geçiliyor, sayfalama dahil.
+    """
+    kok = "%s://%s" % up.urlparse(sayfa)[:2]
+    gorulen, urun = set(), {}
+    yigin = [(sayfa, 1)]
+    while yigin:
+        adres, sayfa_no = yigin.pop(0)
+        if adres in gorulen or len(gorulen) > 40:
+            continue
+        gorulen.add(adres)
+        try:
+            h = getir(adres)
+        except Exception as e:
+            print("  atlandı:", adres, e)
+            continue
+        # ürün bağlantısı: başlık taşıyan <a href> — adı da alıyoruz
+        for m in re.finditer(r'<a[^>]+href="([^"#?]+)"[^>]*>(.*?)</a>', h,
+                             re.I | re.S):
+            yol, ic = m.group(1), re.sub(r"<[^>]+>", " ", m.group(2))
+            ad = re.sub(r"\s+", " ", ic).strip()
+            if not ad or len(ad) < 8 or len(ad) > 140:
+                continue
+            tam = up.urljoin(adres, yol)
+            if not tam.startswith(kok):
+                continue
+            dilim = up.urlparse(tam).path.strip("/")
+            if not dilim or "/" in dilim:
+                continue
+            if re.search(r"-\d{1,3}$", dilim):      # marka/kategori sayfası
+                continue
+            urun.setdefault(tam, ad)
+        if sayfa_no < derin:                        # sayfalama
+            for ek in ("?page=%d", "?sayfa=%d", "/%d"):
+                try:
+                    yigin.append((adres.split("?")[0] + (ek % (sayfa_no + 1))
+                                  if "%d" in ek else adres, sayfa_no + 1))
+                except Exception:
+                    pass
+                break
+    return urun
+
+
 # --------------------------------------------------------------- ana akış
 def main():
     yenile = "--yenile" in sys.argv
@@ -249,6 +296,23 @@ def main():
     if "--urun" in sys.argv:                      # tek ürünü yeniden çek
         tek = sys.argv[sys.argv.index("--urun") + 1]
         yenile = True
+    if "--liste" in sys.argv:
+        hedef = sys.argv[sys.argv.index("--liste") + 1]
+        bulunan = liste(hedef)
+        yol = os.path.join(KOK, "otomasyon", "kategori-urunleri.json")
+        eski = {}
+        if os.path.exists(yol):
+            try:
+                eski = json.load(open(yol, encoding="utf-8"))
+            except Exception:
+                pass
+        eski[hedef] = bulunan
+        json.dump(eski, open(yol, "w", encoding="utf-8"),
+                  ensure_ascii=False, indent=1)
+        print("%d ürün yazıldı: %s" % (len(bulunan), yol))
+        for u, ad in list(bulunan.items())[:40]:
+            print("  %s  —  %s" % (u, ad))
+        return
     if "--kesfet" in sys.argv:
         kok = sys.argv[sys.argv.index("--kesfet") + 1]
         bulunan = kesfet(kok)
