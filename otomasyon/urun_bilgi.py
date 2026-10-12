@@ -128,6 +128,10 @@ def main():
                     if "headertasarim" not in g.lower()] or v["gorsel"]
             v["gorsel"] = aday + [g for g in v["gorsel"] if g not in aday]
             if v["gorsel"]:
+                # Ticimax CDN'i genişliği adreste taşıyor; 698 yerine 1600
+                # isteyip kapak için yeterli çözünürlük alıyoruz.
+                v["gorsel"][0] = re.sub(r"/width=\d+,", "/width=1600,",
+                                        v["gorsel"][0])
                 uz = os.path.splitext(up.urlparse(v["gorsel"][0]).path)[1]
                 uz = uz if uz.lower() in (".jpg", ".jpeg", ".png", ".webp") \
                     else ".jpg"
