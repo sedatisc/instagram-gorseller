@@ -63,7 +63,10 @@ jobs:
 
       - name: Kategorideki ürünleri listele
         if: inputs.liste != ''
-        run: python3 otomasyon/cek.py --liste "${{ inputs.liste }}"
+        run: |
+          pip install --quiet playwright
+          python3 -m playwright install --with-deps chromium
+          python3 otomasyon/kategori.py "${{ inputs.liste }}" --sayfa 4
 
       - name: Görselleri çek
         if: inputs.kesfet == '' && inputs.liste == ''
