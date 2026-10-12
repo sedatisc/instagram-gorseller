@@ -277,5 +277,38 @@
   ],
   "adres": "https://sermenkreatif.com/sunlu-yuksek-hizli-pla-filament-kirmizi",
   "slug": "sunlu-yuksek-hizli-pla-filament-kirmizi"
+ },
+ "https://sermenkreatif.com/3d-baski-hizmeti1": {
+  "baslik": "Samsun 3D Baskı Hizmeti | Hızlı & Profesyonel 3D Yazıcı Baskı |",
+  "fiyat": "",
+  "ozellik": [],
+  "metin": "",
+  "gorsel": [
+   "https://static.ticimax.cloud/74462/Uploads/HeaderTasarim/Header10/871c67e1-fc06-4722-a72c-0ec94044a84c.jpg"
+  ],
+  "adres": "https://sermenkreatif.com/3d-baski-hizmeti1",
+  "slug": "3d-baski-hizmeti1"
+ },
+ "https://sermenkreatif.com/3d-baski-hizmeti2": {
+  "baslik": "Hayallerinizi katman katman gerçeğe dönüştürün.",
+  "fiyat": "",
+  "ozellik": [],
+  "metin": "",
+  "gorsel": [
+   "https://static.ticimax.cloud/74462/Uploads/HeaderTasarim/Header10/871c67e1-fc06-4722-a72c-0ec94044a84c.jpg"
+  ],
+  "adres": "https://sermenkreatif.com/3d-baski-hizmeti2",
+  "slug": "3d-baski-hizmeti2"
+ },
+ "https://sermenkreatif.com/hakkimizda": {
+  "baslik": "Sermen Kreatif Hakkımızda | 3D ve Kırtasiye Dünyası",
+  "fiyat": "",
+  "ozellik": [],
+  "metin": "",
+  "gorsel": [
+   "https://static.ticimax.cloud/74462/Uploads/HeaderTasarim/Header10/871c67e1-fc06-4722-a72c-0ec94044a84c.jpg"
+  ],
+  "adres": "https://sermenkreatif.com/hakkimizda",
+  "slug": "hakkimizda"
  }
 }
