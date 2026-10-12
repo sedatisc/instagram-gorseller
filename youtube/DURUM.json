@@ -2,10 +2,10 @@
  "kanal": "SermenLab",
  "bicim": "Shorts · 1080 × 1920 · 23 sn · dikey",
  "saat": "18:20",
- "not": "YouTube kuyrugu Instagram'dan ayri. Video ayni uretim hattindan cikiyor (reels.mp4) ama baslik, aciklama ve sira burada. Kurallar youtube/PLAN.md, hat otomasyon/youtube.py.",
+ "not": "YouTube kuyrugu Instagram'dan ayri. Video ayni uretim hattindan cikiyor ama YouTube surumu <klasor>/shorts.mp4 — sonunda abone karti var. Baslik, aciklama ve sira burada. Kurallar youtube/PLAN.md, hat otomasyon/youtube.py.",
  "kuyruk": [
   {
-   "tarih": "2026-10-11",
+   "tarih": "2026-10-12",
    "klasor": "2026-10-10-bambu-r1-tanitim",
    "baslik": "55 W CO2 lazer ne keser, ne kesmez?",
    "kanca": "Bambu Lab R1'in sahası organik malzeme — metali kesmiyor.",
@@ -24,7 +24,7 @@
    ]
   },
   {
-   "tarih": "2026-10-12",
+   "tarih": "2026-10-13",
    "klasor": "2026-10-14-sunlu-filadryer",
    "baslik": "Filament kurutucu şart mı? SUNLU S2, S4, E2 farkı",
    "kanca": "Nem çeken filament tıkanma ve kötü yüzey olarak geri geliyor.",
@@ -42,7 +42,7 @@
    ]
   },
   {
-   "tarih": "2026-10-13",
+   "tarih": "2026-10-14",
    "klasor": "2026-10-15-sunlu-ams-heater",
    "baslik": "AMS ısıtıcısı işe yarıyor mu?",
    "kanca": "Kutunun içindeki nem, baskıdaki çoğu yüzey hatasının sebebi.",
@@ -60,7 +60,7 @@
    ]
   },
   {
-   "tarih": "2026-10-14",
+   "tarih": "2026-10-15",
    "klasor": "2026-10-16-phaetus-liber-u1",
    "baslik": "Snapmaker U1'e Phaetus Liber hotend: ne değişiyor?",
    "kanca": "Dört kafalı makinede hotend değişimi akışı ve sıcaklığı değiştiriyor.",
@@ -78,7 +78,7 @@
    ]
   },
   {
-   "tarih": "2026-10-15",
+   "tarih": "2026-10-16",
    "klasor": "2026-10-17-polymaker-ht-pla",
    "baslik": "HT-PLA nedir, normal PLA'dan farkı ne?",
    "kanca": "Arabada eriyen PLA parçanın çözümü ABS değil olabilir.",
@@ -96,7 +96,7 @@
    ]
   },
   {
-   "tarih": "2026-10-16",
+   "tarih": "2026-10-17",
    "klasor": "2026-10-18-bambu-h-serisi-pano",
    "baslik": "Bambu H2S, H2C ve H2D farkı ne?",
    "kanca": "Üç makine aynı gövdede, fark çok renk ve lazer tarafında.",
@@ -114,7 +114,7 @@
    ]
   },
   {
-   "tarih": "2026-10-17",
+   "tarih": "2026-10-18",
    "klasor": "2026-10-16-sunlu-filament-pano",
    "baslik": "Hangi SUNLU filament? PLA+, Matte ve Silk farkı",
    "kanca": "Seriyi değiştirip dilimleyici profilini aynı bırakmak en sık hata.",
@@ -132,7 +132,7 @@
    ]
   },
   {
-   "tarih": "2026-10-18",
+   "tarih": "2026-10-19",
    "klasor": "2026-10-18-ender-3-v4-combo",
    "baslik": "Ender-3 V4 Combo: 500 mm/s ve CFS ile 4 renk",
    "kanca": "Ender serisinin bu kuşağı otomatik ayar ve çok renkle geliyor.",
@@ -149,6 +149,234 @@
     "3dbaski",
     "makerturkiye"
    ]
+  },
+  {
+   "klasor": "2026-10-21-u1-k3-pano",
+   "baslik": "Purge atmadan çok renk: Snapmaker U1 ve Creality K3",
+   "kanca": "Çok renkli baskıda asıl maliyet filament değil, çöpe giden purge.",
+   "satirlar": [
+    "U1 dört bağımsız kafa değiştiriyor, ~5 saniye",
+    "K3 yalnız nozul grubunu değiştiriyor, 4,8 saniye",
+    "U1: 270 mm küp, 500 mm/s, kabin ayrı satılıyor",
+    "K3'ün teknik verisi henüz yayınlanmadı"
+   ],
+   "kaynak": "Rakamlar Snapmaker ve Creality'nin kendi sayfalarından.",
+   "etiket": [
+    "snapmaker",
+    "creality",
+    "cokrenklibaski",
+    "3dbaski",
+    "makerturkiye"
+   ],
+   "tarih": "2026-10-20"
+  },
+  {
+   "klasor": "2026-10-20-sparkx-i7-i8-pano",
+   "baslik": "SparkX i7 mi i8 mi? Aradaki tek fark",
+   "kanca": "Aynı gövde, aynı hız — fark çok renk mekanizmasında.",
+   "satirlar": [
+    "İkisi de 260 × 260 × 255 mm, 500 mm/s",
+    "i7 çok renge CFS Lite ile çıkıyor, 4 slot",
+    "i8'in QuarTeks sistemi purge kulesini kaldırıyor",
+    "i8 kitlesel fonlamada, i7 raftan alınıyor"
+   ],
+   "kaynak": "Rakamlar Creality'nin kendi sayfalarından.",
+   "etiket": [
+    "creality",
+    "sparkx",
+    "3dyazici",
+    "3dbaski",
+    "makerturkiye"
+   ],
+   "tarih": "2026-10-21"
+  },
+  {
+   "klasor": "2026-10-19-bambu-a-serisi-pano",
+   "baslik": "A1 mini, A1 ve A2L farkı ne?",
+   "kanca": "Üçü aynı aileden ama aynı işe göre değil.",
+   "satirlar": [
+    "Baskı alanı ve hız farkı",
+    "AMS uyumu ve çok renk tarafı",
+    "Hangisi ilk makine, hangisi yetmiyor"
+   ],
+   "kaynak": "Rakamlar Bambu Lab'ın kendi sayfalarından.",
+   "etiket": [
+    "bambulab",
+    "a1mini",
+    "3dyazici",
+    "3dbaski",
+    "makerturkiye"
+   ],
+   "tarih": "2026-10-22"
+  },
+  {
+   "klasor": "2026-10-20-pixhawk-pano",
+   "baslik": "Pixhawk 6C, 6C mini ve 6X farkı",
+   "kanca": "Uçuş kontrol kartı seçerken bakılacak üç şey.",
+   "satirlar": [
+    "İşlemci ve IMU farkı",
+    "Yedekli sensör hangisinde var",
+    "Hangi gövdeye hangisi sığıyor"
+   ],
+   "kaynak": "Görseller ve veriler PX4 dokümantasyonundan (CC BY 4.0).",
+   "etiket": [
+    "pixhawk",
+    "px4",
+    "drone",
+    "elektronik",
+    "makerturkiye"
+   ],
+   "tarih": "2026-10-23"
+  },
+  {
+   "klasor": "2026-10-21-pi-kamera-pano",
+   "baslik": "Raspberry Pi kamerası: Module 3, HQ ve GS",
+   "kanca": "Üç kamera, üç ayrı iş — hangisi seninki?",
+   "satirlar": [
+    "Module 3: otofokus, genel kullanım",
+    "HQ: değiştirilebilir lens, detay",
+    "GS: global shutter, hareketli sahne"
+   ],
+   "kaynak": "Veriler Raspberry Pi dokümantasyonundan.",
+   "etiket": [
+    "raspberrypi",
+    "kamera",
+    "elektronik",
+    "maker",
+    "makerturkiye"
+   ],
+   "tarih": "2026-10-24"
+  },
+  {
+   "klasor": "2026-10-17-esp32-ailesi-pano",
+   "baslik": "Hangi ESP32? S3, C6 ve P4 farkı",
+   "kanca": "Üçü de ESP32 ama aynı işi yapmıyor.",
+   "satirlar": [
+    "S3: yapay zekâ komutları, USB OTG",
+    "C6: Wi-Fi 6, Thread ve Zigbee",
+    "P4: kablosuzu yok, işlem gücü var"
+   ],
+   "kaynak": "Veriler Espressif'in kendi sayfalarından.",
+   "etiket": [
+    "esp32",
+    "espressif",
+    "iot",
+    "elektronik",
+    "makerturkiye"
+   ],
+   "tarih": "2026-10-25"
+  },
+  {
+   "klasor": "2026-10-16-gelistirme-karti-pano",
+   "baslik": "Projene hangi kart girer? Pico 2 W, ESP32-S3, Pi 5",
+   "kanca": "Kart seçimi işin yarısı; yanlış kart projeyi büyütüyor.",
+   "satirlar": [
+    "Pico 2 W: pille çalışan küçük iş",
+    "ESP32-S3: kablosuz ve sensör",
+    "Pi 5: kamera, görüntü işleme, Linux"
+   ],
+   "kaynak": "Veriler üreticilerin kendi sayfalarından.",
+   "etiket": [
+    "raspberrypi",
+    "esp32",
+    "iot",
+    "elektronik",
+    "makerturkiye"
+   ],
+   "tarih": "2026-10-26"
+  },
+  {
+   "klasor": "2026-10-17-cok-renkli-yazici-pano",
+   "baslik": "Çok renge nasıl geçilir? Üç ayrı yol",
+   "kanca": "Çok renkli baskının üç yolu var, üçü de aynı şeyi ödemiyor.",
+   "satirlar": [
+    "Tek nozul + makara değiştirici (AMS, CFS)",
+    "Çok kafalı makine, purge yok",
+    "Elle renk değişimi, sıfır maliyet"
+   ],
+   "kaynak": "Rakamlar üreticilerin kendi sayfalarından.",
+   "etiket": [
+    "cokrenklibaski",
+    "ams",
+    "3dbaski",
+    "3dyazici",
+    "makerturkiye"
+   ],
+   "tarih": "2026-10-27"
+  },
+  {
+   "klasor": "2026-10-19-ht-pla-pano",
+   "baslik": "HT-PLA, Gradient ve GF farkı",
+   "kanca": "PLA kolaylığında daha yüksek sıcaklık dayanımı.",
+   "satirlar": [
+    "HT-PLA: tavlama sonrası ısı dayanımı",
+    "Gradient: renk geçişli görünüm serisi",
+    "GF: cam elyaf takviyeli, sert nozul ister"
+   ],
+   "kaynak": "Rakamlar Polymaker'ın kendi sayfalarından.",
+   "etiket": [
+    "polymaker",
+    "htpla",
+    "filament",
+    "3dbaski",
+    "makerturkiye"
+   ],
+   "tarih": "2026-10-28"
+  },
+  {
+   "klasor": "2026-10-18-filament-kurutucu-pano",
+   "baslik": "Hangi filament kurutucu? S2, S4 ve E2",
+   "kanca": "Nem çeken filament tıkanma ve kötü yüzey olarak geri geliyor.",
+   "satirlar": [
+    "Kapasite ve sıcaklık farkı",
+    "Baskı sırasında kurutma hangisinde var",
+    "Hangi filament kaç derecede kurur"
+   ],
+   "kaynak": "Rakamlar SUNLU'nun kendi sayfalarından.",
+   "etiket": [
+    "sunlu",
+    "filamentkurutucu",
+    "filament",
+    "3dbaski",
+    "makerturkiye"
+   ],
+   "tarih": "2026-10-29"
+  },
+  {
+   "klasor": "2026-10-18-sert-nozul",
+   "baslik": "Sertleştirilmiş nozul ne zaman şart?",
+   "kanca": "Elyaflı filamente geçtiysen ölçü bozulmasının sebebi ayar değil.",
+   "satirlar": [
+    "Aşındıranlar: karbon, cam elyaf, ahşap, metal dolgulu",
+    "Aşınan uçta duvar incelir, köşe boşluğu açılır",
+    "Sert uçta nozul sıcaklığını 5-10 °C yükselt"
+   ],
+   "etiket": [
+    "nozzle",
+    "karbonfiber",
+    "filament",
+    "3dbaski",
+    "makerturkiye"
+   ],
+   "tarih": "2026-10-30"
+  },
+  {
+   "klasor": "2026-10-18-kondansator-esr",
+   "baslik": "Kondansatör sağlam görünüp bozuk olur mu?",
+   "kanca": "Kapasitesi doğru ölçülen kondansatör bozuk olabiliyor.",
+   "satirlar": [
+    "Arızayı gösteren değer kapasite değil, ESR",
+    "Şişmemiş kondansatör de bozulur",
+    "Değişimde düşük ESR, 105 °C sınıfı"
+   ],
+   "etiket": [
+    "elektronik",
+    "kondansator",
+    "esr",
+    "tamir",
+    "makerturkiye"
+   ],
+   "tarih": "2026-10-31"
   }
  ],
  "kullanilan": [
@@ -159,7 +387,19 @@
   "2026-10-17-polymaker-ht-pla",
   "2026-10-18-bambu-h-serisi-pano",
   "2026-10-16-sunlu-filament-pano",
-  "2026-10-18-ender-3-v4-combo"
+  "2026-10-18-ender-3-v4-combo",
+  "2026-10-21-u1-k3-pano",
+  "2026-10-20-sparkx-i7-i8-pano",
+  "2026-10-19-bambu-a-serisi-pano",
+  "2026-10-20-pixhawk-pano",
+  "2026-10-21-pi-kamera-pano",
+  "2026-10-17-esp32-ailesi-pano",
+  "2026-10-16-gelistirme-karti-pano",
+  "2026-10-17-cok-renkli-yazici-pano",
+  "2026-10-19-ht-pla-pano",
+  "2026-10-18-filament-kurutucu-pano",
+  "2026-10-18-sert-nozul",
+  "2026-10-18-kondansator-esr"
  ],
  "kanal_id": "UCEwu_2EOMmS5AuRRulxVnag",
  "kanal_adres": "https://www.youtube.com/channel/UCEwu_2EOMmS5AuRRulxVnag"

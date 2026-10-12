@@ -291,6 +291,50 @@ def sahne_kapanis(spec, t, sure):
     return img
 
 
+def marka_yazi(img, orta, boy=78, alfa=255):
+    """SermenLab yazısı: marka işareti + 'Sermen' + vurgu renginde 'Lab'.
+
+    Logo PNG'si 'sermenkreatif' yazıyor; YouTube kanalının adı SermenLab.
+    """
+    im = Image.open(os.path.join(U.HERE, "marka",
+                                 "logo-dikey.png")).convert("RGBA")
+    isaret = im.crop((0, 0, im.width, int(im.height * 0.74)))
+    k = (boy * 1.3) / isaret.height
+    isaret = isaret.resize((int(isaret.width * k), int(isaret.height * k)),
+                           Image.LANCZOS)
+    d = ImageDraw.Draw(img)
+    f1, f2 = pop(boy, "Bold"), pop(boy, "Light")
+    w1 = d.textlength("Sermen", font=f1)
+    w2 = d.textlength("Lab", font=f2)
+    tam = isaret.width + 22 + w1 + w2
+    x = orta[0] - tam / 2
+    if alfa > 8:
+        kat = Image.new("RGBA", (SW, SH), (0, 0, 0, 0))
+        kat.alpha_composite(isaret, (int(x), int(orta[1] - isaret.height / 2)))
+        img.alpha_composite(Image.blend(Image.new("RGBA", (SW, SH),
+                                                  (0, 0, 0, 0)), kat,
+                                        alfa / 255.0))
+    x += isaret.width + 22
+    yazi(d, (x, orta[1]), "Sermen", f1, U.FG(), alfa, "lm")
+    yazi(d, (x + w1, orta[1]), "Lab", f2, U.AC(), alfa, "lm")
+
+
+def sahne_abone(t, sure):
+    """YouTube sürümünün son kartı: marka, abone çağrısı, mağaza."""
+    img = zemin()
+    p0 = gecis(t, sure, 0.0, 0.45)
+    marka_yazi(img, (SW / 2, 760), 78, int(255 * p0))
+    d = ImageDraw.Draw(img)
+    p1 = gecis(t, sure, 0.18, 0.45)
+    yazi(d, (SW / 2, 960), "ABONE OL", anton(118), U.AC(), 255 * p1, "mm")
+    p2 = gecis(t, sure, 0.42, 0.45)
+    yazi(d, (SW / 2, 1066), "Her gün yeni bir Short", pop(34, "Medium"),
+         U.FG(), 235 * p2, "mm")
+    yazi(d, (SW / 2, 1130), "sermenkreatif.com", mono(30, True),
+         U.SOFT(), 230 * p2, "mm")
+    return img
+
+
 # -------------------------------------------------------------------- akış
 def pano_kurgu(spec):
     """Pano gönderisinin reels'i: kanca, her sütun bir sahne, kapanış.
@@ -340,13 +384,17 @@ def kurgu(spec):
 
 
 def main():
-    spec = json.load(open(sys.argv[1], encoding="utf-8"))
-    cikti = sys.argv[2]
+    arg = [x for x in sys.argv[1:] if not x.startswith("--")]
+    spec = json.load(open(arg[0], encoding="utf-8"))
+    cikti = arg[1]
+    yt = "--yt" in sys.argv          # YouTube sürümü: sonda abone kartı
     U.theme(spec["kategori"])
     U.zemin_ayarla(spec.get("zemin", "koyu"))
     U.stil_ayarla(spec.get("stil", "neon"))
 
     sahneler = kurgu(spec)
+    if yt:
+        sahneler = sahneler + [(2.6, sahne_abone)]
     toplam = sum(s for s, _ in sahneler)
     tk = int(toplam * FPS)
 

@@ -1,6 +1,11 @@
 # YouTube — kendi yapısı
 
 Kanal: **SermenLab** (@sermenlab). Günde **1 Shorts**, saat **18:20**.
+
+Video YouTube sürümü: `python3 reels.py <klasor>/spec.json
+<klasor>/shorts.mp4 --yt`. Instagram'ın `reels.mp4` dosyasından farkı
+sondaki 2,6 saniyelik abone kartı (SermenLab, "ABONE OL", mağaza adresi).
+Yükleyici `shorts.mp4` varsa onu, yoksa `reels.mp4` dosyasını atıyor.
 Kuyruk `youtube/DURUM.json` içinde ve Instagram kuyruğundan ayrı:
 video aynı üretim hattından çıkıyor (`<klasör>/reels.mp4`), ama hangi gün
 hangi video, başlık ve açıklama burada belirleniyor.

@@ -204,11 +204,14 @@ def main():
                              % (ad, is_["zaman"], str(an - t).split(".")[0]))
                 continue
         kl = is_["klasor"]
-        yol = os.path.join(KOK, kl, "reels.mp4")
+        # YouTube sürümü varsa o: sonunda abone kartı var
+        yol = os.path.join(KOK, kl, "shorts.mp4")
+        if not os.path.exists(yol):
+            yol = os.path.join(KOK, kl, "reels.mp4")
         print("→ %s · %s" % (ad, kl))
         try:
             if not os.path.exists(yol):
-                raise Hata("%s/reels.mp4 yok" % kl)
+                raise Hata("%s içinde shorts.mp4 ya da reels.mp4 yok" % kl)
             bas, acik = baslik(is_), aciklama(is_)
             if kuru:
                 print("   başlık: %s" % bas)
