@@ -68,6 +68,11 @@ def baslik(klasor):
     """Kapak manşetinden okunur bir başlık çıkar (Türkçe büyük/küçük harf)."""
     yol = os.path.join(KOK, klasor, "spec.json")
     if not os.path.exists(yol):
+        # Referans tablosu gönderilerinde spec.json yok, rehber.json var
+        reh = os.path.join(KOK, klasor, "rehber.json")
+        if os.path.exists(reh):
+            r = json.load(open(reh, encoding="utf-8"))
+            return r.get("baslik", klasor)   # zaten okunur yazılmış
         return klasor
     k = json.load(open(yol, encoding="utf-8"))["kapak"]
     ham = ("%s %s" % (k.get("satir1", ""), k.get("satir2", ""))).strip()

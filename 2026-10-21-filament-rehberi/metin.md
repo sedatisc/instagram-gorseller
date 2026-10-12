@@ -1,3 +1,5 @@
+## Gönderi metni
+
 Filament değiştirip dilimleyicideki profili aynı bırakmak en sık yapılan hata. Sekiz Sunlu malzemesinin nozul, tabla ve hız değeri tek karede — ekran görüntüsünü al, tezgâhta lazım olacak.
 
 PLA → nozul 190-220 °C, tabla 50-60 °C, 50-150 mm/s. Günlük baskı ve prototip.

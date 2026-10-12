@@ -1,3 +1,5 @@
+## Gönderi metni
+
 Karbon elyaflı filament basıp iki hafta sonra ilk katmanın tutmadığını fark ettiysen suç ayarda değil: nozul aşınmış. Phaetus Conch M4 EndCoat tam bu iş için.
 
 Nedir → sertleştirilmiş çelik nozul, üstünde EndCoat kaplama. Kaplamanın sertliği HV3300. Üretici, sade sertleştirilmiş çelik nozula göre 2,5 kata kadar uzun ömür veriyor. Azami sıcaklık 500 °C.

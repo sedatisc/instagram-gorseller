@@ -219,7 +219,26 @@ Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan payl
 
 **[2026-10-21-filament-rehberi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-rehberi)** · 1 kare · hikaye 08:52
 
-_metin.md yok_
+```
+Filament değiştirip dilimleyicideki profili aynı bırakmak en sık yapılan hata. Sekiz Sunlu malzemesinin nozul, tabla ve hız değeri tek karede — ekran görüntüsünü al, tezgâhta lazım olacak.
+
+PLA → nozul 190-220 °C, tabla 50-60 °C, 50-150 mm/s. Günlük baskı ve prototip.
+PLA Mat → aynı sıcaklıklar, 50-200 mm/s. Mat yüzey katman izini gizliyor; görünüm parçası için.
+PLA+ 2.0 → 205-225 °C, tabla 55-65 °C, 50-200 mm/s. Üçünün en toku; çekme dayanımı 60 MPa, ısı direnci 60 °C. Yük taşıyan parça buradan.
+Yüksek Hızlı PLA → 200-230 °C, 150-600 mm/s. Dikkat: alt sınır 150 mm/s. Yavaş basmak için değil, hızlı erimeye göre karılmış.
+PETG → 230-250 °C, tabla 70-90 °C. Dış mekân, su ve kimyasal. PLA profiliyle basılmaz, 30-40 °C eksik kalıyor.
+ABS → 240-260 °C, tabla 90-110 °C. Isıya dayanım istiyorsan. Açık kabinde köşeler kalkar.
+ASA → ABS ile aynı bant, farkı güneş altında sararmaması. Dış mekân parçası.
+TPU 95A → 210-230 °C, tabla 30-50 °C, 20-40 mm/s. Hızı zorlarsan filament dişlide ezilir.
+
+Kurutma → Sunlu tek bir rakam veriyor: 50 °C. Süre vermiyor, depolamada %20 altı nem istiyor. En çok etkilenen PETG, TPU ve naylon.
+
+Bütün rakamlar sermenkreatif.com'daki ürün sayfalarından. Tahmin yok.
+
+Profili değiştirmeden seri değiştirip makarayı çöpe atan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #filament #sunlu #pla #petg #3dbaskiturkiye #makerturkiye
+```
 
 ## 12:38 · ELEKTRONİK & IoT
 
@@ -227,7 +246,29 @@ _metin.md yok_
 
 **[2026-10-13-phaetus-conch-nozul](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-phaetus-conch-nozul)** · 4 kare · hikaye 13:18
 
-_metin.md yok_
+```
+Karbon elyaflı filament basıp iki hafta sonra ilk katmanın tutmadığını fark ettiysen suç ayarda değil: nozul aşınmış. Phaetus Conch M4 EndCoat tam bu iş için.
+
+Nedir → sertleştirilmiş çelik nozul, üstünde EndCoat kaplama. Kaplamanın sertliği HV3300. Üretici, sade sertleştirilmiş çelik nozula göre 2,5 kata kadar uzun ömür veriyor. Azami sıcaklık 500 °C.
+
+Hangi makineye → M4 dişli, Bambu Lab A1 ve A1 mini için. Filament 1,75 mm. Başka seriye zorlamadan önce makinenin nozul dişine bak; A1 ile X1/P1 aynı değil.
+
+Dört çap var ve seçim işe göre:
+· 0,2 mm — ince detay. Katman yüksekliği 0,15 mm'yi geçmesin.
+· 0,4 mm — genel iş. Katman 0,30 mm'ye kadar.
+· 0,6 mm — hız ve dayanım. Katman 0,42 mm'ye kadar.
+· 0,8 mm — kalın duvar, büyük parça.
+
+Katman sınırı kuralı: güvenli üst sınır nozul çapının %75'i. Duvar genişliği de çapın 1,05 katı — ölçüyü taşıyan sayı bu.
+
+Ne zaman şart → karbon elyaf, cam elyaf, ahşap dolgulu, çelik, tungsten ya da bor karbür katkılı filament basıyorsan. Pirinç nozul bunlarda haftalar içinde ağızdan açılıyor ve çap büyüdükçe ölçü tutmuyor. Düz PLA ve PETG basıyorsan aceleye gerek yok.
+
+Çaplar ve fiyatlar sermenkreatif.com'da; 0,2 mm diğerlerinden biraz yüksek, sebebi delik işleme hassasiyeti.
+
+Aşındırıcı filament basıp nozulu üç ayda bir değiştiren bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #phaetus #nozzle #bambulab #3dbaskiturkiye #makerturkiye
+```
 
 ## 17:24 · ÜRÜN & MAĞAZA
 
