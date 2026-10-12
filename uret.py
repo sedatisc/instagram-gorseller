@@ -1252,6 +1252,95 @@ def _kart(img, x, y, w, h, k):
         ay += ara
 
 
+def kapak_tam(spec, sayac, yol):
+    """Fotoğrafın kadrajı doldurduğu kapak — çerçevesiz.
+
+    Öteki kapaklarda tepede logo şeridi, kategori rozeti, sayaç ve altta
+    "KAYDIR" var; dört sabit öğe her karede aynı yeri yiyor ve seksen
+    gönderi aynı kalıpta görünüyor. Burada hiçbiri yok: fotoğraf tam
+    kadraj, yazı fotoğrafın üstünde, altta ince bir künye satırı.
+    """
+    img = base()
+    kaynak = gorsel_var(spec.get("gorsel", ""))
+    if kaynak:
+        f = Image.open(kaynak).convert("RGB")
+        # Kadrajdan geniş fotoğraf (ürün kareleri 4:3) kadraja
+        # doldurulunca ürünün altı perdenin içinde kalıyor; o yüzden
+        # genişliğe sığdırılıp yukarı yaslanıyor, altını perde tamamlıyor.
+        if f.width / float(f.height) > W / float(H) * 1.08:
+            o = W / float(f.width)
+            f = f.resize((W, max(1, int(f.height * o))), Image.LANCZOS)
+            img.paste(f, (0, 0))
+        else:
+            o = max(W / f.width, H / f.height)
+            f = f.resize((int(f.width * o), int(f.height * o)), Image.LANCZOS)
+            kay = spec.get("odak", 0.5)
+            img.paste(f, (int((W - f.width) / 2),
+                          int((H - f.height) * max(0.0, min(1.0, kay)))))
+    else:
+        _yer_tutucu(img, 0, 0, W, H, spec.get("gorsel", ""))
+
+    # Alttan yukarı koyulaşan perde: yazı her fotoğrafta okunuyor.
+    perde = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    pd = ImageDraw.Draw(perde)
+    for i in range(H):
+        t = i / float(H - 1)
+        # Yazının başladığı yerde perde neredeyse kapalı olacak: ürün
+        # fotoğrafları beyaz zeminli geliyor, zayıf perdede beyaz yazı
+        # beyazın üstünde kayboluyordu.
+        if t < 0.28:
+            op = 0.26 * (1 - t / 0.28) ** 1.5
+        else:
+            op = 0.97 * min(1.0, ((t - 0.28) / 0.34) ** 1.1)
+        pd.line([(0, i), (W, i)], fill=a(BG, min(0.97, op)))
+    img.alpha_composite(perde)
+
+    d = ImageDraw.Draw(img)
+    alt = H - 150
+
+    oz = spec.get("ozet", [])
+    if oz:
+        gen = (RIGHT - GUT) / len(oz)
+        for i, (k, v) in enumerate(oz):
+            x = GUT + i * gen
+            d.text((x, alt), P(k).upper(), font=mono(22, True), fill=AC(),
+                   anchor="la")
+            d.text((x, alt + 34), P(v), font=pop(31, "SemiBold"), fill=FG(),
+                   anchor="la")
+            if i:
+                d.line([(x - 26, alt - 2), (x - 26, alt + 72)],
+                       fill=a(FG(), 0.22), width=2)
+        alt -= 70
+
+    spot = spec.get("spot", "")
+    if spot:
+        fs = pop(33, "Medium")
+        sat = wrap(d, P(spot), fs, RIGHT - GUT)[:3]
+        alt -= len(sat) * 46 + 30
+        for i, ln in enumerate(sat):
+            d.text((GUT, alt + i * 46), ln, font=fs, fill=FG2(), anchor="la")
+
+    s1, s2 = P(spec["satir1"]), P(spec["satir2"])
+    f = fit(d, max(s1, s2, key=len), anton, RIGHT - GUT, 136, 76)
+    alt -= f.size * 2.04 + 26
+    d.text((GUT, alt), s1, font=f, fill=FG(), anchor="la")
+    metin_isik(img, glow((W, H), lambda g: g.text(
+        (GUT, alt + f.size * 1.02), s2, font=f, fill=a(AC(), ISIK(0.8)),
+        anchor="la"), 26))
+    d = ImageDraw.Draw(img)
+    d.text((GUT, alt + f.size * 1.02), s2, font=f, fill=AC(), anchor="la")
+
+    ust = P(spec.get("ustbilgi", ""))
+    if ust:
+        d.text((GUT, alt - 46), ust.upper(), font=mono(26, True), fill=AC(),
+               anchor="la")
+        d.line([(GUT, alt - 12), (GUT + 76, alt - 12)], fill=AC(), width=4)
+
+    d.text((GUT, H - 56), "sermenkreatif.com", font=mono(25, True),
+           fill=a(FG(), 0.62), anchor="lm")
+    yaz(img, yol)
+
+
 def kapak_izgara(spec, sayac, yol):
     """Kopya kâğıdı kapağı — tek karede yoğun, kaydedilesi bilgi."""
     img = base()
@@ -2074,7 +2163,7 @@ def main():
     {"rakam": kapak_rakam, "carpisma": kapak_carpisma,
      "yakin": kapak_yakin, "izgara": kapak_izgara,
      "liste": kapak_liste, "urun": kapak_urun,
-     "pano": kapak_pano}.get(tip, kapak)(
+     "pano": kapak_pano, "tam": kapak_tam}.get(tip, kapak)(
         spec["kapak"], "%d/%d" % (n, toplam), os.path.join(out, "%d.jpg" % n))
     ortak = govde(spec["kapak"])
     for i, sl in enumerate(slaytlar, 1):
