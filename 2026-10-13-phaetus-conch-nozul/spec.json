@@ -1,0 +1,111 @@
+{
+ "kategori": "3dbaski",
+ "zemin": "koyu",
+ "kapak": {
+  "tip": "urun",
+  "gorsel": "urun/phaetus-conch-m4.jpg",
+  "odak": 0.42,
+  "ustbilgi": "BAMBU LAB A1 · A1 MINI",
+  "satir1": "PHAETUS CONCH",
+  "satir2": "M4 ENDCOAT",
+  "spot": "Sertleştirilmiş çelik, üstünde EndCoat kaplama. Aşındırıcı filamentte nozul ömrünü uzatan parça.",
+  "ozet": [
+   [
+    "KAPLAMA",
+    "HV3300"
+   ],
+   [
+    "SICAKLIK",
+    "500 °C"
+   ],
+   [
+    "ÖMÜR",
+    "2,5 kat"
+   ]
+  ]
+ },
+ "slaytlar": [
+  {
+   "baslik": "Hangi makineye takılıyor",
+   "aciklama": "M4 dişli; Bambu Lab A1 ve A1 mini için. Başka seriye zorlamadan önce makinenin nozul dişine bak.",
+   "tablo": [
+    [
+     "UYUMLU",
+     "Bambu Lab A1"
+    ],
+    [
+     "UYUMLU",
+     "Bambu Lab A1 mini"
+    ],
+    [
+     "DİŞ",
+     "M4"
+    ],
+    [
+     "FİLAMENT",
+     "1,75 mm"
+    ],
+    [
+     "ÇAPLAR",
+     "0,2 · 0,4 · 0,6 · 0,8 mm"
+    ]
+   ]
+  },
+  {
+   "baslik": "Dört çap, dört ayrı iş",
+   "aciklama": "Çap yalnız deliği değil, katman yüksekliğinin üst sınırını ve duvar kalınlığını da belirliyor. Güvenli katman sınırı çapın %75'i.",
+   "tablo": [
+    [
+     "0,2 mm",
+     "ince detay · katman ≤ 0,15 mm"
+    ],
+    [
+     "0,4 mm",
+     "genel iş · katman ≤ 0,30 mm"
+    ],
+    [
+     "0,6 mm",
+     "hız ve dayanım · katman ≤ 0,42 mm"
+    ],
+    [
+     "0,8 mm",
+     "kalın duvar, büyük parça"
+    ],
+    [
+     "DUVAR",
+     "çapın 1,05 katı"
+    ]
+   ]
+  },
+  {
+   "baslik": "EndCoat ne yapıyor",
+   "aciklama": "Kaplamanın sertliği HV3300. Üretici, sade sertleştirilmiş çelik nozula göre 2,5 kata kadar uzun ömür veriyor; fark aşındırıcı filamentte açılıyor.",
+   "tablo": [
+    [
+     "KAPLAMA SERTLİĞİ",
+     "HV3300"
+    ],
+    [
+     "AZAMİ SICAKLIK",
+     "500 °C"
+    ],
+    [
+     "ÖMÜR",
+     "2,5 kata kadar"
+    ],
+    [
+     "AŞINDIRICI",
+     "karbon · cam elyaf · ahşap"
+    ],
+    [
+     "AYRICA",
+     "çelik · tungsten · bor karbür"
+    ],
+    [
+     "STANDART",
+     "PLA · ABS · PETG · TPU"
+    ]
+   ]
+  }
+ ]
+}

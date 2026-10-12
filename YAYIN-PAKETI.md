@@ -245,25 +245,11 @@ PLA'yla menteşe basıp yazın deforme olduğuna şaşıran bir arkadaşın vars
 
 ## 12:38 · ELEKTRONİK & IoT
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-optokuplor"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-13-optokuplor/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-phaetus-conch-nozul"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-13-phaetus-conch-nozul/1.jpg" width="240"></a>
 
-**[2026-10-13-optokuplor](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-optokuplor)** · 4 kare · hikaye 13:18
+**[2026-10-13-phaetus-conch-nozul](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-phaetus-conch-nozul)** · 4 kare · hikaye 13:18
 
-```
-Optokuplör ne işe yarar sorusunun cevabı seviye çevirmek değil: iki devrenin toprağını birbirinden tamamen ayırmak.
-
-İçinde kablo yok. Girişi bir LED, çıkışı o ışığı gören fototransistör; aralarında iletken bağlantı olmadığı için PC817 gibi yaygın bir parça 5.000 V'a kadar yalıtım veriyor.
-
-LED akımı dışarıdan sınırlanıyor. İleri gerilimi 1,2 V civarı; 3,3 V'luk bir çıkış için 210 Ω, 5 V için 390 Ω yaklaşık 10 mA veriyor. Çıkış akımı bu akımla CTR'nin çarpımı ve PC817'de CTR %50-600 arasında değişiyor, yani çıkış tarafı geniş bir banda göre tasarlanıyor.
-
-Şebeke tarafı, motor sürücünün gürültülü toprağı ve RS-485 hattı bu yüzden yalıtılıyor. İki tarafın toprağını bir yerde birleştirirsen parça devrede durur ama hiçbir işe yaramaz.
-
-PC817 mikrosaniye mertebesinde yavaş; hızlı SPI için 6N137 gibi yüksek hızlı bir parça gerekiyor.
-
-Yalıtım için optokuplör koyup iki toprağı yine birleştiren bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #elektronik #embedded #optokuplor #makerturkiye
-```
+_metin.md yok_
 
 ## 17:24 · ÜRÜN & MAĞAZA
 
@@ -892,5 +878,31 @@ Arıza dışında da işliyor: çizdiğin parçayı paylaşıyorsun, başkasın�
 Katılmak için profildeki linke dokunman yeterli. Ücretsiz, istediğin an çıkabilirsin.
 
 #sermenkreatif #3dbaski #3dbaskiturkiye #makerturkiye #topluluk
+```
+
+---
+
+# 2026-10-19 · Pazartesi
+
+## 12:38 · ELEKTRONİK & IoT
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-optokuplor"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-13-optokuplor/1.jpg" width="240"></a>
+
+**[2026-10-13-optokuplor](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-optokuplor)** · 4 kare · hikaye 13:18
+
+```
+Optokuplör ne işe yarar sorusunun cevabı seviye çevirmek değil: iki devrenin toprağını birbirinden tamamen ayırmak.
+
+İçinde kablo yok. Girişi bir LED, çıkışı o ışığı gören fototransistör; aralarında iletken bağlantı olmadığı için PC817 gibi yaygın bir parça 5.000 V'a kadar yalıtım veriyor.
+
+LED akımı dışarıdan sınırlanıyor. İleri gerilimi 1,2 V civarı; 3,3 V'luk bir çıkış için 210 Ω, 5 V için 390 Ω yaklaşık 10 mA veriyor. Çıkış akımı bu akımla CTR'nin çarpımı ve PC817'de CTR %50-600 arasında değişiyor, yani çıkış tarafı geniş bir banda göre tasarlanıyor.
+
+Şebeke tarafı, motor sürücünün gürültülü toprağı ve RS-485 hattı bu yüzden yalıtılıyor. İki tarafın toprağını bir yerde birleştirirsen parça devrede durur ama hiçbir işe yaramaz.
+
+PC817 mikrosaniye mertebesinde yavaş; hızlı SPI için 6N137 gibi yüksek hızlı bir parça gerekiyor.
+
+Yalıtım için optokuplör koyup iki toprağı yine birleştiren bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #elektronik #embedded #optokuplor #makerturkiye
 ```
 

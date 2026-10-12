@@ -40,8 +40,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 |---|---|---|---|---|
 | 08:12 | Gönderi | 3D BASKI & ÜRETİM DONANIMI | `2026-10-16-sunlu-filament-pano` | 1 |
 | 08:52 | Hikaye | 3D BASKI & ÜRETİM DONANIMI | `2026-10-16-sunlu-filament-pano/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | ELEKTRONİK & IoT | `2026-10-13-optokuplor` | 4 |
-| 13:18 | Hikaye | ELEKTRONİK & IoT | `2026-10-13-optokuplor/hikaye.jpg` | 1 |
+| 12:38 | Gönderi | ELEKTRONİK & IoT | `2026-10-13-phaetus-conch-nozul` | 4 |
+| 13:18 | Hikaye | ELEKTRONİK & IoT | `2026-10-13-phaetus-conch-nozul/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-15-sunlu-ams-heater` | 5 |
 | 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-15-sunlu-ams-heater/hikaye.jpg` | 1 |
 | 19:10 | Kampanya hikaye | — | `2026-10-12-cekilis-duyuru/hikaye.jpg` | 1 |
@@ -121,3 +121,23 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 19:50 | **Reels** | — | `2026-10-18-ender-3-v4-combo/reels.mp4` | video |
 | 21:00 | Gönderi | PROJE & ATÖLYE | `2026-10-18-toplulukta-ariza` | 5 |
 | 21:40 | Hikaye | PROJE & ATÖLYE | `2026-10-18-toplulukta-ariza/hikaye.jpg` | 1 |
+
+## 2026-10-19 · Pazartesi
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 08:12 | — | **3D BASKI & ÜRETİM DONANIMI** | _boş — üretilecek_ | — |
+| 12:38 | Gönderi | ELEKTRONİK & IoT | `2026-10-13-optokuplor` | 4 |
+| 13:18 | Hikaye | ELEKTRONİK & IoT | `2026-10-13-optokuplor/hikaye.jpg` | 1 |
+| 17:24 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
+| 19:40 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
+| 21:10 | **Reels** | — | _boş — üretilecek_ | — |
+
+## Boş slotlar
+
+Bu slotlar için içerik henüz üretilmedi:
+
+- 2026-10-19 · 3D BASKI & ÜRETİM DONANIMI
+- 2026-10-19 · ÜRÜN & MAĞAZA
+- 2026-10-19 · PROJE & ATÖLYE
+- 2026-10-19 · REELS

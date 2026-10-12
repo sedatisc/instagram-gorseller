@@ -405,7 +405,7 @@
    {
     "tarih": "2026-10-13",
     "slot": "elektronik",
-    "klasor": "2026-10-13-optokuplor"
+    "klasor": "2026-10-13-phaetus-conch-nozul"
    },
    {
     "tarih": "2026-10-13",
@@ -516,6 +516,11 @@
     "tarih": "2026-10-18",
     "slot": "proje",
     "klasor": "2026-10-18-toplulukta-ariza"
+   },
+   {
+    "tarih": "2026-10-19",
+    "slot": "elektronik",
+    "klasor": "2026-10-13-optokuplor"
    }
   ],
   "reels": [

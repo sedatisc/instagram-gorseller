@@ -1,139 +1,268 @@
 {
-  "kategori": "3dbaski",
-  "zemin": "kobalt",
-  "kapak": {
-    "tip": "urun",
-    "gorsel": "urun/ams-heater.jpg",
-    "odak": 0.0,
-    "ustbilgi": "AMS AKSESUARI · STOKTA",
-    "satir1": "SUNLU",
-    "satir2": "AMS HEATER",
-    "spot": "AMS'in kapağının yerine takılıyor ve baskı sürerken içerideki filamenti kurutuyor. Tek şartı var: AMS'inin 1. nesil olması.",
-    "ozet": [
-      [
-        "SICAKLIK",
-        "35-70 °C"
-      ],
-      [
-        "NEM",
-        "%10-90 ölçüm"
-      ],
-      [
-        "KURULUM",
-        "~2 dakika"
-      ]
-    ]
-  },
-  "slaytlar": [
-    {
-      "baslik": "Baskıyı durdurmadan kurutuyor",
-      "aciklama": "Normalde makarayı AMS'ten çıkarıp kurutucuya koyman gerekiyor. Bu kapak o adımı kaldırıyor; kurutma ve baskı aynı anda yürüyor.",
-      "tablo": [
-        [
-          "SICAKLIK ARALIĞI",
-          "35-70 °C"
-        ],
-        [
-          "ISINMA",
-          "20 dakikada 70 °C"
-        ],
-        [
-          "NEM GÖSTERİMİ",
-          "%10-90, ölçüyor"
-        ],
-        [
-          "OTOMATİK MOD",
-          "%50'de başlar, %20'de durur"
-        ],
-        [
-          "EŞİK AYARI",
-          "%25-50 arası"
-        ],
-        [
-          "ZAMANLAYICI",
-          "0-99 saat"
-        ]
-      ]
-    },
-    {
-      "baslik": "Dikkat: yalnız AMS 1. nesil",
-      "aciklama": "Bu üründeki tek iade sebebi uyumluluk. Sipariş öncesi AMS'inin hangi nesil olduğuna bak. Kapak sökülüp bu takılıyor, kalıcı değişiklik değil.",
-      "cizim": [
-        {"t": "y", "x": 140, "y": 100, "metin": "UYUMLU", "boy": 46, "renk": "yesil", "hiza": "lm"},
-        {"t": "cizgi", "x0": 140, "y0": 142, "x1": 880, "y1": 142},
-        {"t": "d", "x": 250, "y": 250, "metin": "DOĞRU", "renk": "yesil"},
-        {"t": "y", "x": 390, "y": 228, "metin": "Bambu Lab AMS", "boy": 52, "hiza": "lm"},
-        {"t": "y", "x": 390, "y": 288, "metin": "1. nesil · dört makaralı kutu", "boy": 32, "renk": "gri", "hiza": "lm"},
-        {"t": "y", "x": 140, "y": 480, "metin": "Nasıl anlarsın:", "boy": 34, "renk": "gri", "hiza": "lm"},
-        {"t": "y", "x": 140, "y": 542, "metin": "Kapağı düz gri, üstünde ekran yok.", "boy": 36, "hiza": "lm"},
-        {"t": "y", "x": 140, "y": 598, "metin": "AMS 2 Pro'da kapak şeffaf ve", "boy": 36, "hiza": "lm"},
-        {"t": "y", "x": 140, "y": 654, "metin": "kurutma zaten içinde geliyor.", "boy": 36, "hiza": "lm"},
-
-        {"t": "cizgi", "x0": 955, "y0": 80, "x1": 955, "y1": 720},
-
-        {"t": "y", "x": 1030, "y": 100, "metin": "UYUMLU DEĞİL", "boy": 46, "renk": "kirmizi", "hiza": "lm"},
-        {"t": "cizgi", "x0": 1030, "y0": 142, "x1": 1780, "y1": 142},
-        {"t": "d", "x": 1140, "y": 250, "metin": "YANLIŞ", "renk": "kirmizi"},
-        {"t": "y", "x": 1290, "y": 250, "metin": "AMS 2 Pro", "boy": 46, "hiza": "lm"},
-        {"t": "d", "x": 1140, "y": 410, "metin": "YANLIŞ", "renk": "kirmizi"},
-        {"t": "y", "x": 1290, "y": 410, "metin": "AMS HT", "boy": 46, "hiza": "lm"},
-        {"t": "d", "x": 1140, "y": 570, "metin": "YANLIŞ", "renk": "kirmizi"},
-        {"t": "y", "x": 1290, "y": 552, "metin": "AMS Lite", "boy": 46, "hiza": "lm"},
-        {"t": "y", "x": 1290, "y": 606, "metin": "ayrı ürünü var, bu değil", "boy": 30, "renk": "gri", "hiza": "lm"}
-      ]
-    },
-    {
-      "baslik": "Masaya ve prize bakın",
-      "aciklama": "Anma gücü 220 W ama ısınma anında 390 W'a çıkıyor. Çoklu AMS kurulumunda bunu hesaba kat.",
-      "tablo": [
-        [
-          "TEPE GÜCÜ",
-          "390 W"
-        ],
-        [
-          "ANMA GÜCÜ",
-          "220 W"
-        ],
-        [
-          "BEKLEME",
-          "0,6 W"
-        ],
-        [
-          "ÖLÇÜ",
-          "363 × 278 × 131 mm"
-        ],
-        [
-          "AĞIRLIK",
-          "1,7 kg"
-        ],
-        [
-          "İSTİFLEME",
-          "üst yüzey düz, üst üste konuyor"
-        ]
-      ]
-    }
-  ],
-  "kapanis": {
-    "satir1": "SANA",
-    "satir2": "UYAR MI?",
-    "kriterler": [
-      [
-        "AMS 1. NESİL",
-        "evet, bu ürün"
-      ],
-      [
-        "AMS LITE",
-        "hayır, ayrı ürün"
-      ],
-      [
-        "AMS 2 PRO · HT",
-        "ürün yok"
-      ],
-      [
-        "FİYAT VE STOK",
-        "sermenkreatif.com"
-      ]
+ "kategori": "3dbaski",
+ "zemin": "kobalt",
+ "kapak": {
+  "tip": "urun",
+  "gorsel": "urun/ams-heater.jpg",
+  "odak": 0.0,
+  "ustbilgi": "AMS AKSESUARI · 1. NESİL",
+  "satir1": "SUNLU",
+  "satir2": "AMS HEATER",
+  "spot": "AMS'in kapağının yerine takılıyor ve baskı sürerken içerideki filamenti kurutuyor. Tek şartı var: AMS'inin 1. nesil olması.",
+  "ozet": [
+   [
+    "SICAKLIK",
+    "35-70 °C"
+   ],
+   [
+    "NEM",
+    "%10-90 ölçüm"
+   ],
+   [
+    "KURULUM",
+    "~2 dakika"
+   ]
+  ]
+ },
+ "slaytlar": [
+  {
+   "baslik": "Baskıyı durdurmadan kurutuyor",
+   "aciklama": "Normalde makarayı AMS'ten çıkarıp kurutucuya koyman gerekiyor. Bu kapak o adımı kaldırıyor; kurutma ve baskı aynı anda yürüyor.",
+   "tablo": [
+    [
+     "SICAKLIK ARALIĞI",
+     "35-70 °C"
     ],
-    "not": "Rakamlar SUNLU'nun ürün sayfasından. Makara başına ayrı sıcaklık kontrolü yok, dört makara birlikte ısınıyor."
+    [
+     "ISINMA",
+     "20 dakikada 70 °C"
+    ],
+    [
+     "NEM GÖSTERİMİ",
+     "%10-90, ölçüyor"
+    ],
+    [
+     "OTOMATİK MOD",
+     "%50'de başlar, %20'de durur"
+    ],
+    [
+     "EŞİK AYARI",
+     "%25-50 arası"
+    ],
+    [
+     "ZAMANLAYICI",
+     "0-99 saat"
+    ]
+   ]
+  },
+  {
+   "baslik": "Dikkat: yalnız AMS 1. nesil",
+   "aciklama": "Bu üründeki tek iade sebebi uyumluluk. Sipariş öncesi AMS'inin hangi nesil olduğuna bak. Kapak sökülüp bu takılıyor, kalıcı değişiklik değil.",
+   "cizim": [
+    {
+     "t": "y",
+     "x": 140,
+     "y": 100,
+     "metin": "UYUMLU",
+     "boy": 46,
+     "renk": "yesil",
+     "hiza": "lm"
+    },
+    {
+     "t": "cizgi",
+     "x0": 140,
+     "y0": 142,
+     "x1": 880,
+     "y1": 142
+    },
+    {
+     "t": "d",
+     "x": 250,
+     "y": 250,
+     "metin": "DOĞRU",
+     "renk": "yesil"
+    },
+    {
+     "t": "y",
+     "x": 390,
+     "y": 228,
+     "metin": "Bambu Lab AMS",
+     "boy": 52,
+     "hiza": "lm"
+    },
+    {
+     "t": "y",
+     "x": 390,
+     "y": 288,
+     "metin": "1. nesil · dört makaralı kutu",
+     "boy": 32,
+     "renk": "gri",
+     "hiza": "lm"
+    },
+    {
+     "t": "y",
+     "x": 140,
+     "y": 480,
+     "metin": "Nasıl anlarsın:",
+     "boy": 34,
+     "renk": "gri",
+     "hiza": "lm"
+    },
+    {
+     "t": "y",
+     "x": 140,
+     "y": 542,
+     "metin": "Kapağı düz gri, üstünde ekran yok.",
+     "boy": 36,
+     "hiza": "lm"
+    },
+    {
+     "t": "y",
+     "x": 140,
+     "y": 598,
+     "metin": "AMS 2 Pro'da kapak şeffaf ve",
+     "boy": 36,
+     "hiza": "lm"
+    },
+    {
+     "t": "y",
+     "x": 140,
+     "y": 654,
+     "metin": "kurutma zaten içinde geliyor.",
+     "boy": 36,
+     "hiza": "lm"
+    },
+    {
+     "t": "cizgi",
+     "x0": 955,
+     "y0": 80,
+     "x1": 955,
+     "y1": 720
+    },
+    {
+     "t": "y",
+     "x": 1030,
+     "y": 100,
+     "metin": "UYUMLU DEĞİL",
+     "boy": 46,
+     "renk": "kirmizi",
+     "hiza": "lm"
+    },
+    {
+     "t": "cizgi",
+     "x0": 1030,
+     "y0": 142,
+     "x1": 1780,
+     "y1": 142
+    },
+    {
+     "t": "d",
+     "x": 1140,
+     "y": 250,
+     "metin": "YANLIŞ",
+     "renk": "kirmizi"
+    },
+    {
+     "t": "y",
+     "x": 1290,
+     "y": 250,
+     "metin": "AMS 2 Pro",
+     "boy": 46,
+     "hiza": "lm"
+    },
+    {
+     "t": "d",
+     "x": 1140,
+     "y": 410,
+     "metin": "YANLIŞ",
+     "renk": "kirmizi"
+    },
+    {
+     "t": "y",
+     "x": 1290,
+     "y": 410,
+     "metin": "AMS HT",
+     "boy": 46,
+     "hiza": "lm"
+    },
+    {
+     "t": "d",
+     "x": 1140,
+     "y": 570,
+     "metin": "YANLIŞ",
+     "renk": "kirmizi"
+    },
+    {
+     "t": "y",
+     "x": 1290,
+     "y": 552,
+     "metin": "AMS Lite",
+     "boy": 46,
+     "hiza": "lm"
+    },
+    {
+     "t": "y",
+     "x": 1290,
+     "y": 606,
+     "metin": "ayrı ürünü var, bu değil",
+     "boy": 30,
+     "renk": "gri",
+     "hiza": "lm"
+    }
+   ]
+  },
+  {
+   "baslik": "Masaya ve prize bakın",
+   "aciklama": "Anma gücü 220 W ama ısınma anında 390 W'a çıkıyor. Çoklu AMS kurulumunda bunu hesaba kat.",
+   "tablo": [
+    [
+     "TEPE GÜCÜ",
+     "390 W"
+    ],
+    [
+     "ANMA GÜCÜ",
+     "220 W"
+    ],
+    [
+     "BEKLEME",
+     "0,6 W"
+    ],
+    [
+     "ÖLÇÜ",
+     "363 × 278 × 131 mm"
+    ],
+    [
+     "AĞIRLIK",
+     "1,7 kg"
+    ],
+    [
+     "İSTİFLEME",
+     "üst yüzey düz, üst üste konuyor"
+    ]
+   ]
   }
+ ],
+ "kapanis": {
+  "satir1": "SANA",
+  "satir2": "UYAR MI?",
+  "kriterler": [
+   [
+    "AMS 1. NESİL",
+    "evet, bu ürün"
+   ],
+   [
+    "AMS LITE",
+    "hayır, ayrı ürün"
+   ],
+   [
+    "AMS 2 PRO · HT",
+    "ürün yok"
+   ],
+   [
+    "FİYAT VE STOK",
+    "sermenkreatif.com"
+   ]
+  ],
+  "not": "Rakamlar SUNLU'nun ürün sayfasından. Makara başına ayrı sıcaklık kontrolü yok, dört makara birlikte ısınıyor."
+ }
 }

@@ -1,133 +1,133 @@
 {
-  "kategori": "3dbaski",
-  "zemin": "koyu",
-  "kapak": {
-    "tip": "urun",
-    "gorsel": "urun/filadryer-uclu.jpg",
-    "odak": 0.0,
-    "ustbilgi": "FİLAMENT KURUTUCU · STOKTA",
-    "satir1": "SUNLU FILADRYER",
-    "satir2": "S2 · S4 · E2",
-    "spot": "Üç model, üç ayrı iş. Fark kapasite değil: kaç yazıcıyı besleyebildiği ve sıcaklık tavanı — o tavan hangi filamenti kurutabileceğini belirliyor.",
-    "ozet": [
-      [
-        "KAPASİTE",
-        "1 · 4 · 3 kg"
-      ],
-      [
-        "SICAKLIK",
-        "35-110 °C"
-      ],
-      [
-        "PROFİL",
-        "hazır"
-      ]
-    ]
-  },
-  "slaytlar": [
-    {
-      "baslik": "Üç modelin farkı tek tabloda",
-      "aciklama": "S2 ile S4 arasındaki fark kaç yazıcıyı beslediği, S4 ile E2 arasındaki fark sıcaklık. Hangisini alacağın bastığın malzemeye ve yazıcı sayına bağlı.",
-      "tablo": [
-        [
-          "S2 KAPASİTE",
-          "1 × 1 kg · Ø 210 × 85 mm"
-        ],
-        [
-          "S4 KAPASİTE",
-          "4 × 1 kg · sekiz çıkış"
-        ],
-        [
-          "E2 KAPASİTE",
-          "2 × 1 kg · 2 × 2 kg · 1 × 3 kg"
-        ],
-        [
-          "S2 · S4 SICAKLIK",
-          "35-70 °C"
-        ],
-        [
-          "E2 SICAKLIK",
-          "35-110 °C"
-        ],
-        [
-          "ISITICI GÜCÜ",
-          "48 W · 320-350 W · 500 W"
-        ]
-      ]
-    },
-    {
-      "baslik": "110 °C neyi değiştiriyor",
-      "aciklama": "PLA ve PETG 70 °C'nin altında kuruyor; S2 ve S4 bu işi görüyor. Naylon ailesi daha yükseğini istiyor, E2'nin ayrı durduğu yer burası.",
-      "satirlar": [
-        [
-          "01",
-          "S2 ve S4 hazır profilleri: PLA, PETG, TPU, ABS gibi günlük malzemeler"
-        ],
-        [
-          "02",
-          "E2 bunlara PA6-CF, PA12-CF, PC ve PPS ekliyor; ayrıca tavlama modu ve tepsisi var"
-        ],
-        [
-          "03",
-          "70 °C üstü kurutmada makaranın kendisi de ısıya dayanmalı, plastik makara deforme olabiliyor"
-        ]
-      ],
-      "foto": "urun/filadryer.jpg",
-      "bant": 620,
-      "odak": 0.0
-    },
-    {
-      "baslik": "Nem neye mal oluyor",
-      "aciklama": "Nemli filament nozul içinde buharlaşıp kabarcık yapıyor. Sonuç slicer ayarıyla düzelmiyor, çünkü sorun ayarda değil malzemede.",
-      "tablo": [
-        [
-          "TEL TEL ÇEKME",
-          "stringing artıyor"
-        ],
-        [
-          "YÜZEY",
-          "pürüzlü, mat lekeli"
-        ],
-        [
-          "SES",
-          "nozulda çıtırtı"
-        ],
-        [
-          "KATMAN YAPIŞMASI",
-          "düşüyor"
-        ],
-        [
-          "ÖLÇÜ",
-          "akış değiştiği için kayıyor"
-        ],
-        [
-          "EN ÇOK ETKİLENEN",
-          "PETG, TPU, naylon"
-        ]
-      ]
-    }
-  ],
-  "kapanis": {
-    "satir1": "HANGİSİNİ",
-    "satir2": "ALMALISIN?",
-    "kriterler": [
-      [
-        "TEK YAZICI, PLA/PETG",
-        "S2"
-      ],
-      [
-        "BİRDEN ÇOK YAZICI",
-        "S4"
-      ],
-      [
-        "NAYLON BASIYORSAN",
-        "E2"
-      ],
-      [
-        "FİYAT VE STOK",
-        "sermenkreatif.com"
-      ]
+ "kategori": "3dbaski",
+ "zemin": "koyu",
+ "kapak": {
+  "tip": "urun",
+  "gorsel": "urun/filadryer-uclu.jpg",
+  "odak": 0.0,
+  "ustbilgi": "FİLAMENT KURUTUCU",
+  "satir1": "SUNLU FILADRYER",
+  "satir2": "S2 · S4 · E2",
+  "spot": "Üç model, üç ayrı iş. Fark kapasite değil: kaç yazıcıyı besleyebildiği ve sıcaklık tavanı — o tavan hangi filamenti kurutabileceğini belirliyor.",
+  "ozet": [
+   [
+    "KAPASİTE",
+    "1 · 4 · 3 kg"
+   ],
+   [
+    "SICAKLIK",
+    "35-110 °C"
+   ],
+   [
+    "PROFİL",
+    "hazır"
+   ]
+  ]
+ },
+ "slaytlar": [
+  {
+   "baslik": "Üç modelin farkı tek tabloda",
+   "aciklama": "S2 ile S4 arasındaki fark kaç yazıcıyı beslediği, S4 ile E2 arasındaki fark sıcaklık. Hangisini alacağın bastığın malzemeye ve yazıcı sayına bağlı.",
+   "tablo": [
+    [
+     "S2 KAPASİTE",
+     "1 × 1 kg · Ø 210 × 85 mm"
     ],
-    "not": "Rakamlar SUNLU'nun kendi S2 / S4 / E2 karşılaştırmasından. Kurutma süresini üretici vermiyor."
+    [
+     "S4 KAPASİTE",
+     "4 × 1 kg · sekiz çıkış"
+    ],
+    [
+     "E2 KAPASİTE",
+     "2 × 1 kg · 2 × 2 kg · 1 × 3 kg"
+    ],
+    [
+     "S2 · S4 SICAKLIK",
+     "35-70 °C"
+    ],
+    [
+     "E2 SICAKLIK",
+     "35-110 °C"
+    ],
+    [
+     "ISITICI GÜCÜ",
+     "48 W · 320-350 W · 500 W"
+    ]
+   ]
+  },
+  {
+   "baslik": "110 °C neyi değiştiriyor",
+   "aciklama": "PLA ve PETG 70 °C'nin altında kuruyor; S2 ve S4 bu işi görüyor. Naylon ailesi daha yükseğini istiyor, E2'nin ayrı durduğu yer burası.",
+   "satirlar": [
+    [
+     "01",
+     "S2 ve S4 hazır profilleri: PLA, PETG, TPU, ABS gibi günlük malzemeler"
+    ],
+    [
+     "02",
+     "E2 bunlara PA6-CF, PA12-CF, PC ve PPS ekliyor; ayrıca tavlama modu ve tepsisi var"
+    ],
+    [
+     "03",
+     "70 °C üstü kurutmada makaranın kendisi de ısıya dayanmalı, plastik makara deforme olabiliyor"
+    ]
+   ],
+   "foto": "urun/filadryer.jpg",
+   "bant": 620,
+   "odak": 0.0
+  },
+  {
+   "baslik": "Nem neye mal oluyor",
+   "aciklama": "Nemli filament nozul içinde buharlaşıp kabarcık yapıyor. Sonuç slicer ayarıyla düzelmiyor, çünkü sorun ayarda değil malzemede.",
+   "tablo": [
+    [
+     "TEL TEL ÇEKME",
+     "stringing artıyor"
+    ],
+    [
+     "YÜZEY",
+     "pürüzlü, mat lekeli"
+    ],
+    [
+     "SES",
+     "nozulda çıtırtı"
+    ],
+    [
+     "KATMAN YAPIŞMASI",
+     "düşüyor"
+    ],
+    [
+     "ÖLÇÜ",
+     "akış değiştiği için kayıyor"
+    ],
+    [
+     "EN ÇOK ETKİLENEN",
+     "PETG, TPU, naylon"
+    ]
+   ]
   }
+ ],
+ "kapanis": {
+  "satir1": "HANGİSİNİ",
+  "satir2": "ALMALISIN?",
+  "kriterler": [
+   [
+    "TEK YAZICI, PLA/PETG",
+    "S2"
+   ],
+   [
+    "BİRDEN ÇOK YAZICI",
+    "S4"
+   ],
+   [
+    "NAYLON BASIYORSAN",
+    "E2"
+   ],
+   [
+    "FİYAT VE STOK",
+    "sermenkreatif.com"
+   ]
+  ],
+  "not": "Rakamlar SUNLU'nun kendi S2 / S4 / E2 karşılaştırmasından. Kurutma süresini üretici vermiyor."
+ }
 }
