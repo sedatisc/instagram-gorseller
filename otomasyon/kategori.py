@@ -50,6 +50,14 @@ def urunleri_al(sayfa_adresi, sayfa_sayisi=3, bekle=2500):
                 sf.mouse.wheel(0, 4000)
                 sf.wait_for_timeout(600)
             sf.wait_for_timeout(bekle)
+            if no == 1:                        # ne gördüğümüzü kaydet
+                tani = os.path.join(KOK, "otomasyon", "tani")
+                os.makedirs(tani, exist_ok=True)
+                sf.screenshot(path=os.path.join(tani, "kategori.png"),
+                              full_page=False)
+                govde = sf.evaluate("() => document.body.innerText")
+                open(os.path.join(tani, "kategori.txt"), "w",
+                     encoding="utf-8").write(govde[:6000])
             kayit = sf.evaluate("""() => {
                 const out = [];
                 document.querySelectorAll('a[href]').forEach(a => {
