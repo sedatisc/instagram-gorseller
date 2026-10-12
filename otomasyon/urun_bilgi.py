@@ -121,6 +121,12 @@ def main():
                   % (len(v["ozellik"]), len(v["gorsel"])))
             for k, d in v["ozellik"][:12]:
                 print("      %-28s %s" % (k[:28], d[:50]))
+            # Ürün görseli /urunresimleri/ altında; ilk sıradaki çoğu
+            # zaman sitenin üst banner'ı (HeaderTasarim) oluyor.
+            aday = [g for g in v["gorsel"] if "urunresimleri" in g.lower()] \
+                or [g for g in v["gorsel"]
+                    if "headertasarim" not in g.lower()] or v["gorsel"]
+            v["gorsel"] = aday + [g for g in v["gorsel"] if g not in aday]
             if v["gorsel"]:
                 uz = os.path.splitext(up.urlparse(v["gorsel"][0]).path)[1]
                 uz = uz if uz.lower() in (".jpg", ".jpeg", ".png", ".webp") \
