@@ -6,7 +6,7 @@
   "tip": "izgara",
   "satir1": "DÖRT MAKARA",
   "satir2": "TEK KAZANAN",
-  "spot": "Creality Silk, TPU, PETG ve ABS — dördü birden tek kişiye. 1,75 mm · 1 kg, kargo bizden.",
+  "spot": "Creality Silk, TPU, PETG ve ABS — dördü birden tek kişiye. Kazananı hikaye anketinde siz seçiyorsunuz.",
   "kartlar": [
    {
     "etiket": "CREALITY · MAVİ",
@@ -60,7 +60,7 @@
     ],
     [
      "3 · YORUM",
-     "hangi filamenti neden istediğini yaz"
+     "ne basacağını tek cümleyle yaz"
     ],
     [
      "İSTEĞE BAĞLI",
@@ -73,53 +73,53 @@
    ]
   },
   {
-   "baslik": "Kura çekmiyoruz, cevaplara bakıyoruz",
-   "aciklama": "Dört makaralık set, yorumlarda ne basacağını en net anlatan kişiye gidiyor. \"Katıldım\" yazan yüz yorum arasında kaybolmak yok: bir cümle yeter ama o cümle bir iş anlatsın.",
+   "baslik": "Kazananı biz değil, siz seçiyorsunuz",
+   "aciklama": "Yorumlar kapanınca soruyu cevaplayan yorumlar arasından üç finalist çıkarıyoruz ve üçünü olduğu gibi hikayeye koyuyoruz. Kazananı takipçi anketi belirliyor. Böylece \"tanıdığına verdi\" diye bir şey kalmıyor.",
    "tablo": [
     [
-     "DEĞERLENDİREN",
-     "sermenkreatif"
+     "FİNALİST",
+     "3 yorum, hikayede olduğu gibi"
     ],
     [
-     "ÖLÇÜ",
-     "ne basacağını anlatan somut cevap"
+     "ELEME ÖLÇÜSÜ",
+     "soruyu cevaplamayan yorum elenir"
     ],
     [
-     "KAZANAN SAYISI",
-     "1 kişi · dört makaranın hepsi"
+     "KAZANANI SEÇEN",
+     "takipçi anketi"
     ],
     [
-     "AÇIKLAMA",
-     "16 Ekim Cuma, gönderi ve hikayede"
+     "OYLAMA",
+     "16 Ekim, hikayede gün boyu"
     ],
     [
-     "TESLİMAT",
-     "kargo bizden, Türkiye içi"
+     "SONUÇ",
+     "16 Ekim akşamı, gönderide"
     ]
    ]
   }
  ],
  "kapanis": {
-  "satir1": "KAZANAN",
+  "satir1": "OYLAMA",
   "satir2": "16 EKİM'DE",
   "kriterler": [
    [
-    "KATILIM",
-    "takip + beğeni + yorum"
+    "12-15 EKİM",
+    "yorumlar açık"
    ],
    [
-    "SÜRE",
-    "12-15 Ekim"
+    "15 EKİM 23.59",
+    "yorumlar kapanıyor"
    ],
    [
-    "ÖDÜL",
-    "4 makara, tek kişiye"
+    "16 EKİM GÜNDÜZ",
+    "üç finalist, hikaye anketi"
    ],
    [
-    "SONUÇ",
-    "16 Ekim, gönderi ve hikayede"
+    "16 EKİM AKŞAM",
+    "kazanan gönderide"
    ]
   ],
-  "not": "Kazanana yalnız @sermenkreatif hesabından yazıyoruz. Başka bir hesap size ödül için yazarsa o hesap bize ait değil."
+  "not": "Oylama bitince anket ekran görüntüsünü de paylaşıyoruz. Kazanana yalnız @sermenkreatif hesabından yazıyoruz."
  }
 }
