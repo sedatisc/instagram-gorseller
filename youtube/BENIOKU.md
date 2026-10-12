@@ -7,6 +7,8 @@ tek şey video dosyası.
 |---|---|
 | `DURUM.json` | Kuyruk: hangi gün hangi video, başlık, kanca, maddeler, etiketler |
 | `PLAN.md` | Başlık ve açıklama kuralları, sıradaki konular |
+| `KANAL.md` | Kanal künyesi: ad, hakkında metni, anahtar kelimeler, oynatma listeleri, fragman senaryosu |
+| `gorsel/` | Banner, profil ve filigran — `arac/youtube_kanal.py` üretiyor |
 
 Hat ve kurulum `otomasyon/` altında:
 
