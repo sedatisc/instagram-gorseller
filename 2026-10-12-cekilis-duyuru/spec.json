@@ -40,13 +40,6 @@
  },
  "slaytlar": [
   {
-   "foto": "cekilis-dortlu.png",
-   "bant": 800,
-   "baslik": "Dördü birden aynı kişiye",
-   "aciklama": "Silk, TPU, PETG ve ABS. Bu dördü bir atölyenin işinin çoğunu karşılıyor: görünüm, esneklik, dayanıklılık ve ısı. Hepsi tek kutuda.",
-   "odak": 0.5
-  },
-  {
    "baslik": "Nasıl katılıyorsun",
    "aciklama": "Üç adım, hepsi bu gönderinin altında bitiyor. Ücret yok, link yok, form yok.",
    "tablo": [

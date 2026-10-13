@@ -26,7 +26,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 08:52 | Hikaye | AYAR & REHBER | `2026-10-12-yapisma-yuzeyleri/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | ELEKTRONİK (kapandı) | `2026-10-12-deep-sleep-akim` | 4 |
 | 13:18 | Hikaye | ELEKTRONİK (kapandı) | `2026-10-12-deep-sleep-akim/hikaye.jpg` | 1 |
-| 13:30 | **Kampanya** | — | `2026-10-12-cekilis-duyuru` | 5 |
+| 13:30 | **Kampanya** | — | `2026-10-12-cekilis-duyuru` | 4 |
 | 14:10 | Kampanya hikaye | — | `2026-10-12-cekilis-duyuru/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-14-sunlu-filadryer` | 5 |
 | 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-14-sunlu-filadryer/hikaye.jpg` | 1 |

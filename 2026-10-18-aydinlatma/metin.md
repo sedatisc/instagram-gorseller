@@ -2,15 +2,15 @@
 
 Lamba gövdesi 3D baskıya çok uygun: duvar kalınlığını ayarlayınca malzemenin kendisi difüzör oluyor. Beş lamba.
 
-Ribbed Abajur — Terracotta · ₺982,92 » Fitilli küre gövde, üstünde pileli şapka. Terracotta tonu sıcak ışıkla birleşince akşam lambası oluyor.
+Ribbed Abajur — Terracotta » Fitilli küre gövde, üstünde pileli şapka. Terracotta tonu sıcak ışıkla birleşince akşam lambası oluyor.
 
-Ribbed Abajur — Sage Green · ₺982,92 » Aynı gövde, adaçayı yeşili. Yatak odası ve çalışma masası için sakin duran renk.
+Ribbed Abajur — Sage Green » Aynı gövde, adaçayı yeşili. Yatak odası ve çalışma masası için sakin duran renk.
 
-Ribbed Abajur — Lacivert · ₺982,92 » Aynı gövdenin koyu hâli. Açık renk duvarda kontrast veriyor; dokuz renk seçeneğinin en koyusu.
+Ribbed Abajur — Lacivert » Aynı gövdenin koyu hâli. Açık renk duvarda kontrast veriyor; dokuz renk seçeneğinin en koyusu.
 
-Organik Işık · ₺764,22 » Siyah kabuğun arasından kırmızı ışık sızıyor: gövde iki ayrı parçadan değil, iki filamentten tek baskıda çıkıyor.
+Organik Işık » Siyah kabuğun arasından kırmızı ışık sızıyor: gövde iki ayrı parçadan değil, iki filamentten tek baskıda çıkıyor.
 
-Dikey Çizgili Silindir · ₺709,42 » Düz silindir, dikey fitil. Işık açıkken çizgiler duvara dik gölgeler düşürüyor; kapalıyken sade bir beyaz obje.
+Dikey Çizgili Silindir » Düz silindir, dikey fitil. Işık açıkken çizgiler duvara dik gölgeler düşürüyor; kapalıyken sade bir beyaz obje.
 
 Hepsinde sıcak beyaz ampul öneriyoruz; soğuk ışık dokuyu düzleştiriyor. Elektrik tesisatı standart duy.
 

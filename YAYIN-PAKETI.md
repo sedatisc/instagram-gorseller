@@ -395,17 +395,17 @@ Kurutucusu olmayıp sürekli baskı ayarıyla uğraşan bir arkadaşın varsa bu
 ```
 Aynı bitki, saksıya göre bambaşka duruyor. Altı gövde, altı ayrı doku — hepsinin tasarımı ve baskısı bize ait.
 
-Columna · ₺425,55 » Dikey hatlar gövdeyi boydan boya kesiyor; sade bir silindir, ışık düştükçe çizgileniyor. Küçük sukulent ve kaktüs ölçüsünde.
+Columna » Dikey hatlar gövdeyi boydan boya kesiyor; sade bir silindir, ışık düştükçe çizgileniyor. Küçük sukulent ve kaktüs ölçüsünde.
 
-Interweave · ₺535,65 » Çift katmanlı örgü: dış kabuk eşkenar dörtgen ağ, iç hazne düz. İki renk aynı parçada, boya yok — filament değişimiyle.
+Interweave » Çift katmanlı örgü: dış kabuk eşkenar dörtgen ağ, iç hazne düz. İki renk aynı parçada, boya yok — filament değişimiyle.
 
-Çizgili Dokulu Saksı · ₺283,37 » İnce dikey fitilli silindir. Doku yakından bakınca katmanla birleşiyor; tezgâhta ve rafta sırayla dizilmek için.
+Çizgili Dokulu Saksı » İnce dikey fitilli silindir. Doku yakından bakınca katmanla birleşiyor; tezgâhta ve rafta sırayla dizilmek için.
 
-Duvar Tipi Saksı · ₺305,09 » Duvara asılan tip: arkası düz sırtlık, önü dokulu hazne. Paşa kılıcı gibi dik yapraklı bitkilerde yer kazandırıyor.
+Duvar Tipi Saksı » Duvara asılan tip: arkası düz sırtlık, önü dokulu hazne. Paşa kılıcı gibi dik yapraklı bitkilerde yer kazandırıyor.
 
-Organik Formlu Saksı · ₺393,47 » Küre gövdede dönerek kesişen açık şeritler — saksıdan çok heykel. İç hazne ayrı; toprak dışarı görünmüyor.
+Organik Formlu Saksı » Küre gövdede dönerek kesişen açık şeritler — saksıdan çok heykel. İç hazne ayrı; toprak dışarı görünmüyor.
 
-Tulip Wave Pot · ₺217,71 » Lale yaprağı gibi dalgalanan ağız, altında kendi tabağı. Beş renk seçeneği var; fazla su tabakta kalıyor.
+Tulip Wave Pot » Lale yaprağı gibi dalgalanan ağız, altında kendi tabağı. Beş renk seçeneği var; fazla su tabakta kalıyor.
 
 Hepsinde ölçü ve renk işe göre değişiyor. Bitkinin kökü ne kadar yer istiyorsa o ölçüde basılır.
 
@@ -522,17 +522,17 @@ H serisinde hangisini alacağına karar veremeyen bir arkadaşın varsa bu gönd
 ```
 3D baskıda katman izi genelde saklanmaya çalışılır. Bu altı vazoda tam tersi: iz desenin kendisi.
 
-Diara · ₺545,52 » Gövdeyi saran iki çizgi dışında hiçbir süsü yok. Kum dokulu gri yüzey, tek dalı bile taşıyor.
+Diara » Gövdeyi saran iki çizgi dışında hiçbir süsü yok. Kum dokulu gri yüzey, tek dalı bile taşıyor.
 
-Modern Büküm Vazo · ₺877,77 » Boyun kısmı burularak incelip tekrar açılıyor; tek parça baskıda zor olan kısım burası. Somon rengi mat yüzey.
+Modern Büküm Vazo » Boyun kısmı burularak incelip tekrar açılıyor; tek parça baskıda zor olan kısım burası. Somon rengi mat yüzey.
 
-Twista · ₺435,43 » Spiral kaburgalar tabandan ağza kadar dönüyor. Petrol mavisi; pamuk dalı ve kuru otla iyi gidiyor.
+Twista » Spiral kaburgalar tabandan ağza kadar dönüyor. Petrol mavisi; pamuk dalı ve kuru otla iyi gidiyor.
 
-Organik Akış · ₺699,54 » Mat siyah gövdede akar gibi dalgalanan derin kanallar. Avuç içi ölçüsünde değil — fotoğraftaki el ölçüyü veriyor.
+Organik Akış » Mat siyah gövdede akar gibi dalgalanan derin kanallar. Avuç içi ölçüsünde değil — fotoğraftaki el ölçüyü veriyor.
 
-Geometrik Dokunuş · ₺666,96 » Yüzeyin tamamı dışa taşan piramit hücreler. Işık her hücrede ayrı kırılıyor, gövde tek renk olmasına rağmen alacalı duruyor.
+Geometrik Dokunuş » Yüzeyin tamamı dışa taşan piramit hücreler. Işık her hücrede ayrı kırılıyor, gövde tek renk olmasına rağmen alacalı duruyor.
 
-Spiral Enerji · ₺666,96 » Ağ dokulu gövde spiral dönerek yükseliyor. Turuncu; sonbahar kurusuyla birlikte kuvvetli duruyor.
+Spiral Enerji » Ağ dokulu gövde spiral dönerek yükseliyor. Turuncu; sonbahar kurusuyla birlikte kuvvetli duruyor.
 
 Kuru çiçek için olduğu gibi kullanılır; suyla kullanacaksan içine cam tüp koymak gerekir, baskı parçası su geçirmez değildir.
 
@@ -616,17 +616,17 @@ Hangi Bambu'yu alacağına karar veremeyen bir arkadaşın varsa bu gönderiyi o
 ```
 Masa dağınıklığı kutu eksikliğinden değil, doğru kutunun olmamasından. Altı ayrı düzenleyici, altı ayrı dert için.
 
-ArcaMini · ₺645,24 » Kemer formlu gövdede dört çekmece. Çekmeceler dışarı tam çıkıyor; takı, kablo ve kırtasiye için.
+ArcaMini » Kemer formlu gövdede dört çekmece. Çekmeceler dışarı tam çıkıyor; takı, kablo ve kırtasiye için.
 
-Ribbed Organizer · ₺251,29 » Fitilli silindir. Mutfakta kepçelik, masada kalemlik, banyoda fırçalık — aynı parça.
+Ribbed Organizer » Fitilli silindir. Mutfakta kepçelik, masada kalemlik, banyoda fırçalık — aynı parça.
 
-Stackable Organizer Set · ₺436,42 » Üst üste binen tepsi seti. Alttaki büyük tabanın üstünde küçükler kayarak yer değiştiriyor; renkler ayrı ayrı basılıyor.
+Stackable Organizer Set » Üst üste binen tepsi seti. Alttaki büyük tabanın üstünde küçükler kayarak yer değiştiriyor; renkler ayrı ayrı basılıyor.
 
-Damla Formlu Set · ₺251,29 » Üç damla formlu kase, iç içe geçiyor. Yüzük, bozuk para ve kulaklık için; gece masasında yer kaplamıyor.
+Damla Formlu Set » Üç damla formlu kase, iç içe geçiyor. Yüzük, bozuk para ve kulaklık için; gece masasında yer kaplamıyor.
 
-Kalem Ucu Kalemlik · ₺163,90 » Kalemin kendi ucuna benzeyen altıgen gövde. İki renk tek parçada, yapıştırma yok.
+Kalem Ucu Kalemlik » Kalemin kendi ucuna benzeyen altıgen gövde. İki renk tek parçada, yapıştırma yok.
 
-İki Bölmeli Organizer · ₺987,36 » Yuvarlak dış kabuk, içinde iki bölmeli beyaz tabla. Kapaksız duruyor; masaya bırakılan şeyler tek yerde toplanıyor.
+İki Bölmeli Organizer » Yuvarlak dış kabuk, içinde iki bölmeli beyaz tabla. Kapaksız duruyor; masaya bırakılan şeyler tek yerde toplanıyor.
 
 Hepsi ölçüye göre basılabiliyor: çekmecenin içini ölçüp gönderirsen o ölçüde basıyoruz.
 
@@ -701,15 +701,15 @@ Elyaflı filamente geçmeyi düşünüyorsan ucu önceden değiştir. Uç ucuz, 
 ```
 Lamba gövdesi 3D baskıya çok uygun: duvar kalınlığını ayarlayınca malzemenin kendisi difüzör oluyor. Beş lamba.
 
-Ribbed Abajur — Terracotta · ₺982,92 » Fitilli küre gövde, üstünde pileli şapka. Terracotta tonu sıcak ışıkla birleşince akşam lambası oluyor.
+Ribbed Abajur — Terracotta » Fitilli küre gövde, üstünde pileli şapka. Terracotta tonu sıcak ışıkla birleşince akşam lambası oluyor.
 
-Ribbed Abajur — Sage Green · ₺982,92 » Aynı gövde, adaçayı yeşili. Yatak odası ve çalışma masası için sakin duran renk.
+Ribbed Abajur — Sage Green » Aynı gövde, adaçayı yeşili. Yatak odası ve çalışma masası için sakin duran renk.
 
-Ribbed Abajur — Lacivert · ₺982,92 » Aynı gövdenin koyu hâli. Açık renk duvarda kontrast veriyor; dokuz renk seçeneğinin en koyusu.
+Ribbed Abajur — Lacivert » Aynı gövdenin koyu hâli. Açık renk duvarda kontrast veriyor; dokuz renk seçeneğinin en koyusu.
 
-Organik Işık · ₺764,22 » Siyah kabuğun arasından kırmızı ışık sızıyor: gövde iki ayrı parçadan değil, iki filamentten tek baskıda çıkıyor.
+Organik Işık » Siyah kabuğun arasından kırmızı ışık sızıyor: gövde iki ayrı parçadan değil, iki filamentten tek baskıda çıkıyor.
 
-Dikey Çizgili Silindir · ₺709,42 » Düz silindir, dikey fitil. Işık açıkken çizgiler duvara dik gölgeler düşürüyor; kapalıyken sade bir beyaz obje.
+Dikey Çizgili Silindir » Düz silindir, dikey fitil. Işık açıkken çizgiler duvara dik gölgeler düşürüyor; kapalıyken sade bir beyaz obje.
 
 Hepsinde sıcak beyaz ampul öneriyoruz; soğuk ışık dokuyu düzleştiriyor. Elektrik tesisatı standart duy.
 
@@ -783,17 +783,17 @@ Katılmak için profildeki linke dokunman yeterli. Ücretsiz, istediğin an çı
 ```
 Banyoda sorun eşya değil, su. Altı parça da suyu hesaba katarak tasarlandı: drenaj deliği, geniş taban, kapaksız gövde.
 
-CatHolder · ₺97,26 » Kedi kulaklı diş fırçalığı. Elektrikli fırça ve macun birlikte duruyor; tabanı geniş, devrilmiyor.
+CatHolder » Kedi kulaklı diş fırçalığı. Elektrikli fırça ve macun birlikte duruyor; tabanı geniş, devrilmiyor.
 
-Drenajlı Banyo Düzenleyici · ₺130,33 » Tabanı delikli: biriken su altta durmuyor, akıyor. Parfüm, tıraş ve makyaj bir arada.
+Drenajlı Banyo Düzenleyici » Tabanı delikli: biriken su altta durmuyor, akıyor. Parfüm, tıraş ve makyaj bir arada.
 
-MonoHook · ₺42,46 » 8 mm duş camına takılan askı. Vida yok, delik yok — camın üstüne geçiyor.
+MonoHook » 8 mm duş camına takılan askı. Vida yok, delik yok — camın üstüne geçiyor.
 
-LeafHook · ₺37,03 » Aynı mantık, yaprak formunda. Havlu ve lif için; duş camına geçiyor, duvara zarar vermiyor.
+LeafHook » Aynı mantık, yaprak formunda. Havlu ve lif için; duş camına geçiyor, duvara zarar vermiyor.
 
-LineaBrush · ₺98,24 » Fitilli silindir fırçalık. İki fırça yan yana duruyor, su tabanda birikmesin diye içi basamaklı.
+LineaBrush » Fitilli silindir fırçalık. İki fırça yan yana duruyor, su tabanda birikmesin diye içi basamaklı.
 
-Modern Banyo Organizeri · ₺207,84 » Tek parça fırçalık; bölmeli gövdesi fırçayı ayırıyor. Lavabo kenarında az yer kaplıyor.
+Modern Banyo Organizeri » Tek parça fırçalık; bölmeli gövdesi fırçayı ayırıyor. Lavabo kenarında az yer kaplıyor.
 
 Banyo parçalarını PETG'den basıyoruz: su ve temizlik malzemesine PLA'dan daha dayanıklı.
 
@@ -847,17 +847,17 @@ PLA'yla menteşe basıp yazın deforme olduğuna şaşıran bir arkadaşın vars
 ```
 Bu altı parçanın ortak derdi şu: sert plastikten yumuşak görünen bir yüzey çıkarmak. Kapitone, fiyonk, örgü — hepsi baskıda modellendi.
 
-Fiyonklu Makyaj Organizer · ₺869,00 » Kapitone dokulu kare gövde, dört bölme. Fırça, ruj ve sünger ayrı ayrı duruyor.
+Fiyonklu Makyaj Organizer » Kapitone dokulu kare gövde, dört bölme. Fırça, ruj ve sünger ayrı ayrı duruyor.
 
-Fitilli Fırçalık · ₺419,00 » Fitilli silindirin beline bağlanmış fiyonk. Fırça ve kalem birlikte; tek parça baskı, fiyonk dahil.
+Fitilli Fırçalık » Fitilli silindirin beline bağlanmış fiyonk. Fırça ve kalem birlikte; tek parça baskı, fiyonk dahil.
 
-Kapitone Makyaj Tepsisi · ₺349,00 » Kapitone dokulu sığ tepsi. Masaya dağılan küçük şişeleri tek hamlede toplamak için.
+Kapitone Makyaj Tepsisi » Kapitone dokulu sığ tepsi. Masaya dağılan küçük şişeleri tek hamlede toplamak için.
 
-İnci Tabağı · ₺361,00 » İstiridye formlu tabak, ortasında inci. Yüzük ve küpe için; banyo ve gece masası.
+İnci Tabağı » İstiridye formlu tabak, ortasında inci. Yüzük ve küpe için; banyo ve gece masası.
 
-Fiyonklu Takı Tabağı · ₺319,00 » Üç ayak üstünde küçük tabak, arkasında fiyonk. Anahtar ve yüzük tek yerde.
+Fiyonklu Takı Tabağı » Üç ayak üstünde küçük tabak, arkasında fiyonk. Anahtar ve yüzük tek yerde.
 
-Fiyonklu Takı Sepeti · ₺549,00 » Kulpu fiyonklu sepet; kolyeler kulptan asılınca birbirine dolaşmıyor. Kapitone gövde içine yüzük ve bileklik.
+Fiyonklu Takı Sepeti » Kulpu fiyonklu sepet; kolyeler kulptan asılınca birbirine dolaşmıyor. Kapitone gövde içine yüzük ve bileklik.
 
 Renkler filamentten geliyor, boya yok. Aynı dosyadan istediğin renkte basılabiliyor.
 
@@ -881,17 +881,17 @@ Hangisini isterdin, yoruma yaz.
 ```
 Hediyenin pahalı olması gerekmiyor. Altı küçük parça; hepsi basılmış, hepsi tek tek elde boyasız çıkıyor.
 
-Aşk İksiri Anahtarlık · ₺81,95 » Mavi şişe, pembe kalpli iksir. Dört renk tek baskıda; kabartma kalp yüzeyden çıkıyor.
+Aşk İksiri Anahtarlık » Mavi şişe, pembe kalpli iksir. Dört renk tek baskıda; kabartma kalp yüzeyden çıkıyor.
 
-Denizatı Anahtarlık · ₺54,80 » Bordo gövde, beyaz çizgiler. Avuç içinden küçük; çantada ve anahtarlıkta yer kaplamıyor.
+Denizatı Anahtarlık » Bordo gövde, beyaz çizgiler. Avuç içinden küçük; çantada ve anahtarlıkta yer kaplamıyor.
 
-Kaplumbağa Anahtarlık · ₺54,80 » Yeşil gövde, turuncu kabuk. Kabuktaki altıgen desen baskıda modellendi, çıkartma değil.
+Kaplumbağa Anahtarlık » Yeşil gövde, turuncu kabuk. Kabuktaki altıgen desen baskıda modellendi, çıkartma değil.
 
-Penguen Anahtarlık · ₺54,80 » Siyah-beyaz gövde, turuncu gaga ve ayak. Üç renk, tek parça.
+Penguen Anahtarlık » Siyah-beyaz gövde, turuncu gaga ve ayak. Üç renk, tek parça.
 
-Papatya Anahtarlık · ₺81,95 » Mavi zemin üstünde beyaz papatya. Yassı form; cüzdanda ve cepte takılmıyor.
+Papatya Anahtarlık » Mavi zemin üstünde beyaz papatya. Yassı form; cüzdanda ve cepte takılmıyor.
 
-Balkabağı Mumluk · ₺393,47 » Dilimli balkabağı formunda tealight mumluğu. Ekim sonu masası için; mum içine oturuyor, alev gövdeye değmiyor.
+Balkabağı Mumluk » Dilimli balkabağı formunda tealight mumluğu. Ekim sonu masası için; mum içine oturuyor, alev gövdeye değmiyor.
 
 Anahtarlıkların hepsi çok renkli tek baskı: renkler ayrı parça değil, aynı gövdede filament değişimiyle.
 

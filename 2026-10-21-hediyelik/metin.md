@@ -2,17 +2,17 @@
 
 Hediyenin pahalı olması gerekmiyor. Altı küçük parça; hepsi basılmış, hepsi tek tek elde boyasız çıkıyor.
 
-Aşk İksiri Anahtarlık · ₺81,95 » Mavi şişe, pembe kalpli iksir. Dört renk tek baskıda; kabartma kalp yüzeyden çıkıyor.
+Aşk İksiri Anahtarlık » Mavi şişe, pembe kalpli iksir. Dört renk tek baskıda; kabartma kalp yüzeyden çıkıyor.
 
-Denizatı Anahtarlık · ₺54,80 » Bordo gövde, beyaz çizgiler. Avuç içinden küçük; çantada ve anahtarlıkta yer kaplamıyor.
+Denizatı Anahtarlık » Bordo gövde, beyaz çizgiler. Avuç içinden küçük; çantada ve anahtarlıkta yer kaplamıyor.
 
-Kaplumbağa Anahtarlık · ₺54,80 » Yeşil gövde, turuncu kabuk. Kabuktaki altıgen desen baskıda modellendi, çıkartma değil.
+Kaplumbağa Anahtarlık » Yeşil gövde, turuncu kabuk. Kabuktaki altıgen desen baskıda modellendi, çıkartma değil.
 
-Penguen Anahtarlık · ₺54,80 » Siyah-beyaz gövde, turuncu gaga ve ayak. Üç renk, tek parça.
+Penguen Anahtarlık » Siyah-beyaz gövde, turuncu gaga ve ayak. Üç renk, tek parça.
 
-Papatya Anahtarlık · ₺81,95 » Mavi zemin üstünde beyaz papatya. Yassı form; cüzdanda ve cepte takılmıyor.
+Papatya Anahtarlık » Mavi zemin üstünde beyaz papatya. Yassı form; cüzdanda ve cepte takılmıyor.
 
-Balkabağı Mumluk · ₺393,47 » Dilimli balkabağı formunda tealight mumluğu. Ekim sonu masası için; mum içine oturuyor, alev gövdeye değmiyor.
+Balkabağı Mumluk » Dilimli balkabağı formunda tealight mumluğu. Ekim sonu masası için; mum içine oturuyor, alev gövdeye değmiyor.
 
 Anahtarlıkların hepsi çok renkli tek baskı: renkler ayrı parça değil, aynı gövdede filament değişimiyle.
 

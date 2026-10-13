@@ -232,6 +232,14 @@ def kunye(d, orta="", koyu=False):
 
 
 # ------------------------------------------------------------------ kart
+def _fiyat(u, spec):
+    """Gönderide fiyat gösterilsin mi.
+
+    Varsayılan kapalı: fiyat gönderide donup kalıyor, mağazada
+    değişince kare yanlış kalıyor. Açmak için spec'e "fiyat": true."""
+    return u.get("fiyat") if spec.get("fiyat", False) else ""
+
+
 def urun_karesi(u, spec, sira=None, toplam=None, cikti=None):
     """Tek ürün karesi: üstte fotoğraf, altta ad, cümle, fiyat."""
     img = Image.new("RGB", (W, H), KAGIT)
@@ -296,12 +304,15 @@ def urun_karesi(u, spec, sira=None, toplam=None, cikti=None):
                    anchor="ra")
             y += 36
 
-    if u.get("fiyat"):
+    if _fiyat(u, spec):
         fy = ALT
         cip(d, KEN, fy, U.P(u["fiyat"]), renk=renk, punto=30,
             yukseklik=58, fn=f_bold)
         d.text((W - KEN, fy + 30), "sermenkreatif.com'da", font=f_reg(23),
                fill=SOLUK, anchor="rm")
+    else:
+        cip(d, KEN, ALT, "sermenkreatif.com'da", renk=renk, punto=26,
+            yukseklik=58, fn=f_bold)
 
     kunye(d, spec.get("kunye", ""))
     if cikti:
@@ -375,7 +386,7 @@ def kapak(spec, urunler, cikti):
             continue
         zem = foto_panel(img, kutu, im, r=18, dolu=True, pay=1.18)
         dd = ImageDraw.Draw(img)
-        if u.get("fiyat"):
+        if _fiyat(u, spec):
             cip(dd, kutu[2] - 12, kutu[3] - 54, U.P(u["fiyat"]),
                 renk=LACI, punto=20, yukseklik=42, sag=True, fn=f_bold)
     d = ImageDraw.Draw(img)
@@ -418,7 +429,7 @@ def kapanis(spec, urunler, cikti):
         fa = sigdir(d, ad, f_bold, W - 2 * KEN - 260, 30, 18)
         d.text((KEN + 28, y + (sh - 10) / 2), ad, font=fa,
                fill=(255, 255, 255), anchor="lm")
-        if u.get("fiyat"):
+        if _fiyat(u, spec):
             d.text((W - KEN - 24, y + (sh - 10) / 2), U.P(u["fiyat"]),
                    font=fm, fill=renk, anchor="rm")
         y += sh
@@ -476,7 +487,7 @@ def hikaye(spec, urunler, cikti):
             d.text((76, y), ln, font=fc, fill=SOLUK, anchor="la")
             y += 42
 
-    if u.get("fiyat"):
+    if _fiyat(u, spec):
         cip(d, 48, min(y + 34, SH - 280), U.P(u["fiyat"]), renk=renk,
             punto=36, yukseklik=72, fn=f_bold)
     d.text((SW / 2, SH - 150), U.P("linke dokun »"), font=f_bold(34),
