@@ -199,6 +199,7 @@ def kayitlar():
         kayit.sort(key=lambda k: k["saat"])
         gun_ad = date.fromisoformat(tarih)
         cikti.append({"tarih": tarih,
+                      "gecmis": tarih < date.today().isoformat(),
                       "ad": "%d %s · %s" % (gun_ad.day, AY[gun_ad.month - 1],
                                             sira.GUN[g]),
                       "kayitlar": kayit})
@@ -523,7 +524,11 @@ function ciz() {
     b.setAttribute("aria-pressed", PLATFORM[i][0] === secili));
   durum.innerHTML = PLATFORM.find(p => p[0] === secili)[2];
   kap.textContent = "";
-  const kaynak = secili === "yt" ? VERI_YT : VERI;
+  const tum = secili === "yt" ? VERI_YT : VERI;
+  // Sayfa bugünden başlıyor; geçmiş günler altta, kapalı duruyor.
+  // Üstte 11 Ekim görününce sayfa eski sanılıyordu.
+  const kaynak = tum.filter(g => !g.gecmis);
+  const eski = tum.filter(g => g.gecmis);
   kaynak.forEach(g => {
     const kayit = g.kayitlar.filter(
       k => (k.platform || ["ig"]).indexOf(secili) >= 0);
@@ -536,6 +541,24 @@ function ciz() {
     kayit.forEach(k => bol.appendChild(kartCiz(k)));
     kap.appendChild(bol);
   });
+
+  if (eski.length) {
+    const det = document.createElement("details");
+    det.className = "gun";
+    const ozet = document.createElement("summary");
+    ozet.textContent = "Geçmiş günler (" + eski.length + ")";
+    det.appendChild(ozet);
+    eski.forEach(g => {
+      const kayit = g.kayitlar.filter(
+        k => (k.platform || ["ig"]).indexOf(secili) >= 0);
+      if (!kayit.length) return;
+      const p = document.createElement("p");
+      p.className = "yol";
+      p.textContent = g.ad + " — " + kayit.length + " kayıt";
+      det.appendChild(p);
+    });
+    kap.appendChild(det);
+  }
 }
 ciz();
 </script>
