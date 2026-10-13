@@ -1,0 +1,107 @@
+{
+  "kategori": "proje",
+  "zemin": "orman",
+  "kapak": {
+    "tip": "liste",
+    "satir1": "RC TANK: BÜYÜK",
+    "satir2": "BASKIDA 6 KARAR",
+    "spot": "Tabladan büyük parça basılmıyor, bölünüyor. İşi bitiren şey baskı değil; bölme ve birleştirme kararları.",
+    "satirlar": [
+      {
+        "etiket": "01",
+        "deger": "Parça nereden bölünür",
+        "ikon": "olcu",
+        "renk": "mavi"
+      },
+      {
+        "etiket": "02",
+        "deger": "Hizalama: pim mi vida mı",
+        "ikon": "dis",
+        "renk": "turuncu"
+      },
+      {
+        "etiket": "03",
+        "deger": "Duvar mı dolgu mu",
+        "ikon": "duvar",
+        "renk": "yesil"
+      },
+      {
+        "etiket": "04",
+        "deger": "Palet: TPU mu segment mi",
+        "ikon": "makara",
+        "renk": "sari"
+      },
+      {
+        "etiket": "05",
+        "deger": "Ağırlık motoru seçiyor",
+        "ikon": "pil",
+        "renk": "mor"
+      },
+      {
+        "etiket": "06",
+        "deger": "Fire payı ve toplam süre",
+        "ikon": "zaman",
+        "renk": "kirmizi"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "01-02 · Bölme ve hizalama",
+      "aciklama": "Bölme yeri hem görünümü hem mukavemeti belirliyor. Yük taşıyan kesiti bölmek sonradan yapıştırmayla kurtarılmıyor.",
+      "tablo": [
+        ["BÖLME HATTI", "düz yüzeyden, görünmeyen kenardan"],
+        ["YÜK HATTI", "taşıyan kesit bölünmez"],
+        ["PİM GEÇMESİ", "0,2-0,4 mm boşluk"],
+        ["SÖKÜLECEKSE", "vida + heat-set insert"],
+        ["KALICI BİRLEŞİM", "epoksi; CA kırılgan kalıyor"],
+        ["YÜZEY", "180 zımpara, sonra temizlik"]
+      ]
+    },
+    {
+      "baslik": "03 · Duvar sayısı dolgudan önce",
+      "aciklama": "Büyük gövdede dayanımı duvar veriyor, dolgu değil. Dolguyu artırmak süreyi ve ağırlığı büyütüyor, burulmayı çözmüyor.",
+      "tablo": [
+        ["DUVAR", "3-4 sıra"],
+        ["DOLGU", "%10-15 yeter"],
+        ["ÜST VE ALT", "5 katman"],
+        ["KATMAN", "0,24-0,28 mm"],
+        ["NOZUL", "0,6 mm büyük parçada kazanıyor"],
+        ["MALZEME", "gövde PLA, dişli PETG"]
+      ]
+    },
+    {
+      "baslik": "04 · Palet en çok zorlanan parça",
+      "aciklama": "Palet sürekli esniyor ve aşınıyor. Tek parça basılan palet kopunca iş bitiyor; segmentli palet tamir edilebiliyor.",
+      "tablo": [
+        ["SEGMENT", "tek tek basılır, pimle birleşir"],
+        ["TPU", "esnek; 95A altı fazla uzuyor"],
+        ["PİM", "metal tel ya da filament ucu"],
+        ["AŞINMA", "ilk kopan parça palet oluyor"],
+        ["YEDEK", "%10 fazla segment bas"],
+        ["GERGİ", "gergi tekerleği ayarlanabilir olsun"]
+      ]
+    },
+    {
+      "baslik": "05-06 · Ağırlık, süre ve fire",
+      "aciklama": "Baskı bitince proje bitmiyor. Ağırlık motoru, motor redüktörü, redüktör de pili seçiyor; sıra tersten kurulursa araç yürümüyor.",
+      "satirlar": [
+        ["AĞIRLIK", "Gövde ağırlaştıkça redüktör oranı büyüyor — motoru en sona bırakma"],
+        ["TORK", "Paletli araçta dönüş torku düz gitmenin 2-3 katı"],
+        ["SÜRE", "Parça sayısı arttıkça toplam süre günlerle ölçülüyor; kuyruğu sıraya koy"],
+        ["FİRE", "Büyük parçada %10 başarısızlık payı; kritik parçayı iki kez bas"]
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "BÖLMEDEN",
+    "satir2": "ÖNCE SOR",
+    "kriterler": [
+      ["YÜK TAŞIYOR MU", "taşıyorsa o kesit bölünmez"],
+      ["SÖKÜLECEK Mİ", "vida ve insert, yapıştırma değil"],
+      ["GÖRÜNÜYOR MU", "bölme hattı kenara saklanır"],
+      ["TEKRAR BASILIR MI", "kritik parçadan iki kopya"]
+    ],
+    "not": "Birleştirme planı model ekranındayken yapılıyor. Bastıktan sonra pim yeri açmak parçayı çatlatıyor."
+  }
+}

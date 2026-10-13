@@ -1,0 +1,170 @@
+{
+  "kategori": "proje",
+  "zemin": "kobalt",
+  "kapak": {
+    "tip": "izgara",
+    "satir1": "TAVAN ARASINA",
+    "satir2": "KAMERA ROBOTU",
+    "spot": "Tavan arasında asıl mesele robotu sürmek değil, geri getirmek. Tasarım kararlarının yarısı bu yüzden alınıyor.",
+    "kartlar": [
+      {
+        "etiket": "GEÇİŞ YÜKSEKLİĞİ",
+        "deger": "12 cm",
+        "alt": "Gövde ve kamera dahil.",
+        "renk": "mavi",
+        "ikon": "olcu"
+      },
+      {
+        "etiket": "YAZIN KİREMİT ALTI",
+        "deger": "50-60 °C",
+        "alt": "PLA sarkar, PETG bas.",
+        "renk": "kirmizi",
+        "ikon": "isi"
+      },
+      {
+        "etiket": "AYDINLATMA",
+        "deger": "2 × 3 W",
+        "alt": "Beyaz LED şart.",
+        "renk": "sari",
+        "ikon": "gunes"
+      },
+      {
+        "etiket": "TELSİZ",
+        "deger": "2,4 GHz",
+        "alt": "5 GHz folyoyu geçmiyor.",
+        "renk": "mor",
+        "ikon": "dalga"
+      },
+      {
+        "etiket": "PİL",
+        "deger": "20 dk",
+        "alt": "Tek pakette gerçekçi süre; yedek paket hazır.",
+        "renk": "turuncu",
+        "ikon": "pil"
+      },
+      {
+        "etiket": "KURTARMA",
+        "deger": "5 m ip",
+        "alt": "Takılan robot ipten geri çekilir — en ucuz sigorta.",
+        "renk": "gri",
+        "ikon": "kalkan",
+        "genis": true
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Gövdeyi boşluk belirliyor",
+      "aciklama": "Tavan arasında yol yok, mertek arası boşluk var. Ölçüyü gözle değil kumpasla seçiyorsun; alçak ve geniş gövde paletle yürüyor.",
+      "tablo": [
+        [
+          "MERTEK ARALIĞI",
+          "tipik 40-60 cm"
+        ],
+        [
+          "GEÇİŞ YÜKSEKLİĞİ",
+          "en az 12 cm pay"
+        ],
+        [
+          "GÖVDE",
+          "alçak, geniş, paletli"
+        ],
+        [
+          "TEKERLEK",
+          "cam yününe gömülüyor"
+        ],
+        [
+          "AĞIRLIK",
+          "1 kg altı — çekilebilsin"
+        ],
+        [
+          "MALZEME",
+          "PETG ya da ASA"
+        ]
+      ]
+    },
+    {
+      "baslik": "Yazın tavan arası fırın",
+      "aciklama": "Kiremit altı sıcaklık yazın 50-60 °C'yi buluyor. PLA gövde kendi ağırlığıyla sarkıyor, pil tarafı daha hassas: sıcakta kısa tur, uzun mola.",
+      "tablo": [
+        [
+          "PLA",
+          "~60 °C'de yumuşuyor"
+        ],
+        [
+          "PETG",
+          "~80 °C'ye kadar dayanıyor"
+        ],
+        [
+          "ASA",
+          "~100 °C — dış kabuk için"
+        ],
+        [
+          "LiPo",
+          "45 °C üstü şişme riski"
+        ],
+        [
+          "PİL YERİ",
+          "gövdenin gölgede kalan yüzü"
+        ],
+        [
+          "TUR SÜRESİ",
+          "sıcakta 10 dk, sonra mola"
+        ]
+      ]
+    },
+    {
+      "baslik": "Sinyal kopunca robot durmalı",
+      "aciklama": "Cam yünü ve folyo kaplama sinyali zayıflatıyor; 5 GHz birkaç metrede düşüyor. Paket gelmeyince motor duracak, yoluna devam etmeyecek.",
+      "tablo": [
+        [
+          "TELSİZ",
+          "2,4 GHz tercih"
+        ],
+        [
+          "FOLYO KAPLAMA",
+          "sinyali ciddi kesiyor"
+        ],
+        [
+          "FAILSAFE",
+          "500 ms paket yoksa dur"
+        ],
+        [
+          "İP",
+          "5 m, gövdeye iki noktadan"
+        ],
+        [
+          "GÖRÜŞ",
+          "geri dönüş yolu kayda alınır"
+        ],
+        [
+          "YEDEK",
+          "ikinci pil ve ip ucu dışarıda"
+        ]
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "ROBOTU",
+    "satir2": "YOLLAMADAN ÖNCE",
+    "kriterler": [
+      [
+        "YÜKSEKLİK",
+        "gövde + kamera 12 cm altında"
+      ],
+      [
+        "SICAKLIK",
+        "PETG gövde, pil gölgede"
+      ],
+      [
+        "SİNYAL",
+        "2,4 GHz ve failsafe denendi"
+      ],
+      [
+        "GERİ DÖNÜŞ",
+        "ip bağlı, ucu dışarıda"
+      ]
+    ],
+    "not": "Tavan arasında kaybolan robot tavan arasında kalıyor. İpi bağlamak beş dakika sürüyor."
+  }
+}
