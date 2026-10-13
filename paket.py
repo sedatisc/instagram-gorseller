@@ -22,8 +22,8 @@ DEPO = "https://github.com/sedatisc/instagram-gorseller/tree/main/"
 HAM = "https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/"
 AY = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz",
       "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]
-KISA = {"3dbaski": "3DBASKI", "elektronik": "ELEKTRONİK",
-        "urun": "ÜRÜN", "proje": "PROJE"}
+KISA = {"3dbaski": "REHBER", "baski": "BASKI ÜRÜNÜ",
+        "elektronik": "ELEKTRONİK", "urun": "ÜRÜN", "proje": "PROJE"}
 
 
 KISALTMA = {
@@ -74,7 +74,11 @@ def baslik(klasor):
             r = json.load(open(reh, encoding="utf-8"))
             return r.get("baslik", klasor)   # zaten okunur yazılmış
         return klasor
-    k = json.load(open(yol, encoding="utf-8"))["kapak"]
+    spc = json.load(open(yol, encoding="utf-8"))
+    if "kapak" not in spc:
+        # Baskı ürünü kartında kapak bloğu yok; başlık üstte duruyor
+        return spc.get("baslik", klasor)
+    k = spc["kapak"]
     ham = ("%s %s" % (k.get("satir1", ""), k.get("satir2", ""))).strip()
     if not ham:                                   # rakam kapağının manşeti yok
         ham = ("%s %s" % (k.get("ustbilgi", ""), k.get("rakam", ""))).strip()
@@ -236,7 +240,7 @@ SAYFA = """<title>Yayın Paketi</title>
   --kagit: #f7f6f3; --kart: #ffffff; --murekkep: #1c1a17;
   --soluk: #6b6560; --cizgi: #e2ded7; --kutu: #faf9f6;
   --dugme: #1c1a17; --dugme-yazi: #ffffff;
-  --3dbaski: #c2410c; --elektronik: #0e7490; --urun: #15803d;
+  --3dbaski: #c2410c; --elektronik: #0e7490; --baski: #7c3aed; --urun: #15803d;
   --proje: #6d28d9; --reels: #be185d;
   --ana: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -246,7 +250,7 @@ SAYFA = """<title>Yayın Paketi</title>
     --kagit: #16150f; --kart: #201e18; --murekkep: #f0ece3;
     --soluk: #a09a8f; --cizgi: #342f26; --kutu: #1a1813;
     --dugme: #f0ece3; --dugme-yazi: #16150f;
-    --3dbaski: #fb923c; --elektronik: #22d3ee; --urun: #4ade80;
+    --3dbaski: #fb923c; --elektronik: #22d3ee; --baski: #c4b5fd; --urun: #4ade80;
     --proje: #a78bfa; --reels: #f472b6;
     color-scheme: dark;
   }
@@ -255,7 +259,7 @@ SAYFA = """<title>Yayın Paketi</title>
   --kagit: #16150f; --kart: #201e18; --murekkep: #f0ece3;
   --soluk: #a09a8f; --cizgi: #342f26; --kutu: #1a1813;
   --dugme: #f0ece3; --dugme-yazi: #16150f;
-  --3dbaski: #fb923c; --elektronik: #22d3ee; --urun: #4ade80;
+  --3dbaski: #fb923c; --elektronik: #22d3ee; --baski: #c4b5fd; --urun: #4ade80;
   --proje: #a78bfa; --reels: #f472b6;
   color-scheme: dark;
 }
@@ -327,6 +331,7 @@ button.oldu { background: var(--urun); border-color: var(--urun);
               color: var(--kart); }
 .kart[data-slot="3dbaski"] .rozet { color: var(--3dbaski); }
 .kart[data-slot="elektronik"] .rozet { color: var(--elektronik); }
+.kart[data-slot="baski"] .rozet { color: var(--baski); }
 .kart[data-slot="urun"] .rozet { color: var(--urun); }
 .kart[data-slot="proje"] .rozet { color: var(--proje); }
 .kart[data-tur="REELS"] .rozet { color: var(--reels); }

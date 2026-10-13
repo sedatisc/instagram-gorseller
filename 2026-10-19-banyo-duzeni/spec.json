@@ -1,0 +1,53 @@
+{
+ "kategori": "3dbaski",
+ "tip": "grup",
+ "renk": "turkuaz",
+ "baslik": "Banyo düzeni",
+ "alt": "Islak tezgâhta duracak parçalar: drenajlı, geniş tabanlı, kaymayan.",
+ "spot": "6 parça · tasarım ve baskı bize ait",
+ "kunye": "Banyonu toparla",
+ "urunler": [
+  {
+   "slug": "-catholder-banyodaki-en-tatli-duzen",
+   "ad": "CatHolder",
+   "etiket": "banyo",
+   "renk": "pembe",
+   "satir": "Kedi kulaklı diş fırçalığı. Elektrikli fırça ve macun birlikte duruyor; tabanı geniş, devrilmiyor."
+  },
+  {
+   "slug": "kendinden-drenajli-banyo-duzenleyici",
+   "ad": "Drenajlı Banyo Düzenleyici",
+   "etiket": "banyo",
+   "renk": "turkuaz",
+   "satir": "Tabanı delikli: biriken su altta durmuyor, akıyor. Parfüm, tıraş ve makyaj bir arada."
+  },
+  {
+   "slug": "monohook-minimal-dus-cami-askisi",
+   "ad": "MonoHook",
+   "etiket": "banyo",
+   "renk": "gri",
+   "satir": "8 mm duş camına takılan askı. Vida yok, delik yok — camın üstüne geçiyor."
+  },
+  {
+   "slug": "leafhook-tropik-cam-dus-askisi",
+   "ad": "LeafHook",
+   "etiket": "banyo",
+   "renk": "yesil",
+   "satir": "Aynı mantık, yaprak formunda. Havlu ve lif için; duş camına geçiyor, duvara zarar vermiyor."
+  },
+  {
+   "slug": "lineabrush-modern-cizgisel-dis-fircalik",
+   "ad": "LineaBrush",
+   "etiket": "banyo",
+   "renk": "mavi",
+   "satir": "Fitilli silindir fırçalık. İki fırça yan yana duruyor, su tabanda birikmesin diye içi basamaklı."
+  },
+  {
+   "slug": "-modern-banyo-organizeri",
+   "ad": "Modern Banyo Organizeri",
+   "etiket": "banyo",
+   "renk": "mor",
+   "satir": "Tek parça fırçalık; bölmeli gövdesi fırçayı ayırıyor. Lavabo kenarında az yer kaplıyor."
+  }
+ ]
+}

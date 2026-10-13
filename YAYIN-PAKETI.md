@@ -10,7 +10,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme.
 
 # 2026-10-11 · Pazar
 
-## 11:40 · 3D BASKI & ÜRETİM DONANIMI
+## 11:40 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-11-sunlu-pla-kartelasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-11-sunlu-pla-kartelasi/1.jpg" width="240"></a>
 
@@ -32,32 +32,6 @@ Kurutma → SUNLU tek bir rakam veriyor: 50 °C. Süre vermiyor, depolamada %20 
 Yanlış seriye doğru profili uygulayıp makarayı çöpe atan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #sunlu #filament #3dyazici #makerturkiye
-```
-
-## 12:20 · ELEKTRONİK & IoT
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-11-jetson-orin-nano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-11-jetson-orin-nano/1.jpg" width="240"></a>
-
-**[2026-10-11-jetson-orin-nano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-11-jetson-orin-nano)** · 4 kare · hikaye 13:00
-
-```
-Jetson Orin Nano Super'da süper olan donanım değil, yazılım. Ayrı bir kart çıkmadı; var olan kartın saatleri yükseltildi ve fiyatı düştü.
-
-Yapay zeka → 67 TOPS seyrek kipte, yoğun kipte 33 TOPS
-GPU → 1024 Ampere çekirdeği, 32 tensor çekirdeği, 1.020 MHz
-İşlemci → 6 çekirdek Arm Cortex-A78AE, 1,7 GHz
-Bellek → 8 GB LPDDR5, 102 GB/s
-Güç → 7, 15 ya da 25 W kipi
-
-Fark şurada: GPU 635 MHz'den 1.020 MHz'e, işlemci 1,5'ten 1,7 GHz'e, bellek bant genişliği 68'den 102 GB/s'ye çıkıyor. Toplamda 1,7 kat.
-
-8 GB belleği işlemci ile GPU paylaşıyor; modelin tamamı o 8 GB'a sığacak. Küçük dil modelleri ve görüntü işleme rahat çalışıyor, büyük modeller sığmıyor.
-
-Raspberry Pi ne zaman yetmez: tek kamera ve klasik görüntü işlemede Pi yeterli. Birden çok kamera akışı, gerçek zamanlı nesne takibi ya da yerel dil modeli istiyorsan CUDA ve tensor çekirdeği gerekiyor.
-
-Pi'ye model sığdırmaya çalışan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #elektronik #embedded #jetson #makerturkiye
 ```
 
 ## 17:10 · ÜRÜN & MAĞAZA
@@ -117,7 +91,7 @@ Baskı işini gram üzerinden fiyatlayıp ay sonunda kâr edemeyen bir arkadaş�
 
 # 2026-10-12 · Pazartesi
 
-## 08:12 · 3D BASKI & ÜRETİM DONANIMI
+## 08:12 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-12-yapisma-yuzeyleri"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-12-yapisma-yuzeyleri/1.jpg" width="240"></a>
 
@@ -136,26 +110,6 @@ Düz PEI ve camda yapıştırıcı kalemi hem tutturucu hem ayırıcı görevi y
 İlk katman tutmuyor diye Z ofsetiyle sürekli oynayan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #3dprinting #pei #3dbaskiturkiye
-```
-
-## 12:38 · ELEKTRONİK & IoT
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-12-deep-sleep-akim"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-12-deep-sleep-akim/1.jpg" width="240"></a>
-
-**[2026-10-12-deep-sleep-akim](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-12-deep-sleep-akim)** · 4 kare · hikaye 13:18
-
-```
-ESP32 deep sleep akım ölçümü veri sayfasındaki 10 µA'i vermiyor; ölçtüğün şey çip değil kartın tamamı.
-
-Geliştirme kartında USB-UART çevirici, kart üstündeki LDO ve güç ledi uyurken de akım çekiyor; çıplak bir DevKit tipik olarak milliamper bandında kalıyor. Veri sayfasındaki sayıya ancak çıplak modülde yaklaşılıyor.
-
-Ampermetre besleme hattının üstüne, kaynakla kart arasına seri bağlanıyor. Paralel bağlanan metre hiçbir şey ölçmüyor. Ölçüm noktası kartın regülatöründen önce olacak, yoksa regülatörün kendi boşta akımı sayının dışında kalıyor.
-
-Kart uyanıp Wi-Fi'yi açtığında akım yüz milliamperlerin üstüne çıkıyor; µA kademesindeki metre ya sigortayı atıyor ya hattı kısıtlayıp kartı resetliyor. Uyku akımını µA kademesinde, uyanık akımı ayrı ölçümde al.
-
-Pil ömrünü veri sayfasındaki 10 µA ile hesaplayıp iki günde biten bir projesi olan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #elektronik #embedded #esp32 #makerturkiye
 ```
 
 ## 17:24 · ÜRÜN & MAĞAZA
@@ -213,7 +167,7 @@ Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan payl
 
 # 2026-10-13 · Salı
 
-## 08:12 · 3D BASKI & ÜRETİM DONANIMI
+## 08:12 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-rehberi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-filament-rehberi/1.jpg" width="240"></a>
 
@@ -238,36 +192,6 @@ Bütün rakamlar sermenkreatif.com'daki ürün sayfalarından. Tahmin yok.
 Profili değiştirmeden seri değiştirip makarayı çöpe atan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #filament #sunlu #pla #petg #3dbaskiturkiye #makerturkiye
-```
-
-## 12:38 · ELEKTRONİK & IoT
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-phaetus-conch-nozul"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-13-phaetus-conch-nozul/1.jpg" width="240"></a>
-
-**[2026-10-13-phaetus-conch-nozul](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-phaetus-conch-nozul)** · 4 kare · hikaye 13:18
-
-```
-Karbon elyaflı filament basıp iki hafta sonra ilk katmanın tutmadığını fark ettiysen suç ayarda değil: nozul aşınmış. Phaetus Conch M4 EndCoat tam bu iş için.
-
-Nedir → sertleştirilmiş çelik nozul, üstünde EndCoat kaplama. Kaplamanın sertliği HV3300. Üretici, sade sertleştirilmiş çelik nozula göre 2,5 kata kadar uzun ömür veriyor. Azami sıcaklık 500 °C.
-
-Hangi makineye → M4 dişli, Bambu Lab A1 ve A1 mini için. Filament 1,75 mm. Başka seriye zorlamadan önce makinenin nozul dişine bak; A1 ile X1/P1 aynı değil.
-
-Dört çap var ve seçim işe göre:
-· 0,2 mm — ince detay. Katman yüksekliği 0,15 mm'yi geçmesin.
-· 0,4 mm — genel iş. Katman 0,30 mm'ye kadar.
-· 0,6 mm — hız ve dayanım. Katman 0,42 mm'ye kadar.
-· 0,8 mm — kalın duvar, büyük parça.
-
-Katman sınırı kuralı: güvenli üst sınır nozul çapının %75'i. Duvar genişliği de çapın 1,05 katı — ölçüyü taşıyan sayı bu.
-
-Ne zaman şart → karbon elyaf, cam elyaf, ahşap dolgulu, çelik, tungsten ya da bor karbür katkılı filament basıyorsan. Pirinç nozul bunlarda haftalar içinde ağızdan açılıyor ve çap büyüdükçe ölçü tutmuyor. Düz PLA ve PETG basıyorsan aceleye gerek yok.
-
-Çaplar ve fiyatlar sermenkreatif.com'da; 0,2 mm diğerlerinden biraz yüksek, sebebi delik işleme hassasiyeti.
-
-Aşındırıcı filament basıp nozulu üç ayda bir değiştiren bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #phaetus #nozzle #bambulab #3dbaskiturkiye #makerturkiye
 ```
 
 ## 17:24 · ÜRÜN & MAĞAZA
@@ -325,7 +249,7 @@ Prototipi tuttu diye on adet basıp hepsini çöpe atan bir arkadaşın varsa bu
 
 # 2026-10-14 · Çarşamba
 
-## 08:12 · 3D BASKI & ÜRETİM DONANIMI
+## 08:12 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-nozzle-capi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-13-nozzle-capi/1.jpg" width="240"></a>
 
@@ -346,31 +270,34 @@ Her baskıyı 0,4 mm uçla basıp küçük yazıların çıkmamasına şaşıran
 #sermenkreatif #3dbaski #3dprinting #nozzle #3dbaskiturkiye
 ```
 
-## 12:38 · ELEKTRONİK & IoT
+## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-lipo-bms"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-14-lipo-bms/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-atolyeden-cikanlar"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-14-atolyeden-cikanlar/1.jpg" width="240"></a>
 
-**[2026-10-14-lipo-bms](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-lipo-bms)** · 5 kare · hikaye 13:18
+**[2026-10-14-atolyeden-cikanlar](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-atolyeden-cikanlar)** · 8 kare · hikaye 13:18
 
 ```
-Li-Po koruma devresi (BMS) pili şarj etmiyor. Yaptığı tek iş, seri bağlı iki MOSFET'i dört eşikte açıp kapatmak.
+Mağazada makine ve filament satıyoruz ama o makinelerle biz de basıyoruz. Bunlar kendi tezgâhımızdan çıkan altı parça.
 
-Aşırı şarj » hücre 4,25-4,30 V'a çıkınca şarj yolunu kesiyor.
-Aşırı deşarj » 2,50-3,00 V'a inince yük yolunu kesiyor. Li-Po 2,5 V'un altına indiğinde kapasitesinin bir kısmını kalıcı kaybediyor; kartın asıl koruduğu sınır bu.
-Aşırı akım » karta göre 3-10 A bandında kesiyor.
-Kısa devre » birkaç yüz mikrosaniye içinde kapatıyor.
+Adrift Planter → parametrik kurgulanmış gövde; dışı ağ dokusu, içi düz hazne. Altında kendi tabağı var, su tezgâha geçmiyor. 100 mm.
 
-Korumadığı şey sıcaklık. Üstünde NTC ucu yoksa hücre ısınırken kart bunu görmüyor.
+Alevin → alev formunun dönerek yükseldiği tek parça sanat vazosu. Mat siyah yüzey; katman izi burada kusur değil, desenin kendisi.
 
-PCM ile BMS farkı » PCM yalnız koruma yapıyor, tek hücrede (1S) yeterli. 2S ve üstünde hücreler zamanla ayrışıyor; dengeleme yoksa biri dolarken diğeri boşta kalıyor. Kartta hücre sayısı kadar algılama ucu yoksa dengeleme de yoktur.
+Dalga Desenli Küre Lamba → küre gövdedeki dalga dokusu ışığı kırıyor, sıcak ampulle duvara desen düşürüyor.
 
-Kart seçerken bakılan rakam sürekli akım, ama motor kalkışında çekilen tepe akım sürekli akımın birkaç katına çıkıyor. Kart orada kesiyor, sistem resetleniyor ve "kart bozuk" sanılıyor. Sürekli akımı yükün tepe akımının 1,5 katı seç.
+Duova → çizgisel gövdeli sabunluk ve diş fırçalığı seti. Tabanı geniş, ıslak tezgâhta kaymıyor.
 
-Bir not » korumalı hücrenin üstündeki ince kart zaten PCM'dir. Üstüne ikinci koruma takmak kesme eşiğini öne çekiyor.
+Fiyonk Detaylı Saklama Kutusu → kabartma fiyonk dokulu kapaklı kutu, tutamağı da fiyonk. 15 × 15 × 15 cm, mat yüzey.
 
-Pili bir kez tamamen boşaltıp bir daha şarj edemeyen bir arkadaşın varsa bu gönderiyi ona yolla.
+BunnyHold → şişeyi sırtüstü yatan tavşan taşıyor; ağırlık dengesi şişeyi havada tutuyor.
 
-#sermenkreatif #elektronik #embedded #lipo #makerturkiye
+Hepsinin tasarımı ve baskısı bize ait. Ölçü, renk ve adet işe göre değişiyor; aynı dosyadan tek parça da basılır, elli parça da.
+
+Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
+
+Hangisi senin evine yakışır, yoruma yaz.
+
+#sermenkreatif #3dbaski #3dprint #dekorasyon #saksi #vazo #masalambasi #3dbaskiturkiye #makerturkiye #samsun
 ```
 
 ## 17:24 · ÜRÜN & MAĞAZA
@@ -433,7 +360,7 @@ Beş sorunun cevabı yazışmada kalsın. Sözlü anlaşmada en çok tartışıl
 
 # 2026-10-15 · Perşembe
 
-## 08:12 · 3D BASKI & ÜRETİM DONANIMI
+## 08:12 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-filament-kurutucu-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-filament-kurutucu-pano/1.jpg" width="240"></a>
 
@@ -459,34 +386,34 @@ Kurutucusu olmayıp sürekli baskı ayarıyla uğraşan bir arkadaşın varsa bu
 #sermenkreatif #3dbaski #sunlu #filamentkurutucu #filament #makerturkiye
 ```
 
-## 12:38 · ELEKTRONİK & IoT
+## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-h-koprusu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-15-h-koprusu/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-saksi-koleksiyonu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-15-saksi-koleksiyonu/1.jpg" width="240"></a>
 
-**[2026-10-15-h-koprusu](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-h-koprusu)** · 5 kare · hikaye 13:18
+**[2026-10-15-saksi-koleksiyonu](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-saksi-koleksiyonu)** · 8 kare · hikaye 13:18
 
 ```
-Motor sürücü seçimi akımla başlamıyor, kaybın nerede olacağıyla başlıyor.
+Aynı bitki, saksıya göre bambaşka duruyor. Altı gövde, altı ayrı doku — hepsinin tasarımı ve baskısı bize ait.
 
-DRV8833 iki tam köprüyü, aşırı akım ve aşırı sıcaklık korumasını tek kılıfa koyuyor. Kanal başına 1,5 A sürekli, 2 A tepe, 2,7-10,8 V besleme. İki kanalı birleştirip tek motoru daha yüksek akımla sürebiliyorsun. Kaybı yaklaşık 0,5 V'luk düşüm — 6 V'ta bu hissediliyor, 12 V'ta önemsiz. Kılıfın altındaki bakır alan soğutucunun kendisi; o alanı kısmak entegreyi ısıtıyor.
+Columna · ₺425,55 » Dikey hatlar gövdeyi boydan boya kesiyor; sade bir silindir, ışık düştükçe çizgileniyor. Küçük sukulent ve kaktüs ölçüsünde.
 
-N20, TT motor ve küçük pompa için ayrık devre kurmak zaman kaybı. Hazır entegre bu bandın işini görüyor.
+Interweave · ₺535,65 » Çift katmanlı örgü: dış kabuk eşkenar dörtgen ağ, iç hazne düz. İki renk aynı parçada, boya yok — filament değişimiyle.
 
-Ayrık MOSFET köprüsü 10 A üstünde ya da 24 V'luk sürüşte devreye giriyor. RDS(on) 5 mΩ'a indiğinde kayıp entegreye göre onda bire düşüyor. Ama üç şey senin derdin oluyor:
+Çizgili Dokulu Saksı · ₺283,37 » İnce dikey fitilli silindir. Doku yakından bakınca katmanla birleşiyor; tezgâhta ve rafta sırayla dizilmek için.
 
-Gate sürücü » üst kol MOSFET'i mikrodenetleyiciden doğrudan sürülmüyor, IR2104 gibi bootstrap'lı sürücü şart.
-Ölü zaman » üst ve alt kol aynı anda açılırsa besleme kısa devre oluyor. Aralarına 1-2 µs boşluk bırakılıyor.
-Snubber » motor endüktansı kapanma anında tepe gerilim üretiyor; TVS ya da RC olmadan MOSFET gidiyor.
+Duvar Tipi Saksı · ₺305,09 » Duvara asılan tip: arkası düz sırtlık, önü dokulu hazne. Paşa kılıcı gibi dik yapraklı bitkilerde yer kazandırıyor.
 
-Anahtarlama frekansını 20 kHz üstünde tut, altında motor duyulur şekilde ötüyor.
+Organik Formlu Saksı · ₺393,47 » Küre gövdede dönerek kesişen açık şeritler — saksıdan çok heykel. İç hazne ayrı; toprak dışarı görünmüyor.
 
-İkisinde de atlanan şey besleme tarafı. Kalkış akımı sürekli akımın 3-6 katı. Motor başına 100-470 µF besleme kondansatörü, kalın ve kısa güç kablosu, güç ve sinyal toprağının tek noktada birleşmesi. Akımı tahminle değil shunt direnciyle ölç, sonra yükte 10 dakika çalıştırıp ısınmaya bak.
+Tulip Wave Pot · ₺217,71 » Lale yaprağı gibi dalgalanan ağız, altında kendi tabağı. Beş renk seçeneği var; fazla su tabakta kalıyor.
 
-L298N'i listeye almadım: üstünde 2 V'luk düşüm var, 2026'da kurulacak bir devrede yeri yok.
+Hepsinde ölçü ve renk işe göre değişiyor. Bitkinin kökü ne kadar yer istiyorsa o ölçüde basılır.
 
-Motoru çalıştırınca kartı resetlenen bir arkadaşın varsa bu gönderiyi ona yolla.
+Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
 
-#sermenkreatif #elektronik #embedded #drv8833 #makerturkiye
+Hangisi senin bitkine yakışır, yoruma yaz.
+
+#sermenkreatif #3dbaski #saksi #bitki #dekorasyon #evdekorasyonu #3dbaskiturkiye #makerturkiye #samsun
 ```
 
 ## 17:24 · ÜRÜN & MAĞAZA
@@ -552,7 +479,7 @@ Tarama dosyasını doğrudan slicer'a atıp sonucu beğenmeyen bir arkadaşın v
 
 # 2026-10-16 · Cuma
 
-## 08:12 · 3D BASKI & ÜRETİM DONANIMI
+## 08:12 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-bambu-h-serisi-pano/1.jpg" width="240"></a>
 
@@ -586,34 +513,34 @@ H serisinde hangisini alacağına karar veremeyen bir arkadaşın varsa bu gönd
 #sermenkreatif #3dbaski #bambulab #3dyazici #makerturkiye
 ```
 
-## 12:38 · ELEKTRONİK & IoT
+## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-gelistirme-karti-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-gelistirme-karti-pano/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-vazo-koleksiyonu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-vazo-koleksiyonu/1.jpg" width="240"></a>
 
-**[2026-10-16-gelistirme-karti-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-gelistirme-karti-pano)** · 1 kare · hikaye 13:18
+**[2026-10-16-vazo-koleksiyonu](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-vazo-koleksiyonu)** · 8 kare · hikaye 13:18
 
 ```
-"Hangi kartı alayım" sorusunun cevabı güçte değil, işin ne olduğunda. Üçü de geliştirme kartı ama üçü ayrı sınıf.
+3D baskıda katman izi genelde saklanmaya çalışılır. Bu altı vazoda tam tersi: iz desenin kendisi.
 
-Raspberry Pi Pico 2 W » RP2350, iki Cortex-M33 çekirdek 150 MHz'de (istersen aynı yongadaki RISC-V çekirdekleri de seçebiliyorsun). 520 KB SRAM, 4 MB flash. Wi-Fi 4 ve Bluetooth LE var. 26 GPIO, 4 ADC, 1,8-5,5 V ile besleniyor.
+Diara · ₺545,52 » Gövdeyi saran iki çizgi dışında hiçbir süsü yok. Kum dokulu gri yüzey, tek dalı bile taşıyor.
 
-Nerede kullanılır: sensör okuyup veri yollayan düğüm, pille aylarca çalışması gereken iş, röle/motor/şerit LED sürme. İşletim sistemi yok, kod doğrudan donanımda koşuyor — açılış anında hazır.
+Modern Büküm Vazo · ₺877,77 » Boyun kısmı burularak incelip tekrar açılıyor; tek parça baskıda zor olan kısım burası. Somon rengi mat yüzey.
 
-ESP32-S3 » iki Xtensa LX7 çekirdek 240 MHz'de, 512 KB dahili SRAM, 45 GPIO (14'ü dokunmatik olabiliyor). Wi-Fi 4 ve Bluetooth 5 LE. Farkı yaratan şey vektör komutları: ESP-NN ve ESP-DSP ile sinir ağı ve sinyal işleme kart üstünde dönüyor.
+Twista · ₺435,43 » Spiral kaburgalar tabandan ağza kadar dönüyor. Petrol mavisi; pamuk dalı ve kuru otla iyi gidiyor.
 
-Nerede kullanılır: kameralı robot ve görüntü aktarma, Wi-Fi'li ev otomasyonu ve MQTT, kart üstünde ses ya da görüntü tanıma. Pico'nun yapamadığı yer burası; Pi'nin fazla geldiği yer de.
+Organik Akış · ₺699,54 » Mat siyah gövdede akar gibi dalgalanan derin kanallar. Avuç içi ölçüsünde değil — fotoğraftaki el ölçüyü veriyor.
 
-Raspberry Pi 5 » BCM2712, dört Cortex-A76 çekirdek 2,4 GHz'de. 1'den 16 GB'a kadar LPDDR4X. Çift bant Wi-Fi 5, Bluetooth 5.0, Gigabit Ethernet, iki USB 3.0, PCIe 2.0. Çift 4K çıkış.
+Geometrik Dokunuş · ₺666,96 » Yüzeyin tamamı dışa taşan piramit hücreler. Işık her hücrede ayrı kırılıyor, gövde tek renk olmasına rağmen alacalı duruyor.
 
-Nerede kullanılır: kiosk ve medya kutusu, NVMe diskli yerel sunucu (PCIe için ayrı HAT gerekiyor), kamera + yapay zekâ, ROS çalıştıran robot. Bu bir bilgisayar, mikrodenetleyici değil.
+Spiral Enerji · ₺666,96 » Ağ dokulu gövde spiral dönerek yükseliyor. Turuncu; sonbahar kurusuyla birlikte kuvvetli duruyor.
 
-Dikkat » Pi 5 5 V / 5 A USB-C istiyor. Telefon şarj cihazıyla çalıştırmaya kalkarsan yük bindiğinde kapanıyor. Pille taşınabilir iş kuracaksan Pi 5 yanlış kart.
+Kuru çiçek için olduğu gibi kullanılır; suyla kullanacaksan içine cam tüp koymak gerekir, baskı parçası su geçirmez değildir.
 
-Karar kısaca: sensör okuyup veri yolluyorsan Pico 2 W. Kablosuzun üstüne kamera ya da ses biniyorsa ESP32-S3. İşletim sistemi gerekiyorsa Pi 5.
+Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
 
-Projesine Pi 5 koyup pille çalıştırmaya uğraşan bir arkadaşın varsa bu gönderiyi ona yolla.
+Hangisini evine koyardın, yoruma yaz.
 
-#sermenkreatif #elektronik #raspberrypi #esp32 #makerturkiye
+#sermenkreatif #3dbaski #vazo #dekorasyon #evdekorasyonu #kurucicek #3dbaskiturkiye #makerturkiye #samsun
 ```
 
 ## 16:40 · ÜRÜN & MAĞAZA
@@ -642,38 +569,6 @@ Karar: bugün alınabilen tek seçenek U1. K3'ün yaklaşımı yedek parça tara
 #sermenkreatif #3dbaski #snapmaker #cokrenklibaski #makerturkiye
 ```
 
-## 18:10 · PROJE & ATÖLYE
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-pixhawk-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-20-pixhawk-pano/1.jpg" width="240"></a>
-
-**[2026-10-20-pixhawk-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-pixhawk-pano)** · 1 kare · hikaye 18:50
-
-```
-Uçuş kontrol kartı seçerken bakılan şey işlemci değil. Üç Pixhawk'ta da aynı H7 var; ayrım yedeklilikte ve gövde ölçüsünde.
-
-Pixhawk 6C » STM32H743, Cortex-M7 480 MHz, 2 MB flash, 1 MB RAM. Yanında STM32F103 IO işlemcisi. Sensörler: ICM-42688-P ve BMI055 ivme/jiroskop, IST8310 manyetometre, MS5611 barometre. 84,8 × 44 × 12,4 mm, 59,3 g. 16 PWM çıkış (8'i IO'dan, 8'i FMU'dan), 3 seri port, 2 GPS, 2 CAN, I2C.
-
-Nerede: çoklu rotor, sabit kanat, rover. Hobi ve öğrenme tarafının standart kartı.
-
-Pixhawk 6C mini » aynı işlemci, aynı sensör seti, aynı bellek. Değişen gövde: 53,3 × 39 × 16,2 mm, 39,2 g — 6C'den 20 gram hafif. 14 PWM çıkış (8 IO + 6 FMU).
-
-Dikkat » port akım sınırı 1 A; 6C'de bu 1,5 A. Telemetri modülü ve çevre birimlerini aynı anda besleyeceksen bu farkı hesaba kat.
-
-Nerede: dar gövdeli araç, küçük dron, ağırlığın sayıldığı her yer.
-
-Pixhawk 6X » STM32H753 ve FMUv6X açık standardı. Asıl fark burada: üç IMU ve iki BMP388 barometre, ayrı veri yollarında ve ayrı güç kontrolüyle. Sensör arızası algılandığında sistem kendiliğinden diğerine geçiyor. Titreşim yalıtım sistemi ve sıcaklık kontrollü IMU kartı var. Güç tarafı da üçlü yedekli: POWER1, POWER2 ve USB.
-
-Nerede: ticari uçuş, kritik görev, arıza toleransının pazarlık konusu olmadığı işler.
-
-Karar kısaca: hobi ve öğrenme için 6C. Gövdede yer darsa 6C mini. Arıza toleransı gerekiyorsa 6X.
-
-Bir not » üçü de hem PX4 hem ArduPilot çalıştırıyor. Kart seçimi yazılım seçimini kilitlemiyor.
-
-İlk dronunda hangi kartı alacağına karar veremeyen bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #maker #pixhawk #dron #makerturkiye
-```
-
 ## 20:30 · REELS — [2026-10-18-bambu-h-serisi-pano/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano)
 
 Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
@@ -682,7 +577,7 @@ Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan payl
 
 # 2026-10-17 · Cumartesi
 
-## 11:10 · 3D BASKI & ÜRETİM DONANIMI
+## 11:10 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-bambu-a-serisi-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-bambu-a-serisi-pano/1.jpg" width="240"></a>
 
@@ -712,34 +607,34 @@ Hangi Bambu'yu alacağına karar veremeyen bir arkadaşın varsa bu gönderiyi o
 #sermenkreatif #3dbaski #bambulab #3dyazici #makerturkiye
 ```
 
-## 12:20 · ELEKTRONİK & IoT
+## 12:20 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-esp32-ailesi-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-esp32-ailesi-pano/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-masa-duzeni"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-masa-duzeni/1.jpg" width="240"></a>
 
-**[2026-10-17-esp32-ailesi-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-esp32-ailesi-pano)** · 1 kare · hikaye 13:00
+**[2026-10-17-masa-duzeni](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-masa-duzeni)** · 8 kare · hikaye 13:00
 
 ```
-"ESP32 alacağım" cümlesi eksik bir cümle. ESP32 tek bir yonga değil, bir aile — ve üçü ayrı tarafta güçlü.
+Masa dağınıklığı kutu eksikliğinden değil, doğru kutunun olmamasından. Altı ayrı düzenleyici, altı ayrı dert için.
 
-ESP32-S3 » iki Xtensa LX7 çekirdek 240 MHz'de, 512 KB dahili SRAM, 45 GPIO (14'ü dokunmatik olabiliyor). Wi-Fi 4 ve Bluetooth 5 LE. Ayıran özelliği vektör komutları: ESP-NN ve ESP-DSP kütüphaneleriyle sinir ağı ve sinyal işleme kartın üstünde dönüyor.
+ArcaMini · ₺645,24 » Kemer formlu gövdede dört çekmece. Çekmeceler dışarı tam çıkıyor; takı, kablo ve kırtasiye için.
 
-Nerede: kameralı robot ve görüntü aktarma, kart üstünde ses ya da görüntü tanıma, dokunmatik panel.
+Ribbed Organizer · ₺251,29 » Fitilli silindir. Mutfakta kepçelik, masada kalemlik, banyoda fırçalık — aynı parça.
 
-ESP32-C6 » RISC-V mimarisi, 160 MHz yüksek performans çekirdeği ve 20 MHz düşük güç çekirdeği. 512 KB SRAM, 320 KB ROM. Wi-Fi 6 (2,4 GHz, 802.11ax) ve Bluetooth 5 LE — ama asıl fark 802.15.4: Thread ve Zigbee destekliyor.
+Stackable Organizer Set · ₺436,42 » Üst üste binen tepsi seti. Alttaki büyük tabanın üstünde küçükler kayarak yer değiştiriyor; renkler ayrı ayrı basılıyor.
 
-Nerede: Matter uyumlu akıllı ev cihazı, kalabalık ağda Wi-Fi 6 avantajı, düşük güç çekirdeğiyle uzun bekleme. Akıllı ev tarafına girecekse aile içinde doğru seçim bu.
+Damla Formlu Set · ₺251,29 » Üç damla formlu kase, iç içe geçiyor. Yüzük, bozuk para ve kulaklık için; gece masasında yer kaplamıyor.
 
-ESP32-P4 » iki RISC-V çekirdek 400 MHz'de, FPU ve yapay zekâ uzantılarıyla. 768 KB dahili SRAM, harici PSRAM destekli. MIPI-CSI kamera ve MIPI-DSI ekran arabirimi, ikisi de 1080p'ye kadar. USB OTG 2.0 High Speed, H.264 ile 1080p30 kodlama.
+Kalem Ucu Kalemlik · ₺163,90 » Kalemin kendi ucuna benzeyen altıgen gövde. İki renk tek parçada, yapıştırma yok.
 
-Dikkat » P4'ün üstünde Wi-Fi ve Bluetooth yok. Kablosuz istiyorsan yanına ESP32-C ya da ESP32-S serisi bir yardımcı yonga koyup ESP-Hosted ya da ESP-AT ile bağlıyorsun. Bunu bilmeden alan çok oluyor.
+İki Bölmeli Organizer · ₺987,36 » Yuvarlak dış kabuk, içinde iki bölmeli beyaz tabla. Kapaksız duruyor; masaya bırakılan şeyler tek yerde toplanıyor.
 
-Nerede: dokunmatik arayüzlü cihaz (HMI), kamera ve video kodlama, ağır arayüz ve kenarda işleme.
+Hepsi ölçüye göre basılabiliyor: çekmecenin içini ölçüp gönderirsen o ölçüde basıyoruz.
 
-Kısaca: kamera ya da ses varsa S3. Akıllı ev, Thread ve Matter varsa C6. Büyük ekran ve işlem gücü gerekiyorsa P4 — kablosuzu ayrıca ekleyeceksin.
+Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
 
-"ESP32 aldım ama Thread yokmuş" diyen bir arkadaşın varsa bu gönderiyi ona yolla.
+Senin masanda en çok hangisi işe yarardı?
 
-#sermenkreatif #elektronik #esp32 #embedded #makerturkiye
+#sermenkreatif #3dbaski #masaduzeni #organizer #duzenleyici #ofis #3dbaskiturkiye #makerturkiye #samsun
 ```
 
 ## 16:50 · ÜRÜN & MAĞAZA
@@ -770,41 +665,11 @@ Kısaca: bugün alınabilen i7. i8'in mekanizması daha iyi ama makine kitlesel 
 
 Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
-## 20:10 · PROJE & ATÖLYE
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi-kamera-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-pi-kamera-pano/1.jpg" width="240"></a>
-
-**[2026-10-21-pi-kamera-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi-kamera-pano)** · 1 kare · hikaye 20:50
-
-```
-Raspberry Pi kamerası seçerken megapiksele bakılmıyor. Üçü de aynı şerit kabloya takılıyor ama üçü ayrı işin kamerası.
-
-Camera Module 3 » Sony IMX708, 11,9 MP, 4608 × 2592. 1/2,43" sensör, F1.8. Video 2304 × 1296p56, HDR'de 30 fps. 25 × 24 × 11,5 mm, 4 gram.
-
-Ayıran özelliği motorlu otofokus: 10 cm'den sonsuza kendi odaklanıyor. 4 gram olduğu için dronda ve robot kolunda yük yapmıyor. Geniş açı sürümünde yatay görüş 66°'den 102°'ye çıkıyor, yakın çekimde 5 cm'ye kadar iniyor.
-
-HQ Camera » Sony IMX477, 12,3 MP, 4056 × 3040. 1/2,3" sensör, 1,55 µm piksel — Module 3'ten büyük piksel, düşük ışıkta avantaj. 38 × 38 × 18,4 mm (lenssiz), 30,4 gram.
-
-Buradaki fark lens: C/CS yuvası var, lensi sen seçiyorsun. Makro, telefoto, geniş açı. Karşılığında odak mesafesi ve görüş açısı artık kameranın değil lensin özelliği — ve ağırlık 30 grama çıkıyor. Sabit kurulum ve kalite öncelikli işin kamerası.
-
-GS Camera » Sony IMX296, 1,58 MP, 1456 × 1088 ve 60 fps. 3,45 µm piksel — üçünün en büyüğü. 38 × 38 × 19,8 mm, 34 gram.
-
-Çözünürlüğü en düşük olan bu, ama işi farklı: global shutter. Diğer ikisi rolling shutter, yani kareyi satır satır okuyorlar; hızlı hareket eden cisim eğilerek çıkıyor, titreşimli platformda görüntü dalgalanıyor. Global shutter tüm pikselleri aynı anda okuyor, bu bozulma olmuyor.
-
-Nerede: hızlı hareket, titreşimli platform, makine görüşü, ölçüm, kod okuma. Fotoğraf çekmek için değil.
-
-Karar kısaca: günlük kullanım ve dron için Module 3. Sabit kurulum ve lens özgürlüğü için HQ. Hızlı hareket ve makine görüşü için GS.
-
-Dronuna taktığı kameranın görüntüsü neden eğri çıkıyor anlamayan bir arkadaşın varsa bu gönderiyi ona yolla — cevap rolling shutter.
-
-#sermenkreatif #maker #raspberrypi #makinegörüşü #makerturkiye
-```
-
 ---
 
 # 2026-10-18 · Pazar
 
-## 11:40 · 3D BASKI & ÜRETİM DONANIMI
+## 11:40 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-sert-nozul"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-sert-nozul/1.jpg" width="240"></a>
 
@@ -827,26 +692,32 @@ Elyaflı filamente geçmeyi düşünüyorsan ucu önceden değiştir. Uç ucuz, 
 #sermenkreatif #3dbaski #nozzle #karbonfiber #filament #makerturkiye
 ```
 
-## 12:20 · ELEKTRONİK & IoT
+## 12:20 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-kondansator-esr"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-kondansator-esr/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-aydinlatma"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-aydinlatma/1.jpg" width="240"></a>
 
-**[2026-10-18-kondansator-esr](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-kondansator-esr)** · 5 kare · hikaye 13:00
+**[2026-10-18-aydinlatma](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-aydinlatma)** · 7 kare · hikaye 13:00
 
 ```
-Kart yük bindiğinde resetleniyor, güç kaynağı ısınıyor, çıkışta dalgalanma var. Kondansatörleri ölçüyorsun, multimetre etiket değerini gösteriyor. "Sağlam" diyip başka yere bakıyorsun. Çoğu zaman hata tam orada.
+Lamba gövdesi 3D baskıya çok uygun: duvar kalınlığını ayarlayınca malzemenin kendisi difüzör oluyor. Beş lamba.
 
-Kondansatörün kendi iç direnci var: ESR. Elektrolitli kondansatörlerde elektrolit zamanla kuruyor, iç bağlantılar bozuluyor ve bu direnç katlanıyor. Kapasite ise az düşüyor — multimetrenin kapasite kademesi hâlâ makul bir sayı gösteriyor. Ölçüm seni yanıltıyor.
+Ribbed Abajur — Terracotta · ₺982,92 » Fitilli küre gövde, üstünde pileli şapka. Terracotta tonu sıcak ışıkla birleşince akşam lambası oluyor.
 
-ESR yükselince kondansatör işini yapamıyor: anahtarlamalı güç kaynağının çıkışındaki dalgalanmayı bastıramıyor, kendisi ısınıyor, kart ani akım çektiğinde besleme çöküyor.
+Ribbed Abajur — Sage Green · ₺982,92 » Aynı gövde, adaçayı yeşili. Yatak odası ve çalışma masası için sakin duran renk.
 
-Üstü kabarmış ya da altından sızmış kondansatör zaten bellidir. Asıl sinsi olan dışarıdan kusursuz görünendir.
+Ribbed Abajur — Lacivert · ₺982,92 » Aynı gövdenin koyu hâli. Açık renk duvarda kontrast veriyor; dokuz renk seçeneğinin en koyusu.
 
-Nasıl bakılır: ESR metre devrede ölçebiliyor, söküp denemeye göre çok daha hızlı. Osiloskopun varsa çıkıştaki dalgalanmanın tepeden tepeye değerine bak.
+Organik Işık · ₺764,22 » Siyah kabuğun arasından kırmızı ışık sızıyor: gövde iki ayrı parçadan değil, iki filamentten tek baskıda çıkıyor.
 
-Değiştirirken düşük ESR serisinden, 105 °C sınıfı ve en az aynı gerilim değerinde bir parça seç. Kapasiteyi büyütmek ESR'yi düzeltmiyor — farklı bir problemi çözmeye çalışmış olursun.
+Dikey Çizgili Silindir · ₺709,42 » Düz silindir, dikey fitil. Işık açıkken çizgiler duvara dik gölgeler düşürüyor; kapalıyken sade bir beyaz obje.
 
-#sermenkreatif #elektronik #kondansator #esr #tamir #makerturkiye
+Hepsinde sıcak beyaz ampul öneriyoruz; soğuk ışık dokuyu düzleştiriyor. Elektrik tesisatı standart duy.
+
+Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
+
+Hangi renk senin odana uyar?
+
+#sermenkreatif #3dbaski #masalambasi #abajur #aydinlatma #evdekorasyonu #3dbaskiturkiye #makerturkiye #samsun
 ```
 
 ## 17:10 · ÜRÜN & MAĞAZA
@@ -903,33 +774,41 @@ Katılmak için profildeki linke dokunman yeterli. Ücretsiz, istediğin an çı
 
 # 2026-10-19 · Pazartesi
 
-## 12:38 · ELEKTRONİK & IoT
+## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-optokuplor"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-13-optokuplor/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-banyo-duzeni"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-banyo-duzeni/1.jpg" width="240"></a>
 
-**[2026-10-13-optokuplor](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-optokuplor)** · 4 kare · hikaye 13:18
+**[2026-10-19-banyo-duzeni](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-banyo-duzeni)** · 8 kare · hikaye 13:18
 
 ```
-Optokuplör ne işe yarar sorusunun cevabı seviye çevirmek değil: iki devrenin toprağını birbirinden tamamen ayırmak.
+Banyoda sorun eşya değil, su. Altı parça da suyu hesaba katarak tasarlandı: drenaj deliği, geniş taban, kapaksız gövde.
 
-İçinde kablo yok. Girişi bir LED, çıkışı o ışığı gören fototransistör; aralarında iletken bağlantı olmadığı için PC817 gibi yaygın bir parça 5.000 V'a kadar yalıtım veriyor.
+CatHolder · ₺97,26 » Kedi kulaklı diş fırçalığı. Elektrikli fırça ve macun birlikte duruyor; tabanı geniş, devrilmiyor.
 
-LED akımı dışarıdan sınırlanıyor. İleri gerilimi 1,2 V civarı; 3,3 V'luk bir çıkış için 210 Ω, 5 V için 390 Ω yaklaşık 10 mA veriyor. Çıkış akımı bu akımla CTR'nin çarpımı ve PC817'de CTR %50-600 arasında değişiyor, yani çıkış tarafı geniş bir banda göre tasarlanıyor.
+Drenajlı Banyo Düzenleyici · ₺130,33 » Tabanı delikli: biriken su altta durmuyor, akıyor. Parfüm, tıraş ve makyaj bir arada.
 
-Şebeke tarafı, motor sürücünün gürültülü toprağı ve RS-485 hattı bu yüzden yalıtılıyor. İki tarafın toprağını bir yerde birleştirirsen parça devrede durur ama hiçbir işe yaramaz.
+MonoHook · ₺42,46 » 8 mm duş camına takılan askı. Vida yok, delik yok — camın üstüne geçiyor.
 
-PC817 mikrosaniye mertebesinde yavaş; hızlı SPI için 6N137 gibi yüksek hızlı bir parça gerekiyor.
+LeafHook · ₺37,03 » Aynı mantık, yaprak formunda. Havlu ve lif için; duş camına geçiyor, duvara zarar vermiyor.
 
-Yalıtım için optokuplör koyup iki toprağı yine birleştiren bir arkadaşın varsa bu gönderiyi ona yolla.
+LineaBrush · ₺98,24 » Fitilli silindir fırçalık. İki fırça yan yana duruyor, su tabanda birikmesin diye içi basamaklı.
 
-#sermenkreatif #elektronik #embedded #optokuplor #makerturkiye
+Modern Banyo Organizeri · ₺207,84 » Tek parça fırçalık; bölmeli gövdesi fırçayı ayırıyor. Lavabo kenarında az yer kaplıyor.
+
+Banyo parçalarını PETG'den basıyoruz: su ve temizlik malzemesine PLA'dan daha dayanıklı.
+
+Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
+
+Banyonda hangisi eksik?
+
+#sermenkreatif #3dbaski #banyo #banyoduzeni #organizer #dekorasyon #3dbaskiturkiye #makerturkiye #samsun
 ```
 
 ---
 
 # 2026-10-20 · Salı
 
-## 08:12 · 3D BASKI & ÜRETİM DONANIMI
+## 08:12 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-sunlu-filament-pano/1.jpg" width="240"></a>
 
@@ -957,5 +836,69 @@ Bir isim uyarısı » SUNLU'nun kataloğunda PLA+ 2.0 ile High Speed PLA+ 2.0 ay
 PLA'yla menteşe basıp yazın deforme olduğuna şaşıran bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #sunlu #filament #makerturkiye
+```
+
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-makyaj-ve-taki"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-20-makyaj-ve-taki/1.jpg" width="240"></a>
+
+**[2026-10-20-makyaj-ve-taki](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-makyaj-ve-taki)** · 8 kare · hikaye 13:18
+
+```
+Bu altı parçanın ortak derdi şu: sert plastikten yumuşak görünen bir yüzey çıkarmak. Kapitone, fiyonk, örgü — hepsi baskıda modellendi.
+
+Fiyonklu Makyaj Organizer · ₺869,00 » Kapitone dokulu kare gövde, dört bölme. Fırça, ruj ve sünger ayrı ayrı duruyor.
+
+Fitilli Fırçalık · ₺419,00 » Fitilli silindirin beline bağlanmış fiyonk. Fırça ve kalem birlikte; tek parça baskı, fiyonk dahil.
+
+Kapitone Makyaj Tepsisi · ₺349,00 » Kapitone dokulu sığ tepsi. Masaya dağılan küçük şişeleri tek hamlede toplamak için.
+
+İnci Tabağı · ₺361,00 » İstiridye formlu tabak, ortasında inci. Yüzük ve küpe için; banyo ve gece masası.
+
+Fiyonklu Takı Tabağı · ₺319,00 » Üç ayak üstünde küçük tabak, arkasında fiyonk. Anahtar ve yüzük tek yerde.
+
+Fiyonklu Takı Sepeti · ₺549,00 » Kulpu fiyonklu sepet; kolyeler kulptan asılınca birbirine dolaşmıyor. Kapitone gövde içine yüzük ve bileklik.
+
+Renkler filamentten geliyor, boya yok. Aynı dosyadan istediğin renkte basılabiliyor.
+
+Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
+
+Hangisini isterdin, yoruma yaz.
+
+#sermenkreatif #3dbaski #makyaj #takı #organizer #dekorasyon #3dbaskiturkiye #makerturkiye #samsun
+```
+
+---
+
+# 2026-10-21 · Çarşamba
+
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-hediyelik"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-hediyelik/1.jpg" width="240"></a>
+
+**[2026-10-21-hediyelik](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-hediyelik)** · 8 kare · hikaye 13:18
+
+```
+Hediyenin pahalı olması gerekmiyor. Altı küçük parça; hepsi basılmış, hepsi tek tek elde boyasız çıkıyor.
+
+Aşk İksiri Anahtarlık · ₺81,95 » Mavi şişe, pembe kalpli iksir. Dört renk tek baskıda; kabartma kalp yüzeyden çıkıyor.
+
+Denizatı Anahtarlık · ₺54,80 » Bordo gövde, beyaz çizgiler. Avuç içinden küçük; çantada ve anahtarlıkta yer kaplamıyor.
+
+Kaplumbağa Anahtarlık · ₺54,80 » Yeşil gövde, turuncu kabuk. Kabuktaki altıgen desen baskıda modellendi, çıkartma değil.
+
+Penguen Anahtarlık · ₺54,80 » Siyah-beyaz gövde, turuncu gaga ve ayak. Üç renk, tek parça.
+
+Papatya Anahtarlık · ₺81,95 » Mavi zemin üstünde beyaz papatya. Yassı form; cüzdanda ve cepte takılmıyor.
+
+Balkabağı Mumluk · ₺393,47 » Dilimli balkabağı formunda tealight mumluğu. Ekim sonu masası için; mum içine oturuyor, alev gövdeye değmiyor.
+
+Anahtarlıkların hepsi çok renkli tek baskı: renkler ayrı parça değil, aynı gövdede filament değişimiyle.
+
+Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
+
+Kime alırdın, etiketle.
+
+#sermenkreatif #3dbaski #anahtarlik #hediyelik #3dbaski #mumluk #3dbaskiturkiye #makerturkiye #samsun
 ```
 

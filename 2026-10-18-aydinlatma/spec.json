@@ -1,0 +1,46 @@
+{
+ "kategori": "3dbaski",
+ "tip": "grup",
+ "renk": "sari",
+ "baslik": "Basılmış ışık",
+ "alt": "Abajur gövdesi de baskı, difüzörü de. Ampul senin, gerisi bizde.",
+ "spot": "5 lamba · tasarım ve baskı bize ait",
+ "kunye": "Hangi renk senin odana?",
+ "urunler": [
+  {
+   "slug": "modern-ribbed-masa-abajuru-tek-renk-minimal-tasarim-terracotta-sicak",
+   "ad": "Ribbed Abajur — Terracotta",
+   "etiket": "aydınlatma",
+   "renk": "turuncu",
+   "satir": "Fitilli küre gövde, üstünde pileli şapka. Terracotta tonu sıcak ışıkla birleşince akşam lambası oluyor."
+  },
+  {
+   "slug": "modern-ribbed-masa-abajuru-tek-renk-minimal-tasarim-sage-green",
+   "ad": "Ribbed Abajur — Sage Green",
+   "etiket": "aydınlatma",
+   "renk": "yesil",
+   "satir": "Aynı gövde, adaçayı yeşili. Yatak odası ve çalışma masası için sakin duran renk."
+  },
+  {
+   "slug": "modern-ribbed-masa-abajuru-tek-renk-minimal-tasarim-modern-lacivert",
+   "ad": "Ribbed Abajur — Lacivert",
+   "etiket": "aydınlatma",
+   "renk": "mavi",
+   "satir": "Aynı gövdenin koyu hâli. Açık renk duvarda kontrast veriyor; dokuz renk seçeneğinin en koyusu."
+  },
+  {
+   "slug": "organik-isik-3d-baski-masa-lambasi",
+   "ad": "Organik Işık",
+   "etiket": "aydınlatma",
+   "renk": "kirmizi",
+   "satir": "Siyah kabuğun arasından kırmızı ışık sızıyor: gövde iki ayrı parçadan değil, iki filamentten tek baskıda çıkıyor."
+  },
+  {
+   "slug": "dikey-cizgili-silindirik-masa-lambasi-sicak-isik-minimal-tasarim",
+   "ad": "Dikey Çizgili Silindir",
+   "etiket": "aydınlatma",
+   "renk": "sari",
+   "satir": "Düz silindir, dikey fitil. Işık açıkken çizgiler duvara dik gölgeler düşürüyor; kapalıyken sade bir beyaz obje."
+  }
+ ]
+}

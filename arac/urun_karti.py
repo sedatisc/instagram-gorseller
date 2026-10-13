@@ -333,6 +333,13 @@ def _izgara(n, kutu):
                 (x0 + ox + b, y0 + oy + b, x1, y1)]
     ox = (x1 - x0 - 2 * b) / 3
     oy = (y1 - y0 - b) / 2
+    if n == 5:
+        # 3 + 2: altıncı kutu boş kalınca ızgaranın köşesi delik duruyordu
+        gen2 = (x1 - x0 - b) / 2
+        return [(x0 + c * (ox + b), y0, x0 + c * (ox + b) + ox, y0 + oy)
+                for c in range(3)] + \
+               [(x0 + c * (gen2 + b), y0 + oy + b,
+                 x0 + c * (gen2 + b) + gen2, y1) for c in range(2)]
     kut = []
     for r in range(2):
         for c in range(3):

@@ -58,25 +58,33 @@ Fotoğraf kendi ürün sayfasından, rakamlar iki kaynaktan doğrulanıyor.
 
 ## 3 · Baskı Ürünleri — kendi bastıklarımız
 
-Sitede ~160 ürün var, hiçbiri paylaşılmadı. En kolay içerik burası:
-ürün zaten basılmış, fotoğrafı zaten çekilmiş.
+Kategori sayfasında 108 ürün sayıldı, bugüne kadar hiçbiri
+paylaşılmadı. En kolay içerik burası: ürün zaten basılmış, fotoğrafı
+zaten çekilmiş. Şablon `arac/urun_karti.py`; ürünün slug'ı yazılınca
+ad, fiyat ve fotoğraf ürün sayfasından geliyor.
 
-Haftada iki gönderi, temaya göre gruplanıyor:
+| Tarih | Grup | Durum |
+|---|---|---|
+| 14 Ekim | Atölyeden çıkanlar — altı ayrı grup | ✅ hazır |
+| 15 Ekim | Saksı koleksiyonu — 6 saksı | ✅ hazır |
+| 16 Ekim | Vazo koleksiyonu — 6 vazo | ✅ hazır |
+| 17 Ekim | Masa düzeni — 6 düzenleyici | ✅ hazır |
+| 18 Ekim | Basılmış ışık — 5 lamba | ✅ hazır |
+| 19 Ekim | Banyo düzeni — 6 parça | ✅ hazır |
+| 20 Ekim | Makyaj & takı — 6 parça | ✅ hazır |
+| 21 Ekim | Küçük hediyelikler — 6 parça | ✅ hazır |
 
-| Grup | Örnek ürünler |
-|---|---|
-| Saksı & bitki | Adrift Planter, Elyndra, Columna, dokulu saksılar, duvar tipi |
-| Vazo & sanat | Alevin, Diara, filigran dokulu, dalga formu |
-| Aydınlatma | Küre masa lambası, dikey çizgili silindirik lamba |
-| Banyo | Duova sabunluk seti, banyo organizeri, duş cam askısı, CatHolder |
-| Masa & düzen | Aeromesh kalemlik, ArcaMini çekmeceli, Ribbed organizer, damla set |
-| Makyaj & takı | Fiyonk detaylı kutu, fitilli fırçalık, makyaj organizeri |
-| Mutfak & servis | Dalga formlu tepsi, modern kâse, yaprak kâse |
-| Hediyelik | Aşk iksiri anahtarlık, tavşan şişe standı, balkabağı mumluk |
-| Eğitim & maket | Dental anatomi modeli, 3D mini yol maketi |
+Sırada bekleyen gruplar: mutfak & servis (dalga formlu tepsi, modern
+kâse, yaprak kâse), duvar saatleri, oyun & maket (cribbage seti,
+dondurma kulesi, mini yol maketi, kafatası maketi), eğitim (ayak
+kemikleri modelleri).
 
-Sezon bağlantısı: balkabağı mumluk → ekim sonu, kardan adam tablası →
-aralık. Takvime oturuyor.
+Sezon bağlantısı: balkabağı mumluk → ekim sonu (21 Ekim gönderisinde),
+noel çorabı ve şapkası anahtarlıkları → aralık.
+
+**Kullanılmayan iki ürün:** TNT blok anahtarlık ve Mustang anahtarlık
+askısı gönderiye konmadı — ikisi de başkasının markası, paylaşımda
+sorun çıkarabilir.
 
 ## 4 · Atölye & Hizmet — baskı hizmeti
 

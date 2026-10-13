@@ -1,0 +1,53 @@
+{
+ "kategori": "3dbaski",
+ "tip": "grup",
+ "renk": "kirmizi",
+ "baslik": "Küçük hediyelikler",
+ "alt": "Anahtarlıklar ve mevsimlik parçalar — ucuz, hızlı, elle verilebilir.",
+ "spot": "6 parça · tasarım ve baskı bize ait",
+ "kunye": "Kime alırdın?",
+ "urunler": [
+  {
+   "slug": "ask-iksiri-sisesi-anahtarlik",
+   "ad": "Aşk İksiri Anahtarlık",
+   "etiket": "hediyelik",
+   "renk": "pembe",
+   "satir": "Mavi şişe, pembe kalpli iksir. Dört renk tek baskıda; kabartma kalp yüzeyden çıkıyor."
+  },
+  {
+   "slug": "sevimli-denizati-anahtarlik",
+   "ad": "Denizatı Anahtarlık",
+   "etiket": "hediyelik",
+   "renk": "turkuaz",
+   "satir": "Bordo gövde, beyaz çizgiler. Avuç içinden küçük; çantada ve anahtarlıkta yer kaplamıyor."
+  },
+  {
+   "slug": "sevimli-kaplumbaga-anahtarlik",
+   "ad": "Kaplumbağa Anahtarlık",
+   "etiket": "hediyelik",
+   "renk": "yesil",
+   "satir": "Yeşil gövde, turuncu kabuk. Kabuktaki altıgen desen baskıda modellendi, çıkartma değil."
+  },
+  {
+   "slug": "sevimli-penguen-anahtarlik",
+   "ad": "Penguen Anahtarlık",
+   "etiket": "hediyelik",
+   "renk": "mavi",
+   "satir": "Siyah-beyaz gövde, turuncu gaga ve ayak. Üç renk, tek parça."
+  },
+  {
+   "slug": "papatya-cicek-anahtarlik",
+   "ad": "Papatya Anahtarlık",
+   "etiket": "hediyelik",
+   "renk": "sari",
+   "satir": "Mavi zemin üstünde beyaz papatya. Yassı form; cüzdanda ve cepte takılmıyor."
+  },
+  {
+   "slug": "-balkabagi-tasarimli-tealight-mumluk",
+   "ad": "Balkabağı Mumluk",
+   "etiket": "hediyelik",
+   "renk": "turuncu",
+   "satir": "Dilimli balkabağı formunda tealight mumluğu. Ekim sonu masası için; mum içine oturuyor, alev gövdeye değmiyor."
+  }
+ ]
+}

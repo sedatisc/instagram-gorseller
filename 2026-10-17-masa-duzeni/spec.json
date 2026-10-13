@@ -1,0 +1,53 @@
+{
+ "kategori": "3dbaski",
+ "tip": "grup",
+ "renk": "mavi",
+ "baslik": "Masa düzeni",
+ "alt": "Dağınıklığı toplayan altı parça — hepsi basılmış, hepsi sermenkreatif.com'da.",
+ "spot": "6 düzenleyici · tasarım ve baskı bize ait",
+ "kunye": "Masanı toparla",
+ "urunler": [
+  {
+   "slug": "arcamini-modern-4-cekmeceli-mini-duzenleyici",
+   "ad": "ArcaMini",
+   "etiket": "düzen",
+   "renk": "turuncu",
+   "satir": "Kemer formlu gövdede dört çekmece. Çekmeceler dışarı tam çıkıyor; takı, kablo ve kırtasiye için."
+  },
+  {
+   "slug": "-cok-amacli-ribbed-organizer",
+   "ad": "Ribbed Organizer",
+   "etiket": "düzen",
+   "renk": "yesil",
+   "satir": "Fitilli silindir. Mutfakta kepçelik, masada kalemlik, banyoda fırçalık — aynı parça."
+  },
+  {
+   "slug": "stackable-organizer-set-minimal-cok-bolmeli-duzenleyici",
+   "ad": "Stackable Organizer Set",
+   "etiket": "düzen",
+   "renk": "pembe",
+   "satir": "Üst üste binen tepsi seti. Alttaki büyük tabanın üstünde küçükler kayarak yer değiştiriyor; renkler ayrı ayrı basılıyor."
+  },
+  {
+   "slug": "-damla-formlu-duzenleyici-set",
+   "ad": "Damla Formlu Set",
+   "etiket": "düzen",
+   "renk": "turkuaz",
+   "satir": "Üç damla formlu kase, iç içe geçiyor. Yüzük, bozuk para ve kulaklık için; gece masasında yer kaplamıyor."
+  },
+  {
+   "slug": "kalem-ucu-tasarimli-kalemlik",
+   "ad": "Kalem Ucu Kalemlik",
+   "etiket": "düzen",
+   "renk": "sari",
+   "satir": "Kalemin kendi ucuna benzeyen altıgen gövde. İki renk tek parçada, yapıştırma yok."
+  },
+  {
+   "slug": "iki-bolmeli-modern-masaustu-organizer-yuvarlak-dekoratif-kase",
+   "ad": "İki Bölmeli Organizer",
+   "etiket": "düzen",
+   "renk": "gri",
+   "satir": "Yuvarlak dış kabuk, içinde iki bölmeli beyaz tabla. Kapaksız duruyor; masaya bırakılan şeyler tek yerde toplanıyor."
+  }
+ ]
+}

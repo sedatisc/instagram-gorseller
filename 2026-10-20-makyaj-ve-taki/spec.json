@@ -1,0 +1,53 @@
+{
+ "kategori": "3dbaski",
+ "tip": "grup",
+ "renk": "pembe",
+ "baslik": "Makyaj & takı",
+ "alt": "Kabartma dokulu altı parça — kumaş gibi görünen, plastik olan.",
+ "spot": "6 parça · tasarım ve baskı bize ait",
+ "kunye": "Hangisi masana yakışır?",
+ "urunler": [
+  {
+   "slug": "fiyonklu-makyaj-organizer",
+   "ad": "Fiyonklu Makyaj Organizer",
+   "etiket": "makyaj & takı",
+   "renk": "pembe",
+   "satir": "Kapitone dokulu kare gövde, dört bölme. Fırça, ruj ve sünger ayrı ayrı duruyor."
+  },
+  {
+   "slug": "fitilli-makyaj-fircaligi-kalemlik",
+   "ad": "Fitilli Fırçalık",
+   "etiket": "makyaj & takı",
+   "renk": "mor",
+   "satir": "Fitilli silindirin beline bağlanmış fiyonk. Fırça ve kalem birlikte; tek parça baskı, fiyonk dahil."
+  },
+  {
+   "slug": "kapitone-makyaj-tepsisi-daginikligi-tek-hamlede-toplayin",
+   "ad": "Kapitone Makyaj Tepsisi",
+   "etiket": "makyaj & takı",
+   "renk": "mavi",
+   "satir": "Kapitone dokulu sığ tepsi. Masaya dağılan küçük şişeleri tek hamlede toplamak için."
+  },
+  {
+   "slug": "inci-tabagi-taki-sunumlugu-yuzukluk",
+   "ad": "İnci Tabağı",
+   "etiket": "makyaj & takı",
+   "renk": "sari",
+   "satir": "İstiridye formlu tabak, ortasında inci. Yüzük ve küpe için; banyo ve gece masası."
+  },
+  {
+   "slug": "fiyonklu-taki-tabagi-yuzukluk-anahtarlik",
+   "ad": "Fiyonklu Takı Tabağı",
+   "etiket": "makyaj & takı",
+   "renk": "turkuaz",
+   "satir": "Üç ayak üstünde küçük tabak, arkasında fiyonk. Anahtar ve yüzük tek yerde."
+  },
+  {
+   "slug": "kolye-askili-fiyonklu-taki-sepeti-takilariniz-artik-dolasmiyor",
+   "ad": "Fiyonklu Takı Sepeti",
+   "etiket": "makyaj & takı",
+   "renk": "kirmizi",
+   "satir": "Kulpu fiyonklu sepet; kolyeler kulptan asılınca birbirine dolaşmıyor. Kapitone gövde içine yüzük ve bileklik."
+  }
+ ]
+}

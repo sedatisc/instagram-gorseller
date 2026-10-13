@@ -1,0 +1,53 @@
+{
+ "kategori": "3dbaski",
+ "tip": "grup",
+ "renk": "mor",
+ "baslik": "Vazo koleksiyonu",
+ "alt": "Katman izinin kusur değil desen olduğu altı gövde.",
+ "spot": "6 vazo · tasarım ve baskı bize ait",
+ "kunye": "Favorini yoruma yaz",
+ "urunler": [
+  {
+   "slug": "diara-iki-cizgiyle-kurulan-modern-vazo",
+   "ad": "Diara",
+   "etiket": "vazo",
+   "renk": "mor",
+   "satir": "Gövdeyi saran iki çizgi dışında hiçbir süsü yok. Kum dokulu gri yüzey, tek dalı bile taşıyor."
+  },
+  {
+   "slug": "modern-bukum-vazo",
+   "ad": "Modern Büküm Vazo",
+   "etiket": "vazo",
+   "renk": "pembe",
+   "satir": "Boyun kısmı burularak incelip tekrar açılıyor; tek parça baskıda zor olan kısım burası. Somon rengi mat yüzey."
+  },
+  {
+   "slug": "twista-modern-spiral-vazo",
+   "ad": "Twista",
+   "etiket": "vazo",
+   "renk": "turkuaz",
+   "satir": "Spiral kaburgalar tabandan ağza kadar dönüyor. Petrol mavisi; pamuk dalı ve kuru otla iyi gidiyor."
+  },
+  {
+   "slug": "organik-akis-siyah-3d-baski-vazo",
+   "ad": "Organik Akış",
+   "etiket": "vazo",
+   "renk": "gri",
+   "satir": "Mat siyah gövdede akar gibi dalgalanan derin kanallar. Avuç içi ölçüsünde değil — fotoğraftaki el ölçüyü veriyor."
+  },
+  {
+   "slug": "geometrik-dokunus-siyah-3d-baski-vazo",
+   "ad": "Geometrik Dokunuş",
+   "etiket": "vazo",
+   "renk": "mavi",
+   "satir": "Yüzeyin tamamı dışa taşan piramit hücreler. Işık her hücrede ayrı kırılıyor, gövde tek renk olmasına rağmen alacalı duruyor."
+  },
+  {
+   "slug": "spiral-enerji-turuncu-3d-baski-vazo",
+   "ad": "Spiral Enerji",
+   "etiket": "vazo",
+   "renk": "kirmizi",
+   "satir": "Ağ dokulu gövde spiral dönerek yükseliyor. Turuncu; sonbahar kurusuyla birlikte kuvvetli duruyor."
+  }
+ ]
+}

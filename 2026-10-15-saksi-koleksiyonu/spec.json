@@ -1,0 +1,53 @@
+{
+ "kategori": "3dbaski",
+ "tip": "grup",
+ "renk": "yesil",
+ "baslik": "Saksı koleksiyonu",
+ "alt": "Altı ayrı gövde, altı ayrı doku. Hepsi kendi tezgâhımızda basıldı.",
+ "spot": "6 saksı · tasarım ve baskı bize ait",
+ "kunye": "Hangisi senin bitkine?",
+ "urunler": [
+  {
+   "slug": "columna-dikey-hatlarla-sekillenen-modern-saksi",
+   "ad": "Columna",
+   "etiket": "saksı",
+   "renk": "yesil",
+   "satir": "Dikey hatlar gövdeyi boydan boya kesiyor; sade bir silindir, ışık düştükçe çizgileniyor. Küçük sukulent ve kaktüs ölçüsünde."
+  },
+  {
+   "slug": "interweave-cift-katmanli-orgu-tasarim-saksi",
+   "ad": "Interweave",
+   "etiket": "saksı",
+   "renk": "turuncu",
+   "satir": "Çift katmanlı örgü: dış kabuk eşkenar dörtgen ağ, iç hazne düz. İki renk aynı parçada, boya yok — filament değişimiyle."
+  },
+  {
+   "slug": "cizgili-dokulu-modern-saksi-silindirik-tasarim",
+   "ad": "Çizgili Dokulu Saksı",
+   "etiket": "saksı",
+   "renk": "yesil",
+   "satir": "İnce dikey fitilli silindir. Doku yakından bakınca katmanla birleşiyor; tezgâhta ve rafta sırayla dizilmek için."
+  },
+  {
+   "slug": "duvar-tipi-yesil-saksi-modern-dokulu-askili-tasarim",
+   "ad": "Duvar Tipi Saksı",
+   "etiket": "saksı",
+   "renk": "turkuaz",
+   "satir": "Duvara asılan tip: arkası düz sırtlık, önü dokulu hazne. Paşa kılıcı gibi dik yapraklı bitkilerde yer kazandırıyor."
+  },
+  {
+   "slug": "organik-formlu-dekoratif-saksi-heykelsi-modern-tasarim",
+   "ad": "Organik Formlu Saksı",
+   "etiket": "saksı",
+   "renk": "mor",
+   "satir": "Küre gövdede dönerek kesişen açık şeritler — saksıdan çok heykel. İç hazne ayrı; toprak dışarı görünmüyor."
+  },
+  {
+   "slug": "tulip-wave-pot-minimalist-organic-planter-saucer",
+   "ad": "Tulip Wave Pot",
+   "etiket": "saksı",
+   "renk": "pembe",
+   "satir": "Lale yaprağı gibi dalgalanan ağız, altında kendi tabağı. Beş renk seçeneği var; fazla su tabakta kalıyor."
+  }
+ ]
+}

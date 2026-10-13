@@ -18,28 +18,38 @@ GUN = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma",
        "Cumartesi", "Pazar"]
 
 # Slot sırası sabit; saatler güne göre değişiyor.
-SLOTLAR = ["3dbaski", "elektronik", "urun", "proje"]
+SLOTLAR = ["3dbaski", "baski", "urun", "proje"]
 
-BASLIK = {"3dbaski": "3D BASKI & ÜRETİM DONANIMI",
-          "elektronik": "ELEKTRONİK & IoT",
+BASLIK = {"3dbaski": "AYAR & REHBER",
+          "baski": "BASKI ÜRÜNLERİ",
+          # Elektronik kategorisi kapandı (sitede satılmıyor); anahtar
+          # eski kuyruk satırları okunabilsin diye duruyor.
+          "elektronik": "ELEKTRONİK (kapandı)",
           "urun": "ÜRÜN & MAĞAZA",
           "proje": "PROJE & ATÖLYE"}
 
 # gün indeksi -> {slot: "SS:DD"} + "reels"
 IZGARA = {
-    0: {"3dbaski": "08:12", "elektronik": "12:38", "urun": "17:24",
+    0: {"3dbaski": "08:12", "elektronik": "12:38",
+        "baski": "12:38", "urun": "17:24",
         "proje": "19:40", "reels": "21:10"},            # Pazartesi
-    1: {"3dbaski": "08:12", "elektronik": "12:38", "urun": "17:24",
+    1: {"3dbaski": "08:12", "elektronik": "12:38",
+        "baski": "12:38", "urun": "17:24",
         "reels": "19:36", "proje": "20:42"},            # Salı
-    2: {"3dbaski": "08:12", "elektronik": "12:38", "urun": "17:24",
+    2: {"3dbaski": "08:12", "elektronik": "12:38",
+        "baski": "12:38", "urun": "17:24",
         "reels": "19:36", "proje": "20:42"},            # Çarşamba
-    3: {"3dbaski": "08:12", "elektronik": "12:38", "urun": "17:24",
+    3: {"3dbaski": "08:12", "elektronik": "12:38",
+        "baski": "12:38", "urun": "17:24",
         "reels": "19:36", "proje": "20:42"},            # Perşembe
-    4: {"3dbaski": "08:12", "elektronik": "12:38", "urun": "16:40",
+    4: {"3dbaski": "08:12", "elektronik": "12:38",
+        "baski": "12:38", "urun": "16:40",
         "proje": "18:10", "reels": "20:30"},            # Cuma
-    5: {"3dbaski": "11:10", "elektronik": "12:20", "urun": "16:50",
+    5: {"3dbaski": "11:10", "elektronik": "12:20",
+        "baski": "12:20", "urun": "16:50",
         "reels": "19:20", "proje": "20:10"},            # Cumartesi
-    6: {"3dbaski": "11:40", "elektronik": "12:20", "urun": "17:10",
+    6: {"3dbaski": "11:40", "elektronik": "12:20",
+        "baski": "12:20", "urun": "17:10",
         "reels": "19:50", "proje": "21:00"},            # Pazar
 }
 
@@ -104,12 +114,18 @@ def liste():
                 "| Saat | Tür | Slot | Klasör | Kare |",
                 "|---|---|---|---|---|"]
 
+        # Kuyruktaki eski slot adları (elektronik) da listelensin; yoksa
+        # geçmiş günlerin gönderileri listeden düşüyor.
+        slot_adlari = SLOTLAR + [a for a in sl if a not in SLOTLAR]
         satirlar = []
-        for ad in SLOTLAR:
+        for ad in slot_adlari:
             s = sl.get(ad)
             if not s:
+                if tarih < date.today().isoformat():
+                    continue          # geçmiş gün; boş slot aranmıyor
                 eksik.append((tarih, ad))
-                satirlar.append((saat(g, ad), "— | **%s** | _boş — üretilecek_ | —"
+                satirlar.append((saat(g, ad),
+                                 "— | **%s** | _boş — üretilecek_ | —"
                                  % BASLIK[ad]))
                 continue
             k = s["klasor"]
@@ -119,6 +135,11 @@ def liste():
             satirlar.append((arti(saat(g, ad), HIKAYE_GECIKME),
                              "Hikaye | %s | `%s/hikaye.jpg` | 1"
                              % (BASLIK[ad], k)))
+
+        # Aynı saati eski slot adı doldurduysa boş satır tekrar olmasın
+        dolu = {t for t, g2 in satirlar if "boş" not in g2}
+        satirlar = [(t, g2) for t, g2 in satirlar
+                    if "boş" not in g2 or t not in dolu]
 
         for k in kamp:
             if k["tarih"] != tarih:

@@ -364,11 +364,6 @@
    },
    {
     "tarih": "2026-10-11",
-    "slot": "elektronik",
-    "klasor": "2026-10-11-jetson-orin-nano"
-   },
-   {
-    "tarih": "2026-10-11",
     "slot": "urun",
     "klasor": "2026-10-10-bambu-r1-tanitim"
    },
@@ -378,14 +373,14 @@
     "klasor": "2026-10-11-musteriye-fiyat"
    },
    {
-    "tarih": "2026-10-12",
-    "slot": "3dbaski",
-    "klasor": "2026-10-12-yapisma-yuzeyleri"
+    "tarih": "2026-10-11",
+    "slot": "elektronik",
+    "klasor": "2026-10-11-jetson-orin-nano"
    },
    {
     "tarih": "2026-10-12",
-    "slot": "elektronik",
-    "klasor": "2026-10-12-deep-sleep-akim"
+    "slot": "3dbaski",
+    "klasor": "2026-10-12-yapisma-yuzeyleri"
    },
    {
     "tarih": "2026-10-12",
@@ -398,14 +393,14 @@
     "klasor": "2026-10-12-urun-fotografi"
    },
    {
-    "tarih": "2026-10-13",
-    "slot": "3dbaski",
-    "klasor": "2026-10-21-filament-rehberi"
+    "tarih": "2026-10-12",
+    "slot": "elektronik",
+    "klasor": "2026-10-12-deep-sleep-akim"
    },
    {
     "tarih": "2026-10-13",
-    "slot": "elektronik",
-    "klasor": "2026-10-13-phaetus-conch-nozul"
+    "slot": "3dbaski",
+    "klasor": "2026-10-21-filament-rehberi"
    },
    {
     "tarih": "2026-10-13",
@@ -418,14 +413,19 @@
     "klasor": "2026-10-13-olcu-dogrulama"
    },
    {
+    "tarih": "2026-10-13",
+    "slot": "elektronik",
+    "klasor": "2026-10-13-phaetus-conch-nozul"
+   },
+   {
     "tarih": "2026-10-14",
     "slot": "3dbaski",
     "klasor": "2026-10-13-nozzle-capi"
    },
    {
     "tarih": "2026-10-14",
-    "slot": "elektronik",
-    "klasor": "2026-10-14-lipo-bms"
+    "slot": "baski",
+    "klasor": "2026-10-14-atolyeden-cikanlar"
    },
    {
     "tarih": "2026-10-14",
@@ -444,8 +444,8 @@
    },
    {
     "tarih": "2026-10-15",
-    "slot": "elektronik",
-    "klasor": "2026-10-15-h-koprusu"
+    "slot": "baski",
+    "klasor": "2026-10-15-saksi-koleksiyonu"
    },
    {
     "tarih": "2026-10-15",
@@ -464,18 +464,13 @@
    },
    {
     "tarih": "2026-10-16",
-    "slot": "elektronik",
-    "klasor": "2026-10-16-gelistirme-karti-pano"
+    "slot": "baski",
+    "klasor": "2026-10-16-vazo-koleksiyonu"
    },
    {
     "tarih": "2026-10-16",
     "slot": "urun",
     "klasor": "2026-10-21-u1-k3-pano"
-   },
-   {
-    "tarih": "2026-10-16",
-    "slot": "proje",
-    "klasor": "2026-10-20-pixhawk-pano"
    },
    {
     "tarih": "2026-10-17",
@@ -484,23 +479,13 @@
    },
    {
     "tarih": "2026-10-17",
-    "slot": "elektronik",
-    "klasor": "2026-10-17-esp32-ailesi-pano"
+    "slot": "baski",
+    "klasor": "2026-10-17-masa-duzeni"
    },
    {
     "tarih": "2026-10-17",
     "slot": "urun",
     "klasor": "2026-10-20-sparkx-i7-i8-pano"
-   },
-   {
-    "tarih": "2026-10-17",
-    "slot": "proje",
-    "klasor": "2026-10-21-pi-kamera-pano"
-   },
-   {
-    "tarih": "2026-10-18",
-    "slot": "urun",
-    "klasor": "2026-10-18-ender-3-v4-combo"
    },
    {
     "tarih": "2026-10-18",
@@ -509,8 +494,13 @@
    },
    {
     "tarih": "2026-10-18",
-    "slot": "elektronik",
-    "klasor": "2026-10-18-kondansator-esr"
+    "slot": "baski",
+    "klasor": "2026-10-18-aydinlatma"
+   },
+   {
+    "tarih": "2026-10-18",
+    "slot": "urun",
+    "klasor": "2026-10-18-ender-3-v4-combo"
    },
    {
     "tarih": "2026-10-18",
@@ -519,13 +509,23 @@
    },
    {
     "tarih": "2026-10-19",
-    "slot": "elektronik",
-    "klasor": "2026-10-13-optokuplor"
+    "slot": "baski",
+    "klasor": "2026-10-19-banyo-duzeni"
    },
    {
     "tarih": "2026-10-20",
     "slot": "3dbaski",
     "klasor": "2026-10-16-sunlu-filament-pano"
+   },
+   {
+    "tarih": "2026-10-20",
+    "slot": "baski",
+    "klasor": "2026-10-20-makyaj-ve-taki"
+   },
+   {
+    "tarih": "2026-10-21",
+    "slot": "baski",
+    "klasor": "2026-10-21-hediyelik"
    }
   ],
   "reels": [
@@ -600,6 +600,16 @@
     "not": "son gün"
    }
   ],
-  "kampanya_not": "Cekilis 12-15 Ekim. 16 Ekim: uc finalistin yorumu hikayede, kazanani takipci anketi seciyor, aksam sonuc gonderisi. Finalist hikayesi ve sonuc gonderisi o gun uretilecek — yorumlar gelmeden uretilmiyor. Kurallar ve hukuki not KAMPANYA.md icinde."
+  "kampanya_not": "Cekilis 12-15 Ekim. 16 Ekim: uc finalistin yorumu hikayede, kazanani takipci anketi seciyor, aksam sonuc gonderisi. Finalist hikayesi ve sonuc gonderisi o gun uretilecek — yorumlar gelmeden uretilmiyor. Kurallar ve hukuki not KAMPANYA.md icinde.",
+  "kuyruktan_cikan": [
+   "2026-10-13-optokuplor",
+   "2026-10-14-lipo-bms",
+   "2026-10-15-h-koprusu",
+   "2026-10-16-gelistirme-karti-pano",
+   "2026-10-17-esp32-ailesi-pano",
+   "2026-10-18-kondansator-esr",
+   "2026-10-20-pixhawk-pano",
+   "2026-10-21-pi-kamera-pano"
+  ]
  }
 }
