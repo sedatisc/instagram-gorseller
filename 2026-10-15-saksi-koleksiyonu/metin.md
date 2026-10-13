@@ -1,6 +1,6 @@
 ## Gönderi metni
 
-Aynı bitki, saksıya göre bambaşka duruyor. Altı gövde, altı ayrı doku — hepsinin tasarımı ve baskısı bize ait.
+Aynı bitki, saksıya göre bambaşka duruyor. Altı gövde, altı ayrı doku; hepsi bizim tezgâhımızda basıldı.
 
 Columna » Dikey hatlar gövdeyi boydan boya kesiyor; sade bir silindir, ışık düştükçe çizgileniyor. Küçük sukulent ve kaktüs ölçüsünde.
 

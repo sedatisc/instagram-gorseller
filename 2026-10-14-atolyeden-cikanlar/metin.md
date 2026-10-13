@@ -14,7 +14,7 @@ Fiyonk Detaylı Saklama Kutusu → kabartma fiyonk dokulu kapaklı kutu, tutama�
 
 BunnyHold → şişeyi sırtüstü yatan tavşan taşıyor; ağırlık dengesi şişeyi havada tutuyor.
 
-Hepsinin tasarımı ve baskısı bize ait. Ölçü, renk ve adet işe göre değişiyor; aynı dosyadan tek parça da basılır, elli parça da.
+Altısı da bizim tezgâhımızda basıldı. Ölçü, renk ve adet işe göre değişiyor; aynı dosyadan tek parça da basılır, elli parça da.
 
 Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
 

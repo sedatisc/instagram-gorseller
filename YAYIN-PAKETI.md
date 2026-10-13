@@ -291,7 +291,7 @@ Fiyonk Detaylı Saklama Kutusu → kabartma fiyonk dokulu kapaklı kutu, tutama�
 
 BunnyHold → şişeyi sırtüstü yatan tavşan taşıyor; ağırlık dengesi şişeyi havada tutuyor.
 
-Hepsinin tasarımı ve baskısı bize ait. Ölçü, renk ve adet işe göre değişiyor; aynı dosyadan tek parça da basılır, elli parça da.
+Altısı da bizim tezgâhımızda basıldı. Ölçü, renk ve adet işe göre değişiyor; aynı dosyadan tek parça da basılır, elli parça da.
 
 Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
 
@@ -393,7 +393,7 @@ Kurutucusu olmayıp sürekli baskı ayarıyla uğraşan bir arkadaşın varsa bu
 **[2026-10-15-saksi-koleksiyonu](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-saksi-koleksiyonu)** · 8 kare · hikaye 13:18
 
 ```
-Aynı bitki, saksıya göre bambaşka duruyor. Altı gövde, altı ayrı doku — hepsinin tasarımı ve baskısı bize ait.
+Aynı bitki, saksıya göre bambaşka duruyor. Altı gövde, altı ayrı doku; hepsi bizim tezgâhımızda basıldı.
 
 Columna » Dikey hatlar gövdeyi boydan boya kesiyor; sade bir silindir, ışık düştükçe çizgileniyor. Küçük sukulent ve kaktüs ölçüsünde.
 

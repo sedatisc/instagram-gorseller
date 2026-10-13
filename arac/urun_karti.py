@@ -19,7 +19,7 @@ import json
 import os
 import sys
 
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFilter
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, KOK)
@@ -153,13 +153,18 @@ def coz(u, kat):
     return cik
 
 
-def _ac(yol):
+def _tam_yol(yol):
     if not yol:
         return None
     tam = yol if os.path.isabs(yol) else os.path.join(KOK, "gorsel", yol)
     if not os.path.exists(tam):
         tam = os.path.join(KOK, yol)
-    return Image.open(tam).convert("RGB")
+    return tam if os.path.exists(tam) else None
+
+
+def _ac(yol):
+    tam = _tam_yol(yol)
+    return Image.open(tam).convert("RGB") if tam else None
 
 
 # ------------------------------------------------------------------ foto
@@ -204,6 +209,86 @@ def foto_panel(img, kutu, im, r=24, dolu=False, pay=1.0):
 
 def _koyu(renk):
     return (renk[0] * 299 + renk[1] * 587 + renk[2] * 114) / 1000 < 140
+
+
+# ------------------------------------------------------- tek zemin
+KESIK = os.path.join(KOK, "gorsel", "urun", "kesik")
+_OTURUM = {}
+ZEMIN = (248, 249, 251)          # bütün ürünlerin ortak zemini
+
+
+def kesik_ac(yol):
+    """Arka planı kesilmiş sürüm; bir kere kesilip saklanıyor.
+
+    Ürün fotoğrafları birbirini tutmuyor: biri beyaz stüdyo, biri koyu
+    oda, biri ahşap masa. Yan yana gelince gönderi dağınık duruyor.
+    Ürünü kesip hepsini aynı zemine oturtuyoruz."""
+    ad = os.path.splitext(os.path.basename(yol))[0]
+    hedef = os.path.join(KESIK, ad + ".png")
+    if os.path.exists(hedef):
+        return Image.open(hedef).convert("RGBA")
+    try:
+        from rembg import remove, new_session
+    except ImportError:
+        return None
+    if "s" not in _OTURUM:
+        _OTURUM["s"] = new_session("u2net")
+    k = remove(Image.open(yol).convert("RGBA"), session=_OTURUM["s"])
+    bb = k.split()[-1].point(lambda v: 255 if v > 8 else 0).getbbox()
+    if bb:
+        k = k.crop(bb)
+    if k.width < 40 or k.height < 40:        # kesim boşa çıktı
+        return None
+    os.makedirs(KESIK, exist_ok=True)
+    k.save(hedef)
+    return k
+
+
+def kesik_panel(img, kutu, kes, r=24, pay=0.84, taban=0.90):
+    """Kesilmiş ürünü ortak zemine, temas gölgesiyle oturtuyor."""
+    x0, y0, x1, y1 = [int(v) for v in kutu]
+    kw, kh = x1 - x0, y1 - y0
+    kat = Image.new("RGBA", (kw, kh), ZEMIN + (255,))
+
+    o = min(kw * pay / kes.width, kh * pay / kes.height)
+    u = kes.resize((max(1, int(kes.width * o)), max(1, int(kes.height * o))),
+                   Image.LANCZOS)
+    ux = (kw - u.width) // 2
+    uy = max(int(kh * 0.05), int(kh * taban) - u.height)
+
+    golge = Image.new("RGBA", (kw, kh), (0, 0, 0, 0))
+    gw = u.width * 0.66
+    gy = uy + u.height
+    ImageDraw.Draw(golge).ellipse(
+        [kw / 2 - gw / 2, gy - u.height * 0.045,
+         kw / 2 + gw / 2, gy + u.height * 0.045],
+        fill=(18, 24, 40, 58))
+    kat.alpha_composite(golge.filter(ImageFilter.GaussianBlur(
+        max(6, int(u.height * 0.035)))))
+    kat.alpha_composite(u, (ux, uy))
+
+    mask = Image.new("L", (kw, kh), 0)
+    ImageDraw.Draw(mask).rounded_rectangle([0, 0, kw - 1, kh - 1], radius=r,
+                                           fill=255)
+    img.paste(kat.convert("RGB"), (x0, y0), mask)
+    return ZEMIN
+
+
+def yerlestir(img, kutu, u, spec, r=24, dolu=False, pay=1.0, taban=0.90):
+    """Ürün görselini kutuya koyuyor: kesim açıksa ortak zemine,
+    kapalıysa fotoğrafın kendi zeminiyle."""
+    yol = _tam_yol(u.get("gorsel"))
+    kesim = u.get("kesim", spec.get("kesim", True))
+    if kesim and yol:
+        kes = kesik_ac(yol)
+        if kes is not None:
+            return kesik_panel(img, kutu, kes, r=r, taban=taban,
+                               pay=0.90 if dolu else 0.84)
+    im = _ac(u.get("gorsel"))
+    if im is None:
+        ImageDraw.Draw(img).rounded_rectangle(kutu, radius=r, fill=ZEMIN)
+        return ZEMIN
+    return foto_panel(img, kutu, im, r=r, dolu=dolu, pay=pay)
 
 
 # ------------------------------------------------------------------ parça
@@ -262,12 +347,7 @@ def urun_karesi(u, spec, sira=None, toplam=None, cikti=None):
     ALT = H - 154                       # fiyat şeridinin üst kenarı
     fh = int(min(900, max(560, ALT - 24 - yazi_h - 26 - KEN)))
 
-    im = _ac(u.get("gorsel"))
-    if im is not None:
-        zem = foto_panel(img, [KEN, KEN, W - KEN, KEN + fh], im)
-    else:
-        zem = (226, 232, 242)
-        yuvarlak(d, [KEN, KEN, W - KEN, KEN + fh], 24, dolgu=zem)
+    zem = yerlestir(img, [KEN, KEN, W - KEN, KEN + fh], u, spec)
     d = ImageDraw.Draw(img)
 
     etiket = u.get("etiket") or spec.get("baslik", "")
@@ -381,10 +461,7 @@ def kapak(spec, urunler, cikti):
     n = min(len(urunler), 6)
     kutular = _izgara(n, (KEN, y1 + 20, W - KEN, H - 150))
     for u, kutu in zip(urunler[:n], kutular):
-        im = _ac(u.get("gorsel"))
-        if im is None:
-            continue
-        zem = foto_panel(img, kutu, im, r=18, dolu=True, pay=1.18)
+        yerlestir(img, kutu, u, spec, r=18, dolu=True, pay=1.18, taban=0.88)
         dd = ImageDraw.Draw(img)
         if _fiyat(u, spec):
             cip(dd, kutu[2] - 12, kutu[3] - 54, U.P(u["fiyat"]),
@@ -412,8 +489,8 @@ def kapanis(spec, urunler, cikti):
            font=U.anton(64), fill=(255, 255, 255), anchor="lm")
     d.text((KEN, KEN + 86),
            U.P(spec.get("kapanis_alt",
-                        "Tasarım ve baskı bize ait. Ölçü, renk ve adet "
-                        "isteğe göre değişir.")),
+                        "Hepsi kendi atölyemizde basıldı. Ölçü, renk "
+                        "ve adet isteğe göre değişir.")),
            font=f_reg(24), fill=(150, 164, 192), anchor="lm")
 
     ust, alt_sinir = KEN + 140, H - 210
@@ -454,18 +531,8 @@ def hikaye(spec, urunler, cikti):
                     RENK["turuncu"])
 
     FY = 1150
-    im = _ac(u.get("gorsel"))
-    zem = (226, 232, 242)
-    if im is not None:
-        zem = _zemin_rengi(im)
-        kat = Image.new("RGB", (SW, FY), zem)
-        o = min(SW / float(im.width), (FY - 120) / float(im.height))
-        o = min(max(SW / float(im.width), FY / float(im.height)), o * 1.25)
-        y = im.resize((int(im.width * o), int(im.height * o)), Image.LANCZOS)
-        kat.paste(y, ((SW - y.width) // 2, (FY - y.height) // 2))
-        img.paste(kat, (0, 0))
-    else:
-        d.rectangle([0, 0, SW, FY], fill=zem)
+    yerlestir(img, [0, 0, SW, FY], u, spec, r=0, dolu=True, pay=1.25,
+              taban=0.88)
     d = ImageDraw.Draw(img)
     d.rectangle([0, FY, SW, SH], fill=KAGIT)
 

@@ -4,7 +4,7 @@
  "renk": "turkuaz",
  "baslik": "Banyo düzeni",
  "alt": "Islak tezgâhta duracak parçalar: drenajlı, geniş tabanlı, kaymayan.",
- "spot": "6 parça · tasarım ve baskı bize ait",
+ "spot": "6 parça · kendi atölyemizde basıldı",
  "kunye": "Banyonu toparla",
  "urunler": [
   {
@@ -22,11 +22,11 @@
    "satir": "Tabanı delikli: biriken su altta durmuyor, akıyor. Parfüm, tıraş ve makyaj bir arada."
   },
   {
-   "slug": "monohook-minimal-dus-cami-askisi",
-   "ad": "MonoHook",
+   "slug": "kulplu-banyo-sepeti-makyaj-organizer",
+   "ad": "Kulplu Banyo Sepeti",
    "etiket": "banyo",
-   "renk": "gri",
-   "satir": "8 mm duş camına takılan askı. Vida yok, delik yok — camın üstüne geçiyor."
+   "renk": "mavi",
+   "satir": "Kabartma dokulu, kulplu sepet. Fırça ve şişeleri topluca taşımak için; banyodan masaya gidip geliyor."
   },
   {
    "slug": "leafhook-tropik-cam-dus-askisi",
