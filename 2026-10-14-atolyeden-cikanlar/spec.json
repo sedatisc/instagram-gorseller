@@ -1,0 +1,53 @@
+{
+ "kategori": "3dbaski",
+ "tip": "grup",
+ "renk": "turuncu",
+ "baslik": "Atölyeden çıkanlar",
+ "alt": "Tasarımı ve baskısı bize ait altı parça. Hepsi kendi makinelerimizde, katman katman basıldı.",
+ "spot": "6 parça · tasarım ve baskı bize ait",
+ "kunye": "Beğendiğini yoruma yaz",
+ "urunler": [
+  {
+   "slug": "adrift-planter-parametrik-tasarim-dekoratif-saksi-100-mm",
+   "etiket": "saksı",
+   "renk": "yesil",
+   "satir": "Parametrik olarak kurgulanmış gövde: dışı ağ dokusu, içi düz hazne. Altında kendi tabağı var, su tezgâha geçmiyor. 100 mm.",
+   "ad": "Adrift Planter"
+  },
+  {
+   "slug": "alevin-formu-siyah-3d-sanat-vazosu",
+   "etiket": "vazo",
+   "renk": "mor",
+   "satir": "Alev formunun dönerek yükseldiği tek parça sanat vazosu. Mat siyah yüzey, katman izi deseni tamamlıyor.",
+   "ad": "Alevin — Sanat Vazosu"
+  },
+  {
+   "slug": "dalga-desenli-kure-masa-lambasi-sicak-isik-dekoratif-tasarim",
+   "etiket": "aydınlatma",
+   "renk": "sari",
+   "satir": "Küre gövdedeki dalga dokusu ışığı kırıyor; sıcak ampulle duvara desen düşürüyor. Baş ucu ve oturma odası için.",
+   "ad": "Dalga Desenli Küre Lamba"
+  },
+  {
+   "slug": "duova-cizgisel-modern-banyo-duzenleyici-sabunluk-seti",
+   "etiket": "banyo",
+   "renk": "turkuaz",
+   "satir": "Çizgisel gövdeli sabunluk ve fırçalık seti. Tezgâhta yan yana durur, kaymaması için tabanı geniş.",
+   "ad": "Duova Banyo Seti"
+  },
+  {
+   "slug": "fiyonk-detayli-kapakli-saklama-kutusu-dekoratif-makyaj-ve-taki-organizeri",
+   "etiket": "makyaj & takı",
+   "renk": "pembe",
+   "satir": "Kabartma fiyonk dokulu kapaklı kutu; tutamağı da fiyonk. Takı, toka ve küçük makyaj için.",
+   "ad": "Fiyonk Detaylı Saklama Kutusu"
+  },
+  {
+   "slug": "bunnyhold-tavsan-formlu-dekoratif-sarap-sisesi-standi",
+   "etiket": "hediyelik",
+   "renk": "kirmizi",
+   "satir": "Şişeyi sırtüstü yatan tavşan taşıyor; ağırlık dengesi şişeyi havada tutuyor. Tek başına duran bir hediye.",
+   "ad": "BunnyHold Şişe Standı"
+  }
+ ]
+}
