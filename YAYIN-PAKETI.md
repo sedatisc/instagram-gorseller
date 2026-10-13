@@ -569,6 +569,30 @@ Karar: bugün alınabilen tek seçenek U1. K3'ün yaklaşımı yedek parça tara
 #sermenkreatif #3dbaski #snapmaker #cokrenklibaski #makerturkiye
 ```
 
+## 18:10 · PROJE & ATÖLYE
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-tavan-arasi-kamera-robotu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-tavan-arasi-kamera-robotu/1.jpg" width="240"></a>
+
+**[2026-10-16-tavan-arasi-kamera-robotu](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-tavan-arasi-kamera-robotu)** · 5 kare · hikaye 18:50
+
+```
+Tavan arası kamera robotu yapmanın asıl zorluğu robotu sürmek değil, geri getirmek. Tasarım kararlarının yarısı bu yüzden alınıyor.
+
+Ölçüyü boşluk belirliyor. Tavan arasında yol yok; mertek arası boşluk var, tipik 40-60 cm. Gövde ve kamera dahil 12 cm'nin altında kalmayan robot bir yerde takılıyor. Tekerlek cam yününe gömüldüğü için paletli ve geniş gövde kazanıyor, ağırlık 1 kg altında tutuluyor.
+
+Yazın tavan arası fırın gibi. Kiremit altı sıcaklık 50-60 °C'yi buluyor; PLA gövde bu sıcaklıkta kendi ağırlığıyla sarkıyor. Gövde PETG ya da ASA basılıyor, LiPo paket 45 °C üstünde şişme riskine girdiği için gölgede kalan yüze yerleşiyor ve tur kısa tutuluyor.
+
+Işık çözünürlükten önemli. Tavan arası zifiri karanlık: 2 × 3 W beyaz LED, 4K kameradan daha çok iş görüyor. IR aydınlatma görüntüyü yalnız siyah-beyaz veriyor, nem lekesiyle küf lekesini ayırt edemiyorsun.
+
+Telsizi yalıtım seçiyor. Cam yünü ve folyo kaplı şilte 5 GHz'i birkaç metrede kesiyor; 2,4 GHz hem daha çok geçiyor hem daha uzun menzil veriyor. Paket gelmeyince motor duracak — 500 ms zaman aşımı yoksa sinyalsiz robot yoluna devam edip iyice uzaklaşıyor.
+
+En ucuz sigorta 5 metrelik ip. Gövdeye iki noktadan bağlanıp ucu kapakta bırakılıyor; takılan robot elle geri çekiliyor. Tavan arasında kaybolan robot tavan arasında kalıyor.
+
+Evinin tavan arasına bakmak isteyip de kafasını sokamayan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #maker #robotik #kamerarobotu #makerturkiye
+```
+
 ## 20:30 · REELS — [2026-10-18-bambu-h-serisi-pano/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano)
 
 Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
@@ -664,6 +688,30 @@ Kısaca: bugün alınabilen i7. i8'in mekanizması daha iyi ama makine kitlesel 
 ## 19:20 · REELS — [2026-10-16-sunlu-filament-pano/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano)
 
 Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
+
+## 20:10 · PROJE & ATÖLYE
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-rc-tank/1.jpg" width="240"></a>
+
+**[2026-10-17-rc-tank](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank)** · 6 kare · hikaye 20:50
+
+```
+RC tank gibi büyük bir baskı projesinde işi bitiren şey baskı değil, parçaya bölme ve birleştirme kararları. Tabladan büyük parça basılmıyor; bölünüyor.
+
+Bölme hattı düz yüzeyden ve görünmeyen kenardan geçiyor. Yük taşıyan kesit bölünmüyor — oradaki kayıp sonradan yapıştırmayla geri gelmiyor. Hizalama için pim yuvası modeldeyken açılıyor, geçme 0,2-0,4 mm boşlukla çiziliyor. Parça sökülecekse vida ve heat-set insert, kalıcı birleşecekse epoksi; CA yapıştırıcı bu boyutta kırılgan kalıyor.
+
+Dayanımı duvar veriyor, dolgu değil. Büyük gövdede 3-4 duvar sırası, %10-15 dolgu ve 5 üst-alt katman yetiyor. Dolguyu yükseltmek süreyi ve ağırlığı büyütüyor, burulmayı çözmüyor. 0,6 mm nozul ve 0,24-0,28 mm katman bu ölçekte günler kazandırıyor.
+
+En çok zorlanan parça palet. Sürekli esniyor ve aşınıyor; tek parça basılan palet koptuğunda iş bitiyor, segmentli palet tamir edilebiliyor. Segmentler pimle birleşiyor, %10 fazla basılıyor, gergi tekerleği ayarlanabilir olacak şekilde çiziliyor.
+
+Ağırlık motoru seçiyor. Gövde ağırlaştıkça redüktör oranı büyüyor, paletli araçta dönüş torku düz gitmenin 2-3 katı. Motoru en sona bırakırsan tank yürümüyor.
+
+Fire payını baştan yaz. Büyük parçada %10 başarısızlık normal; kritik parça iki kez basılıyor, kuyruk sıraya koyuluyor.
+
+Masasında yarım kalmış büyük bir baskı projesi olan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #maker #3dbaski #rctank #makerturkiye
+```
 
 ---
 

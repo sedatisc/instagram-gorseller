@@ -67,7 +67,9 @@
    17,
    18,
    19,
-   20
+   20,
+   21,
+   22
   ]
  },
  "gecmis": [
@@ -473,6 +475,11 @@
     "klasor": "2026-10-21-u1-k3-pano"
    },
    {
+    "tarih": "2026-10-16",
+    "slot": "proje",
+    "klasor": "2026-10-16-tavan-arasi-kamera-robotu"
+   },
+   {
     "tarih": "2026-10-17",
     "slot": "3dbaski",
     "klasor": "2026-10-19-bambu-a-serisi-pano"
@@ -486,6 +493,11 @@
     "tarih": "2026-10-17",
     "slot": "urun",
     "klasor": "2026-10-20-sparkx-i7-i8-pano"
+   },
+   {
+    "tarih": "2026-10-17",
+    "slot": "proje",
+    "klasor": "2026-10-17-rc-tank"
    },
    {
     "tarih": "2026-10-18",
