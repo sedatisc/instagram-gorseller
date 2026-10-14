@@ -90,8 +90,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-16-vazo-koleksiyonu/hikaye.jpg` | 1 |
 | 16:40 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-21-u1-k3-pano` | 1 |
 | 17:20 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-21-u1-k3-pano/hikaye.jpg` | 1 |
-| 18:10 | Gönderi | PROJE & ATÖLYE | `2026-10-16-tavan-arasi-kamera-robotu` | 5 |
-| 18:50 | Hikaye | PROJE & ATÖLYE | `2026-10-16-tavan-arasi-kamera-robotu/hikaye.jpg` | 1 |
+| 18:10 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
 | 20:30 | **Reels** | — | `2026-10-18-bambu-h-serisi-pano/reels.mp4` | video |
 
 ## 2026-10-17 · Cumartesi
@@ -105,8 +104,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 16:50 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-20-sparkx-i7-i8-pano` | 1 |
 | 17:30 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-20-sparkx-i7-i8-pano/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | `2026-10-16-sunlu-filament-pano/reels.mp4` | video |
-| 20:10 | Gönderi | PROJE & ATÖLYE | `2026-10-17-rc-tank` | 6 |
-| 20:50 | Hikaye | PROJE & ATÖLYE | `2026-10-17-rc-tank/hikaye.jpg` | 1 |
+| 20:10 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
 
 ## 2026-10-18 · Pazar
 
@@ -160,7 +158,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 
 Bu slotlar için içerik henüz üretilmedi:
 
-- 2026-10-13 · BASKI ÜRÜNLERİ
+- 2026-10-16 · PROJE & ATÖLYE
+- 2026-10-17 · PROJE & ATÖLYE
 - 2026-10-19 · AYAR & REHBER
 - 2026-10-19 · ÜRÜN & MAĞAZA
 - 2026-10-19 · PROJE & ATÖLYE

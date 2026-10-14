@@ -1865,23 +1865,7 @@ def hikaye_urun(spec, yol):
     if var:
         _perde(img, 0, 520, _perde_op(_parlaklik(img, 0, 380)) * 0.92, 0.0)
 
-    logo = bright_logo(34)
     d = ImageDraw.Draw(img)
-    fl = mono(24, True)
-    lw = d.textlength(LABEL, font=fl)
-    lx = GUT + logo.width + 26
-    if var and _parlaklik(img, 285, 350) > 105:
-        # şerit beyaz zemine denk geldi — altına yumuşak karartma
-        img.alpha_composite(glow((SW, SH), lambda g: g.rounded_rectangle(
-            [GUT - 30, 278, lx + lw + 62, 358], radius=42,
-            fill=(2, 4, 10, 225)), 30))
-    img.alpha_composite(logo, (GUT, 300))
-    over(img, lambda g: g.rounded_rectangle(
-        [lx, 296, lx + lw + 40, 338], radius=21, fill=a(AC(), 0.14),
-        outline=a(AC(), 0.5), width=2))
-    d = ImageDraw.Draw(img)
-    d.text((lx + 20, 317), LABEL, font=fl, fill=AC(), anchor="lm")
-
     s1, s2 = spec["satir1"], spec["satir2"]
     f = fit(d, max(s1, s2, key=len), anton, 956, 118)
     oz = [tuple(r) for r in spec.get("ozet", [])]
@@ -1924,6 +1908,20 @@ def hikaye_urun(spec, yol):
               fill=BY)
     d.text((GUT, by + 128), "profilde yeni gönderi", font=pop(28),
            fill=(176, 188, 206), anchor="lm")
+
+    # Marka şeridi en altta. Üstteyken fotoğrafın üstüne biniyordu:
+    # ürünün gövdesine yapıştırılmış etiket gibi duruyordu.
+    logo = bright_logo(34)
+    fl = mono(24, True)
+    lw = d.textlength(LABEL, font=fl)
+    lx = GUT + logo.width + 26
+    ly = 1792
+    img.alpha_composite(logo, (GUT, ly))
+    over(img, lambda g: g.rounded_rectangle(
+        [lx, ly - 4, lx + lw + 40, ly + 38], radius=21, fill=a(AC(), 0.14),
+        outline=a(AC(), 0.5), width=2))
+    d = ImageDraw.Draw(img)
+    d.text((lx + 20, ly + 17), LABEL, font=fl, fill=AC(), anchor="lm")
     yaz(img, yol)
 
 
