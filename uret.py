@@ -1645,12 +1645,23 @@ def foto_ust(img, ad, y1=628, erit=176, odak=0.35, sigdir=False):
         return False
     gw, gh = W, int(y1)
     im = Image.open(yol).convert("RGB")
+    sig_o = min(gw / float(im.width), gh / float(im.height))
+    kap_o = max(gw / float(im.width), gh / float(im.height))
+    # Kırpma fotoğrafın beşte birinden fazlasını yiyorsa ürün ortadan
+    # kesiliyor (620'lik banda 800'lük fotoğrafta ürünlerin altı gidiyordu).
+    # O durumda kırpmayı bırakıp sığdırıyoruz.
+    if not sigdir and sig_o > 0 and kap_o / sig_o > 1.18:
+        sigdir = True
     if sigdir:
-        o = gw / im.width
-        kucuk = im.resize((gw, max(1, int(im.height * o))), Image.LANCZOS)
-        kenar = kucuk.crop((0, 0, gw, 6)).resize((1, 1), Image.LANCZOS)
-        tuval = Image.new("RGB", (gw, gh), kenar.getpixel((0, 0)))
-        tuval.paste(kucuk, (0, int((gh - kucuk.height) * odak)))
+        kucuk = im.resize((max(1, int(im.width * sig_o)),
+                           max(1, int(im.height * sig_o))), Image.LANCZOS)
+        kenar = im.resize((8, 8), Image.LANCZOS)
+        px = [kenar.getpixel((x, y)) for x in range(8) for y in range(8)
+              if x in (0, 7) or y in (0, 7)]
+        zem = tuple(sum(c[i] for c in px) // len(px) for i in range(3))
+        tuval = Image.new("RGB", (gw, gh), zem)
+        tuval.paste(kucuk, ((gw - kucuk.width) // 2,
+                            int((gh - kucuk.height) * odak)))
         im = tuval.convert("RGBA")
     else:
         o = max(gw / im.width, gh / im.height)
