@@ -525,6 +525,11 @@
     "klasor": "2026-10-19-banyo-duzeni"
    },
    {
+    "tarih": "2026-10-19",
+    "slot": "urun",
+    "klasor": "2026-10-19-yazicilar"
+   },
+   {
     "tarih": "2026-10-20",
     "slot": "3dbaski",
     "klasor": "2026-10-16-sunlu-filament-pano"
@@ -535,9 +540,19 @@
     "klasor": "2026-10-20-makyaj-ve-taki"
    },
    {
+    "tarih": "2026-10-20",
+    "slot": "urun",
+    "klasor": "2026-10-20-anycubic-recine"
+   },
+   {
     "tarih": "2026-10-21",
     "slot": "baski",
     "klasor": "2026-10-21-hediyelik"
+   },
+   {
+    "tarih": "2026-10-21",
+    "slot": "urun",
+    "klasor": "2026-10-21-filament-cesitleri"
    }
   ],
   "reels": [

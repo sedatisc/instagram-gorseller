@@ -511,12 +511,15 @@ def kapanis(spec, urunler, cikti):
                    font=fm, fill=renk, anchor="rm")
         y += sh
 
-    yuvarlak(d, [KEN, H - 190, W - KEN, H - 100], 16, dolgu=(26, 36, 62))
-    d.text((KEN + 28, H - 162), "3D BASKI HİZMETİ", font=f_mono(21),
-           fill=renk, anchor="lm")
-    d.text((KEN + 28, H - 128),
-           U.P("Kendi dosyanı yükle, fiyatını anında gör."),
-           font=f_reg(23), fill=(214, 221, 232), anchor="lm")
+    kutu = spec.get("kapanis_kutu",
+                    ["3D BASKI HİZMETİ",
+                     "Kendi dosyanı yükle, fiyatını anında gör."])
+    if kutu:
+        yuvarlak(d, [KEN, H - 190, W - KEN, H - 100], 16, dolgu=(26, 36, 62))
+        d.text((KEN + 28, H - 162), BUY(kutu[0]), font=f_mono(21),
+               fill=renk, anchor="lm")
+        d.text((KEN + 28, H - 128), U.P(kutu[1]), font=f_reg(23),
+               fill=(214, 221, 232), anchor="lm")
     kunye(d, spec.get("kunye", ""), koyu=True)
     img.save(cikti, "JPEG", quality=93, subsampling=0, optimize=True)
     print("%s  %dx%d" % (cikti, W, H))

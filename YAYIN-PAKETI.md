@@ -852,6 +852,36 @@ Banyonda hangisi eksik?
 #sermenkreatif #3dbaski #banyo #banyoduzeni #organizer #dekorasyon #3dbaskiturkiye #makerturkiye #samsun
 ```
 
+## 17:24 · ÜRÜN & MAĞAZA
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-yazicilar"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-yazicilar/1.jpg" width="240"></a>
+
+**[2026-10-19-yazicilar](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-yazicilar)** · 8 kare · hikaye 18:04
+
+```
+Yazıcı seçerken sorulacak soru "hangisi daha iyi" değil, "ne basacaksın". Altı makine, altı ayrı cevap.
+
+Creality Ender-3 V4 Combo » Giriş seviyesi. Ender serisinin bu kuşağı 500 mm/s'ye çıkıyor, Combo paketi CFS besleme ünitesiyle dört renge kadar basıyor.
+
+Bambu Lab A1 Combo » Ev ve masa üstü için en dengeli makine. Açık gövde, AMS Lite ile dört renk. PLA ve PETG'de hiç uğraştırmıyor.
+
+Creality K1C » Kapalı kabin ve sertleştirilmiş nozul hazır geliyor: karbon elyaflı filamenti kutudan çıkar çıkmaz basıyor.
+
+Bambu Lab P2S Combo » Kapalı kabin CoreXY. Hazne pasif olarak ~50 °C'ye çıkıyor; ABS ve ASA'da köşe kalkması burada bitiyor.
+
+Snapmaker U1 » Dört ayrı baskı kafası var: renk değişiminde filament değişmiyor, kafa değişiyor. Çok renkli baskıda atık ve süre düşüyor.
+
+Bambu Lab H2D Combo » Atölye makinesi. Çift nozul, 65 °C aktif ısıtmalı hazne, 350 °C nozul — mühendislik malzemeleri bu sınıfta basılıyor.
+
+Hepsi orijinal ve faturalı; kurulum ve ilk ayar desteğini biz veriyoruz. Combo paketlerde çok renkli baskı için besleme ünitesi de geliyor.
+
+Hepsi sermenkreatif.com'da; güncel fiyat ve seçenekler orada.
+
+Ne basmak istiyorsun, yaz — hangisinin işini göreceğini söyleyeyim.
+
+#sermenkreatif #3dbaski #3dyazici #bambulab #creality #snapmaker #3dbaskiturkiye #makerturkiye #samsun
+```
+
 ---
 
 # 2026-10-20 · Salı
@@ -916,6 +946,34 @@ Hangisini isterdin, yoruma yaz.
 #sermenkreatif #3dbaski #makyaj #takı #organizer #dekorasyon #3dbaskiturkiye #makerturkiye #samsun
 ```
 
+## 17:24 · ÜRÜN & MAĞAZA
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-anycubic-recine"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-20-anycubic-recine/1.jpg" width="240"></a>
+
+**[2026-10-20-anycubic-recine](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-anycubic-recine)** · 7 kare · hikaye 18:04
+
+```
+Reçine yazıcıda kaliteyi belirleyen makine değil, şişedeki sıvı. Beş Anycubic reçinesi ve hangisinin ne işe yaradığı.
+
+Standard Resin V2 — Gri » Günlük iş: maket, figür, prototip. İlk kez reçine basan buradan başlasın, pozlaması affedici.
+
+Standard Resin — Translucent Blue » Yarı saydam mavi. Işık geçiren figür ve su efektinde boyama gerektirmeden renk veriyor.
+
+High Clear Resin » Yüksek şeffaflık. Lens, kapak ve ışık geçiren parça; cilalanınca cam gibi duruyor.
+
+UV Tough Resin — Siyah » Kırılgan değil: kopma uzaması %15, eğilme dayanımı 75 MPa. Düşünce çatlamayan fonksiyonel parça buradan.
+
+ABS-Like Resin Pro 2 — Gri » ABS'ye yakın tokluk, reçine kolaylığı. Vidalanan, geçme yapan, zorlanan parçalarda standart reçineden uzun dayanıyor.
+
+Pozlama süreleri 8K mono LCD içindir; makinene göre test kulesiyle bir kez ayarla, sonra dokunma. Açılmamış şişe serin ve karanlıkta 12 ay duruyor.
+
+Hepsi sermenkreatif.com'da; güncel fiyat ve renk seçenekleri orada.
+
+Hangi reçineyi kullanıyorsun, yoruma yaz.
+
+#sermenkreatif #3dbaski #recine #resin #anycubic #slabaski #3dbaskiturkiye #makerturkiye #samsun
+```
+
 ---
 
 # 2026-10-21 · Çarşamba
@@ -948,5 +1006,35 @@ Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını 
 Kime alırdın, etiketle.
 
 #sermenkreatif #3dbaski #anahtarlik #hediyelik #3dbaski #mumluk #3dbaskiturkiye #makerturkiye #samsun
+```
+
+## 17:24 · ÜRÜN & MAĞAZA
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-cesitleri"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-filament-cesitleri/1.jpg" width="240"></a>
+
+**[2026-10-21-filament-cesitleri](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-cesitleri)** · 8 kare · hikaye 18:04
+
+```
+"PLA aldım" demek artık tek bir şey anlatmıyor. Aynı rafta duran altı makara birbirinden bambaşka iş yapıyor.
+
+CR-PLA Silk Rainbow » Tek makarada renk geçişi. Vazo modunda basılan parça boydan boya renk değiştiriyor; ikinci filamente gerek yok.
+
+Hyper PLA Rainbow — Spring Lake » Uzun aralıklı renk geçişi, mat yüzey. Silk'in parlaklığını istemeyen ama tek renk de istemeyen için.
+
+Hyper Luminous PLA — Yeşil » Karanlıkta parlıyor: gündüz ışığı topluyor, gece veriyor. Anahtarlık, gece lambası ve oyuncakta işe yarıyor.
+
+Hyper PETG CF — Siyah » Karbon elyaf katkılı PETG: sert, az esneyen, mat dokulu parça. Sertleştirilmiş nozul şart, pirinç nozulu yiyor.
+
+Hyper Foam PLA — Beyaz » Basarken köpürüyor: aynı hacimde çok daha hafif parça çıkıyor. Maket, uçak gövdesi ve taşınacak parçalar için.
+
+Panchroma PLA Saten — Mavi » Saten yüzey: ne tam mat ne parlak. Katman izini yumuşatıyor, fotoğrafta en iyi çıkan seri bu.
+
+Hepsi 1,75 mm ve 1 kg. Nozul ve tabla değerleri makaranın etiketinde yazıyor; seri değiştirince dilimleyicideki profili de değiştir.
+
+Hepsi sermenkreatif.com'da; güncel fiyat ve renk seçenekleri orada.
+
+Hangisini denedin, yoruma yaz.
+
+#sermenkreatif #3dbaski #filament #pla #petg #creality #polymaker #3dbaskiturkiye #makerturkiye #samsun
 ```
 

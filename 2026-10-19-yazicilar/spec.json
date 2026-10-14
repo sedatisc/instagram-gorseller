@@ -117,8 +117,8 @@
    ]
   },
   {
-   "slug": "bambu-lab-h2d-3d-yazici-18682",
-   "ad": "Bambu Lab H2D",
+   "slug": "bambulab-h2d-combo",
+   "ad": "Bambu Lab H2D Combo",
    "etiket": "3D yazıcı",
    "renk": "sari",
    "satir": "Atölye makinesi. Çift nozul, 65 °C aktif ısıtmalı hazne, 350 °C nozul — mühendislik malzemeleri bu sınıfta basılıyor.",
@@ -141,5 +141,11 @@
     ]
    ]
   }
+ ],
+ "kapanis_ust": "altı makine, altı iş",
+ "kapanis_alt": "Altısı da orijinal ve faturalı. Kurulum ve ilk ayar desteği bizden.",
+ "kapanis_kutu": [
+  "KURULUM VE DESTEK",
+  "Makineyi kurup ilk baskıyı birlikte alıyoruz."
  ]
 }

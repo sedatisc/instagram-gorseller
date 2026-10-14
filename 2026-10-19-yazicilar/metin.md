@@ -12,7 +12,7 @@ Bambu Lab P2S Combo » Kapalı kabin CoreXY. Hazne pasif olarak ~50 °C'ye çık
 
 Snapmaker U1 » Dört ayrı baskı kafası var: renk değişiminde filament değişmiyor, kafa değişiyor. Çok renkli baskıda atık ve süre düşüyor.
 
-Bambu Lab H2D » Atölye makinesi. Çift nozul, 65 °C aktif ısıtmalı hazne, 350 °C nozul — mühendislik malzemeleri bu sınıfta basılıyor.
+Bambu Lab H2D Combo » Atölye makinesi. Çift nozul, 65 °C aktif ısıtmalı hazne, 350 °C nozul — mühendislik malzemeleri bu sınıfta basılıyor.
 
 Hepsi orijinal ve faturalı; kurulum ve ilk ayar desteğini biz veriyoruz. Combo paketlerde çok renkli baskı için besleme ünitesi de geliyor.
 

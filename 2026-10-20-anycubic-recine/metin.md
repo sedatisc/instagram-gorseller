@@ -1,22 +1,20 @@
 ## Gönderi metni
 
-Reçine yazıcıda kaliteyi belirleyen makine değil, şişedeki sıvı. Altı Anycubic reçinesi ve hangisinin ne işe yaradığı.
+Reçine yazıcıda kaliteyi belirleyen makine değil, şişedeki sıvı. Beş Anycubic reçinesi ve hangisinin ne işe yaradığı.
 
-Standard Resin V2 — Gri » Günlük iş. Maket, figür, prototip. Şişeyi ilk kez açan buradan başlasın; pozlaması affedici.
+Standard Resin V2 — Gri » Günlük iş: maket, figür, prototip. İlk kez reçine basan buradan başlasın, pozlaması affedici.
 
-High Speed 2.0 — Gri » Katman pozlaması 1-2 saniye, standardın yarısı. Aynı modeli yarı sürede çıkarıyor; seri basan için.
+Standard Resin — Translucent Blue » Yarı saydam mavi. Işık geçiren figür ve su efektinde boyama gerektirmeden renk veriyor.
 
-Tough 2.0 — Gri » Kırılgan değil. Kopma uzaması %15, eğilme dayanımı 75 MPa — düşünce çatlamayan fonksiyonel parça buradan.
+High Clear Resin » Yüksek şeffaflık. Lens, kapak ve ışık geçiren parça; cilalanınca cam gibi duruyor.
 
-High Clear Resin » Yüksek şeffaflık. Lens, kapak, su efekti ve ışık geçiren parça; cilalandığında cam gibi duruyor.
+UV Tough Resin — Siyah » Kırılgan değil: kopma uzaması %15, eğilme dayanımı 75 MPa. Düşünce çatlamayan fonksiyonel parça buradan.
 
-ABS Like 2.0 — HD Gri » Suyla yıkanıyor: alkol derdi yok. ABS'ye yakın tokluk, 365-405 nm bandında çalışıyor.
+ABS-Like Resin Pro 2 — Gri » ABS'ye yakın tokluk, reçine kolaylığı. Vidalanan, geçme yapan, zorlanan parçalarda standart reçineden uzun dayanıyor.
 
-DLP Craftsman — Gri » DLP makineler için karılmış. Pozlama 1,5-3 saniye; ince detayda kenarları keskin bırakıyor.
+Pozlama süreleri 8K mono LCD içindir; makinene göre test kulesiyle bir kez ayarla, sonra dokunma. Açılmamış şişe serin ve karanlıkta 12 ay duruyor.
 
-Pozlama süreleri 8K mono LCD içindir; makinene göre test kulesiyle bir kez ayarla, sonra hiç dokunma. Açılmamış şişe serin ve karanlıkta 12 ay duruyor.
-
-Hepsi sermenkreatif.com'da; güncel fiyat ve seçenekler orada.
+Hepsi sermenkreatif.com'da; güncel fiyat ve renk seçenekleri orada.
 
 Hangi reçineyi kullanıyorsun, yoruma yaz.
 

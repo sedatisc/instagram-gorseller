@@ -3,16 +3,22 @@
  "tip": "grup",
  "renk": "mor",
  "baslik": "Anycubic reçineler",
- "alt": "Altı reçine, altı ayrı iş. Hepsi 1 kg, 405 nm.",
- "spot": "6 reçine · hepsi 1 kg",
+ "alt": "Beş reçine, beş ayrı iş. Hepsi 1 kg, 405 nm.",
+ "spot": "5 reçine · hepsi 1 kg",
  "kunye": "Hangisini basıyorsun?",
+ "kapanis_ust": "beşi de rafta",
+ "kapanis_alt": "Hepsi 1 kg, 405 nm. Açılmamış şişe serin ve karanlıkta 12 ay duruyor.",
+ "kapanis_kutu": [
+  "POZLAMA AYARI",
+  "Yeni şişede önce test kulesi bas, sonra seriye geç."
+ ],
  "urunler": [
   {
    "slug": "anycubic-standard-resin-v2-gri-1-kg-18535",
    "ad": "Standard Resin V2 — Gri",
    "etiket": "reçine",
    "renk": "mavi",
-   "satir": "Günlük iş. Maket, figür, prototip. Şişeyi ilk kez açan buradan başlasın; pozlaması affedici.",
+   "satir": "Günlük iş: maket, figür, prototip. İlk kez reçine basan buradan başlasın, pozlaması affedici.",
    "ozellik": [
     [
      "TİP",
@@ -33,61 +39,19 @@
    ]
   },
   {
-   "slug": "anycubic-high-speed-2.0-resin-gri-1-kg-18546",
-   "ad": "High Speed 2.0 — Gri",
+   "slug": "anycubic-standard-resin-translucent-blue",
+   "ad": "Standard Resin — Translucent Blue",
    "etiket": "reçine",
-   "renk": "turuncu",
-   "satir": "Katman pozlaması 1-2 saniye, standardın yarısı. Aynı modeli yarı sürede çıkarıyor; seri basan için.",
-   "ozellik": [
-    [
-     "TİP",
-     "Yüksek hızlı"
-    ],
-    [
-     "KATMAN POZLAMA",
-     "1 – 2 sn"
-    ],
-    [
-     "İLK KATMAN",
-     "15 – 25 sn"
-    ],
-    [
-     "SERTLİK",
-     "Shore D 80"
-    ]
-   ]
-  },
-  {
-   "slug": "anycubic-tough-2.0-gri-resin-1-kg-18387",
-   "ad": "Tough 2.0 — Gri",
-   "etiket": "reçine",
-   "renk": "kirmizi",
-   "satir": "Kırılgan değil. Kopma uzaması %15, eğilme dayanımı 75 MPa — düşünce çatlamayan fonksiyonel parça buradan.",
-   "ozellik": [
-    [
-     "TİP",
-     "Tough"
-    ],
-    [
-     "SERTLİK",
-     "Shore D 85"
-    ],
-    [
-     "EĞİLME",
-     "≈ 75 MPa"
-    ],
-    [
-     "UZAMA",
-     "≈ %15"
-    ]
-   ]
+   "renk": "turkuaz",
+   "satir": "Yarı saydam mavi. Işık geçiren figür ve su efektinde boyama gerektirmeden renk veriyor.",
+   "ozellik": []
   },
   {
    "slug": "anycubic-high-clear-resin-1-kg-18544",
    "ad": "High Clear Resin",
    "etiket": "reçine",
-   "renk": "turkuaz",
-   "satir": "Yüksek şeffaflık. Lens, kapak, su efekti ve ışık geçiren parça; cilalandığında cam gibi duruyor.",
+   "renk": "gri",
+   "satir": "Yüksek şeffaflık. Lens, kapak ve ışık geçiren parça; cilalanınca cam gibi duruyor.",
    "ozellik": [
     [
      "TİP",
@@ -108,54 +72,37 @@
    ]
   },
   {
-   "slug": "anycubic-abs-like-resin-2.0-hd-gray-1-kg-18752",
-   "ad": "ABS Like 2.0 — HD Gri",
+   "slug": "anycubic-tough-2.0-siyah-resin-1-kg-18386",
+   "ad": "UV Tough Resin — Siyah",
    "etiket": "reçine",
-   "renk": "yesil",
-   "satir": "Suyla yıkanıyor: alkol derdi yok. ABS'ye yakın tokluk, 365-405 nm bandında çalışıyor.",
+   "renk": "kirmizi",
+   "satir": "Kırılgan değil: kopma uzaması %15, eğilme dayanımı 75 MPa. Düşünce çatlamayan fonksiyonel parça buradan.",
    "ozellik": [
     [
      "TİP",
-     "ABS Like · su ile yıkanır"
+     "Tough"
+    ],
+    [
+     "SERTLİK",
+     "Shore D 85"
     ],
     [
      "EĞİLME",
-     "50 – 60 MPa"
+     "≈ 75 MPa"
     ],
     [
-     "MODÜL",
-     "1400 – 1600 MPa"
-    ],
-    [
-     "DALGA BOYU",
-     "365 – 405 nm"
+     "UZAMA",
+     "≈ %15"
     ]
    ]
   },
   {
-   "slug": "anycubic-dlp-craftsman-gri-resin-1-kg-18397",
-   "ad": "DLP Craftsman — Gri",
+   "slug": "anycubic-abs-like-resin-pro2-gri-1-kg-18531",
+   "ad": "ABS-Like Resin Pro 2 — Gri",
    "etiket": "reçine",
-   "renk": "pembe",
-   "satir": "DLP makineler için karılmış. Pozlama 1,5-3 saniye; ince detayda kenarları keskin bırakıyor.",
-   "ozellik": [
-    [
-     "TİP",
-     "DLP / Craftsman"
-    ],
-    [
-     "KATMAN POZLAMA",
-     "1,5 – 3 sn"
-    ],
-    [
-     "SERTLİK",
-     "Shore D 82"
-    ],
-    [
-     "EĞİLME",
-     "≈ 65 MPa"
-    ]
-   ]
+   "renk": "yesil",
+   "satir": "ABS'ye yakın tokluk, reçine kolaylığı. Vidalanan, geçme yapan, zorlanan parçalarda standart reçineden uzun dayanıyor.",
+   "ozellik": []
   }
  ]
 }

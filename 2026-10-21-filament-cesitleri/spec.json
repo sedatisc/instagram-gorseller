@@ -6,78 +6,44 @@
  "alt": "Aynı rafta duran altı makara, altı ayrı iş yapıyor.",
  "spot": "6 filament · hepsi 1,75 mm",
  "kunye": "Hangisini denedin?",
+ "kapanis_ust": "altısı da rafta",
+ "kapanis_alt": "Hepsi 1,75 mm ve 1 kg. Seri değişince dilimleyicideki profili de değiştir.",
+ "kapanis_kutu": [
+  "AYAR REHBERİ",
+  "Nozul ve tabla değerleri makaranın etiketinde yazıyor."
+ ],
  "urunler": [
-  {
-   "slug": "creality-hyper-pla-rfid-white-18645",
-   "ad": "Hyper PLA RFID — Beyaz",
-   "etiket": "filament",
-   "renk": "turkuaz",
-   "satir": "Makaranın içinde RFID çipi var: makineye takınca cins, renk ve kalan miktarı kendisi söylüyor. Elle profil seçme derdi bitiyor.",
-   "ozellik": [
-    [
-     "SERİ",
-     "Hyper PLA RFID"
-    ],
-    [
-     "ÇAP",
-     "1,75 mm"
-    ]
-   ]
-  },
   {
    "slug": "creality-cr-pla-silk-rainbow-18667",
    "ad": "CR-PLA Silk Rainbow",
    "etiket": "filament",
    "renk": "mor",
    "satir": "Tek makarada renk geçişi. Vazo modunda basılan parça boydan boya renk değiştiriyor; ikinci filamente gerek yok.",
-   "ozellik": [
-    [
-     "SERİ",
-     "CR-PLA Silk"
-    ],
-    [
-     "YÜZEY",
-     "Parlak ipek"
-    ]
-   ]
+   "ozellik": []
+  },
+  {
+   "slug": "creality-hyper-pla-rainbow-spring-lake-18292",
+   "ad": "Hyper PLA Rainbow — Spring Lake",
+   "etiket": "filament",
+   "renk": "turkuaz",
+   "satir": "Uzun aralıklı renk geçişi, mat yüzey. Silk'in parlaklığını istemeyen ama tek renk de istemeyen için.",
+   "ozellik": []
   },
   {
    "slug": "creality-hyper-luminous-pla-green-18303",
    "ad": "Hyper Luminous PLA — Yeşil",
    "etiket": "filament",
    "renk": "yesil",
-   "satir": "Karanlıkta parlıyor. Gündüz ışığı topluyor, gece veriyor; anahtarlık, gece lambası ve oyuncakta işe yarıyor.",
-   "ozellik": [
-    [
-     "SERİ",
-     "Hyper Luminous"
-    ],
-    [
-     "ÖZELLİK",
-     "Karanlıkta parlar"
-    ]
-   ]
+   "satir": "Karanlıkta parlıyor: gündüz ışığı topluyor, gece veriyor. Anahtarlık, gece lambası ve oyuncakta işe yarıyor.",
+   "ozellik": []
   },
   {
-   "slug": "creality-hyper-pla-cf-black-18641",
-   "ad": "Hyper PLA CF — Siyah",
+   "slug": "creality-hyper-petg-cf-black-18676",
+   "ad": "Hyper PETG CF — Siyah",
    "etiket": "filament",
    "renk": "gri",
-   "satir": "Karbon elyaf katkılı: daha sert, daha az esneyen, mat dokulu parça. Sertleştirilmiş nozul şart, pirinç nozulu yiyor.",
-   "ozellik": [
-    [
-     "SERİ",
-     "Hyper PLA CF"
-    ],
-    [
-     "KATKI",
-     "Karbon elyaf"
-    ],
-    [
-     "NOZUL",
-     "Sertleştirilmiş şart"
-    ]
-   ]
+   "satir": "Karbon elyaf katkılı PETG: sert, az esneyen, mat dokulu parça. Sertleştirilmiş nozul şart, pirinç nozulu yiyor.",
+   "ozellik": []
   },
   {
    "slug": "creality-hyper-foam-pla-white",
@@ -85,16 +51,7 @@
    "etiket": "filament",
    "renk": "sari",
    "satir": "Basarken köpürüyor: aynı hacimde çok daha hafif parça çıkıyor. Maket, uçak gövdesi ve taşınacak parçalar için.",
-   "ozellik": [
-    [
-     "SERİ",
-     "Hyper Foam"
-    ],
-    [
-     "ÖZELLİK",
-     "Köpürerek hafifliyor"
-    ]
-   ]
+   "ozellik": []
   },
   {
    "slug": "panchroma-pla-filament-saten-mavi",
@@ -102,16 +59,7 @@
    "etiket": "filament",
    "renk": "kirmizi",
    "satir": "Saten yüzey: ne tam mat ne parlak. Katman izini yumuşatıyor, fotoğrafta en iyi çıkan seri bu.",
-   "ozellik": [
-    [
-     "SERİ",
-     "Panchroma Saten"
-    ],
-    [
-     "YÜZEY",
-     "Saten"
-    ]
-   ]
+   "ozellik": []
   }
  ]
 }

@@ -129,7 +129,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 08:12 | — | **AYAR & REHBER** | _boş — üretilecek_ | — |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-19-banyo-duzeni` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-19-banyo-duzeni/hikaye.jpg` | 1 |
-| 17:24 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
+| 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-19-yazicilar` | 8 |
+| 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-19-yazicilar/hikaye.jpg` | 1 |
 | 19:40 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
 | 21:10 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -141,7 +142,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 08:52 | Hikaye | AYAR & REHBER | `2026-10-16-sunlu-filament-pano/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-20-makyaj-ve-taki` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-20-makyaj-ve-taki/hikaye.jpg` | 1 |
-| 17:24 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
+| 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-20-anycubic-recine` | 7 |
+| 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-20-anycubic-recine/hikaye.jpg` | 1 |
 | 19:36 | **Reels** | — | _boş — üretilecek_ | — |
 | 20:42 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
 
@@ -152,7 +154,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 08:12 | — | **AYAR & REHBER** | _boş — üretilecek_ | — |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-21-hediyelik` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-21-hediyelik/hikaye.jpg` | 1 |
-| 17:24 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
+| 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-21-filament-cesitleri` | 8 |
+| 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-21-filament-cesitleri/hikaye.jpg` | 1 |
 | 19:36 | **Reels** | — | _boş — üretilecek_ | — |
 | 20:42 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
 
@@ -161,13 +164,10 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 Bu slotlar için içerik henüz üretilmedi:
 
 - 2026-10-19 · AYAR & REHBER
-- 2026-10-19 · ÜRÜN & MAĞAZA
 - 2026-10-19 · PROJE & ATÖLYE
 - 2026-10-19 · REELS
-- 2026-10-20 · ÜRÜN & MAĞAZA
 - 2026-10-20 · PROJE & ATÖLYE
 - 2026-10-20 · REELS
 - 2026-10-21 · AYAR & REHBER
-- 2026-10-21 · ÜRÜN & MAĞAZA
 - 2026-10-21 · PROJE & ATÖLYE
 - 2026-10-21 · REELS
