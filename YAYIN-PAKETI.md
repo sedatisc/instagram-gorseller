@@ -822,6 +822,28 @@ Katılmak için profildeki linke dokunman yeterli. Ücretsiz, istediğin an çı
 
 # 2026-10-19 · Pazartesi
 
+## 08:12 · AYAR & REHBER
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-heat-set-insert"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-heat-set-insert/1.jpg" width="240"></a>
+
+**[2026-10-19-heat-set-insert](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-heat-set-insert)** · 4 kare · hikaye 08:52
+
+```
+3D baskıda vidalı birleşim için heat-set insert kullanmak, plastiğe doğrudan vida atmaktan farklı bir iş. Doğrudan atılan vida üç-dört sökmede dişi sıyırıyor; pirinç insert aynı deliği kalıcı dişe çeviriyor. Ama işi bitiren şey insert değil, deliğin baştan doğru çizilmesi.
+
+Delik çapı insert'in dış çapından küçük olacak. Eriyen plastiğin tırtılların arasına dolup kilitlenmesi buna bağlı. M3'te 4,0 mm, M4'te 5,6 mm yaygın ölçü — ama her markanın tırtıl çapı aynı değil, eldeki insert'i kumpasla ölçmek on saniye sürüyor. Derinlik insert boyundan 0,5 mm fazla olsun; taşan erimiş plastiğin gidecek yeri kalsın.
+
+Havyayı ısıt, bastırma. PLA'da 200-220 °C, PETG ve ABS'de 230-250 °C iş görüyor. Insert kendi ağırlığıyla insin; kuvvet uygulamak onu yan yatırıyor ve eğik oturan insert'te vida dişi tutmuyor, parça sökülürken insert içeriden dönüyor. Gönye kaçtıysa plastik sıcakken geri çıkar, soğumasını bekleyip yeniden dene.
+
+Çevresinde en az 2 mm malzeme kalsın. İnce cidarda sıcak pirinç duvarı şişiriyor ve dış yüzeyde kabarma çıkıyor. Oturma yüzeyin 0,2 mm altında bitsin — taşan insert iki parçayı birbirine oturtmuyor.
+
+Her yere insert gerekmiyor: bir kez monte edilip bir daha sökülmeyecek bir yerde doğrudan vida ya da kendinden kılavuzlu plastik vida yeterli. Insert sökülüp takılacak kapaklarda, pil bölmelerinde ve montaj yüzeylerinde kazandırıyor.
+
+Bastığı kutunun kapağını üçüncü açışta dişi sıyıran bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #3dprinting #heatsetinsert #3dbaskiturkiye
+```
+
 ## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-banyo-duzeni"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-banyo-duzeni/1.jpg" width="240"></a>
@@ -880,6 +902,28 @@ Hepsi sermenkreatif.com'da; güncel fiyat ve seçenekler orada.
 Ne basmak istiyorsun, yaz — hangisinin işini göreceğini söyleyeyim.
 
 #sermenkreatif #3dbaski #3dyazici #bambulab #creality #snapmaker #3dbaskiturkiye #makerturkiye #samsun
+```
+
+## 19:40 · PROJE & ATÖLYE
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-oyuncak-yol-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-oyuncak-yol-seti/1.jpg" width="240"></a>
+
+**[2026-10-19-oyuncak-yol-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-oyuncak-yol-seti)** · 5 kare · hikaye 20:20
+
+```
+Modüler oyuncak yol seti tasarımında işi bitiren şey parçaların şekli değil; tek bir ızgara ölçüsü ve tek bir geçme boşluğu. Her parça her parçaya oturacaksa bu iki sayı baştan sabitleniyor.
+
+Önce ızgara adımı seçiliyor. 80 mm seçildiyse düz yol 80, viraj 80, kavşak 160 mm oluyor; her parçanın kenarı aynı noktaya denk geldiği için aylar sonra eklenen parça da sete uyuyor. Adımı baskı tablasına göre seç — tablaya tam sığmayan modül bütün seti bölmeye zorluyor.
+
+Geçme boşluğu bir kere belirleniyor. Elle takılıp çıkarılacak bir birleşimde kenar başına 0,3 mm iyi bir başlangıç, ama bu sayı yazıcıya, nozul çapına ve malzemeye göre kayıyor. 24 parçayı basmadan önce yalnız iki uçlu bir test parçası bas ve elinde dene: sıkıysa 0,05 mm adımlarla aç, gevşekse kapat. Oturan değer bütün sette aynı kalacak.
+
+Bağlantı tek tip ve simetrik olacak. Her kenarda aynı pim çapı, aynı yuva, aynı konum dursun. Bir ucu erkek bir ucu dişi yaparsan kombinasyon sayısı yarıya düşüyor ve çocuk parçayı ters çevirince takamıyor. Pimi parçanın gövdesinden çıkarmak yerine ayrı basılan 6 mm pim kullanmak, kırılanı değiştirmeyi kolaylaştırıyor.
+
+Oyuncak olduğunu tasarımda hatırla: keskin köşe bırakma, kenarlara 1 mm pah ver, üç yaş altı için kopup ağza girebilecek küçük parça ve ince pim tasarlama. Malzeme PLA ya da PETG; PETG düşmeye daha dayanıklı, PLA daha ölçülü çıkıyor. Yatay basılan ince plaka katman arasından kırılıyor — plakayı 4 mm'den ince yapma, dolguyu %25'in altına indirme.
+
+Çocuğuna oyuncak basmak isteyip nereden başlayacağını bilmeyen bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #maker #3dbaski #oyuncaktasarimi #makerturkiye
 ```
 
 ---

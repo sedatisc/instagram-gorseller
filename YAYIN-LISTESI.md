@@ -126,12 +126,14 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 08:12 | — | **AYAR & REHBER** | _boş — üretilecek_ | — |
+| 08:12 | Gönderi | AYAR & REHBER | `2026-10-19-heat-set-insert` | 4 |
+| 08:52 | Hikaye | AYAR & REHBER | `2026-10-19-heat-set-insert/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-19-banyo-duzeni` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-19-banyo-duzeni/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-19-yazicilar` | 8 |
 | 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-19-yazicilar/hikaye.jpg` | 1 |
-| 19:40 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
+| 19:40 | Gönderi | PROJE & ATÖLYE | `2026-10-19-oyuncak-yol-seti` | 5 |
+| 20:20 | Hikaye | PROJE & ATÖLYE | `2026-10-19-oyuncak-yol-seti/hikaye.jpg` | 1 |
 | 21:10 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2026-10-20 · Salı
@@ -163,8 +165,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 
 Bu slotlar için içerik henüz üretilmedi:
 
-- 2026-10-19 · AYAR & REHBER
-- 2026-10-19 · PROJE & ATÖLYE
 - 2026-10-19 · REELS
 - 2026-10-20 · PROJE & ATÖLYE
 - 2026-10-20 · REELS

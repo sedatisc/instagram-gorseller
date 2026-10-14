@@ -21,7 +21,8 @@
    17,
    18,
    19,
-   20
+   20,
+   21
   ],
   "elektronik": [
    1,
@@ -69,7 +70,8 @@
    19,
    20,
    21,
-   22
+   22,
+   23
   ]
  },
  "gecmis": [
@@ -521,6 +523,11 @@
    },
    {
     "tarih": "2026-10-19",
+    "slot": "3dbaski",
+    "klasor": "2026-10-19-heat-set-insert"
+   },
+   {
+    "tarih": "2026-10-19",
     "slot": "baski",
     "klasor": "2026-10-19-banyo-duzeni"
    },
@@ -528,6 +535,11 @@
     "tarih": "2026-10-19",
     "slot": "urun",
     "klasor": "2026-10-19-yazicilar"
+   },
+   {
+    "tarih": "2026-10-19",
+    "slot": "proje",
+    "klasor": "2026-10-19-oyuncak-yol-seti"
    },
    {
     "tarih": "2026-10-20",
