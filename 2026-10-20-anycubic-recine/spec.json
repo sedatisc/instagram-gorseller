@@ -1,0 +1,161 @@
+{
+ "kategori": "3dbaski",
+ "tip": "grup",
+ "renk": "mor",
+ "baslik": "Anycubic reçineler",
+ "alt": "Altı reçine, altı ayrı iş. Hepsi 1 kg, 405 nm.",
+ "spot": "6 reçine · hepsi 1 kg",
+ "kunye": "Hangisini basıyorsun?",
+ "urunler": [
+  {
+   "slug": "anycubic-standard-resin-v2-gri-1-kg-18535",
+   "ad": "Standard Resin V2 — Gri",
+   "etiket": "reçine",
+   "renk": "mavi",
+   "satir": "Günlük iş. Maket, figür, prototip. Şişeyi ilk kez açan buradan başlasın; pozlaması affedici.",
+   "ozellik": [
+    [
+     "TİP",
+     "Standart"
+    ],
+    [
+     "SERTLİK",
+     "Shore D 79"
+    ],
+    [
+     "KATMAN POZLAMA",
+     "2 – 3 sn"
+    ],
+    [
+     "EĞİLME",
+     "≈ 60 MPa"
+    ]
+   ]
+  },
+  {
+   "slug": "anycubic-high-speed-2.0-resin-gri-1-kg-18546",
+   "ad": "High Speed 2.0 — Gri",
+   "etiket": "reçine",
+   "renk": "turuncu",
+   "satir": "Katman pozlaması 1-2 saniye, standardın yarısı. Aynı modeli yarı sürede çıkarıyor; seri basan için.",
+   "ozellik": [
+    [
+     "TİP",
+     "Yüksek hızlı"
+    ],
+    [
+     "KATMAN POZLAMA",
+     "1 – 2 sn"
+    ],
+    [
+     "İLK KATMAN",
+     "15 – 25 sn"
+    ],
+    [
+     "SERTLİK",
+     "Shore D 80"
+    ]
+   ]
+  },
+  {
+   "slug": "anycubic-tough-2.0-gri-resin-1-kg-18387",
+   "ad": "Tough 2.0 — Gri",
+   "etiket": "reçine",
+   "renk": "kirmizi",
+   "satir": "Kırılgan değil. Kopma uzaması %15, eğilme dayanımı 75 MPa — düşünce çatlamayan fonksiyonel parça buradan.",
+   "ozellik": [
+    [
+     "TİP",
+     "Tough"
+    ],
+    [
+     "SERTLİK",
+     "Shore D 85"
+    ],
+    [
+     "EĞİLME",
+     "≈ 75 MPa"
+    ],
+    [
+     "UZAMA",
+     "≈ %15"
+    ]
+   ]
+  },
+  {
+   "slug": "anycubic-high-clear-resin-1-kg-18544",
+   "ad": "High Clear Resin",
+   "etiket": "reçine",
+   "renk": "turkuaz",
+   "satir": "Yüksek şeffaflık. Lens, kapak, su efekti ve ışık geçiren parça; cilalandığında cam gibi duruyor.",
+   "ozellik": [
+    [
+     "TİP",
+     "Yüksek şeffaflık"
+    ],
+    [
+     "SERTLİK",
+     "Shore D 80"
+    ],
+    [
+     "KATMAN POZLAMA",
+     "2,5 – 4 sn"
+    ],
+    [
+     "VİSKOZİTE",
+     "150 – 250 mPa·s"
+    ]
+   ]
+  },
+  {
+   "slug": "anycubic-abs-like-resin-2.0-hd-gray-1-kg-18752",
+   "ad": "ABS Like 2.0 — HD Gri",
+   "etiket": "reçine",
+   "renk": "yesil",
+   "satir": "Suyla yıkanıyor: alkol derdi yok. ABS'ye yakın tokluk, 365-405 nm bandında çalışıyor.",
+   "ozellik": [
+    [
+     "TİP",
+     "ABS Like · su ile yıkanır"
+    ],
+    [
+     "EĞİLME",
+     "50 – 60 MPa"
+    ],
+    [
+     "MODÜL",
+     "1400 – 1600 MPa"
+    ],
+    [
+     "DALGA BOYU",
+     "365 – 405 nm"
+    ]
+   ]
+  },
+  {
+   "slug": "anycubic-dlp-craftsman-gri-resin-1-kg-18397",
+   "ad": "DLP Craftsman — Gri",
+   "etiket": "reçine",
+   "renk": "pembe",
+   "satir": "DLP makineler için karılmış. Pozlama 1,5-3 saniye; ince detayda kenarları keskin bırakıyor.",
+   "ozellik": [
+    [
+     "TİP",
+     "DLP / Craftsman"
+    ],
+    [
+     "KATMAN POZLAMA",
+     "1,5 – 3 sn"
+    ],
+    [
+     "SERTLİK",
+     "Shore D 82"
+    ],
+    [
+     "EĞİLME",
+     "≈ 65 MPa"
+    ]
+   ]
+  }
+ ]
+}

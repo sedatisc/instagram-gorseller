@@ -1,0 +1,145 @@
+{
+ "kategori": "3dbaski",
+ "tip": "grup",
+ "renk": "turuncu",
+ "baslik": "Hangi yazıcı kime",
+ "alt": "Giriş seviyesinden atölyeye altı makine. Hepsi orijinal ve faturalı.",
+ "spot": "6 makine · hepsi sermenkreatif.com'da",
+ "kunye": "Hangisi sana uyar?",
+ "urunler": [
+  {
+   "slug": "creality-ender-3-v4-combo",
+   "ad": "Creality Ender-3 V4 Combo",
+   "etiket": "3D yazıcı",
+   "renk": "yesil",
+   "satir": "Giriş seviyesi. Ender serisinin bu kuşağı 500 mm/s'ye çıkıyor, Combo paketi CFS besleme ünitesiyle dört renge kadar basıyor.",
+   "ozellik": [
+    [
+     "SERİ",
+     "Ender-3"
+    ],
+    [
+     "PAKET",
+     "CFS · 4 slot"
+    ]
+   ]
+  },
+  {
+   "slug": "bambulab-a1-combo",
+   "ad": "Bambu Lab A1 Combo",
+   "etiket": "3D yazıcı",
+   "renk": "mavi",
+   "satir": "Ev ve masa üstü için en dengeli makine. Açık gövde, AMS Lite ile dört renk. PLA ve PETG'de hiç uğraştırmıyor.",
+   "ozellik": [
+    [
+     "BASKI HACMİ",
+     "256 × 256 × 256 mm"
+    ],
+    [
+     "GÖVDE",
+     "Açık gövde"
+    ],
+    [
+     "HIZ",
+     "500 mm/s"
+    ],
+    [
+     "NOZUL",
+     "300 °C"
+    ]
+   ]
+  },
+  {
+   "slug": "creality-k1c",
+   "ad": "Creality K1C",
+   "etiket": "3D yazıcı",
+   "renk": "kirmizi",
+   "satir": "Kapalı kabin ve sertleştirilmiş nozul hazır geliyor: karbon elyaflı filamenti kutudan çıkar çıkmaz basıyor.",
+   "ozellik": [
+    [
+     "BASKI HACMİ",
+     "220 × 220 × 250 mm"
+    ],
+    [
+     "YAPI",
+     "CoreXY"
+    ],
+    [
+     "GÖVDE",
+     "Kapalı · sert nozul"
+    ],
+    [
+     "HIZ",
+     "600 mm/s"
+    ]
+   ]
+  },
+  {
+   "slug": "bambulab-p2s-combo",
+   "ad": "Bambu Lab P2S Combo",
+   "etiket": "3D yazıcı",
+   "renk": "mor",
+   "satir": "Kapalı kabin CoreXY. Hazne pasif olarak ~50 °C'ye çıkıyor; ABS ve ASA'da köşe kalkması burada bitiyor.",
+   "ozellik": [
+    [
+     "BASKI HACMİ",
+     "256 × 256 × 256 mm"
+    ],
+    [
+     "YAPI",
+     "CoreXY"
+    ],
+    [
+     "GÖVDE",
+     "Kapalı · ~50 °C"
+    ],
+    [
+     "HIZ",
+     "600 mm/s"
+    ]
+   ]
+  },
+  {
+   "slug": "snapmaker-u1",
+   "ad": "Snapmaker U1",
+   "etiket": "3D yazıcı",
+   "renk": "turkuaz",
+   "satir": "Dört ayrı baskı kafası var: renk değişiminde filament değişmiyor, kafa değişiyor. Çok renkli baskıda atık ve süre düşüyor.",
+   "ozellik": [
+    [
+     "KAFA",
+     "4 adet, bağımsız"
+    ],
+    [
+     "FİLAMENT",
+     "1,75 mm"
+    ]
+   ]
+  },
+  {
+   "slug": "bambu-lab-h2d-3d-yazici-18682",
+   "ad": "Bambu Lab H2D",
+   "etiket": "3D yazıcı",
+   "renk": "sari",
+   "satir": "Atölye makinesi. Çift nozul, 65 °C aktif ısıtmalı hazne, 350 °C nozul — mühendislik malzemeleri bu sınıfta basılıyor.",
+   "ozellik": [
+    [
+     "BASKI HACMİ",
+     "350 × 320 × 325 mm"
+    ],
+    [
+     "YAPI",
+     "CoreXY · çift nozul"
+    ],
+    [
+     "GÖVDE",
+     "Kapalı · 65 °C aktif"
+    ],
+    [
+     "NOZUL",
+     "350 °C"
+    ]
+   ]
+  }
+ ]
+}

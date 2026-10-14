@@ -123,6 +123,13 @@ def main():
                 print("      %-28s %s" % (k[:28], d[:50]))
             # Ürün görseli /urunresimleri/ altında; ilk sıradaki çoğu
             # zaman sitenin üst banner'ı (HeaderTasarim) oluyor.
+            # "tr.jpg" sitenin "görsel yok" yer tutucusu (329x454). Ürün
+            # fotoğrafı sanıp gönderiye koyunca kamera simgesi basılıyordu.
+            v["gorsel"] = [g for g in v["gorsel"]
+                           if not g.rsplit("/", 1)[-1].lower()
+                           .startswith(("tr.jpg", "nophoto", "no-image"))]
+            if not v["gorsel"]:
+                print("   ! ÜRÜN FOTOĞRAFI YOK — sayfada yer tutucu var")
             aday = [g for g in v["gorsel"] if "urunresimleri" in g.lower()] \
                 or [g for g in v["gorsel"]
                     if "headertasarim" not in g.lower()] or v["gorsel"]

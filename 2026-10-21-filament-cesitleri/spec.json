@@ -1,0 +1,117 @@
+{
+ "kategori": "3dbaski",
+ "tip": "grup",
+ "renk": "mavi",
+ "baslik": "Hepsi PLA değil",
+ "alt": "Aynı rafta duran altı makara, altı ayrı iş yapıyor.",
+ "spot": "6 filament · hepsi 1,75 mm",
+ "kunye": "Hangisini denedin?",
+ "urunler": [
+  {
+   "slug": "creality-hyper-pla-rfid-white-18645",
+   "ad": "Hyper PLA RFID — Beyaz",
+   "etiket": "filament",
+   "renk": "turkuaz",
+   "satir": "Makaranın içinde RFID çipi var: makineye takınca cins, renk ve kalan miktarı kendisi söylüyor. Elle profil seçme derdi bitiyor.",
+   "ozellik": [
+    [
+     "SERİ",
+     "Hyper PLA RFID"
+    ],
+    [
+     "ÇAP",
+     "1,75 mm"
+    ]
+   ]
+  },
+  {
+   "slug": "creality-cr-pla-silk-rainbow-18667",
+   "ad": "CR-PLA Silk Rainbow",
+   "etiket": "filament",
+   "renk": "mor",
+   "satir": "Tek makarada renk geçişi. Vazo modunda basılan parça boydan boya renk değiştiriyor; ikinci filamente gerek yok.",
+   "ozellik": [
+    [
+     "SERİ",
+     "CR-PLA Silk"
+    ],
+    [
+     "YÜZEY",
+     "Parlak ipek"
+    ]
+   ]
+  },
+  {
+   "slug": "creality-hyper-luminous-pla-green-18303",
+   "ad": "Hyper Luminous PLA — Yeşil",
+   "etiket": "filament",
+   "renk": "yesil",
+   "satir": "Karanlıkta parlıyor. Gündüz ışığı topluyor, gece veriyor; anahtarlık, gece lambası ve oyuncakta işe yarıyor.",
+   "ozellik": [
+    [
+     "SERİ",
+     "Hyper Luminous"
+    ],
+    [
+     "ÖZELLİK",
+     "Karanlıkta parlar"
+    ]
+   ]
+  },
+  {
+   "slug": "creality-hyper-pla-cf-black-18641",
+   "ad": "Hyper PLA CF — Siyah",
+   "etiket": "filament",
+   "renk": "gri",
+   "satir": "Karbon elyaf katkılı: daha sert, daha az esneyen, mat dokulu parça. Sertleştirilmiş nozul şart, pirinç nozulu yiyor.",
+   "ozellik": [
+    [
+     "SERİ",
+     "Hyper PLA CF"
+    ],
+    [
+     "KATKI",
+     "Karbon elyaf"
+    ],
+    [
+     "NOZUL",
+     "Sertleştirilmiş şart"
+    ]
+   ]
+  },
+  {
+   "slug": "creality-hyper-foam-pla-white",
+   "ad": "Hyper Foam PLA — Beyaz",
+   "etiket": "filament",
+   "renk": "sari",
+   "satir": "Basarken köpürüyor: aynı hacimde çok daha hafif parça çıkıyor. Maket, uçak gövdesi ve taşınacak parçalar için.",
+   "ozellik": [
+    [
+     "SERİ",
+     "Hyper Foam"
+    ],
+    [
+     "ÖZELLİK",
+     "Köpürerek hafifliyor"
+    ]
+   ]
+  },
+  {
+   "slug": "panchroma-pla-filament-saten-mavi",
+   "ad": "Panchroma PLA Saten — Mavi",
+   "etiket": "filament",
+   "renk": "kirmizi",
+   "satir": "Saten yüzey: ne tam mat ne parlak. Katman izini yumuşatıyor, fotoğrafta en iyi çıkan seri bu.",
+   "ozellik": [
+    [
+     "SERİ",
+     "Panchroma Saten"
+    ],
+    [
+     "YÜZEY",
+     "Saten"
+    ]
+   ]
+  }
+ ]
+}
