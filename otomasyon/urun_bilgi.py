@@ -130,9 +130,12 @@ def main():
                            .startswith(("tr.jpg", "nophoto", "no-image"))]
             if not v["gorsel"]:
                 print("   ! ÜRÜN FOTOĞRAFI YOK — sayfada yer tutucu var")
+            # Sitenin üst banner'ı (HeaderTasarim) ürün fotoğrafı değil;
+            # yer tutucu elenince yerine o iniyordu.
+            v["gorsel"] = [g for g in v["gorsel"]
+                           if "headertasarim" not in g.lower()]
             aday = [g for g in v["gorsel"] if "urunresimleri" in g.lower()] \
-                or [g for g in v["gorsel"]
-                    if "headertasarim" not in g.lower()] or v["gorsel"]
+                or v["gorsel"]
             v["gorsel"] = aday + [g for g in v["gorsel"] if g not in aday]
             if v["gorsel"]:
                 # Ticimax CDN'i genişliği adreste taşıyor; 698 yerine 1600
