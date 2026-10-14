@@ -1,0 +1,21 @@
+{
+ "kategori": "3dbaski",
+ "zemin": "mavi",
+ "renk": "kirmizi",
+ "ust": "SAMSUN",
+ "baslik": ["Duyduk duymadık demeyin", "Üç kategori tek adres"],
+ "alt": "Makine, filament ve reçine aynı yerden. Kurulum ve ilk ayar desteği bizden.",
+ "teklif": [["3", "dev"], ["KATEGORİ", "orta"], ["1", "dev"], ["ADRES", "orta"]],
+ "guven": ["Orijinal ve faturalı", "Kurulum desteği", "3D baskı hizmeti", "Samsun'dan kargo"],
+ "paneller": [
+  {"ad": "3D Yazıcılar", "renk": "mavi",
+   "gorsel": "urun/ham/bambulab-a1-combo.png",
+   "faydalar": [["kalkan", "Orijinal"], ["ev", "Kurulum"], ["disli", "Ayar desteği"]]},
+  {"ad": "Filamentler", "renk": "yesil",
+   "gorsel": "urun/ham/creality-cr-pla-silk-rainbow-18667.png",
+   "faydalar": [["yildiz", "Çok çeşit"], ["disli", "1,75 mm"], ["kalkan", "1 kg"]]},
+  {"ad": "Reçineler", "renk": "mor",
+   "gorsel": "urun/ham/anycubic-standard-resin-v2-gri-1-kg-18535.jpg",
+   "faydalar": [["yildiz", "405 nm"], ["kalkan", "Anycubic"], ["disli", "Pozlama"]]}
+ ]
+}
