@@ -1,0 +1,45 @@
+{
+  "kategori": "proje",
+  "zemin": "indigo",
+  "kapak": {
+    "tip": "rakam",
+    "ustbilgi": "MODÜLER OYUNCAK YOL SETİ",
+    "rakam": "0,3 mm",
+    "rakam_alt": "Bütün geçmelerdeki tek boşluk değeri",
+    "spot": "Modüler sette her parça her parçaya oturacak. Bunu sağlayan şey güzel tasarım değil; tek bir ızgara ölçüsü ve tek bir geçme boşluğu.",
+    "rozetler": [
+      ["Izgara 80 mm", "tema"],
+      ["Geçme 0,3 mm", "turuncu"],
+      ["Tek tip bağlantı", "yesil"]
+    ],
+    "tablo": [
+      ["IZGARA ADIMI", "80 mm"],
+      ["GEÇME BOŞLUĞU", "0,3 mm"],
+      ["PİM ÇAPI", "6 mm"],
+      ["PLAKA KALINLIĞI", "4 mm"],
+      ["İLK BASKI", "2 uçlu test parçası"]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Önce ızgarayı seç",
+      "aciklama": "Modüler setin ilk kararı parçanın şekli değil, ızgara adımı. 80 mm seçildiyse düz yol 80, viraj 80, kavşak 160 mm oluyor; her parçanın kenarı aynı noktaya denk geldiği için sonradan eklenen parça da sete uyuyor. Adımı baskı tablasına göre seç.",
+      "vurgu": [100, 60, 1810, 220]
+    },
+    {
+      "baslik": "Boşluğu bir kere belirle",
+      "aciklama": "İki parçanın elle takılıp çıkarılması için kenar başına 0,3 mm iyi bir başlangıç. Bu sayı yazıcıya, nozul çapına ve malzemeye göre kayıyor: 24 parçayı basmadan önce yalnız iki uçlu bir test parçası bas. Sıkıysa 0,05 mm adımlarla aç.",
+      "vurgu": [100, 226, 1810, 384]
+    },
+    {
+      "baslik": "Bağlantıyı tek tip yap",
+      "aciklama": "Her kenarda aynı bağlantı dursun: aynı pim çapı, aynı yuva, aynı konum. Bir ucu erkek bir ucu dişi yaparsan kombinasyon yarıya düşüyor, çocuk ters çevirince takamıyor. Ayrı basılan 6 mm pim, kırılanı değiştirmeyi kolaylaştırıyor.",
+      "vurgu": [100, 390, 1810, 548]
+    },
+    {
+      "baslik": "Oyuncak olduğunu unutma",
+      "aciklama": "Keskin köşe bırakma, kenarlara 1 mm pah ver. Üç yaş altı için kopup ağza girebilecek küçük parça ve ince pim tasarlama. Malzeme PLA ya da PETG; PETG düşmeye dayanıklı, PLA daha ölçülü çıkıyor. Plakayı 4 mm'den ince yapma.",
+      "vurgu": [100, 554, 1810, 875]
+    }
+  ]
+}

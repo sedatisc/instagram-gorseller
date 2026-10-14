@@ -1,0 +1,71 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "izgara",
+    "satir1": "SÖKÜLECEK PARÇADA",
+    "satir2": "VİDA NEREYE GİRER?",
+    "spot": "Plastiğe doğrudan atılan vida üç-dört sökmede dişi sıyırıyor. Pirinç insert aynı deliği kalıcı dişe çeviriyor — ama deliğin baştan doğru çizilmesi gerekiyor.",
+    "kartlar": [
+      {
+        "etiket": "M3 DELİK ÇAPI",
+        "deger": "4,0 mm",
+        "alt": "En yaygın M3 insert'i için; delik derinliği 6,0 mm.",
+        "renk": "mavi",
+        "ikon": "olcu"
+      },
+      {
+        "etiket": "M4 DELİK ÇAPI",
+        "deger": "5,6 mm",
+        "alt": "Derinlik 8,0 mm; insert boyundan 0,5 mm fazla.",
+        "renk": "turuncu",
+        "ikon": "nozzle"
+      },
+      {
+        "etiket": "HAVYA SICAKLIĞI",
+        "deger": "200-220 °C",
+        "alt": "PLA için. PETG, ABS ve ASA'da 230-250 °C.",
+        "renk": "kirmizi",
+        "ikon": "isi"
+      },
+      {
+        "etiket": "ÇEVRE ET KALINLIĞI",
+        "deger": "2 mm",
+        "alt": "Insert'in çevresinde en az bu kadar malzeme kalsın.",
+        "renk": "yesil",
+        "ikon": "duvar"
+      },
+      {
+        "etiket": "OTURMA DERİNLİĞİ",
+        "deger": "0,2 mm",
+        "alt": "Yüzeyin bu kadar altında kalsın, dışarı taşmasın.",
+        "renk": "mor",
+        "ikon": "katman"
+      },
+      {
+        "etiket": "PLASTİĞE DİREKT VİDA",
+        "deger": "3-4 KEZ",
+        "alt": "Doğrudan atılan vida bu kadar sökülüp takılıyor.",
+        "renk": "sari",
+        "ikon": "uyari"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Deliği insert'e göre çiz",
+      "aciklama": "Delik çapı insert'in dış çapından küçük olacak: eriyen plastiğin tırtılların arasına dolup kilitlenmesi buna bağlı. M3'te 4,0 mm, M4'te 5,6 mm yaygın ölçü. Her markanın tırtıl çapı aynı değil — eldeki insert'i kumpasla ölç. Derinlik insert boyundan 0,5 mm fazla olsun.",
+      "vurgu": [100, 60, 1810, 330]
+    },
+    {
+      "baslik": "Havyayı ısıt, bastırma",
+      "aciklama": "Insert'i havyanın ucuna geçir, deliğe otur ve kendi ağırlığıyla inmesini bekle. PLA'da 200-220 °C, PETG ve ABS'de 230-250 °C iş görüyor. Kuvvet uygulamak insert'i yan yatırıyor; eğik oturan insert'te vida dişi tutmuyor. Gönye kaçtıysa plastik sıcakken geri çıkar.",
+      "vurgu": [100, 336, 1810, 600]
+    },
+    {
+      "baslik": "Çevresine 2 mm et bırak",
+      "aciklama": "Insert'in çevresinde en az 2 mm malzeme kalsın; ince cidarda sıcak pirinç duvarı şişiriyor. Oturma yüzeyin 0,2 mm altında bitsin, taşan insert iki parçayı oturtmuyor. Bir kez monte edilip bırakılacak yerde insert'e gerek yok, doğrudan vida yeterli.",
+      "vurgu": [100, 606, 1810, 875]
+    }
+  ]
+}
