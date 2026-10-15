@@ -1,0 +1,169 @@
+{
+ "kategori": "proje",
+ "zemin": "kobalt",
+ "kapak": {
+  "tip": "izgara",
+  "satir1": "FPV DRONE KURULUMU:",
+  "satir2": "CINELOG20 NE İSTİYOR?",
+  "spot": "GEPRC CineLog20 kutudan uçmaya hazır çıkmıyor: batarya, alıcı ve gözlük eşleşmesi ayrı kurulum. Kurulumu bitiren rakamlar burada.",
+  "kartlar": [
+   {
+    "etiket": "AKS AÇIKLIĞI",
+    "deger": "100 mm",
+    "alt": "2 inç sınıfı; kafes gövdeye dahil.",
+    "renk": "mavi",
+    "ikon": "olcu"
+   },
+   {
+    "etiket": "MOTOR",
+    "deger": "5500 KV",
+    "alt": "GR1303.5 motor; 4S ile eşleşiyor.",
+    "renk": "turuncu",
+    "ikon": "dis"
+   },
+   {
+    "etiket": "BATARYA",
+    "deger": "4S 660 mAh",
+    "alt": "LiHV. 450 mAh de uçuyor, süre kısalıyor.",
+    "renk": "yesil",
+    "ikon": "pil"
+   },
+   {
+    "etiket": "UÇUŞ SÜRESİ",
+    "deger": "4-6 dk",
+    "alt": "660 mAh ile. Sınıfın normali.",
+    "renk": "sari",
+    "ikon": "zaman"
+   },
+   {
+    "etiket": "ESC AKIMI",
+    "deger": "35 A",
+    "alt": "Taker G4 AIO kart üzerinde.",
+    "renk": "kirmizi",
+    "ikon": "cip"
+   },
+   {
+    "etiket": "BOŞ AĞIRLIK",
+    "deger": "140 g",
+    "alt": "TBS Nano RX sürümü, batarya hariç ağırlık.",
+    "renk": "mor",
+    "ikon": "terazi"
+   }
+  ],
+  "ustbilgi": "FPV KURULUM"
+ },
+ "slaytlar": [
+  {
+   "baslik": "Kutudan ne çıkıyor, ne çıkmıyor",
+   "aciklama": "PNP ve BNF aynı uçak değil: PNP'de alıcı yok, onu sen lehimliyorsun. Batarya hiçbir sürümde kutuda gelmiyor.",
+   "tablo": [
+    [
+     "PNP",
+     "alıcı takılı değil, kendin lehimliyorsun"
+    ],
+    [
+     "BNF",
+     "ELRS 2,4 GHz, TBS Nano RX ya da R-XSR takılı"
+    ],
+    [
+     "VİDEO",
+     "O3 Air Unit ve O3 kamera gövdede"
+    ],
+    [
+     "BATARYA",
+     "kutuda yok; 4S LiHV ayrı alınıyor"
+    ],
+    [
+     "PERVANE",
+     "EMAX Avan Micro 2 inç, dört kanat"
+    ],
+    [
+     "YEDEK",
+     "ilk kıracağın parça pervane ve kafes"
+    ]
+   ]
+  },
+  {
+   "baslik": "İki ayrı bağ kuruluyor",
+   "aciklama": "Kumanda bağı ile video bağı birbirinden bağımsız. ELRS kumandayla, O3 gözlükle eşleşiyor; biri çalışırken diğeri kurulmamış olabiliyor.",
+   "tablo": [
+    [
+     "KUMANDA BAĞI",
+     "ELRS bind phrase ile eşleşiyor"
+    ],
+    [
+     "TBS SEÇENEĞİ",
+     "Nano RX; Crossfire ve Tracer tarafı"
+    ],
+    [
+     "VİDEO BAĞI",
+     "O3 doğrudan gözlükle eşleşiyor"
+    ],
+    [
+     "FAILSAFE",
+     "bağ koparsa motorlar kesilecek"
+    ],
+    [
+     "İLK KURULUM",
+     "pervaneler sökülü halde yapılıyor"
+    ],
+    [
+     "GYRO",
+     "ICM 42688-P; kart düz dururken kalibre"
+    ]
+   ]
+  },
+  {
+   "baslik": "Batarya seçimi süreyi belirliyor",
+   "aciklama": "4S LiHV hücre başına 4,35 V'a şarj oluyor; normal LiPo şarjında uçak eksik dolu kalkıyor. Kapasite arttıkça ağırlık da artıyor.",
+   "tablo": [
+    [
+     "HÜCRE",
+     "4S LiHV"
+    ],
+    [
+     "KAPASİTE",
+     "450-660 mAh"
+    ],
+    [
+     "SÜRE",
+     "660 mAh ile 4-6 dakika"
+    ],
+    [
+     "ŞARJ GERİLİMİ",
+     "hücre başına 4,35 V"
+    ],
+    [
+     "İNİŞ SINIRI",
+     "hücre başına 3,5 V'a inince in"
+    ],
+    [
+     "AĞIRLIK",
+     "boş gövde 140 g, batarya üstüne biniyor"
+    ]
+   ]
+  },
+  {
+   "baslik": "İlk uçuştan önce son dört kontrol",
+   "aciklama": "Cinewhoop kapalı alanda uçuyor; hata payı küçük. Bu dördü yapılmadan pervane takılmıyor.",
+   "satirlar": [
+    [
+     "PERVANE YÖNÜ",
+     "Dört kanatlı pervanede yön karışıyor; her motorun dönüş yönüyle eşleştir"
+    ],
+    [
+     "FAILSAFE TESTİ",
+     "Kumandayı kapat, motorların kesildiğini pervane sökülüyken gör"
+    ],
+    [
+     "UÇUŞ MODU",
+     "İlk uçuş angle modunda; acro moda gövde tanındıktan sonra geçilir"
+    ],
+    [
+     "AĞIRLIK SINIFI",
+     "Batarya ile toplam ağırlığı tart; kayıt ve izin şartı ağırlığa bağlı, güncelini SHGM'den doğrula"
+    ]
+   ]
+  }
+ ]
+}
