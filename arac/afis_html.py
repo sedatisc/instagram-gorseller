@@ -35,11 +35,16 @@ def _gorsel(yol):
 
 
 STIL = """
-.slide{background:radial-gradient(120%% 80%% at 50%% 8%%,
-  #1b2a55 0%%, #0d1430 45%%, #070b1a 100%%);color:#fff}
-.isin{position:absolute;inset:-40%% -20%% auto -20%%;height:120%%;
-  background:repeating-conic-gradient(from 0deg at 50%% 22%%,
-    rgba(255,211,46,.07) 0deg 9deg, transparent 9deg 30deg)}
+/* Zemin: düz lacivert + başlığın arkasında tek yumuşak hâle.
+   Işın deseni (repeating-conic-gradient) sert kenarlı dilimler
+   yapıyordu; JPEG sıkıştırması da üstüne binince zemin kirli
+   görünüyordu. Doku yerine ince ve eşit nokta ızgarası var. */
+.slide{color:#fff;background:
+    radial-gradient(70%% 42%% at 50%% 16%%,
+      rgba(90,125,210,.34) 0%%, rgba(90,125,210,0) 70%%),
+    radial-gradient(circle at 1px 1px,
+      rgba(255,255,255,.055) 1px, transparent 1.6px) 0 0/22px 22px,
+    linear-gradient(180deg, #16224a 0%%, #101a36 46%%, #0a1026 100%%)}
 .ust{display:flex;justify-content:space-between;align-items:center;
   padding:30px 36px 0;position:relative}
 .ust .marka{font-weight:600;font-size:29px;letter-spacing:-.01em}
@@ -142,7 +147,6 @@ def html_kur(spec):
                     spec.get("cagri_alt", "Samsun'dan Türkiye'nin her yerine")))
 
     govde = (
-        '<div class="isin"></div>'
         '<header class="ust"><div class="marka"><i>●</i> sermenkreatif</div>'
         '<div class="yer">%s</div></header>'
         '<div class="bas"><h1>%s</h1><div class="kurdele"><h2>%s</h2></div>'
