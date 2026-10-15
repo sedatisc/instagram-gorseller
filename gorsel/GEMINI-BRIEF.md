@@ -170,12 +170,12 @@ oluyor. Zeminin ortası boş kalmalı, yoksa ürün bir şeyin üstüne oturuyor
 ## 2 · Kampanya afişi — koda yaptırılıyor
 
 Gösterdiğin bayi afişi düzeni (üstte bağıran başlık, üç renkli kategori
-paneli, altta büyük teklif şeridi, en altta güven şeridi) `arac/kampanya.py`
+paneli, altta büyük teklif şeridi, en altta güven şeridi) `arac/afis_html.py`
 ile çıkıyor. Gemini'ye gerek yok; metin ve fiyat yazısının birebir doğru
 olması gerekiyor, üretilen görselde harf bozuluyor.
 
 ```
-python3 arac/kampanya.py <spec.json> <cikti.jpg> [<hikaye.jpg>]
+python3 arac/afis_html.py <spec.json> <cikti.jpg>
 ```
 
 spec alanları:

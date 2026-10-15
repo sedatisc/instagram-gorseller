@@ -60,7 +60,7 @@ Fotoğraf kendi ürün sayfasından, rakamlar iki kaynaktan doğrulanıyor.
 
 Kategori sayfasında 108 ürün sayıldı, bugüne kadar hiçbiri
 paylaşılmadı. En kolay içerik burası: ürün zaten basılmış, fotoğrafı
-zaten çekilmiş. Şablon `arac/urun_karti.py`; ürünün slug'ı yazılınca
+zaten çekilmiş. Şablon `arac/kart_html.py`; ürünün slug'ı yazılınca
 ad, fiyat ve fotoğraf ürün sayfasından geliyor.
 
 | Tarih | Grup | Durum |
