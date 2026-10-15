@@ -146,8 +146,9 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-20-makyaj-ve-taki/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-20-anycubic-recine` | 7 |
 | 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-20-anycubic-recine/hikaye.jpg` | 1 |
-| 19:36 | **Reels** | — | _boş — üretilecek_ | — |
-| 20:42 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
+| 19:36 | **Reels** | — | `2026-10-20-fpv-drone-cinelog20/reels.mp4` | video |
+| 20:42 | Gönderi | PROJE & ATÖLYE | `2026-10-20-fpv-drone-cinelog20` | 5 |
+| 21:22 | Hikaye | PROJE & ATÖLYE | `2026-10-20-fpv-drone-cinelog20/hikaye.jpg` | 1 |
 
 ## 2026-10-21 · Çarşamba
 
@@ -166,8 +167,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 Bu slotlar için içerik henüz üretilmedi:
 
 - 2026-10-19 · REELS
-- 2026-10-20 · PROJE & ATÖLYE
-- 2026-10-20 · REELS
 - 2026-10-21 · AYAR & REHBER
 - 2026-10-21 · PROJE & ATÖLYE
 - 2026-10-21 · REELS

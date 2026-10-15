@@ -1018,6 +1018,34 @@ Hangi reçineyi kullanıyorsun, yoruma yaz.
 #sermenkreatif #3dbaski #recine #resin #anycubic #slabaski #3dbaskiturkiye #makerturkiye #samsun
 ```
 
+## 19:36 · REELS — [2026-10-20-fpv-drone-cinelog20/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-fpv-drone-cinelog20)
+
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
+
+## 20:42 · PROJE & ATÖLYE
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-fpv-drone-cinelog20"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-20-fpv-drone-cinelog20/1.jpg" width="240"></a>
+
+**[2026-10-20-fpv-drone-cinelog20](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-fpv-drone-cinelog20)** · 5 kare · hikaye 21:22
+
+```
+FPV drone kurulumu GEPRC CineLog20'de üç ayrı işe bölünüyor: gövde uçmaya hazır geliyor, eksik olan batarya, alıcı ve gözlük eşleşmesi.
+
+Gövde → 100 mm aks açıklığı, 2 inç dört kanatlı pervane, GR1303.5 5500KV motor. Taker G4 AIO kart 35 A ESC ile geliyor.
+
+Alıcı → BNF sürümlerde ELRS 2,4 GHz, TBS Nano RX ya da R-XSR takılı. PNP sürümde alıcı yok, onu sen lehimliyorsun.
+
+Video → DJI O3 Air Unit gözlükle kendi arasında eşleşiyor. Kumanda bağı ile video bağı ayrı kuruluyor; biri çalışırken diğeri kurulmamış olabiliyor.
+
+Batarya hiçbir sürümde kutudan çıkmıyor: 4S LiHV, 450-660 mAh. 660 mAh ile uçuş süresi 4-6 dakika. LiHV hücre başına 4,35 V'a şarj oluyor, normal LiPo şarjında uçak eksik dolu kalkıyor.
+
+İlk uçuştan önce failsafe'i pervaneler sökülüyken dene: kumandayı kapat, motorların kesildiğini gör. Batarya ile toplam ağırlığı da tart — kayıt ve izin şartı ağırlığa bağlı, güncelini SHGM'den doğrula.
+
+FPV'ye yeni başlayan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #maker #fpv #cinewhoop #makerturkiye
+```
+
 ---
 
 # 2026-10-21 · Çarşamba

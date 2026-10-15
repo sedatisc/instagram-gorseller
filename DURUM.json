@@ -71,7 +71,8 @@
    20,
    21,
    22,
-   23
+   23,
+   24
   ]
  },
  "gecmis": [
@@ -565,6 +566,11 @@
     "tarih": "2026-10-21",
     "slot": "urun",
     "klasor": "2026-10-21-filament-cesitleri"
+   },
+   {
+    "tarih": "2026-10-20",
+    "slot": "proje",
+    "klasor": "2026-10-20-fpv-drone-cinelog20"
    }
   ],
   "reels": [
@@ -599,6 +605,10 @@
    {
     "tarih": "2026-10-18",
     "klasor": "2026-10-18-ender-3-v4-combo"
+   },
+   {
+    "tarih": "2026-10-20",
+    "klasor": "2026-10-20-fpv-drone-cinelog20"
    }
   ],
   "beklemede": [],
