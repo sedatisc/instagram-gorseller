@@ -22,7 +22,8 @@
    18,
    19,
    20,
-   21
+   21,
+   22
   ],
   "elektronik": [
    1,
@@ -72,7 +73,8 @@
    21,
    22,
    23,
-   24
+   24,
+   25
   ]
  },
  "gecmis": [
@@ -571,6 +573,16 @@
     "tarih": "2026-10-20",
     "slot": "proje",
     "klasor": "2026-10-20-fpv-drone-cinelog20"
+   },
+   {
+    "tarih": "2026-10-21",
+    "slot": "3dbaski",
+    "klasor": "2026-10-21-ams-israf"
+   },
+   {
+    "tarih": "2026-10-21",
+    "slot": "proje",
+    "klasor": "2026-10-21-pi5-ekran-standi"
    }
   ],
   "reels": [
@@ -609,6 +621,10 @@
    {
     "tarih": "2026-10-20",
     "klasor": "2026-10-20-fpv-drone-cinelog20"
+   },
+   {
+    "tarih": "2026-10-21",
+    "klasor": "2026-10-21-ams-israf"
    }
   ],
   "beklemede": [],

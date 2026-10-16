@@ -1050,6 +1050,30 @@ FPV'ye yeni başlayan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 # 2026-10-21 · Çarşamba
 
+## 08:12 · AYAR & REHBER
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-ams-israf/1.jpg" width="240"></a>
+
+**[2026-10-21-ams-israf](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf)** · 4 kare · hikaye 08:52
+
+```
+AMS ve MMU'da renk değişimi israfı, çok renkli baskıda çoğu zaman parçanın kendisinden pahalıya geliyor.
+
+Her renk geçişinde nozul boşaltılıyor: geçiş başına 0,3-1,5 g, dilimleyicinin varsayılan ayarıyla 280 mm³. 400 geçişli bir plakada 40-90 g temizlik atığı çıkıyor — parça 60 g ise çöpe giden ondan fazla.
+
+Maliyeti belirleyen şey parça sayısı değil geçiş sayısı; aynı plakada dokuz kopya da bassan geçişler ortak.
+
+Aynı renk ailesinde temizlik çarpanını 0,7'ye indirmek iz bırakmadan %20-30 kazandırıyor. Asıl kazanç ise atığı modelin içine basmakta: desteğe, dolguya ya da rengi görünmeyen bir nesneye. Üçü de temizlik kulesi açıkken çalışıyor.
+
+Siyahtan beyaza geçişte ve saydam filamentte çarpana dokunma; eski renk yeni katmanda gri bir leke olarak çıkıyor.
+
+@bambulab · @prusa3d
+
+Temizlik kulesini çöpe atarken içi sızlayan bir arkadaşın varsa ona yolla.
+
+#sermenkreatif #3dbaski #3dprinting #ams #3dbaskiturkiye
+```
+
 ## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-hediyelik"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-hediyelik/1.jpg" width="240"></a>
@@ -1108,5 +1132,33 @@ Hepsi sermenkreatif.com'da; güncel fiyat ve renk seçenekleri orada.
 Hangisini denedin, yoruma yaz.
 
 #sermenkreatif #3dbaski #filament #pla #petg #creality #polymaker #3dbaskiturkiye #makerturkiye #samsun
+```
+
+## 19:36 · REELS — [2026-10-21-ams-israf/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf)
+
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
+
+## 20:42 · PROJE & ATÖLYE
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi5-ekran-standi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-pi5-ekran-standi/1.jpg" width="240"></a>
+
+**[2026-10-21-pi5-ekran-standi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi5-ekran-standi)** · 4 kare · hikaye 21:22
+
+```
+Raspberry Pi 5 ekran standı tasarlarken model çizmeden önce ölçülerin kumpasla doğrulanması gerekiyor; kartı tutmayan standın sorunu tasarım değil, ölçü.
+
+Pi 5 kartı 85 × 56 mm. Dört vida deliği 58 × 49 mm aralıkta ve delikler 2,9 mm, yani M2.5. Resmî Touch Display 2'nin dış ölçüsü 189 × 120 mm, aktif alanı 88 × 155 mm, çözünürlüğü 720 × 1280 ve kutudan dikey çıkıyor.
+
+İkinci karar ısı: Pi 5 resmî beslemede 5,1 V 5 A, yani 27 W USB-C istiyor ve aktif soğutucuyla geliyor. Kapalı gövdede fan sıcak havayı kendi içinde dolaştırıyor — alt yüzeye giriş, üst arkaya çıkış aç.
+
+Gövdeyi PLA'dan değil PETG'den bas; PLA güneş gören masada yumuşuyor.
+
+Ekran karta tek DSI şeridi ve GPIO'dan besleme ile bağlanıyor, şeridi gerdirme. microSD yuvasını da kapatma — kart değiştirmek için standı sökmek istemezsin. Ekranı 60-70° eğimle oturt.
+
+@raspberrypi
+
+Pi'sini kitap yığınına yaslayarak kullanan bir arkadaşın varsa ona yolla.
+
+#sermenkreatif #maker #raspberrypi #pi5 #makerturkiye
 ```
 

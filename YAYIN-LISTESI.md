@@ -154,19 +154,18 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 08:12 | — | **AYAR & REHBER** | _boş — üretilecek_ | — |
+| 08:12 | Gönderi | AYAR & REHBER | `2026-10-21-ams-israf` | 4 |
+| 08:52 | Hikaye | AYAR & REHBER | `2026-10-21-ams-israf/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-21-hediyelik` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-21-hediyelik/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-21-filament-cesitleri` | 8 |
 | 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-21-filament-cesitleri/hikaye.jpg` | 1 |
-| 19:36 | **Reels** | — | _boş — üretilecek_ | — |
-| 20:42 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
+| 19:36 | **Reels** | — | `2026-10-21-ams-israf/reels.mp4` | video |
+| 20:42 | Gönderi | PROJE & ATÖLYE | `2026-10-21-pi5-ekran-standi` | 4 |
+| 21:22 | Hikaye | PROJE & ATÖLYE | `2026-10-21-pi5-ekran-standi/hikaye.jpg` | 1 |
 
 ## Boş slotlar
 
 Bu slotlar için içerik henüz üretilmedi:
 
 - 2026-10-19 · REELS
-- 2026-10-21 · AYAR & REHBER
-- 2026-10-21 · PROJE & ATÖLYE
-- 2026-10-21 · REELS
