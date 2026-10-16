@@ -1,0 +1,139 @@
+{
+  "kategori": "proje",
+  "zemin": "kiraz",
+  "kapak": {
+    "tip": "rakam",
+    "ustbilgi": "RASPBERRY PI 5 EKRAN STANDI",
+    "rakam": "58 × 49 mm",
+    "rakam_alt": "Pi 5'in dört vida deliği bu aralıkta",
+    "spot": "Masaya Pi 5 ve dokunmatik ekran koyacaksan stand çizmeden önce ölçüler belli olmalı. Kartı tutmayan modelin sorunu tasarım değil, kumpas.",
+    "rozetler": [
+      [
+        "Pi 5 · 85 × 56 mm",
+        "tema"
+      ],
+      [
+        "Touch Display 2 · 7\"",
+        "mavi"
+      ],
+      [
+        "M2.5 insert",
+        "yesil"
+      ]
+    ],
+    "tablo": [
+      [
+        "Pi 5 KARTI",
+        "85 × 56 mm"
+      ],
+      [
+        "VİDA ARALIĞI",
+        "58 × 49 mm"
+      ],
+      [
+        "VİDA",
+        "M2.5"
+      ],
+      [
+        "EKRAN DIŞ ÖLÇÜ",
+        "189 × 120 mm"
+      ],
+      [
+        "EKRAN EĞİMİ",
+        "60-70°"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Ölçüler stand çizilmeden belli",
+      "aciklama": "Pi 5 kartı 85 × 56 mm, dört vida deliği 58 × 49 mm aralıkta ve delikler 2,9 mm — yani M2.5. Resmî Touch Display 2'nin dış ölçüsü 189 × 120 mm, aktif alanı 88 × 155 mm ve kutudan dikey çıkıyor. Bu beş sayıyı kumpasla doğrula, modeli sonra çiz.",
+      "tablo": [
+        [
+          "Pi 5 KARTI",
+          "85 × 56 mm"
+        ],
+        [
+          "VİDA ARALIĞI",
+          "58 × 49 mm"
+        ],
+        [
+          "DELİK ÇAPI",
+          "2,9 mm · M2.5"
+        ],
+        [
+          "EKRAN DIŞ ÖLÇÜ",
+          "189 × 120 mm"
+        ],
+        [
+          "AKTİF ALAN",
+          "88 × 155 mm"
+        ],
+        [
+          "ÇÖZÜNÜRLÜK",
+          "720 × 1280"
+        ]
+      ]
+    },
+    {
+      "baslik": "Isı standın içinde kalmasın",
+      "aciklama": "Pi 5 resmî besleme olarak 5,1 V 5 A, yani 27 W USB-C istiyor ve aktif soğutucuyla geliyor. Kapalı bir kutuya gömersen fan sıcak havayı kendi içinde dolaştırıyor. Alt yüzeye giriş, üst arkaya çıkış aç. Gövdeyi PLA'dan değil PETG'den bas: PLA güneş gören masada yumuşuyor.",
+      "tablo": [
+        [
+          "BESLEME",
+          "5,1 V · 5 A"
+        ],
+        [
+          "GÜÇ",
+          "27 W USB-C"
+        ],
+        [
+          "SOĞUTUCU",
+          "aktif fan"
+        ],
+        [
+          "HAVA GİRİŞİ",
+          "alt yüzey"
+        ],
+        [
+          "HAVA ÇIKIŞI",
+          "üst arka"
+        ],
+        [
+          "MALZEME",
+          "PETG"
+        ]
+      ]
+    },
+    {
+      "baslik": "Kabloyu içeriden geçir",
+      "aciklama": "Ekran karta tek DSI şeridi ve GPIO'dan besleme ile bağlanıyor; şeridi gerdirme, kıvrılacak kadar pay bırak. microSD yuvasını kapatma — kart değiştirmek için standı sökmek istemezsin.",
+      "tablo": [
+        [
+          "DSI ŞERİT",
+          "kısa yol bırak"
+        ],
+        [
+          "GPIO BESLEME",
+          "ekrandan karta"
+        ],
+        [
+          "USB-C GÜÇ",
+          "yan yüzden"
+        ],
+        [
+          "microSD",
+          "erişilebilir kalsın"
+        ],
+        [
+          "HDMI · ETHERNET",
+          "kapatma"
+        ],
+        [
+          "EKRAN EĞİMİ",
+          "60-70°"
+        ]
+      ]
+    }
+  ]
+}

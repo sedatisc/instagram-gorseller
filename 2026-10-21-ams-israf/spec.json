@@ -1,0 +1,149 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "okyanus",
+  "kapak": {
+    "tip": "izgara",
+    "satir1": "DÖRT RENK BASTIN",
+    "satir2": "ÇÖPE NE GİTTİ?",
+    "spot": "AMS ve MMU renk değiştirirken nozulu her seferinde boşaltıyor. Parça masada, yanında ondan ağır bir atık yığını duruyor.",
+    "kartlar": [
+      {
+        "etiket": "BİR RENK DEĞİŞİMİ",
+        "deger": "0,3-1,5 g",
+        "alt": "Koyudan açığa geçiş en pahalısı.",
+        "renk": "turuncu",
+        "ikon": "makara"
+      },
+      {
+        "etiket": "VARSAYILAN TEMİZLİK",
+        "deger": "280 mm³",
+        "alt": "Bambu Studio'nun geçiş başına bastığı hacim.",
+        "renk": "mavi",
+        "ikon": "damla"
+      },
+      {
+        "etiket": "400 GEÇİŞLİ PLAKA",
+        "deger": "40-90 g",
+        "alt": "Parça 60 g ise atık ondan fazla.",
+        "renk": "kirmizi",
+        "ikon": "uyari",
+        "durum": "yanlis"
+      },
+      {
+        "etiket": "ÇARPANI DÜŞÜR",
+        "deger": "0,7",
+        "alt": "Aynı renk ailesinde iz bırakmıyor.",
+        "renk": "yesil",
+        "ikon": "terazi",
+        "durum": "dogru"
+      },
+      {
+        "etiket": "1 kg MAKARA",
+        "deger": "335 m",
+        "alt": "1,75 mm PLA. Atığı gramla say.",
+        "renk": "mor",
+        "ikon": "olcu"
+      },
+      {
+        "etiket": "ATIĞI İÇERİ BAS",
+        "deger": "3 YOL",
+        "alt": "Destek, dolgu ve nesne bazlı geçiş.",
+        "renk": "sari",
+        "ikon": "kup"
+      }
+    ],
+    "ustbilgi": "ÇOK RENKLİ BASKI"
+  },
+  "slaytlar": [
+    {
+      "baslik": "Atık nereden çıkıyor",
+      "aciklama": "Her renk değişiminde nozulun içindeki eski renk dışarı basılıyor; temizlik kulesi bu atığı toplayan yer. Maliyeti belirleyen şey parça sayısı değil geçiş sayısı: aynı plakada dokuz kopya da bassan geçişler ortak. Yön de fiyatı değiştiriyor, koyudan açığa geçiş en pahalısı.",
+      "tablo": [
+        [
+          "GEÇİŞ TEMİZLİĞİ",
+          "280 mm³"
+        ],
+        [
+          "TEMİZLİK KULESİ",
+          "her katmanda"
+        ],
+        [
+          "KOYU → AÇIK",
+          "en pahalı yön"
+        ],
+        [
+          "AÇIK → KOYU",
+          "en ucuz yön"
+        ],
+        [
+          "BİR DEĞİŞİM",
+          "0,3-1,5 g"
+        ],
+        [
+          "400 DEĞİŞİM",
+          "40-90 g"
+        ]
+      ]
+    },
+    {
+      "baslik": "Çarpanı nerede düşürebilirsin",
+      "aciklama": "Temizlik hacmi dilimleyicide renk çiftine göre bir tabloda duruyor ve çarpanla topluca indiriliyor. Birbirine yakın tonlarda 0,7'ye düşürmek iz bırakmıyor. Siyahtan beyaza geçişte düşürme: eski renk yeni katmanda gri bir leke olarak çıkıyor. Saydam filamentte de dokunma.",
+      "tablo": [
+        [
+          "AYNI RENK AİLESİ",
+          "0,7"
+        ],
+        [
+          "MAT → MAT",
+          "0,7-0,8"
+        ],
+        [
+          "BEYAZ → SİYAH",
+          "1,0 kalsın"
+        ],
+        [
+          "SİYAH → BEYAZ",
+          "düşürme"
+        ],
+        [
+          "SAYDAM FİLAMENT",
+          "düşürme"
+        ],
+        [
+          "KAZANÇ",
+          "%20-30"
+        ]
+      ]
+    },
+    {
+      "baslik": "Atığı modelin içine bas",
+      "aciklama": "En büyük kazanç çarpanda değil, atığın gideceği yerde. Dilimleyici geçiş malzemesini desteğe, dolguya ya da rengi görünmeyen bir nesneye basabiliyor; üçü de temizlik kulesi açıkken çalışıyor. Renk sırasını açıktan koyuya kurmak da tek başına plaka başına birkaç gram kazandırıyor.",
+      "tablo": [
+        [
+          "DESTEK GEÇİŞİ",
+          "kule şart"
+        ],
+        [
+          "PARÇA İÇİ GEÇİŞ",
+          "büyük modelde"
+        ],
+        [
+          "NESNE BAZLI",
+          "iç dişliler"
+        ],
+        [
+          "SAYDAM PARÇADA",
+          "önerilmiyor"
+        ],
+        [
+          "0,2 mm NOZUL",
+          "temizlik yavaş"
+        ],
+        [
+          "RENK SIRASI",
+          "açıktan koyuya"
+        ]
+      ]
+    }
+  ]
+}
