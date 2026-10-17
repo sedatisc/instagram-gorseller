@@ -4,11 +4,11 @@
  "kapak": {
   "tip": "pano",
   "marka_alt": "Creality SPARKX — i7 ve i8",
-  "ust_sol": "SATIŞTA · KAMPANYADA",
-  "ust_sag": "10 EKİM 2026 DURUMU",
+  "ust_sol": "RAFTA · YOLDA",
+  "ust_sag": "İKİ ÇOK RENK YOLU",
   "satir1": "SPARKX i7 Mİ",
   "satir2": "i8 Mİ?",
-  "spot": "Aynı gövde, aynı hız, aynı sıcaklık. Tek fark çok renk mekanizması — ve biri rafta, diğeri henüz kampanyada.",
+  "spot": "Aynı gövde, aynı hız, aynı sıcaklık. Tek fark çok renk mekanizması: biri harici CFS Lite ile, diğeri nozula gömülü dört kanalla.",
   "sutunlar": [
    {
     "baslik": "SPARKX i7",
@@ -44,14 +44,14 @@
      ],
      [
       "uyari",
-      "Açık gövde, kabin ısıtması yok"
+      "Açık gövde — PLA, PETG, PLA-CF ve TPU için"
      ]
     ]
    },
    {
     "baslik": "SPARKX i8",
-    "alt": "KİTLESEL FONLAMADA",
-    "renk": "turuncu",
+    "alt": "QUARTEKS · YAKINDA",
+    "renk": "mavi",
     "ikon": "zaman",
     "ozellikler": [
      [
@@ -73,23 +73,23 @@
     ],
     "kullanim": [
      [
-      "uyari",
-      "Indiegogo kampanyası — raf satışı değil"
-     ],
-     [
       "zaman",
-      "Creality sevkiyat tarihi açıklamadı"
+      "Indiegogo kampanyası sürüyor"
      ],
      [
       "terazi",
-      "Fiyat sayfada hâlâ \"3XX\" yer tutucu"
+      "Kanal değişimi bir saniyenin altında"
+     ],
+     [
+      "soru",
+      "Fiyat ve sevkiyat tarihi açıklandıkça paylaşacağız"
      ]
     ],
     "gorsel": "urun/kesik-sparkx-i8.png"
    }
   ],
-  "ipucu": "Bugün alınabilen i7. i8'in QuarTeks sistemi purge kulesini kaldırıyor ama makine kitlesel fonlamada, teslim tarihi yok.",
-  "alt_cagri": "Bugün alınabilen: SparkX i7"
+  "ipucu": "Bugün rafta olan i7. i8'in QuarTeks sistemi purge kulesini tamamen kaldırıyor; kampanyası sürüyor, çıktığında burada.",
+  "alt_cagri": "SparkX i7 sermenkreatif.com'da"
  },
  "slaytlar": [],
  "kapanis": null

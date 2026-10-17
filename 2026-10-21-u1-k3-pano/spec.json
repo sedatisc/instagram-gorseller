@@ -5,7 +5,7 @@
   "tip": "pano",
   "marka_alt": "Purge Atmadan Çok Renk — İki Mekanizma",
   "ust_sol": "KAFA DEĞİŞTİRME · NOZUL DEĞİŞTİRME",
-  "ust_sag": "BİRİ RAFTA, BİRİ YOLDA",
+  "ust_sag": "İKİ FARKLI ÇÖZÜM",
   "satir1": "ATIK ÜRETMEDEN",
   "satir2": "RENK DEĞİŞTİRMEK",
   "spot": "AMS ve CFS tipi sistemler her renk değişiminde filamenti boşa akıtıyor. İki üretici bunu farklı çözüyor: biri araç kafasının tamamını, diğeri yalnız nozul grubunu değiştiriyor.",
@@ -44,14 +44,14 @@
      ],
      [
       "uyari",
-      "Kabin standart değil; ABS ve ASA için üst kapak ayrı"
+      "ABS ve ASA için üst kapak ayrı satılıyor"
      ]
     ]
    },
    {
     "baslik": "CREALITY K3",
-    "alt": "NOZUL DEĞİŞTİRİCİ · SEVKİYAT YOK",
-    "renk": "gri",
+    "alt": "NOZUL DEĞİŞTİRİCİ · YAKINDA",
+    "renk": "mavi",
     "ikon": "soru",
     "ozellikler": [
      [
@@ -67,28 +67,28 @@
       "Gövdeye gömülü 4 makara yuvası"
      ],
      [
-      "uyari",
-      "Baskı alanı, hız ve sıcaklık açıklanmadı"
+      "damla",
+      "TPU odaklı — 80A'ya kadar yumuşak filament"
      ]
     ],
     "kullanim": [
      [
-      "damla",
-      "TPU odaklı — 80A'ya kadar yumuşak filament"
-     ],
-     [
       "zaman",
-      "\"Ön sipariş ekim ortası\" — tarih verilmedi"
+      "Ön sipariş ekim ortasında açılıyor"
      ],
      [
       "terazi",
-      "900 USD altı beklentisi, resmi fiyat değil"
+      "900 USD altı bekleniyor"
+     ],
+     [
+      "soru",
+      "Teknik verileri yayınlandıkça paylaşacağız"
      ]
     ],
     "gorsel": "urun/kesik-creality-k3.png"
    }
   ],
-  "ipucu": "Bugün alınabilen tek seçenek U1. K3'ün yaklaşımı daha ucuz görünüyor — yedek parça 14 dolar — ama ortada henüz makine yok.",
+  "ipucu": "Bugün rafta olan U1. K3 yolda — yedek parça tarafında iddialı; teknik verileri yayınlanınca burada olacak.",
   "alt_cagri": "Snapmaker U1 sermenkreatif.com'da"
  },
  "slaytlar": [],

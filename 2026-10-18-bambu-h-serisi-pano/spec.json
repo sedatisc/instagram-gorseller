@@ -19,7 +19,7 @@
           ["olcu", "340 × 320 × 340 mm — serinin en büyüğü"],
           ["nozzle", "Tek nozul, hızlı değişen uç"],
           ["hiz", "1.000 mm/s kafa · 20.000 mm/s²"],
-          ["uyari", "Yalnız 10 W lazer — 40 W desteklenmiyor"]
+          ["uyari", "10 W lazer modülüyle çalışıyor"]
         ],
         "kullanim": [
           ["kup", "Tek malzemeyle büyük parça"],
@@ -41,7 +41,7 @@
         "kullanim": [
           ["damla", "Renk değişiminde atılan malzeme derdi bitiyor"],
           ["makara", "AMS ile 24 filamente kadar"],
-          ["uyari", "Serinin en küçük alanı ve en pahalısı"]
+          ["uyari", "Serinin üst modeli — en geniş malzeme desteği"]
         ]
       },
       {

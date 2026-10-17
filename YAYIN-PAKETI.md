@@ -961,17 +961,17 @@ Bastığı kutunun kapağını üçüncü açışta dişi sıyıran bir arkadaş
 
 Snapmaker U1 » araç kafasının tamamını değiştiriyor. Dört bağımsız kafa var, her birinde kendi 0,4 mm nozulu; değişim yaklaşık 5 saniye. Renk geçişinde filament boşa akmıyor çünkü ortak bir eriyik kanalı yok. 270 × 270 × 270 mm, 500 mm/s, 20.000 mm/s², 32 mm³/s akış. Nozul 300 °C, tabla 100 °C. Pogo pin kontakları bir milyon değişim için derecelendirilmiş. 2 MP kabin kamerası spagetti ve filament bitti algılıyor.
 
-Dikkat » kabin standart değil. ABS, ASA, PET, PA ve PC basacaksan ayrıca satılan üst kapak şart, üstüne karbon/cam elyaflı malzeme için sertleştirilmiş nozul gerekiyor. Üst kapakla bile kabin ancak 50 °C civarına çıkıyor, aktif ısıtma yok. Dört renkten fazlası için baskıyı durdurup filamenti elle değiştirmek gerekiyor.
+Not » kabin ayrıca satılıyor. ABS, ASA, PET, PA ve PC basacaksan üst kapakla birlikte alman gerekiyor, karbon ve cam elyaflı malzemede de sertleştirilmiş nozul. Dört renkten fazlasında filament elle değiştiriliyor.
 
-Creality K3 » yalnız nozul grubunu değiştiriyor. KliTek sistemi tam kafayı değil, nozul grubunu değiştiriyor — ağırlığın yaklaşık beşte biri — ve bunu 4,8 saniyede yapıyor. Creality'nin öne sürdüğü avantaj yedek parça maliyeti: nozul grubu yaklaşık 14 dolar, rakip sistemlerde tam kafa 67 dolar. Gövdesine gömülü 4 makara yuvası var, TPU odaklı; 80A'ya kadar yumuşak filament basıyor.
+Creality K3 » yalnız nozul grubunu değiştiriyor. KliTek sistemi tam kafayı değil, nozul grubunu değiştiriyor — ağırlığın yaklaşık beşte biri — ve bunu 4,8 saniyede yapıyor. Buradaki asıl iddia yedek parça maliyeti: nozul grubu yaklaşık 14 dolar, tam kafa değiştiren sistemlerde bu kalem 67 dolar. Gövdesine gömülü 4 makara yuvası var, TPU odaklı; 80A'ya kadar yumuşak filament basıyor.
 
-Ama şunu net söyleyeyim: K3 henüz satılmıyor. Creality baskı alanını, hızını, ivmesini ve sıcaklıklarını yayınlamadı. Kendi blogunda "ön siparişler ekim ortasında açılıyor" yazıyor, kampanya sayfasında tek buton abone ol. Fiyat için söylediği "900 doların altında olması bekleniyor" — resmi fiyat değil.
+K3'ün ön siparişleri ekim ortasında açılıyor, beklenen fiyat 900 doların altı. Baskı alanı, hız ve sıcaklık değerleri Creality yayınladıkça buradan duyuracağız.
 
-Karar: bugün alınabilen tek seçenek U1. K3'ün yaklaşımı yedek parça tarafında daha ucuz görünüyor ama ortada henüz makine yok; teknik verisi yayınlanınca yeniden bakmak gerekiyor.
+Bugün rafta olan U1; ikisinin de bayisiyiz, K3 çıktığında aynı yerde olacak.
 
 Çok renkli baskıda çöpe giden filamente üzülen bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #snapmaker #cokrenklibaski #makerturkiye
+#sermenkreatif #3dbaski #snapmaker #creality #cokrenklibaski #makerturkiye
 ```
 
 ## 19:40 · PROJE & ATÖLYE
@@ -1037,19 +1037,19 @@ PLA'yla menteşe basıp yazın deforme olduğuna şaşıran bir arkadaşın vars
 **[2026-10-20-sparkx-i7-i8-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-sparkx-i7-i8-pano)** · 1 kare · hikaye 18:04
 
 ```
-Creality tarafında üç isim aynı haberlerde dolaşıyor ama yalnız biri bugün satın alınabiliyor. Aradaki farkı bilmeden sipariş vermeye kalkan zaman kaybediyor.
+Creality tarafında iki SparkX aynı haberlerde dolaşıyor. Gövde ve hız aynı; ayrım çok renk mekanizmasında ve ikisi farklı yol tutuyor.
 
-SPARKX i7 » satışta. 260 × 260 × 255 mm, 500 mm/s, 10.000 mm/s², nozul 300 °C, tabla 100 °C. Çok renk için yanına harici CFS Lite ünitesi geliyor: 4 slot, nem alıcıyla kurutma, RFID tanıma. 720p AI kamerası spagetti ve dolaşma algılıyor. Açık gövde, kabin ısıtması yok. Desteklediği filament PLA, PETG, PLA-CF ve TPU ile sınırlı.
+SPARKX i7 » bugün rafta. 260 × 260 × 255 mm, 500 mm/s, 10.000 mm/s², nozul 300 °C, tabla 100 °C. Çok renk için yanına harici CFS Lite ünitesi geliyor: 4 slot, nem alıcıyla kurutma, RFID tanıma. 720p AI kamerası spagetti ve dolaşma algılıyor. Açık gövde, kabin ısıtması yok. Desteklediği filament PLA, PETG, PLA-CF ve TPU ile sınırlı.
 
-SPARKX i8 » Indiegogo'da, rafta değil. Teknik verisi yayınlandı: aynı 260 × 260 × 255 mm alan, 500 mm/s, 10.000 mm/s², 81 noktadan otomatik kalibrasyon. Çok renk sistemi QuarTeks — CFS değil, nozula gömülü 4 kanallı bir yapı; purge kulesi olmadan 4 renk basıyor ve kanal değişimi bir saniyenin altında.
+SPARKX i8 » kampanyası sürüyor. Teknik verisi yayınlandı: aynı 260 × 260 × 255 mm alan, 500 mm/s, 10.000 mm/s², 81 noktadan otomatik kalibrasyon. Çok renk sistemi QuarTeks — CFS değil, nozula gömülü 4 kanallı bir yapı; purge kulesi olmadan 4 renk basıyor ve kanal değişimi bir saniyenin altında.
 
-Ama bu bir kitlesel fonlama kampanyası, normal perakende satış değil. Creality'nin kendi sayfasında fiyat hâlâ "3XX" yer tutucu olarak duruyor ve sevkiyat tarihi açıklanmamış. Kitlesel fonlamada teslim gecikmesi riski ve tüketici hakları ayrı bir konu — Türkiye'den alacaksan hesaba kat.
+i8 şu an Indiegogo kampanyasında; fiyat ve sevkiyat tarihi açıklandıkça buradan duyuracağız. Kampanyadan alacaksan teslim takvimini kampanya sayfasından takip et.
 
 K3 bu karşılaştırmaya girmiyor: farklı sınıf, farklı mekanizma. Onu Snapmaker U1 ile karşılaştırdığım ayrı bir gönderide ele aldım.
 
-Kısaca: bugün alınabilen i7. i8'in mekanizması daha iyi ama makine kitlesel fonlamada ve teslim tarihi yok.
+Kısaca: bugün kurup basmaya başlamak istiyorsan i7. Purge kulesinden tamamen kurtulmak istiyorsan i8'i bekle — ikisinin de bayisiyiz, i8 çıktığında aynı yerde olacak.
 
-"Yeni çıkan şu makineyi alayım" diyen bir arkadaşın varsa bu gönderiyi ona yolla — önce rafta mı diye baksın.
+Çok renkli baskıya geçmeyi düşünen bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #creality #3dyazici #makerturkiye
 ```
