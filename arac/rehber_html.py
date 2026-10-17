@@ -153,6 +153,7 @@ STIL = """
   padding:26px 30px;
   box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
 .sema img{width:100%;height:100%;object-fit:contain}
+.slayt .sema{flex:1 1 auto;max-height:none}
 
 /* Görselsiz slaytın tipografik kurgusu: giriş cümlesi iri,
    kalanı gövde puntosunda; ikisi kareyi dolduruyor. */
@@ -343,6 +344,16 @@ def _sutunlar(k, vr):
     return govde
 
 
+def _sema_kirpik(ogeler, kutu):
+    """Slaytta şemanın vurgulanan bölgesi."""
+    yol = cizim_png.kirpilmis(ogeler, kutu)
+    if not yol:
+        return ""
+    # Slaytta kart kalan yeri dolduruyor; oranını alsaydı yassı
+    # kırpmada altta üstte boş kağıt kalıyordu.
+    return '<div class="sema"><img src="%s" alt=""></div>' % S.foto_uri(yol)
+
+
 def _sema(ogeler):
     """Devre şeması: eski çizim motoru PNG basıyor, kapak onu
     görsel olarak yerleştiriyor."""
@@ -412,7 +423,7 @@ def kapak(spec, cikti):
     S.bas(S.sayfa(govde, W, H, STIL), cikti, W, H)
 
 
-def _govde_slayt(s, vr):
+def _govde_slayt(s, vr, spec=None):
     if s.get("tablo"):
         return '<div class="tablo">%s</div>' % "".join(
             '<div class="sr"><b>%s</b><span>%s</span></div>'
@@ -424,6 +435,12 @@ def _govde_slayt(s, vr):
     # "vurgu" eski Pillow hattında kapak çiziminde karartılacak
     # kutunun koordinatlarıydı; sayısalsa içerik değil, atlanıyor.
     vu = s.get("vurgu")
+    if vu and len(vu) == 4 and all(isinstance(v, (int, float)) for v in vu):
+        ciz = ((spec or {}).get("kapak") or {}).get("cizim")
+        if ciz:
+            kare = _sema_kirpik(ciz, vu)
+            if kare:
+                return kare
     if vu and not all(isinstance(v, (int, float)) for v in vu):
         return '<div class="vurgu">%s</div>' % "".join(
             '<div class="v"><b>%s</b></div>' % E(v) for v in vu[:4])
@@ -464,7 +481,7 @@ def _punto(n):
 def slayt(spec, s, cikti):
     kat = spec.get("kategori", "3dbaski")
     vr = S.RENK[KAT_RENK.get(kat, "turuncu")]
-    ic = _govde_slayt(s, vr)
+    ic = _govde_slayt(s, vr, spec)
     if ic:
         ust = ('<p class="ac">%s</p>' % E(s["aciklama"])) \
             if s.get("aciklama") else ""

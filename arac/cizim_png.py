@@ -43,6 +43,37 @@ def bas(ogeler, cikti, tuval=(2400, 1800), kenar=24):
     return cikti
 
 
+def kirpilmis(ogeler, kutu, pay=0.12):
+    """Şemanın yalnız `kutu` ile gösterilen yerini basıyor.
+
+    Slayt spec'lerindeki "vurgu" bu kutunun koordinatları; eski hat
+    her slaytta şemanın o bölgesine yakınlaşıyordu."""
+    os.makedirs(ONBELLEK, exist_ok=True)
+    imza = hashlib.sha1(
+        json.dumps([ogeler, list(kutu)], sort_keys=True,
+                   ensure_ascii=False).encode("utf-8")
+    ).hexdigest()[:16]
+    yol = os.path.join(ONBELLEK, imza + ".png")
+    if os.path.exists(yol):
+        return yol
+    u = _motor()
+    tuval = (2400, 1800)
+    im = Image.new("RGBA", tuval, (0, 0, 0, 0))
+    u.ciz(ImageDraw.Draw(im), ogeler)
+    x1, y1, x2, y2 = [float(v) for v in kutu]
+    mx = max(60.0, (x2 - x1) * pay)
+    my = max(60.0, (y2 - y1) * pay)
+    k = (max(0, int(x1 - mx)), max(0, int(y1 - my)),
+         min(tuval[0], int(x2 + mx)), min(tuval[1], int(y2 + my)))
+    if k[2] - k[0] < 40 or k[3] - k[1] < 40:
+        return None
+    par = im.crop(k)
+    if not par.getbbox():
+        return None
+    par.save(yol)
+    return yol
+
+
 def onbellekli(ogeler):
     """Aynı çizim iki kere basılmasın; yol döndürüyor."""
     os.makedirs(ONBELLEK, exist_ok=True)
