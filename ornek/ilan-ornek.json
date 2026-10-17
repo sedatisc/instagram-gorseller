@@ -1,0 +1,17 @@
+{
+ "renk": "kirmizi",
+ "marka": "Bambu Lab",
+ "model": "H2D",
+ "rozet": "Laser Combo",
+ "iddia": "Lazer destekli akıllı üretim.",
+ "spot": "Çok renkli baskı ve lazer kesim tek gövdede. Kurulumu ve ilk ayarı bizden.",
+ "ozellikler": [["renk", "Çok Renkli", "Baskı"],
+                ["lazer", "Lazer Destekli", "Üretim"],
+                ["makara", "Akıllı Filament", "Yönetimi"]],
+ "guven": [["kalkan", "Orijinal ve", "faturalı"],
+           ["kurulum", "Kurulum ve", "ilk ayar"],
+           ["kargo", "Samsun'dan", "kargo"],
+           ["destek", "Teknik", "destek"]],
+ "cagri": "sermenkreatif.com'da",
+ "gorsel": "urun/kesik/bambulab-h2d-combo.png"
+}
