@@ -113,8 +113,13 @@ STIL = """
   font-weight:600}
 
 /* ikili karşılaştırma */
-.ikili{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.ikili .y{background:#fff;border-radius:20px;padding:26px;
+/* İki kutu kalan yeri paylaşıyor: içerik az olduğu için karenin
+   ortasında küçücük kalıp altını üstünü boş bırakıyorlardı. */
+.ikili{flex:1 1 auto;min-height:0;display:grid;
+  grid-template-columns:1fr 1fr;gap:16px;
+  align-items:start;align-content:center}
+.ikili .y{display:flex;flex-direction:column;
+  background:#fff;border-radius:20px;padding:30px;
   border-top:8px solid var(--kr);
   box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
 .ikili .y b{display:block;font-family:Anton;font-size:52px;color:var(--kr);
@@ -161,6 +166,46 @@ STIL = """
   0 0 0 1px rgba(16,22,38,.05)}
 .foto img{width:100%;height:100%;object-fit:cover;
   object-position:50% var(--odak,50%)}
+
+/* Pano: iki-üç sütunlu karşılaştırma. Tek karelik gönderiler, en
+   yoğun düzen; sütun başlığı renkli, altında ürün, sonra özellik ve
+   kullanım satırları. */
+/* align-items:start — sütunlar içeriğin boyunda kalıyor, artan yer
+   ızgaranın altında beyaz delik değil, üstte ve altta eşit boşluk
+   oluyor. */
+.sutunlar{flex:1 1 auto;min-height:0;display:grid;gap:12px;
+  grid-auto-flow:column;grid-auto-columns:1fr;
+  align-items:start;align-content:center}
+/* padding-bottom: son madde kartın yuvarlak köşesine değip
+   kırpılıyordu. */
+.sutunlar .s{background:#fff;border-radius:18px;overflow:hidden;
+  display:flex;flex-direction:column;padding-bottom:18px;
+  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
+.sutunlar .s header{background:var(--kr);color:#fff;padding:14px 16px}
+.sutunlar .s header b{display:block;font-family:Anton;font-size:30px;
+  text-transform:uppercase;line-height:1.04;letter-spacing:.01em}
+.sutunlar .s header span{display:block;font-family:Mono;font-size:14px;
+  letter-spacing:.06em;margin-top:6px;opacity:.9}
+.sutunlar .s figure{flex:0 0 auto;height:260px;margin:12px 12px 0;
+  border-radius:12px;background:
+    radial-gradient(118% 86% at 50% 6%, #fff 0%, #f5f7fb 56%, #e7ebf3 100%);
+  display:flex;align-items:center;justify-content:center;padding:10px}
+.sutunlar .s figure img{width:92%;height:88%;object-fit:contain;
+  filter:drop-shadow(0 8px 10px rgba(16,22,38,.13))}
+.sutunlar .s ul{list-style:none;margin:12px 14px 0;display:flex;
+  flex-direction:column;gap:8px}
+.sutunlar .s ul.kul{margin-top:10px;padding-top:10px;
+  border-top:2px solid #e4e9f1}
+.sutunlar .s li{font-size:17px;line-height:1.26;color:#2a3344;
+  padding-left:14px;position:relative}
+.sutunlar .s li::before{content:"";position:absolute;left:0;top:8px;
+  width:6px;height:6px;border-radius:50%;background:var(--kr)}
+.sutunlar .s ul.kul li{color:#5a6678}
+.ipucu{flex:0 0 auto;display:flex;align-items:center;gap:16px;
+  background:#1a2440;border-radius:16px;padding:18px 24px;margin-top:12px}
+.ipucu b{font-family:Mono;font-size:17px;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--vr);white-space:nowrap}
+.ipucu span{font-size:22px;line-height:1.34;color:#e7ebf3}
 
 /* slayt başlığı */
 .slayt h2{font-weight:700;font-size:52px;line-height:1.07;
@@ -251,9 +296,34 @@ def _kart_izgara(kartlar, vr):
     return '<div class="kartlar">%s</div>' % "".join(ic)
 
 
+def _sutunlar(k, vr):
+    ic = []
+    for s in k["sutunlar"][:3]:
+        kr = _renk(s.get("renk"), vr)
+        uri = _gorsel(s.get("gorsel"))
+        ozl = "".join("<li>%s</li>" % E(b)
+                      for _, b in (s.get("ozellikler") or [])[:4])
+        kul = "".join("<li>%s</li>" % E(b)
+                      for _, b in (s.get("kullanim") or [])[:3])
+        ic.append(
+            '<article class="s" style="--kr:%s"><header><b>%s</b>%s</header>'
+            '%s<ul>%s</ul>%s</article>'
+            % (kr, E(s.get("baslik", "")),
+               ('<span>%s</span>' % E(s["alt"])) if s.get("alt") else "",
+               ('<figure><img src="%s" alt=""></figure>' % uri) if uri else "",
+               ozl, ('<ul class="kul">%s</ul>' % kul) if kul else ""))
+    govde = '<div class="sutunlar">%s</div>' % "".join(ic)
+    if k.get("ipucu"):
+        govde += ('<div class="ipucu"><b>hangisi</b><span>%s</span></div>'
+                  % E(k["ipucu"]))
+    return govde
+
+
 def _govde_kapak(k, vr):
     """Kapağın gövdesi içeriğe göre değişiyor; eski yedi kapak tipi
     buraya iniyor."""
+    if k.get("sutunlar"):
+        return _sutunlar(k, vr)
     if k.get("kartlar"):
         return _kart_izgara(k["kartlar"], vr)
     if k.get("satirlar"):
@@ -314,6 +384,10 @@ def _govde_slayt(s, vr):
     if s.get("vurgu"):
         return '<div class="vurgu">%s</div>' % "".join(
             '<div class="v"><b>%s</b></div>' % E(v) for v in s["vurgu"][:4])
+    if s.get("ikili"):
+        return '<div class="ikili">%s</div>' % "".join(
+            '<div class="y" style="--kr:%s"><b>%s</b><span>%s</span></div>'
+            % (_renk(r, vr), E(BUY(et)), E(m)) for et, r, m in s["ikili"][:2])
     uri = _gorsel(s.get("foto"))
     if uri:
         return ('<div class="foto" style="--odak:%d%%">'
