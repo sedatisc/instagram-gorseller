@@ -16,7 +16,7 @@ Katılmak için üç adım, hepsi bu gönderinin altında bitiyor:
 
 İstersen bir arkadaşını da etiketle, şart değil.
 
-Nasıl işliyor: 15 Ekim gece yarısı yorumlar kapanıyor. Soruyu cevaplayan yorumlar arasından üç finalist çıkarıyoruz ve üçünü olduğu gibi hikayeye koyuyoruz — kim yazmış, ne yazmış, açık. Kazananı 16 Ekim boyunca hikaye anketinde siz belirliyorsunuz. Oylama bitince anketin ekran görüntüsünü de paylaşıyoruz.
+Nasıl işliyor: yorumlar üçüncü günün gece yarısı kapanıyor — son günü ayrıca hatırlatacağız. Soruyu cevaplayan yorumlar arasından üç finalist çıkarıyoruz ve üçünü olduğu gibi hikayeye koyuyoruz: kim yazmış, ne yazmış, açık. Kazananı ertesi gün boyunca hikaye anketinde siz belirliyorsunuz. Oylama bitince anketin ekran görüntüsünü de paylaşıyoruz.
 
 Tek şart yorumun soruyu cevaplaması. "Katıldım" yazan yorum eleniyor; "TPU ile traktörün titreşim takozunu basacağım" yazan finale kalabiliyor. Uzun yazmana gerek yok, bir cümle yeter.
 

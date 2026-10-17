@@ -55,6 +55,10 @@ IZGARA = {
 
 HIKAYE_GECIKME = 40      # gönderiden kaç dakika sonra
 
+KOK = os.path.dirname(os.path.abspath(__file__))
+DURUM = os.path.join(KOK, "DURUM.json")
+PLAN_DURUM = os.path.join(KOK, "otomasyon", "plan-durumu.json")
+
 
 def saat(g, anahtar):
     return IZGARA[g][anahtar]
@@ -65,15 +69,95 @@ def arti(hhmm, dk):
     return t.strftime("%H:%M")
 
 
+# ----------------------------------------------------- planın takvimi
+def plan_durumu():
+    try:
+        with open(PLAN_DURUM, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {"baslangic": None, "kacirilan": []}
+
+
+def baslangic():
+    """Planın birinci gününün takvim tarihi.
+
+    Plan eskiden sabit tarihlere çivilenmişti: yayıncı kapalı olduğu her
+    gün o günün dört gönderisi "vakti geçmiş" diye siliniyordu, altı gün
+    böyle kayboldu. Artık kuyrukta tarih değil gün sırası (0, 1, 2...)
+    duruyor; takvime oturması ilk gerçek yayında oluyor.
+
+    Henüz oturmadıysa plan bugünden başlıyor gibi gösteriliyor — bugünün
+    ilk slotu geçtiyse yarından, yarım günle başlamasın diye."""
+    s = plan_durumu().get("baslangic")
+    if s:
+        return date.fromisoformat(s)
+    bug = date.today()
+    izg = IZGARA[bug.weekday()]
+    ilk = min(izg[a] for a in SLOTLAR if a in izg)
+    return bug if datetime.now().strftime("%H:%M") < ilk \
+        else bug + timedelta(days=1)
+
+
+def _tarihle(kayit, bas):
+    """Kayda takvim tarihini yazıyor. Eski kayıtlarda tarih hazır."""
+    k = dict(kayit)
+    if "gun" in k:
+        k["tarih"] = (bas + timedelta(days=int(k["gun"]))).isoformat()
+    return k
+
+
+def _kacirilani_kaydir(slotlar, bas):
+    """Cron aksayınca atlanan gönderi planın sonuna taşınıyor.
+
+    İş kuyrukta duruyor ama günü geçtiği için bir daha hiç yayınlanmıyor,
+    içerik sessizce düşüyordu. Taşıma bir kere oluyor: günü hâlâ ileride
+    olan kayda dokunulmuyor."""
+    kac = {k.get("klasor") for k in (plan_durumu().get("kacirilan") or [])}
+    if not kac:
+        return slotlar
+    bugun = date.today()
+    sl = [dict(s) for s in slotlar]
+    son = max((int(s.get("gun", 0)) for s in sl), default=0)
+    dolu = {(int(s.get("gun", 0)), s["slot"]) for s in sl}
+    for s in sl:
+        if s["klasor"] not in kac:
+            continue
+        if bas + timedelta(days=int(s.get("gun", 0))) >= bugun:
+            continue                      # günü gelmemiş, taşımaya gerek yok
+        dolu.discard((int(s["gun"]), s["slot"]))
+        g = son + 1
+        while (g, s["slot"]) in dolu:
+            g += 1
+        dolu.add((g, s["slot"]))
+        s["gun"] = g
+        s["not"] = "kaçırıldı, sona alındı"
+    return sl
+
+
 def kuyruk():
-    d = json.load(open("DURUM.json", encoding="utf-8"))
-    return d, d["kuyruk_bekleyen"]["slotlar"]
+    with open(DURUM, encoding="utf-8") as f:
+        d = json.load(f)
+    bas = baslangic()
+    sl = _kacirilani_kaydir(d["kuyruk_bekleyen"]["slotlar"], bas)
+    return d, [_tarihle(s, bas) for s in sl]
+
+
+def reelsler():
+    with open(DURUM, encoding="utf-8") as f:
+        d = json.load(f)
+    bas = baslangic()
+    return {r["tarih"]: r["klasor"]
+            for r in (_tarihle(x, bas)
+                      for x in d["kuyruk_bekleyen"].get("reels", []))}
 
 
 def kampanyalar():
     """Izgara dışı kampanya gönderileri — çekiliş, duyuru, kutlama."""
-    d = json.load(open("DURUM.json", encoding="utf-8"))
-    return d["kuyruk_bekleyen"].get("kampanya", [])
+    with open(DURUM, encoding="utf-8") as f:
+        d = json.load(f)
+    bas = baslangic()
+    return [_tarihle(k, bas)
+            for k in d["kuyruk_bekleyen"].get("kampanya", [])]
 
 
 def gunler(slotlar):
@@ -95,8 +179,7 @@ def liste():
     d, slotlar = kuyruk()
     gun = gunler(slotlar)
     kamp = kampanyalar()
-    reelsler = {r["tarih"]: r["klasor"]
-                for r in d["kuyruk_bekleyen"].get("reels", [])}
+    reels = reelsler()
 
     sat = ["# YAYIN LİSTESİ",
            "",
@@ -156,7 +239,7 @@ def liste():
                                  "Kampanya hikaye | — | `%s/hikaye.jpg` | 1"
                                  % k["klasor"]))
 
-        r = reelsler.get(tarih)
+        r = reels.get(tarih)
         if r:
             satirlar.append((saat(g, "reels"),
                              "**Reels** | — | `%s/reels.mp4` | video" % r))
@@ -216,8 +299,7 @@ def paket():
     metin. Kod bloğunun sağ üstünde GitHub'ın kopyala düğmesi çıkıyor."""
     d, slotlar = kuyruk()
     gun = gunler(slotlar)
-    reelsler = {r["tarih"]: r["klasor"]
-                for r in d["kuyruk_bekleyen"].get("reels", [])}
+    reels = reelsler()
 
     sat = ["# YAYIN PAKETİ", "",
            "Her gönderinin kapağı, klasörü ve metni burada. Metin kutusunun "
@@ -235,7 +317,7 @@ def paket():
             s = sl.get(ad)
             if s:
                 sira_.append((saat(g, ad), "gonderi", s["klasor"], ad))
-        r = reelsler.get(tarih)
+        r = reels.get(tarih)
         if r:
             sira_.append((saat(g, "reels"), "reels", r, None))
         for t, tur, kl, ad in sorted(sira_):

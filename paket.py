@@ -143,8 +143,7 @@ def tt_metin(klasor):
 def kayitlar():
     d, slotlar = sira.kuyruk()
     gun = sira.gunler(slotlar)
-    reelsler = {r["tarih"]: r["klasor"]
-                for r in d["kuyruk_bekleyen"].get("reels", [])}
+    reelsler = sira.reelsler()
     cikti = []
     for tarih, sl in gun.items():
         g = date.fromisoformat(tarih).weekday()

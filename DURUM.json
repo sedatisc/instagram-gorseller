@@ -362,269 +362,254 @@
   }
  ],
  "kuyruk_bekleyen": {
-  "not": "11-17 Ekim · gunde 4 gonderi + 4 hikaye + 1 reels. Saat izgarasi sira.py icinde, liste YAYIN-LISTESI.md. Yayin otomatik: otomasyon/yayinla.py GitHub Actions'ta 20 dakikada bir bakip vakti geleni Instagram Graph API ile atiyor, defter otomasyon/yayinlanan.json. Calismasi icin depoda IG_USER_ID ve IG_TOKEN secret'lari olmali (otomasyon/YAYIN-KURULUM.md); onlar yoksa hicbir sey yayinlanmaz. Kareler JPEG, reels'te sessiz AAC yolu var - Graph API ikisini de sart kosuyor. Metricool kotasi dolu, o yol kullanilmiyor. 2026-10-11-ender-v3-mega-tanitim beklemede, bkz. 'beklemede'.",
+  "not": "Gunde 4 gonderi + 4 hikaye + 1 reels. Kayitlardaki 'gun' planin kacinci gunu (0 = ilk gun); takvim tarihi otomasyon/plan-durumu.json icindeki 'baslangic'a gore hesaplaniyor. Sabit tarih tutuluyordu ve yayinci kapaliyken her gun bir gun plan siliniyordu. Saat izgarasi sira.py icinde, liste YAYIN-LISTESI.md. Yayin: otomasyon/yayinla.py GitHub Actions'ta 20 dakikada bir bakiyor; depoda IG_USER_ID ve IG_TOKEN secret'lari yoksa hicbir sey yayinlanmaz (otomasyon/YAYIN-KURULUM.md). Ilk gercek yayinda plan o gune oturuyor. Metricool kotasi dolu, o yol kullanilmiyor.",
   "slotlar": [
    {
-    "tarih": "2026-10-11",
     "slot": "3dbaski",
-    "klasor": "2026-10-11-sunlu-pla-kartelasi"
+    "klasor": "2026-10-11-sunlu-pla-kartelasi",
+    "gun": 0
    },
    {
-    "tarih": "2026-10-11",
-    "slot": "urun",
-    "klasor": "2026-10-10-bambu-r1-tanitim"
-   },
-   {
-    "tarih": "2026-10-11",
-    "slot": "proje",
-    "klasor": "2026-10-11-musteriye-fiyat"
-   },
-   {
-    "tarih": "2026-10-11",
-    "slot": "elektronik",
-    "klasor": "2026-10-11-jetson-orin-nano"
-   },
-   {
-    "tarih": "2026-10-12",
-    "slot": "3dbaski",
-    "klasor": "2026-10-12-yapisma-yuzeyleri"
-   },
-   {
-    "tarih": "2026-10-12",
-    "slot": "urun",
-    "klasor": "2026-10-14-sunlu-filadryer"
-   },
-   {
-    "tarih": "2026-10-12",
-    "slot": "proje",
-    "klasor": "2026-10-12-urun-fotografi"
-   },
-   {
-    "tarih": "2026-10-12",
-    "slot": "elektronik",
-    "klasor": "2026-10-12-deep-sleep-akim"
-   },
-   {
-    "tarih": "2026-10-13",
-    "slot": "3dbaski",
-    "klasor": "2026-10-21-filament-rehberi"
-   },
-   {
-    "tarih": "2026-10-13",
-    "slot": "urun",
-    "klasor": "2026-10-15-sunlu-ams-heater"
-   },
-   {
-    "tarih": "2026-10-13",
-    "slot": "proje",
-    "klasor": "2026-10-13-olcu-dogrulama"
-   },
-   {
-    "tarih": "2026-10-13",
-    "slot": "elektronik",
-    "klasor": "2026-10-13-phaetus-conch-nozul"
-   },
-   {
-    "tarih": "2026-10-14",
-    "slot": "3dbaski",
-    "klasor": "2026-10-13-nozzle-capi"
-   },
-   {
-    "tarih": "2026-10-14",
     "slot": "baski",
-    "klasor": "2026-10-14-atolyeden-cikanlar"
+    "klasor": "2026-10-14-atolyeden-cikanlar",
+    "gun": 0
    },
    {
-    "tarih": "2026-10-14",
-    "slot": "urun",
-    "klasor": "2026-10-16-phaetus-liber-u1"
-   },
-   {
-    "tarih": "2026-10-14",
     "slot": "proje",
-    "klasor": "2026-10-14-siparis-sorulari"
+    "klasor": "2026-10-11-musteriye-fiyat",
+    "gun": 0
    },
    {
-    "tarih": "2026-10-15",
+    "slot": "urun",
+    "klasor": "2026-10-19-yazicilar",
+    "gun": 0
+   },
+   {
     "slot": "3dbaski",
-    "klasor": "2026-10-18-filament-kurutucu-pano"
+    "klasor": "2026-10-12-yapisma-yuzeyleri",
+    "gun": 1
    },
    {
-    "tarih": "2026-10-15",
     "slot": "baski",
-    "klasor": "2026-10-15-saksi-koleksiyonu"
+    "klasor": "2026-10-15-saksi-koleksiyonu",
+    "gun": 1
    },
    {
-    "tarih": "2026-10-15",
-    "slot": "urun",
-    "klasor": "2026-10-17-polymaker-ht-pla"
-   },
-   {
-    "tarih": "2026-10-15",
     "slot": "proje",
-    "klasor": "2026-10-15-3d-tarayici"
+    "klasor": "2026-10-12-urun-fotografi",
+    "gun": 1
    },
    {
-    "tarih": "2026-10-16",
+    "slot": "urun",
+    "klasor": "2026-10-20-anycubic-recine",
+    "gun": 1
+   },
+   {
     "slot": "3dbaski",
-    "klasor": "2026-10-18-bambu-h-serisi-pano"
+    "klasor": "2026-10-21-filament-rehberi",
+    "gun": 2
    },
    {
-    "tarih": "2026-10-16",
     "slot": "baski",
-    "klasor": "2026-10-16-vazo-koleksiyonu"
+    "klasor": "2026-10-16-vazo-koleksiyonu",
+    "gun": 2
    },
    {
-    "tarih": "2026-10-16",
-    "slot": "urun",
-    "klasor": "2026-10-21-u1-k3-pano"
-   },
-   {
-    "tarih": "2026-10-16",
     "slot": "proje",
-    "klasor": "2026-10-16-tavan-arasi-kamera-robotu"
+    "klasor": "2026-10-13-olcu-dogrulama",
+    "gun": 2
    },
    {
-    "tarih": "2026-10-17",
+    "slot": "urun",
+    "klasor": "2026-10-21-filament-cesitleri",
+    "gun": 2
+   },
+   {
     "slot": "3dbaski",
-    "klasor": "2026-10-19-bambu-a-serisi-pano"
+    "klasor": "2026-10-13-nozzle-capi",
+    "gun": 3
    },
    {
-    "tarih": "2026-10-17",
     "slot": "baski",
-    "klasor": "2026-10-17-masa-duzeni"
+    "klasor": "2026-10-17-masa-duzeni",
+    "gun": 3
    },
    {
-    "tarih": "2026-10-17",
-    "slot": "urun",
-    "klasor": "2026-10-20-sparkx-i7-i8-pano"
-   },
-   {
-    "tarih": "2026-10-17",
     "slot": "proje",
-    "klasor": "2026-10-17-rc-tank"
+    "klasor": "2026-10-14-siparis-sorulari",
+    "gun": 3
    },
    {
-    "tarih": "2026-10-18",
+    "slot": "urun",
+    "klasor": "2026-10-10-bambu-r1-tanitim",
+    "gun": 3
+   },
+   {
     "slot": "3dbaski",
-    "klasor": "2026-10-18-sert-nozul"
+    "klasor": "2026-10-18-filament-kurutucu-pano",
+    "gun": 4
    },
    {
-    "tarih": "2026-10-18",
     "slot": "baski",
-    "klasor": "2026-10-18-aydinlatma"
+    "klasor": "2026-10-18-aydinlatma",
+    "gun": 4
    },
    {
-    "tarih": "2026-10-18",
-    "slot": "urun",
-    "klasor": "2026-10-18-ender-3-v4-combo"
-   },
-   {
-    "tarih": "2026-10-18",
     "slot": "proje",
-    "klasor": "2026-10-18-toplulukta-ariza"
+    "klasor": "2026-10-15-3d-tarayici",
+    "gun": 4
    },
    {
-    "tarih": "2026-10-19",
+    "slot": "urun",
+    "klasor": "2026-10-14-sunlu-filadryer",
+    "gun": 4
+   },
+   {
     "slot": "3dbaski",
-    "klasor": "2026-10-19-heat-set-insert"
+    "klasor": "2026-10-18-bambu-h-serisi-pano",
+    "gun": 5
    },
    {
-    "tarih": "2026-10-19",
     "slot": "baski",
-    "klasor": "2026-10-19-banyo-duzeni"
+    "klasor": "2026-10-19-banyo-duzeni",
+    "gun": 5
    },
    {
-    "tarih": "2026-10-19",
-    "slot": "urun",
-    "klasor": "2026-10-19-yazicilar"
-   },
-   {
-    "tarih": "2026-10-19",
     "slot": "proje",
-    "klasor": "2026-10-19-oyuncak-yol-seti"
+    "klasor": "2026-10-16-tavan-arasi-kamera-robotu",
+    "gun": 5
    },
    {
-    "tarih": "2026-10-20",
+    "slot": "urun",
+    "klasor": "2026-10-15-sunlu-ams-heater",
+    "gun": 5
+   },
+   {
     "slot": "3dbaski",
-    "klasor": "2026-10-16-sunlu-filament-pano"
+    "klasor": "2026-10-19-bambu-a-serisi-pano",
+    "gun": 6
    },
    {
-    "tarih": "2026-10-20",
     "slot": "baski",
-    "klasor": "2026-10-20-makyaj-ve-taki"
+    "klasor": "2026-10-20-makyaj-ve-taki",
+    "gun": 6
    },
    {
-    "tarih": "2026-10-20",
-    "slot": "urun",
-    "klasor": "2026-10-20-anycubic-recine"
-   },
-   {
-    "tarih": "2026-10-21",
-    "slot": "baski",
-    "klasor": "2026-10-21-hediyelik"
-   },
-   {
-    "tarih": "2026-10-21",
-    "slot": "urun",
-    "klasor": "2026-10-21-filament-cesitleri"
-   },
-   {
-    "tarih": "2026-10-20",
     "slot": "proje",
-    "klasor": "2026-10-20-fpv-drone-cinelog20"
+    "klasor": "2026-10-17-rc-tank",
+    "gun": 6
    },
    {
-    "tarih": "2026-10-21",
+    "slot": "urun",
+    "klasor": "2026-10-16-phaetus-liber-u1",
+    "gun": 6
+   },
+   {
     "slot": "3dbaski",
-    "klasor": "2026-10-21-ams-israf"
+    "klasor": "2026-10-18-sert-nozul",
+    "gun": 7
    },
    {
-    "tarih": "2026-10-21",
+    "slot": "baski",
+    "klasor": "2026-10-21-hediyelik",
+    "gun": 7
+   },
+   {
     "slot": "proje",
-    "klasor": "2026-10-21-pi5-ekran-standi"
+    "klasor": "2026-10-18-toplulukta-ariza",
+    "gun": 7
+   },
+   {
+    "slot": "urun",
+    "klasor": "2026-10-17-polymaker-ht-pla",
+    "gun": 7
+   },
+   {
+    "slot": "3dbaski",
+    "klasor": "2026-10-19-heat-set-insert",
+    "gun": 8
+   },
+   {
+    "slot": "proje",
+    "klasor": "2026-10-19-oyuncak-yol-seti",
+    "gun": 8
+   },
+   {
+    "slot": "urun",
+    "klasor": "2026-10-21-u1-k3-pano",
+    "gun": 8
+   },
+   {
+    "slot": "3dbaski",
+    "klasor": "2026-10-16-sunlu-filament-pano",
+    "gun": 9
+   },
+   {
+    "slot": "proje",
+    "klasor": "2026-10-20-fpv-drone-cinelog20",
+    "gun": 9
+   },
+   {
+    "slot": "urun",
+    "klasor": "2026-10-20-sparkx-i7-i8-pano",
+    "gun": 9
+   },
+   {
+    "slot": "3dbaski",
+    "klasor": "2026-10-21-ams-israf",
+    "gun": 10
+   },
+   {
+    "slot": "proje",
+    "klasor": "2026-10-21-pi5-ekran-standi",
+    "gun": 10
+   },
+   {
+    "slot": "urun",
+    "klasor": "2026-10-18-ender-3-v4-combo",
+    "gun": 10
    }
   ],
   "reels": [
    {
-    "tarih": "2026-10-11",
-    "klasor": "2026-10-10-bambu-r1-tanitim"
+    "klasor": "2026-10-10-bambu-r1-tanitim",
+    "gun": 0
    },
    {
-    "tarih": "2026-10-12",
-    "klasor": "2026-10-14-sunlu-filadryer"
+    "klasor": "2026-10-14-sunlu-filadryer",
+    "gun": 1
    },
    {
-    "tarih": "2026-10-13",
-    "klasor": "2026-10-15-sunlu-ams-heater"
+    "klasor": "2026-10-15-sunlu-ams-heater",
+    "gun": 2
    },
    {
-    "tarih": "2026-10-14",
-    "klasor": "2026-10-16-phaetus-liber-u1"
+    "klasor": "2026-10-16-phaetus-liber-u1",
+    "gun": 3
    },
    {
-    "tarih": "2026-10-15",
-    "klasor": "2026-10-17-polymaker-ht-pla"
+    "klasor": "2026-10-17-polymaker-ht-pla",
+    "gun": 4
    },
    {
-    "tarih": "2026-10-16",
-    "klasor": "2026-10-18-bambu-h-serisi-pano"
+    "klasor": "2026-10-18-bambu-h-serisi-pano",
+    "gun": 5
    },
    {
-    "tarih": "2026-10-17",
-    "klasor": "2026-10-16-sunlu-filament-pano"
+    "klasor": "2026-10-16-sunlu-filament-pano",
+    "gun": 6
    },
    {
-    "tarih": "2026-10-18",
-    "klasor": "2026-10-18-ender-3-v4-combo"
+    "klasor": "2026-10-18-ender-3-v4-combo",
+    "gun": 7
    },
    {
-    "tarih": "2026-10-20",
-    "klasor": "2026-10-20-fpv-drone-cinelog20"
+    "klasor": "2026-10-20-fpv-drone-cinelog20",
+    "gun": 9
    },
    {
-    "tarih": "2026-10-21",
-    "klasor": "2026-10-21-ams-israf"
+    "klasor": "2026-10-21-ams-israf",
+    "gun": 10
    }
   ],
   "beklemede": [],
@@ -637,44 +622,83 @@
   ],
   "kampanya": [
    {
-    "tarih": "2026-10-12",
     "saat": "13:30",
     "tur": "gonderi",
     "klasor": "2026-10-12-cekilis-duyuru",
-    "not": "Dört makara çekiliş duyurusu"
+    "not": "Dört makara çekiliş duyurusu",
+    "gun": 1
    },
    {
-    "tarih": "2026-10-13",
     "saat": "19:10",
     "tur": "hikaye",
     "klasor": "2026-10-12-cekilis-duyuru",
-    "not": "hatırlatma"
+    "not": "hatırlatma",
+    "gun": 2
    },
    {
-    "tarih": "2026-10-14",
     "saat": "19:10",
     "tur": "hikaye",
     "klasor": "2026-10-12-cekilis-duyuru",
-    "not": "hatırlatma"
+    "not": "hatırlatma",
+    "gun": 3
    },
    {
-    "tarih": "2026-10-15",
     "saat": "18:40",
     "tur": "gonderi",
     "klasor": "2026-10-15-cekilis-son-gun",
-    "not": "son gün"
+    "not": "son gün",
+    "gun": 4
    }
   ],
   "kampanya_not": "Cekilis 12-15 Ekim. 16 Ekim: uc finalistin yorumu hikayede, kazanani takipci anketi seciyor, aksam sonuc gonderisi. Finalist hikayesi ve sonuc gonderisi o gun uretilecek — yorumlar gelmeden uretilmiyor. Kurallar ve hukuki not KAMPANYA.md icinde.",
   "kuyruktan_cikan": [
-   "2026-10-13-optokuplor",
-   "2026-10-14-lipo-bms",
-   "2026-10-15-h-koprusu",
-   "2026-10-16-gelistirme-karti-pano",
-   "2026-10-17-esp32-ailesi-pano",
-   "2026-10-18-kondansator-esr",
-   "2026-10-20-pixhawk-pano",
-   "2026-10-21-pi-kamera-pano"
+   {
+    "klasor": "2026-10-13-optokuplor",
+    "sebep": "kayıtlı değil (eski giriş)"
+   },
+   {
+    "klasor": "2026-10-14-lipo-bms",
+    "sebep": "kayıtlı değil (eski giriş)"
+   },
+   {
+    "klasor": "2026-10-15-h-koprusu",
+    "sebep": "kayıtlı değil (eski giriş)"
+   },
+   {
+    "klasor": "2026-10-16-gelistirme-karti-pano",
+    "sebep": "kayıtlı değil (eski giriş)"
+   },
+   {
+    "klasor": "2026-10-17-esp32-ailesi-pano",
+    "sebep": "kayıtlı değil (eski giriş)"
+   },
+   {
+    "klasor": "2026-10-18-kondansator-esr",
+    "sebep": "kayıtlı değil (eski giriş)"
+   },
+   {
+    "klasor": "2026-10-20-pixhawk-pano",
+    "sebep": "kayıtlı değil (eski giriş)"
+   },
+   {
+    "klasor": "2026-10-21-pi-kamera-pano",
+    "sebep": "kayıtlı değil (eski giriş)"
+   },
+   {
+    "klasor": "2026-10-11-jetson-orin-nano",
+    "slot": "elektronik",
+    "sebep": "Elektronik kategorisi kapandı, sitede satılmıyor"
+   },
+   {
+    "klasor": "2026-10-12-deep-sleep-akim",
+    "slot": "elektronik",
+    "sebep": "Elektronik kategorisi kapandı, sitede satılmıyor"
+   },
+   {
+    "klasor": "2026-10-13-phaetus-conch-nozul",
+    "slot": "elektronik",
+    "sebep": "Elektronik kategorisi kapandı, sitede satılmıyor"
+   }
   ]
  }
 }

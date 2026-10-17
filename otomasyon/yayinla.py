@@ -105,45 +105,85 @@ def kareler(klasor):
 
 # ----------------------------------------------------------------- gündem
 def gundem():
-    """Kuyruktan (tarih, saat, tür, klasör) listesi çıkar."""
-    d = json.load(open(os.path.join(KOK, "DURUM.json"), encoding="utf-8"))
+    """Kuyruktan (tarih, saat, tür, klasör) listesi çıkar.
+
+    Tarihler sira.py'den geliyor: kuyrukta gün sırası (0, 1, 2...) duruyor,
+    takvime oturması plan-durumu.json'daki 'baslangic'a bağlı.
+
+    Defter anahtarı tarih değil klasör: plan ileri kaydığında aynı içerik
+    yeni tarihle yeniden yayınlanmasın diye."""
+    d, slotlar = sira.kuyruk()
     kb = d["kuyruk_bekleyen"]
     bekle = {b["klasor"] for b in kb.get("beklemede", [])}
-    reelsler = {r["tarih"]: r["klasor"] for r in kb.get("reels", [])}
     isler = []
-    for s in kb.get("slotlar", []):
+    for s in slotlar:
         if s["klasor"] in bekle:
             continue
         g = date.fromisoformat(s["tarih"]).weekday()
         hhmm = sira.IZGARA[g][s["slot"]]
-        isler.append({"anahtar": "%s|%s|gonderi" % (s["tarih"], s["slot"]),
+        isler.append({"anahtar": "%s|gonderi" % s["klasor"],
                       "zaman": "%sT%s" % (s["tarih"], hhmm),
-                      "tur": "gonderi", "klasor": s["klasor"]})
-        isler.append({"anahtar": "%s|%s|hikaye" % (s["tarih"], s["slot"]),
+                      "tur": "gonderi", "klasor": s["klasor"],
+                      "slot": s["slot"]})
+        isler.append({"anahtar": "%s|hikaye" % s["klasor"],
                       "zaman": "%sT%s" % (s["tarih"],
                                           sira.arti(hhmm, sira.HIKAYE_GECIKME)),
-                      "tur": "hikaye", "klasor": s["klasor"]})
-    for k in kb.get("kampanya", []):
+                      "tur": "hikaye", "klasor": s["klasor"],
+                      "slot": s["slot"]})
+    for k in sira.kampanyalar():
         if k["klasor"] in bekle:
             continue
         tur = k.get("tur", "gonderi")
-        isler.append({"anahtar": "%s|kampanya|%s" % (k["tarih"], tur),
+        # Aynı kampanya klasörü birkaç gün hatırlatma hikayesi olarak
+        # dönüyor; anahtara gün sırası giriyor ki üst üste binmesin.
+        et = "%s|kampanya-%s-%s" % (k["klasor"], k.get("gun", 0), tur)
+        isler.append({"anahtar": et,
                       "zaman": "%sT%s" % (k["tarih"], k["saat"]),
-                      "tur": tur, "klasor": k["klasor"]})
+                      "tur": tur, "klasor": k["klasor"], "slot": "kampanya"})
         if tur == "gonderi":                   # kampanya gönderisinin hikayesi
-            isler.append({"anahtar": "%s|kampanya|hikaye" % k["tarih"],
+            isler.append({"anahtar": et + "-hikaye",
                           "zaman": "%sT%s" % (k["tarih"],
                                               sira.arti(k["saat"],
                                                         sira.HIKAYE_GECIKME)),
-                          "tur": "hikaye", "klasor": k["klasor"]})
-    for tarih, klasor in reelsler.items():
+                          "tur": "hikaye", "klasor": k["klasor"],
+                          "slot": "kampanya"})
+    for tarih, klasor in sira.reelsler().items():
         if klasor in bekle:
             continue
         g = date.fromisoformat(tarih).weekday()
-        isler.append({"anahtar": "%s|reels" % tarih,
+        isler.append({"anahtar": "%s|reels" % klasor,
                       "zaman": "%sT%s" % (tarih, sira.IZGARA[g]["reels"]),
-                      "tur": "reels", "klasor": klasor})
+                      "tur": "reels", "klasor": klasor, "slot": "reels"})
     return sorted(isler, key=lambda i: i["zaman"])
+
+
+def plan_oturt():
+    """Plan takvime oturmadıysa bugüne oturtuyor; sonucu diske yazıyor.
+
+    Bu çağrılana kadar plan 'bugünden itibaren' olarak gösteriliyor, yani
+    yayıncı kapalıyken gün kaybı olmuyor."""
+    pd = sira.plan_durumu()
+    if pd.get("baslangic"):
+        return pd["baslangic"]
+    pd["baslangic"] = sira.baslangic().isoformat()
+    with open(sira.PLAN_DURUM, "w", encoding="utf-8") as f:
+        json.dump(pd, f, ensure_ascii=False, indent=1)
+    print("Plan takvime oturdu: 1. gün %s" % pd["baslangic"])
+    return pd["baslangic"]
+
+
+def kacirildi(is_):
+    """Vakti geçtiği için atlanan işi deftere yazıyor; sira.py bunu
+    planın sonuna ekliyor, içerik düşmüyor."""
+    if is_.get("tur") != "gonderi" or is_.get("slot") in ("kampanya", "reels"):
+        return
+    pd = sira.plan_durumu()
+    kac = pd.setdefault("kacirilan", [])
+    if any(k.get("klasor") == is_["klasor"] for k in kac):
+        return
+    kac.append({"klasor": is_["klasor"], "slot": is_["slot"]})
+    with open(sira.PLAN_DURUM, "w", encoding="utf-8") as f:
+        json.dump(pd, f, ensure_ascii=False, indent=1)
 
 
 def simdi():
@@ -304,6 +344,9 @@ def main():
               "Deneme için: python3 otomasyon/yayinla.py --kuru")
         return 1
 
+    if not kuru:
+        plan_oturt()
+
     d = defter_oku()
     yapilan = {y["anahtar"] for y in d["yayinlanan"]}
     an = simdi()
@@ -331,7 +374,10 @@ def main():
             if t > an:
                 continue
             if an - t > GECIKME_SINIRI:
-                satir.append("| %s | atlandı | vakti %s, %s geçmiş |"
+                if not kuru:
+                    kacirildi(is_)
+                satir.append("| %s | atlandı | vakti %s, %s geçmiş — "
+                             "gönderi planın sonuna eklendi |"
                              % (ad, is_["zaman"], str(an - t).split(".")[0]))
                 continue
         print("→ %s · %s · %s" % (ad, is_["tur"], is_["klasor"]))

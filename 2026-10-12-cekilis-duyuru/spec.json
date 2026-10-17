@@ -61,7 +61,7 @@
     ],
     [
      "SON TARİH",
-     "15 Ekim Perşembe 23.59"
+     "{son_tarih}"
     ]
    ]
   },
@@ -83,11 +83,11 @@
     ],
     [
      "OYLAMA",
-     "16 Ekim, hikayede gün boyu"
+     "{oylama_gunu}, hikayede gün boyu"
     ],
     [
      "SONUÇ",
-     "16 Ekim akşamı, gönderide"
+     "{oylama_gunu} akşamı, gönderide"
     ]
    ]
   }

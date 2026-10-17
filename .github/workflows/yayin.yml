@@ -45,8 +45,10 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Pillow: kampanya karelerindeki tarihler plan oturunca yeniden
+      # basılıyor (otomasyon/kampanya_tarih.py).
       - name: Bağımlılıklar
-        run: pip install "requests>=2.32"
+        run: pip install "requests>=2.32" "pillow>=10"
 
       - name: Yayınla
         env:
@@ -64,12 +66,21 @@ jobs:
             ${{ inputs.kuru == true && '--kuru' || '' }} \
             ${{ inputs.zorla != '' && format('--zorla ''{0}''', inputs.zorla) || '' }}
 
+      # Plan takvime ilk yayında oturuyor, kaçan gönderi sona taşınıyor;
+      # liste ve paket bunları göstersin diye yeniden üretiliyor.
+      - name: Listeyi yenile
+        if: always()
+        run: |
+          python3 otomasyon/kampanya_tarih.py || true
+          python3 sira.py || true
+
       - name: Defteri işle
         if: always()
         run: |
           git config user.name  "yayin-botu"
           git config user.email "noreply@github.com"
-          git add -A otomasyon
+          git add -A otomasyon YAYIN-LISTESI.md YAYIN-PAKETI.md \
+            yayin-paketi.html 2026-*/
           if git diff --cached --quiet; then
             echo "Defterde değişiklik yok."
           else
