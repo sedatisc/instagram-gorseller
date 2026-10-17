@@ -169,6 +169,8 @@ STIL = """
 /* satırlar: etiket + açıklama */
 .satirlar{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
   justify-content:center;gap:16px}
+.slayt .satirlar .sr,.kapak .satirlar .sr{flex:1 1 0;max-height:260px;
+  align-items:center}
 .satirlar .sr{display:flex;gap:20px;background:#fff;border-radius:16px;
   padding:20px 24px;border-left:7px solid var(--vr);
   box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
