@@ -142,6 +142,12 @@ def main():
                 # isteyip kapak için yeterli çözünürlük alıyoruz.
                 v["gorsel"][0] = re.sub(r"/width=\d+,", "/width=1600,",
                                         v["gorsel"][0])
+                # Bazı ürünlerde sayfadaki adres /thumb/ sürümü oluyor;
+                # 400x400 iniyor, gönderide büyütülünce bulanıklaşıyor.
+                # Aynı dosyanın /buyuk/ sürümü var. CDN yukarı ölçek
+                # yapmadığı için width=1600 bunu tek başına çözmüyor.
+                v["gorsel"][0] = re.sub(r"(?i)/thumb/", "/buyuk/",
+                                        v["gorsel"][0])
                 uz = os.path.splitext(up.urlparse(v["gorsel"][0]).path)[1]
                 uz = uz if uz.lower() in (".jpg", ".jpeg", ".png", ".webp") \
                     else ".jpg"

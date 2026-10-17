@@ -83,37 +83,60 @@ STIL = """
 .kare .urun{flex:1 1 auto;min-height:0}
 .etiketler{position:absolute;top:22px;left:22px;right:22px;
   display:flex;justify-content:space-between;pointer-events:none}
-.yazi{flex:0 0 auto;padding:26px 0 0;position:relative}
-.yazi::before{content:"";position:absolute;left:0;top:4px;width:7px;
-  height:60px;border-radius:4px;background:var(--vr)}
-.yazi h1{font-weight:700;font-size:50px;line-height:1.08;
-  letter-spacing:-.018em;padding-left:26px}
-.yazi p{font-size:26px;line-height:1.38;color:#68748b;padding-left:26px;
-  margin-top:12px}
-.ozellik{list-style:none;margin:18px 0 0;padding-left:26px}
+/* Künye satırı: iri sıra numarası, ince çizgi, sağda etiket. Sıra
+   numarası fotoğrafın üstünde yüzen bir cipti, orada hem okunmuyor
+   hem de ürünün önüne geçiyordu. Burada kareyi bölen tipografik
+   öğeye dönüştü. */
+.dizi{flex:0 0 auto;display:flex;align-items:center;gap:20px;
+  padding:24px 0 0}
+.dizi b{font-family:Anton;font-size:46px;line-height:.8;color:var(--vr)}
+.dizi hr{flex:1;height:2px;border:0;background:#d6dde8}
+.dizi i{font-style:normal;font-family:Mono;font-size:19px;color:#5a6678;
+  letter-spacing:.14em;text-transform:uppercase}
+.yazi{flex:0 0 auto;padding:16px 0 0}
+.yazi h1{font-weight:700;font-size:54px;line-height:1.06;
+  letter-spacing:-.022em}
+.yazi p{font-size:26px;line-height:1.38;color:#5a6678;margin-top:12px;
+  max-width:92%}
+.ozellik{list-style:none;margin:18px 0 0}
 .ozellik li{display:flex;justify-content:space-between;align-items:baseline;
   gap:20px;border-top:2px solid #d6dde8;padding:13px 0 0;margin-top:11px}
-.ozellik b{font-family:Mono;font-weight:400;font-size:20px;color:#68748b;
+.ozellik b{font-family:Mono;font-weight:400;font-size:20px;color:#5a6678;
   letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
 .ozellik span{font-size:24px;text-align:right}
 .ayak{flex:0 0 auto;display:flex;align-items:center;
-  justify-content:space-between;padding:26px 0 0}
+  justify-content:space-between;padding:24px 0 0}
 .rozet{display:inline-flex;align-items:center;border-radius:999px;
   background:var(--vr);color:#fff;font-weight:600;font-size:26px;
   padding:15px 28px}
-.ayak .not{font-size:23px;color:#68748b}
+.ayak .not{font-size:23px;color:#5a6678}
 
-/* ---- kapak ---- */
-.bant{flex:0 0 auto;background:#121a30;color:#fff;border-radius:20px;
-  padding:26px 30px}
-.bant h1{font-family:Anton;text-transform:uppercase;line-height:1;
-  letter-spacing:.005em;font-size:68px}
-.bant p{font-size:25px;color:#a8b6d0;margin-top:14px;line-height:1.3}
-.izgara{flex:1 1 auto;min-height:0;display:grid;gap:12px;margin-top:20px}
-/* Izgarada ürün dikeyde ortalanıyor: tabana yaslayınca en/boy oranı
-   farklı ürünlerde bütün boşluk üstte toplanıyordu. */
-.izgara .urun{border-radius:18px;align-items:center}
-.izgara .urun img{max-width:94%;max-height:88%;margin-bottom:0}
+/* ---- kapak ----
+   Altı eşit küçük resimlik ızgara katalog sayfası gibi duruyordu ve
+   akışta hiçbir ürün okunmuyordu. Düzen tersine çevrildi: iri başlık,
+   bir ürün büyük, kalanlar altta küçük şeritte. */
+.kasnak{flex:0 0 auto}
+.kas{display:flex;align-items:center;gap:14px;font-family:Mono;
+  font-size:19px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--vr)}
+.kas s{flex:0 0 46px;height:3px;background:var(--vr);
+  text-decoration:none}
+.kasnak h1{font-family:Anton;text-transform:uppercase;line-height:.94;
+  letter-spacing:.004em;font-size:84px;margin-top:18px}
+.kasnak p{font-size:26px;color:#5a6678;margin-top:16px;line-height:1.34;
+  max-width:88%}
+/* Kahraman kutunun boyu ürünün en/boy oranından geliyor: sabit uzun
+   kutuda yatık ürün (yazıcı, makara) tepesinde kocaman boşlukla
+   kalıyordu. Artan yer alttaki şeride gidiyor, küçük resimler büyür. */
+.kgov{flex:1 1 auto;min-height:0;margin-top:22px;display:flex;
+  flex-direction:column;justify-content:center;gap:10px}
+.sahne{flex:0 0 auto;display:flex}
+.sahne .urun{flex:1}
+.serit{flex:0 0 auto;height:186px;display:grid;gap:10px;
+  grid-auto-flow:column;grid-auto-columns:1fr}
+.serit .urun{border-radius:14px;align-items:center}
+.serit .urun img{max-width:86%;max-height:82%;margin-bottom:0}
+.serit .urun::after{display:none}
 .spot{flex:0 0 auto;display:flex;align-items:center;
   justify-content:space-between;padding:22px 0 0}
 .spot b{font-weight:600;font-size:27px}
@@ -127,7 +150,7 @@ STIL = """
    ve üstünde kocaman boşluk kalıyordu. */
 .liste{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
   gap:12px;padding:26px 0}
-.liste .sr{flex:1 1 0;min-height:84px;max-height:132px;
+.liste .sr{flex:1 1 0;min-height:84px;max-height:164px;
   display:flex;align-items:center;gap:22px;background:#1a2440;
   border-radius:14px;padding:10px 24px 10px 20px;position:relative;
   overflow:hidden}
@@ -150,6 +173,9 @@ STIL = """
    ürünün üstüne binince okunmuyordu. */
 .hik .urun{flex:0 0 1240px;border-radius:0;margin:-48px -48px 0;
   align-items:center}
+/* Ürün dikeyde ortalandığı için tabana sabitlenen temas gölgesi
+   ürünün epey altında ayrı bir leke olarak kalıyordu. */
+.hik .urun::after{display:none}
 .hik .etiketler{top:66px;left:66px;right:66px}
 .hik .govde{flex:1 1 auto;display:flex;flex-direction:column;
   padding:52px 0 0;position:relative}
@@ -157,11 +183,11 @@ STIL = """
   height:64px;border-radius:4px;background:var(--vr)}
 .hik h1{font-weight:700;font-size:56px;line-height:1.06;
   letter-spacing:-.02em;padding-left:30px}
-.hik p{font-size:30px;line-height:1.34;color:#68748b;padding-left:30px;
+.hik p{font-size:30px;line-height:1.34;color:#5a6678;padding-left:30px;
   margin-top:16px}
 .hik .cta{margin-top:auto;text-align:center;padding-bottom:110px}
 .hik .cta b{display:block;font-weight:700;font-size:36px}
-.hik .cta span{display:block;font-family:Mono;font-size:28px;color:#68748b;
+.hik .cta span{display:block;font-family:Mono;font-size:28px;color:#5a6678;
   margin-top:14px}
 """
 
@@ -178,17 +204,17 @@ def _urun_kutusu(u, spec, ust="", stil=""):
 
 def urun_karesi(u, spec, sira, toplam, cikti):
     vr = _renk(u, spec)
-    etiket = u.get("etiket") or spec.get("baslik", "")
-    cipler = []
-    if etiket:
-        cipler.append('<span class="cip">%s</span>' % E(BUY(etiket)[:28]))
-    else:
-        cipler.append("<span></span>")
+    # Kategori cipi fotoğrafın üstünden kalktı; künye satırında duruyor.
+    # Fotoğrafın üstü boş kalınca ürün tek başına kadrajı tutuyor.
+    etiket = BUY(u.get("etiket") or spec.get("baslik", ""))[:26]
     if sira and toplam:
-        cipler.append('<span class="cip">%d/%d</span>' % (sira, toplam))
+        sag = ("%s · %d/%d" % (etiket, sira, toplam)) if etiket \
+            else "%d/%d" % (sira, toplam)
+        dizi = ('<div class="dizi"><b>%02d</b><hr><i>%s</i></div>'
+                % (sira, E(sag)))
     else:
-        cipler.append("<span></span>")
-    ust = '<div class="etiketler">%s</div>' % "".join(cipler)
+        dizi = ('<div class="dizi"><b>&bull;</b><hr><i>%s</i></div>'
+                % E(etiket or "ÜRÜN"))
 
     ozl = [o for o in (u.get("ozellik") or []) if len(o) == 2][:4]
     ozl_html = ""
@@ -205,10 +231,10 @@ def urun_karesi(u, spec, sira, toplam, cikti):
         ayak = '<span class="rozet">sermenkreatif.com\'da</span><span></span>'
 
     govde = (
-        '<div class="ic kare" style="--vr:%s">%s'
+        '<div class="ic kare" style="--vr:%s">%s%s'
         '<div class="yazi"><h1>%s</h1>%s%s</div>'
         '<div class="ayak">%s</div></div>%s'
-        % (vr, _urun_kutusu(u, spec, ust=ust),
+        % (vr, _urun_kutusu(u, spec), dizi,
            E(u.get("ad", "")),
            ('<p>%s</p>' % E(u["satir"])) if u.get("satir") else "",
            ozl_html, ayak, _kunye(spec)))
@@ -216,59 +242,47 @@ def urun_karesi(u, spec, sira, toplam, cikti):
 
 
 # -------------------------------------------------------------- kapak
-# Ürünler yatıksa (yazıcı, makara, kutu) dar dikey hücrede küçücük
-# kalıyor. Bu yüzden ızgara, ürünlerin ortanca en/boy oranına göre
-# seçiliyor: yatık ürünlere az sütunlu geniş hücre.
-_DAR = {
-    1: ("1fr", "1fr", []),
-    2: ("1fr 1fr", "1fr", []),
-    3: ("1fr 1fr", "1.05fr 1fr", ["grid-column:1/3"]),
-    4: ("1fr 1fr", "1fr 1fr", []),
-    5: ("1fr 1fr 1fr", "1fr 1fr", [None, None, None,
-                                   "grid-column:1/3", "grid-column:3/4"]),
-    6: ("1fr 1fr 1fr", "1fr 1fr", []),
-}
-_GENIS = {
-    1: ("1fr", "1fr", []),
-    2: ("1fr", "1fr 1fr", []),
-    3: ("1fr", "1fr 1fr 1fr", []),
-    4: ("1fr 1fr", "1fr 1fr", []),
-    5: ("1fr 1fr", "1fr 1fr 1fr", [None, None, None, None,
-                                   "grid-column:1/3"]),
-    6: ("1fr 1fr", "1fr 1fr 1fr", []),
-}
+def _hero(urunler, spec):
+    """Kapakta büyük duracak ürünün sırası.
 
-
-def _izgara(urunler, spec):
-    oranlar = sorted(_oran(u, spec) for u in urunler)
-    orta = oranlar[len(oranlar) // 2]
-    n = min(len(urunler), 6)
-    return (_GENIS if orta >= 1.15 else _DAR)[n]
+    Varsayılan ilk ürün: spec'teki sıra zaten yazarın seçimi. Oranına
+    bakıp seçtirmeyi denedim, fotoğrafında büyüteç baloncuğu olan ürünü
+    kapağa çıkardı. Başkası isteniyorsa spec'e "kapak": <sıra no>."""
+    n = spec.get("kapak")
+    if isinstance(n, int) and 1 <= n <= len(urunler):
+        return n - 1
+    return 0
 
 
 def kapak(spec, urunler, cikti):
     vr = S.RENK.get(spec.get("renk", "turuncu"), S.RENK["turuncu"])
-    n = min(len(urunler), 6)
-    sut, sat, yer = _izgara(urunler[:n], spec)
-    kutular = []
-    for i, u in enumerate(urunler[:n]):
-        st = yer[i] if i < len(yer) and yer[i] else ""
+    i = _hero(urunler, spec)
+    kalan = [u for j, u in enumerate(urunler) if j != i][:5]
+
+    def _f(u):
         f = _fiyat(u, spec)
-        rz = ('<span class="cip" style="position:absolute;right:12px;'
-              'bottom:12px">%s</span>' % E(f)) if f else ""
-        kutular.append(_urun_kutusu(u, spec, ust=rz, stil=st))
+        return ('<span class="cip" style="position:absolute;right:14px;'
+                'bottom:14px">%s</span>' % E(f)) if f else ""
+
+    # Kutu yüksekliği: ürün kutu içinde en çok %92 en, %90 boy kaplıyor.
+    oran = max(_oran(urunler[i], spec), .25)
+    boy = int(min(660, max(400, (1008 * .92 / oran) / .90)))
 
     spot = spec.get("spot") or ("%d ürün · hepsi kendi atölyemizde basıldı"
-                               % len(urunler))
+                                % len(urunler))
     govde = (
         '<div class="ic" style="--vr:%s">'
-        '<div class="bant"><h1>%s</h1>%s</div>'
-        '<div class="izgara" style="grid-template-columns:%s;'
-        'grid-template-rows:%s">%s</div>'
+        '<div class="kasnak"><div class="kas"><s></s>%s</div>'
+        '<h1>%s</h1>%s</div>'
+        '<div class="kgov"><div class="sahne" style="height:%dpx">%s</div>'
+        '<div class="serit">%s</div></div>'
         '<div class="spot"><b>%s</b><i>kaydır »</i></div></div>%s'
-        % (vr, E(BUY(spec["baslik"])),
+        % (vr, E(BUY(spec.get("etiket", "baskı ürünleri"))),
+           E(BUY(spec["baslik"])),
            ('<p>%s</p>' % E(spec["alt"])) if spec.get("alt") else "",
-           sut, sat, "".join(kutular), E(spot), _kunye(spec)))
+           boy, _urun_kutusu(urunler[i], spec, ust=_f(urunler[i])),
+           "".join(_urun_kutusu(u, spec) for u in kalan),
+           E(spot), _kunye(spec)))
     S.bas(S.sayfa(govde, W, H, STIL), cikti, W, H)
 
 

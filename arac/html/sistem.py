@@ -42,8 +42,9 @@ TEMA = {
 
 KAGIT = "#eef2f8"
 ZEMIN = "#ffffff"          # ürün kesimlerinin ortak zemini
+
 MUREKKEP = "#101626"
-SOLUK = "#68748b"
+SOLUK = "#5a6678"
 CIZGI = "#d6dde8"
 LACI = "#121a30"
 LACI_KOYU = "#0b1326"
@@ -91,15 +92,33 @@ body{background:#222}
 .d2{font-weight:700;line-height:1.1;letter-spacing:-.015em}
 .gov{font-family:Mono;letter-spacing:.14em;text-transform:uppercase}
 
-/* ürün çerçevesi — kesilmiş ürün ortak zemine oturuyor */
-.urun{background:%(zemin)s;border-radius:24px;overflow:hidden;
-  position:relative;display:flex;align-items:flex-end;
-  justify-content:center;box-shadow:0 1px 0 rgba(16,22,38,.06),
-  0 0 0 1px rgba(16,22,38,.05)}
-.urun img{max-width:92%%;max-height:90%%;object-fit:contain;
-  margin-bottom:4%%;filter:drop-shadow(0 18px 18px rgba(16,22,38,.20))}
+/* Ürün çerçevesi. Düz beyaz kutuda ürün yapıştırılmış gibi duruyordu;
+   yumuşak stüdyo degradesi, yere oturan gölge elipsi ve iki katmanlı
+   düşen gölge ürünü sahneye oturtuyor. */
+.urun{border-radius:24px;overflow:hidden;position:relative;
+  display:flex;align-items:flex-end;justify-content:center;
+  background:radial-gradient(118%% 86%% at 50%% 6%%,
+    #ffffff 0%%, #f5f7fb 56%%, #e7ebf3 100%%);
+  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.055)}
+/* temas gölgesi: ürünün tabanı kutunun altından %%4 yukarıda */
+.urun::after{content:"";position:absolute;left:50%%;bottom:4%%;
+  width:46%%;height:26px;transform:translate(-50%%,42%%);
+  background:radial-gradient(50%% 50%% at 50%% 50%%,
+    rgba(16,22,38,.26) 0%%, rgba(16,22,38,0) 72%%)}
+/* width/height yüzde, max-width değil: max-* yalnız tavan koyuyor,
+   küçük kesimler kendi piksel boyunda kalıp kutunun içinde minik
+   duruyordu. Yüzde veriyoruz, contain oranı koruyor. */
+.urun img{position:relative;z-index:1;
+  width:88%%;height:88%%;object-fit:contain;margin-bottom:4%%;
+  /* Dar gölge (2px bulanıklık) açık renkli ürünün siluetine yapışıp
+     gri bir hale gibi duruyordu; ikisi de aşağı ve yumuşak. */
+  filter:drop-shadow(0 10px 12px rgba(16,22,38,.13))
+         drop-shadow(0 30px 34px rgba(16,22,38,.11))}
 /* kesilemeyen fotoğraf kendi zeminini getiriyor, kutuyu doldursun */
-.urun.sik img{max-width:100%%;max-height:100%%;margin-bottom:0;filter:none}
+.urun.sik{background:#fff}
+.urun.sik::after{display:none}
+.urun.sik img{width:100%%;height:100%%;object-fit:cover;margin-bottom:0;
+  filter:none}
 
 /* künye şeridi */
 .kunye{display:flex;align-items:center;justify-content:space-between;
@@ -145,30 +164,45 @@ def foto_uri(yol):
 
 
 # ------------------------------------------------------------------- baskı
+OLCEK = 2          # ekran çarpanı — 2x basıp küçültüyoruz
+
+
 def bas(html, cikti, w, h, kalite=93):
     """HTML'i Chromium'da açıp JPEG'e basıyor.
 
+    İki katı çözünürlükte basılıp LANCZOS ile küçültülüyor: tarayıcı
+    1x'te yazı kenarlarını ve yuvarlatılmış köşeleri piksel ızgarasına
+    oturtuyor, harfler kalınlaşıp kirli çıkıyordu. 2x'te örnekleme
+    dörde katlanıyor, küçültme de kenarları yumuşatıyor.
+
     JPEG zorunlu: Instagram Graph API /media ucu PNG kabul etmiyor."""
+    from PIL import Image
+
     cikti = os.path.abspath(cikti)
     os.makedirs(os.path.dirname(cikti) or ".", exist_ok=True)
     with tempfile.TemporaryDirectory() as t:
         hy = os.path.join(t, "k.html")
         with open(hy, "w", encoding="utf-8") as f:
             f.write(html)
+        ham = os.path.join(t, "k.png")
         js = os.path.join(t, "k.js")
         with open(js, "w") as f:
             f.write(
                 "const {chromium}=require('playwright');(async()=>{"
                 "const b=await chromium.launch();"
                 "const p=await b.newPage({viewport:{width:%d,height:%d},"
-                "deviceScaleFactor:1});"
+                "deviceScaleFactor:%d});"
                 "await p.goto('file://%s');"
                 "await p.evaluate(()=>document.fonts.ready);"
-                "await p.waitForTimeout(250);"
-                "await p.screenshot({path:%r,type:'jpeg',quality:%d});"
-                "await b.close();})();" % (w, h, hy, cikti, kalite))
+                "await p.waitForTimeout(300);"
+                "await p.screenshot({path:%r,type:'png'});"
+                "await b.close();})();" % (w, h, OLCEK, hy, ham))
         subprocess.run(["node", js], check=True, cwd=KOK,
                        capture_output=True, text=True)
+        im = Image.open(ham).convert("RGB")
+        if im.size != (w, h):
+            im = im.resize((w, h), Image.LANCZOS)
+        im.save(cikti, "JPEG", quality=kalite, subsampling=0, optimize=True)
     print("%s  %dx%d" % (cikti, w, h))
     return cikti
 

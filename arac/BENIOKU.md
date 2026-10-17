@@ -16,6 +16,10 @@ adları `uret.py`deki palette birebir aynı, yani `spec.json` içinde
 | `MUREKKEP` / `SOLUK` | `#101626` / `#68748b` | ana ve ikincil yazı |
 | `RENK[...]` | 9 vurgu rengi | kategori, şerit, rozet |
 
+Kareler **iki katı çözünürlükte** basılıp LANCZOS ile 1080'e indiriliyor
+(`sistem.OLCEK`). Tarayıcı 1x'te harf kenarlarını ve yuvarlatılmış
+köşeleri piksel ızgarasına oturtuyordu; yazı kalın ve kirli çıkıyordu.
+
 Fontlar (`Anton`, `Pop`, `Mono`) base64 ile HTML'in içine gömülüyor:
 hem Chromium sistem fontuna düşmüyor, hem de aynı HTML Adobe Express'e
 aktarıldığında yazı bozulmuyor. Baskı `sistem.bas()` ile yapılıyor,
@@ -41,9 +45,11 @@ ve `hikaye.jpg`.
 - Ürün fotoğrafları `rembg` ile kesilip tek zemine oturuyor; kesim
   `gorsel/urun/kesik/` altında saklanıyor, iki motor aynı PNG'yi
   paylaşıyor. Kesim istenmiyorsa spec'e `"kesim": false`.
-- Kapak ızgarası ürünlerin ortanca en/boy oranına göre seçiliyor:
-  yatık ürünler (yazıcı, makara) az sütunlu geniş hücreye, dik ürünler
-  (saksı, vazo) üç sütuna gidiyor.
+- Kapak altı eşit küçük resimlik ızgara değil: ilk ürün büyük, kalan
+  beşi altta şeritte. Büyük kutunun boyu ürünün en/boy oranından
+  geliyor. Kapağa başka ürün çıkacaksa spec'e `"kapak": <sıra no>`.
+- Ürün kutularının zemini yumuşak stüdyo degradesi, altında temas
+  gölgesi var. Ürün kutuyu oranını bozmadan dolduruyor.
 - Fiyat varsayılan olarak **yazılmıyor**. Gönderide fiyat donup kalıyor,
   mağazada değişince kare yanlış kalıyor. Açmak için spec'e
   `"fiyat": true`.
