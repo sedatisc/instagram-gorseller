@@ -20,6 +20,7 @@ slaytta kullanılıyor. O slayt gelirse başlık ve açıklamayla basılıyor,
 """
 import html as _h
 import json
+import re
 import os
 import sys
 
@@ -69,19 +70,19 @@ STIL = """
 /* ---- ortak başlık bloğu ---- */
 .tepe{flex:0 0 auto}
 .kas{display:flex;align-items:center;gap:14px;font-family:Mono;
-  font-size:19px;letter-spacing:.16em;text-transform:uppercase;
+  font-size:21px;letter-spacing:.16em;text-transform:uppercase;
   color:var(--vr)}
 .kas s{flex:0 0 46px;height:3px;background:var(--vr);text-decoration:none}
 /* line-height 1.02: .94'te iki satırlı başlıkta Ğ ve İ üst satıra
    biniyordu, Anton'un kasa yüksekliği buna yer bırakmıyor. */
 .tepe h1{font-family:Anton;text-transform:uppercase;line-height:1.02;
-  letter-spacing:.004em;font-size:78px;margin-top:18px}
+  letter-spacing:.004em;font-size:90px;margin-top:18px}
 .tepe h1 em{font-style:normal;color:var(--vr)}
-.tepe .spot{font-size:26px;line-height:1.36;color:#5a6678;margin-top:18px;
-  max-width:93%}
+.tepe .spot{font-size:31px;line-height:1.34;color:#5a6678;margin-top:18px;
+  max-width:94%}
 .rozetler{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
-.rozetler span{font-family:Mono;font-size:18px;letter-spacing:.05em;
-  padding:9px 16px;border-radius:999px;border:2px solid var(--rz);
+.rozetler span{font-family:Mono;font-size:20px;letter-spacing:.05em;
+  padding:10px 18px;border-radius:999px;border:2px solid var(--rz);
   color:var(--rz)}
 
 /* ---- gövde ---- */
@@ -89,16 +90,18 @@ STIL = """
   justify-content:center;gap:14px;padding:26px 0}
 
 /* kart ızgarası */
-.kartlar{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.kartlar .k{background:#fff;border-radius:18px;padding:22px 24px;
+.kartlar{flex:1 1 auto;min-height:0;display:grid;
+  grid-template-columns:1fr 1fr;grid-auto-rows:1fr;gap:16px}
+.kartlar .k{display:flex;flex-direction:column;justify-content:center;
+  background:#fff;border-radius:18px;padding:24px 28px;
   border-left:7px solid var(--kr);
   box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
 .kartlar .k.genis{grid-column:1/3}
-.kartlar .k b{display:block;font-family:Mono;font-size:19px;
+.kartlar .k b{display:block;font-family:Mono;font-size:21px;
   letter-spacing:.09em;text-transform:uppercase;color:var(--kr)}
-.kartlar .k strong{display:block;font-size:42px;line-height:1.05;
+.kartlar .k strong{display:block;font-size:50px;line-height:1.04;
   letter-spacing:-.02em;margin-top:8px}
-.kartlar .k span{display:block;font-size:22px;color:#5a6678;margin-top:8px;
+.kartlar .k span{display:block;font-size:26px;color:#5a6678;margin-top:10px;
   line-height:1.3}
 
 /* İri rakam kendi panelinde: çıplak bırakılınca karenin ortasında
@@ -107,9 +110,9 @@ STIL = """
   align-items:center;justify-content:center;text-align:center;
   background:#fff;border-radius:24px;padding:30px;
   box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
-.rakam b{display:block;font-family:Anton;font-size:150px;line-height:.88;
+.rakam b{display:block;font-family:Anton;font-size:168px;line-height:.88;
   color:var(--vr);letter-spacing:-.01em}
-.rakam span{display:block;font-size:30px;color:#101626;margin-top:18px;
+.rakam span{display:block;font-size:36px;color:#101626;margin-top:18px;
   font-weight:600}
 
 /* ikili karşılaştırma */
@@ -122,10 +125,10 @@ STIL = """
   background:#fff;border-radius:20px;padding:30px;
   border-top:8px solid var(--kr);
   box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
-.ikili .y b{display:block;font-family:Anton;font-size:52px;color:var(--kr);
+.ikili .y b{display:block;font-family:Anton;font-size:58px;color:var(--kr);
   text-transform:uppercase;line-height:1}
-.ikili .y span{display:block;font-size:24px;color:#2a3344;margin-top:14px;
-  line-height:1.34}
+.ikili .y span{display:block;font-size:28px;color:#2a3344;margin-top:16px;
+  line-height:1.32}
 
 /* tablo */
 .tablo{display:flex;flex-direction:column}
@@ -137,20 +140,32 @@ STIL = """
 .slayt .tablo{flex:1 1 auto;min-height:0}
 .slayt .tablo .sr{flex:1 1 0;min-height:68px;max-height:136px;
   align-items:center}
-.tablo .sr b{font-family:Mono;font-weight:400;font-size:21px;color:#5a6678;
+.tablo .sr b{font-family:Mono;font-weight:400;font-size:24px;color:#5a6678;
   letter-spacing:.06em;text-transform:uppercase}
-.tablo .sr span{font-size:32px;font-weight:600;letter-spacing:-.015em;
+.tablo .sr span{font-size:38px;font-weight:600;letter-spacing:-.015em;
   text-align:right;white-space:nowrap}
 
+/* Görselsiz slaytın tipografik kurgusu: giriş cümlesi iri,
+   kalanı gövde puntosunda; ikisi kareyi dolduruyor. */
+.soz{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
+  justify-content:center;padding:10px 0 20px}
+.soz::before{content:"";flex:0 0 auto;width:120px;height:9px;
+  border-radius:5px;background:var(--vr);margin-bottom:38px}
+.soz .gir{font-size:var(--gir);line-height:1.18;font-weight:600;
+  letter-spacing:-.022em;color:#101626;max-width:97%}
+.soz .kal{font-size:var(--kal);line-height:1.42;color:#5a6678;
+  margin-top:30px;max-width:96%}
+
 /* satırlar: etiket + açıklama */
-.satirlar{display:flex;flex-direction:column;gap:14px}
+.satirlar{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
+  justify-content:center;gap:16px}
 .satirlar .sr{display:flex;gap:20px;background:#fff;border-radius:16px;
   padding:20px 24px;border-left:7px solid var(--vr);
   box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
-.satirlar .sr b{flex:0 0 150px;font-family:Mono;font-size:19px;
+.satirlar .sr b{flex:0 0 168px;font-family:Mono;font-size:21px;
   letter-spacing:.07em;text-transform:uppercase;color:var(--vr);
   padding-top:3px}
-.satirlar .sr span{flex:1;font-size:24px;line-height:1.34;color:#2a3344}
+.satirlar .sr span{flex:1;font-size:28px;line-height:1.32;color:#2a3344}
 
 /* vurgu: yan yana rakamlar */
 .vurgu{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:14px}
@@ -214,19 +229,19 @@ STIL = """
   max-width:95%}
 
 /* ---- kapanış ---- */
-.kapanis h1{font-family:Anton;text-transform:uppercase;font-size:72px;
+.kapanis h1{font-family:Anton;text-transform:uppercase;font-size:84px;
   line-height:.95}
 .kapanis h1 em{font-style:normal;color:var(--vr)}
 .kriter{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
   gap:12px;padding:30px 0}
-.kriter .sr{flex:1 1 0;min-height:76px;max-height:150px;display:flex;
+.kriter .sr{flex:1 1 0;min-height:76px;max-height:190px;display:flex;
   align-items:center;gap:24px;background:#1a2440;border-radius:14px;
   padding:14px 26px;position:relative;overflow:hidden}
 .kriter .sr::before{content:"";position:absolute;left:0;top:14px;bottom:14px;
   width:6px;border-radius:3px;background:var(--vr)}
-.kriter .sr b{flex:0 0 300px;font-family:Mono;font-size:20px;
+.kriter .sr b{flex:0 0 300px;font-family:Mono;font-size:22px;
   letter-spacing:.08em;text-transform:uppercase;color:var(--vr)}
-.kriter .sr span{flex:1;font-size:30px;font-weight:600;color:#fff;
+.kriter .sr span{flex:1;font-size:34px;font-weight:600;color:#fff;
   letter-spacing:-.012em}
 .kutu{flex:0 0 auto;background:#1a2440;border-radius:16px;padding:22px 26px;
   font-size:22px;line-height:1.4;color:#d6dde8}
@@ -234,8 +249,8 @@ STIL = """
 /* ---- hikaye ---- */
 .hik .tepe h1{font-size:92px}
 .hik .spot{font-size:32px}
-.hik .cta{margin-top:auto;text-align:center;padding-bottom:120px}
-.hik .cta b{display:block;font-weight:700;font-size:38px}
+.hik .cta{margin-top:auto;text-align:center;padding-bottom:210px}
+.hik .cta b{display:block;font-weight:700;font-size:42px}
 .hik .cta span{display:block;font-family:Mono;font-size:28px;color:#5a6678;
   margin-top:14px}
 """
@@ -381,9 +396,12 @@ def _govde_slayt(s, vr):
         return '<div class="satirlar">%s</div>' % "".join(
             '<div class="sr"><b>%s</b><span>%s</span></div>'
             % (E(BUY(a)), E(b)) for a, b in s["satirlar"][:5])
-    if s.get("vurgu"):
+    # "vurgu" eski Pillow hattında kapak çiziminde karartılacak
+    # kutunun koordinatlarıydı; sayısalsa içerik değil, atlanıyor.
+    vu = s.get("vurgu")
+    if vu and not all(isinstance(v, (int, float)) for v in vu):
         return '<div class="vurgu">%s</div>' % "".join(
-            '<div class="v"><b>%s</b></div>' % E(v) for v in s["vurgu"][:4])
+            '<div class="v"><b>%s</b></div>' % E(v) for v in vu[:4])
     if s.get("ikili"):
         return '<div class="ikili">%s</div>' % "".join(
             '<div class="y" style="--kr:%s"><b>%s</b><span>%s</span></div>'
@@ -398,17 +416,49 @@ def _govde_slayt(s, vr):
     return ""
 
 
+def _cumleler(metin):
+    """İlk cümle giriş, kalanı gövde."""
+    p = re.split(r"(?<=[.!?])\s+", (metin or "").strip())
+    p = [c for c in p if c]
+    return (p[0] if p else ""), " ".join(p[1:])
+
+
+# Metin uzunluğuna göre punto: tek ölçüde kısa metin kareyi boş,
+# uzun metin taşkın bırakıyordu.
+KADEME = ((120, 86, 42), (200, 76, 39), (300, 66, 37),
+          (430, 57, 34), (10 ** 6, 49, 31))
+
+
+def _punto(n):
+    for sinir, gir, kal in KADEME:
+        if n <= sinir:
+            return gir, kal
+    return 49, 31
+
+
 def slayt(spec, s, cikti):
     kat = spec.get("kategori", "3dbaski")
     vr = S.RENK[KAT_RENK.get(kat, "turuncu")]
+    ic = _govde_slayt(s, vr)
+    if ic:
+        ust = ('<p class="ac">%s</p>' % E(s["aciklama"])) \
+            if s.get("aciklama") else ""
+    else:
+        # Görseli olmayan slayt: metni tipografiyle kuruyoruz,
+        # yoksa karenin üçte ikisi boş kalıyordu.
+        gir, kalan = _cumleler(s.get("aciklama", ""))
+        pg, pk = _punto(len(gir) + len(kalan))
+        ust = ""
+        ic = ('<div class="soz" style="--gir:%dpx;--kal:%dpx">'
+              '<p class="gir">%s</p>%s</div>'
+              % (pg, pk, E(gir),
+                 ('<p class="kal">%s</p>' % E(kalan)) if kalan else ""))
     govde = ('<div class="ic slayt" style="--vr:%s">'
              '<div class="tepe"><div class="kas"><s></s>%s</div>'
              '<h2 style="margin-top:16px">%s</h2>%s</div>'
              '<div class="govde">%s</div></div>%s'
              % (vr, E(KAT_ETIKET.get(kat, "")), E(s.get("baslik", "")),
-                ('<p class="ac">%s</p>' % E(s["aciklama"]))
-                if s.get("aciklama") else "",
-                _govde_slayt(s, vr), _kunye(spec)))
+                ust, ic, _kunye(spec)))
     S.bas(S.sayfa(govde, W, H, STIL), cikti, W, H)
 
 

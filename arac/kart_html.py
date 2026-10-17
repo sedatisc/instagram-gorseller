@@ -89,27 +89,27 @@ STIL = """
    öğeye dönüştü. */
 .dizi{flex:0 0 auto;display:flex;align-items:center;gap:20px;
   padding:24px 0 0}
-.dizi b{font-family:Anton;font-size:46px;line-height:.8;color:var(--vr)}
+.dizi b{font-family:Anton;font-size:52px;line-height:.8;color:var(--vr)}
 .dizi hr{flex:1;height:2px;border:0;background:#d6dde8}
-.dizi i{font-style:normal;font-family:Mono;font-size:19px;color:#5a6678;
+.dizi i{font-style:normal;font-family:Mono;font-size:21px;color:#5a6678;
   letter-spacing:.14em;text-transform:uppercase}
 .yazi{flex:0 0 auto;padding:16px 0 0}
-.yazi h1{font-weight:700;font-size:54px;line-height:1.06;
+.yazi h1{font-weight:700;font-size:62px;line-height:1.05;
   letter-spacing:-.022em}
-.yazi p{font-size:26px;line-height:1.38;color:#5a6678;margin-top:12px;
+.yazi p{font-size:30px;line-height:1.36;color:#5a6678;margin-top:14px;
   max-width:92%}
 .ozellik{list-style:none;margin:18px 0 0}
 .ozellik li{display:flex;justify-content:space-between;align-items:baseline;
   gap:20px;border-top:2px solid #d6dde8;padding:13px 0 0;margin-top:11px}
-.ozellik b{font-family:Mono;font-weight:400;font-size:20px;color:#5a6678;
+.ozellik b{font-family:Mono;font-weight:400;font-size:22px;color:#5a6678;
   letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
-.ozellik span{font-size:24px;text-align:right}
+.ozellik span{font-size:28px;text-align:right}
 .ayak{flex:0 0 auto;display:flex;align-items:center;
   justify-content:space-between;padding:24px 0 0}
 .rozet{display:inline-flex;align-items:center;border-radius:999px;
-  background:var(--vr);color:#fff;font-weight:600;font-size:26px;
+  background:var(--vr);color:#fff;font-weight:600;font-size:30px;
   padding:15px 28px}
-.ayak .not{font-size:23px;color:#5a6678}
+.ayak .not{font-size:26px;color:#5a6678}
 
 /* ---- kapak ----
    Altı eşit küçük resimlik ızgara katalog sayfası gibi duruyordu ve
@@ -117,13 +117,13 @@ STIL = """
    bir ürün büyük, kalanlar altta küçük şeritte. */
 .kasnak{flex:0 0 auto}
 .kas{display:flex;align-items:center;gap:14px;font-family:Mono;
-  font-size:19px;letter-spacing:.16em;text-transform:uppercase;
+  font-size:21px;letter-spacing:.16em;text-transform:uppercase;
   color:var(--vr)}
 .kas s{flex:0 0 46px;height:3px;background:var(--vr);
   text-decoration:none}
 .kasnak h1{font-family:Anton;text-transform:uppercase;line-height:.94;
-  letter-spacing:.004em;font-size:84px;margin-top:18px}
-.kasnak p{font-size:26px;color:#5a6678;margin-top:16px;line-height:1.34;
+  letter-spacing:.004em;font-size:96px;margin-top:18px}
+.kasnak p{font-size:31px;color:#5a6678;margin-top:16px;line-height:1.33;
   max-width:88%}
 /* Kahraman kutunun boyu ürünün en/boy oranından geliyor: sabit uzun
    kutuda yatık ürün (yazıcı, makara) tepesinde kocaman boşlukla
@@ -139,13 +139,13 @@ STIL = """
 .serit .urun::after{display:none}
 .spot{flex:0 0 auto;display:flex;align-items:center;
   justify-content:space-between;padding:22px 0 0}
-.spot b{font-weight:600;font-size:27px}
-.spot i{font-style:normal;font-family:Mono;font-size:24px;color:var(--vr)}
+.spot b{font-weight:600;font-size:31px}
+.spot i{font-style:normal;font-family:Mono;font-size:26px;color:var(--vr)}
 
 /* ---- kapanış ---- */
-.kapanis h1{font-family:Anton;text-transform:uppercase;font-size:64px;
+.kapanis h1{font-family:Anton;text-transform:uppercase;font-size:76px;
   line-height:1}
-.kapanis .alt{font-size:24px;color:#96a4c0;margin-top:12px;line-height:1.35}
+.kapanis .alt{font-size:28px;color:#96a4c0;margin-top:14px;line-height:1.34}
 /* Satırlar kalan yeri paylaşıyor: sabit yükseklikte listenin altında
    ve üstünde kocaman boşluk kalıyordu. */
 .liste{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
@@ -160,13 +160,13 @@ STIL = """
   background:#fff;display:flex;align-items:center;justify-content:center;
   padding:6px;margin-left:12px}
 .liste .sr figure img{max-width:100%;max-height:100%;object-fit:contain}
-.liste .sr b{font-weight:600;font-size:29px;color:#fff;flex:1;
+.liste .sr b{font-weight:600;font-size:33px;color:#fff;flex:1;
   letter-spacing:-.01em}
-.liste .sr i{font-style:normal;font-weight:600;font-size:23px;color:var(--vr)}
+.liste .sr i{font-style:normal;font-weight:600;font-size:26px;color:var(--vr)}
 .kutu{flex:0 0 auto;background:#1a2440;border-radius:16px;padding:20px 26px}
-.kutu b{display:block;font-family:Mono;font-size:21px;color:var(--vr);
+.kutu b{display:block;font-family:Mono;font-size:23px;color:var(--vr);
   letter-spacing:.08em;text-transform:uppercase}
-.kutu span{display:block;font-size:23px;color:#d6dde8;margin-top:9px}
+.kutu span{display:block;font-size:26px;color:#d6dde8;margin-top:10px}
 
 /* ---- hikaye ---- */
 /* Marka cipi fotoğrafın üstünde değil, kadrajın sol üstünde duruyor;
@@ -181,12 +181,12 @@ STIL = """
   padding:52px 0 0;position:relative}
 .hik .govde::before{content:"";position:absolute;left:0;top:56px;width:8px;
   height:64px;border-radius:4px;background:var(--vr)}
-.hik h1{font-weight:700;font-size:56px;line-height:1.06;
+.hik h1{font-weight:700;font-size:64px;line-height:1.05;
   letter-spacing:-.02em;padding-left:30px}
-.hik p{font-size:30px;line-height:1.34;color:#5a6678;padding-left:30px;
+.hik p{font-size:34px;line-height:1.33;color:#5a6678;padding-left:30px;
   margin-top:16px}
 .hik .cta{margin-top:auto;text-align:center;padding-bottom:110px}
-.hik .cta b{display:block;font-weight:700;font-size:36px}
+.hik .cta b{display:block;font-weight:700;font-size:42px}
 .hik .cta span{display:block;font-family:Mono;font-size:28px;color:#5a6678;
   margin-top:14px}
 """
