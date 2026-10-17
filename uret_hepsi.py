@@ -22,7 +22,10 @@ import rehber_html                                          # noqa: E402
 
 
 def sablon(spec):
-    if spec.get("urunler") or (spec.get("kapak") or {}).get("tip") == "urun":
+    # Yalnız "urunler" listesi olan spec kart şablonuna gidiyor. Kapak
+    # tipi "urun" olan tek ürünlük rehber gönderilerinde o liste yok,
+    # kart şablonu onlarda KeyError veriyordu.
+    if spec.get("urunler"):
         return kart_html
     return rehber_html
 

@@ -29,6 +29,7 @@ sys.path.insert(0, os.path.join(KOK, "arac"))
 sys.path.insert(0, os.path.join(KOK, "arac", "html"))
 
 import sistem as S                                          # noqa: E402
+import cizim_png                                            # noqa: E402
 from urun_karti import BUY                                  # noqa: E402
 
 W, H = 1080, 1350
@@ -145,6 +146,14 @@ STIL = """
 .tablo .sr span{font-size:38px;font-weight:600;letter-spacing:-.015em;
   text-align:right;white-space:nowrap}
 
+/* devre şeması */
+.sema{flex:0 1 auto;min-height:0;max-height:100%;width:100%;
+  align-self:center;display:flex;align-items:center;
+  justify-content:center;background:#fff;border-radius:24px;
+  padding:26px 30px;
+  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
+.sema img{width:100%;height:100%;object-fit:contain}
+
 /* Görselsiz slaytın tipografik kurgusu: giriş cümlesi iri,
    kalanı gövde puntosunda; ikisi kareyi dolduruyor. */
 .soz{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
@@ -234,7 +243,7 @@ STIL = """
 .kapanis h1 em{font-style:normal;color:var(--vr)}
 .kriter{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
   gap:12px;padding:30px 0}
-.kriter .sr{flex:1 1 0;min-height:76px;max-height:190px;display:flex;
+.kriter .sr{flex:1 1 0;min-height:76px;max-height:300px;display:flex;
   align-items:center;gap:24px;background:#1a2440;border-radius:14px;
   padding:14px 26px;position:relative;overflow:hidden}
 .kriter .sr::before{content:"";position:absolute;left:0;top:14px;bottom:14px;
@@ -334,9 +343,25 @@ def _sutunlar(k, vr):
     return govde
 
 
+def _sema(ogeler):
+    """Devre şeması: eski çizim motoru PNG basıyor, kapak onu
+    görsel olarak yerleştiriyor."""
+    yol = cizim_png.onbellekli(ogeler)
+    if not yol:
+        return ""
+    from PIL import Image
+    w, h = Image.open(yol).size
+    # Kutu çizimin oranını alıyor: sabit kutuda geniş şema üstte ve
+    # altta kocaman beyaz boşluk bırakıyordu.
+    return ('<div class="sema" style="aspect-ratio:%d/%d">'
+            '<img src="%s" alt=""></div>' % (w, h, S.foto_uri(yol)))
+
+
 def _govde_kapak(k, vr):
     """Kapağın gövdesi içeriğe göre değişiyor; eski yedi kapak tipi
     buraya iniyor."""
+    if k.get("cizim"):
+        return _sema(k["cizim"])
     if k.get("sutunlar"):
         return _sutunlar(k, vr)
     if k.get("kartlar"):
