@@ -208,10 +208,10 @@ STIL = """
 .sutunlar .s{background:#fff;border-radius:18px;overflow:hidden;
   display:flex;flex-direction:column;padding-bottom:18px;
   box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
-.sutunlar .s header{background:var(--kr);color:#fff;padding:14px 16px}
-.sutunlar .s header b{display:block;font-family:Anton;font-size:30px;
+.sutunlar .s header{background:var(--kr);color:#fff;padding:16px 18px}
+.sutunlar .s header b{display:block;font-family:Anton;font-size:34px;
   text-transform:uppercase;line-height:1.04;letter-spacing:.01em}
-.sutunlar .s header span{display:block;font-family:Mono;font-size:14px;
+.sutunlar .s header span{display:block;font-family:Mono;font-size:16px;
   letter-spacing:.06em;margin-top:6px;opacity:.9}
 .sutunlar .s figure{flex:0 0 auto;height:260px;margin:12px 12px 0;
   border-radius:12px;background:
@@ -223,7 +223,7 @@ STIL = """
   flex-direction:column;gap:8px}
 .sutunlar .s ul.kul{margin-top:10px;padding-top:10px;
   border-top:2px solid #e4e9f1}
-.sutunlar .s li{font-size:17px;line-height:1.26;color:#2a3344;
+.sutunlar .s li{font-size:20px;line-height:1.26;color:#2a3344;
   padding-left:14px;position:relative}
 .sutunlar .s li::before{content:"";position:absolute;left:0;top:8px;
   width:6px;height:6px;border-radius:50%;background:var(--kr)}

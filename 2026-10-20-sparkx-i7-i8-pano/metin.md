@@ -6,7 +6,7 @@ SPARKX i7 » bugün rafta. 260 × 260 × 255 mm, 500 mm/s, 10.000 mm/s², nozul 
 
 SPARKX i8 » kampanyası sürüyor. Teknik verisi yayınlandı: aynı 260 × 260 × 255 mm alan, 500 mm/s, 10.000 mm/s², 81 noktadan otomatik kalibrasyon. Çok renk sistemi QuarTeks — CFS değil, nozula gömülü 4 kanallı bir yapı; purge kulesi olmadan 4 renk basıyor ve kanal değişimi bir saniyenin altında.
 
-i8 şu an Indiegogo kampanyasında; fiyat ve sevkiyat tarihi açıklandıkça buradan duyuracağız. Kampanyadan alacaksan teslim takvimini kampanya sayfasından takip et.
+i8 şu an Indiegogo kampanyasında; ön sipariş açıldığında buradan duyuracağız.
 
 K3 bu karşılaştırmaya girmiyor: farklı sınıf, farklı mekanizma. Onu Snapmaker U1 ile karşılaştırdığım ayrı bir gönderide ele aldım.
 
@@ -22,4 +22,4 @@ Rakamlar Creality'nin kendi sayfalarından. i8 görseli kampanya sayfasından; �
 
 ## Doğrulanmayanlar
 
-- i8 fiyatı ve sevkiyat tarihi — Creality yayınlamadı.
+- i8 fiyatı — Creality henüz yayınlamadı.
