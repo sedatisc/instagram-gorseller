@@ -1,0 +1,59 @@
+{
+  "sablon": "ilan",
+  "renk": "turuncu",
+  "marka": "",
+  "ust": "Mağazamız",
+  "model": "Trendyol'dayız",
+  "rozet": "12 eğitici oyuncak · tek mağaza",
+  "iddia": "Hepsi tek yerde.",
+  "spot": "Atölyemizde bastığımız eğitici oyuncakların tamamı Trendyol mağazamızda. Bağlantıya dokun, hepsini gör.",
+  "ozellikler": [
+    [
+      "sekil",
+      "Eğitici",
+      "oyuncaklar"
+    ],
+    [
+      "istif",
+      "12 farklı",
+      "set"
+    ],
+    [
+      "renk",
+      "Renk",
+      "seçenekleri"
+    ]
+  ],
+  "guven": [
+    [
+      "kalkan",
+      "Güvenli PLA",
+      "malzeme"
+    ],
+    [
+      "kurulum",
+      "Kendi atölyemizde",
+      "üretildi"
+    ],
+    [
+      "kargo",
+      "Samsun'dan",
+      "kargo"
+    ],
+    [
+      "kart",
+      "Faturalı",
+      "satış"
+    ]
+  ],
+  "cagri": "Trendyol mağazamız",
+  "satis": [
+    [
+      "ty.gl/wvxkl6ythlckv",
+      ""
+    ]
+  ],
+  "dip_sag": "sermenkreatif.com · Trendyol",
+  "kapak_foto": "urun/foto/trendyol-magaza.jpg",
+  "gorsel": "urun/foto/trendyol-magaza.jpg"
+}

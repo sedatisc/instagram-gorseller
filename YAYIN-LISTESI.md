@@ -10,6 +10,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 |---|---|---|---|---|
 | 08:12 | Gönderi | AYAR & REHBER | `2026-10-11-sunlu-pla-kartelasi` | 6 |
 | 08:52 | Hikaye | AYAR & REHBER | `2026-10-11-sunlu-pla-kartelasi/hikaye.jpg` | 1 |
+| 10:30 | Kampanya hikaye | — | `2026-10-19-trendyol-magaza/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-14-atolyeden-cikanlar` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-14-atolyeden-cikanlar/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-19-yazicilar` | 8 |
@@ -114,6 +115,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 |---|---|---|---|---|
 | 08:12 | Gönderi | AYAR & REHBER | `2026-10-18-sert-nozul` | 5 |
 | 08:52 | Hikaye | AYAR & REHBER | `2026-10-18-sert-nozul/hikaye.jpg` | 1 |
+| 10:30 | Kampanya hikaye | — | `2026-10-19-trendyol-magaza/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-21-hediyelik` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-21-hediyelik/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-17-polymaker-ht-pla` | 5 |
@@ -202,6 +204,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
 | 08:12 | — | **AYAR & REHBER** | _boş — üretilecek_ | — |
+| 10:30 | Kampanya hikaye | — | `2026-10-19-trendyol-magaza/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-29-vidali-yapim-tahtasi` | 5 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-29-vidali-yapim-tahtasi/hikaye.jpg` | 1 |
 | 17:24 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
@@ -241,6 +244,17 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 19:36 | **Reels** | — | _boş — üretilecek_ | — |
 | 20:42 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
 
+## 2026-11-06 · Cuma
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 08:12 | — | **AYAR & REHBER** | _boş — üretilecek_ | — |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-11-02-kesir-daireleri` | 4 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-11-02-kesir-daireleri/hikaye.jpg` | 1 |
+| 16:40 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
+| 18:10 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
+| 20:30 | **Reels** | — | _boş — üretilecek_ | — |
+
 ## Boş slotlar
 
 Bu slotlar için içerik henüz üretilmedi:
@@ -274,3 +288,7 @@ Bu slotlar için içerik henüz üretilmedi:
 - 2026-11-05 · ÜRÜN & MAĞAZA
 - 2026-11-05 · PROJE & ATÖLYE
 - 2026-11-05 · REELS
+- 2026-11-06 · AYAR & REHBER
+- 2026-11-06 · ÜRÜN & MAĞAZA
+- 2026-11-06 · PROJE & ATÖLYE
+- 2026-11-06 · REELS

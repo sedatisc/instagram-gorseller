@@ -315,6 +315,9 @@ STIL = """
 /* Kaynak kesim 338px; tam genişliğe yayınca bulanıklaşıyor,
    yüksekliğe oturtup genişliği serbest bırakıyoruz. */
 .hik .sahne img{width:auto;max-width:100%;height:100%}
+/* Hikayede çağrı satırı vardı ama basılmıyordu: nereden alınacağı
+   yazmayan hikaye, gönderinin yarısı kadar iş görüyor. */
+.hik .alt{padding-top:26px}
 """
 
 
@@ -498,6 +501,8 @@ def hikaye(spec, cikti):
         '<div class="govde"><div class="soz">'
         '<span class="ust">%s</span><h1>%s</h1>%s<h2>%s</h2>%s</div>'
         '<div class="sahne%s">%s</div></div>'
+        '<div class="alt"><div class="cagri">'
+        '<span class="dugme">%s</span>%s</div></div>'
         '<div class="guven">%s</div>'
         '%s</div>'
         % (vr, int(_h1_punto(spec.get("model", "")) * 1.12), kilit,
@@ -508,7 +513,8 @@ def hikaye(spec, cikti):
            iddia,
            ('<p>%s</p>' % E(spec["spot"])) if spec.get("spot") else "",
            " foto" if foto else "",
-           ('<img src="%s" alt="">' % uri) if uri else "", guven,
+           ('<img src="%s" alt="">' % uri) if uri else "",
+           E(spec.get("cagri", "sermenkreatif.com'da")), _satis(spec), guven,
            _dip(spec).replace('class="dip"',
                               'class="dip" style="padding-bottom:190px"')))
     S.bas(S.sayfa(govde, SW, SH, STIL), cikti, SW, SH, kalite=92)

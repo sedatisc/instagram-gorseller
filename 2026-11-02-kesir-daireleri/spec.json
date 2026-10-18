@@ -1,0 +1,92 @@
+{
+  "sablon": "ilan",
+  "renk": "mavi",
+  "marka": "",
+  "ust": "Eğitici oyuncak",
+  "model": "Kesir Daireleri",
+  "rozet": "6 yuvalı tabla · 21 dilim",
+  "iddia": "Bütünü eline al, parçala.",
+  "spot": "1 bütün ve 1/2, 1/3, 1/4, 1/5, 1/6 kesir dilimleri. Kesri tahtada anlatmadan önce çocuk elinde çeviriyor.",
+  "ozellikler": [
+    [
+      "sekil",
+      "Kesir",
+      "Kavramı"
+    ],
+    [
+      "istif",
+      "Bütün & Parça",
+      "karşılaştırma"
+    ],
+    [
+      "renk",
+      "Renkli dilim",
+      "üzeri yazılı"
+    ]
+  ],
+  "guven": [
+    [
+      "kalkan",
+      "Güvenli PLA",
+      "malzeme"
+    ],
+    [
+      "kurulum",
+      "Kendi atölyemizde",
+      "üretildi"
+    ],
+    [
+      "kargo",
+      "Samsun'dan",
+      "kargo"
+    ],
+    [
+      "kart",
+      "Faturalı",
+      "satış"
+    ]
+  ],
+  "cagri": "sermenkreatif.com'da",
+  "satis": [
+    [
+      "Trendyol'da satışta",
+      "marka/trendyol.png"
+    ]
+  ],
+  "dip_sag": "sermenkreatif.com · Trendyol",
+  "kapak_foto": "urun/foto/kesir-set.jpg",
+  "gorsel": "urun/foto/kesir-set.jpg",
+  "slaytlar": [
+    {
+      "foto": "urun/foto/kesir-tabla.jpg",
+      "baslik": "6 yuvalı tabla, |21 dilim",
+      "metin": "Her yuva bir kesri tutuyor: bütün, yarım, üçte bir, dörtte bir, beşte bir, altıda bir. Hepsi aynı çapta, hepsi aynı tablada."
+    },
+    {
+      "foto": "urun/foto/kesir-yazili.jpg",
+      "baslik": "Değeri dilimin |üzerinde yazıyor",
+      "metin": "Çocuk hangi parçayı eline aldığını okuyor. Renk hangi kesir olduğunu, yazı kaçta kaç olduğunu söylüyor."
+    }
+  ],
+  "kapanis": {
+    "satir1": "Nasıl oynanır?",
+    "satirlar": [
+      [
+        "1 · RENKLERİ TANI",
+        "her kesrin kendi rengi var, önce renkleri ayır"
+      ],
+      [
+        "2 · DİLİMLERİ YERLEŞTİR",
+        "aynı kesrin dilimlerini kendi yuvasına doldur"
+      ],
+      [
+        "3 · KARŞILAŞTIR",
+        "iki tane 1/4, bir tane 1/2 eder mi? dene"
+      ],
+      [
+        "4 · BÜTÜNÜ KUR",
+        "farklı dilimleri birleştirip bütünü tamamla"
+      ]
+    ]
+  }
+}

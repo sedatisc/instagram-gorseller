@@ -618,6 +618,11 @@
         "slot": "baski",
         "klasor": "2026-11-01-rakam-yapbozu",
         "gun": 17
+      },
+      {
+        "slot": "baski",
+        "klasor": "2026-11-02-kesir-daireleri",
+        "gun": 18
       }
     ],
     "reels": [
@@ -704,6 +709,27 @@
         "klasor": "2026-10-15-cekilis-son-gun",
         "not": "son gün",
         "gun": 4
+      },
+      {
+        "saat": "10:30",
+        "tur": "hikaye",
+        "klasor": "2026-10-19-trendyol-magaza",
+        "not": "Trendyol mağaza hikayesi — bağlantı etiketi ty.gl/wvxkl6ythlckv",
+        "gun": 0
+      },
+      {
+        "saat": "10:30",
+        "tur": "hikaye",
+        "klasor": "2026-10-19-trendyol-magaza",
+        "not": "Trendyol mağaza hikayesi — bağlantı etiketi ty.gl/wvxkl6ythlckv",
+        "gun": 7
+      },
+      {
+        "saat": "10:30",
+        "tur": "hikaye",
+        "klasor": "2026-10-19-trendyol-magaza",
+        "not": "Trendyol mağaza hikayesi — bağlantı etiketi ty.gl/wvxkl6ythlckv",
+        "gun": 14
       }
     ],
     "kampanya_not": "Cekilis 12-15 Ekim. 16 Ekim: uc finalistin yorumu hikayede, kazanani takipci anketi seciyor, aksam sonuc gonderisi. Finalist hikayesi ve sonuc gonderisi o gun uretilecek — yorumlar gelmeden uretilmiyor. Kurallar ve hukuki not KAMPANYA.md icinde.",
