@@ -22,66 +22,40 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CIK = os.path.join(KOK, "gorsel", "urun", "foto")
 
 
-def _en_uzun(maske):
-    en, bas = (0, 0, 0), None
-    for i, v in enumerate(list(maske) + [False]):
-        if v and bas is None:
-            bas = i
-        elif not v and bas is not None:
-            if i - bas > en[0]:
-                en = (i - bas, bas, i)
-            bas = None
-    return en[1], en[2]
+# İlan görselleri tek şablondan çıkıyor ve fotoğraf kartının yeri
+# sabit. Kartı görüntüden bulmaya çalışmak güvenilir değildi: beyaz
+# kart beyaz sayfada kayboluyor, gri ürün doygunluk eşiğini geçmiyor,
+# başlık yazısı kadraja giriyordu. Ölçüler ölçülüp sabitlendi.
+KAPAK_KUTU = (76, 456, 1125, 1364)      # üstte başlık, altta özellik kartları
+DETAY_KUTU = (42, 120, 1158, 1247)      # altında tek satır açıklama
+SABLON_BOY = (1200, 1800)
 
 
-def urun_kutusu(im, pay=34):
-    """Ürünün kutusu.
+def _kapak_mi(a):
+    """Kapakta altta siyah şerit var, detayda yok."""
+    h = a.shape[0]
+    return float(a[int(h * .945):int(h * .985)].mean()) < 120
 
-    Kartı aramak güvenilir değil: beyaz kart beyaz sayfanın üstünde
-    kayboluyor, kadrajı kesiyordu. Doygun renkli en büyük leke ürünün
-    kendisi; başlık ve alt yazı doygun değil, böylece dışarıda kalıyor.
-    Siyah stand gibi doygun olmayan parçalar ürünün yakınında olduğu
-    için sonradan ekleniyor."""
+
+def kart_kutusu(im):
     a = np.asarray(im)
+    if (im.width, im.height) != SABLON_BOY:
+        return (0, 0, im.width, im.height)
+    return KAPAK_KUTU if _kapak_mi(a) else DETAY_KUTU
+
+
+def _kirp_bosluk(im, esik=6, pay=16):
+    """Kartın içindeki boş beyaz kenarları alıyor; ürüne dokunmuyor."""
+    a = np.asarray(im, dtype=np.int16)
     h, w = a.shape[:2]
-    hsv = cv2.cvtColor(a, cv2.COLOR_RGB2HSV)
-    S, V = hsv[:, :, 1].astype(int), hsv[:, :, 2].astype(int)
-    cek = np.ones((15, 15), np.uint8)
-
-    renk = ((S > 60) & (V > 40)).astype(np.uint8)
-    renk[:int(h * .035)] = 0
-    renk[int(h * .965):] = 0
-    renk = cv2.morphologyEx(renk, cv2.MORPH_CLOSE, cek)
-    n, _e, ist, _m = cv2.connectedComponentsWithStats(renk, 8)
-    if n < 2:
-        return (0, 0, w, h)
-    i = 1 + int(np.argmax(ist[1:, cv2.CC_STAT_AREA]))
-    x, yy = ist[i, cv2.CC_STAT_LEFT], ist[i, cv2.CC_STAT_TOP]
-    bw, bh = ist[i, cv2.CC_STAT_WIDTH], ist[i, cv2.CC_STAT_HEIGHT]
-    kutu = [x, yy, x + bw, y_alt] if False else [x, yy, x + bw, yy + bh]
-
-    # ürüne yapışık doygun olmayan parçalar (siyah stand, gri delikler)
-    gx, gy = bw * .12 + 40, bh * .12 + 40
-    yakin = (kutu[0] - gx, kutu[1] - gy, kutu[2] + gx, kutu[3] + gy)
-    tum = ((S > 45) | (V < 205)).astype(np.uint8)
-    tum[:int(h * .035)] = 0
-    tum[int(h * .965):] = 0
-    tum = cv2.morphologyEx(tum, cv2.MORPH_CLOSE, cek)
-    n2, _e2, ist2, mer2 = cv2.connectedComponentsWithStats(tum, 8)
-    for j in range(1, n2):
-        if ist2[j, cv2.CC_STAT_AREA] < 2500:
-            continue
-        cx, cy = mer2[j]
-        if not (yakin[0] <= cx <= yakin[2] and yakin[1] <= cy <= yakin[3]):
-            continue
-        jx, jy = ist2[j, cv2.CC_STAT_LEFT], ist2[j, cv2.CC_STAT_TOP]
-        jw, jh = ist2[j, cv2.CC_STAT_WIDTH], ist2[j, cv2.CC_STAT_HEIGHT]
-        if jw > w * .9 and jh < h * .06:
-            continue
-        kutu = [min(kutu[0], jx), min(kutu[1], jy),
-                max(kutu[2], jx + jw), max(kutu[3], jy + jh)]
-    return (max(0, kutu[0] - pay), max(0, kutu[1] - pay),
-            min(w, kutu[2] + pay), min(h, kutu[3] + pay))
+    zem = np.median(np.concatenate([a[:4].reshape(-1, 3),
+                                    a[-4:].reshape(-1, 3)]), axis=0)
+    dolu = np.abs(a - zem).max(axis=2) > esik
+    ys, xs = np.nonzero(dolu)
+    if len(ys) == 0:
+        return im
+    return im.crop((max(0, xs.min() - pay), max(0, ys.min() - pay),
+                    min(w, xs.max() + pay), min(h, ys.max() + pay)))
 
 
 def rozet_sil(im):
@@ -103,13 +77,18 @@ def rozet_sil(im):
         alan = ist[i, cv2.CC_STAT_AREA]
         bw, bh = ist[i, cv2.CC_STAT_WIDTH], ist[i, cv2.CC_STAT_HEIGHT]
         cx, cy = mer[i]
-        if alan < 1500 or cy > h * .30 or cx < w * .45:
+        # Rozet yaklaşık kare-dikdörtgen bir etiket; logodaki
+        # "KREATİF" yazısı ve kırmızı başlık satırları da kırmızı
+        # ama ince ve uzun, yükseklik/oran eşiğiyle eleniyor.
+        if alan < 1500 or bh < 60 or cx < w * .58:
+            continue
+        if not h * .10 <= cy <= h * .34:
             continue
         # Rozet dolu bir yuvarlak dikdörtgen; oyuncağın kırmızı
         # parçaları hem düzensiz hem de kutusunu doldurmuyor.
         if alan / float(bw * bh) < 0.72:
             continue
-        if not 1.7 <= bw / float(bh) <= 6.5:
+        if not 1.3 <= bw / float(bh) <= 4.6:
             continue
         d = np.hypot(cx - w, cy)
         if en_yakin is None or d < en_yakin:
@@ -138,7 +117,7 @@ def cikar(kaynak, ad):
     os.makedirs(CIK, exist_ok=True)
     im = Image.open(kaynak).convert("RGB")
     temiz, silindi = rozet_sil(im)
-    kirp = temiz.crop(urun_kutusu(temiz))
+    kirp = _kirp_bosluk(temiz.crop(kart_kutusu(temiz)))
     yol = os.path.join(CIK, ad + ".jpg")
     kirp.save(yol, quality=95)
     return yol, kirp.size, silindi

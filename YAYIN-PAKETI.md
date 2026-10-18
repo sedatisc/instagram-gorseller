@@ -1366,3 +1366,59 @@ Vida çevirmeyi seven bir çocuk tanıyorsan bu gönderiyi ona yolla.
 #sermenkreatif #3dbaski #alyanvida #vidalioyuncak #egiticioyuncak #makerturkiye
 ```
 
+---
+
+# 2026-11-04 · Çarşamba
+
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-31-halka-dizme-kulesi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-31-halka-dizme-kulesi/1.jpg" width="240"></a>
+
+**[2026-10-31-halka-dizme-kulesi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-31-halka-dizme-kulesi)** · 5 kare · hikaye 13:18
+
+```
+Halka dizme kulesi. Kırmızı tabanlı çubuk ve her biri farklı biçimde beş renkli halka.
+
+Klasik halka kulesinden farkı yüzeylerinde » her halkada ayrı doku var: nokta, çizgi, dişli kenar. Çocuk rengiyle ayırmayı öğrenirken parmak ucuyla da ayırmayı öğreniyor.
+
+Doğru bir sıra yok. İstediği sırayla dizer, bozar, yeniden kurar; oyun her seferinde baştan başlıyor.
+
+Halkaları çubuğa geçirmek el-göz koordinasyonunu, çıkarmak da parmak kavrayışını çalıştırıyor.
+
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+
+Bağlantı ilk yorumda.
+
+Okul öncesi çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #halkadizme #istifoyuncagi #egiticioyuncak #makerturkiye
+```
+
+---
+
+# 2026-11-05 · Perşembe
+
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-11-01-rakam-yapbozu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-11-01-rakam-yapbozu/1.jpg" width="240"></a>
+
+**[2026-11-01-rakam-yapbozu](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-11-01-rakam-yapbozu)** · 5 kare · hikaye 13:18
+
+```
+Rakam yapbozu ve sayma tahtası. İki tabla bir arada: rakamların yuvasına oturduğu yapboz ve pulların dizildiği sayma tahtası.
+
+1'den 10'a bütün rakamlar çıkarılabiliyor. Çocuk önce rakamın şeklini tanıyor, sonra kendi yuvasına oturtuyor.
+
+Asıl iş ikinci tablada » üst yuvaya hangi rakamı koyduysa, aşağıdaki deliklere o kadar pul yerleştiriyor. Sayı soyut kalmıyor, elle sayılıyor.
+
+Rakam tanıma ve sayma aynı sette; biri olmadan diğeri eksik kalmıyor.
+
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+
+Bağlantı ilk yorumda.
+
+Okul öncesi çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #rakamyapbozu #saymatahtasi #egiticioyuncak #makerturkiye
+```
+

@@ -1,0 +1,97 @@
+{
+  "sablon": "ilan",
+  "renk": "pembe",
+  "marka": "",
+  "ust": "Eğitici oyuncak",
+  "model": "Halka Dizme Kulesi",
+  "rozet": "Dokulu halkalar",
+  "iddia": "Halkayı seç, kuleyi diz.",
+  "spot": "Kırmızı tabanlı çubuk ve beş ayrı renkte halka. Her halkanın kenarı ve yüzeyi başka: nokta, çizgi, dişli.",
+  "ozellikler": [
+    [
+      "istif",
+      "Diz ve Çıkar",
+      "El becerisi"
+    ],
+    [
+      "renk",
+      "Renk ve Şekil",
+      "Tanıma"
+    ],
+    [
+      "el",
+      "Kabartmalı",
+      "Dokunsal yüzey"
+    ]
+  ],
+  "guven": [
+    [
+      "kalkan",
+      "Güvenli PLA",
+      "malzeme"
+    ],
+    [
+      "kurulum",
+      "Kendi atölyemizde",
+      "üretildi"
+    ],
+    [
+      "kargo",
+      "Samsun'dan",
+      "kargo"
+    ],
+    [
+      "kart",
+      "Faturalı",
+      "satış"
+    ]
+  ],
+  "cagri": "sermenkreatif.com'da",
+  "satis": [
+    [
+      "Trendyol'da satışta",
+      "marka/trendyol.png"
+    ]
+  ],
+  "dip_sag": "sermenkreatif.com · Trendyol",
+  "kapak_foto": "urun/foto/halka-kule.jpg",
+  "gorsel": "urun/foto/halka-kule.jpg",
+  "slaytlar": [
+    {
+      "foto": "urun/foto/halka-parcalar.jpg",
+      "baslik": "Tüm |parçalar",
+      "metin": "Kırmızı tabanlı çubuk ve her biri farklı biçimde beş renkli halka. Hepsi tek sette."
+    },
+    {
+      "foto": "urun/foto/halka-doku.jpg",
+      "baslik": "Kabartmalı |yüzeyler",
+      "metin": "Her halkada ayrı doku var: nokta, çizgi ve dişli kenarlar. Parmak ucu hangisini tuttuğunu anlıyor."
+    },
+    {
+      "foto": "urun/foto/halka-diz.jpg",
+      "baslik": "Diz, çıkar, |tekrarla",
+      "metin": "Halkaları istediği sırayla dizer, çıkarır ve yeniden kurar. Doğru sıra yok, deneme var."
+    }
+  ],
+  "kapanis": {
+    "satir1": "Nasıl oynanır?",
+    "satirlar": [
+      [
+        "1 · HALKAYI SEÇ",
+        "rengine ya da biçimine göre bir halka al"
+      ],
+      [
+        "2 · ÇUBUĞA GEÇİR",
+        "halkayı kırmızı çubuktan aşağı indir"
+      ],
+      [
+        "3 · KULEYİ TAMAMLA",
+        "bütün halkaları sırayla diz"
+      ],
+      [
+        "4 · ÇIKAR, TEKRARLA",
+        "sök ve baştan başla"
+      ]
+    ]
+  }
+}

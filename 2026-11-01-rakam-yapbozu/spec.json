@@ -1,0 +1,97 @@
+{
+  "sablon": "ilan",
+  "renk": "turuncu",
+  "marka": "",
+  "ust": "Eğitici oyuncak",
+  "model": "Rakam Yapbozu",
+  "rozet": "Sayma tahtası dahil",
+  "iddia": "Rakamı koy, pulu say.",
+  "spot": "1'den 10'a rakam yapbozu, sayma tahtası ve on sayma pulu. Rakam tanımayla saymayı aynı sette birleştiriyor.",
+  "ozellikler": [
+    [
+      "sekil",
+      "Rakam",
+      "Tanıma"
+    ],
+    [
+      "istif",
+      "Sayma",
+      "1'den 10'a"
+    ],
+    [
+      "el",
+      "El Becerisi",
+      "Motor gelişim"
+    ]
+  ],
+  "guven": [
+    [
+      "kalkan",
+      "Güvenli PLA",
+      "malzeme"
+    ],
+    [
+      "kurulum",
+      "Kendi atölyemizde",
+      "üretildi"
+    ],
+    [
+      "kargo",
+      "Samsun'dan",
+      "kargo"
+    ],
+    [
+      "kart",
+      "Faturalı",
+      "satış"
+    ]
+  ],
+  "cagri": "sermenkreatif.com'da",
+  "satis": [
+    [
+      "Trendyol'da satışta",
+      "marka/trendyol.png"
+    ]
+  ],
+  "dip_sag": "sermenkreatif.com · Trendyol",
+  "kapak_foto": "urun/foto/rakam-set.jpg",
+  "gorsel": "urun/foto/rakam-set.jpg",
+  "slaytlar": [
+    {
+      "foto": "urun/foto/rakam-tablalar.jpg",
+      "baslik": "Rakam tablası |ve sayma tahtası",
+      "metin": "İki tabla birlikte geliyor: rakamların oturduğu yapboz ve pulların dizildiği sayma tahtası."
+    },
+    {
+      "foto": "urun/foto/rakam-sayma.jpg",
+      "baslik": "Rakamı koy, |pulu say",
+      "metin": "Üst yuvaya konan rakam kaçsa, aşağıdaki deliklere o kadar pul yerleşiyor. Sayı soyut kalmıyor, elle sayılıyor."
+    },
+    {
+      "foto": "urun/foto/rakam-renkler.jpg",
+      "baslik": "Farklı renk |seçenekleri",
+      "metin": "Turuncu-antrasit ve kırmızı-gri olarak basılıyor. Başka renk isteyen mesaj atsın."
+    }
+  ],
+  "kapanis": {
+    "satir1": "Nasıl oynanır?",
+    "satirlar": [
+      [
+        "1 · RAKAMI YERLEŞTİR",
+        "rakamları tabladaki doğru yuvaya oturt"
+      ],
+      [
+        "2 · RAKAMI SEÇ",
+        "bir rakamı sayma tahtasının üst yuvasına koy"
+      ],
+      [
+        "3 · PULLARI SAY",
+        "rakam kadar pulu deliklere yerleştir"
+      ],
+      [
+        "4 · DEĞİŞTİR",
+        "başka bir rakam koy, baştan say"
+      ]
+    ]
+  }
+}
