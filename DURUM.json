@@ -391,7 +391,7 @@
       },
       {
         "slot": "baski",
-        "klasor": "2026-10-15-saksi-koleksiyonu",
+        "klasor": "2026-10-22-geometrik-siralama",
         "gun": 1
       },
       {
@@ -530,6 +530,11 @@
         "gun": 8
       },
       {
+        "slot": "baski",
+        "klasor": "2026-10-23-sekil-cark-tahtasi",
+        "gun": 8
+      },
+      {
         "slot": "proje",
         "klasor": "2026-10-19-oyuncak-yol-seti",
         "gun": 8
@@ -542,6 +547,11 @@
       {
         "slot": "3dbaski",
         "klasor": "2026-10-16-sunlu-filament-pano",
+        "gun": 9
+      },
+      {
+        "slot": "baski",
+        "klasor": "2026-10-24-cay-kahve-seti",
         "gun": 9
       },
       {
@@ -560,6 +570,11 @@
         "gun": 10
       },
       {
+        "slot": "baski",
+        "klasor": "2026-10-25-aktivite-tahtasi",
+        "gun": 10
+      },
+      {
         "slot": "proje",
         "klasor": "2026-10-21-pi5-ekran-standi",
         "gun": 10
@@ -570,49 +585,29 @@
         "gun": 10
       },
       {
-        "slot": "urun",
-        "klasor": "2026-10-22-geometrik-siralama",
+        "slot": "baski",
+        "klasor": "2026-10-26-market-kasa-seti",
         "gun": 11
       },
       {
-        "slot": "urun",
-        "klasor": "2026-10-23-sekil-cark-tahtasi",
+        "slot": "baski",
+        "klasor": "2026-10-27-meyve-sebze-seti",
         "gun": 12
       },
       {
-        "slot": "urun",
-        "klasor": "2026-10-24-cay-kahve-seti",
+        "slot": "baski",
+        "klasor": "2026-10-28-vidali-tren",
         "gun": 13
       },
       {
-        "slot": "urun",
-        "klasor": "2026-10-25-aktivite-tahtasi",
+        "slot": "baski",
+        "klasor": "2026-10-29-vidali-yapim-tahtasi",
         "gun": 14
       },
       {
-        "slot": "urun",
-        "klasor": "2026-10-26-market-kasa-seti",
-        "gun": 15
-      },
-      {
-        "slot": "urun",
-        "klasor": "2026-10-27-meyve-sebze-seti",
-        "gun": 16
-      },
-      {
-        "slot": "urun",
-        "klasor": "2026-10-28-vidali-tren",
-        "gun": 17
-      },
-      {
-        "slot": "urun",
-        "klasor": "2026-10-29-vidali-yapim-tahtasi",
-        "gun": 18
-      },
-      {
-        "slot": "urun",
+        "slot": "baski",
         "klasor": "2026-10-30-alyan-vida-oyuncagi",
-        "gun": 19
+        "gun": 15
       }
     ],
     "reels": [
@@ -657,7 +652,13 @@
         "gun": 10
       }
     ],
-    "beklemede": [],
+    "beklemede": [
+      {
+        "klasor": "2026-10-15-saksi-koleksiyonu",
+        "slot": "baski",
+        "neden": "Yeni modeller gelince yeniden kurulacak"
+      }
+    ],
     "iptal": [
       {
         "klasor": "2026-10-11-ender-v3-mega-tanitim",

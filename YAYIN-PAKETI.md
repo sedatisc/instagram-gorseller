@@ -148,32 +148,24 @@ Düz PEI ve camda yapıştırıcı kalemi hem tutturucu hem ayırıcı görevi y
 
 ## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-saksi-koleksiyonu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-15-saksi-koleksiyonu/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-geometrik-siralama"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-22-geometrik-siralama/1.jpg" width="240"></a>
 
-**[2026-10-15-saksi-koleksiyonu](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-saksi-koleksiyonu)** · 8 kare · hikaye 13:18
+**[2026-10-22-geometrik-siralama](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-geometrik-siralama)** · 5 kare · hikaye 13:18
 
 ```
-Aynı bitki, saksıya göre bambaşka duruyor. Altı gövde, altı ayrı doku; hepsi bizim tezgâhımızda basıldı.
+Geometrik sıralama oyuncağı. Daire, kare ve üçgen; her şekil kendi çubuğuna geçiyor ve katmanlar büyükten küçüğe dizilince kule tamamlanıyor.
 
-Columna » Dikey hatlar gövdeyi boydan boya kesiyor; sade bir silindir, ışık düştükçe çizgileniyor. Küçük sukulent ve kaktüs ölçüsünde.
+Parçaların yüzeyleri ayrı ayrı dokulu: kimi kabartma noktalı, kimi dalgalı, kimi kafes. Çocuk şekli gözüyle ayırırken parmak ucuyla da ayırıyor; eşleştirme oyununa dokunma duyusu katılıyor.
 
-Interweave » Çift katmanlı örgü: dış kabuk eşkenar dörtgen ağ, iç hazne düz. İki renk aynı parçada, boya yok — filament değişimiyle.
+Üçünü birden öğretiyor » şekil tanıma, büyük-küçük sıralaması ve el-göz koordinasyonu.
 
-Çizgili Dokulu Saksı » İnce dikey fitilli silindir. Doku yakından bakınca katmanla birleşiyor; tezgâhta ve rafta sırayla dizilmek için.
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
 
-Duvar Tipi Saksı » Duvara asılan tip: arkası düz sırtlık, önü dokulu hazne. Paşa kılıcı gibi dik yapraklı bitkilerde yer kazandırıyor.
+Bağlantı ilk yorumda.
 
-Organik Formlu Saksı » Küre gövdede dönerek kesişen açık şeritler — saksıdan çok heykel. İç hazne ayrı; toprak dışarı görünmüyor.
+Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-Tulip Wave Pot » Lale yaprağı gibi dalgalanan ağız, altında kendi tabağı. Beş renk seçeneği var; fazla su tabakta kalıyor.
-
-Hepsinde ölçü ve renk işe göre değişiyor. Bitkinin kökü ne kadar yer istiyorsa o ölçüde basılır.
-
-Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
-
-Hangisi senin bitkine yakışır, yoruma yaz.
-
-#sermenkreatif #3dbaski #saksi #bitki #dekorasyon #evdekorasyonu #3dbaskiturkiye #makerturkiye #samsun
+#sermenkreatif #3dbaski #egiticioyuncak #ahsapoyuncakalternatifi #cocukgelisimi #makerturkiye
 ```
 
 ## 17:24 · ÜRÜN & MAĞAZA
@@ -948,6 +940,28 @@ Bastığı kutunun kapağını üçüncü açışta dişi sıyıran bir arkadaş
 #sermenkreatif #3dbaski #3dprinting #heatsetinsert #3dbaskiturkiye
 ```
 
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-23-sekil-cark-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-23-sekil-cark-tahtasi/1.jpg" width="240"></a>
+
+**[2026-10-23-sekil-cark-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-23-sekil-cark-tahtasi)** · 4 kare · hikaye 13:18
+
+```
+Şekil ve çark tahtası. Tahtanın üstündeki oyuklar parçaların şekline göre açılmış; kare karenin, üçgen üçgenin yerine oturuyor, yanlış parça girmiyor.
+
+Her sütunda katmanlar ayrı renkte. Çocuk önce şekli buluyor, sonra rengi eşleştiriyor.
+
+Ortadaki çarklar birbirine geçiyor » birini döndürünce komşusu da dönüyor. Dişli mantığı anlatılmadan, oynanarak anlaşılıyor.
+
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+
+Bağlantı ilk yorumda.
+
+Çarkları döndürmeyi seven bir çocuk tanıyorsan bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #egiticioyuncak #sekileslestirme #cocukgelisimi #makerturkiye
+```
+
 ## 17:24 · ÜRÜN & MAĞAZA
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-u1-k3-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-u1-k3-pano/1.jpg" width="240"></a>
@@ -1030,6 +1044,30 @@ PLA'yla menteşe basıp yazın deforme olduğuna şaşıran bir arkadaşın vars
 #sermenkreatif #3dbaski #sunlu #filament #makerturkiye
 ```
 
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-24-cay-kahve-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-24-cay-kahve-seti/1.jpg" width="240"></a>
+
+**[2026-10-24-cay-kahve-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-24-cay-kahve-seti)** · 4 kare · hikaye 13:18
+
+```
+Oyuncak çay ve kahve seti. Altı ayrı renkte kulplu fincan, her birine bir tabak.
+
+Fincanların içine latte deseni işli; dolu bir fincan görüntüsü veriyor, sofra kurulunca oyun gerçeğe yaklaşıyor.
+
+Toplanması da oyunun parçası » fincanlar birbirine geçiyor, tabaklar altta istif oluyor. Dağınık kalmıyor.
+
+Rol yapma oyununun tam ortasında duran bir set: çay partisi, misafir ağırlama, sofra kurma.
+
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+
+Bağlantı ilk yorumda.
+
+Evinde çay partisi kurulan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #egiticioyuncak #rolyapmaoyunu #cocukgelisimi #makerturkiye
+```
+
 ## 17:24 · ÜRÜN & MAĞAZA
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-sparkx-i7-i8-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-20-sparkx-i7-i8-pano/1.jpg" width="240"></a>
@@ -1110,6 +1148,30 @@ Temizlik kulesini çöpe atarken içi sızlayan bir arkadaşın varsa ona yolla.
 #sermenkreatif #3dbaski #3dprinting #ams #3dbaskiturkiye
 ```
 
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-25-aktivite-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-25-aktivite-tahtasi/1.jpg" width="240"></a>
+
+**[2026-10-25-aktivite-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-25-aktivite-tahtasi)** · 8 kare · hikaye 13:18
+
+```
+Aktivite tahtası. Altı ayrı oyun tek tablada: dönen dişliler, şekil eşleştirme, kaydırmalı halka, cırt cırt bantlar, saat ve vida-somun.
+
+Paneller puzzle gibi birbirine geçiyor. İstersen hepsini birleştirip tek tahta yaparsın, istersen tek paneli ayırıp çocuğa verirsin.
+
+Her panel ayrı bir beceriye çalışıyor » dişli ve halka el kontrolüne, şekil paneli eşleştirmeye, saat paneli zaman kavramına, vida ve cırt cırt parmak kaslarına.
+
+Cırt cırt bölümü özellikle işe yarıyor: bant açıp kapatmak ayakkabı ve mont öncesi en iyi alıştırma.
+
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+
+Bağlantı ilk yorumda.
+
+Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #aktivitetahtasi #egiticioyuncak #cocukgelisimi #makerturkiye
+```
+
 ## 17:24 · ÜRÜN & MAĞAZA
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-ender-3-v4-combo/1.jpg" width="240"></a>
@@ -1166,119 +1228,11 @@ Pi'sini kitap yığınına yaslayarak kullanan bir arkadaşın varsa ona yolla.
 
 # 2026-10-29 · Perşembe
 
-## 17:24 · ÜRÜN & MAĞAZA
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-geometrik-siralama"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-22-geometrik-siralama/1.jpg" width="240"></a>
-
-**[2026-10-22-geometrik-siralama](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-geometrik-siralama)** · 5 kare · hikaye 18:04
-
-```
-Geometrik sıralama oyuncağı. Daire, kare ve üçgen; her şekil kendi çubuğuna geçiyor ve katmanlar büyükten küçüğe dizilince kule tamamlanıyor.
-
-Parçaların yüzeyleri ayrı ayrı dokulu: kimi kabartma noktalı, kimi dalgalı, kimi kafes. Çocuk şekli gözüyle ayırırken parmak ucuyla da ayırıyor; eşleştirme oyununa dokunma duyusu katılıyor.
-
-Üçünü birden öğretiyor » şekil tanıma, büyük-küçük sıralaması ve el-göz koordinasyonu.
-
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
-
-Bağlantı ilk yorumda.
-
-Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #egiticioyuncak #ahsapoyuncakalternatifi #cocukgelisimi #makerturkiye
-```
-
----
-
-# 2026-10-30 · Cuma
-
-## 16:40 · ÜRÜN & MAĞAZA
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-23-sekil-cark-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-23-sekil-cark-tahtasi/1.jpg" width="240"></a>
-
-**[2026-10-23-sekil-cark-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-23-sekil-cark-tahtasi)** · 4 kare · hikaye 17:20
-
-```
-Şekil ve çark tahtası. Tahtanın üstündeki oyuklar parçaların şekline göre açılmış; kare karenin, üçgen üçgenin yerine oturuyor, yanlış parça girmiyor.
-
-Her sütunda katmanlar ayrı renkte. Çocuk önce şekli buluyor, sonra rengi eşleştiriyor.
-
-Ortadaki çarklar birbirine geçiyor » birini döndürünce komşusu da dönüyor. Dişli mantığı anlatılmadan, oynanarak anlaşılıyor.
-
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
-
-Bağlantı ilk yorumda.
-
-Çarkları döndürmeyi seven bir çocuk tanıyorsan bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #egiticioyuncak #sekileslestirme #cocukgelisimi #makerturkiye
-```
-
----
-
-# 2026-10-31 · Cumartesi
-
-## 16:50 · ÜRÜN & MAĞAZA
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-24-cay-kahve-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-24-cay-kahve-seti/1.jpg" width="240"></a>
-
-**[2026-10-24-cay-kahve-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-24-cay-kahve-seti)** · 4 kare · hikaye 17:30
-
-```
-Oyuncak çay ve kahve seti. Altı ayrı renkte kulplu fincan, her birine bir tabak.
-
-Fincanların içine latte deseni işli; dolu bir fincan görüntüsü veriyor, sofra kurulunca oyun gerçeğe yaklaşıyor.
-
-Toplanması da oyunun parçası » fincanlar birbirine geçiyor, tabaklar altta istif oluyor. Dağınık kalmıyor.
-
-Rol yapma oyununun tam ortasında duran bir set: çay partisi, misafir ağırlama, sofra kurma.
-
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
-
-Bağlantı ilk yorumda.
-
-Evinde çay partisi kurulan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #egiticioyuncak #rolyapmaoyunu #cocukgelisimi #makerturkiye
-```
-
----
-
-# 2026-11-01 · Pazar
-
-## 17:10 · ÜRÜN & MAĞAZA
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-25-aktivite-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-25-aktivite-tahtasi/1.jpg" width="240"></a>
-
-**[2026-10-25-aktivite-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-25-aktivite-tahtasi)** · 8 kare · hikaye 17:50
-
-```
-Aktivite tahtası. Altı ayrı oyun tek tablada: dönen dişliler, şekil eşleştirme, kaydırmalı halka, cırt cırt bantlar, saat ve vida-somun.
-
-Paneller puzzle gibi birbirine geçiyor. İstersen hepsini birleştirip tek tahta yaparsın, istersen tek paneli ayırıp çocuğa verirsin.
-
-Her panel ayrı bir beceriye çalışıyor » dişli ve halka el kontrolüne, şekil paneli eşleştirmeye, saat paneli zaman kavramına, vida ve cırt cırt parmak kaslarına.
-
-Cırt cırt bölümü özellikle işe yarıyor: bant açıp kapatmak ayakkabı ve mont öncesi en iyi alıştırma.
-
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
-
-Bağlantı ilk yorumda.
-
-Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #aktivitetahtasi #egiticioyuncak #cocukgelisimi #makerturkiye
-```
-
----
-
-# 2026-11-02 · Pazartesi
-
-## 17:24 · ÜRÜN & MAĞAZA
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-26-market-kasa-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-26-market-kasa-seti/1.jpg" width="240"></a>
 
-**[2026-10-26-market-kasa-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-26-market-kasa-seti)** · 4 kare · hikaye 18:04
+**[2026-10-26-market-kasa-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-26-market-kasa-seti)** · 4 kare · hikaye 13:18
 
 ```
 Oyuncak market kasa seti. Çekmeceli yazarkasa, iki raflı market standı ve oyun parası bir arada.
@@ -1300,13 +1254,13 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ---
 
-# 2026-11-03 · Salı
+# 2026-10-30 · Cuma
 
-## 17:24 · ÜRÜN & MAĞAZA
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-27-meyve-sebze-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-27-meyve-sebze-seti/1.jpg" width="240"></a>
 
-**[2026-10-27-meyve-sebze-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-27-meyve-sebze-seti)** · 4 kare · hikaye 18:04
+**[2026-10-27-meyve-sebze-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-27-meyve-sebze-seti)** · 4 kare · hikaye 13:18
 
 ```
 Oyuncak meyve ve sebze seti. Elma, armut, muz, domates, havuç, patlıcan, biber, pırasa ve sarımsak; hepsi ahşap görünümlü sandığıyla birlikte.
@@ -1328,13 +1282,13 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ---
 
-# 2026-11-04 · Çarşamba
+# 2026-10-31 · Cumartesi
 
-## 17:24 · ÜRÜN & MAĞAZA
+## 12:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-28-vidali-tren"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-28-vidali-tren/1.jpg" width="240"></a>
 
-**[2026-10-28-vidali-tren](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-28-vidali-tren)** · 4 kare · hikaye 18:04
+**[2026-10-28-vidali-tren](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-28-vidali-tren)** · 4 kare · hikaye 13:00
 
 ```
 Vidalı söküp tak tren. Gövde, baca, kabin ve tekerlekler vidayla birleşiyor; tornavida sete dahil.
@@ -1356,13 +1310,13 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ---
 
-# 2026-11-05 · Perşembe
+# 2026-11-01 · Pazar
 
-## 17:24 · ÜRÜN & MAĞAZA
+## 12:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-29-vidali-yapim-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-29-vidali-yapim-tahtasi/1.jpg" width="240"></a>
 
-**[2026-10-29-vidali-yapim-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-29-vidali-yapim-tahtasi)** · 5 kare · hikaye 18:04
+**[2026-10-29-vidali-yapim-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-29-vidali-yapim-tahtasi)** · 5 kare · hikaye 13:00
 
 ```
 Vidalı yapım tahtası. Delikli tabla, L, T, V ve düz plakalar, vidalar ve çocuk eline uygun tornavida.
@@ -1384,13 +1338,13 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ---
 
-# 2026-11-06 · Cuma
+# 2026-11-02 · Pazartesi
 
-## 16:40 · ÜRÜN & MAĞAZA
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-30-alyan-vida-oyuncagi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-30-alyan-vida-oyuncagi/1.jpg" width="240"></a>
 
-**[2026-10-30-alyan-vida-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-30-alyan-vida-oyuncagi)** · 4 kare · hikaye 17:20
+**[2026-10-30-alyan-vida-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-30-alyan-vida-oyuncagi)** · 4 kare · hikaye 13:18
 
 ```
 Alyan anahtarlı vida oyuncağı. Üç boy vida, üç alyan anahtarı ve renk halkalı bir tabla.
