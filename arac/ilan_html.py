@@ -210,7 +210,7 @@ STIL = """
   max-width:96%}
 
 .alt{flex:0 0 auto;display:flex;flex-direction:column;
-  align-items:flex-start;gap:30px;margin-top:10px}
+  align-items:flex-start;gap:24px;margin-top:8px}
 .ozellik{width:100%;display:flex;gap:30px;align-items:center}
 .ozellik div{flex:1;min-width:0;display:flex;align-items:center;
   gap:14px;text-align:left}
@@ -252,23 +252,26 @@ STIL = """
 /* Yığılmış fotoğraf kapağı: yatay fotoğrafta iki sütun dar kalıyor,
    fotoğraf üstte tam genişlikte duruyor. */
 .yigin .govde{display:flex;flex-direction:column;gap:0;padding:14px 0 0}
-.yigin .vitrin{flex:1 1 auto;min-height:380px;width:auto;
+.yigin .vitrin{flex:1 1 auto;min-height:0;width:auto;
   max-width:100%;align-self:center;border-radius:24px;
   overflow:hidden;background:#fff;
   box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
 .yigin .vitrin img{width:100%;height:100%;object-fit:cover;
   display:block}
 .yigin .soz{flex:0 0 auto;justify-content:flex-start;gap:0;
-  padding:20px 0 2px}
+  padding:16px 0 0}
 .yigin .soz h1{margin-top:2px}
-.yigin .soz h2{margin-top:18px}
+.yigin .soz h2{margin-top:14px}
 .yigin .soz p{margin-top:12px}
 
 /* satış noktaları */
+.cagri{display:flex;width:100%;align-items:center;
+  justify-content:space-between;gap:22px;flex-wrap:wrap}
+.cagri .satis{margin-top:0}
 .satis{display:flex;align-items:center;gap:14px;margin-top:18px}
 .satis span{display:inline-flex;align-items:center;gap:10px;
-  background:#fff;border-radius:999px;padding:12px 22px;font-weight:600;
-  font-size:26px;color:#2a3344;
+  background:#fff;border-radius:999px;padding:13px 24px;
+  font-weight:600;font-size:25px;color:#2a3344;
   box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.07)}
 .satis img{height:30px;width:auto;display:block}
 .koyu .satis span{background:#1b2440;color:#fff;box-shadow:none}
@@ -421,11 +424,13 @@ def ilan(spec, cikti):
     govde = (
         '<div class="ic%s" style="--vr:%s;--h1:%dpx">%s'
         '<div class="govde">%s</div>'
-        '<div class="alt">%s<span class="dugme">%s</span></div>'
+        '<div class="alt">%s<div class="cagri">'
+        '<span class="dugme">%s</span>%s</div></div>'
         '<div class="guven">%s</div>%s</div>'
         % (sinif, vr, _h1_punto(spec.get("model", "")), kilit, govde_ic,
            ('<div class="ozellik">%s</div>' % ozl) if ozl else "",
-           E(spec.get("cagri", "sermenkreatif.com'da")), guven, _dip(spec)))
+           E(spec.get("cagri", "sermenkreatif.com'da")),
+           _satis(spec), guven, _dip(spec)))
     S.bas(S.sayfa(govde, W, H, STIL), cikti, W, H)
 
 
