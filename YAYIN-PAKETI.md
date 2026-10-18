@@ -12,121 +12,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme.
 
 ## 08:12 · AYAR & REHBER
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-11-sunlu-pla-kartelasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-11-sunlu-pla-kartelasi/1.jpg" width="240"></a>
-
-**[2026-10-11-sunlu-pla-kartelasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-11-sunlu-pla-kartelasi)** · 6 kare · hikaye 08:52
-
-```
-SUNLU'nun on altı ayrı PLA serisi var ve hepsi aynı profille basılmıyor. Renge bakıp sepete atmadan önce bakılacak iki rakam: nozul sıcaklığı ve hız sınırı.
-
-Sıcaklık → düz PLA 185-230 °C, PLA Meta 185-225 °C, Wood 190-220 °C, Glow 200-240 °C, PLA+ 2.0 ve Matte 205-245 °C, Silk PLA+ 210-230 °C. Seriyi değiştirip dilimleyicideki profili aynı bırakmak en sık yapılan hata.
-
-Hız → PLA+ 2.0 ve Silk 50-200 mm/s, Matte 50-230 mm/s, Rainbow 100-260 mm/s. High Speed PLA+ 2.0 ise 50-600 mm/s; ama 600 mm/s yalnız 230-260 °C nozul bandında geçerli, düşük sıcaklıkta o hızı zorlarsan akış yetişmiyor.
-
-Karışan iki isim → Matte PLA ile High Speed Matte PLA ayrı ürün. Matte 205-245 °C ve 50-230 mm/s, High Speed Matte 200-260 °C ve 450 mm/s'ye kadar. Kutuda "High Speed" yazıyorsa parametre tablosu da farklı. Mermer isteyen de dikkat: katalogda düz "Marble PLA" yok, yalnız High Speed Marble var.
-
-Tabla → Wood PLA 40-50 °C, ailenin tek istisnası. Diğer tüm PLA serileri 50-60 °C.
-
-Kurutma → SUNLU tek bir rakam veriyor: 50 °C. Süre vermiyor, depolamada %20 altı nem istiyor. "8 saat kurutun" diyen herkes kendi deneyimini söylüyor, üretici verisini değil.
-
-Yanlış seriye doğru profili uygulayıp makarayı çöpe atan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #sunlu #filament #3dyazici #makerturkiye
-```
-
-## 12:38 · BASKI ÜRÜNLERİ
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-atolyeden-cikanlar"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-14-atolyeden-cikanlar/1.jpg" width="240"></a>
-
-**[2026-10-14-atolyeden-cikanlar](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-atolyeden-cikanlar)** · 8 kare · hikaye 13:18
-
-```
-Mağazada makine ve filament satıyoruz ama o makinelerle biz de basıyoruz. Bunlar kendi tezgâhımızdan çıkan altı parça.
-
-Adrift Planter → parametrik kurgulanmış gövde; dışı ağ dokusu, içi düz hazne. Altında kendi tabağı var, su tezgâha geçmiyor. 100 mm.
-
-Alevin → alev formunun dönerek yükseldiği tek parça sanat vazosu. Mat siyah yüzey; katman izi burada kusur değil, desenin kendisi.
-
-Dalga Desenli Küre Lamba → küre gövdedeki dalga dokusu ışığı kırıyor, sıcak ampulle duvara desen düşürüyor.
-
-Duova → çizgisel gövdeli sabunluk ve diş fırçalığı seti. Tabanı geniş, ıslak tezgâhta kaymıyor.
-
-Fiyonk Detaylı Saklama Kutusu → kabartma fiyonk dokulu kapaklı kutu, tutamağı da fiyonk. 15 × 15 × 15 cm, mat yüzey.
-
-BunnyHold → şişeyi sırtüstü yatan tavşan taşıyor; ağırlık dengesi şişeyi havada tutuyor.
-
-Altısı da bizim tezgâhımızda basıldı. Ölçü, renk ve adet işe göre değişiyor; aynı dosyadan tek parça da basılır, elli parça da.
-
-Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
-
-Hangisi senin evine yakışır, yoruma yaz.
-
-#sermenkreatif #3dbaski #3dprint #dekorasyon #saksi #vazo #masalambasi #3dbaskiturkiye #makerturkiye #samsun
-```
-
-## 17:24 · ÜRÜN & MAĞAZA
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-yazicilar"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-yazicilar/1.jpg" width="240"></a>
-
-**[2026-10-19-yazicilar](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-yazicilar)** · 8 kare · hikaye 18:04
-
-```
-Yazıcı seçerken sorulacak soru "hangisi daha iyi" değil, "ne basacaksın". Altı makine, altı ayrı cevap.
-
-Creality Ender-3 V4 Combo » Giriş seviyesi. Ender serisinin bu kuşağı 500 mm/s'ye çıkıyor, Combo paketi CFS besleme ünitesiyle dört renge kadar basıyor.
-
-Bambu Lab A1 Combo » Ev ve masa üstü için en dengeli makine. Açık gövde, AMS Lite ile dört renk. PLA ve PETG'de hiç uğraştırmıyor.
-
-Creality K1C » Kapalı kabin ve sertleştirilmiş nozul hazır geliyor: karbon elyaflı filamenti kutudan çıkar çıkmaz basıyor.
-
-Bambu Lab P2S Combo » Kapalı kabin CoreXY. Hazne pasif olarak ~50 °C'ye çıkıyor; ABS ve ASA'da köşe kalkması burada bitiyor.
-
-Snapmaker U1 » Dört ayrı baskı kafası var: renk değişiminde filament değişmiyor, kafa değişiyor. Çok renkli baskıda atık ve süre düşüyor.
-
-Bambu Lab H2D Combo » Atölye makinesi. Çift nozul, 65 °C aktif ısıtmalı hazne, 350 °C nozul — mühendislik malzemeleri bu sınıfta basılıyor.
-
-Hepsi orijinal ve faturalı; kurulum ve ilk ayar desteğini biz veriyoruz. Combo paketlerde çok renkli baskı için besleme ünitesi de geliyor.
-
-Hepsi sermenkreatif.com'da; güncel fiyat ve seçenekler orada.
-
-Ne basmak istiyorsun, yaz — hangisinin işini göreceğini söyleyeyim.
-
-#sermenkreatif #3dbaski #3dyazici #bambulab #creality #snapmaker #3dbaskiturkiye #makerturkiye #samsun
-```
-
-## 19:40 · PROJE & ATÖLYE
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-11-musteriye-fiyat"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-11-musteriye-fiyat/1.jpg" width="240"></a>
-
-**[2026-10-11-musteriye-fiyat](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-11-musteriye-fiyat)** · 4 kare · hikaye 20:20
-
-```
-Müşteriye 3D baskı fiyatı verirken altı kalem var; filament bunlardan yalnız biri ve en küçüğü.
-
-1 · Malzeme → dilimleyicinin verdiği gram × makaranın gram fiyatı. 60 g'lık bir parça 1 kg makaranın %6'sı.
-2 · Makine saati → elektrik, amortisman ve bakımın yıllık toplamı, çalışma saatine bölünüyor.
-3 · Başarısız pay → her işe %10-15. Tek bir başarısız baskının bedeli tüm işlere yayılıyor.
-4 · İşçilik → dosya hazırlığı, destek temizliği, zımpara, paketleme. Hepsi senin saatin.
-5 · Tasarım → modelleme ayrı faturalanıyor, baskı ücretine katılmıyor.
-6 · Kâr marjı → maliyetin üstüne ekleniyor. Maliyeti çıkarmak fiyat vermek demek değil.
-
-Saat ücretini bir kez belirle ve her teklifte aynı sayıyı kullan. İş bazında pazarlık edilen saat ücreti bir süre sonra hiç uygulanmıyor.
-
-Baskı işini gram üzerinden fiyatlayıp ay sonunda kâr edemeyen bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #maker #3dbaski #fiyatlandirma #makerturkiye
-```
-
-## 21:10 · REELS — [2026-10-10-bambu-r1-tanitim/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-10-bambu-r1-tanitim)
-
-Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
-
----
-
-# 2026-10-20 · Salı
-
-## 08:12 · AYAR & REHBER
-
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-12-yapisma-yuzeyleri"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-12-yapisma-yuzeyleri/1.jpg" width="240"></a>
 
 **[2026-10-12-yapisma-yuzeyleri](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-12-yapisma-yuzeyleri)** · 5 kare · hikaye 08:52
@@ -166,6 +51,118 @@ Bağlantı ilk yorumda.
 Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #egiticioyuncak #ahsapoyuncakalternatifi #cocukgelisimi #makerturkiye
+```
+
+## 17:24 · ÜRÜN & MAĞAZA
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-06-bambu-r1-lazer"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-06-bambu-r1-lazer/1.jpg" width="240"></a>
+
+**[2026-10-06-bambu-r1-lazer](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-06-bambu-r1-lazer)** · 5 kare · hikaye 18:04
+
+```
+Bambu Lab R1'in lazer tarafı ne yapıyor, rakamlarla bakalım.
+
+55 W CO2 tüp » diyot lazerlerin zorlandığı kalınlıklar burada açılıyor. Ahşapta 18 mm, akrilikte 20 mm'ye kadar kesim.
+
+Çalışma alanı 600 × 300 mm. Konveyör tezgâhıyla uzun parçada bu sınır kalkıyor; tabela, raf yanı, uzun panel tek seferde geçiyor.
+
+Kazıma hızı 1.000 mm/s. Geniş yüzeyde asıl farkı burada görüyorsunuz, bekleme süresi kısalıyor.
+
+Sınırını da yazalım ki iş planlarken sürpriz olmasın: CO2 lazer metal kesmiyor. Metal işaretleme gerekiyorsa ayrı bir çözüm düşünmek lazım.
+
+Kısacası masaüstü CO2 sınıfında ciddi bir iş makinesi. Atölyede 3D baskıyla birlikte duruyor: baskıyla formu, lazerle paneli ve kaplamayı çıkarıyorsunuz.
+
+Fiyat ve teslim için mesaj atın, bayisiyiz.
+
+#sermenkreatif #bambulab #lazerkesim #co2lazer #3dbaski #makerturkiye
+```
+
+## 19:40 · PROJE & ATÖLYE
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-11-musteriye-fiyat"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-11-musteriye-fiyat/1.jpg" width="240"></a>
+
+**[2026-10-11-musteriye-fiyat](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-11-musteriye-fiyat)** · 4 kare · hikaye 20:20
+
+```
+Müşteriye 3D baskı fiyatı verirken altı kalem var; filament bunlardan yalnız biri ve en küçüğü.
+
+1 · Malzeme → dilimleyicinin verdiği gram × makaranın gram fiyatı. 60 g'lık bir parça 1 kg makaranın %6'sı.
+2 · Makine saati → elektrik, amortisman ve bakımın yıllık toplamı, çalışma saatine bölünüyor.
+3 · Başarısız pay → her işe %10-15. Tek bir başarısız baskının bedeli tüm işlere yayılıyor.
+4 · İşçilik → dosya hazırlığı, destek temizliği, zımpara, paketleme. Hepsi senin saatin.
+5 · Tasarım → modelleme ayrı faturalanıyor, baskı ücretine katılmıyor.
+6 · Kâr marjı → maliyetin üstüne ekleniyor. Maliyeti çıkarmak fiyat vermek demek değil.
+
+Saat ücretini bir kez belirle ve her teklifte aynı sayıyı kullan. İş bazında pazarlık edilen saat ücreti bir süre sonra hiç uygulanmıyor.
+
+Baskı işini gram üzerinden fiyatlayıp ay sonunda kâr edemeyen bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #maker #3dbaski #fiyatlandirma #makerturkiye
+```
+
+## 21:10 · REELS — [2026-10-10-bambu-r1-tanitim/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-10-bambu-r1-tanitim)
+
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
+
+---
+
+# 2026-10-20 · Salı
+
+## 08:12 · AYAR & REHBER
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-rehberi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-filament-rehberi/1.jpg" width="240"></a>
+
+**[2026-10-21-filament-rehberi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-rehberi)** · 1 kare · hikaye 08:52
+
+```
+Filament değiştirip dilimleyicideki profili aynı bırakmak en sık yapılan hata. Sekiz Sunlu malzemesinin nozul, tabla ve hız değeri tek karede — ekran görüntüsünü al, tezgâhta lazım olacak.
+
+PLA → nozul 190-220 °C, tabla 50-60 °C, 50-150 mm/s. Günlük baskı ve prototip.
+PLA Mat → aynı sıcaklıklar, 50-200 mm/s. Mat yüzey katman izini gizliyor; görünüm parçası için.
+PLA+ 2.0 → 205-225 °C, tabla 55-65 °C, 50-200 mm/s. Üçünün en toku; çekme dayanımı 60 MPa, ısı direnci 60 °C. Yük taşıyan parça buradan.
+Yüksek Hızlı PLA → 200-230 °C, 150-600 mm/s. Dikkat: alt sınır 150 mm/s. Yavaş basmak için değil, hızlı erimeye göre karılmış.
+PETG → 230-250 °C, tabla 70-90 °C. Dış mekân, su ve kimyasal. PLA profiliyle basılmaz, 30-40 °C eksik kalıyor.
+ABS → 240-260 °C, tabla 90-110 °C. Isıya dayanım istiyorsan. Açık kabinde köşeler kalkar.
+ASA → ABS ile aynı bant, farkı güneş altında sararmaması. Dış mekân parçası.
+TPU 95A → 210-230 °C, tabla 30-50 °C, 20-40 mm/s. Hızı zorlarsan filament dişlide ezilir.
+
+Kurutma → Sunlu tek bir rakam veriyor: 50 °C. Süre vermiyor, depolamada %20 altı nem istiyor. En çok etkilenen PETG, TPU ve naylon.
+
+Bütün rakamlar sermenkreatif.com'daki ürün sayfalarından. Tahmin yok.
+
+Profili değiştirmeden seri değiştirip makarayı çöpe atan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #filament #sunlu #pla #petg #3dbaskiturkiye #makerturkiye
+```
+
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-masa-duzeni"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-masa-duzeni/1.jpg" width="240"></a>
+
+**[2026-10-17-masa-duzeni](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-masa-duzeni)** · 8 kare · hikaye 13:18
+
+```
+Masa dağınıklığı kutu eksikliğinden değil, doğru kutunun olmamasından. Altı ayrı düzenleyici, altı ayrı dert için.
+
+ArcaMini » Kemer formlu gövdede dört çekmece. Çekmeceler dışarı tam çıkıyor; takı, kablo ve kırtasiye için.
+
+Ribbed Organizer » Fitilli silindir. Mutfakta kepçelik, masada kalemlik, banyoda fırçalık — aynı parça.
+
+Stackable Organizer Set » Üst üste binen tepsi seti. Alttaki büyük tabanın üstünde küçükler kayarak yer değiştiriyor; renkler ayrı ayrı basılıyor.
+
+Damla Formlu Set » Üç damla formlu kase, iç içe geçiyor. Yüzük, bozuk para ve kulaklık için; gece masasında yer kaplamıyor.
+
+Kalem Ucu Kalemlik » Kalemin kendi ucuna benzeyen altıgen gövde. İki renk tek parçada, yapıştırma yok.
+
+İki Bölmeli Organizer » Yuvarlak dış kabuk, içinde iki bölmeli beyaz tabla. Kapaksız duruyor; masaya bırakılan şeyler tek yerde toplanıyor.
+
+Hepsi ölçüye göre basılabiliyor: çekmecenin içini ölçüp gönderirsen o ölçüde basıyoruz.
+
+Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
+
+Senin masanda en çok hangisi işe yarardı?
+
+#sermenkreatif #3dbaski #masaduzeni #organizer #duzenleyici #ofis #3dbaskiturkiye #makerturkiye #samsun
 ```
 
 ## 17:24 · ÜRÜN & MAĞAZA
@@ -227,59 +224,45 @@ Bastığı parçayı tezgâhta telefonla çekip satamayan bir arkadaşın varsa 
 
 ## 08:12 · AYAR & REHBER
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-rehberi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-filament-rehberi/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-nozzle-capi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-13-nozzle-capi/1.jpg" width="240"></a>
 
-**[2026-10-21-filament-rehberi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-rehberi)** · 1 kare · hikaye 08:52
+**[2026-10-13-nozzle-capi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-nozzle-capi)** · 4 kare · hikaye 08:52
 
 ```
-Filament değiştirip dilimleyicideki profili aynı bırakmak en sık yapılan hata. Sekiz Sunlu malzemesinin nozul, tabla ve hız değeri tek karede — ekran görüntüsünü al, tezgâhta lazım olacak.
+3D baskıda nozzle çapı seçimi 0,4 mm ile bitmiyor: 0,2 mm ve 0,6 mm uçlar aynı dosyayı bambaşka iki parçaya çeviriyor.
 
-PLA → nozul 190-220 °C, tabla 50-60 °C, 50-150 mm/s. Günlük baskı ve prototip.
-PLA Mat → aynı sıcaklıklar, 50-200 mm/s. Mat yüzey katman izini gizliyor; görünüm parçası için.
-PLA+ 2.0 → 205-225 °C, tabla 55-65 °C, 50-200 mm/s. Üçünün en toku; çekme dayanımı 60 MPa, ısı direnci 60 °C. Yük taşıyan parça buradan.
-Yüksek Hızlı PLA → 200-230 °C, 150-600 mm/s. Dikkat: alt sınır 150 mm/s. Yavaş basmak için değil, hızlı erimeye göre karılmış.
-PETG → 230-250 °C, tabla 70-90 °C. Dış mekân, su ve kimyasal. PLA profiliyle basılmaz, 30-40 °C eksik kalıyor.
-ABS → 240-260 °C, tabla 90-110 °C. Isıya dayanım istiyorsan. Açık kabinde köşeler kalkar.
-ASA → ABS ile aynı bant, farkı güneş altında sararmaması. Dış mekân parçası.
-TPU 95A → 210-230 °C, tabla 30-50 °C, 20-40 mm/s. Hızı zorlarsan filament dişlide ezilir.
+Katman yüksekliği → güvenli üst sınır uç çapının %75'i. 0,2 mm uçta 0,15 mm, 0,4 mm uçta 0,30 mm, 0,6 mm uçta 0,42 mm.
+Duvar kalınlığı → varsayılan genişlik uç çapının 1,05 katı: 0,21 mm, 0,42 mm, 0,63 mm. Ölçüyü taşıyan sayı bu.
+Akış → 0,6 mm uç, 0,4 mm uca göre üç kata kadar fazla malzeme basıyor; büyük ve basit parçada süre yarıya iniyor.
+Süre → 0,2 mm uç ters yöne gidiyor, aynı parça üç katı sürede çıkıyor.
 
-Kurutma → Sunlu tek bir rakam veriyor: 50 °C. Süre vermiyor, depolamada %20 altı nem istiyor. En çok etkilenen PETG, TPU ve naylon.
+Dolgulu filament kullanacaksan karar baştan veriliyor: karbon ve ahşap katkılı filament 0,2 mm uçtan geçmiyor, 0,6 mm sertleştirilmiş uç tek seçenek.
 
-Bütün rakamlar sermenkreatif.com'daki ürün sayfalarından. Tahmin yok.
+Her baskıyı 0,4 mm uçla basıp küçük yazıların çıkmamasına şaşıran bir arkadaşın varsa bu gönderiyi ona yolla.
 
-Profili değiştirmeden seri değiştirip makarayı çöpe atan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #filament #sunlu #pla #petg #3dbaskiturkiye #makerturkiye
+#sermenkreatif #3dbaski #3dprinting #nozzle #3dbaskiturkiye
 ```
 
 ## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-vazo-koleksiyonu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-vazo-koleksiyonu/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-23-sekil-cark-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-23-sekil-cark-tahtasi/1.jpg" width="240"></a>
 
-**[2026-10-16-vazo-koleksiyonu](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-vazo-koleksiyonu)** · 8 kare · hikaye 13:18
+**[2026-10-23-sekil-cark-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-23-sekil-cark-tahtasi)** · 4 kare · hikaye 13:18
 
 ```
-3D baskıda katman izi genelde saklanmaya çalışılır. Bu altı vazoda tam tersi: iz desenin kendisi.
+Şekil ve çark tahtası. Tahtanın üstündeki oyuklar parçaların şekline göre açılmış; kare karenin, üçgen üçgenin yerine oturuyor, yanlış parça girmiyor.
 
-Diara » Gövdeyi saran iki çizgi dışında hiçbir süsü yok. Kum dokulu gri yüzey, tek dalı bile taşıyor.
+Her sütunda katmanlar ayrı renkte. Çocuk önce şekli buluyor, sonra rengi eşleştiriyor.
 
-Modern Büküm Vazo » Boyun kısmı burularak incelip tekrar açılıyor; tek parça baskıda zor olan kısım burası. Somon rengi mat yüzey.
+Ortadaki çarklar birbirine geçiyor » birini döndürünce komşusu da dönüyor. Dişli mantığı anlatılmadan, oynanarak anlaşılıyor.
 
-Twista » Spiral kaburgalar tabandan ağza kadar dönüyor. Petrol mavisi; pamuk dalı ve kuru otla iyi gidiyor.
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
 
-Organik Akış » Mat siyah gövdede akar gibi dalgalanan derin kanallar. Avuç içi ölçüsünde değil — fotoğraftaki el ölçüyü veriyor.
+Bağlantı ilk yorumda.
 
-Geometrik Dokunuş » Yüzeyin tamamı dışa taşan piramit hücreler. Işık her hücrede ayrı kırılıyor, gövde tek renk olmasına rağmen alacalı duruyor.
+Çarkları döndürmeyi seven bir çocuk tanıyorsan bu gönderiyi ona yolla.
 
-Spiral Enerji » Ağ dokulu gövde spiral dönerek yükseliyor. Turuncu; sonbahar kurusuyla birlikte kuvvetli duruyor.
-
-Kuru çiçek için olduğu gibi kullanılır; suyla kullanacaksan içine cam tüp koymak gerekir, baskı parçası su geçirmez değildir.
-
-Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
-
-Hangisini evine koyardın, yoruma yaz.
-
-#sermenkreatif #3dbaski #vazo #dekorasyon #evdekorasyonu #kurucicek #3dbaskiturkiye #makerturkiye #samsun
+#sermenkreatif #3dbaski #egiticioyuncak #sekileslestirme #cocukgelisimi #makerturkiye
 ```
 
 ## 17:24 · ÜRÜN & MAĞAZA
@@ -345,53 +328,56 @@ Prototipi tuttu diye on adet basıp hepsini çöpe atan bir arkadaşın varsa bu
 
 ## 08:12 · AYAR & REHBER
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-nozzle-capi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-13-nozzle-capi/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-filament-kurutucu-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-filament-kurutucu-pano/1.jpg" width="240"></a>
 
-**[2026-10-13-nozzle-capi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-nozzle-capi)** · 4 kare · hikaye 08:52
+**[2026-10-18-filament-kurutucu-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-filament-kurutucu-pano)** · 1 kare · hikaye 08:52
 
 ```
-3D baskıda nozzle çapı seçimi 0,4 mm ile bitmiyor: 0,2 mm ve 0,6 mm uçlar aynı dosyayı bambaşka iki parçaya çeviriyor.
+Filament kurutucu alırken bakılan ilk şey kapasite oluyor ama asıl ayrım orada değil. SUNLU FilaDryer'ın bu üç modelinde farkı yaratan sıcaklık tavanı ve kaç yazıcıyı aynı anda besleyebildiği.
 
-Katman yüksekliği → güvenli üst sınır uç çapının %75'i. 0,2 mm uçta 0,15 mm, 0,4 mm uçta 0,30 mm, 0,6 mm uçta 0,42 mm.
-Duvar kalınlığı → varsayılan genişlik uç çapının 1,05 katı: 0,21 mm, 0,42 mm, 0,63 mm. Ölçüyü taşıyan sayı bu.
-Akış → 0,6 mm uç, 0,4 mm uca göre üç kata kadar fazla malzeme basıyor; büyük ve basit parçada süre yarıya iniyor.
-Süre → 0,2 mm uç ters yöne gidiyor, aynı parça üç katı sürede çıkıyor.
+S2 » tek makara, Ø 210 × 85 mm, 35-70 °C, 48 W ısıtıcı. 265 × 274 × 118 mm, 1,19 kg. Masaüstünde tek yazıcıyla PLA, PETG, ABS basıyorsan bu yeterli. PTFE çıkışı var, baskı sürerken kurutmaya devam ediyor.
 
-Dolgulu filament kullanacaksan karar baştan veriliyor: karbon ve ahşap katkılı filament 0,2 mm uçtan geçmiyor, 0,6 mm sertleştirilmiş uç tek seçenek.
+S4 » dört makara, 4 × 1 kg. 70 °C'ye kadar, 320-350 W PTC ısıtıcı ve üç fan. Sekiz filament çıkışı, dört yazıcıya kadar besliyor. Hazne içi sıcaklık farkı ±3 °C. 458 × 218 × 312 mm, 4,8-5,5 kg. Birden çok yazıcı çalıştıran atölyenin modeli.
 
-Her baskıyı 0,4 mm uçla basıp küçük yazıların çıkmamasına şaşıran bir arkadaşın varsa bu gönderiyi ona yolla.
+E2 » 35-110 °C, 500 W PTC, çift hazne. 2 × 1 kg, 2 × 2 kg ya da tek 3 kg makara alıyor. PA6-CF, PA12-CF, PC ve PPS için hazır profilleri var; tavlama modu ve tepsisi geliyor. 400 × 220 × 307 mm, 6,1 kg. İçeride 110 °C dönerken dış yüzeyi 60 °C'nin altında kalıyor.
 
-#sermenkreatif #3dbaski #3dprinting #nozzle #3dbaskiturkiye
+Karar şöyle veriliyor: PLA ve PETG 70 °C'nin altında kuruyor, S2 bu işi görüyor. Yazıcı sayın artmışsa S4. Naylon ailesi ve mühendislik filamentleri daha yükseğini istiyor, orada tek seçenek E2.
+
+Bir uyarı » 70 °C üstünde kurutuyorsan makaranın kendisi de o sıcaklığa dayanmalı. Ucuz plastik makara deforme olup sarımı kilitleyebiliyor.
+
+Nemli filament neye mal oluyor: tel tel çekme artıyor, yüzey pürüzleniyor, nozuldan çıtırtı geliyor, katman yapışması düşüyor. Hiçbiri slicer ayarıyla düzelmiyor.
+
+Kurutucusu olmayıp sürekli baskı ayarıyla uğraşan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #sunlu #filamentkurutucu #filament #makerturkiye
 ```
 
 ## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-masa-duzeni"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-masa-duzeni/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-aydinlatma"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-aydinlatma/1.jpg" width="240"></a>
 
-**[2026-10-17-masa-duzeni](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-masa-duzeni)** · 8 kare · hikaye 13:18
+**[2026-10-18-aydinlatma](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-aydinlatma)** · 7 kare · hikaye 13:18
 
 ```
-Masa dağınıklığı kutu eksikliğinden değil, doğru kutunun olmamasından. Altı ayrı düzenleyici, altı ayrı dert için.
+Lamba gövdesi 3D baskıya çok uygun: duvar kalınlığını ayarlayınca malzemenin kendisi difüzör oluyor. Beş lamba.
 
-ArcaMini » Kemer formlu gövdede dört çekmece. Çekmeceler dışarı tam çıkıyor; takı, kablo ve kırtasiye için.
+Ribbed Abajur — Terracotta » Fitilli küre gövde, üstünde pileli şapka. Terracotta tonu sıcak ışıkla birleşince akşam lambası oluyor.
 
-Ribbed Organizer » Fitilli silindir. Mutfakta kepçelik, masada kalemlik, banyoda fırçalık — aynı parça.
+Ribbed Abajur — Sage Green » Aynı gövde, adaçayı yeşili. Yatak odası ve çalışma masası için sakin duran renk.
 
-Stackable Organizer Set » Üst üste binen tepsi seti. Alttaki büyük tabanın üstünde küçükler kayarak yer değiştiriyor; renkler ayrı ayrı basılıyor.
+Ribbed Abajur — Lacivert » Aynı gövdenin koyu hâli. Açık renk duvarda kontrast veriyor; dokuz renk seçeneğinin en koyusu.
 
-Damla Formlu Set » Üç damla formlu kase, iç içe geçiyor. Yüzük, bozuk para ve kulaklık için; gece masasında yer kaplamıyor.
+Organik Işık » Siyah kabuğun arasından kırmızı ışık sızıyor: gövde iki ayrı parçadan değil, iki filamentten tek baskıda çıkıyor.
 
-Kalem Ucu Kalemlik » Kalemin kendi ucuna benzeyen altıgen gövde. İki renk tek parçada, yapıştırma yok.
+Dikey Çizgili Silindir » Düz silindir, dikey fitil. Işık açıkken çizgiler duvara dik gölgeler düşürüyor; kapalıyken sade bir beyaz obje.
 
-İki Bölmeli Organizer » Yuvarlak dış kabuk, içinde iki bölmeli beyaz tabla. Kapaksız duruyor; masaya bırakılan şeyler tek yerde toplanıyor.
-
-Hepsi ölçüye göre basılabiliyor: çekmecenin içini ölçüp gönderirsen o ölçüde basıyoruz.
+Hepsinde sıcak beyaz ampul öneriyoruz; soğuk ışık dokuyu düzleştiriyor. Elektrik tesisatı standart duy.
 
 Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
 
-Senin masanda en çok hangisi işe yarardı?
+Hangi renk senin odana uyar?
 
-#sermenkreatif #3dbaski #masaduzeni #organizer #duzenleyici #ofis #3dbaskiturkiye #makerturkiye #samsun
+#sermenkreatif #3dbaski #masalambasi #abajur #aydinlatma #evdekorasyonu #3dbaskiturkiye #makerturkiye #samsun
 ```
 
 ## 17:24 · ÜRÜN & MAĞAZA
@@ -456,56 +442,60 @@ Beş sorunun cevabı yazışmada kalsın. Sözlü anlaşmada en çok tartışıl
 
 ## 08:12 · AYAR & REHBER
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-filament-kurutucu-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-filament-kurutucu-pano/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-bambu-h-serisi-pano/1.jpg" width="240"></a>
 
-**[2026-10-18-filament-kurutucu-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-filament-kurutucu-pano)** · 1 kare · hikaye 08:52
+**[2026-10-18-bambu-h-serisi-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano)** · 1 kare · hikaye 08:52
 
 ```
-Filament kurutucu alırken bakılan ilk şey kapasite oluyor ama asıl ayrım orada değil. SUNLU FilaDryer'ın bu üç modelinde farkı yaratan sıcaklık tavanı ve kaç yazıcıyı aynı anda besleyebildiği.
+Bambu'nun H serisinde üç makine var ve adları birbirine çok benziyor. Şunu baştan söyleyeyim: sıcaklık ve hız üçünde de aynı. 350 °C nozul, 120 °C tabla, 65 °C'ye kadar aktif ısıtmalı kapalı kabin, 1.000 mm/s kafa hızı, 20.000 mm/s² ivme. Yani "hangisi daha güçlü" diye bakmak yanlış soru.
 
-S2 » tek makara, Ø 210 × 85 mm, 35-70 °C, 48 W ısıtıcı. 265 × 274 × 118 mm, 1,19 kg. Masaüstünde tek yazıcıyla PLA, PETG, ABS basıyorsan bu yeterli. PTFE çıkışı var, baskı sürerken kurutmaya devam ediyor.
+Gerçek ayrım kafa mimarisi ile baskı alanı arasındaki takasta.
 
-S4 » dört makara, 4 × 1 kg. 70 °C'ye kadar, 320-350 W PTC ısıtıcı ve üç fan. Sekiz filament çıkışı, dört yazıcıya kadar besliyor. Hazne içi sıcaklık farkı ±3 °C. 458 × 218 × 312 mm, 4,8-5,5 kg. Birden çok yazıcı çalıştıran atölyenin modeli.
+H2S » tek nozul, en büyük hacim. 340 × 320 × 340 mm — serinin en büyüğü. Tek nozul, hızlı değişen uç. Bambu bunu "daha büyük bir X1C" diye konumluyor: H2D'nin çift nozul karmaşıklığı olmadan daha çok hacim. Lazer tarafında sınırı var, yalnız 10 W destekliyor; 40 W lazer takılmıyor. Serinin en uygun fiyatlısı.
 
-E2 » 35-110 °C, 500 W PTC, çift hazne. 2 × 1 kg, 2 × 2 kg ya da tek 3 kg makara alıyor. PA6-CF, PA12-CF, PC ve PPS için hazır profilleri var; tavlama modu ve tepsisi geliyor. 400 × 220 × 307 mm, 6,1 kg. İçeride 110 °C dönerken dış yüzeyi 60 °C'nin altında kalıyor.
+Kime: tek malzemeyle büyük parça basan.
 
-Karar şöyle veriliyor: PLA ve PETG 70 °C'nin altında kuruyor, S2 bu işi görüyor. Yazıcı sayın artmışsa S4. Naylon ailesi ve mühendislik filamentleri daha yükseğini istiyor, orada tek seçenek E2.
+H2C » Vortek, atıksız çok malzeme. Sağ kafasında 6 hotend'li otomatik değiştirici karusel var. Combo kutusunda 8 hotend geliyor, önerilen kurulumla tek işte 7 malzemeye kadar purge atığı olmadan basıyor. Çok renkli baskıda çöpe giden malzeme derdini ortadan kaldıran kısım burası. AMS ile 24 filamente kadar çıkıyor.
 
-Bir uyarı » 70 °C üstünde kurutuyorsan makaranın kendisi de o sıcaklığa dayanmalı. Ucuz plastik makara deforme olup sarımı kilitleyebiliyor.
+Karşılığı: serinin en küçük baskı alanı (330 × 320 × 325 mm, iki nozul toplamı) ve en yüksek fiyatı.
 
-Nemli filament neye mal oluyor: tel tel çekme artıyor, yüzey pürüzleniyor, nozuldan çıtırtı geliyor, katman yapışması düşüyor. Hiçbiri slicer ayarıyla düzelmiyor.
+Kime: çok renkli/çok malzemeli iş yapan ve atıktan rahatsız olan.
 
-Kurutucusu olmayıp sürekli baskı ayarıyla uğraşan bir arkadaşın varsa bu gönderiyi ona yolla.
+H2D » çift nozul, lazer ve kesim. 350 × 320 × 325 mm, çift nozul, 600 mm/s sürekli baskı. Tek farkı baskı değil: 10 W ya da 40 W lazer modülü takılıyor, 40 W ile 15 mm kontrplak kesiyor. Üstüne dijital kesim ve kalem çizim modülleri var. 12 AMS ünitesine, 25 renge kadar çıkıyor.
 
-#sermenkreatif #3dbaski #sunlu #filamentkurutucu #filament #makerturkiye
+Kime: masasına baskı + lazer + kesim atölyesini birlikte kuracak olan.
+
+Karar kısaca: tek malzemeyle büyük parça basıyorsan H2S. Çok renkte atık istemiyorsan H2C. Lazer ve kesim de lazımsa H2D.
+
+Bir not » H2D Pro adında kurumsal bir model daha var; tungsten karbür nozullar ve kurumsal ağ desteğiyle ayrı bir sınıf, bu karşılaştırmaya girmiyor.
+
+H serisinde hangisini alacağına karar veremeyen bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #bambulab #3dyazici #makerturkiye
 ```
 
 ## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-aydinlatma"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-aydinlatma/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-24-cay-kahve-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-24-cay-kahve-seti/1.jpg" width="240"></a>
 
-**[2026-10-18-aydinlatma](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-aydinlatma)** · 7 kare · hikaye 13:18
+**[2026-10-24-cay-kahve-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-24-cay-kahve-seti)** · 4 kare · hikaye 13:18
 
 ```
-Lamba gövdesi 3D baskıya çok uygun: duvar kalınlığını ayarlayınca malzemenin kendisi difüzör oluyor. Beş lamba.
+Oyuncak çay ve kahve seti. Altı ayrı renkte kulplu fincan, her birine bir tabak.
 
-Ribbed Abajur — Terracotta » Fitilli küre gövde, üstünde pileli şapka. Terracotta tonu sıcak ışıkla birleşince akşam lambası oluyor.
+Fincanların içine latte deseni işli; dolu bir fincan görüntüsü veriyor, sofra kurulunca oyun gerçeğe yaklaşıyor.
 
-Ribbed Abajur — Sage Green » Aynı gövde, adaçayı yeşili. Yatak odası ve çalışma masası için sakin duran renk.
+Toplanması da oyunun parçası » fincanlar birbirine geçiyor, tabaklar altta istif oluyor. Dağınık kalmıyor.
 
-Ribbed Abajur — Lacivert » Aynı gövdenin koyu hâli. Açık renk duvarda kontrast veriyor; dokuz renk seçeneğinin en koyusu.
+Rol yapma oyununun tam ortasında duran bir set: çay partisi, misafir ağırlama, sofra kurma.
 
-Organik Işık » Siyah kabuğun arasından kırmızı ışık sızıyor: gövde iki ayrı parçadan değil, iki filamentten tek baskıda çıkıyor.
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
 
-Dikey Çizgili Silindir » Düz silindir, dikey fitil. Işık açıkken çizgiler duvara dik gölgeler düşürüyor; kapalıyken sade bir beyaz obje.
+Bağlantı ilk yorumda.
 
-Hepsinde sıcak beyaz ampul öneriyoruz; soğuk ışık dokuyu düzleştiriyor. Elektrik tesisatı standart duy.
+Evinde çay partisi kurulan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
-
-Hangi renk senin odana uyar?
-
-#sermenkreatif #3dbaski #masalambasi #abajur #aydinlatma #evdekorasyonu #3dbaskiturkiye #makerturkiye #samsun
+#sermenkreatif #3dbaski #egiticioyuncak #rolyapmaoyunu #cocukgelisimi #makerturkiye
 ```
 
 ## 16:40 · ÜRÜN & MAĞAZA
@@ -570,34 +560,30 @@ Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan payl
 
 ## 11:10 · AYAR & REHBER
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-bambu-h-serisi-pano/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-bambu-a-serisi-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-bambu-a-serisi-pano/1.jpg" width="240"></a>
 
-**[2026-10-18-bambu-h-serisi-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano)** · 1 kare · hikaye 11:50
+**[2026-10-19-bambu-a-serisi-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-bambu-a-serisi-pano)** · 1 kare · hikaye 11:50
 
 ```
-Bambu'nun H serisinde üç makine var ve adları birbirine çok benziyor. Şunu baştan söyleyeyim: sıcaklık ve hız üçünde de aynı. 350 °C nozul, 120 °C tabla, 65 °C'ye kadar aktif ısıtmalı kapalı kabin, 1.000 mm/s kafa hızı, 20.000 mm/s² ivme. Yani "hangisi daha güçlü" diye bakmak yanlış soru.
+A serisinde üç makine var ve üçü de aynı temeli paylaşıyor: açık gövdeli bed-slinger, 300 °C nozul, Combo paketinde AMS Lite ile dört renk. Karar iki şeye iniyor — ne kadar hacim istediğin ve tablanın kaç dereceye çıktığı.
 
-Gerçek ayrım kafa mimarisi ile baskı alanı arasındaki takasta.
+A1 mini » 180 × 180 × 180 mm. Nozul 300 °C, tabla 80 °C. Tek AMS Lite alıyor, dört renkle sınırlı ve genişlemiyor. Otomatik tabla tesviyesi var, elle ayar gerekmiyor.
 
-H2S » tek nozul, en büyük hacim. 340 × 320 × 340 mm — serinin en büyüğü. Tek nozul, hızlı değişen uç. Bambu bunu "daha büyük bir X1C" diye konumluyor: H2D'nin çift nozul karmaşıklığı olmadan daha çok hacim. Lazer tarafında sınırı var, yalnız 10 W destekliyor; 40 W lazer takılmıyor. Serinin en uygun fiyatlısı.
+Kime: minyatür ve küçük parça basan, masasında yer kısıtlı olan.
 
-Kime: tek malzemeyle büyük parça basan.
+A1 » 256 × 256 × 256 mm. Nozul 300 °C, tabla 100 °C — serinin tek 100 °C'lik tablası, asıl fark burada. Bambu A1 için TPU ve PVA'yı ideal malzeme sayıyor; diğer ikisi 80 °C'de kalıyor. 500 mm/s, 10.000 mm/s². Her baskı öncesi otomatik titreşim kompanzasyonu yapıyor, kayış gerginliğini titreşim frekansından denetleyip gevşekse uyarıyor. Akış ve basınç kalibrasyonu da otomatik.
 
-H2C » Vortek, atıksız çok malzeme. Sağ kafasında 6 hotend'li otomatik değiştirici karusel var. Combo kutusunda 8 hotend geliyor, önerilen kurulumla tek işte 7 malzemeye kadar purge atığı olmadan basıyor. Çok renkli baskıda çöpe giden malzeme derdini ortadan kaldıran kısım burası. AMS ile 24 filamente kadar çıkıyor.
+Kime: esnek (TPU) ya da suda çözünen (PVA) filamentle çalışacak olan.
 
-Karşılığı: serinin en küçük baskı alanı (330 × 320 × 325 mm, iki nozul toplamı) ve en yüksek fiyatı.
+A2L » 330 × 320 × 325 mm. Serinin en büyüğü, Haziran 2026'da çıktı. 500 mm/s, 10.000 mm/s², tabla 80 °C. Gövdesinde iki granül damper ve çok noktalı uyarlanabilir titreşim telafisi var; Bambu bunu "aslında bir H2S Lite" diye tanımlıyor. Genişlemede önde: 4 AMS + 1 AMS Lite ile 19 renge kadar çıkıyor.
 
-Kime: çok renkli/çok malzemeli iş yapan ve atıktan rahatsız olan.
+Dikkat » A2L açık gövdeli ve Bambu onu "PLA, PETG ve diğer mühendislik dışı filamentler" için konumluyor. Güvenlik gerekçesiyle lazer modülü desteklemiyor. Büyük hacmi 80 °C tablayı kabul ederek alıyorsun.
 
-H2D » çift nozul, lazer ve kesim. 350 × 320 × 325 mm, çift nozul, 600 mm/s sürekli baskı. Tek farkı baskı değil: 10 W ya da 40 W lazer modülü takılıyor, 40 W ile 15 mm kontrplak kesiyor. Üstüne dijital kesim ve kalem çizim modülleri var. 12 AMS ünitesine, 25 renge kadar çıkıyor.
+A2L, A1'in yerine geçmedi — seriye eklenen büyük formatlı model, diğer ikisi satışta.
 
-Kime: masasına baskı + lazer + kesim atölyesini birlikte kuracak olan.
+Karar kısaca: masada yer yoksa A1 mini. Esnek ya da çözünür filament basacaksan A1. Büyük parça basacaksan A2L.
 
-Karar kısaca: tek malzemeyle büyük parça basıyorsan H2S. Çok renkte atık istemiyorsan H2C. Lazer ve kesim de lazımsa H2D.
-
-Bir not » H2D Pro adında kurumsal bir model daha var; tungsten karbür nozullar ve kurumsal ağ desteğiyle ayrı bir sınıf, bu karşılaştırmaya girmiyor.
-
-H serisinde hangisini alacağına karar veremeyen bir arkadaşın varsa bu gönderiyi ona yolla.
+Hangi Bambu'yu alacağına karar veremeyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #bambulab #3dyazici #makerturkiye
 ```
@@ -690,62 +676,49 @@ Evinin tavan arasına bakmak isteyip de kafasını sokamayan bir arkadaşın var
 
 ## 11:40 · AYAR & REHBER
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-bambu-a-serisi-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-bambu-a-serisi-pano/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-sert-nozul"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-sert-nozul/1.jpg" width="240"></a>
 
-**[2026-10-19-bambu-a-serisi-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-bambu-a-serisi-pano)** · 1 kare · hikaye 12:20
+**[2026-10-18-sert-nozul](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-sert-nozul)** · 5 kare · hikaye 12:20
 
 ```
-A serisinde üç makine var ve üçü de aynı temeli paylaşıyor: açık gövdeli bed-slinger, 300 °C nozul, Combo paketinde AMS Lite ile dört renk. Karar iki şeye iniyor — ne kadar hacim istediğin ve tablanın kaç dereceye çıktığı.
+Karbon elyaflı filamente geçtikten sonra baskıların bozulmaya başladıysa önce ayarları kurcalama, nozula bak.
 
-A1 mini » 180 × 180 × 180 mm. Nozul 300 °C, tabla 80 °C. Tek AMS Lite alıyor, dört renkle sınırlı ve genişlemiyor. Otomatik tabla tesviyesi var, elle ayar gerekmiyor.
+Pirinç yumuşak bir malzeme. Isıyı çok iyi ilettiği için standart uç pirinçten yapılıyor, PLA ve PETG'de yıllarca sorun çıkarmıyor. Ama içinden karbon elyaf, cam elyaf, ahşap tozu, metal tozu ya da karanlıkta parlayan filamentin fosfor taneleri geçmeye başladığında delik yavaşça büyüyor.
 
-Kime: minyatür ve küçük parça basan, masasında yer kısıtlı olan.
+Sorun şu: dilimleyici hâlâ 0,4 mm varsayıp malzeme hesaplıyor. Delik 0,45 olduğunda duvar inceliyor, köşelerde boşluk açılıyor, üst yüzey kapanmıyor. Sen sıcaklıkla, akışla, retraction'la uğraşıyorsun; sebep eline aldığın parçada değil, ucun içinde.
 
-A1 » 256 × 256 × 256 mm. Nozul 300 °C, tabla 100 °C — serinin tek 100 °C'lik tablası, asıl fark burada. Bambu A1 için TPU ve PVA'yı ideal malzeme sayıyor; diğer ikisi 80 °C'de kalıyor. 500 mm/s, 10.000 mm/s². Her baskı öncesi otomatik titreşim kompanzasyonu yapıyor, kayış gerginliğini titreşim frekansından denetleyip gevşekse uyarıyor. Akış ve basınç kalibrasyonu da otomatik.
+Aşındıranlar: karbon elyaf, cam elyaf, ahşap dolgulu, metal dolgulu, karanlıkta parlayan filamentler.
+Aşındırmayanlar: düz PLA, PETG, ABS, ASA, TPU. Bunlarda pirinç uç yeterli.
 
-Kime: esnek (TPU) ya da suda çözünen (PVA) filamentle çalışacak olan.
+Sert uca geçerken bilmen gereken bir ayrıntı var: sertleştirilmiş çelik pirinç kadar iyi ısı iletmiyor. Aynı sıcaklık ayarıyla basınca malzeme yeterince erimeyebiliyor. Nozul sıcaklığını 5-10 °C yükselt, ilk baskıda akışı gözle. Pirinç kadar iyi ileten sert seçenek arıyorsan tungsten karbür ya da yakut uçlu modellere bakacaksın.
 
-A2L » 330 × 320 × 325 mm. Serinin en büyüğü, Haziran 2026'da çıktı. 500 mm/s, 10.000 mm/s², tabla 80 °C. Gövdesinde iki granül damper ve çok noktalı uyarlanabilir titreşim telafisi var; Bambu bunu "aslında bir H2S Lite" diye tanımlıyor. Genişlemede önde: 4 AMS + 1 AMS Lite ile 19 renge kadar çıkıyor.
+Elyaflı filamente geçmeyi düşünüyorsan ucu önceden değiştir. Uç ucuz, bozuk baskı pahalı.
 
-Dikkat » A2L açık gövdeli ve Bambu onu "PLA, PETG ve diğer mühendislik dışı filamentler" için konumluyor. Güvenlik gerekçesiyle lazer modülü desteklemiyor. Büyük hacmi 80 °C tablayı kabul ederek alıyorsun.
-
-A2L, A1'in yerine geçmedi — seriye eklenen büyük formatlı model, diğer ikisi satışta.
-
-Karar kısaca: masada yer yoksa A1 mini. Esnek ya da çözünür filament basacaksan A1. Büyük parça basacaksan A2L.
-
-Hangi Bambu'yu alacağına karar veremeyen bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #bambulab #3dyazici #makerturkiye
+#sermenkreatif #3dbaski #nozzle #karbonfiber #filament #makerturkiye
 ```
 
 ## 12:20 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-makyaj-ve-taki"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-20-makyaj-ve-taki/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-25-aktivite-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-25-aktivite-tahtasi/1.jpg" width="240"></a>
 
-**[2026-10-20-makyaj-ve-taki](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-makyaj-ve-taki)** · 8 kare · hikaye 13:00
+**[2026-10-25-aktivite-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-25-aktivite-tahtasi)** · 8 kare · hikaye 13:00
 
 ```
-Bu altı parçanın ortak derdi şu: sert plastikten yumuşak görünen bir yüzey çıkarmak. Kapitone, fiyonk, örgü — hepsi baskıda modellendi.
+Aktivite tahtası. Altı ayrı oyun tek tablada: dönen dişliler, şekil eşleştirme, kaydırmalı halka, cırt cırt bantlar, saat ve vida-somun.
 
-Fiyonklu Makyaj Organizer » Kapitone dokulu kare gövde, dört bölme. Fırça, ruj ve sünger ayrı ayrı duruyor.
+Paneller puzzle gibi birbirine geçiyor. İstersen hepsini birleştirip tek tahta yaparsın, istersen tek paneli ayırıp çocuğa verirsin.
 
-Fitilli Fırçalık » Fitilli silindirin beline bağlanmış fiyonk. Fırça ve kalem birlikte; tek parça baskı, fiyonk dahil.
+Her panel ayrı bir beceriye çalışıyor » dişli ve halka el kontrolüne, şekil paneli eşleştirmeye, saat paneli zaman kavramına, vida ve cırt cırt parmak kaslarına.
 
-Kapitone Makyaj Tepsisi » Kapitone dokulu sığ tepsi. Masaya dağılan küçük şişeleri tek hamlede toplamak için.
+Cırt cırt bölümü özellikle işe yarıyor: bant açıp kapatmak ayakkabı ve mont öncesi en iyi alıştırma.
 
-İnci Tabağı » İstiridye formlu tabak, ortasında inci. Yüzük ve küpe için; banyo ve gece masası.
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
 
-Fiyonklu Takı Tabağı » Üç ayak üstünde küçük tabak, arkasında fiyonk. Anahtar ve yüzük tek yerde.
+Bağlantı ilk yorumda.
 
-Fiyonklu Takı Sepeti » Kulpu fiyonklu sepet; kolyeler kulptan asılınca birbirine dolaşmıyor. Kapitone gövde içine yüzük ve bileklik.
+Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-Renkler filamentten geliyor, boya yok. Aynı dosyadan istediğin renkte basılabiliyor.
-
-Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
-
-Hangisini isterdin, yoruma yaz.
-
-#sermenkreatif #3dbaski #makyaj #takı #organizer #dekorasyon #3dbaskiturkiye #makerturkiye #samsun
+#sermenkreatif #3dbaski #aktivitetahtasi #egiticioyuncak #cocukgelisimi #makerturkiye
 ```
 
 ## 17:10 · ÜRÜN & MAĞAZA
@@ -808,55 +781,54 @@ Masasında yarım kalmış büyük bir baskı projesi olan bir arkadaşın varsa
 
 ## 08:12 · AYAR & REHBER
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-sert-nozul"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-sert-nozul/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-heat-set-insert"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-heat-set-insert/1.jpg" width="240"></a>
 
-**[2026-10-18-sert-nozul](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-sert-nozul)** · 5 kare · hikaye 08:52
+**[2026-10-19-heat-set-insert](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-heat-set-insert)** · 4 kare · hikaye 08:52
 
 ```
-Karbon elyaflı filamente geçtikten sonra baskıların bozulmaya başladıysa önce ayarları kurcalama, nozula bak.
+3D baskıda vidalı birleşim için heat-set insert kullanmak, plastiğe doğrudan vida atmaktan farklı bir iş. Doğrudan atılan vida üç-dört sökmede dişi sıyırıyor; pirinç insert aynı deliği kalıcı dişe çeviriyor. Ama işi bitiren şey insert değil, deliğin baştan doğru çizilmesi.
 
-Pirinç yumuşak bir malzeme. Isıyı çok iyi ilettiği için standart uç pirinçten yapılıyor, PLA ve PETG'de yıllarca sorun çıkarmıyor. Ama içinden karbon elyaf, cam elyaf, ahşap tozu, metal tozu ya da karanlıkta parlayan filamentin fosfor taneleri geçmeye başladığında delik yavaşça büyüyor.
+Delik çapı insert'in dış çapından küçük olacak. Eriyen plastiğin tırtılların arasına dolup kilitlenmesi buna bağlı. M3'te 4,0 mm, M4'te 5,6 mm yaygın ölçü — ama her markanın tırtıl çapı aynı değil, eldeki insert'i kumpasla ölçmek on saniye sürüyor. Derinlik insert boyundan 0,5 mm fazla olsun; taşan erimiş plastiğin gidecek yeri kalsın.
 
-Sorun şu: dilimleyici hâlâ 0,4 mm varsayıp malzeme hesaplıyor. Delik 0,45 olduğunda duvar inceliyor, köşelerde boşluk açılıyor, üst yüzey kapanmıyor. Sen sıcaklıkla, akışla, retraction'la uğraşıyorsun; sebep eline aldığın parçada değil, ucun içinde.
+Havyayı ısıt, bastırma. PLA'da 200-220 °C, PETG ve ABS'de 230-250 °C iş görüyor. Insert kendi ağırlığıyla insin; kuvvet uygulamak onu yan yatırıyor ve eğik oturan insert'te vida dişi tutmuyor, parça sökülürken insert içeriden dönüyor. Gönye kaçtıysa plastik sıcakken geri çıkar, soğumasını bekleyip yeniden dene.
 
-Aşındıranlar: karbon elyaf, cam elyaf, ahşap dolgulu, metal dolgulu, karanlıkta parlayan filamentler.
-Aşındırmayanlar: düz PLA, PETG, ABS, ASA, TPU. Bunlarda pirinç uç yeterli.
+Çevresinde en az 2 mm malzeme kalsın. İnce cidarda sıcak pirinç duvarı şişiriyor ve dış yüzeyde kabarma çıkıyor. Oturma yüzeyin 0,2 mm altında bitsin — taşan insert iki parçayı birbirine oturtmuyor.
 
-Sert uca geçerken bilmen gereken bir ayrıntı var: sertleştirilmiş çelik pirinç kadar iyi ısı iletmiyor. Aynı sıcaklık ayarıyla basınca malzeme yeterince erimeyebiliyor. Nozul sıcaklığını 5-10 °C yükselt, ilk baskıda akışı gözle. Pirinç kadar iyi ileten sert seçenek arıyorsan tungsten karbür ya da yakut uçlu modellere bakacaksın.
+Her yere insert gerekmiyor: bir kez monte edilip bir daha sökülmeyecek bir yerde doğrudan vida ya da kendinden kılavuzlu plastik vida yeterli. Insert sökülüp takılacak kapaklarda, pil bölmelerinde ve montaj yüzeylerinde kazandırıyor.
 
-Elyaflı filamente geçmeyi düşünüyorsan ucu önceden değiştir. Uç ucuz, bozuk baskı pahalı.
+Bastığı kutunun kapağını üçüncü açışta dişi sıyıran bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #nozzle #karbonfiber #filament #makerturkiye
+#sermenkreatif #3dbaski #3dprinting #heatsetinsert #3dbaskiturkiye
 ```
 
 ## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-hediyelik"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-hediyelik/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-makyaj-ve-taki"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-20-makyaj-ve-taki/1.jpg" width="240"></a>
 
-**[2026-10-21-hediyelik](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-hediyelik)** · 8 kare · hikaye 13:18
+**[2026-10-20-makyaj-ve-taki](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-makyaj-ve-taki)** · 8 kare · hikaye 13:18
 
 ```
-Hediyenin pahalı olması gerekmiyor. Altı küçük parça; hepsi basılmış, hepsi tek tek elde boyasız çıkıyor.
+Bu altı parçanın ortak derdi şu: sert plastikten yumuşak görünen bir yüzey çıkarmak. Kapitone, fiyonk, örgü — hepsi baskıda modellendi.
 
-Aşk İksiri Anahtarlık » Mavi şişe, pembe kalpli iksir. Dört renk tek baskıda; kabartma kalp yüzeyden çıkıyor.
+Fiyonklu Makyaj Organizer » Kapitone dokulu kare gövde, dört bölme. Fırça, ruj ve sünger ayrı ayrı duruyor.
 
-Denizatı Anahtarlık » Bordo gövde, beyaz çizgiler. Avuç içinden küçük; çantada ve anahtarlıkta yer kaplamıyor.
+Fitilli Fırçalık » Fitilli silindirin beline bağlanmış fiyonk. Fırça ve kalem birlikte; tek parça baskı, fiyonk dahil.
 
-Kaplumbağa Anahtarlık » Yeşil gövde, turuncu kabuk. Kabuktaki altıgen desen baskıda modellendi, çıkartma değil.
+Kapitone Makyaj Tepsisi » Kapitone dokulu sığ tepsi. Masaya dağılan küçük şişeleri tek hamlede toplamak için.
 
-Penguen Anahtarlık » Siyah-beyaz gövde, turuncu gaga ve ayak. Üç renk, tek parça.
+İnci Tabağı » İstiridye formlu tabak, ortasında inci. Yüzük ve küpe için; banyo ve gece masası.
 
-Papatya Anahtarlık » Mavi zemin üstünde beyaz papatya. Yassı form; cüzdanda ve cepte takılmıyor.
+Fiyonklu Takı Tabağı » Üç ayak üstünde küçük tabak, arkasında fiyonk. Anahtar ve yüzük tek yerde.
 
-Balkabağı Mumluk » Dilimli balkabağı formunda tealight mumluğu. Ekim sonu masası için; mum içine oturuyor, alev gövdeye değmiyor.
+Fiyonklu Takı Sepeti » Kulpu fiyonklu sepet; kolyeler kulptan asılınca birbirine dolaşmıyor. Kapitone gövde içine yüzük ve bileklik.
 
-Anahtarlıkların hepsi çok renkli tek baskı: renkler ayrı parça değil, aynı gövdede filament değişimiyle.
+Renkler filamentten geliyor, boya yok. Aynı dosyadan istediğin renkte basılabiliyor.
 
 Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
 
-Kime alırdın, etiketle.
+Hangisini isterdin, yoruma yaz.
 
-#sermenkreatif #3dbaski #anahtarlik #hediyelik #3dbaski #mumluk #3dbaskiturkiye #makerturkiye #samsun
+#sermenkreatif #3dbaski #makyaj #takı #organizer #dekorasyon #3dbaskiturkiye #makerturkiye #samsun
 ```
 
 ## 17:24 · ÜRÜN & MAĞAZA
@@ -920,46 +892,56 @@ Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan payl
 
 ## 08:12 · AYAR & REHBER
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-heat-set-insert"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-heat-set-insert/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-sunlu-filament-pano/1.jpg" width="240"></a>
 
-**[2026-10-19-heat-set-insert](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-heat-set-insert)** · 4 kare · hikaye 08:52
+**[2026-10-16-sunlu-filament-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano)** · 1 kare · hikaye 08:52
 
 ```
-3D baskıda vidalı birleşim için heat-set insert kullanmak, plastiğe doğrudan vida atmaktan farklı bir iş. Doğrudan atılan vida üç-dört sökmede dişi sıyırıyor; pirinç insert aynı deliği kalıcı dişe çeviriyor. Ama işi bitiren şey insert değil, deliğin baştan doğru çizilmesi.
+SUNLU'nun üç filamenti arasındaki fark renk değil. Üçü de 1,75 mm ve ±0,02 mm toleranslı; ayrım nerede kullanacağında.
 
-Delik çapı insert'in dış çapından küçük olacak. Eriyen plastiğin tırtılların arasına dolup kilitlenmesi buna bağlı. M3'te 4,0 mm, M4'te 5,6 mm yaygın ölçü — ama her markanın tırtıl çapı aynı değil, eldeki insert'i kumpasla ölçmek on saniye sürüyor. Derinlik insert boyundan 0,5 mm fazla olsun; taşan erimiş plastiğin gidecek yeri kalsın.
+PLA+ 2.0 » nozul 205-245 °C, tabla 50-60 °C, 50-200 mm/s. Çekme dayanımı 46±5 MPa, çentikli Izod darbe 10±3 kJ/m², ısı deformasyon sıcaklığı 56±3 °C, yoğunluk 1,21 g/cm³.
 
-Havyayı ısıt, bastırma. PLA'da 200-220 °C, PETG ve ABS'de 230-250 °C iş görüyor. Insert kendi ağırlığıyla insin; kuvvet uygulamak onu yan yatırıyor ve eğik oturan insert'te vida dişi tutmuyor, parça sökülürken insert içeriden dönüyor. Gönye kaçtıysa plastik sıcakken geri çıkar, soğumasını bekleyip yeniden dene.
+Üçünün en toku bu. Darbe dayanımı mat PLA'nın iki katı. Yük taşıyan aparat, fonksiyonel parça ve günlük baskının geneli buradan.
 
-Çevresinde en az 2 mm malzeme kalsın. İnce cidarda sıcak pirinç duvarı şişiriyor ve dış yüzeyde kabarma çıkıyor. Oturma yüzeyin 0,2 mm altında bitsin — taşan insert iki parçayı birbirine oturtmuyor.
+PLA Matte » nozul 205-245 °C, tabla 50-60 °C, 50-230 mm/s. Çekme 39±6 MPa, darbe 5±2 kJ/m², yoğunluk 1,31 g/cm³.
 
-Her yere insert gerekmiyor: bir kez monte edilip bir daha sökülmeyecek bir yerde doğrudan vida ya da kendinden kılavuzlu plastik vida yeterli. Insert sökülüp takılacak kapaklarda, pil bölmelerinde ve montaj yüzeylerinde kazandırıyor.
+Mat yüzey katman izlerini gizliyor, parçanın plastik görünümünü azaltıyor. Vitrin, hediyelik ve dekoratif obje için. Karşılığında mukavemeti PLA+ 2.0'ın altında — görünüm parçası basıyorsan sorun değil, menteşe basıyorsan sorun.
 
-Bastığı kutunun kapağını üçüncü açışta dişi sıyıran bir arkadaşın varsa bu gönderiyi ona yolla.
+PETG » nozul 240-260 °C, tabla 60-70 °C, 300 mm/s'ye kadar. Çekme 48±10 MPa, ısı deformasyon sıcaklığı 70±5 °C.
 
-#sermenkreatif #3dbaski #3dprinting #heatsetinsert #3dbaskiturkiye
+Asıl farkı ısı ve kimyasal direnci. 70 °C'lik ısı dayanımı iki PLA'nın da belirgin üstünde; araç içinde yazın deforme olmuyor. Suya, asit ve alkaliye dayanıklı, dış mekânda duruyor. Darbe dayanımı düşük (3±1 kJ/m²) — sert darbe alacak parça için değil.
+
+Karar kısaca: yük taşıyacaksa PLA+ 2.0, görünecekse PLA Matte, dışarıda duracak ya da ısınacaksa PETG.
+
+Bir isim uyarısı » SUNLU'nun kataloğunda PLA+ 2.0 ile High Speed PLA+ 2.0 ayrı iki ürün; yoğunlukları, mukavemetleri ve sıcaklık bantları farklı. Buradaki rakamlar PLA+ 2.0'ın. Aynı şekilde PLA Matte ile High Speed Matte PLA da ayrı ürünler, karıştırma.
+
+PLA'yla menteşe basıp yazın deforme olduğuna şaşıran bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #sunlu #filament #makerturkiye
 ```
 
 ## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-23-sekil-cark-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-23-sekil-cark-tahtasi/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-26-market-kasa-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-26-market-kasa-seti/1.jpg" width="240"></a>
 
-**[2026-10-23-sekil-cark-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-23-sekil-cark-tahtasi)** · 4 kare · hikaye 13:18
+**[2026-10-26-market-kasa-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-26-market-kasa-seti)** · 4 kare · hikaye 13:18
 
 ```
-Şekil ve çark tahtası. Tahtanın üstündeki oyuklar parçaların şekline göre açılmış; kare karenin, üçgen üçgenin yerine oturuyor, yanlış parça girmiyor.
+Oyuncak market kasa seti. Çekmeceli yazarkasa, iki raflı market standı ve oyun parası bir arada.
 
-Her sütunda katmanlar ayrı renkte. Çocuk önce şekli buluyor, sonra rengi eşleştiriyor.
+Kasanın rakam tuşları ve ürün tuşları var, çekmecesi açılıyor. Para çekmecenin içinde duruyor; alışveriş, ödeme ve para üstü gerçek sırayla işliyor.
 
-Ortadaki çarklar birbirine geçiyor » birini döndürünce komşusu da dönüyor. Dişli mantığı anlatılmadan, oynanarak anlaşılıyor.
+Rafa süt, meyve suyu, ekmek, kahve, mısır gevreği ve elma diziliyor. Çocuk önce rafı kuruyor, sonra müşteri oluyor, sonra kasiyer.
+
+Sayı saymayı, sıra beklemeyi ve alışveriş diyaloğunu aynı oyunda çalıştırıyor.
 
 Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
 
 Bağlantı ilk yorumda.
 
-Çarkları döndürmeyi seven bir çocuk tanıyorsan bu gönderiyi ona yolla.
+Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #egiticioyuncak #sekileslestirme #cocukgelisimi #makerturkiye
+#sermenkreatif #3dbaski #oyuncakmarket #rolyapmaoyunu #egiticioyuncak #makerturkiye
 ```
 
 ## 17:24 · ÜRÜN & MAĞAZA
@@ -1016,56 +998,56 @@ Oyuncak olduğunu tasarımda hatırla: keskin köşe bırakma, kenarlara 1 mm pa
 
 ## 08:12 · AYAR & REHBER
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-sunlu-filament-pano/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-ams-israf/1.jpg" width="240"></a>
 
-**[2026-10-16-sunlu-filament-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano)** · 1 kare · hikaye 08:52
+**[2026-10-21-ams-israf](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf)** · 4 kare · hikaye 08:52
 
 ```
-SUNLU'nun üç filamenti arasındaki fark renk değil. Üçü de 1,75 mm ve ±0,02 mm toleranslı; ayrım nerede kullanacağında.
+AMS ve MMU'da renk değişimi israfı, çok renkli baskıda çoğu zaman parçanın kendisinden pahalıya geliyor.
 
-PLA+ 2.0 » nozul 205-245 °C, tabla 50-60 °C, 50-200 mm/s. Çekme dayanımı 46±5 MPa, çentikli Izod darbe 10±3 kJ/m², ısı deformasyon sıcaklığı 56±3 °C, yoğunluk 1,21 g/cm³.
+Her renk geçişinde nozul boşaltılıyor: geçiş başına 0,3-1,5 g, dilimleyicinin varsayılan ayarıyla 280 mm³. 400 geçişli bir plakada 40-90 g temizlik atığı çıkıyor — parça 60 g ise çöpe giden ondan fazla.
 
-Üçünün en toku bu. Darbe dayanımı mat PLA'nın iki katı. Yük taşıyan aparat, fonksiyonel parça ve günlük baskının geneli buradan.
+Maliyeti belirleyen şey parça sayısı değil geçiş sayısı; aynı plakada dokuz kopya da bassan geçişler ortak.
 
-PLA Matte » nozul 205-245 °C, tabla 50-60 °C, 50-230 mm/s. Çekme 39±6 MPa, darbe 5±2 kJ/m², yoğunluk 1,31 g/cm³.
+Aynı renk ailesinde temizlik çarpanını 0,7'ye indirmek iz bırakmadan %20-30 kazandırıyor. Asıl kazanç ise atığı modelin içine basmakta: desteğe, dolguya ya da rengi görünmeyen bir nesneye. Üçü de temizlik kulesi açıkken çalışıyor.
 
-Mat yüzey katman izlerini gizliyor, parçanın plastik görünümünü azaltıyor. Vitrin, hediyelik ve dekoratif obje için. Karşılığında mukavemeti PLA+ 2.0'ın altında — görünüm parçası basıyorsan sorun değil, menteşe basıyorsan sorun.
+Siyahtan beyaza geçişte ve saydam filamentte çarpana dokunma; eski renk yeni katmanda gri bir leke olarak çıkıyor.
 
-PETG » nozul 240-260 °C, tabla 60-70 °C, 300 mm/s'ye kadar. Çekme 48±10 MPa, ısı deformasyon sıcaklığı 70±5 °C.
+@bambulab · @prusa3d
 
-Asıl farkı ısı ve kimyasal direnci. 70 °C'lik ısı dayanımı iki PLA'nın da belirgin üstünde; araç içinde yazın deforme olmuyor. Suya, asit ve alkaliye dayanıklı, dış mekânda duruyor. Darbe dayanımı düşük (3±1 kJ/m²) — sert darbe alacak parça için değil.
+Temizlik kulesini çöpe atarken içi sızlayan bir arkadaşın varsa ona yolla.
 
-Karar kısaca: yük taşıyacaksa PLA+ 2.0, görünecekse PLA Matte, dışarıda duracak ya da ısınacaksa PETG.
-
-Bir isim uyarısı » SUNLU'nun kataloğunda PLA+ 2.0 ile High Speed PLA+ 2.0 ayrı iki ürün; yoğunlukları, mukavemetleri ve sıcaklık bantları farklı. Buradaki rakamlar PLA+ 2.0'ın. Aynı şekilde PLA Matte ile High Speed Matte PLA da ayrı ürünler, karıştırma.
-
-PLA'yla menteşe basıp yazın deforme olduğuna şaşıran bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #sunlu #filament #makerturkiye
+#sermenkreatif #3dbaski #3dprinting #ams #3dbaskiturkiye
 ```
 
 ## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-24-cay-kahve-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-24-cay-kahve-seti/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-hediyelik"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-hediyelik/1.jpg" width="240"></a>
 
-**[2026-10-24-cay-kahve-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-24-cay-kahve-seti)** · 4 kare · hikaye 13:18
+**[2026-10-21-hediyelik](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-hediyelik)** · 8 kare · hikaye 13:18
 
 ```
-Oyuncak çay ve kahve seti. Altı ayrı renkte kulplu fincan, her birine bir tabak.
+Hediyenin pahalı olması gerekmiyor. Altı küçük parça; hepsi basılmış, hepsi tek tek elde boyasız çıkıyor.
 
-Fincanların içine latte deseni işli; dolu bir fincan görüntüsü veriyor, sofra kurulunca oyun gerçeğe yaklaşıyor.
+Aşk İksiri Anahtarlık » Mavi şişe, pembe kalpli iksir. Dört renk tek baskıda; kabartma kalp yüzeyden çıkıyor.
 
-Toplanması da oyunun parçası » fincanlar birbirine geçiyor, tabaklar altta istif oluyor. Dağınık kalmıyor.
+Denizatı Anahtarlık » Bordo gövde, beyaz çizgiler. Avuç içinden küçük; çantada ve anahtarlıkta yer kaplamıyor.
 
-Rol yapma oyununun tam ortasında duran bir set: çay partisi, misafir ağırlama, sofra kurma.
+Kaplumbağa Anahtarlık » Yeşil gövde, turuncu kabuk. Kabuktaki altıgen desen baskıda modellendi, çıkartma değil.
 
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+Penguen Anahtarlık » Siyah-beyaz gövde, turuncu gaga ve ayak. Üç renk, tek parça.
 
-Bağlantı ilk yorumda.
+Papatya Anahtarlık » Mavi zemin üstünde beyaz papatya. Yassı form; cüzdanda ve cepte takılmıyor.
 
-Evinde çay partisi kurulan bir arkadaşın varsa bu gönderiyi ona yolla.
+Balkabağı Mumluk » Dilimli balkabağı formunda tealight mumluğu. Ekim sonu masası için; mum içine oturuyor, alev gövdeye değmiyor.
 
-#sermenkreatif #3dbaski #egiticioyuncak #rolyapmaoyunu #cocukgelisimi #makerturkiye
+Anahtarlıkların hepsi çok renkli tek baskı: renkler ayrı parça değil, aynı gövdede filament değişimiyle.
+
+Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını anında görebilirsin.
+
+Kime alırdın, etiketle.
+
+#sermenkreatif #3dbaski #anahtarlik #hediyelik #3dbaski #mumluk #3dbaskiturkiye #makerturkiye #samsun
 ```
 
 ## 17:24 · ÜRÜN & MAĞAZA
@@ -1124,44 +1106,20 @@ FPV'ye yeni başlayan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 # 2026-10-29 · Perşembe
 
-## 08:12 · AYAR & REHBER
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-ams-israf/1.jpg" width="240"></a>
-
-**[2026-10-21-ams-israf](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf)** · 4 kare · hikaye 08:52
-
-```
-AMS ve MMU'da renk değişimi israfı, çok renkli baskıda çoğu zaman parçanın kendisinden pahalıya geliyor.
-
-Her renk geçişinde nozul boşaltılıyor: geçiş başına 0,3-1,5 g, dilimleyicinin varsayılan ayarıyla 280 mm³. 400 geçişli bir plakada 40-90 g temizlik atığı çıkıyor — parça 60 g ise çöpe giden ondan fazla.
-
-Maliyeti belirleyen şey parça sayısı değil geçiş sayısı; aynı plakada dokuz kopya da bassan geçişler ortak.
-
-Aynı renk ailesinde temizlik çarpanını 0,7'ye indirmek iz bırakmadan %20-30 kazandırıyor. Asıl kazanç ise atığı modelin içine basmakta: desteğe, dolguya ya da rengi görünmeyen bir nesneye. Üçü de temizlik kulesi açıkken çalışıyor.
-
-Siyahtan beyaza geçişte ve saydam filamentte çarpana dokunma; eski renk yeni katmanda gri bir leke olarak çıkıyor.
-
-@bambulab · @prusa3d
-
-Temizlik kulesini çöpe atarken içi sızlayan bir arkadaşın varsa ona yolla.
-
-#sermenkreatif #3dbaski #3dprinting #ams #3dbaskiturkiye
-```
-
 ## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-25-aktivite-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-25-aktivite-tahtasi/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-27-meyve-sebze-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-27-meyve-sebze-seti/1.jpg" width="240"></a>
 
-**[2026-10-25-aktivite-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-25-aktivite-tahtasi)** · 8 kare · hikaye 13:18
+**[2026-10-27-meyve-sebze-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-27-meyve-sebze-seti)** · 4 kare · hikaye 13:18
 
 ```
-Aktivite tahtası. Altı ayrı oyun tek tablada: dönen dişliler, şekil eşleştirme, kaydırmalı halka, cırt cırt bantlar, saat ve vida-somun.
+Oyuncak meyve ve sebze seti. Elma, armut, muz, domates, havuç, patlıcan, biber, pırasa ve sarımsak; hepsi ahşap görünümlü sandığıyla birlikte.
 
-Paneller puzzle gibi birbirine geçiyor. İstersen hepsini birleştirip tek tahta yaparsın, istersen tek paneli ayırıp çocuğa verirsin.
+Sandık da sete dahil. Oyun bitince meyveler içine toplanıyor, odanın ortasında dağınık kalmıyor.
 
-Her panel ayrı bir beceriye çalışıyor » dişli ve halka el kontrolüne, şekil paneli eşleştirmeye, saat paneli zaman kavramına, vida ve cırt cırt parmak kaslarına.
+Sandığın ahşap dokusu baskıyla veriliyor » kıymık yok, çivi yok, tek parça.
 
-Cırt cırt bölümü özellikle işe yarıyor: bant açıp kapatmak ayakkabı ve mont öncesi en iyi alıştırma.
+Manav oyunu, mutfak oyunu, renk ve besin tanıma; aynı setle üçü birden.
 
 Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
 
@@ -1169,7 +1127,7 @@ Bağlantı ilk yorumda.
 
 Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #aktivitetahtasi #egiticioyuncak #cocukgelisimi #makerturkiye
+#sermenkreatif #3dbaski #oyuncakmeyve #manavoyunu #egiticioyuncak #makerturkiye
 ```
 
 ## 17:24 · ÜRÜN & MAĞAZA
@@ -1230,65 +1188,9 @@ Pi'sini kitap yığınına yaslayarak kullanan bir arkadaşın varsa ona yolla.
 
 ## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-26-market-kasa-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-26-market-kasa-seti/1.jpg" width="240"></a>
-
-**[2026-10-26-market-kasa-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-26-market-kasa-seti)** · 4 kare · hikaye 13:18
-
-```
-Oyuncak market kasa seti. Çekmeceli yazarkasa, iki raflı market standı ve oyun parası bir arada.
-
-Kasanın rakam tuşları ve ürün tuşları var, çekmecesi açılıyor. Para çekmecenin içinde duruyor; alışveriş, ödeme ve para üstü gerçek sırayla işliyor.
-
-Rafa süt, meyve suyu, ekmek, kahve, mısır gevreği ve elma diziliyor. Çocuk önce rafı kuruyor, sonra müşteri oluyor, sonra kasiyer.
-
-Sayı saymayı, sıra beklemeyi ve alışveriş diyaloğunu aynı oyunda çalıştırıyor.
-
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
-
-Bağlantı ilk yorumda.
-
-Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #oyuncakmarket #rolyapmaoyunu #egiticioyuncak #makerturkiye
-```
-
----
-
-# 2026-10-31 · Cumartesi
-
-## 12:20 · BASKI ÜRÜNLERİ
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-27-meyve-sebze-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-27-meyve-sebze-seti/1.jpg" width="240"></a>
-
-**[2026-10-27-meyve-sebze-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-27-meyve-sebze-seti)** · 4 kare · hikaye 13:00
-
-```
-Oyuncak meyve ve sebze seti. Elma, armut, muz, domates, havuç, patlıcan, biber, pırasa ve sarımsak; hepsi ahşap görünümlü sandığıyla birlikte.
-
-Sandık da sete dahil. Oyun bitince meyveler içine toplanıyor, odanın ortasında dağınık kalmıyor.
-
-Sandığın ahşap dokusu baskıyla veriliyor » kıymık yok, çivi yok, tek parça.
-
-Manav oyunu, mutfak oyunu, renk ve besin tanıma; aynı setle üçü birden.
-
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
-
-Bağlantı ilk yorumda.
-
-Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #oyuncakmeyve #manavoyunu #egiticioyuncak #makerturkiye
-```
-
----
-
-# 2026-11-01 · Pazar
-
-## 12:20 · BASKI ÜRÜNLERİ
-
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-28-vidali-tren"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-28-vidali-tren/1.jpg" width="240"></a>
 
-**[2026-10-28-vidali-tren](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-28-vidali-tren)** · 4 kare · hikaye 13:00
+**[2026-10-28-vidali-tren](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-28-vidali-tren)** · 4 kare · hikaye 13:18
 
 ```
 Vidalı söküp tak tren. Gövde, baca, kabin ve tekerlekler vidayla birleşiyor; tornavida sete dahil.
@@ -1310,13 +1212,13 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ---
 
-# 2026-11-02 · Pazartesi
+# 2026-10-31 · Cumartesi
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-29-vidali-yapim-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-29-vidali-yapim-tahtasi/1.jpg" width="240"></a>
 
-**[2026-10-29-vidali-yapim-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-29-vidali-yapim-tahtasi)** · 5 kare · hikaye 13:18
+**[2026-10-29-vidali-yapim-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-29-vidali-yapim-tahtasi)** · 5 kare · hikaye 13:00
 
 ```
 Vidalı yapım tahtası. Delikli tabla, L, T, V ve düz plakalar, vidalar ve çocuk eline uygun tornavida.
@@ -1338,13 +1240,13 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ---
 
-# 2026-11-03 · Salı
+# 2026-11-01 · Pazar
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-30-alyan-vida-oyuncagi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-30-alyan-vida-oyuncagi/1.jpg" width="240"></a>
 
-**[2026-10-30-alyan-vida-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-30-alyan-vida-oyuncagi)** · 4 kare · hikaye 13:18
+**[2026-10-30-alyan-vida-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-30-alyan-vida-oyuncagi)** · 4 kare · hikaye 13:00
 
 ```
 Alyan anahtarlı vida oyuncağı. Üç boy vida, üç alyan anahtarı ve renk halkalı bir tabla.
@@ -1368,7 +1270,7 @@ Vida çevirmeyi seven bir çocuk tanıyorsan bu gönderiyi ona yolla.
 
 ---
 
-# 2026-11-04 · Çarşamba
+# 2026-11-02 · Pazartesi
 
 ## 12:38 · BASKI ÜRÜNLERİ
 
@@ -1396,7 +1298,7 @@ Okul öncesi çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ---
 
-# 2026-11-05 · Perşembe
+# 2026-11-03 · Salı
 
 ## 12:38 · BASKI ÜRÜNLERİ
 
@@ -1424,7 +1326,7 @@ Okul öncesi çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ---
 
-# 2026-11-06 · Cuma
+# 2026-11-04 · Çarşamba
 
 ## 12:38 · BASKI ÜRÜNLERİ
 

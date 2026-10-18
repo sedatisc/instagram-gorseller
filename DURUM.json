@@ -347,6 +347,24 @@
       "slot": "proje",
       "konu": 15,
       "klasor": "2026-10-13-olcu-dogrulama"
+    },
+    {
+      "tarih": "2026-10-18",
+      "slot": "3dbaski",
+      "klasor": "2026-10-11-sunlu-pla-kartelasi",
+      "not": "Elle paylaşıldı"
+    },
+    {
+      "tarih": "2026-10-18",
+      "slot": "baski",
+      "klasor": "2026-10-14-atolyeden-cikanlar",
+      "not": "Elle paylaşıldı"
+    },
+    {
+      "tarih": "2026-10-18",
+      "slot": "urun",
+      "klasor": "2026-10-19-yazicilar",
+      "not": "Elle paylaşıldı"
     }
   ],
   "yayinlanmis_disarida": [
@@ -365,34 +383,19 @@
     "not": "Gunde 4 gonderi + 4 hikaye + 1 reels. Kayitlardaki 'gun' planin kacinci gunu (0 = ilk gun); takvim tarihi otomasyon/plan-durumu.json icindeki 'baslangic'a gore hesaplaniyor. Sabit tarih tutuluyordu ve yayinci kapaliyken her gun bir gun plan siliniyordu. Saat izgarasi sira.py icinde, liste YAYIN-LISTESI.md. Yayin: otomasyon/yayinla.py GitHub Actions'ta 20 dakikada bir bakiyor; depoda IG_USER_ID ve IG_TOKEN secret'lari yoksa hicbir sey yayinlanmaz (otomasyon/YAYIN-KURULUM.md). Ilk gercek yayinda plan o gune oturuyor. Metricool kotasi dolu, o yol kullanilmiyor.",
     "slotlar": [
       {
-        "slot": "3dbaski",
-        "klasor": "2026-10-11-sunlu-pla-kartelasi",
-        "gun": 0
-      },
-      {
-        "slot": "baski",
-        "klasor": "2026-10-14-atolyeden-cikanlar",
-        "gun": 0
-      },
-      {
         "slot": "proje",
         "klasor": "2026-10-11-musteriye-fiyat",
         "gun": 0
       },
       {
-        "slot": "urun",
-        "klasor": "2026-10-19-yazicilar",
-        "gun": 0
-      },
-      {
         "slot": "3dbaski",
         "klasor": "2026-10-12-yapisma-yuzeyleri",
-        "gun": 1
+        "gun": 0
       },
       {
         "slot": "baski",
         "klasor": "2026-10-22-geometrik-siralama",
-        "gun": 1
+        "gun": 0
       },
       {
         "slot": "proje",
@@ -407,12 +410,7 @@
       {
         "slot": "3dbaski",
         "klasor": "2026-10-21-filament-rehberi",
-        "gun": 2
-      },
-      {
-        "slot": "baski",
-        "klasor": "2026-10-16-vazo-koleksiyonu",
-        "gun": 2
+        "gun": 1
       },
       {
         "slot": "proje",
@@ -427,12 +425,12 @@
       {
         "slot": "3dbaski",
         "klasor": "2026-10-13-nozzle-capi",
-        "gun": 3
+        "gun": 2
       },
       {
         "slot": "baski",
         "klasor": "2026-10-17-masa-duzeni",
-        "gun": 3
+        "gun": 1
       },
       {
         "slot": "proje",
@@ -447,12 +445,12 @@
       {
         "slot": "3dbaski",
         "klasor": "2026-10-18-filament-kurutucu-pano",
-        "gun": 4
+        "gun": 3
       },
       {
         "slot": "baski",
         "klasor": "2026-10-18-aydinlatma",
-        "gun": 4
+        "gun": 3
       },
       {
         "slot": "proje",
@@ -467,7 +465,7 @@
       {
         "slot": "3dbaski",
         "klasor": "2026-10-18-bambu-h-serisi-pano",
-        "gun": 5
+        "gun": 4
       },
       {
         "slot": "baski",
@@ -487,12 +485,12 @@
       {
         "slot": "3dbaski",
         "klasor": "2026-10-19-bambu-a-serisi-pano",
-        "gun": 6
+        "gun": 5
       },
       {
         "slot": "baski",
         "klasor": "2026-10-20-makyaj-ve-taki",
-        "gun": 6
+        "gun": 7
       },
       {
         "slot": "proje",
@@ -507,12 +505,12 @@
       {
         "slot": "3dbaski",
         "klasor": "2026-10-18-sert-nozul",
-        "gun": 7
+        "gun": 6
       },
       {
         "slot": "baski",
         "klasor": "2026-10-21-hediyelik",
-        "gun": 7
+        "gun": 9
       },
       {
         "slot": "proje",
@@ -527,12 +525,12 @@
       {
         "slot": "3dbaski",
         "klasor": "2026-10-19-heat-set-insert",
-        "gun": 8
+        "gun": 7
       },
       {
         "slot": "baski",
         "klasor": "2026-10-23-sekil-cark-tahtasi",
-        "gun": 8
+        "gun": 2
       },
       {
         "slot": "proje",
@@ -547,12 +545,12 @@
       {
         "slot": "3dbaski",
         "klasor": "2026-10-16-sunlu-filament-pano",
-        "gun": 9
+        "gun": 8
       },
       {
         "slot": "baski",
         "klasor": "2026-10-24-cay-kahve-seti",
-        "gun": 9
+        "gun": 4
       },
       {
         "slot": "proje",
@@ -567,12 +565,12 @@
       {
         "slot": "3dbaski",
         "klasor": "2026-10-21-ams-israf",
-        "gun": 10
+        "gun": 9
       },
       {
         "slot": "baski",
         "klasor": "2026-10-25-aktivite-tahtasi",
-        "gun": 10
+        "gun": 6
       },
       {
         "slot": "proje",
@@ -587,42 +585,47 @@
       {
         "slot": "baski",
         "klasor": "2026-10-26-market-kasa-seti",
-        "gun": 11
+        "gun": 8
       },
       {
         "slot": "baski",
         "klasor": "2026-10-27-meyve-sebze-seti",
-        "gun": 12
+        "gun": 10
       },
       {
         "slot": "baski",
         "klasor": "2026-10-28-vidali-tren",
-        "gun": 13
+        "gun": 11
       },
       {
         "slot": "baski",
         "klasor": "2026-10-29-vidali-yapim-tahtasi",
-        "gun": 14
+        "gun": 12
       },
       {
         "slot": "baski",
         "klasor": "2026-10-30-alyan-vida-oyuncagi",
-        "gun": 15
+        "gun": 13
       },
       {
         "slot": "baski",
         "klasor": "2026-10-31-halka-dizme-kulesi",
-        "gun": 16
+        "gun": 14
       },
       {
         "slot": "baski",
         "klasor": "2026-11-01-rakam-yapbozu",
-        "gun": 17
+        "gun": 15
       },
       {
         "slot": "baski",
         "klasor": "2026-11-02-kesir-daireleri",
-        "gun": 18
+        "gun": 16
+      },
+      {
+        "slot": "urun",
+        "klasor": "2026-10-06-bambu-r1-lazer",
+        "gun": 0
       }
     ],
     "reels": [
@@ -670,6 +673,11 @@
     "beklemede": [
       {
         "klasor": "2026-10-15-saksi-koleksiyonu",
+        "slot": "baski",
+        "neden": "Yeni modeller gelince yeniden kurulacak"
+      },
+      {
+        "klasor": "2026-10-16-vazo-koleksiyonu",
         "slot": "baski",
         "neden": "Yeni modeller gelince yeniden kurulacak"
       }
