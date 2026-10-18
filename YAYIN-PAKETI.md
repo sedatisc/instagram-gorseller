@@ -1170,7 +1170,7 @@ Pi'sini kitap yığınına yaslayarak kullanan bir arkadaşın varsa ona yolla.
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-geometrik-siralama"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-22-geometrik-siralama/1.jpg" width="240"></a>
 
-**[2026-10-22-geometrik-siralama](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-geometrik-siralama)** · 4 kare · hikaye 18:04
+**[2026-10-22-geometrik-siralama](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-geometrik-siralama)** · 5 kare · hikaye 18:04
 
 ```
 Geometrik sıralama oyuncağı. Daire, kare ve üçgen; her şekil kendi çubuğuna geçiyor ve katmanlar büyükten küçüğe dizilince kule tamamlanıyor.
@@ -1240,5 +1240,145 @@ Bağlantı ilk yorumda.
 Evinde çay partisi kurulan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #egiticioyuncak #rolyapmaoyunu #cocukgelisimi #makerturkiye
+```
+
+---
+
+# 2026-11-01 · Pazar
+
+## 17:10 · ÜRÜN & MAĞAZA
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-25-aktivite-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-25-aktivite-tahtasi/1.jpg" width="240"></a>
+
+**[2026-10-25-aktivite-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-25-aktivite-tahtasi)** · 8 kare · hikaye 17:50
+
+```
+Aktivite tahtası. Altı ayrı oyun tek tablada: dönen dişliler, şekil eşleştirme, kaydırmalı halka, cırt cırt bantlar, saat ve vida-somun.
+
+Paneller puzzle gibi birbirine geçiyor. İstersen hepsini birleştirip tek tahta yaparsın, istersen tek paneli ayırıp çocuğa verirsin.
+
+Her panel ayrı bir beceriye çalışıyor » dişli ve halka el kontrolüne, şekil paneli eşleştirmeye, saat paneli zaman kavramına, vida ve cırt cırt parmak kaslarına.
+
+Cırt cırt bölümü özellikle işe yarıyor: bant açıp kapatmak ayakkabı ve mont öncesi en iyi alıştırma.
+
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+
+Bağlantı ilk yorumda.
+
+Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #aktivitetahtasi #egiticioyuncak #cocukgelisimi #makerturkiye
+```
+
+---
+
+# 2026-11-02 · Pazartesi
+
+## 17:24 · ÜRÜN & MAĞAZA
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-26-market-kasa-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-26-market-kasa-seti/1.jpg" width="240"></a>
+
+**[2026-10-26-market-kasa-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-26-market-kasa-seti)** · 4 kare · hikaye 18:04
+
+```
+Oyuncak market kasa seti. Çekmeceli yazarkasa, iki raflı market standı ve oyun parası bir arada.
+
+Kasanın rakam tuşları ve ürün tuşları var, çekmecesi açılıyor. Para çekmecenin içinde duruyor; alışveriş, ödeme ve para üstü gerçek sırayla işliyor.
+
+Rafa süt, meyve suyu, ekmek, kahve, mısır gevreği ve elma diziliyor. Çocuk önce rafı kuruyor, sonra müşteri oluyor, sonra kasiyer.
+
+Sayı saymayı, sıra beklemeyi ve alışveriş diyaloğunu aynı oyunda çalıştırıyor.
+
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+
+Bağlantı ilk yorumda.
+
+Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #oyuncakmarket #rolyapmaoyunu #egiticioyuncak #makerturkiye
+```
+
+---
+
+# 2026-11-03 · Salı
+
+## 17:24 · ÜRÜN & MAĞAZA
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-27-meyve-sebze-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-27-meyve-sebze-seti/1.jpg" width="240"></a>
+
+**[2026-10-27-meyve-sebze-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-27-meyve-sebze-seti)** · 4 kare · hikaye 18:04
+
+```
+Oyuncak meyve ve sebze seti. Elma, armut, muz, domates, havuç, patlıcan, biber, pırasa ve sarımsak; hepsi ahşap görünümlü sandığıyla birlikte.
+
+Sandık da sete dahil. Oyun bitince meyveler içine toplanıyor, odanın ortasında dağınık kalmıyor.
+
+Sandığın ahşap dokusu baskıyla veriliyor » kıymık yok, çivi yok, tek parça.
+
+Manav oyunu, mutfak oyunu, renk ve besin tanıma; aynı setle üçü birden.
+
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+
+Bağlantı ilk yorumda.
+
+Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #oyuncakmeyve #manavoyunu #egiticioyuncak #makerturkiye
+```
+
+---
+
+# 2026-11-04 · Çarşamba
+
+## 17:24 · ÜRÜN & MAĞAZA
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-28-vidali-tren"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-28-vidali-tren/1.jpg" width="240"></a>
+
+**[2026-10-28-vidali-tren](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-28-vidali-tren)** · 4 kare · hikaye 18:04
+
+```
+Vidalı söküp tak tren. Gövde, baca, kabin ve tekerlekler vidayla birleşiyor; tornavida sete dahil.
+
+Vidaların başı iri, çocuk eli rahat çeviriyor. Bir kere kurduktan sonra iş bitmiyor: söküp baştan kurmak oyunun kendisi.
+
+Parçalar birbirine geçtiği için her seferinde aynı treni kurmak zorunda da değil; blokları değiştirip kendi aracını yapıyor.
+
+Tornavida çevirmek bilek dönüşünü ve parmak kaslarını çalıştırıyor; kalem tutmaya hazırlık sayılır.
+
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+
+Bağlantı ilk yorumda.
+
+Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #soktaoyuncak #vidalioyuncak #egiticioyuncak #makerturkiye
+```
+
+---
+
+# 2026-11-05 · Perşembe
+
+## 17:24 · ÜRÜN & MAĞAZA
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-29-vidali-yapim-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-29-vidali-yapim-tahtasi/1.jpg" width="240"></a>
+
+**[2026-10-29-vidali-yapim-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-29-vidali-yapim-tahtasi)** · 5 kare · hikaye 18:04
+
+```
+Vidalı yapım tahtası. Delikli tabla, L, T, V ve düz plakalar, vidalar ve çocuk eline uygun tornavida.
+
+Üç adımda oynanıyor » plakayı seç, vidayı deliğinden geçir, tornavidayla sık. Sonra sök, başka bir şekil kur.
+
+Aynı parçalardan her seferinde başka bir tasarım çıkıyor. Bitmiş bir oyuncak değil, kurulacak bir oyuncak.
+
+Vida çevirmek el-göz koordinasyonunu ve parmak gücünü çalıştırıyor; tasarımı kendi kurmak da planlama tarafını.
+
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+
+Bağlantı ilk yorumda.
+
+Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #vidalioyuncak #yapimseti #egiticioyuncak #makerturkiye
 ```
 

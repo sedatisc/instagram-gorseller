@@ -1,0 +1,116 @@
+{
+  "sablon": "ilan",
+  "renk": "mavi",
+  "marka": "",
+  "ust": "Eğitici oyuncak",
+  "model": "Aktivite Tahtası",
+  "rozet": "Altı oyun bir arada",
+  "iddia": "Altı oyun, tek tahtada.",
+  "spot": "Dişli, şekil, saat, vida, cırt cırt ve kaydırma. Her panel ayrı bir beceriye çalışıyor, paneller puzzle gibi birbirine geçiyor.",
+  "ozellikler": [
+    [
+      "disli",
+      "Altı Aktivite",
+      "Tek tahtada"
+    ],
+    [
+      "sekil",
+      "Puzzle Panel",
+      "Birbirine geçer"
+    ],
+    [
+      "el",
+      "El Becerisi",
+      "Motor gelişim"
+    ]
+  ],
+  "guven": [
+    [
+      "kalkan",
+      "Güvenli PLA",
+      "malzeme"
+    ],
+    [
+      "kurulum",
+      "Kendi atölyemizde",
+      "üretildi"
+    ],
+    [
+      "kargo",
+      "Samsun'dan",
+      "kargo"
+    ],
+    [
+      "kart",
+      "Faturalı",
+      "satış"
+    ]
+  ],
+  "cagri": "sermenkreatif.com'da",
+  "kapak_foto": "urun/foto/tahta-tam.jpg",
+  "gorsel": "urun/foto/tahta-tam.jpg",
+  "satis": [
+    [
+      "sermenkreatif.com",
+      ""
+    ],
+    [
+      "Trendyol",
+      "marka/trendyol.png"
+    ]
+  ],
+  "dip_sag": "sermenkreatif.com · Trendyol",
+  "slaytlar": [
+    {
+      "foto": "urun/foto/tahta-disli.jpg",
+      "baslik": "Dönen |dişliler",
+      "metin": "Bir dişliyi çevirince komşusu da dönüyor; dişli mantığı anlatılmadan, oynanarak anlaşılıyor."
+    },
+    {
+      "foto": "urun/foto/tahta-sekil.jpg",
+      "baslik": "Şekil |eşleştirme",
+      "metin": "Kare, daire, üçgen ve yıldız kendi yuvasına oturuyor. Yanlış parça yerine girmiyor."
+    },
+    {
+      "foto": "urun/foto/tahta-halka.jpg",
+      "baslik": "Kaydırmalı |halka",
+      "metin": "Boncuklar kanal boyunca kayıyor. Parmak ucu kanalı takip ederken el kontrolü gelişiyor."
+    },
+    {
+      "foto": "urun/foto/tahta-cirt.jpg",
+      "baslik": "Cırt cırt |bantlar",
+      "metin": "Bantları açıp kapatmak giyinme becerisinin provası; ayakkabı ve mont öncesi iyi bir alıştırma."
+    },
+    {
+      "foto": "urun/foto/tahta-saat.jpg",
+      "baslik": "Saat |öğrenme",
+      "metin": "Akrep ve yelkovan elle çevriliyor. Saat kavramı soyut kalmadan, parmakla gösterilerek anlatılıyor."
+    },
+    {
+      "foto": "urun/foto/tahta-vida.jpg",
+      "baslik": "Vida ve |somun",
+      "metin": "Somunlar çevrilerek takılıp sökülüyor; parmak kasları ve bilek dönüşü çalışıyor."
+    }
+  ],
+  "kapanis": {
+    "satir1": "Tahtada ne var?",
+    "satirlar": [
+      [
+        "DİŞLİ & HALKA",
+        "çevirme ve kaydırma ile el kontrolü"
+      ],
+      [
+        "ŞEKİL",
+        "kare, daire, üçgen ve yıldız yuvaları"
+      ],
+      [
+        "SAAT",
+        "akrep ve yelkovanı çevirerek saati tanıma"
+      ],
+      [
+        "VİDA & CIRT",
+        "somun çevirme, bant açıp kapatma"
+      ]
+    ]
+  }
+}

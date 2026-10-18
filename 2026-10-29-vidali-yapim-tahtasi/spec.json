@@ -1,0 +1,101 @@
+{
+  "sablon": "ilan",
+  "renk": "turuncu",
+  "marka": "",
+  "ust": "Eğitici oyuncak",
+  "model": "Vidalı Yapım Tahtası",
+  "rozet": "Tornavidalı sök-tak",
+  "iddia": "Plakayı seç, vidayla sabitle.",
+  "spot": "Delikli tabla; L, T, V ve düz plakalar; vidalar ve çocuk eline uygun tornavida. Her seferinde başka bir şekil kuruluyor.",
+  "ozellikler": [
+    [
+      "kurulum",
+      "Vidala & Sök",
+      "El becerisi"
+    ],
+    [
+      "sekil",
+      "Tasarla & Kur",
+      "Yaratıcılık"
+    ],
+    [
+      "istif",
+      "Tornavida",
+      "Sete dahil"
+    ]
+  ],
+  "guven": [
+    [
+      "kalkan",
+      "Güvenli PLA",
+      "malzeme"
+    ],
+    [
+      "kurulum",
+      "Kendi atölyemizde",
+      "üretildi"
+    ],
+    [
+      "kargo",
+      "Samsun'dan",
+      "kargo"
+    ],
+    [
+      "kart",
+      "Faturalı",
+      "satış"
+    ]
+  ],
+  "cagri": "sermenkreatif.com'da",
+  "kapak_foto": "urun/foto/yapim-tahta.jpg",
+  "gorsel": "urun/foto/yapim-tahta.jpg",
+  "satis": [
+    [
+      "sermenkreatif.com",
+      ""
+    ],
+    [
+      "Trendyol",
+      "marka/trendyol.png"
+    ]
+  ],
+  "dip_sag": "sermenkreatif.com · Trendyol",
+  "slaytlar": [
+    {
+      "foto": "urun/foto/yapim-plakalar.jpg",
+      "baslik": "Farklı şekilli |plakalar",
+      "metin": "L, T, V ve düz plakalarla her seferinde yeni bir şekil kuruluyor. Aynı parçalardan başka bir tasarım çıkıyor."
+    },
+    {
+      "foto": "urun/foto/yapim-vidala.jpg",
+      "baslik": "Tornavidayla |vidala",
+      "metin": "Vida plakanın deliğinden geçiyor, tornavidayla çevrilerek tablaya sabitleniyor."
+    },
+    {
+      "foto": "urun/foto/yapim-parcalar.jpg",
+      "baslik": "Tüm parçalar |ve tornavida",
+      "metin": "Delikli tabla, renkli plakalar, vidalar ve çocuk eline uygun tornavida; hepsi sette."
+    }
+  ],
+  "kapanis": {
+    "satir1": "Nasıl oynanır?",
+    "satirlar": [
+      [
+        "1 · PLAKAYI SEÇ",
+        "L, T, V ya da düz plakalardan birini al"
+      ],
+      [
+        "2 · VİDAYI GEÇİR",
+        "vidayı plakanın deliğinden tablaya oturt"
+      ],
+      [
+        "3 · SIK",
+        "tornavidayla çevir, sabitle"
+      ],
+      [
+        "4 · YENİDEN KUR",
+        "sök, başka bir şekil kur"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "sablon": "ilan",
+  "renk": "mor",
+  "marka": "",
+  "ust": "Eğitici oyuncak",
+  "model": "Söküp Tak Tren",
+  "rozet": "Tornavidalı",
+  "iddia": "Sök, yeniden kur.",
+  "spot": "Gövde, baca, kabin ve tekerlekler vidayla birleşiyor. Tornavida sete dahil.",
+  "ozellikler": [
+    [
+      "kurulum",
+      "Söküp Tak",
+      "Vidalı montaj"
+    ],
+    [
+      "el",
+      "El Becerisi",
+      "Motor gelişim"
+    ],
+    [
+      "istif",
+      "Tornavida",
+      "Sete dahil"
+    ]
+  ],
+  "guven": [
+    [
+      "kalkan",
+      "Güvenli PLA",
+      "malzeme"
+    ],
+    [
+      "kurulum",
+      "Kendi atölyemizde",
+      "üretildi"
+    ],
+    [
+      "kargo",
+      "Samsun'dan",
+      "kargo"
+    ],
+    [
+      "kart",
+      "Faturalı",
+      "satış"
+    ]
+  ],
+  "cagri": "sermenkreatif.com'da",
+  "kapak_foto": "urun/foto/tren-set.jpg",
+  "gorsel": "urun/foto/tren-set.jpg",
+  "satis": [
+    [
+      "sermenkreatif.com",
+      ""
+    ],
+    [
+      "Trendyol",
+      "marka/trendyol.png"
+    ]
+  ],
+  "dip_sag": "sermenkreatif.com · Trendyol",
+  "slaytlar": [
+    {
+      "foto": "urun/foto/tren-montaj.jpg",
+      "baslik": "Kolay söküp tak |vidalı montaj",
+      "metin": "Tekerlekler ve gövde parçaları iri başlı vidalarla tutuyor. Çocuk eli rahat çeviriyor."
+    },
+    {
+      "foto": "urun/foto/tren-parcalar.jpg",
+      "baslik": "Tüm parçalar |ve tornavida",
+      "metin": "Gövde blokları, bacalar, tekerlekler, vidalar ve tornavida; hepsi sette."
+    }
+  ],
+  "kapanis": {
+    "satir1": "Sette ne var?",
+    "satirlar": [
+      [
+        "GÖVDE",
+        "lokomotif blokları ve vagon"
+      ],
+      [
+        "TEKERLEK",
+        "vidayla takılan dört tekerlek"
+      ],
+      [
+        "VİDA",
+        "çocuk eline uygun iri başlı vidalar"
+      ],
+      [
+        "TORNAVİDA",
+        "sete dahil"
+      ]
+    ]
+  }
+}

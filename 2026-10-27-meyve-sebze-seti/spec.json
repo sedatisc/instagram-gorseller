@@ -1,0 +1,96 @@
+{
+  "sablon": "ilan",
+  "renk": "kirmizi",
+  "marka": "",
+  "ust": "Eğitici oyuncak",
+  "model": "Meyve ve Sebze Seti",
+  "rozet": "Sandık dahil",
+  "iddia": "Manav sandığı dolu geliyor.",
+  "spot": "Domates, muz, armut, elma, havuç, patlıcan, biber, pırasa ve sarımsak; hepsi ahşap görünümlü sandığıyla birlikte.",
+  "ozellikler": [
+    [
+      "el",
+      "Rol Yapma",
+      "Market / manav oyunu"
+    ],
+    [
+      "renk",
+      "Renk ve Besin",
+      "Tanıma"
+    ],
+    [
+      "istif",
+      "Sandık",
+      "Sete dahil"
+    ]
+  ],
+  "guven": [
+    [
+      "kalkan",
+      "Güvenli PLA",
+      "malzeme"
+    ],
+    [
+      "kurulum",
+      "Kendi atölyemizde",
+      "üretildi"
+    ],
+    [
+      "kargo",
+      "Samsun'dan",
+      "kargo"
+    ],
+    [
+      "kart",
+      "Faturalı",
+      "satış"
+    ]
+  ],
+  "cagri": "sermenkreatif.com'da",
+  "kapak_foto": "urun/foto/meyve-set.jpg",
+  "gorsel": "urun/foto/meyve-set.jpg",
+  "satis": [
+    [
+      "sermenkreatif.com",
+      ""
+    ],
+    [
+      "Trendyol",
+      "marka/trendyol.png"
+    ]
+  ],
+  "dip_sag": "sermenkreatif.com · Trendyol",
+  "slaytlar": [
+    {
+      "foto": "urun/foto/meyve-sandik.jpg",
+      "baslik": "Ahşap görünümlü |sandık",
+      "metin": "Sandık da sete dahil. Oyun bitince meyveler içine toplanıyor, ortada dağınık kalmıyor."
+    },
+    {
+      "foto": "urun/foto/meyve-sandik-ic.jpg",
+      "baslik": "Dayanıklı |3D baskı",
+      "metin": "Sandığın ahşap dokusu baskıyla veriliyor; kıymık yok, çivi yok, tek parça."
+    }
+  ],
+  "kapanis": {
+    "satir1": "Sette ne var?",
+    "satirlar": [
+      [
+        "MEYVE",
+        "elma, armut, muz"
+      ],
+      [
+        "SEBZE",
+        "domates, havuç, patlıcan, biber, pırasa, sarımsak"
+      ],
+      [
+        "SANDIK",
+        "ahşap görünümlü taşıma sandığı"
+      ],
+      [
+        "OYUN",
+        "manav, market ve mutfak oyunu"
+      ]
+    ]
+  }
+}

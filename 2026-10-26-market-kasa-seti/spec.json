@@ -1,0 +1,96 @@
+{
+  "sablon": "ilan",
+  "renk": "yesil",
+  "marka": "",
+  "ust": "Eğitici oyuncak",
+  "model": "Market Kasa Seti",
+  "rozet": "Tam set",
+  "iddia": "Kasa, raf ve para bir arada.",
+  "spot": "Çekmeceli yazarkasa, iki raflı market standı ve oyun parası. Market oyununun tamamı tek sette kuruluyor.",
+  "ozellikler": [
+    [
+      "kart",
+      "Yazarkasa",
+      "Çekmeceli"
+    ],
+    [
+      "el",
+      "Rol Yapma",
+      "Market oyunu"
+    ],
+    [
+      "istif",
+      "Oyun Parası",
+      "Kağıt · madeni · kart"
+    ]
+  ],
+  "guven": [
+    [
+      "kalkan",
+      "Güvenli PLA",
+      "malzeme"
+    ],
+    [
+      "kurulum",
+      "Kendi atölyemizde",
+      "üretildi"
+    ],
+    [
+      "kargo",
+      "Samsun'dan",
+      "kargo"
+    ],
+    [
+      "kart",
+      "Faturalı",
+      "satış"
+    ]
+  ],
+  "cagri": "sermenkreatif.com'da",
+  "kapak_foto": "urun/foto/kasa-set.jpg",
+  "gorsel": "urun/foto/kasa-set.jpg",
+  "satis": [
+    [
+      "sermenkreatif.com",
+      ""
+    ],
+    [
+      "Trendyol",
+      "marka/trendyol.png"
+    ]
+  ],
+  "dip_sag": "sermenkreatif.com · Trendyol",
+  "slaytlar": [
+    {
+      "foto": "urun/foto/kasa-yazarkasa.jpg",
+      "baslik": "Çekmeceli |yazarkasa",
+      "metin": "Rakam tuşları, ürün tuşları ve açılır çekmece. Para çekmecenin içinde duruyor, alışveriş gerçek gibi işliyor."
+    },
+    {
+      "foto": "urun/foto/kasa-raf.jpg",
+      "baslik": "Market rafı |ve ürünler",
+      "metin": "İki raflı stand; süt, meyve suyu, ekmek, kahve, mısır gevreği ve elma rafa diziliyor."
+    }
+  ],
+  "kapanis": {
+    "satir1": "Sette ne var?",
+    "satirlar": [
+      [
+        "YAZARKASA",
+        "çekmeceli, tuşlu kasa"
+      ],
+      [
+        "RAF",
+        "iki raflı market standı"
+      ],
+      [
+        "ÜRÜNLER",
+        "süt, meyve suyu, ekmek, kahve, gevrek, elma"
+      ],
+      [
+        "PARA",
+        "kağıt para, madeni para ve kart"
+      ]
+    ]
+  }
+}
