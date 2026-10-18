@@ -249,6 +249,17 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 19:36 | **Reels** | — | _boş — üretilecek_ | — |
 | 20:42 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
 
+## 2026-11-06 · Cuma
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 08:12 | — | **AYAR & REHBER** | _boş — üretilecek_ | — |
+| 12:38 | — | **BASKI ÜRÜNLERİ** | _boş — üretilecek_ | — |
+| 16:40 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-30-alyan-vida-oyuncagi` | 4 |
+| 17:20 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-30-alyan-vida-oyuncagi/hikaye.jpg` | 1 |
+| 18:10 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
+| 20:30 | **Reels** | — | _boş — üretilecek_ | — |
+
 ## Boş slotlar
 
 Bu slotlar için içerik henüz üretilmedi:
@@ -289,3 +300,7 @@ Bu slotlar için içerik henüz üretilmedi:
 - 2026-11-05 · BASKI ÜRÜNLERİ
 - 2026-11-05 · PROJE & ATÖLYE
 - 2026-11-05 · REELS
+- 2026-11-06 · AYAR & REHBER
+- 2026-11-06 · BASKI ÜRÜNLERİ
+- 2026-11-06 · PROJE & ATÖLYE
+- 2026-11-06 · REELS

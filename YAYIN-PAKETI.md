@@ -1382,3 +1382,33 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 #sermenkreatif #3dbaski #vidalioyuncak #yapimseti #egiticioyuncak #makerturkiye
 ```
 
+---
+
+# 2026-11-06 · Cuma
+
+## 16:40 · ÜRÜN & MAĞAZA
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-30-alyan-vida-oyuncagi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-30-alyan-vida-oyuncagi/1.jpg" width="240"></a>
+
+**[2026-10-30-alyan-vida-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-30-alyan-vida-oyuncagi)** · 4 kare · hikaye 17:20
+
+```
+Alyan anahtarlı vida oyuncağı. Üç boy vida, üç alyan anahtarı ve renk halkalı bir tabla.
+
+Her vidanın kendi boyu ve kendi rengi var » kırmızı büyük, mavi orta, sarı küçük. Tablada da her deliğin etrafında aynı renkte bir halka duruyor.
+
+Çocuk önce vidayı seçiyor, sonra ona ait halkayı buluyor, sonra aynı renk anahtarla sıkıyor. Üç ayrı karar, tek harekette.
+
+Alyan çevirmek bilek dönüşünü ve parmak gücünü çalıştırıyor; renk ve boy eşleştirmesi de sınıflandırma becerisini.
+
+Söküp baştan kurmak oyunun kendisi, bir kere bitip kalmıyor.
+
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+
+Bağlantı ilk yorumda.
+
+Vida çevirmeyi seven bir çocuk tanıyorsan bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #alyanvida #vidalioyuncak #egiticioyuncak #makerturkiye
+```
+
