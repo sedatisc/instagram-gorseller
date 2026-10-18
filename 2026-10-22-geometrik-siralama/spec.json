@@ -51,6 +51,11 @@
   "gorsel": "urun/foto/siralama-parcalar.jpg",
   "slaytlar": [
     {
+      "foto": "urun/foto/siralama-takim.jpg",
+      "baslik": "Takımın |tamamı",
+      "metin": "Daire, kare, üçgen ve dikdörtgen; her şekilden dört katman. Hepsi aynı kutudan çıkıyor."
+    },
+    {
       "foto": "urun/foto/siralama-kuleler.jpg",
       "baslik": "Üç kuleyi |boyuta göre diz",
       "metin": "Her şekil kendi çubuğuna geçiyor. Katmanlar büyükten küçüğe dizilince kule tamamlanıyor."
@@ -78,5 +83,16 @@
         "parmak ucuyla keşfetmeyi sevene"
       ]
     ]
-  }
+  },
+  "satis": [
+    [
+      "sermenkreatif.com",
+      ""
+    ],
+    [
+      "Trendyol",
+      "marka/trendyol.png"
+    ]
+  ],
+  "dip_sag": "sermenkreatif.com · Trendyol"
 }

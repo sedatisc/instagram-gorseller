@@ -228,9 +228,11 @@ STIL = """
 .sahne{position:relative;height:100%;display:flex;
   align-items:center;justify-content:center}
 .foto-kapak .govde{grid-template-columns:.96fr 1fr}
-.sahne.foto{border-radius:24px;overflow:hidden;background:#fff;
+.sahne.foto{align-self:center;width:100%;max-height:100%;
+  border-radius:24px;overflow:hidden;background:#fff;
   box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
-.sahne.foto img{width:100%;height:100%;object-fit:cover;filter:none}
+.sahne.foto img{width:100%;height:100%;object-fit:cover;
+  filter:none}
 .sahne img{width:100%;height:100%;object-fit:contain;
   filter:drop-shadow(0 26px 30px rgba(16,22,38,.18))}
 
@@ -246,6 +248,30 @@ STIL = """
 .dip{flex:0 0 auto;display:flex;align-items:center;
   justify-content:space-between;font-family:Mono;font-size:23px;
   color:#5a6678;padding:18px 0 24px}
+
+/* Yığılmış fotoğraf kapağı: yatay fotoğrafta iki sütun dar kalıyor,
+   fotoğraf üstte tam genişlikte duruyor. */
+.yigin .govde{display:flex;flex-direction:column;gap:0;padding:14px 0 0}
+.yigin .vitrin{flex:1 1 auto;min-height:380px;width:auto;
+  max-width:100%;align-self:center;border-radius:24px;
+  overflow:hidden;background:#fff;
+  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
+.yigin .vitrin img{width:100%;height:100%;object-fit:cover;
+  display:block}
+.yigin .soz{flex:0 0 auto;justify-content:flex-start;gap:0;
+  padding:20px 0 2px}
+.yigin .soz h1{margin-top:2px}
+.yigin .soz h2{margin-top:18px}
+.yigin .soz p{margin-top:12px}
+
+/* satış noktaları */
+.satis{display:flex;align-items:center;gap:14px;margin-top:18px}
+.satis span{display:inline-flex;align-items:center;gap:10px;
+  background:#fff;border-radius:999px;padding:12px 22px;font-weight:600;
+  font-size:26px;color:#2a3344;
+  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.07)}
+.satis img{height:30px;width:auto;display:block}
+.koyu .satis span{background:#1b2440;color:#fff;box-shadow:none}
 
 /* fotoğraf slaytı */
 .kare{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
@@ -326,37 +352,80 @@ def _h1_punto(ad):
     return 72
 
 
+def _oran(yol):
+    """Fotoğrafın en/boy oranı; kapak düzenini bu seçiyor."""
+    if not yol:
+        return None
+    tam = yol if os.path.isabs(yol) else os.path.join(KOK, "gorsel", yol)
+    if not os.path.exists(tam):
+        return None
+    from PIL import Image
+    w, h = Image.open(tam).size
+    return w / float(h)
+
+
+def _satis(spec):
+    """Satış noktası çipleri: site ve pazaryeri.
+
+    Pazaryeri logosu gorsel/marka/ altına konunca kullanılıyor; yoksa
+    adı dizgiyle yazılıyor (logoyu kendimiz çizmiyoruz)."""
+    ciz = []
+    for ad, logo in spec.get("satis", [["sermenkreatif.com", ""]]):
+        uri = _gorsel(logo, kesik=False) if logo else None
+        ciz.append('<span>%s%s</span>'
+                   % (('<img src="%s" alt="">' % uri) if uri else "",
+                      E(ad)))
+    return '<div class="satis">%s</div>' % "".join(ciz) if ciz else ""
+
+
+def _dip(spec):
+    sag = spec.get("dip_sag") or "sermenkreatif.com"
+    return ('<div class="dip"><span>@sermenkreatif</span>'
+            '<span>%s</span></div>' % E(sag))
+
+
 def ilan(spec, cikti):
     vr, kilit, ozl, guven, iddia = _parcalar(spec)
-    # Sahne manzarası olan ürünlerde kesim çıkmıyor: fotoğraf
-    # yuvarlak köşeli kartta duruyor.
     foto = bool(spec.get("kapak_foto"))
     uri = (_gorsel(spec["kapak_foto"], kesik=False) if foto
            else _gorsel(spec.get("gorsel")))
+    # Dikey fotoğraf sağ sütuna oturuyor; yatay fotoğraf o sütunda
+    # küçük kalıyordu, onu tam genişlikte üste alıyoruz. İki düzende
+    # de object-fit contain: kadrajdan hiçbir şey kesilmiyor.
+    oran = _oran(spec.get("kapak_foto")) if foto else None
+    yigin = bool(oran and oran > 0.95)
+    sinif = (" foto-kapak" if foto else "") + (" yigin" if yigin else "")
+    im = ('<img src="%s" alt="">' % uri) if uri else ""
+    soz = ('<div class="soz">'
+           '<div class="g"><span class="ust">%s</span><h1>%s</h1>%s</div>'
+           '<div class="g"><h2>%s</h2>%s</div></div>'
+           % (E(spec.get("ust") or spec.get("marka", "")),
+              E(spec.get("model", "")),
+              ('<span class="rozet">%s</span>' % E(spec["rozet"]))
+              if spec.get("rozet") else "",
+              iddia,
+              ("" if yigin else
+               ('<p>%s</p>' % E(spec["spot"])) if spec.get("spot")
+               else "")))
+    if yigin:
+        # Kutu fotoğrafın oranını alıyor: sabit kutuda kenarlar kesiliyordu.
+        govde_ic = ('<div class="vitrin" style="aspect-ratio:%s">%s</div>%s'
+                    % (("%.4f" % oran), im, soz))
+    else:
+        if foto:
+            govde_ic = ('%s<div class="sahne foto" '
+                        'style="aspect-ratio:%s">%s</div>'
+                        % (soz, "%.4f" % oran, im))
+        else:
+            govde_ic = '%s<div class="sahne">%s</div>' % (soz, im)
     govde = (
         '<div class="ic%s" style="--vr:%s;--h1:%dpx">%s'
-        '<div class="govde"><div class="soz">'
-        '<div class="g"><span class="ust">%s</span>'
-        '<h1>%s</h1>%s</div>'
-        '<div class="g"><h2>%s</h2>%s</div></div>'
-        '<div class="sahne%s">%s</div></div>'
+        '<div class="govde">%s</div>'
         '<div class="alt">%s<span class="dugme">%s</span></div>'
-        '<div class="guven">%s</div>'
-        '<div class="dip"><span>@sermenkreatif</span>'
-        '<span>sermenkreatif.com</span></div></div>'
-        % (" foto-kapak" if foto else "", vr,
-           _h1_punto(spec.get("model", "")), kilit,
-           E(spec.get("ust") or spec.get("marka", "")),
-           E(spec.get("model", "")),
-           ('<span class="rozet">%s</span>' % E(spec["rozet"]))
-           if spec.get("rozet") else "",
-           iddia,
-           ('<p>%s</p>' % E(spec["spot"])) if spec.get("spot") else "",
-           " foto" if foto else "",
-           ('<img src="%s" alt="">' % uri) if uri else "",
+        '<div class="guven">%s</div>%s</div>'
+        % (sinif, vr, _h1_punto(spec.get("model", "")), kilit, govde_ic,
            ('<div class="ozellik">%s</div>' % ozl) if ozl else "",
-           E(spec.get("cagri", "sermenkreatif.com'da")),
-           guven))
+           E(spec.get("cagri", "sermenkreatif.com'da")), guven, _dip(spec)))
     S.bas(S.sayfa(govde, W, H, STIL), cikti, W, H)
 
 
@@ -364,18 +433,20 @@ def slayt(spec, s, cikti):
     """Tek fotoğraflık ara kare: görsel büyük, altında iki satır."""
     vr, kilit, _ozl, _guven, _iddia = _parcalar(spec)
     uri = _gorsel(s.get("foto"), kesik=False)
+    oran = _oran(s.get("foto"))
     bas = E(s.get("baslik", ""))
     if "|" in bas:
         a, b = bas.split("|", 1)
         bas = "%s<i>%s</i>" % (a, b)
     govde = (
         '<div class="ic" style="--vr:%s">%s'
-        '<div class="kare"><div class="cerceve">%s</div>'
-        '<div class="yazi"><b>%s</b>%s</div></div>'
-        '<div class="dip"><span>@sermenkreatif</span>'
-        '<span>sermenkreatif.com</span></div></div>'
-        % (vr, kilit, ('<img src="%s" alt="">' % uri) if uri else "", bas,
-           ('<span>%s</span>' % E(s["metin"])) if s.get("metin") else ""))
+        '<div class="kare"><div class="cerceve"%s>%s</div>'
+        '<div class="yazi"><b>%s</b>%s</div></div>%s</div>'
+        % (vr, kilit,
+           (' style="aspect-ratio:%.4f"' % oran) if oran else "",
+           ('<img src="%s" alt="">' % uri) if uri else "", bas,
+           ('<span>%s</span>' % E(s["metin"])) if s.get("metin") else "",
+           _dip(spec)))
     S.bas(S.sayfa(govde, W, H, STIL), cikti, W, H)
 
 
@@ -389,13 +460,12 @@ def kapanis(spec, cikti):
     govde = (
         '<div class="ic kapanis" style="--vr:%s">%s<h1>%s</h1>'
         '<div class="liste">%s</div>'
-        '<span class="dugme">%s</span>'
-        '<div class="dip"><span>@sermenkreatif</span>'
-        '<span>sermenkreatif.com</span></div></div>'
+        '<span class="dugme">%s</span>%s%s</div>'
         % (vr, kilit, bas,
            "".join('<div><b>%s</b><span>%s</span></div>' % (E(BUY(a)), E(b))
                    for a, b in k.get("satirlar", [])[:4]),
-           E(spec.get("cagri", "sermenkreatif.com\'da"))))
+           E(spec.get("cagri", "sermenkreatif.com\'da")),
+           _satis(spec), _dip(spec)))
     S.bas(S.sayfa(govde, W, H, STIL, sinif="koyu"), cikti, W, H)
 
 
@@ -424,8 +494,7 @@ def hikaye(spec, cikti):
         '<span class="ust">%s</span><h1>%s</h1>%s<h2>%s</h2>%s</div>'
         '<div class="sahne%s">%s</div></div>'
         '<div class="guven">%s</div>'
-        '<div class="dip" style="padding-bottom:190px">'
-        '<span>@sermenkreatif</span><span>sermenkreatif.com</span></div></div>'
+        '%s</div>'
         % (vr, int(_h1_punto(spec.get("model", "")) * 1.12), kilit,
            E(spec.get("ust") or spec.get("marka", "")),
            E(spec.get("model", "")),
@@ -434,7 +503,9 @@ def hikaye(spec, cikti):
            iddia,
            ('<p>%s</p>' % E(spec["spot"])) if spec.get("spot") else "",
            " foto" if foto else "",
-           ('<img src="%s" alt="">' % uri) if uri else "", guven))
+           ('<img src="%s" alt="">' % uri) if uri else "", guven,
+           _dip(spec).replace('class="dip"',
+                              'class="dip" style="padding-bottom:190px"')))
     S.bas(S.sayfa(govde, SW, SH, STIL), cikti, SW, SH, kalite=92)
 
 

@@ -47,18 +47,18 @@
     ]
   ],
   "cagri": "sermenkreatif.com'da",
-  "kapak_foto": "urun/foto/cark-set.jpg",
-  "gorsel": "urun/foto/cark-set.jpg",
+  "kapak_foto": "urun/foto/cark-donen.jpg",
+  "gorsel": "urun/foto/cark-donen.jpg",
   "slaytlar": [
+    {
+      "foto": "urun/foto/cark-set.jpg",
+      "baslik": "Tahtanın |tamamı",
+      "metin": "Dört şekil sütunu, iki çark ve renkli katmanlar bir tablanın üstünde."
+    },
     {
       "foto": "urun/foto/cark-eslestirme.jpg",
       "baslik": "Her şekil |kendi yerine",
       "metin": "Tahtanın üstündeki oyuklar parçaların şekline göre açılmış. Yanlış parça yerine oturmuyor."
-    },
-    {
-      "foto": "urun/foto/cark-donen.jpg",
-      "baslik": "Çarklar |birbirini çeviriyor",
-      "metin": "Bir çarkı döndürünce komşusu da dönüyor; dişli mantığı oyunun içinde öğreniliyor."
     }
   ],
   "kapanis": {
@@ -78,5 +78,16 @@
         "her katman ayrı renk, eşleştirme için"
       ]
     ]
-  }
+  },
+  "satis": [
+    [
+      "sermenkreatif.com",
+      ""
+    ],
+    [
+      "Trendyol",
+      "marka/trendyol.png"
+    ]
+  ],
+  "dip_sag": "sermenkreatif.com · Trendyol"
 }

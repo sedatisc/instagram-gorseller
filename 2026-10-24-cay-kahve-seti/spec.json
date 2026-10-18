@@ -47,13 +47,13 @@
     ]
   ],
   "cagri": "sermenkreatif.com'da",
-  "kapak_foto": "urun/foto/cay-seti.jpg",
-  "gorsel": "urun/foto/cay-seti.jpg",
+  "kapak_foto": "urun/foto/cay-istif.jpg",
+  "gorsel": "urun/foto/cay-istif.jpg",
   "slaytlar": [
     {
-      "foto": "urun/foto/cay-istif.jpg",
-      "baslik": "Hepsi |üst üste",
-      "metin": "Fincanlar birbirine geçiyor, tabaklar altta istif oluyor. Toplanması oyunun parçası."
+      "foto": "urun/foto/cay-seti.jpg",
+      "baslik": "Altı fincan, |altı tabak",
+      "metin": "Her fincanın kendi tabağı var. Sofra kurulduğunda altı kişilik takım çıkıyor."
     },
     {
       "foto": "urun/foto/cay-latte.jpg",
@@ -78,5 +78,16 @@
         "çay partisi ve sofra kurma"
       ]
     ]
-  }
+  },
+  "satis": [
+    [
+      "sermenkreatif.com",
+      ""
+    ],
+    [
+      "Trendyol",
+      "marka/trendyol.png"
+    ]
+  ],
+  "dip_sag": "sermenkreatif.com · Trendyol"
 }
