@@ -1,0 +1,82 @@
+{
+  "sablon": "ilan",
+  "renk": "mor",
+  "marka": "",
+  "ust": "Eğitici oyuncak",
+  "model": "Çay ve Kahve Seti",
+  "rozet": "Altı renk fincan",
+  "iddia": "Altı fincan, altı tabak.",
+  "spot": "Her fincanın kendi tabağı var, hepsi üst üste istifleniyor. Fincanların içinde latte deseni işli.",
+  "ozellikler": [
+    [
+      "fincan",
+      "6 Fincan",
+      "+ 6 tabak"
+    ],
+    [
+      "istif",
+      "İstiflenebilir",
+      "Üst üste diziliyor"
+    ],
+    [
+      "el",
+      "Rol Yapma",
+      "Çay partisi oyunu"
+    ]
+  ],
+  "guven": [
+    [
+      "kalkan",
+      "Güvenli PLA",
+      "malzeme"
+    ],
+    [
+      "kurulum",
+      "Kendi atölyemizde",
+      "üretildi"
+    ],
+    [
+      "kargo",
+      "Samsun'dan",
+      "kargo"
+    ],
+    [
+      "kart",
+      "Faturalı",
+      "satış"
+    ]
+  ],
+  "cagri": "sermenkreatif.com'da",
+  "kapak_foto": "urun/foto/cay-seti.jpg",
+  "gorsel": "urun/foto/cay-seti.jpg",
+  "slaytlar": [
+    {
+      "foto": "urun/foto/cay-istif.jpg",
+      "baslik": "Hepsi |üst üste",
+      "metin": "Fincanlar birbirine geçiyor, tabaklar altta istif oluyor. Toplanması oyunun parçası."
+    },
+    {
+      "foto": "urun/foto/cay-latte.jpg",
+      "baslik": "İçinde |latte deseni",
+      "metin": "Fincanların içine işlenmiş desen, dolu bir fincan görüntüsü veriyor."
+    }
+  ],
+  "kapanis": {
+    "satir1": "Sette ne var?",
+    "satir2": "",
+    "satirlar": [
+      [
+        "FİNCAN",
+        "altı ayrı renkte, kulplu"
+      ],
+      [
+        "TABAK",
+        "her fincana bir tabak"
+      ],
+      [
+        "OYUN",
+        "çay partisi ve sofra kurma"
+      ]
+    ]
+  }
+}

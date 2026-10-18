@@ -2,7 +2,8 @@
 """Bütün gönderi klasörlerini HTML şablonlarıyla yeniden basıyor.
 
 Hangi şablonun kullanılacağını spec.json'ın şekli söylüyor:
-  * "urunler" listesi ya da kapak tipi "urun"  -> arac/kart_html.py
+  * "sablon": "ilan"                            -> arac/ilan_html.py
+  * "urunler" listesi                           -> arac/kart_html.py
   * gerisi                                      -> arac/rehber_html.py
 
     python3 uret_hepsi.py              # hepsi
@@ -17,6 +18,7 @@ KOK = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(KOK, "arac"))
 sys.path.insert(0, os.path.join(KOK, "arac", "html"))
 
+import ilan_html                                            # noqa: E402
 import kart_html                                            # noqa: E402
 import rehber_html                                          # noqa: E402
 
@@ -25,6 +27,8 @@ def sablon(spec):
     # Yalnız "urunler" listesi olan spec kart şablonuna gidiyor. Kapak
     # tipi "urun" olan tek ürünlük rehber gönderilerinde o liste yok,
     # kart şablonu onlarda KeyError veriyordu.
+    if spec.get("sablon") == "ilan":
+        return ilan_html
     if spec.get("urunler"):
         return kart_html
     return rehber_html

@@ -161,6 +161,39 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 20:42 | Gönderi | PROJE & ATÖLYE | `2026-10-21-pi5-ekran-standi` | 4 |
 | 21:22 | Hikaye | PROJE & ATÖLYE | `2026-10-21-pi5-ekran-standi/hikaye.jpg` | 1 |
 
+## 2026-10-29 · Perşembe
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 08:12 | — | **AYAR & REHBER** | _boş — üretilecek_ | — |
+| 12:38 | — | **BASKI ÜRÜNLERİ** | _boş — üretilecek_ | — |
+| 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-22-geometrik-siralama` | 4 |
+| 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-22-geometrik-siralama/hikaye.jpg` | 1 |
+| 19:36 | **Reels** | — | _boş — üretilecek_ | — |
+| 20:42 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
+
+## 2026-10-30 · Cuma
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 08:12 | — | **AYAR & REHBER** | _boş — üretilecek_ | — |
+| 12:38 | — | **BASKI ÜRÜNLERİ** | _boş — üretilecek_ | — |
+| 16:40 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-23-sekil-cark-tahtasi` | 4 |
+| 17:20 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-23-sekil-cark-tahtasi/hikaye.jpg` | 1 |
+| 18:10 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
+| 20:30 | **Reels** | — | _boş — üretilecek_ | — |
+
+## 2026-10-31 · Cumartesi
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 11:10 | — | **AYAR & REHBER** | _boş — üretilecek_ | — |
+| 12:20 | — | **BASKI ÜRÜNLERİ** | _boş — üretilecek_ | — |
+| 16:50 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-24-cay-kahve-seti` | 4 |
+| 17:30 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-24-cay-kahve-seti/hikaye.jpg` | 1 |
+| 19:20 | **Reels** | — | _boş — üretilecek_ | — |
+| 20:10 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
+
 ## Boş slotlar
 
 Bu slotlar için içerik henüz üretilmedi:
@@ -169,3 +202,15 @@ Bu slotlar için içerik henüz üretilmedi:
 - 2026-10-26 · REELS
 - 2026-10-27 · BASKI ÜRÜNLERİ
 - 2026-10-28 · BASKI ÜRÜNLERİ
+- 2026-10-29 · AYAR & REHBER
+- 2026-10-29 · BASKI ÜRÜNLERİ
+- 2026-10-29 · PROJE & ATÖLYE
+- 2026-10-29 · REELS
+- 2026-10-30 · AYAR & REHBER
+- 2026-10-30 · BASKI ÜRÜNLERİ
+- 2026-10-30 · PROJE & ATÖLYE
+- 2026-10-30 · REELS
+- 2026-10-31 · AYAR & REHBER
+- 2026-10-31 · BASKI ÜRÜNLERİ
+- 2026-10-31 · PROJE & ATÖLYE
+- 2026-10-31 · REELS

@@ -1,0 +1,82 @@
+{
+  "sablon": "ilan",
+  "renk": "turuncu",
+  "marka": "",
+  "ust": "Eğitici oyuncak",
+  "model": "Geometrik Sıralama",
+  "rozet": "Dizme ve eşleştirme",
+  "iddia": "Şekli bul, boyuta göre diz.",
+  "spot": "Daire, kare ve üçgen; her şekil büyükten küçüğe dizilen bir kule oluyor. Parçaların yüzeyleri ayrı ayrı dokulu.",
+  "ozellikler": [
+    [
+      "sekil",
+      "Üç Şekil",
+      "Daire · Kare · Üçgen"
+    ],
+    [
+      "istif",
+      "Boyut Dizme",
+      "Büyükten küçüğe"
+    ],
+    [
+      "el",
+      "El Becerisi",
+      "El-göz koordinasyonu"
+    ]
+  ],
+  "guven": [
+    [
+      "kalkan",
+      "Güvenli PLA",
+      "malzeme"
+    ],
+    [
+      "kurulum",
+      "Kendi atölyemizde",
+      "üretildi"
+    ],
+    [
+      "kargo",
+      "Samsun'dan",
+      "kargo"
+    ],
+    [
+      "kart",
+      "Faturalı",
+      "satış"
+    ]
+  ],
+  "cagri": "sermenkreatif.com'da",
+  "kapak_foto": "urun/foto/siralama-parcalar.jpg",
+  "gorsel": "urun/foto/siralama-parcalar.jpg",
+  "slaytlar": [
+    {
+      "foto": "urun/foto/siralama-kuleler.jpg",
+      "baslik": "Üç kuleyi |boyuta göre diz",
+      "metin": "Her şekil kendi çubuğuna geçiyor. Katmanlar büyükten küçüğe dizilince kule tamamlanıyor."
+    },
+    {
+      "foto": "urun/foto/siralama-desenler.jpg",
+      "baslik": "Her parçanın |dokusu ayrı",
+      "metin": "Kabartma yüzeyler parmak ucuyla ayırt ediliyor; şekil eşleştirmeye dokunma duyusu da katılıyor."
+    }
+  ],
+  "kapanis": {
+    "satir1": "Kime uygun?",
+    "satir2": "",
+    "satirlar": [
+      [
+        "ŞEKİL",
+        "daire, kare ve üçgeni tanımaya yeni başlayana"
+      ],
+      [
+        "BOYUT",
+        "büyük-küçük sıralamasını çalışana"
+      ],
+      [
+        "DOKU",
+        "parmak ucuyla keşfetmeyi sevene"
+      ]
+    ]
+  }
+}

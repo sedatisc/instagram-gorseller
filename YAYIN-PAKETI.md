@@ -1162,3 +1162,83 @@ Pi'sini kitap yığınına yaslayarak kullanan bir arkadaşın varsa ona yolla.
 #sermenkreatif #maker #raspberrypi #pi5 #makerturkiye
 ```
 
+---
+
+# 2026-10-29 · Perşembe
+
+## 17:24 · ÜRÜN & MAĞAZA
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-geometrik-siralama"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-22-geometrik-siralama/1.jpg" width="240"></a>
+
+**[2026-10-22-geometrik-siralama](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-geometrik-siralama)** · 4 kare · hikaye 18:04
+
+```
+Geometrik sıralama oyuncağı. Daire, kare ve üçgen; her şekil kendi çubuğuna geçiyor ve katmanlar büyükten küçüğe dizilince kule tamamlanıyor.
+
+Parçaların yüzeyleri ayrı ayrı dokulu: kimi kabartma noktalı, kimi dalgalı, kimi kafes. Çocuk şekli gözüyle ayırırken parmak ucuyla da ayırıyor; eşleştirme oyununa dokunma duyusu katılıyor.
+
+Üçünü birden öğretiyor » şekil tanıma, büyük-küçük sıralaması ve el-göz koordinasyonu.
+
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+
+Bağlantı ilk yorumda.
+
+Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #egiticioyuncak #ahsapoyuncakalternatifi #cocukgelisimi #makerturkiye
+```
+
+---
+
+# 2026-10-30 · Cuma
+
+## 16:40 · ÜRÜN & MAĞAZA
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-23-sekil-cark-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-23-sekil-cark-tahtasi/1.jpg" width="240"></a>
+
+**[2026-10-23-sekil-cark-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-23-sekil-cark-tahtasi)** · 4 kare · hikaye 17:20
+
+```
+Şekil ve çark tahtası. Tahtanın üstündeki oyuklar parçaların şekline göre açılmış; kare karenin, üçgen üçgenin yerine oturuyor, yanlış parça girmiyor.
+
+Her sütunda katmanlar ayrı renkte. Çocuk önce şekli buluyor, sonra rengi eşleştiriyor.
+
+Ortadaki çarklar birbirine geçiyor » birini döndürünce komşusu da dönüyor. Dişli mantığı anlatılmadan, oynanarak anlaşılıyor.
+
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+
+Bağlantı ilk yorumda.
+
+Çarkları döndürmeyi seven bir çocuk tanıyorsan bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #egiticioyuncak #sekileslestirme #cocukgelisimi #makerturkiye
+```
+
+---
+
+# 2026-10-31 · Cumartesi
+
+## 16:50 · ÜRÜN & MAĞAZA
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-24-cay-kahve-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-24-cay-kahve-seti/1.jpg" width="240"></a>
+
+**[2026-10-24-cay-kahve-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-24-cay-kahve-seti)** · 4 kare · hikaye 17:30
+
+```
+Oyuncak çay ve kahve seti. Altı ayrı renkte kulplu fincan, her birine bir tabak.
+
+Fincanların içine latte deseni işli; dolu bir fincan görüntüsü veriyor, sofra kurulunca oyun gerçeğe yaklaşıyor.
+
+Toplanması da oyunun parçası » fincanlar birbirine geçiyor, tabaklar altta istif oluyor. Dağınık kalmıyor.
+
+Rol yapma oyununun tam ortasında duran bir set: çay partisi, misafir ağırlama, sofra kurma.
+
+Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+
+Bağlantı ilk yorumda.
+
+Evinde çay partisi kurulan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #egiticioyuncak #rolyapmaoyunu #cocukgelisimi #makerturkiye
+```
+

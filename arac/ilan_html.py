@@ -35,6 +35,7 @@ sys.path.insert(0, os.path.join(KOK, "arac"))
 sys.path.insert(0, os.path.join(KOK, "arac", "html"))
 
 import sistem as S                                          # noqa: E402
+from urun_karti import BUY                                 # noqa: E402
 
 W, H = 1080, 1350
 SW, SH = 1080, 1920
@@ -76,6 +77,38 @@ IKON = {
               '<circle cx="22" cy="24" r="2" fill="#2a3344"/>'
               '<path d="M35 19c6 1.5 8 6 7 12" stroke="#e4443f" '
               'stroke-width="3" stroke-linecap="round" fill="none"/>',
+    # oyuncak gönderileri için
+    "sekil": '<circle cx="13" cy="14" r="9" fill="#e4443f"/>'
+             '<rect x="25" y="5" width="18" height="18" rx="3" '
+             'fill="#2476dc"/>'
+             '<path d="M24 27 L40 43 H8 Z" fill="#e9b820"/>',
+    "disli": '<path d="M24 4l4.2 1.1 2.3 3.7 4.3-.4 2.6 3.5-1.5 4.1 '
+             '3.2 2.9-.6 4.3-4 1.7-.6 4.3-4 1.7-3.3-2.8-3.9 1.9-3.5-2.6'
+             ' -3.9 1.9-2.6-3.5 1.1-4.2-3.4-2.7 1.1-4.2 4.1-1.4 1.1-4.2'
+             ' 4.2-1.1z" fill="#24a256"/>'
+             '<circle cx="24" cy="24" r="12" fill="#2b9150"/>'
+             '<circle cx="24" cy="24" r="6" fill="#fff"/>',
+    "el": '<path d="M17 25V9a3.2 3.2 0 0 1 6.4 0v12" fill="#f0b48a"/>'
+          '<path d="M23.4 21V7a3.2 3.2 0 0 1 6.4 0v14" fill="#f6c6a2"/>'
+          '<path d="M29.8 22V12a3.1 3.1 0 0 1 6.2 0v16c0 8-5 14-12.4 14'
+          'S11 36 11 28v-6a3 3 0 0 1 6 0z" fill="#f0b48a"/>'
+          '<path d="M14 30c0 7 4 11 9.6 11" stroke="#d99a6c" '
+          'stroke-width="2" fill="none" stroke-linecap="round"/>',
+    "istif": '<rect x="7" y="29" width="34" height="9" rx="4" '
+             'fill="#e4443f"/>'
+             '<rect x="10" y="20" width="28" height="9" rx="4" '
+             'fill="#ec842a"/>'
+             '<rect x="13" y="11" width="22" height="9" rx="4" '
+             'fill="#e9b820"/>'
+             '<rect x="16" y="4" width="16" height="8" rx="4" '
+             'fill="#24a256"/>',
+    "fincan": '<path d="M9 14h24v15a9 9 0 0 1-9 9h-6a9 9 0 0 1-9-9z" '
+              'fill="#2476dc"/>'
+              '<path d="M9 14h24v6H9z" fill="#4e91e6"/>'
+              '<path d="M33 18h4a5 5 0 0 1 0 10h-4" stroke="#2476dc" '
+              'stroke-width="4" fill="none" stroke-linecap="round"/>'
+              '<rect x="11" y="40" width="20" height="4" rx="2" '
+              'fill="#9fb0c6"/>',
     "kalkan": '<path d="M24 4l16 6v11c0 9-6.6 15.6-16 19-9.4-3.4-16-10-16-19'
               'V10z" fill="#e4443f"/>'
               '<path d="M24 8.6L12 13v8c0 6.8 4.7 12 12 14.9z" '
@@ -164,7 +197,8 @@ STIL = """
   justify-content:center;gap:52px;padding:10px 0}
 .soz .g{display:flex;flex-direction:column}
 .soz .ust{font-weight:600;font-size:35px;color:#5a6678;letter-spacing:-.01em}
-.soz h1{font-family:Anton;font-size:152px;line-height:.84;
+.soz h1{font-family:Anton;font-size:var(--h1,152px);
+  line-height:1.06;
   letter-spacing:.005em;text-transform:uppercase;margin-top:4px}
 .rozet{align-self:flex-start;margin-top:16px;background:var(--vr);
   color:#fff;font-family:Anton;font-size:31px;letter-spacing:.06em;
@@ -193,6 +227,10 @@ STIL = """
    çıkıyordu. */
 .sahne{position:relative;height:100%;display:flex;
   align-items:center;justify-content:center}
+.foto-kapak .govde{grid-template-columns:.96fr 1fr}
+.sahne.foto{border-radius:24px;overflow:hidden;background:#fff;
+  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
+.sahne.foto img{width:100%;height:100%;object-fit:cover;filter:none}
 .sahne img{width:100%;height:100%;object-fit:contain;
   filter:drop-shadow(0 26px 30px rgba(16,22,38,.18))}
 
@@ -209,11 +247,41 @@ STIL = """
   justify-content:space-between;font-family:Mono;font-size:23px;
   color:#5a6678;padding:18px 0 24px}
 
+/* fotoğraf slaytı */
+.kare{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
+  padding-top:18px}
+.kare .cerceve{flex:1 1 auto;min-height:0;border-radius:24px;
+  overflow:hidden;background:#fff;
+  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
+.kare .cerceve img{width:100%;height:100%;object-fit:cover;display:block}
+.kare .yazi{flex:0 0 auto;padding:26px 4px 0}
+.kare .yazi b{display:block;font-weight:700;font-size:46px;
+  letter-spacing:-.022em;line-height:1.14}
+.kare .yazi b i{font-style:normal;color:var(--vr)}
+.kare .yazi span{display:block;font-size:29px;line-height:1.36;
+  color:#5a6678;margin-top:12px}
+
+/* kapanış */
+.kapanis{color:#fff}
+.kapanis h1{font-family:Anton;text-transform:uppercase;font-size:86px;
+  line-height:1.02;letter-spacing:.004em;margin-top:34px}
+.kapanis h1 em{font-style:normal;color:var(--vr)}
+.kapanis .liste{flex:1 1 auto;min-height:0;display:flex;
+  flex-direction:column;justify-content:center;gap:16px;padding:30px 0}
+.kapanis .liste div{flex:1 1 0;max-height:190px;display:flex;
+  align-items:center;gap:22px;background:#1b2440;border-radius:18px;
+  padding:22px 28px;border-left:8px solid var(--vr)}
+.kapanis .liste b{flex:0 0 190px;font-family:Mono;font-size:21px;
+  letter-spacing:.07em;text-transform:uppercase;color:var(--vr)}
+.kapanis .liste span{flex:1;font-size:31px;font-weight:600;line-height:1.24}
+.kapanis .dugme{align-self:flex-start;margin-top:4px}
+.kapanis .dip{color:#96a4c0}
+
 /* hikaye */
 .hik .govde{grid-template-columns:1fr;
   grid-template-rows:auto minmax(0,1fr);gap:0}
 .hik .soz{justify-content:flex-start;gap:30px}
-.hik .soz h1{font-size:170px}
+
 .hik .sahne{min-height:0;align-items:flex-end}
 /* Kaynak kesim 338px; tam genişliğe yayınca bulanıklaşıyor,
    yüksekliğe oturtup genişliği serbest bırakıyoruz. */
@@ -226,11 +294,15 @@ def _parcalar(spec):
     bayi = _gorsel(spec.get("bayi_logo", "marka/sermenkreatif.png"),
                    kesik=False)
     mlogo = _gorsel(spec.get("marka_logo", ""), kesik=False)
-    kilit = ('<div class="kilit">%s<s></s>%s</div>'
-             % (('<img class="bayi" src="%s" alt="">' % bayi) if bayi
-                else '<span class="ad">sermenkreatif</span>',
-                ('<img class="marka" src="%s" alt="">' % mlogo) if mlogo
-                else '<span class="ad">%s</span>' % E(spec.get("marka", ""))))
+    sol = (('<img class="bayi" src="%s" alt="">' % bayi) if bayi
+           else '<span class="ad">sermenkreatif</span>')
+    # Kendi ürünümüzde ikinci marka yok: ayraç ve boş etiket basılmasın.
+    sag = ''
+    if mlogo:
+        sag = '<s></s><img class="marka" src="%s" alt="">' % mlogo
+    elif spec.get("marka"):
+        sag = '<s></s><span class="ad">%s</span>' % E(spec["marka"])
+    kilit = '<div class="kilit">%s%s</div>' % (sol, sag)
 
     ozl = "".join('<div>%s<b>%s<br>%s</b></div>'
                   % (ikon(i), E(a), E(b))
@@ -244,25 +316,43 @@ def _parcalar(spec):
     return vr, kilit, ozl, guven, iddia
 
 
+H1_KADEME = ((6, 152), (10, 132), (14, 106), (20, 86), (10 ** 6, 72))
+
+
+def _h1_punto(ad):
+    for sinir, px in H1_KADEME:
+        if len(ad) <= sinir:
+            return px
+    return 72
+
+
 def ilan(spec, cikti):
     vr, kilit, ozl, guven, iddia = _parcalar(spec)
-    uri = _gorsel(spec.get("gorsel"))
+    # Sahne manzarası olan ürünlerde kesim çıkmıyor: fotoğraf
+    # yuvarlak köşeli kartta duruyor.
+    foto = bool(spec.get("kapak_foto"))
+    uri = (_gorsel(spec["kapak_foto"], kesik=False) if foto
+           else _gorsel(spec.get("gorsel")))
     govde = (
-        '<div class="ic" style="--vr:%s">%s'
+        '<div class="ic%s" style="--vr:%s;--h1:%dpx">%s'
         '<div class="govde"><div class="soz">'
         '<div class="g"><span class="ust">%s</span>'
         '<h1>%s</h1>%s</div>'
         '<div class="g"><h2>%s</h2>%s</div></div>'
-        '<div class="sahne">%s</div></div>'
+        '<div class="sahne%s">%s</div></div>'
         '<div class="alt">%s<span class="dugme">%s</span></div>'
         '<div class="guven">%s</div>'
         '<div class="dip"><span>@sermenkreatif</span>'
         '<span>sermenkreatif.com</span></div></div>'
-        % (vr, kilit, E(spec.get("marka", "")), E(spec.get("model", "")),
+        % (" foto-kapak" if foto else "", vr,
+           _h1_punto(spec.get("model", "")), kilit,
+           E(spec.get("ust") or spec.get("marka", "")),
+           E(spec.get("model", "")),
            ('<span class="rozet">%s</span>' % E(spec["rozet"]))
            if spec.get("rozet") else "",
            iddia,
            ('<p>%s</p>' % E(spec["spot"])) if spec.get("spot") else "",
+           " foto" if foto else "",
            ('<img src="%s" alt="">' % uri) if uri else "",
            ('<div class="ozellik">%s</div>' % ozl) if ozl else "",
            E(spec.get("cagri", "sermenkreatif.com'da")),
@@ -270,22 +360,80 @@ def ilan(spec, cikti):
     S.bas(S.sayfa(govde, W, H, STIL), cikti, W, H)
 
 
+def slayt(spec, s, cikti):
+    """Tek fotoğraflık ara kare: görsel büyük, altında iki satır."""
+    vr, kilit, _ozl, _guven, _iddia = _parcalar(spec)
+    uri = _gorsel(s.get("foto"), kesik=False)
+    bas = E(s.get("baslik", ""))
+    if "|" in bas:
+        a, b = bas.split("|", 1)
+        bas = "%s<i>%s</i>" % (a, b)
+    govde = (
+        '<div class="ic" style="--vr:%s">%s'
+        '<div class="kare"><div class="cerceve">%s</div>'
+        '<div class="yazi"><b>%s</b>%s</div></div>'
+        '<div class="dip"><span>@sermenkreatif</span>'
+        '<span>sermenkreatif.com</span></div></div>'
+        % (vr, kilit, ('<img src="%s" alt="">' % uri) if uri else "", bas,
+           ('<span>%s</span>' % E(s["metin"])) if s.get("metin") else ""))
+    S.bas(S.sayfa(govde, W, H, STIL), cikti, W, H)
+
+
+def kapanis(spec, cikti):
+    """Koyu kapanış: ne aldığın, kime uyduğu ve çağrı."""
+    vr, kilit, _ozl, guven, _iddia = _parcalar(spec)
+    k = spec.get("kapanis") or {}
+    bas = E(BUY(k.get("satir1", "")))
+    if k.get("satir2"):
+        bas += "<br><em>%s</em>" % E(BUY(k["satir2"]))
+    govde = (
+        '<div class="ic kapanis" style="--vr:%s">%s<h1>%s</h1>'
+        '<div class="liste">%s</div>'
+        '<span class="dugme">%s</span>'
+        '<div class="dip"><span>@sermenkreatif</span>'
+        '<span>sermenkreatif.com</span></div></div>'
+        % (vr, kilit, bas,
+           "".join('<div><b>%s</b><span>%s</span></div>' % (E(BUY(a)), E(b))
+                   for a, b in k.get("satirlar", [])[:4]),
+           E(spec.get("cagri", "sermenkreatif.com\'da"))))
+    S.bas(S.sayfa(govde, W, H, STIL, sinif="koyu"), cikti, W, H)
+
+
+def uret(spec, klasor):
+    os.makedirs(klasor, exist_ok=True)
+    n = 1
+    ilan(spec, os.path.join(klasor, "1.jpg"))
+    for s in spec.get("slaytlar", []):
+        n += 1
+        slayt(spec, s, os.path.join(klasor, "%d.jpg" % n))
+    if spec.get("kapanis"):
+        n += 1
+        kapanis(spec, os.path.join(klasor, "%d.jpg" % n))
+    hikaye(spec, os.path.join(klasor, "hikaye.jpg"))
+    return n
+
+
 def hikaye(spec, cikti):
     vr, kilit, ozl, guven, iddia = _parcalar(spec)
-    uri = _gorsel(spec.get("gorsel"))
+    foto = bool(spec.get("kapak_foto"))
+    uri = (_gorsel(spec["kapak_foto"], kesik=False) if foto
+           else _gorsel(spec.get("gorsel")))
     govde = (
-        '<div class="ic hik" style="--vr:%s;padding:70px 56px 0">%s'
+        '<div class="ic hik" style="--vr:%s;--h1:%dpx;padding:70px 56px 0">%s'
         '<div class="govde"><div class="soz">'
         '<span class="ust">%s</span><h1>%s</h1>%s<h2>%s</h2>%s</div>'
-        '<div class="sahne">%s</div></div>'
+        '<div class="sahne%s">%s</div></div>'
         '<div class="guven">%s</div>'
         '<div class="dip" style="padding-bottom:190px">'
         '<span>@sermenkreatif</span><span>sermenkreatif.com</span></div></div>'
-        % (vr, kilit, E(spec.get("marka", "")), E(spec.get("model", "")),
+        % (vr, int(_h1_punto(spec.get("model", "")) * 1.12), kilit,
+           E(spec.get("ust") or spec.get("marka", "")),
+           E(spec.get("model", "")),
            ('<span class="rozet">%s</span>' % E(spec["rozet"]))
            if spec.get("rozet") else "",
            iddia,
            ('<p>%s</p>' % E(spec["spot"])) if spec.get("spot") else "",
+           " foto" if foto else "",
            ('<img src="%s" alt="">' % uri) if uri else "", guven))
     S.bas(S.sayfa(govde, SW, SH, STIL), cikti, SW, SH, kalite=92)
 
@@ -296,9 +444,7 @@ def main():
     with open(sys.argv[1], encoding="utf-8") as f:
         spec = json.load(f)
     klasor = sys.argv[2]
-    os.makedirs(klasor, exist_ok=True)
-    ilan(spec, os.path.join(klasor, "1.jpg"))
-    hikaye(spec, os.path.join(klasor, "hikaye.jpg"))
+    print("%d kare + hikaye: %s" % (uret(spec, klasor), klasor))
 
 
 if __name__ == "__main__":
