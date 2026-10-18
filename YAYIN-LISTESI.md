@@ -219,6 +219,28 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 | 19:36 | **Reels** | — | _boş — üretilecek_ | — |
 | 20:42 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
 
+## 2026-11-04 · Çarşamba
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 08:12 | — | **AYAR & REHBER** | _boş — üretilecek_ | — |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-31-halka-dizme-kulesi` | 5 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-31-halka-dizme-kulesi/hikaye.jpg` | 1 |
+| 17:24 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
+| 19:36 | **Reels** | — | _boş — üretilecek_ | — |
+| 20:42 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
+
+## 2026-11-05 · Perşembe
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 08:12 | — | **AYAR & REHBER** | _boş — üretilecek_ | — |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-11-01-rakam-yapbozu` | 5 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-11-01-rakam-yapbozu/hikaye.jpg` | 1 |
+| 17:24 | — | **ÜRÜN & MAĞAZA** | _boş — üretilecek_ | — |
+| 19:36 | **Reels** | — | _boş — üretilecek_ | — |
+| 20:42 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
+
 ## Boş slotlar
 
 Bu slotlar için içerik henüz üretilmedi:
@@ -244,3 +266,11 @@ Bu slotlar için içerik henüz üretilmedi:
 - 2026-11-03 · ÜRÜN & MAĞAZA
 - 2026-11-03 · PROJE & ATÖLYE
 - 2026-11-03 · REELS
+- 2026-11-04 · AYAR & REHBER
+- 2026-11-04 · ÜRÜN & MAĞAZA
+- 2026-11-04 · PROJE & ATÖLYE
+- 2026-11-04 · REELS
+- 2026-11-05 · AYAR & REHBER
+- 2026-11-05 · ÜRÜN & MAĞAZA
+- 2026-11-05 · PROJE & ATÖLYE
+- 2026-11-05 · REELS
