@@ -1,6 +1,6 @@
 # Son çalışma
 
-2026-10-12 10:52 UTC · 0 yeni · 19 hata
+2026-10-19 08:55 UTC · 0 yeni · 19 hata
 
 | Ürün | Durum | Not |
 |---|---|---|
@@ -65,3 +65,7 @@
 | cekilis-tpu-siyah | atlandı | zaten var |
 | cekilis-petg-mavi | atlandı | zaten var |
 | cekilis-abs-mavi | atlandı | zaten var |
+| anycubic-high-clear-resin-1-kg-18544 + anycubic-high-speed-2.0-resin-gri-1-kg-18546 | **AYNI GÖRSEL** | bu ürünler birebir aynı kareyi aldı — birine tam 'sayfa' adresi ver |
+| anycubic-tough-2.0-gri-resin-1-kg-18387 + anycubic-tough-2.0-siyah-resin-1-kg-18386 | **AYNI GÖRSEL** | bu ürünler birebir aynı kareyi aldı — birine tam 'sayfa' adresi ver |
+| phaetus-conch-m4-endcoat-nozzle-0.2-mm-18617 + phaetus-conch-m4-endcoat-nozzle-0.6-mm-18619 + phaetus-conch-m4-endcoat-nozzle-0.8-mm-18631 | **AYNI GÖRSEL** | bu ürünler birebir aynı kareyi aldı — birine tam 'sayfa' adresi ver |
+| phaetus-conch-m4-endcoat-nozzle-0.4-mm-18618 + phaetus-conch-m4 | **AYNI GÖRSEL** | bu ürünler birebir aynı kareyi aldı — birine tam 'sayfa' adresi ver |
