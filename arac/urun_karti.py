@@ -213,6 +213,11 @@ def _koyu(renk):
 
 # ------------------------------------------------------- tek zemin
 KESIK = os.path.join(KOK, "gorsel", "urun", "kesik")
+
+# u2net ürünün bir parçasını arka plan sanıp kesiyordu: kepçeliğin sol
+# duvarı, üstünü örten maydanozla birlikte gitmişti. isnet-general-use
+# aynı fotoğrafta ürünü bütün çıkarıyor; varsayılan model o oldu.
+KESIM_MODELI = "isnet-general-use"
 _OTURUM = {}
 ZEMIN = (248, 249, 251)          # bütün ürünlerin ortak zemini
 
@@ -232,7 +237,7 @@ def kesik_ac(yol):
     except ImportError:
         return None
     if "s" not in _OTURUM:
-        _OTURUM["s"] = new_session("u2net")
+        _OTURUM["s"] = new_session(KESIM_MODELI)
     k = remove(Image.open(yol).convert("RGBA"), session=_OTURUM["s"])
     bb = k.split()[-1].point(lambda v: 255 if v > 8 else 0).getbbox()
     if bb:

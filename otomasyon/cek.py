@@ -146,12 +146,16 @@ _oturum = {}
 
 
 def kes(ham_yol, hedef):
-    """Arka planı kes. Model u2net'e sabitlendi — varsayılan model 1 GB
-    ve koşucunun belleğini doldurup süreci öldürüyor."""
+    """Arka planı kes.
+
+    Model isnet-general-use (179 MB). Varsayılan model 1 GB ve koşucunun
+    belleğini doldurup süreci öldürüyordu; u2net hafifti ama ürünün
+    üstünü başka bir nesne örtünce o parçayı da arka plan sayıp
+    kesiyordu — kepçeliğin sol duvarı maydanozla birlikte gitmişti."""
     from PIL import Image
     from rembg import remove, new_session
     if "s" not in _oturum:
-        _oturum["s"] = new_session("u2net")
+        _oturum["s"] = new_session("isnet-general-use")
     im = Image.open(ham_yol).convert("RGBA")
     k = remove(im, session=_oturum["s"])
     bb = k.split()[-1].point(lambda v: 255 if v > 8 else 0).getbbox()
