@@ -33,7 +33,8 @@
    "ad": "LeafHook",
    "etiket": "banyo",
    "renk": "yesil",
-   "satir": "Aynı mantık, yaprak formunda. Havlu ve lif için; duş camına geçiyor, duvara zarar vermiyor."
+   "satir": "Aynı mantık, yaprak formunda. Havlu ve lif için; duş camına geçiyor, duvara zarar vermiyor.",
+   "kesim": false
   },
   {
    "slug": "lineabrush-modern-cizgisel-dis-fircalik",

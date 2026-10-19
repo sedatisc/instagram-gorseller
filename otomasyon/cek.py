@@ -161,8 +161,18 @@ def kes(ham_yol, hedef):
     bb = k.split()[-1].point(lambda v: 255 if v > 8 else 0).getbbox()
     if bb:
         k = k.crop(bb)
+    import sys
+    sys.path.insert(0, os.path.join(KOK, "arac"))
+    import kesim_temiz
+    if kesim_temiz.yer_tutucu_mu(k):
+        # Sitede o ürünün fotoğrafı yok, gelen kare gri simge. Kaydedip
+        # gönderiye sokmaktansa yok saymak doğru.
+        raise ValueError("ürün fotoğrafı yok (yer tutucu kare)")
     k.save(hedef)
-    return k.size
+    kesim_temiz.temizle(hedef)
+    from PIL import Image as _I
+    with _I.open(hedef) as t:
+        return t.size
 
 
 # ------------------------------------------------- ada göre sayfa bulma

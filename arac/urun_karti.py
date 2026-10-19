@@ -244,9 +244,13 @@ def kesik_ac(yol):
         k = k.crop(bb)
     if k.width < 40 or k.height < 40:        # kesim boşa çıktı
         return None
+    import kesim_temiz
+    if kesim_temiz.yer_tutucu_mu(k):         # sitede fotoğraf yok
+        return None
     os.makedirs(KESIK, exist_ok=True)
     k.save(hedef)
-    return k
+    kesim_temiz.temizle(hedef)               # soluk arka plan artıkları
+    return Image.open(hedef).convert("RGBA")
 
 
 def kesik_panel(img, kutu, kes, r=24, pay=0.84, taban=0.90):
