@@ -428,11 +428,6 @@
         "gun": 2
       },
       {
-        "slot": "baski",
-        "klasor": "2026-10-17-masa-duzeni",
-        "gun": 1
-      },
-      {
         "slot": "proje",
         "klasor": "2026-10-14-siparis-sorulari",
         "gun": 3
@@ -445,11 +440,6 @@
       {
         "slot": "3dbaski",
         "klasor": "2026-10-18-filament-kurutucu-pano",
-        "gun": 3
-      },
-      {
-        "slot": "baski",
-        "klasor": "2026-10-18-aydinlatma",
         "gun": 3
       },
       {
@@ -468,11 +458,6 @@
         "gun": 4
       },
       {
-        "slot": "baski",
-        "klasor": "2026-10-19-banyo-duzeni",
-        "gun": 5
-      },
-      {
         "slot": "proje",
         "klasor": "2026-10-16-tavan-arasi-kamera-robotu",
         "gun": 5
@@ -488,11 +473,6 @@
         "gun": 5
       },
       {
-        "slot": "baski",
-        "klasor": "2026-10-20-makyaj-ve-taki",
-        "gun": 7
-      },
-      {
         "slot": "proje",
         "klasor": "2026-10-17-rc-tank",
         "gun": 6
@@ -506,11 +486,6 @@
         "slot": "3dbaski",
         "klasor": "2026-10-18-sert-nozul",
         "gun": 6
-      },
-      {
-        "slot": "baski",
-        "klasor": "2026-10-21-hediyelik",
-        "gun": 9
       },
       {
         "slot": "proje",
@@ -530,7 +505,7 @@
       {
         "slot": "baski",
         "klasor": "2026-10-23-sekil-cark-tahtasi",
-        "gun": 2
+        "gun": 1
       },
       {
         "slot": "proje",
@@ -550,7 +525,7 @@
       {
         "slot": "baski",
         "klasor": "2026-10-24-cay-kahve-seti",
-        "gun": 4
+        "gun": 2
       },
       {
         "slot": "proje",
@@ -570,7 +545,7 @@
       {
         "slot": "baski",
         "klasor": "2026-10-25-aktivite-tahtasi",
-        "gun": 6
+        "gun": 3
       },
       {
         "slot": "proje",
@@ -585,42 +560,42 @@
       {
         "slot": "baski",
         "klasor": "2026-10-26-market-kasa-seti",
-        "gun": 8
+        "gun": 4
       },
       {
         "slot": "baski",
         "klasor": "2026-10-27-meyve-sebze-seti",
-        "gun": 10
+        "gun": 5
       },
       {
         "slot": "baski",
         "klasor": "2026-10-28-vidali-tren",
-        "gun": 11
+        "gun": 6
       },
       {
         "slot": "baski",
         "klasor": "2026-10-29-vidali-yapim-tahtasi",
-        "gun": 12
+        "gun": 7
       },
       {
         "slot": "baski",
         "klasor": "2026-10-30-alyan-vida-oyuncagi",
-        "gun": 13
+        "gun": 8
       },
       {
         "slot": "baski",
         "klasor": "2026-10-31-halka-dizme-kulesi",
-        "gun": 14
+        "gun": 9
       },
       {
         "slot": "baski",
         "klasor": "2026-11-01-rakam-yapbozu",
-        "gun": 15
+        "gun": 10
       },
       {
         "slot": "baski",
         "klasor": "2026-11-02-kesir-daireleri",
-        "gun": 16
+        "gun": 11
       },
       {
         "slot": "urun",
@@ -680,6 +655,31 @@
         "klasor": "2026-10-16-vazo-koleksiyonu",
         "slot": "baski",
         "neden": "Yeni modeller gelince yeniden kurulacak"
+      },
+      {
+        "klasor": "2026-10-17-masa-duzeni",
+        "slot": "baski",
+        "neden": "Atölye ürünleri yayından çıkarıldı"
+      },
+      {
+        "klasor": "2026-10-18-aydinlatma",
+        "slot": "baski",
+        "neden": "Atölye ürünleri yayından çıkarıldı"
+      },
+      {
+        "klasor": "2026-10-19-banyo-duzeni",
+        "slot": "baski",
+        "neden": "Atölye ürünleri yayından çıkarıldı"
+      },
+      {
+        "klasor": "2026-10-20-makyaj-ve-taki",
+        "slot": "baski",
+        "neden": "Atölye ürünleri yayından çıkarıldı"
+      },
+      {
+        "klasor": "2026-10-21-hediyelik",
+        "slot": "baski",
+        "neden": "Atölye ürünleri yayından çıkarıldı"
       }
     ],
     "iptal": [
