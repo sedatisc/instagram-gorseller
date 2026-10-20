@@ -185,10 +185,6 @@ Hangi reçineyi kullanıyorsun, yoruma yaz.
 #sermenkreatif #3dbaski #recine #resin #anycubic #slabaski #3dbaskiturkiye #makerturkiye #samsun
 ```
 
-## 19:36 · REELS — [2026-10-14-sunlu-filadryer/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-sunlu-filadryer)
-
-Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
-
 ## 20:42 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-12-urun-fotografi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-12-urun-fotografi/1.jpg" width="240"></a>
@@ -312,10 +308,6 @@ Prototipi tuttu diye on adet basıp hepsini çöpe atan bir arkadaşın varsa bu
 #sermenkreatif #maker #3dbaski #olcukontrol #makerturkiye
 ```
 
-## 20:30 · REELS — [2026-10-15-sunlu-ams-heater/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-sunlu-ams-heater)
-
-Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
-
 ---
 
 # 2026-10-24 · Cumartesi
@@ -372,31 +364,31 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ## 16:50 · ÜRÜN & MAĞAZA
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-10-bambu-r1-tanitim"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-10-bambu-r1-tanitim/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-sunlu-filadryer"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-14-sunlu-filadryer/1.jpg" width="240"></a>
 
-**[2026-10-10-bambu-r1-tanitim](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-10-bambu-r1-tanitim)** · 5 kare · hikaye 17:30
+**[2026-10-14-sunlu-filadryer](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-sunlu-filadryer)** · 5 kare · hikaye 17:30
 
 ```
-Bambu Lab 3D yazıcıdan sonra lazere girdi. R1, 55 W CO2 lazerle 600 × 300 mm tezgâh sunuyor; gövde fiyatı 2.499 dolar.
+SUNLU FilaDryer'ın bu üç modeli arasındaki asıl fark kapasite değil: kaç yazıcıyı besleyebildiği ve sıcaklık tavanı.
 
-Ne kesiyor → 18 mm ceviz kontrplak, 20 mm şeffaf akrilik. Deri, kâğıt, kumaş da listede. Cam, taş ve kaplamalı metalde yalnız gravür var; çıplak metal kesmiyor. CO2 lazerin fiziği bu, marka farkı değil.
+Kapasite » S2 tek makara alıyor, Ø 210 × 85 mm. S4 dört makara alıyor, 4 × 1 kg, sekiz filament çıkışı var. E2 iki 1 kg, iki 2 kg ya da tek 3 kg'lık makara alıyor.
 
-Tezgâh → 600 × 300 mm. Opsiyonel konveyörle 3 metre uzunluğunda malzeme geçirilebiliyor. Gravürde 1.000 mm/s'ye çıkıyor, güç hıza göre otomatik ayarlanıp ton eşitleniyor.
+Sıcaklık » S2 ve S4 35-70 °C. E2 ise 35-110 °C. Bu rakam sadece "daha iyi" demek değil, hangi filamenti kurutabileceğini belirliyor.
 
-Hizalama → işin asıl zor kısmı burası ve dört ayrı sensöre dağıtılmış: kuş bakışı kamera, kafa kamerası, nokta lazeri, mesafe ölçüm lazeri. Basılı desenin üstüne 0,2 mm'de oturuyor, kesim hassasiyeti 0,2 mm'nin altında.
+Isıtıcı gücü » S2 48 W, S4 320-350 W PTC ve üç fan, E2 500 W PTC ve çift hazne. S4'te hazne içi sıcaklık farkı ±3 °C'de tutuluyor.
 
-Güvenlik → kapalı kullanımda Class 1. Kapak açılınca lazer duruyor, alev sensörü ve acil stop var. Kaide veya konveyör takılınca Class 4'e geçiyor; o noktada gözlük ve eğitimli operatör şart.
+PLA ve PETG 70 °C'nin altında kuruyor, o yüzden S2 çoğu kullanıcının işini görüyor. Birden çok yazıcı çalıştırıyorsan S4 dört makarayı birlikte kuru tutuyor ve dört yazıcıya kadar besliyor. Naylon ailesi daha yükseğini istiyor: E2'nin hazır profillerinde PA6-CF, PA12-CF, PC ve PPS var, diğer ikisinde yok. E2'de ayrıca tavlama modu ve tepsisi geliyor.
 
-Dikkat edilecek yer: 2.499 dolar gövdenin fiyatı. Konveyör, Vision Encoder, ayna hizalama sensörü, otomatik yangın söndürme ve E1 Pro hava temizleyici ayrı satılıyor.
+Bir uyarı » 70 °C üstünde kurutuyorsan makaranın kendisi de o sıcaklığa dayanmalı. Ucuz plastik makara deforme olup sarımı kilitleyebiliyor.
 
-Türkiye tarafı → MetaTech üç varyantı da listelemiş: standart R1, Long Material Bundle ve Long Material & Rotary Bundle. Üçü de şu an tükenmiş görünüyor ve fiyat sayfada yazmıyor. Yani makine Türkiye'ye geliyor, sırayı beklemek gerekiyor.
+Nem niye önemli » nemli filament nozul içinde buharlaşıp kabarcık yapıyor. Tel tel çekme artıyor, yüzey pürüzleniyor, nozuldan çıtırtı geliyor, katman yapışması düşüyor. Bunların hiçbiri slicer ayarıyla düzelmiyor; sorun ayarda değil malzemede. En çok etkilenenler PETG, TPU ve naylon.
 
-Atölyesine lazer almayı konuşan bir arkadaşın varsa bu gönderiyi ona yolla.
+Retraction mesafesini her baskıda biraz daha artırmaya devam eden bir arkadaşın varsa bu gönderiyi ona yolla — sorun büyük ihtimalle nem.
 
-#sermenkreatif #lazerkesim #bambulab #co2lazer #atolye #makerturkiye
+#sermenkreatif #3dbaski #sunlu #filament #filamentkurutucu #makerturkiye
 ```
 
-## 19:20 · REELS — [2026-10-16-phaetus-liber-u1/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1)
+## 19:20 · REELS — [2026-10-14-sunlu-filadryer/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-sunlu-filadryer)
 
 Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
@@ -490,31 +482,29 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ## 17:10 · ÜRÜN & MAĞAZA
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-sunlu-filadryer"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-14-sunlu-filadryer/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-sunlu-ams-heater"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-15-sunlu-ams-heater/1.jpg" width="240"></a>
 
-**[2026-10-14-sunlu-filadryer](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-sunlu-filadryer)** · 5 kare · hikaye 17:50
+**[2026-10-15-sunlu-ams-heater](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-sunlu-ams-heater)** · 5 kare · hikaye 17:50
 
 ```
-SUNLU FilaDryer'ın bu üç modeli arasındaki asıl fark kapasite değil: kaç yazıcıyı besleyebildiği ve sıcaklık tavanı.
+SUNLU AMS Heater, Bambu Lab AMS'in üst kapağının yerine takılan bir ısıtıcı kapak. Yaptığı iş tek cümlede: baskı sürerken AMS'in içindeki filamenti kuru tutuyor.
 
-Kapasite » S2 tek makara alıyor, Ø 210 × 85 mm. S4 dört makara alıyor, 4 × 1 kg, sekiz filament çıkışı var. E2 iki 1 kg, iki 2 kg ya da tek 3 kg'lık makara alıyor.
+Normalde makarayı AMS'ten çıkarıp kurutucuya koyman, kuruyunca geri takman gerekiyor. Bu kapak o adımı tamamen kaldırıyor.
 
-Sıcaklık » S2 ve S4 35-70 °C. E2 ise 35-110 °C. Bu rakam sadece "daha iyi" demek değil, hangi filamenti kurutabileceğini belirliyor.
+Rakamlar → 35-70 °C aralığı, 20 dakikada 70 °C'ye çıkıyor. Nem göstergesi gerçek ölçüm yapıyor, %10-90 arası gösteriyor. Otomatik modda %50 nemin üstünde devreye girip %20'de kesiyor; başlangıç eşiğini %25-50 arasında kendin ayarlıyorsun. Zamanlayıcı 0-99 saat.
 
-Isıtıcı gücü » S2 48 W, S4 320-350 W PTC ve üç fan, E2 500 W PTC ve çift hazne. S4'te hazne içi sıcaklık farkı ±3 °C'de tutuluyor.
+Kurulum → AMS'in altına girmiyor, kapağının yerine geçiyor. Gevşet, çıkar, sıkıştır; üretici iki dakika diyor. Kalıcı bir değişiklik değil, orijinal kapak geri takılabiliyor.
 
-PLA ve PETG 70 °C'nin altında kuruyor, o yüzden S2 çoğu kullanıcının işini görüyor. Birden çok yazıcı çalıştırıyorsan S4 dört makarayı birlikte kuru tutuyor ve dört yazıcıya kadar besliyor. Naylon ailesi daha yükseğini istiyor: E2'nin hazır profillerinde PA6-CF, PA12-CF, PC ve PPS var, diğer ikisinde yok. E2'de ayrıca tavlama modu ve tepsisi geliyor.
+En kritik nokta → bu ürün yalnız AMS 1. nesil için. AMS Lite'ın ayrı bir modeli var, bu değil. AMS 2 Pro ve AMS HT için SUNLU'nun şu an ürünü yok. Sipariş vermeden önce AMS'inin hangi nesil olduğuna bak; bu üründeki tek iade sebebi bu.
 
-Bir uyarı » 70 °C üstünde kurutuyorsan makaranın kendisi de o sıcaklığa dayanmalı. Ucuz plastik makara deforme olup sarımı kilitleyebiliyor.
+Bilinmesi gerekenler → makara başına ayrı sıcaklık kontrolü yok, dört makara birlikte ısınıyor, yani farklı malzemeleri aynı anda farklı sıcaklıkta kurutamıyorsun. Anma gücü 220 W, ısınma anında 390 W'a çıkıyor. Üretici 10 °C altı ortamda ekrandaki sıcaklığın gerçeğin biraz üstünde kalabileceğini kendisi yazıyor.
 
-Nem niye önemli » nemli filament nozul içinde buharlaşıp kabarcık yapıyor. Tel tel çekme artıyor, yüzey pürüzleniyor, nozuldan çıtırtı geliyor, katman yapışması düşüyor. Bunların hiçbiri slicer ayarıyla düzelmiyor; sorun ayarda değil malzemede. En çok etkilenenler PETG, TPU ve naylon.
+AMS'inden nemli filament yüzünden sürekli bozuk baskı alan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-Retraction mesafesini her baskıda biraz daha artırmaya devam eden bir arkadaşın varsa bu gönderiyi ona yolla — sorun büyük ihtimalle nem.
-
-#sermenkreatif #3dbaski #sunlu #filament #filamentkurutucu #makerturkiye
+#sermenkreatif #3dbaski #bambulab #ams #sunlu #makerturkiye
 ```
 
-## 19:50 · REELS — [2026-10-17-polymaker-ht-pla/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)
+## 19:50 · REELS — [2026-10-15-sunlu-ams-heater/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-sunlu-ams-heater)
 
 Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
@@ -604,26 +594,28 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ## 17:24 · ÜRÜN & MAĞAZA
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-sunlu-ams-heater"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-15-sunlu-ams-heater/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-phaetus-liber-u1/1.jpg" width="240"></a>
 
-**[2026-10-15-sunlu-ams-heater](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-sunlu-ams-heater)** · 5 kare · hikaye 18:04
+**[2026-10-16-phaetus-liber-u1](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1)** · 5 kare · hikaye 18:04
 
 ```
-SUNLU AMS Heater, Bambu Lab AMS'in üst kapağının yerine takılan bir ısıtıcı kapak. Yaptığı iş tek cümlede: baskı sürerken AMS'in içindeki filamenti kuru tutuyor.
+Snapmaker ile Phaetus'un U1 için birlikte çıkardığı Liber hotend geldi. Ne yaptığını ve ne YAPMADIĞINI birlikte yazıyorum, çünkü ikincisi daha çok yanlış biliniyor.
 
-Normalde makarayı AMS'ten çıkarıp kurutucuya koyman, kuruyunca geri takman gerekiyor. Bu kapak o adımı tamamen kaldırıyor.
+Ne yapıyor → nozul içindeki eriyiği birden fazla kanala bölüyor. Eriyiğin yüzey/hacim oranı arttığı için aynı enerjiyle birim zamanda daha fazla filament eriyor. Üreticinin eşit enerji koşulundaki testinde PLA'da %66, ABS'de %87, PETG HF'de %43 daha yüksek hacimsel akış.
 
-Rakamlar → 35-70 °C aralığı, 20 dakikada 70 °C'ye çıkıyor. Nem göstergesi gerçek ölçüm yapıyor, %10-90 arası gösteriyor. Otomatik modda %50 nemin üstünde devreye girip %20'de kesiyor; başlangıç eşiğini %25-50 arasında kendin ayarlıyorsun. Zamanlayıcı 0-99 saat.
+Dikkat → bu hız garantisi değil, akış kapasitesi. Snapmaker'ın kendisi de bunun doğrudan baskı süresine yansımadığını, kazancın baskının ne kadarının eritme kapasitesiyle sınırlı olduğuna bağlı olduğunu yazıyor. Uzun ve kesintisiz ekstrüzyon yollu büyük parçalarda fark açılıyor; bol kıvrımlı, sık yön değiştiren küçük modelde kayboluyor.
 
-Kurulum → AMS'in altına girmiyor, kapağının yerine geçiyor. Gevşet, çıkar, sıkıştır; üretici iki dakika diyor. Kalıcı bir değişiklik değil, orijinal kapak geri takılabiliyor.
+Ne YAPMIYOR → sertleştirilmiş çelik gövdeli diye karbon fiber çözümü sanılıyor. Üretici bu hotend'i karbon ve cam elyaf takviyeli filamentler, ahşap dolgulu filament ve TPU için ÖNERMİYOR; o malzemeler için standart hotend'e yönlendiriyor. Aşındırıcı filament basıyorsan senin alman gereken Snapmaker'ın kendi sertleştirilmiş çelik hotend seti.
 
-En kritik nokta → bu ürün yalnız AMS 1. nesil için. AMS Lite'ın ayrı bir modeli var, bu değil. AMS 2 Pro ve AMS HT için SUNLU'nun şu an ürünü yok. Sipariş vermeden önce AMS'inin hangi nesil olduğuna bak; bu üründeki tek iade sebebi bu.
+Bir şey daha → maksimum sıcaklık 300 °C, yani U1'in standart hotend'iyle birebir aynı. Liber yüksek sıcaklık malzemelerinin kapısını açmıyor.
 
-Bilinmesi gerekenler → makara başına ayrı sıcaklık kontrolü yok, dört makara birlikte ısınıyor, yani farklı malzemeleri aynı anda farklı sıcaklıkta kurutamıyorsun. Anma gücü 220 W, ısınma anında 390 W'a çıkıyor. Üretici 10 °C altı ortamda ekrandaki sıcaklığın gerçeğin biraz üstünde kalabileceğini kendisi yazıyor.
+Pratik not → U1 dört başlıklı bir makine, gerçekte dört adet gerekiyor. Tek tek almak yerine dörtlü set almak hem daha ucuz hem de dört kafa aynı davranıyor. Tek çap var: 0,4 mm.
 
-AMS'inden nemli filament yüzünden sürekli bozuk baskı alan bir arkadaşın varsa bu gönderiyi ona yolla.
+Fiyat ve stok için sermenkreatif.com.
 
-#sermenkreatif #3dbaski #bambulab #ams #sunlu #makerturkiye
+U1'ine hotend arayan bir arkadaşın varsa bu gönderiyi ona yolla — özellikle karbon fiber basacaksa.
+
+#sermenkreatif #3dbaski #snapmaker #phaetus #hotend #makerturkiye
 ```
 
 ## 19:40 · PROJE & ATÖLYE
@@ -650,7 +642,7 @@ Evinin tavan arasına bakmak isteyip de kafasını sokamayan bir arkadaşın var
 #sermenkreatif #maker #robotik #kamerarobotu #makerturkiye
 ```
 
-## 21:10 · REELS — [2026-10-18-bambu-h-serisi-pano/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano)
+## 21:10 · REELS — [2026-10-16-phaetus-liber-u1/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1)
 
 Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
@@ -707,31 +699,34 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ## 17:24 · ÜRÜN & MAĞAZA
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-phaetus-liber-u1/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-polymaker-ht-pla/1.jpg" width="240"></a>
 
-**[2026-10-16-phaetus-liber-u1](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1)** · 5 kare · hikaye 18:04
+**[2026-10-17-polymaker-ht-pla](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)** · 5 kare · hikaye 18:04
 
 ```
-Snapmaker ile Phaetus'un U1 için birlikte çıkardığı Liber hotend geldi. Ne yaptığını ve ne YAPMADIĞINI birlikte yazıyorum, çünkü ikincisi daha çok yanlış biliniyor.
+Polymaker HT-PLA serisi yüksek sıcaklığa dayanıklı PLA diye satılıyor ve bu doğru — ama bir şartı var, onu söylemeyen satıcıdan almayın.
 
-Ne yapıyor → nozul içindeki eriyiği birden fazla kanala bölüyor. Eriyiğin yüzey/hacim oranı arttığı için aynı enerjiyle birim zamanda daha fazla filament eriyor. Üreticinin eşit enerji koşulundaki testinde PLA'da %66, ABS'de %87, PETG HF'de %43 daha yüksek hacimsel akış.
+Isı dayanımı kutudan çıkmıyor, tavlamayla geliyor.
 
-Dikkat → bu hız garantisi değil, akış kapasitesi. Snapmaker'ın kendisi de bunun doğrudan baskı süresine yansımadığını, kazancın baskının ne kadarının eritme kapasitesiyle sınırlı olduğuna bağlı olduğunu yazıyor. Uzun ve kesintisiz ekstrüzyon yollu büyük parçalarda fark açılıyor; bol kıvrımlı, sık yön değiştiren küçük modelde kayboluyor.
+Rakamlar, Polymaker'ın kendi teknik veri sayfasından, tavlama öncesi → sonrası:
 
-Ne YAPMIYOR → sertleştirilmiş çelik gövdeli diye karbon fiber çözümü sanılıyor. Üretici bu hotend'i karbon ve cam elyaf takviyeli filamentler, ahşap dolgulu filament ve TPU için ÖNERMİYOR; o malzemeler için standart hotend'e yönlendiriyor. Aşındırıcı filament basıyorsan senin alman gereken Snapmaker'ın kendi sertleştirilmiş çelik hotend seti.
+HT-PLA, 0,45 MPa yük altında 61,4 → 107,2 °C. Aynı malzeme 1,8 MPa altında 58,6 → 71,7 °C.
+HT-PLA-GF, 0,45 MPa altında 75,5 → 114,7 °C. 1,8 MPa altında 59,7 → 84 °C.
 
-Bir şey daha → maksimum sıcaklık 300 °C, yani U1'in standart hotend'iyle birebir aynı. Liber yüksek sıcaklık malzemelerinin kapısını açmıyor.
+Tavlamadan basarsan elinde normal PLA'dan belirgin farkı olmayan, daha pahalı bir makara kalıyor. 58 °C ile 61 °C arasındaki fark için para vermeye değmez.
 
-Pratik not → U1 dört başlıklı bir makine, gerçekte dört adet gerekiyor. Tek tek almak yerine dörtlü set almak hem daha ucuz hem de dört kafa aynı davranıyor. Tek çap var: 0,4 mm.
+İyi haber → tavlama zor değil. 80-90 °C'de 3 dakika. Fırın, kurutucu ya da ısıtmalı tabla yeter. İnce cidarlı parçalarda aralığın alt ucunu kullanın, yoksa çarpılıyor.
 
-Fiyat ve stok için sermenkreatif.com.
+Üç çeşit, üç ayrı iş → HT-PLA düz sürüm, fonksiyonel parçanın geneli için. HT-PLA Gradient aynı ısı dayanımını renk geçişiyle veriyor, dekoratif iş için. HT-PLA-GF cam elyaf takviyeli; ailenin en yüksek HDT'si ve en rijit olanı, araç içinde kalacak parça varsa bu.
 
-U1'ine hotend arayan bir arkadaşın varsa bu gönderiyi ona yolla — özellikle karbon fiber basacaksa.
+Baskı ayarı üçünde de aynı: nozul 230 °C, tabla 50 °C.
 
-#sermenkreatif #3dbaski #snapmaker #phaetus #hotend #makerturkiye
+Yazın araçta bıraktığı telefon tutucusu eğilen bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #polymaker #htpla #filament #makerturkiye
 ```
 
-## 19:36 · REELS — [2026-10-16-sunlu-filament-pano/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano)
+## 19:36 · REELS — [2026-10-17-polymaker-ht-pla/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)
 
 Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
@@ -811,36 +806,29 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ## 17:24 · ÜRÜN & MAĞAZA
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-polymaker-ht-pla/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-u1-k3-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-u1-k3-pano/1.jpg" width="240"></a>
 
-**[2026-10-17-polymaker-ht-pla](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)** · 5 kare · hikaye 18:04
+**[2026-10-21-u1-k3-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-u1-k3-pano)** · 1 kare · hikaye 18:04
 
 ```
-Polymaker HT-PLA serisi yüksek sıcaklığa dayanıklı PLA diye satılıyor ve bu doğru — ama bir şartı var, onu söylemeyen satıcıdan almayın.
+Çok renkli baskıda asıl maliyet filament değil, her renk değişiminde boşa akıtılan malzeme. AMS ve CFS tipi sistemler nozulu temizlemek için filamenti atıyor; uzun bir çok renkli baskıda çöpe giden miktar parçanın kendisini geçebiliyor.
 
-Isı dayanımı kutudan çıkmıyor, tavlamayla geliyor.
+İki üretici bunu aynı mantıkla çözüyor — temizleme yerine değiştirme — ama farklı seviyede.
 
-Rakamlar, Polymaker'ın kendi teknik veri sayfasından, tavlama öncesi → sonrası:
+Snapmaker U1 » araç kafasının tamamını değiştiriyor. Dört bağımsız kafa var, her birinde kendi 0,4 mm nozulu; değişim yaklaşık 5 saniye. Renk geçişinde filament boşa akmıyor çünkü ortak bir eriyik kanalı yok. 270 × 270 × 270 mm, 500 mm/s, 20.000 mm/s², 32 mm³/s akış. Nozul 300 °C, tabla 100 °C. Pogo pin kontakları bir milyon değişim için derecelendirilmiş. 2 MP kabin kamerası spagetti ve filament bitti algılıyor.
 
-HT-PLA, 0,45 MPa yük altında 61,4 → 107,2 °C. Aynı malzeme 1,8 MPa altında 58,6 → 71,7 °C.
-HT-PLA-GF, 0,45 MPa altında 75,5 → 114,7 °C. 1,8 MPa altında 59,7 → 84 °C.
+Not » kabin ayrıca satılıyor. ABS, ASA, PET, PA ve PC basacaksan üst kapakla birlikte alman gerekiyor, karbon ve cam elyaflı malzemede de sertleştirilmiş nozul. Dört renkten fazlasında filament elle değiştiriliyor.
 
-Tavlamadan basarsan elinde normal PLA'dan belirgin farkı olmayan, daha pahalı bir makara kalıyor. 58 °C ile 61 °C arasındaki fark için para vermeye değmez.
+Creality K3 » yalnız nozul grubunu değiştiriyor. KliTek sistemi tam kafayı değil, nozul grubunu değiştiriyor — ağırlığın yaklaşık beşte biri — ve bunu 4,8 saniyede yapıyor. Buradaki asıl iddia yedek parça maliyeti: nozul grubu yaklaşık 14 dolar, tam kafa değiştiren sistemlerde bu kalem 67 dolar. Gövdesine gömülü 4 makara yuvası var, TPU odaklı; 80A'ya kadar yumuşak filament basıyor.
 
-İyi haber → tavlama zor değil. 80-90 °C'de 3 dakika. Fırın, kurutucu ya da ısıtmalı tabla yeter. İnce cidarlı parçalarda aralığın alt ucunu kullanın, yoksa çarpılıyor.
+K3'ün ön siparişleri ekim ortasında açılıyor, beklenen fiyat 900 doların altı. Baskı alanı, hız ve sıcaklık değerleri Creality yayınladıkça buradan duyuracağız.
 
-Üç çeşit, üç ayrı iş → HT-PLA düz sürüm, fonksiyonel parçanın geneli için. HT-PLA Gradient aynı ısı dayanımını renk geçişiyle veriyor, dekoratif iş için. HT-PLA-GF cam elyaf takviyeli; ailenin en yüksek HDT'si ve en rijit olanı, araç içinde kalacak parça varsa bu.
+Bugün rafta olan U1; ikisinin de bayisiyiz, K3 çıktığında aynı yerde olacak.
 
-Baskı ayarı üçünde de aynı: nozul 230 °C, tabla 50 °C.
+Çok renkli baskıda çöpe giden filamente üzülen bir arkadaşın varsa bu gönderiyi ona yolla.
 
-Yazın araçta bıraktığı telefon tutucusu eğilen bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #polymaker #htpla #filament #makerturkiye
+#sermenkreatif #3dbaski #snapmaker #creality #cokrenklibaski #makerturkiye
 ```
-
-## 19:36 · REELS — [2026-10-18-ender-3-v4-combo/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)
-
-Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
 ## 20:42 · PROJE & ATÖLYE
 
@@ -926,29 +914,31 @@ Vida çevirmeyi seven bir çocuk tanıyorsan bu gönderiyi ona yolla.
 
 ## 17:24 · ÜRÜN & MAĞAZA
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-u1-k3-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-u1-k3-pano/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-sparkx-i7-i8-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-20-sparkx-i7-i8-pano/1.jpg" width="240"></a>
 
-**[2026-10-21-u1-k3-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-u1-k3-pano)** · 1 kare · hikaye 18:04
+**[2026-10-20-sparkx-i7-i8-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-sparkx-i7-i8-pano)** · 1 kare · hikaye 18:04
 
 ```
-Çok renkli baskıda asıl maliyet filament değil, her renk değişiminde boşa akıtılan malzeme. AMS ve CFS tipi sistemler nozulu temizlemek için filamenti atıyor; uzun bir çok renkli baskıda çöpe giden miktar parçanın kendisini geçebiliyor.
+Creality tarafında iki SparkX aynı haberlerde dolaşıyor. Gövde ve hız aynı; ayrım çok renk mekanizmasında ve ikisi farklı yol tutuyor.
 
-İki üretici bunu aynı mantıkla çözüyor — temizleme yerine değiştirme — ama farklı seviyede.
+SPARKX i7 » bugün rafta. 260 × 260 × 255 mm, 500 mm/s, 10.000 mm/s², nozul 300 °C, tabla 100 °C. Çok renk için yanına harici CFS Lite ünitesi geliyor: 4 slot, nem alıcıyla kurutma, RFID tanıma. 720p AI kamerası spagetti ve dolaşma algılıyor. Açık gövde, kabin ısıtması yok. Desteklediği filament PLA, PETG, PLA-CF ve TPU ile sınırlı.
 
-Snapmaker U1 » araç kafasının tamamını değiştiriyor. Dört bağımsız kafa var, her birinde kendi 0,4 mm nozulu; değişim yaklaşık 5 saniye. Renk geçişinde filament boşa akmıyor çünkü ortak bir eriyik kanalı yok. 270 × 270 × 270 mm, 500 mm/s, 20.000 mm/s², 32 mm³/s akış. Nozul 300 °C, tabla 100 °C. Pogo pin kontakları bir milyon değişim için derecelendirilmiş. 2 MP kabin kamerası spagetti ve filament bitti algılıyor.
+SPARKX i8 » kampanyası sürüyor. Teknik verisi yayınlandı: aynı 260 × 260 × 255 mm alan, 500 mm/s, 10.000 mm/s², 81 noktadan otomatik kalibrasyon. Çok renk sistemi QuarTeks — CFS değil, nozula gömülü 4 kanallı bir yapı; purge kulesi olmadan 4 renk basıyor ve kanal değişimi bir saniyenin altında.
 
-Not » kabin ayrıca satılıyor. ABS, ASA, PET, PA ve PC basacaksan üst kapakla birlikte alman gerekiyor, karbon ve cam elyaflı malzemede de sertleştirilmiş nozul. Dört renkten fazlasında filament elle değiştiriliyor.
+i8 şu an Indiegogo kampanyasında; ön sipariş açıldığında buradan duyuracağız.
 
-Creality K3 » yalnız nozul grubunu değiştiriyor. KliTek sistemi tam kafayı değil, nozul grubunu değiştiriyor — ağırlığın yaklaşık beşte biri — ve bunu 4,8 saniyede yapıyor. Buradaki asıl iddia yedek parça maliyeti: nozul grubu yaklaşık 14 dolar, tam kafa değiştiren sistemlerde bu kalem 67 dolar. Gövdesine gömülü 4 makara yuvası var, TPU odaklı; 80A'ya kadar yumuşak filament basıyor.
+K3 bu karşılaştırmaya girmiyor: farklı sınıf, farklı mekanizma. Onu Snapmaker U1 ile karşılaştırdığım ayrı bir gönderide ele aldım.
 
-K3'ün ön siparişleri ekim ortasında açılıyor, beklenen fiyat 900 doların altı. Baskı alanı, hız ve sıcaklık değerleri Creality yayınladıkça buradan duyuracağız.
+Kısaca: bugün kurup basmaya başlamak istiyorsan i7. Purge kulesinden tamamen kurtulmak istiyorsan i8'i bekle — ikisinin de bayisiyiz, i8 çıktığında aynı yerde olacak.
 
-Bugün rafta olan U1; ikisinin de bayisiyiz, K3 çıktığında aynı yerde olacak.
+Çok renkli baskıya geçmeyi düşünen bir arkadaşın varsa bu gönderiyi ona yolla.
 
-Çok renkli baskıda çöpe giden filamente üzülen bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #snapmaker #creality #cokrenklibaski #makerturkiye
+#sermenkreatif #3dbaski #creality #3dyazici #makerturkiye
 ```
+
+## 19:36 · REELS — [2026-10-16-sunlu-filament-pano/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano)
+
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
 ## 20:42 · PROJE & ATÖLYE
 
@@ -1026,26 +1016,26 @@ Okul öncesi çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ## 16:40 · ÜRÜN & MAĞAZA
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-sparkx-i7-i8-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-20-sparkx-i7-i8-pano/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-ender-3-v4-combo/1.jpg" width="240"></a>
 
-**[2026-10-20-sparkx-i7-i8-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-sparkx-i7-i8-pano)** · 1 kare · hikaye 17:20
+**[2026-10-18-ender-3-v4-combo](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)** · 5 kare · hikaye 17:20
 
 ```
-Creality tarafında iki SparkX aynı haberlerde dolaşıyor. Gövde ve hız aynı; ayrım çok renk mekanizmasında ve ikisi farklı yol tutuyor.
+Ender serisi, hobi masasındaki en bilinen isim. Bu kuşakta artık rakamlar da ona göre: 500 mm/s azami hız, 12.000 mm/s² ivme, 300 °C nozul.
 
-SPARKX i7 » bugün rafta. 260 × 260 × 255 mm, 500 mm/s, 10.000 mm/s², nozul 300 °C, tabla 100 °C. Çok renk için yanına harici CFS Lite ünitesi geliyor: 4 slot, nem alıcıyla kurutma, RFID tanıma. 720p AI kamerası spagetti ve dolaşma algılıyor. Açık gövde, kabin ısıtması yok. Desteklediği filament PLA, PETG, PLA-CF ve TPU ile sınırlı.
+Baskı alanı 220 × 220 × 235 mm. Bu sınıf, ilk ciddi makine arayan için doğru yer: küçük parça, fonksiyonel parça, oyuncak, aparat, yedek parça. 220 mm küpü aşan işler basıyorsan bu makine dar gelir, onu baştan söyleyelim.
 
-SPARKX i8 » kampanyası sürüyor. Teknik verisi yayınlandı: aynı 260 × 260 × 255 mm alan, 500 mm/s, 10.000 mm/s², 81 noktadan otomatik kalibrasyon. Çok renk sistemi QuarTeks — CFS değil, nozula gömülü 4 kanallı bir yapı; purge kulesi olmadan 4 renk basıyor ve kanal değişimi bir saniyenin altında.
+Combo adı CFS'li paketi anlatıyor. CFS dört makara taşıyor, dört CFS'e kadar bağlanabiliyor — Creality üst sınırı 16 renk diye veriyor. Makara bitince sıradakine kendisi geçiyor, dolaşma algılaması CFS ile birlikte çalışıyor.
 
-i8 şu an Indiegogo kampanyasında; ön sipariş açıldığında buradan duyuracağız.
+Zamanı yiyen iki işi de kısaltmışlar: tabla ayarı tam otomatik, nozul kapağı mıknatıslı — elle çekip alıyorsun. Titreşim tarafında input shaping var, hızı yükseltince köşelerde iz bırakmasın diye.
 
-K3 bu karşılaştırmaya girmiyor: farklı sınıf, farklı mekanizma. Onu Snapmaker U1 ile karşılaştırdığım ayrı bir gönderide ele aldım.
+Bağlantı: USB bellek, Wi-Fi ve Creality Cloud. Birden fazla makineyi Creality Print üzerinden aynı ağdan yönetebiliyorsun.
 
-Kısaca: bugün kurup basmaya başlamak istiyorsan i7. Purge kulesinden tamamen kurtulmak istiyorsan i8'i bekle — ikisinin de bayisiyiz, i8 çıktığında aynı yerde olacak.
+Kapalı kabini yok. PLA, PETG ve TPU tarafında rahat; ABS ve ASA basacaksan bu makine o iş için değil.
 
-Çok renkli baskıya geçmeyi düşünen bir arkadaşın varsa bu gönderiyi ona yolla.
+Ender-3 V4 Combo sermenkreatif.com'da.
 
-#sermenkreatif #3dbaski #creality #3dyazici #makerturkiye
+#sermenkreatif #3dbaski #creality #ender3 #cokrenklibaski #makerturkiye
 ```
 
 ## 18:10 · PROJE & ATÖLYE
@@ -1072,7 +1062,7 @@ FPV'ye yeni başlayan bir arkadaşın varsa bu gönderiyi ona yolla.
 #sermenkreatif #maker #fpv #cinewhoop #makerturkiye
 ```
 
-## 20:30 · REELS — [2026-10-20-fpv-drone-cinelog20/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-fpv-drone-cinelog20)
+## 20:30 · REELS — [2026-10-18-ender-3-v4-combo/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)
 
 Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
@@ -1103,34 +1093,6 @@ Okul öncesi çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 #sermenkreatif #3dbaski #rakamyapbozu #saymatahtasi #egiticioyuncak #makerturkiye
 ```
-
-## 16:50 · ÜRÜN & MAĞAZA
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-ender-3-v4-combo/1.jpg" width="240"></a>
-
-**[2026-10-18-ender-3-v4-combo](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)** · 5 kare · hikaye 17:30
-
-```
-Ender serisi, hobi masasındaki en bilinen isim. Bu kuşakta artık rakamlar da ona göre: 500 mm/s azami hız, 12.000 mm/s² ivme, 300 °C nozul.
-
-Baskı alanı 220 × 220 × 235 mm. Bu sınıf, ilk ciddi makine arayan için doğru yer: küçük parça, fonksiyonel parça, oyuncak, aparat, yedek parça. 220 mm küpü aşan işler basıyorsan bu makine dar gelir, onu baştan söyleyelim.
-
-Combo adı CFS'li paketi anlatıyor. CFS dört makara taşıyor, dört CFS'e kadar bağlanabiliyor — Creality üst sınırı 16 renk diye veriyor. Makara bitince sıradakine kendisi geçiyor, dolaşma algılaması CFS ile birlikte çalışıyor.
-
-Zamanı yiyen iki işi de kısaltmışlar: tabla ayarı tam otomatik, nozul kapağı mıknatıslı — elle çekip alıyorsun. Titreşim tarafında input shaping var, hızı yükseltince köşelerde iz bırakmasın diye.
-
-Bağlantı: USB bellek, Wi-Fi ve Creality Cloud. Birden fazla makineyi Creality Print üzerinden aynı ağdan yönetebiliyorsun.
-
-Kapalı kabini yok. PLA, PETG ve TPU tarafında rahat; ABS ve ASA basacaksan bu makine o iş için değil.
-
-Ender-3 V4 Combo sermenkreatif.com'da.
-
-#sermenkreatif #3dbaski #creality #ender3 #cokrenklibaski #makerturkiye
-```
-
-## 19:20 · REELS — [2026-10-21-ams-israf/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf)
-
-Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
 ## 20:10 · PROJE & ATÖLYE
 

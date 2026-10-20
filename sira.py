@@ -142,13 +142,51 @@ def kuyruk():
     return d, [_tarihle(s, bas) for s in sl]
 
 
-def reelsler():
+def reelsler(slotlar=None):
+    """Reels takvimi. Reels, kendi klasörünün gönderisiyle aynı güne
+    biniyor.
+
+    Eskiden reels'in kendi gün sırası vardı: aynı ürün bir gün reels,
+    üç gün sonra gönderi olarak çıkıyordu. Listede aynı başlık üç kere
+    görünüyor, takipçiye de aynı şey tekrar tekrar gidiyordu. Artık bir
+    konu tek güne toplanıyor: gönderi, hikayesi ve videosu aynı gün."""
     with open(DURUM, encoding="utf-8") as f:
         d = json.load(f)
     bas = baslangic()
-    return {r["tarih"]: r["klasor"]
-            for r in (_tarihle(x, bas)
-                      for x in d["kuyruk_bekleyen"].get("reels", []))}
+    gonderi_gunu = {s["klasor"]: s["tarih"] for s in (slotlar or [])}
+    gunluk = sorted({s["tarih"] for s in (slotlar or [])})
+    out = {}
+    bekleyen = []
+    for r in (_tarihle(x, bas) for x in d["kuyruk_bekleyen"].get("reels", [])):
+        # Video bir klasörde, o konunun gönderisi başka klasörde
+        # olabiliyor; "gun_klasor" hangi gönderiye bineceğini söylüyor.
+        hedef = r.get("gun_klasor", r["klasor"])
+        t = gonderi_gunu.get(hedef, r["tarih"])
+        if t in out:
+            bekleyen.append(r["klasor"])    # o güne zaten reels düştü
+        else:
+            out[t] = r["klasor"]
+    # Günde tek reels var. Gönderisinin gününe sığmayan video başka bir
+    # güne atılmıyor: atılırsa aynı konu iki ayrı güne yayılıyor, listede
+    # de akışta da tekrar gibi duruyor. Bekliyor, gün açılınca giriyor.
+    for kl in bekleyen:
+        if kl not in gonderi_gunu:          # gönderisi yok, tekrar riski de yok
+            for t in gunluk:
+                if t not in out:
+                    out[t] = kl
+                    break
+        else:
+            print("BEKLEYEN REELS: %s — gönderi günü (%s) dolu"
+                  % (kl, gonderi_gunu[kl]))
+    return out
+
+
+def tekrar_uyarisi(slotlar, reels):
+    """Aynı klasör birden çok gönderi slotuna düşmüş mü, bakıyor."""
+    sayac = {}
+    for s in slotlar:
+        sayac.setdefault(s["klasor"], []).append(s["tarih"])
+    return {k: t for k, t in sayac.items() if len(t) > 1}
 
 
 def kampanyalar():
@@ -179,7 +217,9 @@ def liste():
     d, slotlar = kuyruk()
     gun = gunler(slotlar)
     kamp = kampanyalar()
-    reels = reelsler()
+    reels = reelsler(slotlar)
+    for k, t in tekrar_uyarisi(slotlar, reels).items():
+        print("UYARI: %s %d kere planlanmış (%s)" % (k, len(t), ", ".join(t)))
 
     sat = ["# YAYIN LİSTESİ",
            "",
@@ -299,7 +339,7 @@ def paket():
     metin. Kod bloğunun sağ üstünde GitHub'ın kopyala düğmesi çıkıyor."""
     d, slotlar = kuyruk()
     gun = gunler(slotlar)
-    reels = reelsler()
+    reels = reelsler(slotlar)
 
     sat = ["# YAYIN PAKETİ", "",
            "Her gönderinin kapağı, klasörü ve metni burada. Metin kutusunun "

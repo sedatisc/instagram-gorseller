@@ -433,11 +433,6 @@
         "gun": 3
       },
       {
-        "slot": "urun",
-        "klasor": "2026-10-10-bambu-r1-tanitim",
-        "gun": 3
-      },
-      {
         "slot": "3dbaski",
         "klasor": "2026-10-18-filament-kurutucu-pano",
         "gun": 3
@@ -450,7 +445,7 @@
       {
         "slot": "urun",
         "klasor": "2026-10-14-sunlu-filadryer",
-        "gun": 4
+        "gun": 3
       },
       {
         "slot": "3dbaski",
@@ -465,7 +460,7 @@
       {
         "slot": "urun",
         "klasor": "2026-10-15-sunlu-ams-heater",
-        "gun": 5
+        "gun": 4
       },
       {
         "slot": "3dbaski",
@@ -480,7 +475,7 @@
       {
         "slot": "urun",
         "klasor": "2026-10-16-phaetus-liber-u1",
-        "gun": 6
+        "gun": 5
       },
       {
         "slot": "3dbaski",
@@ -495,7 +490,7 @@
       {
         "slot": "urun",
         "klasor": "2026-10-17-polymaker-ht-pla",
-        "gun": 7
+        "gun": 6
       },
       {
         "slot": "3dbaski",
@@ -515,7 +510,7 @@
       {
         "slot": "urun",
         "klasor": "2026-10-21-u1-k3-pano",
-        "gun": 8
+        "gun": 7
       },
       {
         "slot": "3dbaski",
@@ -535,7 +530,7 @@
       {
         "slot": "urun",
         "klasor": "2026-10-20-sparkx-i7-i8-pano",
-        "gun": 9
+        "gun": 8
       },
       {
         "slot": "3dbaski",
@@ -555,7 +550,7 @@
       {
         "slot": "urun",
         "klasor": "2026-10-18-ender-3-v4-combo",
-        "gun": 10
+        "gun": 9
       },
       {
         "slot": "baski",
@@ -606,7 +601,8 @@
     "reels": [
       {
         "klasor": "2026-10-10-bambu-r1-tanitim",
-        "gun": 0
+        "gun": 0,
+        "gun_klasor": "2026-10-06-bambu-r1-lazer"
       },
       {
         "klasor": "2026-10-14-sunlu-filadryer",
