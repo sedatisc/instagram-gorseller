@@ -10,6 +10,80 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme.
 
 # 2026-10-22 · Perşembe
 
+## 08:12 · AYAR & REHBER
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-yuksek-akisli-nozzle"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-22-yuksek-akisli-nozzle/1.jpg" width="240"></a>
+
+**[2026-10-22-yuksek-akisli-nozzle](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-yuksek-akisli-nozzle)** · 4 kare · hikaye 08:52
+
+```
+Yüksek akışlı nozzle gerçekten hızlandırıyor mu? Hotend'i değiştirip dilimleyicide hızı 300 mm/s'ye çeken herkesin baskısı kısalmıyor, çünkü akış tek başına süreyi belirlemiyor.
+
+Nozuldan saniyede çıkan hacim üç sayının çarpımı: hat genişliği × katman yüksekliği × hız. 0,42 mm hat, 0,2 mm katman ve 150 mm/s birlikte 12,6 mm³/s ediyor. Standart 0,4 pirinç hotend bu civarda, 10-12 mm³/s'de tıkanıyor; yüksek akışlı sürümler 25-35 mm³/s iddia ediyor. Sınırı koyan deliğin çapı değil, filamentin erimeye vakit bulduğu eriyik bölgesi.
+
+Tavanı yükseltmenin ucuz yolu hotend değil: 0,4 nozul ve 0,2 mm katmandan 0,6 nozul ve 0,3 mm katmana geçmek kesiti %125 büyütüyor. Bedeli çözünürlük — 0,6 mm'den ince duvar artık basılmıyor.
+
+Akış tavanı yükselince sıra bir sonraki darboğaza geliyor. Katman 8-10 saniyenin altına inerse soğutma yetişmiyor, köşeler sarkıyor; nozul sıcaklığı 10-15 °C yukarı çıkıyor. Küçük ve detaylı parçada ise kafa hiçbir doğruyu tam hızda gitmiyor: orada süreyi ivme belirliyor, akış hiç devreye girmiyor.
+
+Kısacası kazanç dolgu ve duvarda, yani büyük yüzeylerde. Küçük parçada sıfır.
+
+Hotend değiştirip "niye hızlanmadı" diyen bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #3dprinting #hotend #3dbaskiturkiye
+```
+
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-servis-kaseleri"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-22-servis-kaseleri/1.jpg" width="240"></a>
+
+**[2026-10-22-servis-kaseleri](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-servis-kaseleri)** · 6 kare · hikaye 13:18
+
+```
+3D baskı servis ve sunum ürünleri: bir tepsi, üç kâse. Dördü de kendi tezgâhımızda, Amasya'daki atölyede basıldı.
+
+Dalga Formlu Tepsi » kenarı dalga gibi kıvrılıyor, yüzeyi boydan boya ince fitilli. Meyve, ekmek ve ikramlık taşıyacak boyda.
+
+Dalga Formlu Kâse » iki parça: kıvrımlı açık kâse, altında mat siyah kaide. Kâse kaideden çıkıyor, ayrı yıkanıyor.
+
+Yaprak Kâse » ağzı yaprak kenarı gibi kıvrımlı, gövdesi sığ ve geniş. Koyudan açık yeşile dönen yüzey ışık altında damar gibi okunuyor.
+
+Taş Dokulu Kâse » mat taş dokusu parmak izi tutmuyor. Kâse olarak ikramlık, toprakla sukulent saksısı — drenaj deliği yok, iç kap kullan.
+
+Dördü de sermenkreatif.com'da, 3D Baskı Ürünleri kategorisinde. Kendi dosyanı bastırmak istersen baskı hizmeti sayfasından dosyanı yükleyip fiyatı anında görebiliyorsun.
+
+Masasını toparlamaya çalışan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #3dprinting #dekorasyon #3dbaskiturkiye
+```
+
+## 17:24 · ÜRÜN & MAĞAZA
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-creality-k2-plus"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-22-creality-k2-plus/1.jpg" width="240"></a>
+
+**[2026-10-22-creality-k2-plus](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-creality-k2-plus)** · 6 kare · hikaye 18:04
+
+```
+Creality K2 Plus Combo, 350 mm küp baskı alanı ve aktif ısıtmalı kapalı kabiniyle serinin amiral gemisi. Kapalı kabin çoğu makinede pasif, yani yalnız sıcağı içeride tutuyor; burada kabinin kendi ısıtıcısı var ve 60 °C'ye kadar çıkıyor.
+
+Rakamlar » 350 × 350 × 350 mm alan, 600 mm/s hız, 30.000 mm/s² ivme, 40 mm³/s akış. Nozul 350 °C, tabla 120 °C. Apus çift dişli direct drive ve sertleştirilmiş çelik nozul standart geliyor. Hepsi üretici beyanı; bağımsız hız ve ivme testi henüz yayınlanmadı.
+
+Ne işe yarıyor » ortam sıcaklığı düşmediği için ABS, ASA, PA-CF ve PPA-CF çekmeden basılıyor. CFS ile dört makara, dört üniteyle on altı renk. Kabin ve nozul kamerası akış kalibrasyonunu ve hatayı takip ediyor.
+
+Dikkat » 33,5 kg ve 495 × 515 × 640 mm; iki kişi taşıyor, sağlam bir tezgâh şart. TPU önerilmiyor, esnek filament CFS'ten geçmiyor. CFS'te aktif kurutma yok, renk değişiminde purge atığı var. 300 mm/s üstünde köşelerde ringing bildiriliyor.
+
+Kime uyar » mühendislik filamentiyle büyük parça basan atölye. Kime uymaz » TPU ağırlıklı ve küçük masa işi yapan.
+
+Güncel durumu ve seçenekleri sermenkreatif.com'da görebilirsin. @creality3dofficial
+
+Kapalı kabinli büyük bir makine arayan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #creality #3dyazici #makerturkiye
+```
+
+## 19:36 · REELS — [2026-10-22-creality-k2-plus/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-creality-k2-plus)
+
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
+
 ## 20:42 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-12-urun-fotografi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-12-urun-fotografi/1.jpg" width="240"></a>
