@@ -230,6 +230,9 @@ def liste():
            "kuyruk `DURUM.json` içinde.",
            ""]
 
+    yayinlanan = {(x.get("tarih"), x.get("slot")): x.get("klasor")
+                  for x in d.get("gecmis", []) if x.get("klasor")}
+
     eksik = []
     for tarih, sl in gun.items():
         g = date.fromisoformat(tarih).weekday()
@@ -246,6 +249,15 @@ def liste():
             if not s:
                 if tarih < date.today().isoformat():
                     continue          # geçmiş gün; boş slot aranmıyor
+                # Elle paylaşılan gönderi kuyruktan düşüyor, slot da boş
+                # görünüyordu: "üretilecek" diye duran satır aslında o
+                # gün yayınlanmış işti.
+                y = yayinlanan.get((tarih, ad))
+                if y:
+                    satirlar.append((saat(g, ad),
+                                     "Yayınlandı | %s | `%s` | —"
+                                     % (BASLIK[ad], y)))
+                    continue
                 eksik.append((tarih, ad))
                 satirlar.append((saat(g, ad),
                                  "— | **%s** | _boş — üretilecek_ | —"

@@ -365,6 +365,24 @@
       "slot": "urun",
       "klasor": "2026-10-19-yazicilar",
       "not": "Elle paylaşıldı"
+    },
+    {
+      "tarih": "2026-10-21",
+      "slot": "3dbaski",
+      "klasor": "2026-10-12-yapisma-yuzeyleri",
+      "not": "Elle paylaşıldı"
+    },
+    {
+      "tarih": "2026-10-21",
+      "slot": "baski",
+      "klasor": "2026-10-22-geometrik-siralama",
+      "not": "Elle paylaşıldı"
+    },
+    {
+      "tarih": "2026-10-21",
+      "slot": "urun",
+      "klasor": "2026-10-14-sunlu-filadryer",
+      "not": "Elle paylaşıldı"
     }
   ],
   "yayinlanmis_disarida": [
@@ -382,11 +400,6 @@
   "kuyruk_bekleyen": {
     "not": "Gunde 4 gonderi + 4 hikaye + 1 reels. Kayitlardaki 'gun' planin kacinci gunu (0 = ilk gun); takvim tarihi otomasyon/plan-durumu.json icindeki 'baslangic'a gore hesaplaniyor. Sabit tarih tutuluyordu ve yayinci kapaliyken her gun bir gun plan siliniyordu. Saat izgarasi sira.py icinde, liste YAYIN-LISTESI.md. Yayin: otomasyon/yayinla.py GitHub Actions'ta 20 dakikada bir bakiyor; depoda IG_USER_ID ve IG_TOKEN secret'lari yoksa hicbir sey yayinlanmaz (otomasyon/YAYIN-KURULUM.md). Ilk gercek yayinda plan o gune oturuyor. Metricool kotasi dolu, o yol kullanilmiyor.",
     "slotlar": [
-      {
-        "slot": "3dbaski",
-        "klasor": "2026-10-12-yapisma-yuzeyleri",
-        "gun": 0
-      },
       {
         "slot": "3dbaski",
         "klasor": "2026-10-13-nozzle-capi",
@@ -431,11 +444,6 @@
         "slot": "3dbaski",
         "klasor": "2026-10-17-cok-renkli-yazici-pano",
         "gun": 9
-      },
-      {
-        "slot": "baski",
-        "klasor": "2026-10-22-geometrik-siralama",
-        "gun": 0
       },
       {
         "slot": "baski",
@@ -491,11 +499,6 @@
         "slot": "baski",
         "klasor": "2026-11-02-kesir-daireleri",
         "gun": 11
-      },
-      {
-        "slot": "urun",
-        "klasor": "2026-10-14-sunlu-filadryer",
-        "gun": 0
       },
       {
         "slot": "urun",
@@ -600,10 +603,6 @@
     ],
     "reels": [
       {
-        "klasor": "2026-10-14-sunlu-filadryer",
-        "gun": 1
-      },
-      {
         "klasor": "2026-10-15-sunlu-ams-heater",
         "gun": 2
       },
@@ -687,6 +686,11 @@
       {
         "klasor": "2026-10-10-bambu-r1-tanitim",
         "neden": "Yayından çıkarıldı"
+      },
+      {
+        "klasor": "2026-10-14-sunlu-filadryer",
+        "tur": "reels",
+        "neden": "Gönderisi yayınlandı; video beklemede"
       }
     ],
     "iptal": [

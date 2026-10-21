@@ -8,14 +8,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 08:12 | Gönderi | AYAR & REHBER | `2026-10-12-yapisma-yuzeyleri` | 5 |
-| 08:52 | Hikaye | AYAR & REHBER | `2026-10-12-yapisma-yuzeyleri/hikaye.jpg` | 1 |
+| 08:12 | Yayınlandı | AYAR & REHBER | `2026-10-12-yapisma-yuzeyleri` | — |
 | 10:30 | Kampanya hikaye | — | `2026-10-19-trendyol-magaza/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-22-geometrik-siralama` | 5 |
-| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-22-geometrik-siralama/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-14-sunlu-filadryer` | 5 |
-| 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-14-sunlu-filadryer/hikaye.jpg` | 1 |
-| 19:36 | **Reels** | — | `2026-10-14-sunlu-filadryer/reels.mp4` | video |
+| 12:38 | Yayınlandı | BASKI ÜRÜNLERİ | `2026-10-22-geometrik-siralama` | — |
+| 17:24 | Yayınlandı | ÜRÜN & MAĞAZA | `2026-10-14-sunlu-filadryer` | — |
+| 19:36 | **Reels** | — | _boş — üretilecek_ | — |
 | 20:42 | Gönderi | PROJE & ATÖLYE | `2026-10-12-urun-fotografi` | 4 |
 | 21:22 | Hikaye | PROJE & ATÖLYE | `2026-10-12-urun-fotografi/hikaye.jpg` | 1 |
 
@@ -179,6 +176,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — kuyruk `DURUM.js
 
 Bu slotlar için içerik henüz üretilmedi:
 
+- 2026-10-21 · REELS
 - 2026-10-30 · REELS
 - 2026-10-31 · AYAR & REHBER
 - 2026-10-31 · PROJE & ATÖLYE
