@@ -383,14 +383,54 @@
     "not": "Gunde 4 gonderi + 4 hikaye + 1 reels. Kayitlardaki 'gun' planin kacinci gunu (0 = ilk gun); takvim tarihi otomasyon/plan-durumu.json icindeki 'baslangic'a gore hesaplaniyor. Sabit tarih tutuluyordu ve yayinci kapaliyken her gun bir gun plan siliniyordu. Saat izgarasi sira.py icinde, liste YAYIN-LISTESI.md. Yayin: otomasyon/yayinla.py GitHub Actions'ta 20 dakikada bir bakiyor; depoda IG_USER_ID ve IG_TOKEN secret'lari yoksa hicbir sey yayinlanmaz (otomasyon/YAYIN-KURULUM.md). Ilk gercek yayinda plan o gune oturuyor. Metricool kotasi dolu, o yol kullanilmiyor.",
     "slotlar": [
       {
-        "slot": "proje",
-        "klasor": "2026-10-11-musteriye-fiyat",
+        "slot": "3dbaski",
+        "klasor": "2026-10-12-yapisma-yuzeyleri",
         "gun": 0
       },
       {
         "slot": "3dbaski",
-        "klasor": "2026-10-12-yapisma-yuzeyleri",
-        "gun": 0
+        "klasor": "2026-10-13-nozzle-capi",
+        "gun": 1
+      },
+      {
+        "slot": "3dbaski",
+        "klasor": "2026-10-18-filament-kurutucu-pano",
+        "gun": 2
+      },
+      {
+        "slot": "3dbaski",
+        "klasor": "2026-10-19-bambu-a-serisi-pano",
+        "gun": 3
+      },
+      {
+        "slot": "3dbaski",
+        "klasor": "2026-10-18-sert-nozul",
+        "gun": 4
+      },
+      {
+        "slot": "3dbaski",
+        "klasor": "2026-10-18-bambu-h-serisi-pano",
+        "gun": 5
+      },
+      {
+        "slot": "3dbaski",
+        "klasor": "2026-10-16-sunlu-filament-pano",
+        "gun": 6
+      },
+      {
+        "slot": "3dbaski",
+        "klasor": "2026-10-21-ams-israf",
+        "gun": 7
+      },
+      {
+        "slot": "3dbaski",
+        "klasor": "2026-10-19-heat-set-insert",
+        "gun": 8
+      },
+      {
+        "slot": "3dbaski",
+        "klasor": "2026-10-17-cok-renkli-yazici-pano",
+        "gun": 9
       },
       {
         "slot": "baski",
@@ -398,124 +438,9 @@
         "gun": 0
       },
       {
-        "slot": "proje",
-        "klasor": "2026-10-12-urun-fotografi",
-        "gun": 1
-      },
-      {
-        "slot": "urun",
-        "klasor": "2026-10-20-anycubic-recine",
-        "gun": 1
-      },
-      {
-        "slot": "3dbaski",
-        "klasor": "2026-10-21-filament-rehberi",
-        "gun": 1
-      },
-      {
-        "slot": "proje",
-        "klasor": "2026-10-13-olcu-dogrulama",
-        "gun": 2
-      },
-      {
-        "slot": "urun",
-        "klasor": "2026-10-21-filament-cesitleri",
-        "gun": 2
-      },
-      {
-        "slot": "3dbaski",
-        "klasor": "2026-10-13-nozzle-capi",
-        "gun": 2
-      },
-      {
-        "slot": "proje",
-        "klasor": "2026-10-14-siparis-sorulari",
-        "gun": 3
-      },
-      {
-        "slot": "3dbaski",
-        "klasor": "2026-10-18-filament-kurutucu-pano",
-        "gun": 3
-      },
-      {
-        "slot": "proje",
-        "klasor": "2026-10-15-3d-tarayici",
-        "gun": 4
-      },
-      {
-        "slot": "urun",
-        "klasor": "2026-10-14-sunlu-filadryer",
-        "gun": 3
-      },
-      {
-        "slot": "3dbaski",
-        "klasor": "2026-10-18-bambu-h-serisi-pano",
-        "gun": 4
-      },
-      {
-        "slot": "proje",
-        "klasor": "2026-10-16-tavan-arasi-kamera-robotu",
-        "gun": 5
-      },
-      {
-        "slot": "urun",
-        "klasor": "2026-10-15-sunlu-ams-heater",
-        "gun": 4
-      },
-      {
-        "slot": "3dbaski",
-        "klasor": "2026-10-19-bambu-a-serisi-pano",
-        "gun": 5
-      },
-      {
-        "slot": "proje",
-        "klasor": "2026-10-17-rc-tank",
-        "gun": 6
-      },
-      {
-        "slot": "urun",
-        "klasor": "2026-10-16-phaetus-liber-u1",
-        "gun": 5
-      },
-      {
-        "slot": "3dbaski",
-        "klasor": "2026-10-18-sert-nozul",
-        "gun": 6
-      },
-      {
-        "slot": "proje",
-        "klasor": "2026-10-18-toplulukta-ariza",
-        "gun": 7
-      },
-      {
-        "slot": "urun",
-        "klasor": "2026-10-17-polymaker-ht-pla",
-        "gun": 6
-      },
-      {
-        "slot": "3dbaski",
-        "klasor": "2026-10-19-heat-set-insert",
-        "gun": 7
-      },
-      {
         "slot": "baski",
         "klasor": "2026-10-23-sekil-cark-tahtasi",
         "gun": 1
-      },
-      {
-        "slot": "proje",
-        "klasor": "2026-10-19-oyuncak-yol-seti",
-        "gun": 8
-      },
-      {
-        "slot": "urun",
-        "klasor": "2026-10-21-u1-k3-pano",
-        "gun": 7
-      },
-      {
-        "slot": "3dbaski",
-        "klasor": "2026-10-16-sunlu-filament-pano",
-        "gun": 8
       },
       {
         "slot": "baski",
@@ -523,34 +448,9 @@
         "gun": 2
       },
       {
-        "slot": "proje",
-        "klasor": "2026-10-20-fpv-drone-cinelog20",
-        "gun": 9
-      },
-      {
-        "slot": "urun",
-        "klasor": "2026-10-20-sparkx-i7-i8-pano",
-        "gun": 8
-      },
-      {
-        "slot": "3dbaski",
-        "klasor": "2026-10-21-ams-israf",
-        "gun": 9
-      },
-      {
         "slot": "baski",
         "klasor": "2026-10-25-aktivite-tahtasi",
         "gun": 3
-      },
-      {
-        "slot": "proje",
-        "klasor": "2026-10-21-pi5-ekran-standi",
-        "gun": 10
-      },
-      {
-        "slot": "urun",
-        "klasor": "2026-10-18-ender-3-v4-combo",
-        "gun": 9
       },
       {
         "slot": "baski",
@@ -594,16 +494,111 @@
       },
       {
         "slot": "urun",
-        "klasor": "2026-10-06-bambu-r1-lazer",
+        "klasor": "2026-10-14-sunlu-filadryer",
         "gun": 0
+      },
+      {
+        "slot": "urun",
+        "klasor": "2026-10-15-sunlu-ams-heater",
+        "gun": 1
+      },
+      {
+        "slot": "urun",
+        "klasor": "2026-10-16-phaetus-liber-u1",
+        "gun": 2
+      },
+      {
+        "slot": "urun",
+        "klasor": "2026-10-17-polymaker-ht-pla",
+        "gun": 3
+      },
+      {
+        "slot": "urun",
+        "klasor": "2026-10-18-ender-3-v4-combo",
+        "gun": 4
+      },
+      {
+        "slot": "urun",
+        "klasor": "2026-10-21-filament-cesitleri",
+        "gun": 5
+      },
+      {
+        "slot": "urun",
+        "klasor": "2026-10-20-anycubic-recine",
+        "gun": 6
+      },
+      {
+        "slot": "urun",
+        "klasor": "2026-10-20-sparkx-i7-i8-pano",
+        "gun": 7
+      },
+      {
+        "slot": "urun",
+        "klasor": "2026-10-21-u1-k3-pano",
+        "gun": 8
+      },
+      {
+        "slot": "urun",
+        "klasor": "2026-10-13-phaetus-conch-nozul",
+        "gun": 9
+      },
+      {
+        "slot": "urun",
+        "klasor": "2026-10-20-neden-sermen",
+        "gun": 10
+      },
+      {
+        "slot": "proje",
+        "klasor": "2026-10-12-urun-fotografi",
+        "gun": 0
+      },
+      {
+        "slot": "proje",
+        "klasor": "2026-10-13-olcu-dogrulama",
+        "gun": 1
+      },
+      {
+        "slot": "proje",
+        "klasor": "2026-10-14-siparis-sorulari",
+        "gun": 2
+      },
+      {
+        "slot": "proje",
+        "klasor": "2026-10-15-3d-tarayici",
+        "gun": 3
+      },
+      {
+        "slot": "proje",
+        "klasor": "2026-10-16-tavan-arasi-kamera-robotu",
+        "gun": 4
+      },
+      {
+        "slot": "proje",
+        "klasor": "2026-10-17-rc-tank",
+        "gun": 5
+      },
+      {
+        "slot": "proje",
+        "klasor": "2026-10-18-toplulukta-ariza",
+        "gun": 6
+      },
+      {
+        "slot": "proje",
+        "klasor": "2026-10-19-oyuncak-yol-seti",
+        "gun": 7
+      },
+      {
+        "slot": "proje",
+        "klasor": "2026-10-20-fpv-drone-cinelog20",
+        "gun": 8
+      },
+      {
+        "slot": "proje",
+        "klasor": "2026-10-21-pi5-ekran-standi",
+        "gun": 9
       }
     ],
     "reels": [
-      {
-        "klasor": "2026-10-10-bambu-r1-tanitim",
-        "gun": 0,
-        "gun_klasor": "2026-10-06-bambu-r1-lazer"
-      },
       {
         "klasor": "2026-10-14-sunlu-filadryer",
         "gun": 1
@@ -676,6 +671,22 @@
         "klasor": "2026-10-21-hediyelik",
         "slot": "baski",
         "neden": "Atölye ürünleri yayından çıkarıldı"
+      },
+      {
+        "klasor": "2026-10-06-bambu-r1-lazer",
+        "neden": "Yayından çıkarıldı"
+      },
+      {
+        "klasor": "2026-10-11-musteriye-fiyat",
+        "neden": "Yayından çıkarıldı"
+      },
+      {
+        "klasor": "2026-10-21-filament-rehberi",
+        "neden": "Yayından çıkarıldı"
+      },
+      {
+        "klasor": "2026-10-10-bambu-r1-tanitim",
+        "neden": "Yayından çıkarıldı"
       }
     ],
     "iptal": [
