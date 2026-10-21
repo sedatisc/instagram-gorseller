@@ -1,0 +1,164 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "kiraz",
+  "kapak": {
+    "tip": "urun",
+    "gorsel": "urun/k2-plus-combo-kapak.png",
+    "odak": 0.5,
+    "ustbilgi": "FDM · CoreXY · KAPALI KABİN",
+    "satir1": "CREALITY",
+    "satir2": "K2 PLUS COMBO",
+    "spot": "350 mm küp alan, 60 °C'ye kadar aktif ısıtmalı kabin ve CFS çok renk sistemi. Mühendislik filamentiyle büyük parça basan atölyenin makinesi.",
+    "ozet": [
+      [
+        "ALAN",
+        "350 × 350 × 350 mm"
+      ],
+      [
+        "NOZUL",
+        "350 °C"
+      ],
+      [
+        "ÇOK RENK",
+        "CFS · 4 makara"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Rakamlar ne diyor",
+      "aciklama": "Tablodaki değerlerin tamamı Creality'nin kendi ürün sayfasından, yani üretici beyanı. Bağımsız hız ve ivme testi henüz yayınlanmadı; çıktığında buraya not düşeceğim.",
+      "tablo": [
+        [
+          "BASKI ALANI",
+          "350 × 350 × 350 mm"
+        ],
+        [
+          "HIZ",
+          "600 mm/s"
+        ],
+        [
+          "İVME",
+          "30.000 mm/s²"
+        ],
+        [
+          "AKIŞ",
+          "40 mm³/s"
+        ],
+        [
+          "NOZUL / TABLA",
+          "350 °C / 120 °C"
+        ],
+        [
+          "KABİN",
+          "60 °C aktif"
+        ]
+      ]
+    },
+    {
+      "baslik": "Bu makineyi ayıran ne",
+      "aciklama": "Kapalı kabin çoğu makinede pasif, yani yalnız sıcağı içeride tutuyor. Burada kabinin kendi ısıtıcısı var: ABS, ASA, PA-CF ve PPA-CF ortam sıcaklığı düşmediği için çekmeden basılıyor. Nozul 350 °C'ye çıktığı için malzeme listesi de buna uyuyor.",
+      "satirlar": [
+        [
+          "01",
+          "60 °C aktif ısıtmalı kabin — ABS, ASA, PA-CF, PPA-CF kapaklı ortamda"
+        ],
+        [
+          "02",
+          "350 °C nozul ve 120 °C tabla, serinin en yüksek değerleri"
+        ],
+        [
+          "03",
+          "350 mm küp alan: tek seferde büyük parça ya da dolu plaka"
+        ],
+        [
+          "04",
+          "Apus çift dişli direct drive, sertleştirilmiş çelik nozul, 40 mm³/s"
+        ],
+        [
+          "05",
+          "Kabin ve nozul kamerası ile akış kalibrasyonu ve hata takibi"
+        ]
+      ]
+    },
+    {
+      "baslik": "Masaya ve prize bakın",
+      "aciklama": "Satın alma kararının en çok atlanan kısmı burası. 33,5 kg'lık ve yarım metreyi geçen bir gövde, taşıma için iki kişi ve sağlam bir tezgâh istiyor; kabin ısıtıcısı da prizde yer tutuyor.",
+      "tablo": [
+        [
+          "CİHAZ ÖLÇÜSÜ",
+          "495 × 515 × 640 mm"
+        ],
+        [
+          "AĞIRLIK",
+          "33,5 kg"
+        ],
+        [
+          "GÜÇ",
+          "1.200 W"
+        ],
+        [
+          "KABİN ISITICISI",
+          "800 W"
+        ],
+        [
+          "ÇOK RENK",
+          "4 makara · 4 üniteyle 16"
+        ],
+        [
+          "BAĞLANTI",
+          "Wi-Fi · Ethernet · USB"
+        ]
+      ]
+    },
+    {
+      "baslik": "Satıcının söylemedikleri",
+      "aciklama": "Her makinenin bir bedeli var; bu modelin bedeli ağırlığı, esnek filamentle sınırı ve çok renkte attığı atık. Karar verirken bunlar da masada olsun.",
+      "satirlar": [
+        [
+          "01",
+          "33,5 kg ve 495 × 515 × 640 mm — iki kişi taşıyor, sağlam tezgâh şart"
+        ],
+        [
+          "02",
+          "TPU önerilmiyor, esnek filament CFS'ten geçmiyor"
+        ],
+        [
+          "03",
+          "CFS'te aktif kurutma yok; renk değişiminde purge atığı var"
+        ],
+        [
+          "04",
+          "Nozul değişimi vidalı, önce ısıtmak gerekiyor"
+        ],
+        [
+          "05",
+          "300 mm/s üstünde köşelerde ringing bildiriliyor"
+        ]
+      ]
+    }
+  ],
+  "kapanis": {
+    "satir1": "SENİN İŞİNE",
+    "satir2": "YARAR MI?",
+    "kriterler": [
+      [
+        "KİME UYAR",
+        "mühendislik filamenti basan atölye"
+      ],
+      [
+        "KİME UYMAZ",
+        "TPU ve küçük masa işi"
+      ],
+      [
+        "SINIF",
+        "kapalı kabinli amiral gemisi"
+      ],
+      [
+        "GÜNCEL DURUM",
+        "sermenkreatif.com"
+      ]
+    ],
+    "not": "Rakamların tamamı üretici beyanı. Bağımsız hız ve ivme testi henüz yayınlanmadı."
+  }
+}

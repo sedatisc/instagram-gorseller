@@ -1,0 +1,42 @@
+{
+  "kategori": "3dbaski",
+  "tip": "grup",
+  "renk": "turuncu",
+  "etiket": "baskı ürünleri",
+  "baslik": "Servis ve sunum",
+  "alt": "Bir tepsi, üç kâse. Dördü de kendi tezgâhımızda basıldı.",
+  "spot": "4 parça · masaya çıkan baskı",
+  "kunye": "Masada hangisi duracak?",
+  "kapanis_ust": "dördü de burada",
+  "kapanis_alt": "sermenkreatif.com · 3D Baskı Ürünleri",
+  "urunler": [
+    {
+      "slug": "dalga-formlu-modern-dekoratif-tepsi",
+      "ad": "Dalga Formlu Tepsi",
+      "etiket": "tepsi",
+      "renk": "turuncu",
+      "satir": "Kenarı dalga gibi kıvrılıyor, yüzeyi boydan boya ince fitilli. Meyve, ekmek ve ikramlık taşıyacak boyda; ortadaki geniş tabana beş altı parça rahat sığıyor."
+    },
+    {
+      "slug": "-dalga-formlu-modern-kase",
+      "ad": "Dalga Formlu Kâse",
+      "etiket": "kâse",
+      "renk": "mavi",
+      "satir": "İki parça: kıvrımlı açık kâse ve altında mat siyah kaide. Kâse kaideden çıkıyor, ayrı yıkanıyor. Çerez, kuru yemiş ve ikramlık ölçüsünde."
+    },
+    {
+      "slug": "-sonbahar-ruzgari-yaprak-kase",
+      "ad": "Yaprak Kâse",
+      "etiket": "kâse",
+      "renk": "yesil",
+      "satir": "Ağzı yaprak kenarı gibi kıvrımlı, gövdesi sığ ve geniş. Koyudan açık yeşile dönen yüzey ışık altında damar gibi okunuyor; kuru yemiş ve şekerlik için."
+    },
+    {
+      "slug": "tas-dokulu-minimal-saksi-cok-amacli-dekoratif-kase",
+      "ad": "Taş Dokulu Kâse",
+      "etiket": "çok amaçlı",
+      "renk": "mor",
+      "satir": "Mat taş dokusu parmak izi tutmuyor, kalın cidarı sağlam duruyor. Kâse olarak ikramlık, toprakla sukulent saksısı — drenaj deliği yok, iç kap kullan."
+    }
+  ]
+}

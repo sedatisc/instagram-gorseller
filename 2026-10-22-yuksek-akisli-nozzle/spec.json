@@ -1,0 +1,95 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "indigo",
+  "kapak": {
+    "tip": "izgara",
+    "ustbilgi": "NOZUL VE AKIŞ",
+    "satir1": "YÜKSEK AKIŞLI NOZUL",
+    "satir2": "GERÇEKTEN HIZLANDIRIR MI?",
+    "spot": "Hotend'i değiştirdin, dilimleyicide hız 300 mm/s yazıyor ama baskı eskisi kadar sürüyor. Çünkü akış tek başına bir şeyi hızlandırmıyor.",
+    "kartlar": [
+      {
+        "etiket": "AKIŞ NASIL ÇIKAR",
+        "deger": "12,6 mm³/s",
+        "alt": "0,42 mm hat × 0,2 mm katman × 150 mm/s",
+        "renk": "mavi",
+        "ikon": "olcu"
+      },
+      {
+        "etiket": "STANDART 0,4 HOTEND",
+        "deger": "10-12 mm³/s",
+        "alt": "Kısa eriyik bölgesi. PLA'da pratik tavan burası.",
+        "renk": "turuncu",
+        "ikon": "nozzle"
+      },
+      {
+        "etiket": "YÜKSEK AKIŞLI 0,4",
+        "deger": "25-35 mm³/s",
+        "alt": "Delik aynı, eriyik bölgesi uzun. Üretici beyanı.",
+        "renk": "kirmizi",
+        "ikon": "damla"
+      },
+      {
+        "etiket": "0,6 NOZUL · 0,3 KATMAN",
+        "deger": "+%125",
+        "alt": "Kesit büyüyor: aynı hızda iki kattan fazla malzeme.",
+        "renk": "yesil",
+        "ikon": "katman",
+        "durum": "dogru"
+      },
+      {
+        "etiket": "SOĞUTMA BORCU",
+        "deger": "2 KAT",
+        "alt": "İki kat plastik, saniyede iki kat ısı atılacak.",
+        "renk": "mor",
+        "ikon": "isi"
+      },
+      {
+        "etiket": "KÜÇÜK PARÇADA KAZANÇ",
+        "deger": "%0",
+        "alt": "Süreyi ivme ve yön değişimi belirliyor, akış değil.",
+        "renk": "sari",
+        "ikon": "hiz",
+        "durum": "yanlis"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Akış neyle sınırlı",
+      "aciklama": "Nozuldan saniyede çıkan hacim üç sayının çarpımı: hat genişliği, katman yüksekliği ve hız. Bu yüzden \"500 mm/s\" tek başına bir şey söylemiyor; 0,1 mm katmanda 500 mm/s, 0,3 mm katmanda 170 mm/s ile aynı akıştır. Sınırı koyan da nozulun deliği değil, filamentin erimeye vakit bulduğu eriyik bölgesi. Yüksek akışlı hotend tam olarak bu bölgeyi uzatıyor.",
+      "tablo": [
+        ["AKIŞ FORMÜLÜ", "hat × katman × hız"],
+        ["0,2 mm · 150 mm/s", "12,6 mm³/s"],
+        ["0,3 mm · 150 mm/s", "18,9 mm³/s"],
+        ["SINIRI KOYAN", "eriyik bölgesi"],
+        ["STANDART HOTEND", "10-12 mm³/s"],
+        ["YÜKSEK AKIŞLI", "25-35 mm³/s"]
+      ]
+    },
+    {
+      "baslik": "Nozul çapı mı yüksek akış mı",
+      "aciklama": "Akış tavanını yükseltmenin iki yolu var ve ucuz olanı hotend değil. 0,4 nozulda 0,2 mm katmanla çalışırken 0,6 nozula ve 0,3 mm katmana geçmek kesiti iki kattan fazla büyütüyor; aynı hızda akış kendiliğinden artıyor. Bedeli çözünürlük: ince detay ve 0,6 mm altındaki duvar artık basılmıyor. Yüksek akışlı hotend ise çözünürlüğü korur, parayı ister.",
+      "tablo": [
+        ["0,4 nozul · 0,2 mm", "0,084 mm² kesit"],
+        ["0,6 nozul · 0,3 mm", "0,189 mm² kesit"],
+        ["KESİT ARTIŞI", "+%125"],
+        ["BEDELİ", "ince detay gider"],
+        ["EN İNCE DUVAR", "0,6 mm"],
+        ["HOTEND YOLU", "çözünürlük kalır"]
+      ]
+    },
+    {
+      "baslik": "Hızlanmayı gerçekte kim engelliyor",
+      "aciklama": "Akış tavanı yükseldiğinde sıra bir sonraki darboğaza geliyor. Katman soğumaya vakit bulamazsa köşeler sarkıyor ve köprü çöküyor; fan ve katman süresi yeni sınır oluyor. Eriyiği beslemek için nozul sıcaklığı 10-15 °C yukarı çıkıyor. Küçük ve detaylı parçada ise kafa zaten hiçbir doğruyu tam hızda gitmiyor: orada süreyi ivme belirliyor, akış hiç devreye girmiyor.",
+      "tablo": [
+        ["YENİ SINIR", "soğutma"],
+        ["KATMAN SÜRESİ", "8-10 s altı riskli"],
+        ["SICAKLIK PAYI", "+10-15 °C"],
+        ["KÜÇÜK PARÇA", "ivme belirliyor"],
+        ["BÜYÜK YÜZEY", "akış belirliyor"],
+        ["KAZANCIN YERİ", "dolgu ve duvar"]
+      ]
+    }
+  ]
+}
