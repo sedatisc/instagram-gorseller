@@ -1,7 +1,9 @@
 # Son yayın
 
-2026-10-24 00:48 (kuru) · 0 yayın · 0 hata
+2026-10-24 12:15 (kuru) · 0 yayın · 0 hata
 
 | İş | Durum | Not |
 |---|---|---|
-| — | boş | vakti gelmiş yeni iş yok |
+| 2026-10-19-trendyol-magaza|kampanya-0-hikaye | kuru | 2026-10-19-trendyol-magaza |
+| 2026-10-22-yuksek-akisli-nozzle|gonderi | kuru | 2026-10-22-yuksek-akisli-nozzle |
+| 2026-10-22-yuksek-akisli-nozzle|hikaye | kuru | 2026-10-22-yuksek-akisli-nozzle |
