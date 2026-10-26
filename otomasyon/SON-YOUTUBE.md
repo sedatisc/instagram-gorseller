@@ -1,20 +1,21 @@
 # Son YouTube yüklemesi
 
-2026-10-26 13:42 (kuru) · 0 video · 0 hata
+2026-10-26 20:05 (kuru) · 0 video · 0 hata
 
 | İş | Durum | Not |
 |---|---|---|
-| 2026-10-12 | atlandı | vakti 2026-10-12T18:20, 13 days, 19:22:11 geçmiş |
-| 2026-10-13 | atlandı | vakti 2026-10-13T18:20, 12 days, 19:22:11 geçmiş |
-| 2026-10-14 | atlandı | vakti 2026-10-14T18:20, 11 days, 19:22:11 geçmiş |
-| 2026-10-15 | atlandı | vakti 2026-10-15T18:20, 10 days, 19:22:11 geçmiş |
-| 2026-10-16 | atlandı | vakti 2026-10-16T18:20, 9 days, 19:22:11 geçmiş |
-| 2026-10-17 | atlandı | vakti 2026-10-17T18:20, 8 days, 19:22:11 geçmiş |
-| 2026-10-18 | atlandı | vakti 2026-10-18T18:20, 7 days, 19:22:11 geçmiş |
-| 2026-10-19 | atlandı | vakti 2026-10-19T18:20, 6 days, 19:22:11 geçmiş |
-| 2026-10-20 | atlandı | vakti 2026-10-20T18:20, 5 days, 19:22:11 geçmiş |
-| 2026-10-21 | atlandı | vakti 2026-10-21T18:20, 4 days, 19:22:11 geçmiş |
-| 2026-10-22 | atlandı | vakti 2026-10-22T18:20, 3 days, 19:22:11 geçmiş |
-| 2026-10-23 | atlandı | vakti 2026-10-23T18:20, 2 days, 19:22:11 geçmiş |
-| 2026-10-24 | atlandı | vakti 2026-10-24T18:20, 1 day, 19:22:11 geçmiş |
-| 2026-10-25 | atlandı | vakti 2026-10-25T18:20, 19:22:11 geçmiş |
+| 2026-10-12 | atlandı | vakti 2026-10-12T18:20, 14 days, 1:45:52 geçmiş |
+| 2026-10-13 | atlandı | vakti 2026-10-13T18:20, 13 days, 1:45:52 geçmiş |
+| 2026-10-14 | atlandı | vakti 2026-10-14T18:20, 12 days, 1:45:52 geçmiş |
+| 2026-10-15 | atlandı | vakti 2026-10-15T18:20, 11 days, 1:45:52 geçmiş |
+| 2026-10-16 | atlandı | vakti 2026-10-16T18:20, 10 days, 1:45:52 geçmiş |
+| 2026-10-17 | atlandı | vakti 2026-10-17T18:20, 9 days, 1:45:52 geçmiş |
+| 2026-10-18 | atlandı | vakti 2026-10-18T18:20, 8 days, 1:45:52 geçmiş |
+| 2026-10-19 | atlandı | vakti 2026-10-19T18:20, 7 days, 1:45:52 geçmiş |
+| 2026-10-20 | atlandı | vakti 2026-10-20T18:20, 6 days, 1:45:52 geçmiş |
+| 2026-10-21 | atlandı | vakti 2026-10-21T18:20, 5 days, 1:45:52 geçmiş |
+| 2026-10-22 | atlandı | vakti 2026-10-22T18:20, 4 days, 1:45:52 geçmiş |
+| 2026-10-23 | atlandı | vakti 2026-10-23T18:20, 3 days, 1:45:52 geçmiş |
+| 2026-10-24 | atlandı | vakti 2026-10-24T18:20, 2 days, 1:45:52 geçmiş |
+| 2026-10-25 | atlandı | vakti 2026-10-25T18:20, 1 day, 1:45:52 geçmiş |
+| 2026-10-26 | kuru | Projene hangi kart girer? Pico 2 W, ESP32-S3, Pi 5 |
