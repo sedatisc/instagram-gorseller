@@ -8,7 +8,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme.
 
 ---
 
-# 2026-10-27 · Salı
+# 2026-10-28 · Çarşamba
 
 ## 08:12 · AYAR & REHBER
 
@@ -107,7 +107,7 @@ Bastığı parçayı tezgâhta telefonla çekip satamayan bir arkadaşın varsa 
 
 ---
 
-# 2026-10-28 · Çarşamba
+# 2026-10-29 · Perşembe
 
 ## 08:12 · AYAR & REHBER
 
@@ -205,7 +205,7 @@ Prototipi tuttu diye on adet basıp hepsini çöpe atan bir arkadaşın varsa bu
 
 ---
 
-# 2026-10-29 · Perşembe
+# 2026-10-30 · Cuma
 
 ## 08:12 · AYAR & REHBER
 
@@ -257,11 +257,11 @@ Evinde çay partisi kurulan bir arkadaşın varsa bu gönderiyi ona yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #rolyapmaoyunu #cocukgelisimi #makerturkiye
 ```
 
-## 17:24 · ÜRÜN & MAĞAZA
+## 16:40 · ÜRÜN & MAĞAZA
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-phaetus-liber-u1/1.jpg" width="240"></a>
 
-**[2026-10-16-phaetus-liber-u1](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1)** · 5 kare · hikaye 18:04
+**[2026-10-16-phaetus-liber-u1](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1)** · 5 kare · hikaye 17:20
 
 ```
 Snapmaker ile Phaetus'un U1 için birlikte çıkardığı Liber hotend geldi. Ne yaptığını ve ne YAPMADIĞINI birlikte yazıyorum, çünkü ikincisi daha çok yanlış biliniyor.
@@ -283,15 +283,11 @@ U1'ine hotend arayan bir arkadaşın varsa bu gönderiyi ona yolla — özellikl
 #sermenkreatif #3dbaski #snapmaker #phaetus #hotend #makerturkiye
 ```
 
-## 19:36 · REELS — [2026-10-16-phaetus-liber-u1/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1)
-
-Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
-
-## 20:42 · PROJE & ATÖLYE
+## 18:10 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-siparis-sorulari"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-14-siparis-sorulari/1.jpg" width="240"></a>
 
-**[2026-10-14-siparis-sorulari](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-siparis-sorulari)** · 6 kare · hikaye 21:22
+**[2026-10-14-siparis-sorulari](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-14-siparis-sorulari)** · 6 kare · hikaye 18:50
 
 ```
 3D baskı siparişinde zarar eden işlerin ortak yanı düşük fiyat değil, bu beş sorunun sorulmamış olması.
@@ -313,15 +309,19 @@ Beş sorunun cevabı yazışmada kalsın. Sözlü anlaşmada en çok tartışıl
 #sermenkreatif #maker #3dbaski #3dbaskisiparisi #makerturkiye
 ```
 
+## 20:30 · REELS — [2026-10-16-phaetus-liber-u1/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1)
+
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
+
 ---
 
-# 2026-10-30 · Cuma
+# 2026-10-31 · Cumartesi
 
-## 08:12 · AYAR & REHBER
+## 11:10 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-bambu-a-serisi-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-bambu-a-serisi-pano/1.jpg" width="240"></a>
 
-**[2026-10-19-bambu-a-serisi-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-bambu-a-serisi-pano)** · 1 kare · hikaye 08:52
+**[2026-10-19-bambu-a-serisi-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-bambu-a-serisi-pano)** · 1 kare · hikaye 11:50
 
 ```
 A serisinde üç makine var ve üçü de aynı temeli paylaşıyor: açık gövdeli bed-slinger, 300 °C nozul, Combo paketinde AMS Lite ile dört renk. Karar iki şeye iniyor — ne kadar hacim istediğin ve tablanın kaç dereceye çıktığı.
@@ -347,11 +347,11 @@ Hangi Bambu'yu alacağına karar veremeyen bir arkadaşın varsa bu gönderiyi o
 #sermenkreatif #3dbaski #bambulab #3dyazici #makerturkiye
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-25-aktivite-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-25-aktivite-tahtasi/1.jpg" width="240"></a>
 
-**[2026-10-25-aktivite-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-25-aktivite-tahtasi)** · 8 kare · hikaye 13:18
+**[2026-10-25-aktivite-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-25-aktivite-tahtasi)** · 8 kare · hikaye 13:00
 
 ```
 Aktivite tahtası. Altı ayrı oyun tek tablada: dönen dişliler, şekil eşleştirme, kaydırmalı halka, cırt cırt bantlar, saat ve vida-somun.
@@ -371,11 +371,11 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 #sermenkreatif #3dbaski #aktivitetahtasi #egiticioyuncak #cocukgelisimi #makerturkiye
 ```
 
-## 16:40 · ÜRÜN & MAĞAZA
+## 16:50 · ÜRÜN & MAĞAZA
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-polymaker-ht-pla/1.jpg" width="240"></a>
 
-**[2026-10-17-polymaker-ht-pla](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)** · 5 kare · hikaye 17:20
+**[2026-10-17-polymaker-ht-pla](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)** · 5 kare · hikaye 17:30
 
 ```
 Polymaker HT-PLA serisi yüksek sıcaklığa dayanıklı PLA diye satılıyor ve bu doğru — ama bir şartı var, onu söylemeyen satıcıdan almayın.
@@ -400,11 +400,15 @@ Yazın araçta bıraktığı telefon tutucusu eğilen bir arkadaşın varsa bu g
 #sermenkreatif #3dbaski #polymaker #htpla #filament #makerturkiye
 ```
 
-## 18:10 · PROJE & ATÖLYE
+## 19:20 · REELS — [2026-10-17-polymaker-ht-pla/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)
+
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
+
+## 20:10 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-3d-tarayici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-15-3d-tarayici/1.jpg" width="240"></a>
 
-**[2026-10-15-3d-tarayici](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-3d-tarayici)** · 5 kare · hikaye 18:50
+**[2026-10-15-3d-tarayici](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-3d-tarayici)** · 5 kare · hikaye 20:50
 
 ```
 3D tarayıcı ölçülü model vermiyor, yüzey veriyor. Aradaki farkı bilmeyen tarama dosyasını doğrudan baskıya gönderip parçayı çöpe atıyor.
@@ -426,19 +430,15 @@ Tarama dosyasını doğrudan slicer'a atıp sonucu beğenmeyen bir arkadaşın v
 #sermenkreatif #maker #3dtarayici #3dbaski #makerturkiye
 ```
 
-## 20:30 · REELS — [2026-10-17-polymaker-ht-pla/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)
-
-Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
-
 ---
 
-# 2026-10-31 · Cumartesi
+# 2026-11-01 · Pazar
 
-## 11:10 · AYAR & REHBER
+## 11:40 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-sert-nozul"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-sert-nozul/1.jpg" width="240"></a>
 
-**[2026-10-18-sert-nozul](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-sert-nozul)** · 5 kare · hikaye 11:50
+**[2026-10-18-sert-nozul](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-sert-nozul)** · 5 kare · hikaye 12:20
 
 ```
 Karbon elyaflı filamente geçtikten sonra baskıların bozulmaya başladıysa önce ayarları kurcalama, nozula bak.
@@ -481,11 +481,11 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 #sermenkreatif #3dbaski #oyuncakmarket #rolyapmaoyunu #egiticioyuncak #makerturkiye
 ```
 
-## 16:50 · ÜRÜN & MAĞAZA
+## 17:10 · ÜRÜN & MAĞAZA
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-ender-3-v4-combo/1.jpg" width="240"></a>
 
-**[2026-10-18-ender-3-v4-combo](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)** · 5 kare · hikaye 17:30
+**[2026-10-18-ender-3-v4-combo](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)** · 5 kare · hikaye 17:50
 
 ```
 Ender serisi, hobi masasındaki en bilinen isim. Bu kuşakta artık rakamlar da ona göre: 500 mm/s azami hız, 12.000 mm/s² ivme, 300 °C nozul.
@@ -505,15 +505,15 @@ Ender-3 V4 Combo sermenkreatif.com'da.
 #sermenkreatif #3dbaski #creality #ender3 #cokrenklibaski #makerturkiye
 ```
 
-## 19:20 · REELS — [2026-10-18-ender-3-v4-combo/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)
+## 19:50 · REELS — [2026-10-18-ender-3-v4-combo/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)
 
 Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
 
-## 20:10 · PROJE & ATÖLYE
+## 21:00 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-tavan-arasi-kamera-robotu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-tavan-arasi-kamera-robotu/1.jpg" width="240"></a>
 
-**[2026-10-16-tavan-arasi-kamera-robotu](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-tavan-arasi-kamera-robotu)** · 5 kare · hikaye 20:50
+**[2026-10-16-tavan-arasi-kamera-robotu](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-tavan-arasi-kamera-robotu)** · 5 kare · hikaye 21:40
 
 ```
 Tavan arası kamera robotu yapmanın asıl zorluğu robotu sürmek değil, geri getirmek. Tasarım kararlarının yarısı bu yüzden alınıyor.
@@ -535,13 +535,13 @@ Evinin tavan arasına bakmak isteyip de kafasını sokamayan bir arkadaşın var
 
 ---
 
-# 2026-11-01 · Pazar
+# 2026-11-02 · Pazartesi
 
-## 11:40 · AYAR & REHBER
+## 08:12 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-bambu-h-serisi-pano/1.jpg" width="240"></a>
 
-**[2026-10-18-bambu-h-serisi-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano)** · 1 kare · hikaye 12:20
+**[2026-10-18-bambu-h-serisi-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano)** · 1 kare · hikaye 08:52
 
 ```
 Bambu'nun H serisinde üç makine var ve adları birbirine çok benziyor. Şunu baştan söyleyeyim: sıcaklık ve hız üçünde de aynı. 350 °C nozul, 120 °C tabla, 65 °C'ye kadar aktif ısıtmalı kapalı kabin, 1.000 mm/s kafa hızı, 20.000 mm/s² ivme. Yani "hangisi daha güçlü" diye bakmak yanlış soru.
@@ -571,11 +571,11 @@ H serisinde hangisini alacağına karar veremeyen bir arkadaşın varsa bu gönd
 #sermenkreatif #3dbaski #bambulab #3dyazici #makerturkiye
 ```
 
-## 12:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-27-meyve-sebze-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-27-meyve-sebze-seti/1.jpg" width="240"></a>
 
-**[2026-10-27-meyve-sebze-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-27-meyve-sebze-seti)** · 4 kare · hikaye 13:00
+**[2026-10-27-meyve-sebze-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-27-meyve-sebze-seti)** · 4 kare · hikaye 13:18
 
 ```
 Oyuncak meyve ve sebze seti. Elma, armut, muz, domates, havuç, patlıcan, biber, pırasa ve sarımsak; hepsi ahşap görünümlü sandığıyla birlikte.
@@ -595,11 +595,11 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 #sermenkreatif #3dbaski #oyuncakmeyve #manavoyunu #egiticioyuncak #makerturkiye
 ```
 
-## 17:10 · ÜRÜN & MAĞAZA
+## 17:24 · ÜRÜN & MAĞAZA
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-cesitleri"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-filament-cesitleri/1.jpg" width="240"></a>
 
-**[2026-10-21-filament-cesitleri](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-cesitleri)** · 8 kare · hikaye 17:50
+**[2026-10-21-filament-cesitleri](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-cesitleri)** · 8 kare · hikaye 18:04
 
 ```
 "PLA aldım" demek artık tek bir şey anlatmıyor. Aynı rafta duran altı makara birbirinden bambaşka iş yapıyor.
@@ -625,15 +625,11 @@ Hangisini denedin, yoruma yaz.
 #sermenkreatif #3dbaski #filament #pla #petg #creality #polymaker #3dbaskiturkiye #makerturkiye #samsun
 ```
 
-## 19:50 · REELS — [2026-10-18-bambu-h-serisi-pano/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano)
-
-Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
-
-## 21:00 · PROJE & ATÖLYE
+## 19:40 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-rc-tank/1.jpg" width="240"></a>
 
-**[2026-10-17-rc-tank](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank)** · 6 kare · hikaye 21:40
+**[2026-10-17-rc-tank](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank)** · 6 kare · hikaye 20:20
 
 ```
 RC tank gibi büyük bir baskı projesinde işi bitiren şey baskı değil, parçaya bölme ve birleştirme kararları. Tabladan büyük parça basılmıyor; bölünüyor.
@@ -653,9 +649,13 @@ Masasında yarım kalmış büyük bir baskı projesi olan bir arkadaşın varsa
 #sermenkreatif #maker #3dbaski #rctank #makerturkiye
 ```
 
+## 21:10 · REELS — [2026-10-18-bambu-h-serisi-pano/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano)
+
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
+
 ---
 
-# 2026-11-02 · Pazartesi
+# 2026-11-03 · Salı
 
 ## 08:12 · AYAR & REHBER
 
@@ -739,11 +739,15 @@ Hangi reçineyi kullanıyorsun, yoruma yaz.
 #sermenkreatif #3dbaski #recine #resin #anycubic #slabaski #3dbaskiturkiye #makerturkiye #samsun
 ```
 
-## 19:40 · PROJE & ATÖLYE
+## 19:36 · REELS — [2026-10-16-sunlu-filament-pano/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano)
+
+Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
+
+## 20:42 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-toplulukta-ariza"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-toplulukta-ariza/1.jpg" width="240"></a>
 
-**[2026-10-18-toplulukta-ariza](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-toplulukta-ariza)** · 5 kare · hikaye 20:20
+**[2026-10-18-toplulukta-ariza](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-toplulukta-ariza)** · 5 kare · hikaye 21:22
 
 ```
 Baskı bozuk çıktığında çoğu kişi saatlerce tek başına ayar kurcalıyor. Oysa aynı arıza o gün başka birinin de başına gelmiş ve çözülmüş oluyor.
@@ -761,13 +765,9 @@ Katılmak için profildeki linke dokunman yeterli. Ücretsiz, istediğin an çı
 #sermenkreatif #3dbaski #3dbaskiturkiye #makerturkiye #topluluk
 ```
 
-## 21:10 · REELS — [2026-10-16-sunlu-filament-pano/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-sunlu-filament-pano)
-
-Açıklama gönderi metniyle aynı. Trend sesi eklemek istersen uygulamadan paylaş.
-
 ---
 
-# 2026-11-03 · Salı
+# 2026-11-04 · Çarşamba
 
 ## 08:12 · AYAR & REHBER
 
@@ -869,7 +869,7 @@ Oyuncak olduğunu tasarımda hatırla: keskin köşe bırakma, kenarlara 1 mm pa
 
 ---
 
-# 2026-11-04 · Çarşamba
+# 2026-11-05 · Perşembe
 
 ## 08:12 · AYAR & REHBER
 
@@ -975,7 +975,7 @@ FPV'ye yeni başlayan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ---
 
-# 2026-11-05 · Perşembe
+# 2026-11-06 · Cuma
 
 ## 08:12 · AYAR & REHBER
 
@@ -1027,11 +1027,11 @@ Okul öncesi çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 #sermenkreatif #3dbaski #halkadizme #istifoyuncagi #egiticioyuncak #makerturkiye
 ```
 
-## 17:24 · ÜRÜN & MAĞAZA
+## 16:40 · ÜRÜN & MAĞAZA
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-phaetus-conch-nozul"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-13-phaetus-conch-nozul/1.jpg" width="240"></a>
 
-**[2026-10-13-phaetus-conch-nozul](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-phaetus-conch-nozul)** · 4 kare · hikaye 18:04
+**[2026-10-13-phaetus-conch-nozul](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-13-phaetus-conch-nozul)** · 4 kare · hikaye 17:20
 
 ```
 Karbon elyaflı filament basıp iki hafta sonra ilk katmanın tutmadığını fark ettiysen suç ayarda değil: nozul aşınmış. Phaetus Conch M4 EndCoat tam bu iş için.
@@ -1057,11 +1057,11 @@ Aşındırıcı filament basıp nozulu üç ayda bir değiştiren bir arkadaşı
 #sermenkreatif #3dbaski #phaetus #nozzle #bambulab #3dbaskiturkiye #makerturkiye
 ```
 
-## 20:42 · PROJE & ATÖLYE
+## 18:10 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi5-ekran-standi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-pi5-ekran-standi/1.jpg" width="240"></a>
 
-**[2026-10-21-pi5-ekran-standi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi5-ekran-standi)** · 4 kare · hikaye 21:22
+**[2026-10-21-pi5-ekran-standi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi5-ekran-standi)** · 4 kare · hikaye 18:50
 
 ```
 Raspberry Pi 5 ekran standı tasarlarken model çizmeden önce ölçülerin kumpasla doğrulanması gerekiyor; kartı tutmayan standın sorunu tasarım değil, ölçü.
@@ -1083,13 +1083,13 @@ Pi'sini kitap yığınına yaslayarak kullanan bir arkadaşın varsa ona yolla.
 
 ---
 
-# 2026-11-06 · Cuma
+# 2026-11-07 · Cumartesi
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-11-01-rakam-yapbozu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-11-01-rakam-yapbozu/1.jpg" width="240"></a>
 
-**[2026-11-01-rakam-yapbozu](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-11-01-rakam-yapbozu)** · 5 kare · hikaye 13:18
+**[2026-11-01-rakam-yapbozu](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-11-01-rakam-yapbozu)** · 5 kare · hikaye 13:00
 
 ```
 Rakam yapbozu ve sayma tahtası. İki tabla bir arada: rakamların yuvasına oturduğu yapboz ve pulların dizildiği sayma tahtası.
@@ -1109,17 +1109,17 @@ Okul öncesi çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 #sermenkreatif #3dbaski #rakamyapbozu #saymatahtasi #egiticioyuncak #makerturkiye
 ```
 
-## 16:40 · ÜRÜN & MAĞAZA
+## 16:50 · ÜRÜN & MAĞAZA
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-neden-sermen"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-20-neden-sermen/1.jpg" width="240"></a>
 
-**[2026-10-20-neden-sermen](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-neden-sermen)** · 1 kare · hikaye 17:20
+**[2026-10-20-neden-sermen](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-neden-sermen)** · 1 kare · hikaye 17:30
 
 _metin.md yok_
 
 ---
 
-# 2026-11-07 · Cumartesi
+# 2026-11-08 · Pazar
 
 ## 12:20 · BASKI ÜRÜNLERİ
 
