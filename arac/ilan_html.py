@@ -174,151 +174,131 @@ def _gorsel(yol, kesik=True):
 
 
 STIL = """
-.slide{background:
-  radial-gradient(90% 70% at 78% 30%, #ffffff 0%, #f2f5fa 55%, #e6ebf3 100%)}
+/* FÖY — teknik föy düzeni. Ürün kendi penceresinde, özellikleri
+   kenarda işaretli, künyesi altta. Yuvarlak kart, gölge ve rozet
+   yok: bunlar her sektörde aynı duran hazır kalıptı. */
 .ic{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
-  padding:44px 48px 0}
+  padding:52px 56px 0}
 
-/* marka kilidi */
-.kilit{flex:0 0 auto;display:flex;align-items:center;gap:26px}
-.kilit img.bayi{height:54px;width:auto}
-.kilit s{width:2px;height:40px;background:#c9d2e0;text-decoration:none}
-.kilit img.marka{height:46px;width:auto}
-.kilit .ad{font-weight:700;font-size:36px;letter-spacing:-.02em;
-  color:#101626}
+/* üst bant */
+.kilit{flex:0 0 auto;display:flex;align-items:center;gap:20px;
+  justify-content:space-between;padding-bottom:20px;
+  border-bottom:1px solid var(--cizgi)}
+.kilit .sol{display:flex;align-items:center;gap:18px}
+.kilit img.bayi{height:30px;width:auto}
+.kilit img.marka{height:28px;width:auto}
+.kilit s{width:1px;height:24px;background:var(--cizgi);text-decoration:none}
+.kilit .ad{font-weight:600;font-size:24px;letter-spacing:-.01em}
+.kilit .yer{font-family:Mono;font-size:19px;color:var(--soluk)}
 
-/* gövde: solda söz, sağda ürün */
-.govde{flex:1 1 auto;min-height:0;display:grid;
-  grid-template-columns:1.04fr 1fr;gap:14px;
-  align-items:stretch;padding:16px 0 0}
-/* Üç grup, aralarına kalan yer dağılıyor: ortalayınca
-   üstte ve altta ikişer parmak boşluk kalıyordu. */
-.soz{display:flex;flex-direction:column;
-  justify-content:center;gap:52px;padding:10px 0}
-.soz .g{display:flex;flex-direction:column}
-.soz .ust{font-weight:600;font-size:35px;color:#5a6678;letter-spacing:-.01em}
-.soz h1{font-family:Anton;font-size:var(--h1,152px);
-  line-height:1.06;
-  letter-spacing:.005em;text-transform:uppercase;margin-top:4px}
-.rozet{align-self:flex-start;margin-top:16px;background:var(--vr);
-  color:#fff;font-family:Anton;font-size:31px;letter-spacing:.06em;
-  text-transform:uppercase;padding:9px 18px;border-radius:8px}
-.soz h2{font-weight:700;font-size:62px;line-height:1.08;
-  letter-spacing:-.025em}
-.soz h2 i{font-style:normal;color:var(--vr)}
-.soz p{font-size:30px;line-height:1.36;color:#5a6678;margin-top:18px;
-  max-width:96%}
+/* gövde: solda işaretli notlar, sağda fotoğraf penceresi */
+.govde{flex:1 1 auto;min-height:0;display:flex;gap:26px;
+  align-items:stretch;padding:28px 0 24px}
+.notlar{flex:0 0 250px;display:flex;flex-direction:column;
+  justify-content:space-around;padding:6px 0}
+.notlar div{font-family:Mono;font-size:21px;line-height:1.3;
+  position:relative;padding-left:21px}
+.notlar div::before{content:"";position:absolute;left:0;top:10px;
+  width:11px;height:11px;border-radius:50%;border:2px solid var(--marka)}
+.notlar b{display:block;font-weight:400;color:var(--soluk);font-size:18px;
+  margin-top:3px}
+.sahne{flex:1 1 auto;min-width:0;background:#fff;
+  border:1px solid var(--cizgi);display:flex;align-items:center;
+  justify-content:center;overflow:hidden}
+.sahne img{max-width:100%;max-height:100%;object-fit:contain}
+/* contain: kadrajdan hiçbir şey kesilmiyor */
+.sahne.sik img{object-fit:contain}
+/* tek fotoğraf yatıksa notlar alta iniyor, pencere tam genişlik alıyor */
+.yigin .govde{flex-direction:column;gap:18px}
+.yigin .notlar{flex:0 0 auto;flex-direction:row;gap:28px;padding:0}
+.yigin .notlar div{flex:1}
 
-.alt{flex:0 0 auto;display:flex;flex-direction:column;
-  align-items:flex-start;gap:24px;margin-top:8px}
-.ozellik{width:100%;display:flex;gap:30px;align-items:center}
-.ozellik div{flex:1;min-width:0;display:flex;align-items:center;
-  gap:14px;text-align:left}
-.ozellik svg{flex:0 0 66px;width:66px;height:66px}
-.ozellik b{font-weight:600;font-size:24px;line-height:1.18;color:#2a3344}
+/* söz */
+.soz{flex:0 0 auto}
+.soz .ust{font-family:Mono;font-size:20px;color:var(--soluk);
+  display:block;margin-bottom:9px}
+.soz h1{font-size:var(--h1,92px);font-family:Pop;font-weight:650;
+  font-variation-settings:"wdth" 112;line-height:.99;
+  letter-spacing:-.025em;margin-bottom:14px}
+.soz .rozet{display:inline-flex;align-items:center;gap:10px;
+  font-family:Mono;font-size:21px;color:var(--mur);margin-bottom:14px}
+.soz .rozet::before{content:"";width:11px;height:11px;border-radius:50%;
+  border:2px solid var(--marka)}
+.soz h2{font-size:28px;font-weight:450;line-height:1.42;color:#3C4149;
+  letter-spacing:-.004em;max-width:92%}
+.soz p{font-size:25px;font-weight:400;line-height:1.44;color:var(--soluk);
+  margin-top:10px;max-width:92%}
 
-.dugme{flex:0 0 auto;background:var(--vr);
-  color:#fff;font-weight:700;font-size:34px;letter-spacing:-.01em;
-  padding:22px 42px;border-radius:12px;
-  box-shadow:0 10px 22px rgba(16,22,38,.18)}
+/* künye şeridi: güven kalemleri */
+.guven{flex:0 0 auto;display:flex;margin-top:24px;
+  border-top:1px solid var(--cizgi);border-bottom:1px solid var(--cizgi)}
+.guven div{flex:1;padding:17px 18px 15px;border-right:1px solid var(--cizgi);
+  display:flex;flex-direction:column;gap:4px}
+.guven div:first-child{padding-left:0}
+.guven div:last-child{border-right:0;padding-right:0}
+.guven svg{display:none}
+.guven b{font-family:Mono;font-size:16px;color:var(--soluk);
+  font-weight:400;letter-spacing:.01em}
+.guven span{font-size:24px;font-weight:600;letter-spacing:-.012em;
+  line-height:1.16}
 
-/* Sınıf adı "urun" olamaz: sistem.py onu beyaz ürün
-   çerçevesi olarak boyuyor, makinenin arkasında kutu
-   çıkıyordu. */
-.sahne{position:relative;height:100%;display:flex;
-  align-items:center;justify-content:center}
-.foto-kapak .govde{grid-template-columns:.96fr 1fr}
-.sahne.foto{align-self:center;width:100%;max-height:100%;
-  border-radius:24px;overflow:hidden;background:#fff;
-  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
-.sahne.foto img{width:100%;height:100%;object-fit:cover;
-  filter:none}
-.sahne img{width:100%;height:100%;object-fit:contain;
-  filter:drop-shadow(0 26px 30px rgba(16,22,38,.18))}
+/* alt: çağrı ve satış noktası */
+.alt{flex:0 0 auto;padding:22px 0 0}
+.cagri{display:flex;width:100%;align-items:baseline;
+  justify-content:space-between;gap:22px}
+.dugme{font-family:Pop;font-weight:600;font-size:27px;
+  letter-spacing:-.012em;color:var(--mur)}
+.satis{display:flex;align-items:center;gap:14px;font-family:Mono;
+  font-size:20px;color:var(--marka)}
+.satis span{display:inline-flex;align-items:center;gap:9px}
+.satis img{height:24px;width:auto}
+.ozellik{display:none}
 
-/* güven şeridi */
-.guven{flex:0 0 auto;display:grid;grid-template-columns:repeat(4,1fr);
-  background:#fff;border-radius:18px;padding:22px 10px;margin-top:18px;
-  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
-.guven div{display:flex;align-items:center;gap:12px;padding:0 14px;
-  border-left:1px solid #e4e9f1}
-.guven div:first-child{border-left:0}
-.guven svg{flex:0 0 36px;width:36px;height:36px}
-.guven b{font-weight:500;font-size:21px;line-height:1.22;color:#2a3344}
-.dip{flex:0 0 auto;display:flex;align-items:center;
-  justify-content:space-between;font-family:Mono;font-size:23px;
-  color:#5a6678;padding:18px 0 24px}
+.dip{flex:0 0 auto;display:flex;justify-content:space-between;
+  align-items:baseline;padding:20px 56px 30px;font-family:Mono;
+  font-size:19px;color:var(--soluk)}
+.koyu .dip{color:#8C9099}
 
-/* Yığılmış fotoğraf kapağı: yatay fotoğrafta iki sütun dar kalıyor,
-   fotoğraf üstte tam genişlikte duruyor. */
-.yigin .govde{display:flex;flex-direction:column;gap:0;padding:14px 0 0}
-.yigin .vitrin{flex:1 1 auto;min-height:0;width:auto;
-  max-width:100%;align-self:center;border-radius:24px;
-  overflow:hidden;background:#fff;
-  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
-.yigin .vitrin img{width:100%;height:100%;object-fit:cover;
-  display:block}
-.yigin .soz{flex:0 0 auto;justify-content:flex-start;gap:0;
-  padding:16px 0 0}
-.yigin .soz h1{margin-top:2px}
-.yigin .soz h2{margin-top:14px}
-.yigin .soz p{margin-top:12px}
-
-/* satış noktaları */
-.cagri{display:flex;width:100%;align-items:center;
-  justify-content:space-between;gap:22px;flex-wrap:wrap}
-.cagri .satis{margin-top:0}
-.satis{display:flex;align-items:center;gap:14px;margin-top:18px}
-.satis span{display:inline-flex;align-items:center;gap:10px;
-  background:#fff;border-radius:999px;padding:13px 24px;
-  font-weight:600;font-size:25px;color:#2a3344;
-  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.07)}
-.satis img{height:30px;width:auto;display:block}
-.koyu .satis span{background:#1b2440;color:#fff;box-shadow:none}
-
-/* fotoğraf slaytı */
+/* ara kare */
 .kare{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
-  padding-top:18px}
-.kare .cerceve{flex:1 1 auto;min-height:0;border-radius:24px;
-  overflow:hidden;background:#fff;
-  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
-.kare .cerceve img{width:100%;height:100%;object-fit:cover;display:block}
-.kare .yazi{flex:0 0 auto;padding:26px 4px 0}
-.kare .yazi b{display:block;font-weight:700;font-size:46px;
-  letter-spacing:-.022em;line-height:1.14}
-.kare .yazi b i{font-style:normal;color:var(--vr)}
-.kare .yazi span{display:block;font-size:29px;line-height:1.36;
-  color:#5a6678;margin-top:12px}
+  padding:28px 0 0}
+.kare .cerceve{flex:1 1 auto;min-height:0;background:#fff;
+  border:1px solid var(--cizgi);display:flex;align-items:center;
+  justify-content:center;overflow:hidden}
+.kare .cerceve img{max-width:100%;max-height:100%;object-fit:contain}
+.kare .yazi{flex:0 0 auto;padding:26px 0 0}
+.kare .yazi b{display:block;font-weight:650;font-size:52px;
+  font-variation-settings:"wdth" 112;letter-spacing:-.025em;line-height:1.04}
+/* Başlıkta tek kelimeyi renklendirmek ucuz bir vurgu;
+   ayraç yalnız satırı bölüyor. */
+.kare .yazi b i{font-style:normal}
+.kare .yazi span{display:block;font-size:26px;line-height:1.42;
+  color:var(--soluk);margin-top:14px;max-width:94%}
 
 /* kapanış */
-.kapanis{color:#fff}
-.kapanis h1{font-family:Anton;text-transform:uppercase;font-size:86px;
-  line-height:1.02;letter-spacing:.004em;margin-top:34px}
-.kapanis h1 em{font-style:normal;color:var(--vr)}
+.kapanis h1{font-size:72px;font-weight:650;font-variation-settings:"wdth" 112;
+  line-height:1.03;letter-spacing:-.025em;margin-top:26px}
+.kapanis h1 em{font-style:normal;color:#E8A0A1}
 .kapanis .liste{flex:1 1 auto;min-height:0;display:flex;
-  flex-direction:column;justify-content:center;gap:16px;padding:30px 0}
+  flex-direction:column;justify-content:center;padding:18px 0 0}
 .kapanis .liste div{flex:1 1 0;max-height:190px;display:flex;
-  align-items:center;gap:22px;background:#1b2440;border-radius:18px;
-  padding:22px 28px;border-left:8px solid var(--vr)}
-.kapanis .liste b{flex:0 0 190px;font-family:Mono;font-size:21px;
-  letter-spacing:.07em;text-transform:uppercase;color:var(--vr)}
-.kapanis .liste span{flex:1;font-size:31px;font-weight:600;line-height:1.24}
-.kapanis .dugme{align-self:flex-start;margin-top:4px}
-.kapanis .dip{color:#96a4c0}
+  align-items:center;gap:24px;border-bottom:1px solid #2E3238;padding:18px 0}
+.kapanis .liste div:first-child{border-top:1px solid #2E3238}
+.kapanis .liste b{flex:0 0 210px;font-family:Mono;font-size:20px;
+  color:#E8A0A1}
+.kapanis .liste span{flex:1;font-size:29px;font-weight:450;line-height:1.26;
+  color:#F3F2EE}
+.kapanis .dugme{color:#F3F2EE}
+.kapanis .satis{color:#E8A0A1}
 
 /* hikaye */
-.hik .govde{grid-template-columns:1fr;
-  grid-template-rows:auto minmax(0,1fr);gap:0}
-.hik .soz{justify-content:flex-start;gap:30px}
-
-.hik .sahne{min-height:0;align-items:flex-end}
-/* Kaynak kesim 338px; tam genişliğe yayınca bulanıklaşıyor,
-   yüksekliğe oturtup genişliği serbest bırakıyoruz. */
-.hik .sahne img{width:auto;max-width:100%;height:100%}
-/* Hikayede çağrı satırı vardı ama basılmıyordu: nereden alınacağı
-   yazmayan hikaye, gönderinin yarısı kadar iş görüyor. */
+.hik .govde{flex-direction:column;gap:20px;padding:26px 0 20px}
+.hik .notlar{flex:0 0 auto;flex-direction:row;gap:26px;padding:0}
+.hik .notlar div{flex:1}
+.hik .sahne{flex:1 1 auto;min-height:0}
 .hik .alt{padding-top:26px}
 """
+
 
 
 def _parcalar(spec):
@@ -334,21 +314,22 @@ def _parcalar(spec):
         sag = '<s></s><img class="marka" src="%s" alt="">' % mlogo
     elif spec.get("marka"):
         sag = '<s></s><span class="ad">%s</span>' % E(spec["marka"])
-    kilit = '<div class="kilit">%s%s</div>' % (sol, sag)
+    yer = E(spec.get("yer") or "Sermen Kreatif atölyesi, Samsun")
+    kilit = ('<div class="kilit"><div class="sol">%s%s</div>'
+             '<span class="yer">%s</span></div>' % (sol, sag, yer))
 
-    ozl = "".join('<div>%s<b>%s<br>%s</b></div>'
-                  % (ikon(i), E(a), E(b))
-                  for i, a, b in spec.get("ozellikler", [])[:3])
-    guven = "".join('<div>%s<b>%s<br>%s</b></div>' % (ikon(i), E(a), E(b))
-                    for i, a, b in spec.get("guven", [])[:4])
+    # Özellikler artık ikonlu kutu değil, kenarda işaretli not.
+    ozl = "".join('<div>%s<b>%s</b></div>' % (E(a), E(b))
+                  for _i, a, b in spec.get("ozellikler", [])[:3])
+    # Güven kalemleri künye şeridi: üstte mono etiket, altta değer.
+    guven = "".join('<div><b>%s</b><span>%s</span></div>' % (E(b), E(a))
+                    for _i, a, b in spec.get("guven", [])[:4])
 
     iddia = E(spec.get("iddia", ""))
-    if iddia.endswith("."):
-        iddia = iddia[:-1] + "<i>.</i>"
     return vr, kilit, ozl, guven, iddia
 
 
-H1_KADEME = ((6, 152), (10, 132), (14, 106), (20, 86), (10 ** 6, 72))
+H1_KADEME = ((6, 108), (10, 100), (14, 92), (20, 78), (10 ** 6, 66))
 
 
 def _h1_punto(ad):
@@ -395,45 +376,31 @@ def ilan(spec, cikti):
     foto = bool(spec.get("kapak_foto"))
     uri = (_gorsel(spec["kapak_foto"], kesik=False) if foto
            else _gorsel(spec.get("gorsel")))
-    # Dikey fotoğraf sağ sütuna oturuyor; yatay fotoğraf o sütunda
-    # küçük kalıyordu, onu tam genişlikte üste alıyoruz. İki düzende
-    # de object-fit contain: kadrajdan hiçbir şey kesilmiyor.
+    # Yatay fotoğrafta notlar alta iniyor; dar sütunda fotoğraf
+    # küçücük kalıyordu.
     oran = _oran(spec.get("kapak_foto")) if foto else None
-    yigin = bool(oran and oran > 0.95)
-    sinif = (" foto-kapak" if foto else "") + (" yigin" if yigin else "")
+    sinif = " yigin" if (oran and oran > 1.25) else ""
     im = ('<img src="%s" alt="">' % uri) if uri else ""
-    soz = ('<div class="soz">'
-           '<div class="g"><span class="ust">%s</span><h1>%s</h1>%s</div>'
-           '<div class="g"><h2>%s</h2>%s</div></div>'
+    soz = ('<div class="soz"><span class="ust">%s</span><h1>%s</h1>%s'
+           '<h2>%s</h2>%s</div>'
            % (E(spec.get("ust") or spec.get("marka", "")),
               E(spec.get("model", "")),
               ('<span class="rozet">%s</span>' % E(spec["rozet"]))
               if spec.get("rozet") else "",
               iddia,
-              ("" if yigin else
-               ('<p>%s</p>' % E(spec["spot"])) if spec.get("spot")
-               else "")))
-    if yigin:
-        # Kutu fotoğrafın oranını alıyor: sabit kutuda kenarlar kesiliyordu.
-        govde_ic = ('<div class="vitrin" style="aspect-ratio:%s">%s</div>%s'
-                    % (("%.4f" % oran), im, soz))
-    else:
-        if foto:
-            govde_ic = ('%s<div class="sahne foto" '
-                        'style="aspect-ratio:%s">%s</div>'
-                        % (soz, "%.4f" % oran, im))
-        else:
-            govde_ic = '%s<div class="sahne">%s</div>' % (soz, im)
+              ('<p>%s</p>' % E(spec["spot"])) if spec.get("spot") else ""))
     govde = (
         '<div class="ic%s" style="--vr:%s;--h1:%dpx">%s'
-        '<div class="govde">%s</div>'
-        '<div class="alt">%s<div class="cagri">'
-        '<span class="dugme">%s</span>%s</div></div>'
-        '<div class="guven">%s</div>%s</div>'
-        % (sinif, vr, _h1_punto(spec.get("model", "")), kilit, govde_ic,
-           ('<div class="ozellik">%s</div>' % ozl) if ozl else "",
+        '<div class="govde">%s<div class="sahne%s">%s</div></div>'
+        '%s'
+        '<div class="guven">%s</div>'
+        '<div class="alt"><div class="cagri">'
+        '<span class="dugme">%s</span>%s</div></div></div>%s'
+        % (sinif, vr, _h1_punto(spec.get("model", "")), kilit,
+           ('<div class="notlar">%s</div>' % ozl) if ozl else "",
+           " sik" if foto else "", im, soz, guven,
            E(spec.get("cagri", "sermenkreatif.com'da")),
-           _satis(spec), guven, _dip(spec)))
+           _satis(spec), _dip(spec)))
     S.bas(S.sayfa(govde, W, H, STIL), cikti, W, H)
 
 
@@ -462,15 +429,16 @@ def kapanis(spec, cikti):
     """Koyu kapanış: ne aldığın, kime uyduğu ve çağrı."""
     vr, kilit, _ozl, guven, _iddia = _parcalar(spec)
     k = spec.get("kapanis") or {}
-    bas = E(BUY(k.get("satir1", "")))
+    bas = E(k.get("satir1", ""))
     if k.get("satir2"):
-        bas += "<br><em>%s</em>" % E(BUY(k["satir2"]))
+        bas += "<br><em>%s</em>" % E(k["satir2"])
     govde = (
         '<div class="ic kapanis" style="--vr:%s">%s<h1>%s</h1>'
         '<div class="liste">%s</div>'
-        '<span class="dugme">%s</span>%s%s</div>'
+        '<div class="alt"><div class="cagri">'
+        '<span class="dugme">%s</span>%s</div></div></div>%s'
         % (vr, kilit, bas,
-           "".join('<div><b>%s</b><span>%s</span></div>' % (E(BUY(a)), E(b))
+           "".join('<div><b>%s</b><span>%s</span></div>' % (E(a), E(b))
                    for a, b in k.get("satirlar", [])[:4]),
            E(spec.get("cagri", "sermenkreatif.com\'da")),
            _satis(spec), _dip(spec)))

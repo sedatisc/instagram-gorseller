@@ -76,120 +76,102 @@ def _kunye(spec):
 
 # --------------------------------------------------------------- stil
 STIL = """
+/* FÖY — koleksiyon kartları. Yuvarlak kart, hap rozet ve gölge
+   kalktı; ürünler kenarı çizili pencerelerde, etiketler ince
+   kurallarla ayrılıyor. */
 .ic{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
-  padding:36px 36px 0}
+  padding:52px 56px 0}
 
 /* ---- tek ürün karesi ---- */
 .kare .urun{flex:1 1 auto;min-height:0}
-.etiketler{position:absolute;top:22px;left:22px;right:22px;
+.etiketler{position:absolute;top:18px;left:18px;right:18px;
   display:flex;justify-content:space-between;pointer-events:none}
-/* Künye satırı: iri sıra numarası, ince çizgi, sağda etiket. Sıra
-   numarası fotoğrafın üstünde yüzen bir cipti, orada hem okunmuyor
-   hem de ürünün önüne geçiyordu. Burada kareyi bölen tipografik
-   öğeye dönüştü. */
-.dizi{flex:0 0 auto;display:flex;align-items:center;gap:20px;
-  padding:24px 0 0}
-.dizi b{font-family:Anton;font-size:52px;line-height:.8;color:var(--vr)}
-.dizi hr{flex:1;height:2px;border:0;background:#d6dde8}
-.dizi i{font-style:normal;font-family:Mono;font-size:21px;color:#5a6678;
-  letter-spacing:.14em;text-transform:uppercase}
+.dizi{flex:0 0 auto;display:flex;align-items:baseline;gap:18px;
+  padding:22px 0 0}
+.dizi b{font-size:34px;font-weight:650;line-height:1;color:var(--mur);
+  font-variation-settings:"wdth" 112;letter-spacing:-.02em}
+.dizi hr{flex:1;height:1px;border:0;background:var(--cizgi)}
+.dizi i{font-style:normal;font-family:Mono;font-size:19px;
+  color:var(--soluk);letter-spacing:.01em}
 .yazi{flex:0 0 auto;padding:16px 0 0}
-.yazi h1{font-weight:700;font-size:62px;line-height:1.05;
-  letter-spacing:-.022em}
-.yazi p{font-size:30px;line-height:1.36;color:#5a6678;margin-top:14px;
-  max-width:92%}
+.yazi h1{font-weight:650;font-size:56px;line-height:1.04;
+  letter-spacing:-.025em;font-variation-settings:"wdth" 112}
+.yazi p{font-size:28px;line-height:1.4;color:var(--soluk);margin-top:14px;
+  max-width:94%}
 .ozellik{list-style:none;margin:18px 0 0}
 .ozellik li{display:flex;justify-content:space-between;align-items:baseline;
-  gap:20px;border-top:2px solid #d6dde8;padding:13px 0 0;margin-top:11px}
-.ozellik b{font-family:Mono;font-weight:400;font-size:22px;color:#5a6678;
-  letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
-.ozellik span{font-size:28px;text-align:right}
+  gap:20px;border-top:1px solid var(--cizgi);padding:13px 0 0;margin-top:11px}
+.ozellik b{font-family:Mono;font-weight:400;font-size:19px;
+  color:var(--soluk);letter-spacing:.01em;white-space:nowrap}
+.ozellik span{font-size:26px;text-align:right;font-weight:500}
 .ayak{flex:0 0 auto;display:flex;align-items:center;
-  justify-content:space-between;padding:24px 0 0}
-.rozet{display:inline-flex;align-items:center;border-radius:999px;
-  background:var(--vr);color:#fff;font-weight:600;font-size:30px;
-  padding:15px 28px}
-.ayak .not{font-size:26px;color:#5a6678}
+  justify-content:space-between;padding:22px 0 0}
+.rozet{display:inline-flex;align-items:center;gap:10px;font-family:Mono;
+  font-size:21px;color:var(--mur)}
+.rozet::before{content:"";width:11px;height:11px;border-radius:50%;
+  border:2px solid var(--marka)}
+.ayak .not{font-family:Mono;font-size:20px;color:var(--soluk)}
 
-/* ---- kapak ----
-   Altı eşit küçük resimlik ızgara katalog sayfası gibi duruyordu ve
-   akışta hiçbir ürün okunmuyordu. Düzen tersine çevrildi: iri başlık,
-   bir ürün büyük, kalanlar altta küçük şeritte. */
+/* ---- kapak ---- */
 .kasnak{flex:0 0 auto}
 .kas{display:flex;align-items:center;gap:14px;font-family:Mono;
-  font-size:21px;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--vr)}
-.kas s{flex:0 0 46px;height:3px;background:var(--vr);
+  font-size:19px;color:var(--soluk)}
+.kas s{flex:0 0 34px;height:1px;background:var(--cizgi);
   text-decoration:none}
-.kasnak h1{font-family:Anton;text-transform:uppercase;line-height:.94;
-  letter-spacing:.004em;font-size:96px;margin-top:18px}
-.kasnak p{font-size:31px;color:#5a6678;margin-top:16px;line-height:1.33;
-  max-width:88%}
-/* Kahraman kutunun boyu ürünün en/boy oranından geliyor: sabit uzun
-   kutuda yatık ürün (yazıcı, makara) tepesinde kocaman boşlukla
-   kalıyordu. Artan yer alttaki şeride gidiyor, küçük resimler büyür. */
+.kasnak h1{font-size:84px;line-height:1;letter-spacing:-.028em;
+  font-weight:650;font-variation-settings:"wdth" 112;margin-top:16px}
+.kasnak p{font-size:28px;color:var(--soluk);margin-top:14px;line-height:1.4;
+  max-width:92%}
 .kgov{flex:1 1 auto;min-height:0;margin-top:22px;display:flex;
-  flex-direction:column;justify-content:center;gap:10px}
+  flex-direction:column;justify-content:center;gap:12px}
 .sahne{flex:0 0 auto;display:flex}
 .sahne .urun{flex:1}
-.serit{flex:0 0 auto;height:186px;display:grid;gap:10px;
+.serit{flex:0 0 auto;height:176px;display:grid;gap:12px;
   grid-auto-flow:column;grid-auto-columns:1fr}
-.serit .urun{border-radius:14px;align-items:center}
-.serit .urun img{max-width:86%;max-height:82%;margin-bottom:0}
-.serit .urun::after{display:none}
-.spot{flex:0 0 auto;display:flex;align-items:center;
-  justify-content:space-between;padding:22px 0 0}
-.spot b{font-weight:600;font-size:31px}
-.spot i{font-style:normal;font-family:Mono;font-size:26px;color:var(--vr)}
+.serit .urun img{max-width:88%;max-height:84%}
+.spot{flex:0 0 auto;display:flex;align-items:baseline;
+  justify-content:space-between;padding:20px 0 0;
+  border-top:1px solid var(--cizgi);margin-top:18px}
+.spot b{font-weight:600;font-size:27px;letter-spacing:-.012em}
+.spot i{font-style:normal;font-family:Mono;font-size:20px;color:var(--marka)}
 
 /* ---- kapanış ---- */
-.kapanis h1{font-family:Anton;text-transform:uppercase;font-size:76px;
-  line-height:1}
-.kapanis .alt{font-size:28px;color:#96a4c0;margin-top:14px;line-height:1.34}
-/* Satırlar kalan yeri paylaşıyor: sabit yükseklikte listenin altında
-   ve üstünde kocaman boşluk kalıyordu. */
+.kapanis h1{font-size:68px;line-height:1.03;font-weight:650;
+  letter-spacing:-.025em;font-variation-settings:"wdth" 112}
+.kapanis .alt{font-size:26px;color:#8C9099;margin-top:12px;line-height:1.4}
 .liste{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
-  gap:12px;padding:26px 0}
-.liste .sr{flex:1 1 0;min-height:84px;max-height:164px;
-  display:flex;align-items:center;gap:22px;background:#1a2440;
-  border-radius:14px;padding:10px 24px 10px 20px;position:relative;
-  overflow:hidden}
-.liste .sr::before{content:"";position:absolute;left:0;top:14px;bottom:14px;
-  width:6px;border-radius:3px;background:var(--vr)}
-.liste .sr figure{flex:0 0 auto;height:78%;aspect-ratio:1;border-radius:10px;
-  background:#fff;display:flex;align-items:center;justify-content:center;
-  padding:6px;margin-left:12px}
+  padding:22px 0}
+.liste .sr{flex:1 1 0;min-height:84px;max-height:160px;
+  display:flex;align-items:center;gap:22px;padding:12px 0;
+  border-bottom:1px solid #2E3238;position:relative}
+.liste .sr:first-child{border-top:1px solid #2E3238}
+.liste .sr figure{flex:0 0 auto;height:76%;aspect-ratio:1;background:#fff;
+  border:1px solid #2E3238;display:flex;align-items:center;
+  justify-content:center;padding:6px}
 .liste .sr figure img{max-width:100%;max-height:100%;object-fit:contain}
-.liste .sr b{font-weight:600;font-size:33px;color:#fff;flex:1;
-  letter-spacing:-.01em}
-.liste .sr i{font-style:normal;font-weight:600;font-size:26px;color:var(--vr)}
-.kutu{flex:0 0 auto;background:#1a2440;border-radius:16px;padding:20px 26px}
-.kutu b{display:block;font-family:Mono;font-size:23px;color:var(--vr);
-  letter-spacing:.08em;text-transform:uppercase}
-.kutu span{display:block;font-size:26px;color:#d6dde8;margin-top:10px}
+.liste .sr b{font-weight:600;font-size:31px;color:#F3F2EE;flex:1;
+  letter-spacing:-.014em}
+.liste .sr i{font-style:normal;font-family:Mono;font-size:20px;
+  color:#E8A0A1}
+.kutu{flex:0 0 auto;border-top:1px solid #2E3238;padding:18px 0 0}
+.kutu b{display:block;font-family:Mono;font-size:19px;color:#8C9099}
+.kutu span{display:block;font-size:25px;color:#F3F2EE;margin-top:8px}
 
 /* ---- hikaye ---- */
-/* Marka cipi fotoğrafın üstünde değil, kadrajın sol üstünde duruyor;
-   ürünün üstüne binince okunmuyordu. */
-.hik .urun{flex:0 0 1240px;border-radius:0;margin:-48px -48px 0;
-  align-items:center}
-/* Ürün dikeyde ortalandığı için tabana sabitlenen temas gölgesi
-   ürünün epey altında ayrı bir leke olarak kalıyordu. */
-.hik .urun::after{display:none}
-.hik .etiketler{top:66px;left:66px;right:66px}
+.hik .urun{flex:0 0 1180px;margin:0;align-items:center}
+.hik .etiketler{top:24px;left:24px;right:24px}
 .hik .govde{flex:1 1 auto;display:flex;flex-direction:column;
-  padding:52px 0 0;position:relative}
-.hik .govde::before{content:"";position:absolute;left:0;top:56px;width:8px;
-  height:64px;border-radius:4px;background:var(--vr)}
-.hik h1{font-weight:700;font-size:64px;line-height:1.05;
-  letter-spacing:-.02em;padding-left:30px}
-.hik p{font-size:34px;line-height:1.33;color:#5a6678;padding-left:30px;
-  margin-top:16px}
-.hik .cta{margin-top:auto;text-align:center;padding-bottom:110px}
-.hik .cta b{display:block;font-weight:700;font-size:42px}
-.hik .cta span{display:block;font-family:Mono;font-size:28px;color:#5a6678;
-  margin-top:14px}
+  padding:44px 0 0}
+.hik h1{font-weight:650;font-size:62px;line-height:1.04;
+  letter-spacing:-.025em;font-variation-settings:"wdth" 112}
+.hik p{font-size:30px;line-height:1.4;color:var(--soluk);margin-top:16px}
+.hik .cta{margin-top:auto;padding-bottom:150px;
+  border-top:1px solid var(--cizgi);padding-top:22px;
+  display:flex;align-items:baseline;justify-content:space-between}
+.hik .cta b{font-weight:600;font-size:30px}
+.hik .cta span{font-family:Mono;font-size:21px;color:var(--marka)}
 """
+
 
 
 # ----------------------------------------------------------- tek ürün
@@ -206,7 +188,7 @@ def urun_karesi(u, spec, sira, toplam, cikti):
     vr = _renk(u, spec)
     # Kategori cipi fotoğrafın üstünden kalktı; künye satırında duruyor.
     # Fotoğrafın üstü boş kalınca ürün tek başına kadrajı tutuyor.
-    etiket = BUY(u.get("etiket") or spec.get("baslik", ""))[:26]
+    etiket = (u.get("etiket") or spec.get("baslik", ""))[:26]
     if sira and toplam:
         sag = ("%s · %d/%d" % (etiket, sira, toplam)) if etiket \
             else "%d/%d" % (sira, toplam)
@@ -277,8 +259,8 @@ def kapak(spec, urunler, cikti):
         '<div class="kgov"><div class="sahne" style="height:%dpx">%s</div>'
         '<div class="serit">%s</div></div>'
         '<div class="spot"><b>%s</b><i>kaydır »</i></div></div>%s'
-        % (vr, E(BUY(spec.get("etiket", "baskı ürünleri"))),
-           E(BUY(spec["baslik"])),
+        % (vr, E(spec.get("etiket", "baskı ürünleri")),
+           E(spec["baslik"]),
            ('<p>%s</p>' % E(spec["alt"])) if spec.get("alt") else "",
            boy, _urun_kutusu(urunler[i], spec, ust=_f(urunler[i])),
            "".join(_urun_kutusu(u, spec) for u in kalan),
@@ -306,7 +288,7 @@ def kapanis(spec, urunler, cikti):
         '<div class="ic kapanis" style="--vr:%s">'
         '<h1>%s</h1><div class="alt">%s</div>'
         '<div class="liste">%s</div>%s</div>%s'
-        % (vr, E(BUY(spec.get("kapanis_ust", "hepsi burada"))),
+        % (vr, E(spec.get("kapanis_ust", "hepsi burada")),
            E(spec.get("kapanis_alt",
                       "Hepsi kendi atölyemizde basıldı. Ölçü, renk ve adet "
                       "isteğe göre değişir.")),
@@ -320,7 +302,7 @@ def hikaye(spec, urunler, cikti):
     vr = _renk(u, spec)
     etiket = u.get("etiket") or spec.get("baslik", "")
     et = ('<div class="etiketler"><span class="cip">%s</span></div>'
-          % E(BUY(etiket)[:26])) if etiket else ""
+          % E(etiket[:26])) if etiket else ""
     fiyat = _fiyat(u, spec)
     govde = (
         '<div class="ic hik" style="--vr:%s;padding:48px 48px 0">%s'

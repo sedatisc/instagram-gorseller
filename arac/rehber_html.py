@@ -71,19 +71,19 @@ STIL = """
 /* ---- ortak başlık bloğu ---- */
 .tepe{flex:0 0 auto}
 .kas{display:flex;align-items:center;gap:14px;font-family:Mono;
-  font-size:21px;letter-spacing:.16em;text-transform:uppercase;
+  font-size:21px;letter-spacing:.01em;
   color:var(--vr)}
 .kas s{flex:0 0 46px;height:3px;background:var(--vr);text-decoration:none}
 /* line-height 1.02: .94'te iki satırlı başlıkta Ğ ve İ üst satıra
    biniyordu, Anton'un kasa yüksekliği buna yer bırakmıyor. */
-.tepe h1{font-family:Anton;text-transform:uppercase;line-height:1.02;
+.tepe h1{font-family:Pop;font-weight:650;font-variation-settings:"wdth" 112;line-height:1.02;
   letter-spacing:.004em;font-size:90px;margin-top:18px}
 .tepe h1 em{font-style:normal;color:var(--vr)}
-.tepe .spot{font-size:31px;line-height:1.34;color:#5a6678;margin-top:18px;
+.tepe .spot{font-size:31px;line-height:1.34;color:var(--soluk);margin-top:18px;
   max-width:94%}
 .rozetler{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
 .rozetler span{font-family:Mono;font-size:20px;letter-spacing:.05em;
-  padding:10px 18px;border-radius:999px;border:2px solid var(--rz);
+  padding:10px 18px;border-radius:0;border:1px solid var(--rz);
   color:var(--rz)}
 
 /* ---- gövde ---- */
@@ -94,26 +94,26 @@ STIL = """
 .kartlar{flex:1 1 auto;min-height:0;display:grid;
   grid-template-columns:1fr 1fr;grid-auto-rows:1fr;gap:16px}
 .kartlar .k{display:flex;flex-direction:column;justify-content:center;
-  background:#fff;border-radius:18px;padding:24px 28px;
-  border-left:7px solid var(--kr);
-  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
+  background:#fff;border-radius:0;padding:24px 28px;
+  border-left:3px solid var(--kr);
+  }
 .kartlar .k.genis{grid-column:1/3}
 .kartlar .k b{display:block;font-family:Mono;font-size:21px;
-  letter-spacing:.09em;text-transform:uppercase;color:var(--kr)}
+  letter-spacing:.01em;color:var(--kr)}
 .kartlar .k strong{display:block;font-size:50px;line-height:1.04;
   letter-spacing:-.02em;margin-top:8px}
-.kartlar .k span{display:block;font-size:26px;color:#5a6678;margin-top:10px;
+.kartlar .k span{display:block;font-size:26px;color:var(--soluk);margin-top:10px;
   line-height:1.3}
 
 /* İri rakam kendi panelinde: çıplak bırakılınca karenin ortasında
    boşlukta yüzüyordu. */
 .rakam{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
   align-items:center;justify-content:center;text-align:center;
-  background:#fff;border-radius:24px;padding:30px;
-  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
-.rakam b{display:block;font-family:Anton;font-size:168px;line-height:.88;
+  background:#fff;border-radius:0;padding:30px;
+  }
+.rakam b{display:block;font-family:Pop;font-weight:650;font-variation-settings:"wdth" 112;font-size:168px;line-height:.88;
   color:var(--vr);letter-spacing:-.01em}
-.rakam span{display:block;font-size:36px;color:#101626;margin-top:18px;
+.rakam span{display:block;font-size:36px;color:var(--mur);margin-top:18px;
   font-weight:600}
 
 /* ikili karşılaştırma */
@@ -123,35 +123,35 @@ STIL = """
   grid-template-columns:1fr 1fr;gap:16px;
   align-items:start;align-content:center}
 .ikili .y{display:flex;flex-direction:column;
-  background:#fff;border-radius:20px;padding:30px;
+  background:#fff;border-radius:0;padding:30px;
   border-top:8px solid var(--kr);
-  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
-.ikili .y b{display:block;font-family:Anton;font-size:58px;color:var(--kr);
-  text-transform:uppercase;line-height:1}
+  }
+.ikili .y b{display:block;font-family:Pop;font-weight:650;font-variation-settings:"wdth" 112;font-size:58px;color:var(--kr);
+  line-height:1}
 .ikili .y span{display:block;font-size:28px;color:#2a3344;margin-top:16px;
   line-height:1.32}
 
 /* tablo */
 .tablo{display:flex;flex-direction:column}
 .tablo .sr{display:flex;align-items:baseline;justify-content:space-between;
-  gap:24px;border-top:2px solid #d6dde8;padding:16px 2px 0;margin-top:14px}
+  gap:24px;border-top:1px solid var(--cizgi);padding:16px 2px 0;margin-top:14px}
 .tablo .sr:first-child{border-top:0;margin-top:0;padding-top:0}
 /* Slaytta tablo kalan yeri paylaşıyor: sabit satırda kare ortasında
    yüzüyor, altında ve üstünde avuç içi kadar boşluk kalıyordu. */
 .slayt .tablo{flex:1 1 auto;min-height:0}
 .slayt .tablo .sr{flex:1 1 0;min-height:68px;max-height:136px;
   align-items:center}
-.tablo .sr b{font-family:Mono;font-weight:400;font-size:24px;color:#5a6678;
-  letter-spacing:.06em;text-transform:uppercase}
+.tablo .sr b{font-family:Mono;font-weight:400;font-size:24px;color:var(--soluk);
+  letter-spacing:.01em;}
 .tablo .sr span{font-size:38px;font-weight:600;letter-spacing:-.015em;
   text-align:right;white-space:nowrap}
 
 /* devre şeması */
 .sema{flex:0 1 auto;min-height:0;max-height:100%;width:100%;
   align-self:center;display:flex;align-items:center;
-  justify-content:center;background:#fff;border-radius:24px;
+  justify-content:center;background:#fff;border-radius:0;
   padding:26px 30px;
-  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
+  }
 .sema img{width:100%;height:100%;object-fit:contain}
 .slayt .sema{flex:1 1 auto;max-height:none}
 
@@ -160,10 +160,10 @@ STIL = """
 .soz{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
   justify-content:center;padding:10px 0 20px}
 .soz::before{content:"";flex:0 0 auto;width:120px;height:9px;
-  border-radius:5px;background:var(--vr);margin-bottom:38px}
+  border-radius:0;background:var(--vr);margin-bottom:38px}
 .soz .gir{font-size:var(--gir);line-height:1.18;font-weight:600;
-  letter-spacing:-.022em;color:#101626;max-width:97%}
-.soz .kal{font-size:var(--kal);line-height:1.42;color:#5a6678;
+  letter-spacing:-.022em;color:var(--mur);max-width:97%}
+.soz .kal{font-size:var(--kal);line-height:1.42;color:var(--soluk);
   margin-top:30px;max-width:96%}
 
 /* satırlar: etiket + açıklama */
@@ -171,26 +171,24 @@ STIL = """
   justify-content:center;gap:16px}
 .slayt .satirlar .sr,.kapak .satirlar .sr{flex:1 1 0;max-height:260px;
   align-items:center}
-.satirlar .sr{display:flex;gap:20px;background:#fff;border-radius:16px;
-  padding:20px 24px;border-left:7px solid var(--vr);
-  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
+.satirlar .sr{display:flex;gap:20px;background:#fff;border-radius:0;
+  padding:20px 24px;border-left:3px solid var(--vr);
+  }
 .satirlar .sr b{flex:0 0 168px;font-family:Mono;font-size:21px;
-  letter-spacing:.07em;text-transform:uppercase;color:var(--vr);
+  letter-spacing:.01em;color:var(--vr);
   padding-top:3px}
 .satirlar .sr span{flex:1;font-size:28px;line-height:1.32;color:#2a3344}
 
 /* vurgu: yan yana rakamlar */
 .vurgu{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:14px}
-.vurgu .v{background:#fff;border-radius:18px;padding:26px 18px;
-  text-align:center;box-shadow:0 1px 0 rgba(16,22,38,.05),
-  0 0 0 1px rgba(16,22,38,.05)}
-.vurgu .v b{display:block;font-family:Anton;font-size:64px;line-height:.9;
+.vurgu .v{background:#fff;border-radius:0;padding:26px 18px;
+  text-align:center;}
+.vurgu .v b{display:block;font-family:Pop;font-weight:650;font-variation-settings:"wdth" 112;font-size:64px;line-height:.9;
   color:var(--vr)}
 
 /* fotoğraf */
-.foto{flex:1 1 auto;min-height:0;border-radius:22px;overflow:hidden;
-  background:#fff;box-shadow:0 1px 0 rgba(16,22,38,.05),
-  0 0 0 1px rgba(16,22,38,.05)}
+.foto{flex:1 1 auto;min-height:0;border-radius:0;overflow:hidden;
+  background:#fff;}
 .foto img{width:100%;height:100%;object-fit:cover;
   object-position:50% var(--odak,50%)}
 
@@ -202,68 +200,71 @@ STIL = """
    oluyor. */
 .sutunlar{flex:1 1 auto;min-height:0;display:grid;gap:12px;
   grid-auto-flow:column;grid-auto-columns:1fr;
-  align-items:start;align-content:center}
+  /* start hizalama uzun sütunun ızgara dışına taşmasına ve alttaki
+     ipucu satırının üstüne binmesine yol açıyordu. */
+  align-items:stretch;align-content:stretch}
 /* padding-bottom: son madde kartın yuvarlak köşesine değip
    kırpılıyordu. */
-.sutunlar .s{background:#fff;border-radius:18px;overflow:hidden;
-  display:flex;flex-direction:column;padding-bottom:18px;
-  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.05)}
-.sutunlar .s header{background:var(--kr);color:#fff;padding:16px 18px}
-.sutunlar .s header b{display:block;font-family:Anton;font-size:34px;
-  text-transform:uppercase;line-height:1.04;letter-spacing:.01em}
+.sutunlar .s{background:#fff;border:1px solid var(--cizgi);
+  border-top:3px solid var(--kr);overflow:hidden;min-height:0;
+  display:flex;flex-direction:column;padding-bottom:16px}
+.sutunlar .s header{padding:16px 18px 14px;
+  border-bottom:1px solid var(--cizgi)}
+.sutunlar .s header b{display:block;font-family:Pop;font-weight:650;font-variation-settings:"wdth" 112;font-size:34px;
+  line-height:1.04;letter-spacing:.01em}
 .sutunlar .s header span{display:block;font-family:Mono;font-size:16px;
-  letter-spacing:.06em;margin-top:6px;opacity:.9}
+  letter-spacing:.01em;margin-top:6px;color:var(--soluk)}
 .sutunlar .s figure{flex:0 0 auto;height:260px;margin:12px 12px 0;
-  border-radius:12px;background:
-    radial-gradient(118% 86% at 50% 6%, #fff 0%, #f5f7fb 56%, #e7ebf3 100%);
+  border-radius:0;background:
+    radial-gradient(118% 86% at 50% 6%, #fff 0%, #fff 56%, #fff 100%);
   display:flex;align-items:center;justify-content:center;padding:10px}
 .sutunlar .s figure img{width:92%;height:88%;object-fit:contain;
   filter:drop-shadow(0 8px 10px rgba(16,22,38,.13))}
 .sutunlar .s ul{list-style:none;margin:12px 14px 0;display:flex;
   flex-direction:column;gap:8px}
 .sutunlar .s ul.kul{margin-top:10px;padding-top:10px;
-  border-top:2px solid #e4e9f1}
+  border-top:1px solid #e4e9f1}
 .sutunlar .s li{font-size:20px;line-height:1.26;color:#2a3344;
   padding-left:14px;position:relative}
 .sutunlar .s li::before{content:"";position:absolute;left:0;top:8px;
   width:6px;height:6px;border-radius:50%;background:var(--kr)}
-.sutunlar .s ul.kul li{color:#5a6678}
-.ipucu{flex:0 0 auto;display:flex;align-items:center;gap:16px;
-  background:#1a2440;border-radius:16px;padding:18px 24px;margin-top:12px}
-.ipucu b{font-family:Mono;font-size:17px;letter-spacing:.09em;
-  text-transform:uppercase;color:var(--vr);white-space:nowrap}
-.ipucu span{font-size:22px;line-height:1.34;color:#e7ebf3}
+.sutunlar .s ul.kul li{color:var(--soluk)}
+.ipucu{flex:0 0 auto;display:flex;align-items:baseline;gap:16px;
+  border-top:1px solid var(--cizgi);padding:16px 0 0;margin-top:14px}
+.ipucu b{font-family:Mono;font-size:17px;letter-spacing:.01em;
+  color:var(--vr);white-space:nowrap}
+.ipucu span{font-size:22px;line-height:1.34;color:var(--mur)}
 
 /* slayt başlığı */
 .slayt h2{font-weight:700;font-size:52px;line-height:1.07;
   letter-spacing:-.022em}
-.slayt .ac{font-size:26px;line-height:1.38;color:#5a6678;margin-top:14px;
+.slayt .ac{font-size:26px;line-height:1.38;color:var(--soluk);margin-top:14px;
   max-width:95%}
 
 /* ---- kapanış ---- */
-.kapanis h1{font-family:Anton;text-transform:uppercase;font-size:84px;
+.kapanis h1{font-family:Pop;font-weight:650;font-variation-settings:"wdth" 112;font-size:84px;
   line-height:.95}
 .kapanis h1 em{font-style:normal;color:var(--vr)}
 .kriter{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;
   gap:12px;padding:30px 0}
 .kriter .sr{flex:1 1 0;min-height:76px;max-height:300px;display:flex;
-  align-items:center;gap:24px;background:#1a2440;border-radius:14px;
+  align-items:center;gap:24px;background:transparent;border-radius:0;
   padding:14px 26px;position:relative;overflow:hidden}
 .kriter .sr::before{content:"";position:absolute;left:0;top:14px;bottom:14px;
-  width:6px;border-radius:3px;background:var(--vr)}
+  width:6px;border-radius:0;background:var(--vr)}
 .kriter .sr b{flex:0 0 300px;font-family:Mono;font-size:22px;
-  letter-spacing:.08em;text-transform:uppercase;color:var(--vr)}
+  letter-spacing:.01em;color:var(--vr)}
 .kriter .sr span{flex:1;font-size:34px;font-weight:600;color:#fff;
   letter-spacing:-.012em}
-.kutu{flex:0 0 auto;background:#1a2440;border-radius:16px;padding:22px 26px;
-  font-size:22px;line-height:1.4;color:#d6dde8}
+.kutu{flex:0 0 auto;background:transparent;border-radius:0;padding:22px 26px;
+  font-size:22px;line-height:1.4;color:var(--cizgi)}
 
 /* ---- hikaye ---- */
 .hik .tepe h1{font-size:92px}
 .hik .spot{font-size:32px}
 .hik .cta{margin-top:auto;text-align:center;padding-bottom:210px}
 .hik .cta b{display:block;font-weight:700;font-size:42px}
-.hik .cta span{display:block;font-family:Mono;font-size:28px;color:#5a6678;
+.hik .cta span{display:block;font-family:Mono;font-size:28px;color:var(--soluk);
   margin-top:14px}
 """
 
@@ -282,9 +283,9 @@ def _basliklar(k, vr, etiket):
     # kare başlıksız çıkıp iri rakam havada kalıyordu.
     if not s1 and k.get("ustbilgi"):
         s1, ust = k["ustbilgi"], etiket
-    bas = E(BUY(s1))
+    bas = E(s1)
     if s2:
-        bas += "<br><em>%s</em>" % E(BUY(s2))
+        bas += "<br>%s" % E(s2)
     rz = ""
     if k.get("rozetler"):
         rz = '<div class="rozetler">%s</div>' % "".join(
@@ -510,9 +511,9 @@ def kapanis(spec, cikti):
     kat = spec.get("kategori", "3dbaski")
     vr = S.RENK[KAT_RENK.get(kat, "turuncu")]
     k = spec["kapanis"]
-    bas = E(BUY(k.get("satir1", "")))
+    bas = E(k.get("satir1", ""))
     if k.get("satir2"):
-        bas += "<br><em>%s</em>" % E(BUY(k["satir2"]))
+        bas += "<br>%s" % E(k["satir2"])
     govde = ('<div class="ic kapanis" style="--vr:%s"><h1>%s</h1>'
              '<div class="kriter">%s</div>%s</div>%s'
              % (vr, bas,

@@ -40,14 +40,15 @@ TEMA = {
     "elektronik": {"vurgu": "#22d3ee", "etiket": "ELEKTRONİK & IoT"},
 }
 
-KAGIT = "#eef2f8"
+KAGIT = "#FBFAF7"
 ZEMIN = "#ffffff"          # ürün kesimlerinin ortak zemini
 
-MUREKKEP = "#101626"
-SOLUK = "#5a6678"
-CIZGI = "#d6dde8"
-LACI = "#121a30"
-LACI_KOYU = "#0b1326"
+MUREKKEP = "#16181C"
+SOLUK = "#6A7079"
+CIZGI = "#C9C5B9"
+MARKA = "#a52628"        # logodan alındı
+LACI = "#16181C"
+LACI_KOYU = "#0E1013"
 
 
 def _b64(yol):
@@ -65,14 +66,14 @@ def font_css():
         d = os.path.join(KOK, "fonts")
         p = []
         for aile, agirlik, dosya in (
-                ("Anton", "400", "Anton-Regular.ttf"),
-                ("Pop", "400", "Poppins-Regular.ttf"),
-                ("Pop", "500", "Poppins-Medium.ttf"),
-                ("Pop", "600", "Poppins-SemiBold.ttf"),
-                ("Pop", "700", "Poppins-Bold.ttf"),
+                ("Pop", "100 900", "Archivo.ttf"),
+                ("Anton", "100 900", "Archivo.ttf"),
                 ("Mono", "400", "JetBrainsMono.ttf")):
+            # Archivo değişken font: ağırlık ve genişlik aralıklı
+            # tanımlanıyor, başlıkta genişletilmiş kesim kullanılıyor.
             p.append("@font-face{font-family:%s;font-weight:%s;font-style:"
-                     "normal;src:url(data:font/ttf;base64,%s) format('truetype')}"
+                     "normal;font-stretch:62%% 125%%;"
+                     "src:url(data:font/ttf;base64,%s) format('truetype')}"
                      % (aile, agirlik, _b64(os.path.join(d, dosya))))
         _FONT["css"] = "".join(p)
     return _FONT["css"]
@@ -83,58 +84,51 @@ CSS = """
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#222}
 .slide{position:relative;overflow:hidden;font-family:Pop,sans-serif;
-  display:flex;flex-direction:column;background:%(kagit)s;color:%(mur)s}
-.slide.koyu{background:%(laci)s;color:#fff}
+  display:flex;flex-direction:column;background:%(kagit)s;color:%(mur)s;
+  font-variation-settings:"wdth" 100;
+  --kagit:%(kagit)s;--mur:%(mur)s;--soluk:%(soluk)s;--cizgi:%(cizgi)s;
+  --marka:%(marka)s}
+.slide.koyu{--cizgi:#2E3238;--soluk:#8C9099;--mur:#F3F2EE}
+.slide.koyu{background:%(laci)s;color:#F3F2EE}
 
-/* başlık ailesi */
-.d1{font-family:Anton;text-transform:uppercase;line-height:.96;
-  letter-spacing:.005em}
-.d2{font-weight:700;line-height:1.1;letter-spacing:-.015em}
-.gov{font-family:Mono;letter-spacing:.14em;text-transform:uppercase}
+/* Başlık ailesi. Eski hat sıkışık büyük harf bir başlık yüzü
+   kullanıyordu; Türkçede büyük harf okunurluğu düşürüyor ve her
+   sektörde aynı duran bir kalıp üretiyordu. Tek aile, genişletilmiş
+   kesim, cümle düzeni. */
+.d1{font-family:Pop;font-weight:650;line-height:.99;letter-spacing:-.025em;
+  font-variation-settings:"wdth" 112}
+.d2{font-weight:600;line-height:1.14;letter-spacing:-.018em}
+.gov{font-family:Mono;letter-spacing:.01em;color:%(soluk)s}
 
-/* Ürün çerçevesi. Düz beyaz kutuda ürün yapıştırılmış gibi duruyordu;
-   yumuşak stüdyo degradesi, yere oturan gölge elipsi ve iki katmanlı
-   düşen gölge ürünü sahneye oturtuyor. */
-.urun{border-radius:24px;overflow:hidden;position:relative;
-  display:flex;align-items:flex-end;justify-content:center;
-  background:radial-gradient(118%% 86%% at 50%% 6%%,
-    #ffffff 0%%, #f5f7fb 56%%, #e7ebf3 100%%);
-  box-shadow:0 1px 0 rgba(16,22,38,.05), 0 0 0 1px rgba(16,22,38,.055)}
-/* temas gölgesi: ürünün tabanı kutunun altından %%4 yukarıda */
-.urun::after{content:"";position:absolute;left:50%%;bottom:4%%;
-  width:46%%;height:26px;transform:translate(-50%%,42%%);
-  background:radial-gradient(50%% 50%% at 50%% 50%%,
-    rgba(16,22,38,.26) 0%%, rgba(16,22,38,0) 72%%)}
-/* width/height yüzde, max-width değil: max-* yalnız tavan koyuyor,
-   küçük kesimler kendi piksel boyunda kalıp kutunun içinde minik
-   duruyordu. Yüzde veriyoruz, contain oranı koruyor. */
-.urun img{position:relative;z-index:1;
-  width:88%%;height:88%%;object-fit:contain;margin-bottom:4%%;
-  /* Dar gölge (2px bulanıklık) açık renkli ürünün siluetine yapışıp
-     gri bir hale gibi duruyordu; ikisi de aşağı ve yumuşak. */
-  filter:drop-shadow(0 10px 12px rgba(16,22,38,.13))
-         drop-shadow(0 30px 34px rgba(16,22,38,.11))}
-/* kesilemeyen fotoğraf kendi zeminini getiriyor, kutuyu doldursun */
-.urun.sik{background:#fff}
-.urun.sik::after{display:none}
-.urun.sik img{width:100%%;height:100%%;object-fit:cover;margin-bottom:0;
-  filter:none}
+/* Fotoğraf penceresi: föy mantığında görsel, kenarı çizili bir
+   pencerede duruyor. Yuvarlak köşe, degrade ve gölge yok — ürünün
+   kendi fotoğrafı ne ise o. */
+.urun{overflow:hidden;position:relative;background:#fff;
+  border:1px solid %(cizgi)s;
+  display:flex;align-items:center;justify-content:center}
+.urun img{width:100%%;height:100%%;object-fit:contain}
+/* kesilemeyen fotoğraf kendi zeminini getiriyor */
+.urun.sik img{object-fit:cover}
 
 /* künye şeridi */
 .kunye{display:flex;align-items:center;justify-content:space-between;
-  border-top:2px solid %(cizgi)s;margin:0 36px;padding:18px 0 26px;
-  font-family:Mono;font-size:23px;color:%(mur)s}
-.kunye .orta{font-family:Pop;font-weight:600;font-size:22px}
-.kunye .sag{color:%(soluk)s}
-.koyu .kunye{border-top-color:#2a3654;color:#fff}
-.koyu .kunye .sag{color:#96a4c0}
+  border-top:1px solid %(cizgi)s;margin:0 56px;padding:20px 0 26px;
+  font-family:Mono;font-size:20px;color:%(soluk)s}
+.kunye .orta{font-family:Pop;font-weight:600;font-size:21px;color:%(mur)s;
+  letter-spacing:-.01em}
+.kunye .sag{color:%(marka)s}
+.koyu .kunye{border-top-color:#2E3238;color:#8C9099}
+.koyu .kunye .orta{color:#F3F2EE}
+.koyu .kunye .sag{color:#E8A0A1}
 
-/* cip */
-.cip{display:inline-flex;align-items:center;border-radius:999px;
-  background:%(laci)s;color:#fff;font-family:Mono;font-size:20px;
-  letter-spacing:.06em;padding:10px 17px;text-transform:uppercase}
+/* etiket: yuvarlak rozet değil, işaretli satır */
+.cip{display:inline-flex;align-items:center;gap:10px;
+  font-family:Mono;font-size:20px;color:%(mur)s;letter-spacing:.005em}
+.cip::before{content:"";width:11px;height:11px;border-radius:50%%;
+  border:2px solid %(marka)s;flex:0 0 auto}
+.koyu .cip{color:#F3F2EE}
 """ % {"kagit": KAGIT, "mur": MUREKKEP, "laci": LACI, "zemin": ZEMIN,
-       "cizgi": CIZGI, "soluk": SOLUK}
+       "cizgi": CIZGI, "soluk": SOLUK, "marka": MARKA}
 
 
 # ------------------------------------------------------------------ görsel
