@@ -1,5 +1,4 @@
 {
- "not": "Planin takvime oturdugu gun ve kacan isler. yayinla.py yaziyor, sira.py okuyor. 'baslangic' bos oldugu surece plan 'bugunden itibaren' gosteriliyor; ilk gercek yayinda o gune cakiliyor. 'kacirilan' cron aksamasi yuzunden vakti gecmis isler - sira.py bunlari planin sonuna ekliyor, icerik kaybolmuyor.",
- "baslangic": null,
- "kacirilan": []
+ "not": "Planin takvime oturdugu gun. yayinla.py yaziyor, sira.py okuyor. 'baslangic' bos oldugu surece plan 'bugunden itibaren' gosteriliyor; ilk gercek yayinda o gune cakiliyor. Kacirilan is defteri kalkti: icerik.json'da durumu 'hazir' kalan is sirasini koruyor, ertesi gune kendiliginden kayiyor.",
+ "baslangic": null
 }

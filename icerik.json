@@ -1,0 +1,936 @@
+{
+ "surum": 2,
+ "not": "Tek kaynak. Her gönderi burada bir satır; gün numarası tutulmuyor. Takvim, durumu 'hazir' olan işlerin kategorisindeki sırasından çıkıyor — iş aksarsa kaybolmaz, bir gün kayar. Durum: hazir | yayinlandi | beklemede | iptal.",
+ "kategori_sirasi": [
+  "rehber",
+  "baski",
+  "magaza",
+  "proje"
+ ],
+ "icerik": [
+  {
+   "klasor": "2026-09-29-atlas",
+   "kategori": "proje",
+   "konu": "atlas",
+   "durum": "yayinlandi",
+   "kare": 5,
+   "tarih": "2026-09-29"
+  },
+  {
+   "klasor": "2026-09-29-bilge-sesli-asistan",
+   "kategori": "",
+   "konu": "bilge-sesli-asistan",
+   "durum": "beklemede",
+   "kare": 0,
+   "neden": "kategori yok"
+  },
+  {
+   "klasor": "2026-09-29-filament-secimi",
+   "kategori": "rehber",
+   "konu": "filament-secimi",
+   "durum": "yayinlandi",
+   "kare": 0,
+   "tarih": "2026-09-29"
+  },
+  {
+   "klasor": "2026-09-29-pullup-direnci",
+   "kategori": "kapali",
+   "konu": "pullup-direnci",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-09-29"
+  },
+  {
+   "klasor": "2026-09-29-voltaj-bolucu",
+   "kategori": "",
+   "konu": "voltaj-bolucu",
+   "durum": "beklemede",
+   "kare": 0,
+   "neden": "kategori yok"
+  },
+  {
+   "klasor": "2026-09-30-i2c-calismiyor",
+   "kategori": "kapali",
+   "konu": "i2c-calismiyor",
+   "durum": "yayinlandi",
+   "kare": 7,
+   "tarih": "2026-09-30"
+  },
+  {
+   "klasor": "2026-09-30-iot-kartlari",
+   "kategori": "",
+   "konu": "iot-kartlari",
+   "durum": "beklemede",
+   "kare": 0,
+   "neden": "kategori yok"
+  },
+  {
+   "klasor": "2026-09-30-katir-ugv",
+   "kategori": "proje",
+   "konu": "katir-ugv",
+   "durum": "yayinlandi",
+   "kare": 0,
+   "tarih": "2026-09-30"
+  },
+  {
+   "klasor": "2026-09-30-katman-yuksekligi",
+   "kategori": "rehber",
+   "konu": "katman-yuksekligi",
+   "durum": "yayinlandi",
+   "kare": 0,
+   "tarih": "2026-09-30"
+  },
+  {
+   "klasor": "2026-10-01-atolye-duzeni",
+   "kategori": "proje",
+   "konu": "atolye-duzeni",
+   "durum": "yayinlandi",
+   "kare": 0,
+   "tarih": "2026-10-01"
+  },
+  {
+   "klasor": "2026-10-01-bambu-a2l",
+   "kategori": "rehber",
+   "konu": "bambu-a2l",
+   "durum": "yayinlandi",
+   "kare": 0,
+   "tarih": "2026-10-01"
+  },
+  {
+   "klasor": "2026-10-01-role-mi-mosfet-mi",
+   "kategori": "kapali",
+   "konu": "role-mi-mosfet-mi",
+   "durum": "yayinlandi",
+   "kare": 0,
+   "tarih": "2026-10-01"
+  },
+  {
+   "klasor": "2026-10-02-dolgu-orani",
+   "kategori": "rehber",
+   "konu": "dolgu-orani",
+   "durum": "yayinlandi",
+   "kare": 0,
+   "tarih": "2026-10-02"
+  },
+  {
+   "klasor": "2026-10-02-mosfet-rdson",
+   "kategori": "kapali",
+   "konu": "mosfet-rdson",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-02"
+  },
+  {
+   "klasor": "2026-10-02-sk-3d-toplulugu",
+   "kategori": "proje",
+   "konu": "sk-3d-toplulugu",
+   "durum": "yayinlandi",
+   "kare": 5,
+   "tarih": "2026-10-02"
+  },
+  {
+   "klasor": "2026-10-03-bakim-takvimi",
+   "kategori": "proje",
+   "konu": "bakim-takvimi",
+   "durum": "yayinlandi",
+   "kare": 5,
+   "tarih": "2026-10-03"
+  },
+  {
+   "klasor": "2026-10-03-debounce",
+   "kategori": "kapali",
+   "konu": "debounce",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-03"
+  },
+  {
+   "klasor": "2026-10-03-duvar-sayisi",
+   "kategori": "rehber",
+   "konu": "duvar-sayisi",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-03"
+  },
+  {
+   "klasor": "2026-10-04-arama-kurtarma-roveri",
+   "kategori": "proje",
+   "konu": "arama-kurtarma-roveri",
+   "durum": "yayinlandi",
+   "kare": 6,
+   "tarih": "2026-10-04"
+  },
+  {
+   "klasor": "2026-10-04-iot-kavramlari",
+   "kategori": "kapali",
+   "konu": "iot-kavramlari",
+   "durum": "yayinlandi",
+   "kare": 8,
+   "tarih": "2026-10-04"
+  },
+  {
+   "klasor": "2026-10-04-parca-yonu",
+   "kategori": "rehber",
+   "konu": "parca-yonu",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-04"
+  },
+  {
+   "klasor": "2026-10-05-destek-yapisi",
+   "kategori": "rehber",
+   "konu": "destek-yapisi",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-05"
+  },
+  {
+   "klasor": "2026-10-05-maliyet-hesabi",
+   "kategori": "proje",
+   "konu": "maliyet-hesabi",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-05"
+  },
+  {
+   "klasor": "2026-10-05-usbc-cc-direnci",
+   "kategori": "kapali",
+   "konu": "usbc-cc-direnci",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-05"
+  },
+  {
+   "klasor": "2026-10-06-bambu-r1-lazer",
+   "kategori": "rehber",
+   "konu": "bambu-r1",
+   "durum": "beklemede",
+   "kare": 5,
+   "neden": "Yayından çıkarıldı"
+  },
+  {
+   "klasor": "2026-10-06-bypass-kondansatoru",
+   "kategori": "kapali",
+   "konu": "bypass-kondansatoru",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-06"
+  },
+  {
+   "klasor": "2026-10-06-rover-v2",
+   "kategori": "proje",
+   "konu": "rover-v2",
+   "durum": "yayinlandi",
+   "kare": 5,
+   "tarih": "2026-10-06"
+  },
+  {
+   "klasor": "2026-10-07-5v-33v-seviye",
+   "kategori": "kapali",
+   "konu": "5v-33v-seviye",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-07"
+  },
+  {
+   "klasor": "2026-10-07-model-kaynaklari",
+   "kategori": "proje",
+   "konu": "model-kaynaklari",
+   "durum": "yayinlandi",
+   "kare": 5,
+   "tarih": "2026-10-07"
+  },
+  {
+   "klasor": "2026-10-07-stringing",
+   "kategori": "rehber",
+   "konu": "stringing",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-07"
+  },
+  {
+   "klasor": "2026-10-08-atolye-aletleri",
+   "kategori": "proje",
+   "konu": "atolye-aletleri",
+   "durum": "yayinlandi",
+   "kare": 12,
+   "tarih": "2026-10-08"
+  },
+  {
+   "klasor": "2026-10-08-motor-reset",
+   "kategori": "kapali",
+   "konu": "motor-reset",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-08"
+  },
+  {
+   "klasor": "2026-10-08-warping",
+   "kategori": "rehber",
+   "konu": "warping",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-08"
+  },
+  {
+   "klasor": "2026-10-09-basarisiz-baski-arsivi",
+   "kategori": "proje",
+   "konu": "basarisiz-baski-arsivi",
+   "durum": "yayinlandi",
+   "kare": 8,
+   "tarih": "2026-10-09"
+  },
+  {
+   "klasor": "2026-10-09-buck-isinmasi",
+   "kategori": "kapali",
+   "konu": "buck-isinmasi",
+   "durum": "yayinlandi",
+   "kare": 6,
+   "tarih": "2026-10-09"
+  },
+  {
+   "klasor": "2026-10-09-elephant-foot",
+   "kategori": "rehber",
+   "konu": "elephant-foot",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-09"
+  },
+  {
+   "klasor": "2026-10-10-bambu-r1-tanitim",
+   "kategori": "",
+   "konu": "bambu-r1",
+   "durum": "beklemede",
+   "kare": 5,
+   "neden": "Yayından çıkarıldı"
+  },
+  {
+   "klasor": "2026-10-10-filament-kurutma",
+   "kategori": "rehber",
+   "konu": "filament-kurutma",
+   "durum": "yayinlandi",
+   "kare": 6,
+   "tarih": "2026-10-10"
+  },
+  {
+   "klasor": "2026-10-10-fusion-onshape",
+   "kategori": "proje",
+   "konu": "fusion-onshape",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-10"
+  },
+  {
+   "klasor": "2026-10-10-tp4056-sarj",
+   "kategori": "kapali",
+   "konu": "tp4056-sarj",
+   "durum": "yayinlandi",
+   "kare": 5,
+   "tarih": "2026-10-10"
+  },
+  {
+   "klasor": "2026-10-11-ender-v3-mega-tanitim",
+   "kategori": "",
+   "konu": "ender-v3-mega-tanitim",
+   "durum": "iptal",
+   "kare": 0,
+   "neden": "Iptal edildi 10 Ekim 2026. Creality'nin kendi karsilastirma sayfasinda Ender-3 V3 serisi Plus/V3/KE/SE'den ibaret; Mega yok, 420x420x420 mm yok. Ilhan'in yollad"
+  },
+  {
+   "klasor": "2026-10-11-jetson-orin-nano",
+   "kategori": "kapali",
+   "konu": "jetson-orin-nano",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-11"
+  },
+  {
+   "klasor": "2026-10-11-musteriye-fiyat",
+   "kategori": "proje",
+   "konu": "musteriye-fiyat",
+   "durum": "beklemede",
+   "kare": 4,
+   "neden": "Yayından çıkarıldı"
+  },
+  {
+   "klasor": "2026-10-11-sunlu-pla-kartelasi",
+   "kategori": "rehber",
+   "konu": "sunlu-filament",
+   "durum": "yayinlandi",
+   "kare": 6,
+   "tarih": "2026-10-18"
+  },
+  {
+   "klasor": "2026-10-12-cekilis-duyuru",
+   "kategori": "kampanya",
+   "konu": "cekilis-duyuru",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "2026-10-12-deep-sleep-akim",
+   "kategori": "kapali",
+   "konu": "deep-sleep-akim",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-12"
+  },
+  {
+   "klasor": "2026-10-12-urun-fotografi",
+   "kategori": "proje",
+   "konu": "urun-fotografi",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-12"
+  },
+  {
+   "klasor": "2026-10-12-yapisma-yuzeyleri",
+   "kategori": "rehber",
+   "konu": "yapisma-yuzeyleri",
+   "durum": "yayinlandi",
+   "kare": 5,
+   "tarih": "2026-10-21"
+  },
+  {
+   "klasor": "2026-10-13-nozzle-capi",
+   "kategori": "rehber",
+   "konu": "nozzle-capi",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-13"
+  },
+  {
+   "klasor": "2026-10-13-olcu-dogrulama",
+   "kategori": "proje",
+   "konu": "olcu-dogrulama",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-13"
+  },
+  {
+   "klasor": "2026-10-13-optokuplor",
+   "kategori": "kapali",
+   "konu": "optokuplor",
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-10-13"
+  },
+  {
+   "klasor": "2026-10-13-phaetus-conch-nozul",
+   "kategori": "magaza",
+   "konu": "phaetus-conch-nozul",
+   "durum": "beklemede",
+   "kare": 4,
+   "neden": "Elektronik kategorisi kapandı"
+  },
+  {
+   "klasor": "2026-10-14-atolyeden-cikanlar",
+   "kategori": "baski",
+   "konu": "atolyeden-cikanlar",
+   "durum": "yayinlandi",
+   "kare": 8,
+   "tarih": "2026-10-18"
+  },
+  {
+   "klasor": "2026-10-14-lipo-bms",
+   "kategori": "kapali",
+   "konu": "lipo-bms",
+   "durum": "beklemede",
+   "kare": 5,
+   "neden": "Elektronik kategorisi kapandı"
+  },
+  {
+   "klasor": "2026-10-14-siparis-sorulari",
+   "kategori": "proje",
+   "konu": "siparis-sorulari",
+   "durum": "hazir",
+   "kare": 6
+  },
+  {
+   "klasor": "2026-10-14-sunlu-filadryer",
+   "kategori": "magaza",
+   "konu": "filament-kurutucu",
+   "durum": "beklemede",
+   "kare": 5,
+   "neden": "Gönderisi yayınlandı; video beklemede"
+  },
+  {
+   "klasor": "2026-10-15-3d-tarayici",
+   "kategori": "proje",
+   "konu": "3d-tarayici",
+   "durum": "hazir",
+   "kare": 5
+  },
+  {
+   "klasor": "2026-10-15-cekilis-son-gun",
+   "kategori": "kampanya",
+   "konu": "cekilis-son-gun",
+   "durum": "hazir",
+   "kare": 1
+  },
+  {
+   "klasor": "2026-10-15-h-koprusu",
+   "kategori": "kapali",
+   "konu": "h-koprusu",
+   "durum": "beklemede",
+   "kare": 5,
+   "neden": "Elektronik kategorisi kapandı"
+  },
+  {
+   "klasor": "2026-10-15-saksi-koleksiyonu",
+   "kategori": "rehber",
+   "konu": "saksi-koleksiyonu",
+   "durum": "beklemede",
+   "kare": 8,
+   "neden": "Yeni modeller gelince yeniden kurulacak"
+  },
+  {
+   "klasor": "2026-10-15-sunlu-ams-heater",
+   "kategori": "magaza",
+   "konu": "sunlu-ams-heater",
+   "durum": "hazir",
+   "kare": 5,
+   "reels": true
+  },
+  {
+   "klasor": "2026-10-16-gelistirme-karti-pano",
+   "kategori": "kapali",
+   "konu": "gelistirme-karti-pano",
+   "durum": "beklemede",
+   "kare": 1,
+   "neden": "Elektronik kategorisi kapandı"
+  },
+  {
+   "klasor": "2026-10-16-phaetus-liber-u1",
+   "kategori": "magaza",
+   "konu": "phaetus-liber-u1",
+   "durum": "hazir",
+   "kare": 5,
+   "reels": true
+  },
+  {
+   "klasor": "2026-10-16-sunlu-filament-pano",
+   "kategori": "rehber",
+   "konu": "sunlu-filament",
+   "durum": "hazir",
+   "kare": 1,
+   "reels": true
+  },
+  {
+   "klasor": "2026-10-16-tavan-arasi-kamera-robotu",
+   "kategori": "proje",
+   "konu": "tavan-arasi-kamera-robotu",
+   "durum": "hazir",
+   "kare": 5
+  },
+  {
+   "klasor": "2026-10-16-vazo-koleksiyonu",
+   "kategori": "rehber",
+   "konu": "vazo-koleksiyonu",
+   "durum": "beklemede",
+   "kare": 8,
+   "neden": "Yeni modeller gelince yeniden kurulacak"
+  },
+  {
+   "klasor": "2026-10-17-cok-renkli-yazici-pano",
+   "kategori": "rehber",
+   "konu": "cok-renkli-yazici",
+   "durum": "hazir",
+   "kare": 1
+  },
+  {
+   "klasor": "2026-10-17-esp32-ailesi-pano",
+   "kategori": "kapali",
+   "konu": "esp32-ailesi-pano",
+   "durum": "beklemede",
+   "kare": 1,
+   "neden": "Elektronik kategorisi kapandı"
+  },
+  {
+   "klasor": "2026-10-17-masa-duzeni",
+   "kategori": "rehber",
+   "konu": "masa-duzeni",
+   "durum": "beklemede",
+   "kare": 8,
+   "neden": "Atölye ürünleri yayından çıkarıldı"
+  },
+  {
+   "klasor": "2026-10-17-polymaker-ht-pla",
+   "kategori": "magaza",
+   "konu": "ht-pla",
+   "durum": "hazir",
+   "kare": 5,
+   "reels": true
+  },
+  {
+   "klasor": "2026-10-17-rc-tank",
+   "kategori": "proje",
+   "konu": "rc-tank",
+   "durum": "hazir",
+   "kare": 6
+  },
+  {
+   "klasor": "2026-10-18-aydinlatma",
+   "kategori": "rehber",
+   "konu": "aydinlatma",
+   "durum": "beklemede",
+   "kare": 7,
+   "neden": "Atölye ürünleri yayından çıkarıldı"
+  },
+  {
+   "klasor": "2026-10-18-bambu-h-serisi-pano",
+   "kategori": "rehber",
+   "konu": "bambu-h-serisi-pano",
+   "durum": "hazir",
+   "kare": 1,
+   "reels": true
+  },
+  {
+   "klasor": "2026-10-18-ender-3-v4-combo",
+   "kategori": "magaza",
+   "konu": "ender-3-v4-combo",
+   "durum": "hazir",
+   "kare": 5,
+   "reels": true
+  },
+  {
+   "klasor": "2026-10-18-filament-kurutucu-pano",
+   "kategori": "rehber",
+   "konu": "filament-kurutucu",
+   "durum": "hazir",
+   "kare": 1
+  },
+  {
+   "klasor": "2026-10-18-kondansator-esr",
+   "kategori": "kapali",
+   "konu": "kondansator-esr",
+   "durum": "beklemede",
+   "kare": 5,
+   "neden": "Elektronik kategorisi kapandı"
+  },
+  {
+   "klasor": "2026-10-18-sert-nozul",
+   "kategori": "rehber",
+   "konu": "sert-nozul",
+   "durum": "hazir",
+   "kare": 5
+  },
+  {
+   "klasor": "2026-10-18-toplulukta-ariza",
+   "kategori": "proje",
+   "konu": "toplulukta-ariza",
+   "durum": "hazir",
+   "kare": 5
+  },
+  {
+   "klasor": "2026-10-19-bambu-a-serisi-pano",
+   "kategori": "rehber",
+   "konu": "bambu-a-serisi-pano",
+   "durum": "hazir",
+   "kare": 1
+  },
+  {
+   "klasor": "2026-10-19-banyo-duzeni",
+   "kategori": "rehber",
+   "konu": "banyo-duzeni",
+   "durum": "beklemede",
+   "kare": 8,
+   "neden": "Atölye ürünleri yayından çıkarıldı"
+  },
+  {
+   "klasor": "2026-10-19-heat-set-insert",
+   "kategori": "rehber",
+   "konu": "heat-set-insert",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "2026-10-19-ht-pla-pano",
+   "kategori": "rehber",
+   "konu": "ht-pla",
+   "durum": "beklemede",
+   "kare": 1,
+   "neden": "Aynı konu: Polymaker HT-PLA gönderisi planda"
+  },
+  {
+   "klasor": "2026-10-19-oyuncak-yol-seti",
+   "kategori": "proje",
+   "konu": "oyuncak-yol-seti",
+   "durum": "hazir",
+   "kare": 5
+  },
+  {
+   "klasor": "2026-10-19-trendyol-magaza",
+   "kategori": "kampanya",
+   "konu": "trendyol-magaza",
+   "durum": "hazir",
+   "kare": 1
+  },
+  {
+   "klasor": "2026-10-19-yazicilar",
+   "kategori": "magaza",
+   "konu": "yazicilar",
+   "durum": "yayinlandi",
+   "kare": 8,
+   "tarih": "2026-10-18"
+  },
+  {
+   "klasor": "2026-10-20-anycubic-recine",
+   "kategori": "magaza",
+   "konu": "anycubic-recine",
+   "durum": "hazir",
+   "kare": 7
+  },
+  {
+   "klasor": "2026-10-20-fpv-drone-cinelog20",
+   "kategori": "proje",
+   "konu": "fpv-drone-cinelog20",
+   "durum": "hazir",
+   "kare": 5,
+   "reels": true
+  },
+  {
+   "klasor": "2026-10-20-makyaj-ve-taki",
+   "kategori": "rehber",
+   "konu": "makyaj-ve-taki",
+   "durum": "beklemede",
+   "kare": 8,
+   "neden": "Atölye ürünleri yayından çıkarıldı"
+  },
+  {
+   "klasor": "2026-10-20-neden-sermen",
+   "kategori": "magaza",
+   "konu": "neden-sermen",
+   "durum": "hazir",
+   "kare": 1
+  },
+  {
+   "klasor": "2026-10-20-pixhawk-pano",
+   "kategori": "",
+   "konu": "pixhawk-pano",
+   "durum": "beklemede",
+   "kare": 1,
+   "neden": "Elektronik kategorisi kapandı"
+  },
+  {
+   "klasor": "2026-10-20-sparkx-i7-i8-pano",
+   "kategori": "magaza",
+   "konu": "sparkx-i7-i8-pano",
+   "durum": "hazir",
+   "kare": 1
+  },
+  {
+   "klasor": "2026-10-21-ams-israf",
+   "kategori": "rehber",
+   "konu": "renk-degisimi",
+   "durum": "hazir",
+   "kare": 4,
+   "reels": true
+  },
+  {
+   "klasor": "2026-10-21-filament-cesitleri",
+   "kategori": "magaza",
+   "konu": "filament-cesitleri",
+   "durum": "hazir",
+   "kare": 8
+  },
+  {
+   "klasor": "2026-10-21-filament-rehberi",
+   "kategori": "",
+   "konu": "filament-rehberi",
+   "durum": "beklemede",
+   "kare": 1,
+   "neden": "Yayından çıkarıldı"
+  },
+  {
+   "klasor": "2026-10-21-hediyelik",
+   "kategori": "rehber",
+   "konu": "hediyelik",
+   "durum": "beklemede",
+   "kare": 8,
+   "neden": "Atölye ürünleri yayından çıkarıldı"
+  },
+  {
+   "klasor": "2026-10-21-pi-kamera-pano",
+   "kategori": "",
+   "konu": "pi-kamera-pano",
+   "durum": "beklemede",
+   "kare": 1,
+   "neden": "Elektronik kategorisi kapandı"
+  },
+  {
+   "klasor": "2026-10-21-pi5-ekran-standi",
+   "kategori": "proje",
+   "konu": "pi5-ekran-standi",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "2026-10-21-u1-k3-pano",
+   "kategori": "magaza",
+   "konu": "renk-degisimi",
+   "durum": "beklemede",
+   "kare": 1,
+   "neden": "Aynı konu: AMS israfı gönderisi planda"
+  },
+  {
+   "klasor": "2026-10-22-creality-k2-plus",
+   "kategori": "magaza",
+   "konu": "creality-k2-plus",
+   "durum": "hazir",
+   "kare": 6,
+   "reels": true
+  },
+  {
+   "klasor": "2026-10-22-geometrik-siralama",
+   "kategori": "baski",
+   "konu": "geometrik-siralama",
+   "durum": "yayinlandi",
+   "kare": 5,
+   "tarih": "2026-10-21"
+  },
+  {
+   "klasor": "2026-10-22-servis-kaseleri",
+   "kategori": "baski",
+   "konu": "servis-kaseleri",
+   "durum": "beklemede",
+   "kare": 6,
+   "neden": "Atölye ürünleri yayından çıkarıldı"
+  },
+  {
+   "klasor": "2026-10-22-yuksek-akisli-nozzle",
+   "kategori": "rehber",
+   "konu": "yuksek-akisli-nozzle",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "2026-10-23-sekil-cark-tahtasi",
+   "kategori": "baski",
+   "konu": "sekil-cark-tahtasi",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "2026-10-24-cay-kahve-seti",
+   "kategori": "baski",
+   "konu": "cay-kahve-seti",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "2026-10-25-aktivite-tahtasi",
+   "kategori": "baski",
+   "konu": "aktivite-tahtasi",
+   "durum": "hazir",
+   "kare": 8
+  },
+  {
+   "klasor": "2026-10-26-market-kasa-seti",
+   "kategori": "baski",
+   "konu": "market-kasa-seti",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "2026-10-27-meyve-sebze-seti",
+   "kategori": "baski",
+   "konu": "meyve-sebze-seti",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "2026-10-28-vidali-tren",
+   "kategori": "baski",
+   "konu": "vidali-tren",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "2026-10-29-vidali-yapim-tahtasi",
+   "kategori": "baski",
+   "konu": "vidali-yapim-tahtasi",
+   "durum": "hazir",
+   "kare": 5
+  },
+  {
+   "klasor": "2026-10-30-alyan-vida-oyuncagi",
+   "kategori": "baski",
+   "konu": "alyan-vida-oyuncagi",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "2026-10-31-halka-dizme-kulesi",
+   "kategori": "baski",
+   "konu": "halka-dizme-kulesi",
+   "durum": "hazir",
+   "kare": 5
+  },
+  {
+   "klasor": "2026-11-01-rakam-yapbozu",
+   "kategori": "baski",
+   "konu": "rakam-yapbozu",
+   "durum": "hazir",
+   "kare": 5
+  },
+  {
+   "klasor": "2026-11-02-kesir-daireleri",
+   "kategori": "baski",
+   "konu": "kesir-daireleri",
+   "durum": "hazir",
+   "kare": 4
+  }
+ ],
+ "kampanya": [
+  {
+   "saat": "13:30",
+   "tur": "gonderi",
+   "klasor": "2026-10-12-cekilis-duyuru",
+   "not": "Dört makara çekiliş duyurusu",
+   "gun": 1
+  },
+  {
+   "saat": "19:10",
+   "tur": "hikaye",
+   "klasor": "2026-10-12-cekilis-duyuru",
+   "not": "hatırlatma",
+   "gun": 2
+  },
+  {
+   "saat": "19:10",
+   "tur": "hikaye",
+   "klasor": "2026-10-12-cekilis-duyuru",
+   "not": "hatırlatma",
+   "gun": 3
+  },
+  {
+   "saat": "18:40",
+   "tur": "gonderi",
+   "klasor": "2026-10-15-cekilis-son-gun",
+   "not": "son gün",
+   "gun": 4
+  },
+  {
+   "saat": "10:30",
+   "tur": "hikaye",
+   "klasor": "2026-10-19-trendyol-magaza",
+   "not": "Trendyol mağaza hikayesi — bağlantı etiketi ty.gl/wvxkl6ythlckv",
+   "gun": 0
+  },
+  {
+   "saat": "10:30",
+   "tur": "hikaye",
+   "klasor": "2026-10-19-trendyol-magaza",
+   "not": "Trendyol mağaza hikayesi — bağlantı etiketi ty.gl/wvxkl6ythlckv",
+   "gun": 7
+  },
+  {
+   "saat": "10:30",
+   "tur": "hikaye",
+   "klasor": "2026-10-19-trendyol-magaza",
+   "not": "Trendyol mağaza hikayesi — bağlantı etiketi ty.gl/wvxkl6ythlckv",
+   "gun": 14
+  }
+ ]
+}

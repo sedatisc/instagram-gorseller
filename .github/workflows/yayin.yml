@@ -1,6 +1,6 @@
 name: Instagram yayını
 
-# Kuyruk DURUM.json, saatler sira.py içinde. Bu iş akışı 20 dakikada bir
+# Icerik icerik.json, saatler sira.py icinde. Bu iş akışı 20 dakikada bir
 # bakıyor: vakti gelmiş ve defterde olmayan ne varsa Instagram Graph API
 # ile yayınlıyor. Görseller depodan servis ediliyor (raw.githubusercontent),
 # ayrı barındırma yok.

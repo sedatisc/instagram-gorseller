@@ -104,7 +104,7 @@ kampanyaların ardından taklit hesaplar her seferinde yazıyor.
 | 16 Ekim Cum | 20:00 | Anket kapanıyor |
 | 16 Ekim Cum | 21:00 | Sonuç gönderisi + anket ekran görüntüsü |
 
-Kampanya kayıtları `DURUM.json` → `kuyruk_bekleyen.kampanya` içinde,
+Kampanya kayıtları `icerik.json` → `kampanya` içinde,
 dört slotluk günlük ızgaranın dışında duruyor.
 
 ## Sonuç gönderisi

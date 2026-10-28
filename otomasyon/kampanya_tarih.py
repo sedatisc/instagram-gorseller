@@ -79,9 +79,9 @@ def main():
         return 0
     print("son tarih: %s · oylama: %s"
           % (deger["son_tarih"], deger["oylama_gunu"]))
-    d = json.load(open(os.path.join(KOK, "DURUM.json"), encoding="utf-8"))
+    d = json.load(open(os.path.join(KOK, "icerik.json"), encoding="utf-8"))
     n = 0
-    for k in d["kuyruk_bekleyen"].get("kampanya", []):
+    for k in d.get("kampanya", []):
         if bas(k["klasor"], deger):
             n += 1
     print("%d kampanya klasörü yeniden basıldı" % n)

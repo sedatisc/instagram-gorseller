@@ -97,7 +97,7 @@ Anahtarları sohbete ya da dosyaya yazma, yalnız secret alanına.
 
 ## Nasıl çalışıyor
 
-- Kuyruk `DURUM.json`, saatler `sira.py`. Instagram hattıyla aynı kaynak.
+- Kuyruk `youtube/DURUM.json`, saatler `sira.py`. Instagram hattı ayrı: `icerik.json`.
 - Başlık kapak manşetinden, açıklama `metin.md`'den, etiketler metindeki
   `#` etiketlerinden üretiliyor. Kategori: Science & Technology.
 - Yüklenenler `otomasyon/yayinlanan-youtube.json` defterine yazılıyor,

@@ -1,67 +1,221 @@
 #!/usr/bin/env python3
-"""Yayın sırası — 4 gönderi + 4 hikaye + 1 reels / gün.
+"""Yayın sırası — icerik.json'dan takvim türetiyor.
 
-DURUM.json'daki kuyruğu okur, saat ızgarasını uygular, YAYIN-LISTESI.md'yi
-üretir. Metricool kotası açılınca aynı kuyruk doğrudan createScheduledPost
-ile planlanır; saatler buradan okunur.
+Eski yapıda her gönderinin elle tutulan bir gün numarası vardı. Numara
+kaydıkça aynı iş iki kere planlanıyor, elle paylaşılan iş kuyrukta
+kalıyor, yayıncı aksayınca o günün işi sessizce düşüyordu. Burada
+gönderinin tarihi yok: durumu "hazir" olan işler kategorisindeki
+sırayla günlere diziliyor, tarih konumdan çıkıyor. Bir gün kaçarsa
+içerik kaybolmuyor, bir gün kayıyor.
 
-    python3 sira.py           # listeyi yeniden üret
-    python3 sira.py --eksik   # yalnız boş slotları say
+    python3 sira.py                      # listeyi ve paketi üret
+    python3 sira.py --eksik              # yalnız boş slotları say
+    python3 sira.py yayinlandi <klasor> [gg.aa.yyyy]
+    python3 sira.py beklet <klasor> <neden>
+    python3 sira.py geri <klasor>
 """
 import json
 import os
-import re
 import sys
 from datetime import date, datetime, timedelta
 
 GUN = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma",
        "Cumartesi", "Pazar"]
 
-# Slot sırası sabit; saatler güne göre değişiyor.
-SLOTLAR = ["3dbaski", "baski", "urun", "proje"]
+SLOTLAR = ["rehber", "baski", "magaza", "proje"]
 
-BASLIK = {"3dbaski": "AYAR & REHBER",
+BASLIK = {"rehber": "AYAR & REHBER",
           "baski": "BASKI ÜRÜNLERİ",
-          # Elektronik kategorisi kapandı (sitede satılmıyor); anahtar
-          # eski kuyruk satırları okunabilsin diye duruyor.
-          "elektronik": "ELEKTRONİK (kapandı)",
-          "urun": "ÜRÜN & MAĞAZA",
-          "proje": "PROJE & ATÖLYE"}
+          "magaza": "ÜRÜN & MAĞAZA",
+          "proje": "PROJE & ATÖLYE",
+          "kampanya": "KAMPANYA"}
 
 # gün indeksi -> {slot: "SS:DD"} + "reels"
 IZGARA = {
-    0: {"3dbaski": "08:12", "elektronik": "12:38",
-        "baski": "12:38", "urun": "17:24",
+    0: {"rehber": "08:12", "baski": "12:38", "magaza": "17:24",
         "proje": "19:40", "reels": "21:10"},            # Pazartesi
-    1: {"3dbaski": "08:12", "elektronik": "12:38",
-        "baski": "12:38", "urun": "17:24",
+    1: {"rehber": "08:12", "baski": "12:38", "magaza": "17:24",
         "reels": "19:36", "proje": "20:42"},            # Salı
-    2: {"3dbaski": "08:12", "elektronik": "12:38",
-        "baski": "12:38", "urun": "17:24",
+    2: {"rehber": "08:12", "baski": "12:38", "magaza": "17:24",
         "reels": "19:36", "proje": "20:42"},            # Çarşamba
-    3: {"3dbaski": "08:12", "elektronik": "12:38",
-        "baski": "12:38", "urun": "17:24",
+    3: {"rehber": "08:12", "baski": "12:38", "magaza": "17:24",
         "reels": "19:36", "proje": "20:42"},            # Perşembe
-    4: {"3dbaski": "08:12", "elektronik": "12:38",
-        "baski": "12:38", "urun": "16:40",
+    4: {"rehber": "08:12", "baski": "12:38", "magaza": "16:40",
         "proje": "18:10", "reels": "20:30"},            # Cuma
-    5: {"3dbaski": "11:10", "elektronik": "12:20",
-        "baski": "12:20", "urun": "16:50",
+    5: {"rehber": "11:10", "baski": "12:20", "magaza": "16:50",
         "reels": "19:20", "proje": "20:10"},            # Cumartesi
-    6: {"3dbaski": "11:40", "elektronik": "12:20",
-        "baski": "12:20", "urun": "17:10",
+    6: {"rehber": "11:40", "baski": "12:20", "magaza": "17:10",
         "reels": "19:50", "proje": "21:00"},            # Pazar
 }
 
 HIKAYE_GECIKME = 40      # gönderiden kaç dakika sonra
 
 KOK = os.path.dirname(os.path.abspath(__file__))
-DURUM = os.path.join(KOK, "DURUM.json")
+ICERIK = os.path.join(KOK, "icerik.json")
 PLAN_DURUM = os.path.join(KOK, "otomasyon", "plan-durumu.json")
+DEPO = "https://github.com/sedatisc/instagram-gorseller/tree/main/"
+HAM = ("https://raw.githubusercontent.com/sedatisc/"
+       "instagram-gorseller/main/")
 
 
-def saat(g, anahtar):
-    return IZGARA[g][anahtar]
+# --------------------------------------------------------------- veri
+def oku():
+    with open(ICERIK, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def yaz(d):
+    with open(ICERIK, "w", encoding="utf-8") as f:
+        json.dump(d, f, ensure_ascii=False, indent=1)
+
+
+def plan_durumu():
+    try:
+        with open(PLAN_DURUM, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def baslangic():
+    """Planın birinci günü.
+
+    İlk gerçek yayında takvime çivileniyor; o güne kadar "bugünden
+    itibaren" gösteriliyor, böylece yayıncı kapalıyken gün kaybı olmuyor.
+    Çivilenmiş tarih geçmişte kaldıysa bugüne çekiliyor: plan geriye
+    doğru uzayıp boş günler üretmesin."""
+    s = plan_durumu().get("baslangic")
+    bug = date.today()
+    if s:
+        t = date.fromisoformat(s)
+        if t >= bug:
+            return t
+    # Günün ilk gönderi saati geçtiyse plan yarından başlıyor: yarım
+    # günle başlayıp o günün işlerinin çoğunu yayınlanmadan geçirmesin.
+    ilk = min(IZGARA[bug.weekday()].values())
+    return bug if datetime.now().strftime("%H:%M") < ilk else bug + timedelta(1)
+
+
+# ------------------------------------------------------------ takvim
+def hazirlar(d=None):
+    """Kategorisine göre, sırasıyla, plana girecek işler.
+
+    Aynı konunun ikinci klasörü atlanıyor: aynı ürün iki ayrı gönderi
+    olarak kuyrukta durabiliyordu."""
+    d = d or oku()
+    gorulen, out = set(), {k: [] for k in SLOTLAR}
+    for i in d["icerik"]:
+        if i.get("durum") != "hazir" or i.get("kategori") not in out:
+            continue
+        konu = i.get("konu") or i["klasor"]
+        if konu in gorulen:
+            print("ATLANDI (aynı konu): %s" % i["klasor"])
+            continue
+        gorulen.add(konu)
+        out[i["kategori"]].append(i)
+    return _reelsleri_yay(out)
+
+
+def _reelsleri_yay(out):
+    """Videolu işleri ayrı günlere dağıtıyor.
+
+    Günde tek reels var. İki videolu iş aynı güne denk gelince biri
+    yayınlanmadan bekliyordu. Çakışanı kendi kategorisindeki bir sonraki
+    videosuz işle yer değiştiriyoruz: gönderi sırası bozulmuyor, video
+    da kaybolmuyor."""
+    dolu = set()
+    derin = max((len(v) for v in out.values()), default=0)
+    for g in range(derin):
+        for kat in SLOTLAR:
+            lst = out[kat]
+            if g >= len(lst) or not lst[g].get("reels"):
+                continue
+            if g not in dolu:
+                dolu.add(g)
+                continue
+            for j in range(g + 1, len(lst)):
+                if not lst[j].get("reels"):
+                    lst[g], lst[j] = lst[j], lst[g]
+                    break
+            else:
+                continue
+            if g not in dolu:
+                dolu.add(g)
+    # Yer değiştirmeler sonrası günleri yeniden işaretliyoruz.
+    dolu = set()
+    for g in range(derin):
+        for kat in SLOTLAR:
+            lst = out[kat]
+            if g < len(lst) and lst[g].get("reels"):
+                dolu.add(g)
+    return out
+
+
+def kuyruk():
+    """(uyumluluk sözlüğü, slot listesi).
+
+    yayinla.py bu biçimi bekliyor: her kayıtta klasor, slot, tarih."""
+    d = oku()
+    bas = baslangic()
+    slotlar = []
+    for kat, lst in hazirlar(d).items():
+        for i, kayit in enumerate(lst):
+            slotlar.append({"klasor": kayit["klasor"], "slot": kat,
+                            "gun": i,
+                            "tarih": (bas + timedelta(days=i)).isoformat()})
+    uyum = {"kuyruk_bekleyen": {"beklemede": [
+        {"klasor": i["klasor"]} for i in d["icerik"]
+        if i.get("durum") in ("beklemede", "iptal")]}}
+    return uyum, sorted(slotlar, key=lambda s: (s["tarih"], s["slot"]))
+
+
+def kampanyalar():
+    d = oku()
+    bas = baslangic()
+    hazir = {i["klasor"] for i in d["icerik"] if i.get("durum") == "hazir"}
+    out = []
+    for k in d.get("kampanya", []):
+        if k["klasor"] not in hazir:
+            continue
+        x = dict(k)
+        x["tarih"] = (bas + timedelta(days=int(k.get("gun", 0)))).isoformat()
+        out.append(x)
+    return out
+
+
+def reelsler(slotlar=None):
+    """Reels takvimi; video konusunun gönderisiyle aynı güne biniyor.
+
+    Ayrı güne atılsa aynı konu iki güne yayılıyor, listede de akışta da
+    tekrar gibi duruyordu. Gönderisinin günü başka bir videoyla doluysa
+    video bekliyor; gün açılınca kendiliğinden giriyor."""
+    d = oku()
+    if slotlar is None:
+        _, slotlar = kuyruk()
+    gun = {s["klasor"]: s["tarih"] for s in slotlar}
+    out = {}
+    for i in d["icerik"]:
+        if not i.get("reels") or i.get("durum") != "hazir":
+            continue
+        t = gun.get(i["klasor"])
+        if t is None:
+            continue
+        if t in out:
+            print("BEKLEYEN REELS: %s — %s günü dolu" % (i["klasor"], t))
+            continue
+        out[t] = i["klasor"]
+    return out
+
+
+def gunler(slotlar):
+    out = {}
+    for s in slotlar:
+        out.setdefault(s["tarih"], {})[s["slot"]] = s
+    return dict(sorted(out.items()))
+
+
+def saat(g, slot):
+    return IZGARA[g][slot]
 
 
 def arti(hhmm, dk):
@@ -69,228 +223,92 @@ def arti(hhmm, dk):
     return t.strftime("%H:%M")
 
 
-# ----------------------------------------------------- planın takvimi
-def plan_durumu():
-    try:
-        with open(PLAN_DURUM, encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return {"baslangic": None, "kacirilan": []}
+# ------------------------------------------------------------ yardımcı
+def kare_adlari(klasor):
+    yol = os.path.join(KOK, klasor)
+    if not os.path.isdir(yol):
+        return []
+    return sorted((f for f in os.listdir(yol)
+                   if f[:-4].isdigit() and f.endswith(".jpg")),
+                  key=lambda f: int(f[:-4]))
 
 
-def baslangic():
-    """Planın birinci gününün takvim tarihi.
-
-    Plan eskiden sabit tarihlere çivilenmişti: yayıncı kapalı olduğu her
-    gün o günün dört gönderisi "vakti geçmiş" diye siliniyordu, altı gün
-    böyle kayboldu. Artık kuyrukta tarih değil gün sırası (0, 1, 2...)
-    duruyor; takvime oturması ilk gerçek yayında oluyor.
-
-    Henüz oturmadıysa plan bugünden başlıyor gibi gösteriliyor — bugünün
-    ilk slotu geçtiyse yarından, yarım günle başlamasın diye."""
-    s = plan_durumu().get("baslangic")
-    if s:
-        return date.fromisoformat(s)
-    bug = date.today()
-    izg = IZGARA[bug.weekday()]
-    ilk = min(izg[a] for a in SLOTLAR if a in izg)
-    return bug if datetime.now().strftime("%H:%M") < ilk \
-        else bug + timedelta(days=1)
-
-
-def _tarihle(kayit, bas):
-    """Kayda takvim tarihini yazıyor. Eski kayıtlarda tarih hazır."""
-    k = dict(kayit)
-    if "gun" in k:
-        k["tarih"] = (bas + timedelta(days=int(k["gun"]))).isoformat()
-    return k
-
-
-def _kacirilani_kaydir(slotlar, bas):
-    """Cron aksayınca atlanan gönderi planın sonuna taşınıyor.
-
-    İş kuyrukta duruyor ama günü geçtiği için bir daha hiç yayınlanmıyor,
-    içerik sessizce düşüyordu. Taşıma bir kere oluyor: günü hâlâ ileride
-    olan kayda dokunulmuyor."""
-    kac = {k.get("klasor") for k in (plan_durumu().get("kacirilan") or [])}
-    if not kac:
-        return slotlar
-    bugun = date.today()
-    sl = [dict(s) for s in slotlar]
-    son = max((int(s.get("gun", 0)) for s in sl), default=0)
-    dolu = {(int(s.get("gun", 0)), s["slot"]) for s in sl}
-    for s in sl:
-        if s["klasor"] not in kac:
+def metin_oku(klasor):
+    """(gönderi metni, ilk yorum)."""
+    yol = os.path.join(KOK, klasor, "metin.md")
+    if not os.path.exists(yol):
+        return "", ""
+    ham = open(yol, encoding="utf-8").read()
+    govde, yorum, hedef = [], [], None
+    for satir in ham.splitlines():
+        if satir.startswith("## "):
+            b = satir[3:].strip().lower()
+            hedef = govde if b.startswith("gönderi") else (
+                yorum if b.startswith("ilk yorum") else None)
             continue
-        if bas + timedelta(days=int(s.get("gun", 0))) >= bugun:
-            continue                      # günü gelmemiş, taşımaya gerek yok
-        dolu.discard((int(s["gun"]), s["slot"]))
-        g = son + 1
-        while (g, s["slot"]) in dolu:
-            g += 1
-        dolu.add((g, s["slot"]))
-        s["gun"] = g
-        s["not"] = "kaçırıldı, sona alındı"
-    return sl
+        if hedef is not None:
+            hedef.append(satir)
+    return "\n".join(govde).strip(), "\n".join(yorum).strip()
 
 
-def kuyruk():
-    with open(DURUM, encoding="utf-8") as f:
-        d = json.load(f)
-    bas = baslangic()
-    sl = _kacirilani_kaydir(d["kuyruk_bekleyen"]["slotlar"], bas)
-    return d, [_tarihle(s, bas) for s in sl]
-
-
-def reelsler(slotlar=None):
-    """Reels takvimi. Reels, kendi klasörünün gönderisiyle aynı güne
-    biniyor.
-
-    Eskiden reels'in kendi gün sırası vardı: aynı ürün bir gün reels,
-    üç gün sonra gönderi olarak çıkıyordu. Listede aynı başlık üç kere
-    görünüyor, takipçiye de aynı şey tekrar tekrar gidiyordu. Artık bir
-    konu tek güne toplanıyor: gönderi, hikayesi ve videosu aynı gün."""
-    with open(DURUM, encoding="utf-8") as f:
-        d = json.load(f)
-    bas = baslangic()
-    gonderi_gunu = {s["klasor"]: s["tarih"] for s in (slotlar or [])}
-    gunluk = sorted({s["tarih"] for s in (slotlar or [])})
-    out = {}
-    bekleyen = []
-    for r in (_tarihle(x, bas) for x in d["kuyruk_bekleyen"].get("reels", [])):
-        # Video bir klasörde, o konunun gönderisi başka klasörde
-        # olabiliyor; "gun_klasor" hangi gönderiye bineceğini söylüyor.
-        hedef = r.get("gun_klasor", r["klasor"])
-        t = gonderi_gunu.get(hedef, r["tarih"])
-        if t in out:
-            bekleyen.append(r["klasor"])    # o güne zaten reels düştü
-        else:
-            out[t] = r["klasor"]
-    # Günde tek reels var. Gönderisinin gününe sığmayan video başka bir
-    # güne atılmıyor: atılırsa aynı konu iki ayrı güne yayılıyor, listede
-    # de akışta da tekrar gibi duruyor. Bekliyor, gün açılınca giriyor.
-    for kl in bekleyen:
-        if kl not in gonderi_gunu:          # gönderisi yok, tekrar riski de yok
-            for t in gunluk:
-                if t not in out:
-                    out[t] = kl
-                    break
-        else:
-            print("BEKLEYEN REELS: %s — gönderi günü (%s) dolu"
-                  % (kl, gonderi_gunu[kl]))
-    return out
-
-
-def tekrar_uyarisi(slotlar, reels):
-    """Aynı klasör birden çok gönderi slotuna düşmüş mü, bakıyor."""
-    sayac = {}
-    for s in slotlar:
-        sayac.setdefault(s["klasor"], []).append(s["tarih"])
-    return {k: t for k, t in sayac.items() if len(t) > 1}
-
-
-def kampanyalar():
-    """Izgara dışı kampanya gönderileri — çekiliş, duyuru, kutlama."""
-    with open(DURUM, encoding="utf-8") as f:
-        d = json.load(f)
-    bas = baslangic()
-    return [_tarihle(k, bas)
-            for k in d["kuyruk_bekleyen"].get("kampanya", [])]
-
-
-def gunler(slotlar):
-    """Kuyruğu tarihe göre grupla, slot sırasına diz."""
-    out = {}
-    for s in slotlar:
-        out.setdefault(s["tarih"], {})[s["slot"]] = s
-    return dict(sorted(out.items()))
-
-
-def kare_sayisi(klasor):
-    if not os.path.isdir(klasor):
-        return 0
-    return len([f for f in os.listdir(klasor)
-                if f[:-4].isdigit() and f.endswith(".jpg")])
-
-
+# ------------------------------------------------------------- liste
 def liste():
-    d, slotlar = kuyruk()
+    d = oku()
+    _, slotlar = kuyruk()
     gun = gunler(slotlar)
     kamp = kampanyalar()
     reels = reelsler(slotlar)
-    for k, t in tekrar_uyarisi(slotlar, reels).items():
-        print("UYARI: %s %d kere planlanmış (%s)" % (k, len(t), ", ".join(t)))
+    yayinlanan = {}
+    for i in d["icerik"]:
+        if i.get("durum") == "yayinlandi" and i.get("tarih"):
+            yayinlanan.setdefault(i["tarih"], []).append(i)
 
-    sat = ["# YAYIN LİSTESİ",
-           "",
+    sat = ["# YAYIN LİSTESİ", "",
            "Günde **4 gönderi · 4 hikaye · 1 reels**. Hikaye, gönderiden "
-           "%d dakika sonra." % HIKAYE_GECIKME,
-           "",
+           "%d dakika sonra." % HIKAYE_GECIKME, "",
            "Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — "
-           "kuyruk `DURUM.json` içinde.",
-           ""]
-
-    yayinlanan = {(x.get("tarih"), x.get("slot")): x.get("klasor")
-                  for x in d.get("gecmis", []) if x.get("klasor")}
+           "içerik `icerik.json` içinde.", ""]
 
     eksik = []
     for tarih, sl in gun.items():
         g = date.fromisoformat(tarih).weekday()
         sat += ["## %s · %s" % (tarih, GUN[g]), "",
-                "| Saat | Tür | Slot | Klasör | Kare |",
-                "|---|---|---|---|---|"]
-
-        # Kuyruktaki eski slot adları (elektronik) da listelensin; yoksa
-        # geçmiş günlerin gönderileri listeden düşüyor.
-        slot_adlari = SLOTLAR + [a for a in sl if a not in SLOTLAR]
+                "| Saat | Tür | Slot | Klasör | Kare |", "|---|---|---|---|---|"]
         satirlar = []
-        for ad in slot_adlari:
+        for ad in SLOTLAR:
             s = sl.get(ad)
             if not s:
-                if tarih < date.today().isoformat():
-                    continue          # geçmiş gün; boş slot aranmıyor
-                # Elle paylaşılan gönderi kuyruktan düşüyor, slot da boş
-                # görünüyordu: "üretilecek" diye duran satır aslında o
-                # gün yayınlanmış işti.
-                y = yayinlanan.get((tarih, ad))
+                y = [i for i in yayinlanan.get(tarih, [])
+                     if i.get("kategori") == ad]
                 if y:
-                    satirlar.append((saat(g, ad),
-                                     "Yayınlandı | %s | `%s` | —"
-                                     % (BASLIK[ad], y)))
+                    satirlar.append((saat(g, ad), "Yayınlandı | %s | `%s` | —"
+                                     % (BASLIK[ad], y[0]["klasor"])))
                     continue
                 eksik.append((tarih, ad))
                 satirlar.append((saat(g, ad),
                                  "— | **%s** | _boş — üretilecek_ | —"
                                  % BASLIK[ad]))
                 continue
-            k = s["klasor"]
-            n = kare_sayisi(k)
-            satirlar.append((saat(g, ad),
-                             "Gönderi | %s | `%s` | %d" % (BASLIK[ad], k, n)))
+            kare = len(kare_adlari(s["klasor"]))
+            satirlar.append((saat(g, ad), "Gönderi | %s | `%s` | %d"
+                             % (BASLIK[ad], s["klasor"], kare)))
             satirlar.append((arti(saat(g, ad), HIKAYE_GECIKME),
                              "Hikaye | %s | `%s/hikaye.jpg` | 1"
-                             % (BASLIK[ad], k)))
-
-        # Aynı saati eski slot adı doldurduysa boş satır tekrar olmasın
-        dolu = {t for t, g2 in satirlar if "boş" not in g2}
-        satirlar = [(t, g2) for t, g2 in satirlar
-                    if "boş" not in g2 or t not in dolu]
-
+                             % (BASLIK[ad], s["klasor"])))
         for k in kamp:
             if k["tarih"] != tarih:
                 continue
             tur = k.get("tur", "gonderi")
             ad = "**Kampanya**" if tur == "gonderi" else "Kampanya hikaye"
-            dosya = k["klasor"] if tur == "gonderi" \
-                else "%s/hikaye.jpg" % k["klasor"]
+            dosya = (k["klasor"] if tur == "gonderi"
+                     else "%s/hikaye.jpg" % k["klasor"])
             satirlar.append((k["saat"], "%s | — | `%s` | %s"
-                             % (ad, dosya, kare_sayisi(k["klasor"])
+                             % (ad, dosya, len(kare_adlari(k["klasor"]))
                                 if tur == "gonderi" else 1)))
             if tur == "gonderi":
                 satirlar.append((arti(k["saat"], HIKAYE_GECIKME),
                                  "Kampanya hikaye | — | `%s/hikaye.jpg` | 1"
                                  % k["klasor"]))
-
         r = reels.get(tarih)
         if r:
             satirlar.append((saat(g, "reels"),
@@ -299,64 +317,31 @@ def liste():
             eksik.append((tarih, "reels"))
             satirlar.append((saat(g, "reels"),
                              "**Reels** | — | _boş — üretilecek_ | —"))
-
-        for t, geri in sorted(satirlar):
-            sat.append("| %s | %s |" % (t, geri))
-        sat.append("")
+        sat += ["| %s | %s |" % (t, g2) for t, g2 in sorted(satirlar)] + [""]
 
     if eksik:
         sat += ["## Boş slotlar", "",
                 "Bu slotlar için içerik henüz üretilmedi:", ""]
-        for t, a in eksik:
-            sat.append("- %s · %s" % (t, BASLIK.get(a, a.upper())))
-        sat.append("")
+        sat += ["- %s · %s" % (t, BASLIK.get(a, a.upper())) for t, a in eksik]
+        sat += [""]
 
-    open("YAYIN-LISTESI.md", "w", encoding="utf-8").write("\n".join(sat))
+    with open(os.path.join(KOK, "YAYIN-LISTESI.md"), "w",
+              encoding="utf-8") as f:
+        f.write("\n".join(sat) + "\n")
     return len(gun), len(eksik)
 
 
-
-
-# --------------------------------------------------------------- paket
-DEPO = "https://github.com/sedatisc/instagram-gorseller/tree/main/"
-HAM = "https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/"
-
-
-def metin_oku(klasor):
-    """metin.md'den gönderi metnini ve ilk yorumu ayır."""
-    yol = os.path.join(klasor, "metin.md")
-    if not os.path.exists(yol):
-        return None, None
-    govde = yorum = None
-    for p in re.split(r"^##\s+", open(yol, encoding="utf-8").read(), flags=re.M):
-        bas = p.split("\n", 1)[0].strip().lower()
-        if bas.startswith("gönderi metni"):
-            govde = p.split("\n", 1)[1].strip()
-        elif bas.endswith("ilk yorum"):
-            yorum = p.split("\n", 1)[1].strip()
-    if govde:
-        govde = re.sub(r"\*\*(.+?)\*\*", r"\1", govde)   # Instagram yıldızı gösteriyor
-    return govde, yorum
-
-
-def kare_adlari(klasor):
-    if not os.path.isdir(klasor):
-        return []
-    f = [x for x in os.listdir(klasor) if x.endswith(".jpg") and x[:-4].isdigit()]
-    return sorted(f, key=lambda x: int(x[:-4]))
-
-
+# ------------------------------------------------------------- paket
 def paket():
-    """Tek sayfa yayın paketi: kapak küçük resmi, klasör linki, kopyalanabilir
-    metin. Kod bloğunun sağ üstünde GitHub'ın kopyala düğmesi çıkıyor."""
-    d, slotlar = kuyruk()
+    """Tek sayfa yayın paketi: kapak küçük resmi, klasör linki, metin."""
+    _, slotlar = kuyruk()
     gun = gunler(slotlar)
     reels = reelsler(slotlar)
 
     sat = ["# YAYIN PAKETİ", "",
            "Her gönderinin kapağı, klasörü ve metni burada. Metin kutusunun "
            "sağ üstündeki kopyala düğmesine basıp Instagram'a yapıştır; "
-           "başlığa dokununca klasör açılıyor, kareler sırayla orada.", "",
+           "başlığa dokununca klasör açılıyor.", "",
            "Hikaye gönderiden %d dakika sonra, aynı klasörde `hikaye.jpg`."
            % HIKAYE_GECIKME, "",
            "Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme.", ""]
@@ -374,10 +359,9 @@ def paket():
             sira_.append((saat(g, "reels"), "reels", r, None))
         for t, tur, kl, ad in sorted(sira_):
             if tur == "reels":
-                sat += ["## %s · REELS — [%s](%s)" % (t, kl + "/reels.mp4",
-                                                      DEPO + kl), "",
-                        "Açıklama gönderi metniyle aynı. Trend sesi eklemek "
-                        "istersen uygulamadan paylaş.", ""]
+                sat += ["## %s · REELS — [%s](%s)"
+                        % (t, kl + "/reels.mp4", DEPO + kl), "",
+                        "Açıklama gönderi metniyle aynı.", ""]
                 continue
             govde, yorum = metin_oku(kl)
             kare = kare_adlari(kl)
@@ -386,26 +370,72 @@ def paket():
                     % (DEPO, kl, HAM, kl), "",
                     "**[%s](%s)** · %d kare · hikaye %s"
                     % (kl, DEPO + kl, len(kare), arti(t, HIKAYE_GECIKME)), ""]
-            if govde:
-                sat += ["```", govde, "```", ""]
-            else:
-                sat += ["_metin.md yok_", ""]
+            sat += (["```", govde, "```", ""] if govde
+                    else ["_metin.md yok_", ""])
             if yorum:
                 sat += ["İlk yorum:", "", "```", yorum, "```", ""]
 
-    open("YAYIN-PAKETI.md", "w", encoding="utf-8").write("\n".join(sat) + "\n")
+    with open(os.path.join(KOK, "YAYIN-PAKETI.md"), "w",
+              encoding="utf-8") as f:
+        f.write("\n".join(sat) + "\n")
     return sum(len(v) for v in gun.values())
 
 
-if __name__ == "__main__":
+# ------------------------------------------------------------ komutlar
+def _bul(d, klasor):
+    for i in d["icerik"]:
+        if i["klasor"] == klasor:
+            return i
+    raise SystemExit("icerik.json'da yok: %s" % klasor)
+
+
+def komut_yayinlandi(klasor, tarih=None):
+    d = oku()
+    i = _bul(d, klasor)
+    i["durum"] = "yayinlandi"
+    i["tarih"] = tarih or date.today().isoformat()
+    i.pop("neden", None)
+    yaz(d)
+    print("yayınlandı: %s · %s" % (klasor, i["tarih"]))
+
+
+def komut_beklet(klasor, neden):
+    d = oku()
+    i = _bul(d, klasor)
+    i["durum"] = "beklemede"
+    i["neden"] = neden
+    yaz(d)
+    print("beklemede: %s — %s" % (klasor, neden))
+
+
+def komut_geri(klasor):
+    d = oku()
+    i = _bul(d, klasor)
+    i["durum"] = "hazir"
+    i.pop("neden", None)
+    i.pop("tarih", None)
+    yaz(d)
+    print("plana alındı: %s" % klasor)
+
+
+def main():
+    a = sys.argv[1:]
+    if a and a[0] == "yayinlandi":
+        return komut_yayinlandi(*a[1:3])
+    if a and a[0] == "beklet":
+        return komut_beklet(a[1], " ".join(a[2:]) or "—")
+    if a and a[0] == "geri":
+        return komut_geri(a[1])
+
     n, e = liste()
     paket()
-    try:                                   # artifact sayfası
+    try:
         import paket as _p
         _p.main()
-    except Exception as _e:                # sayfa olmasa da liste üretilsin
+    except Exception as _e:
         print("yayin-paketi.html üretilemedi:", _e)
-    if "--eksik" in sys.argv:
-        print("%d gün, %d boş slot" % (n, e))
-    else:
-        print("YAYIN-LISTESI.md yazıldı — %d gün, %d boş slot" % (n, e))
+    print("YAYIN-LISTESI.md yazıldı — %d gün, %d boş slot" % (n, e))
+
+
+if __name__ == "__main__":
+    main()

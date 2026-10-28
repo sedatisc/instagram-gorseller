@@ -90,7 +90,7 @@ Depoda **Actions** → **Instagram yayını** → **Run workflow**:
 
 ## Nasıl çalışıyor
 
-- Kuyruk `DURUM.json`, saatler `sira.py` içindeki ızgara.
+- İçerik `icerik.json`, saatler `sira.py` içindeki ızgara.
 - Her çalışmada "vakti gelmiş ve `otomasyon/yayinlanan.json` defterinde
   olmayan" işler yayınlanıyor. Defter her yayından sonra depoya işleniyor,
   aynı gönderi iki kez gitmiyor.

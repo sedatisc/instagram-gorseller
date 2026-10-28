@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Instagram'a otomatik yayın — GitHub Actions üzerinde çalışır.
 
-Kuyruk `DURUM.json`, saat ızgarası `sira.py` içinde. Bu betik her çalışmada
+İçerik `icerik.json`, saat ızgarası `sira.py` içinde. Bu betik her çalışmada
 "vakti gelmiş ve henüz yayınlanmamış" ne varsa yayınlar: karusel gönderi,
 hikaye, reels. Yayınlananlar `otomasyon/yayinlanan.json` defterine yazılır,
 aynı şey iki kez gitmez.
@@ -173,17 +173,14 @@ def plan_oturt():
 
 
 def kacirildi(is_):
-    """Vakti geçtiği için atlanan işi deftere yazıyor; sira.py bunu
-    planın sonuna ekliyor, içerik düşmüyor."""
-    if is_.get("tur") != "gonderi" or is_.get("slot") in ("kampanya", "reels"):
-        return
-    pd = sira.plan_durumu()
-    kac = pd.setdefault("kacirilan", [])
-    if any(k.get("klasor") == is_["klasor"] for k in kac):
-        return
-    kac.append({"klasor": is_["klasor"], "slot": is_["slot"]})
-    with open(sira.PLAN_DURUM, "w", encoding="utf-8") as f:
-        json.dump(pd, f, ensure_ascii=False, indent=1)
+    """Vakti geçen iş için ayrıca bir şey yapmaya gerek yok.
+
+    Eski yapıda kuyrukta elle tutulan gün numaraları vardı, atlanan işin
+    ayrıca deftere yazılması gerekiyordu; yazılmazsa o gün sessizce
+    düşüyordu. Yeni yapıda tarih, icerik.json'da durumu "hazir" olan
+    işlerin sırasından çıkıyor: yayınlanmayan iş "hazir" kaldığı için
+    ertesi günün sırasına kendiliğinden geçiyor."""
+    return
 
 
 def simdi():
@@ -377,7 +374,7 @@ def main():
                 if not kuru:
                     kacirildi(is_)
                 satir.append("| %s | atlandı | vakti %s, %s geçmiş — "
-                             "gönderi planın sonuna eklendi |"
+                             "iş hazır kaldı, sıradaki güne kayıyor |"
                              % (ad, is_["zaman"], str(an - t).split(".")[0]))
                 continue
         print("→ %s · %s · %s" % (ad, is_["tur"], is_["klasor"]))
