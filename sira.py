@@ -170,15 +170,27 @@ def kuyruk():
 
 
 def kampanyalar():
+    """Kampanya takvimi.
+
+    İki tür var. Çekiliş gibi işler plana göre kayıyor: "gun" alanı
+    başlangıçtan kaç gün sonra olduğunu söylüyor. Bayram gibi işler
+    kaymıyor; onların "tarih" alanı var ve o gün geçtiyse iş plandan
+    düşüyor — 29 Ekim 30 Ekim'de yayımlanmaz."""
     d = oku()
     bas = baslangic()
+    bug = date.today().isoformat()
     hazir = {i["klasor"] for i in d["icerik"] if i.get("durum") == "hazir"}
     out = []
     for k in d.get("kampanya", []):
         if k["klasor"] not in hazir:
             continue
         x = dict(k)
-        x["tarih"] = (bas + timedelta(days=int(k.get("gun", 0)))).isoformat()
+        if k.get("tarih"):
+            if k["tarih"] < bug:
+                continue
+            x["tarih"] = k["tarih"]
+        else:
+            x["tarih"] = (bas + timedelta(days=int(k.get("gun", 0)))).isoformat()
         out.append(x)
     return out
 

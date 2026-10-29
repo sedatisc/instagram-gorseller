@@ -895,7 +895,7 @@
    "tur": "gonderi",
    "klasor": "2026-10-29-cumhuriyet-bayrami",
    "not": "29 Ekim Cumhuriyet Bayramı",
-   "gun": 0
+   "tarih": "2026-10-29"
   },
   {
    "saat": "13:30",
@@ -929,21 +929,21 @@
    "saat": "10:30",
    "tur": "hikaye",
    "klasor": "2026-10-19-trendyol-magaza",
-   "not": "Trendyol mağaza hikayesi — bağlantı etiketi ty.gl/wvxkl6ythlckv",
+   "not": "Trendyol mağaza hikayesi",
    "gun": 0
   },
   {
    "saat": "10:30",
    "tur": "hikaye",
    "klasor": "2026-10-19-trendyol-magaza",
-   "not": "Trendyol mağaza hikayesi — bağlantı etiketi ty.gl/wvxkl6ythlckv",
+   "not": "Trendyol mağaza hikayesi",
    "gun": 7
   },
   {
    "saat": "10:30",
    "tur": "hikaye",
    "klasor": "2026-10-19-trendyol-magaza",
-   "not": "Trendyol mağaza hikayesi — bağlantı etiketi ty.gl/wvxkl6ythlckv",
+   "not": "Trendyol mağaza hikayesi",
    "gun": 14
   }
  ]

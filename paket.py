@@ -76,8 +76,14 @@ def baslik(klasor):
         return klasor
     spc = json.load(open(yol, encoding="utf-8"))
     if "kapak" not in spc:
-        # Baskı ürünü kartında kapak bloğu yok; başlık üstte duruyor
-        return spc.get("baslik", klasor)
+        if spc.get("baslik"):
+            return spc["baslik"]
+        # İlan şablonunda manşet yerine model ve rozet var
+        model = (spc.get("model") or "").strip()
+        rozet = (spc.get("rozet") or "").strip()
+        if model and rozet:
+            return "%s — %s" % (model, rozet)
+        return model or rozet or klasor
     k = spc["kapak"]
     ham = ("%s %s" % (k.get("satir1", ""), k.get("satir2", ""))).strip()
     if not ham:                                   # rakam kapağının manşeti yok
@@ -140,12 +146,30 @@ def tt_metin(klasor):
     return (bas + ("\n\n" + etiket[0] if etiket else "")).strip()
 
 
+def baglanti(klasor):
+    """Depo dışında duran görsellerin adresleri.
+
+    Klasörde baglanti.json varsa ("1.jpg": "https://…") o dosyanın
+    adresi depodaki kopya yerine oradan veriliyor. Depoya sığmayan ya da
+    bu makineden indirilemeyen görseller için."""
+    yol = os.path.join(KOK, klasor, "baglanti.json")
+    if not os.path.exists(yol):
+        return None
+    with open(yol, encoding="utf-8") as f:
+        return json.load(f)
+
+
 def kayitlar():
     d, slotlar = sira.kuyruk()
     gun = sira.gunler(slotlar)
     reelsler = sira.reelsler(slotlar)
+    kampanya = sira.kampanyalar()
+    # Tarihi çivilenmiş kampanyanın günü sıradan slotlarla dolu olmayabilir
+    # (bayram günü plan başlamamış olabiliyor); o gün de listeye giriyor.
+    takvim = sorted(set(gun) | {k["tarih"] for k in kampanya})
     cikti = []
-    for tarih, sl in gun.items():
+    for tarih in takvim:
+        sl = gun.get(tarih, {})
         g = date.fromisoformat(tarih).weekday()
         kayit = []
         for ad in sira.SLOTLAR:
@@ -166,25 +190,27 @@ def kayitlar():
                           "tur": "HİKAYE", "slot": ad, "baslik": baslik(kl),
                           "klasor": kl, "dosyalar": ["hikaye.jpg"],
                           "metin": "", "yorum": ""})
-        for k in sira.kampanyalar():
+        for k in kampanya:
             if k["tarih"] != tarih:
                 continue
             kl = k["klasor"]
             govde, yorum = sira.metin_oku(kl)
             tur = k.get("tur", "gonderi")
+            # Kampanya notu kartın başlığı olarak kapak manşetinden okunaklı
+            ad = k.get("not") or baslik(kl)
             if tur == "gonderi":
                 kayit.append({"platform": ["ig"], "saat": k["saat"],
-                              "tur": "KAMPANYA", "slot": "", "baslik": baslik(kl),
+                              "tur": "KAMPANYA", "slot": "", "baslik": ad,
                               "klasor": kl, "dosyalar": sira.kare_adlari(kl),
                               "metin": govde or "", "yorum": yorum or ""})
                 kayit.append({"platform": ["ig"],
                               "saat": sira.arti(k["saat"], sira.HIKAYE_GECIKME),
-                              "tur": "HİKAYE", "slot": "", "baslik": baslik(kl),
+                              "tur": "HİKAYE", "slot": "", "baslik": ad,
                               "klasor": kl, "dosyalar": ["hikaye.jpg"],
                               "metin": "", "yorum": ""})
             else:
                 kayit.append({"platform": ["ig"], "saat": k["saat"],
-                              "tur": "HİKAYE", "slot": "", "baslik": baslik(kl),
+                              "tur": "HİKAYE", "slot": "", "baslik": ad,
                               "klasor": kl, "dosyalar": ["hikaye.jpg"],
                               "metin": "", "yorum": ""})
 
@@ -199,6 +225,10 @@ def kayitlar():
                                  "aciklama": yt_aciklama(r),
                                  "etiket": ", ".join(yt_etiket(r))},
                           "tt": {"metin": tt_metin(r)}})
+        for k in kayit:
+            b = baglanti(k["klasor"])
+            if b:
+                k["bag"] = b
         kayit.sort(key=lambda k: k["saat"])
         gun_ad = date.fromisoformat(tarih)
         cikti.append({"tarih": tarih,
@@ -487,7 +517,8 @@ function kartCiz(k) {
     }));
   }
   sira_.appendChild(dugme("Görsel adreslerini kopyala", false, b =>
-    kopyala(b, k.dosyalar.map(f => HAM + k.klasor + "/" + f).join("\\n"))));
+    kopyala(b, k.dosyalar.map(f =>
+      (k.bag && k.bag[f]) || HAM + k.klasor + "/" + f).join("\\n"))));
   const bag = document.createElement("a");
   bag.className = "bag"; bag.href = DEPO + k.klasor;
   bag.target = "_blank"; bag.rel = "noopener";
