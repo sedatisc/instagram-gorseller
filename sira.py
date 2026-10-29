@@ -44,7 +44,7 @@ IZGARA = {
         "proje": "18:10", "reels": "20:30"},            # Cuma
     5: {"rehber": "11:10", "baski": "12:20", "magaza": "16:50",
         "reels": "19:20", "proje": "20:10"},            # Cumartesi
-    6: {"rehber": "11:40", "baski": "12:20", "magaza": "17:10",
+    6: {"rehber": "11:10", "baski": "12:20", "magaza": "17:10",
         "reels": "19:50", "proje": "21:00"},            # Pazar
 }
 
@@ -101,9 +101,13 @@ def hazirlar(d=None):
     """Kategorisine göre, sırasıyla, plana girecek işler.
 
     Aynı konunun ikinci klasörü atlanıyor: aynı ürün iki ayrı gönderi
-    olarak kuyrukta durabiliyordu."""
+    olarak kuyrukta durabiliyordu. Yayınlanmış bir konu da plana
+    girmiyor; aynı iş ikinci kez paylaşılmasın diye kuyruk, yayınlanan
+    konuların listesiyle başlıyor."""
     d = d or oku()
-    gorulen, out = set(), {k: [] for k in SLOTLAR}
+    out = {k: [] for k in SLOTLAR}
+    gorulen = {i.get("konu") or i["klasor"] for i in d["icerik"]
+               if i.get("durum") == "yayinlandi"}
     for i in d["icerik"]:
         if i.get("durum") != "hazir" or i.get("kategori") not in out:
             continue

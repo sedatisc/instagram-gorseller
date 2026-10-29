@@ -443,16 +443,17 @@
    "klasor": "2026-10-14-siparis-sorulari",
    "kategori": "proje",
    "konu": "siparis-sorulari",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "iptal",
+   "kare": 6,
+   "neden": "30 Ekim konuları iptal edildi"
   },
   {
    "klasor": "2026-10-14-sunlu-filadryer",
    "kategori": "magaza",
    "konu": "filament-kurutucu",
-   "durum": "beklemede",
+   "durum": "yayinlandi",
    "kare": 5,
-   "neden": "Gönderisi yayınlandı; video beklemede"
+   "neden": "Gönderi yayınlandı (video çekilmedi)"
   },
   {
    "klasor": "2026-10-15-3d-tarayici",
@@ -512,9 +513,10 @@
    "klasor": "2026-10-16-sunlu-filament-pano",
    "kategori": "rehber",
    "konu": "sunlu-filament",
-   "durum": "hazir",
+   "durum": "iptal",
    "kare": 1,
-   "reels": true
+   "reels": true,
+   "neden": "Aynı konu yayınlandı (Sunlu PLA kartelası)"
   },
   {
    "klasor": "2026-10-16-tavan-arasi-kamera-robotu",
@@ -678,8 +680,9 @@
    "klasor": "2026-10-20-anycubic-recine",
    "kategori": "magaza",
    "konu": "anycubic-recine",
-   "durum": "hazir",
-   "kare": 7
+   "durum": "iptal",
+   "kare": 7,
+   "neden": "30 Ekim konuları iptal edildi"
   },
   {
    "klasor": "2026-10-20-fpv-drone-cinelog20",
@@ -808,8 +811,9 @@
    "klasor": "2026-10-23-sekil-cark-tahtasi",
    "kategori": "baski",
    "konu": "sekil-cark-tahtasi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "iptal",
+   "kare": 4,
+   "neden": "30 Ekim konuları iptal edildi"
   },
   {
    "klasor": "2026-10-24-cay-kahve-seti",
@@ -908,14 +912,14 @@
    "saat": "19:10",
    "tur": "hikaye",
    "klasor": "2026-10-12-cekilis-duyuru",
-   "not": "hatırlatma",
+   "not": "Çekiliş hatırlatması",
    "gun": 2
   },
   {
    "saat": "19:10",
    "tur": "hikaye",
    "klasor": "2026-10-12-cekilis-duyuru",
-   "not": "hatırlatma",
+   "not": "Çekiliş hatırlatması",
    "gun": 3
   },
   {
@@ -924,13 +928,6 @@
    "klasor": "2026-10-15-cekilis-son-gun",
    "not": "son gün",
    "gun": 4
-  },
-  {
-   "saat": "10:30",
-   "tur": "hikaye",
-   "klasor": "2026-10-19-trendyol-magaza",
-   "not": "Trendyol mağaza hikayesi",
-   "gun": 0
   },
   {
    "saat": "10:30",

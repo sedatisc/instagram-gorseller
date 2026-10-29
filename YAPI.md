@@ -36,6 +36,11 @@ Bunun üç sonucu var:
   deftere yazılması gerekiyordu, yazılmazsa o günün içeriği düşüyordu.
 - **Aynı iş iki kere planlanamıyor.** Gün numarası elle tutulmadığı için
   kayma da yok; `konu` anahtarı aynı konunun ikinci klasörünü eliyor.
+- **Yayınlanmış konu plana geri girmiyor.** Kuyruk, `yayinlandi` olan
+  işlerin konu listesiyle başlıyor; aynı konunun başka bir klasörü de
+  olsa eleniyor. Bir işin gönderisi paylaşıldıysa videosu çekilmemiş
+  olsa bile durumu `yayinlandi` olmalı — `beklemede` bırakılırsa konu
+  kuyrukta kalıyor ve ikinci kez paylaşılıyor.
 - **Elle paylaşılan iş kuyrukta kalmıyor.** `yayinlandi` yazıldığı anda
   plandan düşüyor, listede o slot "Yayınlandı" diye görünüyor.
 
@@ -43,6 +48,10 @@ Videolar: günde tek reels var, video konusunun kendi gönderisiyle aynı
 güne biniyor. İki video aynı güne denk gelirse biri kendi
 kategorisindeki bir sonraki videosuz işle yer değiştiriyor — konu iki
 güne yayılmıyor, video da beklemiyor.
+
+Kampanyaların iki türü var. Çekiliş gibi işler planla birlikte kayıyor
+(`gun`: başlangıçtan kaç gün sonra). Bayram gibi işler kaymıyor: kaydına
+`tarih` yazılıyor, o gün geçtiyse iş plandan düşüyor.
 
 Planın birinci günü: ilk gerçek yayında takvime çivileniyor
 (`otomasyon/plan-durumu.json`). O güne kadar "bugünden itibaren"

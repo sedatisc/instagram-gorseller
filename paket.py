@@ -29,9 +29,17 @@ KISA = {"3dbaski": "REHBER", "baski": "BASKI ÜRÜNÜ",
 KISALTMA = {
     "PLA", "PETG", "ABS", "ASA", "TPU", "PVA", "PC", "PA", "CF", "GF", "PEI",
     "ESR", "CFS", "AMS", "LED", "USB", "DC", "AC", "FDM", "SLA", "MSLA", "UV",
-    "RH", "3D", "PCB", "MCU", "SPI", "I2C", "PWM", "HT", "HQ", "GS", "UGV",
+    "RH", "3D", "RC", "PCB", "MCU", "SPI", "I2C", "PWM", "HT", "HQ", "GS", "UGV",
     "ROV", "API", "BMS", "CO2", "TPE", "MMU", "WIFI", "BLE", "OLED", "TFT",
+    "FPV", "ESC", "AIO", "RX", "TX", "GPS", "SD", "PSU", "CPU", "GPU", "IP",
 }
+
+# Ölçü birimi büyük harfle başlamıyor: "0,3 Mm" değil "0,3 mm".
+BIRIM = {"mm", "cm", "m", "g", "kg", "ml", "l", "mah", "wh", "w", "v", "a",
+         "dk", "sn", "sa", "kv", "nm", "µm", "mm/s", "mm³/s", "°c", "rpm"}
+
+# Soru eki ayrı yazılıyor ve küçük kalıyor: "Hızlandırır mı?"
+SORU = {"MI": "mı", "Mİ": "mi", "MU": "mu", "MÜ": "mü"}
 _KOD = re.compile(r"^[A-Z]{1,4}[-]?\d+[A-Z]*$")   # R1, S2, H2D, ESP32, DRV8833
 
 # Türkçe küçültme I'yı ı yapıyor; İngilizce marka adlarında bu bozuluyor.
@@ -39,7 +47,14 @@ MARKA = {"FILADRYER": "FilaDryer", "FILAMENT": "Filament",
          "IOT": "IoT", "LIBER": "Liber", "COMBO": "Combo",
          "PIXHAWK": "Pixhawk", "SPARKX": "SparkX", "SILK": "Silk",
          "ORIN": "Orin", "JETSON": "Jetson", "NANO": "Nano",
-         "MATTE": "Matte", "GLOW": "Glow", "PRINT": "Print"}
+         "MATTE": "Matte", "GLOW": "Glow", "PRINT": "Print",
+         "CREALITY": "Creality", "CINELOG20": "CineLog20", "PI": "Pi",
+         "RASPBERRY": "Raspberry", "POLYMAKER": "Polymaker",
+         "ANYCUBIC": "Anycubic", "PHAETUS": "Phaetus", "SNAPMAKER":
+         "Snapmaker", "SUNLU": "Sunlu", "BAMBU": "Bambu", "LAB": "Lab",
+         "GEPRC": "GEPRC", "TRENDYOL": "Trendyol", "HOTEND": "Hotend",
+         "LITE": "Lite", "PLUS": "Plus", "PRO": "Pro", "MAX": "Max",
+         "MINI": "Mini", "ULTRA": "Ultra", "HEATER": "Heater"}
 
 
 def _kucuk(s):
@@ -99,6 +114,14 @@ def baslik(klasor):
             kelime.append(w)
         elif c.upper() in MARKA:
             kelime.append(w.replace(c, MARKA[c.upper()]))
+        elif kelime and _kucuk(c) in BIRIM:       # 0,3 mm · 660 mAh
+            kelime.append(w.replace(c, _kucuk(c)))
+        elif kelime and c.upper() in SORU:        # Hızlandırır mı?
+            kelime.append(w.replace(c, SORU[c.upper()]))
+        elif (any(ch.isdigit() for ch in c)
+              and (c != c.upper()
+                   or sum(ch.isalpha() for ch in c) <= 2)):
+            kelime.append(w)                      # i7, K2, 4S — model kodu
         else:
             kelime.append(_buyuk_ilk(_kucuk(w)))
     return " ".join(kelime)
