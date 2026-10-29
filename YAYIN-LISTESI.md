@@ -10,6 +10,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 |---|---|---|---|---|
 | 08:12 | Gönderi | AYAR & REHBER | `2026-10-16-sunlu-filament-pano` | 1 |
 | 08:52 | Hikaye | AYAR & REHBER | `2026-10-16-sunlu-filament-pano/hikaye.jpg` | 1 |
+| 09:00 | **Kampanya** | — | `2026-10-29-cumhuriyet-bayrami` | 1 |
+| 09:40 | Kampanya hikaye | — | `2026-10-29-cumhuriyet-bayrami/hikaye.jpg` | 1 |
 | 10:30 | Kampanya hikaye | — | `2026-10-19-trendyol-magaza/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-23-sekil-cark-tahtasi` | 4 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-23-sekil-cark-tahtasi/hikaye.jpg` | 1 |

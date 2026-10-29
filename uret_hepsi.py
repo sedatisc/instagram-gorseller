@@ -18,6 +18,7 @@ KOK = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(KOK, "arac"))
 sys.path.insert(0, os.path.join(KOK, "arac", "html"))
 
+import bayram_html                                          # noqa: E402
 import ilan_html                                            # noqa: E402
 import kart_html                                            # noqa: E402
 import rehber_html                                          # noqa: E402
@@ -27,6 +28,8 @@ def sablon(spec):
     # Yalnız "urunler" listesi olan spec kart şablonuna gidiyor. Kapak
     # tipi "urun" olan tek ürünlük rehber gönderilerinde o liste yok,
     # kart şablonu onlarda KeyError veriyordu.
+    if spec.get("sablon") == "bayram":
+        return bayram_html
     if spec.get("sablon") == "ilan":
         return ilan_html
     if spec.get("urunler"):
