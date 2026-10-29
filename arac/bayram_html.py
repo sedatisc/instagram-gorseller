@@ -111,6 +111,57 @@ def _uri(yol):
         return "data:image/png;base64," + base64.b64encode(f.read()).decode()
 
 
+FOTO_STIL = """
+/* Fotoğraflı kurgu: kare tamamen fotoğraf, yazı altta koyu geçişin
+   üstünde. Yazıyı üreten model değil şablon koyuyor — üretilen
+   görsellerde Türkçe harfler bozuk çıkıyor. */
+.slide{position:relative;overflow:hidden;background:#0E1013;color:#fff}
+.arka{position:absolute;inset:0}
+.arka img{width:100%;height:100%;object-fit:cover}
+.perde{position:absolute;inset:0;background:
+  linear-gradient(to bottom, rgba(10,8,8,.42) 0%, rgba(10,8,8,0) 26%,
+    rgba(10,8,8,.08) 46%, rgba(10,8,8,.72) 76%, rgba(10,8,8,.93) 100%)}
+.ic{position:absolute;inset:0;z-index:2;display:flex;
+  flex-direction:column;padding:56px 56px 0}
+.ust{flex:0 0 auto;display:flex;align-items:center;
+  justify-content:space-between}
+.ust img{height:30px;filter:brightness(0) invert(1);
+  filter:brightness(0) invert(1) drop-shadow(0 2px 6px rgba(0,0,0,.5))}
+.ust span{font-family:Mono;font-size:19px;color:rgba(255,255,255,.9);
+  text-shadow:0 2px 8px rgba(0,0,0,.6)}
+.bosluk{flex:1 1 auto;min-height:0}
+.soz{flex:0 0 auto}
+.soz h1{font-size:120px;font-weight:650;font-variation-settings:"wdth" 112;
+  line-height:.95;letter-spacing:-.03em;text-shadow:0 4px 28px rgba(0,0,0,.5)}
+.soz h2{font-size:44px;font-weight:500;letter-spacing:-.02em;
+  line-height:1.16;margin-top:14px;text-shadow:0 2px 18px rgba(0,0,0,.5)}
+.soz p{font-family:Mono;font-size:21px;margin-top:18px;
+  color:rgba(255,255,255,.88)}
+.dip{flex:0 0 auto;display:flex;justify-content:space-between;
+  align-items:baseline;margin-top:26px;padding:20px 0 30px;
+  border-top:1px solid rgba(255,255,255,.3);font-family:Mono;
+  font-size:19px;color:rgba(255,255,255,.82)}
+.hik .soz h1{font-size:134px}
+.hik .dip{padding-bottom:190px}
+"""
+
+
+def _govde_foto(spec):
+    logo = S.foto_uri(os.path.join(KOK, "gorsel", "marka",
+                                   "sermenkreatif.png"))
+    foto = S.foto_uri(os.path.join(KOK, "gorsel", spec["foto"]))
+    return (
+        '<div class="arka"><img src="%s" alt=""></div><div class="perde"></div>'
+        '<div class="ic"><div class="ust"><img src="%s" alt="">'
+        '<span>%s</span></div><div class="bosluk"></div>'
+        '<div class="soz"><h1>%s</h1><h2>%s</h2><p>%s</p></div>'
+        '<div class="dip"><span>@sermenkreatif</span><span>%s</span></div>'
+        '</div>'
+        % (foto, logo, E(spec.get("yer", "Sermen Kreatif, Samsun")),
+           E(spec["baslik"]), E(spec["alt"]), E(spec.get("not", "")),
+           E(spec.get("dip_sag", "sermenkreatif.com"))))
+
+
 STIL = """
 .slide{background:#0E1013;color:#F3F2EE;position:relative;overflow:hidden}
 .slide::before{content:"";position:absolute;inset:0;
@@ -160,12 +211,19 @@ def _govde(spec, g):
 
 
 def kare(spec, cikti):
-    S.bas(S.sayfa(_govde(spec, 900), W, H, STIL), cikti, W, H)
+    if spec.get("foto"):
+        S.bas(S.sayfa(_govde_foto(spec), W, H, FOTO_STIL), cikti, W, H)
+    else:
+        S.bas(S.sayfa(_govde(spec, 900), W, H, STIL), cikti, W, H)
 
 
 def hikaye(spec, cikti):
-    S.bas(S.sayfa(_govde(spec, 900), SW, SH, STIL, sinif="hik"),
-          cikti, SW, SH, kalite=92)
+    if spec.get("foto"):
+        S.bas(S.sayfa(_govde_foto(spec), SW, SH, FOTO_STIL, sinif="hik"),
+              cikti, SW, SH, kalite=92)
+    else:
+        S.bas(S.sayfa(_govde(spec, 900), SW, SH, STIL, sinif="hik"),
+              cikti, SW, SH, kalite=92)
 
 
 def uret(spec, klasor):
