@@ -466,6 +466,10 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #duvaraskisi #portmanto
 ```
 
+## 19:50 · REELS — [2026-10-16-tavan-arasi-kamera-robotu/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-tavan-arasi-kamera-robotu)
+
+Açıklama gönderi metniyle aynı.
+
 ---
 
 # 2026-11-09 · Pazartesi
@@ -691,6 +695,10 @@ Kedisi ya da köpeği olan birine yolla.
 
 #sermenkreatif #3dbaski #mamakabi #kedikopek
 ```
+
+## 19:40 · REELS — [2026-10-17-rc-tank/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank)
+
+Açıklama gönderi metniyle aynı.
 
 ---
 
@@ -1431,6 +1439,10 @@ Evden çalışan bir arkadaşına yolla.
 
 #sermenkreatif #3dbaski #monitoryukseltici #masaduzeni
 ```
+
+## 19:20 · REELS — [2026-10-22-yuksek-akisli-nozzle/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-yuksek-akisli-nozzle)
+
+Açıklama gönderi metniyle aynı.
 
 ---
 

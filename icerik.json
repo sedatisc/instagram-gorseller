@@ -525,7 +525,8 @@
    "kategori": "proje",
    "konu": "tavan-arasi-kamera-robotu",
    "durum": "hazir",
-   "kare": 5
+   "kare": 5,
+   "reels": true
   },
   {
    "klasor": "2026-10-16-vazo-koleksiyonu",
@@ -571,7 +572,8 @@
    "kategori": "proje",
    "konu": "rc-tank",
    "durum": "hazir",
-   "kare": 6
+   "kare": 6,
+   "reels": true
   },
   {
    "klasor": "2026-10-18-aydinlatma",
@@ -809,7 +811,8 @@
    "kategori": "rehber",
    "konu": "yuksek-akisli-nozzle",
    "durum": "hazir",
-   "kare": 4
+   "kare": 4,
+   "reels": true
   },
   {
    "klasor": "2026-10-23-sekil-cark-tahtasi",

@@ -74,7 +74,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo/hikaye.jpg` | 1 |
 | 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/minimal-duvar-askisi-yapistirmali-2-li-kanca` | 4 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/minimal-duvar-askisi-yapistirmali-2-li-kanca/hikaye.jpg` | 1 |
-| 19:50 | **Reels** | — | _boş — üretilecek_ | — |
+| 19:50 | **Reels** | — | `2026-10-16-tavan-arasi-kamera-robotu/reels.mp4` | video |
 
 ## 2026-11-09 · Pazartesi
 
@@ -110,7 +110,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 12:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/yedek-rulo-hazneli-ayakli-tuvalet-kagitligi-nervurlu/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/yukseltilmis-kedi-kopek-mama-kabi-standi-isimli` | 4 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/yukseltilmis-kedi-kopek-mama-kabi-standi-isimli/hikaye.jpg` | 1 |
-| 19:40 | **Reels** | — | _boş — üretilecek_ | — |
+| 19:40 | **Reels** | — | `2026-10-17-rc-tank/reels.mp4` | video |
 
 ## 2026-11-12 · Perşembe
 
@@ -230,7 +230,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/kumanda-standi-egimli-bolmeli/hikaye.jpg` | 1 |
 | 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/moduler-masa-rafi-monitor-yukseltici` | 4 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/moduler-masa-rafi-monitor-yukseltici/hikaye.jpg` | 1 |
-| 19:20 | **Reels** | — | _boş — üretilecek_ | — |
+| 19:20 | **Reels** | — | `2026-10-22-yuksek-akisli-nozzle/reels.mp4` | video |
 
 ## 2026-11-22 · Pazar
 
@@ -358,16 +358,13 @@ Bu slotlar için içerik henüz üretilmedi:
 
 - 2026-11-03 · REELS
 - 2026-11-05 · REELS
-- 2026-11-08 · REELS
 - 2026-11-09 · REELS
-- 2026-11-11 · REELS
 - 2026-11-12 · REELS
 - 2026-11-14 · REELS
 - 2026-11-15 · REELS
 - 2026-11-16 · REELS
 - 2026-11-17 · REELS
 - 2026-11-19 · REELS
-- 2026-11-21 · REELS
 - 2026-11-23 · REELS
 - 2026-11-24 · REELS
 - 2026-11-25 · REELS
