@@ -8,7 +8,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme.
 
 ---
 
-# 2026-11-02 · Pazartesi
+# 2026-11-03 · Salı
 
 ## 08:12 · AYAR & REHBER
 
@@ -84,11 +84,15 @@ AMS'inden nemli filament yüzünden sürekli bozuk baskı alan bir arkadaşın v
 #sermenkreatif #3dbaski #bambulab #ams #sunlu #makerturkiye
 ```
 
-## 19:40 · PROJE & ATÖLYE
+## 19:36 · REELS — [2026-10-15-sunlu-ams-heater/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-sunlu-ams-heater)
+
+Açıklama gönderi metniyle aynı.
+
+## 20:42 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-3d-tarayici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-15-3d-tarayici/1.jpg" width="240"></a>
 
-**[2026-10-15-3d-tarayici](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-3d-tarayici)** · 5 kare · hikaye 20:20
+**[2026-10-15-3d-tarayici](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-3d-tarayici)** · 5 kare · hikaye 21:22
 
 ```
 3D tarayıcı ölçülü model vermiyor, yüzey veriyor. Aradaki farkı bilmeyen tarama dosyasını doğrudan baskıya gönderip parçayı çöpe atıyor.
@@ -110,13 +114,9 @@ Tarama dosyasını doğrudan slicer'a atıp sonucu beğenmeyen bir arkadaşın v
 #sermenkreatif #maker #3dtarayici #3dbaski #makerturkiye
 ```
 
-## 21:10 · REELS — [2026-10-15-sunlu-ams-heater/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-sunlu-ams-heater)
-
-Açıklama gönderi metniyle aynı.
-
 ---
 
-# 2026-11-03 · Salı
+# 2026-11-04 · Çarşamba
 
 ## 08:12 · AYAR & REHBER
 
@@ -232,7 +232,7 @@ Evinin tavan arasına bakmak isteyip de kafasını sokamayan bir arkadaşın var
 
 ---
 
-# 2026-11-04 · Çarşamba
+# 2026-11-05 · Perşembe
 
 ## 08:12 · AYAR & REHBER
 
@@ -340,7 +340,7 @@ Masasında yarım kalmış büyük bir baskı projesi olan bir arkadaşın varsa
 
 ---
 
-# 2026-11-05 · Perşembe
+# 2026-11-06 · Cuma
 
 ## 08:12 · AYAR & REHBER
 
@@ -396,11 +396,11 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 #sermenkreatif #3dbaski #oyuncakmeyve #manavoyunu #egiticioyuncak #makerturkiye
 ```
 
-## 17:24 · ÜRÜN & MAĞAZA
+## 16:40 · ÜRÜN & MAĞAZA
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-ender-3-v4-combo/1.jpg" width="240"></a>
 
-**[2026-10-18-ender-3-v4-combo](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)** · 5 kare · hikaye 18:04
+**[2026-10-18-ender-3-v4-combo](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)** · 5 kare · hikaye 17:20
 
 ```
 Ender serisi, hobi masasındaki en bilinen isim. Bu kuşakta artık rakamlar da ona göre: 500 mm/s azami hız, 12.000 mm/s² ivme, 300 °C nozul.
@@ -420,15 +420,11 @@ Ender-3 V4 Combo sermenkreatif.com'da.
 #sermenkreatif #3dbaski #creality #ender3 #cokrenklibaski #makerturkiye
 ```
 
-## 19:36 · REELS — [2026-10-18-ender-3-v4-combo/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)
-
-Açıklama gönderi metniyle aynı.
-
-## 20:42 · PROJE & ATÖLYE
+## 18:10 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-toplulukta-ariza"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-toplulukta-ariza/1.jpg" width="240"></a>
 
-**[2026-10-18-toplulukta-ariza](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-toplulukta-ariza)** · 5 kare · hikaye 21:22
+**[2026-10-18-toplulukta-ariza](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-toplulukta-ariza)** · 5 kare · hikaye 18:50
 
 ```
 Baskı bozuk çıktığında çoğu kişi saatlerce tek başına ayar kurcalıyor. Oysa aynı arıza o gün başka birinin de başına gelmiş ve çözülmüş oluyor.
@@ -446,15 +442,19 @@ Katılmak için profildeki linke dokunman yeterli. Ücretsiz, istediğin an çı
 #sermenkreatif #3dbaski #3dbaskiturkiye #makerturkiye #topluluk
 ```
 
+## 20:30 · REELS — [2026-10-18-ender-3-v4-combo/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)
+
+Açıklama gönderi metniyle aynı.
+
 ---
 
-# 2026-11-06 · Cuma
+# 2026-11-07 · Cumartesi
 
-## 08:12 · AYAR & REHBER
+## 11:10 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-heat-set-insert"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-heat-set-insert/1.jpg" width="240"></a>
 
-**[2026-10-19-heat-set-insert](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-heat-set-insert)** · 4 kare · hikaye 08:52
+**[2026-10-19-heat-set-insert](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-heat-set-insert)** · 4 kare · hikaye 11:50
 
 ```
 3D baskıda vidalı birleşim için heat-set insert kullanmak, plastiğe doğrudan vida atmaktan farklı bir iş. Doğrudan atılan vida üç-dört sökmede dişi sıyırıyor; pirinç insert aynı deliği kalıcı dişe çeviriyor. Ama işi bitiren şey insert değil, deliğin baştan doğru çizilmesi.
@@ -472,11 +472,11 @@ Bastığı kutunun kapağını üçüncü açışta dişi sıyıran bir arkadaş
 #sermenkreatif #3dbaski #3dprinting #heatsetinsert #3dbaskiturkiye
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-28-vidali-tren"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-28-vidali-tren/1.jpg" width="240"></a>
 
-**[2026-10-28-vidali-tren](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-28-vidali-tren)** · 4 kare · hikaye 13:18
+**[2026-10-28-vidali-tren](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-28-vidali-tren)** · 4 kare · hikaye 13:00
 
 ```
 Vidalı söküp tak tren. Gövde, baca, kabin ve tekerlekler vidayla birleşiyor; tornavida sete dahil.
@@ -496,11 +496,11 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 #sermenkreatif #3dbaski #soktaoyuncak #vidalioyuncak #egiticioyuncak #makerturkiye
 ```
 
-## 16:40 · ÜRÜN & MAĞAZA
+## 16:50 · ÜRÜN & MAĞAZA
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-16-phaetus-liber-u1/1.jpg" width="240"></a>
 
-**[2026-10-16-phaetus-liber-u1](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1)** · 5 kare · hikaye 17:20
+**[2026-10-16-phaetus-liber-u1](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1)** · 5 kare · hikaye 17:30
 
 ```
 Snapmaker ile Phaetus'un U1 için birlikte çıkardığı Liber hotend geldi. Ne yaptığını ve ne YAPMADIĞINI birlikte yazıyorum, çünkü ikincisi daha çok yanlış biliniyor.
@@ -522,11 +522,15 @@ U1'ine hotend arayan bir arkadaşın varsa bu gönderiyi ona yolla — özellikl
 #sermenkreatif #3dbaski #snapmaker #phaetus #hotend #makerturkiye
 ```
 
-## 18:10 · PROJE & ATÖLYE
+## 19:20 · REELS — [2026-10-16-phaetus-liber-u1/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1)
+
+Açıklama gönderi metniyle aynı.
+
+## 20:10 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-oyuncak-yol-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-oyuncak-yol-seti/1.jpg" width="240"></a>
 
-**[2026-10-19-oyuncak-yol-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-oyuncak-yol-seti)** · 5 kare · hikaye 18:50
+**[2026-10-19-oyuncak-yol-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-oyuncak-yol-seti)** · 5 kare · hikaye 20:50
 
 ```
 Modüler oyuncak yol seti tasarımında işi bitiren şey parçaların şekli değil; tek bir ızgara ölçüsü ve tek bir geçme boşluğu. Her parça her parçaya oturacaksa bu iki sayı baştan sabitleniyor.
@@ -544,13 +548,9 @@ Oyuncak olduğunu tasarımda hatırla: keskin köşe bırakma, kenarlara 1 mm pa
 #sermenkreatif #maker #3dbaski #oyuncaktasarimi #makerturkiye
 ```
 
-## 20:30 · REELS — [2026-10-16-phaetus-liber-u1/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1)
-
-Açıklama gönderi metniyle aynı.
-
 ---
 
-# 2026-11-07 · Cumartesi
+# 2026-11-08 · Pazar
 
 ## 11:10 · AYAR & REHBER
 
@@ -600,11 +600,11 @@ Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 #sermenkreatif #3dbaski #vidalioyuncak #yapimseti #egiticioyuncak #makerturkiye
 ```
 
-## 16:50 · ÜRÜN & MAĞAZA
+## 17:10 · ÜRÜN & MAĞAZA
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-sparkx-i7-i8-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-20-sparkx-i7-i8-pano/1.jpg" width="240"></a>
 
-**[2026-10-20-sparkx-i7-i8-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-sparkx-i7-i8-pano)** · 1 kare · hikaye 17:30
+**[2026-10-20-sparkx-i7-i8-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-sparkx-i7-i8-pano)** · 1 kare · hikaye 17:50
 
 ```
 Creality tarafında iki SparkX aynı haberlerde dolaşıyor. Gövde ve hız aynı; ayrım çok renk mekanizmasında ve ikisi farklı yol tutuyor.
@@ -624,15 +624,15 @@ Kısaca: bugün kurup basmaya başlamak istiyorsan i7. Purge kulesinden tamamen 
 #sermenkreatif #3dbaski #creality #3dyazici #makerturkiye
 ```
 
-## 19:20 · REELS — [2026-10-21-ams-israf/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf)
+## 19:50 · REELS — [2026-10-21-ams-israf/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf)
 
 Açıklama gönderi metniyle aynı.
 
-## 20:10 · PROJE & ATÖLYE
+## 21:00 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi5-ekran-standi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-pi5-ekran-standi/1.jpg" width="240"></a>
 
-**[2026-10-21-pi5-ekran-standi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi5-ekran-standi)** · 4 kare · hikaye 20:50
+**[2026-10-21-pi5-ekran-standi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi5-ekran-standi)** · 4 kare · hikaye 21:40
 
 ```
 Raspberry Pi 5 ekran standı tasarlarken model çizmeden önce ölçülerin kumpasla doğrulanması gerekiyor; kartı tutmayan standın sorunu tasarım değil, ölçü.
@@ -654,13 +654,13 @@ Pi'sini kitap yığınına yaslayarak kullanan bir arkadaşın varsa ona yolla.
 
 ---
 
-# 2026-11-08 · Pazar
+# 2026-11-09 · Pazartesi
 
-## 11:10 · AYAR & REHBER
+## 08:12 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-yuksek-akisli-nozzle"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-22-yuksek-akisli-nozzle/1.jpg" width="240"></a>
 
-**[2026-10-22-yuksek-akisli-nozzle](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-yuksek-akisli-nozzle)** · 4 kare · hikaye 11:50
+**[2026-10-22-yuksek-akisli-nozzle](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-yuksek-akisli-nozzle)** · 4 kare · hikaye 08:52
 
 ```
 Yüksek akışlı nozzle gerçekten hızlandırıyor mu? Hotend'i değiştirip dilimleyicide hızı 300 mm/s'ye çeken herkesin baskısı kısalmıyor, çünkü akış tek başına süreyi belirlemiyor.
@@ -678,11 +678,11 @@ Hotend değiştirip "niye hızlanmadı" diyen bir arkadaşın varsa bu gönderiy
 #sermenkreatif #3dbaski #3dprinting #hotend #3dbaskiturkiye
 ```
 
-## 12:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-30-alyan-vida-oyuncagi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-30-alyan-vida-oyuncagi/1.jpg" width="240"></a>
 
-**[2026-10-30-alyan-vida-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-30-alyan-vida-oyuncagi)** · 4 kare · hikaye 13:00
+**[2026-10-30-alyan-vida-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-30-alyan-vida-oyuncagi)** · 4 kare · hikaye 13:18
 
 ```
 Alyan anahtarlı vida oyuncağı. Üç boy vida, üç alyan anahtarı ve renk halkalı bir tabla.
@@ -704,11 +704,11 @@ Vida çevirmeyi seven bir çocuk tanıyorsan bu gönderiyi ona yolla.
 #sermenkreatif #3dbaski #alyanvida #vidalioyuncak #egiticioyuncak #makerturkiye
 ```
 
-## 17:10 · ÜRÜN & MAĞAZA
+## 17:24 · ÜRÜN & MAĞAZA
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-cesitleri"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-filament-cesitleri/1.jpg" width="240"></a>
 
-**[2026-10-21-filament-cesitleri](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-cesitleri)** · 8 kare · hikaye 17:50
+**[2026-10-21-filament-cesitleri](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-cesitleri)** · 8 kare · hikaye 18:04
 
 ```
 "PLA aldım" demek artık tek bir şey anlatmıyor. Aynı rafta duran altı makara birbirinden bambaşka iş yapıyor.
@@ -734,15 +734,11 @@ Hangisini denedin, yoruma yaz.
 #sermenkreatif #3dbaski #filament #pla #petg #creality #polymaker #3dbaskiturkiye #makerturkiye #samsun
 ```
 
-## 19:50 · REELS — [2026-10-20-fpv-drone-cinelog20/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-fpv-drone-cinelog20)
-
-Açıklama gönderi metniyle aynı.
-
-## 21:00 · PROJE & ATÖLYE
+## 19:40 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-fpv-drone-cinelog20"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-20-fpv-drone-cinelog20/1.jpg" width="240"></a>
 
-**[2026-10-20-fpv-drone-cinelog20](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-fpv-drone-cinelog20)** · 5 kare · hikaye 21:40
+**[2026-10-20-fpv-drone-cinelog20](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-fpv-drone-cinelog20)** · 5 kare · hikaye 20:20
 
 ```
 FPV drone kurulumu GEPRC CineLog20'de üç ayrı işe bölünüyor: gövde uçmaya hazır geliyor, eksik olan batarya, alıcı ve gözlük eşleşmesi.
@@ -762,9 +758,13 @@ FPV'ye yeni başlayan bir arkadaşın varsa bu gönderiyi ona yolla.
 #sermenkreatif #maker #fpv #cinewhoop #makerturkiye
 ```
 
+## 21:10 · REELS — [2026-10-20-fpv-drone-cinelog20/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-fpv-drone-cinelog20)
+
+Açıklama gönderi metniyle aynı.
+
 ---
 
-# 2026-11-09 · Pazartesi
+# 2026-11-10 · Salı
 
 ## 12:38 · BASKI ÜRÜNLERİ
 
@@ -814,13 +814,13 @@ Kapalı kabinli büyük bir makine arayan bir arkadaşın varsa bu gönderiyi on
 #sermenkreatif #3dbaski #creality #3dyazici #makerturkiye
 ```
 
-## 21:10 · REELS — [2026-10-22-creality-k2-plus/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-creality-k2-plus)
+## 19:36 · REELS — [2026-10-22-creality-k2-plus/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-creality-k2-plus)
 
 Açıklama gönderi metniyle aynı.
 
 ---
 
-# 2026-11-10 · Salı
+# 2026-11-11 · Çarşamba
 
 ## 12:38 · BASKI ÜRÜNLERİ
 
@@ -848,7 +848,7 @@ Okul öncesi çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ---
 
-# 2026-11-11 · Çarşamba
+# 2026-11-12 · Perşembe
 
 ## 12:38 · BASKI ÜRÜNLERİ
 

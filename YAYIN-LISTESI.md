@@ -4,7 +4,7 @@ Günde **4 gönderi · 4 hikaye · 1 reels**. Hikaye, gönderiden 40 dakika sonr
 
 Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.json` içinde.
 
-## 2026-11-02 · Pazartesi
+## 2026-11-03 · Salı
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
@@ -14,11 +14,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-24-cay-kahve-seti/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-15-sunlu-ams-heater` | 5 |
 | 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-15-sunlu-ams-heater/hikaye.jpg` | 1 |
-| 19:40 | Gönderi | PROJE & ATÖLYE | `2026-10-15-3d-tarayici` | 5 |
-| 20:20 | Hikaye | PROJE & ATÖLYE | `2026-10-15-3d-tarayici/hikaye.jpg` | 1 |
-| 21:10 | **Reels** | — | `2026-10-15-sunlu-ams-heater/reels.mp4` | video |
+| 19:36 | **Reels** | — | `2026-10-15-sunlu-ams-heater/reels.mp4` | video |
+| 20:42 | Gönderi | PROJE & ATÖLYE | `2026-10-15-3d-tarayici` | 5 |
+| 21:22 | Hikaye | PROJE & ATÖLYE | `2026-10-15-3d-tarayici/hikaye.jpg` | 1 |
 
-## 2026-11-03 · Salı
+## 2026-11-04 · Çarşamba
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
@@ -34,7 +34,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 20:42 | Gönderi | PROJE & ATÖLYE | `2026-10-16-tavan-arasi-kamera-robotu` | 5 |
 | 21:22 | Hikaye | PROJE & ATÖLYE | `2026-10-16-tavan-arasi-kamera-robotu/hikaye.jpg` | 1 |
 
-## 2026-11-04 · Çarşamba
+## 2026-11-05 · Perşembe
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
@@ -49,7 +49,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 20:42 | Gönderi | PROJE & ATÖLYE | `2026-10-17-rc-tank` | 6 |
 | 21:22 | Hikaye | PROJE & ATÖLYE | `2026-10-17-rc-tank/hikaye.jpg` | 1 |
 
-## 2026-11-05 · Perşembe
+## 2026-11-06 · Cuma
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
@@ -57,30 +57,30 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 08:52 | Hikaye | AYAR & REHBER | `2026-10-19-bambu-a-serisi-pano/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-27-meyve-sebze-seti` | 4 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-27-meyve-sebze-seti/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-18-ender-3-v4-combo` | 5 |
-| 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-18-ender-3-v4-combo/hikaye.jpg` | 1 |
+| 16:40 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-18-ender-3-v4-combo` | 5 |
+| 17:20 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-18-ender-3-v4-combo/hikaye.jpg` | 1 |
+| 18:10 | Gönderi | PROJE & ATÖLYE | `2026-10-18-toplulukta-ariza` | 5 |
+| 18:50 | Hikaye | PROJE & ATÖLYE | `2026-10-18-toplulukta-ariza/hikaye.jpg` | 1 |
 | 19:10 | Kampanya hikaye | — | `2026-10-12-cekilis-duyuru/hikaye.jpg` | 1 |
-| 19:36 | **Reels** | — | `2026-10-18-ender-3-v4-combo/reels.mp4` | video |
-| 20:42 | Gönderi | PROJE & ATÖLYE | `2026-10-18-toplulukta-ariza` | 5 |
-| 21:22 | Hikaye | PROJE & ATÖLYE | `2026-10-18-toplulukta-ariza/hikaye.jpg` | 1 |
+| 20:30 | **Reels** | — | `2026-10-18-ender-3-v4-combo/reels.mp4` | video |
 
-## 2026-11-06 · Cuma
+## 2026-11-07 · Cumartesi
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 08:12 | Gönderi | AYAR & REHBER | `2026-10-19-heat-set-insert` | 4 |
-| 08:52 | Hikaye | AYAR & REHBER | `2026-10-19-heat-set-insert/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-28-vidali-tren` | 4 |
-| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-28-vidali-tren/hikaye.jpg` | 1 |
-| 16:40 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-16-phaetus-liber-u1` | 5 |
-| 17:20 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-16-phaetus-liber-u1/hikaye.jpg` | 1 |
-| 18:10 | Gönderi | PROJE & ATÖLYE | `2026-10-19-oyuncak-yol-seti` | 5 |
+| 11:10 | Gönderi | AYAR & REHBER | `2026-10-19-heat-set-insert` | 4 |
+| 11:50 | Hikaye | AYAR & REHBER | `2026-10-19-heat-set-insert/hikaye.jpg` | 1 |
+| 12:20 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-28-vidali-tren` | 4 |
+| 13:00 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-28-vidali-tren/hikaye.jpg` | 1 |
+| 16:50 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-16-phaetus-liber-u1` | 5 |
+| 17:30 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-16-phaetus-liber-u1/hikaye.jpg` | 1 |
 | 18:40 | **Kampanya** | — | `2026-10-15-cekilis-son-gun` | 1 |
-| 18:50 | Hikaye | PROJE & ATÖLYE | `2026-10-19-oyuncak-yol-seti/hikaye.jpg` | 1 |
+| 19:20 | **Reels** | — | `2026-10-16-phaetus-liber-u1/reels.mp4` | video |
 | 19:20 | Kampanya hikaye | — | `2026-10-15-cekilis-son-gun/hikaye.jpg` | 1 |
-| 20:30 | **Reels** | — | `2026-10-16-phaetus-liber-u1/reels.mp4` | video |
+| 20:10 | Gönderi | PROJE & ATÖLYE | `2026-10-19-oyuncak-yol-seti` | 5 |
+| 20:50 | Hikaye | PROJE & ATÖLYE | `2026-10-19-oyuncak-yol-seti/hikaye.jpg` | 1 |
 
-## 2026-11-07 · Cumartesi
+## 2026-11-08 · Pazar
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
@@ -88,27 +88,27 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 11:50 | Hikaye | AYAR & REHBER | `2026-10-21-ams-israf/hikaye.jpg` | 1 |
 | 12:20 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-29-vidali-yapim-tahtasi` | 5 |
 | 13:00 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-29-vidali-yapim-tahtasi/hikaye.jpg` | 1 |
-| 16:50 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-20-sparkx-i7-i8-pano` | 1 |
-| 17:30 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-20-sparkx-i7-i8-pano/hikaye.jpg` | 1 |
-| 19:20 | **Reels** | — | `2026-10-21-ams-israf/reels.mp4` | video |
-| 20:10 | Gönderi | PROJE & ATÖLYE | `2026-10-21-pi5-ekran-standi` | 4 |
-| 20:50 | Hikaye | PROJE & ATÖLYE | `2026-10-21-pi5-ekran-standi/hikaye.jpg` | 1 |
+| 17:10 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-20-sparkx-i7-i8-pano` | 1 |
+| 17:50 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-20-sparkx-i7-i8-pano/hikaye.jpg` | 1 |
+| 19:50 | **Reels** | — | `2026-10-21-ams-israf/reels.mp4` | video |
+| 21:00 | Gönderi | PROJE & ATÖLYE | `2026-10-21-pi5-ekran-standi` | 4 |
+| 21:40 | Hikaye | PROJE & ATÖLYE | `2026-10-21-pi5-ekran-standi/hikaye.jpg` | 1 |
 
-## 2026-11-08 · Pazar
+## 2026-11-09 · Pazartesi
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | AYAR & REHBER | `2026-10-22-yuksek-akisli-nozzle` | 4 |
-| 11:50 | Hikaye | AYAR & REHBER | `2026-10-22-yuksek-akisli-nozzle/hikaye.jpg` | 1 |
-| 12:20 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-30-alyan-vida-oyuncagi` | 4 |
-| 13:00 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-30-alyan-vida-oyuncagi/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-21-filament-cesitleri` | 8 |
-| 17:50 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-21-filament-cesitleri/hikaye.jpg` | 1 |
-| 19:50 | **Reels** | — | `2026-10-20-fpv-drone-cinelog20/reels.mp4` | video |
-| 21:00 | Gönderi | PROJE & ATÖLYE | `2026-10-20-fpv-drone-cinelog20` | 5 |
-| 21:40 | Hikaye | PROJE & ATÖLYE | `2026-10-20-fpv-drone-cinelog20/hikaye.jpg` | 1 |
+| 08:12 | Gönderi | AYAR & REHBER | `2026-10-22-yuksek-akisli-nozzle` | 4 |
+| 08:52 | Hikaye | AYAR & REHBER | `2026-10-22-yuksek-akisli-nozzle/hikaye.jpg` | 1 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-30-alyan-vida-oyuncagi` | 4 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-30-alyan-vida-oyuncagi/hikaye.jpg` | 1 |
+| 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-21-filament-cesitleri` | 8 |
+| 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-21-filament-cesitleri/hikaye.jpg` | 1 |
+| 19:40 | Gönderi | PROJE & ATÖLYE | `2026-10-20-fpv-drone-cinelog20` | 5 |
+| 20:20 | Hikaye | PROJE & ATÖLYE | `2026-10-20-fpv-drone-cinelog20/hikaye.jpg` | 1 |
+| 21:10 | **Reels** | — | `2026-10-20-fpv-drone-cinelog20/reels.mp4` | video |
 
-## 2026-11-09 · Pazartesi
+## 2026-11-10 · Salı
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
@@ -118,10 +118,10 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-31-halka-dizme-kulesi/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-22-creality-k2-plus` | 6 |
 | 18:04 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-22-creality-k2-plus/hikaye.jpg` | 1 |
-| 19:40 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
-| 21:10 | **Reels** | — | `2026-10-22-creality-k2-plus/reels.mp4` | video |
+| 19:36 | **Reels** | — | `2026-10-22-creality-k2-plus/reels.mp4` | video |
+| 20:42 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
 
-## 2026-11-10 · Salı
+## 2026-11-11 · Çarşamba
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
@@ -132,7 +132,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 19:36 | **Reels** | — | _boş — üretilecek_ | — |
 | 20:42 | — | **PROJE & ATÖLYE** | _boş — üretilecek_ | — |
 
-## 2026-11-11 · Çarşamba
+## 2026-11-12 · Perşembe
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
@@ -147,14 +147,14 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 Bu slotlar için içerik henüz üretilmedi:
 
-- 2026-11-09 · AYAR & REHBER
-- 2026-11-09 · PROJE & ATÖLYE
 - 2026-11-10 · AYAR & REHBER
-- 2026-11-10 · ÜRÜN & MAĞAZA
 - 2026-11-10 · PROJE & ATÖLYE
-- 2026-11-10 · REELS
 - 2026-11-11 · AYAR & REHBER
 - 2026-11-11 · ÜRÜN & MAĞAZA
 - 2026-11-11 · PROJE & ATÖLYE
 - 2026-11-11 · REELS
+- 2026-11-12 · AYAR & REHBER
+- 2026-11-12 · ÜRÜN & MAĞAZA
+- 2026-11-12 · PROJE & ATÖLYE
+- 2026-11-12 · REELS
 
