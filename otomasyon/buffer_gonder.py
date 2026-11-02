@@ -1,0 +1,280 @@
+#!/usr/bin/env python3
+"""Günün paylaşımlarını Buffer'a planlar — GitHub Actions üzerinde çalışır.
+
+Meta geliştirici hesabı gerektirmeyen ücretsiz yol. Instagram hesabı
+Buffer'a bağlı; Buffer kendi Meta uygulamasıyla yayınlıyor. Bu betik her
+gece bir kez çalışıp o günün gönderi, hikaye ve reels'lerini Buffer'a
+saatleriyle birlikte gönderir. Buffer ücretsiz planı kanal başına aynı anda
+10 bekleyen paylaşıma izin veriyor; günlük gönderim bu sınırın altında
+kalıyor.
+
+    python3 otomasyon/buffer_gonder.py --kuru            # hiçbir şey göndermez
+    python3 otomasyon/buffer_gonder.py                   # bugünü gönderir
+    python3 otomasyon/buffer_gonder.py --gun 2026-11-04  # belirli gün
+
+Ortam değişkeni (GitHub Actions secret):
+    BUFFER_TOKEN   Buffer > Settings > API altından alınan anahtar
+
+Gönderilen klasörler icerik.json'da "yayinlandi" olarak işaretlenir; plan
+ertesi gün bir sonraki işle devam eder. Aynı gün için daha önce işaretlenmiş
+iş varsa (elle ya da başka araçla planlanmış) o gün atlanır, iki kez gitmez.
+"""
+import json
+import os
+import re
+import sys
+from datetime import date, datetime, timedelta
+
+import requests
+
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, KOK)
+sys.path.insert(0, os.path.join(KOK, "otomasyon"))
+import sira                                              # noqa: E402
+import yayinla                                           # noqa: E402
+
+UC = "https://api.buffer.com"
+DEFTER = os.path.join(KOK, "otomasyon", "buffer-defter.json")
+RAPOR = os.path.join(KOK, "otomasyon", "SON-BUFFER.md")
+MAGAZA = "Trendyol mağazamız: ty.gl/wvxkl6ythlckv"
+AZAMI_ETIKET = 5          # Buffer, Instagram gönderisinde en çok 5 hashtag
+AZAMI_METIN = 2200
+AZAMI_GUNLUK = 10         # ücretsiz planın bekleyen paylaşım sınırı
+
+
+class Hata(Exception):
+    pass
+
+
+# ------------------------------------------------------------ Buffer API
+def _sorgu(q, degisken=None):
+    r = requests.post(UC, json={"query": q, "variables": degisken or {}},
+                      headers={"Authorization": "Bearer %s"
+                               % os.environ["BUFFER_TOKEN"]},
+                      timeout=60)
+    try:
+        g = r.json()
+    except ValueError:
+        raise Hata("Buffer %s: %s" % (r.status_code, r.text[:300]))
+    if g.get("errors"):
+        raise Hata("Buffer: %s" % "; ".join(e.get("message", "")
+                                             for e in g["errors"]))
+    return g["data"]
+
+
+def kanal_bul():
+    """Bağlı Instagram kanalının kimliği."""
+    d = _sorgu("query { account { organizations { id } } }")
+    for org in d["account"]["organizations"]:
+        k = _sorgu("query K($o: OrganizationId!) { channels(input: "
+                   "{organizationId: $o}) { id service name isDisconnected } }",
+                   {"o": org["id"]})
+        for c in k["channels"]:
+            if c["service"].lower() == "instagram" and not c["isDisconnected"]:
+                return c["id"], c["name"]
+    raise Hata("Buffer'da bağlı Instagram kanalı yok")
+
+
+def _tur_adi(t):
+    while t and t.get("ofType"):
+        if t.get("name"):
+            break
+        t = t["ofType"]
+    return t.get("name") if t else None
+
+
+def _alanlar(ad):
+    d = _sorgu("query T($n: String!) { __type(name: $n) { inputFields { "
+               "name type { name kind ofType { name kind ofType { name kind "
+               "} } } } enumValues { name } } }", {"n": ad})
+    return d["__type"] or {}
+
+
+def ig_turleri():
+    """Instagram gönderi türü enum değerlerini şemadan okur.
+
+    Belgelerde yazım biçimi geçmiyor; tahmin yerine şemaya soruyoruz."""
+    giris = _alanlar("CreatePostInput")
+    meta = next((f for f in giris.get("inputFields", [])
+                 if f["name"] == "metadata"), None)
+    if not meta:
+        raise Hata("CreatePostInput.metadata bulunamadı")
+    ig = next((f for f in _alanlar(_tur_adi(meta["type"]))
+               .get("inputFields", []) if f["name"] == "instagram"), None)
+    if not ig:
+        raise Hata("metadata.instagram bulunamadı")
+    tur = next((f for f in _alanlar(_tur_adi(ig["type"]))
+                .get("inputFields", []) if f["name"] == "type"), None)
+    if not tur:
+        raise Hata("metadata.instagram.type bulunamadı")
+    degerler = [e["name"] for e in
+                _alanlar(_tur_adi(tur["type"])).get("enumValues") or []]
+    harita = {}
+    for v in degerler:
+        k = v.lower()
+        for ad in ("post", "story", "reel"):
+            if k == ad or k == ad + "s":
+                harita[ad] = v
+    eksik = {"post", "story", "reel"} - set(harita)
+    if eksik:
+        raise Hata("Instagram tür değerleri eşleşmedi: %s (şemada: %s)"
+                   % (", ".join(sorted(eksik)), ", ".join(degerler)))
+    return harita
+
+
+def gonder(kanal, metin, varliklar, zaman, tur, turler):
+    """Tek paylaşımı Buffer'a belirli saatte planlar."""
+    utc = (zaman - timedelta(hours=3)).strftime("%Y-%m-%dT%H:%M:00.000Z")
+    q = """mutation P($i: CreatePostInput!) {
+      createPost(input: $i) {
+        ... on PostActionSuccess { post { id dueAt } }
+        ... on MutationError { message }
+      }
+    }"""
+    girdi = {"text": metin, "channelId": kanal,
+             "schedulingType": "automatic", "mode": "customScheduled",
+             "dueAt": utc, "assets": varliklar,
+             "metadata": {"instagram": {"type": turler[tur]}}}
+    if tur == "reel":
+        girdi["metadata"]["instagram"]["shouldShareToFeed"] = True
+    d = _sorgu(q, {"i": girdi})["createPost"]
+    if "post" not in d:
+        raise Hata(d.get("message", "bilinmeyen hata"))
+    return d["post"]["id"]
+
+
+# ------------------------------------------------------------ metin
+def metin_kur(klasor):
+    """Gönderi metni; ilk yorum ücretsiz planda yok, metnin sonuna iner."""
+    govde, yorum = yayinla.metin_oku(klasor)
+    govde = govde or ""
+    yorum = re.sub(r"\*\*(.+?)\*\*", r"\1", yorum or "")
+    yorum = yorum.replace("Bağlantı: {trendyol_linki}", MAGAZA)
+    yorum = yorum.replace("{trendyol_linki}", MAGAZA)
+    if yorum:
+        govde = govde.replace("Bağlantı ilk yorumda.", MAGAZA
+                              if MAGAZA in yorum else "")
+    satirlar = govde.rstrip().split("\n")
+    etiket = []
+    if satirlar and satirlar[-1].lstrip().startswith("#"):
+        etiket = satirlar.pop().split()[:AZAMI_ETIKET]
+    govde = "\n".join(satirlar).rstrip()
+    if yorum and yorum != MAGAZA:
+        govde += "\n\n" + yorum
+    elif yorum == MAGAZA and MAGAZA not in govde:
+        govde += "\n\n" + MAGAZA
+    govde = re.sub(r"\n{3,}", "\n\n", govde)
+    son = (govde + ("\n\n" + " ".join(etiket) if etiket else "")).strip()
+    if len(son) > AZAMI_METIN:
+        kes = AZAMI_METIN - len(" ".join(etiket)) - 4
+        son = govde[:kes].rstrip() + "…\n\n" + " ".join(etiket)
+    return son
+
+
+def varlik(is_, sha):
+    k = is_["klasor"]
+    if is_["tur"] == "gonderi":
+        yollar = yayinla.kareler(k)
+        if not yollar:
+            raise Hata("%s içinde kare yok" % k)
+        return [{"image": {"url": yayinla.ham(y, sha)}} for y in yollar[:10]]
+    if is_["tur"] == "hikaye":
+        return [{"image": {"url": yayinla.ham("%s/hikaye.jpg" % k, sha)}}]
+    return [{"video": {"url": yayinla.ham("%s/reels.mp4" % k, sha)}}]
+
+
+# ------------------------------------------------------------ ana akış
+def defter_oku():
+    try:
+        return json.load(open(DEFTER, encoding="utf-8"))
+    except Exception:
+        return {"gonderilen": []}
+
+
+def main():
+    kuru = "--kuru" in sys.argv
+    gun = yayinla.simdi().date()
+    if "--gun" in sys.argv:
+        gun = date.fromisoformat(sys.argv[sys.argv.index("--gun") + 1])
+    gun_s = gun.isoformat()
+    sha = os.environ.get("GITHUB_SHA") or "main"
+
+    if not kuru and not os.environ.get("BUFFER_TOKEN"):
+        print("BUFFER_TOKEN yok — gönderim yapılamaz. "
+              "Deneme için: python3 otomasyon/buffer_gonder.py --kuru")
+        return 1
+
+    d = sira.oku()
+    once = [i["klasor"] for i in d["icerik"]
+            if i.get("durum") == "yayinlandi" and i.get("tarih") == gun_s]
+    if once:
+        print("%s günü zaten planlanmış (%s) — atlanıyor."
+              % (gun_s, ", ".join(once)))
+        return 0
+
+    isler = [i for i in yayinla.gundem() if i["zaman"].startswith(gun_s)]
+    # Ücretsiz plan: kanal başına aynı anda en çok 10 bekleyen paylaşım.
+    # Fazlası varsa önce kampanya hikayesi, sonra sondan hikayeler düşüyor.
+    while len(isler) > AZAMI_GUNLUK:
+        hik = [i for i in isler if i["tur"] == "hikaye"]
+        if not hik:
+            break
+        kamp = [i for i in hik if i["slot"] == "kampanya"]
+        dus = (kamp or hik)[-1]
+        print("Sınır %d — düşen: %s" % (AZAMI_GUNLUK, dus["anahtar"]))
+        isler.remove(dus)
+    tur_ad = {"gonderi": "post", "hikaye": "story", "reels": "reel"}
+    defter = defter_oku()
+    yapilan = {g["anahtar"] for g in defter["gonderilen"]}
+    satir, klasorler, hata = [], set(), 0
+
+    kanal, turler = None, None
+    if not kuru:
+        kanal, ad = kanal_bul()
+        turler = ig_turleri()
+        print("Kanal: %s · türler: %s" % (ad, turler))
+
+    for is_ in isler:
+        anahtar = is_["anahtar"]
+        if anahtar in yapilan:
+            continue
+        zaman = datetime.fromisoformat(is_["zaman"])
+        try:
+            v = varlik(is_, sha)
+            metin = "" if is_["tur"] == "hikaye" else metin_kur(is_["klasor"])
+            if kuru:
+                print("→ %s · %s · %d medya · metin %d kr"
+                      % (is_["zaman"], anahtar, len(v), len(metin)))
+                satir.append("| %s | %s | kuru |" % (is_["zaman"], anahtar))
+                continue
+            pid = gonder(kanal, metin, v, zaman, tur_ad[is_["tur"]], turler)
+            defter["gonderilen"].append({"anahtar": anahtar, "buffer": pid,
+                                         "zaman": is_["zaman"]})
+            json.dump(defter, open(DEFTER, "w", encoding="utf-8"),
+                      ensure_ascii=False, indent=1)
+            klasorler.add(is_["klasor"])
+            satir.append("| %s | %s | planlandı |" % (is_["zaman"], anahtar))
+        except Hata as e:
+            hata += 1
+            satir.append("| %s | %s | HATA: %s |"
+                         % (is_["zaman"], anahtar, str(e)[:160]))
+
+    if not kuru:
+        if klasorler:
+            yayinla.plan_oturt()
+        for k in sorted(klasorler):
+            sira.komut_yayinlandi(k, gun_s)
+
+    if not satir:
+        satir.append("| — | — | bu gün için iş yok |")
+    with open(RAPOR, "w", encoding="utf-8") as f:
+        f.write("# Son Buffer gönderimi\n\n%s%s · %d hata\n\n"
+                % (gun_s, " (kuru)" if kuru else "", hata))
+        f.write("| Saat | İş | Durum |\n|---|---|---|\n")
+        f.write("\n".join(satir) + "\n")
+    print("\n".join(satir))
+    return 1 if hata else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

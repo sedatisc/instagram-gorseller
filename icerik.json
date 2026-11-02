@@ -459,8 +459,9 @@
    "klasor": "2026-10-15-3d-tarayici",
    "kategori": "proje",
    "konu": "3d-tarayici",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "yayinlandi",
+   "kare": 5,
+   "tarih": "2026-11-03"
   },
   {
    "klasor": "2026-10-15-cekilis-son-gun",
@@ -489,9 +490,10 @@
    "klasor": "2026-10-15-sunlu-ams-heater",
    "kategori": "magaza",
    "konu": "sunlu-ams-heater",
-   "durum": "hazir",
+   "durum": "yayinlandi",
    "kare": 5,
-   "reels": true
+   "reels": true,
+   "tarih": "2026-11-03"
   },
   {
    "klasor": "2026-10-16-gelistirme-karti-pano",
@@ -537,8 +539,9 @@
    "klasor": "2026-10-17-cok-renkli-yazici-pano",
    "kategori": "rehber",
    "konu": "cok-renkli-yazici",
-   "durum": "hazir",
-   "kare": 1
+   "durum": "yayinlandi",
+   "kare": 1,
+   "tarih": "2026-11-03"
   },
   {
    "klasor": "2026-10-17-esp32-ailesi-pano",
@@ -819,8 +822,9 @@
    "klasor": "2026-10-24-cay-kahve-seti",
    "kategori": "baski",
    "konu": "cay-kahve-seti",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-03"
   },
   {
    "klasor": "2026-10-25-aktivite-tahtasi",

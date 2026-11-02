@@ -1,0 +1,76 @@
+name: Buffer günlük planlama
+
+# Her gece Türkiye saatiyle 00.30'da o günün gönderi, hikaye ve reels'lerini
+# Buffer'a saatleriyle birlikte gönderir. Buffer da vakti gelince Instagram'a
+# yayınlar. Meta geliştirici hesabı gerekmez.
+#
+# Gereken secret (Settings > Secrets and variables > Actions):
+#   BUFFER_TOKEN  Buffer > Settings > API altından alınan anahtar
+# Yoksa iş akışı kuru çalışır, hiçbir şey göndermez.
+
+on:
+  workflow_dispatch:
+    inputs:
+      kuru:
+        description: "Kuru çalışma — hiçbir şey gönderilmez"
+        type: boolean
+        default: true
+      gun:
+        description: "Belirli gün (YYYY-AA-GG). Boşsa bugün."
+        type: string
+        default: ""
+  schedule:
+    - cron: "30 21 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-yayin
+  cancel-in-progress: false
+
+jobs:
+  planla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bağımlılıklar
+        run: pip install "requests>=2.32"
+
+      - name: Buffer'a gönder
+        env:
+          BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
+          GITHUB_SHA: ${{ github.sha }}
+        run: |
+          ARG=""
+          if [ -n "${{ inputs.gun }}" ]; then ARG="--gun ${{ inputs.gun }}"; fi
+          if [ -z "$BUFFER_TOKEN" ] || [ "${{ inputs.kuru }}" = "true" ]; then
+            python3 otomasyon/buffer_gonder.py --kuru $ARG
+          else
+            python3 otomasyon/buffer_gonder.py $ARG
+          fi
+
+      - name: Planı güncelle ve kaydet
+        if: always()
+        run: |
+          python3 sira.py > /dev/null || true
+          git config user.name  "yayin-botu"
+          git config user.email "noreply@github.com"
+          git add -A otomasyon icerik.json YAYIN-LISTESI.md YAYIN-PAKETI.md yayin-paketi.html
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok."
+          else
+            git commit -m "Buffer planlaması (otomatik)"
+            git pull --rebase --autostash origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Raporu iş özetine yaz
+        if: always()
+        run: cat otomasyon/SON-BUFFER.md >> $GITHUB_STEP_SUMMARY || true
