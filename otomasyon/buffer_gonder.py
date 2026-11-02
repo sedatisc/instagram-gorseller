@@ -11,6 +11,7 @@ kalıyor.
     python3 otomasyon/buffer_gonder.py --kuru            # hiçbir şey göndermez
     python3 otomasyon/buffer_gonder.py                   # bugünü gönderir
     python3 otomasyon/buffer_gonder.py --gun 2026-11-04  # belirli gün
+    python3 otomasyon/buffer_gonder.py --kontrol         # yalnız bağlantı
 
 Ortam değişkeni (GitHub Actions secret):
     BUFFER_TOKEN   Buffer > Settings > API altından alınan anahtar
@@ -193,6 +194,13 @@ def defter_oku():
 
 def main():
     kuru = "--kuru" in sys.argv
+    if "--kontrol" in sys.argv:
+        kanal, ad = kanal_bul()
+        print("Kanal bağlı: %s (%s)" % (ad, kanal))
+        print("Instagram türleri: %s" % ig_turleri())
+        with open(RAPOR, "w", encoding="utf-8") as f:
+            f.write("# Buffer kontrolü\n\nKanal: %s\n" % ad)
+        return 0
     gun = yayinla.simdi().date()
     if "--gun" in sys.argv:
         gun = date.fromisoformat(sys.argv[sys.argv.index("--gun") + 1])

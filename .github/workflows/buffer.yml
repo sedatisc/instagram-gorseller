@@ -15,6 +15,10 @@ on:
         description: "Kuru çalışma — hiçbir şey gönderilmez"
         type: boolean
         default: true
+      kontrol:
+        description: "Yalnız bağlantıyı kontrol et — hiçbir şey gönderilmez"
+        type: boolean
+        default: false
       gun:
         description: "Belirli gün (YYYY-AA-GG). Boşsa bugün."
         type: string
@@ -50,7 +54,9 @@ jobs:
         run: |
           ARG=""
           if [ -n "${{ inputs.gun }}" ]; then ARG="--gun ${{ inputs.gun }}"; fi
-          if [ -z "$BUFFER_TOKEN" ] || [ "${{ inputs.kuru }}" = "true" ]; then
+          if [ "${{ inputs.kontrol }}" = "true" ]; then
+            python3 otomasyon/buffer_gonder.py --kontrol
+          elif [ -z "$BUFFER_TOKEN" ] || [ "${{ inputs.kuru }}" = "true" ]; then
             python3 otomasyon/buffer_gonder.py --kuru $ARG
           else
             python3 otomasyon/buffer_gonder.py $ARG
