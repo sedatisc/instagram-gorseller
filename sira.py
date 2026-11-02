@@ -367,7 +367,9 @@ def liste():
                 satirlar.append((saat(g, ad),
                                  "— | **boş** | _boş — üretilecek_ | —"))
                 continue
-            kare = len(kare_adlari(s["klasor"]))
+            kare = (len(urun_gorselleri(s["klasor"]))
+                    if s["kategori"] == "baski"
+                    else len(kare_adlari(s["klasor"])))
             satirlar.append((saat(g, ad), "Gönderi | %s | `%s` | %d"
                              % (BASLIK[s["kategori"]], s["klasor"], kare)))
             satirlar.append((arti(saat(g, ad), HIKAYE_GECIKME),

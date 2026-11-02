@@ -211,7 +211,14 @@ def kayitlar():
                 continue
             kl = s["klasor"]
             govde, yorum = sira.metin_oku(kl)
-            kare = sira.kare_adlari(kl)
+            if s["kategori"] == "baski":
+                # Baskı ürününde kare sayısı sitedeki görsel sayısı kadar.
+                # Klasördeki eski kareler kullanılmıyor; sayı oradan
+                # alınırsa fazlası depo adresine düşüyordu.
+                kare = ["%d.jpg" % n
+                        for n in range(1, len(sira.urun_gorselleri(kl)) + 1)]
+            else:
+                kare = sira.kare_adlari(kl)
             t = sira.saat(g, ad)
             kayit.append({"platform": ["ig"],
                           "saat": t, "tur": "GÖNDERİ",

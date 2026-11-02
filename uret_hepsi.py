@@ -15,9 +15,11 @@ import sys
 import traceback
 
 KOK = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, KOK)
 sys.path.insert(0, os.path.join(KOK, "arac"))
 sys.path.insert(0, os.path.join(KOK, "arac", "html"))
 
+import sira                                                  # noqa: E402
 import bayram_html                                          # noqa: E402
 import ilan_html                                            # noqa: E402
 import kart_html                                            # noqa: E402
@@ -49,6 +51,12 @@ def main():
     for k in klasorler(sys.argv[1:]):
         yol = os.path.join(KOK, k, "spec.json")
         if not os.path.exists(yol):
+            atlanan.append(k)
+            continue
+        if sira.urun_gorselleri(k):
+            # Baskı ürününde sitenin kendi görselleri kullanılıyor;
+            # bu klasöre kare basmıyoruz ki eski görsel geri gelmesin.
+            print("%-44s site görseli var — kare basılmadı" % k)
             atlanan.append(k)
             continue
         with open(yol, encoding="utf-8") as f:

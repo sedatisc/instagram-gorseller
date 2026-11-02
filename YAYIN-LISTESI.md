@@ -10,9 +10,9 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 |---|---|---|---|---|
 | 09:10 | Gönderi | AYAR & REHBER | `2026-10-18-bambu-h-serisi-pano` | 1 |
 | 09:50 | Hikaye | AYAR & REHBER | `2026-10-18-bambu-h-serisi-pano/hikaye.jpg` | 1 |
-| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-25-aktivite-tahtasi` | 8 |
+| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-25-aktivite-tahtasi` | 4 |
 | 12:50 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-25-aktivite-tahtasi/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-26-market-kasa-seti` | 4 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-26-market-kasa-seti` | 3 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-26-market-kasa-seti/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | `2026-10-18-bambu-h-serisi-pano/reels.mp4` | video |
 
@@ -22,11 +22,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 |---|---|---|---|---|
 | 09:05 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-16-phaetus-liber-u1` | 5 |
 | 09:45 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-16-phaetus-liber-u1/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-27-meyve-sebze-seti` | 4 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-27-meyve-sebze-seti` | 3 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-27-meyve-sebze-seti/hikaye.jpg` | 1 |
 | 13:30 | **Kampanya** | — | `2026-10-12-cekilis-duyuru` | 4 |
 | 14:10 | Kampanya hikaye | — | `2026-10-12-cekilis-duyuru/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-28-vidali-tren` | 4 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-28-vidali-tren` | 3 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-28-vidali-tren/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | `2026-10-16-phaetus-liber-u1/reels.mp4` | video |
 
@@ -36,7 +36,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 |---|---|---|---|---|
 | 09:10 | Gönderi | PROJE & ATÖLYE | `2026-10-16-tavan-arasi-kamera-robotu` | 5 |
 | 09:50 | Hikaye | PROJE & ATÖLYE | `2026-10-16-tavan-arasi-kamera-robotu/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-29-vidali-yapim-tahtasi` | 5 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-29-vidali-yapim-tahtasi` | 4 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-29-vidali-yapim-tahtasi/hikaye.jpg` | 1 |
 | 16:40 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-30-alyan-vida-oyuncagi` | 4 |
 | 17:20 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-30-alyan-vida-oyuncagi/hikaye.jpg` | 1 |
@@ -49,9 +49,9 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 |---|---|---|---|---|
 | 11:10 | Gönderi | AYAR & REHBER | `2026-10-18-sert-nozul` | 5 |
 | 11:50 | Hikaye | AYAR & REHBER | `2026-10-18-sert-nozul/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-31-halka-dizme-kulesi` | 5 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `2026-10-31-halka-dizme-kulesi` | 4 |
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `2026-10-31-halka-dizme-kulesi/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `2026-11-01-rakam-yapbozu` | 5 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `2026-11-01-rakam-yapbozu` | 4 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `2026-11-01-rakam-yapbozu/hikaye.jpg` | 1 |
 | 19:10 | Kampanya hikaye | — | `2026-10-12-cekilis-duyuru/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
