@@ -250,8 +250,106 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 |---|---|---|---|---|
 | 09:10 | Gönderi | PROJE & ATÖLYE | `2026-10-21-pi5-ekran-standi` | 4 |
 | 09:50 | Hikaye | PROJE & ATÖLYE | `2026-10-21-pi5-ekran-standi/hikaye.jpg` | 1 |
-| 12:38 | — | **boş** | _boş — üretilecek_ | — |
-| 17:24 | — | **boş** | _boş — üretilecek_ | — |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/nervurlu-saksi-ve-vazo-modern-masaustu-saksi` | 4 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/nervurlu-saksi-ve-vazo-modern-masaustu-saksi/hikaye.jpg` | 1 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/pilili-ayakli-dekoratif-pasta-standi-23-cm` | 4 |
+| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/pilili-ayakli-dekoratif-pasta-standi-23-cm/hikaye.jpg` | 1 |
+| 19:40 | **Reels** | — | _boş — üretilecek_ | — |
+
+## 2026-11-24 · Salı
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/ayakli-kopek-mama-kabi-standi-japandi-isim-plakali` | 4 |
+| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/ayakli-kopek-mama-kabi-standi-japandi-isim-plakali/hikaye.jpg` | 1 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/bolmeli-antre-duzenleyici-rafli-5-askili-anahtarlik` | 4 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/bolmeli-antre-duzenleyici-rafli-5-askili-anahtarlik/hikaye.jpg` | 1 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/buzgulu-kese-vazo-dekoratif-kuru-cicek-vazosu` | 4 |
+| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/buzgulu-kese-vazo-dekoratif-kuru-cicek-vazosu/hikaye.jpg` | 1 |
+| 19:40 | **Reels** | — | _boş — üretilecek_ | — |
+
+## 2026-11-25 · Çarşamba
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/cicek-formlu-raf-cocuk-odasi-masaustu-ve-duvar-rafi` | 4 |
+| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/cicek-formlu-raf-cocuk-odasi-masaustu-ve-duvar-rafi/hikaye.jpg` | 1 |
+| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/dalgali-isimli-mama-kabi-tutucu-kedi-ve-kopek` | 4 |
+| 12:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/dalgali-isimli-mama-kabi-tutucu-kedi-ve-kopek/hikaye.jpg` | 1 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi` | 4 |
+| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi/hikaye.jpg` | 1 |
+| 19:40 | **Reels** | — | _boş — üretilecek_ | — |
+
+## 2026-11-26 · Perşembe
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/nervurlu-cift-duvar-askisi-minimal-kanca` | 4 |
+| 09:45 | Hikaye | BASKI ÜRÜNLERİ | `urun/nervurlu-cift-duvar-askisi-minimal-kanca/hikaye.jpg` | 1 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/yildiz-kenarli-ayakli-pasta-standi-25-cm` | 4 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/yildiz-kenarli-ayakli-pasta-standi-25-cm/hikaye.jpg` | 1 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/agac-siluetli-duvar-tablosu-3-parca-dekoratif-pano` | 4 |
+| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/agac-siluetli-duvar-tablosu-3-parca-dekoratif-pano/hikaye.jpg` | 1 |
+| 19:40 | **Reels** | — | _boş — üretilecek_ | — |
+
+## 2026-11-27 · Cuma
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/balon-kopek-biblo-modern-pop-art-dekor` | 4 |
+| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/balon-kopek-biblo-modern-pop-art-dekor/hikaye.jpg` | 1 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/filte-kapakli-dekoratif-kase-ag-dokulu` | 4 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/filte-kapakli-dekoratif-kase-ag-dokulu/hikaye.jpg` | 1 |
+| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/fiyonklu-yilbasi-celengi-kapi-ve-masa-susu-17-cm` | 4 |
+| 17:20 | Hikaye | BASKI ÜRÜNLERİ | `urun/fiyonklu-yilbasi-celengi-kapi-ve-masa-susu-17-cm/hikaye.jpg` | 1 |
+| 19:20 | **Reels** | — | _boş — üretilecek_ | — |
+
+## 2026-11-28 · Cumartesi
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/geyikli-dekoratif-samdan-4-mumluk-iskandinav-tarzi` | 4 |
+| 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/geyikli-dekoratif-samdan-4-mumluk-iskandinav-tarzi/hikaye.jpg` | 1 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk` | 4 |
+| 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk/hikaye.jpg` | 1 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-cuce-figuru-yilbasi-gnome-dekoru-12-cm` | 4 |
+| 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-cuce-figuru-yilbasi-gnome-dekoru-12-cm/hikaye.jpg` | 1 |
+| 19:20 | **Reels** | — | _boş — üretilecek_ | — |
+
+## 2026-11-29 · Pazar
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-oval-tepsi-minimal-duzenleyici` | 4 |
+| 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-oval-tepsi-minimal-duzenleyici/hikaye.jpg` | 1 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/kalp-elli-saksi-sevimli-bitki-saksisi` | 4 |
+| 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/kalp-elli-saksi-sevimli-bitki-saksisi/hikaye.jpg` | 1 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/katmanli-yilbasi-agaci-led-mumluk-2-li` | 4 |
+| 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/katmanli-yilbasi-agaci-led-mumluk-2-li/hikaye.jpg` | 1 |
+| 19:50 | **Reels** | — | _boş — üretilecek_ | — |
+
+## 2026-11-30 · Pazartesi
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kendinden-sulamali-saksi-su-seviye-gostergeli` | 4 |
+| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kendinden-sulamali-saksi-su-seviye-gostergeli/hikaye.jpg` | 1 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru` | 4 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/modern-anahtar-tepsisi-yuvarlak-koseli` | 4 |
+| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/modern-anahtar-tepsisi-yuvarlak-koseli/hikaye.jpg` | 1 |
+| 19:40 | **Reels** | — | _boş — üretilecek_ | — |
+
+## 2026-12-01 · Salı
+
+| Saat | Tür | Slot | Klasör | Kare |
+|---|---|---|---|---|
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/nervurlu-duzenleyici-kutu-masaustu-organizer` | 4 |
+| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/nervurlu-duzenleyici-kutu-masaustu-organizer/hikaye.jpg` | 1 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/orgu-desenli-kalp-kutu-gul-detayli` | 4 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/orgu-desenli-kalp-kutu-gul-detayli/hikaye.jpg` | 1 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/spiral-anahtarlik-donen-cekirdekli` | 4 |
+| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/spiral-anahtarlik-donen-cekirdekli/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## Boş slotlar
@@ -270,7 +368,13 @@ Bu slotlar için içerik henüz üretilmedi:
 - 2026-11-17 · REELS
 - 2026-11-19 · REELS
 - 2026-11-21 · REELS
-- 2026-11-23 · S2
-- 2026-11-23 · S3
 - 2026-11-23 · REELS
+- 2026-11-24 · REELS
+- 2026-11-25 · REELS
+- 2026-11-26 · REELS
+- 2026-11-27 · REELS
+- 2026-11-28 · REELS
+- 2026-11-29 · REELS
+- 2026-11-30 · REELS
+- 2026-12-01 · REELS
 

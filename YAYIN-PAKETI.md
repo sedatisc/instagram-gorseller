@@ -1536,3 +1536,607 @@ Pi'sini kitap yığınına yaslayarak kullanan bir arkadaşın varsa ona yolla.
 #sermenkreatif #maker #raspberrypi #pi5
 ```
 
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-saksi-ve-vazo-modern-masaustu-saksi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nervurlu-saksi-ve-vazo-modern-masaustu-saksi/1.jpg" width="240"></a>
+
+**[urun/nervurlu-saksi-ve-vazo-modern-masaustu-saksi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-saksi-ve-vazo-modern-masaustu-saksi)** · 4 kare · hikaye 13:18
+
+```
+Nervürlü Saksı ve Vazo - Modern Masaüstü Saksı
+
+Dikey nervür dokulu, modern yuvarlak saksı / vazo.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 379,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/nervurlu-saksi-ve-vazo-modern-masaustu-saksi
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #dekoratifvazo #evdekorasyonu
+```
+
+## 17:24 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/pilili-ayakli-dekoratif-pasta-standi-23-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/pilili-ayakli-dekoratif-pasta-standi-23-cm/1.jpg" width="240"></a>
+
+**[urun/pilili-ayakli-dekoratif-pasta-standi-23-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/pilili-ayakli-dekoratif-pasta-standi-23-cm)** · 4 kare · hikaye 18:04
+
+```
+Pilili Ayaklı Dekoratif Pasta Standı - 23 cm
+
+Düz geniş tablalı, pilili ayaklı tek katlı pasta standı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 609,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/pilili-ayakli-dekoratif-pasta-standi-23-cm
+
+Pasta yapan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #sunumstandi #pastastandi
+```
+
+---
+
+# 2026-11-24 · Salı
+
+## 09:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ayakli-kopek-mama-kabi-standi-japandi-isim-plakali"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/ayakli-kopek-mama-kabi-standi-japandi-isim-plakali/1.jpg" width="240"></a>
+
+**[urun/ayakli-kopek-mama-kabi-standi-japandi-isim-plakali](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ayakli-kopek-mama-kabi-standi-japandi-isim-plakali)** · 4 kare · hikaye 09:50
+
+```
+Ayaklı Köpek Mama Kabı Standı - Japandi, İsim Plakalı
+
+Nervürlü gövdeli, konik ayaklı, 22,5 cm kase uyumlu yükseltilmiş mama standı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 2.229,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/ayakli-kopek-mama-kabi-standi-japandi-isim-plakali
+
+Kedisi ya da köpeği olan birine yolla.
+
+#sermenkreatif #3dbaski #mamakabi #kedikopek
+```
+
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/bolmeli-antre-duzenleyici-rafli-5-askili-anahtarlik"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/bolmeli-antre-duzenleyici-rafli-5-askili-anahtarlik/1.jpg" width="240"></a>
+
+**[urun/bolmeli-antre-duzenleyici-rafli-5-askili-anahtarlik](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/bolmeli-antre-duzenleyici-rafli-5-askili-anahtarlik)** · 4 kare · hikaye 13:18
+
+```
+Bölmeli Antre Düzenleyici - Raflı 5 Askılı Anahtarlık
+
+Geniş ön bölmesi, üst rafı ve 5 anahtar askısıyla kapı önü düzenleyici.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 949,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/bolmeli-antre-duzenleyici-rafli-5-askili-anahtarlik
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #duvarrafi #evdekorasyonu
+```
+
+## 17:24 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/buzgulu-kese-vazo-dekoratif-kuru-cicek-vazosu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/buzgulu-kese-vazo-dekoratif-kuru-cicek-vazosu/1.jpg" width="240"></a>
+
+**[urun/buzgulu-kese-vazo-dekoratif-kuru-cicek-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/buzgulu-kese-vazo-dekoratif-kuru-cicek-vazosu)** · 4 kare · hikaye 18:04
+
+```
+Büzgülü Kese Vazo - Dekoratif Kuru Çiçek Vazosu
+
+Büzgü ipli kese görünümlü, rustik tarzda dekoratif vazo.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 389,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/buzgulu-kese-vazo-dekoratif-kuru-cicek-vazosu
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #dekoratifvazo #evdekorasyonu
+```
+
+---
+
+# 2026-11-25 · Çarşamba
+
+## 09:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cicek-formlu-raf-cocuk-odasi-masaustu-ve-duvar-rafi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/cicek-formlu-raf-cocuk-odasi-masaustu-ve-duvar-rafi/1.jpg" width="240"></a>
+
+**[urun/cicek-formlu-raf-cocuk-odasi-masaustu-ve-duvar-rafi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cicek-formlu-raf-cocuk-odasi-masaustu-ve-duvar-rafi)** · 4 kare · hikaye 09:50
+
+```
+Çiçek Formlu Raf - Çocuk Odası Masaüstü ve Duvar Rafı
+
+Çiçek formunda, çok bölmeli dekoratif çocuk odası rafı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 1.529,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/cicek-formlu-raf-cocuk-odasi-masaustu-ve-duvar-rafi
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #duvarrafi #evdekorasyonu
+```
+
+## 12:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalgali-isimli-mama-kabi-tutucu-kedi-ve-kopek"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/dalgali-isimli-mama-kabi-tutucu-kedi-ve-kopek/1.jpg" width="240"></a>
+
+**[urun/dalgali-isimli-mama-kabi-tutucu-kedi-ve-kopek](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalgali-isimli-mama-kabi-tutucu-kedi-ve-kopek)** · 4 kare · hikaye 12:50
+
+```
+Dalgalı İsimli Mama Kabı Tutucu - Kedi ve Köpek
+
+İki renkli dalga geçişli, tutma yerli, isim yazılı mama kabı tutucu.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 1.769,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/dalgali-isimli-mama-kabi-tutucu-kedi-ve-kopek
+
+Kedisi ya da köpeği olan birine yolla.
+
+#sermenkreatif #3dbaski #mamakabi #kedikopek
+```
+
+## 17:24 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi/1.jpg" width="240"></a>
+
+**[urun/isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi)** · 4 kare · hikaye 18:04
+
+```
+İsimli Köpek Tasma Askısı - Pati Motifli Duvar Askısı
+
+Pati motifli, isim yazılabilen, 3 kancalı tasma ve gezdirme askısı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 289,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #duvaraskisi #portmanto
+```
+
+---
+
+# 2026-11-26 · Perşembe
+
+## 09:05 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-cift-duvar-askisi-minimal-kanca"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nervurlu-cift-duvar-askisi-minimal-kanca/1.jpg" width="240"></a>
+
+**[urun/nervurlu-cift-duvar-askisi-minimal-kanca](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-cift-duvar-askisi-minimal-kanca)** · 4 kare · hikaye 09:45
+
+```
+Nervürlü Çift Duvar Askısı - Minimal Kanca
+
+Nervürlü taban plakasından çıkan iki kıvrık kancalı minimal askı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 209,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/nervurlu-cift-duvar-askisi-minimal-kanca
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #duvaraskisi #portmanto
+```
+
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yildiz-kenarli-ayakli-pasta-standi-25-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/yildiz-kenarli-ayakli-pasta-standi-25-cm/1.jpg" width="240"></a>
+
+**[urun/yildiz-kenarli-ayakli-pasta-standi-25-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yildiz-kenarli-ayakli-pasta-standi-25-cm)** · 4 kare · hikaye 13:18
+
+```
+Yıldız Kenarlı Ayaklı Pasta Standı - 25 cm
+
+Yıldız desenli kenarlı, ayaklı pasta ve tatlı sunum standı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 679,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/yildiz-kenarli-ayakli-pasta-standi-25-cm
+
+Pasta yapan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #sunumstandi #pastastandi
+```
+
+## 17:24 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/agac-siluetli-duvar-tablosu-3-parca-dekoratif-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/agac-siluetli-duvar-tablosu-3-parca-dekoratif-pano/1.jpg" width="240"></a>
+
+**[urun/agac-siluetli-duvar-tablosu-3-parca-dekoratif-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/agac-siluetli-duvar-tablosu-3-parca-dekoratif-pano)** · 4 kare · hikaye 18:04
+
+```
+Ağaç Silüetli Duvar Tablosu - 3 Parça Dekoratif Pano
+
+Üç panele yayılan ağaç silüetiyle modern duvar dekoru.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 389,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/agac-siluetli-duvar-tablosu-3-parca-dekoratif-pano
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #dekoratifobje #evdekorasyonu
+```
+
+---
+
+# 2026-11-27 · Cuma
+
+## 09:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/balon-kopek-biblo-modern-pop-art-dekor"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/balon-kopek-biblo-modern-pop-art-dekor/1.jpg" width="240"></a>
+
+**[urun/balon-kopek-biblo-modern-pop-art-dekor](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/balon-kopek-biblo-modern-pop-art-dekor)** · 4 kare · hikaye 09:50
+
+```
+Balon Köpek Biblo - Modern Pop Art Dekor
+
+Şişirilmiş balon görünümlü, pop art tarzı modern köpek biblo.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 209,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/balon-kopek-biblo-modern-pop-art-dekor
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #dekoratifobje #evdekorasyonu
+```
+
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/filte-kapakli-dekoratif-kase-ag-dokulu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/filte-kapakli-dekoratif-kase-ag-dokulu/1.jpg" width="240"></a>
+
+**[urun/filte-kapakli-dekoratif-kase-ag-dokulu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/filte-kapakli-dekoratif-kase-ag-dokulu)** · 4 kare · hikaye 13:18
+
+```
+Filte Kapaklı Dekoratif Kase - Ağ Dokulu
+
+Ağ örgü desenli gövdeli, topuz kapaklı modern dekoratif kase.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 589,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/filte-kapakli-dekoratif-kase-ag-dokulu
+
+Misafir ağırlamayı seven birine yolla.
+
+#sermenkreatif #3dbaski #sunumtabagi #dekoratifkase
+```
+
+## 16:40 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/fiyonklu-yilbasi-celengi-kapi-ve-masa-susu-17-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/fiyonklu-yilbasi-celengi-kapi-ve-masa-susu-17-cm/1.jpg" width="240"></a>
+
+**[urun/fiyonklu-yilbasi-celengi-kapi-ve-masa-susu-17-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/fiyonklu-yilbasi-celengi-kapi-ve-masa-susu-17-cm)** · 4 kare · hikaye 17:20
+
+```
+Fiyonklu Yılbaşı Çelengi - Kapı ve Masa Süsü, 17 cm
+
+Fiyonk detaylı, asılabilen ve masada ayakta durabilen yılbaşı çelengi.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 319,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/fiyonklu-yilbasi-celengi-kapi-ve-masa-susu-17-cm
+
+Yılbaşı hazırlığına başlayan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #yilbasisusu #yilbasi
+```
+
+---
+
+# 2026-11-28 · Cumartesi
+
+## 11:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/geyikli-dekoratif-samdan-4-mumluk-iskandinav-tarzi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/geyikli-dekoratif-samdan-4-mumluk-iskandinav-tarzi/1.jpg" width="240"></a>
+
+**[urun/geyikli-dekoratif-samdan-4-mumluk-iskandinav-tarzi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/geyikli-dekoratif-samdan-4-mumluk-iskandinav-tarzi)** · 4 kare · hikaye 11:50
+
+```
+Geyikli Dekoratif Şamdan - 4 Mumluk İskandinav Tarzı
+
+İki geyik figürü ve dört ince mum yuvası bulunan uzun tepsi şamdan.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 459,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/geyikli-dekoratif-samdan-4-mumluk-iskandinav-tarzi
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #mumluk #evdekorasyonu
+```
+
+## 13:20 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk/1.jpg" width="240"></a>
+
+**[urun/isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk)** · 4 kare · hikaye 14:00
+
+```
+Işıklı İskandinav Yılbaşı Ağacı - Delik Desenli LED Mumluk
+
+Delik desenli gövdesinden ışık süzülen, çiçek tabanlı yılbaşı ağacı lambası.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 299,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk
+
+Yılbaşı hazırlığına başlayan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #yilbasiagaci #yilbasi
+```
+
+## 17:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-cuce-figuru-yilbasi-gnome-dekoru-12-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-cuce-figuru-yilbasi-gnome-dekoru-12-cm/1.jpg" width="240"></a>
+
+**[urun/japandi-cuce-figuru-yilbasi-gnome-dekoru-12-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-cuce-figuru-yilbasi-gnome-dekoru-12-cm)** · 4 kare · hikaye 17:50
+
+```
+Japandi Cüce Figürü - Yılbaşı Gnome Dekoru, 12 cm
+
+Sivri şapkalı, minimal Japandi tarzı cüce figürü.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 289,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/japandi-cuce-figuru-yilbasi-gnome-dekoru-12-cm
+
+Yılbaşı hazırlığına başlayan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #yilbasisusu #yilbasi
+```
+
+---
+
+# 2026-11-29 · Pazar
+
+## 11:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-oval-tepsi-minimal-duzenleyici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-oval-tepsi-minimal-duzenleyici/1.jpg" width="240"></a>
+
+**[urun/japandi-oval-tepsi-minimal-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-oval-tepsi-minimal-duzenleyici)** · 4 kare · hikaye 11:50
+
+```
+Japandi Oval Tepsi - Minimal Düzenleyici
+
+Yumuşak kenarlı, sade oval Japandi tepsi.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 289,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/japandi-oval-tepsi-minimal-duzenleyici
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #dekoratiftepsi #evdekorasyonu
+```
+
+## 13:20 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kalp-elli-saksi-sevimli-bitki-saksisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kalp-elli-saksi-sevimli-bitki-saksisi/1.jpg" width="240"></a>
+
+**[urun/kalp-elli-saksi-sevimli-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kalp-elli-saksi-sevimli-bitki-saksisi)** · 4 kare · hikaye 14:00
+
+```
+Kalp Elli Saksı - Sevimli Bitki Saksısı
+
+Elleriyle kalp yapan sevimli karakter formunda mini saksı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 299,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/kalp-elli-saksi-sevimli-bitki-saksisi
+
+Evi bitki dolu olan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #saksi #bitkisever
+```
+
+## 17:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/katmanli-yilbasi-agaci-led-mumluk-2-li"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/katmanli-yilbasi-agaci-led-mumluk-2-li/1.jpg" width="240"></a>
+
+**[urun/katmanli-yilbasi-agaci-led-mumluk-2-li](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/katmanli-yilbasi-agaci-led-mumluk-2-li)** · 4 kare · hikaye 17:50
+
+```
+Katmanlı Yılbaşı Ağacı LED Mumluk - 2'li
+
+Katmanlı halka formlu, içine LED mum konan 2'li yılbaşı ağacı seti.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 429,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/katmanli-yilbasi-agaci-led-mumluk-2-li
+
+Yılbaşı hazırlığına başlayan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #yilbasiagaci #yilbasi
+```
+
+---
+
+# 2026-11-30 · Pazartesi
+
+## 09:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kendinden-sulamali-saksi-su-seviye-gostergeli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kendinden-sulamali-saksi-su-seviye-gostergeli/1.jpg" width="240"></a>
+
+**[urun/kendinden-sulamali-saksi-su-seviye-gostergeli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kendinden-sulamali-saksi-su-seviye-gostergeli)** · 4 kare · hikaye 09:50
+
+```
+Kendinden Sulamalı Saksı - Su Seviye Göstergeli
+
+Su haznesi ve seviye göstergesi olan nervürlü kendinden sulamalı saksı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 599,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/kendinden-sulamali-saksi-su-seviye-gostergeli
+
+Evi bitki dolu olan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #saksi #bitkisever
+```
+
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru/1.jpg" width="240"></a>
+
+**[urun/kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru)** · 4 kare · hikaye 13:18
+
+```
+Kozalak Ev Tealight Mumluk - Işıklı Yılbaşı Dekoru
+
+İçine tealight mum konan, bacası ve kapısından ışık saçan kozalak ev.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 299,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #mumluk #evdekorasyonu
+```
+
+## 17:24 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/modern-anahtar-tepsisi-yuvarlak-koseli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/modern-anahtar-tepsisi-yuvarlak-koseli/1.jpg" width="240"></a>
+
+**[urun/modern-anahtar-tepsisi-yuvarlak-koseli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/modern-anahtar-tepsisi-yuvarlak-koseli)** · 4 kare · hikaye 18:04
+
+```
+Modern Anahtar Tepsisi - Yuvarlak Köşeli
+
+Yumuşak hatlı, alçak kenarlı dikdörtgen anahtar tepsisi.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 259,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/modern-anahtar-tepsisi-yuvarlak-koseli
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #dekoratiftepsi #evdekorasyonu
+```
+
+---
+
+# 2026-12-01 · Salı
+
+## 09:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-duzenleyici-kutu-masaustu-organizer"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nervurlu-duzenleyici-kutu-masaustu-organizer/1.jpg" width="240"></a>
+
+**[urun/nervurlu-duzenleyici-kutu-masaustu-organizer](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-duzenleyici-kutu-masaustu-organizer)** · 4 kare · hikaye 09:50
+
+```
+Nervürlü Düzenleyici Kutu - Masaüstü Organizer
+
+Dışı ince nervürlü, tek bölmeli dikdörtgen düzenleyici kutu.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 389,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/nervurlu-duzenleyici-kutu-masaustu-organizer
+
+Masası dağınık olan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #masaustuduzenleyici #masaduzeni
+```
+
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/orgu-desenli-kalp-kutu-gul-detayli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/orgu-desenli-kalp-kutu-gul-detayli/1.jpg" width="240"></a>
+
+**[urun/orgu-desenli-kalp-kutu-gul-detayli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/orgu-desenli-kalp-kutu-gul-detayli)** · 4 kare · hikaye 13:18
+
+```
+Örgü Desenli Kalp Kutu - Gül Detaylı
+
+Kapağında gül bulunan, örgü dokulu kalp şeklinde hediye kutusu.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 209,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/orgu-desenli-kalp-kutu-gul-detayli
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #saklamakutusu #evduzeni
+```
+
+## 17:24 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-anahtarlik-donen-cekirdekli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/spiral-anahtarlik-donen-cekirdekli/1.jpg" width="240"></a>
+
+**[urun/spiral-anahtarlik-donen-cekirdekli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-anahtarlik-donen-cekirdekli)** · 4 kare · hikaye 18:04
+
+```
+Spiral Anahtarlık - Dönen Çekirdekli
+
+Ortasındaki spiral çekirdeği dönen, halkalı şık anahtarlık.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 209,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/spiral-anahtarlik-donen-cekirdekli
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #anahtarlik #cantasusu
+```
+
