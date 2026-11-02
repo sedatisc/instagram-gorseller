@@ -379,6 +379,14 @@ header p { margin: 0; color: var(--soluk); font-size: 14px; max-width: 62ch; }
 .yol { font-family: var(--mono); font-size: 12px; color: var(--soluk);
        margin: 7px 0 0; word-break: break-word; }
 .yol b { font-weight: 500; color: var(--murekkep); }
+.kareler { display: flex; gap: 7px; margin: 10px 0 0; overflow-x: auto;
+  padding-bottom: 2px; }
+.kareler a { flex: 0 0 auto; line-height: 0; border: 1px solid var(--cizgi);
+  background: var(--kutu); border-radius: 3px; }
+.kareler img { width: 108px; height: 108px; object-fit: cover; display: block; }
+.kareler .yok { width: 108px; height: 108px; display: flex; align-items: center;
+  justify-content: center; font-family: var(--mono); font-size: 10px;
+  color: var(--soluk); text-align: center; padding: 6px; }
 .etiket { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em;
           color: var(--soluk); margin: 13px 0 5px; }
 .metin { background: var(--kutu); border: 1px solid var(--cizgi);
@@ -505,6 +513,26 @@ function kartCiz(k) {
   const liste = d.length > 2 ? d[0] + " – " + d[d.length - 1] : d.join(" · ");
   yol.innerHTML = "klasör <b>" + k.klasor + "</b> · " + liste;
   govde.appendChild(yol);
+
+  if (k.tur !== "REELS" && k.tur !== "SHORTS" && d.length) {
+    const serit = document.createElement("div");
+    serit.className = "kareler";
+    d.forEach(function (f) {
+      const u = (k.bag && k.bag[f]) || HAM + k.klasor + "/" + f;
+      const a = document.createElement("a");
+      a.href = u; a.target = "_blank"; a.rel = "noopener";
+      const im = document.createElement("img");
+      im.src = u; im.loading = "lazy"; im.alt = f;
+      im.onerror = function () {
+        const yk = document.createElement("div");
+        yk.className = "yok"; yk.textContent = "görsel yok";
+        a.replaceChild(yk, im);
+      };
+      a.appendChild(im);
+      serit.appendChild(a);
+    });
+    govde.appendChild(serit);
+  }
 
   const yt = secili === "yt" && k.yt, tt = secili === "tt" && k.tt;
   const anaMetin = yt ? k.yt.aciklama : (tt ? k.tt.metin : k.metin);

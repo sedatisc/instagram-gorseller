@@ -364,8 +364,9 @@
    "klasor": "2026-10-12-cekilis-duyuru",
    "kategori": "kampanya",
    "konu": "cekilis-duyuru",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "iptal",
+   "kare": 4,
+   "neden": "Kampanya/çekiliş yayından kaldırıldı"
   },
   {
    "klasor": "2026-10-12-deep-sleep-akim",
@@ -459,16 +460,16 @@
    "klasor": "2026-10-15-3d-tarayici",
    "kategori": "proje",
    "konu": "3d-tarayici",
-   "durum": "yayinlandi",
-   "kare": 5,
-   "tarih": "2026-11-03"
+   "durum": "hazir",
+   "kare": 5
   },
   {
    "klasor": "2026-10-15-cekilis-son-gun",
    "kategori": "kampanya",
    "konu": "cekilis-son-gun",
-   "durum": "hazir",
-   "kare": 1
+   "durum": "iptal",
+   "kare": 1,
+   "neden": "Kampanya/çekiliş yayından kaldırıldı"
   },
   {
    "klasor": "2026-10-15-h-koprusu",
@@ -490,10 +491,9 @@
    "klasor": "2026-10-15-sunlu-ams-heater",
    "kategori": "magaza",
    "konu": "sunlu-ams-heater",
-   "durum": "yayinlandi",
+   "durum": "hazir",
    "kare": 5,
-   "reels": true,
-   "tarih": "2026-11-03"
+   "reels": true
   },
   {
    "klasor": "2026-10-16-gelistirme-karti-pano",
@@ -539,9 +539,8 @@
    "klasor": "2026-10-17-cok-renkli-yazici-pano",
    "kategori": "rehber",
    "konu": "cok-renkli-yazici",
-   "durum": "yayinlandi",
-   "kare": 1,
-   "tarih": "2026-11-03"
+   "durum": "hazir",
+   "kare": 1
   },
   {
    "klasor": "2026-10-17-esp32-ailesi-pano",
@@ -668,8 +667,9 @@
    "klasor": "2026-10-19-trendyol-magaza",
    "kategori": "kampanya",
    "konu": "trendyol-magaza",
-   "durum": "hazir",
-   "kare": 1
+   "durum": "iptal",
+   "kare": 1,
+   "neden": "Kampanya/çekiliş yayından kaldırıldı"
   },
   {
    "klasor": "2026-10-19-yazicilar",
@@ -815,17 +815,15 @@
    "klasor": "2026-10-23-sekil-cark-tahtasi",
    "kategori": "baski",
    "konu": "sekil-cark-tahtasi",
-   "durum": "iptal",
-   "kare": 4,
-   "neden": "30 Ekim konuları iptal edildi"
+   "durum": "hazir",
+   "kare": 4
   },
   {
    "klasor": "2026-10-24-cay-kahve-seti",
    "kategori": "baski",
    "konu": "cay-kahve-seti",
-   "durum": "yayinlandi",
-   "kare": 4,
-   "tarih": "2026-11-03"
+   "durum": "hazir",
+   "kare": 4
   },
   {
    "klasor": "2026-10-25-aktivite-tahtasi",
@@ -859,8 +857,9 @@
    "klasor": "2026-10-29-cumhuriyet-bayrami",
    "kategori": "kampanya",
    "konu": "cumhuriyet-bayrami",
-   "durum": "hazir",
-   "kare": 1
+   "durum": "iptal",
+   "kare": 1,
+   "neden": "Kampanya/çekiliş yayından kaldırıldı"
   },
   {
    "klasor": "2026-10-29-vidali-yapim-tahtasi",
@@ -898,55 +897,5 @@
    "kare": 4
   }
  ],
- "kampanya": [
-  {
-   "saat": "09:00",
-   "tur": "gonderi",
-   "klasor": "2026-10-29-cumhuriyet-bayrami",
-   "not": "29 Ekim Cumhuriyet Bayramı",
-   "tarih": "2026-10-29"
-  },
-  {
-   "saat": "13:30",
-   "tur": "gonderi",
-   "klasor": "2026-10-12-cekilis-duyuru",
-   "not": "Dört makara çekiliş duyurusu",
-   "gun": 1
-  },
-  {
-   "saat": "19:10",
-   "tur": "hikaye",
-   "klasor": "2026-10-12-cekilis-duyuru",
-   "not": "Çekiliş hatırlatması",
-   "gun": 2
-  },
-  {
-   "saat": "19:10",
-   "tur": "hikaye",
-   "klasor": "2026-10-12-cekilis-duyuru",
-   "not": "Çekiliş hatırlatması",
-   "gun": 3
-  },
-  {
-   "saat": "18:40",
-   "tur": "gonderi",
-   "klasor": "2026-10-15-cekilis-son-gun",
-   "not": "son gün",
-   "gun": 4
-  },
-  {
-   "saat": "10:30",
-   "tur": "hikaye",
-   "klasor": "2026-10-19-trendyol-magaza",
-   "not": "Trendyol mağaza hikayesi",
-   "gun": 7
-  },
-  {
-   "saat": "10:30",
-   "tur": "hikaye",
-   "klasor": "2026-10-19-trendyol-magaza",
-   "not": "Trendyol mağaza hikayesi",
-   "gun": 14
-  }
- ]
+ "kampanya": []
 }
