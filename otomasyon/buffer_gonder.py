@@ -179,32 +179,16 @@ def gonder(kanal, metin, varliklar, zaman, tur, turler, baglanti=None):
 
 
 # ------------------------------------------------------------ bağlantı
-def _baglantilar():
-    try:
-        with open(BAGLANTI, encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return {}
-
-
 def urun_linki(klasor):
-    """Ürünün kendi sayfası; yoksa mağaza adresi."""
-    b = _baglantilar()
-    konu = None
-    for i in sira.oku()["icerik"]:
-        if i["klasor"] == klasor:
-            konu = i.get("konu") or klasor
-            break
-    u = (b.get("urun") or {}).get(konu or klasor) or ""
-    return u or b.get("varsayilan") or ""
+    """Ürünün site sayfası; yoksa site adresi."""
+    return sira.urun_sayfasi(klasor)
 
 
 def _magaza_satiri(klasor):
     u = urun_linki(klasor)
     if not u:
         return ""
-    kisa = re.sub(r"^https?://", "", u).rstrip("/")
-    return "Ürün sayfası: " + kisa
+    return "Ürün sayfası: " + re.sub(r"^https?://", "", u).rstrip("/")
 
 
 # ------------------------------------------------------------ metin
@@ -240,7 +224,19 @@ def metin_kur(klasor):
 
 
 def varlik(is_, sha):
+    """Gönderinin medyası.
+
+    Baskı ürününde yalnız sitenin kendi görselleri kullanılıyor; site
+    görseli yoksa iş gönderilmiyor, depodaki kareye düşülmüyor."""
     k = is_["klasor"]
+    if is_.get("kategori") == "baski":
+        g = sira.urun_gorselleri(k)
+        if not g:
+            raise Hata("%s — site görseli yok, gönderilmedi" % k)
+        if is_["tur"] == "hikaye":
+            return [{"image": {"url": g[0]}}]
+        if is_["tur"] == "gonderi":
+            return [{"image": {"url": u}} for u in g[:10]]
     if is_["tur"] == "gonderi":
         yollar = yayinla.kareler(k)
         if not yollar:

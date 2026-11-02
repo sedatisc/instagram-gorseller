@@ -1,20 +1,56 @@
 {
- "not": "Ürün bağlantıları. Anahtar: icerik.json'daki 'konu' ya da klasör adı. Gönderi metnindeki {urun_linki} ve hikayenin bağlantı etiketi buradan besleniyor. Bir ürünün kendi sayfası yoksa 'varsayilan' kullanılıyor.",
+ "not": "Baskı ürünlerinin site sayfası ve site görselleri. Anahtar: icerik.json'daki 'konu'. KURAL: baskı ürünü gönderilerinde yalnız sitenin kendi görselleri kullanılıyor; 'gorsel' listesi boşsa o ürün plana girmiyor, başka görselle yayımlanmıyor.",
  "varsayilan": "https://skteknolojileri.com",
  "magaza": "https://skteknolojileri.com",
  "trendyol": "https://ty.gl/wvxkl6ythlckv",
  "urun": {
-  "sekil-cark-tahtasi": "",
-  "cay-kahve-seti": "",
-  "aktivite-tahtasi": "",
-  "market-kasa-seti": "",
-  "meyve-sebze-seti": "",
-  "vidali-tren": "",
-  "vidali-yapim-tahtasi": "",
-  "alyan-vida-oyuncagi": "",
-  "halka-dizme-kulesi": "",
-  "rakam-yapbozu": "",
-  "kesir-daireleri": "",
-  "geometrik-siralama": ""
+  "sekil-cark-tahtasi": {
+   "sayfa": "",
+   "gorsel": []
+  },
+  "cay-kahve-seti": {
+   "sayfa": "",
+   "gorsel": []
+  },
+  "aktivite-tahtasi": {
+   "sayfa": "",
+   "gorsel": []
+  },
+  "market-kasa-seti": {
+   "sayfa": "",
+   "gorsel": []
+  },
+  "meyve-sebze-seti": {
+   "sayfa": "",
+   "gorsel": []
+  },
+  "vidali-tren": {
+   "sayfa": "",
+   "gorsel": []
+  },
+  "vidali-yapim-tahtasi": {
+   "sayfa": "",
+   "gorsel": []
+  },
+  "alyan-vida-oyuncagi": {
+   "sayfa": "",
+   "gorsel": []
+  },
+  "halka-dizme-kulesi": {
+   "sayfa": "",
+   "gorsel": []
+  },
+  "rakam-yapbozu": {
+   "sayfa": "",
+   "gorsel": []
+  },
+  "kesir-daireleri": {
+   "sayfa": "",
+   "gorsel": []
+  },
+  "geometrik-siralama": {
+   "sayfa": "",
+   "gorsel": []
+  }
  }
 }

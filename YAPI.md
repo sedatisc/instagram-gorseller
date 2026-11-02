@@ -79,9 +79,15 @@ erişime katkı vermiyor, Instagram da 5'te sınırlıyor) ve metnin sonunda
 "bunu şuna yolla" cümlesi — gönderim, takipçi olmayana ulaşmada en ağır
 sinyal.
 
-Ürün bağlantıları `baglantilar.json`'da. Anahtar, icerik.json'daki `konu`.
-Gönderi metninde `{urun_linki}` o adrese dönüyor; ürünün kendi sayfası
-boşsa `varsayilan` (mağaza adresi) yazılıyor. Baskı ürünü ve mağaza
+Baskı ürününün görselleri sitenin kendisinden geliyor. Başka görsel
+kullanılmıyor: `baglantilar.json`'da ürünün `gorsel` listesi boşsa o ürün
+plana hiç girmiyor (`SİTE GÖRSELİ YOK` uyarısı) ve Buffer'a gitmiyor —
+depodaki kareye düşülmüyor. Liste dolunca gönderi o görsellerle, hikaye
+listenin ilkiyle gidiyor.
+
+Ürün bağlantıları aynı dosyada. Anahtar, icerik.json'daki `konu`.
+Gönderi metninde `{urun_linki}` ürünün `sayfa` adresine dönüyor; boşsa
+`varsayilan` (site adresi) yazılıyor. Baskı ürünü ve mağaza
 gönderilerinin hikayesi de aynı bağlantıyı taşıyor: Buffer şemasında
 hikaye bağlantı alanı varsa etiket olarak, yoksa hikaye metnine yazılarak.
 Hangisi olduğunu `buffer_gonder.py --kontrol` söylüyor.

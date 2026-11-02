@@ -169,12 +169,21 @@ def tt_metin(klasor):
     return (bas + ("\n\n" + etiket[0] if etiket else "")).strip()
 
 
-def baglanti(klasor):
+def baglanti(klasor, kategori=""):
     """Depo dışında duran görsellerin adresleri.
 
-    Klasörde baglanti.json varsa ("1.jpg": "https://…") o dosyanın
-    adresi depodaki kopya yerine oradan veriliyor. Depoya sığmayan ya da
-    bu makineden indirilemeyen görseller için."""
+    Baskı ürününde görseller sitenin kendisinden geliyor: kare adları
+    baglantilar.json'daki site adresleriyle eşleniyor. Diğerlerinde,
+    klasörde baglanti.json varsa ("1.jpg": "https://…") o dosyanın
+    adresi depodaki kopya yerine oradan veriliyor."""
+    if kategori == "baski":
+        g = sira.urun_gorselleri(klasor)
+        if not g:
+            return None
+        bag = {"hikaye.jpg": g[0]}
+        for n, u in enumerate(g, 1):
+            bag["%d.jpg" % n] = u
+        return bag
     yol = os.path.join(KOK, klasor, "baglanti.json")
     if not os.path.exists(yol):
         return None
@@ -252,7 +261,7 @@ def kayitlar():
                                  "etiket": ", ".join(yt_etiket(r))},
                           "tt": {"metin": tt_metin(r)}})
         for k in kayit:
-            b = baglanti(k["klasor"])
+            b = baglanti(k["klasor"], k.get("slot", ""))
             if b:
                 k["bag"] = b
         kayit.sort(key=lambda k: k["saat"])

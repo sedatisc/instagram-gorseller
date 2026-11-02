@@ -67,6 +67,44 @@ HAM = ("https://raw.githubusercontent.com/sedatisc/"
 
 
 # --------------------------------------------------------------- veri
+BAGLANTI = os.path.join(KOK, "baglantilar.json")
+
+
+def baglantilar():
+    try:
+        with open(BAGLANTI, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def _konu(klasor, d=None):
+    for i in (d or oku())["icerik"]:
+        if i["klasor"] == klasor:
+            return i.get("konu") or klasor
+    return klasor
+
+
+def urun_kaydi(klasor, d=None):
+    b = baglantilar()
+    return (b.get("urun") or {}).get(_konu(klasor, d)) or {}
+
+
+def urun_gorselleri(klasor, d=None):
+    """Ürünün site görselleri.
+
+    Baskı ürünü gönderilerinde yalnız sitenin kendi görselleri
+    kullanılıyor. Liste boşsa ürün yayına girmiyor; depodaki kareyle
+    ya da başka bir görselle yayımlanmıyor."""
+    return list(urun_kaydi(klasor, d).get("gorsel") or [])
+
+
+def urun_sayfasi(klasor, d=None):
+    b = baglantilar()
+    return (urun_kaydi(klasor, d).get("sayfa")
+            or b.get("varsayilan") or "")
+
+
 def oku():
     with open(ICERIK, encoding="utf-8") as f:
         return json.load(f)
@@ -120,6 +158,9 @@ def hazirlar(d=None):
         if i.get("durum") != "hazir" or i.get("kategori") not in out:
             continue
         konu = i.get("konu") or i["klasor"]
+        if i["kategori"] == "baski" and not urun_gorselleri(i["klasor"], d):
+            print("SİTE GÖRSELİ YOK: %s — plana girmiyor" % i["klasor"])
+            continue
         if konu in gorulen:
             print("ATLANDI (aynı konu): %s" % i["klasor"])
             continue
