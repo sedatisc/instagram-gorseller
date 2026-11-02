@@ -12,7 +12,7 @@ Arıza dışında da işliyor: çizdiğin parçayı paylaşıyorsun, başkasın�
 
 Katılmak için profildeki linke dokunman yeterli. Ücretsiz, istediğin an çıkabilirsin.
 
-#sermenkreatif #3dbaski #3dbaskiturkiye #makerturkiye #topluluk
+#sermenkreatif #3dbaski #3dbaskiturkiye #topluluk
 
 ## İlk yorum
 

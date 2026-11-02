@@ -17,7 +17,7 @@ Bir not » korumalı hücrenin üstündeki ince kart zaten PCM'dir. Üstüne iki
 
 Pili bir kez tamamen boşaltıp bir daha şarj edemeyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #elektronik #embedded #lipo #makerturkiye
+#sermenkreatif #elektronik #embedded #lipo
 
 ## İlk yorum
 

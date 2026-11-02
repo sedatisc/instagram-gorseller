@@ -19,7 +19,7 @@ Baskı ayarı üçünde de aynı: nozul 230 °C, tabla 50 °C.
 
 Yazın araçta bıraktığı telefon tutucusu eğilen bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #polymaker #htpla #filament #makerturkiye
+#sermenkreatif #3dbaski #polymaker #htpla #filament
 
 ## İlk yorum
 

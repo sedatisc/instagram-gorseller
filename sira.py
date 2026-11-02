@@ -32,23 +32,11 @@ GUNLUK = {"baski": 2}
 DONEN = ["rehber", "magaza", "proje"]
 
 
-def gun_no(kat, i):
-    """Kategorinin i. işi planın kaçıncı gününe düşüyor."""
-    if kat in DONEN:
-        return i * len(DONEN) + DONEN.index(kat)
-    return i // GUNLUK.get(kat, 1)
-
-
-def slot_adi(kat, i):
-    """İşin slot adı — baski, baski2, rehber …"""
-    if kat in DONEN:
-        return kat
-    n = GUNLUK.get(kat, 1)
-    j = i % n
-    return kat if j == 0 else "%s%d" % (kat, j + 1)
-
-
-SLOTLAR = ["rehber", "magaza", "proje", "baski", "baski2"]
+# Günün üç gönderi slotu. Hangi kategorinin geleceği sabit değil:
+# s2 ve s3 baskı ürününü tercih ediyor, s1 dönen kategoriyi; bir kuyruk
+# boşalınca slot dolu kuyruktan besleniyor, gün yarım kalmıyor.
+SLOTLAR = ["s1", "s2", "s3"]
+TERCIH = {"s1": None, "s2": "baski", "s3": "baski"}
 
 BASLIK = {"rehber": "AYAR & REHBER",
           "baski": "BASKI ÜRÜNLERİ",
@@ -57,22 +45,15 @@ BASLIK = {"rehber": "AYAR & REHBER",
           "proje": "PROJE & ATÖLYE",
           "kampanya": "KAMPANYA"}
 
-# gün indeksi -> {slot: "SS:DD"}. "doner" sırayla gelen üçüncü slotun saati.
+# gün indeksi -> {slot: "SS:DD"}
 IZGARA = {
-    0: {"doner": "09:10", "baski": "12:38", "baski2": "17:24",
-        "reels": "19:40"},                                        # Pazartesi
-    1: {"doner": "09:10", "baski": "12:38", "baski2": "17:24",
-        "reels": "19:40"},                                        # Salı
-    2: {"doner": "09:10", "baski": "12:10", "baski2": "17:24",
-        "reels": "19:40"},                                        # Çarşamba
-    3: {"doner": "09:05", "baski": "12:38", "baski2": "17:24",
-        "reels": "19:40"},                                        # Perşembe
-    4: {"doner": "09:10", "baski": "12:38", "baski2": "16:40",
-        "reels": "19:20"},                                        # Cuma
-    5: {"doner": "11:10", "baski": "13:20", "baski2": "17:10",
-        "reels": "19:20"},                                        # Cumartesi
-    6: {"doner": "11:10", "baski": "13:20", "baski2": "17:10",
-        "reels": "19:50"},                                        # Pazar
+    0: {"s1": "09:10", "s2": "12:38", "s3": "17:24", "reels": "19:40"},
+    1: {"s1": "09:10", "s2": "12:38", "s3": "17:24", "reels": "19:40"},
+    2: {"s1": "09:10", "s2": "12:10", "s3": "17:24", "reels": "19:40"},
+    3: {"s1": "09:05", "s2": "12:38", "s3": "17:24", "reels": "19:40"},
+    4: {"s1": "09:10", "s2": "12:38", "s3": "16:40", "reels": "19:20"},
+    5: {"s1": "11:10", "s2": "13:20", "s3": "17:10", "reels": "19:20"},
+    6: {"s1": "11:10", "s2": "13:20", "s3": "17:10", "reels": "19:50"},
 }
 
 HIKAYE_GECIKME = 40      # gönderiden kaç dakika sonra
@@ -144,31 +125,6 @@ def hazirlar(d=None):
             continue
         gorulen.add(konu)
         out[i["kategori"]].append(i)
-    return _reelsleri_yay(out)
-
-
-def _reelsleri_yay(out):
-    """Videolu işleri ayrı günlere dağıtıyor.
-
-    Günde tek reels var. İki videolu iş aynı güne denk gelince biri
-    yayınlanmadan bekliyordu. Çakışanı kendi kategorisindeki bir sonraki
-    videosuz işle yer değiştiriyoruz: gönderi sırası bozulmuyor, video
-    da kaybolmuyor."""
-    dolu = set()
-    derin = max((len(v) for v in out.values()), default=0)
-    for n in range(derin):
-        for kat in KATEGORILER:
-            lst = out[kat]
-            if n >= len(lst) or not lst[n].get("reels"):
-                continue
-            g = gun_no(kat, n)
-            if g not in dolu:
-                dolu.add(g)
-                continue
-            for j in range(n + 1, len(lst)):
-                if not lst[j].get("reels"):
-                    lst[n], lst[j] = lst[j], lst[n]
-                    break
     return out
 
 
@@ -178,13 +134,50 @@ def kuyruk():
     yayinla.py bu biçimi bekliyor: her kayıtta klasor, slot, tarih."""
     d = oku()
     bas = baslangic()
-    slotlar = []
-    for kat, lst in hazirlar(d).items():
-        for i, kayit in enumerate(lst):
-            g = gun_no(kat, i)
-            slotlar.append({"klasor": kayit["klasor"],
-                            "slot": slot_adi(kat, i), "gun": g,
+    kuy = {k: list(v) for k, v in hazirlar(d).items()}
+    slotlar, g, don = [], 0, 0
+
+    def cek(kat, video_dolu):
+        """Kuyruğun başı. Günde tek reels var: o gün video dolduysa
+        kuyruktaki ilk videosuz iş öne alınıyor, video kaybolmuyor."""
+        lst = kuy.get(kat)
+        if not lst:
+            return None
+        n = 0
+        if video_dolu and lst[0].get("reels"):
+            n = next((j for j, x in enumerate(lst)
+                      if not x.get("reels")), 0)
+        return lst.pop(n)
+
+    def sirayla():
+        """Dönen kategorilerden sırası gelen ve dolu olan."""
+        nonlocal don
+        for _ in range(len(DONEN)):
+            kat = DONEN[don % len(DONEN)]
+            don += 1
+            if kuy.get(kat):
+                return kat
+        return None
+
+    while any(kuy.values()) and g < 400:
+        video_dolu = False
+        for slot in SLOTLAR:
+            kat = TERCIH[slot]
+            if not kat or not kuy.get(kat):
+                kat = sirayla()
+                if kat is None and kuy.get("baski"):
+                    kat = "baski"
+            if kat is None:
+                continue
+            kayit = cek(kat, video_dolu)
+            if kayit is None:
+                continue
+            if kayit.get("reels"):
+                video_dolu = True
+            slotlar.append({"klasor": kayit["klasor"], "slot": slot,
+                            "kategori": kat, "gun": g,
                             "tarih": (bas + timedelta(days=g)).isoformat()})
+        g += 1
     uyum = {"kuyruk_bekleyen": {"beklemede": [
         {"klasor": i["klasor"]} for i in d["icerik"]
         if i.get("durum") in ("beklemede", "iptal")]}}
@@ -222,7 +215,9 @@ def reelsler(slotlar=None):
 
     Ayrı güne atılsa aynı konu iki güne yayılıyor, listede de akışta da
     tekrar gibi duruyordu. Gönderisinin günü başka bir videoyla doluysa
-    video bekliyor; gün açılınca kendiliğinden giriyor."""
+    video sonraki boş güne kayıyor: günde tek reels var ama video da
+    kaybolmuyor. Reels, takipçi olmayana ulaşan tek biçim — birini
+    boşa harcamıyoruz."""
     d = oku()
     if slotlar is None:
         _, slotlar = kuyruk()
@@ -235,7 +230,16 @@ def reelsler(slotlar=None):
         if t is None:
             continue
         if t in out:
-            print("BEKLEYEN REELS: %s — %s günü dolu" % (i["klasor"], t))
+            gun_t = date.fromisoformat(t)
+            for k in range(1, 15):
+                yeni = (gun_t + timedelta(days=k)).isoformat()
+                if yeni not in out:
+                    print("REELS KAYDI: %s — %s dolu, %s gününe"
+                          % (i["klasor"], t, yeni))
+                    out[yeni] = i["klasor"]
+                    break
+            else:
+                print("BEKLEYEN REELS: %s — boş gün bulunamadı" % i["klasor"])
             continue
         out[t] = i["klasor"]
     return out
@@ -249,8 +253,6 @@ def gunler(slotlar):
 
 
 def saat(g, slot):
-    if slot in DONEN:
-        return IZGARA[g]["doner"]
     return IZGARA[g][slot]
 
 
@@ -300,7 +302,7 @@ def liste():
             yayinlanan.setdefault(i["tarih"], []).append(i)
 
     sat = ["# YAYIN LİSTESİ", "",
-           "Günde **4 gönderi · 4 hikaye · 1 reels**. Hikaye, gönderiden "
+           "Günde **3 gönderi · 3 hikaye · 1 reels**. Hikaye, gönderiden "
            "%d dakika sonra." % HIKAYE_GECIKME, "",
            "Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — "
            "içerik `icerik.json` içinde.", ""]
@@ -314,23 +316,22 @@ def liste():
         for ad in SLOTLAR:
             s = sl.get(ad)
             if not s:
-                y = [i for i in yayinlanan.get(tarih, [])
-                     if i.get("kategori") == ad]
+                y = yayinlanan.get(tarih, [])
                 if y:
                     satirlar.append((saat(g, ad), "Yayınlandı | %s | `%s` | —"
-                                     % (BASLIK[ad], y[0]["klasor"])))
+                                     % (BASLIK.get(y[0].get("kategori"), "—"),
+                                        y[0]["klasor"])))
                     continue
                 eksik.append((tarih, ad))
                 satirlar.append((saat(g, ad),
-                                 "— | **%s** | _boş — üretilecek_ | —"
-                                 % BASLIK[ad]))
+                                 "— | **boş** | _boş — üretilecek_ | —"))
                 continue
             kare = len(kare_adlari(s["klasor"]))
             satirlar.append((saat(g, ad), "Gönderi | %s | `%s` | %d"
-                             % (BASLIK[ad], s["klasor"], kare)))
+                             % (BASLIK[s["kategori"]], s["klasor"], kare)))
             satirlar.append((arti(saat(g, ad), HIKAYE_GECIKME),
                              "Hikaye | %s | `%s/hikaye.jpg` | 1"
-                             % (BASLIK[ad], s["klasor"])))
+                             % (BASLIK[s["kategori"]], s["klasor"])))
         for k in kamp:
             if k["tarih"] != tarih:
                 continue
@@ -389,7 +390,8 @@ def paket():
         for ad in SLOTLAR:
             s = sl.get(ad)
             if s:
-                sira_.append((saat(g, ad), "gonderi", s["klasor"], ad))
+                sira_.append((saat(g, ad), "gonderi", s["klasor"],
+                              s["kategori"]))
         r = reels.get(tarih)
         if r:
             sira_.append((saat(g, "reels"), "reels", r, None))
@@ -401,7 +403,7 @@ def paket():
                 continue
             govde, yorum = metin_oku(kl)
             kare = kare_adlari(kl)
-            sat += ["## %s · %s" % (t, BASLIK[ad]), "",
+            sat += ["## %s · %s" % (t, BASLIK.get(ad, ad)), "",
                     '<a href="%s%s"><img src="%s%s/1.jpg" width="240"></a>'
                     % (DEPO, kl, HAM, kl), "",
                     "**[%s](%s)** · %d kare · hikaye %s"

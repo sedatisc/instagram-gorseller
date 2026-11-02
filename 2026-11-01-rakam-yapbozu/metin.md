@@ -14,7 +14,7 @@ Bağlantı ilk yorumda.
 
 Okul öncesi çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #rakamyapbozu #saymatahtasi #egiticioyuncak #makerturkiye
+#sermenkreatif #3dbaski #rakamyapbozu #saymatahtasi #egiticioyuncak
 
 ## İlk yorum
 

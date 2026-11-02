@@ -17,4 +17,4 @@ Bütün rakamlar sermenkreatif.com'daki ürün sayfalarından. Tahmin yok.
 
 Profili değiştirmeden seri değiştirip makarayı çöpe atan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #filament #sunlu #pla #petg #3dbaskiturkiye #makerturkiye
+#sermenkreatif #3dbaski #filament #sunlu #pla

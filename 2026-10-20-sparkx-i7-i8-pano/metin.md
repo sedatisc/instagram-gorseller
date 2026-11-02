@@ -14,7 +14,7 @@ Kısaca: bugün kurup basmaya başlamak istiyorsan i7. Purge kulesinden tamamen 
 
 Çok renkli baskıya geçmeyi düşünen bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #creality #3dyazici #makerturkiye
+#sermenkreatif #3dbaski #creality #3dyazici
 
 ## İlk yorum
 

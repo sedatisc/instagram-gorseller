@@ -16,7 +16,7 @@ Bağlantı ilk yorumda.
 
 Vida çevirmeyi seven bir çocuk tanıyorsan bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #alyanvida #vidalioyuncak #egiticioyuncak #makerturkiye
+#sermenkreatif #3dbaski #alyanvida #vidalioyuncak #egiticioyuncak
 
 ## İlk yorum
 

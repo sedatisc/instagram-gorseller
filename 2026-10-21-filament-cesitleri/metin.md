@@ -20,4 +20,6 @@ Hepsi sermenkreatif.com'da; güncel fiyat ve renk seçenekleri orada.
 
 Hangisini denedin, yoruma yaz.
 
-#sermenkreatif #3dbaski #filament #pla #petg #creality #polymaker #3dbaskiturkiye #makerturkiye #samsun
+Hangi filamenti alacağını soran arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #filament #pla #petg

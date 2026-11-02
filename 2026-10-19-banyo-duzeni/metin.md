@@ -20,4 +20,4 @@ Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını 
 
 Banyonda hangisi eksik?
 
-#sermenkreatif #3dbaski #banyo #banyoduzeni #organizer #dekorasyon #3dbaskiturkiye #makerturkiye #samsun
+#sermenkreatif #3dbaski #banyo #banyoduzeni #organizer

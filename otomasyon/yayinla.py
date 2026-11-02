@@ -124,11 +124,13 @@ def gundem():
         isler.append({"anahtar": "%s|gonderi" % s["klasor"],
                       "zaman": "%sT%s" % (s["tarih"], hhmm),
                       "tur": "gonderi", "klasor": s["klasor"],
+                      "kategori": s.get("kategori", ""),
                       "slot": s["slot"]})
         isler.append({"anahtar": "%s|hikaye" % s["klasor"],
                       "zaman": "%sT%s" % (s["tarih"],
                                           sira.arti(hhmm, sira.HIKAYE_GECIKME)),
                       "tur": "hikaye", "klasor": s["klasor"],
+                      "kategori": s.get("kategori", ""),
                       "slot": s["slot"]})
     for k in sira.kampanyalar():
         if k["klasor"] in bekle:

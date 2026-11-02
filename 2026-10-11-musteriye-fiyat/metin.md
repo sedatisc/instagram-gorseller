@@ -13,7 +13,7 @@ Saat ücretini bir kez belirle ve her teklifte aynı sayıyı kullan. İş bazı
 
 Baskı işini gram üzerinden fiyatlayıp ay sonunda kâr edemeyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #maker #3dbaski #fiyatlandirma #makerturkiye
+#sermenkreatif #maker #3dbaski #fiyatlandirma
 
 ## İlk yorum
 

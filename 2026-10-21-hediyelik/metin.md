@@ -20,4 +20,4 @@ Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını 
 
 Kime alırdın, etiketle.
 
-#sermenkreatif #3dbaski #anahtarlik #hediyelik #3dbaski #mumluk #3dbaskiturkiye #makerturkiye #samsun
+#sermenkreatif #3dbaski #anahtarlik #hediyelik #3dbaski

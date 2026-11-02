@@ -14,7 +14,7 @@ Batarya hiçbir sürümde kutudan çıkmıyor: 4S LiHV, 450-660 mAh. 660 mAh ile
 
 FPV'ye yeni başlayan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #maker #fpv #cinewhoop #makerturkiye
+#sermenkreatif #maker #fpv #cinewhoop
 
 ## İlk yorum
 

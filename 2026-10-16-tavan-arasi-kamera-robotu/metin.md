@@ -14,7 +14,7 @@ En ucuz sigorta 5 metrelik ip. Gövdeye iki noktadan bağlanıp ucu kapakta bır
 
 Evinin tavan arasına bakmak isteyip de kafasını sokamayan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #maker #robotik #kamerarobotu #makerturkiye
+#sermenkreatif #maker #robotik #kamerarobotu
 
 ## İlk yorum
 

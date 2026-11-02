@@ -20,4 +20,4 @@ Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını 
 
 Senin masanda en çok hangisi işe yarardı?
 
-#sermenkreatif #3dbaski #masaduzeni #organizer #duzenleyici #ofis #3dbaskiturkiye #makerturkiye #samsun
+#sermenkreatif #3dbaski #masaduzeni #organizer #duzenleyici

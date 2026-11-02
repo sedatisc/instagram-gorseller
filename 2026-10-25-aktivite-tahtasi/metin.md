@@ -14,7 +14,7 @@ Bağlantı ilk yorumda.
 
 Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #aktivitetahtasi #egiticioyuncak #cocukgelisimi #makerturkiye
+#sermenkreatif #3dbaski #aktivitetahtasi #egiticioyuncak #cocukgelisimi
 
 ## İlk yorum
 

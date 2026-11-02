@@ -20,4 +20,4 @@ Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını 
 
 Hangisini isterdin, yoruma yaz.
 
-#sermenkreatif #3dbaski #makyaj #takı #organizer #dekorasyon #3dbaskiturkiye #makerturkiye #samsun
+#sermenkreatif #3dbaski #makyaj #takı #organizer

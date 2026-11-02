@@ -20,7 +20,7 @@ Karar kısaca: günlük kullanım ve dron için Module 3. Sabit kurulum ve lens 
 
 Dronuna taktığı kameranın görüntüsü neden eğri çıkıyor anlamayan bir arkadaşın varsa bu gönderiyi ona yolla — cevap rolling shutter.
 
-#sermenkreatif #maker #raspberrypi #makinegörüşü #makerturkiye
+#sermenkreatif #maker #raspberrypi #makinegörüşü
 
 ## İlk yorum
 

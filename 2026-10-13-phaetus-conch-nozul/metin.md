@@ -20,4 +20,4 @@ Ne zaman şart → karbon elyaf, cam elyaf, ahşap dolgulu, çelik, tungsten ya 
 
 Aşındırıcı filament basıp nozulu üç ayda bir değiştiren bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #phaetus #nozzle #bambulab #3dbaskiturkiye #makerturkiye
+#sermenkreatif #3dbaski #phaetus #nozzle #bambulab

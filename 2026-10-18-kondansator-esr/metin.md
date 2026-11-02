@@ -12,7 +12,7 @@ Nasıl bakılır: ESR metre devrede ölçebiliyor, söküp denemeye göre çok d
 
 Değiştirirken düşük ESR serisinden, 105 °C sınıfı ve en az aynı gerilim değerinde bir parça seç. Kapasiteyi büyütmek ESR'yi düzeltmiyor — farklı bir problemi çözmeye çalışmış olursun.
 
-#sermenkreatif #elektronik #kondansator #esr #tamir #makerturkiye
+#sermenkreatif #elektronik #kondansator #esr #tamir
 
 ## İlk yorum
 

@@ -12,7 +12,7 @@ Oyuncak olduğunu tasarımda hatırla: keskin köşe bırakma, kenarlara 1 mm pa
 
 Çocuğuna oyuncak basmak isteyip nereden başlayacağını bilmeyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #maker #3dbaski #oyuncaktasarimi #makerturkiye
+#sermenkreatif #maker #3dbaski #oyuncaktasarimi
 
 ## İlk yorum
 

@@ -15,7 +15,9 @@ Hepsi kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı satış, Samsu
 
 Mağaza bağlantısı: ty.gl/wvxkl6ythlckv
 
-#sermenkreatif #3dbaski #egiticioyuncak #trendyol #makerturkiye
+Çocuğuna oyuncak arayan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #egiticioyuncak #trendyol
 
 ## Doğrulanmayanlar
 

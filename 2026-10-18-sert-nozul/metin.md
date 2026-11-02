@@ -13,7 +13,9 @@ Sert uca geçerken bilmen gereken bir ayrıntı var: sertleştirilmiş çelik pi
 
 Elyaflı filamente geçmeyi düşünüyorsan ucu önceden değiştir. Uç ucuz, bozuk baskı pahalı.
 
-#sermenkreatif #3dbaski #nozzle #karbonfiber #filament #makerturkiye
+Karbon katkılı filamente geçmeyi düşünen bir arkadaşına yolla.
+
+#sermenkreatif #3dbaski #nozzle #karbonfiber #filament
 
 ## İlk yorum
 

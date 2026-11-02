@@ -20,7 +20,7 @@ Karar kısaca: sensör okuyup veri yolluyorsan Pico 2 W. Kablosuzun üstüne kam
 
 Projesine Pi 5 koyup pille çalıştırmaya uğraşan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #elektronik #raspberrypi #esp32 #makerturkiye
+#sermenkreatif #elektronik #raspberrypi #esp32
 
 ## İlk yorum
 

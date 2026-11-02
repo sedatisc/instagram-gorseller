@@ -303,7 +303,8 @@ def main():
         hik = [i for i in isler if i["tur"] == "hikaye"]
         dus = None
         for slot in DUSME_SIRASI:
-            aday = [i for i in hik if i["slot"] == slot]
+            aday = [i for i in hik
+                    if (i.get("kategori") or i["slot"]) == slot]
             if aday:
                 dus = aday[-1]
                 break
@@ -336,8 +337,8 @@ def main():
         zaman = datetime.fromisoformat(is_["zaman"])
         try:
             v = varlik(is_, sha)
-            link = urun_linki(is_["klasor"]) if is_["slot"].startswith(
-                ("baski", "magaza")) else ""
+            link = (urun_linki(is_["klasor"])
+                    if is_.get("kategori") in ("baski", "magaza") else "")
             if is_["tur"] == "hikaye":
                 # Hikayeye bağlantı etiketi konabiliyorsa oradan, konamıyorsa
                 # hikaye metnine yazılıyor; ürün sayfası her iki durumda da

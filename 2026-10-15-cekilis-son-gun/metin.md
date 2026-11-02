@@ -8,7 +8,7 @@ Henüz yazmadıysan: takip et, duyuru gönderisini beğen, yoruma ne basacağın
 
 Yarın üç finalistin yorumunu olduğu gibi hikayeye koyuyoruz, kazananı anketle siz seçiyorsunuz. Akşam da sonucu ve anketin ekran görüntüsünü paylaşıyoruz.
 
-#sermenkreatif #3dbaski #filament #creality #makerturkiye
+#sermenkreatif #3dbaski #filament #creality
 
 ## İlk yorum
 

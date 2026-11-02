@@ -24,7 +24,7 @@ Bir not » H2D Pro adında kurumsal bir model daha var; tungsten karbür nozulla
 
 H serisinde hangisini alacağına karar veremeyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #bambulab #3dyazici #makerturkiye
+#sermenkreatif #3dbaski #bambulab #3dyazici
 
 ## İlk yorum
 

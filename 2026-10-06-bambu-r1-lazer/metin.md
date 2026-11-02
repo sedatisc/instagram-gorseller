@@ -14,7 +14,7 @@ Kısacası masaüstü CO2 sınıfında ciddi bir iş makinesi. Atölyede 3D bask
 
 Fiyat ve teslim için mesaj atın, bayisiyiz.
 
-#sermenkreatif #bambulab #lazerkesim #co2lazer #3dbaski #makerturkiye
+#sermenkreatif #bambulab #lazerkesim #co2lazer #3dbaski
 
 ## Doğrulanmayanlar
 

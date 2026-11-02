@@ -16,7 +16,7 @@ Türkiye tarafı → MetaTech üç varyantı da listelemiş: standart R1, Long M
 
 Atölyesine lazer almayı konuşan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #lazerkesim #bambulab #co2lazer #atolye #makerturkiye
+#sermenkreatif #lazerkesim #bambulab #co2lazer #atolye
 
 ## İlk yorum
 

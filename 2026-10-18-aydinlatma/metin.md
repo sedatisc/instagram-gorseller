@@ -18,4 +18,4 @@ Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını 
 
 Hangi renk senin odana uyar?
 
-#sermenkreatif #3dbaski #masalambasi #abajur #aydinlatma #evdekorasyonu #3dbaskiturkiye #makerturkiye #samsun
+#sermenkreatif #3dbaski #masalambasi #abajur #aydinlatma

@@ -22,7 +22,7 @@ Tek şart yorumun soruyu cevaplaması. "Katıldım" yazan yorum eleniyor; "TPU i
 
 Kazanana yalnız bu hesaptan yazıyoruz. Başka bir hesap size ödül için yazarsa o hesap bize ait değil; ödeme ya da bilgi istemesi dolandırıcılıktır.
 
-#sermenkreatif #3dbaski #filament #creality #3dbaskiturkiye #makerturkiye
+#sermenkreatif #3dbaski #filament #creality #3dbaskiturkiye
 
 ## İlk yorum
 

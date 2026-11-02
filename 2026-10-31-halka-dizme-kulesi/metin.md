@@ -14,7 +14,7 @@ Bağlantı ilk yorumda.
 
 Okul öncesi çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #halkadizme #istifoyuncagi #egiticioyuncak #makerturkiye
+#sermenkreatif #3dbaski #halkadizme #istifoyuncagi #egiticioyuncak
 
 ## İlk yorum
 

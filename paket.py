@@ -189,7 +189,8 @@ def kayitlar():
     kampanya = sira.kampanyalar()
     # Tarihi çivilenmiş kampanyanın günü sıradan slotlarla dolu olmayabilir
     # (bayram günü plan başlamamış olabiliyor); o gün de listeye giriyor.
-    takvim = sorted(set(gun) | {k["tarih"] for k in kampanya})
+    takvim = sorted(set(gun) | {k["tarih"] for k in kampanya}
+                    | set(reelsler))
     cikti = []
     for tarih in takvim:
         sl = gun.get(tarih, {})
@@ -204,13 +205,15 @@ def kayitlar():
             kare = sira.kare_adlari(kl)
             t = sira.saat(g, ad)
             kayit.append({"platform": ["ig"],
-                          "saat": t, "tur": "GÖNDERİ", "slot": ad,
+                          "saat": t, "tur": "GÖNDERİ",
+                          "slot": s["kategori"],
                           "baslik": baslik(kl), "klasor": kl,
                           "dosyalar": kare, "metin": govde or "",
                           "yorum": yorum or ""})
             kayit.append({"platform": ["ig"],
                           "saat": sira.arti(t, sira.HIKAYE_GECIKME),
-                          "tur": "HİKAYE", "slot": ad, "baslik": baslik(kl),
+                          "tur": "HİKAYE", "slot": s["kategori"],
+                          "baslik": baslik(kl),
                           "klasor": kl, "dosyalar": ["hikaye.jpg"],
                           "metin": "", "yorum": ""})
         for k in kampanya:

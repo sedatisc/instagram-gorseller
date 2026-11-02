@@ -16,7 +16,7 @@ Bugün rafta olan U1; ikisinin de bayisiyiz, K3 çıktığında aynı yerde olac
 
 Çok renkli baskıda çöpe giden filamente üzülen bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #snapmaker #creality #cokrenklibaski #makerturkiye
+#sermenkreatif #3dbaski #snapmaker #creality #cokrenklibaski
 
 ## İlk yorum
 

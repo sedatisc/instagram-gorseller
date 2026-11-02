@@ -14,7 +14,7 @@ Bağlantı ilk yorumda.
 
 Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #soktaoyuncak #vidalioyuncak #egiticioyuncak #makerturkiye
+#sermenkreatif #3dbaski #soktaoyuncak #vidalioyuncak #egiticioyuncak
 
 ## İlk yorum
 

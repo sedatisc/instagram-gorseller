@@ -14,7 +14,7 @@ Güncel durumu ve seçenekleri sermenkreatif.com'da görebilirsin. @creality3dof
 
 Kapalı kabinli büyük bir makine arayan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #creality #3dyazici #makerturkiye
+#sermenkreatif #3dbaski #creality #3dyazici
 
 ## İlk yorum
 

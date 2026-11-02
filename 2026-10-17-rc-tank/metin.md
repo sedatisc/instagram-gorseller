@@ -14,7 +14,7 @@ Fire payını baştan yaz. Büyük parçada %10 başarısızlık normal; kritik 
 
 Masasında yarım kalmış büyük bir baskı projesi olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #maker #3dbaski #rctank #makerturkiye
+#sermenkreatif #maker #3dbaski #rctank
 
 ## İlk yorum
 

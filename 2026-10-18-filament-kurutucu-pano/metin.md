@@ -16,7 +16,7 @@ Nemli filament neye mal oluyor: tel tel çekme artıyor, yüzey pürüzleniyor, 
 
 Kurutucusu olmayıp sürekli baskı ayarıyla uğraşan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #sunlu #filamentkurutucu #filament #makerturkiye
+#sermenkreatif #3dbaski #sunlu #filamentkurutucu #filament
 
 ## İlk yorum
 

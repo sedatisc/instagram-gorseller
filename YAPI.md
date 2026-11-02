@@ -59,17 +59,25 @@ gösteriliyor; günün ilk gönderi saati geçtiyse yarından başlıyor.
 
 ## Slotlar ve bağlantılar
 
-Günde üç gönderi, bir reels ve gönderi başına bir hikaye var. İkisi
-baskı ürünü (`baski`, `baski2` slotları, tek kuyruktan); üçüncü slot her
-gün sırayla rehber, mağaza ve projeye geçiyor (`sira.DONEN`). Saatini
-ızgaradaki `doner` veriyor. Bir işin hangi güne ve hangi slota düştüğünü
-`sira.gun_no()` ile `sira.slot_adi()` hesaplıyor.
+Günün üç gönderi slotu var: `s1` sabah, `s2` öğle, `s3` akşam. Hangi
+kategorinin geleceği sabit değil. `sira.TERCIH`e göre s2 ve s3 baskı
+ürününü tercih ediyor, s1 dönen kategoriyi (rehber → mağaza → proje,
+`sira.DONEN`). Bir kuyruk boşalınca slot dolu olan kuyruktan besleniyor:
+baskı ürünü bittiğinde gün yarım kalmıyor, plan üç gönderiyle sürüyor.
+
+Günde tek reels var. İki video aynı güne denk gelirse biri kuyrukta bir
+videosuz işle yer değiştiriyor; o da olmazsa video sonraki boş güne
+kayıyor. Hiçbir video düşmüyor — reels takipçi olmayana ulaşan tek biçim.
 
 Beş gönderiden üçe inildi: aynı gün yayımlanan gönderiler akışta
 birbiriyle yarışıyor, kişi başı etkileşim düşüyor. Keşfet'e düşüren şey
 gönderi sayısı değil, takipçi olmayana gösterilme sinyalleri — izlenme
-süresi, gönderim (paylaş/DM) ve erişim başına beğeni. Onun için günde bir
-reels sabit: reels takipçi olmayana ulaşan tek biçim.
+süresi, gönderim (paylaş/DM) ve erişim başına beğeni.
+
+Metin kuralları buradan çıkıyor: her gönderide en çok 5 etiket (etiket
+erişime katkı vermiyor, Instagram da 5'te sınırlıyor) ve metnin sonunda
+"bunu şuna yolla" cümlesi — gönderim, takipçi olmayana ulaşmada en ağır
+sinyal.
 
 Ürün bağlantıları `baglantilar.json`'da. Anahtar, icerik.json'daki `konu`.
 Gönderi metninde `{urun_linki}` o adrese dönüyor; ürünün kendi sayfası

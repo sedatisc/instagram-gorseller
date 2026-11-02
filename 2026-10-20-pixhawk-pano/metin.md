@@ -22,7 +22,7 @@ Bir not » üçü de hem PX4 hem ArduPilot çalıştırıyor. Kart seçimi yazı
 
 İlk dronunda hangi kartı alacağına karar veremeyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #maker #pixhawk #dron #makerturkiye
+#sermenkreatif #maker #pixhawk #dron
 
 ## İlk yorum
 

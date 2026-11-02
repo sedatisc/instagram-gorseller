@@ -20,4 +20,4 @@ Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını 
 
 Hangisi senin bitkine yakışır, yoruma yaz.
 
-#sermenkreatif #3dbaski #saksi #bitki #dekorasyon #evdekorasyonu #3dbaskiturkiye #makerturkiye #samsun
+#sermenkreatif #3dbaski #saksi #bitki #dekorasyon

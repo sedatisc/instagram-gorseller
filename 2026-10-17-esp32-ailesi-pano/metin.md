@@ -20,7 +20,7 @@ Kısaca: kamera ya da ses varsa S3. Akıllı ev, Thread ve Matter varsa C6. Büy
 
 "ESP32 aldım ama Thread yokmuş" diyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #elektronik #esp32 #embedded #makerturkiye
+#sermenkreatif #elektronik #esp32 #embedded
 
 ## İlk yorum
 

@@ -20,7 +20,7 @@ Karar kısaca: masada yer yoksa A1 mini. Esnek ya da çözünür filament basaca
 
 Hangi Bambu'yu alacağına karar veremeyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #bambulab #3dyazici #makerturkiye
+#sermenkreatif #3dbaski #bambulab #3dyazici
 
 ## İlk yorum
 

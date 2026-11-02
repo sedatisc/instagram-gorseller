@@ -14,7 +14,7 @@ Bağlantı ilk yorumda.
 
 Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #oyuncakmeyve #manavoyunu #egiticioyuncak #makerturkiye
+#sermenkreatif #3dbaski #oyuncakmeyve #manavoyunu #egiticioyuncak
 
 ## İlk yorum
 

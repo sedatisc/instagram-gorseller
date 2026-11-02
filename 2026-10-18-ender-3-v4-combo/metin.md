@@ -14,7 +14,9 @@ Kapalı kabini yok. PLA, PETG ve TPU tarafında rahat; ABS ve ASA basacaksan bu 
 
 Ender-3 V4 Combo sermenkreatif.com'da.
 
-#sermenkreatif #3dbaski #creality #ender3 #cokrenklibaski #makerturkiye
+İlk yazıcısını arayan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #creality #ender3 #cokrenklibaski
 
 ## İlk yorum
 

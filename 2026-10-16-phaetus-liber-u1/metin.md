@@ -16,7 +16,7 @@ Fiyat ve stok için sermenkreatif.com.
 
 U1'ine hotend arayan bir arkadaşın varsa bu gönderiyi ona yolla — özellikle karbon fiber basacaksa.
 
-#sermenkreatif #3dbaski #snapmaker #phaetus #hotend #makerturkiye
+#sermenkreatif #3dbaski #snapmaker #phaetus #hotend
 
 ## İlk yorum
 

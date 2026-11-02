@@ -20,4 +20,4 @@ Kendi dosyan varsa sermenkreatif.com'daki baskı hizmetine yükleyip fiyatını 
 
 Hangisini evine koyardın, yoruma yaz.
 
-#sermenkreatif #3dbaski #vazo #dekorasyon #evdekorasyonu #kurucicek #3dbaskiturkiye #makerturkiye #samsun
+#sermenkreatif #3dbaski #vazo #dekorasyon #evdekorasyonu

@@ -20,7 +20,7 @@ L298N'i listeye almadım: üstünde 2 V'luk düşüm var, 2026'da kurulacak bir 
 
 Motoru çalıştırınca kartı resetlenen bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #elektronik #embedded #drv8833 #makerturkiye
+#sermenkreatif #elektronik #embedded #drv8833
 
 ## İlk yorum
 

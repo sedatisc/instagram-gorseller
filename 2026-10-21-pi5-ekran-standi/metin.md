@@ -14,7 +14,7 @@ Ekran karta tek DSI şeridi ve GPIO'dan besleme ile bağlanıyor, şeridi gerdir
 
 Pi'sini kitap yığınına yaslayarak kullanan bir arkadaşın varsa ona yolla.
 
-#sermenkreatif #maker #raspberrypi #pi5 #makerturkiye
+#sermenkreatif #maker #raspberrypi #pi5
 
 ## İlk yorum
 

@@ -16,7 +16,7 @@ Bağlantı ilk yorumda.
 
 Kesirlerle boğuşan bir öğrenci tanıyorsanız bu gönderiyi ona yollayın.
 
-#sermenkreatif #3dbaski #kesirdaireleri #kesirler #egiticioyuncak #ilkokul #makerturkiye
+#sermenkreatif #3dbaski #kesirdaireleri #kesirler #egiticioyuncak
 
 ## İlk yorum
 
