@@ -144,6 +144,7 @@ def ig_turleri():
 # metadata.instagram'da hikaye bağlantısını taşıyan alanın adı. Şemada
 # yoksa None kalıyor ve bağlantı gönderilmiyor — uydurma alan yollamıyoruz.
 HIKAYE_LINK_ALANI = None
+ILK_YORUM_VAR = False
 LINK_ADAYLARI = ("linkStickerUrl", "storyLinkUrl", "link", "linkUrl",
                  "swipeUpUrl")
 
@@ -155,7 +156,8 @@ def hikaye_link_alani(alanlar):
     return None
 
 
-def gonder(kanal, metin, varliklar, zaman, tur, turler, baglanti=None):
+def gonder(kanal, metin, varliklar, zaman, tur, turler, baglanti=None,
+           yorum=None):
     """Tek paylaşımı Buffer'a belirli saatte planlar."""
     utc = (zaman - timedelta(hours=3)).strftime("%Y-%m-%dT%H:%M:00.000Z")
     q = """mutation P($i: CreatePostInput!) {
@@ -172,6 +174,8 @@ def gonder(kanal, metin, varliklar, zaman, tur, turler, baglanti=None):
         girdi["metadata"]["instagram"]["shouldShareToFeed"] = True
     if tur == "story" and baglanti and HIKAYE_LINK_ALANI:
         girdi["metadata"]["instagram"][HIKAYE_LINK_ALANI] = baglanti
+    if tur != "story" and yorum and ILK_YORUM_VAR:
+        girdi["metadata"]["instagram"]["firstComment"] = yorum[:2200]
     d = _sorgu(q, {"i": girdi})["createPost"]
     if "post" not in d:
         raise Hata(d.get("message", "bilinmeyen hata"))
@@ -192,8 +196,11 @@ def _magaza_satiri(klasor):
 
 
 # ------------------------------------------------------------ metin
-def metin_kur(klasor):
-    """Gönderi metni; ilk yorum ücretsiz planda yok, metnin sonuna iner."""
+def metin_kur(klasor, ayri_yorum=False):
+    """Gönderi metni.
+
+    İlk yorum Buffer şemasında varsa (firstComment) ayrı gidiyor, yoksa
+    metnin sonuna iniyor."""
     govde, yorum = yayinla.metin_oku(klasor)
     govde = govde or ""
     MAGAZA = _magaza_satiri(klasor)
@@ -211,7 +218,9 @@ def metin_kur(klasor):
     if satirlar and satirlar[-1].lstrip().startswith("#"):
         etiket = satirlar.pop().split()[:AZAMI_ETIKET]
     govde = "\n".join(satirlar).rstrip()
-    if yorum and yorum != MAGAZA:
+    if ayri_yorum:
+        pass
+    elif yorum and yorum != MAGAZA:
         govde += "\n\n" + yorum
     elif yorum == MAGAZA and MAGAZA not in govde:
         govde += "\n\n" + MAGAZA
@@ -320,11 +329,17 @@ def main():
         global HIKAYE_LINK_ALANI
         kanal, ad = kanal_bul()
         turler = ig_turleri()
-        HIKAYE_LINK_ALANI = hikaye_link_alani(ig_meta_alanlari())
+        global ILK_YORUM_VAR
+        alanlar = ig_meta_alanlari()
+        HIKAYE_LINK_ALANI = hikaye_link_alani(alanlar)
+        ILK_YORUM_VAR = any(a == "firstComment" for a, _t in alanlar)
         print("Kanal: %s · türler: %s" % (ad, turler))
         print("Hikaye bağlantı alanı: %s"
               % (HIKAYE_LINK_ALANI or "şemada yok — hikayeye bağlantı "
                  "eklenemiyor, bağlantı metne yazılıyor"))
+        print("İlk yorum alanı: %s"
+              % ("firstComment" if ILK_YORUM_VAR
+                 else "şemada yok — ilk yorum metnin sonuna ekleniyor"))
 
     for is_ in isler:
         anahtar = is_["anahtar"]
@@ -342,7 +357,9 @@ def main():
                 metin = "" if HIKAYE_LINK_ALANI or not link else \
                     re.sub(r"^https?://", "", link).rstrip("/")
             else:
-                metin = metin_kur(is_["klasor"])
+                metin = metin_kur(is_["klasor"], ILK_YORUM_VAR)
+            _g, ilk = yayinla.metin_oku(is_["klasor"])
+            ilk = ilk if (ILK_YORUM_VAR and is_["tur"] != "hikaye") else None
             if kuru:
                 print("→ %s · %s · %d medya · metin %d kr%s"
                       % (is_["zaman"], anahtar, len(v), len(metin),
@@ -350,7 +367,7 @@ def main():
                 satir.append("| %s | %s | kuru |" % (is_["zaman"], anahtar))
                 continue
             pid = gonder(kanal, metin, v, zaman, tur_ad[is_["tur"]], turler,
-                         link)
+                         link, ilk)
             defter["gonderilen"].append({"anahtar": anahtar, "buffer": pid,
                                          "zaman": is_["zaman"]})
             json.dump(defter, open(DEFTER, "w", encoding="utf-8"),

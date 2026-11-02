@@ -88,9 +88,11 @@ listenin ilkiyle gidiyor.
 Ürün bağlantıları aynı dosyada. Anahtar, icerik.json'daki `konu`.
 Gönderi metninde `{urun_linki}` ürünün `sayfa` adresine dönüyor; boşsa
 `varsayilan` (site adresi) yazılıyor. Baskı ürünü ve mağaza
-gönderilerinin hikayesi de aynı bağlantıyı taşıyor: Buffer şemasında
-hikaye bağlantı alanı varsa etiket olarak, yoksa hikaye metnine yazılarak.
-Hangisi olduğunu `buffer_gonder.py --kontrol` söylüyor.
+gönderilerinin hikayesi de aynı bağlantıyı taşıyor. Buffer şemasında
+`link` alanı var: hikayeye bağlantı etiketi olarak gidiyor. Şemada
+`firstComment` de var, yani ilk yorum ücretli özellik değil — ilk yorum
+metnin sonuna eklenmek yerine gerçek ilk yorum olarak gönderiliyor.
+İkisini de `buffer_gonder.py --kontrol` yazdırıyor.
 
 Buffer ücretsiz planında günde en çok 10 bekleyen paylaşım var. Sınır
 aşılırsa hikayeler şu sırayla düşüyor: kampanya, proje, rehber, mağaza.
