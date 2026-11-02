@@ -76,7 +76,9 @@ def defter_yaz(d):
 
 
 def metin_oku(klasor):
-    """metin.md'den gönderi metnini ve ilk yorumu ayır."""
+    """Gönderi metni ve ilk yorum. Katalog ürününde metin katalogdan."""
+    if sira.UK.kayit(klasor):
+        return sira.UK.metin(klasor)
     yol = os.path.join(KOK, klasor, "metin.md")
     if not os.path.exists(yol):
         return None, None

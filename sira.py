@@ -67,6 +67,9 @@ HAM = ("https://raw.githubusercontent.com/sedatisc/"
 
 
 # --------------------------------------------------------------- veri
+sys.path.insert(0, os.path.join(KOK, "arac"))
+import urun_katalog as UK                                  # noqa: E402
+
 BAGLANTI = os.path.join(KOK, "baglantilar.json")
 
 
@@ -96,10 +99,16 @@ def urun_gorselleri(klasor, d=None):
     Baskı ürünü gönderilerinde yalnız sitenin kendi görselleri
     kullanılıyor. Liste boşsa ürün yayına girmiyor; depodaki kareyle
     ya da başka bir görselle yayımlanmıyor."""
+    g = UK.gorseller(klasor)
+    if g:
+        return g
     return list(urun_kaydi(klasor, d).get("gorsel") or [])
 
 
 def urun_sayfasi(klasor, d=None):
+    u = UK.sayfa(klasor)
+    if u:
+        return u
     b = baglantilar()
     return (urun_kaydi(klasor, d).get("sayfa")
             or b.get("varsayilan") or "")
@@ -304,6 +313,9 @@ def arti(hhmm, dk):
 
 # ------------------------------------------------------------ yardımcı
 def kare_adlari(klasor):
+    g = UK.gorseller(klasor)
+    if g:
+        return ["%d.jpg" % n for n in range(1, len(g) + 1)]
     yol = os.path.join(KOK, klasor)
     if not os.path.isdir(yol):
         return []
@@ -313,7 +325,9 @@ def kare_adlari(klasor):
 
 
 def metin_oku(klasor):
-    """(gönderi metni, ilk yorum)."""
+    """(gönderi metni, ilk yorum). Katalog ürününde metin katalogdan."""
+    if UK.kayit(klasor):
+        return UK.metin(klasor)
     yol = os.path.join(KOK, klasor, "metin.md")
     if not os.path.exists(yol):
         return "", ""

@@ -38,48 +38,46 @@ Karar: masada yer yoksa AD5X. Kamera ve kurutmalı ünite istiyorsan i7. Teknik 
 
 ## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-23-sekil-cark-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-23-sekil-cark-tahtasi/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/3-katli-kalpli-sunum-standi-cupcake-kurabiye-ve-tatli-standi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/3-katli-kalpli-sunum-standi-cupcake-kurabiye-ve-tatli-standi/1.jpg" width="240"></a>
 
-**[2026-10-23-sekil-cark-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-23-sekil-cark-tahtasi)** · 0 kare · hikaye 13:18
+**[urun/3-katli-kalpli-sunum-standi-cupcake-kurabiye-ve-tatli-standi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/3-katli-kalpli-sunum-standi-cupcake-kurabiye-ve-tatli-standi)** · 4 kare · hikaye 13:18
 
 ```
-Şekil ve çark tahtası. Tahtanın üstündeki oyuklar parçaların şekline göre açılmış; kare karenin, üçgen üçgenin yerine oturuyor, yanlış parça girmiyor.
+3 Katlı Kalpli Sunum Standı - Cupcake, Kurabiye ve Tatlı Standı
 
-Her sütunda katmanlar ayrı renkte. Çocuk önce şekli buluyor, sonra rengi eşleştiriyor.
+Nervürlü kenarlı üç tablalı, tepesi kalp tutamaklı sunum standı.
 
-Ortadaki çarklar birbirine geçiyor » birini döndürünce komşusu da dönüyor. Dişli mantığı anlatılmadan, oynanarak anlaşılıyor.
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+Faturalı satış, Samsun'dan kargo. 999,90 ₺.
 
-Bağlantı ilk yorumda.
+Ürün sayfası: sermenkreatif.com/urun/3-katli-kalpli-sunum-standi-cupcake-kurabiye-ve-tatli-standi
 
-Çarkları döndürmeyi seven bir çocuk tanıyorsan bu gönderiyi ona yolla.
+Pasta yapan arkadaşına yolla.
 
-#sermenkreatif #3dbaski #egiticioyuncak #sekileslestirme #cocukgelisimi #makerturkiye
+#sermenkreatif #3dbaski #sunumstandi #pastastandi
 ```
 
 ## 17:24 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-24-cay-kahve-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-24-cay-kahve-seti/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalgali-desenli-kagit-mendil-kutusu-kapakli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/dalgali-desenli-kagit-mendil-kutusu-kapakli/1.jpg" width="240"></a>
 
-**[2026-10-24-cay-kahve-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-24-cay-kahve-seti)** · 0 kare · hikaye 18:04
+**[urun/dalgali-desenli-kagit-mendil-kutusu-kapakli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalgali-desenli-kagit-mendil-kutusu-kapakli)** · 4 kare · hikaye 18:04
 
 ```
-Oyuncak çay ve kahve seti. Altı ayrı renkte kulplu fincan, her birine bir tabak.
+Dalgalı Desenli Kağıt Mendil Kutusu - Kapaklı
 
-Fincanların içine latte deseni işli; dolu bir fincan görüntüsü veriyor, sofra kurulunca oyun gerçeğe yaklaşıyor.
+Dalga dokulu gövdeli, standart kutu mendillere uygun dekoratif mendil kutusu.
 
-Toplanması da oyunun parçası » fincanlar birbirine geçiyor, tabaklar altta istif oluyor. Dağınık kalmıyor.
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Rol yapma oyununun tam ortasında duran bir set: çay partisi, misafir ağırlama, sofra kurma.
+Faturalı satış, Samsun'dan kargo. 829,90 ₺.
 
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+Ürün sayfası: sermenkreatif.com/urun/dalgali-desenli-kagit-mendil-kutusu-kapakli
 
-Bağlantı ilk yorumda.
+Masasını toplamayı seven birine yolla.
 
-Evinde çay partisi kurulan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #egiticioyuncak #rolyapmaoyunu #cocukgelisimi #makerturkiye
+#sermenkreatif #3dbaski #pecetelik #masadekoru
 ```
 
 ---
@@ -112,50 +110,46 @@ AMS'inden nemli filament yüzünden sürekli bozuk baskı alan bir arkadaşın v
 
 ## 12:10 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-25-aktivite-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-25-aktivite-tahtasi/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalgali-kenarli-ayakli-dekoratif-tepsi-25-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/dalgali-kenarli-ayakli-dekoratif-tepsi-25-cm/1.jpg" width="240"></a>
 
-**[2026-10-25-aktivite-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-25-aktivite-tahtasi)** · 0 kare · hikaye 12:50
+**[urun/dalgali-kenarli-ayakli-dekoratif-tepsi-25-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalgali-kenarli-ayakli-dekoratif-tepsi-25-cm)** · 4 kare · hikaye 12:50
 
 ```
-Aktivite tahtası. Altı ayrı oyun tek tablada: dönen dişliler, şekil eşleştirme, kaydırmalı halka, cırt cırt bantlar, saat ve vida-somun.
+Dalgalı Kenarlı Ayaklı Dekoratif Tepsi - 25 cm
 
-Paneller puzzle gibi birbirine geçiyor. İstersen hepsini birleştirip tek tahta yaparsın, istersen tek paneli ayırıp çocuğa verirsin.
+Dalgalı kenarlı, top ayaklı yuvarlak dekoratif tepsi.
 
-Her panel ayrı bir beceriye çalışıyor » dişli ve halka el kontrolüne, şekil paneli eşleştirmeye, saat paneli zaman kavramına, vida ve cırt cırt parmak kaslarına.
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Cırt cırt bölümü özellikle işe yarıyor: bant açıp kapatmak ayakkabı ve mont öncesi en iyi alıştırma.
+Faturalı satış, Samsun'dan kargo. 419,90 ₺.
 
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+Ürün sayfası: sermenkreatif.com/urun/dalgali-kenarli-ayakli-dekoratif-tepsi-25-cm
 
-Bağlantı ilk yorumda.
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
-Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #aktivitetahtasi #egiticioyuncak #cocukgelisimi
+#sermenkreatif #3dbaski #dekoratiftepsi #evdekorasyonu
 ```
 
 ## 17:24 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-26-market-kasa-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-26-market-kasa-seti/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalgali-kenarli-pasta-ve-tatli-sunum-tabagi-24-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/dalgali-kenarli-pasta-ve-tatli-sunum-tabagi-24-cm/1.jpg" width="240"></a>
 
-**[2026-10-26-market-kasa-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-26-market-kasa-seti)** · 0 kare · hikaye 18:04
+**[urun/dalgali-kenarli-pasta-ve-tatli-sunum-tabagi-24-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalgali-kenarli-pasta-ve-tatli-sunum-tabagi-24-cm)** · 4 kare · hikaye 18:04
 
 ```
-Oyuncak market kasa seti. Çekmeceli yazarkasa, iki raflı market standı ve oyun parası bir arada.
+Dalgalı Kenarlı Pasta ve Tatlı Sunum Tabağı - 24 cm
 
-Kasanın rakam tuşları ve ürün tuşları var, çekmecesi açılıyor. Para çekmecenin içinde duruyor; alışveriş, ödeme ve para üstü gerçek sırayla işliyor.
+Fırfırlı dalga kenarlı, 24 cm çaplı pasta ve tatlı sunum tabağı.
 
-Rafa süt, meyve suyu, ekmek, kahve, mısır gevreği ve elma diziliyor. Çocuk önce rafı kuruyor, sonra müşteri oluyor, sonra kasiyer.
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Sayı saymayı, sıra beklemeyi ve alışveriş diyaloğunu aynı oyunda çalıştırıyor.
+Faturalı satış, Samsun'dan kargo. 559,90 ₺.
 
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+Ürün sayfası: sermenkreatif.com/urun/dalgali-kenarli-pasta-ve-tatli-sunum-tabagi-24-cm
 
-Bağlantı ilk yorumda.
+Misafir ağırlamayı seven birine yolla.
 
-Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #oyuncakmarket #rolyapmaoyunu #egiticioyuncak
+#sermenkreatif #3dbaski #sunumtabagi #dekoratifkase
 ```
 
 ## 19:40 · REELS — [2026-10-15-sunlu-ams-heater/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-15-sunlu-ams-heater)
@@ -194,50 +188,46 @@ Tarama dosyasını doğrudan slicer'a atıp sonucu beğenmeyen bir arkadaşın v
 
 ## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-27-meyve-sebze-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-27-meyve-sebze-seti/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/elmas-desenli-dekoratif-vazo-15-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/elmas-desenli-dekoratif-vazo-15-cm/1.jpg" width="240"></a>
 
-**[2026-10-27-meyve-sebze-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-27-meyve-sebze-seti)** · 0 kare · hikaye 13:18
+**[urun/elmas-desenli-dekoratif-vazo-15-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/elmas-desenli-dekoratif-vazo-15-cm)** · 4 kare · hikaye 13:18
 
 ```
-Oyuncak meyve ve sebze seti. Elma, armut, muz, domates, havuç, patlıcan, biber, pırasa ve sarımsak; hepsi ahşap görünümlü sandığıyla birlikte.
+Elmas Desenli Dekoratif Vazo - 15 cm
 
-Sandık da sete dahil. Oyun bitince meyveler içine toplanıyor, odanın ortasında dağınık kalmıyor.
+Geometrik elmas dokulu, ışıkla parlayan dekoratif vazo.
 
-Sandığın ahşap dokusu baskıyla veriliyor » kıymık yok, çivi yok, tek parça.
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Manav oyunu, mutfak oyunu, renk ve besin tanıma; aynı setle üçü birden.
+Faturalı satış, Samsun'dan kargo. 239,90 ₺.
 
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+Ürün sayfası: sermenkreatif.com/urun/elmas-desenli-dekoratif-vazo-15-cm
 
-Bağlantı ilk yorumda.
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
-Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #oyuncakmeyve #manavoyunu #egiticioyuncak
+#sermenkreatif #3dbaski #dekoratifvazo #evdekorasyonu
 ```
 
 ## 17:24 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-28-vidali-tren"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-28-vidali-tren/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gizli-montajli-minimal-duvar-rafi-yuvarlak-uclu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/gizli-montajli-minimal-duvar-rafi-yuvarlak-uclu/1.jpg" width="240"></a>
 
-**[2026-10-28-vidali-tren](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-28-vidali-tren)** · 0 kare · hikaye 18:04
+**[urun/gizli-montajli-minimal-duvar-rafi-yuvarlak-uclu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gizli-montajli-minimal-duvar-rafi-yuvarlak-uclu)** · 4 kare · hikaye 18:04
 
 ```
-Vidalı söküp tak tren. Gövde, baca, kabin ve tekerlekler vidayla birleşiyor; tornavida sete dahil.
+Gizli Montajlı Minimal Duvar Rafı - Yuvarlak Uçlu
 
-Vidaların başı iri, çocuk eli rahat çeviriyor. Bir kere kurduktan sonra iş bitmiyor: söküp baştan kurmak oyunun kendisi.
+Uçları yumuşakça kıvrılan, vidası görünmeyen sade yüzer duvar rafı.
 
-Parçalar birbirine geçtiği için her seferinde aynı treni kurmak zorunda da değil; blokları değiştirip kendi aracını yapıyor.
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Tornavida çevirmek bilek dönüşünü ve parmak kaslarını çalıştırıyor; kalem tutmaya hazırlık sayılır.
+Faturalı satış, Samsun'dan kargo. 299,90 ₺.
 
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+Ürün sayfası: sermenkreatif.com/urun/gizli-montajli-minimal-duvar-rafi-yuvarlak-uclu
 
-Bağlantı ilk yorumda.
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
-Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #soktaoyuncak #vidalioyuncak #egiticioyuncak
+#sermenkreatif #3dbaski #duvarrafi #evdekorasyonu
 ```
 
 ---
@@ -280,52 +270,46 @@ H serisinde hangisini alacağına karar veremeyen bir arkadaşın varsa bu gönd
 
 ## 12:38 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-29-vidali-yapim-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-29-vidali-yapim-tahtasi/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/iki-katli-dalgali-kenarli-sunum-standi-25-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/iki-katli-dalgali-kenarli-sunum-standi-25-cm/1.jpg" width="240"></a>
 
-**[2026-10-29-vidali-yapim-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-29-vidali-yapim-tahtasi)** · 0 kare · hikaye 13:18
+**[urun/iki-katli-dalgali-kenarli-sunum-standi-25-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/iki-katli-dalgali-kenarli-sunum-standi-25-cm)** · 4 kare · hikaye 13:18
 
 ```
-Vidalı yapım tahtası. Delikli tabla, L, T, V ve düz plakalar, vidalar ve çocuk eline uygun tornavida.
+İki Katlı Dalgalı Kenarlı Sunum Standı - 25 cm
 
-Üç adımda oynanıyor » plakayı seç, vidayı deliğinden geçir, tornavidayla sık. Sonra sök, başka bir şekil kur.
+Dalgalı kenarlı iki tablalı cupcake, kurabiye ve tatlı sunum standı.
 
-Aynı parçalardan her seferinde başka bir tasarım çıkıyor. Bitmiş bir oyuncak değil, kurulacak bir oyuncak.
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Vida çevirmek el-göz koordinasyonunu ve parmak gücünü çalıştırıyor; tasarımı kendi kurmak da planlama tarafını.
+Faturalı satış, Samsun'dan kargo. 759,90 ₺.
 
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+Ürün sayfası: sermenkreatif.com/urun/iki-katli-dalgali-kenarli-sunum-standi-25-cm
 
-Bağlantı ilk yorumda.
+Pasta yapan arkadaşına yolla.
 
-Küçük çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #vidalioyuncak #yapimseti #egiticioyuncak
+#sermenkreatif #3dbaski #sunumstandi #pastastandi
 ```
 
 ## 16:40 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-30-alyan-vida-oyuncagi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-30-alyan-vida-oyuncagi/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-kedi-kopek-mama-kabi-isim-plakali"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-kedi-kopek-mama-kabi-isim-plakali/1.jpg" width="240"></a>
 
-**[2026-10-30-alyan-vida-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-30-alyan-vida-oyuncagi)** · 0 kare · hikaye 17:20
+**[urun/japandi-kedi-kopek-mama-kabi-isim-plakali](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-kedi-kopek-mama-kabi-isim-plakali)** · 4 kare · hikaye 17:20
 
 ```
-Alyan anahtarlı vida oyuncağı. Üç boy vida, üç alyan anahtarı ve renk halkalı bir tabla.
+Japandi Kedi Köpek Mama Kabı - İsim Plakalı
 
-Her vidanın kendi boyu ve kendi rengi var » kırmızı büyük, mavi orta, sarı küçük. Tablada da her deliğin etrafında aynı renkte bir halka duruyor.
+Nervürlü gövdeli, isim plakalı, çelik kase yuvalı mama kabı tutucu.
 
-Çocuk önce vidayı seçiyor, sonra ona ait halkayı buluyor, sonra aynı renk anahtarla sıkıyor. Üç ayrı karar, tek harekette.
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Alyan çevirmek bilek dönüşünü ve parmak gücünü çalıştırıyor; renk ve boy eşleştirmesi de sınıflandırma becerisini.
+Faturalı satış, Samsun'dan kargo. 839,90 ₺.
 
-Söküp baştan kurmak oyunun kendisi, bir kere bitip kalmıyor.
+Ürün sayfası: sermenkreatif.com/urun/japandi-kedi-kopek-mama-kabi-isim-plakali
 
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+Kedisi ya da köpeği olan birine yolla.
 
-Bağlantı ilk yorumda.
-
-Vida çevirmeyi seven bir çocuk tanıyorsan bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #alyanvida #vidalioyuncak #egiticioyuncak
+#sermenkreatif #3dbaski #mamakabi #kedikopek
 ```
 
 ## 19:20 · REELS — [2026-10-18-bambu-h-serisi-pano/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-bambu-h-serisi-pano)
@@ -364,50 +348,46 @@ U1'ine hotend arayan bir arkadaşın varsa bu gönderiyi ona yolla — özellikl
 
 ## 13:20 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-31-halka-dizme-kulesi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-31-halka-dizme-kulesi/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek/1.jpg" width="240"></a>
 
-**[2026-10-31-halka-dizme-kulesi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-31-halka-dizme-kulesi)** · 0 kare · hikaye 14:00
+**[urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek)** · 4 kare · hikaye 14:00
 
 ```
-Halka dizme kulesi. Kırmızı tabanlı çubuk ve her biri farklı biçimde beş renkli halka.
+Kedi Kumu Küreği - 3 Delik Boyutlu Petek Elek
 
-Klasik halka kulesinden farkı yüzeylerinde » her halkada ayrı doku var: nokta, çizgi, dişli kenar. Çocuk rengiyle ayırmayı öğrenirken parmak ucuyla da ayırmayı öğreniyor.
+Küçük, orta ve büyük petek delikli, uzun saplı kedi kumu küreği.
 
-Doğru bir sıra yok. İstediği sırayla dizer, bozar, yeniden kurar; oyun her seferinde baştan başlıyor.
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Halkaları çubuğa geçirmek el-göz koordinasyonunu, çıkarmak da parmak kavrayışını çalıştırıyor.
+Faturalı satış, Samsun'dan kargo. 289,90 ₺.
 
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+Ürün sayfası: sermenkreatif.com/urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek
 
-Bağlantı ilk yorumda.
+Kedisi olan bir arkadaşına yolla.
 
-Okul öncesi çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #halkadizme #istifoyuncagi #egiticioyuncak
+#sermenkreatif #3dbaski #kediaksesuari #kedili
 ```
 
 ## 17:10 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-11-01-rakam-yapbozu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-11-01-rakam-yapbozu/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf/1.jpg" width="240"></a>
 
-**[2026-11-01-rakam-yapbozu](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-11-01-rakam-yapbozu)** · 0 kare · hikaye 17:50
+**[urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf)** · 4 kare · hikaye 17:50
 
 ```
-Rakam yapbozu ve sayma tahtası. İki tabla bir arada: rakamların yuvasına oturduğu yapboz ve pulların dizildiği sayma tahtası.
+Kelebek Duvar Rafı - Çocuk Odası Dekoratif Raf
 
-1'den 10'a bütün rakamlar çıkarılabiliyor. Çocuk önce rakamın şeklini tanıyor, sonra kendi yuvasına oturtuyor.
+Kelebek formunda, duvara asılan dekoratif mini raf.
 
-Asıl iş ikinci tablada » üst yuvaya hangi rakamı koyduysa, aşağıdaki deliklere o kadar pul yerleştiriyor. Sayı soyut kalmıyor, elle sayılıyor.
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Rakam tanıma ve sayma aynı sette; biri olmadan diğeri eksik kalmıyor.
+Faturalı satış, Samsun'dan kargo. 469,90 ₺.
 
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+Ürün sayfası: sermenkreatif.com/urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf
 
-Bağlantı ilk yorumda.
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
-Okul öncesi çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #rakamyapbozu #saymatahtasi #egiticioyuncak
+#sermenkreatif #3dbaski #duvarrafi #evdekorasyonu
 ```
 
 ## 19:20 · REELS — [2026-10-16-phaetus-liber-u1/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-16-phaetus-liber-u1)
@@ -444,35 +424,57 @@ Evinin tavan arasına bakmak isteyip de kafasını sokamayan bir arkadaşın var
 
 ## 13:20 · BASKI ÜRÜNLERİ
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-11-02-kesir-daireleri"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-11-02-kesir-daireleri/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo/1.jpg" width="240"></a>
 
-**[2026-11-02-kesir-daireleri](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-11-02-kesir-daireleri)** · 0 kare · hikaye 14:00
+**[urun/lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo)** · 4 kare · hikaye 14:00
 
 ```
-Kesir daireleri. Altı yuvalı tabla, toplam 21 dilim: bir bütün ve 1/2, 1/3, 1/4, 1/5, 1/6 kesirlerinin dilimleri.
+Lumina Modern Vazo - Keskin Nervürlü Dekoratif Vazo
 
-Kesir tahtada anlatılınca soyut kalıyor. Burada çocuk bütünü eline alıyor, ikiye bölünmüşünü yanına koyuyor, farkı gözüyle görüyor.
+Keskin dikey nervürleriyle ışık ve gölge oyunu yaratan şişe formlu modern vazo.
 
-Her dilimin üzerinde değeri yazılı » çocuk hangi parçayı tuttuğunu okuyabiliyor. Renk hangi kesir olduğunu, yazı kaçta kaç olduğunu söylüyor.
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Asıl soru üçüncü adımda geliyor: iki tane 1/4 bir araya gelince 1/2 eder mi? Çocuk üst üste koyup kendi görüyor. Cevabı siz vermiyorsunuz.
+Faturalı satış, Samsun'dan kargo. 369,90 ₺.
 
-Okul öncesinde renk ve şekil eşleme, ilkokulda kesir dersinin somut hali.
+Ürün sayfası: sermenkreatif.com/urun/lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo
 
-Kendi atölyemizde, güvenli PLA ile basılıyor. Faturalı, Samsun'dan kargo.
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
-Bağlantı ilk yorumda.
-
-Kesirlerle boğuşan bir öğrenci tanıyorsanız bu gönderiyi ona yollayın.
-
-#sermenkreatif #3dbaski #kesirdaireleri #kesirler #egiticioyuncak
+#sermenkreatif #3dbaski #dekoratifvazo #evdekorasyonu
 ```
 
-## 17:10 · AYAR & REHBER
+## 17:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/minimal-duvar-askisi-yapistirmali-2-li-kanca"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/minimal-duvar-askisi-yapistirmali-2-li-kanca/1.jpg" width="240"></a>
+
+**[urun/minimal-duvar-askisi-yapistirmali-2-li-kanca](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/minimal-duvar-askisi-yapistirmali-2-li-kanca)** · 4 kare · hikaye 17:50
+
+```
+Minimal Duvar Askısı - Yapıştırmalı 2'li Kanca
+
+Delmeden, güçlü çift taraflı bantla yapıştırılan sade duvar kancası (2 adet).
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 279,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/minimal-duvar-askisi-yapistirmali-2-li-kanca
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #duvaraskisi #portmanto
+```
+
+---
+
+# 2026-11-09 · Pazartesi
+
+## 09:10 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-sert-nozul"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-sert-nozul/1.jpg" width="240"></a>
 
-**[2026-10-18-sert-nozul](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-sert-nozul)** · 5 kare · hikaye 17:50
+**[2026-10-18-sert-nozul](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-sert-nozul)** · 5 kare · hikaye 09:50
 
 ```
 Karbon elyaflı filamente geçtikten sonra baskıların bozulmaya başladıysa önce ayarları kurcalama, nozula bak.
@@ -493,9 +495,53 @@ Karbon katkılı filamente geçmeyi düşünen bir arkadaşına yolla.
 #sermenkreatif #3dbaski #nozzle #karbonfiber #filament
 ```
 
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/modern-tealight-mumluk-seti-3-lu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/modern-tealight-mumluk-seti-3-lu/1.jpg" width="240"></a>
+
+**[urun/modern-tealight-mumluk-seti-3-lu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/modern-tealight-mumluk-seti-3-lu)** · 4 kare · hikaye 13:18
+
+```
+Modern Tealight Mumluk Seti - 3'lü
+
+Minimal formlu, tealight mumlara uygun 3'lü mumluk seti.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 279,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/modern-tealight-mumluk-seti-3-lu
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #mumluk #evdekorasyonu
+```
+
+## 17:24 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-dekoratif-kalp-biblo-japandi-15-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nervurlu-dekoratif-kalp-biblo-japandi-15-cm/1.jpg" width="240"></a>
+
+**[urun/nervurlu-dekoratif-kalp-biblo-japandi-15-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-dekoratif-kalp-biblo-japandi-15-cm)** · 4 kare · hikaye 18:04
+
+```
+Nervürlü Dekoratif Kalp Biblo - Japandi, 15 cm
+
+Dikey nervür dokulu, ayakta duran Japandi tarzı dekoratif kalp.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 779,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/nervurlu-dekoratif-kalp-biblo-japandi-15-cm
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #dekoratifobje #evdekorasyonu
+```
+
 ---
 
-# 2026-11-09 · Pazartesi
+# 2026-11-10 · Salı
 
 ## 09:10 · ÜRÜN & MAĞAZA
 
@@ -526,11 +572,63 @@ Yazın araçta bıraktığı telefon tutucusu eğilen bir arkadaşın varsa bu g
 #sermenkreatif #3dbaski #polymaker #htpla #filament
 ```
 
-## 12:38 · PROJE & ATÖLYE
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-dekoratif-yilbasi-agaci-yildizli-15-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/spiral-dekoratif-yilbasi-agaci-yildizli-15-cm/1.jpg" width="240"></a>
+
+**[urun/spiral-dekoratif-yilbasi-agaci-yildizli-15-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-dekoratif-yilbasi-agaci-yildizli-15-cm)** · 4 kare · hikaye 13:18
+
+```
+Spiral Dekoratif Yılbaşı Ağacı - Yıldızlı, 15 cm
+
+Dalgalı spiral katmanlı, tepesi yıldızlı modern masaüstü yılbaşı ağacı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 229,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/spiral-dekoratif-yilbasi-agaci-yildizli-15-cm
+
+Yılbaşı hazırlığına başlayan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #yilbasiagaci #yilbasi
+```
+
+## 17:24 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/telefon-tutuculu-masaustu-duzenleyici-kalemlikli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/telefon-tutuculu-masaustu-duzenleyici-kalemlikli/1.jpg" width="240"></a>
+
+**[urun/telefon-tutuculu-masaustu-duzenleyici-kalemlikli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/telefon-tutuculu-masaustu-duzenleyici-kalemlikli)** · 4 kare · hikaye 18:04
+
+```
+Telefon Tutuculu Masaüstü Düzenleyici - Kalemlikli
+
+Kalemlik, telefon tutucu ve iki bölmeli masaüstü organizer.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 949,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/telefon-tutuculu-masaustu-duzenleyici-kalemlikli
+
+Masası dağınık olan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #masaustuduzenleyici #masaduzeni
+```
+
+## 19:40 · REELS — [2026-10-17-polymaker-ht-pla/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)
+
+Açıklama gönderi metniyle aynı.
+
+---
+
+# 2026-11-11 · Çarşamba
+
+## 09:10 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-rc-tank/1.jpg" width="240"></a>
 
-**[2026-10-17-rc-tank](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank)** · 6 kare · hikaye 13:18
+**[2026-10-17-rc-tank](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank)** · 6 kare · hikaye 09:50
 
 ```
 RC tank gibi büyük bir baskı projesinde işi bitiren şey baskı değil, parçaya bölme ve birleştirme kararları. Tabladan büyük parça basılmıyor; bölünüyor.
@@ -550,11 +648,59 @@ Masasında yarım kalmış büyük bir baskı projesi olan bir arkadaşın varsa
 #sermenkreatif #maker #3dbaski #rctank
 ```
 
-## 17:24 · AYAR & REHBER
+## 12:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yedek-rulo-hazneli-ayakli-tuvalet-kagitligi-nervurlu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/yedek-rulo-hazneli-ayakli-tuvalet-kagitligi-nervurlu/1.jpg" width="240"></a>
+
+**[urun/yedek-rulo-hazneli-ayakli-tuvalet-kagitligi-nervurlu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yedek-rulo-hazneli-ayakli-tuvalet-kagitligi-nervurlu)** · 4 kare · hikaye 12:50
+
+```
+Yedek Rulo Hazneli Ayaklı Tuvalet Kağıtlığı - Nervürlü
+
+Yedek ruloları gövdesinde saklayan, vidasız kurulan ayaklı tuvalet kağıtlığı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 1.939,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/yedek-rulo-hazneli-ayakli-tuvalet-kagitligi-nervurlu
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #tuvaletkagitligi #banyoduzeni
+```
+
+## 17:24 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yukseltilmis-kedi-kopek-mama-kabi-standi-isimli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/yukseltilmis-kedi-kopek-mama-kabi-standi-isimli/1.jpg" width="240"></a>
+
+**[urun/yukseltilmis-kedi-kopek-mama-kabi-standi-isimli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yukseltilmis-kedi-kopek-mama-kabi-standi-isimli)** · 4 kare · hikaye 18:04
+
+```
+Yükseltilmiş Kedi Köpek Mama Kabı Standı - İsimli
+
+10 cm yükseltilmiş, dalga desenli, isim yazılabilen mama kabı standı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 659,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/yukseltilmis-kedi-kopek-mama-kabi-standi-isimli
+
+Kedisi ya da köpeği olan birine yolla.
+
+#sermenkreatif #3dbaski #mamakabi #kedikopek
+```
+
+---
+
+# 2026-11-12 · Perşembe
+
+## 09:05 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-bambu-a-serisi-pano"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-bambu-a-serisi-pano/1.jpg" width="240"></a>
 
-**[2026-10-19-bambu-a-serisi-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-bambu-a-serisi-pano)** · 1 kare · hikaye 18:04
+**[2026-10-19-bambu-a-serisi-pano](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-bambu-a-serisi-pano)** · 1 kare · hikaye 09:45
 
 ```
 A serisinde üç makine var ve üçü de aynı temeli paylaşıyor: açık gövdeli bed-slinger, 300 °C nozul, Combo paketinde AMS Lite ile dört renk. Karar iki şeye iniyor — ne kadar hacim istediğin ve tablanın kaç dereceye çıktığı.
@@ -580,13 +726,53 @@ Hangi Bambu'yu alacağına karar veremeyen bir arkadaşın varsa bu gönderiyi o
 #sermenkreatif #3dbaski #bambulab #3dyazici
 ```
 
-## 19:40 · REELS — [2026-10-17-polymaker-ht-pla/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)
+## 12:38 · BASKI ÜRÜNLERİ
 
-Açıklama gönderi metniyle aynı.
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto/1.jpg" width="240"></a>
+
+**[urun/5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto)** · 4 kare · hikaye 13:18
+
+```
+5'li Geometrik Duvar Askılığı - Fasetli Kancalı Portmanto
+
+Tek parça ray üzerinde beş fasetli kanca bulunan modern duvar askılığı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 399,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #duvaraskisi #portmanto
+```
+
+## 17:24 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice/1.jpg" width="240"></a>
+
+**[urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice)** · 4 kare · hikaye 18:04
+
+```
+Ahşap Dokulu Yuvarlak Tepsi Seti - 3'lü İç İçe
+
+Ahşap damar ve yıllık halka dokulu, iç içe geçen 3'lü yuvarlak tepsi seti.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 1.139,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #dekoratiftepsi #evdekorasyonu
+```
 
 ---
 
-# 2026-11-10 · Salı
+# 2026-11-13 · Cuma
 
 ## 09:10 · ÜRÜN & MAĞAZA
 
@@ -614,11 +800,63 @@ Ender-3 V4 Combo sermenkreatif.com'da.
 #sermenkreatif #3dbaski #creality #ender3 #cokrenklibaski
 ```
 
-## 12:38 · PROJE & ATÖLYE
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli/1.jpg" width="240"></a>
+
+**[urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli)** · 4 kare · hikaye 13:18
+
+```
+Çiçek Formlu Çerezlik Sunum Tabağı - 6 Bölmeli, Orta Kaseli
+
+Altı bölmeli çiçek formlu çerezlik; ortadaki kasesiyle çerez, kuruyemiş ve meze sunumu için.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 679,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli
+
+Misafir ağırlamayı seven birine yolla.
+
+#sermenkreatif #3dbaski #sunumtabagi #dekoratifkase
+```
+
+## 16:40 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dekoratif-kozalak-figuru-yilbasi-ve-kis-dekoru-12-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/dekoratif-kozalak-figuru-yilbasi-ve-kis-dekoru-12-cm/1.jpg" width="240"></a>
+
+**[urun/dekoratif-kozalak-figuru-yilbasi-ve-kis-dekoru-12-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dekoratif-kozalak-figuru-yilbasi-ve-kis-dekoru-12-cm)** · 4 kare · hikaye 17:20
+
+```
+Dekoratif Kozalak Figürü - Yılbaşı ve Kış Dekoru, 12 cm
+
+Üst üste binen pul detaylı, ayakta duran dekoratif kozalak.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 289,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/dekoratif-kozalak-figuru-yilbasi-ve-kis-dekoru-12-cm
+
+Yılbaşı hazırlığına başlayan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #yilbasisusu #yilbasi
+```
+
+## 19:20 · REELS — [2026-10-18-ender-3-v4-combo/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)
+
+Açıklama gönderi metniyle aynı.
+
+---
+
+# 2026-11-14 · Cumartesi
+
+## 11:10 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-toplulukta-ariza"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-toplulukta-ariza/1.jpg" width="240"></a>
 
-**[2026-10-18-toplulukta-ariza](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-toplulukta-ariza)** · 5 kare · hikaye 13:18
+**[2026-10-18-toplulukta-ariza](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-toplulukta-ariza)** · 5 kare · hikaye 11:50
 
 ```
 Baskı bozuk çıktığında çoğu kişi saatlerce tek başına ayar kurcalıyor. Oysa aynı arıza o gün başka birinin de başına gelmiş ve çözülmüş oluyor.
@@ -636,11 +874,59 @@ Katılmak için profildeki linke dokunman yeterli. Ücretsiz, istediğin an çı
 #sermenkreatif #3dbaski #3dbaskiturkiye #topluluk
 ```
 
-## 17:24 · AYAR & REHBER
+## 13:20 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-ayakli-havlu-pecetelik-kulplu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-ayakli-havlu-pecetelik-kulplu/1.jpg" width="240"></a>
+
+**[urun/japandi-ayakli-havlu-pecetelik-kulplu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-ayakli-havlu-pecetelik-kulplu)** · 4 kare · hikaye 14:00
+
+```
+Japandi Ayaklı Havlu Peçetelik - Kulplu
+
+Üst tutamaklı, rulonun rahat döndüğü ayaklı kağıt havluluk.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 779,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/japandi-ayakli-havlu-pecetelik-kulplu
+
+Masasını toplamayı seven birine yolla.
+
+#sermenkreatif #3dbaski #pecetelik #masadekoru
+```
+
+## 17:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm/1.jpg" width="240"></a>
+
+**[urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm)** · 4 kare · hikaye 17:50
+
+```
+Japandi Dalgalı Yılbaşı Ağacı - Minimal Masa Dekoru, 15 cm
+
+Burgu dalga katmanlı, sivri uçlu Japandi tarzı minimal yılbaşı ağacı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 389,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm
+
+Yılbaşı hazırlığına başlayan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #yilbasiagaci #yilbasi
+```
+
+---
+
+# 2026-11-15 · Pazar
+
+## 11:10 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-heat-set-insert"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-heat-set-insert/1.jpg" width="240"></a>
 
-**[2026-10-19-heat-set-insert](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-heat-set-insert)** · 4 kare · hikaye 18:04
+**[2026-10-19-heat-set-insert](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-heat-set-insert)** · 4 kare · hikaye 11:50
 
 ```
 3D baskıda vidalı birleşim için heat-set insert kullanmak, plastiğe doğrudan vida atmaktan farklı bir iş. Doğrudan atılan vida üç-dört sökmede dişi sıyırıyor; pirinç insert aynı deliği kalıcı dişe çeviriyor. Ama işi bitiren şey insert değil, deliğin baştan doğru çizilmesi.
@@ -658,13 +944,53 @@ Bastığı kutunun kapağını üçüncü açışta dişi sıyıran bir arkadaş
 #sermenkreatif #3dbaski #3dprinting #heatsetinsert #3dbaskiturkiye
 ```
 
-## 19:40 · REELS — [2026-10-18-ender-3-v4-combo/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-ender-3-v4-combo)
+## 13:20 · BASKI ÜRÜNLERİ
 
-Açıklama gönderi metniyle aynı.
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi/1.jpg" width="240"></a>
+
+**[urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi)** · 4 kare · hikaye 14:00
+
+```
+Japandi Dekor Seti - Vazo, Mumluk ve Tepsi
+
+Şişe vazo, tealight mumluk ve oval tepsiden oluşan minimal 3 parçalı set.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 399,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #dekoratifobje #evdekorasyonu
+```
+
+## 17:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-geyik-figuru-yilbasi-dekoru-17-5-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-geyik-figuru-yilbasi-dekoru-17-5-cm/1.jpg" width="240"></a>
+
+**[urun/japandi-geyik-figuru-yilbasi-dekoru-17-5-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-geyik-figuru-yilbasi-dekoru-17-5-cm)** · 4 kare · hikaye 17:50
+
+```
+Japandi Geyik Figürü - Yılbaşı Dekoru, 17,5 cm
+
+Sade hatlı, ayakta duran minimal geyik figürü.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 219,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/japandi-geyik-figuru-yilbasi-dekoru-17-5-cm
+
+Yılbaşı hazırlığına başlayan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #yilbasisusu #yilbasi
+```
 
 ---
 
-# 2026-11-11 · Çarşamba
+# 2026-11-16 · Pazartesi
 
 ## 09:10 · ÜRÜN & MAĞAZA
 
@@ -690,11 +1016,59 @@ Kısaca: bugün kurup basmaya başlamak istiyorsan i7. Purge kulesinden tamamen 
 #sermenkreatif #3dbaski #creality #3dyazici
 ```
 
-## 12:10 · PROJE & ATÖLYE
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ayakli-nervurlu-saksi-tabakli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/ayakli-nervurlu-saksi-tabakli/1.jpg" width="240"></a>
+
+**[urun/ayakli-nervurlu-saksi-tabakli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ayakli-nervurlu-saksi-tabakli)** · 4 kare · hikaye 13:18
+
+```
+Ayaklı Nervürlü Saksı - Tabaklı
+
+Dört ayak üzerinde duran, ince nervürlü silindir saksı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 799,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/ayakli-nervurlu-saksi-tabakli
+
+Evi bitki dolu olan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #saksi #bitkisever
+```
+
+## 17:24 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/bitki-sulama-kuresi-yavas-sulama-aparati"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/bitki-sulama-kuresi-yavas-sulama-aparati/1.jpg" width="240"></a>
+
+**[urun/bitki-sulama-kuresi-yavas-sulama-aparati](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/bitki-sulama-kuresi-yavas-sulama-aparati)** · 4 kare · hikaye 18:04
+
+```
+Bitki Sulama Küresi - Yavaş Sulama Aparatı
+
+Toprağa batırılan, bitkiyi yavaşça sulayan küre hazneli sulama aparatı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 389,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/bitki-sulama-kuresi-yavas-sulama-aparati
+
+Evi bitki dolu olan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #saksi #bitkisever
+```
+
+---
+
+# 2026-11-17 · Salı
+
+## 09:10 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-oyuncak-yol-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-19-oyuncak-yol-seti/1.jpg" width="240"></a>
 
-**[2026-10-19-oyuncak-yol-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-oyuncak-yol-seti)** · 5 kare · hikaye 12:50
+**[2026-10-19-oyuncak-yol-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-oyuncak-yol-seti)** · 5 kare · hikaye 09:50
 
 ```
 Modüler oyuncak yol seti tasarımında işi bitiren şey parçaların şekli değil; tek bir ızgara ölçüsü ve tek bir geçme boşluğu. Her parça her parçaya oturacaksa bu iki sayı baştan sabitleniyor.
@@ -712,11 +1086,59 @@ Oyuncak olduğunu tasarımda hatırla: keskin köşe bırakma, kenarlara 1 mm pa
 #sermenkreatif #maker #3dbaski #oyuncaktasarimi
 ```
 
-## 17:24 · AYAR & REHBER
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dis-macunu-standi-bas-asagi-tutucu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/dis-macunu-standi-bas-asagi-tutucu/1.jpg" width="240"></a>
+
+**[urun/dis-macunu-standi-bas-asagi-tutucu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dis-macunu-standi-bas-asagi-tutucu)** · 4 kare · hikaye 13:18
+
+```
+Diş Macunu Standı - Baş Aşağı Tutucu
+
+Diş macunu tüpünü kapağı aşağıda dik tutan pratik stand.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 219,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/dis-macunu-standi-bas-asagi-tutucu
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #disfircaligi #banyoduzeni
+```
+
+## 17:24 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/eriyen-mum-gorunumlu-led-mumluk"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/eriyen-mum-gorunumlu-led-mumluk/1.jpg" width="240"></a>
+
+**[urun/eriyen-mum-gorunumlu-led-mumluk](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/eriyen-mum-gorunumlu-led-mumluk)** · 4 kare · hikaye 18:04
+
+```
+Eriyen Mum Görünümlü LED Mumluk
+
+Erimiş mum damlası görünümlü, LED tealight için sütun mumluk.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 209,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/eriyen-mum-gorunumlu-led-mumluk
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #mumluk #evdekorasyonu
+```
+
+---
+
+# 2026-11-18 · Çarşamba
+
+## 09:10 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-ams-israf/1.jpg" width="240"></a>
 
-**[2026-10-21-ams-israf](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf)** · 4 kare · hikaye 18:04
+**[2026-10-21-ams-israf](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf)** · 4 kare · hikaye 09:50
 
 ```
 AMS ve MMU'da renk değişimi israfı, çok renkli baskıda çoğu zaman parçanın kendisinden pahalıya geliyor.
@@ -736,13 +1158,57 @@ Temizlik kulesini çöpe atarken içi sızlayan bir arkadaşın varsa ona yolla.
 #sermenkreatif #3dbaski #3dprinting #ams #3dbaskiturkiye
 ```
 
+## 12:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec/1.jpg" width="240"></a>
+
+**[urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec)** · 4 kare · hikaye 12:50
+
+```
+Girdaplı Meyve Sebze Yıkama Kabı ve Süzgeç
+
+Musluk suyuyla girdap oluşturarak meyve ve sebzeleri yıkayan, ardından süzgeç olarak kullanılan kap.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 429,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #mutfakgereci #mutfakduzeni
+```
+
+## 17:24 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-sungerlik-ve-sabunluk-suzgecli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-sungerlik-ve-sabunluk-suzgecli/1.jpg" width="240"></a>
+
+**[urun/japandi-sungerlik-ve-sabunluk-suzgecli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-sungerlik-ve-sabunluk-suzgecli)** · 4 kare · hikaye 18:04
+
+```
+Japandi Süngerlik ve Sabunluk - Süzgeçli
+
+Eğimli nervürlü tabanıyla suyu süzen lavabo başı sünger tepsisi.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 289,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/japandi-sungerlik-ve-sabunluk-suzgecli
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #mutfakduzenleyici #mutfakduzeni
+```
+
 ## 19:40 · REELS — [2026-10-21-ams-israf/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf)
 
 Açıklama gönderi metniyle aynı.
 
 ---
 
-# 2026-11-12 · Perşembe
+# 2026-11-19 · Perşembe
 
 ## 09:05 · ÜRÜN & MAĞAZA
 
@@ -776,11 +1242,59 @@ Hangi filamenti alacağını soran arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #filament #pla #petg
 ```
 
-## 12:38 · PROJE & ATÖLYE
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi/1.jpg" width="240"></a>
+
+**[urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi)** · 4 kare · hikaye 13:18
+
+```
+Kapaklı Saklama Kutusu Seti - 2 Kutu ve Tepsi
+
+Pliseli iki kapaklı kutu ve tırtıllı oval tepsiden oluşan saklama seti.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 949,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #saklamakutusu #evduzeni
+```
+
+## 17:24 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kasik-ve-tencere-kapagi-tutucu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kasik-ve-tencere-kapagi-tutucu/1.jpg" width="240"></a>
+
+**[urun/kasik-ve-tencere-kapagi-tutucu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kasik-ve-tencere-kapagi-tutucu)** · 4 kare · hikaye 18:04
+
+```
+Kaşık ve Tencere Kapağı Tutucu
+
+Ocak başında kaşık, kepçe ve tencere kapağını tutan tezgah aparatı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 289,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/kasik-ve-tencere-kapagi-tutucu
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #kasiklik #mutfakduzeni
+```
+
+---
+
+# 2026-11-20 · Cuma
+
+## 09:10 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-fpv-drone-cinelog20"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-20-fpv-drone-cinelog20/1.jpg" width="240"></a>
 
-**[2026-10-20-fpv-drone-cinelog20](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-fpv-drone-cinelog20)** · 5 kare · hikaye 13:18
+**[2026-10-20-fpv-drone-cinelog20](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-fpv-drone-cinelog20)** · 5 kare · hikaye 09:50
 
 ```
 FPV drone kurulumu GEPRC CineLog20'de üç ayrı işe bölünüyor: gövde uçmaya hazır geliyor, eksik olan batarya, alıcı ve gözlük eşleşmesi.
@@ -800,11 +1314,63 @@ FPV'ye yeni başlayan bir arkadaşın varsa bu gönderiyi ona yolla.
 #sermenkreatif #maker #fpv #cinewhoop
 ```
 
-## 17:24 · AYAR & REHBER
+## 12:38 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi/1.jpg" width="240"></a>
+
+**[urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi)** · 4 kare · hikaye 13:18
+
+```
+Kendinden Kilitli Havlu Askısı - Nervürlü Duvar Kancası
+
+Ağırlıkla kilitlenen, havluyu düşürmeyen nervürlü duvar askısı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 209,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #havluaskisi #banyoduzeni
+```
+
+## 16:40 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kendinden-suzgecli-sabunluk-akitmali"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kendinden-suzgecli-sabunluk-akitmali/1.jpg" width="240"></a>
+
+**[urun/kendinden-suzgecli-sabunluk-akitmali](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kendinden-suzgecli-sabunluk-akitmali)** · 4 kare · hikaye 17:20
+
+```
+Kendinden Süzgeçli Sabunluk - Akıtmalı
+
+Eğimli tabanı ve akıtma ucuyla suyu lavaboya veren sabunluk.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 239,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/kendinden-suzgecli-sabunluk-akitmali
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #sabunluk #banyoduzeni
+```
+
+## 19:20 · REELS — [2026-10-20-fpv-drone-cinelog20/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-fpv-drone-cinelog20)
+
+Açıklama gönderi metniyle aynı.
+
+---
+
+# 2026-11-21 · Cumartesi
+
+## 11:10 · AYAR & REHBER
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-yuksek-akisli-nozzle"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-22-yuksek-akisli-nozzle/1.jpg" width="240"></a>
 
-**[2026-10-22-yuksek-akisli-nozzle](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-yuksek-akisli-nozzle)** · 4 kare · hikaye 18:04
+**[2026-10-22-yuksek-akisli-nozzle](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-yuksek-akisli-nozzle)** · 4 kare · hikaye 11:50
 
 ```
 Yüksek akışlı nozzle gerçekten hızlandırıyor mu? Hotend'i değiştirip dilimleyicide hızı 300 mm/s'ye çeken herkesin baskısı kısalmıyor, çünkü akış tek başına süreyi belirlemiyor.
@@ -822,19 +1388,59 @@ Hotend değiştirip "niye hızlanmadı" diyen bir arkadaşın varsa bu gönderiy
 #sermenkreatif #3dbaski #3dprinting #hotend #3dbaskiturkiye
 ```
 
-## 19:40 · REELS — [2026-10-20-fpv-drone-cinelog20/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-fpv-drone-cinelog20)
+## 13:20 · BASKI ÜRÜNLERİ
 
-Açıklama gönderi metniyle aynı.
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kumanda-standi-egimli-bolmeli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kumanda-standi-egimli-bolmeli/1.jpg" width="240"></a>
+
+**[urun/kumanda-standi-egimli-bolmeli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kumanda-standi-egimli-bolmeli)** · 4 kare · hikaye 14:00
+
+```
+Kumanda Standı - Eğimli Bölmeli
+
+TV kumandaları ve telefonlar için eğimli bölmeli masa standı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 449,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/kumanda-standi-egimli-bolmeli
+
+Masası dağınık olan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #masaustuduzenleyici #masaduzeni
+```
+
+## 17:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/moduler-masa-rafi-monitor-yukseltici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/moduler-masa-rafi-monitor-yukseltici/1.jpg" width="240"></a>
+
+**[urun/moduler-masa-rafi-monitor-yukseltici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/moduler-masa-rafi-monitor-yukseltici)** · 4 kare · hikaye 17:50
+
+```
+Modüler Masa Rafı - Monitör Yükseltici
+
+Monitörü yükseltip altına klavye alanı açan modüler masa rafı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 869,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/moduler-masa-rafi-monitor-yukseltici
+
+Evden çalışan bir arkadaşına yolla.
+
+#sermenkreatif #3dbaski #monitoryukseltici #masaduzeni
+```
 
 ---
 
-# 2026-11-13 · Cuma
+# 2026-11-22 · Pazar
 
-## 09:10 · ÜRÜN & MAĞAZA
+## 11:10 · ÜRÜN & MAĞAZA
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-creality-k2-plus"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-22-creality-k2-plus/1.jpg" width="240"></a>
 
-**[2026-10-22-creality-k2-plus](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-creality-k2-plus)** · 6 kare · hikaye 09:50
+**[2026-10-22-creality-k2-plus](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-creality-k2-plus)** · 6 kare · hikaye 11:50
 
 ```
 Creality K2 Plus Combo, 350 mm küp baskı alanı ve aktif ısıtmalı kapalı kabiniyle serinin amiral gemisi. Kapalı kabin çoğu makinede pasif, yani yalnız sıcağı içeride tutuyor; burada kabinin kendi ısıtıcısı var ve 60 °C'ye kadar çıkıyor.
@@ -854,11 +1460,63 @@ Kapalı kabinli büyük bir makine arayan bir arkadaşın varsa bu gönderiyi on
 #sermenkreatif #3dbaski #creality #3dyazici
 ```
 
-## 12:38 · PROJE & ATÖLYE
+## 13:20 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi/1.jpg" width="240"></a>
+
+**[urun/nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi)** · 4 kare · hikaye 14:00
+
+```
+Nervürlü Diş Fırçalığı Seti - 2 Bardak ve Tepsi
+
+Nervürlü iki bardak ve uyumlu tepsiden oluşan banyo seti.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 459,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #disfircaligi #banyoduzeni
+```
+
+## 17:10 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-modern-kalemlik-silindir"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nervurlu-modern-kalemlik-silindir/1.jpg" width="240"></a>
+
+**[urun/nervurlu-modern-kalemlik-silindir](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-modern-kalemlik-silindir)** · 4 kare · hikaye 17:50
+
+```
+Nervürlü Modern Kalemlik - Silindir
+
+İnce düz nervürlü, silindir formlu modern kalemlik.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 339,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/nervurlu-modern-kalemlik-silindir
+
+Masası dağınık olan arkadaşına yolla.
+
+#sermenkreatif #3dbaski #kalemlik #masaduzeni
+```
+
+## 19:50 · REELS — [2026-10-22-creality-k2-plus/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-creality-k2-plus)
+
+Açıklama gönderi metniyle aynı.
+
+---
+
+# 2026-11-23 · Pazartesi
+
+## 09:10 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi5-ekran-standi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-pi5-ekran-standi/1.jpg" width="240"></a>
 
-**[2026-10-21-pi5-ekran-standi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi5-ekran-standi)** · 4 kare · hikaye 13:18
+**[2026-10-21-pi5-ekran-standi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi5-ekran-standi)** · 4 kare · hikaye 09:50
 
 ```
 Raspberry Pi 5 ekran standı tasarlarken model çizmeden önce ölçülerin kumpasla doğrulanması gerekiyor; kartı tutmayan standın sorunu tasarım değil, ölçü.
@@ -877,8 +1535,4 @@ Pi'sini kitap yığınına yaslayarak kullanan bir arkadaşın varsa ona yolla.
 
 #sermenkreatif #maker #raspberrypi #pi5
 ```
-
-## 19:20 · REELS — [2026-10-22-creality-k2-plus/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-creality-k2-plus)
-
-Açıklama gönderi metniyle aynı.
 

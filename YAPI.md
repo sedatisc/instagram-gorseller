@@ -96,6 +96,24 @@ Buffer ücretsiz planında günde en çok 10 bekleyen paylaşım var. Sınır
 aşılırsa hikayeler şu sırayla düşüyor: kampanya, proje, rehber, mağaza.
 Baskı ürününün hikayesi düşmüyor — ürün bağlantısı oradan veriliyor.
 
+## Ürün gönderileri katalogdan geliyor
+
+Baskı ürünü gönderilerinin klasörü yok. `icerik.json`'da `klasor` alanı
+`urun/<site-slug>` biçiminde; ad, açıklama, fiyat ve görseller
+`urunler.json`'dan, o da sermenkreatif.com ürün sayfalarındaki Product
+verisinden geliyor. Gönderi metnini `arac/urun_katalog.py` üretiyor:
+ürün adı, site açıklaması, baskı notu, fiyat, ürün sayfası bağlantısı,
+"şuna yolla" cümlesi ve kategoriye göre 5 etiket.
+
+Sonucu: ürün sayfası değişince gönderi de değişiyor, elle yazılmış metin
+ve elle basılmış kare yok. Görsel yalnız siteden geliyor.
+
+`arac/katalog_cek.py` siteyi tarayıp katalogu yeniliyor,
+`arac/katalog_plan.py` yeni ürünü plana alıyor ve satıştan kalkanı
+plandan düşürüyor. İkisini `.github/workflows/katalog.yml` her gece
+23.40'ta çalıştırıyor — yeni ürün siteye girdiği gün yayın sırasına
+katılıyor.
+
 ## Komutlar
 
 ```

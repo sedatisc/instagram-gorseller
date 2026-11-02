@@ -815,43 +815,49 @@
    "klasor": "2026-10-23-sekil-cark-tahtasi",
    "kategori": "baski",
    "konu": "sekil-cark-tahtasi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "iptal",
+   "kare": 4,
+   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
   },
   {
    "klasor": "2026-10-24-cay-kahve-seti",
    "kategori": "baski",
    "konu": "cay-kahve-seti",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "iptal",
+   "kare": 4,
+   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
   },
   {
    "klasor": "2026-10-25-aktivite-tahtasi",
    "kategori": "baski",
    "konu": "aktivite-tahtasi",
-   "durum": "hazir",
-   "kare": 8
+   "durum": "iptal",
+   "kare": 8,
+   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
   },
   {
    "klasor": "2026-10-26-market-kasa-seti",
    "kategori": "baski",
    "konu": "market-kasa-seti",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "iptal",
+   "kare": 4,
+   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
   },
   {
    "klasor": "2026-10-27-meyve-sebze-seti",
    "kategori": "baski",
    "konu": "meyve-sebze-seti",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "iptal",
+   "kare": 4,
+   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
   },
   {
    "klasor": "2026-10-28-vidali-tren",
    "kategori": "baski",
    "konu": "vidali-tren",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "iptal",
+   "kare": 4,
+   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
   },
   {
    "klasor": "2026-10-29-cumhuriyet-bayrami",
@@ -865,34 +871,319 @@
    "klasor": "2026-10-29-vidali-yapim-tahtasi",
    "kategori": "baski",
    "konu": "vidali-yapim-tahtasi",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "iptal",
+   "kare": 5,
+   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
   },
   {
    "klasor": "2026-10-30-alyan-vida-oyuncagi",
    "kategori": "baski",
    "konu": "alyan-vida-oyuncagi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "iptal",
+   "kare": 4,
+   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
   },
   {
    "klasor": "2026-10-31-halka-dizme-kulesi",
    "kategori": "baski",
    "konu": "halka-dizme-kulesi",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "iptal",
+   "kare": 5,
+   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
   },
   {
    "klasor": "2026-11-01-rakam-yapbozu",
    "kategori": "baski",
    "konu": "rakam-yapbozu",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "iptal",
+   "kare": 5,
+   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
   },
   {
    "klasor": "2026-11-02-kesir-daireleri",
    "kategori": "baski",
    "konu": "kesir-daireleri",
+   "durum": "iptal",
+   "kare": 4,
+   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
+  },
+  {
+   "klasor": "urun/3-katli-kalpli-sunum-standi-cupcake-kurabiye-ve-tatli-standi",
+   "kategori": "baski",
+   "konu": "3-katli-kalpli-sunum-standi-cupcake-kurabiye-ve-tatli-standi",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/dalgali-desenli-kagit-mendil-kutusu-kapakli",
+   "kategori": "baski",
+   "konu": "dalgali-desenli-kagit-mendil-kutusu-kapakli",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/dalgali-kenarli-ayakli-dekoratif-tepsi-25-cm",
+   "kategori": "baski",
+   "konu": "dalgali-kenarli-ayakli-dekoratif-tepsi-25-cm",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/dalgali-kenarli-pasta-ve-tatli-sunum-tabagi-24-cm",
+   "kategori": "baski",
+   "konu": "dalgali-kenarli-pasta-ve-tatli-sunum-tabagi-24-cm",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/elmas-desenli-dekoratif-vazo-15-cm",
+   "kategori": "baski",
+   "konu": "elmas-desenli-dekoratif-vazo-15-cm",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/gizli-montajli-minimal-duvar-rafi-yuvarlak-uclu",
+   "kategori": "baski",
+   "konu": "gizli-montajli-minimal-duvar-rafi-yuvarlak-uclu",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/iki-katli-dalgali-kenarli-sunum-standi-25-cm",
+   "kategori": "baski",
+   "konu": "iki-katli-dalgali-kenarli-sunum-standi-25-cm",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/japandi-kedi-kopek-mama-kabi-isim-plakali",
+   "kategori": "baski",
+   "konu": "japandi-kedi-kopek-mama-kabi-isim-plakali",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek",
+   "kategori": "baski",
+   "konu": "kedi-kumu-kuregi-3-delik-boyutlu-petek-elek",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf",
+   "kategori": "baski",
+   "konu": "kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo",
+   "kategori": "baski",
+   "konu": "lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/minimal-duvar-askisi-yapistirmali-2-li-kanca",
+   "kategori": "baski",
+   "konu": "minimal-duvar-askisi-yapistirmali-2-li-kanca",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/modern-tealight-mumluk-seti-3-lu",
+   "kategori": "baski",
+   "konu": "modern-tealight-mumluk-seti-3-lu",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/nervurlu-dekoratif-kalp-biblo-japandi-15-cm",
+   "kategori": "baski",
+   "konu": "nervurlu-dekoratif-kalp-biblo-japandi-15-cm",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/spiral-dekoratif-yilbasi-agaci-yildizli-15-cm",
+   "kategori": "baski",
+   "konu": "spiral-dekoratif-yilbasi-agaci-yildizli-15-cm",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/telefon-tutuculu-masaustu-duzenleyici-kalemlikli",
+   "kategori": "baski",
+   "konu": "telefon-tutuculu-masaustu-duzenleyici-kalemlikli",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/yedek-rulo-hazneli-ayakli-tuvalet-kagitligi-nervurlu",
+   "kategori": "baski",
+   "konu": "yedek-rulo-hazneli-ayakli-tuvalet-kagitligi-nervurlu",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/yukseltilmis-kedi-kopek-mama-kabi-standi-isimli",
+   "kategori": "baski",
+   "konu": "yukseltilmis-kedi-kopek-mama-kabi-standi-isimli",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto",
+   "kategori": "baski",
+   "konu": "5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice",
+   "kategori": "baski",
+   "konu": "ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli",
+   "kategori": "baski",
+   "konu": "cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/dekoratif-kozalak-figuru-yilbasi-ve-kis-dekoru-12-cm",
+   "kategori": "baski",
+   "konu": "dekoratif-kozalak-figuru-yilbasi-ve-kis-dekoru-12-cm",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/japandi-ayakli-havlu-pecetelik-kulplu",
+   "kategori": "baski",
+   "konu": "japandi-ayakli-havlu-pecetelik-kulplu",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm",
+   "kategori": "baski",
+   "konu": "japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi",
+   "kategori": "baski",
+   "konu": "japandi-dekor-seti-vazo-mumluk-ve-tepsi",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/japandi-geyik-figuru-yilbasi-dekoru-17-5-cm",
+   "kategori": "baski",
+   "konu": "japandi-geyik-figuru-yilbasi-dekoru-17-5-cm",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/ayakli-nervurlu-saksi-tabakli",
+   "kategori": "baski",
+   "konu": "ayakli-nervurlu-saksi-tabakli",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/bitki-sulama-kuresi-yavas-sulama-aparati",
+   "kategori": "baski",
+   "konu": "bitki-sulama-kuresi-yavas-sulama-aparati",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/dis-macunu-standi-bas-asagi-tutucu",
+   "kategori": "baski",
+   "konu": "dis-macunu-standi-bas-asagi-tutucu",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/eriyen-mum-gorunumlu-led-mumluk",
+   "kategori": "baski",
+   "konu": "eriyen-mum-gorunumlu-led-mumluk",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec",
+   "kategori": "baski",
+   "konu": "girdapli-meyve-sebze-yikama-kabi-ve-suzgec",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/japandi-sungerlik-ve-sabunluk-suzgecli",
+   "kategori": "baski",
+   "konu": "japandi-sungerlik-ve-sabunluk-suzgecli",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi",
+   "kategori": "baski",
+   "konu": "kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/kasik-ve-tencere-kapagi-tutucu",
+   "kategori": "baski",
+   "konu": "kasik-ve-tencere-kapagi-tutucu",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi",
+   "kategori": "baski",
+   "konu": "kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/kendinden-suzgecli-sabunluk-akitmali",
+   "kategori": "baski",
+   "konu": "kendinden-suzgecli-sabunluk-akitmali",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/kumanda-standi-egimli-bolmeli",
+   "kategori": "baski",
+   "konu": "kumanda-standi-egimli-bolmeli",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/moduler-masa-rafi-monitor-yukseltici",
+   "kategori": "baski",
+   "konu": "moduler-masa-rafi-monitor-yukseltici",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi",
+   "kategori": "baski",
+   "konu": "nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "urun/nervurlu-modern-kalemlik-silindir",
+   "kategori": "baski",
+   "konu": "nervurlu-modern-kalemlik-silindir",
    "durum": "hazir",
    "kare": 4
   }

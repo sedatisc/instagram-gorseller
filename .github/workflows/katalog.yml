@@ -1,0 +1,60 @@
+name: Ürün kataloğu
+
+# Mağazadaki baskı ürünlerini tarayıp urunler.json'u yeniler, yeni
+# ürünleri plana sokar. Her gece 23.40'ta (TSİ) ve elle çalışır.
+
+on:
+  workflow_dispatch:
+    inputs:
+      kuru:
+        description: "Kuru çalışma — dosyaya yazılmaz"
+        type: boolean
+        default: false
+  schedule:
+    - cron: "40 20 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: urun-katalogu
+  cancel-in-progress: false
+
+jobs:
+  tara:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Katalogu tara
+        run: |
+          if [ "${{ inputs.kuru }}" = "true" ]; then
+            python3 arac/katalog_cek.py --kuru
+          else
+            python3 arac/katalog_cek.py
+          fi
+
+      - name: Yeni ürünleri plana al
+        if: ${{ inputs.kuru != true }}
+        run: python3 arac/katalog_plan.py
+
+      - name: Planı üret ve kaydet
+        if: ${{ inputs.kuru != true }}
+        run: |
+          python3 sira.py > /dev/null || true
+          python3 paket.py > /dev/null || true
+          git config user.name  "yayin-botu"
+          git config user.email "noreply@github.com"
+          git add -A urunler.json icerik.json YAYIN-LISTESI.md \
+                     YAYIN-PAKETI.md yayin-paketi.html
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok."
+          else
+            git commit -m "Ürün kataloğu güncellendi (otomatik)"
+            git pull --rebase --autostash origin main
+            git push origin HEAD:main
+          fi

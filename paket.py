@@ -81,6 +81,9 @@ def _korunur(w):
 
 def baslik(klasor):
     """Kapak manşetinden okunur bir başlık çıkar (Türkçe büyük/küçük harf)."""
+    ad = sira.UK.ad(klasor)
+    if ad:
+        return ad
     yol = os.path.join(KOK, klasor, "spec.json")
     if not os.path.exists(yol):
         # Referans tablosu gönderilerinde spec.json yok, rehber.json var
