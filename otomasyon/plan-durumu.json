@@ -1,4 +1,4 @@
 {
- "not": "Planin takvime oturdugu gun. yayinla.py yaziyor, sira.py okuyor. 'baslangic' bos oldugu surece plan 'bugunden itibaren' gosteriliyor; ilk gercek yayinda o gune cakiliyor. Kacirilan is defteri kalkti: icerik.json'da durumu 'hazir' kalan is sirasini koruyor, ertesi gune kendiliginden kayiyor.",
- "baslangic": null
+ "not": "Planin takvime oturdugu gun. 3 Kasim Metricool'da elle planlandi; turetilen plan 4 Kasim'dan basliyor ve Buffer o gun devralliyor. sira.py bu tarihi okuyor; bos olsa plan bugunden baslar. icerik.json'da durumu 'hazir' kalan is sirasini koruyor, ertesi gune kendiliginden kayiyor.",
+ "baslangic": "2026-11-04"
 }
