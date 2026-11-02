@@ -707,8 +707,9 @@
    "klasor": "2026-10-20-neden-sermen",
    "kategori": "magaza",
    "konu": "neden-sermen",
-   "durum": "hazir",
-   "kare": 1
+   "durum": "iptal",
+   "kare": 1,
+   "neden": "Kurumsal 'neden biz' tarzı gönderi istenmiyor"
   },
   {
    "klasor": "2026-10-20-pixhawk-pano",

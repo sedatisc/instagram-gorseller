@@ -57,6 +57,24 @@ Planın birinci günü: ilk gerçek yayında takvime çivileniyor
 (`otomasyon/plan-durumu.json`). O güne kadar "bugünden itibaren"
 gösteriliyor; günün ilk gönderi saati geçtiyse yarından başlıyor.
 
+## Slotlar ve bağlantılar
+
+Günde beş slot var: rehber, baski, baski2, magaza, proje. Baskı ürünü
+günde iki kere çıkıyor; `sira.GUNLUK` bir kategorinin günde kaç slotu
+olduğunu söylüyor, slot adını `sira.slot_adi()` üretiyor. Kuyruk tek:
+baski kategorisindeki işler sırayla iki slota dağılıyor.
+
+Ürün bağlantıları `baglantilar.json`'da. Anahtar, icerik.json'daki `konu`.
+Gönderi metninde `{urun_linki}` o adrese dönüyor; ürünün kendi sayfası
+boşsa `varsayilan` (mağaza adresi) yazılıyor. Baskı ürünü ve mağaza
+gönderilerinin hikayesi de aynı bağlantıyı taşıyor: Buffer şemasında
+hikaye bağlantı alanı varsa etiket olarak, yoksa hikaye metnine yazılarak.
+Hangisi olduğunu `buffer_gonder.py --kontrol` söylüyor.
+
+Buffer ücretsiz planında günde en çok 10 bekleyen paylaşım var. Sınır
+aşılırsa hikayeler şu sırayla düşüyor: kampanya, proje, rehber, mağaza.
+Baskı ürününün hikayesi düşmüyor — ürün bağlantısı oradan veriliyor.
+
 ## Komutlar
 
 ```

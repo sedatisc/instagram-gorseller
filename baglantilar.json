@@ -1,0 +1,20 @@
+{
+ "not": "Ürün bağlantıları. Anahtar: icerik.json'daki 'konu' ya da klasör adı. Gönderi metnindeki {urun_linki} ve hikayenin bağlantı etiketi buradan besleniyor. Bir ürünün kendi sayfası yoksa 'varsayilan' kullanılıyor.",
+ "varsayilan": "https://skteknolojileri.com",
+ "magaza": "https://skteknolojileri.com",
+ "trendyol": "https://ty.gl/wvxkl6ythlckv",
+ "urun": {
+  "sekil-cark-tahtasi": "",
+  "cay-kahve-seti": "",
+  "aktivite-tahtasi": "",
+  "market-kasa-seti": "",
+  "meyve-sebze-seti": "",
+  "vidali-tren": "",
+  "vidali-yapim-tahtasi": "",
+  "alyan-vida-oyuncagi": "",
+  "halka-dizme-kulesi": "",
+  "rakam-yapbozu": "",
+  "kesir-daireleri": "",
+  "geometrik-siralama": ""
+ }
+}

@@ -18,8 +18,9 @@ Okul öncesi çocuğu olan bir arkadaşın varsa bu gönderiyi ona yolla.
 
 ## İlk yorum
 
-Bağlantı: {trendyol_linki}
+Bağlantı: {urun_linki}
 
 ## Doğrulanmayanlar
 
-- Ürün bağlantısı — kullanıcı verecek.
+- Ürünün kendi sayfası henüz yok; baglantilar.json'da boş.
+  Boş kaldığı sürece mağaza adresi yazılıyor.

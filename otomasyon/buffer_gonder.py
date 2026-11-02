@@ -37,7 +37,7 @@ import yayinla                                           # noqa: E402
 UC = "https://api.buffer.com"
 DEFTER = os.path.join(KOK, "otomasyon", "buffer-defter.json")
 RAPOR = os.path.join(KOK, "otomasyon", "SON-BUFFER.md")
-MAGAZA = "Trendyol mağazamız: ty.gl/wvxkl6ythlckv"
+BAGLANTI = os.path.join(KOK, "baglantilar.json")
 AZAMI_ETIKET = 5          # Buffer, Instagram gönderisinde en çok 5 hashtag
 AZAMI_METIN = 2200
 AZAMI_GUNLUK = 10         # ücretsiz planın bekleyen paylaşım sınırı
@@ -91,6 +91,24 @@ def _alanlar(ad):
     return d["__type"] or {}
 
 
+def ig_meta_alanlari():
+    """metadata.instagram altındaki tüm girdi alanları.
+
+    Hikayeye bağlantı etiketi koyulabiliyor mu, ücretsiz planda hangi alan
+    var — belgede yazmıyor, şemaya soruyoruz."""
+    giris = _alanlar("CreatePostInput")
+    meta = next((f for f in giris.get("inputFields", [])
+                 if f["name"] == "metadata"), None)
+    if not meta:
+        return []
+    ig = next((f for f in _alanlar(_tur_adi(meta["type"]))
+               .get("inputFields", []) if f["name"] == "instagram"), None)
+    if not ig:
+        return []
+    return [(f["name"], _tur_adi(f["type"]))
+            for f in _alanlar(_tur_adi(ig["type"])).get("inputFields", [])]
+
+
 def ig_turleri():
     """Instagram gönderi türü enum değerlerini şemadan okur.
 
@@ -123,7 +141,21 @@ def ig_turleri():
     return harita
 
 
-def gonder(kanal, metin, varliklar, zaman, tur, turler):
+# metadata.instagram'da hikaye bağlantısını taşıyan alanın adı. Şemada
+# yoksa None kalıyor ve bağlantı gönderilmiyor — uydurma alan yollamıyoruz.
+HIKAYE_LINK_ALANI = None
+LINK_ADAYLARI = ("linkStickerUrl", "storyLinkUrl", "link", "linkUrl",
+                 "swipeUpUrl")
+
+
+def hikaye_link_alani(alanlar):
+    for ad, _t in alanlar:
+        if ad in LINK_ADAYLARI:
+            return ad
+    return None
+
+
+def gonder(kanal, metin, varliklar, zaman, tur, turler, baglanti=None):
     """Tek paylaşımı Buffer'a belirli saatte planlar."""
     utc = (zaman - timedelta(hours=3)).strftime("%Y-%m-%dT%H:%M:00.000Z")
     q = """mutation P($i: CreatePostInput!) {
@@ -138,10 +170,41 @@ def gonder(kanal, metin, varliklar, zaman, tur, turler):
              "metadata": {"instagram": {"type": turler[tur]}}}
     if tur == "reel":
         girdi["metadata"]["instagram"]["shouldShareToFeed"] = True
+    if tur == "story" and baglanti and HIKAYE_LINK_ALANI:
+        girdi["metadata"]["instagram"][HIKAYE_LINK_ALANI] = baglanti
     d = _sorgu(q, {"i": girdi})["createPost"]
     if "post" not in d:
         raise Hata(d.get("message", "bilinmeyen hata"))
     return d["post"]["id"]
+
+
+# ------------------------------------------------------------ bağlantı
+def _baglantilar():
+    try:
+        with open(BAGLANTI, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def urun_linki(klasor):
+    """Ürünün kendi sayfası; yoksa mağaza adresi."""
+    b = _baglantilar()
+    konu = None
+    for i in sira.oku()["icerik"]:
+        if i["klasor"] == klasor:
+            konu = i.get("konu") or klasor
+            break
+    u = (b.get("urun") or {}).get(konu or klasor) or ""
+    return u or b.get("varsayilan") or ""
+
+
+def _magaza_satiri(klasor):
+    u = urun_linki(klasor)
+    if not u:
+        return ""
+    kisa = re.sub(r"^https?://", "", u).rstrip("/")
+    return "Ürün sayfası: " + kisa
 
 
 # ------------------------------------------------------------ metin
@@ -149,12 +212,16 @@ def metin_kur(klasor):
     """Gönderi metni; ilk yorum ücretsiz planda yok, metnin sonuna iner."""
     govde, yorum = yayinla.metin_oku(klasor)
     govde = govde or ""
+    MAGAZA = _magaza_satiri(klasor)
     yorum = re.sub(r"\*\*(.+?)\*\*", r"\1", yorum or "")
-    yorum = yorum.replace("Bağlantı: {trendyol_linki}", MAGAZA)
-    yorum = yorum.replace("{trendyol_linki}", MAGAZA)
+    for yer in ("Bağlantı: {urun_linki}", "{urun_linki}",
+                "Bağlantı: {trendyol_linki}", "{trendyol_linki}"):
+        yorum = yorum.replace(yer, MAGAZA)
     if yorum:
         govde = govde.replace("Bağlantı ilk yorumda.", MAGAZA
                               if MAGAZA in yorum else "")
+    elif MAGAZA:
+        govde = govde.replace("Bağlantı ilk yorumda.", MAGAZA)
     satirlar = govde.rstrip().split("\n")
     etiket = []
     if satirlar and satirlar[-1].lstrip().startswith("#"):
@@ -198,6 +265,12 @@ def main():
         kanal, ad = kanal_bul()
         print("Kanal bağlı: %s (%s)" % (ad, kanal))
         print("Instagram türleri: %s" % ig_turleri())
+        alanlar = ig_meta_alanlari()
+        print("metadata.instagram alanları: %s"
+              % ", ".join("%s: %s" % a for a in alanlar))
+        link = hikaye_link_alani(alanlar)
+        print("Hikaye bağlantı alanı: %s"
+              % (link or "YOK — hikayeye bağlantı etiketi konulamıyor"))
         with open(RAPOR, "w", encoding="utf-8") as f:
             f.write("# Buffer kontrolü\n\nKanal: %s\n" % ad)
         return 0
@@ -223,12 +296,21 @@ def main():
     isler = [i for i in yayinla.gundem() if i["zaman"].startswith(gun_s)]
     # Ücretsiz plan: kanal başına aynı anda en çok 10 bekleyen paylaşım.
     # Fazlası varsa önce kampanya hikayesi, sonra sondan hikayeler düşüyor.
+    # Sınırı aşan hikayeler bu sırayla düşüyor. Baskı ürününün hikayesi
+    # hiç düşmüyor: ürün bağlantısı oradan veriliyor.
+    DUSME_SIRASI = ["kampanya", "proje", "rehber", "magaza"]
     while len(isler) > AZAMI_GUNLUK:
         hik = [i for i in isler if i["tur"] == "hikaye"]
-        if not hik:
+        dus = None
+        for slot in DUSME_SIRASI:
+            aday = [i for i in hik if i["slot"] == slot]
+            if aday:
+                dus = aday[-1]
+                break
+        if dus is None:
+            print("Sınır %d — düşürülecek hikaye kalmadı, %d iş gidiyor."
+                  % (AZAMI_GUNLUK, len(isler)))
             break
-        kamp = [i for i in hik if i["slot"] == "kampanya"]
-        dus = (kamp or hik)[-1]
         print("Sınır %d — düşen: %s" % (AZAMI_GUNLUK, dus["anahtar"]))
         isler.remove(dus)
     tur_ad = {"gonderi": "post", "hikaye": "story", "reels": "reel"}
@@ -238,9 +320,14 @@ def main():
 
     kanal, turler = None, None
     if not kuru:
+        global HIKAYE_LINK_ALANI
         kanal, ad = kanal_bul()
         turler = ig_turleri()
+        HIKAYE_LINK_ALANI = hikaye_link_alani(ig_meta_alanlari())
         print("Kanal: %s · türler: %s" % (ad, turler))
+        print("Hikaye bağlantı alanı: %s"
+              % (HIKAYE_LINK_ALANI or "şemada yok — hikayeye bağlantı "
+                 "eklenemiyor, bağlantı metne yazılıyor"))
 
     for is_ in isler:
         anahtar = is_["anahtar"]
@@ -249,13 +336,24 @@ def main():
         zaman = datetime.fromisoformat(is_["zaman"])
         try:
             v = varlik(is_, sha)
-            metin = "" if is_["tur"] == "hikaye" else metin_kur(is_["klasor"])
+            link = urun_linki(is_["klasor"]) if is_["slot"].startswith(
+                ("baski", "magaza")) else ""
+            if is_["tur"] == "hikaye":
+                # Hikayeye bağlantı etiketi konabiliyorsa oradan, konamıyorsa
+                # hikaye metnine yazılıyor; ürün sayfası her iki durumda da
+                # hikayede görünüyor.
+                metin = "" if HIKAYE_LINK_ALANI or not link else \
+                    re.sub(r"^https?://", "", link).rstrip("/")
+            else:
+                metin = metin_kur(is_["klasor"])
             if kuru:
-                print("→ %s · %s · %d medya · metin %d kr"
-                      % (is_["zaman"], anahtar, len(v), len(metin)))
+                print("→ %s · %s · %d medya · metin %d kr%s"
+                      % (is_["zaman"], anahtar, len(v), len(metin),
+                         " · bağlantı " + link if link else ""))
                 satir.append("| %s | %s | kuru |" % (is_["zaman"], anahtar))
                 continue
-            pid = gonder(kanal, metin, v, zaman, tur_ad[is_["tur"]], turler)
+            pid = gonder(kanal, metin, v, zaman, tur_ad[is_["tur"]], turler,
+                         link)
             defter["gonderilen"].append({"anahtar": anahtar, "buffer": pid,
                                          "zaman": is_["zaman"]})
             json.dump(defter, open(DEFTER, "w", encoding="utf-8"),

@@ -22,30 +22,43 @@ from datetime import date, datetime, timedelta
 GUN = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma",
        "Cumartesi", "Pazar"]
 
-SLOTLAR = ["rehber", "baski", "magaza", "proje"]
+KATEGORILER = ["rehber", "baski", "magaza", "proje"]
+
+# Bir kategorinin günde kaç slotu var. Baskı ürünü günde iki kere çıkıyor:
+# satılan şey o, akışta en sık görünmesi gereken de o.
+GUNLUK = {"rehber": 1, "baski": 2, "magaza": 1, "proje": 1}
+
+
+def slot_adi(kat, sira_no):
+    """Kategorinin o günkü kaçıncı slotu — baski, baski2 …"""
+    return kat if sira_no == 0 else "%s%d" % (kat, sira_no + 1)
+
+
+SLOTLAR = ["rehber", "baski", "magaza", "baski2", "proje"]
 
 BASLIK = {"rehber": "AYAR & REHBER",
           "baski": "BASKI ÜRÜNLERİ",
+          "baski2": "BASKI ÜRÜNLERİ",
           "magaza": "ÜRÜN & MAĞAZA",
           "proje": "PROJE & ATÖLYE",
           "kampanya": "KAMPANYA"}
 
 # gün indeksi -> {slot: "SS:DD"} + "reels"
 IZGARA = {
-    0: {"rehber": "08:12", "baski": "12:38", "magaza": "17:24",
-        "proje": "19:40", "reels": "21:10"},            # Pazartesi
-    1: {"rehber": "08:12", "baski": "12:38", "magaza": "17:24",
-        "reels": "19:36", "proje": "20:42"},            # Salı
-    2: {"rehber": "08:12", "baski": "12:38", "magaza": "17:24",
-        "reels": "19:36", "proje": "20:42"},            # Çarşamba
-    3: {"rehber": "08:12", "baski": "12:38", "magaza": "17:24",
-        "reels": "19:36", "proje": "20:42"},            # Perşembe
-    4: {"rehber": "08:12", "baski": "12:38", "magaza": "16:40",
-        "proje": "18:10", "reels": "20:30"},            # Cuma
-    5: {"rehber": "11:10", "baski": "12:20", "magaza": "16:50",
-        "reels": "19:20", "proje": "20:10"},            # Cumartesi
-    6: {"rehber": "11:10", "baski": "12:20", "magaza": "17:10",
-        "reels": "19:50", "proje": "21:00"},            # Pazar
+    0: {"rehber": "08:12", "baski": "12:38", "baski2": "15:10",
+        "magaza": "17:24", "proje": "19:40", "reels": "21:10"},   # Pazartesi
+    1: {"rehber": "08:12", "baski": "12:38", "baski2": "15:10",
+        "magaza": "17:24", "reels": "19:36", "proje": "20:42"},   # Salı
+    2: {"rehber": "08:12", "baski": "12:38", "baski2": "15:10",
+        "magaza": "17:24", "reels": "19:36", "proje": "20:42"},   # Çarşamba
+    3: {"rehber": "08:12", "baski": "12:38", "baski2": "15:10",
+        "magaza": "17:24", "reels": "19:36", "proje": "20:42"},   # Perşembe
+    4: {"rehber": "08:12", "baski": "12:38", "baski2": "14:50",
+        "magaza": "16:40", "proje": "18:10", "reels": "20:30"},   # Cuma
+    5: {"rehber": "11:10", "baski": "12:20", "baski2": "14:30",
+        "magaza": "16:50", "reels": "19:20", "proje": "20:10"},   # Cumartesi
+    6: {"rehber": "11:10", "baski": "12:20", "baski2": "14:40",
+        "magaza": "17:10", "reels": "19:50", "proje": "21:00"},   # Pazar
 }
 
 HIKAYE_GECIKME = 40      # gönderiden kaç dakika sonra
@@ -105,7 +118,7 @@ def hazirlar(d=None):
     girmiyor; aynı iş ikinci kez paylaşılmasın diye kuyruk, yayınlanan
     konuların listesiyle başlıyor."""
     d = d or oku()
-    out = {k: [] for k in SLOTLAR}
+    out = {k: [] for k in KATEGORILER}
     gorulen = {i.get("konu") or i["klasor"] for i in d["icerik"]
                if i.get("durum") == "yayinlandi"}
     for i in d["icerik"]:
@@ -129,29 +142,19 @@ def _reelsleri_yay(out):
     da kaybolmuyor."""
     dolu = set()
     derin = max((len(v) for v in out.values()), default=0)
-    for g in range(derin):
-        for kat in SLOTLAR:
+    for n in range(derin):
+        for kat in KATEGORILER:
             lst = out[kat]
-            if g >= len(lst) or not lst[g].get("reels"):
+            if n >= len(lst) or not lst[n].get("reels"):
                 continue
+            g = n // GUNLUK[kat]
             if g not in dolu:
                 dolu.add(g)
                 continue
-            for j in range(g + 1, len(lst)):
+            for j in range(n + 1, len(lst)):
                 if not lst[j].get("reels"):
-                    lst[g], lst[j] = lst[j], lst[g]
+                    lst[n], lst[j] = lst[j], lst[n]
                     break
-            else:
-                continue
-            if g not in dolu:
-                dolu.add(g)
-    # Yer değiştirmeler sonrası günleri yeniden işaretliyoruz.
-    dolu = set()
-    for g in range(derin):
-        for kat in SLOTLAR:
-            lst = out[kat]
-            if g < len(lst) and lst[g].get("reels"):
-                dolu.add(g)
     return out
 
 
@@ -163,10 +166,12 @@ def kuyruk():
     bas = baslangic()
     slotlar = []
     for kat, lst in hazirlar(d).items():
+        gunluk = GUNLUK[kat]
         for i, kayit in enumerate(lst):
-            slotlar.append({"klasor": kayit["klasor"], "slot": kat,
-                            "gun": i,
-                            "tarih": (bas + timedelta(days=i)).isoformat()})
+            g, j = divmod(i, gunluk)
+            slotlar.append({"klasor": kayit["klasor"],
+                            "slot": slot_adi(kat, j), "gun": g,
+                            "tarih": (bas + timedelta(days=g)).isoformat()})
     uyum = {"kuyruk_bekleyen": {"beklemede": [
         {"klasor": i["klasor"]} for i in d["icerik"]
         if i.get("durum") in ("beklemede", "iptal")]}}
