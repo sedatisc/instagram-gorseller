@@ -120,7 +120,7 @@ def gundem():
         if s["klasor"] in bekle:
             continue
         g = date.fromisoformat(s["tarih"]).weekday()
-        hhmm = sira.IZGARA[g][s["slot"]]
+        hhmm = sira.saat(g, s["slot"])
         isler.append({"anahtar": "%s|gonderi" % s["klasor"],
                       "zaman": "%sT%s" % (s["tarih"], hhmm),
                       "tur": "gonderi", "klasor": s["klasor"],

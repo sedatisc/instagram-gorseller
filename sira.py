@@ -24,17 +24,31 @@ GUN = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma",
 
 KATEGORILER = ["rehber", "baski", "magaza", "proje"]
 
-# Bir kategorinin günde kaç slotu var. Baskı ürünü günde iki kere çıkıyor:
-# satılan şey o, akışta en sık görünmesi gereken de o.
-GUNLUK = {"rehber": 1, "baski": 2, "magaza": 1, "proje": 1}
+# Günde üç gönderi var. Beş gönderi aynı gün akışta birbiriyle yarışıyordu;
+# Instagram'ın kendi ölçümünde gönderiler birbirini bastırıyor ve kişi başı
+# etkileşim düşüyor. İkisi baskı ürünü — satılan şey o. Üçüncü slot her gün
+# sırayla rehber, mağaza ve projeye geçiyor.
+GUNLUK = {"baski": 2}
+DONEN = ["rehber", "magaza", "proje"]
 
 
-def slot_adi(kat, sira_no):
-    """Kategorinin o günkü kaçıncı slotu — baski, baski2 …"""
-    return kat if sira_no == 0 else "%s%d" % (kat, sira_no + 1)
+def gun_no(kat, i):
+    """Kategorinin i. işi planın kaçıncı gününe düşüyor."""
+    if kat in DONEN:
+        return i * len(DONEN) + DONEN.index(kat)
+    return i // GUNLUK.get(kat, 1)
 
 
-SLOTLAR = ["rehber", "baski", "magaza", "baski2", "proje"]
+def slot_adi(kat, i):
+    """İşin slot adı — baski, baski2, rehber …"""
+    if kat in DONEN:
+        return kat
+    n = GUNLUK.get(kat, 1)
+    j = i % n
+    return kat if j == 0 else "%s%d" % (kat, j + 1)
+
+
+SLOTLAR = ["rehber", "magaza", "proje", "baski", "baski2"]
 
 BASLIK = {"rehber": "AYAR & REHBER",
           "baski": "BASKI ÜRÜNLERİ",
@@ -43,22 +57,22 @@ BASLIK = {"rehber": "AYAR & REHBER",
           "proje": "PROJE & ATÖLYE",
           "kampanya": "KAMPANYA"}
 
-# gün indeksi -> {slot: "SS:DD"} + "reels"
+# gün indeksi -> {slot: "SS:DD"}. "doner" sırayla gelen üçüncü slotun saati.
 IZGARA = {
-    0: {"rehber": "08:12", "baski": "12:38", "baski2": "15:10",
-        "magaza": "17:24", "proje": "19:40", "reels": "21:10"},   # Pazartesi
-    1: {"rehber": "08:12", "baski": "12:38", "baski2": "15:10",
-        "magaza": "17:24", "reels": "19:36", "proje": "20:42"},   # Salı
-    2: {"rehber": "08:12", "baski": "12:38", "baski2": "15:10",
-        "magaza": "17:24", "reels": "19:36", "proje": "20:42"},   # Çarşamba
-    3: {"rehber": "08:12", "baski": "12:38", "baski2": "15:10",
-        "magaza": "17:24", "reels": "19:36", "proje": "20:42"},   # Perşembe
-    4: {"rehber": "08:12", "baski": "12:38", "baski2": "14:50",
-        "magaza": "16:40", "proje": "18:10", "reels": "20:30"},   # Cuma
-    5: {"rehber": "11:10", "baski": "12:20", "baski2": "14:30",
-        "magaza": "16:50", "reels": "19:20", "proje": "20:10"},   # Cumartesi
-    6: {"rehber": "11:10", "baski": "12:20", "baski2": "14:40",
-        "magaza": "17:10", "reels": "19:50", "proje": "21:00"},   # Pazar
+    0: {"doner": "09:10", "baski": "12:38", "baski2": "17:24",
+        "reels": "19:40"},                                        # Pazartesi
+    1: {"doner": "09:10", "baski": "12:38", "baski2": "17:24",
+        "reels": "19:40"},                                        # Salı
+    2: {"doner": "09:10", "baski": "12:10", "baski2": "17:24",
+        "reels": "19:40"},                                        # Çarşamba
+    3: {"doner": "09:05", "baski": "12:38", "baski2": "17:24",
+        "reels": "19:40"},                                        # Perşembe
+    4: {"doner": "09:10", "baski": "12:38", "baski2": "16:40",
+        "reels": "19:20"},                                        # Cuma
+    5: {"doner": "11:10", "baski": "13:20", "baski2": "17:10",
+        "reels": "19:20"},                                        # Cumartesi
+    6: {"doner": "11:10", "baski": "13:20", "baski2": "17:10",
+        "reels": "19:50"},                                        # Pazar
 }
 
 HIKAYE_GECIKME = 40      # gönderiden kaç dakika sonra
@@ -147,7 +161,7 @@ def _reelsleri_yay(out):
             lst = out[kat]
             if n >= len(lst) or not lst[n].get("reels"):
                 continue
-            g = n // GUNLUK[kat]
+            g = gun_no(kat, n)
             if g not in dolu:
                 dolu.add(g)
                 continue
@@ -166,11 +180,10 @@ def kuyruk():
     bas = baslangic()
     slotlar = []
     for kat, lst in hazirlar(d).items():
-        gunluk = GUNLUK[kat]
         for i, kayit in enumerate(lst):
-            g, j = divmod(i, gunluk)
+            g = gun_no(kat, i)
             slotlar.append({"klasor": kayit["klasor"],
-                            "slot": slot_adi(kat, j), "gun": g,
+                            "slot": slot_adi(kat, i), "gun": g,
                             "tarih": (bas + timedelta(days=g)).isoformat()})
     uyum = {"kuyruk_bekleyen": {"beklemede": [
         {"klasor": i["klasor"]} for i in d["icerik"]
@@ -236,6 +249,8 @@ def gunler(slotlar):
 
 
 def saat(g, slot):
+    if slot in DONEN:
+        return IZGARA[g]["doner"]
     return IZGARA[g][slot]
 
 

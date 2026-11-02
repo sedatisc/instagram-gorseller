@@ -59,10 +59,17 @@ gösteriliyor; günün ilk gönderi saati geçtiyse yarından başlıyor.
 
 ## Slotlar ve bağlantılar
 
-Günde beş slot var: rehber, baski, baski2, magaza, proje. Baskı ürünü
-günde iki kere çıkıyor; `sira.GUNLUK` bir kategorinin günde kaç slotu
-olduğunu söylüyor, slot adını `sira.slot_adi()` üretiyor. Kuyruk tek:
-baski kategorisindeki işler sırayla iki slota dağılıyor.
+Günde üç gönderi, bir reels ve gönderi başına bir hikaye var. İkisi
+baskı ürünü (`baski`, `baski2` slotları, tek kuyruktan); üçüncü slot her
+gün sırayla rehber, mağaza ve projeye geçiyor (`sira.DONEN`). Saatini
+ızgaradaki `doner` veriyor. Bir işin hangi güne ve hangi slota düştüğünü
+`sira.gun_no()` ile `sira.slot_adi()` hesaplıyor.
+
+Beş gönderiden üçe inildi: aynı gün yayımlanan gönderiler akışta
+birbiriyle yarışıyor, kişi başı etkileşim düşüyor. Keşfet'e düşüren şey
+gönderi sayısı değil, takipçi olmayana gösterilme sinyalleri — izlenme
+süresi, gönderim (paylaş/DM) ve erişim başına beğeni. Onun için günde bir
+reels sabit: reels takipçi olmayana ulaşan tek biçim.
 
 Ürün bağlantıları `baglantilar.json`'da. Anahtar, icerik.json'daki `konu`.
 Gönderi metninde `{urun_linki}` o adrese dönüyor; ürünün kendi sayfası
