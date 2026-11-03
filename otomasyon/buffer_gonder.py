@@ -91,6 +91,11 @@ def _alanlar(ad):
     return d["__type"] or {}
 
 
+def _zorunlu(t):
+    """Alan NON_NULL mı — şema kindine bakıyor."""
+    return bool(t) and t.get("kind") == "NON_NULL"
+
+
 def ig_meta_alanlari():
     """metadata.instagram altındaki tüm girdi alanları.
 
@@ -105,7 +110,7 @@ def ig_meta_alanlari():
                .get("inputFields", []) if f["name"] == "instagram"), None)
     if not ig:
         return []
-    return [(f["name"], _tur_adi(f["type"]))
+    return [(f["name"], _tur_adi(f["type"]), _zorunlu(f["type"]))
             for f in _alanlar(_tur_adi(ig["type"])).get("inputFields", [])]
 
 
@@ -145,19 +150,26 @@ def ig_turleri():
 # yoksa None kalıyor ve bağlantı gönderilmiyor — uydurma alan yollamıyoruz.
 HIKAYE_LINK_ALANI = None
 ILK_YORUM_VAR = False
+ZORUNLU_ALAN = []
+
+# Instagram, yapay zekâ ile üretilmiş ya da belirgin değiştirilmiş içeriğin
+# beyan edilmesini istiyor; Buffer bu beyanı zorunlu alan yapmış. Ürün
+# görselleri Higgsfield'da üretiliyor, şablonla basılan kareler değil.
+YZ_BEYANI = {"baski": True, "magaza": False, "rehber": False,
+             "proje": False, "kampanya": False}
 LINK_ADAYLARI = ("linkStickerUrl", "storyLinkUrl", "link", "linkUrl",
                  "swipeUpUrl")
 
 
 def hikaye_link_alani(alanlar):
-    for ad, _t in alanlar:
+    for ad, _t, _z in alanlar:
         if ad in LINK_ADAYLARI:
             return ad
     return None
 
 
 def gonder(kanal, metin, varliklar, zaman, tur, turler, baglanti=None,
-           yorum=None):
+           yorum=None, yz=False):
     """Tek paylaşımı Buffer'a belirli saatte planlar."""
     utc = (zaman - timedelta(hours=3)).strftime("%Y-%m-%dT%H:%M:00.000Z")
     q = """mutation P($i: CreatePostInput!) {
@@ -170,8 +182,22 @@ def gonder(kanal, metin, varliklar, zaman, tur, turler, baglanti=None,
              "schedulingType": "automatic", "mode": "customScheduled",
              "dueAt": utc, "assets": varliklar,
              "metadata": {"instagram": {"type": turler[tur]}}}
+    ig = girdi["metadata"]["instagram"]
+    # Şemada zorunlu olan alanlar boş bırakılamıyor; gönderimin tamamı
+    # "required field" hatasıyla dönüyordu.
+    for a in ZORUNLU_ALAN:
+        if a == "isAiGenerated":
+            ig[a] = bool(yz)
+        elif a == "shouldShareToFeed":
+            ig[a] = True
+        elif a == "firstComment":
+            ig.setdefault(a, yorum or "")
+        elif a == "link":
+            ig.setdefault(a, baglanti or "")
+        else:
+            ig.setdefault(a, None)
     if tur == "reel":
-        girdi["metadata"]["instagram"]["shouldShareToFeed"] = True
+        ig["shouldShareToFeed"] = True
     if tur == "story" and baglanti and HIKAYE_LINK_ALANI:
         girdi["metadata"]["instagram"][HIKAYE_LINK_ALANI] = baglanti
     if tur != "story" and yorum and ILK_YORUM_VAR:
@@ -272,7 +298,8 @@ def main():
         print("Instagram türleri: %s" % ig_turleri())
         alanlar = ig_meta_alanlari()
         print("metadata.instagram alanları: %s"
-              % ", ".join("%s: %s" % a for a in alanlar))
+              % ", ".join("%s: %s%s" % (a, t, " (ZORUNLU)" if z else "")
+                          for a, t, z in alanlar))
         link = hikaye_link_alani(alanlar)
         print("Hikaye bağlantı alanı: %s"
               % (link or "YOK — hikayeye bağlantı etiketi konulamıyor"))
@@ -332,7 +359,12 @@ def main():
         global ILK_YORUM_VAR
         alanlar = ig_meta_alanlari()
         HIKAYE_LINK_ALANI = hikaye_link_alani(alanlar)
-        ILK_YORUM_VAR = any(a == "firstComment" for a, _t in alanlar)
+        ILK_YORUM_VAR = any(a == "firstComment" for a, _t, _z in alanlar)
+        global ZORUNLU_ALAN
+        ZORUNLU_ALAN = [a for a, _t, z in alanlar if z and a != "type"]
+        if ZORUNLU_ALAN:
+            print("metadata.instagram zorunlu alanları: %s"
+                  % ", ".join(ZORUNLU_ALAN))
         print("Kanal: %s · türler: %s" % (ad, turler))
         print("Hikaye bağlantı alanı: %s"
               % (HIKAYE_LINK_ALANI or "şemada yok — hikayeye bağlantı "
@@ -367,7 +399,8 @@ def main():
                 satir.append("| %s | %s | kuru |" % (is_["zaman"], anahtar))
                 continue
             pid = gonder(kanal, metin, v, zaman, tur_ad[is_["tur"]], turler,
-                         link, ilk)
+                         link, ilk,
+                         YZ_BEYANI.get(is_.get("kategori"), False))
             defter["gonderilen"].append({"anahtar": anahtar, "buffer": pid,
                                          "zaman": is_["zaman"]})
             json.dump(defter, open(DEFTER, "w", encoding="utf-8"),
@@ -377,7 +410,7 @@ def main():
         except Hata as e:
             hata += 1
             satir.append("| %s | %s | HATA: %s |"
-                         % (is_["zaman"], anahtar, str(e)[:160]))
+                         % (is_["zaman"], anahtar, str(e)[:600]))
 
     if not kuru:
         if klasorler:

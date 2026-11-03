@@ -26,6 +26,8 @@ KISA = {"3dbaski": "REHBER", "baski": "BASKI ÜRÜNÜ",
         "elektronik": "ELEKTRONİK", "urun": "ÜRÜN", "proje": "PROJE"}
 
 
+GUN_SINIRI = 31          # pakette gösterilen gün sayısı; gerisi kuyrukta
+
 KISALTMA = {
     "PLA", "PETG", "ABS", "ASA", "TPU", "PVA", "PC", "PA", "CF", "GF", "PEI",
     "ESR", "CFS", "AMS", "LED", "USB", "DC", "AC", "FDM", "SLA", "MSLA", "UV",
@@ -202,7 +204,7 @@ def kayitlar():
     # Tarihi çivilenmiş kampanyanın günü sıradan slotlarla dolu olmayabilir
     # (bayram günü plan başlamamış olabiliyor); o gün de listeye giriyor.
     takvim = sorted(set(gun) | {k["tarih"] for k in kampanya}
-                    | set(reelsler))
+                    | set(reelsler))[:GUN_SINIRI]
     cikti = []
     for tarih in takvim:
         sl = gun.get(tarih, {})
