@@ -2,797 +2,3814 @@
  "not": "Mağaza baskı ürünleri. sermenkreatif.com ürün sayfalarındaki Product verisinden alındı; arac/katalog_cek.py yeniliyor. Gönderi metni ve görselleri bu dosyadan üretiliyor.",
  "kaynak": "https://sermenkreatif.com",
  "urun": {
-  "3-katli-kalpli-sunum-standi-cupcake-kurabiye-ve-tatli-standi": {
-   "ad": "3 Katlı Kalpli Sunum Standı - Cupcake, Kurabiye ve Tatlı Standı",
-   "kat": "baski-cupcake-standi",
-   "fiyat": "999.90",
-   "gorsel": [
-    "d4b221b0-0882-495d-98fe-a34e7eab92c4",
-    "5e955ac6-2392-48d9-ac6a-801abbf4b28a",
-    "b229fe27-e59b-4423-a6e9-a27645468d8a",
-    "8a19de48-28cd-41d5-8b61-b19b76ca26e4"
-   ],
-   "aciklama": "Nervürlü kenarlı üç tablalı, tepesi kalp tutamaklı sunum standı."
-  },
-  "dalgali-desenli-kagit-mendil-kutusu-kapakli": {
-   "ad": "Dalgalı Desenli Kağıt Mendil Kutusu - Kapaklı",
-   "kat": "baski-pecetelik",
-   "fiyat": "829.90",
-   "gorsel": [
-    "239d5507-9d66-4e1a-a27e-7df7cd752429",
-    "7705f118-db43-452d-8b1d-6353b6357e0b",
-    "7911d599-0287-4a2e-9a5f-ae1100ed933a",
-    "309ebd7d-e4a9-4c21-b4be-cce035f1af7c"
-   ],
-   "aciklama": "Dalga dokulu gövdeli, standart kutu mendillere uygun dekoratif mendil kutusu."
-  },
-  "dalgali-kenarli-ayakli-dekoratif-tepsi-25-cm": {
-   "ad": "Dalgalı Kenarlı Ayaklı Dekoratif Tepsi - 25 cm",
-   "kat": "baski-tepsi",
-   "fiyat": "419.90",
-   "gorsel": [
-    "780451d7-99df-427a-b11c-3084bb63baed",
-    "9c32fe46-18c3-4d14-a287-26b9a2007b1f",
-    "98ac56bf-73f0-409a-94e7-c609a6e41d80",
-    "490bc269-7f3a-4302-879b-d547a421bb06"
-   ],
-   "aciklama": "Dalgalı kenarlı, top ayaklı yuvarlak dekoratif tepsi."
-  },
-  "dalgali-kenarli-pasta-ve-tatli-sunum-tabagi-24-cm": {
-   "ad": "Dalgalı Kenarlı Pasta ve Tatlı Sunum Tabağı - 24 cm",
-   "kat": "baski-dekoratif-tabak-ve-kase",
-   "fiyat": "559.90",
-   "gorsel": [
-    "17395c51-85c2-4642-81cf-08a6b9ac330d",
-    "4c6f8fd5-d121-4435-afa2-f11b65e8756c",
-    "b734581a-387e-4f89-90d2-2cc41fb674ff",
-    "aba3ee90-8597-4dea-992c-35be1c19e4db"
-   ],
-   "aciklama": "Fırfırlı dalga kenarlı, 24 cm çaplı pasta ve tatlı sunum tabağı."
-  },
-  "elmas-desenli-dekoratif-vazo-15-cm": {
-   "ad": "Elmas Desenli Dekoratif Vazo - 15 cm",
-   "kat": "baski-vazo",
-   "fiyat": "239.90",
-   "gorsel": [
-    "9e4e87a1-b37c-4124-9004-301a45b37bcd",
-    "92f46720-6289-4eb5-82be-8d935e9e1c3e",
-    "6f6d27d9-5778-414d-a46d-81ed678fb63c",
-    "f8893edb-8dcd-402e-a779-20a1c09e314a"
-   ],
-   "aciklama": "Geometrik elmas dokulu, ışıkla parlayan dekoratif vazo."
-  },
-  "gizli-montajli-minimal-duvar-rafi-yuvarlak-uclu": {
-   "ad": "Gizli Montajlı Minimal Duvar Rafı - Yuvarlak Uçlu",
-   "kat": "baski-duvar-rafi",
-   "fiyat": "299.90",
-   "gorsel": [
-    "72072ae2-cf33-47cd-bc4d-2943debdc6de",
-    "61fa46f4-69b6-4763-9863-4ba4397bbbec",
-    "a797ff59-c2f3-43af-b297-bd1b291888be",
-    "ff7850e1-730c-4dd7-9f7e-c4ac4510c578"
-   ],
-   "aciklama": "Uçları yumuşakça kıvrılan, vidası görünmeyen sade yüzer duvar rafı."
-  },
-  "iki-katli-dalgali-kenarli-sunum-standi-25-cm": {
-   "ad": "İki Katlı Dalgalı Kenarlı Sunum Standı - 25 cm",
-   "kat": "baski-cupcake-standi",
+  "anahtarlikli-duvar-rafi-4-askili-gokkusagi-desenli-dekoratif-anahtar-askisi": {
+   "ad": "Anahtarlıklı Duvar Rafı – 4 Askılı Gökkuşağı Desenli Dekoratif Anahtar Askısı",
+   "aciklama": "İç içe gökkuşağı kemerlerinden oluşan kabartmalı arka paneliyle dekoratif anahtarlıklı duvar rafı.",
    "fiyat": "759.90",
    "gorsel": [
-    "57013a83-bc1b-4c41-9cb4-63bef637035a",
-    "f4049bd8-4f00-4999-9683-a8548bb0036d",
-    "74bedbe0-7407-4e22-9008-ba81d90b4f51",
-    "e320b951-bbf4-466c-afd0-9362b8e2b055"
+    "bc6c40ac-ab0f-496d-9a39-d9f8854935b2",
+    "af70fd22-93f6-4e0f-82f9-bf08ee250695",
+    "e586c9e4-1443-4128-95a3-3afb83d9d325"
    ],
-   "aciklama": "Dalgalı kenarlı iki tablalı cupcake, kurabiye ve tatlı sunum standı."
+   "kat": "baski-anahtarlik"
   },
-  "japandi-kedi-kopek-mama-kabi-isim-plakali": {
-   "ad": "Japandi Kedi Köpek Mama Kabı - İsim Plakalı",
-   "kat": "baski-kedi-ve-kopek-mama-su-kabi",
-   "fiyat": "839.90",
+  "atkili-kahverengi-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu": {
+   "ad": "Atkılı Kahverengi Ayıcık Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü",
+   "aciklama": "Örgü (amigurumi) görünümlü dokulu yüzeyiyle sevimli atkılı kahverengi ayıcık figürlü anahtarlık.",
+   "fiyat": "209.90",
    "gorsel": [
-    "5017a900-8ea9-4dc0-9e5e-7269ea630b62",
-    "67a4bf33-eb00-4b18-abf6-33afdd5bd58b",
-    "b3e0dcc4-162e-42ba-bcac-f917d4ac583f",
-    "3a968f63-9cbc-416b-9fd5-0238b44c4078"
+    "f251878f-fd18-494e-8357-3c6e54267b3d",
+    "8542eeb2-bbe1-486f-9dc3-57914f88bb94",
+    "4d910149-4112-4a57-bf87-8aac41096b2f"
    ],
-   "aciklama": "Nervürlü gövdeli, isim plakalı, çelik kase yuvalı mama kabı tutucu."
+   "kat": "baski-anahtarlik"
   },
-  "kedi-kumu-kuregi-3-delik-boyutlu-petek-elek": {
-   "ad": "Kedi Kumu Küreği - 3 Delik Boyutlu Petek Elek",
-   "kat": "baski-kedi-aksesuari",
-   "fiyat": "289.90",
+  "atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu": {
+   "ad": "Atkılı Mavi Penguen Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü",
+   "aciklama": "Örgü (amigurumi) görünümlü dokulu yüzeyiyle sevimli atkılı mavi penguen figürlü anahtarlık.",
+   "fiyat": "209.90",
    "gorsel": [
-    "68cc6918-4789-48cb-a3da-16507556ab57",
-    "9cc9be36-094a-48ae-946d-345d534ecf11",
-    "368512cc-5fba-483e-ada3-fe824832e95e",
-    "28033282-8c85-49fc-8e26-e49fb4bde7be"
+    "5d32f665-eccb-4cb4-a569-53527c2daf2e",
+    "54414e4d-aca9-4bf0-8a4e-0e707c393da8",
+    "c41d870b-39d9-4aee-9774-f900d9dc4003"
    ],
-   "aciklama": "Küçük, orta ve büyük petek delikli, uzun saplı kedi kumu küreği."
+   "kat": "baski-anahtarlik"
   },
-  "kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf": {
-   "ad": "Kelebek Duvar Rafı - Çocuk Odası Dekoratif Raf",
-   "kat": "baski-duvar-rafi",
-   "fiyat": "469.90",
+  "bambulu-beyaz-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu": {
+   "ad": "Bambulu Beyaz Ayıcık Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü",
+   "aciklama": "Örgü (amigurumi) görünümlü dokulu yüzeyiyle sevimli bambulu beyaz ayıcık figürlü anahtarlık.",
+   "fiyat": "209.90",
    "gorsel": [
-    "e576178a-605c-4808-acc5-01c67bd71156",
-    "568e35aa-b82f-4288-be80-20499d564210",
-    "e813bf17-cf1e-4693-bc6b-dd8781029c40",
-    "68b41666-72d8-4410-9e96-3f0f75ee1cec"
+    "62fe66d2-03c8-4ca0-8130-37c7950e783f",
+    "a7275a73-410e-4869-9c1d-5daa375b5fff",
+    "794a982b-5a6c-44db-beaa-f1801cc7d73c"
    ],
-   "aciklama": "Kelebek formunda, duvara asılan dekoratif mini raf."
+   "kat": "baski-anahtarlik"
   },
-  "lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo": {
-   "ad": "Lumina Modern Vazo - Keskin Nervürlü Dekoratif Vazo",
-   "kat": "baski-vazo",
-   "fiyat": "369.90",
+  "gulen-yesil-kurbaga-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu": {
+   "ad": "Gülen Yeşil Kurbağa Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü",
+   "aciklama": "Örgü (amigurumi) görünümlü dokulu yüzeyiyle sevimli gülen yeşil kurbağa figürlü anahtarlık.",
+   "fiyat": "209.90",
    "gorsel": [
-    "20d1d892-8014-4430-a99c-1dc5165f4f79",
-    "e08c91cd-30f7-4c5a-b550-597de1ac042d",
-    "69400fc2-3e1a-48df-96ff-7692b27eba09",
-    "c5d0223b-c061-4df1-86fb-6ead9cd031d6"
+    "598559c3-cca2-4cf6-9341-47fc05349435",
+    "07b07e7b-4729-40c6-bc0e-ca5124ef82ab",
+    "17340951-0ea4-4ed3-bcc9-12fbc7afd417"
    ],
-   "aciklama": "Keskin dikey nervürleriyle ışık ve gölge oyunu yaratan şişe formlu modern vazo."
+   "kat": "baski-anahtarlik"
   },
-  "minimal-duvar-askisi-yapistirmali-2-li-kanca": {
-   "ad": "Minimal Duvar Askısı - Yapıştırmalı 2'li Kanca",
-   "kat": "baski-aski",
-   "fiyat": "279.90",
+  "gulumseyen-mor-kedi-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu": {
+   "ad": "Gülümseyen Mor Kedi Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü",
+   "aciklama": "Örgü (amigurumi) görünümlü dokulu yüzeyiyle sevimli gülümseyen mor kedi figürlü anahtarlık.",
+   "fiyat": "209.90",
    "gorsel": [
-    "1cba870f-d28a-4847-aea8-72acf2967caf",
-    "b73ff1b8-3791-4375-b8f9-1f09c79c4a75",
-    "4db0de78-cd9f-4dc6-b5de-ae7096180573",
-    "c7a197ca-22a6-45a7-adbc-ed0c15a842ac"
+    "d41bd879-1ba6-47ed-851d-d174abf2710f",
+    "09b823cd-5656-48ab-8167-8890299884ac",
+    "3a5d64f2-f52e-4f02-8fcb-b6e1603980bb"
    ],
-   "aciklama": "Delmeden, güçlü çift taraflı bantla yapıştırılan sade duvar kancası (2 adet)."
+   "kat": "baski-anahtarlik"
   },
-  "modern-tealight-mumluk-seti-3-lu": {
-   "ad": "Modern Tealight Mumluk Seti - 3'lü",
-   "kat": "baski-samdan-mumluk",
-   "fiyat": "279.90",
+  "gulumseyen-turuncu-tilki-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu": {
+   "ad": "Gülümseyen Turuncu Tilki Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü",
+   "aciklama": "Örgü (amigurumi) görünümlü dokulu yüzeyiyle sevimli gülümseyen turuncu tilki figürlü anahtarlık.",
+   "fiyat": "209.90",
    "gorsel": [
-    "07f1cb35-1c97-4c68-9e2d-2d0215dd047f",
-    "79f5ae65-b230-409c-a953-0835d7a7cf6d",
-    "0baf68e9-07f1-4959-bcbe-08652726de5d",
-    "238de7b8-6cfe-4dd8-a2da-711ab71e7cf7"
+    "f93b9f71-abb4-4c64-9e3e-9f931847c508",
+    "3b794ca4-f599-4aad-bdf8-80b59f94069d",
+    "52fd16bd-215b-4244-8ff4-4acb4ef2b487"
    ],
-   "aciklama": "Minimal formlu, tealight mumlara uygun 3'lü mumluk seti."
+   "kat": "baski-anahtarlik"
   },
-  "nervurlu-dekoratif-kalp-biblo-japandi-15-cm": {
-   "ad": "Nervürlü Dekoratif Kalp Biblo - Japandi, 15 cm",
-   "kat": "baski-dekoratif-obje-ve-biblo",
-   "fiyat": "779.90",
+  "havuclu-pembe-tavsan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu": {
+   "ad": "Havuçlu Pembe Tavşan Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü",
+   "aciklama": "Örgü (amigurumi) görünümlü dokulu yüzeyiyle sevimli havuçlu pembe tavşan figürlü anahtarlık.",
+   "fiyat": "209.90",
    "gorsel": [
-    "b287650c-2088-41d5-b94c-7b0c12f46d72",
-    "49516ede-36d5-47a2-9545-d009330a4fd6",
-    "7128fbda-f99b-4129-a207-b59bb42f6d35",
-    "ca37ae0f-b461-4191-98bf-da4afa3d12d9"
+    "b936cc2f-e970-4a21-b613-c73690116f4c",
+    "55480cf2-93bd-4df8-84a1-06607055a10f",
+    "9b23129c-4f56-4b91-910e-5e9992a55997"
    ],
-   "aciklama": "Dikey nervür dokulu, ayakta duran Japandi tarzı dekoratif kalp."
+   "kat": "baski-anahtarlik"
   },
-  "spiral-dekoratif-yilbasi-agaci-yildizli-15-cm": {
-   "ad": "Spiral Dekoratif Yılbaşı Ağacı - Yıldızlı, 15 cm",
-   "kat": "baski-yilbasi-agaci",
-   "fiyat": "229.90",
+  "ince-anahtar-askisi-kemer-desenli-5-askili-duvara-monte-dekoratif-anahtarlik-ask": {
+   "ad": "İnce Anahtar Askısı – Kemer Desenli 5 Askılı Duvara Monte Dekoratif Anahtarlık Askısı",
+   "aciklama": "Kemer desenli, ince ve yatay formlu anahtar askısı.",
+   "fiyat": "419.90",
    "gorsel": [
-    "a6b6e481-7320-4007-a2ca-71a34b5cb5cf",
-    "aa1bf484-e6d3-4183-835d-4c410e3844e5",
-    "ea0a0b40-95bc-4791-9de1-d4820af65ffd",
-    "e515b50f-d426-4b26-9d24-e2a210c15c7e"
+    "7a4fa969-fa93-47be-9c42-6033b1edf69a",
+    "fa22ead4-3c10-43a1-8d31-ba27268975a7",
+    "23c874df-98cf-4bbe-8da6-265119e83ff9"
    ],
-   "aciklama": "Dalgalı spiral katmanlı, tepesi yıldızlı modern masaüstü yılbaşı ağacı."
+   "kat": "baski-anahtarlik"
   },
-  "telefon-tutuculu-masaustu-duzenleyici-kalemlikli": {
-   "ad": "Telefon Tutuculu Masaüstü Düzenleyici - Kalemlikli",
-   "kat": "baski-masaustu-organizer",
-   "fiyat": "949.90",
+  "kemer-desenli-anahtarlikli-duvar-rafi-3-askili-duvara-monte-dekoratif-anahtar-as": {
+   "ad": "Kemer Desenli Anahtarlıklı Duvar Rafı – 3 Askılı Duvara Monte Dekoratif Anahtar Askısı",
+   "aciklama": "İç içe kemer çizgileriyle kabartmalı, dikey formlu anahtarlıklı duvar rafı.",
+   "fiyat": "529.90",
    "gorsel": [
-    "fcec5c01-cc54-4368-a971-36c0b85cd9b6",
-    "e84dcb08-9c45-4cab-90ba-1613e45ada94",
-    "afad1428-ff5f-47ad-8416-7890e242e1c5",
-    "803b1d43-218a-492a-9ca7-a92c28d9fc09"
+    "b0c5a2b0-64c0-4c75-8e99-0d56bbdb598f",
+    "8509e69b-7d09-44e1-b3b7-e4e2c2c279c2",
+    "0af766ea-9a1c-45ba-87fa-4fbc612ab89c",
+    "5078db03-2176-4ee8-bddc-7ae11997c126"
    ],
-   "aciklama": "Kalemlik, telefon tutucu ve iki bölmeli masaüstü organizer."
+   "kat": "baski-anahtarlik"
   },
-  "yedek-rulo-hazneli-ayakli-tuvalet-kagitligi-nervurlu": {
-   "ad": "Yedek Rulo Hazneli Ayaklı Tuvalet Kağıtlığı - Nervürlü",
-   "kat": "baski-tuvalet-kagitligi",
-   "fiyat": "1939.90",
+  "kivircik-kuzu-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu": {
+   "ad": "Kıvırcık Kuzu Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü",
+   "aciklama": "Örgü (amigurumi) görünümlü dokulu yüzeyiyle sevimli kıvırcık kuzu figürlü anahtarlık.",
+   "fiyat": "209.90",
    "gorsel": [
-    "61412563-970d-41dd-8a91-f905b57eef3b",
-    "c300c81f-f0fa-45ba-8018-f7e71272b03d",
-    "c2646dfc-4877-4000-9caf-df8486d65adb",
-    "ea0a27fe-8ff0-404b-bf46-e9507f167960"
+    "3b0ca684-2bed-4556-8329-d9fde2993a80",
+    "ec1a9f87-6e0f-47bd-b721-996a86250554",
+    "766417b9-dbee-4e6b-a912-75c01fdbac15"
    ],
-   "aciklama": "Yedek ruloları gövdesinde saklayan, vidasız kurulan ayaklı tuvalet kağıtlığı."
+   "kat": "baski-anahtarlik"
   },
-  "yukseltilmis-kedi-kopek-mama-kabi-standi-isimli": {
-   "ad": "Yükseltilmiş Kedi Köpek Mama Kabı Standı - İsimli",
-   "kat": "baski-kedi-ve-kopek-mama-su-kabi",
-   "fiyat": "659.90",
-   "gorsel": [
-    "9655f53c-1262-4964-9205-f29403493b32",
-    "9e1672be-f2ca-4726-b7a2-aced75fecce2",
-    "9cd0aa81-4ec8-4d40-81e5-2d734d22ed1c",
-    "9e4adbf3-5c5b-4f6a-a52c-90fe4cd850f1"
-   ],
-   "aciklama": "10 cm yükseltilmiş, dalga desenli, isim yazılabilen mama kabı standı."
-  },
-  "5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto": {
-   "ad": "5'li Geometrik Duvar Askılığı - Fasetli Kancalı Portmanto",
-   "kat": "baski-aski",
-   "fiyat": "399.90",
-   "gorsel": [
-    "c7d0354d-e527-44b7-b00b-c775ccde85aa",
-    "2ee0f051-c91b-483e-9340-c7e92b159588",
-    "afdabb21-d5c1-4948-a773-f12e58ac7602",
-    "e727a839-8139-404e-8ef9-0081aed57a68"
-   ],
-   "aciklama": "Tek parça ray üzerinde beş fasetli kanca bulunan modern duvar askılığı."
-  },
-  "ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice": {
-   "ad": "Ahşap Dokulu Yuvarlak Tepsi Seti - 3'lü İç İçe",
-   "kat": "baski-tepsi",
-   "fiyat": "1139.90",
-   "gorsel": [
-    "8dda98b0-fcd0-4808-8c97-f8933feb0993",
-    "ef9e18a5-db1d-43a1-8753-c9f0fd6892cd",
-    "2dc60af4-d16e-45cc-b0e3-87d237daa3a3",
-    "9388c0bc-9e85-4434-a722-48ab4fc32d47"
-   ],
-   "aciklama": "Ahşap damar ve yıllık halka dokulu, iç içe geçen 3'lü yuvarlak tepsi seti."
-  },
-  "cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli": {
-   "ad": "Çiçek Formlu Çerezlik Sunum Tabağı - 6 Bölmeli, Orta Kaseli",
-   "kat": "baski-dekoratif-tabak-ve-kase",
+  "mektupluklu-anahtar-askisi-dalga-desenli-4-askili-duvara-monte-posta-rafi-ve-ana": {
+   "ad": "Mektupluklu Anahtar Askısı – Dalga Desenli 4 Askılı Duvara Monte Posta Rafı ve Anahtarlık",
+   "aciklama": "Dalga desenli arka paneli, açılı mektup cebi ve 4 askısı olan mektupluklu anahtar askısı.",
    "fiyat": "679.90",
    "gorsel": [
-    "0ee2e66b-e5e5-4c98-ac0f-204e18b7d45c",
-    "77ddbfc6-7a61-438a-a08f-c89326df1194",
-    "32243471-82e8-4065-9840-e5ddfe3f5d7b",
-    "5ad6cfe5-b44f-4937-9c83-5fa021ae6cdd"
+    "7f45a87d-3e7b-41d8-926c-30f2f2eaa650",
+    "ca21cb0b-c2ed-4652-8a94-5f10e2a5b5a0",
+    "2b81448b-7bc6-4166-bbbf-26ae300c536f"
    ],
-   "aciklama": "Altı bölmeli çiçek formlu çerezlik; ortadaki kasesiyle çerez, kuruyemiş ve meze sunumu için."
+   "kat": "baski-anahtarlik"
   },
-  "dekoratif-kozalak-figuru-yilbasi-ve-kis-dekoru-12-cm": {
-   "ad": "Dekoratif Kozalak Figürü - Yılbaşı ve Kış Dekoru, 12 cm",
-   "kat": "baski-yilbasi-susu",
-   "fiyat": "289.90",
+  "mini-rafli-askilik-gunes-desenli-4-kancali-duvara-monte-anahtar-ve-canta-askisi": {
+   "ad": "Mini Raflı Askılık – Güneş Desenli 4 Kancalı Duvara Monte Anahtar ve Çanta Askısı",
+   "aciklama": "Güneş ışını desenli kemer formlu panel, üst raf ve 3 kancadan oluşan mini raflı askılık.",
+   "fiyat": "489.90",
    "gorsel": [
-    "7eb453fe-910f-4239-9eaa-648f21913035",
-    "a4d64c45-fb3a-4a36-b821-21f6ecf12217",
-    "c3980d8f-4d96-43bb-8f68-f2b2c54024bb",
-    "e3482a3e-8556-49f9-8a38-bff3bc1a9a37"
+    "b4cfd09a-86a2-46bb-a327-4dd881ea80ee",
+    "80524937-c85f-4cef-a2f4-ff4b09f221ba",
+    "d1f2cecd-0964-464b-8890-b519cb2d20ca"
    ],
-   "aciklama": "Üst üste binen pul detaylı, ayakta duran dekoratif kozalak."
+   "kat": "baski-anahtarlik"
   },
-  "japandi-ayakli-havlu-pecetelik-kulplu": {
-   "ad": "Japandi Ayaklı Havlu Peçetelik - Kulplu",
-   "kat": "baski-pecetelik",
-   "fiyat": "779.90",
+  "rafli-anahtar-askisi-gunes-ve-tepe-desenli-4-kancali-duvara-monte-dekoratif-anah": {
+   "ad": "Raflı Anahtar Askısı – Güneş ve Tepe Desenli 4 Kancalı Duvara Monte Dekoratif Anahtarlık Askısı",
+   "aciklama": "Güneş ve tepe çizgileriyle kabartmalı arka paneli olan raflı anahtar askısı.",
+   "fiyat": "639.90",
    "gorsel": [
-    "88870db0-0359-472f-ac3d-0cb10e3050ae",
-    "d9ee77ca-13b3-4482-be57-adceb9f50ade",
-    "f2e29845-6cd9-496b-a7b0-918833e0e780",
-    "76bb2f99-e07c-46fd-89f9-52af1ca54d1a"
+    "04d7687f-6e5a-4701-9486-08b729e6d39b",
+    "4e4a40c8-c369-4c2d-b72b-7f76875c4831",
+    "a82de040-3dac-4696-8d59-095a154fd78e",
+    "73c287d5-3be1-48ab-80e9-1f6f792f0bf3"
    ],
-   "aciklama": "Üst tutamaklı, rulonun rahat döndüğü ayaklı kağıt havluluk."
+   "kat": "baski-anahtarlik"
   },
-  "japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm": {
-   "ad": "Japandi Dalgalı Yılbaşı Ağacı - Minimal Masa Dekoru, 15 cm",
-   "kat": "baski-yilbasi-agaci",
-   "fiyat": "389.90",
+  "rafli-canta-ve-sapka-askisi-dalga-desenli-3-kancali-duvara-monte-askilik": {
+   "ad": "Raflı Çanta ve Şapka Askısı – Dalga Desenli 3 Kancalı Duvara Monte Askılık",
+   "aciklama": "Dalga desenli arka paneli ve üst rafı olan çanta ve şapka askısı.",
+   "fiyat": "569.90",
    "gorsel": [
-    "3fc6c893-53d6-4fc0-80d4-0b7d975f9442",
-    "ccf58c32-8c0e-46ca-9534-d7fe27801507",
-    "b19b96f9-032a-4371-ad3b-e3fd5ce8e5e2",
-    "67541241-ed13-4c1e-a9d7-ee1e9cafb5e7"
+    "fa3e29ff-5f91-4dea-aa27-39fdc64adbdf",
+    "f5baf6a0-07f8-458c-b500-8f884ffec639",
+    "8f96a3c9-1417-44dd-b27e-f6947b2a30c8"
    ],
-   "aciklama": "Burgu dalga katmanlı, sivri uçlu Japandi tarzı minimal yılbaşı ağacı."
+   "kat": "baski-anahtarlik"
   },
-  "japandi-dekor-seti-vazo-mumluk-ve-tepsi": {
-   "ad": "Japandi Dekor Seti - Vazo, Mumluk ve Tepsi",
-   "kat": "baski-dekoratif-obje-ve-biblo",
-   "fiyat": "399.90",
-   "gorsel": [
-    "82dfb33d-9d6f-4271-9a36-05a74eb408de",
-    "681a416c-74a8-42db-858c-65b99acd3973",
-    "e9aaa3d2-24ce-4008-b1d0-eed596476cca",
-    "509610d2-3918-414a-8439-c343127a5ac8"
-   ],
-   "aciklama": "Şişe vazo, tealight mumluk ve oval tepsiden oluşan minimal 3 parçalı set."
-  },
-  "japandi-geyik-figuru-yilbasi-dekoru-17-5-cm": {
-   "ad": "Japandi Geyik Figürü - Yılbaşı Dekoru, 17,5 cm",
-   "kat": "baski-yilbasi-susu",
-   "fiyat": "219.90",
-   "gorsel": [
-    "e6e16ca1-c454-49d3-8712-ac7545197c68",
-    "598158d8-ec97-473f-8423-da084dcae4f9",
-    "e0ccf969-e7da-4597-be32-36e9a48ee0fe",
-    "5281920f-f058-494e-8058-263fcd1f7081"
-   ],
-   "aciklama": "Sade hatlı, ayakta duran minimal geyik figürü."
-  },
-  "ayakli-nervurlu-saksi-tabakli": {
-   "ad": "Ayaklı Nervürlü Saksı - Tabaklı",
-   "kat": "baski-saksi",
-   "fiyat": "799.90",
-   "gorsel": [
-    "532572ef-b0e2-4bca-a923-dbae6e95aafc",
-    "6a241428-831f-44a8-8079-823a75eaffc2",
-    "dd3d9843-47fd-40aa-af43-ed8a56145de2",
-    "9a36d275-377e-47e5-8319-314d333cff8b"
-   ],
-   "aciklama": "Dört ayak üzerinde duran, ince nervürlü silindir saksı."
-  },
-  "bitki-sulama-kuresi-yavas-sulama-aparati": {
-   "ad": "Bitki Sulama Küresi - Yavaş Sulama Aparatı",
-   "kat": "baski-saksi",
-   "fiyat": "389.90",
-   "gorsel": [
-    "19c92d31-869c-4a02-93f9-f9bfeef60f9b",
-    "8d2b7dfc-dfa1-46ce-9efa-65c3d406824c",
-    "2b510cb0-564c-4c5e-86a8-1344ccc6314a",
-    "20ac224b-8f7a-455c-bfda-6bb2c1b23ddf"
-   ],
-   "aciklama": "Toprağa batırılan, bitkiyi yavaşça sulayan küre hazneli sulama aparatı."
-  },
-  "dis-macunu-standi-bas-asagi-tutucu": {
-   "ad": "Diş Macunu Standı - Baş Aşağı Tutucu",
-   "kat": "baski-dis-fircalik",
-   "fiyat": "219.90",
-   "gorsel": [
-    "ea95837a-1151-4eda-8c86-4e356a9d9f6b",
-    "916a8ae5-2c97-4e59-81f0-ecddaa4a1fd4",
-    "8b394474-5929-42de-9218-23986cebd741",
-    "513965e6-3363-4f47-b90c-265eaa0e283e"
-   ],
-   "aciklama": "Diş macunu tüpünü kapağı aşağıda dik tutan pratik stand."
-  },
-  "eriyen-mum-gorunumlu-led-mumluk": {
-   "ad": "Eriyen Mum Görünümlü LED Mumluk",
-   "kat": "baski-samdan-mumluk",
+  "sevimli-gri-fil-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu": {
+   "ad": "Sevimli Gri Fil Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü",
+   "aciklama": "Örgü (amigurumi) görünümlü dokulu yüzeyiyle sevimli sevimli gri fil figürlü anahtarlık.",
    "fiyat": "209.90",
    "gorsel": [
-    "6c2df9d6-19bd-4578-8f36-c655ca7fa36f",
-    "fc9fb9de-cd65-4f23-a72d-08fccb1f27f0",
-    "bdd978a1-ca80-4dff-ab99-e212b0fb2764",
-    "b34c9aec-2a1e-4052-b6c5-7067d3b63613"
+    "2c62f319-8fdc-454f-9681-366283f41504",
+    "1f79632b-365d-4ee9-944c-36913dae8b21",
+    "55d97bd6-07be-4180-ba58-7c3540d8b934"
    ],
-   "aciklama": "Erimiş mum damlası görünümlü, LED tealight için sütun mumluk."
-  },
-  "girdapli-meyve-sebze-yikama-kabi-ve-suzgec": {
-   "ad": "Girdaplı Meyve Sebze Yıkama Kabı ve Süzgeç",
-   "kat": "baski-suzgec",
-   "fiyat": "429.90",
-   "gorsel": [
-    "415bf659-b446-489d-bb1b-e1dfc9a22ca1",
-    "8cb77c41-5eef-47bf-9317-ee2d5bcf7436",
-    "8a76c59c-7f6a-401e-b0a7-258fdc4f31a8",
-    "89ee256f-d338-46ba-b7ca-1518d165748a"
-   ],
-   "aciklama": "Musluk suyuyla girdap oluşturarak meyve ve sebzeleri yıkayan, ardından süzgeç olarak kullanılan kap."
-  },
-  "japandi-sungerlik-ve-sabunluk-suzgecli": {
-   "ad": "Japandi Süngerlik ve Sabunluk - Süzgeçli",
-   "kat": "baski-mutfak-duzenleyici",
-   "fiyat": "289.90",
-   "gorsel": [
-    "59cad1ac-08da-4315-a2cf-3e5f94f280d0",
-    "110b7e2e-8078-4a13-9afd-5fdef6c71b1f",
-    "427c93fd-b55f-44ec-b286-b60cf10d473e",
-    "beb8bb90-2c5d-4dcc-9372-a9738dfeae7a"
-   ],
-   "aciklama": "Eğimli nervürlü tabanıyla suyu süzen lavabo başı sünger tepsisi."
-  },
-  "kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi": {
-   "ad": "Kapaklı Saklama Kutusu Seti - 2 Kutu ve Tepsi",
-   "kat": "baski-saklama-kutusu",
-   "fiyat": "949.90",
-   "gorsel": [
-    "151a590c-ed07-4757-a9f4-c13b0faee281",
-    "a08c6d09-7b53-4f56-8067-88ef4459df66",
-    "b9d74efc-764c-4914-ab00-c6eac1fcb673",
-    "8eee7e9e-8149-4cc0-94ca-2f52541d1246"
-   ],
-   "aciklama": "Pliseli iki kapaklı kutu ve tırtıllı oval tepsiden oluşan saklama seti."
-  },
-  "kasik-ve-tencere-kapagi-tutucu": {
-   "ad": "Kaşık ve Tencere Kapağı Tutucu",
-   "kat": "baski-kasiklik",
-   "fiyat": "289.90",
-   "gorsel": [
-    "e8c6ad2a-c89d-4de4-a56a-5eac5b1fa08e",
-    "c55eb2b2-07d4-4356-b136-35e39e976123",
-    "64777e29-9f24-4572-a0c0-9f168eba5882",
-    "d3a26c1b-2576-49ea-9e06-da294f2c697b"
-   ],
-   "aciklama": "Ocak başında kaşık, kepçe ve tencere kapağını tutan tezgah aparatı."
-  },
-  "kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi": {
-   "ad": "Kendinden Kilitli Havlu Askısı - Nervürlü Duvar Kancası",
-   "kat": "baski-banyo-askisi",
-   "fiyat": "209.90",
-   "gorsel": [
-    "ba64d4b3-c5df-4cba-a381-84e3dbe57cab",
-    "b2d899a8-c3b7-42da-a552-6f8e2738a391",
-    "47247a15-c872-40ac-8211-ca6ec7819ddf",
-    "03dcde97-8f00-4105-8f65-057e621561d0"
-   ],
-   "aciklama": "Ağırlıkla kilitlenen, havluyu düşürmeyen nervürlü duvar askısı."
-  },
-  "kendinden-suzgecli-sabunluk-akitmali": {
-   "ad": "Kendinden Süzgeçli Sabunluk - Akıtmalı",
-   "kat": "baski-sabunluk",
-   "fiyat": "239.90",
-   "gorsel": [
-    "f82c1358-84ca-4292-95e2-5c99814dc095",
-    "3eaed6b8-6c89-4449-bda8-a7bd5156a25b",
-    "254356c1-d088-4808-9c94-88a9873ae082",
-    "04ab69ab-1d32-45e9-81c6-5425c3c05f1a"
-   ],
-   "aciklama": "Eğimli tabanı ve akıtma ucuyla suyu lavaboya veren sabunluk."
-  },
-  "kumanda-standi-egimli-bolmeli": {
-   "ad": "Kumanda Standı - Eğimli Bölmeli",
-   "kat": "baski-masaustu-organizer",
-   "fiyat": "449.90",
-   "gorsel": [
-    "a65c2a5f-c342-4709-bb00-b1f47579c933",
-    "c213064c-9f4c-41bf-a5e8-fbbf2622952e",
-    "7be197ed-9cff-4378-8d9f-84a55e26dae5",
-    "3664d46b-32bd-41c1-a788-ca6b0bfb7c1c"
-   ],
-   "aciklama": "TV kumandaları ve telefonlar için eğimli bölmeli masa standı."
-  },
-  "moduler-masa-rafi-monitor-yukseltici": {
-   "ad": "Modüler Masa Rafı - Monitör Yükseltici",
-   "kat": "baski-monitor-aparati",
-   "fiyat": "869.90",
-   "gorsel": [
-    "08e2f3ac-cfec-4306-abdc-4df8af136a9a",
-    "5b19c31b-212c-4662-aa10-d5a0892515f9",
-    "a5b3b50b-6f19-414d-b079-6f4d60ad1a7e",
-    "f77dd93b-775c-43c2-8c74-cc1b9277c9cb"
-   ],
-   "aciklama": "Monitörü yükseltip altına klavye alanı açan modüler masa rafı."
-  },
-  "nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi": {
-   "ad": "Nervürlü Diş Fırçalığı Seti - 2 Bardak ve Tepsi",
-   "kat": "baski-dis-fircalik",
-   "fiyat": "459.90",
-   "gorsel": [
-    "d9462d74-2e79-4371-b91e-6a9298b5980d",
-    "5e3c9d19-8b5f-49d6-9c08-b6f95b611c79",
-    "d0155570-6005-4d18-8845-96ab6623666a",
-    "1bc16b54-0e94-4fb8-9a27-ed296842972d"
-   ],
-   "aciklama": "Nervürlü iki bardak ve uyumlu tepsiden oluşan banyo seti."
-  },
-  "nervurlu-modern-kalemlik-silindir": {
-   "ad": "Nervürlü Modern Kalemlik - Silindir",
-   "kat": "baski-kalemlik-ataslik",
-   "fiyat": "339.90",
-   "gorsel": [
-    "982fde03-c605-4073-a9fe-a8711ddb3996",
-    "954269a5-19aa-4e64-b4e6-772adf5076ff",
-    "81482443-2b44-48fe-a3bd-bd3cd6bb245a",
-    "b3eac6de-689a-4f26-99e2-647ad6a243af"
-   ],
-   "aciklama": "İnce düz nervürlü, silindir formlu modern kalemlik."
-  },
-  "nervurlu-saksi-ve-vazo-modern-masaustu-saksi": {
-   "ad": "Nervürlü Saksı ve Vazo - Modern Masaüstü Saksı",
-   "kat": "baski-vazo",
-   "fiyat": "379.90",
-   "gorsel": [
-    "9beb5359-e5b0-4d2a-b6dd-cfe149b05e95",
-    "046571aa-8280-465f-a88a-c8b28c34f8bb",
-    "3fb169e6-a349-4cba-8790-5a24583c7b41",
-    "705ead7f-6602-40bf-8830-023615796aa8"
-   ],
-   "aciklama": "Dikey nervür dokulu, modern yuvarlak saksı / vazo."
-  },
-  "pilili-ayakli-dekoratif-pasta-standi-23-cm": {
-   "ad": "Pilili Ayaklı Dekoratif Pasta Standı - 23 cm",
-   "kat": "baski-cupcake-standi",
-   "fiyat": "609.90",
-   "gorsel": [
-    "d111e2a0-9832-43a7-a822-79f6d0962d56",
-    "06e89be0-656e-4d69-9a14-7cea5e53ed21",
-    "41ef6ce9-d60f-4ea0-abcd-e983182aa704",
-    "d73e4e2a-1244-4ce6-a6e4-17e91fbed3b0"
-   ],
-   "aciklama": "Düz geniş tablalı, pilili ayaklı tek katlı pasta standı."
-  },
-  "ayakli-kopek-mama-kabi-standi-japandi-isim-plakali": {
-   "ad": "Ayaklı Köpek Mama Kabı Standı - Japandi, İsim Plakalı",
-   "kat": "baski-kedi-ve-kopek-mama-su-kabi",
-   "fiyat": "2229.90",
-   "gorsel": [
-    "4eb409c7-e377-471a-8e81-b8d43e620dc6",
-    "8bf8a6f9-9cb2-4cbe-b078-6f02111d480d",
-    "60ccf36f-c2ef-417c-9c51-f351118208c3",
-    "e5996181-8f0a-4bec-90c9-77b1c4387ff3"
-   ],
-   "aciklama": "Nervürlü gövdeli, konik ayaklı, 22,5 cm kase uyumlu yükseltilmiş mama standı."
-  },
-  "bolmeli-antre-duzenleyici-rafli-5-askili-anahtarlik": {
-   "ad": "Bölmeli Antre Düzenleyici - Raflı 5 Askılı Anahtarlık",
-   "kat": "baski-duvar-rafi",
-   "fiyat": "949.90",
-   "gorsel": [
-    "1d85c8d5-6f4c-4783-9aec-75c33a58ec9a",
-    "41944de2-b955-4da0-b936-080b587b360a",
-    "90364b2a-49ca-4fe8-af48-3125c3405d55",
-    "9e9dcd84-f616-43f7-bbf0-ab6aa72fd9f7"
-   ],
-   "aciklama": "Geniş ön bölmesi, üst rafı ve 5 anahtar askısıyla kapı önü düzenleyici."
-  },
-  "buzgulu-kese-vazo-dekoratif-kuru-cicek-vazosu": {
-   "ad": "Büzgülü Kese Vazo - Dekoratif Kuru Çiçek Vazosu",
-   "kat": "baski-vazo",
-   "fiyat": "389.90",
-   "gorsel": [
-    "b87967f3-f8e5-4874-b902-3e1bfef95651",
-    "41b92341-d94d-44e3-8912-2b7db24d9f32",
-    "d81c6d58-9546-404e-960a-89db596d03aa",
-    "c120034a-fb50-4edb-8ed0-16575e1e48c1"
-   ],
-   "aciklama": "Büzgü ipli kese görünümlü, rustik tarzda dekoratif vazo."
-  },
-  "cicek-formlu-raf-cocuk-odasi-masaustu-ve-duvar-rafi": {
-   "ad": "Çiçek Formlu Raf - Çocuk Odası Masaüstü ve Duvar Rafı",
-   "kat": "baski-duvar-rafi",
-   "fiyat": "1529.90",
-   "gorsel": [
-    "98f9f318-617e-4b76-a01f-5281dd03bcf3",
-    "b7f03171-ac74-4e5f-abf8-80c5976b89b2",
-    "69aaca0a-2f9b-47a9-a78e-fd74cc2cb80b",
-    "8d3d283d-1522-4479-a7dd-350119d603ed"
-   ],
-   "aciklama": "Çiçek formunda, çok bölmeli dekoratif çocuk odası rafı."
-  },
-  "dalgali-isimli-mama-kabi-tutucu-kedi-ve-kopek": {
-   "ad": "Dalgalı İsimli Mama Kabı Tutucu - Kedi ve Köpek",
-   "kat": "baski-kedi-ve-kopek-mama-su-kabi",
-   "fiyat": "1769.90",
-   "gorsel": [
-    "c2dc5935-ee21-4bf6-b0ae-3d2a0bc81d93",
-    "7cb6c87a-dbdd-4bb3-a696-a13c7122b555",
-    "8589aa3f-aa71-4797-ad44-b210d551e91c",
-    "f0ae939c-5f76-4289-afec-6d60f5ca8d14"
-   ],
-   "aciklama": "İki renkli dalga geçişli, tutma yerli, isim yazılı mama kabı tutucu."
-  },
-  "isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi": {
-   "ad": "İsimli Köpek Tasma Askısı - Pati Motifli Duvar Askısı",
-   "kat": "baski-aski",
-   "fiyat": "289.90",
-   "gorsel": [
-    "218eeed4-41c2-4437-b712-1eaeaba0544d",
-    "d04d0019-3ca5-41b0-8406-0a0f86ad460d",
-    "f4b7abef-ea55-4168-ac53-b41b49a2d64a",
-    "ddb8e619-af53-4db7-af75-0726e9b38014"
-   ],
-   "aciklama": "Pati motifli, isim yazılabilen, 3 kancalı tasma ve gezdirme askısı."
-  },
-  "nervurlu-cift-duvar-askisi-minimal-kanca": {
-   "ad": "Nervürlü Çift Duvar Askısı - Minimal Kanca",
-   "kat": "baski-aski",
-   "fiyat": "209.90",
-   "gorsel": [
-    "774b1ede-aa31-4e81-92d2-aaeac0f024bd",
-    "732419a3-f35a-46ae-b2c9-296523d45fa7",
-    "f0940c9a-564e-4cc3-9070-592aa8e786d7",
-    "815d2769-1c99-4273-b80a-287cece72b5e"
-   ],
-   "aciklama": "Nervürlü taban plakasından çıkan iki kıvrık kancalı minimal askı."
-  },
-  "yildiz-kenarli-ayakli-pasta-standi-25-cm": {
-   "ad": "Yıldız Kenarlı Ayaklı Pasta Standı - 25 cm",
-   "kat": "baski-cupcake-standi",
-   "fiyat": "679.90",
-   "gorsel": [
-    "6fcc3536-9bc3-44e7-b558-e3e5ad8178d2",
-    "c0fedc7d-4490-4ba7-ab3c-2258b6223f29",
-    "d46ae5dd-6411-41b6-acb0-e8a23368c7dc",
-    "942eea5a-4410-449d-bdbf-23f95adbfe60"
-   ],
-   "aciklama": "Yıldız desenli kenarlı, ayaklı pasta ve tatlı sunum standı."
-  },
-  "agac-siluetli-duvar-tablosu-3-parca-dekoratif-pano": {
-   "ad": "Ağaç Silüetli Duvar Tablosu - 3 Parça Dekoratif Pano",
-   "kat": "baski-dekoratif-obje-ve-biblo",
-   "fiyat": "389.90",
-   "gorsel": [
-    "2832d7a1-4899-450e-bdfe-7cca2740867d",
-    "9b1d10f4-5266-493f-a908-bdb565597f26",
-    "002f3330-8564-424d-8892-dd2c2318c98f",
-    "59218625-1b4c-4d7b-bc98-efd18cae360b"
-   ],
-   "aciklama": "Üç panele yayılan ağaç silüetiyle modern duvar dekoru."
-  },
-  "balon-kopek-biblo-modern-pop-art-dekor": {
-   "ad": "Balon Köpek Biblo - Modern Pop Art Dekor",
-   "kat": "baski-dekoratif-obje-ve-biblo",
-   "fiyat": "209.90",
-   "gorsel": [
-    "04b2f413-81d8-4823-9de1-21dcb78b300e",
-    "5eab83f8-be31-4e8f-81f4-35436fc03142",
-    "2a1a4b4c-def9-446d-b564-3abf1987ae1d",
-    "40ba9c55-ffcc-4456-96e4-e69d18cb5fb7"
-   ],
-   "aciklama": "Şişirilmiş balon görünümlü, pop art tarzı modern köpek biblo."
-  },
-  "filte-kapakli-dekoratif-kase-ag-dokulu": {
-   "ad": "Filte Kapaklı Dekoratif Kase - Ağ Dokulu",
-   "kat": "baski-dekoratif-tabak-ve-kase",
-   "fiyat": "589.90",
-   "gorsel": [
-    "14e801fc-fd49-4b62-bfbf-dcc0749a0197",
-    "2d45273e-0f76-4a19-84c7-81f3ed2920d2",
-    "ac5b52d2-38ac-4966-9c1b-23cc173ae725",
-    "1314ed13-35dd-4cac-86fe-36fafbf41b0c"
-   ],
-   "aciklama": "Ağ örgü desenli gövdeli, topuz kapaklı modern dekoratif kase."
-  },
-  "fiyonklu-yilbasi-celengi-kapi-ve-masa-susu-17-cm": {
-   "ad": "Fiyonklu Yılbaşı Çelengi - Kapı ve Masa Süsü, 17 cm",
-   "kat": "baski-yilbasi-susu",
-   "fiyat": "319.90",
-   "gorsel": [
-    "39abec48-850f-4b47-bdcc-10f9154f2d1f",
-    "d39f7929-066c-4ccd-826a-94d934d9af6b",
-    "85028811-2eee-479b-be1f-5192c219f4ed",
-    "713b85a5-d5cb-424c-bf9e-c6600abbf7d8"
-   ],
-   "aciklama": "Fiyonk detaylı, asılabilen ve masada ayakta durabilen yılbaşı çelengi."
-  },
-  "geyikli-dekoratif-samdan-4-mumluk-iskandinav-tarzi": {
-   "ad": "Geyikli Dekoratif Şamdan - 4 Mumluk İskandinav Tarzı",
-   "kat": "baski-samdan-mumluk",
-   "fiyat": "459.90",
-   "gorsel": [
-    "3adbeb7a-3b42-4463-90c5-cb6b088b05a6",
-    "5a6ad8ce-bb08-4ad8-8516-47ca9282ffbc",
-    "d89e27f5-0ede-4708-9397-ea3c4dce7ed9",
-    "0e12f549-cce4-474f-8ee0-26c06abd5f86"
-   ],
-   "aciklama": "İki geyik figürü ve dört ince mum yuvası bulunan uzun tepsi şamdan."
-  },
-  "isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk": {
-   "ad": "Işıklı İskandinav Yılbaşı Ağacı - Delik Desenli LED Mumluk",
-   "kat": "baski-yilbasi-agaci",
-   "fiyat": "299.90",
-   "gorsel": [
-    "639db8aa-f405-4ad1-8ca5-41586f102a14",
-    "8ad219dd-ba63-4882-8847-ec4d5f8d635c",
-    "8cfc646d-8c4e-497b-87b9-e08bcbd74a91",
-    "63a4f501-89bf-4884-946d-b5dc8fa91349"
-   ],
-   "aciklama": "Delik desenli gövdesinden ışık süzülen, çiçek tabanlı yılbaşı ağacı lambası."
-  },
-  "japandi-cuce-figuru-yilbasi-gnome-dekoru-12-cm": {
-   "ad": "Japandi Cüce Figürü - Yılbaşı Gnome Dekoru, 12 cm",
-   "kat": "baski-yilbasi-susu",
-   "fiyat": "289.90",
-   "gorsel": [
-    "20eac3bc-619c-4376-bda3-dc7ac2b9a3c0",
-    "0a394315-c802-4a12-b46f-10d3cba2d026",
-    "a20cc354-ac5a-46fd-a6ae-36ed92aec596",
-    "6da04e0d-97f5-4705-bf26-0a4437d6dd2a"
-   ],
-   "aciklama": "Sivri şapkalı, minimal Japandi tarzı cüce figürü."
-  },
-  "japandi-oval-tepsi-minimal-duzenleyici": {
-   "ad": "Japandi Oval Tepsi - Minimal Düzenleyici",
-   "kat": "baski-tepsi",
-   "fiyat": "289.90",
-   "gorsel": [
-    "ffe50526-98cc-4e1d-9cbd-91d12ee9577e",
-    "8df9c19d-e104-4f7f-b6a7-636d6610d610",
-    "b83b1fe9-dd31-4a8e-b18c-815df419a2d0",
-    "ec0ab8f1-078f-4d78-9fb3-fdcb48486701"
-   ],
-   "aciklama": "Yumuşak kenarlı, sade oval Japandi tepsi."
-  },
-  "kalp-elli-saksi-sevimli-bitki-saksisi": {
-   "ad": "Kalp Elli Saksı - Sevimli Bitki Saksısı",
-   "kat": "baski-saksi",
-   "fiyat": "299.90",
-   "gorsel": [
-    "b2fe1332-c2de-499e-abb8-efb789a56d29",
-    "62ba6aa7-9955-41bf-831b-24dcee63a3d7",
-    "6e20e241-1e86-42f7-806e-fedeba37de3a",
-    "aec0c18e-4c14-43e5-8cf9-4bada7912b21"
-   ],
-   "aciklama": "Elleriyle kalp yapan sevimli karakter formunda mini saksı."
-  },
-  "katmanli-yilbasi-agaci-led-mumluk-2-li": {
-   "ad": "Katmanlı Yılbaşı Ağacı LED Mumluk - 2'li",
-   "kat": "baski-yilbasi-agaci",
-   "fiyat": "429.90",
-   "gorsel": [
-    "e98d0f8a-bc5f-4140-a878-9a62dd56bd7a",
-    "38f82780-af77-4d54-900d-7c76ac387346",
-    "26fd3170-175d-4851-804b-a90581536f2a",
-    "e93d3972-c9c3-4263-bc3f-e932596ae612"
-   ],
-   "aciklama": "Katmanlı halka formlu, içine LED mum konan 2'li yılbaşı ağacı seti."
-  },
-  "kendinden-sulamali-saksi-su-seviye-gostergeli": {
-   "ad": "Kendinden Sulamalı Saksı - Su Seviye Göstergeli",
-   "kat": "baski-saksi",
-   "fiyat": "599.90",
-   "gorsel": [
-    "fca7be93-1759-4ea4-8548-1da5113cee86",
-    "449f6381-0d43-4075-a130-5667b72feb49",
-    "a93eca59-fcc7-460f-b01c-aeab3882ebdd",
-    "10918a09-4379-425e-b84a-95a1d1037c26"
-   ],
-   "aciklama": "Su haznesi ve seviye göstergesi olan nervürlü kendinden sulamalı saksı."
-  },
-  "kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru": {
-   "ad": "Kozalak Ev Tealight Mumluk - Işıklı Yılbaşı Dekoru",
-   "kat": "baski-samdan-mumluk",
-   "fiyat": "299.90",
-   "gorsel": [
-    "9b550cb6-cf5f-423f-86d2-0f2ff3b76bba",
-    "800abc4f-7d49-4fea-bc5b-2c854c798f85",
-    "9d9fdc04-09fc-4017-ace9-39c407b6147c",
-    "9fa90c26-2b1f-4909-846f-5fc690570933"
-   ],
-   "aciklama": "İçine tealight mum konan, bacası ve kapısından ışık saçan kozalak ev."
-  },
-  "modern-anahtar-tepsisi-yuvarlak-koseli": {
-   "ad": "Modern Anahtar Tepsisi - Yuvarlak Köşeli",
-   "kat": "baski-tepsi",
-   "fiyat": "259.90",
-   "gorsel": [
-    "1331f4e9-b9d1-48a2-91e0-62828ec079b2",
-    "19158b80-ba5b-499d-aa30-943905d46c18",
-    "99166908-84c6-4634-a39a-10c40c5b0c33",
-    "84168f07-db73-4bf3-b723-702ce13f299e"
-   ],
-   "aciklama": "Yumuşak hatlı, alçak kenarlı dikdörtgen anahtar tepsisi."
-  },
-  "nervurlu-duzenleyici-kutu-masaustu-organizer": {
-   "ad": "Nervürlü Düzenleyici Kutu - Masaüstü Organizer",
-   "kat": "baski-masaustu-organizer",
-   "fiyat": "389.90",
-   "gorsel": [
-    "b8aafe80-9fa7-401f-9aa0-c950545be4b6",
-    "069c5b33-d384-41e8-8ac7-f145162c60e0",
-    "389a2771-f2a4-4f44-a6e2-9e96865f8211",
-    "8bd10f01-aedd-40d9-88cf-753a9eff9133"
-   ],
-   "aciklama": "Dışı ince nervürlü, tek bölmeli dikdörtgen düzenleyici kutu."
-  },
-  "orgu-desenli-kalp-kutu-gul-detayli": {
-   "ad": "Örgü Desenli Kalp Kutu - Gül Detaylı",
-   "kat": "baski-saklama-kutusu",
-   "fiyat": "209.90",
-   "gorsel": [
-    "9d634801-16af-4ce9-882c-e31904b7bcec",
-    "47473129-d9ed-4c0f-8b6f-655ce669145b",
-    "091a6b5a-cecc-4865-88e9-2e687dad9da3",
-    "da4e32d7-2e33-466e-8b90-9740a570418b"
-   ],
-   "aciklama": "Kapağında gül bulunan, örgü dokulu kalp şeklinde hediye kutusu."
+   "kat": "baski-anahtarlik"
   },
   "spiral-anahtarlik-donen-cekirdekli": {
    "ad": "Spiral Anahtarlık - Dönen Çekirdekli",
-   "kat": "baski-anahtarlik",
+   "aciklama": "Ortasındaki spiral çekirdeği dönen, halkalı şık anahtarlık.",
    "fiyat": "209.90",
    "gorsel": [
     "c2596ced-a743-4c85-bb54-f3a52e8a5743",
     "d33e6612-7f38-4647-ad94-0c0d98c2033c",
     "54c8e4fa-55d3-44d4-ba4f-2aab05051d22",
-    "bac7850a-7b23-4f20-aeff-69d5e8ae4aae"
+    "bac7850a-7b23-4f20-aeff-69d5e8ae4aae",
+    "b2a5d077-255c-4362-9187-4653b50642f4",
+    "53438e4f-692b-4a7d-b9c5-259bff356b13"
    ],
-   "aciklama": "Ortasındaki spiral çekirdeği dönen, halkalı şık anahtarlık."
+   "kat": "baski-anahtarlik"
+  },
+  "yeleli-sari-aslan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu": {
+   "ad": "Yeleli Sarı Aslan Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü",
+   "aciklama": "Örgü (amigurumi) görünümlü dokulu yüzeyiyle sevimli yeleli sarı aslan figürlü anahtarlık.",
+   "fiyat": "209.90",
+   "gorsel": [
+    "51dd937b-af6e-4018-a25a-d94f6eb1ab7b",
+    "e718ce59-28f7-4a80-8861-c0a99d0cec49",
+    "18ebfaa0-589a-47e9-a0f3-130f9680b717"
+   ],
+   "kat": "baski-anahtarlik"
+  },
+  "yesil-koala-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu": {
+   "ad": "Yeşil Koala Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü",
+   "aciklama": "Örgü (amigurumi) görünümlü dokulu yüzeyiyle sevimli yeşil koala figürlü anahtarlık.",
+   "fiyat": "209.90",
+   "gorsel": [
+    "3759768e-dabe-4082-a1e3-e5e14f32f9e9",
+    "233ca9b3-eb1c-42db-b9c9-e7f3d3bf3d40",
+    "05ba01d4-8476-448d-8fe9-8540401cec7b"
+   ],
+   "kat": "baski-anahtarlik"
+  },
+  "5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto": {
+   "ad": "5'li Geometrik Duvar Askılığı - Fasetli Kancalı Portmanto",
+   "aciklama": "Tek parça ray üzerinde beş fasetli kanca bulunan modern duvar askılığı.",
+   "fiyat": "399.90",
+   "gorsel": [
+    "c7d0354d-e527-44b7-b00b-c775ccde85aa",
+    "2ee0f051-c91b-483e-9340-c7e92b159588",
+    "afdabb21-d5c1-4948-a773-f12e58ac7602",
+    "e727a839-8139-404e-8ef9-0081aed57a68",
+    "7bfb0693-4cd9-4a06-ac09-eae5493240e6",
+    "8bd60796-4738-4544-a1ee-58f6de417299",
+    "b31c80ec-83ad-4cfc-9574-fc3c33e3d9bc"
+   ],
+   "kat": "baski-aski"
+  },
+  "isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi": {
+   "ad": "İsimli Köpek Tasma Askısı - Pati Motifli Duvar Askısı",
+   "aciklama": "Pati motifli, isim yazılabilen, 3 kancalı tasma ve gezdirme askısı.",
+   "fiyat": "289.90",
+   "gorsel": [
+    "218eeed4-41c2-4437-b712-1eaeaba0544d",
+    "d04d0019-3ca5-41b0-8406-0a0f86ad460d",
+    "f4b7abef-ea55-4168-ac53-b41b49a2d64a",
+    "ddb8e619-af53-4db7-af75-0726e9b38014",
+    "6068f77c-51a3-4de1-9135-1dc6b5efa716",
+    "641337e6-85ae-4722-abbd-a980304c46ed",
+    "786d843f-161b-4c08-80ce-e079779d33c5"
+   ],
+   "kat": "baski-aski"
+  },
+  "minimal-duvar-askisi-kavisli-kanca": {
+   "ad": "Minimal Duvar Askısı - Kavisli Kanca",
+   "aciklama": "İnce, kavisli formuyla mont, havlu ve çanta için sade duvar askısı.",
+   "fiyat": "209.90",
+   "gorsel": [
+    "d1586b13-01c4-41f9-9be0-7eda42ac4db7",
+    "82c4498d-2a40-490f-b42e-c8f356485d1d",
+    "77d69b58-032b-4592-b0f6-8f2f82c13b33",
+    "af1c54dc-3fb5-4a24-a7c8-c1e89139c908",
+    "c0ad4af0-6669-41c6-8b4b-b50592f91d93",
+    "8f0d2a0f-916b-4e49-80be-1499fda6d181"
+   ],
+   "kat": "baski-aski"
+  },
+  "minimal-duvar-askisi-yapistirmali-2-li-kanca": {
+   "ad": "Minimal Duvar Askısı - Yapıştırmalı 2'li Kanca",
+   "aciklama": "Delmeden, güçlü çift taraflı bantla yapıştırılan sade duvar kancası (2 adet).",
+   "fiyat": "279.90",
+   "gorsel": [
+    "1cba870f-d28a-4847-aea8-72acf2967caf",
+    "b73ff1b8-3791-4375-b8f9-1f09c79c4a75",
+    "4db0de78-cd9f-4dc6-b5de-ae7096180573",
+    "c7a197ca-22a6-45a7-adbc-ed0c15a842ac",
+    "0aa20114-0ba4-4cbc-bba1-60a9c12d5c8a",
+    "e706f1c5-b755-41ba-b7c7-bb554e8257c8",
+    "bb21b2c0-bdc9-4b10-a0f3-aba71bb0be0e",
+    "645c4ff1-3dba-403b-b577-077986eb62c7"
+   ],
+   "kat": "baski-aski"
+  },
+  "nervurlu-cift-duvar-askisi-minimal-kanca": {
+   "ad": "Nervürlü Çift Duvar Askısı - Minimal Kanca",
+   "aciklama": "Nervürlü taban plakasından çıkan iki kıvrık kancalı minimal askı.",
+   "fiyat": "209.90",
+   "gorsel": [
+    "774b1ede-aa31-4e81-92d2-aaeac0f024bd",
+    "732419a3-f35a-46ae-b2c9-296523d45fa7",
+    "f0940c9a-564e-4cc3-9070-592aa8e786d7",
+    "815d2769-1c99-4273-b80a-287cece72b5e",
+    "6c8a8076-4f80-45b7-a435-0a130f6967f8",
+    "39e18d7e-39a0-40be-b6cd-664381db1421",
+    "4edc6107-cc59-4654-a22a-2e81dfed1b4b"
+   ],
+   "kat": "baski-aski"
+  },
+  "istiflenebilir-ayakkabilik-delikli-rafli": {
+   "ad": "İstiflenebilir Ayakkabılık - Delikli Raflı",
+   "aciklama": "Dikey kolon üzerinde istiflenen delikli raflı ayakkabılık.",
+   "fiyat": "2259.90",
+   "gorsel": [
+    "a26f06b4-e166-4eeb-9eff-1be38448beb8",
+    "ed140035-98fc-406b-b00e-c150f3abc79f",
+    "b4d98b14-89c6-416d-a34f-c0dd27fa5f70",
+    "0c15faa0-f7ef-466d-bd80-4932e177a52d",
+    "e640f186-ea7e-40ce-a3cd-c902b9034d2d"
+   ],
+   "kat": "baski-ayakkabilik"
+  },
+  "katlanir-baharatlik-3-kademeli-basamakli-baharat-rafi": {
+   "ad": "Katlanır Baharatlık - 3 Kademeli Basamaklı Baharat Rafı",
+   "aciklama": "Kullanılmadığında katlanan, üç kademeli basamaklı baharat rafı.",
+   "fiyat": "699.90",
+   "gorsel": [
+    "9011cd65-c2f6-4c9e-807a-f5017fc8d468",
+    "de37283e-c6ee-4833-877d-f915ae36893f",
+    "4a60fdf2-e151-4483-ba83-2ba9c93be311",
+    "3584c333-a7ae-4f8f-a448-a71e9bd46780",
+    "c333c6be-5c29-46be-adcc-75d630585fa2",
+    "65284f5e-b7b3-46e4-a204-e22e548ea700"
+   ],
+   "kat": "baski-baharatlik"
+  },
+  "kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi": {
+   "ad": "Kendinden Kilitli Havlu Askısı - Nervürlü Duvar Kancası",
+   "aciklama": "Ağırlıkla kilitlenen, havluyu düşürmeyen nervürlü duvar askısı.",
+   "fiyat": "209.90",
+   "gorsel": [
+    "ba64d4b3-c5df-4cba-a381-84e3dbe57cab",
+    "b2d899a8-c3b7-42da-a552-6f8e2738a391",
+    "47247a15-c872-40ac-8211-ca6ec7819ddf",
+    "03dcde97-8f00-4105-8f65-057e621561d0",
+    "8c2cf637-63e6-494f-acfe-b2136ef1ef74",
+    "c7df648c-925c-489b-b8b7-cf3bb55a1261"
+   ],
+   "kat": "baski-banyo-askisi"
+  },
+  "nervurlu-pamuk-ve-kulak-cubugu-kabi": {
+   "ad": "Nervürlü Pamuk ve Kulak Çubuğu Kabı",
+   "aciklama": "Pamuk ve kulak çubuğu için iki bölmeli nervürlü banyo düzenleyici.",
+   "fiyat": "369.90",
+   "gorsel": [
+    "63162b8a-8208-4f43-938f-174e9c18ca82",
+    "dc7dd7b8-e8ca-4ef7-ac0e-5cd7f71132b7",
+    "de01407a-50ce-47a8-9375-a8befba865bf",
+    "aa0f111a-d7e3-4940-8ed1-621308db04bb",
+    "b75cae03-b47b-4267-aab1-bba4390e6ba3"
+   ],
+   "kat": "baski-banyo-duzenleyici"
+  },
+  "pamuk-ve-kulak-cubugu-seti-nervurlu-banyo-duzenleyici": {
+   "ad": "Pamuk ve Kulak Çubuğu Seti - Nervürlü Banyo Düzenleyici",
+   "aciklama": "Önden alımlı kapaklı pamuk haznesi ve kulak çubuğu kabından oluşan ayaklı set.",
+   "fiyat": "419.90",
+   "gorsel": [
+    "685a145f-249c-4b83-bc1d-e2acfb1cbf53",
+    "41a98b76-2cde-4dae-beab-1c2377288154",
+    "53f54320-ac20-46f6-a98d-948b3ddda2b2",
+    "5148c15d-ae9b-4cb5-a681-3aee3e5763d0",
+    "c0d12dfc-025d-400f-a47f-6abfe00db895",
+    "e0c5ea41-6654-4938-8edd-02cdca6c7960"
+   ],
+   "kat": "baski-banyo-duzenleyici"
+  },
+  "retro-disket-bardak-altligi-seti-8-li-suruculu": {
+   "ad": "Retro Disket Bardak Altlığı Seti - 8'li Sürücülü",
+   "aciklama": "Eski disket görünümlü 8 bardak altlığı ve basınca çıkaran sürücü kutusu.",
+   "fiyat": "549.90",
+   "gorsel": [
+    "02ba6912-4e5e-46dc-8d42-9116a1483569",
+    "ad3156b9-5ede-4a05-bc67-a8e9b4990473",
+    "ed3758aa-7926-4020-9c8a-ac4cc7a32f5f",
+    "d6e6c132-44f1-47c0-99a2-3e3f6edb48c9"
+   ],
+   "kat": "baski-bardak-altligi"
+  },
+  "aktivite-tahtasi-6-bolmeli-mesgul-tahtasi-disli-saat-vida-somun-egitici-oyuncak": {
+   "ad": "Aktivite Tahtası 6 Bölmeli Meşgul Tahtası Dişli Saat Vida Somun Eğitici Oyuncak",
+   "aciklama": "Aktivite Tahtası, altı farklı oyunu tek tahtada toplayan eğitici bir oyuncaktır.",
+   "fiyat": "1319.90",
+   "gorsel": [
+    "5344b9b4-4cf9-483a-b5ff-92a0c31e62ec",
+    "93167286-6e17-44b9-98cb-b3f213238caf",
+    "90ba11fb-896c-4bb5-857e-51dcf9df45e5",
+    "9a8bb4e3-6280-469c-8096-d20b004ed702"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "alyan-anahtarli-vida-takma-oyuncagi-renk-ve-boy-eslestirme-egitici-set": {
+   "ad": "Alyan Anahtarlı Vida Takma Oyuncağı Renk ve Boy Eşleştirme Eğitici Set",
+   "aciklama": "Alyan Anahtarlı Vida Takma Oyuncağı, çocukların vidaları doğru deliğe yerleştirip alyan anahtarıyla sıktığı eğitici bir settir.",
+   "fiyat": "959.90",
+   "gorsel": [
+    "412e8f9e-0d5f-42d9-a6df-31e1618ab1e7",
+    "5ee7c5d4-89fd-4b41-a886-2e78b74ee82d",
+    "0ea083e7-5e97-4731-aa93-72e916d72fa9",
+    "9a9250c9-c0bc-4118-bf0e-beef501b8a04"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "boncuk-dizme-seti-kasali-iri-sekilli-boncuk-egitici-ip-gecirme-oyuncagi": {
+   "ad": "Boncuk Dizme Seti Kasalı İri Şekilli Boncuk Eğitici İp Geçirme Oyuncağı",
+   "aciklama": "Boncuk Dizme Seti, çocukların iri ve şekilli boncukları ipe dizerek oynadığı eğitici bir settir.",
+   "fiyat": "759.90",
+   "gorsel": [
+    "71a49209-24bf-4cef-b0e5-c73054e9a88d",
+    "3a9fd293-4698-4173-80ef-ecb16c5fd400",
+    "bcfd64d1-11b5-42fa-b6b3-fc09d9cc862a",
+    "a6359ed7-1a7d-478e-b559-8dbfa6c0afa3"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "ciftlik-hayvani-damgalari-oyun-hamuru-kalip-seti": {
+   "ad": "Çiftlik Hayvanı Damgaları - Oyun Hamuru Kalıp Seti",
+   "aciklama": "İnek, domuz, koyun, tavuk, at ve ördek desenli oyun hamuru damga seti.",
+   "fiyat": "439.90",
+   "gorsel": [
+    "14cfb9ac-f67b-479b-84cd-91c920ae718e",
+    "4676b4d5-0818-4a6b-8e3a-1dad9518a10c",
+    "bd2bc55e-9be1-4cdb-982d-a5d3c4281f06"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "cocuk-cay-takimi-evcilik-oyuncak-cay-seti": {
+   "ad": "Çocuk Çay Takımı - Evcilik Oyuncak Çay Seti",
+   "aciklama": "Demlik, fincan-tabak, şekerlik ve kaşıklardan oluşan çocuk çay takımı.",
+   "fiyat": "789.90",
+   "gorsel": [
+    "8a793b7a-ffd2-43f4-95d6-792e37ea8616",
+    "6c91a1a9-5aa7-4b18-b2bc-f260eff2efe9",
+    "63ffd344-2b90-49a8-9491-48df3c05397f"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "cocuk-oklavasi-desenli-oyun-hamuru-merdanesi": {
+   "ad": "Çocuk Oklavası - Desenli Oyun Hamuru Merdanesi",
+   "aciklama": "Oyun hamuru ve kil için çift saplı, desenli çocuk oklavası.",
+   "fiyat": "569.90",
+   "gorsel": [
+    "afc6a165-850f-4aea-a52f-8db388372f60",
+    "6bb8c039-1da6-4d38-9cb1-478db27eb381",
+    "c79a1574-5098-4e7e-9b26-27a26dc71cea"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "duygu-damgalari-oyun-hamuru-kalip-seti": {
+   "ad": "Duygu Damgaları - Oyun Hamuru Kalıp Seti",
+   "aciklama": "Farklı yüz ifadeleri basan saplı oyun hamuru damgaları; oyunla duygu öğrenme.",
+   "fiyat": "399.90",
+   "gorsel": [
+    "c6b98d2e-238b-48ea-8c7f-27a738280d32",
+    "59871e58-55e4-4b30-863f-ea8ccc01f0e5",
+    "5107bcff-5383-48ec-9afc-e61549fc4688"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "geometrik-sekil-siralama-oyuncagi": {
+   "ad": "Geometrik Şekil Sıralama Oyuncağı",
+   "aciklama": "Montessori Geometrik Sıralama ve Dizme Oyuncağı Çocukların şekil, renk ve boyut kavramını eğlenerek öğrendiği dayanıklı bir aktivite oyuncağıdır.",
+   "fiyat": "669.90",
+   "gorsel": [
+    "f58ff411-f2c7-46d3-a6a5-9216729d27cd",
+    "d9afd840-ef79-47e4-bd28-9b916da92397",
+    "9cc4fb63-d9fc-494b-a972-8b7a5f07fe97",
+    "74e2d114-6457-4840-9953-5ee5c220bf01"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "geometrik-sekil-ve-cark-siralama-oyuncagi-egitici-renk-sekil-eslestirme-seti": {
+   "ad": "Geometrik Şekil ve Çark Sıralama Oyuncağı Eğitici Renk Şekil Eşleştirme Seti",
+   "aciklama": "Geometrik Şekil ve Çark Sıralama Oyuncağı, çocukların renkleri, şekilleri ve sıralamayı eğlenerek öğrendiği çok amaçlı bir eğitici settir.",
+   "fiyat": "879.90",
+   "gorsel": [
+    "cf9c4c0d-78d8-4fc8-a6eb-96d580ee4ef7",
+    "2200f8b5-2299-4d79-814c-dedcf508de78",
+    "07ebaa6f-8a6f-49f1-b551-3e62a0f1d2af"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "halka-dizme-kulesi-dokulu-renkli-istif-oyuncagi-egitici-sekil-tanima": {
+   "ad": "Halka Dizme Kulesi Dokulu Renkli İstif Oyuncağı Eğitici Şekil Tanıma",
+   "aciklama": "Halka Dizme Kulesi, çocukların renkli halkaları çubuğa dizerek oynadığı eğitici bir istif oyuncağıdır.",
+   "fiyat": "669.90",
+   "gorsel": [
+    "ceb88f5a-ca9b-4cd7-a260-27ef85eb59ba",
+    "44cdcdc9-c989-4423-94e3-123f53811bd1",
+    "b665d20e-515a-4a17-a1fb-7920cfb0b80d",
+    "d41b820a-55d1-49e1-9e00-4eab64d0634f"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "masaustu-mini-basketbol-firlatmali-atari-oyunu": {
+   "ad": "Masaüstü Mini Basketbol - Fırlatmalı Atari Oyunu",
+   "aciklama": "Potalı, fırlatıcılı masaüstü mini basketbol oyunu.",
+   "fiyat": "1269.90",
+   "gorsel": [
+    "f93c5ed0-bd60-4669-a1d2-30234d0caebe",
+    "7e83e239-f4be-4f86-9439-ba6bc8a8a102",
+    "21e0d8e6-2745-4247-9ca0-b45a3d282617"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "masaustu-mini-langirt-paletli-atari-oyuncagi": {
+   "ad": "Masaüstü Mini Langırt - Paletli Atari Oyuncağı",
+   "aciklama": "Paletli, tamponlu ve fırlatıcılı masaüstü mini langırt.",
+   "fiyat": "1329.90",
+   "gorsel": [
+    "4ebe3846-741b-4881-a56c-78fe5a10e338",
+    "abdc90d1-4149-40c4-b59e-4626d7e92c34",
+    "b725ee14-d8c9-4ce0-8e2b-d86a82f3433c"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "moduler-mini-golf-seti-ev-ici-golf-oyunu": {
+   "ad": "Modüler Mini Golf Seti - Ev İçi Golf Oyunu",
+   "aciklama": "Rampa ve engelli parçalarla kurulan, sopalı ve toplu ev içi mini golf seti.",
+   "fiyat": "2329.90",
+   "gorsel": [
+    "69316b4a-3d06-42c5-bef8-bd2ed10f998c",
+    "a7bb8cdf-8b2a-4dd0-9e2d-233c0ba87dbc",
+    "6e285d36-f5a8-4e9d-9b76-fd3ef91eb8a5"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "oyuncak-alet-seti-cocuk-tamir-takimi": {
+   "ad": "Oyuncak Alet Seti - Çocuk Tamir Takımı",
+   "aciklama": "Çekiç, İngiliz anahtarı, tornavida ve testereden oluşan güvenli kenarlı oyuncak alet seti.",
+   "fiyat": "439.90",
+   "gorsel": [
+    "bf1b66f5-e54d-4d79-83da-ebb16f169f5c",
+    "2a19d928-e43e-4cd3-968c-3c0a72f76cd6",
+    "3b3c48e5-7408-4e17-a757-1ef3ba5edac0"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "oyuncak-cay-kahve-seti-6-renk-tabakli": {
+   "ad": "Oyuncak Çay & Kahve Seti — 6 Renk, Tabaklı",
+   "aciklama": "Kahve Seti — 6 Renk, Tabaklı Çocukların çay partisi ve mutfak oyunlarıyla paylaşmayı, renkleri ve rol yapmayı öğrendiği 6 renkli fincan setidir.",
+   "fiyat": "729.90",
+   "gorsel": [
+    "a49b985b-9c99-4a0c-8ffd-a0f9df7d4f04",
+    "860e6c6d-5ac7-4841-8897-f1e48720eecf",
+    "d5634b6e-b885-4b7a-aac6-282a08240ed8"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "oyuncak-market-kasa-seti-yazarkasali-egitici-rol-yapma-oyunu": {
+   "ad": "Oyuncak Market Kasa Seti Yazarkasalı Eğitici Rol Yapma Oyunu",
+   "aciklama": "Oyuncak Market Kasa Seti — Yazarkasalı Çocukların market/manav oyunu oynayarak alışveriş, sayı ve para kavramını eğlenerek öğrendiği kapsamlı bir rol yapma (dramatik oyun) setidir.",
+   "fiyat": "1169.90",
+   "gorsel": [
+    "3fd12b63-5b3c-46ca-9850-5a978cc6852b",
+    "48017dd9-41ff-4c6e-b7af-5d01eab075a8",
+    "92974a10-c37a-4c5c-90ee-3044b7221e94"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "oyuncak-meyve-sebze-seti-sandikli-egitici-market-manav-oyunu": {
+   "ad": "Oyuncak Meyve Sebze Seti Sandıklı Eğitici Market Manav Oyunu",
+   "aciklama": "Oyuncak Meyve ve Sebze Seti — Sandıklı Çocukların market/manav ve mutfak oyunları oynayarak meyve-sebzeleri, renkleri ve isimleri öğrendiği eğitici bir rol yapma (dramatik oyun) setidir.",
+   "fiyat": "1019.90",
+   "gorsel": [
+    "600a52f3-1f0e-4267-be6c-9bfd60fe2193",
+    "b441e835-82f7-408b-a4ce-d32c28ca4d54",
+    "acce4f6b-1459-43d9-9884-1562df96d15f"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "planor-firlatici-lastikli-ucak-firlatma-oyuncagi": {
+   "ad": "Uçak Fırlatıcı - Lastikli Uçak Fırlatma Oyuncağı",
+   "aciklama": "Hafif uçağı lastik mekanizmayla fırlatan açık hava oyuncağı.",
+   "fiyat": "329.90",
+   "gorsel": [
+    "3e41ed3f-7e41-4064-aab5-666db2b89b9e",
+    "ad114448-72f3-4966-943e-b03559882596",
+    "f42249e0-8f0f-4f80-8839-4470dfaa4a14"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "sihirli-iksir-yapma-seti-rol-yapma-oyuncagi": {
+   "ad": "Sihirli İksir Yapma Seti - Rol Yapma Oyuncağı",
+   "aciklama": "İksir şişeleri, kazan, karıştırıcı ve malzeme parçalarından oluşan hayal oyunu seti.",
+   "fiyat": "1389.90",
+   "gorsel": [
+    "682f1c08-082a-4ee5-b49f-3169fdbd0337",
+    "090f8701-2ab0-4f3f-91e2-8fd64e5b066b",
+    "027561e3-ceea-43ff-bc12-e80fd873f714"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "topac-savas-arenasi-2-topacli-arena-seti": {
+   "ad": "Topaç Savaş Arenası - 2 Topaçlı Arena Seti",
+   "aciklama": "Arena kasesi, iki topaç ve fırlatıcılı topaç savaş seti.",
+   "fiyat": "729.90",
+   "gorsel": [
+    "940595b3-3d17-43ec-9aad-6eab130d89e7",
+    "839de2c1-4b61-48cb-8162-cdc37d49434f",
+    "8910f7e3-57b2-440b-889f-c39f3eb75561"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "vidali-kepce-oyuncak-tornavidali-sokup-tak-is-makinesi-yapim-seti": {
+   "ad": "Vidalı Kepçe Oyuncak Tornavidalı Söküp Tak İş Makinesi Yapım Seti",
+   "aciklama": "Vidalı Kepçe, çocukların kendi iş makinesini parça parça kurduğu eğitici bir yapım setidir.",
+   "fiyat": "1019.90",
+   "gorsel": [
+    "ba51112c-fb31-4a56-b6e4-7033bb3fc8f3",
+    "bb5e7973-5269-4792-b462-2bb029747bf5",
+    "daa0c64b-4277-4247-9a41-73ffd6a86918",
+    "00fd59e6-05ef-4ad1-822c-efa7b95a6294"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "vidali-sokup-tak-oyuncak-tren-tornavidali-egitici-yapim-seti": {
+   "ad": "Vidalı Söküp Tak Oyuncak Tren Tornavidalı Eğitici Yapım Seti",
+   "aciklama": "Vidalı Söküp Tak Oyuncak Tren, çocukların hem eğlenip hem öğrendiği eğitici bir yapım setidir.",
+   "fiyat": "959.90",
+   "gorsel": [
+    "4e97fb97-d84a-4cc3-9c32-c50d6875c501",
+    "b0fa4462-45e4-4519-811d-d43cf9789182",
+    "10a07d5a-d97a-46c4-a052-5efdf3e012a6"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "vidali-yapim-tahtasi-tornavidali-sok-tak-egitici-oyuncak-seti": {
+   "ad": "Vidalı Yapım Tahtası Tornavidalı Sök Tak Eğitici Oyuncak Seti",
+   "aciklama": "Vidalı Yapım Tahtası, çocukların gerçek bir usta gibi vidalayıp söktüğü eğitici bir yapım setidir.",
+   "fiyat": "879.90",
+   "gorsel": [
+    "954f21a1-1dc9-4aaf-a55a-c50bd6e245d1",
+    "26095327-8d1a-4efc-b5eb-c58da5055e67",
+    "83f5547c-0520-46d1-a93d-88a11d482169",
+    "6fb0493a-b928-47b9-b095-f6470389d129"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "yumurtlayan-tavuk-basmali-cikolata-yumurta-dagitici": {
+   "ad": "Yumurtlayan Tavuk - Basmalı Çikolata Yumurta Dağıtıcı",
+   "aciklama": "Sırtına basıldığında alttan küçük çikolata yumurta bırakan eğlenceli tavuk figürü.",
+   "fiyat": "339.90",
+   "gorsel": [
+    "9ccc3255-d21e-418a-a820-782e196813ee",
+    "76cca857-5bd1-49a8-ba27-29bf2ce53831",
+    "1efad7cf-fcf5-452c-898b-3cc73d01aaf0",
+    "034b65c7-63cc-48b5-9656-07b69dd94b2c",
+    "60b3073c-45a7-45fd-bcb4-073ac5166746"
+   ],
+   "kat": "baski-bebek-ve-aktivite-oyuncaklari"
+  },
+  "cocuk-cizim-sablonlari-hayvan-ve-sekil-sablon-seti": {
+   "ad": "Çocuk Çizim Şablonları - Hayvan ve Şekil Şablon Seti",
+   "aciklama": "Hayvan ve nesne figürlü çizim şablonları; çiz, boya, öğren.",
+   "fiyat": "309.90",
+   "gorsel": [
+    "e53c6b5b-62a8-4bf9-87d4-9133643905ce",
+    "053f5c1f-743c-45d1-acca-cca73c4c4313",
+    "4a205574-789a-4e2c-b07d-2f195adf0764"
+   ],
+   "kat": "baski-boyama-seti"
+  },
+  "dinozor-cizim-sablon-kartlari-cocuk-boyama-seti": {
+   "ad": "Dinozor Çizim Şablon Kartları - Çocuk Boyama Seti",
+   "aciklama": "T-Rex, triceratops, stegosaurus ve brakiyozor desenli çizim şablon kartları.",
+   "fiyat": "309.90",
+   "gorsel": [
+    "db0774a6-62ee-434e-a73a-8e7639e83ead",
+    "1b8fb474-d939-49dd-864d-6027fe975327",
+    "8f321d0d-f756-4931-ba0a-87fa69f012cb"
+   ],
+   "kat": "baski-boyama-seti"
+  },
+  "spiral-cizim-seti-disli-desen-cizim-oyuncagi": {
+   "ad": "Spiral Çizim Seti - Dişli Desen Çizim Oyuncağı",
+   "aciklama": "Dişli halka ve disklerle renkli spiral desenler oluşturan çizim seti.",
+   "fiyat": "309.90",
+   "gorsel": [
+    "6ef77141-54c4-4cc6-ba2e-d0e9b4746c35",
+    "292e6ba9-ead3-47ea-a0ae-553d97f4d1d6",
+    "858725f3-328d-42fb-b492-070c61b5caff"
+   ],
+   "kat": "baski-boyama-seti"
+  },
+  "cekmeceli-buzdolabi-yumurtaligi-16-bolmeli-istiflenebilir": {
+   "ad": "Çekmeceli Buzdolabı Yumurtalığı - 16 Bölmeli, İstiflenebilir",
+   "aciklama": "Buzdolabı rafına uygun, çekmeceli ve istiflenebilir 16 bölmeli yumurtalık.",
+   "fiyat": "1349.90",
+   "gorsel": [
+    "495df2c9-0c42-402b-87ec-e854466497da",
+    "ca375a4b-f804-4980-bfee-354090086fac",
+    "689c677c-20f3-4ec9-be2d-7d2470ccc52e",
+    "3f5046da-b086-4dff-b27e-5794ad40b07d",
+    "8d268fd2-a715-4b63-9ae3-c1a7c246959c"
+   ],
+   "kat": "baski-buzdolabi-duzenleyici"
+  },
+  "deterjan-kapagi-tutucu-damla-toplayici": {
+   "ad": "Deterjan Kapağı Tutucu - Damla Toplayıcı",
+   "aciklama": "Deterjan şişesine takılan, ölçü kapağını süzen tutucu.",
+   "fiyat": "209.90",
+   "gorsel": [
+    "90c36a2e-120d-4211-983b-72ab04a2079d",
+    "fd9c878b-7997-4c6e-8644-9a787bff638a",
+    "3380f32e-8ce7-48a1-8073-4e7fd2c22bde",
+    "502ddbcd-1831-468f-9449-8cb186717703",
+    "93294f32-ff09-488e-a5a7-c6e9f5080dd3"
+   ],
+   "kat": "baski-camasirlik-gerecleri"
+  },
+  "kapakli-cop-kovasi-nervurlu-buyuk-hacimli": {
+   "ad": "Kapaklı Çöp Kovası - Nervürlü Büyük Hacimli",
+   "aciklama": "Menteşeli kapaklı, nervürlü gövdeli büyük kare çöp kovası.",
+   "fiyat": "3499.90",
+   "gorsel": [
+    "9a59f9da-6f6e-4ab6-acfc-98e91140a2c4",
+    "11303b7e-306a-4b0d-9795-059a5da05b5d",
+    "f7ecfce4-d73d-4050-b7d3-015618e0f994",
+    "7b0db9ff-7879-4d8a-b2ec-f498c5aa39cb",
+    "6ab601f8-71d0-4672-b09e-ec0a08720c88"
+   ],
+   "kat": "baski-cop-kovasi"
+  },
+  "masa-ustu-cop-kovasi-kapakli-mini-cop-kutusu": {
+   "ad": "Masa Üstü Çöp Kovası - Kapaklı Mini Çöp Kutusu",
+   "aciklama": "Yuvarlak hatlı, kapaklı kompakt masa üstü çöp kovası.",
+   "fiyat": "799.90",
+   "gorsel": [
+    "db3f4f64-7550-4174-8ced-04c2896a849a",
+    "ef3108ab-1ac8-4fa3-9e25-cf7b7add7f86",
+    "ba9b8f58-2a24-44e1-b855-9bf727ac3d55",
+    "33e8ab07-0a80-45e1-a499-d0ed5c0e18c6",
+    "87adbfee-b697-440a-95b8-9aa5af82aad6"
+   ],
+   "kat": "baski-cop-kovasi"
+  },
+  "3-katli-kalpli-sunum-standi-cupcake-kurabiye-ve-tatli-standi": {
+   "ad": "3 Katlı Kalpli Sunum Standı - Cupcake, Kurabiye ve Tatlı Standı",
+   "aciklama": "Nervürlü kenarlı üç tablalı, tepesi kalp tutamaklı sunum standı.",
+   "fiyat": "999.90",
+   "gorsel": [
+    "d4b221b0-0882-495d-98fe-a34e7eab92c4",
+    "5e955ac6-2392-48d9-ac6a-801abbf4b28a",
+    "b229fe27-e59b-4423-a6e9-a27645468d8a",
+    "8a19de48-28cd-41d5-8b61-b19b76ca26e4",
+    "75fb5ece-5b57-42bd-8204-c55def7f452f",
+    "ec09fc55-e6d5-4030-8c56-9717dc361477",
+    "0689c991-fb24-4597-af01-1bc4bc374a95",
+    "614ef468-0356-4480-9e39-7d3f45d5a68d"
+   ],
+   "kat": "baski-cupcake-standi"
+  },
+  "3-katli-kurabiye-standi-yilbasi-agaci-formlu-yildizli-servis-standi-sunumluk": {
+   "ad": "3 Katlı Kurabiye Standı Yılbaşı Ağacı Formlu Yıldızlı Servis Standı Sunumluk",
+   "aciklama": "Yılbaşı ağacı formlu, yıldızlı 3 katlı kurabiye ve cupcake standı.",
+   "fiyat": "899.90",
+   "gorsel": [
+    "371c532f-0618-438b-824e-c1aea06bf709",
+    "18627157-c3ae-4e58-ab4a-02ea0724d93d",
+    "c32902f7-d5c0-4db8-9cb9-911ee4d17bbc"
+   ],
+   "kat": "baski-cupcake-standi"
+  },
+  "doner-pasta-standi-bilyeli-donen-tablali-25-cm": {
+   "ad": "Döner Pasta Standı - Bilyeli Dönen Tablalı, 25 cm",
+   "aciklama": "Bilyeli yatağı sayesinde kendi ekseninde dönen, damla kenarlı pasta standı.",
+   "fiyat": "769.90",
+   "gorsel": [
+    "768aae4d-314f-4571-bd39-66865eec7122",
+    "f392c85a-fb7f-4c7e-bb85-41c949146c74",
+    "ae2146fb-a2f8-423b-b648-f2e23c94a263",
+    "2973b66b-85d5-43af-961f-a44dcdc1c807",
+    "512559d3-bf4f-4687-935b-78814fcb48e2",
+    "830cd91d-e007-4798-98c9-49c023398c22"
+   ],
+   "kat": "baski-cupcake-standi"
+  },
+  "iki-katli-dalgali-kenarli-sunum-standi-25-cm": {
+   "ad": "İki Katlı Dalgalı Kenarlı Sunum Standı - 25 cm",
+   "aciklama": "Dalgalı kenarlı iki tablalı cupcake, kurabiye ve tatlı sunum standı.",
+   "fiyat": "759.90",
+   "gorsel": [
+    "57013a83-bc1b-4c41-9cb4-63bef637035a",
+    "f4049bd8-4f00-4999-9683-a8548bb0036d",
+    "74bedbe0-7407-4e22-9008-ba81d90b4f51",
+    "e320b951-bbf4-466c-afd0-9362b8e2b055",
+    "181680c5-fb1d-4178-b58a-4ade06e2ba4e",
+    "e441762a-baea-46b3-a1de-ce57f82b3587",
+    "bc914309-24b8-4b20-b472-4fb92298f325",
+    "8273b010-3058-4eb9-8800-7cfa6f7ba835"
+   ],
+   "kat": "baski-cupcake-standi"
+  },
+  "limon-ayakli-pasta-standi-cupcake-sunum-standi": {
+   "ad": "Limon Ayaklı Pasta Standı - Cupcake Sunum Standı",
+   "aciklama": "Üç limon ayak üzerinde duran neşeli pasta ve cupcake standı.",
+   "fiyat": "739.90",
+   "gorsel": [
+    "dcbe36b7-ea76-4609-8b14-685d35cf6f2a",
+    "b6df68de-3245-45c6-b529-956913d69306",
+    "69bf22a5-e279-4d93-b351-9207b041d4b5"
+   ],
+   "kat": "baski-cupcake-standi"
+  },
+  "pilili-ayakli-dekoratif-pasta-standi-23-cm": {
+   "ad": "Pilili Ayaklı Dekoratif Pasta Standı - 23 cm",
+   "aciklama": "Düz geniş tablalı, pilili ayaklı tek katlı pasta standı.",
+   "fiyat": "609.90",
+   "gorsel": [
+    "d111e2a0-9832-43a7-a822-79f6d0962d56",
+    "06e89be0-656e-4d69-9a14-7cea5e53ed21",
+    "41ef6ce9-d60f-4ea0-abcd-e983182aa704",
+    "d73e4e2a-1244-4ce6-a6e4-17e91fbed3b0",
+    "a4825473-e514-4530-be56-b6a0a5e4026f",
+    "e8d13b07-bc33-4ffd-b4e1-44021f00ab53",
+    "a5fd7d4d-f8fe-4bcc-aa40-a6fa75197c5f",
+    "be019cc5-24ca-44f0-b486-6192061198f6"
+   ],
+   "kat": "baski-cupcake-standi"
+  },
+  "yildiz-kenarli-ayakli-pasta-standi-25-cm": {
+   "ad": "Yıldız Kenarlı Ayaklı Pasta Standı - 25 cm",
+   "aciklama": "Yıldız desenli kenarlı, ayaklı pasta ve tatlı sunum standı.",
+   "fiyat": "679.90",
+   "gorsel": [
+    "6fcc3536-9bc3-44e7-b558-e3e5ad8178d2",
+    "c0fedc7d-4490-4ba7-ab3c-2258b6223f29",
+    "d46ae5dd-6411-41b6-acb0-e8a23368c7dc",
+    "942eea5a-4410-449d-bdbf-23f95adbfe60",
+    "fbe97ad5-29d9-4508-ba3b-4ff38cc6b0e9",
+    "37209bc7-d1f3-4d0f-be01-b4be5fe199c8",
+    "9bb11641-92d7-46b6-9924-3de07cbcfe67"
+   ],
+   "kat": "baski-cupcake-standi"
+  },
+  "agac-siluetli-duvar-tablosu-3-parca-dekoratif-pano": {
+   "ad": "Ağaç Silüetli Duvar Tablosu - 3 Parça Dekoratif Pano",
+   "aciklama": "Üç panele yayılan ağaç silüetiyle modern duvar dekoru.",
+   "fiyat": "389.90",
+   "gorsel": [
+    "2832d7a1-4899-450e-bdfe-7cca2740867d",
+    "9b1d10f4-5266-493f-a908-bdb565597f26",
+    "002f3330-8564-424d-8892-dd2c2318c98f",
+    "59218625-1b4c-4d7b-bc98-efd18cae360b",
+    "6748a60f-d870-4407-ba37-d7fdac2c15d9",
+    "92e7eb55-0075-4d7a-b364-688cf132f6ec"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "balon-kopek-biblo-modern-pop-art-dekor": {
+   "ad": "Balon Köpek Biblo - Modern Pop Art Dekor",
+   "aciklama": "Şişirilmiş balon görünümlü, pop art tarzı modern köpek biblo.",
+   "fiyat": "209.90",
+   "gorsel": [
+    "04b2f413-81d8-4823-9de1-21dcb78b300e",
+    "5eab83f8-be31-4e8f-81f4-35436fc03142",
+    "2a1a4b4c-def9-446d-b564-3abf1987ae1d",
+    "40ba9c55-ffcc-4456-96e4-e69d18cb5fb7",
+    "953d12e1-8aed-439a-a0f9-8a392cd59a5e",
+    "4bb6ce95-c5d2-4e47-b068-5d79e7bcd436"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "buyuk-dunya-haritasi-duvar-dekoru-50-x-100-cm": {
+   "ad": "Büyük Dünya Haritası Duvar Dekoru - 50 x 100 cm",
+   "aciklama": "Duvara monte edilen, 8 parçalı büyük boy kıta silüetli dünya haritası.",
+   "fiyat": "1389.90",
+   "gorsel": [
+    "37a609fe-5a25-40a7-bb03-fbcf321c3c32",
+    "9f2e92b0-efae-490b-8606-15de5067b1d2",
+    "2e290a6e-de66-4056-a862-a22398dab93c",
+    "8e781039-62e6-49bb-bc2e-3bcfadf37c20",
+    "5aa3591d-05a6-4a44-b065-e138eb479ac3",
+    "a22d3051-bc67-4e58-9bae-d53f00a049b1"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "ejderhali-kitap-destegi-kanatli-ejderha-kitaplik-ayraci": {
+   "ad": "Ejderhalı Kitap Desteği - Kanatlı Ejderha Kitaplık Ayracı",
+   "aciklama": "Pençesiyle kitap sırasını tutan kanatlı ejderha figürlü kitap desteği.",
+   "fiyat": "699.90",
+   "gorsel": [
+    "9bf25d59-7aa2-4ccb-a389-625fe11b1843",
+    "595080a7-3894-4f26-a4e5-151717184dce",
+    "b5c05e58-919f-4f0a-a10a-cd94a02ae627",
+    "33e1d4c8-4826-4c7b-a1ea-1a158285d84c",
+    "7264a2fb-71e0-456a-bfa1-52ba567b2235"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "gala-zambagi-cicek-biblo-sapli-dekoratif-cicek": {
+   "ad": "Gala Zambağı Çiçek Biblo - Saplı Dekoratif Çiçek",
+   "aciklama": "Kıvrımlı taç yaprakları ve uzun yapraklarıyla solmayan dekoratif çiçek.",
+   "fiyat": "279.90",
+   "gorsel": [
+    "21eef1d8-81fc-42e0-b018-195a62263bdf",
+    "84a09d66-7782-4ab0-bc73-50adfd34d38d",
+    "52879df9-ac13-4d28-b618-366f19a3653c",
+    "01cef415-1de1-421c-a850-6724f2abfcb6",
+    "5064f926-f3df-424c-8eb7-4f15f394ddfa",
+    "c54920d2-3113-4768-a67e-eb9cbed482cc"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "gotik-sato-okuma-takipcisi-isikli-kitaplik-dekoru": {
+   "ad": "Gotik Şato Okuma Takipçisi - Işıklı Kitaplık Dekoru",
+   "aciklama": "Vitray pencereli, LED mumla aydınlanan ve çekmeceli gotik şato dekoru.",
+   "fiyat": "749.90",
+   "gorsel": [
+    "60c6c9ba-5368-4ebe-8be4-f8433e522b3a",
+    "5cdc1ab3-68d8-44b4-a211-ab7eb5cce9c2",
+    "cb49b346-f056-48c9-8d18-accbc3f20245",
+    "214996b5-49a1-4678-a7db-ecbf9abc143e",
+    "acc74b8e-3848-4425-b1fb-e78f42447b08"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "isikli-katedral-kitap-arasi-gotik-kitaplik-dekoru": {
+   "ad": "Işıklı Katedral Kitap Arası - Gotik Kitaplık Dekoru",
+   "aciklama": "Kitapların arasında duran, pencereleri içten aydınlanan ince gotik katedral.",
+   "fiyat": "419.90",
+   "gorsel": [
+    "20ca15a4-b9cb-483e-bd9b-277aaaa8e19d",
+    "644a7ad5-ffae-4c2c-b224-cf1e89e2e416",
+    "2839c924-c413-49e8-8e1e-81facaadd97e",
+    "3fc06628-fa98-43c4-8d8d-86c0806bbc25",
+    "aff3db8c-a7c7-47b0-90c5-1b26ac6f9b80"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "japandi-dekor-seti-vazo-mumluk-ve-tepsi": {
+   "ad": "Japandi Dekor Seti - Vazo, Mumluk ve Tepsi",
+   "aciklama": "Şişe vazo, tealight mumluk ve oval tepsiden oluşan minimal 3 parçalı set.",
+   "fiyat": "399.90",
+   "gorsel": [
+    "82dfb33d-9d6f-4271-9a36-05a74eb408de",
+    "681a416c-74a8-42db-858c-65b99acd3973",
+    "e9aaa3d2-24ce-4008-b1d0-eed596476cca",
+    "509610d2-3918-414a-8439-c343127a5ac8",
+    "e3260a19-1efd-4be9-9030-1af0744fb464",
+    "8b04ce7a-9787-4a44-b0f6-9153d27ee0d0",
+    "a91577b2-2181-4d5e-a770-f4422e9e0d38"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "kalpli-gul-biblo-solmayan-gul-hediye": {
+   "ad": "Kalpli Gül Biblo - Solmayan Gül Hediye",
+   "aciklama": "Kalp çerçevesi içinde saplı gül bulunan dekoratif biblo.",
+   "fiyat": "299.90",
+   "gorsel": [
+    "6c01713e-63c3-4197-bced-0d337fad6986",
+    "a938fc9a-2575-48f2-844c-7315067f2b1f",
+    "96bcd814-4387-4d26-b0a3-2afbb5efdfd0",
+    "f9b36093-b3d1-456c-8cfe-900e2420dfa7",
+    "d922c2c4-eedf-43da-b124-861517807eb9"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "kitap-okuyan-ejderha-raf-kenari-biblo": {
+   "ad": "Kitap Okuyan Ejderha - Raf Kenarı Biblo",
+   "aciklama": "Raf kenarına uzanmış, kuyruğu sarkan ve kitap okuyan ejderha figürü.",
+   "fiyat": "479.90",
+   "gorsel": [
+    "25d2ba6a-c059-4031-8434-f20ada841594",
+    "cddb9f94-533e-4afe-8f44-1746d4f86697",
+    "419ea625-9285-435e-bb80-c72089b04af4",
+    "fa909d57-064a-4dc5-8a51-7623effccbcc",
+    "3f26fa17-dea0-43f5-b382-4e0ddb209a65"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "kitap-okuyan-gargoyle-kitaplik-bekcisi-biblo": {
+   "ad": "Kitap Okuyan Gargoyle - Kitaplık Bekçisi Biblo",
+   "aciklama": "Kanatlarını kapatmış, açık kitap okuyan gargoyle figürü.",
+   "fiyat": "649.90",
+   "gorsel": [
+    "e9674946-b7ff-4788-b2cd-f1316b2d8a21",
+    "aef42d33-bb67-4ae8-8537-612798cdbdd3",
+    "078cc4fa-7160-4f6b-9713-2625b9a2493d",
+    "fa0792cf-ffe1-43a1-8858-90a757fe7f3b",
+    "e0cc6220-b84b-48d7-98f8-55250c059dff"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "minimal-tavsan-biblo-nervurlu": {
+   "ad": "Minimal Tavşan Biblo - Nervürlü",
+   "aciklama": "Uzun kulaklı, nervürlü gövdeli minimal tavşan figürü.",
+   "fiyat": "279.90",
+   "gorsel": [
+    "93a66dde-e53d-419f-9765-b6accea453c0",
+    "b59e7457-2a1e-4d2b-9c6f-0149f85f0f36",
+    "8a9e8f16-4a03-4b3e-bc55-8b722393d6fc",
+    "48629f67-1f06-4bd9-b3cf-25b40f7b067b",
+    "6f2ef324-5136-4cff-8df6-890114dad1de",
+    "c1b71344-ac1a-4295-ab0b-3768b2cb017e"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "modern-aile-heykeli-anne-baba-ve-cocuklar-biblo": {
+   "ad": "Modern Aile Heykeli - Anne, Baba ve Çocuklar Biblo",
+   "aciklama": "Anne, baba ve çocuk figürlerinden oluşan, birbirine geçen modern aile heykeli.",
+   "fiyat": "659.90",
+   "gorsel": [
+    "a7f3d8bb-4f43-4ea0-ab65-e75ec73d071c",
+    "9a1126c7-808e-4d76-b10f-34b342359ced",
+    "cb703809-f9ba-42a5-b56f-a0b3697983ee",
+    "35872572-10b8-4c2a-8c28-d1c6197212bd",
+    "d66f4796-f894-4e42-9c7f-209df6850c96",
+    "91f2b5a9-61ea-46a2-ae67-2851e4811f71"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "modern-geometrik-duvar-cerceve-seti-3-lu": {
+   "ad": "Modern Geometrik Duvar Çerçeve Seti - 3'lü",
+   "aciklama": "Kemer, ay ve daire motifli üç parçalı minimal duvar sanatı seti.",
+   "fiyat": "539.90",
+   "gorsel": [
+    "433abd90-ccb3-432a-90f6-1e3f57115167",
+    "36a8966b-6d42-41d3-a057-f10e36632771",
+    "3d47685e-2f3e-4ca6-9cef-21234abf6735",
+    "b8126c24-f19d-4d64-b5e7-07739489b5d5",
+    "c76c4997-02c3-45b9-9953-e36c895872ff",
+    "fab860b3-a2a0-489c-b21b-dec023dbebaa"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "nervurlu-dekoratif-kalp-biblo-japandi-15-cm": {
+   "ad": "Nervürlü Dekoratif Kalp Biblo - Japandi, 15 cm",
+   "aciklama": "Dikey nervür dokulu, ayakta duran Japandi tarzı dekoratif kalp.",
+   "fiyat": "779.90",
+   "gorsel": [
+    "b287650c-2088-41d5-b94c-7b0c12f46d72",
+    "49516ede-36d5-47a2-9545-d009330a4fd6",
+    "7128fbda-f99b-4129-a207-b59bb42f6d35",
+    "ca37ae0f-b461-4191-98bf-da4afa3d12d9",
+    "e1307bb6-d5e1-4ba5-8037-0643a06aeca5",
+    "de9f3ad6-e41e-4421-b196-44f804ec0c5c",
+    "863c881e-7c9d-44e0-aa05-15efdd56150d",
+    "d7f9a695-2d79-420c-b2b0-3845661d5fcb"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "raftan-cikan-ejderha-kitaplik-dekoru-2-li": {
+   "ad": "Raftan Çıkan Ejderha - Kitaplık Dekoru 2'li",
+   "aciklama": "Kitapların arasından çıkıyormuş gibi görünen ejderha başı ve kuyruğu seti.",
+   "fiyat": "649.90",
+   "gorsel": [
+    "7b3db648-b310-4bbd-8439-55974799d60f",
+    "b153ed0b-cf7f-4e3e-a44a-5fc7efd82b03",
+    "c7722cde-fd2c-49a4-a250-61a14202ecc1",
+    "7533f5da-4a3d-4a76-b41a-6e0499e14354",
+    "b6c2e674-cefc-416e-aa34-9076a07955b7"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "sinek-kusu-ve-gul-duvar-susu-dairesel-duvar-dekoru": {
+   "ad": "Sinek Kuşu ve Gül Duvar Süsü - Dairesel Duvar Dekoru",
+   "aciklama": "Güller arasında sinek kuşu motifli, ince işçilikli dairesel duvar süsü.",
+   "fiyat": "209.90",
+   "gorsel": [
+    "9ec02642-7896-4727-bcdf-1a137809f644",
+    "0c47cb9b-271c-4012-ae03-33bc6835edc6",
+    "2e1ee239-c500-4418-bee6-fac989e7906d",
+    "a03bc8a0-e966-4b10-b23d-458e583506e8",
+    "9f0ead5e-c850-47bd-ae9b-5ae24488b79b",
+    "cab0bb3c-7d59-4917-a4d8-6802bcc50f06"
+   ],
+   "kat": "baski-dekoratif-obje-ve-biblo"
+  },
+  "agac-formlu-anahtarlik-kasesi-antre-ve-masa-icin-dekoratif-anahtar-ve-taki-kabi": {
+   "ad": "Ağaç Formlu Anahtarlık Kasesi – Antre ve Masa İçin Dekoratif Anahtar ve Takı Kabı",
+   "aciklama": "Ağaç formlu anahtarlık kasesi, zen desenli taban, kıvrımlı ağaç gövde ve dalgalı kenarlı kaseden oluşan özgün tasarımıyla antre, çalışma masası, komodin ve konsollarda dikkat çekici bir dekor sağlar.",
+   "fiyat": "639.90",
+   "gorsel": [
+    "1687fde1-445c-42f1-87c5-e7809d93c4ac",
+    "c36b7a77-27be-430b-b8f6-00cffacfa626",
+    "e7b05aa2-ba54-4274-b8b2-4f2ec1c2af10"
+   ],
+   "kat": "baski-dekoratif-tabak-ve-kase"
+  },
+  "boncuklu-dekoratif-tepsi-taki-mum-ve-aksesuar-icin-yuvarlak-duzenleyici-sehpa-te": {
+   "ad": "Boncuklu Dekoratif Tepsi – Takı, Mum ve Aksesuar İçin Yuvarlak Düzenleyici Sehpa Tepsisi",
+   "aciklama": "Boncuklu dekoratif tepsi, iki sıra dokulu boncuk kenarı ve düz, geniş tabanıyla salon, banyo, yatak odası ve antrede modern bir görünüm sağlar.",
+   "fiyat": "469.90",
+   "gorsel": [
+    "4acb5b46-7546-4a97-bc5f-c7ecff9e0bcd",
+    "f717d6e8-cc0f-43e8-ab91-0fdeb1ab7b95",
+    "0dd06504-fe8f-4c8b-8fd5-94555c611f49"
+   ],
+   "kat": "baski-dekoratif-tabak-ve-kase"
+  },
+  "cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli": {
+   "ad": "Çiçek Formlu Çerezlik Sunum Tabağı - 6 Bölmeli, Orta Kaseli",
+   "aciklama": "Altı bölmeli çiçek formlu çerezlik; ortadaki kasesiyle çerez, kuruyemiş ve meze sunumu için.",
+   "fiyat": "679.90",
+   "gorsel": [
+    "0ee2e66b-e5e5-4c98-ac0f-204e18b7d45c",
+    "77ddbfc6-7a61-438a-a08f-c89326df1194",
+    "32243471-82e8-4065-9840-e5ddfe3f5d7b",
+    "5ad6cfe5-b44f-4937-9c83-5fa021ae6cdd",
+    "c5298dcc-7d5f-4c8e-8b41-72d2f8378d53",
+    "4afc6ff6-57da-4106-ac5d-fc2a9df8e77f",
+    "c5f45e3d-a4ed-4d61-8a86-3481c848abb6"
+   ],
+   "kat": "baski-dekoratif-tabak-ve-kase"
+  },
+  "dalgali-kenarli-pasta-ve-tatli-sunum-tabagi-24-cm": {
+   "ad": "Dalgalı Kenarlı Pasta ve Tatlı Sunum Tabağı - 24 cm",
+   "aciklama": "Fırfırlı dalga kenarlı, 24 cm çaplı pasta ve tatlı sunum tabağı.",
+   "fiyat": "559.90",
+   "gorsel": [
+    "17395c51-85c2-4642-81cf-08a6b9ac330d",
+    "4c6f8fd5-d121-4435-afa2-f11b65e8756c",
+    "b734581a-387e-4f89-90d2-2cc41fb674ff",
+    "aba3ee90-8597-4dea-992c-35be1c19e4db",
+    "d6af85a0-32bb-491b-ad23-5f69bddcc006",
+    "0b955abd-2222-4ec6-b29e-3048db5ed701",
+    "9a47b7da-5782-4f62-a49c-0d198cb7c563",
+    "6abe9568-7d76-4df7-a437-165472e66b44"
+   ],
+   "kat": "baski-dekoratif-tabak-ve-kase"
+  },
+  "deniz-temali-taki-kasesi-mercan-ve-deniz-kabuklu-dekoratif-yuzukluk-ve-taki-taba": {
+   "ad": "Deniz Temalı Takı Kasesi – Mercan ve Deniz Kabuklu Dekoratif Yüzüklük ve Takı Tabağı",
+   "aciklama": "Deniz temalı takı kasesi, mercan, deniz yıldızı ve sarmal deniz kabuğundan oluşan heykelsi ayağı ve geniş kasesiyle banyo, yatak odası ve makyaj masasında sahil esintili bir dekor sağlar.",
+   "fiyat": "429.90",
+   "gorsel": [
+    "7d640030-c87b-4cd2-a7a8-a67105bf953d",
+    "3647f8a6-a810-47aa-ba16-4e50bb6eba1e",
+    "224963ed-31e9-486a-9a65-1e61951d838c"
+   ],
+   "kat": "baski-dekoratif-tabak-ve-kase"
+  },
+  "filte-kapakli-dekoratif-kase-ag-dokulu": {
+   "ad": "Filte Kapaklı Dekoratif Kase - Ağ Dokulu",
+   "aciklama": "Ağ örgü desenli gövdeli, topuz kapaklı modern dekoratif kase.",
+   "fiyat": "589.90",
+   "gorsel": [
+    "14e801fc-fd49-4b62-bfbf-dcc0749a0197",
+    "2d45273e-0f76-4a19-84c7-81f3ed2920d2",
+    "ac5b52d2-38ac-4966-9c1b-23cc173ae725",
+    "1314ed13-35dd-4cac-86fe-36fafbf41b0c",
+    "af8b2b70-9a68-4a4f-ac8a-5b80b6785772",
+    "64848e48-d849-4e1a-893c-06d66d445a08"
+   ],
+   "kat": "baski-dekoratif-tabak-ve-kase"
+  },
+  "kapakli-file-desenli-dekoratif-kase-anahtar-taki-ve-aksesuar-icin-saklama-kabi": {
+   "ad": "Kapaklı File Desenli Dekoratif Kase – Anahtar, Takı ve Aksesuar İçin Saklama Kabı",
+   "aciklama": "Kapaklı file desenli dekoratif kase, açık file desenli gövdesi ve tutamaklı düz kapağıyla salon, antre, yatak odası ve ofiste modern bir görünüm sağlar.",
+   "fiyat": "599.90",
+   "gorsel": [
+    "b7e0e469-d23b-41a4-91cb-b84ac4096ccd",
+    "62be6979-04c1-4a79-8c19-d8c0297b197a",
+    "3367c68c-0b98-4bd0-b947-749eece8052a"
+   ],
+   "kat": "baski-dekoratif-tabak-ve-kase"
+  },
+  "kumas-dokulu-duzenleyici-tepsi-taki-anahtar-ve-aksesuar-icin-dekoratif-organizer": {
+   "ad": "Kumaş Dokulu Düzenleyici Tepsi – Takı, Anahtar ve Aksesuar İçin Dekoratif Organizer Tepsi",
+   "aciklama": "Kumaş dokulu düzenleyici tepsi, kumaş gibi kıvrımlı görünen özgün kenar dokusu ve yuvarlatılmış köşeleriyle masa, komodin, banyo tezgahı ve antrede modern bir görünüm sağlar.",
+   "fiyat": "359.90",
+   "gorsel": [
+    "a1c6f61b-5f06-4270-9d84-5db3fabaae8d",
+    "0263a28b-659a-4968-90c6-546468afd071",
+    "a72cb251-41c6-4603-bf25-fc870d6fc3c1"
+   ],
+   "kat": "baski-dekoratif-tabak-ve-kase"
+  },
+  "nervurlu-ayakli-dekoratif-kase-meyvelik-orta-sehpa-ve-mutfak-dekorasyonu-icin-mo": {
+   "ad": "Nervürlü Ayaklı Dekoratif Kase – Meyvelik, Orta Sehpa ve Mutfak Dekorasyonu İçin Modern Kase",
+   "aciklama": "Nervürlü ayaklı dekoratif kase, ince dikey nervür dokusu ve zarif ayaklı formuyla salon, mutfak, yemek masası ve antrede modern bir görünüm sağlar.",
+   "fiyat": "989.90",
+   "gorsel": [
+    "6ff1a193-55ca-418f-865b-c60786d0a426",
+    "dc44911b-cc90-44fa-8e69-6b041b9ad5a6",
+    "cd2840c2-2611-4418-9e36-61c875d514de"
+   ],
+   "kat": "baski-dekoratif-tabak-ve-kase"
+  },
+  "nervurlu-ayakli-sunum-standi-mum-bitki-ve-parfum-icin-dekoratif-yukseltici-tabla": {
+   "ad": "Nervürlü Ayaklı Sunum Standı – Mum, Bitki ve Parfüm İçin Dekoratif Yükseltici Tabla",
+   "aciklama": "Nervürlü ayaklı sunum standı, ince nervürlü tabla kenarı ve konik nervürlü ayağıyla salon, mutfak, banyo ve yatak odasında modern bir görünüm sağlar.",
+   "fiyat": "709.90",
+   "gorsel": [
+    "f1a97882-64e8-4694-b54c-8729a869e0b2",
+    "ec990d81-7af9-4d22-a7cd-8c9e13a79cf7",
+    "16344ff6-020e-49f6-94e1-1d138f7d0aae"
+   ],
+   "kat": "baski-dekoratif-tabak-ve-kase"
+  },
+  "nervurlu-oval-dekoratif-tepsi-mum-taki-ve-aksesuar-icin-modern-duzenleyici-sehpa": {
+   "ad": "Nervürlü Oval Dekoratif Tepsi – Mum, Takı ve Aksesuar İçin Modern Düzenleyici Sehpa Tepsisi",
+   "aciklama": "Nervürlü oval dekoratif tepsi, ince dikey nervürlü kenarı ve modern oval formuyla salon, banyo, mutfak ve antrede şık bir düzen sağlar.",
+   "fiyat": "529.90",
+   "gorsel": [
+    "a66de56e-182b-4311-b799-80c4bed3e3bd",
+    "05448e31-7655-488b-8b7e-a0fce35aa5aa",
+    "503c9589-bf15-476f-81d2-09d0c3d41ef3"
+   ],
+   "kat": "baski-dekoratif-tabak-ve-kase"
+  },
+  "zikzak-kenarli-dekoratif-tepsi-orta-sehpa-ve-sunum-icin-yuvarlak-modern-servis-t": {
+   "ad": "Zikzak Kenarlı Dekoratif Tepsi – Orta Sehpa ve Sunum İçin Yuvarlak Modern Servis Tepsisi",
+   "aciklama": "Zikzak kenarlı dekoratif tepsi, ince lamellerin zikzak dizilimiyle oluşan modern kenarı ve geniş, düz tabanıyla orta sehpa, yemek masası ve konsollarda şık bir görünüm sağlar.",
+   "fiyat": "709.90",
+   "gorsel": [
+    "5b9c315c-965b-4124-986d-7b68d234c742",
+    "816014f5-83f6-4d05-a562-d94b35d609bf",
+    "14f85188-dd22-4857-ac23-84f88ca2fdd5"
+   ],
+   "kat": "baski-dekoratif-tabak-ve-kase"
+  },
+  "dis-macunu-standi-bas-asagi-tutucu": {
+   "ad": "Diş Macunu Standı - Baş Aşağı Tutucu",
+   "aciklama": "Diş macunu tüpünü kapağı aşağıda dik tutan pratik stand.",
+   "fiyat": "219.90",
+   "gorsel": [
+    "ea95837a-1151-4eda-8c86-4e356a9d9f6b",
+    "916a8ae5-2c97-4e59-81f0-ecddaa4a1fd4",
+    "8b394474-5929-42de-9218-23986cebd741",
+    "513965e6-3363-4f47-b90c-265eaa0e283e",
+    "fe418111-eebd-454e-87e7-c53fe0806d83",
+    "5e349017-e108-4fc2-871b-548a5bf4be35"
+   ],
+   "kat": "baski-dis-fircalik"
+  },
+  "nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi": {
+   "ad": "Nervürlü Diş Fırçalığı Seti - 2 Bardak ve Tepsi",
+   "aciklama": "Nervürlü iki bardak ve uyumlu tepsiden oluşan banyo seti.",
+   "fiyat": "459.90",
+   "gorsel": [
+    "d9462d74-2e79-4371-b91e-6a9298b5980d",
+    "5e3c9d19-8b5f-49d6-9c08-b6f95b611c79",
+    "d0155570-6005-4d18-8845-96ab6623666a",
+    "1bc16b54-0e94-4fb8-9a27-ed296842972d",
+    "0f700fff-b750-4c26-adde-b4a1c66fd5b2",
+    "395ea7b3-df02-4b09-9268-0872be874c02"
+   ],
+   "kat": "baski-dis-fircalik"
+  },
+  "ahsap-panel-gorunumlu-duvar-rafi-2-rafli-duzenleyici": {
+   "ad": "Ahşap Panel Görünümlü Duvar Rafı - 2 Raflı Düzenleyici",
+   "aciklama": "Lambri panel görünümlü gövde ve iki raftan oluşan duvar düzenleyicisi.",
+   "fiyat": "729.90",
+   "gorsel": [
+    "fcd5fc3e-0290-4d06-9d1d-311594aa924f",
+    "c4d02764-5504-4e3a-8fac-c648df91efd7",
+    "30439d61-15eb-4997-a4d0-3d5f20c278ae",
+    "64ac35cd-5d92-4be3-9c4f-3348236c7522",
+    "50d94c38-b30d-45a5-9fc4-2d1db7b9c6ff",
+    "8b16c4d8-98a9-4cf7-8e9b-e68df79e38aa"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "anahtarlikli-duvar-rafi-7-askili-2-bolmeli": {
+   "ad": "Anahtarlıklı Duvar Rafı - 7 Askılı, 2 Bölmeli",
+   "aciklama": "Yedi anahtar askılı ve iki ön bölmeli modern antre rafı.",
+   "fiyat": "979.90",
+   "gorsel": [
+    "7250a28d-3b2f-4761-a33d-e3af60e6c841",
+    "d79b1fba-33ec-48d8-a3f5-6b41b2ea87c7",
+    "641fbbcd-be3c-4615-9e46-32efd0e23ade",
+    "35fe83cf-320c-4b0c-a49f-399c94820dee",
+    "fe38f331-79e2-4bb7-a485-d2fe73bb449b",
+    "a9b7ac66-9e08-45a5-8c9d-c2e55ac6ad6e"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "bolmeli-antre-duzenleyici-rafli-5-askili-anahtarlik": {
+   "ad": "Bölmeli Antre Düzenleyici - Raflı 5 Askılı Anahtarlık",
+   "aciklama": "Geniş ön bölmesi, üst rafı ve 5 anahtar askısıyla kapı önü düzenleyici.",
+   "fiyat": "949.90",
+   "gorsel": [
+    "1d85c8d5-6f4c-4783-9aec-75c33a58ec9a",
+    "41944de2-b955-4da0-b936-080b587b360a",
+    "90364b2a-49ca-4fe8-af48-3125c3405d55",
+    "9e9dcd84-f616-43f7-bbf0-ab6aa72fd9f7",
+    "08800c9a-a1db-440a-bfb1-478ef0feac5b",
+    "a58247f7-2d2d-4d9b-9d79-298d5f2513a7",
+    "1911a29e-6624-4b4c-b637-59304a442409"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "cicek-formlu-raf-cocuk-odasi-masaustu-ve-duvar-rafi": {
+   "ad": "Çiçek Formlu Raf - Çocuk Odası Masaüstü ve Duvar Rafı",
+   "aciklama": "Çiçek formunda, çok bölmeli dekoratif çocuk odası rafı.",
+   "fiyat": "1529.90",
+   "gorsel": [
+    "98f9f318-617e-4b76-a01f-5281dd03bcf3",
+    "b7f03171-ac74-4e5f-abf8-80c5976b89b2",
+    "69aaca0a-2f9b-47a9-a78e-fd74cc2cb80b",
+    "8d3d283d-1522-4479-a7dd-350119d603ed",
+    "73f2beb8-2f88-4fca-b07d-0cd002b2739a",
+    "dc2ed62b-391a-423e-a262-6288332a432f",
+    "0619547b-364a-4062-a675-06eb8156deff"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "dalga-formlu-parametrik-duvar-rafi-heykelsi-buyuk-raf": {
+   "ad": "Dalga Formlu Parametrik Duvar Rafı - Heykelsi Büyük Raf",
+   "aciklama": "İnce dilimlerden oluşan, dalga formlu büyük boy dekoratif duvar rafı.",
+   "fiyat": "4929.90",
+   "gorsel": [
+    "ab89bf38-f683-4d40-aabe-c65a7cb26601",
+    "3891829f-0e01-48b8-992b-ac852d1524b2",
+    "5f318141-48c4-435f-a960-8e4cbf8d9cba",
+    "4a469b8e-1fd7-4dc6-94a0-c1952e4b6ea7",
+    "8d446c02-109c-4243-acd0-15794ad7e1be",
+    "448b0fe4-4f51-45c7-ad69-d783ccdb6118"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "dalgali-duvar-rafi-ayakkabilik-ve-dekor-rafi": {
+   "ad": "Dalgalı Duvar Rafı - Ayakkabılık ve Dekor Rafı",
+   "aciklama": "Yuvarlak köşeli bölmelerden oluşan dalgalı duvar rafı.",
+   "fiyat": "1059.90",
+   "gorsel": [
+    "4c123736-2328-433f-a317-2c6d10394f66",
+    "b2ff4305-6698-4823-9d4f-c85105d45795",
+    "327a89fa-e278-4889-b0a7-11eb037f62b0",
+    "b2d75780-1594-4d97-9fcd-42c76a5e215e",
+    "4a97f719-79b7-4f91-9acf-c9ff4f60b145",
+    "6431e363-5aae-49e1-b070-ed253140bc64"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "elmas-formlu-duvar-rafi-geometrik-bitki-rafi": {
+   "ad": "Elmas Formlu Duvar Rafı - Geometrik Bitki Rafı",
+   "aciklama": "45 derece döndürülmüş kare çerçeve ve ara raftan oluşan geometrik duvar rafı.",
+   "fiyat": "359.90",
+   "gorsel": [
+    "ba801f10-5282-4a42-86d4-959d53045bbe",
+    "d847e187-8c7f-4e3c-90b0-835b29893a5f",
+    "6d2864af-6cb6-4d7e-8435-7651710c93dc",
+    "4eb5e152-122f-4b56-be0a-b0a4cf57225e",
+    "254c44fa-cbce-4262-beee-4c478e186b2b",
+    "bce3c2ae-c3e4-486b-ba38-9d6cbb37957a"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "garaj-kapili-anahtarlik-duvar-anahtar-askisi": {
+   "ad": "Garaj Kapılı Anahtarlık - Duvar Anahtar Askısı",
+   "aciklama": "Açılır garaj kapılı bölmeleri ve anahtar kancaları olan duvar askısı.",
+   "fiyat": "419.90",
+   "gorsel": [
+    "1716d7f8-531b-4966-9f38-b5b2d90a05c7",
+    "8e6727a2-0a7b-4844-8f07-1a53cd6622e9",
+    "43382524-8997-4ff1-90b9-d6a5a4977bcc",
+    "ad916172-799a-4390-b273-e932c2e9a580"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "gizli-montajli-minimal-duvar-rafi-yuvarlak-uclu": {
+   "ad": "Gizli Montajlı Minimal Duvar Rafı - Yuvarlak Uçlu",
+   "aciklama": "Uçları yumuşakça kıvrılan, vidası görünmeyen sade yüzer duvar rafı.",
+   "fiyat": "299.90",
+   "gorsel": [
+    "72072ae2-cf33-47cd-bc4d-2943debdc6de",
+    "61fa46f4-69b6-4763-9863-4ba4397bbbec",
+    "a797ff59-c2f3-43af-b297-bd1b291888be",
+    "ff7850e1-730c-4dd7-9f7e-c4ac4510c578",
+    "d2bae1f1-c55c-4da2-9c3a-46c89783a3f5",
+    "7aeb17bf-3f2b-48f0-b3ea-19cd45816f84",
+    "ef9d5977-c691-4b72-9369-040c689bf012",
+    "909c1c79-285a-4bd6-b611-068545dffb36"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf": {
+   "ad": "Kelebek Duvar Rafı - Çocuk Odası Dekoratif Raf",
+   "aciklama": "Kelebek formunda, duvara asılan dekoratif mini raf.",
+   "fiyat": "469.90",
+   "gorsel": [
+    "e576178a-605c-4808-acc5-01c67bd71156",
+    "568e35aa-b82f-4288-be80-20499d564210",
+    "e813bf17-cf1e-4693-bc6b-dd8781029c40",
+    "68b41666-72d8-4410-9e96-3f0f75ee1cec",
+    "c650e100-be3b-446e-af0c-5bb6af01463d",
+    "a271cd7d-dc32-4981-89ac-0791b59b7e20",
+    "873c55b3-ad73-4978-b912-986e4a14387c",
+    "12e1f585-470f-460d-9d1a-ded458ccfec7"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "kemerli-duvar-rafi-katmanli-minimal-raf": {
+   "ad": "Kemerli Duvar Rafı - Katmanlı Minimal Raf",
+   "aciklama": "Katmanlı kemer panelli, yarım ay raflı minimal duvar rafı.",
+   "fiyat": "569.90",
+   "gorsel": [
+    "727db9b1-f424-4927-813b-fc853bcbf100",
+    "0ff46a6c-7bcb-46c4-8879-23e14e481be5",
+    "7a392158-f232-4f08-a4c3-e3449aa0eba2",
+    "d019591e-ff09-4918-add4-a9d592ba9c1b",
+    "57146328-166e-4189-923b-a9b49d77b8eb",
+    "2dfe061c-5a47-4aef-aa9c-bc4d6a7384fb",
+    "267bb791-636c-4299-b9e2-21981d06949a"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "led-kanalli-kose-duvar-rafi-nervurlu-kenarli": {
+   "ad": "LED Kanallı Köşe Duvar Rafı - Nervürlü Kenarlı",
+   "aciklama": "Oda köşelerine uygun, altında LED şerit kanalı bulunan çeyrek daire raf.",
+   "fiyat": "779.90",
+   "gorsel": [
+    "88199df3-3e11-4052-bad6-c7cc8ab98603",
+    "11ac68fe-0553-497b-9b3d-cde602b42ddd",
+    "17b951cd-b774-4b33-85a5-640ea2603d81",
+    "5d024f09-758d-4d63-946d-1e71059a56a2",
+    "7eeb9af0-a1b2-4330-b704-7a4d46c993e2",
+    "97fddc69-2c30-4456-a5fe-e33f7c2b53dd",
+    "c29bab3c-9b2a-4294-974c-4b421391cc60"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "papatyali-duvar-duzenleyici-rafli-ve-4-askili": {
+   "ad": "Papatyalı Duvar Düzenleyici - Raflı ve 4 Askılı",
+   "aciklama": "Papatya çiçekli, raflı ve dört askılı duvar organizeri.",
+   "fiyat": "579.90",
+   "gorsel": [
+    "c6ee709a-235a-42ea-80a9-ef2302a764bd",
+    "425e0720-549c-4df4-89f4-5eb69b39ae23",
+    "41fdf893-c2d2-47c0-a146-42186ef72f80",
+    "5a486e7c-cc3c-46bf-8f7f-5839fec53fd1",
+    "77bde80f-ee20-41e3-a73a-662900ec2ef9",
+    "1a3c1d2d-1a0c-4dae-89b3-023ae71dada2"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "petek-duvar-duzenleyici-moduler-panel-ve-aparatlar": {
+   "ad": "Petek Duvar Düzenleyici - Modüler Panel ve Aparatlar",
+   "aciklama": "Altıgen petek panel ve takılabilir kanca, raf ve tutucu aparatlarından oluşan sistem.",
+   "fiyat": "1919.90",
+   "gorsel": [
+    "cd814b31-774c-4e36-becb-3b1fe471c880",
+    "f996351d-e785-4064-b0c6-ffa27a77f742",
+    "d1f72131-31c7-421d-b2bd-ea77e3a174b1",
+    "37772dab-1722-4d06-8ae7-ad78f4993151",
+    "376f3977-b146-418b-91b3-d589be72fd00"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "rafli-home-anahtarlik-nervurlu-5-askili-duvar-duzenleyici": {
+   "ad": "Raflı Home Anahtarlık - Nervürlü 5 Askılı Duvar Düzenleyici",
+   "aciklama": "Home yazılı nervürlü panel, küçük raf ve 5 anahtar askısından oluşan antre düzenleyici.",
+   "fiyat": "759.90",
+   "gorsel": [
+    "43b11922-659a-4624-ab76-5a8f2165303a",
+    "cfa69897-07f3-48fa-98c4-3cadd06a692a",
+    "29f65af9-5e01-4c84-9ce2-9e139889c0af",
+    "99a3077a-95ae-4384-94aa-2e9d7b052da9",
+    "320a03a4-d778-4868-8db6-27fe90e7de9d",
+    "109efe97-e7b6-488d-9052-4346bab70de6"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "tuplu-duvar-rafi-nervurlu-mini-bitki-rafi": {
+   "ad": "Tüplü Duvar Rafı - Nervürlü Mini Bitki Rafı",
+   "aciklama": "Nervürlü iç yüzeyli, üstünde cam tüp yuvası bulunan minimal duvar rafı.",
+   "fiyat": "349.90",
+   "gorsel": [
+    "4513ca15-cc6e-47f1-bfa8-ab334030e76d",
+    "c6c43d53-4802-4836-a6b7-1c1dd18f224e",
+    "3825e704-621c-40f7-ba52-b01ac7aff6f3",
+    "221bd7bc-ceb7-404a-90ae-e5912c710706",
+    "b94b11d2-8699-4a0b-927f-79e70c17df88",
+    "9001160c-960c-4e60-82bf-12f26466f140"
+   ],
+   "kat": "baski-duvar-rafi"
+  },
+  "altigen-mantik-bulmacasi-kutulu-zeka-oyunu": {
+   "ad": "Altıgen Mantık Bulmacası - Kutulu Zeka Oyunu",
+   "aciklama": "Renkli altıgen parçaları tablaya sığdırmaya dayalı mantık bulmacası.",
+   "fiyat": "389.90",
+   "gorsel": [
+    "90d06719-b7d1-45b2-b226-8021ee7845df",
+    "b742e1c1-e4e3-4933-b806-2331dd0fabb7",
+    "6e88b0c1-b733-46de-be0c-bc50cf664f84"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "ari-petegi-bulmacasi-altigen-zeka-oyunu": {
+   "ad": "Arı Peteği Bulmacası - Altıgen Zeka Oyunu",
+   "aciklama": "Petek şekilli 10 parçayı altıgen tabana yerleştirme bulmacası.",
+   "fiyat": "309.90",
+   "gorsel": [
+    "0b6a492e-ed20-4a8b-a8fc-11ed7f73a07e",
+    "81d8a9c1-83c0-4eee-98c1-7174ca2317d9",
+    "b50d3586-fae3-4946-b52a-c37b12b952b7"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "bagcik-baglama-egiticisi-ayakkabi-baglama-ogrenme-oyuncagi": {
+   "ad": "Bağcık Bağlama Eğiticisi - Ayakkabı Bağlama Öğrenme Oyuncağı",
+   "aciklama": "Ayakkabı formunda, gerçek bağcıklı bağcık bağlama eğitim aparatı.",
+   "fiyat": "309.90",
+   "gorsel": [
+    "2751af8f-a0f6-4f88-93bc-4129c412f3ed",
+    "722f62b6-19db-4847-950a-43f27f2850bc",
+    "b1b2f162-3990-4c17-802e-a6b2b35fd240"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "balonla-giden-araba-bilim-deney-oyuncagi": {
+   "ad": "Balonla Giden Araba - Bilim Deney Oyuncağı",
+   "aciklama": "Balonun havasıyla ilerleyen hafif oyuncak araba.",
+   "fiyat": "309.90",
+   "gorsel": [
+    "74c1e3f3-9fd5-41bc-b87a-12281288d803",
+    "06bc0a6a-3e59-4385-a88b-815b3fbcc6f9",
+    "51d7889c-0189-4ae7-90af-9744d5af29b4"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "carpim-tablosu-tablasi-egitici-matematik-oyuncagi": {
+   "ad": "Çarpım Tablosu Tablası - Eğitici Matematik Oyuncağı",
+   "aciklama": "Sayı ızgaralı, işaretli çarpım tablosu öğrenme tablası.",
+   "fiyat": "569.90",
+   "gorsel": [
+    "df268c15-5d23-4087-9825-123da1b23329",
+    "3fa1be25-8bb5-4365-9c62-af6aa030f9fe",
+    "6a90e351-907b-4d2c-a7af-ce6b5a00a6c5"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "cocuk-cimbizi-3-lu-set-ince-motor-beceri-oyuncagi": {
+   "ad": "Çocuk Cımbızı 3'lü Set - İnce Motor Beceri Oyuncağı",
+   "aciklama": "Yuvarlak uçlu, esnek çocuk cımbızı; pon pon, boncuk ve küçük nesneleri tutmak için.",
+   "fiyat": "309.90",
+   "gorsel": [
+    "b70d5810-9284-42b0-bfd6-dab8301e4811",
+    "d7c5a966-6f91-4da8-9c22-39e732fa0f8b",
+    "73e01087-f6c9-401d-ad50-ddc07f9c3ffa"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "doku-ve-renk-ayirma-seti-duyusal-egitici-oyuncak": {
+   "ad": "Doku ve Renk Ayırma Seti - Duyusal Eğitici Oyuncak",
+   "aciklama": "Farklı dokulu topları renk ve dokusuna göre kaplara ayıran, istiflenebilir duyusal oyun seti.",
+   "fiyat": "699.90",
+   "gorsel": [
+    "f18add6a-1ee7-428b-846d-35597902d753",
+    "8209e8dc-870e-44ec-afc0-4d8f2b1de2e6",
+    "2b922c07-1d2f-4f18-aaad-e954443c30d7"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "duygu-eslestirme-seti-egitici-duygu-karti-oyuncagi": {
+   "ad": "Duygu Eşleştirme Seti - Eğitici Duygu Kartı Oyuncağı",
+   "aciklama": "Mutlu, üzgün, kızgın, şaşkın yüz ifadeli pulları renkli yuvalara yerleştiren duygu öğrenme seti.",
+   "fiyat": "1499.90",
+   "gorsel": [
+    "624b00e7-ea40-442c-bd1d-6dea19e41ea3",
+    "1fc7834a-3bd6-4535-82f7-e4e9489794bc",
+    "6ced145d-0e6e-41e3-821b-6282213978d3"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "duyusal-oyun-kepce-seti-kum-ve-pirinc-oyun-aparati": {
+   "ad": "Duyusal Oyun Kepçe Seti - Kum ve Pirinç Oyun Aparatı",
+   "aciklama": "Duyusal kutu, kum ve pirinç oyunları için farklı boyutlarda çocuk kepçeleri.",
+   "fiyat": "379.90",
+   "gorsel": [
+    "93a04292-bb78-4286-937f-b241eec2d415",
+    "37ece165-84f8-422c-aa01-88d50fe21a0e",
+    "8c9a2ae6-f342-445d-abb1-60815c9fa533"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "gizli-mesaj-topaci-optik-bilim-oyuncagi": {
+   "ad": "Gizli Mesaj Topacı - Optik Bilim Oyuncağı",
+   "aciklama": "Dönerken gizli mesajı ortaya çıkaran optik topaç.",
+   "fiyat": "489.90",
+   "gorsel": [
+    "ab6b35e3-a28d-4529-a8ad-758db11e6bc8",
+    "fd5dc809-a180-46e7-b4fd-13ed13774fe5",
+    "44776673-550c-4a8b-95b1-4414e69c16a4"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "kaydirmali-renk-bulmacasi-cep-boy-zeka-oyunu": {
+   "ad": "Kaydırmalı Renk Bulmacası - Cep Boy Zeka Oyunu",
+   "aciklama": "Kanal içinde kayan renkli boncukları gruplara ayıran el bulmacası.",
+   "fiyat": "359.90",
+   "gorsel": [
+    "5205f83f-405d-4cc5-87ff-7f621de39153",
+    "1f96a582-1a2b-4ad8-b9c8-410d64d5d977",
+    "f0d708be-d1be-429e-8a44-3a464c58be64"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "kaydirmali-sayi-bulmacasi-3x3-ve-4x4-zeka-oyunu": {
+   "ad": "Kaydırmalı Sayı Bulmacası - 3x3 ve 4x4 Zeka Oyunu",
+   "aciklama": "Numaralı taşları kaydırarak sıraya dizme bulmacası, iki seviye.",
+   "fiyat": "409.90",
+   "gorsel": [
+    "89d79fa7-d705-4e6f-a0f8-c38d49d2c7d6",
+    "e34da98b-f00a-4654-9b8b-ec0509fe609e",
+    "fb39e1ae-6048-4895-84cd-93e774fe7918"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "kitap-dort-tas-oyunu-dortlu-siralama-akil-oyunu": {
+   "ad": "Kitap Dört Taş Oyunu - Dörtlü Sıralama Akıl Oyunu",
+   "aciklama": "Kitap kapağı üzerinde dik duran ızgarasıyla dört taşı sıralama oyunu.",
+   "fiyat": "949.90",
+   "gorsel": [
+    "8df4d25d-33b9-457b-b71e-bb3ce9eb4a3b",
+    "8c9229d1-3445-414f-80e4-a5e1232bb9db",
+    "4cb974f0-1513-42cf-80a4-6c298c7bca49",
+    "bd0f2ce8-8f08-4520-b2d0-877fe1625479",
+    "c379f893-8810-4b9e-991e-24cbd618e7ac"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "kitap-kapat-kutusu-oyunu-zarli-sayi-oyunu": {
+   "ad": "Kitap Kapat Kutusu Oyunu - Zarlı Sayı Oyunu",
+   "aciklama": "Çevrilir sayı kapakları ve zar alanıyla kitap görünümlü sayı oyunu.",
+   "fiyat": "949.90",
+   "gorsel": [
+    "1801742c-0951-44cd-a6c3-b1036d0ae54d",
+    "8d8f97d6-043a-474a-b152-697914f19327",
+    "fb629236-0a21-4220-b8f2-eb7268247b76",
+    "42a2f1a9-1245-4c29-a4ec-e12332cba62e",
+    "c86f8650-7a21-4d71-b023-0e42fa8a5f84"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "kitap-kizma-birader-oyunu-kitap-gorunumlu-aile-oyunu": {
+   "ad": "Kitap Kızma Birader Oyunu - Kitap Görünümlü Aile Oyunu",
+   "aciklama": "Kitap kapağı üzerinde duran renkli tahtası ve piyon bölmesiyle kızma birader.",
+   "fiyat": "999.90",
+   "gorsel": [
+    "ec9f5a3a-ebc7-4328-a04c-8f871c5e8fb2",
+    "b70252bb-25bb-4573-8db9-5a131d4718bf",
+    "2852c7eb-e713-4e7c-abcb-f9087429a183",
+    "0658c5e5-f4ff-48bd-ab60-f758ca861a3e",
+    "405ce660-60cc-4cd5-9bdb-249341e5de96"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "kitap-mangala-oyunu-kitap-gorunumlu-akil-ve-strateji-oyunu": {
+   "ad": "Kitap Mangala Oyunu - Kitap Görünümlü Akıl ve Strateji Oyunu",
+   "aciklama": "Kitap gibi açılan, iki sıra oyuk ve hazneli mangala oyunu.",
+   "fiyat": "999.90",
+   "gorsel": [
+    "b0fe9f29-9c69-4e47-9d8d-9957f59e9fd7",
+    "9c52e05a-4a4c-4a8f-a585-bb365257d669",
+    "dd3d09a1-5b4f-4755-877a-6ad503f121e2",
+    "2e979bc2-bbd1-4026-b549-5b724cbbd9ad",
+    "af27eda0-e12b-4012-be07-a69f56cd7657"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "kitap-satranc-takimi-kitap-gorunumlu-katlanir-satranc-tahtasi": {
+   "ad": "Kitap Satranç Takımı - Kitap Görünümlü Katlanır Satranç Tahtası",
+   "aciklama": "Kitap gibi kapanan, açılınca satranç tahtasına dönüşen ve taşlarını içinde saklayan satranç takımı.",
+   "fiyat": "1099.90",
+   "gorsel": [
+    "ff7b8a45-1920-43cb-b10b-08df3759a73f",
+    "173f0576-0037-486b-8438-a1e4d31f8a99",
+    "d436f372-f20c-4bd5-8cfb-ee61baf24f3e",
+    "a6eab263-91e1-44fb-98ca-640ae961bad2",
+    "b95fc010-9e00-423b-8c46-3c941a4d23fc",
+    "9a632b17-e50c-422b-87f7-c4df1ae53e9a"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "kum-yazi-tepsisi-harf-karti-yuvali-yaziya-hazirlik-seti": {
+   "ad": "Kum Yazı Tepsisi - Harf Kartı Yuvalı Yazıya Hazırlık Seti",
+   "aciklama": "Kartlık yuvalı ve kalem yerli kum yazı tepsisi; parmakla harf yazma çalışması.",
+   "fiyat": "559.90",
+   "gorsel": [
+    "62a06acd-e772-4980-8767-66594503547b",
+    "32fc799a-069e-499a-a7f0-7a15e2810d04",
+    "33c06b3c-d468-4295-8106-ac43160bb2b1"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "on-u-tamamla-sayi-bloklari-toplama-ogrenme-oyuncagi": {
+   "ad": "On'u Tamamla Sayı Blokları - Toplama Öğrenme Oyuncağı",
+   "aciklama": "1'den 10'a renkli istiflenen bloklarla on'u tamamlama ve toplama öğrenme seti.",
+   "fiyat": "899.90",
+   "gorsel": [
+    "d1f359b2-dffc-4cb0-b71d-12f338daf5bd",
+    "71e75f0d-fdce-41a0-ab1b-61d5c99a4e08",
+    "522685be-bf24-4345-a698-20471eafb751"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "susi-denge-kulesi-cubuklu-blok-cekme-oyunu": {
+   "ad": "Suşi Denge Kulesi - Çubuklu Blok Çekme Oyunu",
+   "aciklama": "Suşi görünümlü bloklar ve çubuklarla oynanan denge kulesi oyunu.",
+   "fiyat": "849.90",
+   "gorsel": [
+    "f88e9b5e-1152-45f9-b17c-a21331894919",
+    "d5f9f390-82ea-4f44-98dc-02b1815218aa",
+    "31039cd4-49e4-4c7e-8cc8-5c018cc69b6d"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "trafik-sikismasi-oyunu-arabali-mantik-bulmacasi": {
+   "ad": "Trafik Sıkışması Oyunu - Arabalı Mantık Bulmacası",
+   "aciklama": "Kırmızı arabayı otoparktan çıkarmaya dayalı kaydırmalı mantık oyunu.",
+   "fiyat": "1329.90",
+   "gorsel": [
+    "5c43d5d9-a609-4c76-9c04-5baa6cf7d5c5",
+    "65c2ee55-dfd9-421b-a6ce-c5b5f96c00af",
+    "18851819-b61a-4c4f-87a5-398a99176534"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "ucan-top-oyuncagi-uflemeli-bilim-oyuncagi": {
+   "ad": "Uçan Top Oyuncağı - Üflemeli Bilim Oyuncağı",
+   "aciklama": "Üfleyince topu havada tutan, hedef halkalı bilim oyuncağı.",
+   "fiyat": "309.90",
+   "gorsel": [
+    "27b64edf-c79e-4229-86f8-65c39e8a1169",
+    "70f8fdb6-c38c-46c0-b44f-929b0ae70800",
+    "7e2e87e1-b701-485d-b106-7224d1021d7f"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "vahsi-hayvan-kit-kartlari-kopar-tak-3d-hayvan-figur-seti": {
+   "ad": "Vahşi Hayvan Kit Kartları - Kopar Tak 3D Hayvan Figür Seti",
+   "aciklama": "Kart üzerinden koparılıp birleştirilen aslan, fil, zürafa, gergedan figür seti.",
+   "fiyat": "899.90",
+   "gorsel": [
+    "443b4fc3-e14e-4572-9b9e-9a394f176e62",
+    "850d4fe7-5cf2-4a74-bec1-3cc849b6b31c",
+    "212c9288-1340-4552-87d3-705cd7d21031"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "zeka-bulmacasi-cep-boy-parca-yerlestirme-oyunu": {
+   "ad": "Zeka Bulmacası - Cep Boy Parça Yerleştirme Oyunu",
+   "aciklama": "Renkli parçaları kare tablaya yerleştirmeye dayalı kompakt zeka oyunu.",
+   "fiyat": "509.90",
+   "gorsel": [
+    "2979f4fb-746e-45af-930d-66c97183065b",
+    "3bf28366-e7f7-4394-8257-73f32fd5f5fb",
+    "a1c6cea7-9351-4bdf-af3e-f847e75144e5"
+   ],
+   "kat": "baski-egitici-oyuncak"
+  },
+  "ani-muzesi-fotograf-cercevesi-8-mini-cerceveli-figurlu-kisiye-ozel-hediye": {
+   "ad": "Anı Müzesi Fotoğraf Çerçevesi 8 Mini Çerçeveli Figürlü Kişiye Özel Hediye",
+   "aciklama": "8 mini çerçeveli, figürlü kişiye özel anı müzesi fotoğraf çerçevesi.",
+   "fiyat": "939.90",
+   "gorsel": [
+    "99214a1a-ebcb-412d-8a9b-961291409718",
+    "ff4077a5-eb02-4044-8e36-700b89582c17",
+    "e0b5643d-7163-4bc7-ac24-6b49b6c9e269",
+    "f4136e1d-b2c5-439b-bcb9-b56fcf465726"
+   ],
+   "kat": "baski-fotograf-albumu"
+  },
+  "balkabagi-miknatisli-fotograf-tutucu-cadilar-bayrami-buzdolabi-magneti": {
+   "ad": "Balkabağı Mıknatıslı Fotoğraf Tutucu Cadılar Bayramı Buzdolabı Magneti",
+   "aciklama": "Mıknatıslı balkabağı fotoğraf tutucu, Cadılar Bayramı buzdolabı magneti.",
+   "fiyat": "219.90",
+   "gorsel": [
+    "194ab19d-d355-40c5-9d4d-9b2a5bcda418",
+    "5c3bbf78-2713-418b-94ea-30c2b9908183",
+    "cc00c534-3459-40fd-b580-0a6b809d5306",
+    "84b92466-7a42-490a-a562-b2b417b65da5"
+   ],
+   "kat": "baski-fotograf-albumu"
+  },
+  "boncuk-desenli-fotograf-cercevesi-masaustu-dekoratif-cerceve-dikey-yatay": {
+   "ad": "Boncuk Desenli Fotoğraf Çerçevesi Masaüstü Dekoratif Çerçeve Dikey Yatay",
+   "aciklama": "Boncuk desenli, dikey ve yatay kullanılabilen masaüstü fotoğraf çerçevesi.",
+   "fiyat": "419.90",
+   "gorsel": [
+    "7c568718-2b39-457a-83d1-f78bb9ee39ec",
+    "098f895e-5b38-41c9-b81a-a7e42e8dfe83",
+    "e0f5a950-4d92-4035-9f9a-aa485a307228",
+    "39ec5ba2-4794-4ca9-a6c4-cf1d31b7e0af"
+   ],
+   "kat": "baski-fotograf-albumu"
+  },
+  "buzgulu-fotograf-cercevesi-kumas-gorunumlu-dekoratif-masaustu-cerceve": {
+   "ad": "Büzgülü Fotoğraf Çerçevesi Kumaş Görünümlü Dekoratif Masaüstü Çerçeve",
+   "aciklama": "Kumaş görünümlü büzgülü dekoratif masaüstü fotoğraf çerçevesi.",
+   "fiyat": "439.90",
+   "gorsel": [
+    "1bee52d8-1360-4832-a6ab-3bf4010efa1d",
+    "40e749dd-47b7-4feb-908d-867344cb0e89",
+    "14b72b3c-d096-457f-898b-1999dd6bc317",
+    "20c9c8ac-789b-42c7-8739-457143340c7f"
+   ],
+   "kat": "baski-fotograf-albumu"
+  },
+  "japandi-fotograf-cercevesi-cizgili-dokulu-kisiye-ozel-yazili-masaustu-cerceve": {
+   "ad": "Japandi Fotoğraf Çerçevesi Çizgili Dokulu Kişiye Özel Yazılı Masaüstü Çerçeve",
+   "aciklama": "Çizgili dokulu, kişiye özel yazılı Japandi masaüstü fotoğraf çerçevesi.",
+   "fiyat": "399.90",
+   "gorsel": [
+    "6cd747b9-b4de-425b-bf44-b1329419bd90",
+    "e6909ef8-63c6-4917-8711-c8ddb98df455",
+    "4c7cdaca-c59c-4336-8da2-6d1352fa9694",
+    "db927cfd-4e51-460e-929a-7f39dc872810"
+   ],
+   "kat": "baski-fotograf-albumu"
+  },
+  "kisiye-ozel-fotograf-kitabi-miknatisli-mini-album": {
+   "ad": "Kişiye Özel Fotoğraf Kitabı - Mıknatıslı Mini Albüm",
+   "aciklama": "Menteşeli kapaklı, sürgülü sayfalı ve mıknatıslı kilitli mini fotoğraf kitabı.",
+   "fiyat": "299.90",
+   "gorsel": [
+    "b3e2ed80-d309-493a-804a-ccbcc3e7e7a1",
+    "906a06ee-9a2a-40e8-b4e5-2955629565d8",
+    "acfcda45-41fc-41a0-aa20-db9547d586bb",
+    "eabb8413-ecb2-4c59-b8f2-e4ece392fb62"
+   ],
+   "kat": "baski-fotograf-albumu"
+  },
+  "klasor-fotograf-albumu-akordeon-sayfali-masa-albumu": {
+   "ad": "Klasör Fotoğraf Albümü - Akordeon Sayfalı Masa Albümü",
+   "aciklama": "Bilgisayar klasörü formunda, akordeon sayfalı mini fotoğraf albümü.",
+   "fiyat": "259.90",
+   "gorsel": [
+    "917c6afb-265e-44b4-a647-a9cb20caec85",
+    "26ce7038-c0f9-48d2-abab-237542492c6a",
+    "5fcc90fa-83f2-4d4e-ba75-a22cec6464d7",
+    "a407679d-aaa4-439b-991b-b4c90c13e236"
+   ],
+   "kat": "baski-fotograf-albumu"
+  },
+  "klasor-fotograf-albumu-instax-mini-uyumlu-12-fotograflik-kisiye-ozel-masaustu": {
+   "ad": "Klasör Fotoğraf Albümü Instax Mini Uyumlu 12 Fotoğraflık Kişiye Özel Masaüstü",
+   "aciklama": "Instax Mini uyumlu, 12 fotoğraflık kişiye özel klasör fotoğraf albümü.",
+   "fiyat": "599.90",
+   "gorsel": [
+    "b06f40fd-cbf6-4c00-9d3c-cff61cf33b0b",
+    "b86e278e-9e4a-45d2-adf4-8e78b2981697",
+    "ce546ea9-8342-4d2a-a2fd-9fa0b09417a3",
+    "70dfd59e-f212-4552-b3e2-58631ddaa09a"
+   ],
+   "kat": "baski-fotograf-albumu"
+  },
+  "koli-fotograf-kutusu-klasor-ayracli-saklama-kutusu": {
+   "ad": "Koli Fotoğraf Kutusu - Klasör Ayraçlı Saklama Kutusu",
+   "aciklama": "Minik taşınma kolisi görünümünde, klasör ayraçlı fotoğraf saklama kutusu.",
+   "fiyat": "469.90",
+   "gorsel": [
+    "8c9aa66a-f507-4f9d-a222-c9618cd90152",
+    "f0f273e5-0425-4e7a-b3cd-eeed7d3d0106",
+    "7994f48a-65bf-4045-9ad2-e892dbcc58c6",
+    "fd994dd0-ab39-4a4f-a5c4-5b920a2dda3e"
+   ],
+   "kat": "baski-fotograf-albumu"
+  },
+  "manyetik-fotograf-kupu-acilir-akordeon-fotograf-kutusu": {
+   "ad": "Manyetik Fotoğraf Küpü - Açılır Akordeon Fotoğraf Kutusu",
+   "aciklama": "Açıldığında akordeon fotoğraf sayfalarına dönüşen mıknatıslı küp.",
+   "fiyat": "319.90",
+   "gorsel": [
+    "0f9371a5-a071-434e-a591-9b9a54d13d09",
+    "e64b66e2-ccff-4a7d-aef5-c19946e7b07c",
+    "5807ae4d-eb0f-4540-a56a-a18e36990fd5",
+    "444ee1a7-9e5c-43e1-8210-9d32d3231bb9",
+    "7c1e62c2-9626-4c93-b6f0-764176278fc8"
+   ],
+   "kat": "baski-fotograf-albumu"
+  },
+  "mini-fotograf-albumu-anahtarlik-kisiye-ozel-miknatisli-kapakli-mini-album": {
+   "ad": "Mini Fotoğraf Albümü Anahtarlık Kişiye Özel Mıknatıslı Kapaklı Mini Albüm",
+   "aciklama": "Mıknatıslı kapaklı, kişiye özel mini fotoğraf albümü anahtarlık.",
+   "fiyat": "329.90",
+   "gorsel": [
+    "14daca6c-2846-40db-98a8-d8c36a614dc3",
+    "f8232c49-bf91-41f1-9e73-89ce4fd89f8c",
+    "1de4f011-2ce9-4650-ae13-170a75c27b88",
+    "ea390777-79cf-47ac-87ea-e7d594268282"
+   ],
+   "kat": "baski-fotograf-albumu"
+  },
+  "masa-kablo-duzenleyici-kiskacli": {
+   "ad": "Masa Kablo Düzenleyici - Kıskaçlı",
+   "aciklama": "Masa kenarına takılan, şarj kablolarını yuvalarında tutan düzenleyici.",
+   "fiyat": "329.90",
+   "gorsel": [
+    "462ec706-996f-4adc-8d63-d7ac3e370c5a",
+    "fe6a21a7-937c-4249-b9c2-0ab8706396d6",
+    "2358e072-7ba3-4aee-8abb-2f163ce817fc",
+    "eb66ff56-1364-461e-961c-af021e772c73",
+    "8e852486-fd45-45c2-bb0d-1f0aa80e1745"
+   ],
+   "kat": "baski-kablo-duzenleyici"
+  },
+  "japandi-kalemlik-seti-3-lu-dokulu": {
+   "ad": "Japandi Kalemlik Seti - 3'lü Dokulu",
+   "aciklama": "Üç farklı boy ve örgü dokulu Japandi kalemlik seti.",
+   "fiyat": "1129.90",
+   "gorsel": [
+    "0b228cef-9a9d-4e11-a641-fed88f511fe7",
+    "ea83b6b2-8344-4bf3-8a3b-1de21ed4c1a7",
+    "ed672cb4-fa80-4278-8d45-b5c7822b00ae",
+    "d0b03581-f240-4bf2-ba5b-55c7e757b7af",
+    "2d389ac5-0a44-4030-a3f3-271feba09cd0"
+   ],
+   "kat": "baski-kalemlik-ataslik"
+  },
+  "nervurlu-modern-kalemlik-silindir": {
+   "ad": "Nervürlü Modern Kalemlik - Silindir",
+   "aciklama": "İnce düz nervürlü, silindir formlu modern kalemlik.",
+   "fiyat": "339.90",
+   "gorsel": [
+    "982fde03-c605-4073-a9fe-a8711ddb3996",
+    "954269a5-19aa-4e64-b4e6-772adf5076ff",
+    "81482443-2b44-48fe-a3bd-bd3cd6bb245a",
+    "b3eac6de-689a-4f26-99e2-647ad6a243af",
+    "3b54844f-40b1-402d-b84d-f8ccea938428",
+    "b3294e7f-4231-4b70-8f6f-2b48a9055e74"
+   ],
+   "kat": "baski-kalemlik-ataslik"
+  },
+  "petek-desenli-kapi-stoperi-2-renkli": {
+   "ad": "Petek Desenli Kapı Stoperi - 2 Renkli",
+   "aciklama": "Kama formlu, altıgen petek desenli kaymaz kapı tutucu.",
+   "fiyat": "209.90",
+   "gorsel": [
+    "8e923c67-b624-4dac-a9e8-48e3d8f16464",
+    "71c14d5e-ea61-4de8-af94-90c6970635bd",
+    "b6870853-68eb-47ed-8dc9-6e48469ea8c5",
+    "703d6c25-8bf5-4ea8-8b10-bcf290ea5056",
+    "e0f454d2-10bd-4f59-a520-809a0fd4684a"
+   ],
+   "kat": "baski-kapi-stoperi"
+  },
+  "kasik-ve-tencere-kapagi-tutucu": {
+   "ad": "Kaşık ve Tencere Kapağı Tutucu",
+   "aciklama": "Ocak başında kaşık, kepçe ve tencere kapağını tutan tezgah aparatı.",
+   "fiyat": "289.90",
+   "gorsel": [
+    "e8c6ad2a-c89d-4de4-a56a-5eac5b1fa08e",
+    "c55eb2b2-07d4-4356-b136-35e39e976123",
+    "64777e29-9f24-4572-a0c0-9f168eba5882",
+    "d3a26c1b-2576-49ea-9e06-da294f2c697b",
+    "5b8c64f3-f184-49be-ac9a-76a69f9eb8ef",
+    "87ea15b8-1d3e-4f23-b059-102915ae365c"
+   ],
+   "kat": "baski-kasiklik"
+  },
+  "noel-baba-botu-catal-bicaklik-yilbasi-sofrasi": {
+   "ad": "Noel Baba Botu Çatal Bıçaklık - Yılbaşı Sofrası",
+   "aciklama": "Kürk kenarlı, kemer tokalı Noel Baba botu şeklinde çatal bıçaklık.",
+   "fiyat": "459.90",
+   "gorsel": [
+    "7bf360d8-4b73-46b4-b2ea-d1fd58249e98",
+    "1d8473bb-496e-4679-8f78-26e0be56f527",
+    "007a05b2-cb0f-4931-a08f-d7b9e1a9789a"
+   ],
+   "kat": "baski-kasiklik"
+  },
+  "kedi-kumu-kuregi-3-delik-boyutlu-petek-elek": {
+   "ad": "Kedi Kumu Küreği - 3 Delik Boyutlu Petek Elek",
+   "aciklama": "Küçük, orta ve büyük petek delikli, uzun saplı kedi kumu küreği.",
+   "fiyat": "289.90",
+   "gorsel": [
+    "68cc6918-4789-48cb-a3da-16507556ab57",
+    "9cc9be36-094a-48ae-946d-345d534ecf11",
+    "368512cc-5fba-483e-ada3-fe824832e95e",
+    "28033282-8c85-49fc-8e26-e49fb4bde7be",
+    "777792b6-2de4-4369-b676-9fba58fd15f7",
+    "fe12c58a-d987-492c-9e44-642d4aa4bdcb",
+    "c2ae5dc7-7b54-4932-99a9-4a4fa3828b30",
+    "3009baa2-23d3-4ade-a6ae-3c8588cf9d57"
+   ],
+   "kat": "baski-kedi-aksesuari"
+  },
+  "ayakli-kopek-mama-kabi-standi-japandi-isim-plakali": {
+   "ad": "Ayaklı Köpek Mama Kabı Standı - Japandi, İsim Plakalı",
+   "aciklama": "Nervürlü gövdeli, konik ayaklı, 22,5 cm kase uyumlu yükseltilmiş mama standı.",
+   "fiyat": "2229.90",
+   "gorsel": [
+    "4eb409c7-e377-471a-8e81-b8d43e620dc6",
+    "8bf8a6f9-9cb2-4cbe-b078-6f02111d480d",
+    "60ccf36f-c2ef-417c-9c51-f351118208c3",
+    "e5996181-8f0a-4bec-90c9-77b1c4387ff3",
+    "01c8a675-5ba0-4170-85a2-8be0dcb9e344",
+    "01ff4173-448c-4718-9dc2-1fe4a7a3ff13",
+    "e9198d93-1656-4eef-847a-920857a33581"
+   ],
+   "kat": "baski-kedi-ve-kopek-mama-su-kabi"
+  },
+  "dalgali-isimli-mama-kabi-tutucu-kedi-ve-kopek": {
+   "ad": "Dalgalı İsimli Mama Kabı Tutucu - Kedi ve Köpek",
+   "aciklama": "İki renkli dalga geçişli, tutma yerli, isim yazılı mama kabı tutucu.",
+   "fiyat": "1769.90",
+   "gorsel": [
+    "c2dc5935-ee21-4bf6-b0ae-3d2a0bc81d93",
+    "7cb6c87a-dbdd-4bb3-a696-a13c7122b555",
+    "8589aa3f-aa71-4797-ad44-b210d551e91c",
+    "f0ae939c-5f76-4289-afec-6d60f5ca8d14",
+    "b821900c-ebd3-4222-933b-9647e6586a93",
+    "3505381e-c2f7-4080-ba66-0efc62c3a706",
+    "d827d7d9-b047-4c76-9c2b-cf91fd42362a"
+   ],
+   "kat": "baski-kedi-ve-kopek-mama-su-kabi"
+  },
+  "japandi-kedi-kopek-mama-kabi-isim-plakali": {
+   "ad": "Japandi Kedi Köpek Mama Kabı - İsim Plakalı",
+   "aciklama": "Nervürlü gövdeli, isim plakalı, çelik kase yuvalı mama kabı tutucu.",
+   "fiyat": "839.90",
+   "gorsel": [
+    "5017a900-8ea9-4dc0-9e5e-7269ea630b62",
+    "67a4bf33-eb00-4b18-abf6-33afdd5bd58b",
+    "b3e0dcc4-162e-42ba-bcac-f917d4ac583f",
+    "3a968f63-9cbc-416b-9fd5-0238b44c4078",
+    "3f058ff0-929a-49dc-a9a9-8de2e87e7e2b",
+    "811af7c7-9cc5-420f-8523-0506a9e68019",
+    "513fc61e-0440-4487-9884-16301087c3c8",
+    "98cb5110-62db-4cb9-8224-62a6900f3d5b"
+   ],
+   "kat": "baski-kedi-ve-kopek-mama-su-kabi"
+  },
+  "otomatik-kuru-mama-haznesi-kedi-ve-kopek-mama-dagitici": {
+   "ad": "Otomatik Kuru Mama Haznesi - Kedi ve Köpek Mama Dağıtıcı",
+   "aciklama": "Kap boşaldıkça yer çekimiyle dolan, 3 parçalı vidasız kuru mama haznesi.",
+   "fiyat": "1379.90",
+   "gorsel": [
+    "3cf712c1-15d7-4e7b-9a53-dd361bfc6a56",
+    "9c35e007-3c56-498b-9960-7c16ddf39613",
+    "3ab86e63-6d60-4d34-bfbd-d7302ceab0d9",
+    "344f59cf-ab3a-4fd0-8503-c03dad2cf55b",
+    "233e1466-f173-4abf-b096-022d58e462c6",
+    "0cafc311-9235-4df8-8e6a-5dd9b95e727d",
+    "10c8a843-9e02-4d91-9f0c-72adf25b9e09"
+   ],
+   "kat": "baski-kedi-ve-kopek-mama-su-kabi"
+  },
+  "yukseltilmis-kedi-kopek-mama-kabi-standi-isimli": {
+   "ad": "Yükseltilmiş Kedi Köpek Mama Kabı Standı - İsimli",
+   "aciklama": "10 cm yükseltilmiş, dalga desenli, isim yazılabilen mama kabı standı.",
+   "fiyat": "659.90",
+   "gorsel": [
+    "9655f53c-1262-4964-9205-f29403493b32",
+    "9e1672be-f2ca-4726-b7a2-aced75fecce2",
+    "9cd0aa81-4ec8-4d40-81e5-2d734d22ed1c",
+    "9e4adbf3-5c5b-4f6a-a52c-90fe4cd850f1",
+    "67abe123-3f0e-40f5-b753-1c1f53cd8e5f",
+    "18a457b9-21a5-4916-8e73-0d05d6b5d475",
+    "1aa20993-d06f-4339-a81e-c52a09248c96",
+    "47b95466-4ee9-432f-ba9f-f5e0f4eb197b"
+   ],
+   "kat": "baski-kedi-ve-kopek-mama-su-kabi"
+  },
+  "tasarim-kulaklik-standi-agir-tabanli": {
+   "ad": "Tasarım Kulaklık Standı - Ağır Tabanlı",
+   "aciklama": "Yuvarlak tabanlı, kavisli askılı masaüstü kulaklık standı.",
+   "fiyat": "359.90",
+   "gorsel": [
+    "09cda140-996d-4745-a176-6fa78ae98f7b",
+    "5e2052da-6daa-4192-be3f-acb6bbd1f0c8",
+    "516e0448-1ef4-454e-abed-9c987a293ea1",
+    "f44381ce-904d-4cfb-97c4-cf462ef14bb2",
+    "3ff078de-530b-4c84-83eb-dfe4371381e8",
+    "88fcec6e-046e-4829-a6ae-bb5f35fbf6e1"
+   ],
+   "kat": "baski-kulaklik-aksesuari"
+  },
+  "penguenli-kumbara-tahterevalli-para-biriktirme-kumbarasi": {
+   "ad": "Penguenli Kumbara - Tahterevalli Para Biriktirme Kumbarası",
+   "aciklama": "Tahterevalli üzerinde iki penguenli, para attıkça dengesi değişen kumbara.",
+   "fiyat": "549.90",
+   "gorsel": [
+    "6ee1fbf8-427d-40ac-9861-e0d691bd1ead",
+    "61e069e4-1402-418f-adf8-e8b63d9ad566",
+    "596194f9-f45c-4157-909c-789c2272ab5c",
+    "050b0e3f-9bb6-4fc3-859f-7f353e93bb40"
+   ],
+   "kat": "baski-kumbara"
+  },
+  "balik-tutma-oyunu-oltali-cocuk-masa-oyunu": {
+   "ad": "Balık Tutma Oyunu - Oltalı Çocuk Masa Oyunu",
+   "aciklama": "Esnek balıklar ve mini oltalarla oynanan balık tutma oyunu.",
+   "fiyat": "709.90",
+   "gorsel": [
+    "908d1acd-19f5-42d4-9729-caab09d52b57",
+    "2e127a97-f983-4904-9195-628a9827e5b5",
+    "895e9522-3196-4a78-977e-c0a4465386f4"
+   ],
+   "kat": "baski-kutu-oyunu"
+  },
+  "banka-soygunu-oyunu-iki-kisilik-strateji-oyunu": {
+   "ad": "Banka Soygunu Oyunu - İki Kişilik Strateji Oyunu",
+   "aciklama": "Dikey tablalı, kasa temalı iki kişilik strateji oyunu.",
+   "fiyat": "1029.90",
+   "gorsel": [
+    "6935fc72-9cf2-4208-b26d-3bd90bba61d9",
+    "b597d905-a59b-4109-997f-e702e14dc1b1",
+    "fda4249e-2ceb-415a-936e-ec161c5ea1ee"
+   ],
+   "kat": "baski-kutu-oyunu"
+  },
+  "deniz-savasi-oyunu-iki-kisilik-strateji-oyunu": {
+   "ad": "Deniz Savaşı Oyunu - İki Kişilik Strateji Oyunu",
+   "aciklama": "Katlanır tablalı, gemi ve işaret çivili klasik deniz savaşı oyunu.",
+   "fiyat": "1089.90",
+   "gorsel": [
+    "42867559-8e95-4ec0-9982-81a46a3f8e17",
+    "75d77331-5880-4961-b559-8b7034f6c03a",
+    "ef659f2a-a16c-4aab-9044-42996d0dbb81"
+   ],
+   "kat": "baski-kutu-oyunu"
+  },
+  "domino-seti-modern-tasarim-kutulu-domino": {
+   "ad": "Domino Seti - Modern Tasarım Kutulu Domino",
+   "aciklama": "Belirgin noktalı 28 taşlı, saklama kutulu modern domino seti.",
+   "fiyat": "1029.90",
+   "gorsel": [
+    "d86b373f-48fd-460e-b524-eedcdc7ec976",
+    "6f7060cb-21a3-48a4-92f0-72f96c6876f8",
+    "dbec1b3b-b214-4cd5-b2ea-eaa89e55fb48"
+   ],
+   "kat": "baski-kutu-oyunu"
+  },
+  "havuc-hafiza-oyunu-cocuk-kutu-oyunu": {
+   "ad": "Havuç Hafıza Oyunu - Çocuk Kutu Oyunu",
+   "aciklama": "Havuçların altındaki renkleri hatırlamaya dayalı aile hafıza oyunu.",
+   "fiyat": "1209.90",
+   "gorsel": [
+    "a506b4f5-d12c-4c18-8fa7-a9c2f335c296",
+    "3eb86869-f92d-43ac-bed3-f56216b46b0b",
+    "99747ee5-edff-470d-b0f6-0f5b75414dd4"
+   ],
+   "kat": "baski-kutu-oyunu"
+  },
+  "kelime-bulma-oyunu-harf-tahmin-kutu-oyunu": {
+   "ad": "Kelime Bulma Oyunu - Harf Tahmin Kutu Oyunu",
+   "aciklama": "Döner harf taşlı, adım sayaçlı klasik kelime tahmin oyunu.",
+   "fiyat": "1569.90",
+   "gorsel": [
+    "054039b6-2f6a-45c5-9f7e-86a165ac73ff",
+    "2d9cde1d-b348-4f73-81e2-3f23cc5c4ce5",
+    "d5b65ffa-a48d-4fbf-9930-f2c74e655560"
+   ],
+   "kat": "baski-kutu-oyunu"
+  },
+  "kendinden-ayiran-4-lu-bagla-strateji-kutu-oyunu": {
+   "ad": "Kendinden Ayıran 4'lü Bağla - Strateji Kutu Oyunu",
+   "aciklama": "Spiral kanallı, taşları renklerine göre kendiliğinden ayıran dörtlü bağlama oyunu.",
+   "fiyat": "1529.90",
+   "gorsel": [
+    "06fa1114-9a98-488b-a46b-9fc7a40b4ff5",
+    "20151e43-d6ad-4c93-b746-74332bbf94e3",
+    "cfd03510-f4cb-4fc2-bcbb-d70aae9d50f8"
+   ],
+   "kat": "baski-kutu-oyunu"
+  },
+  "kurbagali-xox-oyunu-sevimli-tic-tac-toe": {
+   "ad": "Kurbağalı XOX Oyunu - Sevimli Tic Tac Toe",
+   "aciklama": "Nilüfer yaprağı tablalı, kurbağa ve çiçek taşlı XOX oyunu.",
+   "fiyat": "569.90",
+   "gorsel": [
+    "ce3ebfd9-6890-4804-8ad3-f0ac5127f55e",
+    "ef26ee80-dc63-486d-a999-e867d9720fb9",
+    "aa55ec73-82de-43f4-933f-32d24a6fd3c2"
+   ],
+   "kat": "baski-kutu-oyunu"
+  },
+  "parmak-futbolu-masa-ustu-futbol-oyunu": {
+   "ad": "Parmak Futbolu - Masa Üstü Futbol Oyunu",
+   "aciklama": "Kale, top ve parmak oyunculu masa üstü futbol seti.",
+   "fiyat": "499.90",
+   "gorsel": [
+    "30da33b5-9bd0-4667-9b1e-b62251166c01",
+    "94368fed-5421-4586-b962-4d02eacf6238",
+    "8e21762f-af32-436b-9a6d-69c5cedcf58e"
+   ],
+   "kat": "baski-kutu-oyunu"
+  },
+  "renk-eslestirme-yarisi-hizli-aile-oyunu": {
+   "ad": "Renk Eşleştirme Yarışı - Hızlı Aile Oyunu",
+   "aciklama": "Gizli renk sırasını bulmaya dayalı hızlı renk eşleştirme oyunu.",
+   "fiyat": "459.90",
+   "gorsel": [
+    "d6631cd5-c7a9-40e9-a952-7c84c18a090c",
+    "17b1bce9-284a-4364-b6bb-5231e1fb6d0c",
+    "c96713d8-5787-450d-a798-4974c4e5c8a9"
+   ],
+   "kat": "baski-kutu-oyunu"
+  },
+  "seyahat-satranc-seti-kutulu-mini-satranc": {
+   "ad": "Seyahat Satranç Seti - Kutulu Mini Satranç",
+   "aciklama": "Saklama bölmeli kutu-tabla ve klasik taşlardan oluşan seyahat satranç seti.",
+   "fiyat": "609.90",
+   "gorsel": [
+    "bf05af21-0933-4f24-865b-5ca12b48adff",
+    "42d1ff8d-814d-4f62-94d5-9671d3510aa7",
+    "4f7cc812-a15b-4233-ad5f-f68b7f629070"
+   ],
+   "kat": "baski-kutu-oyunu"
+  },
+  "cizgili-makyaj-duzenleyici-4-bolmeli-fircalikli-masaustu-kozmetik-organizer": {
+   "ad": "Çizgili Makyaj Düzenleyici 4 Bölmeli Fırçalıklı Masaüstü Kozmetik Organizer",
+   "aciklama": "Çizgili dokulu, 4 bölmeli ve fırçalıklı masaüstü makyaj düzenleyici.",
+   "fiyat": "599.90",
+   "gorsel": [
+    "080756bb-3307-4fb6-a290-57b7bd512ef0",
+    "ab6a35f1-486a-4f39-8c68-91ad49105458",
+    "9a0a0551-4bbb-449d-a343-05f0a7c8efe7"
+   ],
+   "kat": "baski-makyaj-ve-taki-organizeri"
+  },
+  "fiyonk-makyaj-organizeri-rujluk-fircalik-taki-bolmeli-masaustu-duzenleyici": {
+   "ad": "Fiyonk Makyaj Organizeri Rujluk Fırçalık Takı Bölmeli Masaüstü Düzenleyici",
+   "aciklama": "Fiyonk detaylı makyaj organizeri; rujları, fırçaları ve takıları ayrı bölmelerde düzenli tutar.",
+   "fiyat": "769.90",
+   "gorsel": [
+    "76255f84-9754-4433-a907-398855653de3",
+    "e6c0c54a-cf78-4b1d-b8c1-cd79d81f0a8f",
+    "be85833e-cc19-49d8-8329-8e9c880296ed"
+   ],
+   "kat": "baski-makyaj-ve-taki-organizeri"
+  },
+  "kose-parfum-rafi-nervurlu-2-katli-makyaj-duzenleyici": {
+   "ad": "Köşe Parfüm Rafı - Nervürlü 2 Katlı Makyaj Düzenleyici",
+   "aciklama": "Nervürlü yan panelli, yuvarlak köşeli iki katlı parfüm ve makyaj rafı.",
+   "fiyat": "599.90",
+   "gorsel": [
+    "56478519-7baa-4089-99e9-e7be8a00258f",
+    "54d3046d-a8c5-4bdc-b43f-df80e3d166fb",
+    "4a0d71cf-42bc-44e5-aa69-34b7b163199c",
+    "fc989491-d4d7-4ca0-8e0f-9196c5aa0c3f",
+    "8c393349-4a8e-47bc-8ad4-e30fa5b8b251",
+    "4c802aef-c3d3-4a66-9004-337515d1f1ca"
+   ],
+   "kat": "baski-makyaj-ve-taki-organizeri"
+  },
+  "makyaj-organizeri-10-bolmeli-fircalikli-masaustu-kozmetik-duzenleyici": {
+   "ad": "Makyaj Organizeri 10 Bölmeli Fırçalıklı Masaüstü Kozmetik Düzenleyici",
+   "aciklama": "10 bölmeli, fırçalıklı masaüstü kozmetik düzenleyici.",
+   "fiyat": "809.90",
+   "gorsel": [
+    "5df18d3d-5bef-44bc-9d84-b82f66b0a1d8",
+    "ada286ea-69c8-4d5a-abb8-d47a989e509e",
+    "8c73382a-e8e6-4819-aa6a-acaf997c4723"
+   ],
+   "kat": "baski-makyaj-ve-taki-organizeri"
+  },
+  "toka-ve-sac-lastigi-standi-kemer-formlu-sac-aksesuari-duzenleyici": {
+   "ad": "Toka ve Saç Lastiği Standı - Kemer Formlu Saç Aksesuarı Düzenleyici",
+   "aciklama": "Saç lastiği, toka ve pensleri bir arada tutan kemer formlu stand.",
+   "fiyat": "299.90",
+   "gorsel": [
+    "bf09492d-018c-4c4e-bd33-1ddf41ca9f9b",
+    "ad3854d5-28e1-46ae-a7e1-f440e29735b9",
+    "6f994e29-530b-49f3-a009-64396181f13d",
+    "6fd9b35e-809a-4443-b9d0-3b9ee79f3548",
+    "7b7a968d-61b2-424a-b12c-3fdba6f52d0e",
+    "a1fe955e-c044-4770-abb7-b2b93813f9eb"
+   ],
+   "kat": "baski-makyaj-ve-taki-organizeri"
+  },
+  "ay-lambasi-krater-dokulu-gece-lambasi": {
+   "ad": "Ay Lambası - Krater Dokulu Gece Lambası",
+   "aciklama": "Gerçekçi krater dokusuyla dolunay görünümlü dekoratif lamba.",
+   "fiyat": "499.90",
+   "gorsel": [
+    "2c7356a4-bf8a-4ceb-be9d-8df52c592569",
+    "e165b0e0-67e0-4a1d-9627-ac624fc441d3",
+    "35a2387d-64a5-4a44-90ea-51104ce2108e",
+    "92839a1c-a349-483b-827f-e5643c73e6a7"
+   ],
+   "kat": "baski-masa-ve-gece-lambasi"
+  },
+  "burgu-desenli-masa-lambasi-ucayakli": {
+   "ad": "Burgu Desenli Masa Lambası - Üçayaklı",
+   "aciklama": "Burgu çizgili yumurta formlu abajur ve üçayaklı tabandan oluşan lamba.",
+   "fiyat": "819.90",
+   "gorsel": [
+    "c1b83700-05b8-45d9-ac49-60a875f6d5ee",
+    "5e0d6673-68db-450b-8a7b-0e1e393bb23f",
+    "38066fce-0234-4d81-a4c2-eb1f4c55e7b4",
+    "e910f843-4276-4313-9e3a-ed22f7cd2210",
+    "27d54089-6984-4898-aa7d-a70cf6719628"
+   ],
+   "kat": "baski-masa-ve-gece-lambasi"
+  },
+  "a5-ajandalik-masa-duzenleyici-cekmeceli-kalemlik": {
+   "ad": "A5 Ajandalık Masa Düzenleyici - Çekmeceli Kalemlik",
+   "aciklama": "A5 ajanda yuvası, çekmecesi ve kalem bölmeleri bulunan masa düzenleyici.",
+   "fiyat": "849.90",
+   "gorsel": [
+    "9c3cec9f-dbc1-4364-b8f8-c0054a572ba1",
+    "f51dbc0d-9007-4034-970d-c60a23e53777",
+    "3134d8db-490b-489b-9028-1b237bc3c7e1",
+    "57644296-9819-4d9f-a0c7-ae3bcd6f9483",
+    "98ede98f-9b6a-4a68-80b1-4ec0aa752906",
+    "56b671fa-a498-47a8-9081-b80a7d61683c"
+   ],
+   "kat": "baski-masaustu-organizer"
+  },
+  "istiflenebilir-cekmece-seti-3-lu-renkli-cekmeceli-duzenleyici": {
+   "ad": "İstiflenebilir Çekmece Seti - 3'lü Renkli Çekmeceli Düzenleyici",
+   "aciklama": "Üst üste dizilerek büyütülebilen, renkli önlü 3'lü çekmece seti.",
+   "fiyat": "999.90",
+   "gorsel": [
+    "85f1d2ac-c299-4e88-af80-c2903be65344",
+    "93527f6c-12a5-499d-aa9a-532c038ea3c4",
+    "2bc22b4e-b9b1-49ec-ba8e-27c247393c4f",
+    "bfb60607-f1f4-429c-ae3b-7bf6759ddf4c"
+   ],
+   "kat": "baski-masaustu-organizer"
+  },
+  "kademeli-kalemlik-seti-5-silindirli-masa-duzenleyici": {
+   "ad": "Kademeli Kalemlik Seti - 5 Silindirli Masa Düzenleyici",
+   "aciklama": "Farklı yüksekliklerde beş silindir ve tepsiden oluşan kademeli kalemlik seti.",
+   "fiyat": "599.90",
+   "gorsel": [
+    "32a4374b-2267-493d-8494-568e820fcd33",
+    "b0dd95ba-2952-479c-a525-dd7f4928408a",
+    "daae79c4-2a3b-4818-9fe0-d7bbeeb97134",
+    "53119c30-6f7d-4e1c-bbff-7778b0a2b817",
+    "a3e39495-9b5d-4993-a5d8-f6f341d37085",
+    "fbe9091b-ff04-4cbf-934d-5663ae0986d7"
+   ],
+   "kat": "baski-masaustu-organizer"
+  },
+  "kumanda-standi-egimli-bolmeli": {
+   "ad": "Kumanda Standı - Eğimli Bölmeli",
+   "aciklama": "TV kumandaları ve telefonlar için eğimli bölmeli masa standı.",
+   "fiyat": "449.90",
+   "gorsel": [
+    "a65c2a5f-c342-4709-bb00-b1f47579c933",
+    "c213064c-9f4c-41bf-a5e8-fbbf2622952e",
+    "7be197ed-9cff-4378-8d9f-84a55e26dae5",
+    "3664d46b-32bd-41c1-a788-ca6b0bfb7c1c",
+    "b51a366d-6d9b-4f1c-8f80-469bce3909ed",
+    "212725f9-8fce-483d-8c7d-27d8f849d2ab"
+   ],
+   "kat": "baski-masaustu-organizer"
+  },
+  "modern-cekmece-kulesi-4-lu-istiflenebilir-cekmece": {
+   "ad": "Modern Çekmece Kulesi - 4'lü İstiflenebilir Çekmece",
+   "aciklama": "Yapıştırma gerektirmeden istiflenen yuvarlak tutamaklı 4'lü çekmece kulesi.",
+   "fiyat": "1099.90",
+   "gorsel": [
+    "bf36a9ae-fcf6-412f-9a9a-ed1c3ceb3bc9",
+    "7d7fb0e4-c87d-45df-bf59-013d817de8fb",
+    "97430c2c-1ed0-479f-9bec-f98bf83d3d70",
+    "929c0fa3-8e25-4636-8e0a-ab913bc2dfdd"
+   ],
+   "kat": "baski-masaustu-organizer"
+  },
+  "moduler-parca-cekmecesi-etiketli-kup-duzenleyici": {
+   "ad": "Modüler Parça Çekmecesi - Etiketli Küp Düzenleyici",
+   "aciklama": "Etiket yuvalı küp çekmecelerden oluşan, birbirine geçen modüler düzenleyici.",
+   "fiyat": "899.90",
+   "gorsel": [
+    "8c5c4625-d6b8-4373-9968-32177d3117cd",
+    "3dc28458-af8c-48db-852e-aa333de19fb9",
+    "e5b7bbec-bd78-4672-b54f-b99efa8d4e6e",
+    "195531c7-00d0-4b66-8609-11d54e3fd64f",
+    "509f1960-1a59-4934-958f-315030be9e0e"
+   ],
+   "kat": "baski-masaustu-organizer"
+  },
+  "nervurlu-duzenleyici-kutu-masaustu-organizer": {
+   "ad": "Nervürlü Düzenleyici Kutu - Masaüstü Organizer",
+   "aciklama": "Dışı ince nervürlü, tek bölmeli dikdörtgen düzenleyici kutu.",
+   "fiyat": "389.90",
+   "gorsel": [
+    "b8aafe80-9fa7-401f-9aa0-c950545be4b6",
+    "069c5b33-d384-41e8-8ac7-f145162c60e0",
+    "389a2771-f2a4-4f44-a6e2-9e96865f8211",
+    "8bd10f01-aedd-40d9-88cf-753a9eff9133",
+    "42eefce3-01b7-4df1-983a-aa79b2033804",
+    "86e51303-f68b-4efc-9dd8-260bb8f6fd9d"
+   ],
+   "kat": "baski-masaustu-organizer"
+  },
+  "su-aygiri-masa-duzenleyici-not-kagidi-ve-kalem-tutucu": {
+   "ad": "Su Aygırı Masa Düzenleyici - Not Kağıdı ve Kalem Tutucu",
+   "aciklama": "Sırtında not kağıdı taşıyan, kalem ve şablon bölmeli sevimli su aygırı düzenleyici.",
+   "fiyat": "379.90",
+   "gorsel": [
+    "7bb02aba-60ab-4c99-bf16-ce7ca7549587",
+    "53f00efd-d177-484e-9859-bbb02721f9df",
+    "8a91fd7a-6f7a-45b6-b6de-fbe4693faf18",
+    "fe8627e9-49c5-4dc9-8459-b33e1dcb7602",
+    "2d1a84bb-7db5-429d-ac51-3627d1e87a5d"
+   ],
+   "kat": "baski-masaustu-organizer"
+  },
+  "telefon-tutuculu-masaustu-duzenleyici-kalemlikli": {
+   "ad": "Telefon Tutuculu Masaüstü Düzenleyici - Kalemlikli",
+   "aciklama": "Kalemlik, telefon tutucu ve iki bölmeli masaüstü organizer.",
+   "fiyat": "949.90",
+   "gorsel": [
+    "fcec5c01-cc54-4368-a971-36c0b85cd9b6",
+    "e84dcb08-9c45-4cab-90ba-1613e45ada94",
+    "afad1428-ff5f-47ad-8416-7890e242e1c5",
+    "803b1d43-218a-492a-9ca7-a92c28d9fc09",
+    "cdbed0a1-6e08-4aa7-80dc-02b3e8dd4c9f",
+    "420c1145-4f04-446a-bf59-9003d39c368d",
+    "05125812-098c-4baa-873a-a701822259ec",
+    "ffb6fa54-5c74-436b-8bf9-83543dc478ab"
+   ],
+   "kat": "baski-masaustu-organizer"
+  },
+  "moduler-masa-rafi-monitor-yukseltici": {
+   "ad": "Modüler Masa Rafı - Monitör Yükseltici",
+   "aciklama": "Monitörü yükseltip altına klavye alanı açan modüler masa rafı.",
+   "fiyat": "869.90",
+   "gorsel": [
+    "08e2f3ac-cfec-4306-abdc-4df8af136a9a",
+    "5b19c31b-212c-4662-aa10-d5a0892515f9",
+    "a5b3b50b-6f19-414d-b079-6f4d60ad1a7e",
+    "f77dd93b-775c-43c2-8c74-cc1b9277c9cb",
+    "8d3c8120-2ec5-4885-9f2b-38c4d9adbdd5",
+    "07324872-6743-44a6-b9ee-f895db71f18e"
+   ],
+   "kat": "baski-monitor-aparati"
+  },
+  "dolap-alti-strec-film-ve-folyo-tutucu": {
+   "ad": "Dolap Altı Streç Film ve Folyo Tutucu",
+   "aciklama": "Mutfak dolabının altına monte edilen, çoklu rulo tutucu.",
+   "fiyat": "419.90",
+   "gorsel": [
+    "2aac2ffe-0ef0-41d8-b3b0-7623d59ed681",
+    "442e1e4e-f17d-44a4-b0b7-5b9d98329698",
+    "30d3e677-61af-4012-b1d6-6c858f75b6a5",
+    "f13bb57b-9168-4579-93ba-b41876ec91b6",
+    "25f94575-1ec0-4438-bafe-1f8ca3ddfe8a"
+   ],
+   "kat": "baski-mutfak-duzenleyici"
+  },
+  "gunluk-tiklamali-dagitici-7-gozlu-haftalik-duzenleyici": {
+   "ad": "Günlük Tıklamalı Dağıtıcı - 7 Gözlü Haftalık Düzenleyici",
+   "aciklama": "Haftanın günleri için yedi gözlü, her basışta bir adet bırakan tıklamalı dağıtıcı.",
+   "fiyat": "359.90",
+   "gorsel": [
+    "b4fa8ea5-a0a0-4ca8-a97c-3371e0e6bb81",
+    "ed5cf22c-74a0-452d-926d-cf28d129d8ff",
+    "60575ffe-8c1a-41af-8530-c638490c8c89",
+    "62904c4c-f0b0-470e-9f93-f346d091a73e",
+    "9d9697ea-f053-40fb-92e1-dc8e19d6151e"
+   ],
+   "kat": "baski-mutfak-duzenleyici"
+  },
+  "japandi-sungerlik-ve-sabunluk-suzgecli": {
+   "ad": "Japandi Süngerlik ve Sabunluk - Süzgeçli",
+   "aciklama": "Eğimli nervürlü tabanıyla suyu süzen lavabo başı sünger tepsisi.",
+   "fiyat": "289.90",
+   "gorsel": [
+    "59cad1ac-08da-4315-a2cf-3e5f94f280d0",
+    "110b7e2e-8078-4a13-9afd-5fdef6c71b1f",
+    "427c93fd-b55f-44ec-b286-b60cf10d473e",
+    "beb8bb90-2c5d-4dcc-9372-a9738dfeae7a",
+    "ca7fdaec-3801-4f18-9405-cb78f03b8462",
+    "66fcee1c-e40f-40fb-97fc-1162c598da1f"
+   ],
+   "kat": "baski-mutfak-duzenleyici"
+  },
+  "nilufer-kupa-duzenleyici-kupa-istifleme-aparati-4-lu": {
+   "ad": "Nilüfer Kupa Düzenleyici - Kupa İstifleme Aparatı 4'lü",
+   "aciklama": "Nilüfer yaprağı formunda, kupaları güvenle üst üste istifleyen 4'lü aparat.",
+   "fiyat": "379.90",
+   "gorsel": [
+    "eede8f1a-35f8-4398-9160-523b66f61ce4",
+    "2b1f903d-135f-4cc8-9029-0c9fa67d52f6",
+    "38bf5665-8c81-4492-8bae-38d5b9bf08ce",
+    "20b16721-678e-433d-b11b-b6085b5fc636",
+    "0126cf4f-f260-4bc1-be4f-0f0fb75ebd04"
+   ],
+   "kat": "baski-mutfak-duzenleyici"
+  },
+  "minimal-laptop-standi-acili-yukseltici": {
+   "ad": "Minimal Laptop Standı - Açılı Yükseltici",
+   "aciklama": "İki açılı yan destekten oluşan hafif ve sade laptop yükseltici.",
+   "fiyat": "379.90",
+   "gorsel": [
+    "0a857c36-91b9-4119-b83c-40278c04b537",
+    "bf3fcb89-4ffa-4cb6-96f7-bb753b757b3f",
+    "76f26c14-100f-4c99-a0e4-c8422042c69b",
+    "722f3b74-ffbe-4051-b066-0d21af0cc4bc",
+    "4826513b-2c68-48a8-a13c-3c8d0d25f9db"
+   ],
+   "kat": "baski-notebook-standi"
+  },
+  "kedili-okey-takimi-kedi-istakali-komple-set": {
+   "ad": "Kedili Okey Takımı - Kedi Istakalı Komple Set",
+   "aciklama": "Dört kedi ıstakası, 106 taş ve sepet görünümlü saklama kutusundan oluşan okey takımı.",
+   "fiyat": "2849.90",
+   "gorsel": [
+    "9bba2309-7462-44c2-bb4a-c95583328655",
+    "2035d3eb-a9f5-4caf-9484-79112f9db991",
+    "4f32143a-faa2-410a-8b08-4ef9474f268f",
+    "e2671ec4-9415-4d60-b33b-a9fb81957afe",
+    "6ade9a2b-fdd6-41e2-9ebc-896043c364af"
+   ],
+   "kat": "baski-okey-takimi"
+  },
+  "kopekli-okey-takimi-sosis-kopek-istakali-komple-set": {
+   "ad": "Köpekli Okey Takımı - Sosis Köpek Istakalı Komple Set",
+   "aciklama": "Dört sosis köpek ıstakası, 106 taş ve örgü desenli saklama kutusundan oluşan okey takımı.",
+   "fiyat": "2849.90",
+   "gorsel": [
+    "107c3c08-ace8-460a-9d39-edc9821ea426",
+    "e0c976b2-64ce-474d-ab61-f4669937c935",
+    "e9865200-091a-420c-ab35-99fa0ce7101a",
+    "22c2b21f-bf5e-45cc-8594-09e01c3316bc",
+    "6962c93d-9be6-4ead-b16e-dbf0f4491c1d"
+   ],
+   "kat": "baski-okey-takimi"
+  },
+  "cep-yaris-arabasi-lastik-motorlu-oyuncak-araba": {
+   "ad": "Cep Yarış Arabası - Lastik Motorlu Oyuncak Araba",
+   "aciklama": "Lastik motorla ilerleyen cep boy yarış arabası.",
+   "fiyat": "319.90",
+   "gorsel": [
+    "584c42e8-1669-467c-981e-86915737d967",
+    "773c5bbc-32e2-4085-92ee-d6c1f2170806",
+    "865f4aaa-ecc1-4ab4-b468-5b8076e2af46"
+   ],
+   "kat": "baski-oyuncak-araba"
+  },
+  "kurmali-4x4-oyuncak-araba-yayli-mekanizmali": {
+   "ad": "Kurmalı 4x4 Oyuncak Araba - Yaylı Mekanizmalı",
+   "aciklama": "Yay mekanizmalı, dört çeker pilsiz oyuncak araba.",
+   "fiyat": "479.90",
+   "gorsel": [
+    "3fe25e5a-c0e2-4959-a45b-4d009dbb68ec",
+    "f04aa9c0-9d2d-4f3d-abaf-b628cbc872c8",
+    "2821f636-af28-4694-80f5-983af34d3321"
+   ],
+   "kat": "baski-oyuncak-araba"
+  },
+  "dalgali-desenli-kagit-mendil-kutusu-kapakli": {
+   "ad": "Dalgalı Desenli Kağıt Mendil Kutusu - Kapaklı",
+   "aciklama": "Dalga dokulu gövdeli, standart kutu mendillere uygun dekoratif mendil kutusu.",
+   "fiyat": "829.90",
+   "gorsel": [
+    "239d5507-9d66-4e1a-a27e-7df7cd752429",
+    "7705f118-db43-452d-8b1d-6353b6357e0b",
+    "7911d599-0287-4a2e-9a5f-ae1100ed933a",
+    "309ebd7d-e4a9-4c21-b4be-cce035f1af7c",
+    "63809f70-a7df-4f19-8647-412d1f85092d",
+    "39297b96-d3c5-4352-ae1d-67f8b8b5d8c3",
+    "faab8c3e-d750-4816-a2e5-362fd728ee4c",
+    "3dab2741-91f5-4d51-8946-5a768c33477a"
+   ],
+   "kat": "baski-pecetelik"
+  },
+  "dikey-pecetelik-nervurlu-mendil-kutusu-tepsi-tabanli-dekoratif-kagit-mendil-kutu": {
+   "ad": "Dikey Peçetelik Nervürlü Mendil Kutusu – Tepsi Tabanlı Dekoratif Kağıt Mendil Kutusu Kil / Bej",
+   "aciklama": "Dikey peçetelik, nervürlü dik gövdesi, yan çerçevesi ve tepsi tabanıyla masada az yer kaplar, modern ve şık bir görünüm sağlar.",
+   "fiyat": "839.90",
+   "gorsel": [
+    "6387fc86-23ef-4f23-b3cd-62fbda5367c7",
+    "4121d1f4-5aa2-4a73-b151-83130e4fc89c",
+    "572bf26d-ac11-4c4e-a12f-7e1a270cf633"
+   ],
+   "kat": "baski-pecetelik"
+  },
+  "japandi-ayakli-havlu-pecetelik-kulplu": {
+   "ad": "Japandi Ayaklı Havlu Peçetelik - Kulplu",
+   "aciklama": "Üst tutamaklı, rulonun rahat döndüğü ayaklı kağıt havluluk.",
+   "fiyat": "779.90",
+   "gorsel": [
+    "88870db0-0359-472f-ac3d-0cb10e3050ae",
+    "d9ee77ca-13b3-4482-be57-adceb9f50ade",
+    "f2e29845-6cd9-496b-a7b0-918833e0e780",
+    "76bb2f99-e07c-46fd-89f9-52af1ca54d1a",
+    "3cdd65dd-2007-4c03-ae20-b380ea8b03a5",
+    "84a1af91-0401-46fb-a839-ca1aa1a7f128",
+    "c28593b0-57e1-46de-bfe9-0401a12d4a2e"
+   ],
+   "kat": "baski-pecetelik"
+  },
+  "kurabiye-adam-kagit-havluluk-yilbasi-temali": {
+   "ad": "Kurabiye Adam Kağıt Havluluk - Yılbaşı Temalı",
+   "aciklama": "Tepesinde kurabiye adam figürü bulunan, karlı tabanlı yılbaşı havluluğu.",
+   "fiyat": "1949.90",
+   "gorsel": [
+    "e9791c03-b635-49b3-9ab4-725d5feea1e9",
+    "68616908-9bb4-42b8-8215-041ea7f4ce62",
+    "80b51eb6-7ea3-417c-aad8-eec0e405b845"
+   ],
+   "kat": "baski-pecetelik"
+  },
+  "nervurlu-mendil-kutusu-kapakli-dekoratif-pecetelik-banyo-ve-salon-icin-kagit-men": {
+   "ad": "Nervürlü Mendil Kutusu Kapaklı Dekoratif Peçetelik – Banyo ve Salon İçin Kağıt Mendil Kutusu Mat Gri / Kemik Beyazı",
+   "aciklama": "Nervürlü dekoratif mendil kutusu, dikey çizgili modern gövdesi ve çıkarılabilir yarıklı kapağıyla banyo tezgahında, salonda, yatak odasında ve ofiste şık bir görünüm sağlar.",
+   "fiyat": "749.90",
+   "gorsel": [
+    "cf5209d6-e148-44d6-81c4-fdb76bdc8090",
+    "de0fb61d-c024-4ccb-a52c-52375dd60775",
+    "6d878b1b-f0a6-4fde-8d29-02ac4bbe3d01",
+    "f5694973-9050-46ba-ae76-3dbca058afd3"
+   ],
+   "kat": "baski-pecetelik"
+  },
+  "nervurlu-mendil-kutusu-kilifi-dekoratif-pecetelik-salon-ve-banyo-icin-kagit-mend": {
+   "ad": "Nervürlü Mendil Kutusu Kılıfı – Dekoratif Peçetelik, Salon ve Banyo İçin Kağıt Mendil Kutusu Kapağı",
+   "aciklama": "Nervürlü mendil kutusu kılıfı, derin dikey nervürleri, yuvarlatılmış köşeleri ve dalgalı alt kenarıyla salon, banyo, yatak odası ve ofiste modern bir görünüm sağlar.",
+   "fiyat": "659.90",
+   "gorsel": [
+    "e079cfe6-490c-4044-bccc-adfa1b2dfd28",
+    "457bc93e-55da-4c1c-8304-c40387135f14"
+   ],
+   "kat": "baski-pecetelik"
+  },
+  "3d-fil-yapbozu-gecmeli-katmanli-egitici-oyuncak": {
+   "ad": "3D Fil Yapbozu - Geçmeli Katmanlı Eğitici Oyuncak",
+   "aciklama": "Katmanlı parçaların birleşerek ayakta duran fil figürüne dönüştüğü 3D yapboz.",
+   "fiyat": "429.90",
+   "gorsel": [
+    "2264c7f3-3710-446c-91eb-e0defcfe611a",
+    "76f01c5f-c300-4149-a0e7-7856318969ee",
+    "b3a562ea-c8c5-4c6c-bebb-a3f8feb356b2"
+   ],
+   "kat": "baski-puzzle"
+  },
+  "alfabe-yapbozu-harfleri-yerine-yerlestirme-oyuncagi": {
+   "ad": "Alfabe Yapbozu - Harfleri Yerine Yerleştirme Oyuncağı",
+   "aciklama": "A'dan Z'ye kabartma harflerin kendi yuvasına oturduğu alfabe yapbozu.",
+   "fiyat": "539.90",
+   "gorsel": [
+    "2c3d1e31-9ce8-4a00-81c3-4a8a33d1e927",
+    "c88b25fe-00d2-47b1-b9b2-837a84ec4d1c",
+    "76265119-cad1-4ee2-ae53-cbba07440566"
+   ],
+   "kat": "baski-puzzle"
+  },
+  "hayvan-sekil-yapbozu-sekil-eslestirme-oyuncagi": {
+   "ad": "Hayvan Şekil Yapbozu - Şekil Eşleştirme Oyuncağı",
+   "aciklama": "Kalın hayvan parçalarının kare tablada yerine oturduğu şekil yapbozu.",
+   "fiyat": "369.90",
+   "gorsel": [
+    "523449a4-b500-4eb4-a18b-18fe5e63cf28",
+    "29d3845b-b4db-4eb4-83d5-9999759182dc",
+    "dc11a460-5c09-485c-814e-9fb3d2e94d64"
+   ],
+   "kat": "baski-puzzle"
+  },
+  "triceratops-iskelet-yapbozu-dinozor-3d-maket": {
+   "ad": "Triceratops İskelet Yapbozu - Dinozor 3D Maket",
+   "aciklama": "Kemik parçalarının birleşerek ayakta duran triceratops iskeletine dönüştüğü yapboz.",
+   "fiyat": "359.90",
+   "gorsel": [
+    "82a9d782-ebe6-46b2-9f0b-a5e53187705c",
+    "16d838dc-45df-4dfd-8618-bde2825f2314",
+    "a3ac2bef-5f7f-4bb6-af79-d88e91899bd2"
+   ],
+   "kat": "baski-puzzle"
+  },
+  "kendinden-suzgecli-sabunluk-akitmali": {
+   "ad": "Kendinden Süzgeçli Sabunluk - Akıtmalı",
+   "aciklama": "Eğimli tabanı ve akıtma ucuyla suyu lavaboya veren sabunluk.",
+   "fiyat": "239.90",
+   "gorsel": [
+    "f82c1358-84ca-4292-95e2-5c99814dc095",
+    "3eaed6b8-6c89-4449-bda8-a7bd5156a25b",
+    "254356c1-d088-4808-9c94-88a9873ae082",
+    "04ab69ab-1d32-45e9-81c6-5425c3c05f1a",
+    "5301aa31-4a5a-4c46-a6b6-9e28cf07a84e",
+    "8753649f-8e92-4ada-b252-321b9b3ea8b3"
+   ],
+   "kat": "baski-sabunluk"
+  },
+  "yaprak-formlu-sabunluk-suzgecli": {
+   "ad": "Yaprak Formlu Sabunluk - Süzgeçli",
+   "aciklama": "Damar kanallarıyla suyu tahliye eden yaprak şekilli sabunluk.",
+   "fiyat": "249.90",
+   "gorsel": [
+    "419801dd-a7e8-4eb3-84ee-6191aabf9281",
+    "f868ffa0-a559-4732-8ac5-c2ba34e28f8c",
+    "42203c83-37e7-4cde-9d4d-f8cbc2cdef52",
+    "259259d8-557e-4e28-84a9-304b30949d6f",
+    "ca97cc25-6ed2-497b-b4d1-a74bc0014cc9",
+    "c7a38ef4-ae2c-49d4-bcdc-bb37cd75f501"
+   ],
+   "kat": "baski-sabunluk"
+  },
+  "kagit-havluluk-dolap-alti-tek-parca-rulo-tutucu": {
+   "ad": "Kağıt Havluluk - Dolap Altı Tek Parça Rulo Tutucu",
+   "aciklama": "Mutfak dolabının altına monte edilen kavisli tek parça kağıt havlu tutucu.",
+   "fiyat": "419.90",
+   "gorsel": [
+    "94e1d664-59db-47d8-836c-7a5ca95eda8d",
+    "bdd22fb4-da75-4318-8dc9-37dbbeceeb03",
+    "c4379610-1e6a-4563-b537-060f51698e18",
+    "380a0577-12cb-4290-a933-e82308e7c078",
+    "6648088c-ed8a-4175-acfb-ce25d93e9f71",
+    "0bbb5a0a-f0c3-48d4-931d-c58953fa7ae4"
+   ],
+   "kat": "baski-saklama-kutusu"
+  },
+  "kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi": {
+   "ad": "Kapaklı Saklama Kutusu Seti - 2 Kutu ve Tepsi",
+   "aciklama": "Pliseli iki kapaklı kutu ve tırtıllı oval tepsiden oluşan saklama seti.",
+   "fiyat": "949.90",
+   "gorsel": [
+    "151a590c-ed07-4757-a9f4-c13b0faee281",
+    "a08c6d09-7b53-4f56-8067-88ef4459df66",
+    "b9d74efc-764c-4914-ab00-c6eac1fcb673",
+    "8eee7e9e-8149-4cc0-94ca-2f52541d1246",
+    "16ba1e93-6c2c-4a7e-980e-c1427f6b82b3",
+    "bfbf2b13-b64a-4443-8986-aa898db3c836"
+   ],
+   "kat": "baski-saklama-kutusu"
+  },
+  "orgu-desenli-kalp-kutu-gul-detayli": {
+   "ad": "Örgü Desenli Kalp Kutu - Gül Detaylı",
+   "aciklama": "Kapağında gül bulunan, örgü dokulu kalp şeklinde hediye kutusu.",
+   "fiyat": "209.90",
+   "gorsel": [
+    "9d634801-16af-4ce9-882c-e31904b7bcec",
+    "47473129-d9ed-4c0f-8b6f-655ce669145b",
+    "091a6b5a-cecc-4865-88e9-2e687dad9da3",
+    "da4e32d7-2e33-466e-8b90-9740a570418b",
+    "e6e4b9ee-6886-4d46-bb99-a6621c633335",
+    "00217a0f-7fb9-422e-b917-4b01e49831df"
+   ],
+   "kat": "baski-saklama-kutusu"
+  },
+  "ayakli-nervurlu-saksi-tabakli": {
+   "ad": "Ayaklı Nervürlü Saksı - Tabaklı",
+   "aciklama": "Dört ayak üzerinde duran, ince nervürlü silindir saksı.",
+   "fiyat": "799.90",
+   "gorsel": [
+    "532572ef-b0e2-4bca-a923-dbae6e95aafc",
+    "6a241428-831f-44a8-8079-823a75eaffc2",
+    "dd3d9843-47fd-40aa-af43-ed8a56145de2",
+    "9a36d275-377e-47e5-8319-314d333cff8b",
+    "a82e8c0c-ea77-4d27-b457-7a8f5d0ef401",
+    "51642e05-3711-4b57-ba60-4f0ba3f7a24c"
+   ],
+   "kat": "baski-saksi"
+  },
+  "bitki-sulama-kuresi-yavas-sulama-aparati": {
+   "ad": "Bitki Sulama Küresi - Yavaş Sulama Aparatı",
+   "aciklama": "Toprağa batırılan, bitkiyi yavaşça sulayan küre hazneli sulama aparatı.",
+   "fiyat": "389.90",
+   "gorsel": [
+    "19c92d31-869c-4a02-93f9-f9bfeef60f9b",
+    "8d2b7dfc-dfa1-46ce-9efa-65c3d406824c",
+    "2b510cb0-564c-4c5e-86a8-1344ccc6314a",
+    "20ac224b-8f7a-455c-bfda-6bb2c1b23ddf",
+    "835f79c4-ce43-4729-80c2-74b29a799a81",
+    "899ab3bf-792f-45aa-a4d0-72cbe6c5b7e2"
+   ],
+   "kat": "baski-saksi"
+  },
+  "burgu-desenli-saksi-su-tabakli-modern-saksi": {
+   "ad": "Burgu Desenli Saksı - Su Tabaklı Modern Saksı",
+   "aciklama": "Burgu fasetli yüzeyli, geniş ağızlı ve su tabaklı modern saksı.",
+   "fiyat": "339.90",
+   "gorsel": [
+    "645caa98-6abf-4fcb-92a3-f791b837fc47",
+    "b2adc092-fd28-426a-b3df-dc2ec19020ce",
+    "dba718b9-7590-41b4-b5ab-de49f2f2b419",
+    "59ae0a31-4652-44e1-b1cc-961a512893b2",
+    "b7185862-2efe-4ce5-9ccf-fb982d69140b",
+    "8a9d1554-0989-4e78-a23a-a084545d39d1"
+   ],
+   "kat": "baski-saksi"
+  },
+  "buyuk-tabakli-saksi-cikarilabilir-tabakli-genis-saksi": {
+   "ad": "Büyük Tabaklı Saksı - Çıkarılabilir Tabaklı Geniş Saksı",
+   "aciklama": "Pürüzsüz gövdeli, çevirerek çıkarılan tabaklı büyük saksı.",
+   "fiyat": "1099.90",
+   "gorsel": [
+    "5ccb978d-1ef5-43bd-82e0-e3032e83e08e",
+    "eb515af9-c15a-4a5f-8b39-7395171c2fc9",
+    "5baa1e9b-2a5f-4bd2-8a38-3ef2a971d85d",
+    "6b7cf1a0-6294-471c-9f0a-94882286a044",
+    "5ca6eea5-51cc-49e4-b0b3-7c3613a6f040",
+    "49ae0f8c-075c-48b1-af39-45104b40ff87"
+   ],
+   "kat": "baski-saksi"
+  },
+  "cerceveli-masa-saksisi-sapli-tasinabilir-saksi": {
+   "ad": "Çerçeveli Masa Saksısı - Saplı Taşınabilir Saksı",
+   "aciklama": "Saplı çerçeve içinde asılı dokulu saksıdan oluşan masa saksısı.",
+   "fiyat": "649.90",
+   "gorsel": [
+    "5c7f3b83-bb47-48fb-b3fe-528762671caa",
+    "3bcf9ac1-f3c3-4922-872f-57bae39eed62",
+    "5161720c-7ef5-4988-9b6b-1f8b94ebeac8",
+    "0915da54-7ab0-4f29-8365-f192e591859c",
+    "8163d259-c2c6-4140-951c-010601b7de94"
+   ],
+   "kat": "baski-saksi"
+  },
+  "dalga-desenli-saksi-su-tabakli-dekoratif-saksi": {
+   "ad": "Dalga Desenli Saksı - Su Tabaklı Dekoratif Saksı",
+   "aciklama": "Akışkan dikey dalga desenli, su tabaklı dekoratif saksı.",
+   "fiyat": "379.90",
+   "gorsel": [
+    "f5098511-63b2-4fdf-8c41-7281052b62c9",
+    "a375c67f-1134-4a9e-91a7-8f8b2d42d8d9",
+    "eb9ee17c-a186-4fa6-984e-3c06f040bb68",
+    "ab71a756-638d-45ed-9c8d-ba97ba8b92ef",
+    "9a0c9488-d8b4-4392-bbc0-10129e486c51",
+    "1eb9b6bb-e771-4334-ba60-1f04fcd609c9"
+   ],
+   "kat": "baski-saksi"
+  },
+  "gizli-bolmeli-saksi-nilufer-formlu-saksi": {
+   "ad": "Gizli Bölmeli Saksı - Nilüfer Formlu Saksı",
+   "aciklama": "Nilüfer yaprakları formunda, tabanında bas-aç gizli çekmecesi olan saksı.",
+   "fiyat": "549.90",
+   "gorsel": [
+    "387632b1-e278-4b50-9491-11a308d61e7e",
+    "84274cc6-f8c3-4cd6-9d82-6045b49d9f11",
+    "6c9605e5-2bc1-4e76-981d-0a7ffc315a71",
+    "bb7539ad-206e-4e78-9b9b-b25b8ad930fa",
+    "b520e5bf-a328-4d35-832a-7b153e16b509",
+    "bc4d435d-539e-4ae2-8899-4ee9e3a3340c"
+   ],
+   "kat": "baski-saksi"
+  },
+  "halka-masa-saksisi-ayakli-kendinden-sulamali-saksi": {
+   "ad": "Halka Masa Saksısı - Ayaklı Kendinden Sulamalı Saksı",
+   "aciklama": "Halka çerçeve içinde su hazneli, ayaklı masa üstü saksı.",
+   "fiyat": "419.90",
+   "gorsel": [
+    "1fe3d9f6-03de-4d01-8eb6-cea736f1f33b",
+    "849126da-d14a-420f-82d6-22a76637bf3d",
+    "a5e047c6-1931-4485-9035-501db28784fc",
+    "d8d08540-d1d6-4388-831f-bc1322475408",
+    "1395b736-c6d8-4be3-ae05-4b65cab0ba25"
+   ],
+   "kat": "baski-saksi"
+  },
+  "kalp-elli-saksi-sevimli-bitki-saksisi": {
+   "ad": "Kalp Elli Saksı - Sevimli Bitki Saksısı",
+   "aciklama": "Elleriyle kalp yapan sevimli karakter formunda mini saksı.",
+   "fiyat": "299.90",
+   "gorsel": [
+    "b2fe1332-c2de-499e-abb8-efb789a56d29",
+    "62ba6aa7-9955-41bf-831b-24dcee63a3d7",
+    "6e20e241-1e86-42f7-806e-fedeba37de3a",
+    "aec0c18e-4c14-43e5-8cf9-4bada7912b21",
+    "c4bdeae2-1e18-462e-b0d8-4f486d3a1f1a",
+    "beb874d5-e989-46a1-9007-5d09860e29e4"
+   ],
+   "kat": "baski-saksi"
+  },
+  "kendinden-sulamali-saksi-bambu-formlu-su-gostergeli": {
+   "ad": "Kendinden Sulamalı Saksı - Bambu Formlu Su Göstergeli",
+   "aciklama": "Bambu formlu, su haznesi ve yüzen seviye göstergesi olan kendinden sulamalı saksı.",
+   "fiyat": "599.90",
+   "gorsel": [
+    "12e525a8-5544-4253-81b2-a7cb216b1618",
+    "45770a30-fc05-4eb4-ab8c-a9c7700dad34",
+    "1c433d91-ef43-42e8-af41-01a8b84f6835",
+    "df3137e2-61d1-4521-8408-76794d2d31ec",
+    "2f6ac8de-b54a-4551-b7d7-099c2182c9b4"
+   ],
+   "kat": "baski-saksi"
+  },
+  "kendinden-sulamali-saksi-su-seviye-gostergeli": {
+   "ad": "Kendinden Sulamalı Saksı - Su Seviye Göstergeli",
+   "aciklama": "Su haznesi ve seviye göstergesi olan nervürlü kendinden sulamalı saksı.",
+   "fiyat": "599.90",
+   "gorsel": [
+    "fca7be93-1759-4ea4-8548-1da5113cee86",
+    "449f6381-0d43-4075-a130-5667b72feb49",
+    "a93eca59-fcc7-460f-b01c-aeab3882ebdd",
+    "10918a09-4379-425e-b84a-95a1d1037c26",
+    "0d4c91d7-7bc7-44ff-be2b-f98f6e9c7d81",
+    "0b007427-b295-40ab-a051-3370511f083a"
+   ],
+   "kat": "baski-saksi"
+  },
+  "mini-sera-saksi-klasik-sera-gorunumlu-dekoratif-saksi": {
+   "ad": "Mini Sera Saksı - Klasik Sera Görünümlü Dekoratif Saksı",
+   "aciklama": "Çatılı, ince çerçeveli klasik sera görünümünde mini saksı.",
+   "fiyat": "549.90",
+   "gorsel": [
+    "73ddb6b3-5acd-48b7-9841-1d51b017f9f2",
+    "d1058fc2-e4a1-4d05-926c-675dcdc04a41",
+    "cb243504-f91c-4631-9501-88c8b6d9f97b",
+    "9607551a-719c-41cb-a71c-f66b27d060c8",
+    "71f3d459-b827-46e9-abec-ac0a9b742200"
+   ],
+   "kat": "baski-saksi"
+  },
+  "nervurlu-tabakli-saksi-iki-renkli-modern-saksi": {
+   "ad": "Nervürlü Tabaklı Saksı - İki Renkli Modern Saksı",
+   "aciklama": "Nervürlü gövdesi kontrast renkli tabağıyla bütünleşik modern saksı.",
+   "fiyat": "469.90",
+   "gorsel": [
+    "b6030873-41ab-4413-87d7-77c66de242d6",
+    "5b0e96fc-12bf-4123-b5cc-af0766c7f43b",
+    "5b0052ea-b245-4fe8-93f6-15cd093860cd",
+    "549e7510-cd82-4d34-a981-d8a93946754a",
+    "c178f6d1-a060-41b6-94e2-a457bfb907fa"
+   ],
+   "kat": "baski-saksi"
+  },
+  "poligon-desenli-saksi-tabakli": {
+   "ad": "Poligon Desenli Saksı - Tabaklı",
+   "aciklama": "Poligon dokulu gövdesi ve sarmal tabağıyla modern saksı.",
+   "fiyat": "519.90",
+   "gorsel": [
+    "a925dad3-fb02-4edf-92ff-274e7b20b85b",
+    "b40d53f2-9cd7-4322-80d8-1b2082a5d1f8",
+    "9f3963a2-db03-4302-8995-bf8234136d62",
+    "b07673a3-d71d-4d99-bd39-70eaeb72f570",
+    "4c71cb4d-04d1-42a3-8878-c80d0968f687",
+    "30c8d8a7-eb94-40b6-90ca-a7b004bb23de"
+   ],
+   "kat": "baski-saksi"
+  },
+  "respiro-dalgali-saksi-seti-3-lu-ayakli-stand": {
+   "ad": "Dalgalı Saksı Seti - 3'lü Ayaklı Stand",
+   "aciklama": "Dalgalı dokulu üç saksı ve ayaklı standlarından oluşan set.",
+   "fiyat": "1309.90",
+   "gorsel": [
+    "09daef64-7985-4dc2-8af5-abd762feee73",
+    "839e3413-bb13-4b67-ad81-76f5018d0574",
+    "511e5a26-3af7-4eb6-8ba7-cd8beb67d12b",
+    "1042d404-8257-4522-9f7e-c94eb832c6de",
+    "e375ac55-10f2-495b-a37a-30392a6a23b1",
+    "1446a4cb-371a-41d6-a0de-bb9d93dc69f6"
+   ],
+   "kat": "baski-saksi"
+  },
+  "eriyen-mum-gorunumlu-led-mumluk": {
+   "ad": "Eriyen Mum Görünümlü LED Mumluk",
+   "aciklama": "Erimiş mum damlası görünümlü, LED tealight için sütun mumluk.",
+   "fiyat": "209.90",
+   "gorsel": [
+    "6c2df9d6-19bd-4578-8f36-c655ca7fa36f",
+    "fc9fb9de-cd65-4f23-a72d-08fccb1f27f0",
+    "bdd978a1-ca80-4dff-ab99-e212b0fb2764",
+    "b34c9aec-2a1e-4052-b6c5-7067d3b63613",
+    "688a4288-96db-48a4-bcf3-5b205cb51da6",
+    "59038641-cd48-4021-8b77-30e56201d575"
+   ],
+   "kat": "baski-samdan-mumluk"
+  },
+  "geyikli-dekoratif-samdan-4-mumluk-iskandinav-tarzi": {
+   "ad": "Geyikli Dekoratif Şamdan - 4 Mumluk İskandinav Tarzı",
+   "aciklama": "İki geyik figürü ve dört ince mum yuvası bulunan uzun tepsi şamdan.",
+   "fiyat": "459.90",
+   "gorsel": [
+    "3adbeb7a-3b42-4463-90c5-cb6b088b05a6",
+    "5a6ad8ce-bb08-4ad8-8516-47ca9282ffbc",
+    "d89e27f5-0ede-4708-9397-ea3c4dce7ed9",
+    "0e12f549-cce4-474f-8ee0-26c06abd5f86",
+    "82a9ed88-c56e-4184-9aac-6dbc14075890",
+    "bb9df14f-e4c1-4a20-ac6c-e8ae5f6c8366"
+   ],
+   "kat": "baski-samdan-mumluk"
+  },
+  "kis-manzarali-fener-ayakli-led-mumluk": {
+   "ad": "Kış Manzaralı Fener - Ayaklı LED Mumluk",
+   "aciklama": "Gövdesinde kabartma kış manzarası bulunan, ışıkla canlanan ayaklı fener.",
+   "fiyat": "389.90",
+   "gorsel": [
+    "91123b6f-82ce-490b-abf5-9afc834f62b4",
+    "638fa05c-50b9-4743-909d-029dee1f2bff",
+    "791f895c-29f9-4751-83a9-36b30ad6af7c",
+    "eacd7eda-0fea-4314-9a83-2c746538d009",
+    "e1e1dc15-839e-4a2b-9cd1-a55f53cba8ce"
+   ],
+   "kat": "baski-samdan-mumluk"
+  },
+  "kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru": {
+   "ad": "Kozalak Ev Tealight Mumluk - Işıklı Yılbaşı Dekoru",
+   "aciklama": "İçine tealight mum konan, bacası ve kapısından ışık saçan kozalak ev.",
+   "fiyat": "299.90",
+   "gorsel": [
+    "9b550cb6-cf5f-423f-86d2-0f2ff3b76bba",
+    "800abc4f-7d49-4fea-bc5b-2c854c798f85",
+    "9d9fdc04-09fc-4017-ace9-39c407b6147c",
+    "9fa90c26-2b1f-4909-846f-5fc690570933",
+    "1006f57f-f761-41a2-8901-0397cd77a1b0",
+    "c501330a-6746-48cb-ac50-40fb24b261a4"
+   ],
+   "kat": "baski-samdan-mumluk"
+  },
+  "kurabiye-temali-mum-dekoru-led-isikli-yilbasi-susu": {
+   "ad": "Kurabiye Temalı Mum Dekoru - LED Işıklı Yılbaşı Süsü",
+   "aciklama": "Kremalı mumlar, şeker kamışları ve kurabiye adamla yılbaşı mum dekoru.",
+   "fiyat": "1479.90",
+   "gorsel": [
+    "fa529169-f406-4465-b3ad-b1e2f410336e",
+    "e590bc43-f838-4b5e-ac74-5f452cf345ea",
+    "4cb4afc4-2d97-4450-a2eb-b1dd0a654277"
+   ],
+   "kat": "baski-samdan-mumluk"
+  },
+  "melek-figurlu-led-fener-dantel-kanatli": {
+   "ad": "Melek Figürlü LED Fener - Dantel Kanatlı",
+   "aciklama": "Dantel desenli kanatları ve delikli gövdesiyle ışık saçan melek fener.",
+   "fiyat": "239.90",
+   "gorsel": [
+    "ae7bea16-cfdb-4f52-8a71-80e2ab9e41ef",
+    "7f1fecaa-bda1-4723-a552-86fd992cbe12",
+    "1ff37fb8-1032-47a5-8c6a-bc38f2f0e774",
+    "493451f4-70f8-465a-b659-06260d671187",
+    "7af0d11e-df13-4404-a1a6-114fb49e1b70"
+   ],
+   "kat": "baski-samdan-mumluk"
+  },
+  "modern-tealight-mumluk-seti-3-lu": {
+   "ad": "Modern Tealight Mumluk Seti - 3'lü",
+   "aciklama": "Minimal formlu, tealight mumlara uygun 3'lü mumluk seti.",
+   "fiyat": "279.90",
+   "gorsel": [
+    "07f1cb35-1c97-4c68-9e2d-2d0215dd047f",
+    "79f5ae65-b230-409c-a953-0835d7a7cf6d",
+    "0baf68e9-07f1-4959-bcbe-08652726de5d",
+    "238de7b8-6cfe-4dd8-a2da-711ab71e7cf7",
+    "252126e3-382f-480e-bede-2473e66b6926",
+    "16c6f0f8-1277-45f3-b334-76cfef6a7c90",
+    "cb38c265-4ad3-4456-936b-6e19adb3701f",
+    "f4754285-fbde-45e8-af6d-c7b602b2e9ff"
+   ],
+   "kat": "baski-samdan-mumluk"
+  },
+  "nervurlu-led-mumluk-deniz-kabugu-formlu": {
+   "ad": "Nervürlü LED Mumluk - Deniz Kabuğu Formlu",
+   "aciklama": "Işınsal nervürlü, yuvarlak formlu LED tealight mumluk.",
+   "fiyat": "239.90",
+   "gorsel": [
+    "f9d89415-724e-4330-97aa-313c92a37073",
+    "94a2431b-8677-4bda-8493-d6465e83bed3",
+    "7cf0dacc-f852-45ae-b614-e0412d1e0cdf",
+    "e8ceb54e-39e2-4b8f-bce3-a2dcc5013f7a",
+    "5a101d18-6c73-4be7-b344-fa9ef42c4702",
+    "8b0b4afd-1e49-495e-8a25-831fde15a6db"
+   ],
+   "kat": "baski-samdan-mumluk"
+  },
+  "girdapli-meyve-sebze-yikama-kabi-ve-suzgec": {
+   "ad": "Girdaplı Meyve Sebze Yıkama Kabı ve Süzgeç",
+   "aciklama": "Musluk suyuyla girdap oluşturarak meyve ve sebzeleri yıkayan, ardından süzgeç olarak kullanılan kap.",
+   "fiyat": "429.90",
+   "gorsel": [
+    "415bf659-b446-489d-bb1b-e1dfc9a22ca1",
+    "8cb77c41-5eef-47bf-9317-ee2d5bcf7436",
+    "8a76c59c-7f6a-401e-b0a7-258fdc4f31a8",
+    "89ee256f-d338-46ba-b7ca-1518d165748a",
+    "bf51fd48-4340-4ddd-b56b-5d8f199ec106",
+    "bd11c842-e155-456a-b952-1cd8b74db2ec"
+   ],
+   "kat": "baski-suzgec"
+  },
+  "zikzak-profilli-tablet-standi-tepsili": {
+   "ad": "Zikzak Profilli Tablet Standı - Tepsili",
+   "aciklama": "Çizgili zikzak gövdeli, önünde küçük tepsisi bulunan tablet standı.",
+   "fiyat": "799.90",
+   "gorsel": [
+    "cb693731-6b4d-4fbc-8f9c-75737fe3ef97",
+    "5f9007c6-6ff9-4ed6-94f6-5c44e9b41f89",
+    "9a7d14ea-e044-4194-8fe5-a44d5f0cbbd9",
+    "b54065a2-a60f-4457-865d-4fc39aabd87c",
+    "46c1c889-8676-4293-bfc4-58cb2673e879",
+    "cd99f884-f0db-4343-af6e-b22d5fd97664"
+   ],
+   "kat": "baski-tablet-standi"
+  },
+  "kitap-tavla-takimi-kitap-gorunumlu-katlanir-tavla": {
+   "ad": "Kitap Tavla Takımı - Kitap Görünümlü Katlanır Tavla",
+   "aciklama": "Ciltli kitap gibi kapanan, açılınca tavla tahtasına dönüşen tavla takımı.",
+   "fiyat": "1199.90",
+   "gorsel": [
+    "769cdac0-826e-476b-91e2-aa5ced6e70f9",
+    "16428140-2296-4bde-b5fd-1ce9bc270f7b",
+    "75113c1d-f357-4e48-b55a-cedbe0ee7ed3",
+    "fe75a9e4-8ebd-4001-8a4d-7ccace7aaeb1",
+    "7bfae7bf-f400-4f40-bbc9-eccb67438791",
+    "2340c844-bb06-4169-8d1a-5012f03803ef"
+   ],
+   "kat": "baski-tavla"
+  },
+  "ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice": {
+   "ad": "Ahşap Dokulu Yuvarlak Tepsi Seti - 3'lü İç İçe",
+   "aciklama": "Ahşap damar ve yıllık halka dokulu, iç içe geçen 3'lü yuvarlak tepsi seti.",
+   "fiyat": "1139.90",
+   "gorsel": [
+    "8dda98b0-fcd0-4808-8c97-f8933feb0993",
+    "ef9e18a5-db1d-43a1-8753-c9f0fd6892cd",
+    "2dc60af4-d16e-45cc-b0e3-87d237daa3a3",
+    "9388c0bc-9e85-4434-a722-48ab4fc32d47",
+    "931bed3a-1fde-4e9c-8b28-b7a89bf54aee",
+    "440d511c-fdf3-4ae0-9e4b-73876dffc75a",
+    "73ba49e9-16ef-4108-bda4-5b204dfe661a"
+   ],
+   "kat": "baski-tepsi"
+  },
+  "dalgali-kenarli-ayakli-dekoratif-tepsi-25-cm": {
+   "ad": "Dalgalı Kenarlı Ayaklı Dekoratif Tepsi - 25 cm",
+   "aciklama": "Dalgalı kenarlı, top ayaklı yuvarlak dekoratif tepsi.",
+   "fiyat": "419.90",
+   "gorsel": [
+    "780451d7-99df-427a-b11c-3084bb63baed",
+    "9c32fe46-18c3-4d14-a287-26b9a2007b1f",
+    "98ac56bf-73f0-409a-94e7-c609a6e41d80",
+    "490bc269-7f3a-4302-879b-d547a421bb06",
+    "be7d1103-e20e-4a56-974e-c12737c2ea1f",
+    "4edf32ad-584e-4c71-a680-c9bcd0fe2950",
+    "261b8837-e915-4b14-9599-3a2bb1b03d43",
+    "6daa0cb8-c19b-42fd-ad2b-027c292350b7"
+   ],
+   "kat": "baski-tepsi"
+  },
+  "japandi-oval-tepsi-minimal-duzenleyici": {
+   "ad": "Japandi Oval Tepsi - Minimal Düzenleyici",
+   "aciklama": "Yumuşak kenarlı, sade oval Japandi tepsi.",
+   "fiyat": "289.90",
+   "gorsel": [
+    "ffe50526-98cc-4e1d-9cbd-91d12ee9577e",
+    "8df9c19d-e104-4f7f-b6a7-636d6610d610",
+    "b83b1fe9-dd31-4a8e-b18c-815df419a2d0",
+    "ec0ab8f1-078f-4d78-9fb3-fdcb48486701",
+    "38dd0947-5998-4bb7-bc0f-93e09efea0e6",
+    "8f0c481b-6744-4508-9f7c-42b972f1705e"
+   ],
+   "kat": "baski-tepsi"
+  },
+  "modern-anahtar-tepsisi-yuvarlak-koseli": {
+   "ad": "Modern Anahtar Tepsisi - Yuvarlak Köşeli",
+   "aciklama": "Yumuşak hatlı, alçak kenarlı dikdörtgen anahtar tepsisi.",
+   "fiyat": "259.90",
+   "gorsel": [
+    "1331f4e9-b9d1-48a2-91e0-62828ec079b2",
+    "19158b80-ba5b-499d-aa30-943905d46c18",
+    "99166908-84c6-4634-a39a-10c40c5b0c33",
+    "84168f07-db73-4bf3-b723-702ce13f299e",
+    "8a35b32c-14f3-4665-b33d-586ae66a566e",
+    "5856c2cc-7f14-4628-bf00-1c0f9f6159ba"
+   ],
+   "kat": "baski-tepsi"
+  },
+  "nervurlu-oval-tepsi-anahtar-ve-taki-tepsisi": {
+   "ad": "Nervürlü Oval Tepsi - Anahtar ve Takı Tepsisi",
+   "aciklama": "Dış kenarı ince nervürlü, sade oval tepsi.",
+   "fiyat": "349.90",
+   "gorsel": [
+    "a040b608-bf53-47e8-b1b4-67e89a51040f",
+    "8bafcbb0-85ad-4399-a073-c3770ff3f3e4",
+    "3f5463c1-bf8b-4859-8d5c-3cc49d576122",
+    "dc210b08-bf5c-40e5-bd9c-d22f385079f0",
+    "514a64d3-87f0-495e-8782-9efb4d19989a",
+    "2518aaf6-01a5-41af-afb2-fbf65fbc46d1"
+   ],
+   "kat": "baski-tepsi"
+  },
+  "yedek-rulo-hazneli-ayakli-tuvalet-kagitligi-nervurlu": {
+   "ad": "Yedek Rulo Hazneli Ayaklı Tuvalet Kağıtlığı - Nervürlü",
+   "aciklama": "Yedek ruloları gövdesinde saklayan, vidasız kurulan ayaklı tuvalet kağıtlığı.",
+   "fiyat": "1939.90",
+   "gorsel": [
+    "61412563-970d-41dd-8a91-f905b57eef3b",
+    "c300c81f-f0fa-45ba-8018-f7e71272b03d",
+    "c2646dfc-4877-4000-9caf-df8486d65adb",
+    "ea0a27fe-8ff0-404b-bf46-e9507f167960",
+    "832371c2-894d-49d1-8379-ad8e1c56800d",
+    "223c29fe-dbab-45c4-bc08-552bdfeed2eb",
+    "c29f4aab-292a-4a04-8914-7f3e5339a409",
+    "54888f0e-575b-497f-8e40-ed318242a29c"
+   ],
+   "kat": "baski-tuvalet-kagitligi"
+  },
+  "altigen-duvar-saksisi-petek-dizilimli-askili-saksi": {
+   "ad": "Altıgen Duvar Saksısı - Petek Dizilimli Askılı Saksı",
+   "aciklama": "Altıgen çerçeveli, petek düzeninde birleştirilebilen duvar saksısı.",
+   "fiyat": "289.90",
+   "gorsel": [
+    "6025e793-e7c3-4ff0-9740-cf9ebf182a13",
+    "5ccaeef1-52f0-4285-a4b4-e79c9157d69c",
+    "3a97a2d9-0998-4b37-9e42-165439790016",
+    "c7e85584-bbd1-4d3a-b4e5-1f25161dbcd3",
+    "00c9b678-7fff-4bfc-8b72-3abdb75953d3"
+   ],
+   "kat": "baski-urunleri"
+  },
+  "duvar-ray-saksi-seti-kayar-askili-3-lu-saksi": {
+   "ad": "Duvar Ray Saksı Seti - Kayar Askılı 3'lü Saksı",
+   "aciklama": "Duvara monte ray üzerinde kayarak konumlanan nervürlü 3'lü saksı seti.",
+   "fiyat": "899.90",
+   "gorsel": [
+    "356ffe57-f9be-4881-adff-2da50fe3a5ce",
+    "bd6768bf-f595-4430-87fa-6dbc72064010",
+    "b601a729-805b-4ef9-9e5c-3b1a10c6b556",
+    "b7b97e11-4005-4b1a-b47b-1dbb6b625f9b",
+    "f42bf261-1df3-4f8d-824b-ccd03c559f53"
+   ],
+   "kat": "baski-urunleri"
+  },
+  "isikli-ev-yilbasi-takvimi-25-cekmeceli-geri-sayim": {
+   "ad": "Işıklı Ev Yılbaşı Takvimi - 25 Çekmeceli Geri Sayım",
+   "aciklama": "25 numaralı çekmeceli, ışıklı evleri ve küçük ağaçlarıyla yılbaşı takvimi.",
+   "fiyat": "1499.90",
+   "gorsel": [
+    "3fd7218a-8842-4f73-9e5d-81f3218c9000",
+    "93079fc0-2534-4295-b9c6-e1cefd5ae106",
+    "0541961f-8fb4-4daf-8b76-f3505cb770a6",
+    "d0745fc3-5dab-4c7d-b761-052bc20ffd1b",
+    "46f4c83e-0ab5-425e-9c1b-3427cbb0290f"
+   ],
+   "kat": "baski-urunleri"
+  },
+  "yilbasi-agaci-takvim-24-cekmeceli-yilbasi-geri-sayim": {
+   "ad": "Yılbaşı Ağacı Takvim - 24 Çekmeceli Yılbaşı Geri Sayım",
+   "aciklama": "Katlı ağaç formunda, 24 numaralı çekmeceli ve yıldızlı yılbaşı takvimi.",
+   "fiyat": "1399.90",
+   "gorsel": [
+    "270d1d4f-42d1-4d8a-93cc-1529221f5535",
+    "71a9d166-969e-4180-8063-5002d3eb4405",
+    "97888a81-ce02-4c4c-a715-1bb43d1cc09b",
+    "a43f0afc-db82-495c-a2b4-1a4ecf35165b",
+    "035221ae-e17d-4e5d-8347-a82801caf999",
+    "c7c2ce8a-64ea-4949-898e-bc56aee17725"
+   ],
+   "kat": "baski-urunleri"
+  },
+  "yuvarlak-duvar-saksisi-halka-cerceveli-askili-saksi": {
+   "ad": "Yuvarlak Duvar Saksısı - Halka Çerçeveli Askılı Saksı",
+   "aciklama": "Halka çerçevenin alt yarısında saksısı bulunan yuvarlak duvar saksısı.",
+   "fiyat": "299.90",
+   "gorsel": [
+    "adb17865-6844-44aa-bb66-f3de86c06f85",
+    "be09be87-c2b6-464f-b839-c56af618793b",
+    "57b3d3d8-756b-4a92-a2e6-d58cae6f81b0",
+    "3e9d311c-8917-4379-950e-626ca67a18c5",
+    "eb3d862e-ba25-4c0c-9b8b-48c7205d6b14"
+   ],
+   "kat": "baski-urunleri"
+  },
+  "bulut-halkali-vazo-modern-dekoratif-vazo": {
+   "ad": "Bulut Halkalı Vazo - Modern Dekoratif Vazo",
+   "aciklama": "Üst üste dizilmiş yumuşak halkalardan oluşan modern vazo.",
+   "fiyat": "419.90",
+   "gorsel": [
+    "cc1d97f0-b3e3-4697-9829-ce4d9c08def0",
+    "7ea02887-4d32-4978-bfa6-1814d88f31cd",
+    "f69dcd1d-7bc1-4dee-85da-3d8fc66e5366",
+    "5f431b6c-488d-4b48-a3a6-a79369d725cb",
+    "548041d0-11b8-40b2-a6c5-4e4b98c5ae56",
+    "fa553320-1ca4-48a1-9031-9bf9f05ef16a"
+   ],
+   "kat": "baski-vazo"
+  },
+  "buzgulu-kese-vazo-dekoratif-kuru-cicek-vazosu": {
+   "ad": "Büzgülü Kese Vazo - Dekoratif Kuru Çiçek Vazosu",
+   "aciklama": "Büzgü ipli kese görünümlü, rustik tarzda dekoratif vazo.",
+   "fiyat": "389.90",
+   "gorsel": [
+    "b87967f3-f8e5-4874-b902-3e1bfef95651",
+    "41b92341-d94d-44e3-8912-2b7db24d9f32",
+    "d81c6d58-9546-404e-960a-89db596d03aa",
+    "c120034a-fb50-4edb-8ed0-16575e1e48c1",
+    "a121f98b-9ec5-420e-804f-8eb303a7ae3f",
+    "55998e47-d777-4b0a-aa06-e8095211c43c",
+    "accdef2a-8bac-4dce-92bd-cc2b4b97eabe"
+   ],
+   "kat": "baski-vazo"
+  },
+  "dalga-desenli-dekoratif-vazo-20-cm": {
+   "ad": "Dalga Desenli Dekoratif Vazo - 20 cm",
+   "aciklama": "Akışkan dalga desenli, silindir formlu modern vazo.",
+   "fiyat": "449.90",
+   "gorsel": [
+    "e9a9723a-d344-4c07-869c-94b4cddc550b",
+    "77af34a5-da1c-4018-b1e2-81552837ab81",
+    "24ef9b10-8f63-4a9d-a28d-1560e8ff0f35",
+    "93fa3944-15de-49f3-932e-538029428fd3",
+    "a89f2b4d-89e3-4f6d-9d9e-467dd6a10805",
+    "fcb187f6-e3bf-4eea-963a-28ce52f47f43",
+    "96333e18-99ac-41ee-9976-a08a9ae81eb2"
+   ],
+   "kat": "baski-vazo"
+  },
+  "dekoratif-vazo-ve-mumluk-seti-tepsili-5-parca": {
+   "ad": "Dekoratif Vazo ve Mumluk Seti - Tepsili 5 Parça",
+   "aciklama": "Nervürlü tepsi, damla vazo, iki kemer dekor ve mumluktan oluşan 5 parçalı set.",
+   "fiyat": "1119.90",
+   "gorsel": [
+    "69ae3944-6d4c-49b3-90cf-38fa11acae9a",
+    "ba258355-e8c7-4838-93b8-501ad95176d0",
+    "07d42f11-1a79-4141-8c43-87dee3cb7ce9",
+    "90b0e098-d6b1-410d-b745-fe438815a843",
+    "63d51e37-48e6-4031-927c-36a66237bc89",
+    "7fbc70d4-d4c4-45ea-9c8e-9de7bb2f209b"
+   ],
+   "kat": "baski-vazo"
+  },
+  "elmas-desenli-dekoratif-vazo-15-cm": {
+   "ad": "Elmas Desenli Dekoratif Vazo - 15 cm",
+   "aciklama": "Geometrik elmas dokulu, ışıkla parlayan dekoratif vazo.",
+   "fiyat": "239.90",
+   "gorsel": [
+    "9e4e87a1-b37c-4124-9004-301a45b37bcd",
+    "92f46720-6289-4eb5-82be-8d935e9e1c3e",
+    "6f6d27d9-5778-414d-a46d-81ed678fb63c",
+    "f8893edb-8dcd-402e-a779-20a1c09e314a",
+    "6474752a-9c71-42b7-bea9-edf1b25410d4",
+    "dc956b80-8b32-4c3b-80d0-afc5b6d8ab99",
+    "b76cc553-2b84-4fc6-9d7f-499e35e1e999",
+    "ff2be182-6b66-4330-88df-7d538ab256b0"
+   ],
+   "kat": "baski-vazo"
+  },
+  "felicia-vazo-spiral-nervurlu-dekoratif-vazo": {
+   "ad": "Felicia Vazo - Spiral Nervürlü Dekoratif Vazo",
+   "aciklama": "Akıcı spiral nervürleri ve dar boynuyla zarif dekoratif vazo.",
+   "fiyat": "409.90",
+   "gorsel": [
+    "2e7767f5-5b1e-4235-9189-15b28d53d8b0",
+    "2cc330a4-413e-49f2-961d-6ce008aeb0cd",
+    "d19e4cf1-5a7d-47f5-b9ff-b1706e6d023a",
+    "bbeaf0ea-5d77-4657-b1bc-0a63bdaad94c",
+    "da5f4308-439b-4707-bfab-76301a5cc407",
+    "0f454a3a-2cea-45f7-97df-5fbd7fa6e57c"
+   ],
+   "kat": "baski-vazo"
+  },
+  "iskandinav-vazo-seti-2-li-minimal-dekoratif-vazo": {
+   "ad": "İskandinav Vazo Seti - 2'li Minimal Dekoratif Vazo",
+   "aciklama": "Birbirini tamamlayan iki minimal formlu İskandinav tarzı vazo.",
+   "fiyat": "959.90",
+   "gorsel": [
+    "b1c48a94-dd9a-457e-b0f3-8b3f4a514eb6",
+    "18df140d-4cce-47c2-8e81-e477cf80ca18",
+    "b8aac866-9b57-4aa0-a4f7-a239d1dc752e",
+    "3028ac11-af63-404a-9bdd-0d0d4cd16af7",
+    "5461981b-0522-43de-a7ff-c8b01f72896e",
+    "f2d29e61-92f0-4b37-8d7d-6ba3e42f5443",
+    "c171a44a-cff9-40f4-8706-826ec336a2be"
+   ],
+   "kat": "baski-vazo"
+  },
+  "japandi-mini-vazo-seti-3-lu-nervurlu": {
+   "ad": "Japandi Mini Vazo Seti - 3'lü Nervürlü",
+   "aciklama": "Üç farklı nervür desenli, yuvarlak gövdeli 3'lü mini vazo seti.",
+   "fiyat": "519.90",
+   "gorsel": [
+    "312005e3-7f7f-4dcd-8b0f-b3345bbda4ef",
+    "4e05a56d-4979-4407-a571-694422ced7f6",
+    "f9366749-8a9e-498e-a0f6-e75ae2adacd6",
+    "20f7f742-ed03-474c-9381-70cbd684b54a",
+    "162692bf-5703-4226-97c7-a596df1c2747",
+    "6feec634-6ef7-4f13-b34b-9d3ffad791ed"
+   ],
+   "kat": "baski-vazo"
+  },
+  "japandi-vazo-seti-2-li-nervurlu": {
+   "ad": "Japandi Vazo Seti - 2'li Nervürlü",
+   "aciklama": "Biri büyük biri küçük, ince nervürlü Japandi tarzı vazo ikilisi.",
+   "fiyat": "1519.90",
+   "gorsel": [
+    "c27d5aa5-5e1c-49f4-8b7a-10f333509aa8",
+    "bbb10b12-8001-471d-ba19-06514d2bd16a",
+    "9172a3e5-ca2c-4320-8f48-978ca0ad59f8",
+    "57f08d84-1e8c-46a7-bb9f-556f488d13b9",
+    "4cae4138-2948-4c81-ae6b-23b419d2eeda",
+    "3e114c4a-5225-4540-9622-405b64758eca"
+   ],
+   "kat": "baski-vazo"
+  },
+  "japandi-vazo-seti-3-lu-nervurlu": {
+   "ad": "Nervürlü Amfora Vazo Seti - 3'lü",
+   "aciklama": "Üç farklı boyda, sık nervürlü Japandi vazo seti.",
+   "fiyat": "1099.90",
+   "gorsel": [
+    "23d7da22-5e2b-4d91-b029-8166f03cb339",
+    "c14da1f7-90bd-4f5d-bcfd-103e1223b740",
+    "26ab793f-5f8d-4289-87c2-2809903ca847",
+    "4a647f2f-1a80-4bb0-8ee4-d647300a1016",
+    "e8fd82da-eeec-4f9e-9678-aa2ec25bb046",
+    "56096811-ef49-4f20-a4c6-42f81c2a57b4"
+   ],
+   "kat": "baski-vazo"
+  },
+  "lino-oluklu-vazo-iki-renkli-minimal-dekoratif-vazo": {
+   "ad": "Lino Oluklu Vazo - İki Renkli Minimal Dekoratif Vazo",
+   "aciklama": "İnce oluklu gövdeli, kontrast renk tabanlı İskandinav tarzı silindir vazo.",
+   "fiyat": "549.90",
+   "gorsel": [
+    "afe62221-911c-4b8e-905f-8a55d673135b",
+    "e5cd3ce6-57d1-48d7-b090-4e8cbd1cd0e4",
+    "c7af795d-d473-4cea-b021-c7a3b2c334d0",
+    "9ff5e448-3fda-44ce-8f2d-c912d62264b7",
+    "7229d07f-fa33-4f11-9bdc-5215fc2a466d",
+    "ac1ae323-207f-4df9-ac49-cede6db329ef"
+   ],
+   "kat": "baski-vazo"
+  },
+  "lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo": {
+   "ad": "Lumina Modern Vazo - Keskin Nervürlü Dekoratif Vazo",
+   "aciklama": "Keskin dikey nervürleriyle ışık ve gölge oyunu yaratan şişe formlu modern vazo.",
+   "fiyat": "369.90",
+   "gorsel": [
+    "20d1d892-8014-4430-a99c-1dc5165f4f79",
+    "e08c91cd-30f7-4c5a-b550-597de1ac042d",
+    "69400fc2-3e1a-48df-96ff-7692b27eba09",
+    "c5d0223b-c061-4df1-86fb-6ead9cd031d6",
+    "8b9227ad-9209-4e09-a010-404bb6c39f7e",
+    "3b422c5e-ad07-4b41-83c7-65bfd01c55f7",
+    "375f4dba-13fe-4021-8b38-724684667f24",
+    "e55f28f0-cb82-4985-b597-41c65be5132c"
+   ],
+   "kat": "baski-vazo"
+  },
+  "mcm-retro-vazo-fasetli": {
+   "ad": "MCM Retro Vazo - Fasetli",
+   "aciklama": "Fasetli geniş gövdesi ve ince uzun boynuyla retro tarz vazo.",
+   "fiyat": "589.90",
+   "gorsel": [
+    "43ef128d-b496-439b-880b-ab407a45d6d4",
+    "9fd42b77-f5ab-4815-b2d4-881f5ad36533",
+    "cc5de5f6-0224-48ac-af79-6fa97449e1f2",
+    "925eb161-855b-4f32-b734-5407a9e5508f",
+    "c3e38479-8afc-4aab-9acd-0b0a8561bf90",
+    "181b55ec-cd92-49ca-97d6-5091b767d4a8"
+   ],
+   "kat": "baski-vazo"
+  },
+  "nervurlu-ince-vazo-seti-2-li-uzun-ve-kisa": {
+   "ad": "Nervürlü İnce Vazo Seti - 2'li Uzun ve Kısa",
+   "aciklama": "Biri uzun biri kısa, ince nervürlü 2'li silindir vazo seti.",
+   "fiyat": "269.90",
+   "gorsel": [
+    "a6ae2b35-7c1c-4f2d-802b-caff827f5389",
+    "99c11cdc-8233-47e3-a462-361569ebae53",
+    "36326284-db54-4a1c-8ff0-6b08f0becd35",
+    "5e694fd4-7040-4d9b-9a1f-9bb254634f57",
+    "f6c5e51b-51a4-4ac0-9143-50b5396d8209",
+    "b91dc47c-ffcc-41ce-a889-5409d3736c73",
+    "ef370e8e-a552-4621-b0d9-86eec4d0a8fa"
+   ],
+   "kat": "baski-vazo"
+  },
+  "nervurlu-saksi-ve-vazo-modern-masaustu-saksi": {
+   "ad": "Nervürlü Saksı ve Vazo - Modern Masaüstü Saksı",
+   "aciklama": "Dikey nervür dokulu, modern yuvarlak saksı / vazo.",
+   "fiyat": "379.90",
+   "gorsel": [
+    "9beb5359-e5b0-4d2a-b6dd-cfe149b05e95",
+    "046571aa-8280-465f-a88a-c8b28c34f8bb",
+    "3fb169e6-a349-4cba-8790-5a24583c7b41",
+    "705ead7f-6602-40bf-8830-023615796aa8",
+    "7edaf606-5f83-4fee-9cab-2a771f874044",
+    "57706435-2216-4859-9115-407bde3f3827",
+    "5ceacd5b-3c17-45d8-bd46-842a96c30463",
+    "f823f14e-c6bf-43b8-a462-f524fe0055d0"
+   ],
+   "kat": "baski-vazo"
+  },
+  "shizu-japandi-vazo-damla-formlu": {
+   "ad": "Shizu Japandi Vazo - Damla Formlu",
+   "aciklama": "Geniş tabanlı damla formu ve ince çizgileriyle Japandi vazo.",
+   "fiyat": "499.90",
+   "gorsel": [
+    "7a4dcefd-7c57-4b7d-93a3-04536f632380",
+    "1849cb33-4bf8-4adf-a19f-f8e5116d4efd",
+    "1d03294b-85a2-4108-8213-0a8217c1af32",
+    "0b96cdaa-f546-426a-8b23-0679be7d5cac",
+    "934da48c-a358-429e-9494-da9b5bc5a8f6",
+    "1f76f852-6e6c-4d1f-9502-3813fdb3f075"
+   ],
+   "kat": "baski-vazo"
+  },
+  "vanta-kafes-desenli-vazo": {
+   "ad": "Vanta Kafes Desenli Vazo",
+   "aciklama": "Yoğun çapraz kafes dokulu, yuvarlak gövdeli modern vazo.",
+   "fiyat": "379.90",
+   "gorsel": [
+    "49b68138-3ff4-4167-bcec-e017df5c54dd",
+    "d6b26855-17a2-46e8-a1d1-7f4ef20b8151",
+    "792bca48-2845-45a0-989d-64260645cf90",
+    "4596a898-04cc-487b-b40e-a1b3e8095495",
+    "bc767bc1-7a75-469b-8b47-70d83b249edc",
+    "ab623d60-9bc2-4470-83ed-ba8246da0251"
+   ],
+   "kat": "baski-vazo"
+  },
+  "isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk": {
+   "ad": "Işıklı İskandinav Yılbaşı Ağacı - Delik Desenli LED Mumluk",
+   "aciklama": "Delik desenli gövdesinden ışık süzülen, çiçek tabanlı yılbaşı ağacı lambası.",
+   "fiyat": "299.90",
+   "gorsel": [
+    "639db8aa-f405-4ad1-8ca5-41586f102a14",
+    "8ad219dd-ba63-4882-8847-ec4d5f8d635c",
+    "8cfc646d-8c4e-497b-87b9-e08bcbd74a91",
+    "63a4f501-89bf-4884-946d-b5dc8fa91349",
+    "0c47c12a-ee6c-4790-9880-2aa834b99d16",
+    "0464b2df-329f-41f2-9d3c-45a4f5fc4942"
+   ],
+   "kat": "baski-yilbasi-agaci"
+  },
+  "japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm": {
+   "ad": "Japandi Dalgalı Yılbaşı Ağacı - Minimal Masa Dekoru, 15 cm",
+   "aciklama": "Burgu dalga katmanlı, sivri uçlu Japandi tarzı minimal yılbaşı ağacı.",
+   "fiyat": "389.90",
+   "gorsel": [
+    "3fc6c893-53d6-4fc0-80d4-0b7d975f9442",
+    "ccf58c32-8c0e-46ca-9534-d7fe27801507",
+    "b19b96f9-032a-4371-ad3b-e3fd5ce8e5e2",
+    "67541241-ed13-4c1e-a9d7-ee1e9cafb5e7",
+    "8eab9e2c-2a00-4c8e-9172-6079af93c7d2",
+    "41fadac1-117a-405c-b621-260d5b3b592c",
+    "cd5f6d2c-4daf-456c-94a0-aec16e949b7b"
+   ],
+   "kat": "baski-yilbasi-agaci"
+  },
+  "kafes-desenli-isikli-yilbasi-agaci": {
+   "ad": "Kafes Desenli Işıklı Yılbaşı Ağacı",
+   "aciklama": "Açık kafes dokulu, içinden ışık geçen katmanlı yılbaşı ağacı.",
+   "fiyat": "349.90",
+   "gorsel": [
+    "b9cf3785-5576-4891-9fc9-f49f2eeb63dc",
+    "4751e408-5b6d-41f4-9de3-c9cae8b54fe9",
+    "e77cab0e-09ba-446d-a166-fed3c41c4182",
+    "d7644c6e-b98a-4cb9-b0a3-d30dc47f69a0",
+    "de2d289a-d6a1-4503-b436-cd49f7062a89"
+   ],
+   "kat": "baski-yilbasi-agaci"
+  },
+  "katmanli-yilbasi-agaci-led-mumluk-2-li": {
+   "ad": "Katmanlı Yılbaşı Ağacı LED Mumluk - 2'li",
+   "aciklama": "Katmanlı halka formlu, içine LED mum konan 2'li yılbaşı ağacı seti.",
+   "fiyat": "429.90",
+   "gorsel": [
+    "e98d0f8a-bc5f-4140-a878-9a62dd56bd7a",
+    "38f82780-af77-4d54-900d-7c76ac387346",
+    "26fd3170-175d-4851-804b-a90581536f2a",
+    "e93d3972-c9c3-4263-bc3f-e932596ae612",
+    "aab671e1-c100-46b8-93ef-9b4dbe407355",
+    "7e4699f7-18b6-4693-b277-fa4a8d0ea521"
+   ],
+   "kat": "baski-yilbasi-agaci"
+  },
+  "modern-yilbasi-agaci-seti-3-lu-yildizli": {
+   "ad": "Modern Yılbaşı Ağacı Seti - 3'lü Yıldızlı",
+   "aciklama": "Spiral, pul dokulu ve burgu formlu üç farklı yılbaşı ağacından oluşan set.",
+   "fiyat": "1619.90",
+   "gorsel": [
+    "fc5dc682-ad2d-4193-b446-77a393ff0413",
+    "147a1f29-9454-4119-a93c-5d0e936f5394",
+    "cfc046da-b702-4108-8e55-b4daee137bd4",
+    "49c79a59-b4fb-4efe-9ce5-47a799cffae6",
+    "9ba787f6-d7ef-46d2-88ce-08eca6ea0780"
+   ],
+   "kat": "baski-yilbasi-agaci"
+  },
+  "spiral-dekoratif-yilbasi-agaci-yildizli-15-cm": {
+   "ad": "Spiral Dekoratif Yılbaşı Ağacı - Yıldızlı, 15 cm",
+   "aciklama": "Dalgalı spiral katmanlı, tepesi yıldızlı modern masaüstü yılbaşı ağacı.",
+   "fiyat": "229.90",
+   "gorsel": [
+    "a6b6e481-7320-4007-a2ca-71a34b5cb5cf",
+    "aa1bf484-e6d3-4183-835d-4c410e3844e5",
+    "ea0a0b40-95bc-4791-9de1-d4820af65ffd",
+    "e515b50f-d426-4b26-9d24-e2a210c15c7e",
+    "3c83834d-e093-4392-8644-58ff6a75181d",
+    "7deec67a-8054-41ce-a87f-bb82e05e9fc9",
+    "7db215cb-c46d-47a2-9d6d-1a8dd2907a4a",
+    "aea945d3-b0dc-4d7f-ae67-440acdf6f2dc"
+   ],
+   "kat": "baski-yilbasi-agaci"
+  },
+  "dekoratif-kozalak-figuru-yilbasi-ve-kis-dekoru-12-cm": {
+   "ad": "Dekoratif Kozalak Figürü - Yılbaşı ve Kış Dekoru, 12 cm",
+   "aciklama": "Üst üste binen pul detaylı, ayakta duran dekoratif kozalak.",
+   "fiyat": "289.90",
+   "gorsel": [
+    "7eb453fe-910f-4239-9eaa-648f21913035",
+    "a4d64c45-fb3a-4a36-b821-21f6ecf12217",
+    "c3980d8f-4d96-43bb-8f68-f2b2c54024bb",
+    "e3482a3e-8556-49f9-8a38-bff3bc1a9a37",
+    "f828a38a-4638-4e54-9341-85f333d648d1",
+    "5830741a-3776-44b9-8567-6bf77d1c734c",
+    "096dd781-5efe-4e1f-9e84-8143e03d3cda"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "dekoratif-yilbasi-agaci-yildizli-masaustu-cam-agaci-biblo-yilbasi-susu": {
+   "ad": "Dekoratif Yılbaşı Ağacı Yıldızlı Masaüstü Çam Ağacı Biblo Yılbaşı Süsü",
+   "aciklama": "Yıldızlı masaüstü çam ağacı biblo, dekoratif yılbaşı süsü.",
+   "fiyat": "299.90",
+   "gorsel": [
+    "8fca2aec-4292-44a2-b751-038c3d688829",
+    "ba081282-17ff-4ff4-ab45-f33bcf417ac9",
+    "56d6c8a1-09f2-41ea-bc0b-b9a84ece699d",
+    "19b22396-c5e2-49a9-a019-90c5c34a24c3"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "fiyonklu-yilbasi-celengi-kapi-ve-masa-susu-17-cm": {
+   "ad": "Fiyonklu Yılbaşı Çelengi - Kapı ve Masa Süsü, 17 cm",
+   "aciklama": "Fiyonk detaylı, asılabilen ve masada ayakta durabilen yılbaşı çelengi.",
+   "fiyat": "319.90",
+   "gorsel": [
+    "39abec48-850f-4b47-bdcc-10f9154f2d1f",
+    "d39f7929-066c-4ccd-826a-94d934d9af6b",
+    "85028811-2eee-479b-be1f-5192c219f4ed",
+    "713b85a5-d5cb-424c-bf9e-c6600abbf7d8",
+    "0c8548f5-f405-4be3-b93f-acf1bf13ae1d",
+    "ae28227f-1757-4f6c-9746-7a869cc0d20b"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "isikli-kardan-adam-led-mumlu-yilbasi-dekoru": {
+   "ad": "Işıklı Kardan Adam - LED Mumlu Yılbaşı Dekoru",
+   "aciklama": "İçine LED tealight konan, atkılı ve şapkalı nervürlü kardan adam.",
+   "fiyat": "379.90",
+   "gorsel": [
+    "66d3a051-cb4f-4e89-9663-d03dc6af59bf",
+    "25427953-9cef-4f14-8077-244541281964",
+    "d02888f1-2829-4662-8967-9d21083369d2",
+    "781ccb78-54f1-425e-8fcb-7fef0fdcef53",
+    "66ec2426-0600-4cea-91f1-bc4142f6e83b"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "japandi-cuce-figuru-yilbasi-gnome-dekoru-12-cm": {
+   "ad": "Japandi Cüce Figürü - Yılbaşı Gnome Dekoru, 12 cm",
+   "aciklama": "Sivri şapkalı, minimal Japandi tarzı cüce figürü.",
+   "fiyat": "289.90",
+   "gorsel": [
+    "20eac3bc-619c-4376-bda3-dc7ac2b9a3c0",
+    "0a394315-c802-4a12-b46f-10d3cba2d026",
+    "a20cc354-ac5a-46fd-a6ae-36ed92aec596",
+    "6da04e0d-97f5-4705-bf26-0a4437d6dd2a",
+    "c26bf9e9-32fa-4869-a17d-f23f5827ae45",
+    "bbe98a60-7db0-4cdf-b58e-e333b4ada5be"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "japandi-geyik-figuru-yilbasi-dekoru-17-5-cm": {
+   "ad": "Japandi Geyik Figürü - Yılbaşı Dekoru, 17,5 cm",
+   "aciklama": "Sade hatlı, ayakta duran minimal geyik figürü.",
+   "fiyat": "219.90",
+   "gorsel": [
+    "e6e16ca1-c454-49d3-8712-ac7545197c68",
+    "598158d8-ec97-473f-8423-da084dcae4f9",
+    "e0ccf969-e7da-4597-be32-36e9a48ee0fe",
+    "5281920f-f058-494e-8058-263fcd1f7081",
+    "e9ec4eca-dcb9-4830-98de-2bd1bf622dad",
+    "5a939d02-5d46-4d23-a92a-4ae0bdeda296",
+    "5a32d2bf-4bb2-4bea-aab0-d726efdcfe93"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "kar-tanesi-yilbasi-susu-seti-6-li": {
+   "ad": "Kar Tanesi Yılbaşı Süsü Seti - 6'lı",
+   "aciklama": "Dantel detaylı altı farklı kar tanesinden oluşan asılabilir süs seti.",
+   "fiyat": "249.90",
+   "gorsel": [
+    "4d3602d7-bbe3-4ac3-9dd0-6e1413497dca",
+    "ff7f4e0e-2555-436d-80a9-6118dad1b517",
+    "b91570ca-0dc0-46fb-95fd-5004add02617",
+    "ffbd57f1-54eb-41f3-8ef3-f3e3d1fb0767",
+    "f2f52b72-430d-4efe-ba36-d57e5acaa00a",
+    "05fb412c-b0aa-4cfb-96bb-7d056fc33f1b"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "kedili-yilbasi-agaci-susu-ust-uste-kediler": {
+   "ad": "Kedili Yılbaşı Ağacı Süsü - Üst Üste Kediler",
+   "aciklama": "Üst üste dizilmiş kedilerden oluşan, yıldızlı eğlenceli yılbaşı ağacı.",
+   "fiyat": "319.90",
+   "gorsel": [
+    "946e28d1-2d8e-4c3d-b85c-80c71fbc6887",
+    "46ab663d-9fbf-47cd-930b-7501de9078fd",
+    "db67f81f-b4bf-4330-9257-8f50894ede5c",
+    "b41bc3e5-571d-42c0-bbc3-3afac4a47275",
+    "81ae13cb-1c40-4836-b656-122383387fc3",
+    "bfc4a9da-8cf6-4672-8d62-34174d654751"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "kurabiye-ev-yilbasi-celengi-kapi-susu": {
+   "ad": "Kurabiye Ev Yılbaşı Çelengi - Kapı Süsü",
+   "aciklama": "Kurabiye ev, kurabiye adamlar ve şeker kamışlarıyla renkli yılbaşı çelengi.",
+   "fiyat": "659.90",
+   "gorsel": [
+    "65261746-0809-4106-9e6f-490a2f906682",
+    "b17d2059-8fe5-4b45-aeb2-3e1638a198d6",
+    "e9d855eb-9ba1-4444-ab46-57217ff53a4d"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "minimal-kutsal-aile-figuru-noel-dekoru-15-cm": {
+   "ad": "Minimal Kutsal Aile Figürü - Noel Dekoru, 15 cm",
+   "aciklama": "Meryem, Yusuf ve bebeği tek kompozisyonda birleştiren minimal Noel figürü.",
+   "fiyat": "1199.90",
+   "gorsel": [
+    "7e77efef-9b5d-408d-80db-0591bc5ef49b",
+    "05d6354f-fe15-4569-a93d-cdfe47a1c8f1",
+    "916cdbfc-f279-47f1-9a20-86dc839fce20",
+    "0eb8e824-c389-46c3-95f4-f93b86b3ec70",
+    "2788eb09-8610-41e8-a0a6-6cce103207f4"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "modern-findikkiran-asker-biblo-japandi": {
+   "ad": "Modern Fındıkkıran Asker Biblo - Japandi",
+   "aciklama": "Nervürlü gövdeli, uzun şapkalı minimal fındıkkıran asker figürü.",
+   "fiyat": "399.90",
+   "gorsel": [
+    "dd0a4e42-9faa-476b-930a-be40c1ab4ea8",
+    "91888bfa-af48-444e-8f92-44362f440508",
+    "f1180840-22dc-4848-8528-2e397d506ead",
+    "f4c8a600-5c5a-47d2-9070-ffb9eae3b332",
+    "27e7ad9a-0ece-423c-9f16-cbd219dbad58",
+    "7ac9520b-1aed-4350-a531-b949ac532dff"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "orgu-desenli-fiyonk-yilbasi-susu": {
+   "ad": "Örgü Desenli Fiyonk Yılbaşı Süsü",
+   "aciklama": "Örgü dokulu kurdeleleriyle zarif, asılabilir fiyonk süsü.",
+   "fiyat": "299.90",
+   "gorsel": [
+    "cdf6eb35-65fb-40e8-9f9d-f8242defb0d2",
+    "8ce893ae-1095-44c4-b416-4d97f14dcec8",
+    "cf21070c-4f89-41bc-90ec-5861c6077d65",
+    "85d279a3-cadf-4338-a5a3-54f0a2a91883",
+    "a4f0d47b-24c3-4694-995e-c86d01d43314",
+    "2c45e7f0-c25d-46a5-869c-cd26a8e3202e"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "orgu-desenli-kardan-adam-biblo-bereli-ve-atkili": {
+   "ad": "Örgü Desenli Kardan Adam Biblo - Bereli ve Atkılı",
+   "aciklama": "Örgü dokulu bere ve atkısıyla sıcacık görünümlü dekoratif kardan adam.",
+   "fiyat": "879.90",
+   "gorsel": [
+    "28577182-d051-40e0-87fb-939c14f50509",
+    "dc66bfae-2325-4192-8ab2-4656607e3a0c",
+    "7960d746-aaa3-43b9-8572-4859236bd54e",
+    "dc123f97-07a4-41a9-ad93-3008b8b9bc4a",
+    "d7ba99bc-2149-4821-8383-0b480bfdb2c4",
+    "251c2053-6e24-45ee-8102-ff329d1d68fa"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "orgu-desenli-yilbasi-topu-seti-3-lu": {
+   "ad": "Örgü Desenli Yılbaşı Topu Seti - 3'lü",
+   "aciklama": "Saç örgüsü desenli, asma halkalı 3'lü yılbaşı ağacı topu seti.",
+   "fiyat": "319.90",
+   "gorsel": [
+    "ae6496a2-4b47-4150-a041-7c7e9f9dbfd8",
+    "d2007ac7-41c9-4aec-92d8-ad4166308f78",
+    "bb461fbc-f967-4f17-92b3-83e4cd5dd1e0",
+    "afec0831-1291-4314-9a85-e2a99ee554ab",
+    "676beec2-79dd-4072-b152-4e501b7bf7d3",
+    "794e69f0-02ab-4295-b580-b84560c914e8"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "yilbasi-agaci-3-lu-set-yildizli-sus-toplu-masaustu-dekoratif-cam-agaci": {
+   "ad": "Yılbaşı Ağacı 3'lü Set Yıldızlı Süs Toplu Masaüstü Dekoratif Çam Ağacı",
+   "aciklama": "Yıldızlı ve süs toplu, 3'lü masaüstü dekoratif yılbaşı ağacı seti.",
+   "fiyat": "409.90",
+   "gorsel": [
+    "19b885bf-7782-478e-acb0-4fb1245297a7",
+    "c2f963c0-c37e-4c6d-9f4b-9194236d508c",
+    "a9b9c221-e435-4691-accd-c0b86e16791d",
+    "ad7e2492-1ee3-4900-a132-e2818cd23095"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "yilbasi-fiyonk-sus-seti": {
+   "ad": "Yılbaşı Fiyonk Süs Seti",
+   "aciklama": "Kıvrımlı kurdeleli, asılabilir küçük fiyonk süslerinden oluşan set.",
+   "fiyat": "209.90",
+   "gorsel": [
+    "14e06772-5bb1-45ab-90db-1d8c9a1ca3b9",
+    "c8341627-8f02-4211-b2ff-f3080b4966f1",
+    "7feeb316-5193-43a1-9a47-c6a6118c02f4",
+    "26c8f169-76e6-4657-9db0-15017925caff",
+    "47e97946-a26d-4fe2-8113-f5911eb8b8d2",
+    "b0828f00-96e7-4829-b204-c91793bcf52b"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "yilbasi-hediye-kutusu-kapakli-kar-detayli-fiyonklu-dekoratif-kutu": {
+   "ad": "Yılbaşı Hediye Kutusu Kapaklı Kar Detaylı Fiyonklu Dekoratif Kutu",
+   "aciklama": "Kar detaylı, fiyonklu kapaklı dekoratif yılbaşı hediye kutusu.",
+   "fiyat": "499.90",
+   "gorsel": [
+    "9737e527-9b62-4083-b868-d34307685f8a",
+    "efbb1c15-c90d-4308-8d2c-f3a55d93c684",
+    "30dba4ab-5722-4dba-8917-ff32cb80b919",
+    "c41f836c-bf33-4879-b123-9188e97d8267"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "yilbasi-top-sus-seti-7-adet-kirmizi-desenli-yilbasi-agaci-susu-kirilmaz": {
+   "ad": "Yılbaşı Top Süs Seti 7 Adet Kırmızı Desenli Yılbaşı Ağacı Süsü Kırılmaz",
+   "aciklama": "Kırmızı desenli 7 adet kırılmaz yılbaşı ağacı top süsü.",
+   "fiyat": "339.90",
+   "gorsel": [
+    "8a23a249-2fc7-48a2-9284-890ef0ba07aa",
+    "0694a246-1599-4c14-a501-c0cb9d6c8741",
+    "6c65e698-da94-494e-9a2e-0a61e35d0c59",
+    "8f71f49f-4a70-4ebd-82c4-cd9f03e99130"
+   ],
+   "kat": "baski-yilbasi-susu"
+  },
+  "yilbasi-yildiz-sus-seti-6-adet-askili-yilbasi-agaci-susu-desenli-yildiz": {
+   "ad": "Yılbaşı Yıldız Süs Seti 6 Adet Askılı Yılbaşı Ağacı Süsü Desenli Yıldız",
+   "aciklama": "Desenli, askılı 6 adet yıldız yılbaşı ağacı süsü.",
+   "fiyat": "279.90",
+   "gorsel": [
+    "6c808351-55e9-416b-9932-d79d87315d80",
+    "db12ae65-e482-4462-882d-3862056185f2",
+    "9892209f-7cc5-4e20-868f-1767a24a02a9",
+    "a7963e05-e8a7-487c-89ea-3f9e97ef884d"
+   ],
+   "kat": "baski-yilbasi-susu"
   }
  }
 }
