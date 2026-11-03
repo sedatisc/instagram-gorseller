@@ -167,6 +167,12 @@ def hazirlar(d=None):
         if i.get("durum") != "hazir" or i.get("kategori") not in out:
             continue
         konu = i.get("konu") or i["klasor"]
+        if i["kategori"] == "baski" and not UK.kayit(i["klasor"]):
+            # Ürün gönderisi yalnız mağaza kataloğundan geliyor. Eski ürün
+            # klasörleri bir daha plana giremiyor: görselleri ve metni
+            # depoda duran, siteyle bağı olmayan içerik.
+            print("KATALOG DIŞI ÜRÜN: %s — plana girmiyor" % i["klasor"])
+            continue
         if i["kategori"] == "baski" and not urun_gorselleri(i["klasor"], d):
             print("SİTE GÖRSELİ YOK: %s — plana girmiyor" % i["klasor"])
             continue

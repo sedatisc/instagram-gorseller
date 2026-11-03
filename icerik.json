@@ -808,9 +808,9 @@
    "klasor": "2026-10-22-servis-kaseleri",
    "kategori": "baski",
    "konu": "servis-kaseleri",
-   "durum": "beklemede",
+   "durum": "iptal",
    "kare": 6,
-   "neden": "Atölye ürünleri yayından çıkarıldı"
+   "neden": "Eski ürün klasörü — ürün gönderileri yalnız katalogdan"
   },
   {
    "klasor": "2026-10-22-yuksek-akisli-nozzle",
@@ -826,7 +826,7 @@
    "konu": "sekil-cark-tahtasi",
    "durum": "iptal",
    "kare": 4,
-   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
+   "neden": "Eski ürün klasörü — ürün gönderileri yalnız katalogdan"
   },
   {
    "klasor": "2026-10-24-cay-kahve-seti",
@@ -843,7 +843,7 @@
    "konu": "aktivite-tahtasi",
    "durum": "iptal",
    "kare": 8,
-   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
+   "neden": "Eski ürün klasörü — ürün gönderileri yalnız katalogdan"
   },
   {
    "klasor": "2026-10-26-market-kasa-seti",
@@ -851,7 +851,7 @@
    "konu": "market-kasa-seti",
    "durum": "iptal",
    "kare": 4,
-   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
+   "neden": "Eski ürün klasörü — ürün gönderileri yalnız katalogdan"
   },
   {
    "klasor": "2026-10-27-meyve-sebze-seti",
@@ -859,7 +859,7 @@
    "konu": "meyve-sebze-seti",
    "durum": "iptal",
    "kare": 4,
-   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
+   "neden": "Eski ürün klasörü — ürün gönderileri yalnız katalogdan"
   },
   {
    "klasor": "2026-10-28-vidali-tren",
@@ -867,7 +867,7 @@
    "konu": "vidali-tren",
    "durum": "iptal",
    "kare": 4,
-   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
+   "neden": "Eski ürün klasörü — ürün gönderileri yalnız katalogdan"
   },
   {
    "klasor": "2026-10-29-cumhuriyet-bayrami",
@@ -883,7 +883,7 @@
    "konu": "vidali-yapim-tahtasi",
    "durum": "iptal",
    "kare": 5,
-   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
+   "neden": "Eski ürün klasörü — ürün gönderileri yalnız katalogdan"
   },
   {
    "klasor": "2026-10-30-alyan-vida-oyuncagi",
@@ -891,7 +891,7 @@
    "konu": "alyan-vida-oyuncagi",
    "durum": "iptal",
    "kare": 4,
-   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
+   "neden": "Eski ürün klasörü — ürün gönderileri yalnız katalogdan"
   },
   {
    "klasor": "2026-10-31-halka-dizme-kulesi",
@@ -899,7 +899,7 @@
    "konu": "halka-dizme-kulesi",
    "durum": "iptal",
    "kare": 5,
-   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
+   "neden": "Eski ürün klasörü — ürün gönderileri yalnız katalogdan"
   },
   {
    "klasor": "2026-11-01-rakam-yapbozu",
@@ -907,7 +907,7 @@
    "konu": "rakam-yapbozu",
    "durum": "iptal",
    "kare": 5,
-   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
+   "neden": "Eski ürün klasörü — ürün gönderileri yalnız katalogdan"
   },
   {
    "klasor": "2026-11-02-kesir-daireleri",
@@ -915,7 +915,7 @@
    "konu": "kesir-daireleri",
    "durum": "iptal",
    "kare": 4,
-   "neden": "Eski ürün klasörü — katalog ürünü kullanılıyor"
+   "neden": "Eski ürün klasörü — ürün gönderileri yalnız katalogdan"
   },
   {
    "klasor": "urun/3-katli-kalpli-sunum-standi-cupcake-kurabiye-ve-tatli-standi",
