@@ -94,6 +94,13 @@ gönderilerinin hikayesi de aynı bağlantıyı taşıyor. Buffer şemasında
 metnin sonuna eklenmek yerine gerçek ilk yorum olarak gönderiliyor.
 İkisini de `buffer_gonder.py --kontrol` yazdırıyor.
 
+Buffer'a gönderilen her Instagram işinde `shouldShareToFeed` zorunlu —
+yalnız reels'e konduğu için gönderi ve hikaye "required field" hatasıyla
+düşüyordu. Şemada zorunlu görünen başka alan varsa türüne uygun değerle
+dolduruluyor. `otomasyon/buffer_deneme.py`, Buffer'ın doğrulamasını
+taklit eden bir sunucuya karşı günün işlerini gönderip yükün şeklini
+anahtar olmadan sınıyor.
+
 Buffer ücretsiz planında günde en çok 10 bekleyen paylaşım var. Sınır
 aşılırsa hikayeler şu sırayla düşüyor: kampanya, proje, rehber, mağaza.
 Baskı ürününün hikayesi düşmüyor — ürün bağlantısı oradan veriliyor.

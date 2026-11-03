@@ -183,21 +183,27 @@ def gonder(kanal, metin, varliklar, zaman, tur, turler, baglanti=None,
              "dueAt": utc, "assets": varliklar,
              "metadata": {"instagram": {"type": turler[tur]}}}
     ig = girdi["metadata"]["instagram"]
-    # Şemada zorunlu olan alanlar boş bırakılamıyor; gönderimin tamamı
-    # "required field" hatasıyla dönüyordu.
-    for a in ZORUNLU_ALAN:
+    # shouldShareToFeed her Instagram gönderi türünde zorunlu. Yalnız
+    # reels'e koyduğumuz için gönderi ve hikaye "required field" hatasıyla
+    # geri dönüyordu; artık hepsine giriyor.
+    ig["shouldShareToFeed"] = True
+    # Şemanın zorunlu tuttuğu başka alan varsa türüne uygun değerle
+    # dolduruluyor; boş kalan alan isteğin tamamını düşürüyor.
+    for a, t in ZORUNLU_ALAN:
+        if a in ig:
+            continue
         if a == "isAiGenerated":
             ig[a] = bool(yz)
-        elif a == "shouldShareToFeed":
-            ig[a] = True
         elif a == "firstComment":
-            ig.setdefault(a, yorum or "")
+            ig[a] = yorum or ""
         elif a == "link":
-            ig.setdefault(a, baglanti or "")
+            ig[a] = baglanti or ""
+        elif t == "Boolean":
+            ig[a] = False
+        elif t in ("String", "ID"):
+            ig[a] = ""
         else:
-            ig.setdefault(a, None)
-    if tur == "reel":
-        ig["shouldShareToFeed"] = True
+            print("ZORUNLU ALAN BİLİNMİYOR: %s (%s)" % (a, t))
     if tur == "story" and baglanti and HIKAYE_LINK_ALANI:
         girdi["metadata"]["instagram"][HIKAYE_LINK_ALANI] = baglanti
     if tur != "story" and yorum and ILK_YORUM_VAR:
@@ -361,10 +367,10 @@ def main():
         HIKAYE_LINK_ALANI = hikaye_link_alani(alanlar)
         ILK_YORUM_VAR = any(a == "firstComment" for a, _t, _z in alanlar)
         global ZORUNLU_ALAN
-        ZORUNLU_ALAN = [a for a, _t, z in alanlar if z and a != "type"]
+        ZORUNLU_ALAN = [(a, t) for a, t, z in alanlar if z and a != "type"]
         if ZORUNLU_ALAN:
             print("metadata.instagram zorunlu alanları: %s"
-                  % ", ".join(ZORUNLU_ALAN))
+                  % ", ".join("%s: %s" % x for x in ZORUNLU_ALAN))
         print("Kanal: %s · türler: %s" % (ad, turler))
         print("Hikaye bağlantı alanı: %s"
               % (HIKAYE_LINK_ALANI or "şemada yok — hikayeye bağlantı "
