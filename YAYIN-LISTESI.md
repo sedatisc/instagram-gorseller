@@ -50,7 +50,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek/hikaye.jpg` | 1 |
 | 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf` | 8 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf/hikaye.jpg` | 1 |
-| 19:20 | **Reels** | — | _boş — üretilecek_ | — |
+| 19:20 | **Reels** | — | `2026-10-19-bambu-a-serisi-pano/reels.mp4` | video |
 
 ## 2026-11-08 · Pazar
 
@@ -1255,7 +1255,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 Bu slotlar için içerik henüz üretilmedi:
 
 - 2026-11-04 · REELS
-- 2026-11-07 · REELS
 - 2026-11-10 · REELS
 - 2026-11-12 · REELS
 - 2026-11-14 · REELS

@@ -311,6 +311,10 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #duvarrafi #evdekorasyonu
 ```
 
+## 19:20 · REELS — [2026-10-19-bambu-a-serisi-pano/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-19-bambu-a-serisi-pano)
+
+Açıklama gönderi metniyle aynı.
+
 ---
 
 # 2026-11-08 · Pazar
