@@ -747,7 +747,7 @@ Faturalı satış, Samsun'dan kargo. 399,90 ₺.
 
 Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
-#sermenkreatif #3dbaski #duvaraskisi #portmanto
+#sermenkreatif #3dbaski #portmanto #antredüzeni
 ```
 
 ## 16:40 · BASKI ÜRÜNLERİ
@@ -2120,7 +2120,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/1.jpg" width="240"></a>
 
-**[urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu)** · 3 kare · hikaye 18:04
+**[urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu)** · 2 kare · hikaye 18:04
 
 ```
 Atkılı Mavi Penguen Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü
@@ -2415,7 +2415,7 @@ Faturalı satış, Samsun'dan kargo. 569,90 ₺.
 
 Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
-#sermenkreatif #3dbaski #anahtarlik #cantasusu
+#sermenkreatif #3dbaski #portmanto #antredüzeni
 ```
 
 ---

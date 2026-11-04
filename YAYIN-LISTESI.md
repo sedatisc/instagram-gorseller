@@ -348,7 +348,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/anahtarlikli-duvar-rafi-4-askili-gokkusagi-desenli-dekoratif-anahtar-askisi/hikaye.jpg` | 1 |
 | 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/atkili-kahverengi-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 3 |
 | 12:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/atkili-kahverengi-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 3 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 2 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 

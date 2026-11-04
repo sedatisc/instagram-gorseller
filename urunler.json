@@ -29,9 +29,8 @@
    "aciklama": "Örgü (amigurumi) görünümlü dokulu yüzeyiyle sevimli atkılı mavi penguen figürlü anahtarlık.",
    "fiyat": "209.90",
    "gorsel": [
-    "5d32f665-eccb-4cb4-a569-53527c2daf2e",
-    "54414e4d-aca9-4bf0-8a4e-0e707c393da8",
-    "c41d870b-39d9-4aee-9774-f900d9dc4003"
+    "f56b4e61-72af-4ef1-94bb-520321a9856e",
+    "7981f19c-62c3-4f04-849a-9b47b6ec2154"
    ],
    "kat": "baski-anahtarlik"
   },
@@ -158,17 +157,6 @@
    ],
    "kat": "baski-anahtarlik"
   },
-  "rafli-canta-ve-sapka-askisi-dalga-desenli-3-kancali-duvara-monte-askilik": {
-   "ad": "Raflı Çanta ve Şapka Askısı – Dalga Desenli 3 Kancalı Duvara Monte Askılık",
-   "aciklama": "Dalga desenli arka paneli ve üst rafı olan çanta ve şapka askısı.",
-   "fiyat": "569.90",
-   "gorsel": [
-    "fa3e29ff-5f91-4dea-aa27-39fdc64adbdf",
-    "f5baf6a0-07f8-458c-b500-8f884ffec639",
-    "8f96a3c9-1417-44dd-b27e-f6947b2a30c8"
-   ],
-   "kat": "baski-anahtarlik"
-  },
   "sevimli-gri-fil-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu": {
    "ad": "Sevimli Gri Fil Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü",
    "aciklama": "Örgü (amigurumi) görünümlü dokulu yüzeyiyle sevimli sevimli gri fil figürlü anahtarlık.",
@@ -215,21 +203,6 @@
     "05ba01d4-8476-448d-8fe9-8540401cec7b"
    ],
    "kat": "baski-anahtarlik"
-  },
-  "5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto": {
-   "ad": "5'li Geometrik Duvar Askılığı - Fasetli Kancalı Portmanto",
-   "aciklama": "Tek parça ray üzerinde beş fasetli kanca bulunan modern duvar askılığı.",
-   "fiyat": "399.90",
-   "gorsel": [
-    "c7d0354d-e527-44b7-b00b-c775ccde85aa",
-    "2ee0f051-c91b-483e-9340-c7e92b159588",
-    "afdabb21-d5c1-4948-a773-f12e58ac7602",
-    "e727a839-8139-404e-8ef9-0081aed57a68",
-    "7bfb0693-4cd9-4a06-ac09-eae5493240e6",
-    "8bd60796-4738-4544-a1ee-58f6de417299",
-    "b31c80ec-83ad-4cfc-9574-fc3c33e3d9bc"
-   ],
-   "kat": "baski-aski"
   },
   "isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi": {
    "ad": "İsimli Köpek Tasma Askısı - Pati Motifli Duvar Askısı",
@@ -2599,6 +2572,32 @@
     "457bc93e-55da-4c1c-8304-c40387135f14"
    ],
    "kat": "baski-pecetelik"
+  },
+  "5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto": {
+   "ad": "5'li Geometrik Duvar Askılığı - Fasetli Kancalı Portmanto",
+   "aciklama": "Tek parça ray üzerinde beş fasetli kanca bulunan modern duvar askılığı.",
+   "fiyat": "399.90",
+   "gorsel": [
+    "c7d0354d-e527-44b7-b00b-c775ccde85aa",
+    "2ee0f051-c91b-483e-9340-c7e92b159588",
+    "afdabb21-d5c1-4948-a773-f12e58ac7602",
+    "e727a839-8139-404e-8ef9-0081aed57a68",
+    "7bfb0693-4cd9-4a06-ac09-eae5493240e6",
+    "8bd60796-4738-4544-a1ee-58f6de417299",
+    "b31c80ec-83ad-4cfc-9574-fc3c33e3d9bc"
+   ],
+   "kat": "baski-portmanto"
+  },
+  "rafli-canta-ve-sapka-askisi-dalga-desenli-3-kancali-duvara-monte-askilik": {
+   "ad": "Raflı Çanta ve Şapka Askısı – Dalga Desenli 3 Kancalı Duvara Monte Askılık",
+   "aciklama": "Dalga desenli arka paneli ve üst rafı olan çanta ve şapka askısı.",
+   "fiyat": "569.90",
+   "gorsel": [
+    "fa3e29ff-5f91-4dea-aa27-39fdc64adbdf",
+    "f5baf6a0-07f8-458c-b500-8f884ffec639",
+    "8f96a3c9-1417-44dd-b27e-f6947b2a30c8"
+   ],
+   "kat": "baski-portmanto"
   },
   "3d-fil-yapbozu-gecmeli-katmanli-egitici-oyuncak": {
    "ad": "3D Fil Yapbozu - Geçmeli Katmanlı Eğitici Oyuncak",
