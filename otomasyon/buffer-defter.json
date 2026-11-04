@@ -1,1 +1,29 @@
-{"gonderilen": []}
+{
+ "gonderilen": [
+  {
+   "anahtar": "2026-10-18-bambu-h-serisi-pano|hikaye",
+   "buffer": "6aea8b23b8d162e0d8f853da",
+   "zaman": "2026-11-04T09:50"
+  },
+  {
+   "anahtar": "urun/3-katli-kalpli-sunum-standi-cupcake-kurabiye-ve-tatli-standi|gonderi",
+   "buffer": "6aea8b2469ad1ef03b6d8ef6",
+   "zaman": "2026-11-04T12:10"
+  },
+  {
+   "anahtar": "urun/3-katli-kalpli-sunum-standi-cupcake-kurabiye-ve-tatli-standi|hikaye",
+   "buffer": "6aea8b244c41ba80aa4e6927",
+   "zaman": "2026-11-04T12:50"
+  },
+  {
+   "anahtar": "urun/dalgali-desenli-kagit-mendil-kutusu-kapakli|gonderi",
+   "buffer": "6aea8b2616e63068f188603c",
+   "zaman": "2026-11-04T17:24"
+  },
+  {
+   "anahtar": "urun/dalgali-desenli-kagit-mendil-kutusu-kapakli|hikaye",
+   "buffer": "6aea8b2687b7c6d24c835271",
+   "zaman": "2026-11-04T18:04"
+  }
+ ]
+}

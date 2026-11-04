@@ -593,9 +593,10 @@
    "klasor": "2026-10-18-bambu-h-serisi-pano",
    "kategori": "rehber",
    "konu": "bambu-h-serisi-pano",
-   "durum": "hazir",
+   "durum": "yayinlandi",
    "kare": 1,
-   "reels": true
+   "reels": true,
+   "tarih": "2026-11-04"
   },
   {
    "klasor": "2026-10-18-ender-3-v4-combo",
@@ -921,15 +922,17 @@
    "klasor": "urun/3-katli-kalpli-sunum-standi-cupcake-kurabiye-ve-tatli-standi",
    "kategori": "baski",
    "konu": "3-katli-kalpli-sunum-standi-cupcake-kurabiye-ve-tatli-standi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-04"
   },
   {
    "klasor": "urun/dalgali-desenli-kagit-mendil-kutusu-kapakli",
    "kategori": "baski",
    "konu": "dalgali-desenli-kagit-mendil-kutusu-kapakli",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-04"
   },
   {
    "klasor": "urun/dalgali-kenarli-ayakli-dekoratif-tepsi-25-cm",
