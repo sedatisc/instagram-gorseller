@@ -232,7 +232,7 @@ Kelebek formunda, duvara asılan dekoratif mini raf.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 469,90 ₺.
+Faturalı satış, Samsun'dan kargo. 539,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf
 
@@ -510,7 +510,7 @@ Yedek ruloları gövdesinde saklayan, vidasız kurulan ayaklı tuvalet kağıtl�
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 1.939,90 ₺.
+Faturalı satış, Samsun'dan kargo. 2.269,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/yedek-rulo-hazneli-ayakli-tuvalet-kagitligi-nervurlu
 
@@ -726,7 +726,7 @@ Japandi Ayaklı Havlu Peçetelik - Kulplu
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 779,90 ₺.
+Faturalı satış, Samsun'dan kargo. 809,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/japandi-ayakli-havlu-pecetelik-kulplu
 
@@ -1050,7 +1050,7 @@ Eğimli nervürlü tabanıyla suyu süzen lavabo başı sünger tepsisi.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 289,90 ₺.
+Faturalı satış, Samsun'dan kargo. 349,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/japandi-sungerlik-ve-sabunluk-suzgecli
 
@@ -1314,7 +1314,7 @@ Düz geniş tablalı, pilili ayaklı tek katlı pasta standı.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 609,90 ₺.
+Faturalı satış, Samsun'dan kargo. 789,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/pilili-ayakli-dekoratif-pasta-standi-23-cm
 
@@ -1616,7 +1616,7 @@ Geyikli Dekoratif Şamdan - 4 Mumluk İskandinav Tarzı
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 459,90 ₺.
+Faturalı satış, Samsun'dan kargo. 599,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/geyikli-dekoratif-samdan-4-mumluk-iskandinav-tarzi
 
@@ -1642,7 +1642,7 @@ Delik desenli gövdesinden ışık süzülen, çiçek tabanlı yılbaşı ağac�
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 299,90 ₺.
+Faturalı satış, Samsun'dan kargo. 329,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk
 
@@ -1782,7 +1782,7 @@ Kozalak Ev Tealight Mumluk - Işıklı Yılbaşı Dekoru
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 299,90 ₺.
+Faturalı satış, Samsun'dan kargo. 309,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru
 
@@ -1852,7 +1852,7 @@ Kapağında gül bulunan, örgü dokulu kalp şeklinde hediye kutusu.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 209,90 ₺.
+Faturalı satış, Samsun'dan kargo. 259,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/orgu-desenli-kalp-kutu-gul-detayli
 
@@ -2526,7 +2526,7 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 439,90 ₺.
+Faturalı satış, Samsun'dan kargo. 569,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/ciftlik-hayvani-damgalari-oyun-hamuru-kalip-seti
 
@@ -2596,7 +2596,7 @@ Farklı yüz ifadeleri basan saplı oyun hamuru damgaları; oyunla duygu öğren
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 399,90 ₺.
+Faturalı satış, Samsun'dan kargo. 439,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/duygu-damgalari-oyun-hamuru-kalip-seti
 
@@ -2806,7 +2806,7 @@ Oyuncak Market Kasa Seti — Yazarkasalı Çocukların market/manav oyunu oynaya
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 1.169,90 ₺.
+Faturalı satış, Samsun'dan kargo. 3.469,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/oyuncak-market-kasa-seti-yazarkasali-egitici-rol-yapma-oyunu
 
@@ -2924,7 +2924,7 @@ Vidalı Kepçe, çocukların kendi iş makinesini parça parça kurduğu eğitic
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 1.019,90 ₺.
+Faturalı satış, Samsun'dan kargo. 1.109,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/vidali-kepce-oyuncak-tornavidali-sokup-tak-is-makinesi-yapim-seti
 
@@ -2946,7 +2946,7 @@ Vidalı Söküp Tak Oyuncak Tren, çocukların hem eğlenip hem öğrendiği eğ
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 959,90 ₺.
+Faturalı satış, Samsun'dan kargo. 1.129,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/vidali-sokup-tak-oyuncak-tren-tornavidali-egitici-yapim-seti
 
@@ -3042,7 +3042,7 @@ T-Rex, triceratops, stegosaurus ve brakiyozor desenli çizim şablon kartları.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 309,90 ₺.
+Faturalı satış, Samsun'dan kargo. 399,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/dinozor-cizim-sablon-kartlari-cocuk-boyama-seti
 
@@ -3156,7 +3156,7 @@ Yuvarlak hatlı, kapaklı kompakt masa üstü çöp kovası.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 799,90 ₺.
+Faturalı satış, Samsun'dan kargo. 839,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/masa-ustu-cop-kovasi-kapakli-mini-cop-kutusu
 
@@ -3182,7 +3182,7 @@ Yılbaşı ağacı formlu, yıldızlı 3 katlı kurabiye ve cupcake standı.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 899,90 ₺.
+Faturalı satış, Samsun'dan kargo. 1.539,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/3-katli-kurabiye-standi-yilbasi-agaci-formlu-yildizli-servis-standi-sunumluk
 
@@ -3296,7 +3296,7 @@ Kıvrımlı taç yaprakları ve uzun yapraklarıyla solmayan dekoratif çiçek.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 279,90 ₺.
+Faturalı satış, Samsun'dan kargo. 479,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/gala-zambagi-cicek-biblo-sapli-dekoratif-cicek
 
@@ -3554,7 +3554,7 @@ Ağaç formlu anahtarlık kasesi, zen desenli taban, kıvrımlı ağaç gövde v
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 639,90 ₺.
+Faturalı satış, Samsun'dan kargo. 1.089,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/agac-formlu-anahtarlik-kasesi-antre-ve-masa-icin-dekoratif-anahtar-ve-taki-kabi
 
@@ -3576,7 +3576,7 @@ Boncuklu dekoratif tepsi, iki sıra dokulu boncuk kenarı ve düz, geniş taban�
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 469,90 ₺.
+Faturalı satış, Samsun'dan kargo. 679,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/boncuklu-dekoratif-tepsi-taki-mum-ve-aksesuar-icin-yuvarlak-duzenleyici-sehpa-te
 
@@ -3624,7 +3624,7 @@ Kapaklı file desenli dekoratif kase, açık file desenli gövdesi ve tutamaklı
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 599,90 ₺.
+Faturalı satış, Samsun'dan kargo. 619,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/kapakli-file-desenli-dekoratif-kase-anahtar-taki-ve-aksesuar-icin-saklama-kabi
 
@@ -3694,7 +3694,7 @@ Nervürlü ayaklı sunum standı, ince nervürlü tabla kenarı ve konik nervür
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 709,90 ₺.
+Faturalı satış, Samsun'dan kargo. 789,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/nervurlu-ayakli-sunum-standi-mum-bitki-ve-parfum-icin-dekoratif-yukseltici-tabla
 
@@ -3764,7 +3764,7 @@ Lambri panel görünümlü gövde ve iki raftan oluşan duvar düzenleyicisi.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 729,90 ₺.
+Faturalı satış, Samsun'dan kargo. 969,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/ahsap-panel-gorunumlu-duvar-rafi-2-rafli-duzenleyici
 
@@ -4324,7 +4324,7 @@ Kitap kapağı üzerinde dik duran ızgarasıyla dört taşı sıralama oyunu.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 949,90 ₺.
+Faturalı satış, Samsun'dan kargo. 1.689,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/kitap-dort-tas-oyunu-dortlu-siralama-akil-oyunu
 
@@ -4394,7 +4394,7 @@ Kitap gibi açılan, iki sıra oyuk ve hazneli mangala oyunu.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 999,90 ₺.
+Faturalı satış, Samsun'dan kargo. 1.499,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/kitap-mangala-oyunu-kitap-gorunumlu-akil-ve-strateji-oyunu
 
@@ -4416,7 +4416,7 @@ Kitap gibi kapanan, açılınca satranç tahtasına dönüşen ve taşlarını i
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 1.099,90 ₺.
+Faturalı satış, Samsun'dan kargo. 1.719,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/kitap-satranc-takimi-kitap-gorunumlu-katlanir-satranc-tahtasi
 
@@ -4604,7 +4604,7 @@ Anı Müzesi Fotoğraf Çerçevesi 8 Mini Çerçeveli Figürlü Kişiye Özel He
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 939,90 ₺.
+Faturalı satış, Samsun'dan kargo. 1.089,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/ani-muzesi-fotograf-cercevesi-8-mini-cerceveli-figurlu-kisiye-ozel-hediye
 
@@ -4674,7 +4674,7 @@ Kumaş görünümlü büzgülü dekoratif masaüstü fotoğraf çerçevesi.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 439,90 ₺.
+Faturalı satış, Samsun'dan kargo. 459,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/buzgulu-fotograf-cercevesi-kumas-gorunumlu-dekoratif-masaustu-cerceve
 
@@ -5072,7 +5072,7 @@ Katlanır tablalı, gemi ve işaret çivili klasik deniz savaşı oyunu.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 1.089,90 ₺.
+Faturalı satış, Samsun'dan kargo. 1.429,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/deniz-savasi-oyunu-iki-kisilik-strateji-oyunu
 
@@ -5492,7 +5492,7 @@ Farklı yüksekliklerde beş silindir ve tepsiden oluşan kademeli kalemlik seti
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 599,90 ₺.
+Faturalı satış, Samsun'dan kargo. 829,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/kademeli-kalemlik-seti-5-silindirli-masa-duzenleyici
 
@@ -5772,7 +5772,7 @@ Dikey peçetelik, nervürlü dik gövdesi, yan çerçevesi ve tepsi tabanıyla m
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 839,90 ₺.
+Faturalı satış, Samsun'dan kargo. 989,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/dikey-pecetelik-nervurlu-mendil-kutusu-tepsi-tabanli-dekoratif-kagit-mendil-kutu
 
@@ -5842,7 +5842,7 @@ Nervürlü mendil kutusu kılıfı, derin dikey nervürleri, yuvarlatılmış k�
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 659,90 ₺.
+Faturalı satış, Samsun'dan kargo. 769,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/nervurlu-mendil-kutusu-kilifi-dekoratif-pecetelik-salon-ve-banyo-icin-kagit-mend
 
@@ -5912,7 +5912,7 @@ Kalın hayvan parçalarının kare tablada yerine oturduğu şekil yapbozu.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 369,90 ₺.
+Faturalı satış, Samsun'dan kargo. 549,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/hayvan-sekil-yapbozu-sekil-eslestirme-oyuncagi
 
@@ -6144,7 +6144,7 @@ Bambu formlu, su haznesi ve yüzen seviye göstergesi olan kendinden sulamalı s
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 599,90 ₺.
+Faturalı satış, Samsun'dan kargo. 669,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/kendinden-sulamali-saksi-bambu-formlu-su-gostergeli
 
@@ -6306,7 +6306,7 @@ Dantel desenli kanatları ve delikli gövdesiyle ışık saçan melek fener.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 239,90 ₺.
+Faturalı satış, Samsun'dan kargo. 339,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/melek-figurlu-led-fener-dantel-kanatli
 
@@ -6446,7 +6446,7 @@ Duvara monte ray üzerinde kayarak konumlanan nervürlü 3'lü saksı seti.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 899,90 ₺.
+Faturalı satış, Samsun'dan kargo. 1.009,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/duvar-ray-saksi-seti-kayar-askili-3-lu-saksi
 
@@ -6494,7 +6494,7 @@ Katlı ağaç formunda, 24 numaralı çekmeceli ve yıldızlı yılbaşı takvim
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 1.399,90 ₺.
+Faturalı satış, Samsun'dan kargo. 1.439,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/yilbasi-agaci-takvim-24-cekmeceli-yilbasi-geri-sayim
 
@@ -6822,7 +6822,7 @@ Yoğun çapraz kafes dokulu, yuvarlak gövdeli modern vazo.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 379,90 ₺.
+Faturalı satış, Samsun'dan kargo. 579,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/vanta-kafes-desenli-vazo
 
@@ -7102,7 +7102,7 @@ Saç örgüsü desenli, asma halkalı 3'lü yılbaşı ağacı topu seti.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 319,90 ₺.
+Faturalı satış, Samsun'dan kargo. 329,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/orgu-desenli-yilbasi-topu-seti-3-lu
 
@@ -7124,7 +7124,7 @@ Yıldızlı ve süs toplu, 3'lü masaüstü dekoratif yılbaşı ağacı seti.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 409,90 ₺.
+Faturalı satış, Samsun'dan kargo. 649,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/yilbasi-agaci-3-lu-set-yildizli-sus-toplu-masaustu-dekoratif-cam-agaci
 
@@ -7172,7 +7172,7 @@ Kar detaylı, fiyonklu kapaklı dekoratif yılbaşı hediye kutusu.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 499,90 ₺.
+Faturalı satış, Samsun'dan kargo. 819,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/yilbasi-hediye-kutusu-kapakli-kar-detayli-fiyonklu-dekoratif-kutu
 
@@ -7194,7 +7194,7 @@ Kırmızı desenli 7 adet kırılmaz yılbaşı ağacı top süsü.
 
 Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
 
-Faturalı satış, Samsun'dan kargo. 339,90 ₺.
+Faturalı satış, Samsun'dan kargo. 1.879,90 ₺.
 
 Ürün sayfası: sermenkreatif.com/urun/yilbasi-top-sus-seti-7-adet-kirmizi-desenli-yilbasi-agaci-susu-kirilmaz
 
