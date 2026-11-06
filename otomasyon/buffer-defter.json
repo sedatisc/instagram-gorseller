@@ -74,6 +74,26 @@
    "anahtar": "urun/gizli-montajli-minimal-duvar-rafi-yuvarlak-uclu|hikaye",
    "buffer": "6aed304b86fe9b8379666b89",
    "zaman": "2026-11-06T17:20"
+  },
+  {
+   "anahtar": "uygulama/akin|kampanya-0-gonderi",
+   "buffer": "6aeda6d27b7e47e8f4223628",
+   "zaman": "2026-11-06T19:50"
+  },
+  {
+   "anahtar": "uygulama/akin|kampanya-0-gonderi-hikaye",
+   "buffer": "6aeda6d3c1e74b84e5e0d147",
+   "zaman": "2026-11-06T20:30"
+  },
+  {
+   "anahtar": "uygulama/baskihesap|kampanya-0-hikaye",
+   "buffer": "6aeda6d3c1e74b84e5e0d1b4",
+   "zaman": "2026-11-06T21:00"
+  },
+  {
+   "anahtar": "uygulama/balmaca|kampanya-0-hikaye",
+   "buffer": "6aeda6d3f3498efda785adb9",
+   "zaman": "2026-11-06T21:30"
   }
  ]
 }
