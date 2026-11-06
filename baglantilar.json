@@ -1,6 +1,11 @@
 {
- "not": "Mağaza ve pazaryeri adresleri. Ürün gönderileri urunler.json kataloğundan geliyor; bu dosyada artık ürün kaydı tutulmuyor.",
+ "not": "Mağaza, pazaryeri ve uygulama adresleri. Ürün gönderileri urunler.json kataloğundan geliyor; bu dosyada ürün kaydı tutulmuyor. 'uygulama' anahtarları uygulama/<slug> klasörlerinin son parçası.",
  "varsayilan": "https://sermenkreatif.com",
  "magaza": "https://sermenkreatif.com",
- "trendyol": "https://ty.gl/wvxkl6ythlckv"
+ "trendyol": "https://ty.gl/wvxkl6ythlckv",
+ "uygulama": {
+  "akin": "https://play.google.com/store/apps/details?id=com.sermenkreatif.akin",
+  "balmaca": "https://play.google.com/store/apps/details?id=com.sermenkreatif.balmaca",
+  "baskihesap": "https://play.google.com/store/apps/details?id=com.sermenkreatif.baskihesap"
+ }
 }

@@ -156,7 +156,7 @@ ZORUNLU_ALAN = []
 # beyan edilmesini istiyor; Buffer bu beyanı zorunlu alan yapmış. Ürün
 # görselleri Higgsfield'da üretiliyor, şablonla basılan kareler değil.
 YZ_BEYANI = {"baski": True, "magaza": False, "rehber": False,
-             "proje": False, "kampanya": False}
+             "proje": False, "uygulama": False, "kampanya": False}
 LINK_ADAYLARI = ("linkStickerUrl", "storyLinkUrl", "link", "linkUrl",
                  "swipeUpUrl")
 
@@ -171,6 +171,7 @@ def hikaye_link_alani(alanlar):
 def gonder(kanal, metin, varliklar, zaman, tur, turler, baglanti=None,
            yorum=None, yz=False):
     """Tek paylaşımı Buffer'a belirli saatte planlar."""
+    global ILK_YORUM_VAR
     utc = (zaman - timedelta(hours=3)).strftime("%Y-%m-%dT%H:%M:00.000Z")
     q = """mutation P($i: CreatePostInput!) {
       createPost(input: $i) {
@@ -208,9 +209,24 @@ def gonder(kanal, metin, varliklar, zaman, tur, turler, baglanti=None,
         girdi["metadata"]["instagram"][HIKAYE_LINK_ALANI] = baglanti
     if tur != "story" and yorum and ILK_YORUM_VAR:
         girdi["metadata"]["instagram"]["firstComment"] = yorum[:2200]
-    d = _sorgu(q, {"i": girdi})["createPost"]
-    if "post" not in d:
-        raise Hata(d.get("message", "bilinmeyen hata"))
+    try:
+        d = _sorgu(q, {"i": girdi})["createPost"]
+        if "post" not in d:
+            raise Hata(d.get("message", "bilinmeyen hata"))
+    except Hata as e:
+        # firstComment şemada görünüyor ama ücretsiz planda reddediliyor:
+        # "First comment requires a paid plan". İlk yorumu metnin sonuna
+        # indirip bir kez daha deniyoruz — gönderi düşmesin.
+        if "paid plan" not in str(e).lower():
+            raise
+        ILK_YORUM_VAR = False
+        ig.pop("firstComment", None)
+        if yorum:
+            girdi["text"] = (metin.rstrip() + "\n\n" + yorum.strip())[:2200]
+        print("İlk yorum ücretli planda — metnin sonuna eklendi.")
+        d = _sorgu(q, {"i": girdi})["createPost"]
+        if "post" not in d:
+            raise Hata(d.get("message", "bilinmeyen hata"))
     return d["post"]["id"]
 
 
@@ -220,22 +236,24 @@ def urun_linki(klasor):
     return sira.urun_sayfasi(klasor)
 
 
-def _magaza_satiri(klasor):
+def _magaza_satiri(klasor, kategori=""):
     u = urun_linki(klasor)
     if not u:
         return ""
-    return "Ürün sayfası: " + re.sub(r"^https?://", "", u).rstrip("/")
+    etiket = "Uygulama sayfası: " if kategori == "uygulama" \
+        else "Ürün sayfası: "
+    return etiket + re.sub(r"^https?://", "", u).rstrip("/")
 
 
 # ------------------------------------------------------------ metin
-def metin_kur(klasor, ayri_yorum=False):
+def metin_kur(klasor, ayri_yorum=False, kategori=""):
     """Gönderi metni.
 
     İlk yorum Buffer şemasında varsa (firstComment) ayrı gidiyor, yoksa
     metnin sonuna iniyor."""
     govde, yorum = yayinla.metin_oku(klasor)
     govde = govde or ""
-    MAGAZA = _magaza_satiri(klasor)
+    MAGAZA = _magaza_satiri(klasor, kategori)
     yorum = re.sub(r"\*\*(.+?)\*\*", r"\1", yorum or "")
     for yer in ("Bağlantı: {urun_linki}", "{urun_linki}",
                 "Bağlantı: {trendyol_linki}", "{trendyol_linki}"):
@@ -326,12 +344,29 @@ def main():
     d = sira.oku()
     once = [i["klasor"] for i in d["icerik"]
             if i.get("durum") == "yayinlandi" and i.get("tarih") == gun_s]
+    if once and "--zorla" in sys.argv:
+        print("%s günü planlanmış ama --zorla verildi; yalnız deftere "
+              "girmemiş ve saati geçmemiş işler gönderilecek." % gun_s)
+        once = []
     if once:
         print("%s günü zaten planlanmış (%s) — atlanıyor."
               % (gun_s, ", ".join(once)))
         return 0
 
-    isler = [i for i in yayinla.gundem() if i["zaman"].startswith(gun_s)]
+    defter = defter_oku()
+    yapilan = {g["anahtar"] for g in defter["gonderilen"]}
+    simdi = yayinla.simdi().replace(tzinfo=None)
+    isler = []
+    for i in yayinla.gundem():
+        if not i["zaman"].startswith(gun_s) or i["anahtar"] in yapilan:
+            continue
+        # Saati geçmiş iş Buffer'a planlanamıyor; sessizce atlanıyor ki
+        # gün ortasında çalıştırılan gönderim hataya düşmesin.
+        if datetime.fromisoformat(i["zaman"]) <= simdi:
+            print("Saati geçti, atlandı: %s (%s)" % (i["anahtar"],
+                                                     i["zaman"]))
+            continue
+        isler.append(i)
     # Ücretsiz plan: kanal başına aynı anda en çok 10 bekleyen paylaşım.
     # Fazlası varsa önce kampanya hikayesi, sonra sondan hikayeler düşüyor.
     # Sınırı aşan hikayeler bu sırayla düşüyor. Baskı ürününün hikayesi
@@ -353,8 +388,6 @@ def main():
         print("Sınır %d — düşen: %s" % (AZAMI_GUNLUK, dus["anahtar"]))
         isler.remove(dus)
     tur_ad = {"gonderi": "post", "hikaye": "story", "reels": "reel"}
-    defter = defter_oku()
-    yapilan = {g["anahtar"] for g in defter["gonderilen"]}
     satir, klasorler, hata = [], set(), 0
 
     kanal, turler = None, None
@@ -387,7 +420,8 @@ def main():
         try:
             v = varlik(is_, sha)
             link = (urun_linki(is_["klasor"])
-                    if is_.get("kategori") in ("baski", "magaza") else "")
+                    if is_.get("kategori") in ("baski", "magaza",
+                                               "uygulama") else "")
             if is_["tur"] == "hikaye":
                 # Hikayeye bağlantı etiketi konabiliyorsa oradan, konamıyorsa
                 # hikaye metnine yazılıyor; ürün sayfası her iki durumda da
@@ -395,7 +429,8 @@ def main():
                 metin = "" if HIKAYE_LINK_ALANI or not link else \
                     re.sub(r"^https?://", "", link).rstrip("/")
             else:
-                metin = metin_kur(is_["klasor"], ILK_YORUM_VAR)
+                metin = metin_kur(is_["klasor"], ILK_YORUM_VAR,
+                                  is_.get("kategori", ""))
             _g, ilk = yayinla.metin_oku(is_["klasor"])
             ilk = ilk if (ILK_YORUM_VAR and is_["tur"] != "hikaye") else None
             if kuru:

@@ -85,14 +85,37 @@ plana hiç girmiyor (`SİTE GÖRSELİ YOK` uyarısı) ve Buffer'a gitmiyor —
 depodaki kareye düşülmüyor. Liste dolunca gönderi o görsellerle, hikaye
 listenin ilkiyle gidiyor.
 
+## Oyun ve uygulama gönderileri
+
+`uygulama` kategorisi Google Play'deki kendi oyun ve uygulamalarımız
+için. Klasörü `uygulama/<slug>`; içinde akış kareleri (`1.jpg`…),
+`hikaye.jpg` ve `metin.md` var. Kareler uygulamanın kendi mağaza
+tasarımından ve Play'deki gerçek ekran görüntülerinden geliyor —
+yapay zekâ beyanı bu yüzden kapalı.
+
+Play adresi `baglantilar.json`'daki `uygulama` eşlemesinde, anahtar
+klasörün son parçası. Hikaye bağlantı etiketi ve metindeki "Uygulama
+sayfası" satırı oradan geliyor.
+
+Slot sırasında `uygulama`, s1'in dönen kategorilerine katıldı
+(rehber → mağaza → proje → uygulama). Üç uygulama olduğu için aynı
+uygulama on iki günde bir dönüyor.
+
 Ürün bağlantıları aynı dosyada. Anahtar, icerik.json'daki `konu`.
 Gönderi metninde `{urun_linki}` ürünün `sayfa` adresine dönüyor; boşsa
 `varsayilan` (site adresi) yazılıyor. Baskı ürünü ve mağaza
 gönderilerinin hikayesi de aynı bağlantıyı taşıyor. Buffer şemasında
-`link` alanı var: hikayeye bağlantı etiketi olarak gidiyor. Şemada
-`firstComment` de var, yani ilk yorum ücretli özellik değil — ilk yorum
-metnin sonuna eklenmek yerine gerçek ilk yorum olarak gönderiliyor.
-İkisini de `buffer_gonder.py --kontrol` yazdırıyor.
+`link` alanı var: hikayeye bağlantı etiketi olarak gidiyor. Şemada `firstComment` alanı
+görünüyor ama ücretsiz planda dolu gönderilince istek
+"First comment requires a paid plan" diye reddediliyor — 6 Kasım'da bir
+gönderi ve bir reels bu yüzden düştü. Artık o hata gelince ilk yorum
+metnin sonuna indirilip gönderi bir kez daha deneniyor; iş düşmüyor.
+`buffer_gonder.py --kontrol` ikisini de yazdırıyor.
+
+Gün ortasında plana iş eklenirse `otomasyon/TETIK` dosyası değiştirilip
+itiliyor: `buffer.yml` bu yola gelen itmede `--zorla` ile çalışıyor,
+deftere girmiş ve saati geçmiş işleri atlayıp yalnız yenileri
+gönderiyor.
 
 Buffer'a gönderilen her Instagram işinde `shouldShareToFeed` zorunlu —
 yalnız reels'e konduğu için gönderi ve hikaye "required field" hatasıyla

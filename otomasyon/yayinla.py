@@ -141,16 +141,18 @@ def gundem():
         # Aynı kampanya klasörü birkaç gün hatırlatma hikayesi olarak
         # dönüyor; anahtara gün sırası giriyor ki üst üste binmesin.
         et = "%s|kampanya-%s-%s" % (k["klasor"], k.get("gun", 0), tur)
+        kat = k.get("kategori", "")
         isler.append({"anahtar": et,
                       "zaman": "%sT%s" % (k["tarih"], k["saat"]),
-                      "tur": tur, "klasor": k["klasor"], "slot": "kampanya"})
+                      "tur": tur, "klasor": k["klasor"],
+                      "kategori": kat, "slot": "kampanya"})
         if tur == "gonderi":                   # kampanya gönderisinin hikayesi
             isler.append({"anahtar": et + "-hikaye",
                           "zaman": "%sT%s" % (k["tarih"],
                                               sira.arti(k["saat"],
                                                         sira.HIKAYE_GECIKME)),
                           "tur": "hikaye", "klasor": k["klasor"],
-                          "slot": "kampanya"})
+                          "kategori": kat, "slot": "kampanya"})
     for tarih, klasor in sira.reelsler().items():
         if klasor in bekle:
             continue

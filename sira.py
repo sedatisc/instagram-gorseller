@@ -22,14 +22,14 @@ from datetime import date, datetime, timedelta
 GUN = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma",
        "Cumartesi", "Pazar"]
 
-KATEGORILER = ["rehber", "baski", "magaza", "proje"]
+KATEGORILER = ["rehber", "baski", "magaza", "proje", "uygulama"]
 
 # Günde üç gönderi var. Beş gönderi aynı gün akışta birbiriyle yarışıyordu;
 # Instagram'ın kendi ölçümünde gönderiler birbirini bastırıyor ve kişi başı
 # etkileşim düşüyor. İkisi baskı ürünü — satılan şey o. Üçüncü slot her gün
 # sırayla rehber, mağaza ve projeye geçiyor.
 GUNLUK = {"baski": 2}
-DONEN = ["rehber", "magaza", "proje"]
+DONEN = ["rehber", "magaza", "proje", "uygulama"]
 
 
 # Günün üç gönderi slotu. Hangi kategorinin geleceği sabit değil:
@@ -43,6 +43,7 @@ BASLIK = {"rehber": "AYAR & REHBER",
           "baski2": "BASKI ÜRÜNLERİ",
           "magaza": "ÜRÜN & MAĞAZA",
           "proje": "PROJE & ATÖLYE",
+          "uygulama": "OYUN & UYGULAMA",
           "kampanya": "KAMPANYA"}
 
 # gün indeksi -> {slot: "SS:DD"}
@@ -105,7 +106,16 @@ def urun_gorselleri(klasor, d=None):
     return list(urun_kaydi(klasor, d).get("gorsel") or [])
 
 
+def uygulama_sayfasi(klasor):
+    """Oyun/uygulama gönderisinin Google Play adresi."""
+    b = baglantilar()
+    return (b.get("uygulama") or {}).get(klasor.split("/")[-1]) or ""
+
+
 def urun_sayfasi(klasor, d=None):
+    u = uygulama_sayfasi(klasor)
+    if u:
+        return u
     u = UK.sayfa(klasor)
     if u:
         return u

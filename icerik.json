@@ -2992,7 +2992,53 @@
    "konu": "yilbasi-yildiz-sus-seti-6-adet-askili-yilbasi-agaci-susu-desenli-yildiz",
    "durum": "hazir",
    "kare": 4
+  },
+  {
+   "klasor": "uygulama/balmaca",
+   "kategori": "uygulama",
+   "konu": "balmaca",
+   "durum": "hazir",
+   "kare": 5
+  },
+  {
+   "klasor": "uygulama/baskihesap",
+   "kategori": "uygulama",
+   "konu": "baskihesap",
+   "durum": "hazir",
+   "kare": 5
+  },
+  {
+   "klasor": "uygulama/akin",
+   "kategori": "uygulama",
+   "konu": "akin-drone-surusu",
+   "durum": "hazir",
+   "kare": 5
   }
  ],
- "kampanya": []
+ "kampanya": [
+  {
+   "klasor": "uygulama/akin",
+   "kategori": "uygulama",
+   "tarih": "2026-11-06",
+   "saat": "19:50",
+   "tur": "gonderi",
+   "not": "Oyun/uygulama duyurusu"
+  },
+  {
+   "klasor": "uygulama/baskihesap",
+   "kategori": "uygulama",
+   "tarih": "2026-11-06",
+   "saat": "21:00",
+   "tur": "hikaye",
+   "not": "Oyun/uygulama duyurusu"
+  },
+  {
+   "klasor": "uygulama/balmaca",
+   "kategori": "uygulama",
+   "tarih": "2026-11-06",
+   "saat": "21:30",
+   "tur": "hikaye",
+   "not": "Oyun/uygulama duyurusu"
+  }
+ ]
 }
