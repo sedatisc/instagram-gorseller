@@ -1844,6 +1844,72 @@
    ],
    "kat": "baski-fotograf-albumu"
   },
+  "banka-soygunu-oyunu-iki-kisilik-strateji-oyunu": {
+   "ad": "Banka Soygunu Oyunu - İki Kişilik Strateji Oyunu",
+   "aciklama": "Dikey tablalı, kasa temalı iki kişilik strateji oyunu.",
+   "fiyat": "1029.90",
+   "gorsel": [
+    "6935fc72-9cf2-4208-b26d-3bd90bba61d9",
+    "b597d905-a59b-4109-997f-e702e14dc1b1",
+    "fda4249e-2ceb-415a-936e-ec161c5ea1ee"
+   ],
+   "kat": "baski-iki-kisilik-oyunlar"
+  },
+  "deniz-savasi-oyunu-iki-kisilik-strateji-oyunu": {
+   "ad": "Deniz Savaşı Oyunu - İki Kişilik Strateji Oyunu",
+   "aciklama": "Katlanır tablalı, gemi ve işaret çivili klasik deniz savaşı oyunu.",
+   "fiyat": "1429.90",
+   "gorsel": [
+    "42867559-8e95-4ec0-9982-81a46a3f8e17",
+    "75d77331-5880-4961-b559-8b7034f6c03a",
+    "ef659f2a-a16c-4aab-9044-42996d0dbb81"
+   ],
+   "kat": "baski-iki-kisilik-oyunlar"
+  },
+  "kendinden-ayiran-4-lu-bagla-strateji-kutu-oyunu": {
+   "ad": "Kendinden Ayıran 4'lü Bağla - Strateji Kutu Oyunu",
+   "aciklama": "Spiral kanallı, taşları renklerine göre kendiliğinden ayıran dörtlü bağlama oyunu.",
+   "fiyat": "1529.90",
+   "gorsel": [
+    "06fa1114-9a98-488b-a46b-9fc7a40b4ff5",
+    "20151e43-d6ad-4c93-b746-74332bbf94e3",
+    "cfd03510-f4cb-4fc2-bcbb-d70aae9d50f8"
+   ],
+   "kat": "baski-iki-kisilik-oyunlar"
+  },
+  "kurbagali-xox-oyunu-sevimli-tic-tac-toe": {
+   "ad": "Kurbağalı XOX Oyunu - Sevimli Tic Tac Toe",
+   "aciklama": "Nilüfer yaprağı tablalı, kurbağa ve çiçek taşlı XOX oyunu.",
+   "fiyat": "569.90",
+   "gorsel": [
+    "ce3ebfd9-6890-4804-8ad3-f0ac5127f55e",
+    "ef26ee80-dc63-486d-a999-e867d9720fb9",
+    "aa55ec73-82de-43f4-933f-32d24a6fd3c2"
+   ],
+   "kat": "baski-iki-kisilik-oyunlar"
+  },
+  "parmak-futbolu-masa-ustu-futbol-oyunu": {
+   "ad": "Parmak Futbolu - Masa Üstü Futbol Oyunu",
+   "aciklama": "Kale, top ve parmak oyunculu masa üstü futbol seti.",
+   "fiyat": "499.90",
+   "gorsel": [
+    "30da33b5-9bd0-4667-9b1e-b62251166c01",
+    "94368fed-5421-4586-b962-4d02eacf6238",
+    "8e21762f-af32-436b-9a6d-69c5cedcf58e"
+   ],
+   "kat": "baski-iki-kisilik-oyunlar"
+  },
+  "seyahat-satranc-seti-kutulu-mini-satranc": {
+   "ad": "Seyahat Satranç Seti - Kutulu Mini Satranç",
+   "aciklama": "Saklama bölmeli kutu-tabla ve klasik taşlardan oluşan seyahat satranç seti.",
+   "fiyat": "609.90",
+   "gorsel": [
+    "bf05af21-0933-4f24-865b-5ca12b48adff",
+    "42d1ff8d-814d-4f62-94d5-9671d3510aa7",
+    "4f7cc812-a15b-4233-ad5f-f68b7f629070"
+   ],
+   "kat": "baski-iki-kisilik-oyunlar"
+  },
   "masa-kablo-duzenleyici-kiskacli": {
    "ad": "Masa Kablo Düzenleyici - Kıskaçlı",
    "aciklama": "Masa kenarına takılan, şarj kablolarını yuvalarında tutan düzenleyici.",
@@ -2052,28 +2118,6 @@
    ],
    "kat": "baski-kutu-oyunu"
   },
-  "banka-soygunu-oyunu-iki-kisilik-strateji-oyunu": {
-   "ad": "Banka Soygunu Oyunu - İki Kişilik Strateji Oyunu",
-   "aciklama": "Dikey tablalı, kasa temalı iki kişilik strateji oyunu.",
-   "fiyat": "1029.90",
-   "gorsel": [
-    "6935fc72-9cf2-4208-b26d-3bd90bba61d9",
-    "b597d905-a59b-4109-997f-e702e14dc1b1",
-    "fda4249e-2ceb-415a-936e-ec161c5ea1ee"
-   ],
-   "kat": "baski-kutu-oyunu"
-  },
-  "deniz-savasi-oyunu-iki-kisilik-strateji-oyunu": {
-   "ad": "Deniz Savaşı Oyunu - İki Kişilik Strateji Oyunu",
-   "aciklama": "Katlanır tablalı, gemi ve işaret çivili klasik deniz savaşı oyunu.",
-   "fiyat": "1429.90",
-   "gorsel": [
-    "42867559-8e95-4ec0-9982-81a46a3f8e17",
-    "75d77331-5880-4961-b559-8b7034f6c03a",
-    "ef659f2a-a16c-4aab-9044-42996d0dbb81"
-   ],
-   "kat": "baski-kutu-oyunu"
-  },
   "domino-seti-modern-tasarim-kutulu-domino": {
    "ad": "Domino Seti - Modern Tasarım Kutulu Domino",
    "aciklama": "Belirgin noktalı 28 taşlı, saklama kutulu modern domino seti.",
@@ -2107,39 +2151,6 @@
    ],
    "kat": "baski-kutu-oyunu"
   },
-  "kendinden-ayiran-4-lu-bagla-strateji-kutu-oyunu": {
-   "ad": "Kendinden Ayıran 4'lü Bağla - Strateji Kutu Oyunu",
-   "aciklama": "Spiral kanallı, taşları renklerine göre kendiliğinden ayıran dörtlü bağlama oyunu.",
-   "fiyat": "1529.90",
-   "gorsel": [
-    "06fa1114-9a98-488b-a46b-9fc7a40b4ff5",
-    "20151e43-d6ad-4c93-b746-74332bbf94e3",
-    "cfd03510-f4cb-4fc2-bcbb-d70aae9d50f8"
-   ],
-   "kat": "baski-kutu-oyunu"
-  },
-  "kurbagali-xox-oyunu-sevimli-tic-tac-toe": {
-   "ad": "Kurbağalı XOX Oyunu - Sevimli Tic Tac Toe",
-   "aciklama": "Nilüfer yaprağı tablalı, kurbağa ve çiçek taşlı XOX oyunu.",
-   "fiyat": "569.90",
-   "gorsel": [
-    "ce3ebfd9-6890-4804-8ad3-f0ac5127f55e",
-    "ef26ee80-dc63-486d-a999-e867d9720fb9",
-    "aa55ec73-82de-43f4-933f-32d24a6fd3c2"
-   ],
-   "kat": "baski-kutu-oyunu"
-  },
-  "parmak-futbolu-masa-ustu-futbol-oyunu": {
-   "ad": "Parmak Futbolu - Masa Üstü Futbol Oyunu",
-   "aciklama": "Kale, top ve parmak oyunculu masa üstü futbol seti.",
-   "fiyat": "499.90",
-   "gorsel": [
-    "30da33b5-9bd0-4667-9b1e-b62251166c01",
-    "94368fed-5421-4586-b962-4d02eacf6238",
-    "8e21762f-af32-436b-9a6d-69c5cedcf58e"
-   ],
-   "kat": "baski-kutu-oyunu"
-  },
   "renk-eslestirme-yarisi-hizli-aile-oyunu": {
    "ad": "Renk Eşleştirme Yarışı - Hızlı Aile Oyunu",
    "aciklama": "Gizli renk sırasını bulmaya dayalı hızlı renk eşleştirme oyunu.",
@@ -2148,17 +2159,6 @@
     "d6631cd5-c7a9-40e9-a952-7c84c18a090c",
     "17b1bce9-284a-4364-b6bb-5231e1fb6d0c",
     "c96713d8-5787-450d-a798-4974c4e5c8a9"
-   ],
-   "kat": "baski-kutu-oyunu"
-  },
-  "seyahat-satranc-seti-kutulu-mini-satranc": {
-   "ad": "Seyahat Satranç Seti - Kutulu Mini Satranç",
-   "aciklama": "Saklama bölmeli kutu-tabla ve klasik taşlardan oluşan seyahat satranç seti.",
-   "fiyat": "609.90",
-   "gorsel": [
-    "bf05af21-0933-4f24-865b-5ca12b48adff",
-    "42d1ff8d-814d-4f62-94d5-9671d3510aa7",
-    "4f7cc812-a15b-4233-ad5f-f68b7f629070"
    ],
    "kat": "baski-kutu-oyunu"
   },
