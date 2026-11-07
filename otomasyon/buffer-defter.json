@@ -94,6 +94,36 @@
    "anahtar": "uygulama/balmaca|kampanya-0-hikaye",
    "buffer": "6aeda6d3f3498efda785adb9",
    "zaman": "2026-11-06T21:30"
+  },
+  {
+   "anahtar": "2026-10-19-heat-set-insert|gonderi",
+   "buffer": "6aee782d229bf05daf1d61db",
+   "zaman": "2026-11-07T11:10"
+  },
+  {
+   "anahtar": "2026-10-19-heat-set-insert|hikaye",
+   "buffer": "6aee782ea7751de7c9b9e1ec",
+   "zaman": "2026-11-07T11:50"
+  },
+  {
+   "anahtar": "urun/iki-katli-dalgali-kenarli-sunum-standi-25-cm|gonderi",
+   "buffer": "6aee7830af7e526d43f09806",
+   "zaman": "2026-11-07T13:20"
+  },
+  {
+   "anahtar": "urun/iki-katli-dalgali-kenarli-sunum-standi-25-cm|hikaye",
+   "buffer": "6aee7830a7751de7c9b9e2c2",
+   "zaman": "2026-11-07T14:00"
+  },
+  {
+   "anahtar": "urun/japandi-kedi-kopek-mama-kabi-isim-plakali|gonderi",
+   "buffer": "6aee7832d6bbae6fa158eb1b",
+   "zaman": "2026-11-07T17:10"
+  },
+  {
+   "anahtar": "urun/japandi-kedi-kopek-mama-kabi-isim-plakali|hikaye",
+   "buffer": "6aee7832d6bbae6fa158eb76",
+   "zaman": "2026-11-07T17:50"
   }
  ]
 }
