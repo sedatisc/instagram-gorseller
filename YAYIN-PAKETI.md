@@ -533,6 +533,10 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 #sermenkreatif #3dbaski #yilbasisusu #yilbasi
 ```
 
+## 19:20 · REELS — [2026-10-20-sparkx-i7-i8-pano/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-20-sparkx-i7-i8-pano)
+
+Açıklama gönderi metniyle aynı.
+
 ---
 
 # 2026-11-14 · Cumartesi

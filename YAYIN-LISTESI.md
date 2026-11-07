@@ -86,7 +86,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli/hikaye.jpg` | 1 |
 | 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/dekoratif-kozalak-figuru-yilbasi-ve-kis-dekoru-12-cm` | 7 |
 | 17:20 | Hikaye | BASKI ÜRÜNLERİ | `urun/dekoratif-kozalak-figuru-yilbasi-ve-kis-dekoru-12-cm/hikaye.jpg` | 1 |
-| 19:20 | **Reels** | — | _boş — üretilecek_ | — |
+| 19:20 | **Reels** | — | `2026-10-20-sparkx-i7-i8-pano/reels.mp4` | video |
 
 ## 2026-11-14 · Cumartesi
 
@@ -1208,7 +1208,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 Bu slotlar için içerik henüz üretilmedi:
 
 - 2026-11-12 · REELS
-- 2026-11-13 · REELS
 - 2026-11-14 · REELS
 - 2026-11-15 · REELS
 - 2026-11-18 · REELS
