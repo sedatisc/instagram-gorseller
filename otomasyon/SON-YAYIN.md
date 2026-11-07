@@ -1,13 +1,13 @@
 # Son yayın
 
-2026-11-07 19:58 (kuru) · 0 yayın · 2 hata
+2026-11-07 23:43 (kuru) · 0 yayın · 0 hata
 
 | İş | Durum | Not |
 |---|---|---|
-| 2026-10-21-ams-israf|gonderi | atlandı | vakti 2026-11-07T11:10, 8:48:57 geçmiş — iş hazır kaldı, sıradaki güne kayıyor |
-| 2026-10-21-ams-israf|hikaye | atlandı | vakti 2026-11-07T11:50, 8:08:57 geçmiş — iş hazır kaldı, sıradaki güne kayıyor |
-| urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek|gonderi | atlandı | vakti 2026-11-07T13:20, 6:38:57 geçmiş — iş hazır kaldı, sıradaki güne kayıyor |
-| urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek|hikaye | atlandı | vakti 2026-11-07T14:00, 5:58:57 geçmiş — iş hazır kaldı, sıradaki güne kayıyor |
-| urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf|gonderi | HATA | urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf içinde .jpg kare yok |
-| urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf|hikaye | HATA | urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf/hikaye.jpg yok |
-| 2026-10-21-ams-israf|reels | kuru | 2026-10-21-ams-israf |
+| 2026-10-21-ams-israf|gonderi | atlandı | vakti 2026-11-07T11:10, 12:33:58 geçmiş — iş hazır kaldı, sıradaki güne kayıyor |
+| 2026-10-21-ams-israf|hikaye | atlandı | vakti 2026-11-07T11:50, 11:53:58 geçmiş — iş hazır kaldı, sıradaki güne kayıyor |
+| urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek|gonderi | atlandı | vakti 2026-11-07T13:20, 10:23:58 geçmiş — iş hazır kaldı, sıradaki güne kayıyor |
+| urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek|hikaye | atlandı | vakti 2026-11-07T14:00, 9:43:58 geçmiş — iş hazır kaldı, sıradaki güne kayıyor |
+| urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf|gonderi | atlandı | vakti 2026-11-07T17:10, 6:33:58 geçmiş — iş hazır kaldı, sıradaki güne kayıyor |
+| urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf|hikaye | atlandı | vakti 2026-11-07T17:50, 5:53:58 geçmiş — iş hazır kaldı, sıradaki güne kayıyor |
+| 2026-10-21-ams-israf|reels | atlandı | vakti 2026-11-07T19:20, 4:23:58 geçmiş — iş hazır kaldı, sıradaki güne kayıyor |
