@@ -8,111 +8,28 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme.
 
 ---
 
-# 2026-11-07 · Cumartesi
+# 2026-11-08 · Pazar
 
 ## 11:10 · AYAR & REHBER
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-ams-israf/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-yuksek-akisli-nozzle"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-22-yuksek-akisli-nozzle/1.jpg" width="240"></a>
 
-**[2026-10-21-ams-israf](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf)** · 4 kare · hikaye 11:50
-
-```
-AMS ve MMU'da renk değişimi israfı, çok renkli baskıda çoğu zaman parçanın kendisinden pahalıya geliyor.
-
-Her renk geçişinde nozul boşaltılıyor: geçiş başına 0,3-1,5 g, dilimleyicinin varsayılan ayarıyla 280 mm³. 400 geçişli bir plakada 40-90 g temizlik atığı çıkıyor — parça 60 g ise çöpe giden ondan fazla.
-
-Maliyeti belirleyen şey parça sayısı değil geçiş sayısı; aynı plakada dokuz kopya da bassan geçişler ortak.
-
-Aynı renk ailesinde temizlik çarpanını 0,7'ye indirmek iz bırakmadan %20-30 kazandırıyor. Asıl kazanç ise atığı modelin içine basmakta: desteğe, dolguya ya da rengi görünmeyen bir nesneye. Üçü de temizlik kulesi açıkken çalışıyor.
-
-Siyahtan beyaza geçişte ve saydam filamentte çarpana dokunma; eski renk yeni katmanda gri bir leke olarak çıkıyor.
-
-@bambulab · @prusa3d
-
-Temizlik kulesini çöpe atarken içi sızlayan bir arkadaşın varsa ona yolla.
-
-#sermenkreatif #3dbaski #3dprinting #ams #3dbaskiturkiye
-```
-
-## 13:20 · BASKI ÜRÜNLERİ
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek/1.jpg" width="240"></a>
-
-**[urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek)** · 8 kare · hikaye 14:00
+**[2026-10-22-yuksek-akisli-nozzle](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-yuksek-akisli-nozzle)** · 4 kare · hikaye 11:50
 
 ```
-Kedi Kumu Küreği - 3 Delik Boyutlu Petek Elek
+Yüksek akışlı nozzle gerçekten hızlandırıyor mu? Hotend'i değiştirip dilimleyicide hızı 300 mm/s'ye çeken herkesin baskısı kısalmıyor, çünkü akış tek başına süreyi belirlemiyor.
 
-Küçük, orta ve büyük petek delikli, uzun saplı kedi kumu küreği.
+Nozuldan saniyede çıkan hacim üç sayının çarpımı: hat genişliği × katman yüksekliği × hız. 0,42 mm hat, 0,2 mm katman ve 150 mm/s birlikte 12,6 mm³/s ediyor. Standart 0,4 pirinç hotend bu civarda, 10-12 mm³/s'de tıkanıyor; yüksek akışlı sürümler 25-35 mm³/s iddia ediyor. Sınırı koyan deliğin çapı değil, filamentin erimeye vakit bulduğu eriyik bölgesi.
 
-Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+Tavanı yükseltmenin ucuz yolu hotend değil: 0,4 nozul ve 0,2 mm katmandan 0,6 nozul ve 0,3 mm katmana geçmek kesiti %125 büyütüyor. Bedeli çözünürlük — 0,6 mm'den ince duvar artık basılmıyor.
 
-Faturalı satış, Samsun'dan kargo. 289,90 ₺.
+Akış tavanı yükselince sıra bir sonraki darboğaza geliyor. Katman 8-10 saniyenin altına inerse soğutma yetişmiyor, köşeler sarkıyor; nozul sıcaklığı 10-15 °C yukarı çıkıyor. Küçük ve detaylı parçada ise kafa hiçbir doğruyu tam hızda gitmiyor: orada süreyi ivme belirliyor, akış hiç devreye girmiyor.
 
-Ürün sayfası: sermenkreatif.com/urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek
+Kısacası kazanç dolgu ve duvarda, yani büyük yüzeylerde. Küçük parçada sıfır.
 
-Kedisi olan bir arkadaşına yolla.
+Hotend değiştirip "niye hızlanmadı" diyen bir arkadaşın varsa bu gönderiyi ona yolla.
 
-#sermenkreatif #3dbaski #kediaksesuari #kedili
-```
-
-## 17:10 · BASKI ÜRÜNLERİ
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf/1.jpg" width="240"></a>
-
-**[urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf)** · 8 kare · hikaye 17:50
-
-```
-Kelebek Duvar Rafı - Çocuk Odası Dekoratif Raf
-
-Kelebek formunda, duvara asılan dekoratif mini raf.
-
-Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
-
-Faturalı satış, Samsun'dan kargo. 539,90 ₺.
-
-Ürün sayfası: sermenkreatif.com/urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf
-
-Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
-
-#sermenkreatif #3dbaski #duvarrafi #evdekorasyonu
-```
-
-## 19:20 · REELS — [2026-10-21-ams-israf/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-ams-israf)
-
-Açıklama gönderi metniyle aynı.
-
----
-
-# 2026-11-08 · Pazar
-
-## 11:10 · ÜRÜN & MAĞAZA
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-polymaker-ht-pla/1.jpg" width="240"></a>
-
-**[2026-10-17-polymaker-ht-pla](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)** · 5 kare · hikaye 11:50
-
-```
-Polymaker HT-PLA serisi yüksek sıcaklığa dayanıklı PLA diye satılıyor ve bu doğru — ama bir şartı var, onu söylemeyen satıcıdan almayın.
-
-Isı dayanımı kutudan çıkmıyor, tavlamayla geliyor.
-
-Rakamlar, Polymaker'ın kendi teknik veri sayfasından, tavlama öncesi → sonrası:
-
-HT-PLA, 0,45 MPa yük altında 61,4 → 107,2 °C. Aynı malzeme 1,8 MPa altında 58,6 → 71,7 °C.
-HT-PLA-GF, 0,45 MPa altında 75,5 → 114,7 °C. 1,8 MPa altında 59,7 → 84 °C.
-
-Tavlamadan basarsan elinde normal PLA'dan belirgin farkı olmayan, daha pahalı bir makara kalıyor. 58 °C ile 61 °C arasındaki fark için para vermeye değmez.
-
-İyi haber → tavlama zor değil. 80-90 °C'de 3 dakika. Fırın, kurutucu ya da ısıtmalı tabla yeter. İnce cidarlı parçalarda aralığın alt ucunu kullanın, yoksa çarpılıyor.
-
-Üç çeşit, üç ayrı iş → HT-PLA düz sürüm, fonksiyonel parçanın geneli için. HT-PLA Gradient aynı ısı dayanımını renk geçişiyle veriyor, dekoratif iş için. HT-PLA-GF cam elyaf takviyeli; ailenin en yüksek HDT'si ve en rijit olanı, araç içinde kalacak parça varsa bu.
-
-Baskı ayarı üçünde de aynı: nozul 230 °C, tabla 50 °C.
-
-Yazın araçta bıraktığı telefon tutucusu eğilen bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #polymaker #htpla #filament
+#sermenkreatif #3dbaski #3dprinting #hotend #3dbaskiturkiye
 ```
 
 ## 13:20 · BASKI ÜRÜNLERİ
@@ -159,7 +76,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #duvaraskisi #portmanto
 ```
 
-## 19:50 · REELS — [2026-10-17-polymaker-ht-pla/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)
+## 19:50 · REELS — [2026-10-22-yuksek-akisli-nozzle/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-yuksek-akisli-nozzle)
 
 Açıklama gönderi metniyle aynı.
 
@@ -167,28 +84,33 @@ Açıklama gönderi metniyle aynı.
 
 # 2026-11-09 · Pazartesi
 
-## 09:10 · PROJE & ATÖLYE
+## 09:10 · ÜRÜN & MAĞAZA
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-rc-tank/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-polymaker-ht-pla/1.jpg" width="240"></a>
 
-**[2026-10-17-rc-tank](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank)** · 6 kare · hikaye 09:50
+**[2026-10-17-polymaker-ht-pla](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)** · 5 kare · hikaye 09:50
 
 ```
-RC tank gibi büyük bir baskı projesinde işi bitiren şey baskı değil, parçaya bölme ve birleştirme kararları. Tabladan büyük parça basılmıyor; bölünüyor.
+Polymaker HT-PLA serisi yüksek sıcaklığa dayanıklı PLA diye satılıyor ve bu doğru — ama bir şartı var, onu söylemeyen satıcıdan almayın.
 
-Bölme hattı düz yüzeyden ve görünmeyen kenardan geçiyor. Yük taşıyan kesit bölünmüyor — oradaki kayıp sonradan yapıştırmayla geri gelmiyor. Hizalama için pim yuvası modeldeyken açılıyor, geçme 0,2-0,4 mm boşlukla çiziliyor. Parça sökülecekse vida ve heat-set insert, kalıcı birleşecekse epoksi; CA yapıştırıcı bu boyutta kırılgan kalıyor.
+Isı dayanımı kutudan çıkmıyor, tavlamayla geliyor.
 
-Dayanımı duvar veriyor, dolgu değil. Büyük gövdede 3-4 duvar sırası, %10-15 dolgu ve 5 üst-alt katman yetiyor. Dolguyu yükseltmek süreyi ve ağırlığı büyütüyor, burulmayı çözmüyor. 0,6 mm nozul ve 0,24-0,28 mm katman bu ölçekte günler kazandırıyor.
+Rakamlar, Polymaker'ın kendi teknik veri sayfasından, tavlama öncesi → sonrası:
 
-En çok zorlanan parça palet. Sürekli esniyor ve aşınıyor; tek parça basılan palet koptuğunda iş bitiyor, segmentli palet tamir edilebiliyor. Segmentler pimle birleşiyor, %10 fazla basılıyor, gergi tekerleği ayarlanabilir olacak şekilde çiziliyor.
+HT-PLA, 0,45 MPa yük altında 61,4 → 107,2 °C. Aynı malzeme 1,8 MPa altında 58,6 → 71,7 °C.
+HT-PLA-GF, 0,45 MPa altında 75,5 → 114,7 °C. 1,8 MPa altında 59,7 → 84 °C.
 
-Ağırlık motoru seçiyor. Gövde ağırlaştıkça redüktör oranı büyüyor, paletli araçta dönüş torku düz gitmenin 2-3 katı. Motoru en sona bırakırsan tank yürümüyor.
+Tavlamadan basarsan elinde normal PLA'dan belirgin farkı olmayan, daha pahalı bir makara kalıyor. 58 °C ile 61 °C arasındaki fark için para vermeye değmez.
 
-Fire payını baştan yaz. Büyük parçada %10 başarısızlık normal; kritik parça iki kez basılıyor, kuyruk sıraya koyuluyor.
+İyi haber → tavlama zor değil. 80-90 °C'de 3 dakika. Fırın, kurutucu ya da ısıtmalı tabla yeter. İnce cidarlı parçalarda aralığın alt ucunu kullanın, yoksa çarpılıyor.
 
-Masasında yarım kalmış büyük bir baskı projesi olan bir arkadaşın varsa bu gönderiyi ona yolla.
+Üç çeşit, üç ayrı iş → HT-PLA düz sürüm, fonksiyonel parçanın geneli için. HT-PLA Gradient aynı ısı dayanımını renk geçişiyle veriyor, dekoratif iş için. HT-PLA-GF cam elyaf takviyeli; ailenin en yüksek HDT'si ve en rijit olanı, araç içinde kalacak parça varsa bu.
 
-#sermenkreatif #maker #3dbaski #rctank
+Baskı ayarı üçünde de aynı: nozul 230 °C, tabla 50 °C.
+
+Yazın araçta bıraktığı telefon tutucusu eğilen bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #3dbaski #polymaker #htpla #filament
 ```
 
 ## 12:38 · BASKI ÜRÜNLERİ
@@ -235,7 +157,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifobje #evdekorasyonu
 ```
 
-## 19:40 · REELS — [2026-10-17-rc-tank/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank)
+## 19:40 · REELS — [2026-10-17-polymaker-ht-pla/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-polymaker-ht-pla)
 
 Açıklama gönderi metniyle aynı.
 
@@ -243,26 +165,28 @@ Açıklama gönderi metniyle aynı.
 
 # 2026-11-10 · Salı
 
-## 09:10 · AYAR & REHBER
+## 09:10 · PROJE & ATÖLYE
 
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-yuksek-akisli-nozzle"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-22-yuksek-akisli-nozzle/1.jpg" width="240"></a>
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-rc-tank/1.jpg" width="240"></a>
 
-**[2026-10-22-yuksek-akisli-nozzle](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-yuksek-akisli-nozzle)** · 4 kare · hikaye 09:50
+**[2026-10-17-rc-tank](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank)** · 6 kare · hikaye 09:50
 
 ```
-Yüksek akışlı nozzle gerçekten hızlandırıyor mu? Hotend'i değiştirip dilimleyicide hızı 300 mm/s'ye çeken herkesin baskısı kısalmıyor, çünkü akış tek başına süreyi belirlemiyor.
+RC tank gibi büyük bir baskı projesinde işi bitiren şey baskı değil, parçaya bölme ve birleştirme kararları. Tabladan büyük parça basılmıyor; bölünüyor.
 
-Nozuldan saniyede çıkan hacim üç sayının çarpımı: hat genişliği × katman yüksekliği × hız. 0,42 mm hat, 0,2 mm katman ve 150 mm/s birlikte 12,6 mm³/s ediyor. Standart 0,4 pirinç hotend bu civarda, 10-12 mm³/s'de tıkanıyor; yüksek akışlı sürümler 25-35 mm³/s iddia ediyor. Sınırı koyan deliğin çapı değil, filamentin erimeye vakit bulduğu eriyik bölgesi.
+Bölme hattı düz yüzeyden ve görünmeyen kenardan geçiyor. Yük taşıyan kesit bölünmüyor — oradaki kayıp sonradan yapıştırmayla geri gelmiyor. Hizalama için pim yuvası modeldeyken açılıyor, geçme 0,2-0,4 mm boşlukla çiziliyor. Parça sökülecekse vida ve heat-set insert, kalıcı birleşecekse epoksi; CA yapıştırıcı bu boyutta kırılgan kalıyor.
 
-Tavanı yükseltmenin ucuz yolu hotend değil: 0,4 nozul ve 0,2 mm katmandan 0,6 nozul ve 0,3 mm katmana geçmek kesiti %125 büyütüyor. Bedeli çözünürlük — 0,6 mm'den ince duvar artık basılmıyor.
+Dayanımı duvar veriyor, dolgu değil. Büyük gövdede 3-4 duvar sırası, %10-15 dolgu ve 5 üst-alt katman yetiyor. Dolguyu yükseltmek süreyi ve ağırlığı büyütüyor, burulmayı çözmüyor. 0,6 mm nozul ve 0,24-0,28 mm katman bu ölçekte günler kazandırıyor.
 
-Akış tavanı yükselince sıra bir sonraki darboğaza geliyor. Katman 8-10 saniyenin altına inerse soğutma yetişmiyor, köşeler sarkıyor; nozul sıcaklığı 10-15 °C yukarı çıkıyor. Küçük ve detaylı parçada ise kafa hiçbir doğruyu tam hızda gitmiyor: orada süreyi ivme belirliyor, akış hiç devreye girmiyor.
+En çok zorlanan parça palet. Sürekli esniyor ve aşınıyor; tek parça basılan palet koptuğunda iş bitiyor, segmentli palet tamir edilebiliyor. Segmentler pimle birleşiyor, %10 fazla basılıyor, gergi tekerleği ayarlanabilir olacak şekilde çiziliyor.
 
-Kısacası kazanç dolgu ve duvarda, yani büyük yüzeylerde. Küçük parçada sıfır.
+Ağırlık motoru seçiyor. Gövde ağırlaştıkça redüktör oranı büyüyor, paletli araçta dönüş torku düz gitmenin 2-3 katı. Motoru en sona bırakırsan tank yürümüyor.
 
-Hotend değiştirip "niye hızlanmadı" diyen bir arkadaşın varsa bu gönderiyi ona yolla.
+Fire payını baştan yaz. Büyük parçada %10 başarısızlık normal; kritik parça iki kez basılıyor, kuyruk sıraya koyuluyor.
 
-#sermenkreatif #3dbaski #3dprinting #hotend #3dbaskiturkiye
+Masasında yarım kalmış büyük bir baskı projesi olan bir arkadaşın varsa bu gönderiyi ona yolla.
+
+#sermenkreatif #maker #3dbaski #rctank
 ```
 
 ## 12:38 · BASKI ÜRÜNLERİ
@@ -309,7 +233,7 @@ Masası dağınık olan arkadaşına yolla.
 #sermenkreatif #3dbaski #masaustuduzenleyici #masaduzeni
 ```
 
-## 19:40 · REELS — [2026-10-22-yuksek-akisli-nozzle/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-yuksek-akisli-nozzle)
+## 19:40 · REELS — [2026-10-17-rc-tank/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank)
 
 Açıklama gönderi metniyle aynı.
 

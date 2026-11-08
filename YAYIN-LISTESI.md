@@ -4,53 +4,41 @@ Günde **3 gönderi · 3 hikaye · 1 reels**. Hikaye, gönderiden 40 dakika sonr
 
 Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.json` içinde.
 
-## 2026-11-07 · Cumartesi
-
-| Saat | Tür | Slot | Klasör | Kare |
-|---|---|---|---|---|
-| 11:10 | Gönderi | AYAR & REHBER | `2026-10-21-ams-israf` | 4 |
-| 11:50 | Hikaye | AYAR & REHBER | `2026-10-21-ams-israf/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek` | 8 |
-| 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf` | 8 |
-| 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf/hikaye.jpg` | 1 |
-| 19:20 | **Reels** | — | `2026-10-21-ams-israf/reels.mp4` | video |
-
 ## 2026-11-08 · Pazar
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-17-polymaker-ht-pla` | 5 |
-| 11:50 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-17-polymaker-ht-pla/hikaye.jpg` | 1 |
+| 11:10 | Gönderi | AYAR & REHBER | `2026-10-22-yuksek-akisli-nozzle` | 4 |
+| 11:50 | Hikaye | AYAR & REHBER | `2026-10-22-yuksek-akisli-nozzle/hikaye.jpg` | 1 |
 | 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo` | 8 |
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo/hikaye.jpg` | 1 |
 | 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/minimal-duvar-askisi-yapistirmali-2-li-kanca` | 8 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/minimal-duvar-askisi-yapistirmali-2-li-kanca/hikaye.jpg` | 1 |
-| 19:50 | **Reels** | — | `2026-10-17-polymaker-ht-pla/reels.mp4` | video |
+| 19:50 | **Reels** | — | `2026-10-22-yuksek-akisli-nozzle/reels.mp4` | video |
 
 ## 2026-11-09 · Pazartesi
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | PROJE & ATÖLYE | `2026-10-17-rc-tank` | 6 |
-| 09:50 | Hikaye | PROJE & ATÖLYE | `2026-10-17-rc-tank/hikaye.jpg` | 1 |
+| 09:10 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-17-polymaker-ht-pla` | 5 |
+| 09:50 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-17-polymaker-ht-pla/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/modern-tealight-mumluk-seti-3-lu` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/modern-tealight-mumluk-seti-3-lu/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/nervurlu-dekoratif-kalp-biblo-japandi-15-cm` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/nervurlu-dekoratif-kalp-biblo-japandi-15-cm/hikaye.jpg` | 1 |
-| 19:40 | **Reels** | — | `2026-10-17-rc-tank/reels.mp4` | video |
+| 19:40 | **Reels** | — | `2026-10-17-polymaker-ht-pla/reels.mp4` | video |
 
 ## 2026-11-10 · Salı
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | AYAR & REHBER | `2026-10-22-yuksek-akisli-nozzle` | 4 |
-| 09:50 | Hikaye | AYAR & REHBER | `2026-10-22-yuksek-akisli-nozzle/hikaye.jpg` | 1 |
+| 09:10 | Gönderi | PROJE & ATÖLYE | `2026-10-17-rc-tank` | 6 |
+| 09:50 | Hikaye | PROJE & ATÖLYE | `2026-10-17-rc-tank/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/spiral-dekoratif-yilbasi-agaci-yildizli-15-cm` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/spiral-dekoratif-yilbasi-agaci-yildizli-15-cm/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/telefon-tutuculu-masaustu-duzenleyici-kalemlikli` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/telefon-tutuculu-masaustu-duzenleyici-kalemlikli/hikaye.jpg` | 1 |
-| 19:40 | **Reels** | — | `2026-10-22-yuksek-akisli-nozzle/reels.mp4` | video |
+| 19:40 | **Reels** | — | `2026-10-17-rc-tank/reels.mp4` | video |
 
 ## 2026-11-11 · Çarşamba
 

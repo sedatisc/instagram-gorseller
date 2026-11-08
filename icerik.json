@@ -746,9 +746,10 @@
    "klasor": "2026-10-21-ams-israf",
    "kategori": "rehber",
    "konu": "renk-degisimi",
-   "durum": "hazir",
+   "durum": "yayinlandi",
    "kare": 4,
-   "reels": true
+   "reels": true,
+   "tarih": "2026-11-08"
   },
   {
    "klasor": "2026-10-21-filament-cesitleri",
@@ -993,15 +994,17 @@
    "klasor": "urun/kedi-kumu-kuregi-3-delik-boyutlu-petek-elek",
    "kategori": "baski",
    "konu": "kedi-kumu-kuregi-3-delik-boyutlu-petek-elek",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-08"
   },
   {
    "klasor": "urun/kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf",
    "kategori": "baski",
    "konu": "kelebek-duvar-rafi-cocuk-odasi-dekoratif-raf",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-08"
   },
   {
    "klasor": "urun/lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo",
