@@ -159,6 +159,41 @@
    "anahtar": "2026-10-21-ams-israf|reels",
    "buffer": "6aefc716004e4879a78b6930",
    "zaman": "2026-11-08T19:50"
+  },
+  {
+   "anahtar": "2026-10-22-yuksek-akisli-nozzle|gonderi",
+   "buffer": "6af11c00d6bbae6fa120a3f1",
+   "zaman": "2026-11-09T09:10"
+  },
+  {
+   "anahtar": "2026-10-22-yuksek-akisli-nozzle|hikaye",
+   "buffer": "6af11c019214322f68888f0d",
+   "zaman": "2026-11-09T09:50"
+  },
+  {
+   "anahtar": "urun/lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo|gonderi",
+   "buffer": "6af11c02229bf05dafe5ca80",
+   "zaman": "2026-11-09T12:38"
+  },
+  {
+   "anahtar": "urun/lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo|hikaye",
+   "buffer": "6af11c0351492b796e706acd",
+   "zaman": "2026-11-09T13:18"
+  },
+  {
+   "anahtar": "urun/minimal-duvar-askisi-yapistirmali-2-li-kanca|gonderi",
+   "buffer": "6af11c04d6bbae6fa120a4f6",
+   "zaman": "2026-11-09T17:24"
+  },
+  {
+   "anahtar": "urun/minimal-duvar-askisi-yapistirmali-2-li-kanca|hikaye",
+   "buffer": "6af11c0551492b796e706b76",
+   "zaman": "2026-11-09T18:04"
+  },
+  {
+   "anahtar": "2026-10-22-yuksek-akisli-nozzle|reels",
+   "buffer": "6af11c06d6bbae6fa120a588",
+   "zaman": "2026-11-09T19:40"
   }
  ]
 }

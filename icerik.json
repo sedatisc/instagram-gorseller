@@ -825,9 +825,10 @@
    "klasor": "2026-10-22-yuksek-akisli-nozzle",
    "kategori": "rehber",
    "konu": "yuksek-akisli-nozzle",
-   "durum": "hazir",
+   "durum": "yayinlandi",
    "kare": 4,
-   "reels": true
+   "reels": true,
+   "tarih": "2026-11-09"
   },
   {
    "klasor": "2026-10-23-sekil-cark-tahtasi",
@@ -1010,15 +1011,17 @@
    "klasor": "urun/lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo",
    "kategori": "baski",
    "konu": "lumina-modern-vazo-keskin-nervurlu-dekoratif-vazo",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-09"
   },
   {
    "klasor": "urun/minimal-duvar-askisi-yapistirmali-2-li-kanca",
    "kategori": "baski",
    "konu": "minimal-duvar-askisi-yapistirmali-2-li-kanca",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-09"
   },
   {
    "klasor": "urun/modern-tealight-mumluk-seti-3-lu",
