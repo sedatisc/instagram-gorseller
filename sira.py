@@ -36,6 +36,10 @@ DONEN = ["rehber", "magaza", "proje", "uygulama"]
 # s2 ve s3 baskı ürününü tercih ediyor, s1 dönen kategoriyi; bir kuyruk
 # boşalınca slot dolu kuyruktan besleniyor, gün yarım kalmıyor.
 SLOTLAR = ["s1", "s2", "s3"]
+# Anma günleri. O gün ticari gönderi sabah çıkmıyor: yalnız listedeki
+# slotlar doluyor, reels konmuyor. Günün anma gönderisi kampanya
+# kaydıyla, kendi saatiyle giriyor.
+ANMA = {"2026-11-10": ["s3"]}
 TERCIH = {"s1": None, "s2": "baski", "s3": "baski"}
 
 BASLIK = {"rehber": "AYAR & REHBER",
@@ -227,7 +231,8 @@ def kuyruk():
 
     while any(kuy.values()) and g < 400:
         video_dolu = False
-        for slot in SLOTLAR:
+        gun_t = (bas + timedelta(days=g)).isoformat()
+        for slot in ANMA.get(gun_t, SLOTLAR):
             kat = TERCIH[slot]
             if not kat or not kuy.get(kat):
                 kat = sirayla()
@@ -295,7 +300,7 @@ def reelsler(slotlar=None):
         t = gun.get(i["klasor"])
         if t is None:
             continue
-        if t in out:
+        if t in out or t in ANMA:
             gun_t = date.fromisoformat(t)
             for k in range(1, 15):
                 yeni = (gun_t + timedelta(days=k)).isoformat()

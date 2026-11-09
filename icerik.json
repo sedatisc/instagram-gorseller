@@ -3042,6 +3042,13 @@
    "durum": "yayinlandi",
    "kare": 5,
    "tarih": "2026-11-09"
+  },
+  {
+   "klasor": "2026-11-10-10-kasim",
+   "kategori": "kampanya",
+   "konu": "10-kasim",
+   "durum": "hazir",
+   "kare": 1
   }
  ],
  "kampanya": [
@@ -3054,9 +3061,17 @@
    "not": "Yolcuk yayın duyurusu"
   },
   {
+   "klasor": "2026-11-10-10-kasim",
+   "kategori": "kampanya",
+   "tarih": "2026-11-10",
+   "saat": "09:05",
+   "tur": "gonderi",
+   "not": "10 Kasım anma"
+  },
+  {
    "klasor": "uygulama/hayvandostlari",
    "kategori": "uygulama",
-   "tarih": "2026-11-10",
+   "tarih": "2026-11-11",
    "saat": "20:10",
    "tur": "gonderi",
    "not": "Hayvan Dostları yayın duyurusu"
