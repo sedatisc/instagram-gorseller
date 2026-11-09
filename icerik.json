@@ -3027,32 +3027,38 @@
    "durum": "yayinlandi",
    "kare": 5,
    "tarih": "2026-11-06"
+  },
+  {
+   "klasor": "uygulama/hayvandostlari",
+   "kategori": "uygulama",
+   "konu": "hayvan-dostlari",
+   "durum": "hazir",
+   "kare": 5
+  },
+  {
+   "klasor": "uygulama/yolcuk",
+   "kategori": "uygulama",
+   "konu": "yolcuk",
+   "durum": "hazir",
+   "kare": 5
   }
  ],
  "kampanya": [
   {
-   "klasor": "uygulama/akin",
+   "klasor": "uygulama/yolcuk",
    "kategori": "uygulama",
-   "tarih": "2026-11-06",
-   "saat": "19:50",
+   "tarih": "2026-11-09",
+   "saat": "21:10",
    "tur": "gonderi",
-   "not": "Oyun/uygulama duyurusu"
+   "not": "Yolcuk yayın duyurusu"
   },
   {
-   "klasor": "uygulama/baskihesap",
+   "klasor": "uygulama/hayvandostlari",
    "kategori": "uygulama",
-   "tarih": "2026-11-06",
-   "saat": "21:00",
-   "tur": "hikaye",
-   "not": "Oyun/uygulama duyurusu"
-  },
-  {
-   "klasor": "uygulama/balmaca",
-   "kategori": "uygulama",
-   "tarih": "2026-11-06",
-   "saat": "21:30",
-   "tur": "hikaye",
-   "not": "Oyun/uygulama duyurusu"
+   "tarih": "2026-11-10",
+   "saat": "20:10",
+   "tur": "gonderi",
+   "not": "Hayvan Dostları yayın duyurusu"
   }
  ]
 }
