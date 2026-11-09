@@ -1,8 +1,5 @@
 ## Gönderi metni
 
-Bugün 10 Kasım.
+10 Kasım 1938.
 
-Mustafa Kemal Atatürk'ü aramızdan ayrılışının 88. yılında saygı, sevgi
-ve özlemle anıyoruz.
-
-Saat 09.05'te saygı duruşundayız.
+Mustafa Kemal Atatürk'ü saygı, sevgi ve özlemle anıyoruz.
