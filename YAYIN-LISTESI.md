@@ -8,10 +8,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:05 | **Kampanya** | — | `2026-11-10-10-kasim` | 1 |
-| 09:10 | — | **boş** | _boş — üretilecek_ | — |
-| 09:45 | Kampanya hikaye | — | `2026-11-10-10-kasim/hikaye.jpg` | 1 |
-| 12:38 | — | **boş** | _boş — üretilecek_ | — |
+| 09:10 | Yayınlandı | KAMPANYA | `2026-11-10-10-kasim` | — |
+| 12:38 | Yayınlandı | KAMPANYA | `2026-11-10-10-kasim` | — |
 | 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/modern-tealight-mumluk-seti-3-lu` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/modern-tealight-mumluk-seti-3-lu/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
@@ -1197,8 +1195,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 Bu slotlar için içerik henüz üretilmedi:
 
-- 2026-11-10 · S1
-- 2026-11-10 · S2
 - 2026-11-10 · REELS
 - 2026-11-13 · REELS
 - 2026-11-15 · REELS
