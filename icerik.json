@@ -1027,8 +1027,9 @@
    "klasor": "urun/modern-tealight-mumluk-seti-3-lu",
    "kategori": "baski",
    "konu": "modern-tealight-mumluk-seti-3-lu",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "beklemede",
+   "kare": 4,
+   "neden": "site gorselleri Buffer'dan okunamadi (8 kare); 10 Kasim 17.24 gonderisi ve hikayesi dustu. Urun sayfasindaki kareler duzelince: python3 sira.py geri urun/modern-tealight-mumluk-seti-3-lu"
   },
   {
    "klasor": "urun/nervurlu-dekoratif-kalp-biblo-japandi-15-cm",
