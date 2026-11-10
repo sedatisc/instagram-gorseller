@@ -204,6 +204,16 @@
    "anahtar": "uygulama/yolcuk|kampanya-0-gonderi-hikaye",
    "buffer": "6af201cd08578dcbeb6a0149",
    "zaman": "2026-11-09T21:50"
+  },
+  {
+   "anahtar": "2026-11-10-10-kasim|kampanya-0-gonderi",
+   "buffer": "6af2af6326f9e6aeeae8b615",
+   "zaman": "2026-11-10T09:05"
+  },
+  {
+   "anahtar": "2026-11-10-10-kasim|kampanya-0-gonderi-hikaye",
+   "buffer": "6af2af6426f9e6aeeae8b657",
+   "zaman": "2026-11-10T09:45"
   }
  ]
 }
