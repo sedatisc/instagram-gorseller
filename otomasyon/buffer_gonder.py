@@ -358,12 +358,18 @@ def defter_oku():
         return {"gonderilen": []}
 
 
+def mutasyon_listesi():
+    d = _sorgu("query { __schema { mutationType { fields { name } } } }")
+    f = ((d.get("__schema") or {}).get("mutationType") or {}).get("fields")
+    return [x["name"] for x in (f or [])]
+
+
 def geri_al(onek):
     """Deftere girmiş işleri Buffer'dan silip defterden düşürüyor.
 
     Böylece aynı iş yeni görseliyle tekrar gönderilebiliyor."""
     defter = defter_oku()
-    kalan, silinen = [], 0
+    kalan, silinen, notlar = [], 0, []
     for g in defter["gonderilen"]:
         if not g["anahtar"].startswith(onek):
             kalan.append(g)
@@ -372,13 +378,22 @@ def geri_al(onek):
             ad = buffer_sil(g["buffer"])
             print("Silindi (%s): %s" % (ad, g["anahtar"]))
             silinen += 1
-        except Hata as e:
+        except Exception as e:                               # noqa: BLE001
             print("SİLİNEMEDİ: %s — %s" % (g["anahtar"], str(e)[:300]))
+            notlar.append("%s: %s" % (g["anahtar"], str(e)[:300]))
             kalan.append(g)
     defter["gonderilen"] = kalan
     with open(DEFTER, "w", encoding="utf-8") as f:
         json.dump(defter, f, ensure_ascii=False, indent=1)
     print("Toplam silinen: %d" % silinen)
+    try:
+        mut = mutasyon_listesi()
+    except Exception as e:                                   # noqa: BLE001
+        mut = ["şema okunamadı: %s" % str(e)[:200]]
+    with open(RAPOR, "w", encoding="utf-8") as f:
+        f.write("# Geri alma\n\nSilinen: %d\n\nNot: %s\n\n"
+                "## Mutation alanları\n\n%s\n"
+                % (silinen, "; ".join(notlar) or "-", ", ".join(mut)))
     return silinen
 
 
