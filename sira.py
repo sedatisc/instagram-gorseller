@@ -110,6 +110,22 @@ def urun_gorselleri(klasor, d=None):
     return list(urun_kaydi(klasor, d).get("gorsel") or [])
 
 
+def dis_gorsel(klasor, d=None):
+    """İşin depoda olmayan görselleri: {"kare": [...], "hikaye": "..."}.
+
+    icerik.json'daki kayıtta `gorsel` listesi varsa onu döndürüyor.
+    Depoya konamayan, dışarıda barındırılan kareler için."""
+    d = d or oku()
+    for i in d["icerik"]:
+        if i["klasor"] != klasor:
+            continue
+        kare = i.get("gorsel") or []
+        if not kare:
+            return None
+        return {"kare": list(kare), "hikaye": i.get("gorsel_hikaye") or ""}
+    return None
+
+
 def uygulama_sayfasi(klasor):
     """Oyun/uygulama gönderisinin Google Play adresi."""
     b = baglantilar()

@@ -288,6 +288,15 @@ def varlik(is_, sha):
     Baskı ürününde yalnız sitenin kendi görselleri kullanılıyor; site
     görseli yoksa iş gönderilmiyor, depodaki kareye düşülmüyor."""
     k = is_["klasor"]
+    # icerik.json'daki işte "gorsel" / "gorsel_hikaye" adresleri varsa
+    # medya depodan değil o adreslerden gidiyor. Depoya konamayan
+    # (dışarıda üretilmiş) kareler için.
+    dis = sira.dis_gorsel(k)
+    if dis:
+        if is_["tur"] == "hikaye":
+            return [{"image": {"url": dis.get("hikaye") or dis["kare"][0]}}]
+        if is_["tur"] == "gonderi":
+            return [{"image": {"url": u}} for u in dis["kare"][:10]]
     if is_.get("kategori") == "baski":
         g = sira.urun_gorselleri(k)
         if not g:
