@@ -1,4 +1,6 @@
-Bu dosya degisip itildiginde buffer.yml o gunun yeni islerini
-Buffer a gonderiyor. Icerigi onemli degil; tarih damgasi yeterli.
+geri-al: 2026-11-10-10-kasim
 
-2026-11-09 20:35 Yolcuk duyurusu eklendi
+Bu dosya degisip itildiginde buffer.yml o gunun yeni islerini
+Buffer a gonderiyor. Ilk satirda geri-al varsa o isler once siliniyor.
+
+2026-11-10 08:46 Ataturk portreli gorselle yeniden gonderim

@@ -62,6 +62,13 @@ jobs:
           ARG=""
           if [ -n "${{ inputs.gun }}" ]; then ARG="--gun ${{ inputs.gun }}"; fi
           if [ "${{ github.event_name }}" = "push" ]; then
+            # TETIK'in ilk satırında "geri-al: <anahtar öneki>" varsa o
+            # işler önce Buffer'dan siliniyor, sonra yenisi gönderiliyor.
+            ONEK=$(grep -m1 '^geri-al:' otomasyon/TETIK \
+                   | sed 's/^geri-al: *//' || true)
+            if [ -n "$ONEK" ]; then
+              python3 otomasyon/buffer_gonder.py --geri-al "$ONEK" || true
+            fi
             python3 otomasyon/buffer_gonder.py --zorla
             exit $?
           fi

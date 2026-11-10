@@ -96,6 +96,41 @@ def _zorunlu(t):
     return bool(t) and t.get("kind") == "NON_NULL"
 
 
+def silme_alani():
+    """Planlanmış gönderiyi silen mutasyonun adı ve girdi tipi.
+
+    Belgede geçmiyor, adı da kesin değil: şemadaki Mutation alanları
+    arasından silme işini yapanı buluyoruz."""
+    d = _sorgu("query { __schema { mutationType { fields { name args { "
+               "name type { name kind ofType { name kind ofType "
+               "{ name kind } } } } } } } }")
+    alanlar = ((d.get("__schema") or {}).get("mutationType") or {}) \
+        .get("fields") or []
+    for ad in ("deletePost", "removePost", "postDelete", "deleteDraft"):
+        f = next((x for x in alanlar if x["name"] == ad), None)
+        if f:
+            arg = f["args"][0] if f["args"] else None
+            return ad, (arg["name"] if arg else "input"), \
+                (_tur_adi(arg["type"]) if arg else None)
+    return None, None, None
+
+
+def buffer_sil(post_id):
+    """Buffer'daki planlanmış gönderiyi siliyor."""
+    ad, arg_ad, arg_tur = silme_alani()
+    if not ad:
+        raise Hata("Buffer şemasında silme mutasyonu bulunamadı")
+    if arg_tur in (None, "ID", "String", "PostId"):
+        q = ("mutation S($v: %s!) { %s(%s: $v) { __typename } }"
+             % (arg_tur or "ID", ad, arg_ad))
+        _sorgu(q, {"v": post_id})
+    else:
+        q = ("mutation S($v: %s!) { %s(%s: $v) { __typename } }"
+             % (arg_tur, ad, arg_ad))
+        _sorgu(q, {"v": {"id": post_id}})
+    return ad
+
+
 def ig_meta_alanlari():
     """metadata.instagram altındaki tüm girdi alanları.
 
@@ -323,8 +358,34 @@ def defter_oku():
         return {"gonderilen": []}
 
 
+def geri_al(onek):
+    """Deftere girmiş işleri Buffer'dan silip defterden düşürüyor.
+
+    Böylece aynı iş yeni görseliyle tekrar gönderilebiliyor."""
+    defter = defter_oku()
+    kalan, silinen = [], 0
+    for g in defter["gonderilen"]:
+        if not g["anahtar"].startswith(onek):
+            kalan.append(g)
+            continue
+        try:
+            ad = buffer_sil(g["buffer"])
+            print("Silindi (%s): %s" % (ad, g["anahtar"]))
+            silinen += 1
+        except Hata as e:
+            print("SİLİNEMEDİ: %s — %s" % (g["anahtar"], str(e)[:300]))
+            kalan.append(g)
+    defter["gonderilen"] = kalan
+    with open(DEFTER, "w", encoding="utf-8") as f:
+        json.dump(defter, f, ensure_ascii=False, indent=1)
+    print("Toplam silinen: %d" % silinen)
+    return silinen
+
+
 def main():
     kuru = "--kuru" in sys.argv
+    if "--geri-al" in sys.argv:
+        geri_al(sys.argv[sys.argv.index("--geri-al") + 1])
     if "--kontrol" in sys.argv:
         kanal, ad = kanal_bul()
         print("Kanal bağlı: %s (%s)" % (ad, kanal))
