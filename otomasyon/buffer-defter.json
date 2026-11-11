@@ -214,6 +214,51 @@
    "anahtar": "2026-11-10-10-kasim|kampanya-0-gonderi-hikaye",
    "buffer": "6af2af6426f9e6aeeae8b657",
    "zaman": "2026-11-10T09:45"
+  },
+  {
+   "anahtar": "2026-10-17-polymaker-ht-pla|gonderi",
+   "buffer": "6af3c309ffe2872794e55922",
+   "zaman": "2026-11-11T09:10"
+  },
+  {
+   "anahtar": "2026-10-17-polymaker-ht-pla|hikaye",
+   "buffer": "6af3c3090b5acab58627fb18",
+   "zaman": "2026-11-11T09:50"
+  },
+  {
+   "anahtar": "urun/nervurlu-dekoratif-kalp-biblo-japandi-15-cm|gonderi",
+   "buffer": "6af3c30bd9a6812579c20cfd",
+   "zaman": "2026-11-11T12:10"
+  },
+  {
+   "anahtar": "urun/nervurlu-dekoratif-kalp-biblo-japandi-15-cm|hikaye",
+   "buffer": "6af3c30bd9a6812579c20d24",
+   "zaman": "2026-11-11T12:50"
+  },
+  {
+   "anahtar": "urun/spiral-dekoratif-yilbasi-agaci-yildizli-15-cm|gonderi",
+   "buffer": "6af3c30cffe2872794e55a9b",
+   "zaman": "2026-11-11T17:24"
+  },
+  {
+   "anahtar": "urun/spiral-dekoratif-yilbasi-agaci-yildizli-15-cm|hikaye",
+   "buffer": "6af3c30d61555afe9eecacb8",
+   "zaman": "2026-11-11T18:04"
+  },
+  {
+   "anahtar": "2026-10-17-polymaker-ht-pla|reels",
+   "buffer": "6af3c30dffe2872794e55acf",
+   "zaman": "2026-11-11T19:40"
+  },
+  {
+   "anahtar": "uygulama/hayvandostlari|kampanya-0-gonderi",
+   "buffer": "6af3c30ed9a6812579c20de8",
+   "zaman": "2026-11-11T20:10"
+  },
+  {
+   "anahtar": "uygulama/hayvandostlari|kampanya-0-gonderi-hikaye",
+   "buffer": "6af3c30e0b5acab58627fd0a",
+   "zaman": "2026-11-11T20:50"
   }
  ]
 }

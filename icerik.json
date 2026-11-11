@@ -571,9 +571,10 @@
    "klasor": "2026-10-17-polymaker-ht-pla",
    "kategori": "magaza",
    "konu": "ht-pla",
-   "durum": "hazir",
+   "durum": "yayinlandi",
    "kare": 5,
-   "reels": true
+   "reels": true,
+   "tarih": "2026-11-11"
   },
   {
    "klasor": "2026-10-17-rc-tank",
@@ -1035,15 +1036,17 @@
    "klasor": "urun/nervurlu-dekoratif-kalp-biblo-japandi-15-cm",
    "kategori": "baski",
    "konu": "nervurlu-dekoratif-kalp-biblo-japandi-15-cm",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-11"
   },
   {
    "klasor": "urun/spiral-dekoratif-yilbasi-agaci-yildizli-15-cm",
    "kategori": "baski",
    "konu": "spiral-dekoratif-yilbasi-agaci-yildizli-15-cm",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-11"
   },
   {
    "klasor": "urun/telefon-tutuculu-masaustu-duzenleyici-kalemlikli",
@@ -3033,8 +3036,9 @@
    "klasor": "uygulama/hayvandostlari",
    "kategori": "uygulama",
    "konu": "hayvan-dostlari",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "yayinlandi",
+   "kare": 5,
+   "tarih": "2026-11-11"
   },
   {
    "klasor": "uygulama/yolcuk",
