@@ -133,6 +133,11 @@ def uygulama_sayfasi(klasor):
 
 
 def urun_sayfasi(klasor, d=None):
+    # baglantilar.json'daki "sayfa" eşlemesi: katalogda olmayan tek
+    # seferlik işlerin kendi sayfasını buradan veriyoruz.
+    ozel = (baglantilar().get("sayfa") or {}).get(klasor)
+    if ozel:
+        return ozel
     u = uygulama_sayfasi(klasor)
     if u:
         return u

@@ -3059,32 +3059,33 @@
    ],
    "gorsel_hikaye": "https://d2ol7oe51mr4n9.cloudfront.net/user_305n7oZk46uUSY6Sm7WAbAW5uiZ/5f970973-8267-462b-bfe8-8f9d5b44e74f.jpg",
    "tarih": "2026-11-10"
+  },
+  {
+   "klasor": "2026-11-11-bambu-lab-h3c-combo",
+   "kategori": "magaza",
+   "konu": "bambu-lab-h3c",
+   "durum": "hazir",
+   "kare": 7,
+   "gorsel": [
+    "https://sermenkreatif.com/media/urun/edd08689-4ef3-4ce5-9718-24ab8371e151.webp",
+    "https://sermenkreatif.com/media/urun/f09cc9c3-56ba-43c4-b856-ababedbdaba4.webp",
+    "https://sermenkreatif.com/media/urun/dd66ad29-67c1-45ae-b614-3b5451fb0d35.webp",
+    "https://sermenkreatif.com/media/urun/ff4ef8bc-c9fb-4e70-bcc0-3461ce907061.webp",
+    "https://sermenkreatif.com/media/urun/4641600a-e879-4aa7-8919-e4476c2998ad.webp",
+    "https://sermenkreatif.com/media/urun/8ed1dcbb-02d4-4cea-a2a6-da150fc15f0c.webp",
+    "https://sermenkreatif.com/media/urun/79d27bd7-a25b-41fd-b658-da1794218a90.webp"
+   ],
+   "gorsel_hikaye": "https://sermenkreatif.com/media/urun/edd08689-4ef3-4ce5-9718-24ab8371e151.webp"
   }
  ],
  "kampanya": [
   {
-   "klasor": "uygulama/yolcuk",
-   "kategori": "uygulama",
-   "tarih": "2026-11-09",
-   "saat": "21:10",
-   "tur": "gonderi",
-   "not": "Yolcuk yayın duyurusu"
-  },
-  {
-   "klasor": "2026-11-10-10-kasim",
-   "kategori": "kampanya",
-   "tarih": "2026-11-10",
-   "saat": "09:05",
-   "tur": "gonderi",
-   "not": "10 Kasım anma"
-  },
-  {
-   "klasor": "uygulama/hayvandostlari",
-   "kategori": "uygulama",
+   "klasor": "2026-11-11-bambu-lab-h3c-combo",
+   "kategori": "magaza",
    "tarih": "2026-11-11",
-   "saat": "20:10",
+   "saat": "14:30",
    "tur": "gonderi",
-   "not": "Hayvan Dostları yayın duyurusu"
+   "not": "H3C combo duyurusu"
   }
  ]
 }
