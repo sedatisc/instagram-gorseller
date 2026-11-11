@@ -605,9 +605,10 @@
    "klasor": "2026-10-18-ender-3-v4-combo",
    "kategori": "magaza",
    "konu": "ender-3-v4-combo",
-   "durum": "hazir",
+   "durum": "yayinlandi",
    "kare": 5,
-   "reels": true
+   "reels": true,
+   "tarih": "2026-11-11"
   },
   {
    "klasor": "2026-10-18-filament-kurutucu-pano",
@@ -1059,8 +1060,9 @@
    "klasor": "urun/yedek-rulo-hazneli-ayakli-tuvalet-kagitligi-nervurlu",
    "kategori": "baski",
    "konu": "yedek-rulo-hazneli-ayakli-tuvalet-kagitligi-nervurlu",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-11"
   },
   {
    "klasor": "urun/yukseltilmis-kedi-kopek-mama-kabi-standi-isimli",
