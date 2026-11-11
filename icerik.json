@@ -3066,9 +3066,10 @@
    "klasor": "2026-11-11-bambu-lab-h3c-combo",
    "kategori": "magaza",
    "konu": "bambu-lab-h3c",
-   "durum": "yayinlandi",
-   "kare": 7,
+   "durum": "hazir",
+   "kare": 8,
    "gorsel": [
+    "https://d2ol7oe51mr4n9.cloudfront.net/user_305n7oZk46uUSY6Sm7WAbAW5uiZ/ed7d77df-6758-4c4e-a8c0-49cd51b3d3c3.jpg",
     "https://d2ol7oe51mr4n9.cloudfront.net/user_305n7oZk46uUSY6Sm7WAbAW5uiZ/8bebcc86-890e-49c3-8479-2a7a35cb7aee.jpg",
     "https://d2ol7oe51mr4n9.cloudfront.net/user_305n7oZk46uUSY6Sm7WAbAW5uiZ/94fef78e-b45f-445e-bde4-3ff56069f8bf.jpg",
     "https://d2ol7oe51mr4n9.cloudfront.net/user_305n7oZk46uUSY6Sm7WAbAW5uiZ/c7d40daa-b817-4521-b93c-fa33b66dd34f.jpg",
@@ -3077,9 +3078,8 @@
     "https://d2ol7oe51mr4n9.cloudfront.net/user_305n7oZk46uUSY6Sm7WAbAW5uiZ/d8c202fc-9a4b-4262-b947-5d9d433b8211.jpg",
     "https://d2ol7oe51mr4n9.cloudfront.net/user_305n7oZk46uUSY6Sm7WAbAW5uiZ/2181f994-9217-4811-9e7d-43fc99ad472b.jpg"
    ],
-   "gorsel_hikaye": "https://d2ol7oe51mr4n9.cloudfront.net/user_305n7oZk46uUSY6Sm7WAbAW5uiZ/8bebcc86-890e-49c3-8479-2a7a35cb7aee.jpg",
-   "not": "Görseller sitenin ürün fotoğraflarından; Buffer gün içinde siteden okuyamadığı için JPEG kopyaları dış adreste duruyor.",
-   "tarih": "2026-11-11"
+   "gorsel_hikaye": "https://d2ol7oe51mr4n9.cloudfront.net/user_305n7oZk46uUSY6Sm7WAbAW5uiZ/09ec780d-f7d9-4a31-8433-743579a341b9.jpg",
+   "not": "Kapak ve hikaye Higgsfield'da tasarlandi; devam eden kareler sitenin urun fotograflari. Buffer gun icinde siteden okuyamadigi icin hepsi dis adreste duruyor."
   }
  ],
  "kampanya": [
@@ -3087,9 +3087,9 @@
    "klasor": "2026-11-11-bambu-lab-h3c-combo",
    "kategori": "magaza",
    "tarih": "2026-11-11",
-   "saat": "14:30",
+   "saat": "21:10",
    "tur": "gonderi",
-   "not": "H3C combo duyurusu"
+   "not": "H3C combo lansmani - tasarimli kapak"
   }
  ]
 }
