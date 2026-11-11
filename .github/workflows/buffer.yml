@@ -69,7 +69,7 @@ jobs:
             if [ -n "$ONEK" ]; then
               python3 otomasyon/buffer_gonder.py --geri-al "$ONEK" || true
             fi
-            python3 otomasyon/buffer_gonder.py --zorla
+            python3 otomasyon/buffer_gonder.py --zorla --sadece-kampanya
             exit $?
           fi
           if [ "${{ inputs.kontrol }}" = "true" ]; then

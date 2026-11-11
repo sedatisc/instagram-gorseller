@@ -451,6 +451,12 @@ def main():
             print("Saati geçti, atlandı: %s (%s)" % (i["anahtar"],
                                                      i["zaman"]))
             continue
+        # Gün içinde elle tetiklenen gönderimde yalnız tarihi elle
+        # yazılmış (kampanya) işler gidiyor. Plan gün ortasında yeniden
+        # türetilince o günün dolmuş slotlarına yeni iş düşüyordu;
+        # bu, aynı saate ikinci bir gönderi çıkmasını engelliyor.
+        if "--sadece-kampanya" in sys.argv and i.get("slot") != "kampanya":
+            continue
         isler.append(i)
     # Ücretsiz plan: kanal başına aynı anda en çok 10 bekleyen paylaşım.
     # Fazlası varsa önce kampanya hikayesi, sonra sondan hikayeler düşüyor.
