@@ -219,6 +219,25 @@ def hazirlar(d=None):
     return out
 
 
+KILIT_DOSYA = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                           "otomasyon", "hafta-kilit.json")
+
+
+def kilit():
+    """Onaylanmış günler: {tarih: [{"slot": ..., "klasor": ...}]}.
+
+    Plan her yayından sonra kendini yeniden türetiyor; bir iş yayınlanınca
+    sıradakiler kayıyordu. Onaylanan hafta buraya yazılınca o günler
+    kıpırdamıyor, kalan günleri sıra doldurmaya devam ediyor."""
+    try:
+        with open(KILIT_DOSYA, encoding="utf-8") as f:
+            ham = json.load(f).get("gunler") or {}
+    except (OSError, ValueError):
+        return {}
+    bug = date.today().isoformat()
+    return {t: v for t, v in ham.items() if t >= bug and v}
+
+
 def kuyruk():
     """(uyumluluk sözlüğü, slot listesi).
 
@@ -227,6 +246,20 @@ def kuyruk():
     bas = baslangic()
     kuy = {k: list(v) for k, v in hazirlar(d).items()}
     slotlar, g, don = [], 0, 0
+
+    kil = kilit()
+    kayitlar = {i["klasor"]: i for i in d["icerik"]}
+    kilitli = {s["klasor"] for v in kil.values() for s in v}
+    for lst in kuy.values():                 # kilitli iş sıraya girmiyor
+        lst[:] = [i for i in lst if i["klasor"] not in kilitli]
+    for t, satirlar in kil.items():
+        for s in satirlar:
+            i = kayitlar.get(s["klasor"])
+            if not i or i.get("durum") != "hazir":
+                continue
+            slotlar.append({"klasor": s["klasor"], "slot": s["slot"],
+                            "kategori": i.get("kategori", ""),
+                            "gun": 0, "tarih": t})
 
     def cek(kat, video_dolu):
         """Kuyruğun başı. Günde tek reels var: o gün video dolduysa
@@ -253,6 +286,9 @@ def kuyruk():
     while any(kuy.values()) and g < 400:
         video_dolu = False
         gun_t = (bas + timedelta(days=g)).isoformat()
+        if gun_t in kil:            # onaylı gün: sıra o güne dokunmuyor
+            g += 1
+            continue
         for slot in ANMA.get(gun_t, SLOTLAR):
             kat = TERCIH[slot]
             if not kat or not kuy.get(kat):

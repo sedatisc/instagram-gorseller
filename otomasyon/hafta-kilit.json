@@ -1,0 +1,117 @@
+{
+ "not": "Onaylanmış günler. Buradaki gün plandan çıkmaz, sırası kaymaz. Stoktan düşen ürün yine atlanır. Hafta onaylanınca arac/hafta_kilitle.py ile yenilenir.",
+ "gunler": {
+  "2026-11-13": [
+   {
+    "slot": "s1",
+    "klasor": "2026-10-21-filament-cesitleri"
+   },
+   {
+    "slot": "s2",
+    "klasor": "urun/5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto"
+   },
+   {
+    "slot": "s3",
+    "klasor": "urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice"
+   }
+  ],
+  "2026-11-14": [
+   {
+    "slot": "s1",
+    "klasor": "2026-10-17-rc-tank"
+   },
+   {
+    "slot": "s2",
+    "klasor": "urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli"
+   },
+   {
+    "slot": "s3",
+    "klasor": "urun/japandi-ayakli-havlu-pecetelik-kulplu"
+   }
+  ],
+  "2026-11-15": [
+   {
+    "slot": "s1",
+    "klasor": "2026-10-22-creality-k2-plus"
+   },
+   {
+    "slot": "s2",
+    "klasor": "urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm"
+   },
+   {
+    "slot": "s3",
+    "klasor": "urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi"
+   }
+  ],
+  "2026-11-16": [
+   {
+    "slot": "s1",
+    "klasor": "2026-10-18-toplulukta-ariza"
+   },
+   {
+    "slot": "s2",
+    "klasor": "urun/dis-macunu-standi-bas-asagi-tutucu"
+   },
+   {
+    "slot": "s3",
+    "klasor": "urun/eriyen-mum-gorunumlu-led-mumluk"
+   }
+  ],
+  "2026-11-17": [
+   {
+    "slot": "s1",
+    "klasor": "2026-10-19-oyuncak-yol-seti"
+   },
+   {
+    "slot": "s2",
+    "klasor": "urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec"
+   },
+   {
+    "slot": "s3",
+    "klasor": "urun/japandi-sungerlik-ve-sabunluk-suzgecli"
+   }
+  ],
+  "2026-11-18": [
+   {
+    "slot": "s1",
+    "klasor": "2026-10-20-fpv-drone-cinelog20"
+   },
+   {
+    "slot": "s2",
+    "klasor": "urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi"
+   },
+   {
+    "slot": "s3",
+    "klasor": "urun/kasik-ve-tencere-kapagi-tutucu"
+   }
+  ],
+  "2026-11-19": [
+   {
+    "slot": "s1",
+    "klasor": "2026-10-21-pi5-ekran-standi"
+   },
+   {
+    "slot": "s2",
+    "klasor": "urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi"
+   },
+   {
+    "slot": "s3",
+    "klasor": "urun/kendinden-suzgecli-sabunluk-akitmali"
+   }
+  ],
+  "2026-11-20": [
+   {
+    "slot": "s1",
+    "klasor": "urun/kumanda-standi-egimli-bolmeli"
+   },
+   {
+    "slot": "s2",
+    "klasor": "urun/moduler-masa-rafi-monitor-yukseltici"
+   },
+   {
+    "slot": "s3",
+    "klasor": "urun/nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi"
+   }
+  ]
+ }
+}
