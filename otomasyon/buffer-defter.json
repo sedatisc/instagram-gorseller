@@ -269,6 +269,41 @@
    "anahtar": "2026-11-11-bambu-lab-h3c-combo|kampanya-0-gonderi-hikaye",
    "buffer": "6af49d3056105614fa556384",
    "zaman": "2026-11-11T21:50"
+  },
+  {
+   "anahtar": "2026-10-20-sparkx-i7-i8-pano|gonderi",
+   "buffer": "6af52297bc9f3773a1b575d3",
+   "zaman": "2026-11-12T09:05"
+  },
+  {
+   "anahtar": "2026-10-20-sparkx-i7-i8-pano|hikaye",
+   "buffer": "6af522983d8c751bfd0b8680",
+   "zaman": "2026-11-12T09:45"
+  },
+  {
+   "anahtar": "urun/telefon-tutuculu-masaustu-duzenleyici-kalemlikli|gonderi",
+   "buffer": "6af522992f7f0a6952e5a07f",
+   "zaman": "2026-11-12T12:38"
+  },
+  {
+   "anahtar": "urun/telefon-tutuculu-masaustu-duzenleyici-kalemlikli|hikaye",
+   "buffer": "6af5229a8a1a2f52b51932be",
+   "zaman": "2026-11-12T13:18"
+  },
+  {
+   "anahtar": "urun/yukseltilmis-kedi-kopek-mama-kabi-standi-isimli|gonderi",
+   "buffer": "6af5229bcb4c7286fd0a6c2d",
+   "zaman": "2026-11-12T17:24"
+  },
+  {
+   "anahtar": "urun/yukseltilmis-kedi-kopek-mama-kabi-standi-isimli|hikaye",
+   "buffer": "6af5229b2f7f0a6952e5a137",
+   "zaman": "2026-11-12T18:04"
+  },
+  {
+   "anahtar": "2026-10-20-sparkx-i7-i8-pano|reels",
+   "buffer": "6af5229ccb4c7286fd0a6c8a",
+   "zaman": "2026-11-12T19:40"
   }
  ]
 }

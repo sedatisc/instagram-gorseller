@@ -740,9 +740,10 @@
    "klasor": "2026-10-20-sparkx-i7-i8-pano",
    "kategori": "magaza",
    "konu": "sparkx-i7-i8-pano",
-   "durum": "hazir",
+   "durum": "yayinlandi",
    "kare": 1,
-   "reels": true
+   "reels": true,
+   "tarih": "2026-11-12"
   },
   {
    "klasor": "2026-10-21-ams-israf",
@@ -1053,8 +1054,9 @@
    "klasor": "urun/telefon-tutuculu-masaustu-duzenleyici-kalemlikli",
    "kategori": "baski",
    "konu": "telefon-tutuculu-masaustu-duzenleyici-kalemlikli",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-12"
   },
   {
    "klasor": "urun/yedek-rulo-hazneli-ayakli-tuvalet-kagitligi-nervurlu",
@@ -1068,8 +1070,9 @@
    "klasor": "urun/yukseltilmis-kedi-kopek-mama-kabi-standi-isimli",
    "kategori": "baski",
    "konu": "yukseltilmis-kedi-kopek-mama-kabi-standi-isimli",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-12"
   },
   {
    "klasor": "urun/5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto",
