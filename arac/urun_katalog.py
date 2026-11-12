@@ -111,10 +111,19 @@ def kayit(klasor):
 
 
 def gorseller(klasor):
+    """Gönderi kareleri, akışa göre sıralı.
+
+    Sitedeki ilk görsel pazaryeri bilgi kartı: başlık, detay kutuları ve
+    ölçü çizimi. Akışta ilan gibi duruyor, durdurmuyor. İkinci görsel
+    ürünün kendi ortamındaki fotoğrafı; kapakta o duruyor. Bilgi kartı
+    ikinci kareye geçiyor, kalan kareler sırasını koruyor."""
     k = kayit(klasor)
     if not k:
         return []
-    return ["%s/media/urun/%s.webp" % (SITE, u) for u in k.get("gorsel", [])]
+    g = list(k.get("gorsel", []))
+    if len(g) > 1:
+        g[0], g[1] = g[1], g[0]
+    return ["%s/media/urun/%s.webp" % (SITE, u) for u in g]
 
 
 def sayfa(klasor):

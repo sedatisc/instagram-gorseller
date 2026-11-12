@@ -457,6 +457,16 @@ def main():
         # bu, aynı saate ikinci bir gönderi çıkmasını engelliyor.
         if "--sadece-kampanya" in sys.argv and i.get("slot") != "kampanya":
             continue
+        # Gün içinde tek bir işi düzeltip yeniden göndermek için:
+        # --yalniz <önek>[,<önek>...]. Yalnız anahtarı bu öneklerden
+        # biriyle başlayan işler gidiyor, gün içinde yeniden türeyen
+        # başka hiçbir iş karışmıyor.
+        if "--yalniz" in sys.argv:
+            onekler = [o.strip() for o
+                       in sys.argv[sys.argv.index("--yalniz") + 1].split(",")
+                       if o.strip()]
+            if not any(i["anahtar"].startswith(o) for o in onekler):
+                continue
         isler.append(i)
     # Ücretsiz plan: kanal başına aynı anda en çok 10 bekleyen paylaşım.
     # Fazlası varsa önce kampanya hikayesi, sonra sondan hikayeler düşüyor.

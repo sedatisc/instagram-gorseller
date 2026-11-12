@@ -69,6 +69,15 @@ jobs:
             if [ -n "$ONEK" ]; then
               python3 otomasyon/buffer_gonder.py --geri-al "$ONEK" || true
             fi
+            # "yeniden: <anahtar öneki>[,<önek>]" satırı varsa yalnız o
+            # işler yeniden planlanıyor; kampanya dışı bir gönderiyi gün
+            # içinde düzeltip tekrar göndermek için.
+            YENI=$(grep -m1 '^yeniden:' otomasyon/TETIK \
+                   | sed 's/^yeniden: *//' || true)
+            if [ -n "$YENI" ]; then
+              python3 otomasyon/buffer_gonder.py --zorla --yalniz "$YENI"
+              exit $?
+            fi
             python3 otomasyon/buffer_gonder.py --zorla --sadece-kampanya
             exit $?
           fi
