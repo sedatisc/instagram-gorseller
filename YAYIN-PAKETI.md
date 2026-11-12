@@ -8,13 +8,13 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme.
 
 ---
 
-# 2026-11-12 · Perşembe
+# 2026-11-13 · Cuma
 
-## 09:05 · ÜRÜN & MAĞAZA
+## 09:10 · ÜRÜN & MAĞAZA
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-cesitleri"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-filament-cesitleri/1.jpg" width="240"></a>
 
-**[2026-10-21-filament-cesitleri](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-cesitleri)** · 8 kare · hikaye 09:45
+**[2026-10-21-filament-cesitleri](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-filament-cesitleri)** · 8 kare · hikaye 09:50
 
 ```
 "PLA aldım" demek artık tek bir şey anlatmıyor. Aynı rafta duran altı makara birbirinden bambaşka iş yapıyor.
@@ -64,11 +64,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #portmanto #antredüzeni
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice/1.jpg" width="240"></a>
 
-**[urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice)** · 7 kare · hikaye 18:04
+**[urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice)** · 7 kare · hikaye 17:20
 
 ```
 Ahşap Dokulu Yuvarlak Tepsi Seti - 3'lü İç İçe
@@ -88,13 +88,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-11-13 · Cuma
+# 2026-11-14 · Cumartesi
 
-## 09:10 · PROJE & ATÖLYE
+## 11:10 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-17-rc-tank/1.jpg" width="240"></a>
 
-**[2026-10-17-rc-tank](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank)** · 6 kare · hikaye 09:50
+**[2026-10-17-rc-tank](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-17-rc-tank)** · 6 kare · hikaye 11:50
 
 ```
 RC tank gibi büyük bir baskı projesinde işi bitiren şey baskı değil, parçaya bölme ve birleştirme kararları. Tabladan büyük parça basılmıyor; bölünüyor.
@@ -114,11 +114,11 @@ Masasında yarım kalmış büyük bir baskı projesi olan bir arkadaşın varsa
 #sermenkreatif #maker #3dbaski #rctank
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli/1.jpg" width="240"></a>
 
-**[urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli)** · 7 kare · hikaye 13:18
+**[urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli)** · 7 kare · hikaye 14:00
 
 ```
 Çiçek Formlu Çerezlik Sunum Tabağı - 6 Bölmeli, Orta Kaseli
@@ -136,11 +136,11 @@ Misafir ağırlamayı seven birine yolla.
 #sermenkreatif #3dbaski #sunumtabagi #dekoratifkase
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-ayakli-havlu-pecetelik-kulplu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-ayakli-havlu-pecetelik-kulplu/1.jpg" width="240"></a>
 
-**[urun/japandi-ayakli-havlu-pecetelik-kulplu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-ayakli-havlu-pecetelik-kulplu)** · 7 kare · hikaye 17:20
+**[urun/japandi-ayakli-havlu-pecetelik-kulplu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-ayakli-havlu-pecetelik-kulplu)** · 7 kare · hikaye 17:50
 
 ```
 Japandi Ayaklı Havlu Peçetelik - Kulplu
@@ -164,7 +164,7 @@ Açıklama gönderi metniyle aynı.
 
 ---
 
-# 2026-11-14 · Cumartesi
+# 2026-11-15 · Pazar
 
 ## 11:10 · ÜRÜN & MAĞAZA
 
@@ -234,19 +234,19 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifobje #evdekorasyonu
 ```
 
-## 19:20 · REELS — [2026-10-22-creality-k2-plus/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-creality-k2-plus)
+## 19:50 · REELS — [2026-10-22-creality-k2-plus/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-22-creality-k2-plus)
 
 Açıklama gönderi metniyle aynı.
 
 ---
 
-# 2026-11-15 · Pazar
+# 2026-11-16 · Pazartesi
 
-## 11:10 · PROJE & ATÖLYE
+## 09:10 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-toplulukta-ariza"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-18-toplulukta-ariza/1.jpg" width="240"></a>
 
-**[2026-10-18-toplulukta-ariza](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-toplulukta-ariza)** · 5 kare · hikaye 11:50
+**[2026-10-18-toplulukta-ariza](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-18-toplulukta-ariza)** · 5 kare · hikaye 09:50
 
 ```
 Baskı bozuk çıktığında çoğu kişi saatlerce tek başına ayar kurcalıyor. Oysa aynı arıza o gün başka birinin de başına gelmiş ve çözülmüş oluyor.
@@ -264,11 +264,11 @@ Katılmak için profildeki linke dokunman yeterli. Ücretsiz, istediğin an çı
 #sermenkreatif #3dbaski #3dbaskiturkiye #topluluk
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dis-macunu-standi-bas-asagi-tutucu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/dis-macunu-standi-bas-asagi-tutucu/1.jpg" width="240"></a>
 
-**[urun/dis-macunu-standi-bas-asagi-tutucu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dis-macunu-standi-bas-asagi-tutucu)** · 6 kare · hikaye 14:00
+**[urun/dis-macunu-standi-bas-asagi-tutucu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dis-macunu-standi-bas-asagi-tutucu)** · 6 kare · hikaye 13:18
 
 ```
 Diş Macunu Standı - Baş Aşağı Tutucu
@@ -286,11 +286,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #disfircaligi #banyoduzeni
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/eriyen-mum-gorunumlu-led-mumluk"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/eriyen-mum-gorunumlu-led-mumluk/1.jpg" width="240"></a>
 
-**[urun/eriyen-mum-gorunumlu-led-mumluk](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/eriyen-mum-gorunumlu-led-mumluk)** · 6 kare · hikaye 17:50
+**[urun/eriyen-mum-gorunumlu-led-mumluk](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/eriyen-mum-gorunumlu-led-mumluk)** · 6 kare · hikaye 18:04
 
 ```
 Eriyen Mum Görünümlü LED Mumluk
@@ -310,7 +310,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-11-16 · Pazartesi
+# 2026-11-17 · Salı
 
 ## 09:10 · PROJE & ATÖLYE
 
@@ -380,7 +380,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-11-17 · Salı
+# 2026-11-18 · Çarşamba
 
 ## 09:10 · PROJE & ATÖLYE
 
@@ -406,11 +406,11 @@ FPV'ye yeni başlayan bir arkadaşın varsa bu gönderiyi ona yolla.
 #sermenkreatif #maker #fpv #cinewhoop
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi/1.jpg" width="240"></a>
 
-**[urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi)** · 6 kare · hikaye 13:18
+**[urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi)** · 6 kare · hikaye 12:50
 
 ```
 Kapaklı Saklama Kutusu Seti - 2 Kutu ve Tepsi
@@ -456,13 +456,13 @@ Açıklama gönderi metniyle aynı.
 
 ---
 
-# 2026-11-18 · Çarşamba
+# 2026-11-19 · Perşembe
 
-## 09:10 · PROJE & ATÖLYE
+## 09:05 · PROJE & ATÖLYE
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi5-ekran-standi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-10-21-pi5-ekran-standi/1.jpg" width="240"></a>
 
-**[2026-10-21-pi5-ekran-standi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi5-ekran-standi)** · 4 kare · hikaye 09:50
+**[2026-10-21-pi5-ekran-standi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-10-21-pi5-ekran-standi)** · 4 kare · hikaye 09:45
 
 ```
 Raspberry Pi 5 ekran standı tasarlarken model çizmeden önce ölçülerin kumpasla doğrulanması gerekiyor; kartı tutmayan standın sorunu tasarım değil, ölçü.
@@ -482,11 +482,11 @@ Pi'sini kitap yığınına yaslayarak kullanan bir arkadaşın varsa ona yolla.
 #sermenkreatif #maker #raspberrypi #pi5
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi/1.jpg" width="240"></a>
 
-**[urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi)** · 6 kare · hikaye 12:50
+**[urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi)** · 6 kare · hikaye 13:18
 
 ```
 Kendinden Kilitli Havlu Askısı - Nervürlü Duvar Kancası
@@ -528,13 +528,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-11-19 · Perşembe
+# 2026-11-20 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kumanda-standi-egimli-bolmeli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kumanda-standi-egimli-bolmeli/1.jpg" width="240"></a>
 
-**[urun/kumanda-standi-egimli-bolmeli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kumanda-standi-egimli-bolmeli)** · 6 kare · hikaye 09:45
+**[urun/kumanda-standi-egimli-bolmeli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kumanda-standi-egimli-bolmeli)** · 6 kare · hikaye 09:50
 
 ```
 Kumanda Standı - Eğimli Bölmeli
@@ -574,11 +574,11 @@ Evden çalışan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #monitoryukseltici #masaduzeni
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi/1.jpg" width="240"></a>
 
-**[urun/nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi)** · 6 kare · hikaye 18:04
+**[urun/nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi)** · 6 kare · hikaye 17:20
 
 ```
 Nervürlü Diş Fırçalığı Seti - 2 Bardak ve Tepsi
@@ -598,13 +598,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-11-20 · Cuma
+# 2026-11-21 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-modern-kalemlik-silindir"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nervurlu-modern-kalemlik-silindir/1.jpg" width="240"></a>
 
-**[urun/nervurlu-modern-kalemlik-silindir](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-modern-kalemlik-silindir)** · 6 kare · hikaye 09:50
+**[urun/nervurlu-modern-kalemlik-silindir](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-modern-kalemlik-silindir)** · 6 kare · hikaye 11:50
 
 ```
 Nervürlü Modern Kalemlik - Silindir
@@ -622,11 +622,11 @@ Masası dağınık olan arkadaşına yolla.
 #sermenkreatif #3dbaski #kalemlik #masaduzeni
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/pilili-ayakli-dekoratif-pasta-standi-23-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/pilili-ayakli-dekoratif-pasta-standi-23-cm/1.jpg" width="240"></a>
 
-**[urun/pilili-ayakli-dekoratif-pasta-standi-23-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/pilili-ayakli-dekoratif-pasta-standi-23-cm)** · 8 kare · hikaye 13:18
+**[urun/pilili-ayakli-dekoratif-pasta-standi-23-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/pilili-ayakli-dekoratif-pasta-standi-23-cm)** · 8 kare · hikaye 14:00
 
 ```
 Pilili Ayaklı Dekoratif Pasta Standı - 23 cm
@@ -644,11 +644,11 @@ Pasta yapan arkadaşına yolla.
 #sermenkreatif #3dbaski #sunumstandi #pastastandi
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ayakli-kopek-mama-kabi-standi-japandi-isim-plakali"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/ayakli-kopek-mama-kabi-standi-japandi-isim-plakali/1.jpg" width="240"></a>
 
-**[urun/ayakli-kopek-mama-kabi-standi-japandi-isim-plakali](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ayakli-kopek-mama-kabi-standi-japandi-isim-plakali)** · 7 kare · hikaye 17:20
+**[urun/ayakli-kopek-mama-kabi-standi-japandi-isim-plakali](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ayakli-kopek-mama-kabi-standi-japandi-isim-plakali)** · 7 kare · hikaye 17:50
 
 ```
 Ayaklı Köpek Mama Kabı Standı - Japandi, İsim Plakalı
@@ -668,7 +668,7 @@ Kedisi ya da köpeği olan birine yolla.
 
 ---
 
-# 2026-11-21 · Cumartesi
+# 2026-11-22 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -738,13 +738,13 @@ Kedisi ya da köpeği olan birine yolla.
 
 ---
 
-# 2026-11-22 · Pazar
+# 2026-11-23 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi/1.jpg" width="240"></a>
 
-**[urun/isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi)** · 7 kare · hikaye 11:50
+**[urun/isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi)** · 7 kare · hikaye 09:50
 
 ```
 İsimli Köpek Tasma Askısı - Pati Motifli Duvar Askısı
@@ -762,11 +762,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #duvaraskisi #portmanto
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-cift-duvar-askisi-minimal-kanca"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nervurlu-cift-duvar-askisi-minimal-kanca/1.jpg" width="240"></a>
 
-**[urun/nervurlu-cift-duvar-askisi-minimal-kanca](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-cift-duvar-askisi-minimal-kanca)** · 7 kare · hikaye 14:00
+**[urun/nervurlu-cift-duvar-askisi-minimal-kanca](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-cift-duvar-askisi-minimal-kanca)** · 7 kare · hikaye 13:18
 
 ```
 Nervürlü Çift Duvar Askısı - Minimal Kanca
@@ -784,11 +784,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #duvaraskisi #portmanto
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yildiz-kenarli-ayakli-pasta-standi-25-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/yildiz-kenarli-ayakli-pasta-standi-25-cm/1.jpg" width="240"></a>
 
-**[urun/yildiz-kenarli-ayakli-pasta-standi-25-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yildiz-kenarli-ayakli-pasta-standi-25-cm)** · 7 kare · hikaye 17:50
+**[urun/yildiz-kenarli-ayakli-pasta-standi-25-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yildiz-kenarli-ayakli-pasta-standi-25-cm)** · 7 kare · hikaye 18:04
 
 ```
 Yıldız Kenarlı Ayaklı Pasta Standı - 25 cm
@@ -808,7 +808,7 @@ Pasta yapan arkadaşına yolla.
 
 ---
 
-# 2026-11-23 · Pazartesi
+# 2026-11-24 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -878,7 +878,7 @@ Misafir ağırlamayı seven birine yolla.
 
 ---
 
-# 2026-11-24 · Salı
+# 2026-11-25 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -902,11 +902,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #mumluk #evdekorasyonu
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk/1.jpg" width="240"></a>
 
-**[urun/isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk)** · 6 kare · hikaye 13:18
+**[urun/isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk)** · 6 kare · hikaye 12:50
 
 ```
 Işıklı İskandinav Yılbaşı Ağacı - Delik Desenli LED Mumluk
@@ -948,13 +948,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-11-25 · Çarşamba
+# 2026-11-26 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/katmanli-yilbasi-agaci-led-mumluk-2-li"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/katmanli-yilbasi-agaci-led-mumluk-2-li/1.jpg" width="240"></a>
 
-**[urun/katmanli-yilbasi-agaci-led-mumluk-2-li](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/katmanli-yilbasi-agaci-led-mumluk-2-li)** · 6 kare · hikaye 09:50
+**[urun/katmanli-yilbasi-agaci-led-mumluk-2-li](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/katmanli-yilbasi-agaci-led-mumluk-2-li)** · 6 kare · hikaye 09:45
 
 ```
 Katmanlı Yılbaşı Ağacı LED Mumluk - 2'li
@@ -972,11 +972,11 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 #sermenkreatif #3dbaski #yilbasiagaci #yilbasi
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru/1.jpg" width="240"></a>
 
-**[urun/kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru)** · 6 kare · hikaye 12:50
+**[urun/kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru)** · 6 kare · hikaye 13:18
 
 ```
 Kozalak Ev Tealight Mumluk - Işıklı Yılbaşı Dekoru
@@ -1018,13 +1018,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-11-26 · Perşembe
+# 2026-11-27 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-duzenleyici-kutu-masaustu-organizer"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nervurlu-duzenleyici-kutu-masaustu-organizer/1.jpg" width="240"></a>
 
-**[urun/nervurlu-duzenleyici-kutu-masaustu-organizer](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-duzenleyici-kutu-masaustu-organizer)** · 6 kare · hikaye 09:45
+**[urun/nervurlu-duzenleyici-kutu-masaustu-organizer](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-duzenleyici-kutu-masaustu-organizer)** · 6 kare · hikaye 09:50
 
 ```
 Nervürlü Düzenleyici Kutu - Masaüstü Organizer
@@ -1064,11 +1064,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #saklamakutusu #evduzeni
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-anahtarlik-donen-cekirdekli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/spiral-anahtarlik-donen-cekirdekli/1.jpg" width="240"></a>
 
-**[urun/spiral-anahtarlik-donen-cekirdekli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-anahtarlik-donen-cekirdekli)** · 6 kare · hikaye 18:04
+**[urun/spiral-anahtarlik-donen-cekirdekli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-anahtarlik-donen-cekirdekli)** · 6 kare · hikaye 17:20
 
 ```
 Spiral Anahtarlık - Dönen Çekirdekli
@@ -1088,13 +1088,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-11-27 · Cuma
+# 2026-11-28 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/anahtarlikli-duvar-rafi-4-askili-gokkusagi-desenli-dekoratif-anahtar-askisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/anahtarlikli-duvar-rafi-4-askili-gokkusagi-desenli-dekoratif-anahtar-askisi/1.jpg" width="240"></a>
 
-**[urun/anahtarlikli-duvar-rafi-4-askili-gokkusagi-desenli-dekoratif-anahtar-askisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/anahtarlikli-duvar-rafi-4-askili-gokkusagi-desenli-dekoratif-anahtar-askisi)** · 3 kare · hikaye 09:50
+**[urun/anahtarlikli-duvar-rafi-4-askili-gokkusagi-desenli-dekoratif-anahtar-askisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/anahtarlikli-duvar-rafi-4-askili-gokkusagi-desenli-dekoratif-anahtar-askisi)** · 3 kare · hikaye 11:50
 
 ```
 Anahtarlıklı Duvar Rafı – 4 Askılı Gökkuşağı Desenli Dekoratif Anahtar Askısı
@@ -1112,11 +1112,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #anahtarlik #cantasusu
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/atkili-kahverengi-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/atkili-kahverengi-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/1.jpg" width="240"></a>
 
-**[urun/atkili-kahverengi-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/atkili-kahverengi-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu)** · 3 kare · hikaye 13:18
+**[urun/atkili-kahverengi-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/atkili-kahverengi-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu)** · 3 kare · hikaye 14:00
 
 ```
 Atkılı Kahverengi Ayıcık Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü
@@ -1134,11 +1134,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #anahtarlik #cantasusu
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/1.jpg" width="240"></a>
 
-**[urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu)** · 2 kare · hikaye 17:20
+**[urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu)** · 2 kare · hikaye 17:50
 
 ```
 Atkılı Mavi Penguen Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü
@@ -1158,7 +1158,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-11-28 · Cumartesi
+# 2026-11-29 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -1228,13 +1228,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-11-29 · Pazar
+# 2026-11-30 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gulumseyen-turuncu-tilki-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/gulumseyen-turuncu-tilki-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/1.jpg" width="240"></a>
 
-**[urun/gulumseyen-turuncu-tilki-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gulumseyen-turuncu-tilki-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu)** · 3 kare · hikaye 11:50
+**[urun/gulumseyen-turuncu-tilki-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gulumseyen-turuncu-tilki-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu)** · 3 kare · hikaye 09:50
 
 ```
 Gülümseyen Turuncu Tilki Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü
@@ -1252,11 +1252,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #anahtarlik #cantasusu
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/havuclu-pembe-tavsan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/havuclu-pembe-tavsan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/1.jpg" width="240"></a>
 
-**[urun/havuclu-pembe-tavsan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/havuclu-pembe-tavsan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu)** · 3 kare · hikaye 14:00
+**[urun/havuclu-pembe-tavsan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/havuclu-pembe-tavsan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu)** · 3 kare · hikaye 13:18
 
 ```
 Havuçlu Pembe Tavşan Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü
@@ -1274,11 +1274,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #anahtarlik #cantasusu
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ince-anahtar-askisi-kemer-desenli-5-askili-duvara-monte-dekoratif-anahtarlik-ask"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/ince-anahtar-askisi-kemer-desenli-5-askili-duvara-monte-dekoratif-anahtarlik-ask/1.jpg" width="240"></a>
 
-**[urun/ince-anahtar-askisi-kemer-desenli-5-askili-duvara-monte-dekoratif-anahtarlik-ask](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ince-anahtar-askisi-kemer-desenli-5-askili-duvara-monte-dekoratif-anahtarlik-ask)** · 3 kare · hikaye 17:50
+**[urun/ince-anahtar-askisi-kemer-desenli-5-askili-duvara-monte-dekoratif-anahtarlik-ask](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ince-anahtar-askisi-kemer-desenli-5-askili-duvara-monte-dekoratif-anahtarlik-ask)** · 3 kare · hikaye 18:04
 
 ```
 İnce Anahtar Askısı – Kemer Desenli 5 Askılı Duvara Monte Dekoratif Anahtarlık Askısı
@@ -1298,7 +1298,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-11-30 · Pazartesi
+# 2026-12-01 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -1368,7 +1368,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-12-01 · Salı
+# 2026-12-02 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -1392,11 +1392,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #anahtarlik #cantasusu
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/rafli-anahtar-askisi-gunes-ve-tepe-desenli-4-kancali-duvara-monte-dekoratif-anah"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/rafli-anahtar-askisi-gunes-ve-tepe-desenli-4-kancali-duvara-monte-dekoratif-anah/1.jpg" width="240"></a>
 
-**[urun/rafli-anahtar-askisi-gunes-ve-tepe-desenli-4-kancali-duvara-monte-dekoratif-anah](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/rafli-anahtar-askisi-gunes-ve-tepe-desenli-4-kancali-duvara-monte-dekoratif-anah)** · 4 kare · hikaye 13:18
+**[urun/rafli-anahtar-askisi-gunes-ve-tepe-desenli-4-kancali-duvara-monte-dekoratif-anah](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/rafli-anahtar-askisi-gunes-ve-tepe-desenli-4-kancali-duvara-monte-dekoratif-anah)** · 4 kare · hikaye 12:50
 
 ```
 Raflı Anahtar Askısı – Güneş ve Tepe Desenli 4 Kancalı Duvara Monte Dekoratif Anahtarlık Askısı
@@ -1438,13 +1438,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-12-02 · Çarşamba
+# 2026-12-03 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/sevimli-gri-fil-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/sevimli-gri-fil-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/1.jpg" width="240"></a>
 
-**[urun/sevimli-gri-fil-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/sevimli-gri-fil-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu)** · 3 kare · hikaye 09:50
+**[urun/sevimli-gri-fil-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/sevimli-gri-fil-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu)** · 3 kare · hikaye 09:45
 
 ```
 Sevimli Gri Fil Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü
@@ -1462,11 +1462,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #anahtarlik #cantasusu
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yeleli-sari-aslan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/yeleli-sari-aslan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/1.jpg" width="240"></a>
 
-**[urun/yeleli-sari-aslan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yeleli-sari-aslan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu)** · 3 kare · hikaye 12:50
+**[urun/yeleli-sari-aslan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yeleli-sari-aslan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu)** · 3 kare · hikaye 13:18
 
 ```
 Yeleli Sarı Aslan Anahtarlık – Örgü Görünümlü 3D Baskı Çanta Süsü
@@ -1508,13 +1508,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-12-03 · Perşembe
+# 2026-12-04 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/minimal-duvar-askisi-kavisli-kanca"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/minimal-duvar-askisi-kavisli-kanca/1.jpg" width="240"></a>
 
-**[urun/minimal-duvar-askisi-kavisli-kanca](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/minimal-duvar-askisi-kavisli-kanca)** · 6 kare · hikaye 09:45
+**[urun/minimal-duvar-askisi-kavisli-kanca](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/minimal-duvar-askisi-kavisli-kanca)** · 6 kare · hikaye 09:50
 
 ```
 Minimal Duvar Askısı - Kavisli Kanca
@@ -1554,11 +1554,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #ayakkabilik #antredüzeni
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/katlanir-baharatlik-3-kademeli-basamakli-baharat-rafi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/katlanir-baharatlik-3-kademeli-basamakli-baharat-rafi/1.jpg" width="240"></a>
 
-**[urun/katlanir-baharatlik-3-kademeli-basamakli-baharat-rafi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/katlanir-baharatlik-3-kademeli-basamakli-baharat-rafi)** · 6 kare · hikaye 18:04
+**[urun/katlanir-baharatlik-3-kademeli-basamakli-baharat-rafi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/katlanir-baharatlik-3-kademeli-basamakli-baharat-rafi)** · 6 kare · hikaye 17:20
 
 ```
 Katlanır Baharatlık - 3 Kademeli Basamaklı Baharat Rafı
@@ -1578,13 +1578,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-12-04 · Cuma
+# 2026-12-05 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/pamuk-ve-kulak-cubugu-seti-nervurlu-banyo-duzenleyici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/pamuk-ve-kulak-cubugu-seti-nervurlu-banyo-duzenleyici/1.jpg" width="240"></a>
 
-**[urun/pamuk-ve-kulak-cubugu-seti-nervurlu-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/pamuk-ve-kulak-cubugu-seti-nervurlu-banyo-duzenleyici)** · 6 kare · hikaye 09:50
+**[urun/pamuk-ve-kulak-cubugu-seti-nervurlu-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/pamuk-ve-kulak-cubugu-seti-nervurlu-banyo-duzenleyici)** · 6 kare · hikaye 11:50
 
 ```
 Pamuk ve Kulak Çubuğu Seti - Nervürlü Banyo Düzenleyici
@@ -1602,11 +1602,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #banyoduzenleyici #banyoduzeni
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/retro-disket-bardak-altligi-seti-8-li-suruculu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/retro-disket-bardak-altligi-seti-8-li-suruculu/1.jpg" width="240"></a>
 
-**[urun/retro-disket-bardak-altligi-seti-8-li-suruculu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/retro-disket-bardak-altligi-seti-8-li-suruculu)** · 4 kare · hikaye 13:18
+**[urun/retro-disket-bardak-altligi-seti-8-li-suruculu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/retro-disket-bardak-altligi-seti-8-li-suruculu)** · 4 kare · hikaye 14:00
 
 ```
 Retro Disket Bardak Altlığı Seti - 8'li Sürücülü
@@ -1624,11 +1624,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #3dbaskiurun #evdekorasyonu
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/aktivite-tahtasi-6-bolmeli-mesgul-tahtasi-disli-saat-vida-somun-egitici-oyuncak"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/aktivite-tahtasi-6-bolmeli-mesgul-tahtasi-disli-saat-vida-somun-egitici-oyuncak/1.jpg" width="240"></a>
 
-**[urun/aktivite-tahtasi-6-bolmeli-mesgul-tahtasi-disli-saat-vida-somun-egitici-oyuncak](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/aktivite-tahtasi-6-bolmeli-mesgul-tahtasi-disli-saat-vida-somun-egitici-oyuncak)** · 4 kare · hikaye 17:20
+**[urun/aktivite-tahtasi-6-bolmeli-mesgul-tahtasi-disli-saat-vida-somun-egitici-oyuncak](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/aktivite-tahtasi-6-bolmeli-mesgul-tahtasi-disli-saat-vida-somun-egitici-oyuncak)** · 4 kare · hikaye 17:50
 
 ```
 Aktivite Tahtası 6 Bölmeli Meşgul Tahtası Dişli Saat Vida Somun Eğitici Oyuncak
@@ -1648,7 +1648,7 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2026-12-05 · Cumartesi
+# 2026-12-06 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -1718,13 +1718,13 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2026-12-06 · Pazar
+# 2026-12-07 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cocuk-cay-takimi-evcilik-oyuncak-cay-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/cocuk-cay-takimi-evcilik-oyuncak-cay-seti/1.jpg" width="240"></a>
 
-**[urun/cocuk-cay-takimi-evcilik-oyuncak-cay-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cocuk-cay-takimi-evcilik-oyuncak-cay-seti)** · 3 kare · hikaye 11:50
+**[urun/cocuk-cay-takimi-evcilik-oyuncak-cay-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cocuk-cay-takimi-evcilik-oyuncak-cay-seti)** · 3 kare · hikaye 09:50
 
 ```
 Çocuk Çay Takımı - Evcilik Oyuncak Çay Seti
@@ -1742,11 +1742,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #aktiviteoyuncagi
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cocuk-oklavasi-desenli-oyun-hamuru-merdanesi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/cocuk-oklavasi-desenli-oyun-hamuru-merdanesi/1.jpg" width="240"></a>
 
-**[urun/cocuk-oklavasi-desenli-oyun-hamuru-merdanesi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cocuk-oklavasi-desenli-oyun-hamuru-merdanesi)** · 3 kare · hikaye 14:00
+**[urun/cocuk-oklavasi-desenli-oyun-hamuru-merdanesi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cocuk-oklavasi-desenli-oyun-hamuru-merdanesi)** · 3 kare · hikaye 13:18
 
 ```
 Çocuk Oklavası - Desenli Oyun Hamuru Merdanesi
@@ -1764,11 +1764,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #aktiviteoyuncagi
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/duygu-damgalari-oyun-hamuru-kalip-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/duygu-damgalari-oyun-hamuru-kalip-seti/1.jpg" width="240"></a>
 
-**[urun/duygu-damgalari-oyun-hamuru-kalip-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/duygu-damgalari-oyun-hamuru-kalip-seti)** · 3 kare · hikaye 17:50
+**[urun/duygu-damgalari-oyun-hamuru-kalip-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/duygu-damgalari-oyun-hamuru-kalip-seti)** · 3 kare · hikaye 18:04
 
 ```
 Duygu Damgaları - Oyun Hamuru Kalıp Seti
@@ -1788,7 +1788,7 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2026-12-07 · Pazartesi
+# 2026-12-08 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -1858,7 +1858,7 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2026-12-08 · Salı
+# 2026-12-09 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -1882,11 +1882,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #aktiviteoyuncagi
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/masaustu-mini-langirt-paletli-atari-oyuncagi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/masaustu-mini-langirt-paletli-atari-oyuncagi/1.jpg" width="240"></a>
 
-**[urun/masaustu-mini-langirt-paletli-atari-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/masaustu-mini-langirt-paletli-atari-oyuncagi)** · 3 kare · hikaye 13:18
+**[urun/masaustu-mini-langirt-paletli-atari-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/masaustu-mini-langirt-paletli-atari-oyuncagi)** · 3 kare · hikaye 12:50
 
 ```
 Masaüstü Mini Langırt - Paletli Atari Oyuncağı
@@ -1928,13 +1928,13 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2026-12-09 · Çarşamba
+# 2026-12-10 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/oyuncak-alet-seti-cocuk-tamir-takimi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/oyuncak-alet-seti-cocuk-tamir-takimi/1.jpg" width="240"></a>
 
-**[urun/oyuncak-alet-seti-cocuk-tamir-takimi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/oyuncak-alet-seti-cocuk-tamir-takimi)** · 3 kare · hikaye 09:50
+**[urun/oyuncak-alet-seti-cocuk-tamir-takimi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/oyuncak-alet-seti-cocuk-tamir-takimi)** · 3 kare · hikaye 09:45
 
 ```
 Oyuncak Alet Seti - Çocuk Tamir Takımı
@@ -1952,11 +1952,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #aktiviteoyuncagi
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/oyuncak-cay-kahve-seti-6-renk-tabakli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/oyuncak-cay-kahve-seti-6-renk-tabakli/1.jpg" width="240"></a>
 
-**[urun/oyuncak-cay-kahve-seti-6-renk-tabakli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/oyuncak-cay-kahve-seti-6-renk-tabakli)** · 3 kare · hikaye 12:50
+**[urun/oyuncak-cay-kahve-seti-6-renk-tabakli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/oyuncak-cay-kahve-seti-6-renk-tabakli)** · 3 kare · hikaye 13:18
 
 ```
 Oyuncak Çay & Kahve Seti — 6 Renk, Tabaklı
@@ -1998,13 +1998,13 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2026-12-10 · Perşembe
+# 2026-12-11 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/oyuncak-meyve-sebze-seti-sandikli-egitici-market-manav-oyunu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/oyuncak-meyve-sebze-seti-sandikli-egitici-market-manav-oyunu/1.jpg" width="240"></a>
 
-**[urun/oyuncak-meyve-sebze-seti-sandikli-egitici-market-manav-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/oyuncak-meyve-sebze-seti-sandikli-egitici-market-manav-oyunu)** · 3 kare · hikaye 09:45
+**[urun/oyuncak-meyve-sebze-seti-sandikli-egitici-market-manav-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/oyuncak-meyve-sebze-seti-sandikli-egitici-market-manav-oyunu)** · 3 kare · hikaye 09:50
 
 ```
 Oyuncak Meyve Sebze Seti Sandıklı Eğitici Market Manav Oyunu
@@ -2044,11 +2044,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #aktiviteoyuncagi
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/sihirli-iksir-yapma-seti-rol-yapma-oyuncagi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/sihirli-iksir-yapma-seti-rol-yapma-oyuncagi/1.jpg" width="240"></a>
 
-**[urun/sihirli-iksir-yapma-seti-rol-yapma-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/sihirli-iksir-yapma-seti-rol-yapma-oyuncagi)** · 3 kare · hikaye 18:04
+**[urun/sihirli-iksir-yapma-seti-rol-yapma-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/sihirli-iksir-yapma-seti-rol-yapma-oyuncagi)** · 3 kare · hikaye 17:20
 
 ```
 Sihirli İksir Yapma Seti - Rol Yapma Oyuncağı
@@ -2068,13 +2068,13 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2026-12-11 · Cuma
+# 2026-12-12 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/topac-savas-arenasi-2-topacli-arena-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/topac-savas-arenasi-2-topacli-arena-seti/1.jpg" width="240"></a>
 
-**[urun/topac-savas-arenasi-2-topacli-arena-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/topac-savas-arenasi-2-topacli-arena-seti)** · 3 kare · hikaye 09:50
+**[urun/topac-savas-arenasi-2-topacli-arena-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/topac-savas-arenasi-2-topacli-arena-seti)** · 3 kare · hikaye 11:50
 
 ```
 Topaç Savaş Arenası - 2 Topaçlı Arena Seti
@@ -2092,11 +2092,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #aktiviteoyuncagi
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/vidali-kepce-oyuncak-tornavidali-sokup-tak-is-makinesi-yapim-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/vidali-kepce-oyuncak-tornavidali-sokup-tak-is-makinesi-yapim-seti/1.jpg" width="240"></a>
 
-**[urun/vidali-kepce-oyuncak-tornavidali-sokup-tak-is-makinesi-yapim-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/vidali-kepce-oyuncak-tornavidali-sokup-tak-is-makinesi-yapim-seti)** · 4 kare · hikaye 13:18
+**[urun/vidali-kepce-oyuncak-tornavidali-sokup-tak-is-makinesi-yapim-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/vidali-kepce-oyuncak-tornavidali-sokup-tak-is-makinesi-yapim-seti)** · 4 kare · hikaye 14:00
 
 ```
 Vidalı Kepçe Oyuncak Tornavidalı Söküp Tak İş Makinesi Yapım Seti
@@ -2114,11 +2114,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #aktiviteoyuncagi
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/vidali-sokup-tak-oyuncak-tren-tornavidali-egitici-yapim-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/vidali-sokup-tak-oyuncak-tren-tornavidali-egitici-yapim-seti/1.jpg" width="240"></a>
 
-**[urun/vidali-sokup-tak-oyuncak-tren-tornavidali-egitici-yapim-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/vidali-sokup-tak-oyuncak-tren-tornavidali-egitici-yapim-seti)** · 3 kare · hikaye 17:20
+**[urun/vidali-sokup-tak-oyuncak-tren-tornavidali-egitici-yapim-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/vidali-sokup-tak-oyuncak-tren-tornavidali-egitici-yapim-seti)** · 3 kare · hikaye 17:50
 
 ```
 Vidalı Söküp Tak Oyuncak Tren Tornavidalı Eğitici Yapım Seti
@@ -2138,7 +2138,7 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2026-12-12 · Cumartesi
+# 2026-12-13 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -2208,13 +2208,13 @@ Faturalı satış, Samsun'dan kargo. 309,90 ₺.
 
 ---
 
-# 2026-12-13 · Pazar
+# 2026-12-14 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dinozor-cizim-sablon-kartlari-cocuk-boyama-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/dinozor-cizim-sablon-kartlari-cocuk-boyama-seti/1.jpg" width="240"></a>
 
-**[urun/dinozor-cizim-sablon-kartlari-cocuk-boyama-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dinozor-cizim-sablon-kartlari-cocuk-boyama-seti)** · 3 kare · hikaye 11:50
+**[urun/dinozor-cizim-sablon-kartlari-cocuk-boyama-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dinozor-cizim-sablon-kartlari-cocuk-boyama-seti)** · 3 kare · hikaye 09:50
 
 ```
 Dinozor Çizim Şablon Kartları - Çocuk Boyama Seti
@@ -2232,11 +2232,11 @@ Faturalı satış, Samsun'dan kargo. 399,90 ₺.
 #sermenkreatif #3dbaski #boyamaseti #cocuketkinligi
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-cizim-seti-disli-desen-cizim-oyuncagi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/spiral-cizim-seti-disli-desen-cizim-oyuncagi/1.jpg" width="240"></a>
 
-**[urun/spiral-cizim-seti-disli-desen-cizim-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-cizim-seti-disli-desen-cizim-oyuncagi)** · 3 kare · hikaye 14:00
+**[urun/spiral-cizim-seti-disli-desen-cizim-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-cizim-seti-disli-desen-cizim-oyuncagi)** · 3 kare · hikaye 13:18
 
 ```
 Spiral Çizim Seti - Dişli Desen Çizim Oyuncağı
@@ -2254,11 +2254,11 @@ Faturalı satış, Samsun'dan kargo. 309,90 ₺.
 #sermenkreatif #3dbaski #boyamaseti #cocuketkinligi
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cekmeceli-buzdolabi-yumurtaligi-16-bolmeli-istiflenebilir"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/cekmeceli-buzdolabi-yumurtaligi-16-bolmeli-istiflenebilir/1.jpg" width="240"></a>
 
-**[urun/cekmeceli-buzdolabi-yumurtaligi-16-bolmeli-istiflenebilir](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cekmeceli-buzdolabi-yumurtaligi-16-bolmeli-istiflenebilir)** · 5 kare · hikaye 17:50
+**[urun/cekmeceli-buzdolabi-yumurtaligi-16-bolmeli-istiflenebilir](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cekmeceli-buzdolabi-yumurtaligi-16-bolmeli-istiflenebilir)** · 5 kare · hikaye 18:04
 
 ```
 Çekmeceli Buzdolabı Yumurtalığı - 16 Bölmeli, İstiflenebilir
@@ -2278,7 +2278,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-12-14 · Pazartesi
+# 2026-12-15 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -2348,7 +2348,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-12-15 · Salı
+# 2026-12-16 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -2372,11 +2372,11 @@ Pasta yapan arkadaşına yolla.
 #sermenkreatif #3dbaski #sunumstandi #pastastandi
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/doner-pasta-standi-bilyeli-donen-tablali-25-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/doner-pasta-standi-bilyeli-donen-tablali-25-cm/1.jpg" width="240"></a>
 
-**[urun/doner-pasta-standi-bilyeli-donen-tablali-25-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/doner-pasta-standi-bilyeli-donen-tablali-25-cm)** · 6 kare · hikaye 13:18
+**[urun/doner-pasta-standi-bilyeli-donen-tablali-25-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/doner-pasta-standi-bilyeli-donen-tablali-25-cm)** · 6 kare · hikaye 12:50
 
 ```
 Döner Pasta Standı - Bilyeli Dönen Tablalı, 25 cm
@@ -2418,13 +2418,13 @@ Pasta yapan arkadaşına yolla.
 
 ---
 
-# 2026-12-16 · Çarşamba
+# 2026-12-17 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/buyuk-dunya-haritasi-duvar-dekoru-50-x-100-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/buyuk-dunya-haritasi-duvar-dekoru-50-x-100-cm/1.jpg" width="240"></a>
 
-**[urun/buyuk-dunya-haritasi-duvar-dekoru-50-x-100-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/buyuk-dunya-haritasi-duvar-dekoru-50-x-100-cm)** · 6 kare · hikaye 09:50
+**[urun/buyuk-dunya-haritasi-duvar-dekoru-50-x-100-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/buyuk-dunya-haritasi-duvar-dekoru-50-x-100-cm)** · 6 kare · hikaye 09:45
 
 ```
 Büyük Dünya Haritası Duvar Dekoru - 50 x 100 cm
@@ -2442,11 +2442,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifobje #evdekorasyonu
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ejderhali-kitap-destegi-kanatli-ejderha-kitaplik-ayraci"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/ejderhali-kitap-destegi-kanatli-ejderha-kitaplik-ayraci/1.jpg" width="240"></a>
 
-**[urun/ejderhali-kitap-destegi-kanatli-ejderha-kitaplik-ayraci](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ejderhali-kitap-destegi-kanatli-ejderha-kitaplik-ayraci)** · 5 kare · hikaye 12:50
+**[urun/ejderhali-kitap-destegi-kanatli-ejderha-kitaplik-ayraci](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ejderhali-kitap-destegi-kanatli-ejderha-kitaplik-ayraci)** · 5 kare · hikaye 13:18
 
 ```
 Ejderhalı Kitap Desteği - Kanatlı Ejderha Kitaplık Ayracı
@@ -2488,13 +2488,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-12-17 · Perşembe
+# 2026-12-18 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gotik-sato-okuma-takipcisi-isikli-kitaplik-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/gotik-sato-okuma-takipcisi-isikli-kitaplik-dekoru/1.jpg" width="240"></a>
 
-**[urun/gotik-sato-okuma-takipcisi-isikli-kitaplik-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gotik-sato-okuma-takipcisi-isikli-kitaplik-dekoru)** · 5 kare · hikaye 09:45
+**[urun/gotik-sato-okuma-takipcisi-isikli-kitaplik-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gotik-sato-okuma-takipcisi-isikli-kitaplik-dekoru)** · 5 kare · hikaye 09:50
 
 ```
 Gotik Şato Okuma Takipçisi - Işıklı Kitaplık Dekoru
@@ -2534,11 +2534,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifobje #evdekorasyonu
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kalpli-gul-biblo-solmayan-gul-hediye"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kalpli-gul-biblo-solmayan-gul-hediye/1.jpg" width="240"></a>
 
-**[urun/kalpli-gul-biblo-solmayan-gul-hediye](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kalpli-gul-biblo-solmayan-gul-hediye)** · 5 kare · hikaye 18:04
+**[urun/kalpli-gul-biblo-solmayan-gul-hediye](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kalpli-gul-biblo-solmayan-gul-hediye)** · 5 kare · hikaye 17:20
 
 ```
 Kalpli Gül Biblo - Solmayan Gül Hediye
@@ -2558,13 +2558,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-12-18 · Cuma
+# 2026-12-19 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-okuyan-ejderha-raf-kenari-biblo"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kitap-okuyan-ejderha-raf-kenari-biblo/1.jpg" width="240"></a>
 
-**[urun/kitap-okuyan-ejderha-raf-kenari-biblo](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-okuyan-ejderha-raf-kenari-biblo)** · 5 kare · hikaye 09:50
+**[urun/kitap-okuyan-ejderha-raf-kenari-biblo](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-okuyan-ejderha-raf-kenari-biblo)** · 5 kare · hikaye 11:50
 
 ```
 Kitap Okuyan Ejderha - Raf Kenarı Biblo
@@ -2582,11 +2582,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifobje #evdekorasyonu
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-okuyan-gargoyle-kitaplik-bekcisi-biblo"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kitap-okuyan-gargoyle-kitaplik-bekcisi-biblo/1.jpg" width="240"></a>
 
-**[urun/kitap-okuyan-gargoyle-kitaplik-bekcisi-biblo](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-okuyan-gargoyle-kitaplik-bekcisi-biblo)** · 5 kare · hikaye 13:18
+**[urun/kitap-okuyan-gargoyle-kitaplik-bekcisi-biblo](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-okuyan-gargoyle-kitaplik-bekcisi-biblo)** · 5 kare · hikaye 14:00
 
 ```
 Kitap Okuyan Gargoyle - Kitaplık Bekçisi Biblo
@@ -2604,11 +2604,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifobje #evdekorasyonu
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/minimal-tavsan-biblo-nervurlu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/minimal-tavsan-biblo-nervurlu/1.jpg" width="240"></a>
 
-**[urun/minimal-tavsan-biblo-nervurlu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/minimal-tavsan-biblo-nervurlu)** · 6 kare · hikaye 17:20
+**[urun/minimal-tavsan-biblo-nervurlu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/minimal-tavsan-biblo-nervurlu)** · 6 kare · hikaye 17:50
 
 ```
 Minimal Tavşan Biblo - Nervürlü
@@ -2628,7 +2628,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-12-19 · Cumartesi
+# 2026-12-20 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -2698,13 +2698,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-12-20 · Pazar
+# 2026-12-21 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/sinek-kusu-ve-gul-duvar-susu-dairesel-duvar-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/sinek-kusu-ve-gul-duvar-susu-dairesel-duvar-dekoru/1.jpg" width="240"></a>
 
-**[urun/sinek-kusu-ve-gul-duvar-susu-dairesel-duvar-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/sinek-kusu-ve-gul-duvar-susu-dairesel-duvar-dekoru)** · 6 kare · hikaye 11:50
+**[urun/sinek-kusu-ve-gul-duvar-susu-dairesel-duvar-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/sinek-kusu-ve-gul-duvar-susu-dairesel-duvar-dekoru)** · 6 kare · hikaye 09:50
 
 ```
 Sinek Kuşu ve Gül Duvar Süsü - Dairesel Duvar Dekoru
@@ -2722,11 +2722,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifobje #evdekorasyonu
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/agac-formlu-anahtarlik-kasesi-antre-ve-masa-icin-dekoratif-anahtar-ve-taki-kabi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/agac-formlu-anahtarlik-kasesi-antre-ve-masa-icin-dekoratif-anahtar-ve-taki-kabi/1.jpg" width="240"></a>
 
-**[urun/agac-formlu-anahtarlik-kasesi-antre-ve-masa-icin-dekoratif-anahtar-ve-taki-kabi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/agac-formlu-anahtarlik-kasesi-antre-ve-masa-icin-dekoratif-anahtar-ve-taki-kabi)** · 3 kare · hikaye 14:00
+**[urun/agac-formlu-anahtarlik-kasesi-antre-ve-masa-icin-dekoratif-anahtar-ve-taki-kabi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/agac-formlu-anahtarlik-kasesi-antre-ve-masa-icin-dekoratif-anahtar-ve-taki-kabi)** · 3 kare · hikaye 13:18
 
 ```
 Ağaç Formlu Anahtarlık Kasesi – Antre ve Masa İçin Dekoratif Anahtar ve Takı Kabı
@@ -2744,11 +2744,11 @@ Misafir ağırlamayı seven birine yolla.
 #sermenkreatif #3dbaski #sunumtabagi #dekoratifkase
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/boncuklu-dekoratif-tepsi-taki-mum-ve-aksesuar-icin-yuvarlak-duzenleyici-sehpa-te"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/boncuklu-dekoratif-tepsi-taki-mum-ve-aksesuar-icin-yuvarlak-duzenleyici-sehpa-te/1.jpg" width="240"></a>
 
-**[urun/boncuklu-dekoratif-tepsi-taki-mum-ve-aksesuar-icin-yuvarlak-duzenleyici-sehpa-te](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/boncuklu-dekoratif-tepsi-taki-mum-ve-aksesuar-icin-yuvarlak-duzenleyici-sehpa-te)** · 3 kare · hikaye 17:50
+**[urun/boncuklu-dekoratif-tepsi-taki-mum-ve-aksesuar-icin-yuvarlak-duzenleyici-sehpa-te](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/boncuklu-dekoratif-tepsi-taki-mum-ve-aksesuar-icin-yuvarlak-duzenleyici-sehpa-te)** · 3 kare · hikaye 18:04
 
 ```
 Boncuklu Dekoratif Tepsi – Takı, Mum ve Aksesuar İçin Yuvarlak Düzenleyici Sehpa Tepsisi
@@ -2768,7 +2768,7 @@ Misafir ağırlamayı seven birine yolla.
 
 ---
 
-# 2026-12-21 · Pazartesi
+# 2026-12-22 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -2838,7 +2838,7 @@ Misafir ağırlamayı seven birine yolla.
 
 ---
 
-# 2026-12-22 · Salı
+# 2026-12-23 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -2862,11 +2862,11 @@ Misafir ağırlamayı seven birine yolla.
 #sermenkreatif #3dbaski #sunumtabagi #dekoratifkase
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-ayakli-sunum-standi-mum-bitki-ve-parfum-icin-dekoratif-yukseltici-tabla"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nervurlu-ayakli-sunum-standi-mum-bitki-ve-parfum-icin-dekoratif-yukseltici-tabla/1.jpg" width="240"></a>
 
-**[urun/nervurlu-ayakli-sunum-standi-mum-bitki-ve-parfum-icin-dekoratif-yukseltici-tabla](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-ayakli-sunum-standi-mum-bitki-ve-parfum-icin-dekoratif-yukseltici-tabla)** · 3 kare · hikaye 13:18
+**[urun/nervurlu-ayakli-sunum-standi-mum-bitki-ve-parfum-icin-dekoratif-yukseltici-tabla](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-ayakli-sunum-standi-mum-bitki-ve-parfum-icin-dekoratif-yukseltici-tabla)** · 3 kare · hikaye 12:50
 
 ```
 Nervürlü Ayaklı Sunum Standı – Mum, Bitki ve Parfüm İçin Dekoratif Yükseltici Tabla
@@ -2908,13 +2908,13 @@ Misafir ağırlamayı seven birine yolla.
 
 ---
 
-# 2026-12-23 · Çarşamba
+# 2026-12-24 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/zikzak-kenarli-dekoratif-tepsi-orta-sehpa-ve-sunum-icin-yuvarlak-modern-servis-t"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/zikzak-kenarli-dekoratif-tepsi-orta-sehpa-ve-sunum-icin-yuvarlak-modern-servis-t/1.jpg" width="240"></a>
 
-**[urun/zikzak-kenarli-dekoratif-tepsi-orta-sehpa-ve-sunum-icin-yuvarlak-modern-servis-t](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/zikzak-kenarli-dekoratif-tepsi-orta-sehpa-ve-sunum-icin-yuvarlak-modern-servis-t)** · 3 kare · hikaye 09:50
+**[urun/zikzak-kenarli-dekoratif-tepsi-orta-sehpa-ve-sunum-icin-yuvarlak-modern-servis-t](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/zikzak-kenarli-dekoratif-tepsi-orta-sehpa-ve-sunum-icin-yuvarlak-modern-servis-t)** · 3 kare · hikaye 09:45
 
 ```
 Zikzak Kenarlı Dekoratif Tepsi – Orta Sehpa ve Sunum İçin Yuvarlak Modern Servis Tepsisi
@@ -2932,11 +2932,11 @@ Misafir ağırlamayı seven birine yolla.
 #sermenkreatif #3dbaski #sunumtabagi #dekoratifkase
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ahsap-panel-gorunumlu-duvar-rafi-2-rafli-duzenleyici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/ahsap-panel-gorunumlu-duvar-rafi-2-rafli-duzenleyici/1.jpg" width="240"></a>
 
-**[urun/ahsap-panel-gorunumlu-duvar-rafi-2-rafli-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ahsap-panel-gorunumlu-duvar-rafi-2-rafli-duzenleyici)** · 6 kare · hikaye 12:50
+**[urun/ahsap-panel-gorunumlu-duvar-rafi-2-rafli-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ahsap-panel-gorunumlu-duvar-rafi-2-rafli-duzenleyici)** · 6 kare · hikaye 13:18
 
 ```
 Ahşap Panel Görünümlü Duvar Rafı - 2 Raflı Düzenleyici
@@ -2978,13 +2978,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-12-24 · Perşembe
+# 2026-12-25 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalga-formlu-parametrik-duvar-rafi-heykelsi-buyuk-raf"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/dalga-formlu-parametrik-duvar-rafi-heykelsi-buyuk-raf/1.jpg" width="240"></a>
 
-**[urun/dalga-formlu-parametrik-duvar-rafi-heykelsi-buyuk-raf](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalga-formlu-parametrik-duvar-rafi-heykelsi-buyuk-raf)** · 6 kare · hikaye 09:45
+**[urun/dalga-formlu-parametrik-duvar-rafi-heykelsi-buyuk-raf](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalga-formlu-parametrik-duvar-rafi-heykelsi-buyuk-raf)** · 6 kare · hikaye 09:50
 
 ```
 Dalga Formlu Parametrik Duvar Rafı - Heykelsi Büyük Raf
@@ -3024,11 +3024,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #duvarrafi #evdekorasyonu
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/elmas-formlu-duvar-rafi-geometrik-bitki-rafi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/elmas-formlu-duvar-rafi-geometrik-bitki-rafi/1.jpg" width="240"></a>
 
-**[urun/elmas-formlu-duvar-rafi-geometrik-bitki-rafi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/elmas-formlu-duvar-rafi-geometrik-bitki-rafi)** · 6 kare · hikaye 18:04
+**[urun/elmas-formlu-duvar-rafi-geometrik-bitki-rafi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/elmas-formlu-duvar-rafi-geometrik-bitki-rafi)** · 6 kare · hikaye 17:20
 
 ```
 Elmas Formlu Duvar Rafı - Geometrik Bitki Rafı
@@ -3048,13 +3048,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-12-25 · Cuma
+# 2026-12-26 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/garaj-kapili-anahtarlik-duvar-anahtar-askisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/garaj-kapili-anahtarlik-duvar-anahtar-askisi/1.jpg" width="240"></a>
 
-**[urun/garaj-kapili-anahtarlik-duvar-anahtar-askisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/garaj-kapili-anahtarlik-duvar-anahtar-askisi)** · 4 kare · hikaye 09:50
+**[urun/garaj-kapili-anahtarlik-duvar-anahtar-askisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/garaj-kapili-anahtarlik-duvar-anahtar-askisi)** · 4 kare · hikaye 11:50
 
 ```
 Garaj Kapılı Anahtarlık - Duvar Anahtar Askısı
@@ -3072,11 +3072,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #duvarrafi #evdekorasyonu
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kemerli-duvar-rafi-katmanli-minimal-raf"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kemerli-duvar-rafi-katmanli-minimal-raf/1.jpg" width="240"></a>
 
-**[urun/kemerli-duvar-rafi-katmanli-minimal-raf](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kemerli-duvar-rafi-katmanli-minimal-raf)** · 7 kare · hikaye 13:18
+**[urun/kemerli-duvar-rafi-katmanli-minimal-raf](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kemerli-duvar-rafi-katmanli-minimal-raf)** · 7 kare · hikaye 14:00
 
 ```
 Kemerli Duvar Rafı - Katmanlı Minimal Raf
@@ -3094,11 +3094,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #duvarrafi #evdekorasyonu
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/led-kanalli-kose-duvar-rafi-nervurlu-kenarli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/led-kanalli-kose-duvar-rafi-nervurlu-kenarli/1.jpg" width="240"></a>
 
-**[urun/led-kanalli-kose-duvar-rafi-nervurlu-kenarli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/led-kanalli-kose-duvar-rafi-nervurlu-kenarli)** · 7 kare · hikaye 17:20
+**[urun/led-kanalli-kose-duvar-rafi-nervurlu-kenarli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/led-kanalli-kose-duvar-rafi-nervurlu-kenarli)** · 7 kare · hikaye 17:50
 
 ```
 LED Kanallı Köşe Duvar Rafı - Nervürlü Kenarlı
@@ -3118,7 +3118,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-12-26 · Cumartesi
+# 2026-12-27 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -3188,13 +3188,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2026-12-27 · Pazar
+# 2026-12-28 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/tuplu-duvar-rafi-nervurlu-mini-bitki-rafi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/tuplu-duvar-rafi-nervurlu-mini-bitki-rafi/1.jpg" width="240"></a>
 
-**[urun/tuplu-duvar-rafi-nervurlu-mini-bitki-rafi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/tuplu-duvar-rafi-nervurlu-mini-bitki-rafi)** · 6 kare · hikaye 11:50
+**[urun/tuplu-duvar-rafi-nervurlu-mini-bitki-rafi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/tuplu-duvar-rafi-nervurlu-mini-bitki-rafi)** · 6 kare · hikaye 09:50
 
 ```
 Tüplü Duvar Rafı - Nervürlü Mini Bitki Rafı
@@ -3212,11 +3212,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #duvarrafi #evdekorasyonu
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/altigen-mantik-bulmacasi-kutulu-zeka-oyunu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/altigen-mantik-bulmacasi-kutulu-zeka-oyunu/1.jpg" width="240"></a>
 
-**[urun/altigen-mantik-bulmacasi-kutulu-zeka-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/altigen-mantik-bulmacasi-kutulu-zeka-oyunu)** · 3 kare · hikaye 14:00
+**[urun/altigen-mantik-bulmacasi-kutulu-zeka-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/altigen-mantik-bulmacasi-kutulu-zeka-oyunu)** · 3 kare · hikaye 13:18
 
 ```
 Altıgen Mantık Bulmacası - Kutulu Zeka Oyunu
@@ -3234,11 +3234,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #cocukgelisimi
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ari-petegi-bulmacasi-altigen-zeka-oyunu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/ari-petegi-bulmacasi-altigen-zeka-oyunu/1.jpg" width="240"></a>
 
-**[urun/ari-petegi-bulmacasi-altigen-zeka-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ari-petegi-bulmacasi-altigen-zeka-oyunu)** · 3 kare · hikaye 17:50
+**[urun/ari-petegi-bulmacasi-altigen-zeka-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ari-petegi-bulmacasi-altigen-zeka-oyunu)** · 3 kare · hikaye 18:04
 
 ```
 Arı Peteği Bulmacası - Altıgen Zeka Oyunu
@@ -3258,7 +3258,7 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2026-12-28 · Pazartesi
+# 2026-12-29 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -3328,7 +3328,7 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2026-12-29 · Salı
+# 2026-12-30 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -3352,11 +3352,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #cocukgelisimi
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/doku-ve-renk-ayirma-seti-duyusal-egitici-oyuncak"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/doku-ve-renk-ayirma-seti-duyusal-egitici-oyuncak/1.jpg" width="240"></a>
 
-**[urun/doku-ve-renk-ayirma-seti-duyusal-egitici-oyuncak](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/doku-ve-renk-ayirma-seti-duyusal-egitici-oyuncak)** · 3 kare · hikaye 13:18
+**[urun/doku-ve-renk-ayirma-seti-duyusal-egitici-oyuncak](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/doku-ve-renk-ayirma-seti-duyusal-egitici-oyuncak)** · 3 kare · hikaye 12:50
 
 ```
 Doku ve Renk Ayırma Seti - Duyusal Eğitici Oyuncak
@@ -3398,13 +3398,13 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2026-12-30 · Çarşamba
+# 2026-12-31 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/duyusal-oyun-kepce-seti-kum-ve-pirinc-oyun-aparati"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/duyusal-oyun-kepce-seti-kum-ve-pirinc-oyun-aparati/1.jpg" width="240"></a>
 
-**[urun/duyusal-oyun-kepce-seti-kum-ve-pirinc-oyun-aparati](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/duyusal-oyun-kepce-seti-kum-ve-pirinc-oyun-aparati)** · 3 kare · hikaye 09:50
+**[urun/duyusal-oyun-kepce-seti-kum-ve-pirinc-oyun-aparati](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/duyusal-oyun-kepce-seti-kum-ve-pirinc-oyun-aparati)** · 3 kare · hikaye 09:45
 
 ```
 Duyusal Oyun Kepçe Seti - Kum ve Pirinç Oyun Aparatı
@@ -3422,11 +3422,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #cocukgelisimi
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gizli-mesaj-topaci-optik-bilim-oyuncagi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/gizli-mesaj-topaci-optik-bilim-oyuncagi/1.jpg" width="240"></a>
 
-**[urun/gizli-mesaj-topaci-optik-bilim-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gizli-mesaj-topaci-optik-bilim-oyuncagi)** · 3 kare · hikaye 12:50
+**[urun/gizli-mesaj-topaci-optik-bilim-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gizli-mesaj-topaci-optik-bilim-oyuncagi)** · 3 kare · hikaye 13:18
 
 ```
 Gizli Mesaj Topacı - Optik Bilim Oyuncağı
@@ -3468,13 +3468,13 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2026-12-31 · Perşembe
+# 2027-01-01 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kaydirmali-sayi-bulmacasi-3x3-ve-4x4-zeka-oyunu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kaydirmali-sayi-bulmacasi-3x3-ve-4x4-zeka-oyunu/1.jpg" width="240"></a>
 
-**[urun/kaydirmali-sayi-bulmacasi-3x3-ve-4x4-zeka-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kaydirmali-sayi-bulmacasi-3x3-ve-4x4-zeka-oyunu)** · 3 kare · hikaye 09:45
+**[urun/kaydirmali-sayi-bulmacasi-3x3-ve-4x4-zeka-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kaydirmali-sayi-bulmacasi-3x3-ve-4x4-zeka-oyunu)** · 3 kare · hikaye 09:50
 
 ```
 Kaydırmalı Sayı Bulmacası - 3x3 ve 4x4 Zeka Oyunu
@@ -3514,11 +3514,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #cocukgelisimi
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-kapat-kutusu-oyunu-zarli-sayi-oyunu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kitap-kapat-kutusu-oyunu-zarli-sayi-oyunu/1.jpg" width="240"></a>
 
-**[urun/kitap-kapat-kutusu-oyunu-zarli-sayi-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-kapat-kutusu-oyunu-zarli-sayi-oyunu)** · 5 kare · hikaye 18:04
+**[urun/kitap-kapat-kutusu-oyunu-zarli-sayi-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-kapat-kutusu-oyunu-zarli-sayi-oyunu)** · 5 kare · hikaye 17:20
 
 ```
 Kitap Kapat Kutusu Oyunu - Zarlı Sayı Oyunu
@@ -3538,13 +3538,13 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2027-01-01 · Cuma
+# 2027-01-02 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-kizma-birader-oyunu-kitap-gorunumlu-aile-oyunu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kitap-kizma-birader-oyunu-kitap-gorunumlu-aile-oyunu/1.jpg" width="240"></a>
 
-**[urun/kitap-kizma-birader-oyunu-kitap-gorunumlu-aile-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-kizma-birader-oyunu-kitap-gorunumlu-aile-oyunu)** · 5 kare · hikaye 09:50
+**[urun/kitap-kizma-birader-oyunu-kitap-gorunumlu-aile-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-kizma-birader-oyunu-kitap-gorunumlu-aile-oyunu)** · 5 kare · hikaye 11:50
 
 ```
 Kitap Kızma Birader Oyunu - Kitap Görünümlü Aile Oyunu
@@ -3562,11 +3562,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #cocukgelisimi
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-mangala-oyunu-kitap-gorunumlu-akil-ve-strateji-oyunu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kitap-mangala-oyunu-kitap-gorunumlu-akil-ve-strateji-oyunu/1.jpg" width="240"></a>
 
-**[urun/kitap-mangala-oyunu-kitap-gorunumlu-akil-ve-strateji-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-mangala-oyunu-kitap-gorunumlu-akil-ve-strateji-oyunu)** · 5 kare · hikaye 13:18
+**[urun/kitap-mangala-oyunu-kitap-gorunumlu-akil-ve-strateji-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-mangala-oyunu-kitap-gorunumlu-akil-ve-strateji-oyunu)** · 5 kare · hikaye 14:00
 
 ```
 Kitap Mangala Oyunu - Kitap Görünümlü Akıl ve Strateji Oyunu
@@ -3584,11 +3584,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #cocukgelisimi
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-satranc-takimi-kitap-gorunumlu-katlanir-satranc-tahtasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kitap-satranc-takimi-kitap-gorunumlu-katlanir-satranc-tahtasi/1.jpg" width="240"></a>
 
-**[urun/kitap-satranc-takimi-kitap-gorunumlu-katlanir-satranc-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-satranc-takimi-kitap-gorunumlu-katlanir-satranc-tahtasi)** · 6 kare · hikaye 17:20
+**[urun/kitap-satranc-takimi-kitap-gorunumlu-katlanir-satranc-tahtasi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-satranc-takimi-kitap-gorunumlu-katlanir-satranc-tahtasi)** · 6 kare · hikaye 17:50
 
 ```
 Kitap Satranç Takımı - Kitap Görünümlü Katlanır Satranç Tahtası
@@ -3608,7 +3608,7 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2027-01-02 · Cumartesi
+# 2027-01-03 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -3678,13 +3678,13 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2027-01-03 · Pazar
+# 2027-01-04 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/trafik-sikismasi-oyunu-arabali-mantik-bulmacasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/trafik-sikismasi-oyunu-arabali-mantik-bulmacasi/1.jpg" width="240"></a>
 
-**[urun/trafik-sikismasi-oyunu-arabali-mantik-bulmacasi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/trafik-sikismasi-oyunu-arabali-mantik-bulmacasi)** · 3 kare · hikaye 11:50
+**[urun/trafik-sikismasi-oyunu-arabali-mantik-bulmacasi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/trafik-sikismasi-oyunu-arabali-mantik-bulmacasi)** · 3 kare · hikaye 09:50
 
 ```
 Trafik Sıkışması Oyunu - Arabalı Mantık Bulmacası
@@ -3702,11 +3702,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #cocukgelisimi
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ucan-top-oyuncagi-uflemeli-bilim-oyuncagi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/ucan-top-oyuncagi-uflemeli-bilim-oyuncagi/1.jpg" width="240"></a>
 
-**[urun/ucan-top-oyuncagi-uflemeli-bilim-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ucan-top-oyuncagi-uflemeli-bilim-oyuncagi)** · 3 kare · hikaye 14:00
+**[urun/ucan-top-oyuncagi-uflemeli-bilim-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ucan-top-oyuncagi-uflemeli-bilim-oyuncagi)** · 3 kare · hikaye 13:18
 
 ```
 Uçan Top Oyuncağı - Üflemeli Bilim Oyuncağı
@@ -3724,11 +3724,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #egiticioyuncak #cocukgelisimi
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/vahsi-hayvan-kit-kartlari-kopar-tak-3d-hayvan-figur-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/vahsi-hayvan-kit-kartlari-kopar-tak-3d-hayvan-figur-seti/1.jpg" width="240"></a>
 
-**[urun/vahsi-hayvan-kit-kartlari-kopar-tak-3d-hayvan-figur-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/vahsi-hayvan-kit-kartlari-kopar-tak-3d-hayvan-figur-seti)** · 3 kare · hikaye 17:50
+**[urun/vahsi-hayvan-kit-kartlari-kopar-tak-3d-hayvan-figur-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/vahsi-hayvan-kit-kartlari-kopar-tak-3d-hayvan-figur-seti)** · 3 kare · hikaye 18:04
 
 ```
 Vahşi Hayvan Kit Kartları - Kopar Tak 3D Hayvan Figür Seti
@@ -3748,7 +3748,7 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2027-01-04 · Pazartesi
+# 2027-01-05 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -3818,7 +3818,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-05 · Salı
+# 2027-01-06 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -3842,11 +3842,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #fotografcercevesi #anidefteri
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/buzgulu-fotograf-cercevesi-kumas-gorunumlu-dekoratif-masaustu-cerceve"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/buzgulu-fotograf-cercevesi-kumas-gorunumlu-dekoratif-masaustu-cerceve/1.jpg" width="240"></a>
 
-**[urun/buzgulu-fotograf-cercevesi-kumas-gorunumlu-dekoratif-masaustu-cerceve](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/buzgulu-fotograf-cercevesi-kumas-gorunumlu-dekoratif-masaustu-cerceve)** · 4 kare · hikaye 13:18
+**[urun/buzgulu-fotograf-cercevesi-kumas-gorunumlu-dekoratif-masaustu-cerceve](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/buzgulu-fotograf-cercevesi-kumas-gorunumlu-dekoratif-masaustu-cerceve)** · 4 kare · hikaye 12:50
 
 ```
 Büzgülü Fotoğraf Çerçevesi Kumaş Görünümlü Dekoratif Masaüstü Çerçeve
@@ -3888,13 +3888,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-06 · Çarşamba
+# 2027-01-07 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kisiye-ozel-fotograf-kitabi-miknatisli-mini-album"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kisiye-ozel-fotograf-kitabi-miknatisli-mini-album/1.jpg" width="240"></a>
 
-**[urun/kisiye-ozel-fotograf-kitabi-miknatisli-mini-album](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kisiye-ozel-fotograf-kitabi-miknatisli-mini-album)** · 4 kare · hikaye 09:50
+**[urun/kisiye-ozel-fotograf-kitabi-miknatisli-mini-album](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kisiye-ozel-fotograf-kitabi-miknatisli-mini-album)** · 4 kare · hikaye 09:45
 
 ```
 Kişiye Özel Fotoğraf Kitabı - Mıknatıslı Mini Albüm
@@ -3912,11 +3912,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #fotografcercevesi #anidefteri
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/klasor-fotograf-albumu-akordeon-sayfali-masa-albumu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/klasor-fotograf-albumu-akordeon-sayfali-masa-albumu/1.jpg" width="240"></a>
 
-**[urun/klasor-fotograf-albumu-akordeon-sayfali-masa-albumu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/klasor-fotograf-albumu-akordeon-sayfali-masa-albumu)** · 4 kare · hikaye 12:50
+**[urun/klasor-fotograf-albumu-akordeon-sayfali-masa-albumu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/klasor-fotograf-albumu-akordeon-sayfali-masa-albumu)** · 4 kare · hikaye 13:18
 
 ```
 Klasör Fotoğraf Albümü - Akordeon Sayfalı Masa Albümü
@@ -3958,13 +3958,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-07 · Perşembe
+# 2027-01-08 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/koli-fotograf-kutusu-klasor-ayracli-saklama-kutusu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/koli-fotograf-kutusu-klasor-ayracli-saklama-kutusu/1.jpg" width="240"></a>
 
-**[urun/koli-fotograf-kutusu-klasor-ayracli-saklama-kutusu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/koli-fotograf-kutusu-klasor-ayracli-saklama-kutusu)** · 4 kare · hikaye 09:45
+**[urun/koli-fotograf-kutusu-klasor-ayracli-saklama-kutusu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/koli-fotograf-kutusu-klasor-ayracli-saklama-kutusu)** · 4 kare · hikaye 09:50
 
 ```
 Koli Fotoğraf Kutusu - Klasör Ayraçlı Saklama Kutusu
@@ -4004,11 +4004,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #fotografcercevesi #anidefteri
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/mini-fotograf-albumu-anahtarlik-kisiye-ozel-miknatisli-kapakli-mini-album"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/mini-fotograf-albumu-anahtarlik-kisiye-ozel-miknatisli-kapakli-mini-album/1.jpg" width="240"></a>
 
-**[urun/mini-fotograf-albumu-anahtarlik-kisiye-ozel-miknatisli-kapakli-mini-album](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/mini-fotograf-albumu-anahtarlik-kisiye-ozel-miknatisli-kapakli-mini-album)** · 4 kare · hikaye 18:04
+**[urun/mini-fotograf-albumu-anahtarlik-kisiye-ozel-miknatisli-kapakli-mini-album](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/mini-fotograf-albumu-anahtarlik-kisiye-ozel-miknatisli-kapakli-mini-album)** · 4 kare · hikaye 17:20
 
 ```
 Mini Fotoğraf Albümü Anahtarlık Kişiye Özel Mıknatıslı Kapaklı Mini Albüm
@@ -4028,13 +4028,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-08 · Cuma
+# 2027-01-09 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/masa-kablo-duzenleyici-kiskacli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/masa-kablo-duzenleyici-kiskacli/1.jpg" width="240"></a>
 
-**[urun/masa-kablo-duzenleyici-kiskacli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/masa-kablo-duzenleyici-kiskacli)** · 5 kare · hikaye 09:50
+**[urun/masa-kablo-duzenleyici-kiskacli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/masa-kablo-duzenleyici-kiskacli)** · 5 kare · hikaye 11:50
 
 ```
 Masa Kablo Düzenleyici - Kıskaçlı
@@ -4052,11 +4052,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #kabloduzenleyici #masaduzeni
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-kalemlik-seti-3-lu-dokulu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-kalemlik-seti-3-lu-dokulu/1.jpg" width="240"></a>
 
-**[urun/japandi-kalemlik-seti-3-lu-dokulu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-kalemlik-seti-3-lu-dokulu)** · 5 kare · hikaye 13:18
+**[urun/japandi-kalemlik-seti-3-lu-dokulu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-kalemlik-seti-3-lu-dokulu)** · 5 kare · hikaye 14:00
 
 ```
 Japandi Kalemlik Seti - 3'lü Dokulu
@@ -4074,11 +4074,11 @@ Masası dağınık olan arkadaşına yolla.
 #sermenkreatif #3dbaski #kalemlik #masaduzeni
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/petek-desenli-kapi-stoperi-2-renkli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/petek-desenli-kapi-stoperi-2-renkli/1.jpg" width="240"></a>
 
-**[urun/petek-desenli-kapi-stoperi-2-renkli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/petek-desenli-kapi-stoperi-2-renkli)** · 5 kare · hikaye 17:20
+**[urun/petek-desenli-kapi-stoperi-2-renkli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/petek-desenli-kapi-stoperi-2-renkli)** · 5 kare · hikaye 17:50
 
 ```
 Petek Desenli Kapı Stoperi - 2 Renkli
@@ -4098,7 +4098,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-09 · Cumartesi
+# 2027-01-10 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -4168,13 +4168,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-10 · Pazar
+# 2027-01-11 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/penguenli-kumbara-tahterevalli-para-biriktirme-kumbarasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/penguenli-kumbara-tahterevalli-para-biriktirme-kumbarasi/1.jpg" width="240"></a>
 
-**[urun/penguenli-kumbara-tahterevalli-para-biriktirme-kumbarasi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/penguenli-kumbara-tahterevalli-para-biriktirme-kumbarasi)** · 4 kare · hikaye 11:50
+**[urun/penguenli-kumbara-tahterevalli-para-biriktirme-kumbarasi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/penguenli-kumbara-tahterevalli-para-biriktirme-kumbarasi)** · 4 kare · hikaye 09:50
 
 ```
 Penguenli Kumbara - Tahterevalli Para Biriktirme Kumbarası
@@ -4192,11 +4192,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #3dbaskiurun #evdekorasyonu
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/balik-tutma-oyunu-oltali-cocuk-masa-oyunu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/balik-tutma-oyunu-oltali-cocuk-masa-oyunu/1.jpg" width="240"></a>
 
-**[urun/balik-tutma-oyunu-oltali-cocuk-masa-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/balik-tutma-oyunu-oltali-cocuk-masa-oyunu)** · 3 kare · hikaye 14:00
+**[urun/balik-tutma-oyunu-oltali-cocuk-masa-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/balik-tutma-oyunu-oltali-cocuk-masa-oyunu)** · 3 kare · hikaye 13:18
 
 ```
 Balık Tutma Oyunu - Oltalı Çocuk Masa Oyunu
@@ -4214,11 +4214,11 @@ Oyun gecesi kurduğun arkadaşına yolla.
 #sermenkreatif #3dbaski #kutuoyunu #masaoyunu
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/banka-soygunu-oyunu-iki-kisilik-strateji-oyunu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/banka-soygunu-oyunu-iki-kisilik-strateji-oyunu/1.jpg" width="240"></a>
 
-**[urun/banka-soygunu-oyunu-iki-kisilik-strateji-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/banka-soygunu-oyunu-iki-kisilik-strateji-oyunu)** · 3 kare · hikaye 17:50
+**[urun/banka-soygunu-oyunu-iki-kisilik-strateji-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/banka-soygunu-oyunu-iki-kisilik-strateji-oyunu)** · 3 kare · hikaye 18:04
 
 ```
 Banka Soygunu Oyunu - İki Kişilik Strateji Oyunu
@@ -4238,7 +4238,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-11 · Pazartesi
+# 2027-01-12 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -4308,7 +4308,7 @@ Oyun gecesi kurduğun arkadaşına yolla.
 
 ---
 
-# 2027-01-12 · Salı
+# 2027-01-13 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -4332,11 +4332,11 @@ Oyun gecesi kurduğun arkadaşına yolla.
 #sermenkreatif #3dbaski #kutuoyunu #masaoyunu
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kendinden-ayiran-4-lu-bagla-strateji-kutu-oyunu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kendinden-ayiran-4-lu-bagla-strateji-kutu-oyunu/1.jpg" width="240"></a>
 
-**[urun/kendinden-ayiran-4-lu-bagla-strateji-kutu-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kendinden-ayiran-4-lu-bagla-strateji-kutu-oyunu)** · 3 kare · hikaye 13:18
+**[urun/kendinden-ayiran-4-lu-bagla-strateji-kutu-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kendinden-ayiran-4-lu-bagla-strateji-kutu-oyunu)** · 3 kare · hikaye 12:50
 
 ```
 Kendinden Ayıran 4'lü Bağla - Strateji Kutu Oyunu
@@ -4378,13 +4378,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-13 · Çarşamba
+# 2027-01-14 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/parmak-futbolu-masa-ustu-futbol-oyunu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/parmak-futbolu-masa-ustu-futbol-oyunu/1.jpg" width="240"></a>
 
-**[urun/parmak-futbolu-masa-ustu-futbol-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/parmak-futbolu-masa-ustu-futbol-oyunu)** · 3 kare · hikaye 09:50
+**[urun/parmak-futbolu-masa-ustu-futbol-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/parmak-futbolu-masa-ustu-futbol-oyunu)** · 3 kare · hikaye 09:45
 
 ```
 Parmak Futbolu - Masa Üstü Futbol Oyunu
@@ -4402,11 +4402,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #3dbaskiurun #evdekorasyonu
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/renk-eslestirme-yarisi-hizli-aile-oyunu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/renk-eslestirme-yarisi-hizli-aile-oyunu/1.jpg" width="240"></a>
 
-**[urun/renk-eslestirme-yarisi-hizli-aile-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/renk-eslestirme-yarisi-hizli-aile-oyunu)** · 3 kare · hikaye 12:50
+**[urun/renk-eslestirme-yarisi-hizli-aile-oyunu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/renk-eslestirme-yarisi-hizli-aile-oyunu)** · 3 kare · hikaye 13:18
 
 ```
 Renk Eşleştirme Yarışı - Hızlı Aile Oyunu
@@ -4448,13 +4448,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-14 · Perşembe
+# 2027-01-15 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ay-lambasi-krater-dokulu-gece-lambasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/ay-lambasi-krater-dokulu-gece-lambasi/1.jpg" width="240"></a>
 
-**[urun/ay-lambasi-krater-dokulu-gece-lambasi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ay-lambasi-krater-dokulu-gece-lambasi)** · 4 kare · hikaye 09:45
+**[urun/ay-lambasi-krater-dokulu-gece-lambasi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ay-lambasi-krater-dokulu-gece-lambasi)** · 4 kare · hikaye 09:50
 
 ```
 Ay Lambası - Krater Dokulu Gece Lambası
@@ -4494,11 +4494,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #gecelambasi #evdekorasyonu
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/a5-ajandalik-masa-duzenleyici-cekmeceli-kalemlik"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/a5-ajandalik-masa-duzenleyici-cekmeceli-kalemlik/1.jpg" width="240"></a>
 
-**[urun/a5-ajandalik-masa-duzenleyici-cekmeceli-kalemlik](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/a5-ajandalik-masa-duzenleyici-cekmeceli-kalemlik)** · 6 kare · hikaye 18:04
+**[urun/a5-ajandalik-masa-duzenleyici-cekmeceli-kalemlik](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/a5-ajandalik-masa-duzenleyici-cekmeceli-kalemlik)** · 6 kare · hikaye 17:20
 
 ```
 A5 Ajandalık Masa Düzenleyici - Çekmeceli Kalemlik
@@ -4518,13 +4518,13 @@ Masası dağınık olan arkadaşına yolla.
 
 ---
 
-# 2027-01-15 · Cuma
+# 2027-01-16 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/istiflenebilir-cekmece-seti-3-lu-renkli-cekmeceli-duzenleyici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/istiflenebilir-cekmece-seti-3-lu-renkli-cekmeceli-duzenleyici/1.jpg" width="240"></a>
 
-**[urun/istiflenebilir-cekmece-seti-3-lu-renkli-cekmeceli-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/istiflenebilir-cekmece-seti-3-lu-renkli-cekmeceli-duzenleyici)** · 4 kare · hikaye 09:50
+**[urun/istiflenebilir-cekmece-seti-3-lu-renkli-cekmeceli-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/istiflenebilir-cekmece-seti-3-lu-renkli-cekmeceli-duzenleyici)** · 4 kare · hikaye 11:50
 
 ```
 İstiflenebilir Çekmece Seti - 3'lü Renkli Çekmeceli Düzenleyici
@@ -4542,11 +4542,11 @@ Masası dağınık olan arkadaşına yolla.
 #sermenkreatif #3dbaski #masaustuduzenleyici #masaduzeni
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kademeli-kalemlik-seti-5-silindirli-masa-duzenleyici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kademeli-kalemlik-seti-5-silindirli-masa-duzenleyici/1.jpg" width="240"></a>
 
-**[urun/kademeli-kalemlik-seti-5-silindirli-masa-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kademeli-kalemlik-seti-5-silindirli-masa-duzenleyici)** · 6 kare · hikaye 13:18
+**[urun/kademeli-kalemlik-seti-5-silindirli-masa-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kademeli-kalemlik-seti-5-silindirli-masa-duzenleyici)** · 6 kare · hikaye 14:00
 
 ```
 Kademeli Kalemlik Seti - 5 Silindirli Masa Düzenleyici
@@ -4564,11 +4564,11 @@ Masası dağınık olan arkadaşına yolla.
 #sermenkreatif #3dbaski #masaustuduzenleyici #masaduzeni
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/modern-cekmece-kulesi-4-lu-istiflenebilir-cekmece"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/modern-cekmece-kulesi-4-lu-istiflenebilir-cekmece/1.jpg" width="240"></a>
 
-**[urun/modern-cekmece-kulesi-4-lu-istiflenebilir-cekmece](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/modern-cekmece-kulesi-4-lu-istiflenebilir-cekmece)** · 4 kare · hikaye 17:20
+**[urun/modern-cekmece-kulesi-4-lu-istiflenebilir-cekmece](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/modern-cekmece-kulesi-4-lu-istiflenebilir-cekmece)** · 4 kare · hikaye 17:50
 
 ```
 Modern Çekmece Kulesi - 4'lü İstiflenebilir Çekmece
@@ -4588,7 +4588,7 @@ Masası dağınık olan arkadaşına yolla.
 
 ---
 
-# 2027-01-16 · Cumartesi
+# 2027-01-17 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -4658,13 +4658,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-17 · Pazar
+# 2027-01-18 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gunluk-tiklamali-dagitici-7-gozlu-haftalik-duzenleyici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/gunluk-tiklamali-dagitici-7-gozlu-haftalik-duzenleyici/1.jpg" width="240"></a>
 
-**[urun/gunluk-tiklamali-dagitici-7-gozlu-haftalik-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gunluk-tiklamali-dagitici-7-gozlu-haftalik-duzenleyici)** · 5 kare · hikaye 11:50
+**[urun/gunluk-tiklamali-dagitici-7-gozlu-haftalik-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gunluk-tiklamali-dagitici-7-gozlu-haftalik-duzenleyici)** · 5 kare · hikaye 09:50
 
 ```
 Günlük Tıklamalı Dağıtıcı - 7 Gözlü Haftalık Düzenleyici
@@ -4682,11 +4682,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #mutfakduzenleyici #mutfakduzeni
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nilufer-kupa-duzenleyici-kupa-istifleme-aparati-4-lu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nilufer-kupa-duzenleyici-kupa-istifleme-aparati-4-lu/1.jpg" width="240"></a>
 
-**[urun/nilufer-kupa-duzenleyici-kupa-istifleme-aparati-4-lu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nilufer-kupa-duzenleyici-kupa-istifleme-aparati-4-lu)** · 5 kare · hikaye 14:00
+**[urun/nilufer-kupa-duzenleyici-kupa-istifleme-aparati-4-lu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nilufer-kupa-duzenleyici-kupa-istifleme-aparati-4-lu)** · 5 kare · hikaye 13:18
 
 ```
 Nilüfer Kupa Düzenleyici - Kupa İstifleme Aparatı 4'lü
@@ -4704,11 +4704,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #mutfakduzenleyici #mutfakduzeni
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/minimal-laptop-standi-acili-yukseltici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/minimal-laptop-standi-acili-yukseltici/1.jpg" width="240"></a>
 
-**[urun/minimal-laptop-standi-acili-yukseltici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/minimal-laptop-standi-acili-yukseltici)** · 5 kare · hikaye 17:50
+**[urun/minimal-laptop-standi-acili-yukseltici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/minimal-laptop-standi-acili-yukseltici)** · 5 kare · hikaye 18:04
 
 ```
 Minimal Laptop Standı - Açılı Yükseltici
@@ -4728,7 +4728,7 @@ Evden çalışan bir arkadaşına yolla.
 
 ---
 
-# 2027-01-18 · Pazartesi
+# 2027-01-19 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -4798,7 +4798,7 @@ Küçük çocuğu olan bir arkadaşına yolla.
 
 ---
 
-# 2027-01-19 · Salı
+# 2027-01-20 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -4822,11 +4822,11 @@ Küçük çocuğu olan bir arkadaşına yolla.
 #sermenkreatif #3dbaski #oyuncakaraba #cocukoyuncagi
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dikey-pecetelik-nervurlu-mendil-kutusu-tepsi-tabanli-dekoratif-kagit-mendil-kutu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/dikey-pecetelik-nervurlu-mendil-kutusu-tepsi-tabanli-dekoratif-kagit-mendil-kutu/1.jpg" width="240"></a>
 
-**[urun/dikey-pecetelik-nervurlu-mendil-kutusu-tepsi-tabanli-dekoratif-kagit-mendil-kutu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dikey-pecetelik-nervurlu-mendil-kutusu-tepsi-tabanli-dekoratif-kagit-mendil-kutu)** · 3 kare · hikaye 13:18
+**[urun/dikey-pecetelik-nervurlu-mendil-kutusu-tepsi-tabanli-dekoratif-kagit-mendil-kutu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dikey-pecetelik-nervurlu-mendil-kutusu-tepsi-tabanli-dekoratif-kagit-mendil-kutu)** · 3 kare · hikaye 12:50
 
 ```
 Dikey Peçetelik Nervürlü Mendil Kutusu – Tepsi Tabanlı Dekoratif Kağıt Mendil Kutusu Kil / Bej
@@ -4868,13 +4868,13 @@ Masasını toplamayı seven birine yolla.
 
 ---
 
-# 2027-01-20 · Çarşamba
+# 2027-01-21 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-mendil-kutusu-kapakli-dekoratif-pecetelik-banyo-ve-salon-icin-kagit-men"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nervurlu-mendil-kutusu-kapakli-dekoratif-pecetelik-banyo-ve-salon-icin-kagit-men/1.jpg" width="240"></a>
 
-**[urun/nervurlu-mendil-kutusu-kapakli-dekoratif-pecetelik-banyo-ve-salon-icin-kagit-men](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-mendil-kutusu-kapakli-dekoratif-pecetelik-banyo-ve-salon-icin-kagit-men)** · 4 kare · hikaye 09:50
+**[urun/nervurlu-mendil-kutusu-kapakli-dekoratif-pecetelik-banyo-ve-salon-icin-kagit-men](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-mendil-kutusu-kapakli-dekoratif-pecetelik-banyo-ve-salon-icin-kagit-men)** · 4 kare · hikaye 09:45
 
 ```
 Nervürlü Mendil Kutusu Kapaklı Dekoratif Peçetelik – Banyo ve Salon İçin Kağıt Mendil Kutusu Mat Gri / Kemik Beyazı
@@ -4892,11 +4892,11 @@ Masasını toplamayı seven birine yolla.
 #sermenkreatif #3dbaski #pecetelik #masadekoru
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-mendil-kutusu-kilifi-dekoratif-pecetelik-salon-ve-banyo-icin-kagit-mend"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nervurlu-mendil-kutusu-kilifi-dekoratif-pecetelik-salon-ve-banyo-icin-kagit-mend/1.jpg" width="240"></a>
 
-**[urun/nervurlu-mendil-kutusu-kilifi-dekoratif-pecetelik-salon-ve-banyo-icin-kagit-mend](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-mendil-kutusu-kilifi-dekoratif-pecetelik-salon-ve-banyo-icin-kagit-mend)** · 2 kare · hikaye 12:50
+**[urun/nervurlu-mendil-kutusu-kilifi-dekoratif-pecetelik-salon-ve-banyo-icin-kagit-mend](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-mendil-kutusu-kilifi-dekoratif-pecetelik-salon-ve-banyo-icin-kagit-mend)** · 2 kare · hikaye 13:18
 
 ```
 Nervürlü Mendil Kutusu Kılıfı – Dekoratif Peçetelik, Salon ve Banyo İçin Kağıt Mendil Kutusu Kapağı
@@ -4938,13 +4938,13 @@ Yapboz seven bir arkadaşına yolla.
 
 ---
 
-# 2027-01-21 · Perşembe
+# 2027-01-22 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/alfabe-yapbozu-harfleri-yerine-yerlestirme-oyuncagi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/alfabe-yapbozu-harfleri-yerine-yerlestirme-oyuncagi/1.jpg" width="240"></a>
 
-**[urun/alfabe-yapbozu-harfleri-yerine-yerlestirme-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/alfabe-yapbozu-harfleri-yerine-yerlestirme-oyuncagi)** · 3 kare · hikaye 09:45
+**[urun/alfabe-yapbozu-harfleri-yerine-yerlestirme-oyuncagi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/alfabe-yapbozu-harfleri-yerine-yerlestirme-oyuncagi)** · 3 kare · hikaye 09:50
 
 ```
 Alfabe Yapbozu - Harfleri Yerine Yerleştirme Oyuncağı
@@ -4984,11 +4984,11 @@ Yapboz seven bir arkadaşına yolla.
 #sermenkreatif #3dbaski #yapboz #egiticioyuncak
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/triceratops-iskelet-yapbozu-dinozor-3d-maket"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/triceratops-iskelet-yapbozu-dinozor-3d-maket/1.jpg" width="240"></a>
 
-**[urun/triceratops-iskelet-yapbozu-dinozor-3d-maket](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/triceratops-iskelet-yapbozu-dinozor-3d-maket)** · 3 kare · hikaye 18:04
+**[urun/triceratops-iskelet-yapbozu-dinozor-3d-maket](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/triceratops-iskelet-yapbozu-dinozor-3d-maket)** · 3 kare · hikaye 17:20
 
 ```
 Triceratops İskelet Yapbozu - Dinozor 3D Maket
@@ -5008,13 +5008,13 @@ Yapboz seven bir arkadaşına yolla.
 
 ---
 
-# 2027-01-22 · Cuma
+# 2027-01-23 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yaprak-formlu-sabunluk-suzgecli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/yaprak-formlu-sabunluk-suzgecli/1.jpg" width="240"></a>
 
-**[urun/yaprak-formlu-sabunluk-suzgecli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yaprak-formlu-sabunluk-suzgecli)** · 6 kare · hikaye 09:50
+**[urun/yaprak-formlu-sabunluk-suzgecli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yaprak-formlu-sabunluk-suzgecli)** · 6 kare · hikaye 11:50
 
 ```
 Yaprak Formlu Sabunluk - Süzgeçli
@@ -5032,11 +5032,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #sabunluk #banyoduzeni
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kagit-havluluk-dolap-alti-tek-parca-rulo-tutucu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kagit-havluluk-dolap-alti-tek-parca-rulo-tutucu/1.jpg" width="240"></a>
 
-**[urun/kagit-havluluk-dolap-alti-tek-parca-rulo-tutucu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kagit-havluluk-dolap-alti-tek-parca-rulo-tutucu)** · 6 kare · hikaye 13:18
+**[urun/kagit-havluluk-dolap-alti-tek-parca-rulo-tutucu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kagit-havluluk-dolap-alti-tek-parca-rulo-tutucu)** · 6 kare · hikaye 14:00
 
 ```
 Kağıt Havluluk - Dolap Altı Tek Parça Rulo Tutucu
@@ -5054,11 +5054,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #saklamakutusu #evduzeni
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kis-manzarali-fener-ayakli-led-mumluk"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kis-manzarali-fener-ayakli-led-mumluk/1.jpg" width="240"></a>
 
-**[urun/kis-manzarali-fener-ayakli-led-mumluk](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kis-manzarali-fener-ayakli-led-mumluk)** · 5 kare · hikaye 17:20
+**[urun/kis-manzarali-fener-ayakli-led-mumluk](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kis-manzarali-fener-ayakli-led-mumluk)** · 5 kare · hikaye 17:50
 
 ```
 Kış Manzaralı Fener - Ayaklı LED Mumluk
@@ -5078,7 +5078,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-23 · Cumartesi
+# 2027-01-24 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -5148,13 +5148,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-24 · Pazar
+# 2027-01-25 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/zikzak-profilli-tablet-standi-tepsili"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/zikzak-profilli-tablet-standi-tepsili/1.jpg" width="240"></a>
 
-**[urun/zikzak-profilli-tablet-standi-tepsili](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/zikzak-profilli-tablet-standi-tepsili)** · 6 kare · hikaye 11:50
+**[urun/zikzak-profilli-tablet-standi-tepsili](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/zikzak-profilli-tablet-standi-tepsili)** · 6 kare · hikaye 09:50
 
 ```
 Zikzak Profilli Tablet Standı - Tepsili
@@ -5172,11 +5172,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #tabletstandi #masaduzeni
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-tavla-takimi-kitap-gorunumlu-katlanir-tavla"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kitap-tavla-takimi-kitap-gorunumlu-katlanir-tavla/1.jpg" width="240"></a>
 
-**[urun/kitap-tavla-takimi-kitap-gorunumlu-katlanir-tavla](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-tavla-takimi-kitap-gorunumlu-katlanir-tavla)** · 6 kare · hikaye 14:00
+**[urun/kitap-tavla-takimi-kitap-gorunumlu-katlanir-tavla](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kitap-tavla-takimi-kitap-gorunumlu-katlanir-tavla)** · 6 kare · hikaye 13:18
 
 ```
 Kitap Tavla Takımı - Kitap Görünümlü Katlanır Tavla
@@ -5194,11 +5194,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #3dbaskiurun #evdekorasyonu
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-oval-tepsi-anahtar-ve-taki-tepsisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nervurlu-oval-tepsi-anahtar-ve-taki-tepsisi/1.jpg" width="240"></a>
 
-**[urun/nervurlu-oval-tepsi-anahtar-ve-taki-tepsisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-oval-tepsi-anahtar-ve-taki-tepsisi)** · 6 kare · hikaye 17:50
+**[urun/nervurlu-oval-tepsi-anahtar-ve-taki-tepsisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-oval-tepsi-anahtar-ve-taki-tepsisi)** · 6 kare · hikaye 18:04
 
 ```
 Nervürlü Oval Tepsi - Anahtar ve Takı Tepsisi
@@ -5218,7 +5218,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-25 · Pazartesi
+# 2027-01-26 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -5288,7 +5288,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-26 · Salı
+# 2027-01-27 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -5312,11 +5312,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #banyoduzenleyici #banyoduzeni
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/banyo-pamuk-ve-kulak-cubugu-duzenleyici-silk-parlak-3d-baski"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/banyo-pamuk-ve-kulak-cubugu-duzenleyici-silk-parlak-3d-baski/1.jpg" width="240"></a>
 
-**[urun/banyo-pamuk-ve-kulak-cubugu-duzenleyici-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/banyo-pamuk-ve-kulak-cubugu-duzenleyici-silk-parlak-3d-baski)** · 6 kare · hikaye 13:18
+**[urun/banyo-pamuk-ve-kulak-cubugu-duzenleyici-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/banyo-pamuk-ve-kulak-cubugu-duzenleyici-silk-parlak-3d-baski)** · 6 kare · hikaye 12:50
 
 ```
 Banyo Pamuk ve Kulak Çubuğu Düzenleyici - Silk Parlak 3D Baskı
@@ -5358,13 +5358,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-27 · Çarşamba
+# 2027-01-28 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cilt-bakim-standi-silk-parlak-banyo-duzenleyici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/cilt-bakim-standi-silk-parlak-banyo-duzenleyici/1.jpg" width="240"></a>
 
-**[urun/cilt-bakim-standi-silk-parlak-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cilt-bakim-standi-silk-parlak-banyo-duzenleyici)** · 6 kare · hikaye 09:50
+**[urun/cilt-bakim-standi-silk-parlak-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cilt-bakim-standi-silk-parlak-banyo-duzenleyici)** · 6 kare · hikaye 09:45
 
 ```
 Cilt Bakım Standı - Silk Parlak Banyo Düzenleyici
@@ -5382,11 +5382,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #banyoduzenleyici #banyoduzeni
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/duvar-tipi-fitilli-banyo-duzenleyici-silk-parlak-3d-baski"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/duvar-tipi-fitilli-banyo-duzenleyici-silk-parlak-3d-baski/1.jpg" width="240"></a>
 
-**[urun/duvar-tipi-fitilli-banyo-duzenleyici-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/duvar-tipi-fitilli-banyo-duzenleyici-silk-parlak-3d-baski)** · 6 kare · hikaye 12:50
+**[urun/duvar-tipi-fitilli-banyo-duzenleyici-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/duvar-tipi-fitilli-banyo-duzenleyici-silk-parlak-3d-baski)** · 6 kare · hikaye 13:18
 
 ```
 Duvar Tipi Fitilli Banyo Düzenleyici - Silk Parlak 3D Baskı
@@ -5428,13 +5428,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-28 · Perşembe
+# 2027-01-29 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/fitilli-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/fitilli-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici/1.jpg" width="240"></a>
 
-**[urun/fitilli-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/fitilli-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici)** · 6 kare · hikaye 09:45
+**[urun/fitilli-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/fitilli-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici)** · 6 kare · hikaye 09:50
 
 ```
 Fitilli Kulak Çubuğu Dispenseri - Silk Parlak Banyo Düzenleyici
@@ -5474,11 +5474,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #banyoduzenleyici #banyoduzeni
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/geometrik-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/geometrik-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici/1.jpg" width="240"></a>
 
-**[urun/geometrik-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/geometrik-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici)** · 6 kare · hikaye 18:04
+**[urun/geometrik-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/geometrik-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici)** · 6 kare · hikaye 17:20
 
 ```
 Geometrik Kulak Çubuğu Dispenseri - Silk Parlak Banyo Düzenleyici
@@ -5498,13 +5498,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-29 · Cuma
+# 2027-01-30 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-banyo-seti-silk-parlak-banyo-duzenleyici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-banyo-seti-silk-parlak-banyo-duzenleyici/1.jpg" width="240"></a>
 
-**[urun/japandi-banyo-seti-silk-parlak-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-banyo-seti-silk-parlak-banyo-duzenleyici)** · 6 kare · hikaye 09:50
+**[urun/japandi-banyo-seti-silk-parlak-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-banyo-seti-silk-parlak-banyo-duzenleyici)** · 6 kare · hikaye 11:50
 
 ```
 Japandi Banyo Seti - Silk Parlak Banyo Düzenleyici
@@ -5522,11 +5522,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #banyoduzenleyici #banyoduzeni
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapakli-cok-amacli-kap-silk-parlak-banyo-duzenleyici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kapakli-cok-amacli-kap-silk-parlak-banyo-duzenleyici/1.jpg" width="240"></a>
 
-**[urun/kapakli-cok-amacli-kap-silk-parlak-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapakli-cok-amacli-kap-silk-parlak-banyo-duzenleyici)** · 6 kare · hikaye 13:18
+**[urun/kapakli-cok-amacli-kap-silk-parlak-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapakli-cok-amacli-kap-silk-parlak-banyo-duzenleyici)** · 6 kare · hikaye 14:00
 
 ```
 Kapaklı Çok Amaçlı Kap - Silk Parlak Banyo Düzenleyici
@@ -5544,11 +5544,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #banyoduzenleyici #banyoduzeni
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapitone-banyo-sepeti-silk-parlak-banyo-duzenleyici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kapitone-banyo-sepeti-silk-parlak-banyo-duzenleyici/1.jpg" width="240"></a>
 
-**[urun/kapitone-banyo-sepeti-silk-parlak-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapitone-banyo-sepeti-silk-parlak-banyo-duzenleyici)** · 6 kare · hikaye 17:20
+**[urun/kapitone-banyo-sepeti-silk-parlak-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapitone-banyo-sepeti-silk-parlak-banyo-duzenleyici)** · 6 kare · hikaye 17:50
 
 ```
 Kapitone Banyo Sepeti - Silk Parlak Banyo Düzenleyici
@@ -5568,7 +5568,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-30 · Cumartesi
+# 2027-01-31 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -5638,13 +5638,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-01-31 · Pazar
+# 2027-02-01 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/modern-banyo-tasima-duzenleyici-silk-parlak-3d-baski"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/modern-banyo-tasima-duzenleyici-silk-parlak-3d-baski/1.jpg" width="240"></a>
 
-**[urun/modern-banyo-tasima-duzenleyici-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/modern-banyo-tasima-duzenleyici-silk-parlak-3d-baski)** · 6 kare · hikaye 11:50
+**[urun/modern-banyo-tasima-duzenleyici-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/modern-banyo-tasima-duzenleyici-silk-parlak-3d-baski)** · 6 kare · hikaye 09:50
 
 ```
 Modern Banyo Taşıma Düzenleyici - Silk Parlak 3D Baskı
@@ -5662,11 +5662,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #banyoduzenleyici #banyoduzeni
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/onden-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/onden-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici/1.jpg" width="240"></a>
 
-**[urun/onden-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/onden-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici)** · 6 kare · hikaye 14:00
+**[urun/onden-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/onden-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici)** · 6 kare · hikaye 13:18
 
 ```
 Önden Tablalı Kulak Çubuğu Dispenseri - Silk Parlak Banyo Düzenleyici
@@ -5684,11 +5684,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #banyoduzenleyici #banyoduzeni
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/pamuk-seyahat-kabi-silk-parlak-3d-baski"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/pamuk-seyahat-kabi-silk-parlak-3d-baski/1.jpg" width="240"></a>
 
-**[urun/pamuk-seyahat-kabi-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/pamuk-seyahat-kabi-silk-parlak-3d-baski)** · 6 kare · hikaye 17:50
+**[urun/pamuk-seyahat-kabi-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/pamuk-seyahat-kabi-silk-parlak-3d-baski)** · 6 kare · hikaye 18:04
 
 ```
 Pamuk Seyahat Kabı - Silk Parlak 3D Baskı
@@ -5708,7 +5708,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-01 · Pazartesi
+# 2027-02-02 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -5778,7 +5778,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-02 · Salı
+# 2027-02-03 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -5802,11 +5802,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #banyoduzenleyici #banyoduzeni
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/bulut-kalemlik-silk-parlak-3d-baski"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/bulut-kalemlik-silk-parlak-3d-baski/1.jpg" width="240"></a>
 
-**[urun/bulut-kalemlik-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/bulut-kalemlik-silk-parlak-3d-baski)** · 6 kare · hikaye 13:18
+**[urun/bulut-kalemlik-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/bulut-kalemlik-silk-parlak-3d-baski)** · 6 kare · hikaye 12:50
 
 ```
 Bulut Kalemlik - Silk Parlak 3D Baskı
@@ -5848,13 +5848,13 @@ Masası dağınık olan arkadaşına yolla.
 
 ---
 
-# 2027-02-03 · Çarşamba
+# 2027-02-04 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/fermuarli-sisme-mont-kalemlik-silk-parlak-3d-baski"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/fermuarli-sisme-mont-kalemlik-silk-parlak-3d-baski/1.jpg" width="240"></a>
 
-**[urun/fermuarli-sisme-mont-kalemlik-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/fermuarli-sisme-mont-kalemlik-silk-parlak-3d-baski)** · 6 kare · hikaye 09:50
+**[urun/fermuarli-sisme-mont-kalemlik-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/fermuarli-sisme-mont-kalemlik-silk-parlak-3d-baski)** · 6 kare · hikaye 09:45
 
 ```
 Fermuarlı Şişme Mont Kalemlik - Silk Parlak 3D Baskı
@@ -5872,11 +5872,11 @@ Masası dağınık olan arkadaşına yolla.
 #sermenkreatif #3dbaski #kalemlik #masaduzeni
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/firca-ve-kalemlik-silk-parlak-makyaj-fircaligi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/firca-ve-kalemlik-silk-parlak-makyaj-fircaligi/1.jpg" width="240"></a>
 
-**[urun/firca-ve-kalemlik-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/firca-ve-kalemlik-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 12:50
+**[urun/firca-ve-kalemlik-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/firca-ve-kalemlik-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 13:18
 
 ```
 Fırça ve Kalemlik - Silk Parlak Makyaj Fırçalığı
@@ -5918,13 +5918,13 @@ Masası dağınık olan arkadaşına yolla.
 
 ---
 
-# 2027-02-04 · Perşembe
+# 2027-02-05 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kalp-kalemlik-silk-parlak-3d-baski"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kalp-kalemlik-silk-parlak-3d-baski/1.jpg" width="240"></a>
 
-**[urun/kalp-kalemlik-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kalp-kalemlik-silk-parlak-3d-baski)** · 6 kare · hikaye 09:45
+**[urun/kalp-kalemlik-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kalp-kalemlik-silk-parlak-3d-baski)** · 6 kare · hikaye 09:50
 
 ```
 Kalp Kalemlik - Silk Parlak 3D Baskı
@@ -5964,11 +5964,11 @@ Masası dağınık olan arkadaşına yolla.
 #sermenkreatif #3dbaski #kalemlik #masaduzeni
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapusonlu-sisme-mont-kalemlik-silk-parlak-3d-baski"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kapusonlu-sisme-mont-kalemlik-silk-parlak-3d-baski/1.jpg" width="240"></a>
 
-**[urun/kapusonlu-sisme-mont-kalemlik-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapusonlu-sisme-mont-kalemlik-silk-parlak-3d-baski)** · 6 kare · hikaye 18:04
+**[urun/kapusonlu-sisme-mont-kalemlik-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapusonlu-sisme-mont-kalemlik-silk-parlak-3d-baski)** · 6 kare · hikaye 17:20
 
 ```
 Kapüşonlu Şişme Mont Kalemlik - Silk Parlak 3D Baskı
@@ -5988,13 +5988,13 @@ Masası dağınık olan arkadaşına yolla.
 
 ---
 
-# 2027-02-05 · Cuma
+# 2027-02-06 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kese-kalemlik-silk-parlak-makyaj-fircaligi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kese-kalemlik-silk-parlak-makyaj-fircaligi/1.jpg" width="240"></a>
 
-**[urun/kese-kalemlik-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kese-kalemlik-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 09:50
+**[urun/kese-kalemlik-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kese-kalemlik-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 11:50
 
 ```
 Kese Kalemlik - Silk Parlak Makyaj Fırçalığı
@@ -6012,11 +6012,11 @@ Masası dağınık olan arkadaşına yolla.
 #sermenkreatif #3dbaski #kalemlik #masaduzeni
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/marshmallow-silk-kalemlik-silk-parlak-makyaj-fircaligi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/marshmallow-silk-kalemlik-silk-parlak-makyaj-fircaligi/1.jpg" width="240"></a>
 
-**[urun/marshmallow-silk-kalemlik-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/marshmallow-silk-kalemlik-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 13:18
+**[urun/marshmallow-silk-kalemlik-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/marshmallow-silk-kalemlik-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 14:00
 
 ```
 Marshmallow Silk Kalemlik - Silk Parlak Makyaj Fırçalığı
@@ -6034,11 +6034,11 @@ Masası dağınık olan arkadaşına yolla.
 #sermenkreatif #3dbaski #kalemlik #masaduzeni
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/silk-fiyonklu-kalemlik-silk-parlak-makyaj-fircaligi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/silk-fiyonklu-kalemlik-silk-parlak-makyaj-fircaligi/1.jpg" width="240"></a>
 
-**[urun/silk-fiyonklu-kalemlik-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/silk-fiyonklu-kalemlik-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 17:20
+**[urun/silk-fiyonklu-kalemlik-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/silk-fiyonklu-kalemlik-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 17:50
 
 ```
 Silk Fiyonklu Kalemlik - Silk Parlak Makyaj Fırçalığı
@@ -6058,7 +6058,7 @@ Masası dağınık olan arkadaşına yolla.
 
 ---
 
-# 2027-02-06 · Cumartesi
+# 2027-02-07 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -6128,13 +6128,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-07 · Pazar
+# 2027-02-08 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/doner-makyaj-kabi-silk-parlak-makyaj-organizeri"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/doner-makyaj-kabi-silk-parlak-makyaj-organizeri/1.jpg" width="240"></a>
 
-**[urun/doner-makyaj-kabi-silk-parlak-makyaj-organizeri](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/doner-makyaj-kabi-silk-parlak-makyaj-organizeri)** · 6 kare · hikaye 11:50
+**[urun/doner-makyaj-kabi-silk-parlak-makyaj-organizeri](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/doner-makyaj-kabi-silk-parlak-makyaj-organizeri)** · 6 kare · hikaye 09:50
 
 ```
 Döner Makyaj Kabı - Silk Parlak Makyaj Organizeri
@@ -6152,11 +6152,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #makyajorganizeri #takiduzenleyici
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/fitilli-cekmeceli-duzenleyici-silk-parlak-makyaj-organizeri"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/fitilli-cekmeceli-duzenleyici-silk-parlak-makyaj-organizeri/1.jpg" width="240"></a>
 
-**[urun/fitilli-cekmeceli-duzenleyici-silk-parlak-makyaj-organizeri](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/fitilli-cekmeceli-duzenleyici-silk-parlak-makyaj-organizeri)** · 6 kare · hikaye 14:00
+**[urun/fitilli-cekmeceli-duzenleyici-silk-parlak-makyaj-organizeri](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/fitilli-cekmeceli-duzenleyici-silk-parlak-makyaj-organizeri)** · 6 kare · hikaye 13:18
 
 ```
 Fitilli Çekmeceli Düzenleyici - Silk Parlak Makyaj Organizeri
@@ -6174,11 +6174,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #makyajorganizeri #takiduzenleyici
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/fitilli-dikdortgen-fircalik-silk-parlak-makyaj-fircaligi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/fitilli-dikdortgen-fircalik-silk-parlak-makyaj-fircaligi/1.jpg" width="240"></a>
 
-**[urun/fitilli-dikdortgen-fircalik-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/fitilli-dikdortgen-fircalik-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 17:50
+**[urun/fitilli-dikdortgen-fircalik-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/fitilli-dikdortgen-fircalik-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 18:04
 
 ```
 Fitilli Dikdörtgen Fırçalık - Silk Parlak Makyaj Fırçalığı
@@ -6198,7 +6198,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-08 · Pazartesi
+# 2027-02-09 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -6268,7 +6268,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-09 · Salı
+# 2027-02-10 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -6292,11 +6292,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #makyajorganizeri #takiduzenleyici
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kalp-toka-duzenleyici-silk-parlak-3d-baski"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kalp-toka-duzenleyici-silk-parlak-3d-baski/1.jpg" width="240"></a>
 
-**[urun/kalp-toka-duzenleyici-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kalp-toka-duzenleyici-silk-parlak-3d-baski)** · 6 kare · hikaye 13:18
+**[urun/kalp-toka-duzenleyici-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kalp-toka-duzenleyici-silk-parlak-3d-baski)** · 6 kare · hikaye 12:50
 
 ```
 Kalp Toka Düzenleyici - Silk Parlak 3D Baskı
@@ -6338,13 +6338,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-10 · Çarşamba
+# 2027-02-11 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapitone-canta-formlu-fircalik-silk-parlak-makyaj-fircaligi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kapitone-canta-formlu-fircalik-silk-parlak-makyaj-fircaligi/1.jpg" width="240"></a>
 
-**[urun/kapitone-canta-formlu-fircalik-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapitone-canta-formlu-fircalik-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 09:50
+**[urun/kapitone-canta-formlu-fircalik-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapitone-canta-formlu-fircalik-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 09:45
 
 ```
 Kapitone Çanta Formlu Fırçalık - Silk Parlak Makyaj Fırçalığı
@@ -6362,11 +6362,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #makyajorganizeri #takiduzenleyici
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapitone-fircalik-duzenleyici-silk-parlak-makyaj-fircaligi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kapitone-fircalik-duzenleyici-silk-parlak-makyaj-fircaligi/1.jpg" width="240"></a>
 
-**[urun/kapitone-fircalik-duzenleyici-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapitone-fircalik-duzenleyici-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 12:50
+**[urun/kapitone-fircalik-duzenleyici-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kapitone-fircalik-duzenleyici-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 13:18
 
 ```
 Kapitone Fırçalık Düzenleyici - Silk Parlak Makyaj Fırçalığı
@@ -6408,13 +6408,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-11 · Perşembe
+# 2027-02-12 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kozmetik-organizer-seti-silk-parlak-makyaj-organizeri"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kozmetik-organizer-seti-silk-parlak-makyaj-organizeri/1.jpg" width="240"></a>
 
-**[urun/kozmetik-organizer-seti-silk-parlak-makyaj-organizeri](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kozmetik-organizer-seti-silk-parlak-makyaj-organizeri)** · 6 kare · hikaye 09:45
+**[urun/kozmetik-organizer-seti-silk-parlak-makyaj-organizeri](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kozmetik-organizer-seti-silk-parlak-makyaj-organizeri)** · 6 kare · hikaye 09:50
 
 ```
 Kozmetik Organizer Seti - Silk Parlak Makyaj Organizeri
@@ -6454,11 +6454,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #makyajorganizeri #takiduzenleyici
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/manikur-istasyonu-buyuk-silk-parlak-3d-baski"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/manikur-istasyonu-buyuk-silk-parlak-3d-baski/1.jpg" width="240"></a>
 
-**[urun/manikur-istasyonu-buyuk-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/manikur-istasyonu-buyuk-silk-parlak-3d-baski)** · 6 kare · hikaye 18:04
+**[urun/manikur-istasyonu-buyuk-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/manikur-istasyonu-buyuk-silk-parlak-3d-baski)** · 6 kare · hikaye 17:20
 
 ```
 Manikür İstasyonu Büyük - Silk Parlak 3D Baskı
@@ -6478,13 +6478,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-12 · Cuma
+# 2027-02-13 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/modern-kademeli-raf-silk-parlak-parfum-ve-bakim-standi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/modern-kademeli-raf-silk-parlak-parfum-ve-bakim-standi/1.jpg" width="240"></a>
 
-**[urun/modern-kademeli-raf-silk-parlak-parfum-ve-bakim-standi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/modern-kademeli-raf-silk-parlak-parfum-ve-bakim-standi)** · 6 kare · hikaye 09:50
+**[urun/modern-kademeli-raf-silk-parlak-parfum-ve-bakim-standi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/modern-kademeli-raf-silk-parlak-parfum-ve-bakim-standi)** · 6 kare · hikaye 11:50
 
 ```
 Modern Kademeli Raf - Silk Parlak Parfüm ve Bakım Standı
@@ -6502,11 +6502,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #makyajorganizeri #takiduzenleyici
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/moduler-duzenleyici-silk-parlak-makyaj-organizeri"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/moduler-duzenleyici-silk-parlak-makyaj-organizeri/1.jpg" width="240"></a>
 
-**[urun/moduler-duzenleyici-silk-parlak-makyaj-organizeri](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/moduler-duzenleyici-silk-parlak-makyaj-organizeri)** · 6 kare · hikaye 13:18
+**[urun/moduler-duzenleyici-silk-parlak-makyaj-organizeri](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/moduler-duzenleyici-silk-parlak-makyaj-organizeri)** · 6 kare · hikaye 14:00
 
 ```
 Modüler Düzenleyici - Silk Parlak Makyaj Organizeri
@@ -6524,11 +6524,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #makyajorganizeri #takiduzenleyici
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/peri-figurlu-fircalik-silk-parlak-makyaj-fircaligi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/peri-figurlu-fircalik-silk-parlak-makyaj-fircaligi/1.jpg" width="240"></a>
 
-**[urun/peri-figurlu-fircalik-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/peri-figurlu-fircalik-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 17:20
+**[urun/peri-figurlu-fircalik-silk-parlak-makyaj-fircaligi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/peri-figurlu-fircalik-silk-parlak-makyaj-fircaligi)** · 6 kare · hikaye 17:50
 
 ```
 Peri Figürlü Fırçalık - Silk Parlak Makyaj Fırçalığı
@@ -6548,7 +6548,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-13 · Cumartesi
+# 2027-02-14 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -6618,13 +6618,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-14 · Pazar
+# 2027-02-15 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yuvarlak-koseli-masa-duzenleyici-silk-parlak-kalemlik"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/yuvarlak-koseli-masa-duzenleyici-silk-parlak-kalemlik/1.jpg" width="240"></a>
 
-**[urun/yuvarlak-koseli-masa-duzenleyici-silk-parlak-kalemlik](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yuvarlak-koseli-masa-duzenleyici-silk-parlak-kalemlik)** · 6 kare · hikaye 11:50
+**[urun/yuvarlak-koseli-masa-duzenleyici-silk-parlak-kalemlik](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yuvarlak-koseli-masa-duzenleyici-silk-parlak-kalemlik)** · 6 kare · hikaye 09:50
 
 ```
 Yuvarlak Köşeli Masa Düzenleyici - Silk Parlak Kalemlik
@@ -6642,11 +6642,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #makyajorganizeri #takiduzenleyici
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/buyuk-yaprak-sabunluk-suzgecli-damlalikli-yuksek-ayakli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/buyuk-yaprak-sabunluk-suzgecli-damlalikli-yuksek-ayakli/1.jpg" width="240"></a>
 
-**[urun/buyuk-yaprak-sabunluk-suzgecli-damlalikli-yuksek-ayakli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/buyuk-yaprak-sabunluk-suzgecli-damlalikli-yuksek-ayakli)** · 6 kare · hikaye 14:00
+**[urun/buyuk-yaprak-sabunluk-suzgecli-damlalikli-yuksek-ayakli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/buyuk-yaprak-sabunluk-suzgecli-damlalikli-yuksek-ayakli)** · 6 kare · hikaye 13:18
 
 ```
 Büyük Yaprak Sabunluk - Süzgeçli Damlalıklı, Yüksek Ayaklı
@@ -6664,11 +6664,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #sabunluk #banyoduzeni
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/akiskan-kendinden-sulamali-saksi-hazneli-dekoratif-saksi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/akiskan-kendinden-sulamali-saksi-hazneli-dekoratif-saksi/1.jpg" width="240"></a>
 
-**[urun/akiskan-kendinden-sulamali-saksi-hazneli-dekoratif-saksi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/akiskan-kendinden-sulamali-saksi-hazneli-dekoratif-saksi)** · 6 kare · hikaye 17:50
+**[urun/akiskan-kendinden-sulamali-saksi-hazneli-dekoratif-saksi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/akiskan-kendinden-sulamali-saksi-hazneli-dekoratif-saksi)** · 6 kare · hikaye 18:04
 
 ```
 Akışkan Kendinden Sulamalı Saksı - Hazneli Dekoratif Saksı
@@ -6688,7 +6688,7 @@ Evi bitki dolu olan arkadaşına yolla.
 
 ---
 
-# 2027-02-15 · Pazartesi
+# 2027-02-16 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -6758,7 +6758,7 @@ Evi bitki dolu olan arkadaşına yolla.
 
 ---
 
-# 2027-02-16 · Salı
+# 2027-02-17 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -6782,11 +6782,11 @@ Evi bitki dolu olan arkadaşına yolla.
 #sermenkreatif #3dbaski #saksi #bitkisever
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalgali-saksi-ve-sarmal-tabak-ic-mekan-bitki-saksisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/dalgali-saksi-ve-sarmal-tabak-ic-mekan-bitki-saksisi/1.jpg" width="240"></a>
 
-**[urun/dalgali-saksi-ve-sarmal-tabak-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalgali-saksi-ve-sarmal-tabak-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 13:18
+**[urun/dalgali-saksi-ve-sarmal-tabak-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalgali-saksi-ve-sarmal-tabak-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 12:50
 
 ```
 Dalgalı Saksı ve Sarmal Tabak - İç Mekân Bitki Saksısı
@@ -6828,13 +6828,13 @@ Evi bitki dolu olan arkadaşına yolla.
 
 ---
 
-# 2027-02-17 · Çarşamba
+# 2027-02-18 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-saksi-ic-mekan-bitki-saksisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-saksi-ic-mekan-bitki-saksisi/1.jpg" width="240"></a>
 
-**[urun/japandi-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 09:50
+**[urun/japandi-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 09:45
 
 ```
 Japandi Saksı - İç Mekân Bitki Saksısı
@@ -6852,11 +6852,11 @@ Evi bitki dolu olan arkadaşına yolla.
 #sermenkreatif #3dbaski #saksi #bitkisever
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kabarcik-kup-saksi-ic-mekan-bitki-saksisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kabarcik-kup-saksi-ic-mekan-bitki-saksisi/1.jpg" width="240"></a>
 
-**[urun/kabarcik-kup-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kabarcik-kup-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 12:50
+**[urun/kabarcik-kup-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kabarcik-kup-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 13:18
 
 ```
 Kabarcık Küp Saksı - İç Mekân Bitki Saksısı
@@ -6898,13 +6898,13 @@ Evi bitki dolu olan arkadaşına yolla.
 
 ---
 
-# 2027-02-18 · Perşembe
+# 2027-02-19 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-drenajli-saksi-ic-mekan-bitki-saksisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nervurlu-drenajli-saksi-ic-mekan-bitki-saksisi/1.jpg" width="240"></a>
 
-**[urun/nervurlu-drenajli-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-drenajli-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 09:45
+**[urun/nervurlu-drenajli-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nervurlu-drenajli-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 09:50
 
 ```
 Nervürlü Drenajlı Saksı - İç Mekân Bitki Saksısı
@@ -6944,11 +6944,11 @@ Evi bitki dolu olan arkadaşına yolla.
 #sermenkreatif #3dbaski #saksi #bitkisever
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/origami-saksi-ic-mekan-bitki-saksisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/origami-saksi-ic-mekan-bitki-saksisi/1.jpg" width="240"></a>
 
-**[urun/origami-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/origami-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 18:04
+**[urun/origami-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/origami-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 17:20
 
 ```
 Origami Saksı - İç Mekân Bitki Saksısı
@@ -6968,13 +6968,13 @@ Evi bitki dolu olan arkadaşına yolla.
 
 ---
 
-# 2027-02-19 · Cuma
+# 2027-02-20 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/parametrik-ic-saksi-ic-mekan-bitki-saksisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/parametrik-ic-saksi-ic-mekan-bitki-saksisi/1.jpg" width="240"></a>
 
-**[urun/parametrik-ic-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/parametrik-ic-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 09:50
+**[urun/parametrik-ic-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/parametrik-ic-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 11:50
 
 ```
 Parametrik İç Saksı - İç Mekân Bitki Saksısı
@@ -6992,11 +6992,11 @@ Evi bitki dolu olan arkadaşına yolla.
 #sermenkreatif #3dbaski #saksi #bitkisever
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/poligon-orkide-saksisi-ic-mekan-bitki-saksisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/poligon-orkide-saksisi-ic-mekan-bitki-saksisi/1.jpg" width="240"></a>
 
-**[urun/poligon-orkide-saksisi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/poligon-orkide-saksisi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 13:18
+**[urun/poligon-orkide-saksisi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/poligon-orkide-saksisi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 14:00
 
 ```
 Poligon Orkide Saksısı - İç Mekân Bitki Saksısı
@@ -7014,11 +7014,11 @@ Evi bitki dolu olan arkadaşına yolla.
 #sermenkreatif #3dbaski #saksi #bitkisever
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/retro-drenajli-saksi-ic-mekan-bitki-saksisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/retro-drenajli-saksi-ic-mekan-bitki-saksisi/1.jpg" width="240"></a>
 
-**[urun/retro-drenajli-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/retro-drenajli-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 17:20
+**[urun/retro-drenajli-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/retro-drenajli-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 17:50
 
 ```
 Retro Drenajlı Saksı - İç Mekân Bitki Saksısı
@@ -7038,7 +7038,7 @@ Evi bitki dolu olan arkadaşına yolla.
 
 ---
 
-# 2027-02-20 · Cumartesi
+# 2027-02-21 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -7108,13 +7108,13 @@ Evi bitki dolu olan arkadaşına yolla.
 
 ---
 
-# 2027-02-21 · Pazar
+# 2027-02-22 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/tas-dokulu-mini-saksi-ic-mekan-bitki-saksisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/tas-dokulu-mini-saksi-ic-mekan-bitki-saksisi/1.jpg" width="240"></a>
 
-**[urun/tas-dokulu-mini-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/tas-dokulu-mini-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 11:50
+**[urun/tas-dokulu-mini-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/tas-dokulu-mini-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 09:50
 
 ```
 Taş Dokulu Mini Saksı - İç Mekân Bitki Saksısı
@@ -7132,11 +7132,11 @@ Evi bitki dolu olan arkadaşına yolla.
 #sermenkreatif #3dbaski #saksi #bitkisever
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/tas-gorunumlu-sulamali-saksi-hazneli-dekoratif-saksi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/tas-gorunumlu-sulamali-saksi-hazneli-dekoratif-saksi/1.jpg" width="240"></a>
 
-**[urun/tas-gorunumlu-sulamali-saksi-hazneli-dekoratif-saksi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/tas-gorunumlu-sulamali-saksi-hazneli-dekoratif-saksi)** · 6 kare · hikaye 14:00
+**[urun/tas-gorunumlu-sulamali-saksi-hazneli-dekoratif-saksi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/tas-gorunumlu-sulamali-saksi-hazneli-dekoratif-saksi)** · 6 kare · hikaye 13:18
 
 ```
 Taş Görünümlü Sulamalı Saksı - Hazneli Dekoratif Saksı
@@ -7154,11 +7154,11 @@ Evi bitki dolu olan arkadaşına yolla.
 #sermenkreatif #3dbaski #saksi #bitkisever
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/toprak-formlu-saksi-ic-mekan-bitki-saksisi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/toprak-formlu-saksi-ic-mekan-bitki-saksisi/1.jpg" width="240"></a>
 
-**[urun/toprak-formlu-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/toprak-formlu-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 17:50
+**[urun/toprak-formlu-saksi-ic-mekan-bitki-saksisi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/toprak-formlu-saksi-ic-mekan-bitki-saksisi)** · 6 kare · hikaye 18:04
 
 ```
 Toprak Formlu Saksı - İç Mekân Bitki Saksısı
@@ -7178,7 +7178,7 @@ Evi bitki dolu olan arkadaşına yolla.
 
 ---
 
-# 2027-02-22 · Pazartesi
+# 2027-02-23 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -7248,7 +7248,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-23 · Salı
+# 2027-02-24 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -7272,11 +7272,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #mumluk #evdekorasyonu
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/led-mumluk-kardan-adam-3d-baski-yilbasi-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/led-mumluk-kardan-adam-3d-baski-yilbasi-dekoru/1.jpg" width="240"></a>
 
-**[urun/led-mumluk-kardan-adam-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/led-mumluk-kardan-adam-3d-baski-yilbasi-dekoru)** · 2 kare · hikaye 13:18
+**[urun/led-mumluk-kardan-adam-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/led-mumluk-kardan-adam-3d-baski-yilbasi-dekoru)** · 2 kare · hikaye 12:50
 
 ```
 LED Mumluk Kardan Adam - 3D Baskı Yılbaşı Dekoru
@@ -7318,13 +7318,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-24 · Çarşamba
+# 2027-02-25 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/noel-baba-fener-led-mumluk-yilbasi-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/noel-baba-fener-led-mumluk-yilbasi-dekoru/1.jpg" width="240"></a>
 
-**[urun/noel-baba-fener-led-mumluk-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/noel-baba-fener-led-mumluk-yilbasi-dekoru)** · 1 kare · hikaye 09:50
+**[urun/noel-baba-fener-led-mumluk-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/noel-baba-fener-led-mumluk-yilbasi-dekoru)** · 1 kare · hikaye 09:45
 
 ```
 Noel Baba Fener - LED Mumluk Yılbaşı Dekoru
@@ -7342,11 +7342,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #mumluk #evdekorasyonu
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yildiz-mumluk-seti-3d-baski-yilbasi-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/yildiz-mumluk-seti-3d-baski-yilbasi-dekoru/1.jpg" width="240"></a>
 
-**[urun/yildiz-mumluk-seti-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yildiz-mumluk-seti-3d-baski-yilbasi-dekoru)** · 3 kare · hikaye 12:50
+**[urun/yildiz-mumluk-seti-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yildiz-mumluk-seti-3d-baski-yilbasi-dekoru)** · 3 kare · hikaye 13:18
 
 ```
 Yıldız Mumluk Seti - 3D Baskı Yılbaşı Dekoru
@@ -7388,13 +7388,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-25 · Perşembe
+# 2027-02-26 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-fitilli-tepsi-silk-parlak-makyaj-organizeri"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-fitilli-tepsi-silk-parlak-makyaj-organizeri/1.jpg" width="240"></a>
 
-**[urun/japandi-fitilli-tepsi-silk-parlak-makyaj-organizeri](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-fitilli-tepsi-silk-parlak-makyaj-organizeri)** · 6 kare · hikaye 09:45
+**[urun/japandi-fitilli-tepsi-silk-parlak-makyaj-organizeri](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-fitilli-tepsi-silk-parlak-makyaj-organizeri)** · 6 kare · hikaye 09:50
 
 ```
 Japandi Fitilli Tepsi - Silk Parlak Makyaj Organizeri
@@ -7434,11 +7434,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratiftepsi #evdekorasyonu
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kulplu-kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kulplu-kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri/1.jpg" width="240"></a>
 
-**[urun/kulplu-kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kulplu-kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri)** · 6 kare · hikaye 18:04
+**[urun/kulplu-kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kulplu-kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri)** · 6 kare · hikaye 17:20
 
 ```
 Kulplu Kapitone Vanity Tepsisi - Silk Parlak Makyaj Organizeri
@@ -7458,13 +7458,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-26 · Cuma
+# 2027-02-27 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/akiskan-heykel-vazo-kuru-cicek-ve-pampas-vazosu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/akiskan-heykel-vazo-kuru-cicek-ve-pampas-vazosu/1.jpg" width="240"></a>
 
-**[urun/akiskan-heykel-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/akiskan-heykel-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 09:50
+**[urun/akiskan-heykel-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/akiskan-heykel-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 11:50
 
 ```
 Akışkan Heykel Vazo - Kuru Çiçek ve Pampas Vazosu
@@ -7482,11 +7482,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifvazo #evdekorasyonu
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalga-vazo-kuru-cicek-ve-pampas-vazosu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/dalga-vazo-kuru-cicek-ve-pampas-vazosu/1.jpg" width="240"></a>
 
-**[urun/dalga-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalga-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 13:18
+**[urun/dalga-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dalga-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 14:00
 
 ```
 Dalga Vazo - Kuru Çiçek ve Pampas Vazosu
@@ -7504,11 +7504,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifvazo #evdekorasyonu
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/drapeli-modern-vazo-silk-parlak-3d-baski"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/drapeli-modern-vazo-silk-parlak-3d-baski/1.jpg" width="240"></a>
 
-**[urun/drapeli-modern-vazo-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/drapeli-modern-vazo-silk-parlak-3d-baski)** · 6 kare · hikaye 17:20
+**[urun/drapeli-modern-vazo-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/drapeli-modern-vazo-silk-parlak-3d-baski)** · 6 kare · hikaye 17:50
 
 ```
 Drapeli Modern Vazo - Silk Parlak 3D Baskı
@@ -7528,7 +7528,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-27 · Cumartesi
+# 2027-02-28 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -7598,13 +7598,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-02-28 · Pazar
+# 2027-03-01 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ikili-zarif-vazo-seti-dekoratif-vazo-seti"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/ikili-zarif-vazo-seti-dekoratif-vazo-seti/1.jpg" width="240"></a>
 
-**[urun/ikili-zarif-vazo-seti-dekoratif-vazo-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ikili-zarif-vazo-seti-dekoratif-vazo-seti)** · 6 kare · hikaye 11:50
+**[urun/ikili-zarif-vazo-seti-dekoratif-vazo-seti](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ikili-zarif-vazo-seti-dekoratif-vazo-seti)** · 6 kare · hikaye 09:50
 
 ```
 İkili Zarif Vazo Seti - Dekoratif Vazo Seti
@@ -7622,11 +7622,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifvazo #evdekorasyonu
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ince-spiral-modern-vazo-kuru-cicek-ve-pampas-vazosu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/ince-spiral-modern-vazo-kuru-cicek-ve-pampas-vazosu/1.jpg" width="240"></a>
 
-**[urun/ince-spiral-modern-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ince-spiral-modern-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 14:00
+**[urun/ince-spiral-modern-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ince-spiral-modern-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 13:18
 
 ```
 İnce Spiral Modern Vazo - Kuru Çiçek ve Pampas Vazosu
@@ -7644,11 +7644,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifvazo #evdekorasyonu
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ince-zarif-vazo-kuru-cicek-ve-pampas-vazosu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/ince-zarif-vazo-kuru-cicek-ve-pampas-vazosu/1.jpg" width="240"></a>
 
-**[urun/ince-zarif-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ince-zarif-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 17:50
+**[urun/ince-zarif-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/ince-zarif-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 18:04
 
 ```
 İnce Zarif Vazo - Kuru Çiçek ve Pampas Vazosu
@@ -7668,7 +7668,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-03-01 · Pazartesi
+# 2027-03-02 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -7738,7 +7738,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-03-02 · Salı
+# 2027-03-03 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -7762,11 +7762,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifvazo #evdekorasyonu
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kelebek-fiyonklu-vazo-silk-parlak-3d-baski"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kelebek-fiyonklu-vazo-silk-parlak-3d-baski/1.jpg" width="240"></a>
 
-**[urun/kelebek-fiyonklu-vazo-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kelebek-fiyonklu-vazo-silk-parlak-3d-baski)** · 6 kare · hikaye 13:18
+**[urun/kelebek-fiyonklu-vazo-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kelebek-fiyonklu-vazo-silk-parlak-3d-baski)** · 6 kare · hikaye 12:50
 
 ```
 Kelebek Fiyonklu Vazo - Silk Parlak 3D Baskı
@@ -7808,13 +7808,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-03-03 · Çarşamba
+# 2027-03-04 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kumas-kese-gorunumlu-vazo-silk-parlak-3d-baski"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kumas-kese-gorunumlu-vazo-silk-parlak-3d-baski/1.jpg" width="240"></a>
 
-**[urun/kumas-kese-gorunumlu-vazo-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kumas-kese-gorunumlu-vazo-silk-parlak-3d-baski)** · 6 kare · hikaye 09:50
+**[urun/kumas-kese-gorunumlu-vazo-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kumas-kese-gorunumlu-vazo-silk-parlak-3d-baski)** · 6 kare · hikaye 09:45
 
 ```
 Kumaş Kese Görünümlü Vazo - Silk Parlak 3D Baskı
@@ -7832,11 +7832,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifvazo #evdekorasyonu
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kurdele-vazo-silk-parlak-3d-baski"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kurdele-vazo-silk-parlak-3d-baski/1.jpg" width="240"></a>
 
-**[urun/kurdele-vazo-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kurdele-vazo-silk-parlak-3d-baski)** · 6 kare · hikaye 12:50
+**[urun/kurdele-vazo-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kurdele-vazo-silk-parlak-3d-baski)** · 6 kare · hikaye 13:18
 
 ```
 Kurdele Vazo - Silk Parlak 3D Baskı
@@ -7878,13 +7878,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-03-04 · Perşembe
+# 2027-03-05 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nilufer-spiral-vazo-kuru-cicek-ve-pampas-vazosu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/nilufer-spiral-vazo-kuru-cicek-ve-pampas-vazosu/1.jpg" width="240"></a>
 
-**[urun/nilufer-spiral-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nilufer-spiral-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 09:45
+**[urun/nilufer-spiral-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/nilufer-spiral-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 09:50
 
 ```
 Nilüfer Spiral Vazo - Kuru Çiçek ve Pampas Vazosu
@@ -7924,11 +7924,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifvazo #evdekorasyonu
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/orgu-dokulu-vazo-silk-parlak-3d-baski"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/orgu-dokulu-vazo-silk-parlak-3d-baski/1.jpg" width="240"></a>
 
-**[urun/orgu-dokulu-vazo-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/orgu-dokulu-vazo-silk-parlak-3d-baski)** · 6 kare · hikaye 18:04
+**[urun/orgu-dokulu-vazo-silk-parlak-3d-baski](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/orgu-dokulu-vazo-silk-parlak-3d-baski)** · 6 kare · hikaye 17:20
 
 ```
 Örgü Dokulu Vazo - Silk Parlak 3D Baskı
@@ -7948,13 +7948,13 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-03-05 · Cuma
+# 2027-03-06 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu/1.jpg" width="240"></a>
 
-**[urun/spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 09:50
+**[urun/spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 11:50
 
 ```
 Spiral Zeytin Vazo - Kuru Çiçek ve Pampas Vazosu
@@ -7972,11 +7972,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifvazo #evdekorasyonu
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/zarif-spiral-vazo-kuru-cicek-ve-pampas-vazosu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/zarif-spiral-vazo-kuru-cicek-ve-pampas-vazosu/1.jpg" width="240"></a>
 
-**[urun/zarif-spiral-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/zarif-spiral-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 13:18
+**[urun/zarif-spiral-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/zarif-spiral-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 14:00
 
 ```
 Zarif Spiral Vazo - Kuru Çiçek ve Pampas Vazosu
@@ -7994,11 +7994,11 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 #sermenkreatif #3dbaski #dekoratifvazo #evdekorasyonu
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/zeytin-vazo-kuru-cicek-ve-pampas-vazosu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/zeytin-vazo-kuru-cicek-ve-pampas-vazosu/1.jpg" width="240"></a>
 
-**[urun/zeytin-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/zeytin-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 17:20
+**[urun/zeytin-vazo-kuru-cicek-ve-pampas-vazosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/zeytin-vazo-kuru-cicek-ve-pampas-vazosu)** · 6 kare · hikaye 17:50
 
 ```
 Zeytin Vazo - Kuru Çiçek ve Pampas Vazosu
@@ -8018,7 +8018,7 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 ---
 
-# 2027-03-06 · Cumartesi
+# 2027-03-07 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -8088,13 +8088,13 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 
 ---
 
-# 2027-03-07 · Pazar
+# 2027-03-08 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-desteksiz-agac-masaustu-yilbasi-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-desteksiz-agac-masaustu-yilbasi-dekoru/1.jpg" width="240"></a>
 
-**[urun/japandi-desteksiz-agac-masaustu-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-desteksiz-agac-masaustu-yilbasi-dekoru)** · 3 kare · hikaye 11:50
+**[urun/japandi-desteksiz-agac-masaustu-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-desteksiz-agac-masaustu-yilbasi-dekoru)** · 3 kare · hikaye 09:50
 
 ```
 Japandi Desteksiz Ağaç - Masaüstü Yılbaşı Dekoru
@@ -8112,11 +8112,11 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 #sermenkreatif #3dbaski #yilbasiagaci #yilbasi
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-yilbasi-agaci-3d-baski-yilbasi-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/spiral-yilbasi-agaci-3d-baski-yilbasi-dekoru/1.jpg" width="240"></a>
 
-**[urun/spiral-yilbasi-agaci-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-yilbasi-agaci-3d-baski-yilbasi-dekoru)** · 4 kare · hikaye 14:00
+**[urun/spiral-yilbasi-agaci-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/spiral-yilbasi-agaci-3d-baski-yilbasi-dekoru)** · 4 kare · hikaye 13:18
 
 ```
 Spiral Yılbaşı Ağacı - 3D Baskı Yılbaşı Dekoru
@@ -8134,11 +8134,11 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 #sermenkreatif #3dbaski #yilbasiagaci #yilbasi
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yilbasi-agaclari-seti-3d-baski-yilbasi-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/yilbasi-agaclari-seti-3d-baski-yilbasi-dekoru/1.jpg" width="240"></a>
 
-**[urun/yilbasi-agaclari-seti-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yilbasi-agaclari-seti-3d-baski-yilbasi-dekoru)** · 4 kare · hikaye 17:50
+**[urun/yilbasi-agaclari-seti-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/yilbasi-agaclari-seti-3d-baski-yilbasi-dekoru)** · 4 kare · hikaye 18:04
 
 ```
 Yılbaşı Ağaçları Seti - 3D Baskı Yılbaşı Dekoru
@@ -8158,7 +8158,7 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 
 ---
 
-# 2027-03-08 · Pazartesi
+# 2027-03-09 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -8228,7 +8228,7 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 
 ---
 
-# 2027-03-09 · Salı
+# 2027-03-10 · Çarşamba
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
@@ -8252,11 +8252,11 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 #sermenkreatif #3dbaski #yilbasisusu #yilbasi
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 12:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cizgi-sanati-susler-yilbasi-agaci-susu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/cizgi-sanati-susler-yilbasi-agaci-susu/1.jpg" width="240"></a>
 
-**[urun/cizgi-sanati-susler-yilbasi-agaci-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cizgi-sanati-susler-yilbasi-agaci-susu)** · 3 kare · hikaye 13:18
+**[urun/cizgi-sanati-susler-yilbasi-agaci-susu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/cizgi-sanati-susler-yilbasi-agaci-susu)** · 3 kare · hikaye 12:50
 
 ```
 Çizgi Sanatı Süsler - Yılbaşı Ağacı Süsü
@@ -8298,13 +8298,13 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 
 ---
 
-# 2027-03-10 · Çarşamba
+# 2027-03-11 · Perşembe
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 09:05 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/donen-yilbasi-agaci-3d-baski-yilbasi-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/donen-yilbasi-agaci-3d-baski-yilbasi-dekoru/1.jpg" width="240"></a>
 
-**[urun/donen-yilbasi-agaci-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/donen-yilbasi-agaci-3d-baski-yilbasi-dekoru)** · 1 kare · hikaye 09:50
+**[urun/donen-yilbasi-agaci-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/donen-yilbasi-agaci-3d-baski-yilbasi-dekoru)** · 1 kare · hikaye 09:45
 
 ```
 Dönen Yılbaşı Ağacı - 3D Baskı Yılbaşı Dekoru
@@ -8322,11 +8322,11 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 #sermenkreatif #3dbaski #yilbasisusu #yilbasi
 ```
 
-## 12:10 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/geyik-basli-sise-tipasi-yilbasi-sofra-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/geyik-basli-sise-tipasi-yilbasi-sofra-dekoru/1.jpg" width="240"></a>
 
-**[urun/geyik-basli-sise-tipasi-yilbasi-sofra-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/geyik-basli-sise-tipasi-yilbasi-sofra-dekoru)** · 3 kare · hikaye 12:50
+**[urun/geyik-basli-sise-tipasi-yilbasi-sofra-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/geyik-basli-sise-tipasi-yilbasi-sofra-dekoru)** · 3 kare · hikaye 13:18
 
 ```
 Geyik Başlı Şişe Tıpası - Yılbaşı Sofra Dekoru
@@ -8368,13 +8368,13 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 
 ---
 
-# 2027-03-11 · Perşembe
+# 2027-03-12 · Cuma
 
-## 09:05 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kar-tanesi-geyik-yilbasi-biblosu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kar-tanesi-geyik-yilbasi-biblosu/1.jpg" width="240"></a>
 
-**[urun/kar-tanesi-geyik-yilbasi-biblosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kar-tanesi-geyik-yilbasi-biblosu)** · 3 kare · hikaye 09:45
+**[urun/kar-tanesi-geyik-yilbasi-biblosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kar-tanesi-geyik-yilbasi-biblosu)** · 3 kare · hikaye 09:50
 
 ```
 Kar Tanesi Geyik - Yılbaşı Biblosu
@@ -8414,11 +8414,11 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 #sermenkreatif #3dbaski #yilbasisusu #yilbasi
 ```
 
-## 17:24 · BASKI ÜRÜNLERİ
+## 16:40 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kis-kurabiye-kaliplari-yilbasi-sofra-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kis-kurabiye-kaliplari-yilbasi-sofra-dekoru/1.jpg" width="240"></a>
 
-**[urun/kis-kurabiye-kaliplari-yilbasi-sofra-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kis-kurabiye-kaliplari-yilbasi-sofra-dekoru)** · 2 kare · hikaye 18:04
+**[urun/kis-kurabiye-kaliplari-yilbasi-sofra-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kis-kurabiye-kaliplari-yilbasi-sofra-dekoru)** · 2 kare · hikaye 17:20
 
 ```
 Kış Kurabiye Kalıpları - Yılbaşı Sofra Dekoru
@@ -8438,13 +8438,13 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 
 ---
 
-# 2027-03-12 · Cuma
+# 2027-03-13 · Cumartesi
 
-## 09:10 · BASKI ÜRÜNLERİ
+## 11:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kis-treni-kar-kuresi-3d-baski-yilbasi-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kis-treni-kar-kuresi-3d-baski-yilbasi-dekoru/1.jpg" width="240"></a>
 
-**[urun/kis-treni-kar-kuresi-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kis-treni-kar-kuresi-3d-baski-yilbasi-dekoru)** · 2 kare · hikaye 09:50
+**[urun/kis-treni-kar-kuresi-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kis-treni-kar-kuresi-3d-baski-yilbasi-dekoru)** · 2 kare · hikaye 11:50
 
 ```
 Kış Treni Kar Küresi - 3D Baskı Yılbaşı Dekoru
@@ -8462,11 +8462,11 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 #sermenkreatif #3dbaski #yilbasisusu #yilbasi
 ```
 
-## 12:38 · BASKI ÜRÜNLERİ
+## 13:20 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kozalak-cuce-evi-yilbasi-kis-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kozalak-cuce-evi-yilbasi-kis-dekoru/1.jpg" width="240"></a>
 
-**[urun/kozalak-cuce-evi-yilbasi-kis-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kozalak-cuce-evi-yilbasi-kis-dekoru)** · 2 kare · hikaye 13:18
+**[urun/kozalak-cuce-evi-yilbasi-kis-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kozalak-cuce-evi-yilbasi-kis-dekoru)** · 2 kare · hikaye 14:00
 
 ```
 Kozalak Cüce Evi - Yılbaşı Kış Dekoru
@@ -8484,11 +8484,11 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 #sermenkreatif #3dbaski #yilbasisusu #yilbasi
 ```
 
-## 16:40 · BASKI ÜRÜNLERİ
+## 17:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kurabiye-ejderha-yilbasi-biblosu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kurabiye-ejderha-yilbasi-biblosu/1.jpg" width="240"></a>
 
-**[urun/kurabiye-ejderha-yilbasi-biblosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kurabiye-ejderha-yilbasi-biblosu)** · 1 kare · hikaye 17:20
+**[urun/kurabiye-ejderha-yilbasi-biblosu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kurabiye-ejderha-yilbasi-biblosu)** · 1 kare · hikaye 17:50
 
 ```
 Kurabiye Ejderha - Yılbaşı Biblosu
@@ -8508,7 +8508,7 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 
 ---
 
-# 2027-03-13 · Cumartesi
+# 2027-03-14 · Pazar
 
 ## 11:10 · BASKI ÜRÜNLERİ
 
@@ -8578,13 +8578,13 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 
 ---
 
-# 2027-03-14 · Pazar
+# 2027-03-15 · Pazartesi
 
-## 11:10 · BASKI ÜRÜNLERİ
+## 09:10 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/noel-baba-kapi-kosesi-3d-baski-yilbasi-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/noel-baba-kapi-kosesi-3d-baski-yilbasi-dekoru/1.jpg" width="240"></a>
 
-**[urun/noel-baba-kapi-kosesi-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/noel-baba-kapi-kosesi-3d-baski-yilbasi-dekoru)** · 3 kare · hikaye 11:50
+**[urun/noel-baba-kapi-kosesi-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/noel-baba-kapi-kosesi-3d-baski-yilbasi-dekoru)** · 3 kare · hikaye 09:50
 
 ```
 Noel Baba Kapı Köşesi - 3D Baskı Yılbaşı Dekoru
@@ -8602,11 +8602,11 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 #sermenkreatif #3dbaski #yilbasisusu #yilbasi
 ```
 
-## 13:20 · BASKI ÜRÜNLERİ
+## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/noel-baba-sise-sapkasi-yilbasi-sofra-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/noel-baba-sise-sapkasi-yilbasi-sofra-dekoru/1.jpg" width="240"></a>
 
-**[urun/noel-baba-sise-sapkasi-yilbasi-sofra-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/noel-baba-sise-sapkasi-yilbasi-sofra-dekoru)** · 1 kare · hikaye 14:00
+**[urun/noel-baba-sise-sapkasi-yilbasi-sofra-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/noel-baba-sise-sapkasi-yilbasi-sofra-dekoru)** · 1 kare · hikaye 13:18
 
 ```
 Noel Baba Şişe Şapkası - Yılbaşı Sofra Dekoru
@@ -8624,11 +8624,11 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 #sermenkreatif #3dbaski #yilbasisusu #yilbasi
 ```
 
-## 17:10 · BASKI ÜRÜNLERİ
+## 17:24 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/orgu-hediye-kutusu-3d-baski-yilbasi-dekoru"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/orgu-hediye-kutusu-3d-baski-yilbasi-dekoru/1.jpg" width="240"></a>
 
-**[urun/orgu-hediye-kutusu-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/orgu-hediye-kutusu-3d-baski-yilbasi-dekoru)** · 3 kare · hikaye 17:50
+**[urun/orgu-hediye-kutusu-3d-baski-yilbasi-dekoru](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/orgu-hediye-kutusu-3d-baski-yilbasi-dekoru)** · 3 kare · hikaye 18:04
 
 ```
 Örgü Hediye Kutusu - 3D Baskı Yılbaşı Dekoru
@@ -8648,7 +8648,7 @@ Yılbaşı hazırlığına başlayan arkadaşına yolla.
 
 ---
 
-# 2027-03-15 · Pazartesi
+# 2027-03-16 · Salı
 
 ## 09:10 · BASKI ÜRÜNLERİ
 
