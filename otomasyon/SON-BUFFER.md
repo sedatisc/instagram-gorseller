@@ -1,13 +1,12 @@
 # Son Buffer gönderimi
 
-2026-11-12 · 0 hata
+2026-11-13 · 0 hata
 
 | Saat | İş | Durum |
 |---|---|---|
-| 2026-11-12T09:05 | 2026-10-20-sparkx-i7-i8-pano|gonderi | planlandı |
-| 2026-11-12T09:45 | 2026-10-20-sparkx-i7-i8-pano|hikaye | planlandı |
-| 2026-11-12T12:38 | urun/telefon-tutuculu-masaustu-duzenleyici-kalemlikli|gonderi | planlandı |
-| 2026-11-12T13:18 | urun/telefon-tutuculu-masaustu-duzenleyici-kalemlikli|hikaye | planlandı |
-| 2026-11-12T17:24 | urun/yukseltilmis-kedi-kopek-mama-kabi-standi-isimli|gonderi | planlandı |
-| 2026-11-12T18:04 | urun/yukseltilmis-kedi-kopek-mama-kabi-standi-isimli|hikaye | planlandı |
-| 2026-11-12T19:40 | 2026-10-20-sparkx-i7-i8-pano|reels | planlandı |
+| 2026-11-13T09:10 | 2026-10-21-filament-cesitleri|gonderi | planlandı |
+| 2026-11-13T09:50 | 2026-10-21-filament-cesitleri|hikaye | planlandı |
+| 2026-11-13T12:38 | urun/5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto|gonderi | planlandı |
+| 2026-11-13T13:18 | urun/5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto|hikaye | planlandı |
+| 2026-11-13T16:40 | urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice|gonderi | planlandı |
+| 2026-11-13T17:20 | urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice|hikaye | planlandı |

@@ -4,18 +4,6 @@ Günde **3 gönderi · 3 hikaye · 1 reels**. Hikaye, gönderiden 40 dakika sonr
 
 Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.json` içinde.
 
-## 2026-11-13 · Cuma
-
-| Saat | Tür | Slot | Klasör | Kare |
-|---|---|---|---|---|
-| 09:10 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-21-filament-cesitleri` | 8 |
-| 09:50 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-21-filament-cesitleri/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto` | 7 |
-| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto/hikaye.jpg` | 1 |
-| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice` | 7 |
-| 17:20 | Hikaye | BASKI ÜRÜNLERİ | `urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice/hikaye.jpg` | 1 |
-| 19:20 | **Reels** | — | _boş — üretilecek_ | — |
-
 ## 2026-11-14 · Cumartesi
 
 | Saat | Tür | Slot | Klasör | Kare |
@@ -1496,7 +1484,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 Bu slotlar için içerik henüz üretilmedi:
 
-- 2026-11-13 · REELS
 - 2026-11-16 · REELS
 - 2026-11-17 · REELS
 - 2026-11-19 · REELS

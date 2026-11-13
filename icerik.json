@@ -758,8 +758,9 @@
    "klasor": "2026-10-21-filament-cesitleri",
    "kategori": "magaza",
    "konu": "filament-cesitleri",
-   "durum": "hazir",
-   "kare": 8
+   "durum": "yayinlandi",
+   "kare": 8,
+   "tarih": "2026-11-13"
   },
   {
    "klasor": "2026-10-21-filament-rehberi",
@@ -1078,15 +1079,17 @@
    "klasor": "urun/5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto",
    "kategori": "baski",
    "konu": "5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-13"
   },
   {
    "klasor": "urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice",
    "kategori": "baski",
    "konu": "ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-13"
   },
   {
    "klasor": "urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli",
