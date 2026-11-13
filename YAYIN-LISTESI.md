@@ -8,32 +8,29 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | PROJE & ATÖLYE | `2026-10-17-rc-tank` | 6 |
-| 11:50 | Hikaye | PROJE & ATÖLYE | `2026-10-17-rc-tank/hikaye.jpg` | 1 |
+| 11:10 | — | **boş** | _boş — üretilecek_ | — |
 | 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli` | 7 |
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli/hikaye.jpg` | 1 |
 | 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-ayakli-havlu-pecetelik-kulplu` | 7 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-ayakli-havlu-pecetelik-kulplu/hikaye.jpg` | 1 |
-| 19:20 | **Reels** | — | `2026-10-17-rc-tank/reels.mp4` | video |
+| 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2026-11-15 · Pazar
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | ÜRÜN & MAĞAZA | `2026-10-22-creality-k2-plus` | 6 |
-| 11:50 | Hikaye | ÜRÜN & MAĞAZA | `2026-10-22-creality-k2-plus/hikaye.jpg` | 1 |
+| 11:10 | — | **boş** | _boş — üretilecek_ | — |
 | 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm` | 7 |
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm/hikaye.jpg` | 1 |
 | 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi` | 7 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi/hikaye.jpg` | 1 |
-| 19:50 | **Reels** | — | `2026-10-22-creality-k2-plus/reels.mp4` | video |
+| 19:50 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2026-11-16 · Pazartesi
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | PROJE & ATÖLYE | `2026-10-18-toplulukta-ariza` | 5 |
-| 09:50 | Hikaye | PROJE & ATÖLYE | `2026-10-18-toplulukta-ariza/hikaye.jpg` | 1 |
+| 09:10 | — | **boş** | _boş — üretilecek_ | — |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/dis-macunu-standi-bas-asagi-tutucu` | 6 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/dis-macunu-standi-bas-asagi-tutucu/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/eriyen-mum-gorunumlu-led-mumluk` | 6 |
@@ -44,8 +41,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | PROJE & ATÖLYE | `2026-10-19-oyuncak-yol-seti` | 5 |
-| 09:50 | Hikaye | PROJE & ATÖLYE | `2026-10-19-oyuncak-yol-seti/hikaye.jpg` | 1 |
+| 09:10 | — | **boş** | _boş — üretilecek_ | — |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec` | 6 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-sungerlik-ve-sabunluk-suzgecli` | 6 |
@@ -56,20 +52,18 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | PROJE & ATÖLYE | `2026-10-20-fpv-drone-cinelog20` | 5 |
-| 09:50 | Hikaye | PROJE & ATÖLYE | `2026-10-20-fpv-drone-cinelog20/hikaye.jpg` | 1 |
+| 09:10 | — | **boş** | _boş — üretilecek_ | — |
 | 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi` | 6 |
 | 12:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/kasik-ve-tencere-kapagi-tutucu` | 6 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/kasik-ve-tencere-kapagi-tutucu/hikaye.jpg` | 1 |
-| 19:40 | **Reels** | — | `2026-10-20-fpv-drone-cinelog20/reels.mp4` | video |
+| 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2026-11-19 · Perşembe
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:05 | Gönderi | PROJE & ATÖLYE | `2026-10-21-pi5-ekran-standi` | 4 |
-| 09:45 | Hikaye | PROJE & ATÖLYE | `2026-10-21-pi5-ekran-standi/hikaye.jpg` | 1 |
+| 09:05 | — | **boş** | _boş — üretilecek_ | — |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi` | 6 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/kendinden-suzgecli-sabunluk-akitmali` | 6 |
@@ -1484,8 +1478,17 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 Bu slotlar için içerik henüz üretilmedi:
 
+- 2026-11-14 · S1
+- 2026-11-14 · REELS
+- 2026-11-15 · S1
+- 2026-11-15 · REELS
+- 2026-11-16 · S1
 - 2026-11-16 · REELS
+- 2026-11-17 · S1
 - 2026-11-17 · REELS
+- 2026-11-18 · S1
+- 2026-11-18 · REELS
+- 2026-11-19 · S1
 - 2026-11-19 · REELS
 - 2026-11-20 · REELS
 - 2026-11-21 · REELS
