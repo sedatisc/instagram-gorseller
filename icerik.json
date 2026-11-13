@@ -580,9 +580,10 @@
    "klasor": "2026-10-17-rc-tank",
    "kategori": "proje",
    "konu": "rc-tank",
-   "durum": "hazir",
+   "durum": "beklemede",
    "kare": 6,
-   "reels": true
+   "reels": true,
+   "neden": "Tasarımı yenilenecek — elde kurulan pano kullanılmıyor"
   },
   {
    "klasor": "2026-10-18-aydinlatma",
@@ -614,8 +615,9 @@
    "klasor": "2026-10-18-filament-kurutucu-pano",
    "kategori": "rehber",
    "konu": "filament-kurutucu",
-   "durum": "hazir",
-   "kare": 1
+   "durum": "beklemede",
+   "kare": 1,
+   "neden": "Tasarımı yenilenecek — elde kurulan pano kullanılmıyor"
   },
   {
    "klasor": "2026-10-18-kondansator-esr",
@@ -637,8 +639,9 @@
    "klasor": "2026-10-18-toplulukta-ariza",
    "kategori": "proje",
    "konu": "toplulukta-ariza",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "beklemede",
+   "kare": 5,
+   "neden": "Tasarımı yenilenecek — elde kurulan pano kullanılmıyor"
   },
   {
    "klasor": "2026-10-19-bambu-a-serisi-pano",
@@ -677,8 +680,9 @@
    "klasor": "2026-10-19-oyuncak-yol-seti",
    "kategori": "proje",
    "konu": "oyuncak-yol-seti",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "beklemede",
+   "kare": 5,
+   "neden": "Tasarımı yenilenecek — elde kurulan pano kullanılmıyor"
   },
   {
    "klasor": "2026-10-19-trendyol-magaza",
@@ -708,9 +712,10 @@
    "klasor": "2026-10-20-fpv-drone-cinelog20",
    "kategori": "proje",
    "konu": "fpv-drone-cinelog20",
-   "durum": "hazir",
+   "durum": "beklemede",
    "kare": 5,
-   "reels": true
+   "reels": true,
+   "neden": "Tasarımı yenilenecek — elde kurulan pano kullanılmıyor"
   },
   {
    "klasor": "2026-10-20-makyaj-ve-taki",
@@ -790,8 +795,9 @@
    "klasor": "2026-10-21-pi5-ekran-standi",
    "kategori": "proje",
    "konu": "pi5-ekran-standi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "beklemede",
+   "kare": 4,
+   "neden": "Tasarımı yenilenecek — elde kurulan pano kullanılmıyor"
   },
   {
    "klasor": "2026-10-21-u1-k3-pano",
@@ -805,9 +811,10 @@
    "klasor": "2026-10-22-creality-k2-plus",
    "kategori": "magaza",
    "konu": "creality-k2-plus",
-   "durum": "hazir",
+   "durum": "beklemede",
    "kare": 6,
-   "reels": true
+   "reels": true,
+   "neden": "Tasarımı yenilenecek — elde kurulan pano kullanılmıyor"
   },
   {
    "klasor": "2026-10-22-geometrik-siralama",
