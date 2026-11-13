@@ -3947,8 +3947,9 @@
    "klasor": "urun/orgu-dokulu-vazo-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "orgu-dokulu-vazo-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu",
@@ -4180,6 +4181,13 @@
    "konu": "spiral-yilbasi-topu-3d-baski-yilbasi-dekoru",
    "durum": "hazir",
    "kare": 4
+  },
+  {
+   "klasor": "urun/buzgulu-kese-vazo-kuru-cicek-ve-pampas-vazosu",
+   "kategori": "baski",
+   "konu": "buzgulu-kese-vazo-kuru-cicek-ve-pampas-vazosu",
+   "durum": "hazir",
+   "kare": 8
   }
  ],
  "kampanya": [

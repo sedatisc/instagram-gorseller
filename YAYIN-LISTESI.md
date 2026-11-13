@@ -900,7 +900,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kafes-desenli-isikli-yilbasi-agaci/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/modern-yilbasi-agaci-seti-3-lu-yildizli` | 5 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/modern-yilbasi-agaci-seti-3-lu-yildizli/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/6-bolmeli-tezgah-duzenleyici-silk-parlak-3d-baski` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/6-bolmeli-tezgah-duzenleyici-silk-parlak-3d-baski` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/6-bolmeli-tezgah-duzenleyici-silk-parlak-3d-baski/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -908,11 +908,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/alttan-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/alttan-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/alttan-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici/hikaye.jpg` | 1 |
-| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/banyo-pamuk-ve-kulak-cubugu-duzenleyici-silk-parlak-3d-baski` | 6 |
+| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/banyo-pamuk-ve-kulak-cubugu-duzenleyici-silk-parlak-3d-baski` | 8 |
 | 12:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/banyo-pamuk-ve-kulak-cubugu-duzenleyici-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/cicekli-pamuk-seyahat-kutusu-silk-parlak-seyahat-kabi` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/cicekli-pamuk-seyahat-kutusu-silk-parlak-seyahat-kabi` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/cicekli-pamuk-seyahat-kutusu-silk-parlak-seyahat-kabi/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -920,11 +920,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/cilt-bakim-standi-silk-parlak-banyo-duzenleyici` | 6 |
+| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/cilt-bakim-standi-silk-parlak-banyo-duzenleyici` | 8 |
 | 09:45 | Hikaye | BASKI ÜRÜNLERİ | `urun/cilt-bakim-standi-silk-parlak-banyo-duzenleyici/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/duvar-tipi-fitilli-banyo-duzenleyici-silk-parlak-3d-baski` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/duvar-tipi-fitilli-banyo-duzenleyici-silk-parlak-3d-baski` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/duvar-tipi-fitilli-banyo-duzenleyici-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/duvar-tipi-fon-askisi-silk-parlak-3d-baski` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/duvar-tipi-fon-askisi-silk-parlak-3d-baski` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/duvar-tipi-fon-askisi-silk-parlak-3d-baski/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -932,11 +932,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/fitilli-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/fitilli-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/fitilli-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/fitilli-vanity-duzenleyici-silk-parlak-3d-baski` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/fitilli-vanity-duzenleyici-silk-parlak-3d-baski` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/fitilli-vanity-duzenleyici-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/geometrik-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici` | 6 |
+| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/geometrik-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici` | 8 |
 | 17:20 | Hikaye | BASKI ÜRÜNLERİ | `urun/geometrik-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -944,11 +944,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-banyo-seti-silk-parlak-banyo-duzenleyici` | 6 |
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-banyo-seti-silk-parlak-banyo-duzenleyici` | 8 |
 | 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-banyo-seti-silk-parlak-banyo-duzenleyici/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapakli-cok-amacli-kap-silk-parlak-banyo-duzenleyici` | 6 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapakli-cok-amacli-kap-silk-parlak-banyo-duzenleyici` | 8 |
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/kapakli-cok-amacli-kap-silk-parlak-banyo-duzenleyici/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapitone-banyo-sepeti-silk-parlak-banyo-duzenleyici` | 6 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapitone-banyo-sepeti-silk-parlak-banyo-duzenleyici` | 8 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kapitone-banyo-sepeti-silk-parlak-banyo-duzenleyici/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -956,11 +956,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kulak-cubugu-kabi-silk-parlak-banyo-duzenleyici` | 6 |
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kulak-cubugu-kabi-silk-parlak-banyo-duzenleyici` | 8 |
 | 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kulak-cubugu-kabi-silk-parlak-banyo-duzenleyici/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/kulak-cubugu-seyahat-kabi-silk-parlak-3d-baski` | 6 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/kulak-cubugu-seyahat-kabi-silk-parlak-3d-baski` | 8 |
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/kulak-cubugu-seyahat-kabi-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/minimal-banyo-tasima-duzenleyici-silk-parlak-3d-baski` | 6 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/minimal-banyo-tasima-duzenleyici-silk-parlak-3d-baski` | 8 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/minimal-banyo-tasima-duzenleyici-silk-parlak-3d-baski/hikaye.jpg` | 1 |
 | 19:50 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -968,11 +968,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/modern-banyo-tasima-duzenleyici-silk-parlak-3d-baski` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/modern-banyo-tasima-duzenleyici-silk-parlak-3d-baski` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/modern-banyo-tasima-duzenleyici-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/onden-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/onden-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/onden-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/pamuk-seyahat-kabi-silk-parlak-3d-baski` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/pamuk-seyahat-kabi-silk-parlak-3d-baski` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/pamuk-seyahat-kabi-silk-parlak-3d-baski/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -980,11 +980,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/pamuk-ve-kulak-cubugu-kabi-silk-parlak-banyo-duzenleyici` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/pamuk-ve-kulak-cubugu-kabi-silk-parlak-banyo-duzenleyici` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/pamuk-ve-kulak-cubugu-kabi-silk-parlak-banyo-duzenleyici/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/pamuk-ve-kulak-cubugu-tutucu-silk-parlak-banyo-duzenleyici` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/pamuk-ve-kulak-cubugu-tutucu-silk-parlak-banyo-duzenleyici` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/pamuk-ve-kulak-cubugu-tutucu-silk-parlak-banyo-duzenleyici/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/vidali-kapakli-kozmetik-kap-seti-silk-parlak-seyahat-kabi` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/vidali-kapakli-kozmetik-kap-seti-silk-parlak-seyahat-kabi` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/vidali-kapakli-kozmetik-kap-seti-silk-parlak-seyahat-kabi/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -992,9 +992,9 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/vidali-kulak-cubugu-seyahat-kabi-silk-parlak-3d-baski` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/vidali-kulak-cubugu-seyahat-kabi-silk-parlak-3d-baski` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/vidali-kulak-cubugu-seyahat-kabi-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/bulut-kalemlik-silk-parlak-3d-baski` | 6 |
+| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/bulut-kalemlik-silk-parlak-3d-baski` | 8 |
 | 12:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/bulut-kalemlik-silk-parlak-3d-baski/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/burusuk-silk-kalemlik-silk-parlak-makyaj-fircaligi` | 6 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/burusuk-silk-kalemlik-silk-parlak-makyaj-fircaligi/hikaye.jpg` | 1 |
@@ -1004,11 +1004,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/fermuarli-sisme-mont-kalemlik-silk-parlak-3d-baski` | 6 |
+| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/fermuarli-sisme-mont-kalemlik-silk-parlak-3d-baski` | 8 |
 | 09:45 | Hikaye | BASKI ÜRÜNLERİ | `urun/fermuarli-sisme-mont-kalemlik-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/firca-ve-kalemlik-silk-parlak-makyaj-fircaligi` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/firca-ve-kalemlik-silk-parlak-makyaj-fircaligi` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/firca-ve-kalemlik-silk-parlak-makyaj-fircaligi/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/genis-agizli-sisme-mont-kalemlik-silk-parlak-3d-baski` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/genis-agizli-sisme-mont-kalemlik-silk-parlak-3d-baski` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/genis-agizli-sisme-mont-kalemlik-silk-parlak-3d-baski/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1016,11 +1016,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kalp-kalemlik-silk-parlak-3d-baski` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kalp-kalemlik-silk-parlak-3d-baski` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kalp-kalemlik-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapitone-kalp-kalemlik-silk-parlak-3d-baski` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapitone-kalp-kalemlik-silk-parlak-3d-baski` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/kapitone-kalp-kalemlik-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapusonlu-sisme-mont-kalemlik-silk-parlak-3d-baski` | 6 |
+| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapusonlu-sisme-mont-kalemlik-silk-parlak-3d-baski` | 7 |
 | 17:20 | Hikaye | BASKI ÜRÜNLERİ | `urun/kapusonlu-sisme-mont-kalemlik-silk-parlak-3d-baski/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1040,11 +1040,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/sisme-mont-kalemlik-silk-parlak-3d-baski` | 6 |
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/sisme-mont-kalemlik-silk-parlak-3d-baski` | 7 |
 | 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/sisme-mont-kalemlik-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/bulut-kademeli-stand-silk-parlak-parfum-ve-bakim-standi` | 6 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/bulut-kademeli-stand-silk-parlak-parfum-ve-bakim-standi` | 8 |
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/bulut-kademeli-stand-silk-parlak-parfum-ve-bakim-standi/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/desenli-dudak-balmi-tutucu-silk-parlak-3d-baski` | 6 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/desenli-dudak-balmi-tutucu-silk-parlak-3d-baski` | 8 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/desenli-dudak-balmi-tutucu-silk-parlak-3d-baski/hikaye.jpg` | 1 |
 | 19:50 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1052,11 +1052,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/doner-makyaj-kabi-silk-parlak-makyaj-organizeri` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/doner-makyaj-kabi-silk-parlak-makyaj-organizeri` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/doner-makyaj-kabi-silk-parlak-makyaj-organizeri/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/fitilli-cekmeceli-duzenleyici-silk-parlak-makyaj-organizeri` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/fitilli-cekmeceli-duzenleyici-silk-parlak-makyaj-organizeri` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/fitilli-cekmeceli-duzenleyici-silk-parlak-makyaj-organizeri/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/fitilli-dikdortgen-fircalik-silk-parlak-makyaj-fircaligi` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/fitilli-dikdortgen-fircalik-silk-parlak-makyaj-fircaligi` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/fitilli-dikdortgen-fircalik-silk-parlak-makyaj-fircaligi/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1064,11 +1064,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/genis-bolmeli-kozmetik-organizeri-silk-parlak-3d-baski` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/genis-bolmeli-kozmetik-organizeri-silk-parlak-3d-baski` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/genis-bolmeli-kozmetik-organizeri-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/iskandinav-fitilli-coklu-duzenleyici-silk-parlak-makyaj-organizeri` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/iskandinav-fitilli-coklu-duzenleyici-silk-parlak-makyaj-organizeri` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/iskandinav-fitilli-coklu-duzenleyici-silk-parlak-makyaj-organizeri/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/iskandinav-uclu-makyaj-organizeri-silk-parlak-3d-baski` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/iskandinav-uclu-makyaj-organizeri-silk-parlak-3d-baski` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/iskandinav-uclu-makyaj-organizeri-silk-parlak-3d-baski/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1076,11 +1076,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kademeli-sergi-rafi-silk-parlak-parfum-ve-bakim-standi` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kademeli-sergi-rafi-silk-parlak-parfum-ve-bakim-standi` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kademeli-sergi-rafi-silk-parlak-parfum-ve-bakim-standi/hikaye.jpg` | 1 |
-| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kalp-toka-duzenleyici-silk-parlak-3d-baski` | 6 |
+| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kalp-toka-duzenleyici-silk-parlak-3d-baski` | 8 |
 | 12:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kalp-toka-duzenleyici-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/kalpli-ruj-ve-balm-standi-silk-parlak-ruj-ve-balm-tutucu` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/kalpli-ruj-ve-balm-standi-silk-parlak-ruj-ve-balm-tutucu` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/kalpli-ruj-ve-balm-standi-silk-parlak-ruj-ve-balm-tutucu/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1090,9 +1090,9 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 |---|---|---|---|---|
 | 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapitone-canta-formlu-fircalik-silk-parlak-makyaj-fircaligi` | 6 |
 | 09:45 | Hikaye | BASKI ÜRÜNLERİ | `urun/kapitone-canta-formlu-fircalik-silk-parlak-makyaj-fircaligi/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapitone-fircalik-duzenleyici-silk-parlak-makyaj-fircaligi` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapitone-fircalik-duzenleyici-silk-parlak-makyaj-fircaligi` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/kapitone-fircalik-duzenleyici-silk-parlak-makyaj-fircaligi/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/kozmetik-kutusu-ve-kalemlik-silk-parlak-makyaj-organizeri` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/kozmetik-kutusu-ve-kalemlik-silk-parlak-makyaj-organizeri` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/kozmetik-kutusu-ve-kalemlik-silk-parlak-makyaj-organizeri/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1100,11 +1100,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kozmetik-organizer-seti-silk-parlak-makyaj-organizeri` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kozmetik-organizer-seti-silk-parlak-makyaj-organizeri` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kozmetik-organizer-seti-silk-parlak-makyaj-organizeri/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/makyaj-ve-parfum-organizeri-silk-parlak-parfum-ve-bakim-standi` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/makyaj-ve-parfum-organizeri-silk-parlak-parfum-ve-bakim-standi` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/makyaj-ve-parfum-organizeri-silk-parlak-parfum-ve-bakim-standi/hikaye.jpg` | 1 |
-| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/manikur-istasyonu-buyuk-silk-parlak-3d-baski` | 6 |
+| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/manikur-istasyonu-buyuk-silk-parlak-3d-baski` | 8 |
 | 17:20 | Hikaye | BASKI ÜRÜNLERİ | `urun/manikur-istasyonu-buyuk-silk-parlak-3d-baski/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1112,11 +1112,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/modern-kademeli-raf-silk-parlak-parfum-ve-bakim-standi` | 6 |
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/modern-kademeli-raf-silk-parlak-parfum-ve-bakim-standi` | 8 |
 | 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/modern-kademeli-raf-silk-parlak-parfum-ve-bakim-standi/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/moduler-duzenleyici-silk-parlak-makyaj-organizeri` | 6 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/moduler-duzenleyici-silk-parlak-makyaj-organizeri` | 8 |
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/moduler-duzenleyici-silk-parlak-makyaj-organizeri/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/peri-figurlu-fircalik-silk-parlak-makyaj-fircaligi` | 6 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/peri-figurlu-fircalik-silk-parlak-makyaj-fircaligi` | 8 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/peri-figurlu-fircalik-silk-parlak-makyaj-fircaligi/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1126,9 +1126,9 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 |---|---|---|---|---|
 | 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/saten-buzgulu-fircalik-silk-parlak-makyaj-fircaligi` | 6 |
 | 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/saten-buzgulu-fircalik-silk-parlak-makyaj-fircaligi/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/vanity-kozmetik-organizeri-silk-parlak-3d-baski` | 6 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/vanity-kozmetik-organizeri-silk-parlak-3d-baski` | 8 |
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/vanity-kozmetik-organizeri-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/voronoi-aynali-makyaj-organizeri-silk-parlak-makyaj-fircaligi` | 6 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/voronoi-aynali-makyaj-organizeri-silk-parlak-makyaj-fircaligi` | 8 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/voronoi-aynali-makyaj-organizeri-silk-parlak-makyaj-fircaligi/hikaye.jpg` | 1 |
 | 19:50 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1136,11 +1136,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/yuvarlak-koseli-masa-duzenleyici-silk-parlak-kalemlik` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/yuvarlak-koseli-masa-duzenleyici-silk-parlak-kalemlik` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/yuvarlak-koseli-masa-duzenleyici-silk-parlak-kalemlik/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/buyuk-yaprak-sabunluk-suzgecli-damlalikli-yuksek-ayakli` | 6 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/buyuk-yaprak-sabunluk-suzgecli-damlalikli-yuksek-ayakli/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/akiskan-kendinden-sulamali-saksi-hazneli-dekoratif-saksi` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/akiskan-kendinden-sulamali-saksi-hazneli-dekoratif-saksi` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/akiskan-kendinden-sulamali-saksi-hazneli-dekoratif-saksi/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1150,9 +1150,9 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 |---|---|---|---|---|
 | 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/akustik-panel-icin-duvar-vazosu-dekoratif-duvar-saksisi` | 6 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/akustik-panel-icin-duvar-vazosu-dekoratif-duvar-saksisi/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/ay-saksi-ic-mekan-bitki-saksisi` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/ay-saksi-ic-mekan-bitki-saksisi` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/ay-saksi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/ayakli-yuvarlak-nervurlu-saksi-ic-mekan-bitki-saksisi` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/ayakli-yuvarlak-nervurlu-saksi-ic-mekan-bitki-saksisi` | 7 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/ayakli-yuvarlak-nervurlu-saksi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1160,11 +1160,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/bonsai-saksisi-ic-mekan-bitki-saksisi` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/bonsai-saksisi-ic-mekan-bitki-saksisi` | 7 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/bonsai-saksisi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
-| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/dalgali-saksi-ve-sarmal-tabak-ic-mekan-bitki-saksisi` | 6 |
+| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/dalgali-saksi-ve-sarmal-tabak-ic-mekan-bitki-saksisi` | 8 |
 | 12:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/dalgali-saksi-ve-sarmal-tabak-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/gizli-tabakli-saksi-ic-mekan-bitki-saksisi` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/gizli-tabakli-saksi-ic-mekan-bitki-saksisi` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/gizli-tabakli-saksi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1172,11 +1172,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-saksi-ic-mekan-bitki-saksisi` | 6 |
+| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-saksi-ic-mekan-bitki-saksisi` | 7 |
 | 09:45 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-saksi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kabarcik-kup-saksi-ic-mekan-bitki-saksisi` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kabarcik-kup-saksi-ic-mekan-bitki-saksisi` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/kabarcik-kup-saksi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/minimal-yuvarlak-saksi-ic-mekan-bitki-saksisi` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/minimal-yuvarlak-saksi-ic-mekan-bitki-saksisi` | 7 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/minimal-yuvarlak-saksi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1184,11 +1184,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/nervurlu-drenajli-saksi-ic-mekan-bitki-saksisi` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/nervurlu-drenajli-saksi-ic-mekan-bitki-saksisi` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/nervurlu-drenajli-saksi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/organik-geometrik-saksilar-ic-mekan-bitki-saksisi` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/organik-geometrik-saksilar-ic-mekan-bitki-saksisi` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/organik-geometrik-saksilar-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
-| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/origami-saksi-ic-mekan-bitki-saksisi` | 6 |
+| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/origami-saksi-ic-mekan-bitki-saksisi` | 7 |
 | 17:20 | Hikaye | BASKI ÜRÜNLERİ | `urun/origami-saksi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1196,11 +1196,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/parametrik-ic-saksi-ic-mekan-bitki-saksisi` | 6 |
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/parametrik-ic-saksi-ic-mekan-bitki-saksisi` | 8 |
 | 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/parametrik-ic-saksi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/poligon-orkide-saksisi-ic-mekan-bitki-saksisi` | 6 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/poligon-orkide-saksisi-ic-mekan-bitki-saksisi` | 7 |
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/poligon-orkide-saksisi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/retro-drenajli-saksi-ic-mekan-bitki-saksisi` | 6 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/retro-drenajli-saksi-ic-mekan-bitki-saksisi` | 7 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/retro-drenajli-saksi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1208,9 +1208,9 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/retro-gizli-tabakli-saksi-ic-mekan-bitki-saksisi` | 6 |
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/retro-gizli-tabakli-saksi-ic-mekan-bitki-saksisi` | 8 |
 | 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/retro-gizli-tabakli-saksi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/sulamali-saksi-koleksiyonu-hazneli-dekoratif-saksi` | 6 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/sulamali-saksi-koleksiyonu-hazneli-dekoratif-saksi` | 8 |
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/sulamali-saksi-koleksiyonu-hazneli-dekoratif-saksi/hikaye.jpg` | 1 |
 | 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/sulamali-sukulent-saksisi-hazneli-dekoratif-saksi` | 6 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/sulamali-sukulent-saksisi-hazneli-dekoratif-saksi/hikaye.jpg` | 1 |
@@ -1220,11 +1220,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/tas-dokulu-mini-saksi-ic-mekan-bitki-saksisi` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/tas-dokulu-mini-saksi-ic-mekan-bitki-saksisi` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/tas-dokulu-mini-saksi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/tas-gorunumlu-sulamali-saksi-hazneli-dekoratif-saksi` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/tas-gorunumlu-sulamali-saksi-hazneli-dekoratif-saksi` | 7 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/tas-gorunumlu-sulamali-saksi-hazneli-dekoratif-saksi/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/toprak-formlu-saksi-ic-mekan-bitki-saksisi` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/toprak-formlu-saksi-ic-mekan-bitki-saksisi` | 7 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/toprak-formlu-saksi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1232,9 +1232,9 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/yukseltilmis-saksi-ic-mekan-bitki-saksisi` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/yukseltilmis-saksi-ic-mekan-bitki-saksisi` | 7 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/yukseltilmis-saksi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/zen-akis-sulamali-saksi-hazneli-dekoratif-saksi` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/zen-akis-sulamali-saksi-hazneli-dekoratif-saksi` | 7 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/zen-akis-sulamali-saksi-hazneli-dekoratif-saksi/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/kozalak-ev-mumluk-3d-baski-yilbasi-dekoru` | 3 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/kozalak-ev-mumluk-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
@@ -1244,7 +1244,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/led-mumluk-agaclar-3d-baski-yilbasi-dekoru` | 3 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/led-mumluk-agaclar-3d-baski-yilbasi-dekoru` | 4 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/led-mumluk-agaclar-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
 | 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/led-mumluk-kardan-adam-3d-baski-yilbasi-dekoru` | 2 |
 | 12:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/led-mumluk-kardan-adam-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
@@ -1260,7 +1260,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 09:45 | Hikaye | BASKI ÜRÜNLERİ | `urun/noel-baba-fener-led-mumluk-yilbasi-dekoru/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/yildiz-mumluk-seti-3d-baski-yilbasi-dekoru` | 3 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/yildiz-mumluk-seti-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/dalgali-oval-vanity-tepsisi-silk-parlak-makyaj-organizeri` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/dalgali-oval-vanity-tepsisi-silk-parlak-makyaj-organizeri` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/dalgali-oval-vanity-tepsisi-silk-parlak-makyaj-organizeri/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1268,11 +1268,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-fitilli-tepsi-silk-parlak-makyaj-organizeri` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-fitilli-tepsi-silk-parlak-makyaj-organizeri` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-fitilli-tepsi-silk-parlak-makyaj-organizeri/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri/hikaye.jpg` | 1 |
-| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/kulplu-kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri` | 6 |
+| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/kulplu-kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri` | 8 |
 | 17:20 | Hikaye | BASKI ÜRÜNLERİ | `urun/kulplu-kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1280,11 +1280,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/akiskan-heykel-vazo-kuru-cicek-ve-pampas-vazosu` | 6 |
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/akiskan-heykel-vazo-kuru-cicek-ve-pampas-vazosu` | 8 |
 | 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/akiskan-heykel-vazo-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/dalga-vazo-kuru-cicek-ve-pampas-vazosu` | 6 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/dalga-vazo-kuru-cicek-ve-pampas-vazosu` | 7 |
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/dalga-vazo-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/drapeli-modern-vazo-silk-parlak-3d-baski` | 6 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/drapeli-modern-vazo-silk-parlak-3d-baski` | 8 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/drapeli-modern-vazo-silk-parlak-3d-baski/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1292,11 +1292,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/fiyonklu-vazo-silk-parlak-3d-baski` | 6 |
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/fiyonklu-vazo-silk-parlak-3d-baski` | 8 |
 | 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/fiyonklu-vazo-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/halat-dokulu-vazo-silk-parlak-3d-baski` | 6 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/halat-dokulu-vazo-silk-parlak-3d-baski` | 8 |
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/halat-dokulu-vazo-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/iki-parcali-heykel-vazo-kuru-cicek-ve-pampas-vazosu` | 6 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/iki-parcali-heykel-vazo-kuru-cicek-ve-pampas-vazosu` | 8 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/iki-parcali-heykel-vazo-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
 | 19:50 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1304,11 +1304,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/ikili-zarif-vazo-seti-dekoratif-vazo-seti` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/ikili-zarif-vazo-seti-dekoratif-vazo-seti` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/ikili-zarif-vazo-seti-dekoratif-vazo-seti/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/ince-spiral-modern-vazo-kuru-cicek-ve-pampas-vazosu` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/ince-spiral-modern-vazo-kuru-cicek-ve-pampas-vazosu` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/ince-spiral-modern-vazo-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/ince-zarif-vazo-kuru-cicek-ve-pampas-vazosu` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/ince-zarif-vazo-kuru-cicek-ve-pampas-vazosu` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/ince-zarif-vazo-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1316,11 +1316,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-vazo-uclusu-kuru-cicek-ve-pampas-vazosu` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-vazo-uclusu-kuru-cicek-ve-pampas-vazosu` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-vazo-uclusu-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kabarcik-vazo-silk-parlak-3d-baski` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kabarcik-vazo-silk-parlak-3d-baski` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/kabarcik-vazo-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/kagit-torba-vazo-silk-parlak-3d-baski` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/kagit-torba-vazo-silk-parlak-3d-baski` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/kagit-torba-vazo-silk-parlak-3d-baski/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1328,11 +1328,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapitone-fiyonklu-vazo-silk-parlak-3d-baski` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapitone-fiyonklu-vazo-silk-parlak-3d-baski` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kapitone-fiyonklu-vazo-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kelebek-fiyonklu-vazo-silk-parlak-3d-baski` | 6 |
+| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kelebek-fiyonklu-vazo-silk-parlak-3d-baski` | 8 |
 | 12:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kelebek-fiyonklu-vazo-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/klasik-kivrim-vazo-kuru-cicek-ve-pampas-vazosu` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/klasik-kivrim-vazo-kuru-cicek-ve-pampas-vazosu` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/klasik-kivrim-vazo-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1340,11 +1340,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/kumas-kese-gorunumlu-vazo-silk-parlak-3d-baski` | 6 |
+| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/kumas-kese-gorunumlu-vazo-silk-parlak-3d-baski` | 8 |
 | 09:45 | Hikaye | BASKI ÜRÜNLERİ | `urun/kumas-kese-gorunumlu-vazo-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kurdele-vazo-silk-parlak-3d-baski` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kurdele-vazo-silk-parlak-3d-baski` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/kurdele-vazo-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/nervurlu-modern-vazo-kuru-cicek-ve-pampas-vazosu` | 6 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/nervurlu-modern-vazo-kuru-cicek-ve-pampas-vazosu` | 8 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/nervurlu-modern-vazo-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -1352,144 +1352,144 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/nilufer-spiral-vazo-kuru-cicek-ve-pampas-vazosu` | 6 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/nilufer-spiral-vazo-kuru-cicek-ve-pampas-vazosu` | 8 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/nilufer-spiral-vazo-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/orgu-dokulu-fiyonklu-vazo-silk-parlak-3d-baski` | 6 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/orgu-dokulu-fiyonklu-vazo-silk-parlak-3d-baski` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/orgu-dokulu-fiyonklu-vazo-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/orgu-dokulu-vazo-silk-parlak-3d-baski` | 6 |
-| 17:20 | Hikaye | BASKI ÜRÜNLERİ | `urun/orgu-dokulu-vazo-silk-parlak-3d-baski/hikaye.jpg` | 1 |
+| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu` | 7 |
+| 17:20 | Hikaye | BASKI ÜRÜNLERİ | `urun/spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2027-03-06 · Cumartesi
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu` | 6 |
-| 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/zarif-spiral-vazo-kuru-cicek-ve-pampas-vazosu` | 6 |
-| 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/zarif-spiral-vazo-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/zeytin-vazo-kuru-cicek-ve-pampas-vazosu` | 6 |
-| 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/zeytin-vazo-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/zarif-spiral-vazo-kuru-cicek-ve-pampas-vazosu` | 8 |
+| 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/zarif-spiral-vazo-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/zeytin-vazo-kuru-cicek-ve-pampas-vazosu` | 7 |
+| 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/zeytin-vazo-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/burgu-yilbasi-agaci-3d-baski-yilbasi-dekoru` | 4 |
+| 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/burgu-yilbasi-agaci-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2027-03-07 · Pazar
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/burgu-yilbasi-agaci-3d-baski-yilbasi-dekoru` | 4 |
-| 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/burgu-yilbasi-agaci-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/desteksiz-yilbasi-agaci-3d-baski-yilbasi-dekoru` | 2 |
-| 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/desteksiz-yilbasi-agaci-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-agac-seti-masaustu-yilbasi-dekoru` | 4 |
-| 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-agac-seti-masaustu-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/desteksiz-yilbasi-agaci-3d-baski-yilbasi-dekoru` | 2 |
+| 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/desteksiz-yilbasi-agaci-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-agac-seti-masaustu-yilbasi-dekoru` | 4 |
+| 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-agac-seti-masaustu-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-desteksiz-agac-masaustu-yilbasi-dekoru` | 3 |
+| 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-desteksiz-agac-masaustu-yilbasi-dekoru/hikaye.jpg` | 1 |
 | 19:50 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2027-03-08 · Pazartesi
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-desteksiz-agac-masaustu-yilbasi-dekoru` | 3 |
-| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-desteksiz-agac-masaustu-yilbasi-dekoru/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/spiral-yilbasi-agaci-3d-baski-yilbasi-dekoru` | 4 |
-| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/spiral-yilbasi-agaci-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/yilbasi-agaclari-seti-3d-baski-yilbasi-dekoru` | 4 |
-| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/yilbasi-agaclari-seti-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/spiral-yilbasi-agaci-3d-baski-yilbasi-dekoru` | 4 |
+| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/spiral-yilbasi-agaci-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/yilbasi-agaclari-seti-3d-baski-yilbasi-dekoru` | 4 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/yilbasi-agaclari-seti-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/acilir-yilbasi-agaci-mini-3d-baski-yilbasi-dekoru` | 3 |
+| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/acilir-yilbasi-agaci-mini-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2027-03-09 · Salı
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/acilir-yilbasi-agaci-mini-3d-baski-yilbasi-dekoru` | 3 |
-| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/acilir-yilbasi-agaci-mini-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/agac-tepesi-yildizlari-yilbasi-agaci-susu` | 3 |
-| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/agac-tepesi-yildizlari-yilbasi-agaci-susu/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/agacli-kapi-kosesi-3d-baski-yilbasi-dekoru` | 1 |
-| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/agacli-kapi-kosesi-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/agac-tepesi-yildizlari-yilbasi-agaci-susu` | 3 |
+| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/agac-tepesi-yildizlari-yilbasi-agaci-susu/hikaye.jpg` | 1 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/agacli-kapi-kosesi-3d-baski-yilbasi-dekoru` | 1 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/agacli-kapi-kosesi-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/celenk-fotograf-susu-3d-baski-yilbasi-dekoru` | 4 |
+| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/celenk-fotograf-susu-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2027-03-10 · Çarşamba
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/celenk-fotograf-susu-3d-baski-yilbasi-dekoru` | 4 |
-| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/celenk-fotograf-susu-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
-| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/cizgi-sanati-susler-yilbasi-agaci-susu` | 3 |
-| 12:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/cizgi-sanati-susler-yilbasi-agaci-susu/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/cuceli-kapi-kosesi-3d-baski-yilbasi-dekoru` | 1 |
-| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/cuceli-kapi-kosesi-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/cizgi-sanati-susler-yilbasi-agaci-susu` | 3 |
+| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/cizgi-sanati-susler-yilbasi-agaci-susu/hikaye.jpg` | 1 |
+| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/cuceli-kapi-kosesi-3d-baski-yilbasi-dekoru` | 1 |
+| 12:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/cuceli-kapi-kosesi-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/donen-yilbasi-agaci-3d-baski-yilbasi-dekoru` | 1 |
+| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/donen-yilbasi-agaci-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2027-03-11 · Perşembe
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/donen-yilbasi-agaci-3d-baski-yilbasi-dekoru` | 1 |
-| 09:45 | Hikaye | BASKI ÜRÜNLERİ | `urun/donen-yilbasi-agaci-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/geyik-basli-sise-tipasi-yilbasi-sofra-dekoru` | 3 |
-| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/geyik-basli-sise-tipasi-yilbasi-sofra-dekoru/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-yilbasi-topu-3d-baski-yilbasi-dekoru` | 4 |
-| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-yilbasi-topu-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/geyik-basli-sise-tipasi-yilbasi-sofra-dekoru` | 3 |
+| 09:45 | Hikaye | BASKI ÜRÜNLERİ | `urun/geyik-basli-sise-tipasi-yilbasi-sofra-dekoru/hikaye.jpg` | 1 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-yilbasi-topu-3d-baski-yilbasi-dekoru` | 5 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-yilbasi-topu-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/kar-tanesi-geyik-yilbasi-biblosu` | 3 |
+| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/kar-tanesi-geyik-yilbasi-biblosu/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2027-03-12 · Cuma
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kar-tanesi-geyik-yilbasi-biblosu` | 3 |
-| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kar-tanesi-geyik-yilbasi-biblosu/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kar-tanesi-sus-seti-yilbasi-agaci-susu` | 3 |
-| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/kar-tanesi-sus-seti-yilbasi-agaci-susu/hikaye.jpg` | 1 |
-| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/kis-kurabiye-kaliplari-yilbasi-sofra-dekoru` | 2 |
-| 17:20 | Hikaye | BASKI ÜRÜNLERİ | `urun/kis-kurabiye-kaliplari-yilbasi-sofra-dekoru/hikaye.jpg` | 1 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kar-tanesi-sus-seti-yilbasi-agaci-susu` | 3 |
+| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kar-tanesi-sus-seti-yilbasi-agaci-susu/hikaye.jpg` | 1 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kis-kurabiye-kaliplari-yilbasi-sofra-dekoru` | 2 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/kis-kurabiye-kaliplari-yilbasi-sofra-dekoru/hikaye.jpg` | 1 |
+| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/kis-treni-kar-kuresi-3d-baski-yilbasi-dekoru` | 2 |
+| 17:20 | Hikaye | BASKI ÜRÜNLERİ | `urun/kis-treni-kar-kuresi-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2027-03-13 · Cumartesi
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kis-treni-kar-kuresi-3d-baski-yilbasi-dekoru` | 2 |
-| 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kis-treni-kar-kuresi-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/kozalak-cuce-evi-yilbasi-kis-dekoru` | 2 |
-| 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/kozalak-cuce-evi-yilbasi-kis-dekoru/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kurabiye-ejderha-yilbasi-biblosu` | 1 |
-| 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kurabiye-ejderha-yilbasi-biblosu/hikaye.jpg` | 1 |
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kozalak-cuce-evi-yilbasi-kis-dekoru` | 2 |
+| 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kozalak-cuce-evi-yilbasi-kis-dekoru/hikaye.jpg` | 1 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/kurabiye-ejderha-yilbasi-biblosu` | 1 |
+| 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/kurabiye-ejderha-yilbasi-biblosu/hikaye.jpg` | 1 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/led-isikli-yilbasi-koyu-3d-baski-yilbasi-dekoru` | 2 |
+| 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/led-isikli-yilbasi-koyu-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2027-03-14 · Pazar
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/led-isikli-yilbasi-koyu-3d-baski-yilbasi-dekoru` | 2 |
-| 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/led-isikli-yilbasi-koyu-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/modern-yilbasi-toplari-3d-baski-yilbasi-dekoru` | 5 |
-| 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/modern-yilbasi-toplari-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/noel-baba-ayakli-kase-yilbasi-sofra-dekoru` | 1 |
-| 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/noel-baba-ayakli-kase-yilbasi-sofra-dekoru/hikaye.jpg` | 1 |
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/modern-yilbasi-toplari-3d-baski-yilbasi-dekoru` | 5 |
+| 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/modern-yilbasi-toplari-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/noel-baba-ayakli-kase-yilbasi-sofra-dekoru` | 1 |
+| 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/noel-baba-ayakli-kase-yilbasi-sofra-dekoru/hikaye.jpg` | 1 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/noel-baba-kapi-kosesi-3d-baski-yilbasi-dekoru` | 3 |
+| 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/noel-baba-kapi-kosesi-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
 | 19:50 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2027-03-15 · Pazartesi
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/noel-baba-kapi-kosesi-3d-baski-yilbasi-dekoru` | 3 |
-| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/noel-baba-kapi-kosesi-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/noel-baba-sise-sapkasi-yilbasi-sofra-dekoru` | 1 |
-| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/noel-baba-sise-sapkasi-yilbasi-sofra-dekoru/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/orgu-hediye-kutusu-3d-baski-yilbasi-dekoru` | 3 |
-| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/orgu-hediye-kutusu-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/noel-baba-sise-sapkasi-yilbasi-sofra-dekoru` | 1 |
+| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/noel-baba-sise-sapkasi-yilbasi-sofra-dekoru/hikaye.jpg` | 1 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/orgu-hediye-kutusu-3d-baski-yilbasi-dekoru` | 3 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/orgu-hediye-kutusu-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/orgu-kardan-adam-biblo-yilbasi-biblosu` | 2 |
+| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/orgu-kardan-adam-biblo-yilbasi-biblosu/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2027-03-16 · Salı
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/orgu-kardan-adam-biblo-yilbasi-biblosu` | 2 |
-| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/orgu-kardan-adam-biblo-yilbasi-biblosu/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/orgu-kurabiye-adam-yilbasi-biblosu` | 1 |
-| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/orgu-kurabiye-adam-yilbasi-biblosu/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/spiral-yilbasi-topu-3d-baski-yilbasi-dekoru` | 4 |
-| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/spiral-yilbasi-topu-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/orgu-kurabiye-adam-yilbasi-biblosu` | 1 |
+| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/orgu-kurabiye-adam-yilbasi-biblosu/hikaye.jpg` | 1 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/spiral-yilbasi-topu-3d-baski-yilbasi-dekoru` | 4 |
+| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/spiral-yilbasi-topu-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/buzgulu-kese-vazo-kuru-cicek-ve-pampas-vazosu` | 8 |
+| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/buzgulu-kese-vazo-kuru-cicek-ve-pampas-vazosu/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## Boş slotlar
