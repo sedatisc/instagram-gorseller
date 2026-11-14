@@ -1,6 +1,6 @@
 # Son Buffer gönderimi
 
-2026-11-13 · 0 hata
+2026-11-14 · 0 hata
 
 | Saat | İş | Durum |
 |---|---|---|
