@@ -1,6 +1,6 @@
 # Son yayın
 
-2026-11-13 23:14 (kuru) · 0 yayın · 0 hata
+2026-11-14 14:53 (kuru) · 0 yayın · 0 hata
 
 | İş | Durum | Not |
 |---|---|---|
