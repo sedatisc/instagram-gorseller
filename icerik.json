@@ -1102,8 +1102,9 @@
    "klasor": "urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli",
    "kategori": "baski",
    "konu": "cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/dekoratif-kozalak-figuru-yilbasi-ve-kis-dekoru-12-cm",
@@ -1117,22 +1118,25 @@
    "klasor": "urun/japandi-ayakli-havlu-pecetelik-kulplu",
    "kategori": "baski",
    "konu": "japandi-ayakli-havlu-pecetelik-kulplu",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm",
    "kategori": "baski",
    "konu": "japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi",
    "kategori": "baski",
    "konu": "japandi-dekor-seti-vazo-mumluk-ve-tepsi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/japandi-geyik-figuru-yilbasi-dekoru-17-5-cm",
@@ -1162,85 +1166,97 @@
    "klasor": "urun/dis-macunu-standi-bas-asagi-tutucu",
    "kategori": "baski",
    "konu": "dis-macunu-standi-bas-asagi-tutucu",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/eriyen-mum-gorunumlu-led-mumluk",
    "kategori": "baski",
    "konu": "eriyen-mum-gorunumlu-led-mumluk",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec",
    "kategori": "baski",
    "konu": "girdapli-meyve-sebze-yikama-kabi-ve-suzgec",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/japandi-sungerlik-ve-sabunluk-suzgecli",
    "kategori": "baski",
    "konu": "japandi-sungerlik-ve-sabunluk-suzgecli",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi",
    "kategori": "baski",
    "konu": "kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kasik-ve-tencere-kapagi-tutucu",
    "kategori": "baski",
    "konu": "kasik-ve-tencere-kapagi-tutucu",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi",
    "kategori": "baski",
    "konu": "kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kendinden-suzgecli-sabunluk-akitmali",
    "kategori": "baski",
    "konu": "kendinden-suzgecli-sabunluk-akitmali",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kumanda-standi-egimli-bolmeli",
    "kategori": "baski",
    "konu": "kumanda-standi-egimli-bolmeli",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/moduler-masa-rafi-monitor-yukseltici",
    "kategori": "baski",
    "konu": "moduler-masa-rafi-monitor-yukseltici",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi",
    "kategori": "baski",
    "konu": "nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nervurlu-modern-kalemlik-silindir",
    "kategori": "baski",
    "konu": "nervurlu-modern-kalemlik-silindir",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nervurlu-saksi-ve-vazo-modern-masaustu-saksi",
@@ -1254,22 +1270,25 @@
    "klasor": "urun/pilili-ayakli-dekoratif-pasta-standi-23-cm",
    "kategori": "baski",
    "konu": "pilili-ayakli-dekoratif-pasta-standi-23-cm",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/ayakli-kopek-mama-kabi-standi-japandi-isim-plakali",
    "kategori": "baski",
    "konu": "ayakli-kopek-mama-kabi-standi-japandi-isim-plakali",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/bolmeli-antre-duzenleyici-rafli-5-askili-anahtarlik",
    "kategori": "baski",
    "konu": "bolmeli-antre-duzenleyici-rafli-5-askili-anahtarlik",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/buzgulu-kese-vazo-dekoratif-kuru-cicek-vazosu",
@@ -1283,57 +1302,65 @@
    "klasor": "urun/cicek-formlu-raf-cocuk-odasi-masaustu-ve-duvar-rafi",
    "kategori": "baski",
    "konu": "cicek-formlu-raf-cocuk-odasi-masaustu-ve-duvar-rafi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/dalgali-isimli-mama-kabi-tutucu-kedi-ve-kopek",
    "kategori": "baski",
    "konu": "dalgali-isimli-mama-kabi-tutucu-kedi-ve-kopek",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi",
    "kategori": "baski",
    "konu": "isimli-kopek-tasma-askisi-pati-motifli-duvar-askisi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nervurlu-cift-duvar-askisi-minimal-kanca",
    "kategori": "baski",
    "konu": "nervurlu-cift-duvar-askisi-minimal-kanca",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/yildiz-kenarli-ayakli-pasta-standi-25-cm",
    "kategori": "baski",
    "konu": "yildiz-kenarli-ayakli-pasta-standi-25-cm",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/agac-siluetli-duvar-tablosu-3-parca-dekoratif-pano",
    "kategori": "baski",
    "konu": "agac-siluetli-duvar-tablosu-3-parca-dekoratif-pano",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/balon-kopek-biblo-modern-pop-art-dekor",
    "kategori": "baski",
    "konu": "balon-kopek-biblo-modern-pop-art-dekor",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/filte-kapakli-dekoratif-kase-ag-dokulu",
    "kategori": "baski",
    "konu": "filte-kapakli-dekoratif-kase-ag-dokulu",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/fiyonklu-yilbasi-celengi-kapi-ve-masa-susu-17-cm",
@@ -1347,15 +1374,17 @@
    "klasor": "urun/geyikli-dekoratif-samdan-4-mumluk-iskandinav-tarzi",
    "kategori": "baski",
    "konu": "geyikli-dekoratif-samdan-4-mumluk-iskandinav-tarzi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk",
    "kategori": "baski",
    "konu": "isikli-iskandinav-yilbasi-agaci-delik-desenli-led-mumluk",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/japandi-cuce-figuru-yilbasi-gnome-dekoru-12-cm",
@@ -1369,8 +1398,9 @@
    "klasor": "urun/japandi-oval-tepsi-minimal-duzenleyici",
    "kategori": "baski",
    "konu": "japandi-oval-tepsi-minimal-duzenleyici",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kalp-elli-saksi-sevimli-bitki-saksisi",
@@ -1384,8 +1414,9 @@
    "klasor": "urun/katmanli-yilbasi-agaci-led-mumluk-2-li",
    "kategori": "baski",
    "konu": "katmanli-yilbasi-agaci-led-mumluk-2-li",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kendinden-sulamali-saksi-su-seviye-gostergeli",
@@ -1399,183 +1430,209 @@
    "klasor": "urun/kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "kozalak-ev-tealight-mumluk-isikli-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/modern-anahtar-tepsisi-yuvarlak-koseli",
    "kategori": "baski",
    "konu": "modern-anahtar-tepsisi-yuvarlak-koseli",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nervurlu-duzenleyici-kutu-masaustu-organizer",
    "kategori": "baski",
    "konu": "nervurlu-duzenleyici-kutu-masaustu-organizer",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/orgu-desenli-kalp-kutu-gul-detayli",
    "kategori": "baski",
    "konu": "orgu-desenli-kalp-kutu-gul-detayli",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/spiral-anahtarlik-donen-cekirdekli",
    "kategori": "baski",
    "konu": "spiral-anahtarlik-donen-cekirdekli",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/anahtarlikli-duvar-rafi-4-askili-gokkusagi-desenli-dekoratif-anahtar-askisi",
    "kategori": "baski",
    "konu": "anahtarlikli-duvar-rafi-4-askili-gokkusagi-desenli-dekoratif-anahtar-askisi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/atkili-kahverengi-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
    "kategori": "baski",
    "konu": "atkili-kahverengi-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
    "kategori": "baski",
    "konu": "atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/bambulu-beyaz-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
    "kategori": "baski",
    "konu": "bambulu-beyaz-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/gulen-yesil-kurbaga-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
    "kategori": "baski",
    "konu": "gulen-yesil-kurbaga-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/gulumseyen-mor-kedi-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
    "kategori": "baski",
    "konu": "gulumseyen-mor-kedi-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/gulumseyen-turuncu-tilki-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
    "kategori": "baski",
    "konu": "gulumseyen-turuncu-tilki-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/havuclu-pembe-tavsan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
    "kategori": "baski",
    "konu": "havuclu-pembe-tavsan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/ince-anahtar-askisi-kemer-desenli-5-askili-duvara-monte-dekoratif-anahtarlik-ask",
    "kategori": "baski",
    "konu": "ince-anahtar-askisi-kemer-desenli-5-askili-duvara-monte-dekoratif-anahtarlik-ask",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kemer-desenli-anahtarlikli-duvar-rafi-3-askili-duvara-monte-dekoratif-anahtar-as",
    "kategori": "baski",
    "konu": "kemer-desenli-anahtarlikli-duvar-rafi-3-askili-duvara-monte-dekoratif-anahtar-as",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kivircik-kuzu-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
    "kategori": "baski",
    "konu": "kivircik-kuzu-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/mektupluklu-anahtar-askisi-dalga-desenli-4-askili-duvara-monte-posta-rafi-ve-ana",
    "kategori": "baski",
    "konu": "mektupluklu-anahtar-askisi-dalga-desenli-4-askili-duvara-monte-posta-rafi-ve-ana",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/mini-rafli-askilik-gunes-desenli-4-kancali-duvara-monte-anahtar-ve-canta-askisi",
    "kategori": "baski",
    "konu": "mini-rafli-askilik-gunes-desenli-4-kancali-duvara-monte-anahtar-ve-canta-askisi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/rafli-anahtar-askisi-gunes-ve-tepe-desenli-4-kancali-duvara-monte-dekoratif-anah",
    "kategori": "baski",
    "konu": "rafli-anahtar-askisi-gunes-ve-tepe-desenli-4-kancali-duvara-monte-dekoratif-anah",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/rafli-canta-ve-sapka-askisi-dalga-desenli-3-kancali-duvara-monte-askilik",
    "kategori": "baski",
    "konu": "rafli-canta-ve-sapka-askisi-dalga-desenli-3-kancali-duvara-monte-askilik",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/sevimli-gri-fil-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
    "kategori": "baski",
    "konu": "sevimli-gri-fil-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/yeleli-sari-aslan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
    "kategori": "baski",
    "konu": "yeleli-sari-aslan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/yesil-koala-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
    "kategori": "baski",
    "konu": "yesil-koala-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/minimal-duvar-askisi-kavisli-kanca",
    "kategori": "baski",
    "konu": "minimal-duvar-askisi-kavisli-kanca",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/istiflenebilir-ayakkabilik-delikli-rafli",
    "kategori": "baski",
    "konu": "istiflenebilir-ayakkabilik-delikli-rafli",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/katlanir-baharatlik-3-kademeli-basamakli-baharat-rafi",
    "kategori": "baski",
    "konu": "katlanir-baharatlik-3-kademeli-basamakli-baharat-rafi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nervurlu-pamuk-ve-kulak-cubugu-kabi",
@@ -1589,862 +1646,985 @@
    "klasor": "urun/pamuk-ve-kulak-cubugu-seti-nervurlu-banyo-duzenleyici",
    "kategori": "baski",
    "konu": "pamuk-ve-kulak-cubugu-seti-nervurlu-banyo-duzenleyici",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/retro-disket-bardak-altligi-seti-8-li-suruculu",
    "kategori": "baski",
    "konu": "retro-disket-bardak-altligi-seti-8-li-suruculu",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/aktivite-tahtasi-6-bolmeli-mesgul-tahtasi-disli-saat-vida-somun-egitici-oyuncak",
    "kategori": "baski",
    "konu": "aktivite-tahtasi-6-bolmeli-mesgul-tahtasi-disli-saat-vida-somun-egitici-oyuncak",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/alyan-anahtarli-vida-takma-oyuncagi-renk-ve-boy-eslestirme-egitici-set",
    "kategori": "baski",
    "konu": "alyan-anahtarli-vida-takma-oyuncagi-renk-ve-boy-eslestirme-egitici-set",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/boncuk-dizme-seti-kasali-iri-sekilli-boncuk-egitici-ip-gecirme-oyuncagi",
    "kategori": "baski",
    "konu": "boncuk-dizme-seti-kasali-iri-sekilli-boncuk-egitici-ip-gecirme-oyuncagi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/ciftlik-hayvani-damgalari-oyun-hamuru-kalip-seti",
    "kategori": "baski",
    "konu": "ciftlik-hayvani-damgalari-oyun-hamuru-kalip-seti",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/cocuk-cay-takimi-evcilik-oyuncak-cay-seti",
    "kategori": "baski",
    "konu": "cocuk-cay-takimi-evcilik-oyuncak-cay-seti",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/cocuk-oklavasi-desenli-oyun-hamuru-merdanesi",
    "kategori": "baski",
    "konu": "cocuk-oklavasi-desenli-oyun-hamuru-merdanesi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/duygu-damgalari-oyun-hamuru-kalip-seti",
    "kategori": "baski",
    "konu": "duygu-damgalari-oyun-hamuru-kalip-seti",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/geometrik-sekil-siralama-oyuncagi",
    "kategori": "baski",
    "konu": "geometrik-sekil-siralama-oyuncagi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/geometrik-sekil-ve-cark-siralama-oyuncagi-egitici-renk-sekil-eslestirme-seti",
    "kategori": "baski",
    "konu": "geometrik-sekil-ve-cark-siralama-oyuncagi-egitici-renk-sekil-eslestirme-seti",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/halka-dizme-kulesi-dokulu-renkli-istif-oyuncagi-egitici-sekil-tanima",
    "kategori": "baski",
    "konu": "halka-dizme-kulesi-dokulu-renkli-istif-oyuncagi-egitici-sekil-tanima",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/masaustu-mini-basketbol-firlatmali-atari-oyunu",
    "kategori": "baski",
    "konu": "masaustu-mini-basketbol-firlatmali-atari-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/masaustu-mini-langirt-paletli-atari-oyuncagi",
    "kategori": "baski",
    "konu": "masaustu-mini-langirt-paletli-atari-oyuncagi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/moduler-mini-golf-seti-ev-ici-golf-oyunu",
    "kategori": "baski",
    "konu": "moduler-mini-golf-seti-ev-ici-golf-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/oyuncak-alet-seti-cocuk-tamir-takimi",
    "kategori": "baski",
    "konu": "oyuncak-alet-seti-cocuk-tamir-takimi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/oyuncak-cay-kahve-seti-6-renk-tabakli",
    "kategori": "baski",
    "konu": "oyuncak-cay-kahve-seti-6-renk-tabakli",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/oyuncak-market-kasa-seti-yazarkasali-egitici-rol-yapma-oyunu",
    "kategori": "baski",
    "konu": "oyuncak-market-kasa-seti-yazarkasali-egitici-rol-yapma-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/oyuncak-meyve-sebze-seti-sandikli-egitici-market-manav-oyunu",
    "kategori": "baski",
    "konu": "oyuncak-meyve-sebze-seti-sandikli-egitici-market-manav-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/planor-firlatici-lastikli-ucak-firlatma-oyuncagi",
    "kategori": "baski",
    "konu": "planor-firlatici-lastikli-ucak-firlatma-oyuncagi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/sihirli-iksir-yapma-seti-rol-yapma-oyuncagi",
    "kategori": "baski",
    "konu": "sihirli-iksir-yapma-seti-rol-yapma-oyuncagi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/topac-savas-arenasi-2-topacli-arena-seti",
    "kategori": "baski",
    "konu": "topac-savas-arenasi-2-topacli-arena-seti",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/vidali-kepce-oyuncak-tornavidali-sokup-tak-is-makinesi-yapim-seti",
    "kategori": "baski",
    "konu": "vidali-kepce-oyuncak-tornavidali-sokup-tak-is-makinesi-yapim-seti",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/vidali-sokup-tak-oyuncak-tren-tornavidali-egitici-yapim-seti",
    "kategori": "baski",
    "konu": "vidali-sokup-tak-oyuncak-tren-tornavidali-egitici-yapim-seti",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/vidali-yapim-tahtasi-tornavidali-sok-tak-egitici-oyuncak-seti",
    "kategori": "baski",
    "konu": "vidali-yapim-tahtasi-tornavidali-sok-tak-egitici-oyuncak-seti",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/yumurtlayan-tavuk-basmali-cikolata-yumurta-dagitici",
    "kategori": "baski",
    "konu": "yumurtlayan-tavuk-basmali-cikolata-yumurta-dagitici",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/cocuk-cizim-sablonlari-hayvan-ve-sekil-sablon-seti",
    "kategori": "baski",
    "konu": "cocuk-cizim-sablonlari-hayvan-ve-sekil-sablon-seti",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/dinozor-cizim-sablon-kartlari-cocuk-boyama-seti",
    "kategori": "baski",
    "konu": "dinozor-cizim-sablon-kartlari-cocuk-boyama-seti",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/spiral-cizim-seti-disli-desen-cizim-oyuncagi",
    "kategori": "baski",
    "konu": "spiral-cizim-seti-disli-desen-cizim-oyuncagi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/cekmeceli-buzdolabi-yumurtaligi-16-bolmeli-istiflenebilir",
    "kategori": "baski",
    "konu": "cekmeceli-buzdolabi-yumurtaligi-16-bolmeli-istiflenebilir",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/deterjan-kapagi-tutucu-damla-toplayici",
    "kategori": "baski",
    "konu": "deterjan-kapagi-tutucu-damla-toplayici",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kapakli-cop-kovasi-nervurlu-buyuk-hacimli",
    "kategori": "baski",
    "konu": "kapakli-cop-kovasi-nervurlu-buyuk-hacimli",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/masa-ustu-cop-kovasi-kapakli-mini-cop-kutusu",
    "kategori": "baski",
    "konu": "masa-ustu-cop-kovasi-kapakli-mini-cop-kutusu",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/3-katli-kurabiye-standi-yilbasi-agaci-formlu-yildizli-servis-standi-sunumluk",
    "kategori": "baski",
    "konu": "3-katli-kurabiye-standi-yilbasi-agaci-formlu-yildizli-servis-standi-sunumluk",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/doner-pasta-standi-bilyeli-donen-tablali-25-cm",
    "kategori": "baski",
    "konu": "doner-pasta-standi-bilyeli-donen-tablali-25-cm",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/limon-ayakli-pasta-standi-cupcake-sunum-standi",
    "kategori": "baski",
    "konu": "limon-ayakli-pasta-standi-cupcake-sunum-standi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/buyuk-dunya-haritasi-duvar-dekoru-50-x-100-cm",
    "kategori": "baski",
    "konu": "buyuk-dunya-haritasi-duvar-dekoru-50-x-100-cm",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/ejderhali-kitap-destegi-kanatli-ejderha-kitaplik-ayraci",
    "kategori": "baski",
    "konu": "ejderhali-kitap-destegi-kanatli-ejderha-kitaplik-ayraci",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/gala-zambagi-cicek-biblo-sapli-dekoratif-cicek",
    "kategori": "baski",
    "konu": "gala-zambagi-cicek-biblo-sapli-dekoratif-cicek",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/gotik-sato-okuma-takipcisi-isikli-kitaplik-dekoru",
    "kategori": "baski",
    "konu": "gotik-sato-okuma-takipcisi-isikli-kitaplik-dekoru",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/isikli-katedral-kitap-arasi-gotik-kitaplik-dekoru",
    "kategori": "baski",
    "konu": "isikli-katedral-kitap-arasi-gotik-kitaplik-dekoru",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kalpli-gul-biblo-solmayan-gul-hediye",
    "kategori": "baski",
    "konu": "kalpli-gul-biblo-solmayan-gul-hediye",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kitap-okuyan-ejderha-raf-kenari-biblo",
    "kategori": "baski",
    "konu": "kitap-okuyan-ejderha-raf-kenari-biblo",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kitap-okuyan-gargoyle-kitaplik-bekcisi-biblo",
    "kategori": "baski",
    "konu": "kitap-okuyan-gargoyle-kitaplik-bekcisi-biblo",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/minimal-tavsan-biblo-nervurlu",
    "kategori": "baski",
    "konu": "minimal-tavsan-biblo-nervurlu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/modern-aile-heykeli-anne-baba-ve-cocuklar-biblo",
    "kategori": "baski",
    "konu": "modern-aile-heykeli-anne-baba-ve-cocuklar-biblo",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/modern-geometrik-duvar-cerceve-seti-3-lu",
    "kategori": "baski",
    "konu": "modern-geometrik-duvar-cerceve-seti-3-lu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/raftan-cikan-ejderha-kitaplik-dekoru-2-li",
    "kategori": "baski",
    "konu": "raftan-cikan-ejderha-kitaplik-dekoru-2-li",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/sinek-kusu-ve-gul-duvar-susu-dairesel-duvar-dekoru",
    "kategori": "baski",
    "konu": "sinek-kusu-ve-gul-duvar-susu-dairesel-duvar-dekoru",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/agac-formlu-anahtarlik-kasesi-antre-ve-masa-icin-dekoratif-anahtar-ve-taki-kabi",
    "kategori": "baski",
    "konu": "agac-formlu-anahtarlik-kasesi-antre-ve-masa-icin-dekoratif-anahtar-ve-taki-kabi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/boncuklu-dekoratif-tepsi-taki-mum-ve-aksesuar-icin-yuvarlak-duzenleyici-sehpa-te",
    "kategori": "baski",
    "konu": "boncuklu-dekoratif-tepsi-taki-mum-ve-aksesuar-icin-yuvarlak-duzenleyici-sehpa-te",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/deniz-temali-taki-kasesi-mercan-ve-deniz-kabuklu-dekoratif-yuzukluk-ve-taki-taba",
    "kategori": "baski",
    "konu": "deniz-temali-taki-kasesi-mercan-ve-deniz-kabuklu-dekoratif-yuzukluk-ve-taki-taba",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kapakli-file-desenli-dekoratif-kase-anahtar-taki-ve-aksesuar-icin-saklama-kabi",
    "kategori": "baski",
    "konu": "kapakli-file-desenli-dekoratif-kase-anahtar-taki-ve-aksesuar-icin-saklama-kabi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kumas-dokulu-duzenleyici-tepsi-taki-anahtar-ve-aksesuar-icin-dekoratif-organizer",
    "kategori": "baski",
    "konu": "kumas-dokulu-duzenleyici-tepsi-taki-anahtar-ve-aksesuar-icin-dekoratif-organizer",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nervurlu-ayakli-dekoratif-kase-meyvelik-orta-sehpa-ve-mutfak-dekorasyonu-icin-mo",
    "kategori": "baski",
    "konu": "nervurlu-ayakli-dekoratif-kase-meyvelik-orta-sehpa-ve-mutfak-dekorasyonu-icin-mo",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nervurlu-ayakli-sunum-standi-mum-bitki-ve-parfum-icin-dekoratif-yukseltici-tabla",
    "kategori": "baski",
    "konu": "nervurlu-ayakli-sunum-standi-mum-bitki-ve-parfum-icin-dekoratif-yukseltici-tabla",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nervurlu-oval-dekoratif-tepsi-mum-taki-ve-aksesuar-icin-modern-duzenleyici-sehpa",
    "kategori": "baski",
    "konu": "nervurlu-oval-dekoratif-tepsi-mum-taki-ve-aksesuar-icin-modern-duzenleyici-sehpa",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/zikzak-kenarli-dekoratif-tepsi-orta-sehpa-ve-sunum-icin-yuvarlak-modern-servis-t",
    "kategori": "baski",
    "konu": "zikzak-kenarli-dekoratif-tepsi-orta-sehpa-ve-sunum-icin-yuvarlak-modern-servis-t",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/ahsap-panel-gorunumlu-duvar-rafi-2-rafli-duzenleyici",
    "kategori": "baski",
    "konu": "ahsap-panel-gorunumlu-duvar-rafi-2-rafli-duzenleyici",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/anahtarlikli-duvar-rafi-7-askili-2-bolmeli",
    "kategori": "baski",
    "konu": "anahtarlikli-duvar-rafi-7-askili-2-bolmeli",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/dalga-formlu-parametrik-duvar-rafi-heykelsi-buyuk-raf",
    "kategori": "baski",
    "konu": "dalga-formlu-parametrik-duvar-rafi-heykelsi-buyuk-raf",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/dalgali-duvar-rafi-ayakkabilik-ve-dekor-rafi",
    "kategori": "baski",
    "konu": "dalgali-duvar-rafi-ayakkabilik-ve-dekor-rafi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/elmas-formlu-duvar-rafi-geometrik-bitki-rafi",
    "kategori": "baski",
    "konu": "elmas-formlu-duvar-rafi-geometrik-bitki-rafi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/garaj-kapili-anahtarlik-duvar-anahtar-askisi",
    "kategori": "baski",
    "konu": "garaj-kapili-anahtarlik-duvar-anahtar-askisi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kemerli-duvar-rafi-katmanli-minimal-raf",
    "kategori": "baski",
    "konu": "kemerli-duvar-rafi-katmanli-minimal-raf",
-   "durum": "hazir",
-   "kare": 7
+   "durum": "katalogdan-dustu",
+   "kare": 7,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/led-kanalli-kose-duvar-rafi-nervurlu-kenarli",
    "kategori": "baski",
    "konu": "led-kanalli-kose-duvar-rafi-nervurlu-kenarli",
-   "durum": "hazir",
-   "kare": 7
+   "durum": "katalogdan-dustu",
+   "kare": 7,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/papatyali-duvar-duzenleyici-rafli-ve-4-askili",
    "kategori": "baski",
    "konu": "papatyali-duvar-duzenleyici-rafli-ve-4-askili",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/petek-duvar-duzenleyici-moduler-panel-ve-aparatlar",
    "kategori": "baski",
    "konu": "petek-duvar-duzenleyici-moduler-panel-ve-aparatlar",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/rafli-home-anahtarlik-nervurlu-5-askili-duvar-duzenleyici",
    "kategori": "baski",
    "konu": "rafli-home-anahtarlik-nervurlu-5-askili-duvar-duzenleyici",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/tuplu-duvar-rafi-nervurlu-mini-bitki-rafi",
    "kategori": "baski",
    "konu": "tuplu-duvar-rafi-nervurlu-mini-bitki-rafi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/altigen-mantik-bulmacasi-kutulu-zeka-oyunu",
    "kategori": "baski",
    "konu": "altigen-mantik-bulmacasi-kutulu-zeka-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/ari-petegi-bulmacasi-altigen-zeka-oyunu",
    "kategori": "baski",
    "konu": "ari-petegi-bulmacasi-altigen-zeka-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/bagcik-baglama-egiticisi-ayakkabi-baglama-ogrenme-oyuncagi",
    "kategori": "baski",
    "konu": "bagcik-baglama-egiticisi-ayakkabi-baglama-ogrenme-oyuncagi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/balonla-giden-araba-bilim-deney-oyuncagi",
    "kategori": "baski",
    "konu": "balonla-giden-araba-bilim-deney-oyuncagi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/carpim-tablosu-tablasi-egitici-matematik-oyuncagi",
    "kategori": "baski",
    "konu": "carpim-tablosu-tablasi-egitici-matematik-oyuncagi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/cocuk-cimbizi-3-lu-set-ince-motor-beceri-oyuncagi",
    "kategori": "baski",
    "konu": "cocuk-cimbizi-3-lu-set-ince-motor-beceri-oyuncagi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/doku-ve-renk-ayirma-seti-duyusal-egitici-oyuncak",
    "kategori": "baski",
    "konu": "doku-ve-renk-ayirma-seti-duyusal-egitici-oyuncak",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/duygu-eslestirme-seti-egitici-duygu-karti-oyuncagi",
    "kategori": "baski",
    "konu": "duygu-eslestirme-seti-egitici-duygu-karti-oyuncagi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/duyusal-oyun-kepce-seti-kum-ve-pirinc-oyun-aparati",
    "kategori": "baski",
    "konu": "duyusal-oyun-kepce-seti-kum-ve-pirinc-oyun-aparati",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/gizli-mesaj-topaci-optik-bilim-oyuncagi",
    "kategori": "baski",
    "konu": "gizli-mesaj-topaci-optik-bilim-oyuncagi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kaydirmali-renk-bulmacasi-cep-boy-zeka-oyunu",
    "kategori": "baski",
    "konu": "kaydirmali-renk-bulmacasi-cep-boy-zeka-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kaydirmali-sayi-bulmacasi-3x3-ve-4x4-zeka-oyunu",
    "kategori": "baski",
    "konu": "kaydirmali-sayi-bulmacasi-3x3-ve-4x4-zeka-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kitap-dort-tas-oyunu-dortlu-siralama-akil-oyunu",
    "kategori": "baski",
    "konu": "kitap-dort-tas-oyunu-dortlu-siralama-akil-oyunu",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kitap-kapat-kutusu-oyunu-zarli-sayi-oyunu",
    "kategori": "baski",
    "konu": "kitap-kapat-kutusu-oyunu-zarli-sayi-oyunu",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kitap-kizma-birader-oyunu-kitap-gorunumlu-aile-oyunu",
    "kategori": "baski",
    "konu": "kitap-kizma-birader-oyunu-kitap-gorunumlu-aile-oyunu",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kitap-mangala-oyunu-kitap-gorunumlu-akil-ve-strateji-oyunu",
    "kategori": "baski",
    "konu": "kitap-mangala-oyunu-kitap-gorunumlu-akil-ve-strateji-oyunu",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kitap-satranc-takimi-kitap-gorunumlu-katlanir-satranc-tahtasi",
    "kategori": "baski",
    "konu": "kitap-satranc-takimi-kitap-gorunumlu-katlanir-satranc-tahtasi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kum-yazi-tepsisi-harf-karti-yuvali-yaziya-hazirlik-seti",
    "kategori": "baski",
    "konu": "kum-yazi-tepsisi-harf-karti-yuvali-yaziya-hazirlik-seti",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/on-u-tamamla-sayi-bloklari-toplama-ogrenme-oyuncagi",
    "kategori": "baski",
    "konu": "on-u-tamamla-sayi-bloklari-toplama-ogrenme-oyuncagi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/susi-denge-kulesi-cubuklu-blok-cekme-oyunu",
    "kategori": "baski",
    "konu": "susi-denge-kulesi-cubuklu-blok-cekme-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/trafik-sikismasi-oyunu-arabali-mantik-bulmacasi",
    "kategori": "baski",
    "konu": "trafik-sikismasi-oyunu-arabali-mantik-bulmacasi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/ucan-top-oyuncagi-uflemeli-bilim-oyuncagi",
    "kategori": "baski",
    "konu": "ucan-top-oyuncagi-uflemeli-bilim-oyuncagi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/vahsi-hayvan-kit-kartlari-kopar-tak-3d-hayvan-figur-seti",
    "kategori": "baski",
    "konu": "vahsi-hayvan-kit-kartlari-kopar-tak-3d-hayvan-figur-seti",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/zeka-bulmacasi-cep-boy-parca-yerlestirme-oyunu",
    "kategori": "baski",
    "konu": "zeka-bulmacasi-cep-boy-parca-yerlestirme-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/ani-muzesi-fotograf-cercevesi-8-mini-cerceveli-figurlu-kisiye-ozel-hediye",
    "kategori": "baski",
    "konu": "ani-muzesi-fotograf-cercevesi-8-mini-cerceveli-figurlu-kisiye-ozel-hediye",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/balkabagi-miknatisli-fotograf-tutucu-cadilar-bayrami-buzdolabi-magneti",
    "kategori": "baski",
    "konu": "balkabagi-miknatisli-fotograf-tutucu-cadilar-bayrami-buzdolabi-magneti",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/boncuk-desenli-fotograf-cercevesi-masaustu-dekoratif-cerceve-dikey-yatay",
    "kategori": "baski",
    "konu": "boncuk-desenli-fotograf-cercevesi-masaustu-dekoratif-cerceve-dikey-yatay",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/buzgulu-fotograf-cercevesi-kumas-gorunumlu-dekoratif-masaustu-cerceve",
    "kategori": "baski",
    "konu": "buzgulu-fotograf-cercevesi-kumas-gorunumlu-dekoratif-masaustu-cerceve",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/japandi-fotograf-cercevesi-cizgili-dokulu-kisiye-ozel-yazili-masaustu-cerceve",
    "kategori": "baski",
    "konu": "japandi-fotograf-cercevesi-cizgili-dokulu-kisiye-ozel-yazili-masaustu-cerceve",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kisiye-ozel-fotograf-kitabi-miknatisli-mini-album",
    "kategori": "baski",
    "konu": "kisiye-ozel-fotograf-kitabi-miknatisli-mini-album",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/klasor-fotograf-albumu-akordeon-sayfali-masa-albumu",
    "kategori": "baski",
    "konu": "klasor-fotograf-albumu-akordeon-sayfali-masa-albumu",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/klasor-fotograf-albumu-instax-mini-uyumlu-12-fotograflik-kisiye-ozel-masaustu",
    "kategori": "baski",
    "konu": "klasor-fotograf-albumu-instax-mini-uyumlu-12-fotograflik-kisiye-ozel-masaustu",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/koli-fotograf-kutusu-klasor-ayracli-saklama-kutusu",
    "kategori": "baski",
    "konu": "koli-fotograf-kutusu-klasor-ayracli-saklama-kutusu",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/manyetik-fotograf-kupu-acilir-akordeon-fotograf-kutusu",
    "kategori": "baski",
    "konu": "manyetik-fotograf-kupu-acilir-akordeon-fotograf-kutusu",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/mini-fotograf-albumu-anahtarlik-kisiye-ozel-miknatisli-kapakli-mini-album",
    "kategori": "baski",
    "konu": "mini-fotograf-albumu-anahtarlik-kisiye-ozel-miknatisli-kapakli-mini-album",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/masa-kablo-duzenleyici-kiskacli",
    "kategori": "baski",
    "konu": "masa-kablo-duzenleyici-kiskacli",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/japandi-kalemlik-seti-3-lu-dokulu",
    "kategori": "baski",
    "konu": "japandi-kalemlik-seti-3-lu-dokulu",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/petek-desenli-kapi-stoperi-2-renkli",
    "kategori": "baski",
    "konu": "petek-desenli-kapi-stoperi-2-renkli",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/noel-baba-botu-catal-bicaklik-yilbasi-sofrasi",
    "kategori": "baski",
    "konu": "noel-baba-botu-catal-bicaklik-yilbasi-sofrasi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/otomatik-kuru-mama-haznesi-kedi-ve-kopek-mama-dagitici",
    "kategori": "baski",
    "konu": "otomatik-kuru-mama-haznesi-kedi-ve-kopek-mama-dagitici",
-   "durum": "hazir",
-   "kare": 7
+   "durum": "katalogdan-dustu",
+   "kare": 7,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/tasarim-kulaklik-standi-agir-tabanli",
    "kategori": "baski",
    "konu": "tasarim-kulaklik-standi-agir-tabanli",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/penguenli-kumbara-tahterevalli-para-biriktirme-kumbarasi",
    "kategori": "baski",
    "konu": "penguenli-kumbara-tahterevalli-para-biriktirme-kumbarasi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/balik-tutma-oyunu-oltali-cocuk-masa-oyunu",
    "kategori": "baski",
    "konu": "balik-tutma-oyunu-oltali-cocuk-masa-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/banka-soygunu-oyunu-iki-kisilik-strateji-oyunu",
    "kategori": "baski",
    "konu": "banka-soygunu-oyunu-iki-kisilik-strateji-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/deniz-savasi-oyunu-iki-kisilik-strateji-oyunu",
    "kategori": "baski",
    "konu": "deniz-savasi-oyunu-iki-kisilik-strateji-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/domino-seti-modern-tasarim-kutulu-domino",
    "kategori": "baski",
    "konu": "domino-seti-modern-tasarim-kutulu-domino",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/havuc-hafiza-oyunu-cocuk-kutu-oyunu",
    "kategori": "baski",
    "konu": "havuc-hafiza-oyunu-cocuk-kutu-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kelime-bulma-oyunu-harf-tahmin-kutu-oyunu",
    "kategori": "baski",
    "konu": "kelime-bulma-oyunu-harf-tahmin-kutu-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kendinden-ayiran-4-lu-bagla-strateji-kutu-oyunu",
    "kategori": "baski",
    "konu": "kendinden-ayiran-4-lu-bagla-strateji-kutu-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kurbagali-xox-oyunu-sevimli-tic-tac-toe",
    "kategori": "baski",
    "konu": "kurbagali-xox-oyunu-sevimli-tic-tac-toe",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/parmak-futbolu-masa-ustu-futbol-oyunu",
    "kategori": "baski",
    "konu": "parmak-futbolu-masa-ustu-futbol-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/renk-eslestirme-yarisi-hizli-aile-oyunu",
    "kategori": "baski",
    "konu": "renk-eslestirme-yarisi-hizli-aile-oyunu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/seyahat-satranc-seti-kutulu-mini-satranc",
    "kategori": "baski",
    "konu": "seyahat-satranc-seti-kutulu-mini-satranc",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/cizgili-makyaj-duzenleyici-4-bolmeli-fircalikli-masaustu-kozmetik-organizer",
@@ -2490,183 +2670,209 @@
    "klasor": "urun/ay-lambasi-krater-dokulu-gece-lambasi",
    "kategori": "baski",
    "konu": "ay-lambasi-krater-dokulu-gece-lambasi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/burgu-desenli-masa-lambasi-ucayakli",
    "kategori": "baski",
    "konu": "burgu-desenli-masa-lambasi-ucayakli",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/a5-ajandalik-masa-duzenleyici-cekmeceli-kalemlik",
    "kategori": "baski",
    "konu": "a5-ajandalik-masa-duzenleyici-cekmeceli-kalemlik",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/istiflenebilir-cekmece-seti-3-lu-renkli-cekmeceli-duzenleyici",
    "kategori": "baski",
    "konu": "istiflenebilir-cekmece-seti-3-lu-renkli-cekmeceli-duzenleyici",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kademeli-kalemlik-seti-5-silindirli-masa-duzenleyici",
    "kategori": "baski",
    "konu": "kademeli-kalemlik-seti-5-silindirli-masa-duzenleyici",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/modern-cekmece-kulesi-4-lu-istiflenebilir-cekmece",
    "kategori": "baski",
    "konu": "modern-cekmece-kulesi-4-lu-istiflenebilir-cekmece",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/moduler-parca-cekmecesi-etiketli-kup-duzenleyici",
    "kategori": "baski",
    "konu": "moduler-parca-cekmecesi-etiketli-kup-duzenleyici",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/su-aygiri-masa-duzenleyici-not-kagidi-ve-kalem-tutucu",
    "kategori": "baski",
    "konu": "su-aygiri-masa-duzenleyici-not-kagidi-ve-kalem-tutucu",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/dolap-alti-strec-film-ve-folyo-tutucu",
    "kategori": "baski",
    "konu": "dolap-alti-strec-film-ve-folyo-tutucu",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/gunluk-tiklamali-dagitici-7-gozlu-haftalik-duzenleyici",
    "kategori": "baski",
    "konu": "gunluk-tiklamali-dagitici-7-gozlu-haftalik-duzenleyici",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nilufer-kupa-duzenleyici-kupa-istifleme-aparati-4-lu",
    "kategori": "baski",
    "konu": "nilufer-kupa-duzenleyici-kupa-istifleme-aparati-4-lu",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/minimal-laptop-standi-acili-yukseltici",
    "kategori": "baski",
    "konu": "minimal-laptop-standi-acili-yukseltici",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kedili-okey-takimi-kedi-istakali-komple-set",
    "kategori": "baski",
    "konu": "kedili-okey-takimi-kedi-istakali-komple-set",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kopekli-okey-takimi-sosis-kopek-istakali-komple-set",
    "kategori": "baski",
    "konu": "kopekli-okey-takimi-sosis-kopek-istakali-komple-set",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/cep-yaris-arabasi-lastik-motorlu-oyuncak-araba",
    "kategori": "baski",
    "konu": "cep-yaris-arabasi-lastik-motorlu-oyuncak-araba",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kurmali-4x4-oyuncak-araba-yayli-mekanizmali",
    "kategori": "baski",
    "konu": "kurmali-4x4-oyuncak-araba-yayli-mekanizmali",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/dikey-pecetelik-nervurlu-mendil-kutusu-tepsi-tabanli-dekoratif-kagit-mendil-kutu",
    "kategori": "baski",
    "konu": "dikey-pecetelik-nervurlu-mendil-kutusu-tepsi-tabanli-dekoratif-kagit-mendil-kutu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kurabiye-adam-kagit-havluluk-yilbasi-temali",
    "kategori": "baski",
    "konu": "kurabiye-adam-kagit-havluluk-yilbasi-temali",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nervurlu-mendil-kutusu-kapakli-dekoratif-pecetelik-banyo-ve-salon-icin-kagit-men",
    "kategori": "baski",
    "konu": "nervurlu-mendil-kutusu-kapakli-dekoratif-pecetelik-banyo-ve-salon-icin-kagit-men",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nervurlu-mendil-kutusu-kilifi-dekoratif-pecetelik-salon-ve-banyo-icin-kagit-mend",
    "kategori": "baski",
    "konu": "nervurlu-mendil-kutusu-kilifi-dekoratif-pecetelik-salon-ve-banyo-icin-kagit-mend",
-   "durum": "hazir",
-   "kare": 2
+   "durum": "katalogdan-dustu",
+   "kare": 2,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/3d-fil-yapbozu-gecmeli-katmanli-egitici-oyuncak",
    "kategori": "baski",
    "konu": "3d-fil-yapbozu-gecmeli-katmanli-egitici-oyuncak",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/alfabe-yapbozu-harfleri-yerine-yerlestirme-oyuncagi",
    "kategori": "baski",
    "konu": "alfabe-yapbozu-harfleri-yerine-yerlestirme-oyuncagi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/hayvan-sekil-yapbozu-sekil-eslestirme-oyuncagi",
    "kategori": "baski",
    "konu": "hayvan-sekil-yapbozu-sekil-eslestirme-oyuncagi",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/triceratops-iskelet-yapbozu-dinozor-3d-maket",
    "kategori": "baski",
    "konu": "triceratops-iskelet-yapbozu-dinozor-3d-maket",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/yaprak-formlu-sabunluk-suzgecli",
    "kategori": "baski",
    "konu": "yaprak-formlu-sabunluk-suzgecli",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kagit-havluluk-dolap-alti-tek-parca-rulo-tutucu",
    "kategori": "baski",
    "konu": "kagit-havluluk-dolap-alti-tek-parca-rulo-tutucu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/burgu-desenli-saksi-su-tabakli-modern-saksi",
@@ -2760,50 +2966,57 @@
    "klasor": "urun/kis-manzarali-fener-ayakli-led-mumluk",
    "kategori": "baski",
    "konu": "kis-manzarali-fener-ayakli-led-mumluk",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kurabiye-temali-mum-dekoru-led-isikli-yilbasi-susu",
    "kategori": "baski",
    "konu": "kurabiye-temali-mum-dekoru-led-isikli-yilbasi-susu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/melek-figurlu-led-fener-dantel-kanatli",
    "kategori": "baski",
    "konu": "melek-figurlu-led-fener-dantel-kanatli",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nervurlu-led-mumluk-deniz-kabugu-formlu",
    "kategori": "baski",
    "konu": "nervurlu-led-mumluk-deniz-kabugu-formlu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/zikzak-profilli-tablet-standi-tepsili",
    "kategori": "baski",
    "konu": "zikzak-profilli-tablet-standi-tepsili",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kitap-tavla-takimi-kitap-gorunumlu-katlanir-tavla",
    "kategori": "baski",
    "konu": "kitap-tavla-takimi-kitap-gorunumlu-katlanir-tavla",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nervurlu-oval-tepsi-anahtar-ve-taki-tepsisi",
    "kategori": "baski",
    "konu": "nervurlu-oval-tepsi-anahtar-ve-taki-tepsisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/altigen-duvar-saksisi-petek-dizilimli-askili-saksi",
@@ -2953,15 +3166,17 @@
    "klasor": "urun/kafes-desenli-isikli-yilbasi-agaci",
    "kategori": "baski",
    "konu": "kafes-desenli-isikli-yilbasi-agaci",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/modern-yilbasi-agaci-seti-3-lu-yildizli",
    "kategori": "baski",
    "konu": "modern-yilbasi-agaci-seti-3-lu-yildizli",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/dekoratif-yilbasi-agaci-yildizli-masaustu-cam-agaci-biblo-yilbasi-susu",
@@ -3159,799 +3374,913 @@
    "klasor": "urun/6-bolmeli-tezgah-duzenleyici-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "6-bolmeli-tezgah-duzenleyici-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/alttan-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici",
    "kategori": "baski",
    "konu": "alttan-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/banyo-pamuk-ve-kulak-cubugu-duzenleyici-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "banyo-pamuk-ve-kulak-cubugu-duzenleyici-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/cicekli-pamuk-seyahat-kutusu-silk-parlak-seyahat-kabi",
    "kategori": "baski",
    "konu": "cicekli-pamuk-seyahat-kutusu-silk-parlak-seyahat-kabi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/cilt-bakim-standi-silk-parlak-banyo-duzenleyici",
    "kategori": "baski",
    "konu": "cilt-bakim-standi-silk-parlak-banyo-duzenleyici",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/duvar-tipi-fitilli-banyo-duzenleyici-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "duvar-tipi-fitilli-banyo-duzenleyici-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/duvar-tipi-fon-askisi-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "duvar-tipi-fon-askisi-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/fitilli-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici",
    "kategori": "baski",
    "konu": "fitilli-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/fitilli-vanity-duzenleyici-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "fitilli-vanity-duzenleyici-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/geometrik-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici",
    "kategori": "baski",
    "konu": "geometrik-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/japandi-banyo-seti-silk-parlak-banyo-duzenleyici",
    "kategori": "baski",
    "konu": "japandi-banyo-seti-silk-parlak-banyo-duzenleyici",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kapakli-cok-amacli-kap-silk-parlak-banyo-duzenleyici",
    "kategori": "baski",
    "konu": "kapakli-cok-amacli-kap-silk-parlak-banyo-duzenleyici",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kapitone-banyo-sepeti-silk-parlak-banyo-duzenleyici",
    "kategori": "baski",
    "konu": "kapitone-banyo-sepeti-silk-parlak-banyo-duzenleyici",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kulak-cubugu-kabi-silk-parlak-banyo-duzenleyici",
    "kategori": "baski",
    "konu": "kulak-cubugu-kabi-silk-parlak-banyo-duzenleyici",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kulak-cubugu-seyahat-kabi-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "kulak-cubugu-seyahat-kabi-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/minimal-banyo-tasima-duzenleyici-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "minimal-banyo-tasima-duzenleyici-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/modern-banyo-tasima-duzenleyici-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "modern-banyo-tasima-duzenleyici-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/onden-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici",
    "kategori": "baski",
    "konu": "onden-tablali-kulak-cubugu-dispenseri-silk-parlak-banyo-duzenleyici",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/pamuk-seyahat-kabi-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "pamuk-seyahat-kabi-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/pamuk-ve-kulak-cubugu-kabi-silk-parlak-banyo-duzenleyici",
    "kategori": "baski",
    "konu": "pamuk-ve-kulak-cubugu-kabi-silk-parlak-banyo-duzenleyici",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/pamuk-ve-kulak-cubugu-tutucu-silk-parlak-banyo-duzenleyici",
    "kategori": "baski",
    "konu": "pamuk-ve-kulak-cubugu-tutucu-silk-parlak-banyo-duzenleyici",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/vidali-kapakli-kozmetik-kap-seti-silk-parlak-seyahat-kabi",
    "kategori": "baski",
    "konu": "vidali-kapakli-kozmetik-kap-seti-silk-parlak-seyahat-kabi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/vidali-kulak-cubugu-seyahat-kabi-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "vidali-kulak-cubugu-seyahat-kabi-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/bulut-kalemlik-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "bulut-kalemlik-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/burusuk-silk-kalemlik-silk-parlak-makyaj-fircaligi",
    "kategori": "baski",
    "konu": "burusuk-silk-kalemlik-silk-parlak-makyaj-fircaligi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/fermuarli-sisme-mont-kalemlik-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "fermuarli-sisme-mont-kalemlik-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/firca-ve-kalemlik-silk-parlak-makyaj-fircaligi",
    "kategori": "baski",
    "konu": "firca-ve-kalemlik-silk-parlak-makyaj-fircaligi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/genis-agizli-sisme-mont-kalemlik-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "genis-agizli-sisme-mont-kalemlik-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kalp-kalemlik-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "kalp-kalemlik-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kapitone-kalp-kalemlik-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "kapitone-kalp-kalemlik-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kapusonlu-sisme-mont-kalemlik-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "kapusonlu-sisme-mont-kalemlik-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kese-kalemlik-silk-parlak-makyaj-fircaligi",
    "kategori": "baski",
    "konu": "kese-kalemlik-silk-parlak-makyaj-fircaligi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/marshmallow-silk-kalemlik-silk-parlak-makyaj-fircaligi",
    "kategori": "baski",
    "konu": "marshmallow-silk-kalemlik-silk-parlak-makyaj-fircaligi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/silk-fiyonklu-kalemlik-silk-parlak-makyaj-fircaligi",
    "kategori": "baski",
    "konu": "silk-fiyonklu-kalemlik-silk-parlak-makyaj-fircaligi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/sisme-mont-kalemlik-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "sisme-mont-kalemlik-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/bulut-kademeli-stand-silk-parlak-parfum-ve-bakim-standi",
    "kategori": "baski",
    "konu": "bulut-kademeli-stand-silk-parlak-parfum-ve-bakim-standi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/desenli-dudak-balmi-tutucu-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "desenli-dudak-balmi-tutucu-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/doner-makyaj-kabi-silk-parlak-makyaj-organizeri",
    "kategori": "baski",
    "konu": "doner-makyaj-kabi-silk-parlak-makyaj-organizeri",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/fitilli-cekmeceli-duzenleyici-silk-parlak-makyaj-organizeri",
    "kategori": "baski",
    "konu": "fitilli-cekmeceli-duzenleyici-silk-parlak-makyaj-organizeri",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/fitilli-dikdortgen-fircalik-silk-parlak-makyaj-fircaligi",
    "kategori": "baski",
    "konu": "fitilli-dikdortgen-fircalik-silk-parlak-makyaj-fircaligi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/genis-bolmeli-kozmetik-organizeri-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "genis-bolmeli-kozmetik-organizeri-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/iskandinav-fitilli-coklu-duzenleyici-silk-parlak-makyaj-organizeri",
    "kategori": "baski",
    "konu": "iskandinav-fitilli-coklu-duzenleyici-silk-parlak-makyaj-organizeri",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/iskandinav-uclu-makyaj-organizeri-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "iskandinav-uclu-makyaj-organizeri-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kademeli-sergi-rafi-silk-parlak-parfum-ve-bakim-standi",
    "kategori": "baski",
    "konu": "kademeli-sergi-rafi-silk-parlak-parfum-ve-bakim-standi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kalp-toka-duzenleyici-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "kalp-toka-duzenleyici-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kalpli-ruj-ve-balm-standi-silk-parlak-ruj-ve-balm-tutucu",
    "kategori": "baski",
    "konu": "kalpli-ruj-ve-balm-standi-silk-parlak-ruj-ve-balm-tutucu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kapitone-canta-formlu-fircalik-silk-parlak-makyaj-fircaligi",
    "kategori": "baski",
    "konu": "kapitone-canta-formlu-fircalik-silk-parlak-makyaj-fircaligi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kapitone-fircalik-duzenleyici-silk-parlak-makyaj-fircaligi",
    "kategori": "baski",
    "konu": "kapitone-fircalik-duzenleyici-silk-parlak-makyaj-fircaligi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kozmetik-kutusu-ve-kalemlik-silk-parlak-makyaj-organizeri",
    "kategori": "baski",
    "konu": "kozmetik-kutusu-ve-kalemlik-silk-parlak-makyaj-organizeri",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kozmetik-organizer-seti-silk-parlak-makyaj-organizeri",
    "kategori": "baski",
    "konu": "kozmetik-organizer-seti-silk-parlak-makyaj-organizeri",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/makyaj-ve-parfum-organizeri-silk-parlak-parfum-ve-bakim-standi",
    "kategori": "baski",
    "konu": "makyaj-ve-parfum-organizeri-silk-parlak-parfum-ve-bakim-standi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/manikur-istasyonu-buyuk-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "manikur-istasyonu-buyuk-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/modern-kademeli-raf-silk-parlak-parfum-ve-bakim-standi",
    "kategori": "baski",
    "konu": "modern-kademeli-raf-silk-parlak-parfum-ve-bakim-standi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/moduler-duzenleyici-silk-parlak-makyaj-organizeri",
    "kategori": "baski",
    "konu": "moduler-duzenleyici-silk-parlak-makyaj-organizeri",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/peri-figurlu-fircalik-silk-parlak-makyaj-fircaligi",
    "kategori": "baski",
    "konu": "peri-figurlu-fircalik-silk-parlak-makyaj-fircaligi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/saten-buzgulu-fircalik-silk-parlak-makyaj-fircaligi",
    "kategori": "baski",
    "konu": "saten-buzgulu-fircalik-silk-parlak-makyaj-fircaligi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/vanity-kozmetik-organizeri-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "vanity-kozmetik-organizeri-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/voronoi-aynali-makyaj-organizeri-silk-parlak-makyaj-fircaligi",
    "kategori": "baski",
    "konu": "voronoi-aynali-makyaj-organizeri-silk-parlak-makyaj-fircaligi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/yuvarlak-koseli-masa-duzenleyici-silk-parlak-kalemlik",
    "kategori": "baski",
    "konu": "yuvarlak-koseli-masa-duzenleyici-silk-parlak-kalemlik",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/buyuk-yaprak-sabunluk-suzgecli-damlalikli-yuksek-ayakli",
    "kategori": "baski",
    "konu": "buyuk-yaprak-sabunluk-suzgecli-damlalikli-yuksek-ayakli",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/akiskan-kendinden-sulamali-saksi-hazneli-dekoratif-saksi",
    "kategori": "baski",
    "konu": "akiskan-kendinden-sulamali-saksi-hazneli-dekoratif-saksi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/akustik-panel-icin-duvar-vazosu-dekoratif-duvar-saksisi",
    "kategori": "baski",
    "konu": "akustik-panel-icin-duvar-vazosu-dekoratif-duvar-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/ay-saksi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "ay-saksi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/ayakli-yuvarlak-nervurlu-saksi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "ayakli-yuvarlak-nervurlu-saksi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/bonsai-saksisi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "bonsai-saksisi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/dalgali-saksi-ve-sarmal-tabak-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "dalgali-saksi-ve-sarmal-tabak-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/gizli-tabakli-saksi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "gizli-tabakli-saksi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/japandi-saksi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "japandi-saksi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kabarcik-kup-saksi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "kabarcik-kup-saksi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/minimal-yuvarlak-saksi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "minimal-yuvarlak-saksi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nervurlu-drenajli-saksi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "nervurlu-drenajli-saksi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/organik-geometrik-saksilar-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "organik-geometrik-saksilar-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/origami-saksi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "origami-saksi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/parametrik-ic-saksi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "parametrik-ic-saksi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/poligon-orkide-saksisi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "poligon-orkide-saksisi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/retro-drenajli-saksi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "retro-drenajli-saksi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/retro-gizli-tabakli-saksi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "retro-gizli-tabakli-saksi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/sulamali-saksi-koleksiyonu-hazneli-dekoratif-saksi",
    "kategori": "baski",
    "konu": "sulamali-saksi-koleksiyonu-hazneli-dekoratif-saksi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/sulamali-sukulent-saksisi-hazneli-dekoratif-saksi",
    "kategori": "baski",
    "konu": "sulamali-sukulent-saksisi-hazneli-dekoratif-saksi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/tas-dokulu-mini-saksi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "tas-dokulu-mini-saksi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/tas-gorunumlu-sulamali-saksi-hazneli-dekoratif-saksi",
    "kategori": "baski",
    "konu": "tas-gorunumlu-sulamali-saksi-hazneli-dekoratif-saksi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/toprak-formlu-saksi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "toprak-formlu-saksi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/yukseltilmis-saksi-ic-mekan-bitki-saksisi",
    "kategori": "baski",
    "konu": "yukseltilmis-saksi-ic-mekan-bitki-saksisi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/zen-akis-sulamali-saksi-hazneli-dekoratif-saksi",
    "kategori": "baski",
    "konu": "zen-akis-sulamali-saksi-hazneli-dekoratif-saksi",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kozalak-ev-mumluk-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "kozalak-ev-mumluk-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/led-mumluk-agaclar-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "led-mumluk-agaclar-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/led-mumluk-kardan-adam-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "led-mumluk-kardan-adam-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 2
+   "durum": "katalogdan-dustu",
+   "kare": 2,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/mumluk-yilbasi-agaci-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "mumluk-yilbasi-agaci-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/noel-baba-fener-led-mumluk-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "noel-baba-fener-led-mumluk-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 1
+   "durum": "katalogdan-dustu",
+   "kare": 1,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/yildiz-mumluk-seti-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "yildiz-mumluk-seti-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/dalgali-oval-vanity-tepsisi-silk-parlak-makyaj-organizeri",
    "kategori": "baski",
    "konu": "dalgali-oval-vanity-tepsisi-silk-parlak-makyaj-organizeri",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/japandi-fitilli-tepsi-silk-parlak-makyaj-organizeri",
    "kategori": "baski",
    "konu": "japandi-fitilli-tepsi-silk-parlak-makyaj-organizeri",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri",
    "kategori": "baski",
    "konu": "kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kulplu-kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri",
    "kategori": "baski",
    "konu": "kulplu-kapitone-vanity-tepsisi-silk-parlak-makyaj-organizeri",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/akiskan-heykel-vazo-kuru-cicek-ve-pampas-vazosu",
    "kategori": "baski",
    "konu": "akiskan-heykel-vazo-kuru-cicek-ve-pampas-vazosu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/dalga-vazo-kuru-cicek-ve-pampas-vazosu",
    "kategori": "baski",
    "konu": "dalga-vazo-kuru-cicek-ve-pampas-vazosu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/drapeli-modern-vazo-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "drapeli-modern-vazo-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/fiyonklu-vazo-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "fiyonklu-vazo-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/halat-dokulu-vazo-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "halat-dokulu-vazo-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/iki-parcali-heykel-vazo-kuru-cicek-ve-pampas-vazosu",
    "kategori": "baski",
    "konu": "iki-parcali-heykel-vazo-kuru-cicek-ve-pampas-vazosu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/ikili-zarif-vazo-seti-dekoratif-vazo-seti",
    "kategori": "baski",
    "konu": "ikili-zarif-vazo-seti-dekoratif-vazo-seti",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/ince-spiral-modern-vazo-kuru-cicek-ve-pampas-vazosu",
    "kategori": "baski",
    "konu": "ince-spiral-modern-vazo-kuru-cicek-ve-pampas-vazosu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/ince-zarif-vazo-kuru-cicek-ve-pampas-vazosu",
    "kategori": "baski",
    "konu": "ince-zarif-vazo-kuru-cicek-ve-pampas-vazosu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/japandi-vazo-uclusu-kuru-cicek-ve-pampas-vazosu",
    "kategori": "baski",
    "konu": "japandi-vazo-uclusu-kuru-cicek-ve-pampas-vazosu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kabarcik-vazo-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "kabarcik-vazo-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kagit-torba-vazo-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "kagit-torba-vazo-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kapitone-fiyonklu-vazo-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "kapitone-fiyonklu-vazo-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kelebek-fiyonklu-vazo-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "kelebek-fiyonklu-vazo-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/klasik-kivrim-vazo-kuru-cicek-ve-pampas-vazosu",
    "kategori": "baski",
    "konu": "klasik-kivrim-vazo-kuru-cicek-ve-pampas-vazosu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kumas-kese-gorunumlu-vazo-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "kumas-kese-gorunumlu-vazo-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kurdele-vazo-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "kurdele-vazo-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nervurlu-modern-vazo-kuru-cicek-ve-pampas-vazosu",
    "kategori": "baski",
    "konu": "nervurlu-modern-vazo-kuru-cicek-ve-pampas-vazosu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/nilufer-spiral-vazo-kuru-cicek-ve-pampas-vazosu",
    "kategori": "baski",
    "konu": "nilufer-spiral-vazo-kuru-cicek-ve-pampas-vazosu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/orgu-dokulu-fiyonklu-vazo-silk-parlak-3d-baski",
    "kategori": "baski",
    "konu": "orgu-dokulu-fiyonklu-vazo-silk-parlak-3d-baski",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/orgu-dokulu-vazo-silk-parlak-3d-baski",
@@ -3965,239 +4294,273 @@
    "klasor": "urun/spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu",
    "kategori": "baski",
    "konu": "spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/zarif-spiral-vazo-kuru-cicek-ve-pampas-vazosu",
    "kategori": "baski",
    "konu": "zarif-spiral-vazo-kuru-cicek-ve-pampas-vazosu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/zeytin-vazo-kuru-cicek-ve-pampas-vazosu",
    "kategori": "baski",
    "konu": "zeytin-vazo-kuru-cicek-ve-pampas-vazosu",
-   "durum": "hazir",
-   "kare": 6
+   "durum": "katalogdan-dustu",
+   "kare": 6,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/burgu-yilbasi-agaci-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "burgu-yilbasi-agaci-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/desteksiz-yilbasi-agaci-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "desteksiz-yilbasi-agaci-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 2
+   "durum": "katalogdan-dustu",
+   "kare": 2,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/japandi-agac-seti-masaustu-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "japandi-agac-seti-masaustu-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/japandi-desteksiz-agac-masaustu-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "japandi-desteksiz-agac-masaustu-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/spiral-yilbasi-agaci-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "spiral-yilbasi-agaci-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/yilbasi-agaclari-seti-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "yilbasi-agaclari-seti-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/acilir-yilbasi-agaci-mini-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "acilir-yilbasi-agaci-mini-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/agac-tepesi-yildizlari-yilbasi-agaci-susu",
    "kategori": "baski",
    "konu": "agac-tepesi-yildizlari-yilbasi-agaci-susu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/agacli-kapi-kosesi-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "agacli-kapi-kosesi-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 1
+   "durum": "katalogdan-dustu",
+   "kare": 1,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/celenk-fotograf-susu-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "celenk-fotograf-susu-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/cizgi-sanati-susler-yilbasi-agaci-susu",
    "kategori": "baski",
    "konu": "cizgi-sanati-susler-yilbasi-agaci-susu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/cuceli-kapi-kosesi-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "cuceli-kapi-kosesi-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 1
+   "durum": "katalogdan-dustu",
+   "kare": 1,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/donen-yilbasi-agaci-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "donen-yilbasi-agaci-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 1
+   "durum": "katalogdan-dustu",
+   "kare": 1,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/geyik-basli-sise-tipasi-yilbasi-sofra-dekoru",
    "kategori": "baski",
    "konu": "geyik-basli-sise-tipasi-yilbasi-sofra-dekoru",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/japandi-yilbasi-topu-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "japandi-yilbasi-topu-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kar-tanesi-geyik-yilbasi-biblosu",
    "kategori": "baski",
    "konu": "kar-tanesi-geyik-yilbasi-biblosu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kar-tanesi-sus-seti-yilbasi-agaci-susu",
    "kategori": "baski",
    "konu": "kar-tanesi-sus-seti-yilbasi-agaci-susu",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kis-kurabiye-kaliplari-yilbasi-sofra-dekoru",
    "kategori": "baski",
    "konu": "kis-kurabiye-kaliplari-yilbasi-sofra-dekoru",
-   "durum": "hazir",
-   "kare": 2
+   "durum": "katalogdan-dustu",
+   "kare": 2,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kis-treni-kar-kuresi-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "kis-treni-kar-kuresi-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 2
+   "durum": "katalogdan-dustu",
+   "kare": 2,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kozalak-cuce-evi-yilbasi-kis-dekoru",
    "kategori": "baski",
    "konu": "kozalak-cuce-evi-yilbasi-kis-dekoru",
-   "durum": "hazir",
-   "kare": 2
+   "durum": "katalogdan-dustu",
+   "kare": 2,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/kurabiye-ejderha-yilbasi-biblosu",
    "kategori": "baski",
    "konu": "kurabiye-ejderha-yilbasi-biblosu",
-   "durum": "hazir",
-   "kare": 1
+   "durum": "katalogdan-dustu",
+   "kare": 1,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/led-isikli-yilbasi-koyu-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "led-isikli-yilbasi-koyu-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 2
+   "durum": "katalogdan-dustu",
+   "kare": 2,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/modern-yilbasi-toplari-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "modern-yilbasi-toplari-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "katalogdan-dustu",
+   "kare": 5,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/noel-baba-ayakli-kase-yilbasi-sofra-dekoru",
    "kategori": "baski",
    "konu": "noel-baba-ayakli-kase-yilbasi-sofra-dekoru",
-   "durum": "hazir",
-   "kare": 1
+   "durum": "katalogdan-dustu",
+   "kare": 1,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/noel-baba-kapi-kosesi-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "noel-baba-kapi-kosesi-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/noel-baba-sise-sapkasi-yilbasi-sofra-dekoru",
    "kategori": "baski",
    "konu": "noel-baba-sise-sapkasi-yilbasi-sofra-dekoru",
-   "durum": "hazir",
-   "kare": 1
+   "durum": "katalogdan-dustu",
+   "kare": 1,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/orgu-hediye-kutusu-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "orgu-hediye-kutusu-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 3
+   "durum": "katalogdan-dustu",
+   "kare": 3,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/orgu-kardan-adam-biblo-yilbasi-biblosu",
    "kategori": "baski",
    "konu": "orgu-kardan-adam-biblo-yilbasi-biblosu",
-   "durum": "hazir",
-   "kare": 2
+   "durum": "katalogdan-dustu",
+   "kare": 2,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/orgu-kurabiye-adam-yilbasi-biblosu",
    "kategori": "baski",
    "konu": "orgu-kurabiye-adam-yilbasi-biblosu",
-   "durum": "hazir",
-   "kare": 1
+   "durum": "katalogdan-dustu",
+   "kare": 1,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/spiral-yilbasi-topu-3d-baski-yilbasi-dekoru",
    "kategori": "baski",
    "konu": "spiral-yilbasi-topu-3d-baski-yilbasi-dekoru",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "katalogdan-dustu",
+   "kare": 4,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   },
   {
    "klasor": "urun/buzgulu-kese-vazo-kuru-cicek-ve-pampas-vazosu",
    "kategori": "baski",
    "konu": "buzgulu-kese-vazo-kuru-cicek-ve-pampas-vazosu",
-   "durum": "hazir",
-   "kare": 8
+   "durum": "katalogdan-dustu",
+   "kare": 8,
+   "neden": "Üründen kaldırıldı ya da stokta yok"
   }
  ],
  "kampanya": [
