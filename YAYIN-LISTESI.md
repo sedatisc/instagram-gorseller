@@ -4,17 +4,6 @@ Günde **3 gönderi · 3 hikaye · 1 reels**. Hikaye, gönderiden 40 dakika sonr
 
 Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.json` içinde.
 
-## 2026-11-15 · Pazar
-
-| Saat | Tür | Slot | Klasör | Kare |
-|---|---|---|---|---|
-| 11:10 | — | **boş** | _boş — üretilecek_ | — |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm` | 7 |
-| 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi` | 7 |
-| 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi/hikaye.jpg` | 1 |
-| 19:50 | **Reels** | — | _boş — üretilecek_ | — |
-
 ## 2026-11-16 · Pazartesi
 
 | Saat | Tür | Slot | Klasör | Kare |
@@ -1478,8 +1467,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 Bu slotlar için içerik henüz üretilmedi:
 
-- 2026-11-15 · S1
-- 2026-11-15 · REELS
 - 2026-11-16 · S1
 - 2026-11-16 · REELS
 - 2026-11-17 · S1

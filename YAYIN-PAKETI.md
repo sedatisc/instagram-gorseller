@@ -8,54 +8,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme.
 
 ---
 
-# 2026-11-15 · Pazar
-
-## 13:20 · BASKI ÜRÜNLERİ
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm/1.jpg" width="240"></a>
-
-**[urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm)** · 7 kare · hikaye 14:00
-
-```
-Japandi Dalgalı Yılbaşı Ağacı - Minimal Masa Dekoru, 15 cm
-
-Burgu dalga katmanlı, sivri uçlu Japandi tarzı minimal yılbaşı ağacı.
-
-Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
-
-Faturalı satış, Samsun'dan kargo. 389,90 ₺.
-
-Ürün sayfası: sermenkreatif.com/urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm
-
-Yılbaşı hazırlığına başlayan arkadaşına yolla.
-
-#sermenkreatif #3dbaski #yilbasiagaci #yilbasi
-```
-
-## 17:10 · BASKI ÜRÜNLERİ
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi/1.jpg" width="240"></a>
-
-**[urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi)** · 7 kare · hikaye 17:50
-
-```
-Japandi Dekor Seti - Vazo, Mumluk ve Tepsi
-
-Şişe vazo, tealight mumluk ve oval tepsiden oluşan minimal 3 parçalı set.
-
-Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
-
-Faturalı satış, Samsun'dan kargo. 399,90 ₺.
-
-Ürün sayfası: sermenkreatif.com/urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi
-
-Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
-
-#sermenkreatif #3dbaski #dekoratifobje #evdekorasyonu
-```
-
----
-
 # 2026-11-16 · Pazartesi
 
 ## 12:38 · BASKI ÜRÜNLERİ
