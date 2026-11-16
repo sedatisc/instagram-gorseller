@@ -4,17 +4,6 @@ Günde **3 gönderi · 3 hikaye · 1 reels**. Hikaye, gönderiden 40 dakika sonr
 
 Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.json` içinde.
 
-## 2026-11-16 · Pazartesi
-
-| Saat | Tür | Slot | Klasör | Kare |
-|---|---|---|---|---|
-| 09:10 | — | **boş** | _boş — üretilecek_ | — |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/dis-macunu-standi-bas-asagi-tutucu` | 6 |
-| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/dis-macunu-standi-bas-asagi-tutucu/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/eriyen-mum-gorunumlu-led-mumluk` | 6 |
-| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/eriyen-mum-gorunumlu-led-mumluk/hikaye.jpg` | 1 |
-| 19:40 | **Reels** | — | _boş — üretilecek_ | — |
-
 ## 2026-11-17 · Salı
 
 | Saat | Tür | Slot | Klasör | Kare |
@@ -1467,8 +1456,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 Bu slotlar için içerik henüz üretilmedi:
 
-- 2026-11-16 · S1
-- 2026-11-16 · REELS
 - 2026-11-17 · S1
 - 2026-11-17 · REELS
 - 2026-11-18 · S1

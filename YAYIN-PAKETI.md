@@ -8,54 +8,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme.
 
 ---
 
-# 2026-11-16 · Pazartesi
-
-## 12:38 · BASKI ÜRÜNLERİ
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dis-macunu-standi-bas-asagi-tutucu"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/dis-macunu-standi-bas-asagi-tutucu/1.jpg" width="240"></a>
-
-**[urun/dis-macunu-standi-bas-asagi-tutucu](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/dis-macunu-standi-bas-asagi-tutucu)** · 6 kare · hikaye 13:18
-
-```
-Diş Macunu Standı - Baş Aşağı Tutucu
-
-Diş macunu tüpünü kapağı aşağıda dik tutan pratik stand.
-
-Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
-
-Faturalı satış, Samsun'dan kargo. 219,90 ₺.
-
-Ürün sayfası: sermenkreatif.com/urun/dis-macunu-standi-bas-asagi-tutucu
-
-Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
-
-#sermenkreatif #3dbaski #disfircaligi #banyoduzeni
-```
-
-## 17:24 · BASKI ÜRÜNLERİ
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/eriyen-mum-gorunumlu-led-mumluk"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/eriyen-mum-gorunumlu-led-mumluk/1.jpg" width="240"></a>
-
-**[urun/eriyen-mum-gorunumlu-led-mumluk](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/eriyen-mum-gorunumlu-led-mumluk)** · 6 kare · hikaye 18:04
-
-```
-Eriyen Mum Görünümlü LED Mumluk
-
-Erimiş mum damlası görünümlü, LED tealight için sütun mumluk.
-
-Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
-
-Faturalı satış, Samsun'dan kargo. 209,90 ₺.
-
-Ürün sayfası: sermenkreatif.com/urun/eriyen-mum-gorunumlu-led-mumluk
-
-Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
-
-#sermenkreatif #3dbaski #mumluk #evdekorasyonu
-```
-
----
-
 # 2026-11-17 · Salı
 
 ## 12:38 · BASKI ÜRÜNLERİ

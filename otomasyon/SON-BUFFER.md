@@ -1,10 +1,10 @@
 # Son Buffer gönderimi
 
-2026-11-15 · 0 hata
+2026-11-16 · 0 hata
 
 | Saat | İş | Durum |
 |---|---|---|
-| 2026-11-15T13:20 | urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm|gonderi | planlandı |
-| 2026-11-15T14:00 | urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm|hikaye | planlandı |
-| 2026-11-15T17:10 | urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi|gonderi | planlandı |
-| 2026-11-15T17:50 | urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi|hikaye | planlandı |
+| 2026-11-16T12:38 | urun/dis-macunu-standi-bas-asagi-tutucu|gonderi | planlandı |
+| 2026-11-16T13:18 | urun/dis-macunu-standi-bas-asagi-tutucu|hikaye | planlandı |
+| 2026-11-16T17:24 | urun/eriyen-mum-gorunumlu-led-mumluk|gonderi | planlandı |
+| 2026-11-16T18:04 | urun/eriyen-mum-gorunumlu-led-mumluk|hikaye | planlandı |
