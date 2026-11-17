@@ -1,0 +1,125 @@
+{
+ "kategori": "3dbaski",
+ "zemin": "okyanus",
+ "kapak": {
+  "tip": "izgara",
+  "ustbilgi": "YÜZEY İŞLEMİ",
+  "satir1": "KATMAN İZİ NASIL",
+  "satir2": "TAMAMEN KAYBOLUR?",
+  "spot": "Zımpara tek başına katman izini kapatmıyor; izi kapatan şey astarın dolgusu. Sıra şaşarsa boyanın altından her çizgi geri çıkıyor.",
+  "rozetler": [
+   [
+    "Önce astar, sonra ince zımpara",
+    "tema"
+   ],
+   [
+    "Kat kalın olmayacak",
+    "turuncu"
+   ],
+   [
+    "Kuru zımparada ısı",
+    "kirmizi"
+   ]
+  ],
+  "kartlar": [
+   {
+    "etiket": "BAŞLANGIÇ ZIMPARASI",
+    "deger": "120-180",
+    "alt": "Katman tepelerini alır. Tek yönde değil, çapraz.",
+    "renk": "turuncu",
+    "ikon": "katman"
+   },
+   {
+    "etiket": "ARA KADEME",
+    "deger": "240-400",
+    "alt": "Kaba zımparanın bıraktığı çizikleri siler.",
+    "renk": "mavi",
+    "ikon": "olcu"
+   },
+   {
+    "etiket": "ISLAK ZIMPARA",
+    "deger": "600-1000",
+    "alt": "Suyla çalışır: toz uçmaz, yüzey sıvanmaz.",
+    "renk": "yesil",
+    "ikon": "damla"
+   },
+   {
+    "etiket": "DOLGU ASTARI",
+    "deger": "2-3 KAT",
+    "alt": "20-25 cm'den ince kat. Kalın kat detayı yutuyor.",
+    "renk": "mor",
+    "ikon": "duvar"
+   },
+   {
+    "etiket": "KAT ARASI BEKLEME",
+    "deger": "10-15 dk",
+    "alt": "Dokunma kuruluğu bu kadar; tam kür 24 saat.",
+    "renk": "sari",
+    "ikon": "zaman"
+   },
+   {
+    "etiket": "PLA'DA SÜRTÜNME ISISI",
+    "deger": "60 °C",
+    "alt": "Kuru ve hızlı zımparada yüzey yumuşayıp sıvanıyor.",
+    "renk": "kirmizi",
+    "ikon": "isi",
+    "durum": "yanlis"
+   }
+  ]
+ },
+ "slaytlar": [
+  {
+   "baslik": "Kademeyi atlamadan çık",
+   "aciklama": "120-180 ile başla, katman tepeleri gidene kadar çapraz yönlerde çalış; tek yönde gidilen zımpara kendi çiziğini ize çeviriyor. Sonra 240 ve 400 geliyor: her kademe öncekinin çiziğini siliyor, atlanan kademe boyanın altından geri çıkıyor. 600'den sonrası suyla; ıslak zımpara tozu bağlıyor ve yüzeyi ısıtmıyor.",
+   "vurgu": [
+    100,
+    55,
+    1810,
+    330
+   ]
+  },
+  {
+   "baslik": "İzi kapatan şey astar",
+   "aciklama": "Katman izi bir çizik değil, sıra sıra vadi. Zımpara tepeleri alıyor ama vadiyi dolduramıyor; dolduran şey dolgu astarı. 20-25 cm mesafeden 2-3 ince kat atılıyor, aralarda 10-15 dakika bekleniyor. Astar kuruduktan sonra 600-1000 ile ıslak zımpara yapılınca yüzey tek parça görünüyor.",
+   "vurgu": [
+    100,
+    330,
+    1810,
+    605
+   ]
+  },
+  {
+   "baslik": "Boya ince katlarla",
+   "aciklama": "Tek kalın kat yerine 2-3 ince kat: kalın kat akıyor, köşelerde göllenip detayı yutuyor. Aralarda 10-15 dakika yeterli, ama parçayı kullanıma almak için 24 saat tam kür bekleniyor. Mat ya da parlak vernik 1-2 kat; vernik rengi değiştirmiyor, boyayı aşınmaya karşı koruyor.",
+   "vurgu": [
+    100,
+    605,
+    1810,
+    880
+   ]
+  }
+ ],
+ "kapanis": {
+  "satir1": "NEREDE",
+  "satir2": "DURMALISIN?",
+  "kriterler": [
+   [
+    "GÖRÜNMEYEN PARÇA",
+    "120-240, orada bırak"
+   ],
+   [
+    "BOYANACAK PARÇA",
+    "astar + 600 ıslak"
+   ],
+   [
+    "VİTRİN PARÇASI",
+    "astar + 1000 + vernik"
+   ],
+   [
+    "ÖLÇÜ TUTACAK YÜZEY",
+    "zımpara ölçüyü götürür, pay bırak"
+   ]
+  ],
+  "not": "Her kademe öncekinin çiziğini siliyor; atlanan kademe boyanın altından geri çıkıyor."
+ }
+}

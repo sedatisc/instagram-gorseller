@@ -1,0 +1,121 @@
+{
+ "kategori": "3dbaski",
+ "zemin": "acik",
+ "kapak": {
+  "tip": "rakam",
+  "ustbilgi": "GEÇME VE TOLERANS",
+  "satir1": "KAÇ MİLİMETRE",
+  "satir2": "BOŞLUK BIRAKILIR?",
+  "rakam": "0,2 mm",
+  "rakam_alt": "Elle takılıp sökülen geçmede boşluk",
+  "spot": "Modelde tam ölçü verilen geçme parça basıldığında girmiyor. Yazıcı her kenarı birkaç onda milimetre şişiriyor; boşluk modelde açılacak, zımparada değil.",
+  "rozetler": [
+   [
+    "Sıkı geçme 0,1 mm",
+    "tema"
+   ],
+   [
+    "Hareketli 0,3-0,4 mm",
+    "turuncu"
+   ],
+   [
+    "Delik küçük basılıyor",
+    "kirmizi"
+   ]
+  ],
+  "tablo": [
+   [
+    "SIKI GEÇME (PİM)",
+    "0,1 mm"
+   ],
+   [
+    "ELLE TAKILIP SÖKÜLEN",
+    "0,2 mm"
+   ],
+   [
+    "HAREKETLİ / DÖNEN",
+    "0,3-0,4 mm"
+   ],
+   [
+    "DELİK DÜZELTMESİ",
+    "+0,2 mm"
+   ],
+   [
+    "MİL DÜZELTMESİ",
+    "-0,1 mm"
+   ],
+   [
+    "İLK KATMAN",
+    "0,5 mm pah"
+   ]
+  ]
+ },
+ "slaytlar": [
+  {
+   "baslik": "Boşluğu işe göre seç",
+   "aciklama": "Tek bir doğru değer yok; parçanın ne yapacağı değeri belirliyor. Çakılıp bir daha çıkmayacak pim 0,1 mm ile sıkı oturuyor. Elle takılıp sökülecek kapak ve kılavuz 0,2 mm istiyor. Dönen ya da kayan parçada 0,3-0,4 mm gerekiyor.",
+   "tablo": [
+    [
+     "SIKI GEÇME (PİM)",
+     "0,1 mm"
+    ],
+    [
+     "ELLE TAKILIP SÖKÜLEN",
+     "0,2 mm"
+    ],
+    [
+     "HAREKETLİ / DÖNEN",
+     "0,3-0,4 mm"
+    ],
+    [
+     "VİDA GEÇEN DELİK",
+     "çap + 0,2 mm"
+    ]
+   ]
+  },
+  {
+   "baslik": "Delik daima küçük basılıyor",
+   "aciklama": "Nozul daireyi içeriden dönerken köşeleri kesiyor: delik modeldeki çapından küçük, dış silindir büyük çıkıyor. Bu yüzden delik 0,1-0,2 mm büyük, mil 0,1 mm küçük çizilir. Deliğin ilk katmanı ayrıca elephant foot ile daralıyor.",
+   "tablo": [
+    [
+     "DELİK",
+     "modelden küçük çıkar"
+    ],
+    [
+     "DIŞ SİLİNDİR",
+     "modelden büyük çıkar"
+    ],
+    [
+     "DÜZELTME",
+     "delik +0,2 · mil -0,1"
+    ],
+    [
+     "İLK KATMAN",
+     "0,5 mm pah kır"
+    ]
+   ]
+  },
+  {
+   "baslik": "Malzeme değişince tolerans da değişir",
+   "aciklama": "Aynı dosya PLA'da oturuyor, PETG'de giremiyor: PETG daha çok şişiyor, ABS ve ASA soğurken büzüşüyor. Yeni makinede tek doğru yol kademeli test: 0,10 · 0,15 · 0,20 · 0,25 · 0,30 mm boşluklu beş gözlü bir parça bas, hangisi elle oturuyorsa onu modele yaz.",
+   "tablo": [
+    [
+     "PLA",
+     "en kararlı, referans al"
+    ],
+    [
+     "PETG",
+     "daha çok şişer, +0,05 mm"
+    ],
+    [
+     "ABS / ASA",
+     "soğurken büzüşür"
+    ],
+    [
+     "TEST PARÇASI",
+     "0,10 » 0,30 mm, 5 göz"
+    ]
+   ]
+  }
+ ]
+}
