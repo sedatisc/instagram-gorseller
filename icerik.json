@@ -4212,6 +4212,15 @@
    "konu": "cubuklu-bitki-sulama-kuresi-yavas-sulama-aparati",
    "durum": "hazir",
    "kare": 8
+  },
+  {
+   "klasor": "uygulama/fitil",
+   "kategori": "uygulama",
+   "konu": "fitil",
+   "durum": "hazir",
+   "kare": 1,
+   "reels": false,
+   "not": "FITIL lansmani - gorseller depoda"
   }
  ],
  "kampanya": [
@@ -4222,6 +4231,13 @@
    "saat": "21:10",
    "tur": "gonderi",
    "not": "H3C combo lansmani - tasarimli kapak"
+  },
+  {
+   "klasor": "uygulama/fitil",
+   "tarih": "2026-11-17",
+   "saat": "17:40",
+   "kategori": "uygulama",
+   "not": "FITIL Google Play lansmani"
   }
  ]
 }
