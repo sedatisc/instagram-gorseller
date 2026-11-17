@@ -8,54 +8,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme.
 
 ---
 
-# 2026-11-17 · Salı
-
-## 12:38 · BASKI ÜRÜNLERİ
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec/1.jpg" width="240"></a>
-
-**[urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec)** · 6 kare · hikaye 13:18
-
-```
-Girdaplı Meyve Sebze Yıkama Kabı ve Süzgeç
-
-Musluk suyuyla girdap oluşturarak meyve ve sebzeleri yıkayan, ardından süzgeç olarak kullanılan kap.
-
-Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
-
-Faturalı satış, Samsun'dan kargo. 429,90 ₺.
-
-Ürün sayfası: sermenkreatif.com/urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec
-
-Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
-
-#sermenkreatif #3dbaski #mutfakgereci #mutfakduzeni
-```
-
-## 17:24 · BASKI ÜRÜNLERİ
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-sungerlik-ve-sabunluk-suzgecli"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/japandi-sungerlik-ve-sabunluk-suzgecli/1.jpg" width="240"></a>
-
-**[urun/japandi-sungerlik-ve-sabunluk-suzgecli](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/japandi-sungerlik-ve-sabunluk-suzgecli)** · 6 kare · hikaye 18:04
-
-```
-Japandi Süngerlik ve Sabunluk - Süzgeçli
-
-Eğimli nervürlü tabanıyla suyu süzen lavabo başı sünger tepsisi.
-
-Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
-
-Faturalı satış, Samsun'dan kargo. 349,90 ₺.
-
-Ürün sayfası: sermenkreatif.com/urun/japandi-sungerlik-ve-sabunluk-suzgecli
-
-Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
-
-#sermenkreatif #3dbaski #mutfakduzenleyici #mutfakduzeni
-```
-
----
-
 # 2026-11-18 · Çarşamba
 
 ## 12:10 · BASKI ÜRÜNLERİ
