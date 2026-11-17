@@ -57,6 +57,10 @@
   ],
   "2026-11-18": [
    {
+    "slot": "s1",
+    "klasor": "2026-11-18-yuzey-islemi"
+   },
+   {
     "slot": "s2",
     "klasor": "urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi"
    },
@@ -66,6 +70,10 @@
    }
   ],
   "2026-11-19": [
+   {
+    "slot": "s1",
+    "klasor": "2026-11-19-gecme-toleransi"
+   },
    {
     "slot": "s2",
     "klasor": "urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi"
