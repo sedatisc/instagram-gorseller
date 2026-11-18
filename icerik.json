@@ -845,8 +845,9 @@
    "klasor": "2026-11-18-yuzey-islemi",
    "kategori": "rehber",
    "konu": "yuzey-islemi",
-   "durum": "hazir",
-   "kare": 5
+   "durum": "yayinlandi",
+   "kare": 5,
+   "tarih": "2026-11-18"
   },
   {
    "klasor": "2026-11-19-gecme-toleransi",
@@ -1211,15 +1212,17 @@
    "klasor": "urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi",
    "kategori": "baski",
    "konu": "kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-18"
   },
   {
    "klasor": "urun/kasik-ve-tencere-kapagi-tutucu",
    "kategori": "baski",
    "konu": "kasik-ve-tencere-kapagi-tutucu",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "yayinlandi",
+   "kare": 4,
+   "tarih": "2026-11-18"
   },
   {
    "klasor": "urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi",

@@ -404,6 +404,36 @@
    "anahtar": "uygulama/fitil|kampanya-0-gonderi-hikaye",
    "buffer": "6afc4e34b7c36a6dabfd7019",
    "zaman": "2026-11-17T18:20"
+  },
+  {
+   "anahtar": "2026-11-18-yuzey-islemi|gonderi",
+   "buffer": "6afd148caa3b065dd96b17df",
+   "zaman": "2026-11-18T09:10"
+  },
+  {
+   "anahtar": "2026-11-18-yuzey-islemi|hikaye",
+   "buffer": "6afd148caa3b065dd96b1811",
+   "zaman": "2026-11-18T09:50"
+  },
+  {
+   "anahtar": "urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi|gonderi",
+   "buffer": "6afd148e39777dd13e0f657a",
+   "zaman": "2026-11-18T12:10"
+  },
+  {
+   "anahtar": "urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi|hikaye",
+   "buffer": "6afd148efc933ac285bcf44d",
+   "zaman": "2026-11-18T12:50"
+  },
+  {
+   "anahtar": "urun/kasik-ve-tencere-kapagi-tutucu|gonderi",
+   "buffer": "6afd148f39777dd13e0f65b7",
+   "zaman": "2026-11-18T17:24"
+  },
+  {
+   "anahtar": "urun/kasik-ve-tencere-kapagi-tutucu|hikaye",
+   "buffer": "6afd14909f3765f6ab28ccca",
+   "zaman": "2026-11-18T18:04"
   }
  ]
 }
