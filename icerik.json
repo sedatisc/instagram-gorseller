@@ -853,9 +853,10 @@
    "klasor": "2026-11-19-gecme-toleransi",
    "kategori": "rehber",
    "konu": "gecme-toleransi",
-   "durum": "hazir",
+   "durum": "beklemede",
    "kare": 4,
-   "reels": true
+   "reels": true,
+   "neden": "Elde kurulan pano tasarimi kullanilmiyor"
   },
   {
    "klasor": "2026-10-23-sekil-cark-tahtasi",
