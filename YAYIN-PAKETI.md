@@ -10,28 +10,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme.
 
 # 2026-11-19 · Perşembe
 
-## 09:05 · AYAR & REHBER
-
-<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/2026-11-19-gecme-toleransi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/2026-11-19-gecme-toleransi/1.jpg" width="240"></a>
-
-**[2026-11-19-gecme-toleransi](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-11-19-gecme-toleransi)** · 4 kare · hikaye 09:45
-
-```
-3D baskıda geçme parça toleransı: modelde tam ölçü verdiğin parça basıldığında girmiyor, çünkü yazıcı her kenarı birkaç onda milimetre şişiriyor. Boşluk modelde açılacak, zımparada değil.
-
-Tek bir doğru değer yok; parçanın ne yapacağı değeri belirliyor. Çakılıp bir daha çıkmayacak pim 0,1 mm ile sıkı oturuyor. Elle takılıp sökülecek kapak, kılavuz ve kutu 0,2 mm istiyor. Dönen ya da kayan parçada 0,3-0,4 mm gerekiyor: altına inince sürtünme başlıyor, üstüne çıkınca boşluk sallanıyor.
-
-İkinci mesele delikler. Nozul daireyi içeriden dönerken köşeleri kesiyor; delik modeldeki çapından küçük, dış silindir ise büyük çıkıyor. Bu yüzden delik 0,1-0,2 mm büyük, mil 0,1 mm küçük çizilir. Deliğin ilk katmanı ayrıca elephant foot ile daralıyor — alt kenara 0,5 mm pah kırmak bunu bitiriyor.
-
-Malzeme değişince tolerans da değişiyor. Aynı dosya PLA'da oturuyor, PETG'de giremiyor: PETG daha çok şişiyor ve kenarları yuvarlatıyor, ABS ve ASA soğurken büzüşüyor.
-
-Yeni makinede ya da yeni filamentte tahmin yürütmenin anlamı yok. Kademeli test bas: 0,10 · 0,15 · 0,20 · 0,25 · 0,30 mm boşluklu beş gözlü küçük bir parça, on dakikada çıkıyor. Hangisi elle oturuyorsa senin makinenin değeri o; nozul ya da malzeme değişince testi yenile.
-
-Bastığı kutunun kapağı bir türlü oturmayan bir arkadaşın varsa bu gönderiyi ona yolla.
-
-#sermenkreatif #3dbaski #3dprinting #tolerans #3dbaskiturkiye
-```
-
 ## 12:38 · BASKI ÜRÜNLERİ
 
 <a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi/1.jpg" width="240"></a>
@@ -75,10 +53,6 @@ Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
 
 #sermenkreatif #3dbaski #sabunluk #banyoduzeni
 ```
-
-## 19:40 · REELS — [2026-11-19-gecme-toleransi/reels.mp4](https://github.com/sedatisc/instagram-gorseller/tree/main/2026-11-19-gecme-toleransi)
-
-Açıklama gönderi metniyle aynı.
 
 ---
 

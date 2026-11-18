@@ -8,13 +8,12 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:05 | Gönderi | AYAR & REHBER | `2026-11-19-gecme-toleransi` | 4 |
-| 09:45 | Hikaye | AYAR & REHBER | `2026-11-19-gecme-toleransi/hikaye.jpg` | 1 |
+| 09:05 | — | **boş** | _boş — üretilecek_ | — |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi` | 6 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi/hikaye.jpg` | 1 |
 | 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/kendinden-suzgecli-sabunluk-akitmali` | 6 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/kendinden-suzgecli-sabunluk-akitmali/hikaye.jpg` | 1 |
-| 19:40 | **Reels** | — | `2026-11-19-gecme-toleransi/reels.mp4` | video |
+| 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## 2026-11-20 · Cuma
 
@@ -1435,6 +1434,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 Bu slotlar için içerik henüz üretilmedi:
 
+- 2026-11-19 · S1
+- 2026-11-19 · REELS
 - 2026-11-20 · REELS
 - 2026-11-21 · REELS
 - 2026-11-22 · REELS
