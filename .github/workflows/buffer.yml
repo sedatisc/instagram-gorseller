@@ -30,8 +30,10 @@ on:
     paths:
       - "otomasyon/TETIK"
 
-  schedule:
-    - cron: "30 21 * * *"
+  # DURDURULDU 2026-11-18: gece otomatik gonderim kapali.
+  # Yeniden acmak icin asagidaki iki satirin basindaki # kaldirilacak.
+  # schedule:
+  #   - cron: "30 21 * * *"
 
 permissions:
   contents: write
