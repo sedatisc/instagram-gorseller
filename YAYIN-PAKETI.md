@@ -8292,3 +8292,25 @@ Evi bitki dolu olan arkadaşına yolla.
 #sermenkreatif #3dbaski #saksi #bitkisever
 ```
 
+## 17:24 · BASKI ÜRÜNLERİ
+
+<a href="https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gizli-montajli-minimal-duvar-rafi-90-cm-yuvarlak-uclu-uzun-raf"><img src="https://raw.githubusercontent.com/sedatisc/instagram-gorseller/main/urun/gizli-montajli-minimal-duvar-rafi-90-cm-yuvarlak-uclu-uzun-raf/1.jpg" width="240"></a>
+
+**[urun/gizli-montajli-minimal-duvar-rafi-90-cm-yuvarlak-uclu-uzun-raf](https://github.com/sedatisc/instagram-gorseller/tree/main/urun/gizli-montajli-minimal-duvar-rafi-90-cm-yuvarlak-uclu-uzun-raf)** · 8 kare · hikaye 18:04
+
+```
+Gizli Montajlı Minimal Duvar Rafı 90 cm - Yuvarlak Uçlu Uzun Raf
+
+Uçları yumuşakça kıvrılan, vidası görünmeyen 90 cm uzunluğunda sade yüzer duvar rafı.
+
+Atölyemizde PLA filament ile basılıyor. Katman dokusu 3D baskının kendi dokusu; renk seçenekleri için yazabilirsin.
+
+Faturalı satış, Samsun'dan kargo. 1.449,90 ₺.
+
+Ürün sayfası: sermenkreatif.com/urun/gizli-montajli-minimal-duvar-rafi-90-cm-yuvarlak-uclu-uzun-raf
+
+Evini toplamayı seven bir arkadaşına bu gönderiyi yolla.
+
+#sermenkreatif #3dbaski #duvarrafi #evdekorasyonu
+```
+

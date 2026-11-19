@@ -1427,7 +1427,8 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/spiral-yilbasi-topu-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
 | 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/cubuklu-bitki-sulama-kuresi-yavas-sulama-aparati` | 8 |
 | 12:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/cubuklu-bitki-sulama-kuresi-yavas-sulama-aparati/hikaye.jpg` | 1 |
-| 17:24 | — | **boş** | _boş — üretilecek_ | — |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/gizli-montajli-minimal-duvar-rafi-90-cm-yuvarlak-uclu-uzun-raf` | 8 |
+| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/gizli-montajli-minimal-duvar-rafi-90-cm-yuvarlak-uclu-uzun-raf/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
 ## Boş slotlar
@@ -1553,6 +1554,5 @@ Bu slotlar için içerik henüz üretilmedi:
 - 2027-03-14 · REELS
 - 2027-03-15 · REELS
 - 2027-03-16 · REELS
-- 2027-03-17 · S3
 - 2027-03-17 · REELS
 
