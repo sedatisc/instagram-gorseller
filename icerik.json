@@ -4248,6 +4248,15 @@
    "konu": "gizli-montajli-minimal-duvar-rafi-90-cm-yuvarlak-uclu-uzun-raf",
    "durum": "hazir",
    "kare": 8
+  },
+  {
+   "klasor": "uygulama/baskihesap-v2",
+   "kategori": "uygulama",
+   "konu": "baskihesap",
+   "durum": "hazir",
+   "kare": 3,
+   "reels": false,
+   "not": "BaskiHesap V2 guncelleme duyurusu"
   }
  ],
  "kampanya": [
@@ -4265,6 +4274,13 @@
    "saat": "17:40",
    "kategori": "uygulama",
    "not": "FITIL Google Play lansmani"
+  },
+  {
+   "klasor": "uygulama/baskihesap-v2",
+   "tarih": "2026-11-20",
+   "saat": "12:10",
+   "kategori": "uygulama",
+   "not": "BaskiHesap V2 duyurusu"
   }
  ]
 }
