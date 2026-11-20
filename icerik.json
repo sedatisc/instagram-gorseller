@@ -4253,10 +4253,11 @@
    "klasor": "uygulama/baskihesap-v2",
    "kategori": "uygulama",
    "konu": "baskihesap",
-   "durum": "hazir",
+   "durum": "yayinlandi",
    "kare": 3,
    "reels": false,
-   "not": "BaskiHesap V2 guncelleme duyurusu"
+   "not": "BaskiHesap V2 guncelleme duyurusu",
+   "tarih": "2026-11-20"
   }
  ],
  "kampanya": [

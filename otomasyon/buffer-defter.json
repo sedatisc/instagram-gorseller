@@ -434,6 +434,16 @@
    "anahtar": "urun/kasik-ve-tencere-kapagi-tutucu|hikaye",
    "buffer": "6afd14909f3765f6ab28ccca",
    "zaman": "2026-11-18T18:04"
+  },
+  {
+   "anahtar": "uygulama/baskihesap-v2|kampanya-0-gonderi",
+   "buffer": "6affd4484c1afd05def312e8",
+   "zaman": "2026-11-20T12:10"
+  },
+  {
+   "anahtar": "uygulama/baskihesap-v2|kampanya-0-gonderi-hikaye",
+   "buffer": "6affd449738ce4635f8a4881",
+   "zaman": "2026-11-20T12:50"
   }
  ]
 }

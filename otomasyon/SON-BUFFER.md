@@ -1,12 +1,8 @@
 # Son Buffer gönderimi
 
-2026-11-18 · 0 hata
+2026-11-20 · 0 hata
 
 | Saat | İş | Durum |
 |---|---|---|
-| 2026-11-18T09:10 | 2026-11-18-yuzey-islemi|gonderi | planlandı |
-| 2026-11-18T09:50 | 2026-11-18-yuzey-islemi|hikaye | planlandı |
-| 2026-11-18T12:10 | urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi|gonderi | planlandı |
-| 2026-11-18T12:50 | urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi|hikaye | planlandı |
-| 2026-11-18T17:24 | urun/kasik-ve-tencere-kapagi-tutucu|gonderi | planlandı |
-| 2026-11-18T18:04 | urun/kasik-ve-tencere-kapagi-tutucu|hikaye | planlandı |
+| 2026-11-20T12:10 | uygulama/baskihesap-v2|kampanya-0-gonderi | planlandı |
+| 2026-11-20T12:50 | uygulama/baskihesap-v2|kampanya-0-gonderi-hikaye | planlandı |
