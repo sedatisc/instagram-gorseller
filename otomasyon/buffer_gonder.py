@@ -442,8 +442,21 @@ def main():
     yapilan = {g["anahtar"] for g in defter["gonderilen"]}
     simdi = yayinla.simdi().replace(tzinfo=None)
     isler = []
+    # Onay kilidi: gece gönderimi yalnız hafta-kilit.json'daki onaylı
+    # günlerde iş gönderiyor. Kilit bitince plan kendiliğinden ilerleyip
+    # onaysız iş göndermiyor; hafta yeniden onaylanıp kilitlenene kadar
+    # gönderim duruyor. Tarihi elle yazılan kampanya işleri bu kuralın
+    # dışında, onlar tek tek onaylanmış oluyor.
+    onayli = set(sira.kilit() or {})
+    if not onayli:
+        print("Onaylı gün yok (hafta-kilit.json boş) — yalnız kampanya "
+              "işleri gönderilebilir.")
+
     for i in yayinla.gundem():
         if not i["zaman"].startswith(gun_s) or i["anahtar"] in yapilan:
+            continue
+        if i.get("slot") != "kampanya" and gun_s not in onayli:
+            print("Onaysız gün, atlandı: %s (%s)" % (i["anahtar"], gun_s))
             continue
         # Saati geçmiş iş Buffer'a planlanamıyor; sessizce atlanıyor ki
         # gün ortasında çalıştırılan gönderim hataya düşmesin.
