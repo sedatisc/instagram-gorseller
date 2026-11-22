@@ -1,96 +1,102 @@
 {
- "not": "Onaylanmış günler. Buradaki gün plandan çıkmaz, sırası kaymaz. Stoktan düşen ürün yine atlanır. Hafta onaylanınca arac/hafta_kilitle.py ile yenilenir.",
+ "not": "Onaylanmis gunler. Yalniz sitedeki 3D baski urunleri, gorseller oldugu gibi. Stoktan dusen urun atlanir.",
  "gunler": {
-  "2026-11-13": [
+  "2026-11-23": [
    {
     "slot": "s1",
-    "klasor": "2026-10-21-filament-cesitleri"
+    "klasor": "urun/pamuk-seyahat-kabi-silk-parlak-3d-baski"
    },
    {
     "slot": "s2",
-    "klasor": "urun/5-li-geometrik-duvar-askiligi-fasetli-kancali-portmanto"
+    "klasor": "urun/japandi-desteksiz-agac-masaustu-yilbasi-dekoru"
    },
    {
     "slot": "s3",
-    "klasor": "urun/ahsap-dokulu-yuvarlak-tepsi-seti-3-lu-ic-ice"
+    "klasor": "urun/vidali-sokup-tak-oyuncak-tren-tornavidali-egitici-yapim-seti"
    }
   ],
-  "2026-11-14": [
-   {
-    "slot": "s2",
-    "klasor": "urun/cicek-formlu-cerezlik-sunum-tabagi-6-bolmeli-orta-kaseli"
-   },
-   {
-    "slot": "s3",
-    "klasor": "urun/japandi-ayakli-havlu-pecetelik-kulplu"
-   }
-  ],
-  "2026-11-15": [
-   {
-    "slot": "s2",
-    "klasor": "urun/japandi-dalgali-yilbasi-agaci-minimal-masa-dekoru-15-cm"
-   },
-   {
-    "slot": "s3",
-    "klasor": "urun/japandi-dekor-seti-vazo-mumluk-ve-tepsi"
-   }
-  ],
-  "2026-11-16": [
-   {
-    "slot": "s2",
-    "klasor": "urun/dis-macunu-standi-bas-asagi-tutucu"
-   },
-   {
-    "slot": "s3",
-    "klasor": "urun/eriyen-mum-gorunumlu-led-mumluk"
-   }
-  ],
-  "2026-11-17": [
-   {
-    "slot": "s2",
-    "klasor": "urun/girdapli-meyve-sebze-yikama-kabi-ve-suzgec"
-   },
-   {
-    "slot": "s3",
-    "klasor": "urun/japandi-sungerlik-ve-sabunluk-suzgecli"
-   }
-  ],
-  "2026-11-18": [
+  "2026-11-24": [
    {
     "slot": "s1",
-    "klasor": "2026-11-18-yuzey-islemi"
+    "klasor": "urun/kozalak-cuce-evi-yilbasi-kis-dekoru"
    },
    {
     "slot": "s2",
-    "klasor": "urun/kapakli-saklama-kutusu-seti-2-kutu-ve-tepsi"
+    "klasor": "urun/kitap-mangala-oyunu-kitap-gorunumlu-akil-ve-strateji-oyunu"
    },
    {
     "slot": "s3",
-    "klasor": "urun/kasik-ve-tencere-kapagi-tutucu"
+    "klasor": "urun/desenli-dudak-balmi-tutucu-silk-parlak-3d-baski"
    }
   ],
-  "2026-11-19": [
-   {
-    "slot": "s2",
-    "klasor": "urun/kendinden-kilitli-havlu-askisi-nervurlu-duvar-kancasi"
-   },
-   {
-    "slot": "s3",
-    "klasor": "urun/kendinden-suzgecli-sabunluk-akitmali"
-   }
-  ],
-  "2026-11-20": [
+  "2026-11-25": [
    {
     "slot": "s1",
-    "klasor": "urun/kumanda-standi-egimli-bolmeli"
+    "klasor": "urun/kurdele-vazo-silk-parlak-3d-baski"
    },
    {
     "slot": "s2",
-    "klasor": "urun/moduler-masa-rafi-monitor-yukseltici"
+    "klasor": "urun/retro-drenajli-saksi-ic-mekan-bitki-saksisi"
    },
    {
     "slot": "s3",
-    "klasor": "urun/nervurlu-dis-fircaligi-seti-2-bardak-ve-tepsi"
+    "klasor": "urun/burgu-yilbasi-agaci-3d-baski-yilbasi-dekoru"
+   }
+  ],
+  "2026-11-26": [
+   {
+    "slot": "s1",
+    "klasor": "urun/vidali-yapim-tahtasi-tornavidali-sok-tak-egitici-oyuncak-seti"
+   },
+   {
+    "slot": "s2",
+    "klasor": "urun/cizgi-sanati-susler-yilbasi-agaci-susu"
+   },
+   {
+    "slot": "s3",
+    "klasor": "urun/6-bolmeli-tezgah-duzenleyici-silk-parlak-3d-baski"
+   }
+  ],
+  "2026-11-27": [
+   {
+    "slot": "s1",
+    "klasor": "urun/vahsi-hayvan-kit-kartlari-kopar-tak-3d-hayvan-figur-seti"
+   },
+   {
+    "slot": "s2",
+    "klasor": "urun/voronoi-aynali-makyaj-organizeri-silk-parlak-makyaj-fircaligi"
+   },
+   {
+    "slot": "s3",
+    "klasor": "urun/japandi-agac-seti-masaustu-yilbasi-dekoru"
+   }
+  ],
+  "2026-11-28": [
+   {
+    "slot": "s1",
+    "klasor": "urun/spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu"
+   },
+   {
+    "slot": "s2",
+    "klasor": "urun/japandi-saksi-ic-mekan-bitki-saksisi"
+   },
+   {
+    "slot": "s3",
+    "klasor": "urun/agac-tepesi-yildizlari-yilbasi-agaci-susu"
+   }
+  ],
+  "2026-11-29": [
+   {
+    "slot": "s1",
+    "klasor": "urun/vidali-kulak-cubugu-seyahat-kabi-silk-parlak-3d-baski"
+   },
+   {
+    "slot": "s2",
+    "klasor": "urun/desteksiz-yilbasi-agaci-3d-baski-yilbasi-dekoru"
+   },
+   {
+    "slot": "s3",
+    "klasor": "urun/cocuk-oklavasi-desenli-oyun-hamuru-merdanesi"
    }
   ]
  }
