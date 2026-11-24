@@ -462,6 +462,7 @@ function personel(ode) {
     }).catch(function (h) { uyar(h.message, true); });
     return;
   }
+  var odaDegis = false;
   var veri = null, adet = {}, mesgul = false, istek = null;
   function yukle() {
     return rpc('kisi_durum', { p_o: o }).then(function (r) { veri = r; F = r.fis_kurus; LIMIT = r.limit_kurus; ciz(); })
@@ -483,7 +484,7 @@ function personel(ode) {
           (s.durum === 'hazir' ? '' : '<button class="d" data-kiptal="' + s.id + '">İptal et</button>') + '</div></div>';
       }).join('') : '') +
       '<h2>' + (ode ? 'Çay ocağında ödeme' : 'Sipariş') + '</h2>' + urunSatirlari(veri.urunler, adet) +
-      (ode ? '' : veri.oda ? '<div class="oda-cip">🚪 Siparişiniz <b>Oda ' + e(veri.oda) + '</b>\'ya gelecek</div>'
+      (ode ? '' : veri.oda && !odaDegis ? '<div class="oda-cip sat"><span>🚪 Siparişiniz <b>Oda ' + e(veri.oda) + '</b>\'ya gelecek</span><button class="d" id="odadegis" style="height:38px">Değiştir</button></div>'
         : '<div><label for="yer">Oda numarası</label><input id="yer" type="text" inputmode="numeric" maxlength="4" pattern="[0-9]*" autocomplete="off" placeholder="Örn. 105" value="' + e(yer) + '"></div>') +
       '<div class="kart sut kucuk"><div class="sat"><span class="gri">Toplam</span><b>' + ikili(t) + '</b></div>' +
       '<div class="sat"><span class="gri">Sonrası</span><b>' + ikili(veri.bakiye_kurus - t) + '</b></div></div>' +
@@ -501,6 +502,7 @@ function personel(ode) {
       rpc('kisi_iptal', { p_o: o, p_siparis: +b.dataset.kiptal }).then(function () { uyar('Sipariş iptal edildi'); return yukle(); })
         .catch(function (h) { uyar(h.message, true); yukle(); });
     });
+    if (q('#odadegis')) q('#odadegis').addEventListener('click', function () { odaDegis = true; ciz(); q('#yer').focus(); });
     if (q('#yer')) q('#yer').addEventListener('input', function (ev) { ev.target.value = ev.target.value.replace(/\D/g, '').slice(0, 4); });
     q('#gonder').addEventListener('click', function () {
       var y = ode || !q('#yer') ? '' : q('#yer').value.trim();
@@ -509,7 +511,7 @@ function personel(ode) {
       if (!istek) istek = istekNo();
       mesgul = true; ciz();
       (ode ? rpcTekrarli('kisi_ode', { p_o: o, p_kalemler: kalemler(adet), p_istek: istek }) : rpcTekrarli('siparis_ver', { p_o: o, p_kalemler: kalemler(adet), p_yer: y, p_istek: istek }))
-        .then(function () { adet = {}; istek = null; mesgul = false; uyar(ode ? 'Ödeme başarılı' : 'Sipariş alındı'); return yukle(); })
+        .then(function () { adet = {}; istek = null; mesgul = false; odaDegis = false; uyar(ode ? 'Ödeme başarılı' : 'Sipariş alındı'); return yukle(); })
         .catch(function (h) { mesgul = false; if (!oturumHatasi(h, 'cay_kisi', function () { personel(ode); })) ciz(); });
     });
   }
@@ -980,7 +982,7 @@ function yonetici() {
           '<div style="min-width:170px;flex:0"><label for="km">Birim hesabı (limitsiz)</label><select id="km"><option value="0">Hayır</option><option value="1"' + (d && d.misafir ? ' selected' : '') + '>Evet</option></select></div>' +
           '<button class="d ana" id="kkay">Kaydet</button>' + (d ? '<button class="d" id="kvaz">Vazgeç</button>' : '') + '</div></div>' +
           '<div class="kart sut"><div class="form"><h2 style="flex:1">Kişiler (' + r.length + ')</h2><div style="max-width:320px"><label for="kar">Ara</label><input id="kar" type="search" autocomplete="off" value="' + e(kisiAra) + '"></div></div>' +
-          '<div class="tasma"><table><thead><tr><th>Ad</th><th>Oda</th><th>Kart</th><th class="sag">Bakiye</th><th>Şifre</th><th></th></tr></thead><tbody id="ktb">' +
+          '<div class="tasma"><table><thead><tr><th>Ad</th><th>Kart</th><th class="sag">Bakiye</th><th>Şifre</th><th></th></tr></thead><tbody id="ktb">' +
           '</tbody></table></div></div>' +
           '<div class="kart sut kucuk"><div><b>Çay ocağı karekodu:</b> ' + e(adres) + '#ode <button class="d" id="afis">Karekod afişini yazdır</button></div><div><b>Tablet:</b> ' + e(adres) + '#ocak · <b>Dağıtıcı:</b> ' + e(adres) + '#dagitici · <b>Yönetici:</b> ' + e(adres) + '#yonetici</div></div>');
         function satirlar() {
@@ -988,12 +990,11 @@ function yonetici() {
           var liste = r.filter(function (x) { return !a || x.ad.toLocaleLowerCase('tr-TR').indexOf(a) >= 0 || (x.kart_no || '') === kisiAra.trim(); });
           q('#ktb').innerHTML = (liste.map(function (x) {
             return '<tr class="' + (x.aktif ? '' : 'pasif') + '"><td>' + e(x.ad) + (x.misafir ? ' <span class="gri kucuk">· birim hesabı</span>' : '') + '<div class="gri kucuk">' + e(x.birim || '') + '</div></td>' +
-              '<td><input type="text" inputmode="numeric" maxlength="4" aria-label="' + e(x.ad) + ' oda" style="width:76px;height:40px" data-koda="' + x.id + '" value="' + e(x.oda || '') + '" placeholder="—"></td>' +
               '<td>' + e(x.kart_no || '—') + '</td><td class="sag ' + (x.bakiye_kurus < 0 ? 'kirmizi' : '') + '">' + ikili(x.bakiye_kurus) + '</td>' +
               '<td class="kucuk">' + (x.pin_var ? 'Verildi' : '<span class="kirmizi">Yok</span>') + '</td>' +
               '<td class="sag" style="white-space:nowrap"><button class="d" data-kkod="' + x.id + '">Karekod</button> <button class="d" data-link="' + e(x.link_kod) + '">Bağlantıyı kopyala</button> <button class="d" data-duz="' + x.id + '">Düzenle</button> ' +
               '<button class="d" data-sifir="' + x.id + '">' + (x.pin_var ? 'Yeni şifre ver' : 'Şifre ver') + '</button> <button class="d" data-aktif="' + x.id + '">' + (x.aktif ? 'Pasif yap' : 'Aktif yap') + '</button></td></tr>';
-          }).join('') || '<tr><td class="gri" colspan="6">Kayıt yok</td></tr>');
+          }).join('') || '<tr><td class="gri" colspan="5">Kayıt yok</td></tr>');
           satirBagla();
         }
         function kaydet(x, aktif) {
@@ -1011,11 +1012,6 @@ function yonetici() {
           pencere('<h2>' + e(x.ad) + '</h2><div>' + karekodSvg(adres + '#k=' + x.link_kod) + '</div><div class="kucuk gri" style="text-align:center">Kişi bu karekodu telefonuyla okutur, 4 haneli şifresiyle girer.</div>');
         });
         bagla('[data-duz]', 'click', function (b) { G.kisiler(+b.dataset.duz); window.scrollTo(0, 0); });
-        bagla('[data-koda]', 'input', function (i) { i.value = i.value.replace(/\D/g, '').slice(0, 4); });
-        bagla('[data-koda]', 'change', function (i) {
-          var x = r.filter(function (z) { return z.id === +i.dataset.koda; })[0];
-          cagir('y_kisi_oda', { p_id: x.id, p_oda: i.value }).then(function () { x.oda = i.value || null; uyar(x.ad + ' · Oda ' + (i.value || '—')); }).catch(sus);
-        });
         bagla('[data-aktif]', 'click', function (b) {
           var x = r.filter(function (z) { return z.id === +b.dataset.aktif; })[0];
           kaydet(x, !x.aktif).then(function () { G.kisiler(); }).catch(sus);
