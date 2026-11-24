@@ -98,6 +98,17 @@ def main():
     if os.path.exists(KATALOG):
         with open(KATALOG, encoding="utf-8") as f:
             eski = json.load(f).get("urun", {})
+
+    # Tarama yarıda kalırsa (site yavaşlar, kategori sayfası düşer) elde
+    # eksik liste kalıyor ve dosyaya yazılınca yüzlerce ürün "katalogdan
+    # düştü" sayılıyordu; 23 Kasım'da katalog 382'den 42'ye inip yayın
+    # durdu. Sonuç öncekinin belirgin altındaysa dosyaya dokunulmuyor.
+    ESIK = 0.80
+    if eski and len(yeni) < len(eski) * ESIK:
+        print("Tarama eksik görünüyor: %d ürün bulundu, kayıtlı %d. "
+              "Katalog güncellenmedi." % (len(yeni), len(eski)))
+        return 1
+
     with open(KATALOG, "w", encoding="utf-8") as f:
         json.dump({"not": ("Mağaza baskı ürünleri. sermenkreatif.com ürün "
                            "sayfalarındaki Product verisinden alındı; "
