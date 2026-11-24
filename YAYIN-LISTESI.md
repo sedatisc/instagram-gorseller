@@ -30,9 +30,9 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 |---|---|---|---|---|
 | 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/spiral-anahtarlik-donen-cekirdekli` | 6 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/spiral-anahtarlik-donen-cekirdekli/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/anahtarlikli-duvar-rafi-4-askili-gokkusagi-desenli-dekoratif-anahtar-askisi` | 3 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/anahtarlikli-duvar-rafi-4-askili-gokkusagi-desenli-dekoratif-anahtar-askisi` | 5 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/anahtarlikli-duvar-rafi-4-askili-gokkusagi-desenli-dekoratif-anahtar-askisi/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/atkili-kahverengi-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 3 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/atkili-kahverengi-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 5 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/atkili-kahverengi-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -40,11 +40,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 2 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 4 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/atkili-mavi-penguen-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/bambulu-beyaz-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 3 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/bambulu-beyaz-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 5 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/bambulu-beyaz-ayicik-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/gulen-yesil-kurbaga-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 3 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/gulen-yesil-kurbaga-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 5 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/gulen-yesil-kurbaga-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -52,11 +52,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/gulumseyen-mor-kedi-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 3 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/gulumseyen-mor-kedi-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 5 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/gulumseyen-mor-kedi-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/hikaye.jpg` | 1 |
-| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/gulumseyen-turuncu-tilki-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 3 |
+| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/gulumseyen-turuncu-tilki-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 5 |
 | 12:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/gulumseyen-turuncu-tilki-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/havuclu-pembe-tavsan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 3 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/havuclu-pembe-tavsan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 5 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/havuclu-pembe-tavsan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -64,11 +64,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/ince-anahtar-askisi-kemer-desenli-5-askili-duvara-monte-dekoratif-anahtarlik-ask` | 3 |
+| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/ince-anahtar-askisi-kemer-desenli-5-askili-duvara-monte-dekoratif-anahtarlik-ask` | 5 |
 | 09:45 | Hikaye | BASKI ÜRÜNLERİ | `urun/ince-anahtar-askisi-kemer-desenli-5-askili-duvara-monte-dekoratif-anahtarlik-ask/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kemer-desenli-anahtarlikli-duvar-rafi-3-askili-duvara-monte-dekoratif-anahtar-as` | 4 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kemer-desenli-anahtarlikli-duvar-rafi-3-askili-duvara-monte-dekoratif-anahtar-as` | 6 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/kemer-desenli-anahtarlikli-duvar-rafi-3-askili-duvara-monte-dekoratif-anahtar-as/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/kivircik-kuzu-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 3 |
+| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/kivircik-kuzu-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 5 |
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/kivircik-kuzu-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -76,11 +76,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/mektupluklu-anahtar-askisi-dalga-desenli-4-askili-duvara-monte-posta-rafi-ve-ana` | 3 |
+| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/mektupluklu-anahtar-askisi-dalga-desenli-4-askili-duvara-monte-posta-rafi-ve-ana` | 5 |
 | 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/mektupluklu-anahtar-askisi-dalga-desenli-4-askili-duvara-monte-posta-rafi-ve-ana/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/mini-rafli-askilik-gunes-desenli-4-kancali-duvara-monte-anahtar-ve-canta-askisi` | 3 |
+| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/mini-rafli-askilik-gunes-desenli-4-kancali-duvara-monte-anahtar-ve-canta-askisi` | 5 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/mini-rafli-askilik-gunes-desenli-4-kancali-duvara-monte-anahtar-ve-canta-askisi/hikaye.jpg` | 1 |
-| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/rafli-anahtar-askisi-gunes-ve-tepe-desenli-4-kancali-duvara-monte-dekoratif-anah` | 4 |
+| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/rafli-anahtar-askisi-gunes-ve-tepe-desenli-4-kancali-duvara-monte-dekoratif-anah` | 6 |
 | 17:20 | Hikaye | BASKI ÜRÜNLERİ | `urun/rafli-anahtar-askisi-gunes-ve-tepe-desenli-4-kancali-duvara-monte-dekoratif-anah/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -88,11 +88,11 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/sevimli-gri-fil-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 3 |
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/sevimli-gri-fil-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 5 |
 | 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/sevimli-gri-fil-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/hikaye.jpg` | 1 |
-| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/yeleli-sari-aslan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 3 |
+| 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/yeleli-sari-aslan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 5 |
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/yeleli-sari-aslan-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/hikaye.jpg` | 1 |
-| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/yesil-koala-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 3 |
+| 17:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/yesil-koala-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu` | 5 |
 | 17:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/yesil-koala-anahtarlik-orgu-gorunumlu-3d-baski-canta-susu/hikaye.jpg` | 1 |
 | 19:20 | **Reels** | — | _boş — üretilecek_ | — |
 
@@ -148,7 +148,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapitone-canta-formlu-fircalik-silk-parlak-makyaj-fircaligi` | 6 |
+| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/kapitone-canta-formlu-fircalik-silk-parlak-makyaj-fircaligi` | 8 |
 | 09:45 | Hikaye | BASKI ÜRÜNLERİ | `urun/kapitone-canta-formlu-fircalik-silk-parlak-makyaj-fircaligi/hikaye.jpg` | 1 |
 | 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/kozmetik-kutusu-ve-kalemlik-silk-parlak-makyaj-organizeri` | 8 |
 | 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/kozmetik-kutusu-ve-kalemlik-silk-parlak-makyaj-organizeri/hikaye.jpg` | 1 |
@@ -172,7 +172,7 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 | Saat | Tür | Slot | Klasör | Kare |
 |---|---|---|---|---|
-| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/saten-buzgulu-fircalik-silk-parlak-makyaj-fircaligi` | 6 |
+| 11:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/saten-buzgulu-fircalik-silk-parlak-makyaj-fircaligi` | 8 |
 | 11:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/saten-buzgulu-fircalik-silk-parlak-makyaj-fircaligi/hikaye.jpg` | 1 |
 | 13:20 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-fitilli-tepsi-silk-parlak-makyaj-organizeri` | 8 |
 | 14:00 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-fitilli-tepsi-silk-parlak-makyaj-organizeri/hikaye.jpg` | 1 |
