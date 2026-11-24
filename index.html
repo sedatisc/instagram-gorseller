@@ -23,11 +23,11 @@ h2{font-size:20px}
 .kurum{display:flex;align-items:center;gap:12px}
 .kurum img{width:44px;height:44px;border-radius:50%;background:#fff;object-fit:cover;flex-shrink:0}
 .kurum b{display:block;font-size:14px}
-.kurum span{display:block;font-size:11px;color:#D9D6CF;line-height:1.3}
+.kurum span{display:block;font-size:11px;color:#66706A;line-height:1.3}
 .bas .ad{font-size:22px;font-weight:700}
 .urun{text-align:center;line-height:1.1}
 .urun b{display:block;font-size:26px;letter-spacing:.5px;color:#E8C27A}
-.urun span{display:block;font-size:11px;color:#D9D6CF}
+.urun span{display:block;font-size:11px;color:#66706A}
 .ic{max-width:1200px;margin:0 auto;padding:16px;display:flex;flex-direction:column;gap:14px}
 .dar{max-width:480px}
 .kart{background:#fff;border:1px solid #DEDBD3;border-radius:14px;padding:16px}
@@ -79,23 +79,29 @@ td{padding:10px 8px;border-bottom:1px solid #ECE9E2;vertical-align:middle}
 .perde svg{width:100%;height:auto;max-width:320px;margin:0 auto;display:block}
 @media (max-width:820px){.tablet{flex-direction:column;padding:14px}.tablet .sol{width:100%}}
 
-/* cam görünüm */
-body{background:linear-gradient(135deg,#F3E3C8 0%,#E9C79A 30%,#C9895E 62%,#8F3B2A 100%) fixed;min-height:100vh}
-.bas{background:rgba(28,27,26,.55);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.18);position:sticky;top:0;z-index:5}
-.kart,.sonuc,.sekme,.perde>.kart{background:rgba(255,255,255,.52);-webkit-backdrop-filter:blur(18px) saturate(140%);backdrop-filter:blur(18px) saturate(140%);border:1px solid rgba(255,255,255,.65);box-shadow:0 8px 32px rgba(60,30,10,.18)}
+/* cam görünüm — logo renkleri, yumuşak */
+body{background:#F3F5F2;background-image:radial-gradient(1200px 700px at 0% 0%,rgba(0,150,64,.10),transparent 60%),radial-gradient(1000px 700px at 100% 100%,rgba(228,32,20,.08),transparent 60%);background-attachment:fixed;min-height:100vh;color:#24302A}
+.bas{background:rgba(255,255,255,.62);color:#24302A;-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);border-bottom:1px solid rgba(36,48,42,.08)}
+header.bas{position:sticky;top:0;z-index:5}
+.kurum span,.urun span{color:#66706A}
+.urun b{color:#C83A2E}
+.kart,.sonuc,.sekme,.perde>.kart{background:rgba(255,255,255,.68);-webkit-backdrop-filter:blur(16px) saturate(120%);backdrop-filter:blur(16px) saturate(120%);border:1px solid rgba(255,255,255,.9);box-shadow:0 6px 24px rgba(36,48,42,.07)}
 .kart{border-radius:18px}
-.sekme{border-radius:0;border-left:0;border-right:0;box-shadow:none}
-.secili{border:2px solid rgba(143,42,27,.85)}
-.d,.yuv,.sekme button{background:rgba(255,255,255,.6);border:1px solid rgba(255,255,255,.8);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
-.d.ana{background:rgba(143,42,27,.88);border-color:rgba(255,255,255,.35)}
-.d.koyu,.yuv.koyu,.sekme button.acik{background:rgba(28,27,26,.82);border-color:rgba(255,255,255,.25)}
-input[type=text],input[type=search],input[type=password],input[type=date],input[type=number],select,textarea{background:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.9)}
-th{border-bottom-color:rgba(92,88,80,.25)} td{border-bottom-color:rgba(92,88,80,.15)}
-.sonuc{border:2px dashed rgba(255,255,255,.9)}
-.sonuc.ok{background:rgba(231,242,236,.78);border:2px solid #1B6B45}
-.sonuc.red{background:rgba(247,231,228,.8);border:2px solid #8F2A1B}
-.uyari{background:rgba(28,27,26,.85);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
-.uyari.hata{background:rgba(143,42,27,.9)}
+.sekme{border-radius:0;border-left:0;border-right:0;box-shadow:none;background:rgba(255,255,255,.45)}
+.secili{border:2px solid rgba(0,150,64,.55)}
+.gri{color:#66706A} label{color:#66706A}
+.kirmizi{color:#B8352A} .yesil{color:#00803A}
+.d,.yuv,.sekme button{background:rgba(255,255,255,.75);border:1px solid rgba(36,48,42,.14)}
+.d.ana{background:#C83A2E;border-color:#C83A2E;color:#fff}
+.d.koyu,.yuv.koyu,.sekme button.acik{background:#2F3D36;border-color:#2F3D36;color:#fff}
+input[type=text],input[type=search],input[type=password],input[type=date],input[type=number],select,textarea{background:rgba(255,255,255,.85);border:1px solid rgba(36,48,42,.16)}
+th{border-bottom-color:rgba(36,48,42,.14)} td{border-bottom-color:rgba(36,48,42,.08)}
+.sonuc{border:2px dashed rgba(36,48,42,.18)}
+.sonuc.ok{background:rgba(0,150,64,.10);border:2px solid rgba(0,150,64,.6)}
+.sonuc.red{background:rgba(228,32,20,.08);border:2px solid rgba(200,58,46,.6)}
+.rozet{background:#C83A2E}
+.uyari{background:rgba(47,61,54,.92)}
+.uyari.hata{background:rgba(200,58,46,.95)}
 </style>
 </head>
 <body>
@@ -286,9 +292,9 @@ function personel(ode) {
     var eski = q('#yer'); if (eski) yer = eski.value;
     var kul = veri.bakiye_kurus + veri.limit_kurus;
     app.innerHTML = '<header class="bas">' + kurum() + '</header>' +
-      '<div class="bas" style="padding-top:0;display:block"><div class="kucuk" style="color:#D9D6CF">' + e(veri.ad) + ' · Bakiye</div>' +
-      '<div class="buyuk">' + fis(veri.bakiye_kurus) + ' <span style="font-size:18px;font-weight:400;color:#D9D6CF">' + (veri.bakiye_kurus < 0 ? '−' : '') + tl(Math.abs(veri.bakiye_kurus)) + '</span></div>' +
-      '<div class="kucuk" style="color:#D9D6CF">Kullanılabilir: ' + (kul > 0 ? fis(kul) : '0 fiş') + '</div></div>' +
+      '<div class="bas" style="padding-top:0;display:block"><div class="kucuk" style="color:#66706A">' + e(veri.ad) + ' · Bakiye</div>' +
+      '<div class="buyuk">' + fis(veri.bakiye_kurus) + ' <span style="font-size:18px;font-weight:400;color:#66706A">' + (veri.bakiye_kurus < 0 ? '−' : '') + tl(Math.abs(veri.bakiye_kurus)) + '</span></div>' +
+      '<div class="kucuk" style="color:#66706A">Kullanılabilir: ' + (kul > 0 ? fis(kul) : '0 fiş') + '</div></div>' +
       '<main class="ic dar">' +
       (veri.bekleyen.length ? '<h2>Bekleyen siparişiniz</h2>' + veri.bekleyen.map(function (s) {
         return '<div class="kart sut secili"><div class="sat"><b>' + e(s.ozet) + '</b><span class="gri kucuk">' + e(s.saat) + '</span></div>' +
@@ -412,7 +418,7 @@ function ocakCalis(o) {
       return;
     }
     var t = toplamFis(veri.urunler, adet) * F;
-    app.innerHTML = '<header class="bas">' + kurum() + '<div class="sat"><div class="ad">Çay Ocağı</div><div class="kucuk" style="color:#D9D6CF">1 fiş = ' + tl(F) + '</div></div></header>' +
+    app.innerHTML = '<header class="bas">' + kurum() + '<div class="sat"><div class="ad">Çay Ocağı</div><div class="kucuk gri">1 fiş = ' + tl(F) + '</div></div></header>' +
       (hataSay > 1 ? '<div style="background:#8F2A1B;color:#fff;padding:10px 28px;font-weight:700">Bağlantı yok · Son güncelleme ' + e(sonGuncel) + '</div>' : '') +
       '<div class="tablet"><section class="sol"><div class="sat"><h2>Gelen siparişler</h2><div class="rozet">' + veri.bekleyen.length + '</div></div>' +
       (veri.bekleyen.length ? veri.bekleyen.map(function (s) {
@@ -515,7 +521,7 @@ function dagitici() {
   }
   temizle();
   app.innerHTML = '<header class="bas">' + kurum() + '</header><div class="bas" style="padding-top:0;display:block"><div class="ad" style="margin-bottom:10px">Dağıtım</div>' +
-    '<label for="ara" style="color:#D9D6CF">Kişi ara</label><input id="ara" type="search" autocomplete="off"></div>' +
+    '<label for="ara" style="color:#66706A">Kişi ara</label><input id="ara" type="search" autocomplete="off"></div>' +
     '<main class="ic dar"><div id="siparisler" class="sut"></div><div id="liste" class="sut"></div><div id="alt" class="kart sat"></div></main>';
   q('#ara').addEventListener('input', function (ev) { ara = ev.target.value; if (veri) liste(); });
   document.addEventListener('click', sesAc, { once: true });
