@@ -137,7 +137,15 @@ tbody tr:hover td{background:rgba(210,102,91,.04)}
 #ksl{max-height:56vh;overflow-y:auto;gap:8px}
 .d.secim{height:auto;min-height:56px;padding:10px 16px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;text-align:left;gap:2px}
 /* personel kartları */
-.grup{margin-bottom:30px}
+.gruplar{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}
+.gruplar>.grup:only-child,.gruplar>.grup.tam{grid-column:1/-1}
+@media (max-width:900px){.gruplar{grid-template-columns:1fr}}
+.grup{padding:16px;border-radius:26px;background:rgba(255,255,255,.38);border:1px solid rgba(255,255,255,.85)}
+.grup .pizgara{grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.grup .pk{padding:14px 16px;gap:10px}
+.grup .pk .bk{font-size:23px}
+.grup .pk .ad{font-size:15.5px}
+.grup .bas-harf{width:40px;height:40px;font-size:14px;border-radius:12px}
 .grup-bas{display:flex;align-items:center;gap:12px;margin:0 0 14px;padding:12px 18px;border-radius:18px;background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.9)}
 .grup-bas::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--r)}
 .grup-bas h2{margin:0;font-size:19px}
@@ -413,7 +421,7 @@ function personel(ode) {
       .catch(function (h) { oturumHatasi(h, 'cay_kisi', function () { personel(ode); }); });
   }
   function ciz() {
-    var t = toplamFis(veri.urunler, adet) * F, yer = al('cay_yer') || '';
+    var t = toplamFis(veri.urunler, adet) * F, yer = /^\d{1,4}$/.test(al('cay_yer') || '') ? al('cay_yer') : '';
     var eski = q('#yer'); if (eski) yer = eski.value;
     var kul = veri.bakiye_kurus + veri.limit_kurus;
     app.innerHTML = '<header class="bas">' + kurum() + '</header>' +
@@ -426,7 +434,7 @@ function personel(ode) {
           '<div class="sat"><span class="gri kucuk">' + e(s.yer || '') + ' · Hazırlanıyor</span><button class="d" data-kiptal="' + s.id + '">İptal et</button></div></div>';
       }).join('') : '') +
       '<h2>' + (ode ? 'Çay ocağında ödeme' : 'Sipariş') + '</h2>' + urunSatirlari(veri.urunler, adet) +
-      (ode ? '' : '<div><label for="yer">Nereye getirilsin</label><input id="yer" type="text" maxlength="80" value="' + e(yer) + '"></div>') +
+      (ode ? '' : '<div><label for="yer">Oda numarası</label><input id="yer" type="text" inputmode="numeric" maxlength="4" pattern="[0-9]*" autocomplete="off" placeholder="Örn. 105" value="' + e(yer) + '"></div>') +
       '<div class="kart sut kucuk"><div class="sat"><span class="gri">Toplam</span><b>' + ikili(t) + '</b></div>' +
       '<div class="sat"><span class="gri">Sonrası</span><b>' + ikili(veri.bakiye_kurus - t) + '</b></div></div>' +
       '<button class="d ana tam" id="gonder"' + (t && !mesgul ? '' : ' disabled') + '>' + (ode ? 'Öde' : 'Sipariş ver') + (t ? ' · ' + fis(t) : '') + '</button>' +
@@ -442,9 +450,10 @@ function personel(ode) {
       rpc('kisi_iptal', { p_o: o, p_siparis: +b.dataset.kiptal }).then(function () { uyar('Sipariş iptal edildi'); return yukle(); })
         .catch(function (h) { uyar(h.message, true); yukle(); });
     });
+    if (q('#yer')) q('#yer').addEventListener('input', function (ev) { ev.target.value = ev.target.value.replace(/\D/g, '').slice(0, 4); });
     q('#gonder').addEventListener('click', function () {
       var y = ode ? null : q('#yer').value.trim();
-      if (!ode && !y) { uyar('Yer yazın', true); return; }
+      if (!ode && !/^\d{1,4}$/.test(y)) { uyar('Oda numarası yazın', true); return; }
       if (!ode) koy('cay_yer', y);
       if (!istek) istek = istekNo();
       mesgul = true; ciz();
@@ -684,7 +693,7 @@ function yonetici() {
           { ad: 'Diğer hesaplar', renk: '#5B6B63', b: function () { return true; } }];
         function grubu(x) { for (var i = 0; i < GRUP.length; i++) if (GRUP[i].b(x)) return GRUP[i]; }
         function harf(ad) { var p = ad.trim().split(/\s+/); return (p[0][0] + (p.length > 1 ? p[p.length - 1][0] : '')).toLocaleUpperCase('tr-TR'); }
-        govde('<div class="ust-ara"><div><label for="ys">Personel ara ya da kart okutun</label><input id="ys" type="search" autocomplete="off" placeholder="Ad yazın…"></div></div><div id="pg"></div>');
+        govde('<div class="ust-ara"><div><label for="ys">Personel ara ya da kart okutun</label><input id="ys" type="search" autocomplete="off" placeholder="Ad yazın…"></div></div><div id="pg" class="gruplar"></div>');
         function ciz() {
           var a = q('#ys').value.trim().toLocaleLowerCase('tr-TR');
           var m = a ? k.filter(function (z) { return z.ad.toLocaleLowerCase('tr-TR').indexOf(a) >= 0; }) : k;
@@ -692,7 +701,7 @@ function yonetici() {
             var l = m.filter(function (x) { return grubu(x) === g; });
             if (!l.length) return '';
             var borc = l.filter(function (x) { return x.bakiye_kurus < 0; }), tb = borc.reduce(function (t, x) { return t + x.bakiye_kurus; }, 0);
-            return '<section class="grup" style="--r:' + g.renk + '"><div class="grup-bas"><h2>' + e(g.ad) + '</h2><div class="ozet">' + l.length + ' kişi' +
+            return '<section class="grup' + (g.ad === 'Diğer hesaplar' ? ' tam' : '') + '" style="--r:' + g.renk + '"><div class="grup-bas"><h2>' + e(g.ad) + '</h2><div class="ozet">' + l.length + ' kişi' +
               (borc.length ? '<br><span class="kirmizi">' + borc.length + ' borçlu · −' + tl(-tb) + '</span>' : '') + '</div></div><div class="pizgara">' +
               l.map(function (x) {
                 var c = x.bakiye_kurus < 0 ? ' borc' : x.bakiye_kurus === 0 ? ' sifir' : '';
