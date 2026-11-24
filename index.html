@@ -251,12 +251,25 @@ function sifreEkrani(baslik, etiket, pin, gonder) {
   q('#gs').focus();
 }
 function rolGiris(rol, baslik, sonra) {
-  sifreEkrani(baslik, 'Şifre', false, function (s) {
-    return rpc('giris_rol', { p_rol: rol, p_sifre: s }).then(function (r) {
-      if (r.hata) throw new Error(r.hata);
-      koy('cay_' + rol, r.oturum); sonra();
+  function giris(liste) {
+    sifreEkrani(baslik, 'Şifre', false, function (s) {
+      var g = q('#gk') ? q('#gk').value : '';
+      var istek = g ? rpc('giris_gorevli', { p_id: +g, p_sifre: s }) : rpc('giris_rol', { p_rol: rol, p_sifre: s });
+      return istek.then(function (r) {
+        if (r.hata) throw new Error(r.hata);
+        koy('cay_' + rol, r.oturum); sonra();
+      });
     });
-  });
+    if (liste.length) {
+      var d = document.createElement('div');
+      d.innerHTML = '<label for="gk">Giriş yapan</label><select id="gk"><option value="">Ortak şifre</option>' +
+        liste.map(function (x) { return '<option value="' + x.id + '">' + e(x.ad) + '</option>'; }).join('') + '</select>';
+      q('#gf').insertBefore(d, q('#gf').firstChild);
+      try { var son = al('cay_son_' + rol); if (son && liste.some(function (x) { return String(x.id) === son; })) q('#gk').value = son; } catch (x) { }
+      q('#gk').addEventListener('change', function () { koy('cay_son_' + rol, q('#gk').value || null); q('#gs').focus(); });
+    }
+  }
+  rpc('giris_listesi', { p_rol: rol }).then(giris).catch(function () { giris([]); });
 }
 function oturumHatasi(h, anahtar, sonra) {
   if (h.message === 'OTURUM') { koy(anahtar, null); sonra(); return true; }
@@ -617,10 +630,10 @@ function yonetici() {
             return '<tr><td>' + e(b.ad) + (b.misafir ? ' <span class="gri kucuk">· birim hesabı</span>' : b.bakiye_kurus <= -r.limit_kurus ? ' <span class="kirmizi kucuk">· limit doldu</span>' : '') + '</td>' +
               '<td class="sag kirmizi">' + fis(b.bakiye_kurus) + '</td><td class="sag kirmizi">−' + tl(-b.bakiye_kurus) + '</td></tr>';
           }).join('') || '<tr><td class="gri" colspan="3">Borçlu yok</td></tr>') + '</tbody></table></div></div>' +
-          '<div class="kart sut"><h2>Günün işlemleri</h2><div class="tasma"><table><thead><tr><th>Saat</th><th>Kişi</th><th>İşlem</th><th>Yer</th><th class="sag">Fiş</th></tr></thead><tbody>' +
+          '<div class="kart sut"><h2>Günün işlemleri</h2><div class="tasma"><table><thead><tr><th>Saat</th><th>Kişi</th><th>İşlem</th><th>Yer</th><th>Yapan</th><th class="sag">Fiş</th></tr></thead><tbody>' +
           (r.hareketler.map(function (h) {
-            return '<tr><td>' + e(h.saat) + '</td><td>' + e(h.ad) + '</td><td>' + e(turAd(h)) + (h.tur === 'yukleme' || h.tur === 'duzeltme' ? ' ' + tl(Math.abs(h.tutar_kurus)) : '') + '</td><td>' + e(kanalAd(h.kanal)) + '</td><td class="sag">' + isaretli(h.tutar_kurus) + '</td></tr>';
-          }).join('') || '<tr><td class="gri" colspan="5">Kayıt yok</td></tr>') + '</tbody></table></div></div>');
+            return '<tr><td>' + e(h.saat) + '</td><td>' + e(h.ad) + '</td><td>' + e(turAd(h)) + (h.tur === 'yukleme' || h.tur === 'duzeltme' ? ' ' + tl(Math.abs(h.tutar_kurus)) : '') + '</td><td>' + e(kanalAd(h.kanal)) + '</td><td>' + e(h.yapan || h.ad) + '</td><td class="sag">' + isaretli(h.tutar_kurus) + '</td></tr>';
+          }).join('') || '<tr><td class="gri" colspan="6">Kayıt yok</td></tr>') + '</tbody></table></div></div>');
         q('#rg').addEventListener('change', function (ev) { if (ev.target.value) G.rapor(ev.target.value); });
       }).catch(sus);
     },
@@ -639,15 +652,15 @@ function yonetici() {
             return '<tr><td>' + e(x.ad) + '</td><td class="sag"><b>' + tl(x.verdigi_kurus) + '</b></td><td class="sag">' + ikili(x.harcadigi_kurus) + '</td><td class="sag ' + (x.bakiye_kurus < 0 ? 'kirmizi' : '') + '">' + ikili(x.bakiye_kurus) + '</td></tr>';
           }).join('') +
           '<tr><td><b>Toplam</b></td><td class="sag"><b>' + tl(tv) + '</b></td><td class="sag"><b>' + ikili(th) + '</b></td><td class="sag"><b>' + ikili(tb) + '</b></td></tr></tbody></table></div></div>' +
-          '<div class="kart sut"><div class="sat"><h2>Kayıtlar (' + h.length + ')</h2><button class="d" id="gx">Excel\'e aktar</button></div><div class="tasma"><table><thead><tr><th>Tarih</th><th>Kişi</th><th>İşlem</th><th>Yer</th><th class="sag">Tutar</th><th class="sag">Fiş</th></tr></thead><tbody>' +
+          '<div class="kart sut"><div class="sat"><h2>Kayıtlar (' + h.length + ')</h2><button class="d" id="gx">Excel\'e aktar</button></div><div class="tasma"><table><thead><tr><th>Tarih</th><th>Kişi</th><th>İşlem</th><th>Yer</th><th>Yapan</th><th class="sag">Tutar</th><th class="sag">Fiş</th></tr></thead><tbody>' +
           (h.map(function (x) {
-            return '<tr><td>' + e(x.zaman) + '</td><td>' + e(x.ad) + '</td><td>' + e(turAd(x)) + '</td><td>' + e(kanalAd(x.kanal)) + '</td><td class="sag">' + (x.tutar_kurus < 0 ? '−' : '') + tl(Math.abs(x.tutar_kurus)) + '</td><td class="sag">' + isaretli(x.tutar_kurus) + '</td></tr>';
-          }).join('') || '<tr><td class="gri" colspan="6">Kayıt yok</td></tr>') + '</tbody></table></div></div>');
+            return '<tr><td>' + e(x.zaman) + '</td><td>' + e(x.ad) + '</td><td>' + e(turAd(x)) + '</td><td>' + e(kanalAd(x.kanal)) + '</td><td>' + e(x.yapan || x.ad) + '</td><td class="sag">' + (x.tutar_kurus < 0 ? '−' : '') + tl(Math.abs(x.tutar_kurus)) + '</td><td class="sag">' + isaretli(x.tutar_kurus) + '</td></tr>';
+          }).join('') || '<tr><td class="gri" colspan="7">Kayıt yok</td></tr>') + '</tbody></table></div></div>');
         q('#gx').addEventListener('click', function () {
           function h1(v) { v = String(v == null ? '' : v); return /[;"\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; }
           function para(k) { return (k / 100).toFixed(2).replace('.', ','); }
-          var satir = [['Tarih', 'Kişi', 'İşlem', 'Yer', 'Tutar (TL)', 'Fiş']].concat(h.map(function (x) {
-            return [x.zaman, x.ad, turAd(x), kanalAd(x.kanal), para(x.tutar_kurus), String(x.tutar_kurus / F).replace('.', ',')];
+          var satir = [['Tarih', 'Kişi', 'İşlem', 'Yer', 'Yapan', 'Tutar (TL)', 'Fiş']].concat(h.map(function (x) {
+            return [x.zaman, x.ad, turAd(x), kanalAd(x.kanal), x.yapan || x.ad, para(x.tutar_kurus), String(x.tutar_kurus / F).replace('.', ',')];
           }));
           var blob = new Blob(['\ufeff' + satir.map(function (r) { return r.map(h1).join(';'); }).join('\r\n')], { type: 'text/csv;charset=utf-8' });
           var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'cay-ocagi-' + f.bas + '-' + f.bit + '.csv';
@@ -772,9 +785,26 @@ function yonetici() {
       }).catch(sus);
     },
     ayarlar: function () {
-      cagir('y_ayarlar').then(function (r) {
+      Promise.all([cagir('y_ayarlar'), cagir('y_gorevliler'), cagir('y_kisiler')]).then(function (sn) {
+        var r = sn[0], gor = sn[1], kis = sn[2].filter(function (x) { return x.aktif && !x.misafir; });
         F = r.fis_kurus;
-        govde('<div class="kart sut"><h2>Fiş ve limit</h2><div class="form">' +
+        var ROL = { yonetici: 'Yönetici', ocak: 'Çaycı' };
+        function rolSec(v, id) { return '<select aria-label="Görev" data-gr="' + id + '">' + ['yonetici', 'ocak'].map(function (k) { return '<option value="' + k + '"' + (v === k ? ' selected' : '') + '>' + ROL[k] + '</option>'; }).join('') + '</select>'; }
+        var gorevHtml = '<div class="kart sut"><h2>Görevliler</h2>' +
+          '<div class="kucuk gri">Yönetici: nakit yükleme, rapor, kişiler, ayarlar. Çaycı: tablet ve dağıtım ekranı.</div>' +
+          '<div class="tasma"><table><thead><tr><th>Ad</th><th>Görev</th><th>Durum</th><th>Yeni şifre</th><th></th></tr></thead><tbody>' +
+          gor.map(function (g) {
+            return '<tr><td>' + e(g.ad) + '</td><td>' + rolSec(g.rol, g.id) + '</td>' +
+              '<td><select aria-label="Durum" data-gd="' + g.id + '"><option value="1">Aktif</option><option value="0"' + (g.aktif ? '' : ' selected') + '>Pasif</option></select></td>' +
+              '<td><input type="password" aria-label="Yeni şifre" autocomplete="new-password" data-gs="' + g.id + '" placeholder="Değişmeyecekse boş"></td>' +
+              '<td class="sag"><button class="d" data-gkay="' + g.id + '">Kaydet</button></td></tr>';
+          }).join('') +
+          '<tr><td><select aria-label="Kişi" data-gk=""><option value="">Kişi seçin</option>' +
+          kis.filter(function (x) { return !gor.some(function (g) { return g.kisi_id === x.id; }); }).map(function (x) { return '<option value="' + x.id + '">' + e(x.ad) + '</option>'; }).join('') + '</select></td>' +
+          '<td>' + rolSec('ocak', '') + '</td><td></td>' +
+          '<td><input type="password" aria-label="Şifre" autocomplete="new-password" data-gs="" placeholder="En az 6 karakter"></td>' +
+          '<td class="sag"><button class="d ana" data-gkay="">Ekle</button></td></tr></tbody></table></div></div>';
+        govde(gorevHtml + '<div class="kart sut"><h2>Fiş ve limit</h2><div class="form">' +
           '<div><label for="af">1 fiş (₺)</label><input id="af" type="text" inputmode="decimal" value="' + sayi(r.fis_kurus / 100, 2) + '"></div>' +
           '<div><label for="al">Eksi limit (₺)</label><input id="al" type="text" inputmode="decimal" value="' + sayi(r.limit_kurus / 100, 2) + '"></div>' +
           '<button class="d ana" id="ab">Kaydet</button></div></div>' +
@@ -786,7 +816,7 @@ function yonetici() {
               '<td><select aria-label="Durum" data-ud="' + u.id + '"><option value="1">Satışta</option><option value="0"' + (u.aktif ? '' : ' selected') + '>Kapalı</option></select></td>' +
               '<td class="sag"><button class="d" data-ukay="' + u.id + '">' + (u.id === '' ? 'Ekle' : 'Kaydet') + '</button></td></tr>';
           }).join('') + '</tbody></table></div></div>' +
-          '<div class="kart sut"><h2>Şifre değiştir</h2><div class="form"><div><label for="sr">Giriş</label><select id="sr"><option value="ocak">Çay ocağı (tablet ve dağıtıcı)</option><option value="yonetici">Yönetici</option></select></div>' +
+          '<div class="kart sut"><h2>Ortak şifreler</h2><div class="form"><div><label for="sr">Giriş</label><select id="sr"><option value="ocak">Çay ocağı (tablet ve dağıtıcı)</option><option value="yonetici">Yönetici</option></select></div>' +
           '<div><label for="sy">Yeni şifre (en az 6 karakter)</label><input id="sy" type="password" autocomplete="new-password"></div><button class="d ana" id="sb">Değiştir</button></div></div>' +
           '<div><button class="d" id="cik">Yönetici çıkışı</button></div>');
         q('#ab').addEventListener('click', function () {
@@ -798,6 +828,11 @@ function yonetici() {
           var i = b.dataset.ukay, s = function (a) { return q('[data-' + a + '="' + i + '"]').value.trim(); };
           if (!s('ua') || !/^\d+$/.test(s('uf')) || +s('uf') < 1) { uyar('Bilgiler eksik', true); return; }
           cagir('y_urun_kaydet', { p_id: i === '' ? null : +i, p_ad: s('ua'), p_fis: +s('uf'), p_sira: /^\d+$/.test(s('us')) ? +s('us') : null, p_aktif: s('ud') === '1' }).then(function () { uyar('Kaydedildi'); G.ayarlar(); }).catch(sus);
+        });
+        bagla('[data-gkay]', 'click', function (b) {
+          var i = b.dataset.gkay, v = function (a) { var x = q('[data-' + a + '="' + i + '"]'); return x ? x.value : ''; };
+          cagir('y_gorevli_kaydet', { p_id: i === '' ? null : +i, p_kisi: i === '' ? (+v('gk') || null) : null, p_rol: v('gr'), p_sifre: v('gs'), p_aktif: i === '' ? true : v('gd') === '1' })
+            .then(function () { uyar('Kaydedildi'); G.ayarlar(); }).catch(sus);
         });
         q('#sb').addEventListener('click', function () {
           cagir('y_sifre', { p_rol: q('#sr').value, p_yeni: q('#sy').value }).then(function () { uyar('Şifre değişti'); q('#sy').value = ''; }).catch(sus);
