@@ -444,6 +444,36 @@
    "anahtar": "uygulama/baskihesap-v2|kampanya-0-gonderi-hikaye",
    "buffer": "6affd449738ce4635f8a4881",
    "zaman": "2026-11-20T12:50"
+  },
+  {
+   "anahtar": "urun/kozalak-cuce-evi-yilbasi-kis-dekoru|gonderi",
+   "buffer": "6b051a80bc151fa8ad254c86",
+   "zaman": "2026-11-24T09:10"
+  },
+  {
+   "anahtar": "urun/kozalak-cuce-evi-yilbasi-kis-dekoru|hikaye",
+   "buffer": "6b051a81db52b449cf2877f4",
+   "zaman": "2026-11-24T09:50"
+  },
+  {
+   "anahtar": "urun/kitap-mangala-oyunu-kitap-gorunumlu-akil-ve-strateji-oyunu|gonderi",
+   "buffer": "6b051a82bc151fa8ad254d32",
+   "zaman": "2026-11-24T12:38"
+  },
+  {
+   "anahtar": "urun/kitap-mangala-oyunu-kitap-gorunumlu-akil-ve-strateji-oyunu|hikaye",
+   "buffer": "6b051a82c43c1f2f5c8cec38",
+   "zaman": "2026-11-24T13:18"
+  },
+  {
+   "anahtar": "urun/desenli-dudak-balmi-tutucu-silk-parlak-3d-baski|gonderi",
+   "buffer": "6b051a83db52b449cf2878c4",
+   "zaman": "2026-11-24T17:24"
+  },
+  {
+   "anahtar": "urun/desenli-dudak-balmi-tutucu-silk-parlak-3d-baski|hikaye",
+   "buffer": "6b051a84db52b449cf287903",
+   "zaman": "2026-11-24T18:04"
   }
  ]
 }
