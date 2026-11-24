@@ -134,6 +134,8 @@ tbody tr:hover td{background:rgba(210,102,91,.04)}
 .pin span.imlec{border-color:rgba(210,102,91,.45)}
 .pin.hata span{border-color:var(--kirmizi);background:rgba(200,71,60,.12);animation:titre .35s}
 @keyframes titre{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+#ksl{max-height:56vh;overflow-y:auto;gap:8px}
+.d.secim{height:auto;min-height:56px;padding:10px 16px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;text-align:left;gap:2px}
 /* personel kartları */
 .grup{margin-bottom:30px}
 .grup-bas{display:flex;align-items:center;gap:12px;margin:0 0 14px;padding:12px 18px;border-radius:18px;background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.9)}
@@ -364,16 +366,39 @@ function oturumHatasi(h, anahtar, sonra) {
 }
 
 /* ---------- personel: sipariş ve karekodla ödeme ---------- */
+function kisiSec(ode) {
+  app.innerHTML = bas('Çay Ocağı') + '<main class="ic"><div class="kart sut giris" style="max-width:560px"><span class="ikon" aria-hidden="true">☕</span><h1>Kendinizi seçin</h1>' +
+    '<div class="alt" style="text-align:center">Adınızı bulun, dokunun, şifrenizi girin.</div>' +
+    '<div><label for="ksa">Ad ara</label><input id="ksa" type="search" autocomplete="off" placeholder="Adınızı yazın…"></div><div id="ksl" class="sut" style="width:100%"></div></div></main>';
+  var liste = [];
+  function ciz() {
+    var a = q('#ksa').value.trim().toLocaleLowerCase('tr-TR');
+    var m = liste.filter(function (x) { return !a || x.ad.toLocaleLowerCase('tr-TR').indexOf(a) >= 0; });
+    q('#ksl').innerHTML = m.map(function (x) {
+      return '<button class="d secim" data-ksec="' + x.id + '"><b>' + e(x.ad) + '</b><span class="gri kucuk">' + e(x.birim || '') + '</span></button>';
+    }).join('') || '<div class="gri" style="text-align:center">Bulunamadı</div>';
+    bagla('[data-ksec]', 'click', function (b) { sec(liste.filter(function (z) { return z.id === +b.dataset.ksec; })[0]); });
+  }
+  function sec(x) {
+    sifreEkrani(x.ad, '4 haneli şifreniz', true, function (p) {
+      return rpc('giris_secim', { p_id: x.id, p_pin: p }).then(function (g) {
+        if (g.hata) throw new Error(g.hata);
+        koy('cay_link', g.link); koy('cay_kisi', g.oturum); personel(ode);
+      });
+    });
+    var g = document.createElement('button'); g.type = 'button'; g.className = 'd'; g.style.width = '100%'; g.textContent = '← Listeye dön';
+    g.addEventListener('click', function () { kisiSec(ode); });
+    q('#gf').appendChild(g);
+  }
+  rpc('kisi_listesi', {}).then(function (r) { liste = r; ciz(); q('#ksa').addEventListener('input', ciz); }).catch(function (h) { uyar(h.message, true); });
+}
 function personel(ode) {
   var o = al('cay_kisi'), link = al('cay_link');
   if (!o) {
-    if (!link) {
-      app.innerHTML = bas('Çay Ocağı') + '<main class="ic dar"><div class="kart">Size gönderilen kişisel bağlantıyı ya da karekodu bu telefonda bir kez açın.</div></main>';
-      return;
-    }
+    if (!link) { kisiSec(ode); return; }
     rpc('kisi_on', { p_link: link }).then(function (r) {
       if (r.hata) { app.innerHTML = bas('Çay Ocağı') + '<main class="ic dar"><div class="kart">' + e(r.hata) + '</div></main>'; return; }
-      sifreEkrani(r.ad, r.pin_var ? '4 haneli şifreniz' : '4 haneli bir şifre belirleyin', true, function (p) {
+      sifreEkrani(r.ad, '4 haneli şifreniz', true, function (p) {
         return rpc('giris_kisi', { p_link: link, p_pin: p }).then(function (g) {
           if (g.hata) throw new Error(g.hata);
           koy('cay_kisi', g.oturum); personel(ode);
@@ -885,7 +910,7 @@ function yonetici() {
           '<div style="min-width:170px;flex:0"><label for="km">Birim hesabı (limitsiz)</label><select id="km"><option value="0">Hayır</option><option value="1"' + (d && d.misafir ? ' selected' : '') + '>Evet</option></select></div>' +
           '<button class="d ana" id="kkay">Kaydet</button>' + (d ? '<button class="d" id="kvaz">Vazgeç</button>' : '') + '</div></div>' +
           '<div class="kart sut"><div class="form"><h2 style="flex:1">Kişiler (' + r.length + ')</h2><div style="max-width:320px"><label for="kar">Ara</label><input id="kar" type="search" autocomplete="off" value="' + e(kisiAra) + '"></div></div>' +
-          '<div class="tasma"><table><thead><tr><th>Ad</th><th>Kart</th><th class="sag">Bakiye</th><th>Telefon girişi</th><th></th></tr></thead><tbody id="ktb">' +
+          '<div class="tasma"><table><thead><tr><th>Ad</th><th>Kart</th><th class="sag">Bakiye</th><th>Şifre</th><th></th></tr></thead><tbody id="ktb">' +
           '</tbody></table></div></div>' +
           '<div class="kart sut kucuk"><div><b>Çay ocağı karekodu:</b> ' + e(adres) + '#ode <button class="d" id="afis">Karekod afişini yazdır</button></div><div><b>Tablet:</b> ' + e(adres) + '#ocak · <b>Dağıtıcı:</b> ' + e(adres) + '#dagitici · <b>Yönetici:</b> ' + e(adres) + '#yonetici</div></div>');
         function satirlar() {
@@ -894,9 +919,9 @@ function yonetici() {
           q('#ktb').innerHTML = (liste.map(function (x) {
             return '<tr class="' + (x.aktif ? '' : 'pasif') + '"><td>' + e(x.ad) + (x.misafir ? ' <span class="gri kucuk">· birim hesabı</span>' : '') + '<div class="gri kucuk">' + e(x.birim || '') + '</div></td>' +
               '<td>' + e(x.kart_no || '—') + '</td><td class="sag ' + (x.bakiye_kurus < 0 ? 'kirmizi' : '') + '">' + ikili(x.bakiye_kurus) + '</td>' +
-              '<td class="kucuk">' + (x.pin_var ? 'Kurulu' : 'Bekliyor') + '</td>' +
+              '<td class="kucuk">' + (x.pin_var ? 'Verildi' : '<span class="kirmizi">Yok</span>') + '</td>' +
               '<td class="sag" style="white-space:nowrap"><button class="d" data-kkod="' + x.id + '">Karekod</button> <button class="d" data-link="' + e(x.link_kod) + '">Bağlantıyı kopyala</button> <button class="d" data-duz="' + x.id + '">Düzenle</button> ' +
-              '<button class="d" data-sifir="' + x.id + '">Şifreyi sıfırla</button> <button class="d" data-aktif="' + x.id + '">' + (x.aktif ? 'Pasif yap' : 'Aktif yap') + '</button></td></tr>';
+              '<button class="d" data-sifir="' + x.id + '">' + (x.pin_var ? 'Yeni şifre ver' : 'Şifre ver') + '</button> <button class="d" data-aktif="' + x.id + '">' + (x.aktif ? 'Pasif yap' : 'Aktif yap') + '</button></td></tr>';
           }).join('') || '<tr><td class="gri" colspan="5">Kayıt yok</td></tr>');
           satirBagla();
         }
@@ -912,7 +937,7 @@ function yonetici() {
         function satirBagla() {
         bagla('[data-kkod]', 'click', function (b) {
           var x = r.filter(function (z) { return z.id === +b.dataset.kkod; })[0];
-          pencere('<h2>' + e(x.ad) + '</h2><div>' + karekodSvg(adres + '#k=' + x.link_kod) + '</div><div class="kucuk gri" style="text-align:center">Kişi bu karekodu kendi telefonunun kamerasıyla okutur, 4 haneli şifresini belirler.</div>');
+          pencere('<h2>' + e(x.ad) + '</h2><div>' + karekodSvg(adres + '#k=' + x.link_kod) + '</div><div class="kucuk gri" style="text-align:center">Kişi bu karekodu telefonuyla okutur, 4 haneli şifresiyle girer.</div>');
         });
         bagla('[data-duz]', 'click', function (b) { G.kisiler(+b.dataset.duz); window.scrollTo(0, 0); });
         bagla('[data-aktif]', 'click', function (b) {
@@ -920,7 +945,11 @@ function yonetici() {
           kaydet(x, !x.aktif).then(function () { G.kisiler(); }).catch(sus);
         });
         bagla('[data-sifir]', 'click', function (b) {
-          if (b.dataset.onay) cagir('y_kisi_sifirla', { p_id: +b.dataset.sifir, p_link: true }).then(function () { uyar('Sıfırlandı, yeni bağlantıyı gönderin'); G.kisiler(); }).catch(sus);
+          var x = r.filter(function (z) { return z.id === +b.dataset.sifir; })[0];
+          if (b.dataset.onay || !x.pin_var) cagir('y_kisi_sifirla', { p_id: x.id, p_link: false }).then(function (s) {
+            pencere('<h2>' + e(x.ad) + '</h2><div class="gri">Yeni şifre</div><div id="ypin" style="font-size:54px;font-weight:800;letter-spacing:12px;text-align:center">' + e(s.pin) + '</div><div class="kucuk gri">Bu şifre bir daha gösterilmez, kişiye iletin.</div>');
+            G.kisiler();
+          }).catch(sus);
           else { b.dataset.onay = '1'; b.textContent = 'Emin misiniz?'; b.classList.add('ana'); }
         });
         bagla('[data-link]', 'click', function (b) {
