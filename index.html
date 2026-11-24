@@ -141,11 +141,21 @@ tbody tr:hover td{background:rgba(210,102,91,.04)}
 .gruplar>.grup:only-child,.gruplar>.grup.tam{grid-column:1/-1}
 @media (max-width:900px){.gruplar{grid-template-columns:1fr}}
 .grup{padding:16px;border-radius:26px;background:rgba(255,255,255,.38);border:1px solid rgba(255,255,255,.85)}
-.grup .pizgara{grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
-.grup .pk{padding:14px 16px;gap:10px}
-.grup .pk .bk{font-size:23px}
-.grup .pk .ad{font-size:15.5px}
-.grup .bas-harf{width:40px;height:40px;font-size:14px;border-radius:12px}
+.grup{padding:12px}
+.grup .pizgara{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.grup .pk{padding:10px 11px;gap:6px;border-radius:16px}
+.grup .pk .ust{gap:0}
+.grup .pk .bas-harf{display:none}
+.grup .pk .ad{font-size:14px;line-height:1.2;min-height:2.4em;overflow-wrap:anywhere}
+.grup .pk .bk{font-size:18px}
+.grup .pk .bk small{font-size:11.5px}
+.grup-bas{padding:10px 14px}
+.grup-bas h2{font-size:16px}
+.ic:has(.gruplar){max-width:1600px}
+@media (max-width:1250px){.grup .pizgara{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:1000px){.grup .pizgara{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:900px){.grup .pizgara{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:640px){.grup .pizgara{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .grup-bas{display:flex;align-items:center;gap:12px;margin:0 0 14px;padding:12px 18px;border-radius:18px;background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.9)}
 .grup-bas::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--r)}
 .grup-bas h2{margin:0;font-size:19px}
