@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#1C1B1A">
 <meta name="robots" content="noindex, nofollow">
-<title>Çay Ocağı</title>
+<title>ÇayFiş · Çay Ocağı Bakiye Sistemi</title>
 <link rel="icon" href="logo.png">
 <link rel="apple-touch-icon" href="logo.png">
 <script>(function(){var m=document.createElement('link');m.rel='manifest';var t=false;try{t=localStorage.getItem('cay_kiosk')==='1'}catch(x){}m.href=(location.hash==='#ocak'||t)?'manifest-ocak.json':'manifest.json';document.head.appendChild(m)})();</script>
@@ -25,6 +25,9 @@ h2{font-size:20px}
 .kurum b{display:block;font-size:14px}
 .kurum span{display:block;font-size:11px;color:#D9D6CF;line-height:1.3}
 .bas .ad{font-size:22px;font-weight:700}
+.urun{text-align:center;line-height:1.1}
+.urun b{display:block;font-size:26px;letter-spacing:.5px;color:#E8C27A}
+.urun span{display:block;font-size:11px;color:#D9D6CF}
 .ic{max-width:1200px;margin:0 auto;padding:16px;display:flex;flex-direction:column;gap:14px}
 .dar{max-width:480px}
 .kart{background:#fff;border:1px solid #DEDBD3;border-radius:14px;padding:16px}
@@ -138,7 +141,8 @@ function rpcTekrarli(fn, a) {
 
 function kurum() {
   return '<div class="kurum"><img src="logo.png" alt="Amasya Üniversitesi logosu"><div><b>Amasya Üniversitesi</b>' +
-    '<span>' + e(BIRIMLER[0]) + '<br>' + e(BIRIMLER[1]) + '</span></div></div>';
+    '<span>' + e(BIRIMLER[0]) + '<br>' + e(BIRIMLER[1]) + '</span></div></div>' +
+    '<div class="urun"><b>ÇayFiş</b><span>Çay Ocağı Bakiye Sistemi</span></div>';
 }
 function bas(baslik) { return '<header class="bas">' + kurum() + '<div class="ad">' + e(baslik) + '</div></header>'; }
 function temizle() { clearInterval(zamanlayici); zamanlayici = null; if (tusDinle) { document.removeEventListener('keydown', tusDinle); tusDinle = null; } }
@@ -528,17 +532,17 @@ function yonetici() {
         var secili = null;
         govde('<div class="kart sut dar" style="margin:0 auto;width:100%"><h2>Nakit yükleme</h2>' +
           '<div><label for="ys">Kişi (ad yazın ya da kartını okutun)</label><input id="ys" type="search" autocomplete="off"></div>' +
-          '<div id="yl" class="sut"></div>' +
+          '<div id="yl" class="sut" style="max-height:340px;overflow-y:auto"></div>' +
           '<div><label for="yt">Alınan nakit (₺)</label><input id="yt" type="text" inputmode="decimal" style="height:64px;font-size:30px;font-weight:700"></div>' +
           '<div class="sat">' + [50, 100, 200, 250].map(function (n) { return '<button class="d" style="flex:1;padding:0" data-hizli="' + n + '">' + n + ' ₺</button>'; }).join('') + '</div>' +
           '<div><label for="ya">Açıklama (düzeltmede zorunlu)</label><input id="ya" type="text" maxlength="120"></div>' +
           '<div id="yo" class="kart sut kucuk"></div><button class="d ana tam" id="yb">Yükle</button>' +
           '<div class="kucuk gri">Yanlış girişi düzeltmek için tutarı eksi yazın (örn. −100).</div></div>');
-        function sec(x) { secili = x; q('#ys').value = x ? x.ad : ''; q('#yl').innerHTML = ''; onizle(); if (x) q('#yt').focus(); }
+        function sec(x) { secili = x; q('#ys').value = x ? x.ad : ''; onizle(); if (x) { q('#yl').innerHTML = ''; q('#yt').focus(); } else ara(); }
         function ara() {
           var a = q('#ys').value.trim().toLocaleLowerCase('tr-TR');
           if (secili && q('#ys').value !== secili.ad) { secili = null; onizle(); }
-          var m = a ? k.filter(function (z) { return z.ad.toLocaleLowerCase('tr-TR').indexOf(a) >= 0; }).slice(0, 8) : [];
+          var m = a ? k.filter(function (z) { return z.ad.toLocaleLowerCase('tr-TR').indexOf(a) >= 0; }) : k;
           q('#yl').innerHTML = secili ? '' : m.map(function (z) { return '<button class="d" style="text-align:left" data-ysec="' + z.id + '">' + e(z.ad) + ' <span class="gri kucuk">' + ikili(z.bakiye_kurus) + '</span></button>'; }).join('');
           bagla('[data-ysec]', 'click', function (b) { sec(k.filter(function (z) { return z.id === +b.dataset.ysec; })[0]); });
         }
@@ -559,7 +563,7 @@ function yonetici() {
         }
         bagla('#yt', 'input', onizle);
         bagla('[data-hizli]', 'click', function (b) { q('#yt').value = b.dataset.hizli; onizle(); });
-        onizle(); q('#ys').focus();
+        onizle(); ara(); q('#ys').focus();
         q('#yb').addEventListener('click', function () {
           var t = tlOku(q('#yt').value.replace('−', '-'));
           if (!secili) { uyar('Kişi seçin', true); return; }
