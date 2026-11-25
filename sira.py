@@ -110,6 +110,26 @@ def urun_gorselleri(klasor, d=None):
     return list(urun_kaydi(klasor, d).get("gorsel") or [])
 
 
+def urun_kareleri(klasor):
+    """Ürünün depodaki JPEG kareleri (depo köküne göre yol).
+
+    Instagram medyayı verdiğimiz adresten kendisi indiriyor ve .webp
+    kabul etmiyor; sitenin .webp adresi verilince gönderi "Only photo
+    or video can be accepted as media type" ya da indirme zaman aşımı
+    hatasıyla düşüyor. O yüzden sitedeki karenin JPEG kopyası depoya
+    aktarılıyor (arac/urun_gorsel_aktar.py) ve gönderi onu kullanıyor.
+    Görsel aynı; yalnız format ve adres değişiyor."""
+    s = UK.slug(klasor)
+    if not s:
+        return []
+    yollar = []
+    for i in range(1, 11):
+        y = "gorsel/urun/%s-%d.jpg" % (s, i)
+        if os.path.exists(os.path.join(KOK, y)):
+            yollar.append(y)
+    return yollar
+
+
 def dis_gorsel(klasor, d=None):
     """İşin depoda olmayan görselleri: {"kare": [...], "hikaye": "..."}.
 

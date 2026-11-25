@@ -1,4 +1,6 @@
 yeniden: urun/
 
-2026-11-25 07:05 Gece zamanlayicisi tetiklenmedi (GitHub cron gecikmesi).
-Bugunun uc gonderisi ve hikayeleri elle planlaniyor.
+2026-11-25 23:45 Ikisi de bugun dustu: Instagram .webp kabul etmiyor.
+Urun kareleri artik JPEG olarak depoya aktarilip oradan gonderiliyor.
+Bu tetik aktarimi calistirmak icin; bugunun saatleri gectigi icin
+gonderi gitmeyecek.

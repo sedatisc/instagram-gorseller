@@ -333,13 +333,20 @@ def varlik(is_, sha):
         if is_["tur"] == "gonderi":
             return [{"image": {"url": u}} for u in dis["kare"][:10]]
     if is_.get("kategori") == "baski":
-        g = sira.urun_gorselleri(k)
-        if not g:
-            raise Hata("%s — site görseli yok, gönderilmedi" % k)
+        # Sitenin .webp adresi doğrudan verilince Instagram medyayı
+        # indiremiyor ("Only photo or video can be accepted as media
+        # type", "It takes too long to download the media") ve gönderi
+        # düşüyor. Sitedeki karenin depoya aktarılmış JPEG kopyası
+        # kullanılıyor; görsel aynı, format ve adres değişiyor.
+        y = sira.urun_kareleri(k)
+        if not y:
+            raise Hata("%s — JPEG kare depoda yok "
+                       "(arac/urun_gorsel_aktar.py çalışmadı), "
+                       "gönderilmedi" % k)
         if is_["tur"] == "hikaye":
-            return [{"image": {"url": g[0]}}]
+            return [{"image": {"url": yayinla.ham(y[0], sha)}}]
         if is_["tur"] == "gonderi":
-            return [{"image": {"url": u}} for u in g[:10]]
+            return [{"image": {"url": yayinla.ham(u, sha)}} for u in y[:10]]
     if is_["tur"] == "gonderi":
         yollar = yayinla.kareler(k)
         if not yollar:
