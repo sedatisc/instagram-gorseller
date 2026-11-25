@@ -1,6 +1,6 @@
-yeniden: urun/
+geri-al: urun/vidali-yapim-tahtasi
+simdi: urun/vidali-yapim-tahtasi
 
-2026-11-25 23:45 Ikisi de bugun dustu: Instagram .webp kabul etmiyor.
-Urun kareleri artik JPEG olarak depoya aktarilip oradan gonderiliyor.
-Bu tetik aktarimi calistirmak icin; bugunun saatleri gectigi icin
-gonderi gitmeyecek.
+2026-11-26 00:40 Vidali Yapim Tahtasi gonderisi ve hikayesi
+Bufferdan silinip hemen yayina aliniyor; yeni JPEG medyayla
+yayinin gercekten ciktigi dogrulanacak.

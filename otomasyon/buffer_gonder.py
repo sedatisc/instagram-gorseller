@@ -463,6 +463,19 @@ def main():
         print("Onaylı gün yok (hafta-kilit.json boş) — yalnız kampanya "
               "işleri gönderilebilir.")
 
+    # --simdi <önek>[,<önek>]: anahtarı bu öneklerle başlayan işler plandaki
+    # saatinde değil, birkaç dakika sonrasına gönderiliyor. Onaylı bir işi
+    # beklemeden yayına almak için; saati geçti kuralı bu işlerde işlemiyor.
+    simdi_onek = []
+    if "--simdi" in sys.argv:
+        simdi_onek = [o.strip() for o
+                      in sys.argv[sys.argv.index("--simdi") + 1].split(",")
+                      if o.strip()]
+
+    def simdiye_al(i):
+        return bool(simdi_onek) and any(i["anahtar"].startswith(o)
+                                        for o in simdi_onek)
+
     for i in yayinla.gundem():
         if not i["zaman"].startswith(gun_s) or i["anahtar"] in yapilan:
             continue
@@ -472,7 +485,7 @@ def main():
             continue
         # Saati geçmiş iş Buffer'a planlanamıyor; sessizce atlanıyor ki
         # gün ortasında çalıştırılan gönderim hataya düşmesin.
-        if datetime.fromisoformat(i["zaman"]) <= simdi:
+        if datetime.fromisoformat(i["zaman"]) <= simdi and not simdiye_al(i):
             print("Saati geçti, atlandı: %s (%s)" % (i["anahtar"],
                                                      i["zaman"]))
             atlanan.append((i["zaman"], i["anahtar"], "saati geçti"))
@@ -494,6 +507,21 @@ def main():
             if not any(i["anahtar"].startswith(o) for o in onekler):
                 continue
         isler.append(i)
+
+    # Hemen gidecek işlerin saati öne alınıyor: gönderi 5, sonraki her iş
+    # 3 dakika arayla. Buffer geçmiş saate plan almadığı için küçük bir
+    # pay bırakılıyor.
+    if simdi_onek:
+        pay = 5
+        for i in isler:
+            if not simdiye_al(i):
+                continue
+            yeni = (simdi + timedelta(minutes=pay)).replace(second=0,
+                                                            microsecond=0)
+            print("Hemen: %s  %s -> %s"
+                  % (i["anahtar"], i["zaman"], yeni.strftime("%Y-%m-%dT%H:%M")))
+            i["zaman"] = yeni.strftime("%Y-%m-%dT%H:%M")
+            pay += 3
     # Ücretsiz plan: kanal başına aynı anda en çok 10 bekleyen paylaşım.
     # Fazlası varsa önce kampanya hikayesi, sonra sondan hikayeler düşüyor.
     # Sınırı aşan hikayeler bu sırayla düşüyor. Baskı ürününün hikayesi

@@ -105,6 +105,15 @@ jobs:
             # "yeniden: <anahtar öneki>[,<önek>]" satırı varsa yalnız o
             # işler yeniden planlanıyor; kampanya dışı bir gönderiyi gün
             # içinde düzeltip tekrar göndermek için.
+            # "simdi: <anahtar öneki>[,<önek>]" satırı varsa o işler
+            # plandaki saatini beklemeden birkaç dakika içine planlanıyor.
+            SIMDI=$(grep -m1 '^simdi:' otomasyon/TETIK \
+                    | sed 's/^simdi: *//' || true)
+            if [ -n "$SIMDI" ]; then
+              python3 otomasyon/buffer_gonder.py --zorla \
+                --yalniz "$SIMDI" --simdi "$SIMDI"
+              exit $?
+            fi
             YENI=$(grep -m1 '^yeniden:' otomasyon/TETIK \
                    | sed 's/^yeniden: *//' || true)
             if [ -n "$YENI" ]; then
