@@ -219,9 +219,6 @@ def gonder(kanal, metin, varliklar, zaman, tur, turler, baglanti=None,
              "dueAt": utc, "assets": varliklar,
              "metadata": {"instagram": {"type": turler[tur]}}}
     ig = girdi["metadata"]["instagram"]
-    # shouldShareToFeed her Instagram gönderi türünde zorunlu. Yalnız
-    # reels'e koyduğumuz için gönderi ve hikaye "required field" hatasıyla
-    # geri dönüyordu; artık hepsine giriyor.
     # shouldShareToFeed her Instagram gönderi türünde zorunlu ama anlamı
     # "akışta da paylaş": bu reels/gönderi için geçerli, hikaye için
     # değil. Hepsine True konunca hikaye yayımlanırken "The media with
@@ -378,11 +375,14 @@ def mutasyon_listesi():
 def geri_al(onek):
     """Deftere girmiş işleri Buffer'dan silip defterden düşürüyor.
 
-    Böylece aynı iş yeni görseliyle tekrar gönderilebiliyor."""
+    Böylece aynı iş yeni görseliyle tekrar gönderilebiliyor. Birden çok
+    önek virgülle verilebiliyor; tek tek silmek için her seferinde ayrı
+    çalıştırmak gerekmesin."""
+    onekler = [o.strip() for o in onek.split(",") if o.strip()]
     defter = defter_oku()
     kalan, silinen, notlar = [], 0, []
     for g in defter["gonderilen"]:
-        if not g["anahtar"].startswith(onek):
+        if not any(g["anahtar"].startswith(o) for o in onekler):
             kalan.append(g)
             continue
         try:
