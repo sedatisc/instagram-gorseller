@@ -23,6 +23,27 @@ SITE = "https://sermenkreatif.com"
 KATALOG = os.path.join(KOK, "urunler.json")
 AJAN = {"User-Agent": "sermenkreatif-yayin/1.0"}
 
+# Mağazanın kategori adresleri değişti: eskiden baskı kategorilerinin
+# hepsi "baski-" ile başlıyordu, yeni sitede yalnız ikisi öyle. Önek
+# filtresi yüzünden tarayıcı 24 kategoriden 2'sini görüyor, katalog
+# 382'den 42'ye iniyordu. Artık anasayfadaki bütün kategoriler alınıp
+# baskı dışı olanlar (yazıcı, tarayıcı, filament, reçine, lazer, modül,
+# sarf, yedek parça) listeden çıkarılıyor.
+DIS_KATEGORI = {
+    "3d-tarayicilar", "3d-yazicilar", "fdm-3d-yazicilar",
+    "recine-sla-3d-yazicilar", "filamentler", "recineler",
+    "lazer-gravur", "moduller", "sarf-malzemeleri", "yedek-parca",
+}
+
+# Her şeyi toplayan genel kategori. Ürün birden çok kategoride
+# görünebiliyor; etiketler kategoriden çıktığı için en özgül kategori
+# kazanıyor, bu en sona bırakılıyor.
+GENEL_KATEGORI = {"baski-urunleri"}
+
+# Kategori sayfası 24 ürün gösterip gerisini ?sayfa=N ile veriyor.
+# Sayfalama izlenmediği için her kategoriden en çok 24 ürün alınıyordu.
+AZAMI_SAYFA = 20
+
 
 def al(yol):
     r = urllib.request.Request(SITE + yol, headers=AJAN)
@@ -32,15 +53,26 @@ def al(yol):
 
 def kategoriler():
     h = al("/")
-    return sorted(set(re.findall(r'href="/kategori/(baski-[^"?]+)"', h)))
+    kats = set(re.findall(r'href="/kategori/([^"?]+)"', h)) - DIS_KATEGORI
+    return sorted(kats, key=lambda k: (k in GENEL_KATEGORI, k))
 
 
 def kategori_urunleri(kat):
-    try:
-        h = al("/kategori/" + kat)
-    except Exception:
-        return kat, []
-    return kat, sorted(set(re.findall(r'href="/urun/([^"?]+)"', h)))
+    """Kategorinin bütün sayfalarındaki ürünler.
+
+    Yeni ürün getirmeyen ilk sayfada duruyor; son sayfadan sonrası aynı
+    listeyi döndürdüğü için sayfa sayısını ayrıca okumak gerekmiyor."""
+    bulunan = set()
+    for n in range(1, AZAMI_SAYFA + 1):
+        try:
+            h = al("/kategori/%s?sayfa=%d" % (kat, n))
+        except Exception:
+            break
+        u = set(re.findall(r'href="/urun/([^"?]+)"', h))
+        if not u - bulunan:
+            break
+        bulunan |= u
+    return kat, sorted(bulunan)
 
 
 def urun(slug):
