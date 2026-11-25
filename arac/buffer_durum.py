@@ -60,31 +60,30 @@ def main():
         print("  %s(%s)" % (f["name"], ", ".join(a["name"]
                                                  for a in f.get("args") or [])))
 
-    for tur in ("Post", "PostStatus", "PostError"):
-        ad, hata = alanlar(tur)
-        print("\n--- %s alanlari --- %s" % (tur, hata))
-        print("  " + ", ".join(ad))
+    ad, _ = alanlar("Post")
+    print("\n--- Post alanlari ---\n  " + ", ".join(ad))
 
-    # Tek tek sorma: şemada post(id:) varsa onu kullanıyoruz.
-    kokler = {f["name"]: [a["name"] for a in f.get("args") or []]
-              for f in kok_alanlar()}
-    if "post" in kokler:
-        ad, _ = alanlar("Post")
-        sec = [a for a in ("id", "status", "dueAt", "sentAt", "error",
-                           "errorMessage", "channelId", "text")
-               if a in ad]
-        print("\n--- Gonderi durumlari (%s) ---" % ", ".join(sec))
-        for x in kayit:
-            try:
-                d = B._sorgu("query P($i: PostId!) { post(id: $i) { %s } }"
-                             % " ".join(sec), {"i": x["buffer"]})
-                print("  %s -> %s" % (x["anahtar"], json.dumps(
-                    d.get("post"), ensure_ascii=False)))
-            except Exception as e:
-                print("  %s -> SORGU HATASI: %s" % (x["anahtar"], e))
-    else:
-        print("\nSemada post(id:) yok; yukaridaki Query alanlarindan "
-              "uygun olani secip sorgu yazilacak.")
+    girdi = [a for a, _t, _z in B._alanlar("PostInput")]
+    print("\n--- PostInput alanlari ---\n  " + ", ".join(girdi))
+
+    hata_ad, _ = alanlar("PostPublishingError")
+    print("\n--- PostPublishingError alanlari ---\n  " + ", ".join(hata_ad))
+
+    sec = [a for a in ("id", "status", "dueAt", "sentAt",
+                       "notificationStatus", "schedulingType", "sharedNow",
+                       "shareMode", "channelId") if a in ad]
+    if "error" in ad and hata_ad:
+        sec.append("error { %s }" % " ".join(hata_ad))
+
+    print("\n--- Gonderi durumlari ---")
+    for x in kayit:
+        try:
+            d = B._sorgu("query P($i: PostInput!) { post(input: $i) { %s } }"
+                         % " ".join(sec), {"i": {"id": x["buffer"]}})
+            print("  %s\n    %s" % (x["anahtar"], json.dumps(
+                d.get("post"), ensure_ascii=False)))
+        except Exception as e:
+            print("  %s -> SORGU HATASI: %s" % (x["anahtar"], e))
     return 0
 
 
