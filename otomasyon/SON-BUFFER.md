@@ -45,20 +45,14 @@ Sorulacak kayit: 6
   ideaGroups(input)
   ideas(after, first, input)
 
---- Post alanlari --- 
+--- Post alanlari ---
   id, allowedActions, assets, author, channel, channelId, channelService, contentItemId, dueAt, error, externalLink, ideaId, isCustomScheduled, metadata, metrics, metricsUpdatedAt, notificationStatus, schedulingType, sentAt, sharedNow, shareMode, status, tags, text, via, createdAt, updatedAt
-
---- PostStatus alanlari --- 
-  
-
---- PostError alanlari --- 
-  
-
---- Gonderi durumlari (id, status, dueAt, sentAt, error, channelId, text) ---
-  urun/kurdele-vazo-silk-parlak-3d-baski|gonderi -> SORGU HATASI: Buffer: Unknown argument "id" on field "Query.post".; Field "error" of type "PostPublishingError" must have a selection of subfields. Did you mean "error { ... }"?; Argument "Query.post(input:)" of type "PostInput!" is required, but it was not provided.
-  urun/kurdele-vazo-silk-parlak-3d-baski|hikaye -> SORGU HATASI: Buffer: Unknown argument "id" on field "Query.post".; Field "error" of type "PostPublishingError" must have a selection of subfields. Did you mean "error { ... }"?; Argument "Query.post(input:)" of type "PostInput!" is required, but it was not provided.
-  urun/retro-drenajli-saksi-ic-mekan-bitki-saksisi|gonderi -> SORGU HATASI: Buffer: Unknown argument "id" on field "Query.post".; Field "error" of type "PostPublishingError" must have a selection of subfields. Did you mean "error { ... }"?; Argument "Query.post(input:)" of type "PostInput!" is required, but it was not provided.
-  urun/retro-drenajli-saksi-ic-mekan-bitki-saksisi|hikaye -> SORGU HATASI: Buffer: Unknown argument "id" on field "Query.post".; Field "error" of type "PostPublishingError" must have a selection of subfields. Did you mean "error { ... }"?; Argument "Query.post(input:)" of type "PostInput!" is required, but it was not provided.
-  urun/burgu-yilbasi-agaci-3d-baski-yilbasi-dekoru|gonderi -> SORGU HATASI: Buffer: Unknown argument "id" on field "Query.post".; Field "error" of type "PostPublishingError" must have a selection of subfields. Did you mean "error { ... }"?; Argument "Query.post(input:)" of type "PostInput!" is required, but it was not provided.
-  urun/burgu-yilbasi-agaci-3d-baski-yilbasi-dekoru|hikaye -> SORGU HATASI: Buffer: Unknown argument "id" on field "Query.post".; Field "error" of type "PostPublishingError" must have a selection of subfields. Did you mean "error { ... }"?; Argument "Query.post(input:)" of type "PostInput!" is required, but it was not provided.
+Traceback (most recent call last):
+  File "/home/runner/work/instagram-gorseller/instagram-gorseller/arac/buffer_durum.py", line 91, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/runner/work/instagram-gorseller/instagram-gorseller/arac/buffer_durum.py", line 66, in main
+    girdi = [a for a, _t, _z in B._alanlar("PostInput")]
+                   ^^^^^^^^^
+ValueError: too many values to unpack (expected 3)
 ```
