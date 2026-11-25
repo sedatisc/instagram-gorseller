@@ -4,18 +4,6 @@ Günde **3 gönderi · 3 hikaye · 1 reels**. Hikaye, gönderiden 40 dakika sonr
 
 Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.json` içinde.
 
-## 2026-11-25 · Çarşamba
-
-| Saat | Tür | Slot | Klasör | Kare |
-|---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/kurdele-vazo-silk-parlak-3d-baski` | 8 |
-| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/kurdele-vazo-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 12:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/retro-drenajli-saksi-ic-mekan-bitki-saksisi` | 7 |
-| 12:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/retro-drenajli-saksi-ic-mekan-bitki-saksisi/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/burgu-yilbasi-agaci-3d-baski-yilbasi-dekoru` | 4 |
-| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/burgu-yilbasi-agaci-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
-| 19:40 | **Reels** | — | _boş — üretilecek_ | — |
-
 ## 2026-11-26 · Perşembe
 
 | Saat | Tür | Slot | Klasör | Kare |
@@ -1423,7 +1411,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 Bu slotlar için içerik henüz üretilmedi:
 
-- 2026-11-25 · REELS
 - 2026-11-26 · REELS
 - 2026-11-27 · REELS
 - 2026-11-28 · REELS
