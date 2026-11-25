@@ -134,8 +134,37 @@ tbody tr:hover td{background:rgba(210,102,91,.04)}
 .pin span.imlec{border-color:rgba(210,102,91,.45)}
 .pin.hata span{border-color:var(--kirmizi);background:rgba(200,71,60,.12);animation:titre .35s}
 @keyframes titre{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
-#ksl{max-height:56vh;overflow-y:auto;gap:8px}
 .d.secim{height:auto;min-height:56px;padding:10px 16px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;text-align:left;gap:2px}
+/* kişi seçimi: kartvizit, cam */
+.secim-ic{max-width:980px}
+.secim-ust{display:flex;align-items:center;gap:14px;margin:8px 0 16px}
+.secim-ust .d{white-space:nowrap;height:44px;padding:0 14px;flex:none}
+.secim-ust h1{margin:0;font-size:24px;line-height:1.2;display:flex;align-items:center;gap:10px}
+.secim-ust h1::before{content:"";width:12px;height:12px;border-radius:50%;background:var(--r)}
+.bas-orta{flex-direction:column;text-align:center;gap:8px}
+.secim-ara input{height:56px;font-size:17px;border-radius:18px;padding:0 20px;background:rgba(255,255,255,.6);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+#ksl{margin-top:18px}
+.kartvizit{all:unset;box-sizing:border-box;cursor:pointer;position:relative;overflow:hidden;display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:18px;
+ background:linear-gradient(135deg,rgba(255,255,255,.78),rgba(255,255,255,.42));-webkit-backdrop-filter:blur(18px) saturate(140%);backdrop-filter:blur(18px) saturate(140%);
+ border:1px solid rgba(255,255,255,.95);box-shadow:0 10px 26px rgba(120,60,55,.10),inset 0 1px 0 rgba(255,255,255,.9);transition:transform .15s,box-shadow .15s}
+.kartvizit::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--r);opacity:.85}
+.kartvizit::after{content:"";position:absolute;top:-60%;right:-30%;width:70%;height:140%;background:linear-gradient(120deg,transparent,rgba(255,255,255,.35),transparent);transform:rotate(18deg);pointer-events:none;z-index:0}
+.kartvizit>*{position:relative;z-index:1}
+.kartvizit>.kv-logo,.kartvizit>.kv-ust{position:absolute}
+.kartvizit:hover,.kartvizit:focus-visible{transform:translateY(-3px);box-shadow:0 16px 34px rgba(120,60,55,.16),inset 0 1px 0 #fff}
+.kartvizit:focus-visible{outline:3px solid color-mix(in srgb,var(--r) 45%,transparent)}
+.kv-izgara{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.buyuk-kv{aspect-ratio:1.75/1;flex-direction:column;align-items:flex-start;justify-content:flex-end;gap:6px;padding:22px 24px 22px 28px;border-radius:22px}
+.kv-logo{position:absolute;top:18px;right:20px;width:52px;height:52px;border-radius:50%;background:#fff;box-shadow:0 4px 12px rgba(0,0,0,.08)}
+.kv-ust{position:absolute;top:22px;left:28px;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--sol)}
+.kv-ad{font-size:21px;font-weight:800;line-height:1.2;color:var(--yazi);max-width:85%}
+.kv-alt{font-size:14px;font-weight:600;color:var(--r)}
+.kv-kisiler{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.kv-harf{flex:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-weight:800;color:var(--r);background:color-mix(in srgb,var(--r) 12%,white);border:1px solid color-mix(in srgb,var(--r) 25%,white)}
+.kv-metin{display:flex;flex-direction:column;gap:2px;min-width:0}
+.kv-metin b{font-size:16px;color:var(--yazi);line-height:1.2}
+.kv-metin small{font-size:12.5px;color:var(--sol)}
+@media (max-width:520px){.secim-ust h1{font-size:19px}.kv-kisiler{grid-template-columns:1fr 1fr}.kartvizit{padding:12px 12px 12px 14px;gap:9px}.kv-harf{width:36px;height:36px;font-size:13px}.kv-metin b{font-size:14.5px}.kv-metin small{display:none}.kv-ad{font-size:19px}}
 /* çıkış, sipariş durumu */
 .oda-cip{text-align:center;padding:12px;border-radius:16px;background:rgba(210,102,91,.08);border:1px dashed rgba(210,102,91,.4);color:var(--yazi)}
 .oda-cip b{color:var(--vurgu)}
@@ -421,17 +450,34 @@ function oturumHatasi(h, anahtar, sonra) {
 }
 
 /* ---------- personel: sipariş ve karekodla ödeme ---------- */
-function kisiSec(ode) {
-  app.innerHTML = bas('Çay Ocağı') + '<main class="ic"><div class="kart sut giris" style="max-width:560px"><span class="ikon" aria-hidden="true">☕</span><h1>Kendinizi seçin</h1>' +
-    '<div class="alt" style="text-align:center">Adınızı bulun, dokunun, şifrenizi girin.</div>' +
-    '<div><label for="ksa">Ad ara</label><input id="ksa" type="search" autocomplete="off" placeholder="Adınızı yazın…"></div><div id="ksl" class="sut" style="width:100%"></div></div></main>';
+function kisiSec(ode, grup) {
+  var GR = [{ k: 'yapi', ad: 'Yapı İşleri ve Teknik Daire Başkanlığı', kisa: 'Yapı İşleri ve Teknik', r: '#C8473C' },
+            { k: 'idari', ad: 'İdari ve Mali İşler Daire Başkanlığı', kisa: 'İdari ve Mali İşler', r: '#8A6E6A' }];
+  function grubu(x) { var b = (x.birim || '').toLocaleLowerCase('tr-TR'); return b.indexOf('yapı işleri') >= 0 ? 'yapi' : b.indexOf('idari ve mali') >= 0 ? 'idari' : 'diger'; }
+  function harf(ad) { var p = ad.trim().split(/\s+/); return (p[0][0] + (p.length > 1 ? p[p.length - 1][0] : '')).toLocaleUpperCase('tr-TR'); }
+  var g = GR.filter(function (z) { return z.k === grup; })[0];
+  app.innerHTML = bas('Çay Ocağı') + '<main class="ic secim-ic">' +
+    (g ? '<div class="secim-ust"><button class="d" id="ksgeri">← Başkanlıklar</button><h1 style="--r:' + g.r + '">' + e(g.kisa) + '</h1></div>'
+       : '<div class="secim-ust bas-orta"><span class="ikon" aria-hidden="true">☕</span><h1>Hoş geldiniz</h1><div class="gri">Başkanlığınızı seçin ya da adınızı yazın</div></div>') +
+    '<div class="secim-ara"><input id="ksa" type="search" autocomplete="off" aria-label="Ad ara" placeholder="🔍  Adınızı yazın…"></div><div id="ksl"></div></main>';
   var liste = [];
   function ciz() {
     var a = q('#ksa').value.trim().toLocaleLowerCase('tr-TR');
-    var m = liste.filter(function (x) { return !a || x.ad.toLocaleLowerCase('tr-TR').indexOf(a) >= 0; });
-    q('#ksl').innerHTML = m.map(function (x) {
-      return '<button class="d secim" data-ksec="' + x.id + '"><b>' + e(x.ad) + '</b><span class="gri kucuk">' + e(x.birim || '') + '</span></button>';
-    }).join('') || '<div class="gri" style="text-align:center">Bulunamadı</div>';
+    if (!g && !a) {
+      q('#ksl').innerHTML = '<div class="kv-izgara">' + GR.map(function (z) {
+        var n = liste.filter(function (x) { return grubu(x) === z.k; }).length;
+        return '<button class="kartvizit buyuk-kv" data-kgr="' + z.k + '" style="--r:' + z.r + '"><img src="logo.png" alt="" class="kv-logo"><span class="kv-ust">Amasya Üniversitesi</span>' +
+          '<span class="kv-ad">' + e(z.ad) + '</span><span class="kv-alt">' + n + ' kişi <span aria-hidden="true">→</span></span></button>';
+      }).join('') + '</div>';
+      bagla('[data-kgr]', 'click', function (b) { kisiSec(ode, b.dataset.kgr); });
+      return;
+    }
+    var m = liste.filter(function (x) { return (!g || grubu(x) === g.k) && (!a || x.ad.toLocaleLowerCase('tr-TR').indexOf(a) >= 0); });
+    q('#ksl').innerHTML = m.length ? '<div class="kv-kisiler">' + m.map(function (x) {
+      var z = GR.filter(function (t) { return t.k === grubu(x); })[0] || { r: '#8A6E6A', kisa: x.birim || '' };
+      return '<button class="kartvizit" data-ksec="' + x.id + '" style="--r:' + z.r + '"><span class="kv-harf">' + e(harf(x.ad)) + '</span>' +
+        '<span class="kv-metin"><b>' + e(x.ad) + '</b><small>' + e(z.kisa) + '</small></span></button>';
+    }).join('') + '</div>' : '<div class="gri" style="text-align:center;padding:20px">Bulunamadı</div>';
     bagla('[data-ksec]', 'click', function (b) { sec(liste.filter(function (z) { return z.id === +b.dataset.ksec; })[0]); });
   }
   function sec(x) {
@@ -442,9 +488,10 @@ function kisiSec(ode) {
       });
     });
     var g = document.createElement('button'); g.type = 'button'; g.className = 'd'; g.style.width = '100%'; g.textContent = '← Listeye dön';
-    g.addEventListener('click', function () { kisiSec(ode); });
+    g.addEventListener('click', function () { kisiSec(ode, grup); });
     q('#gf').appendChild(g);
   }
+  if (q('#ksgeri')) q('#ksgeri').addEventListener('click', function () { kisiSec(ode); });
   rpc('kisi_listesi', {}).then(function (r) { liste = r; ciz(); q('#ksa').addEventListener('input', ciz); }).catch(function (h) { uyar(h.message, true); });
 }
 function personel(ode) {
