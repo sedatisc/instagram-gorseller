@@ -1,6 +1,6 @@
-geri-al: urun/vidali-yapim-tahtasi
-simdi: urun/vidali-yapim-tahtasi
+geri-al: urun/vidali-yapim-tahtasi-tornavidali-sok-tak-egitici-oyuncak-seti|hikaye
+simdi: urun/vidali-yapim-tahtasi-tornavidali-sok-tak-egitici-oyuncak-seti|hikaye
 
-2026-11-26 00:40 Vidali Yapim Tahtasi gonderisi ve hikayesi
-Bufferdan silinip hemen yayina aliniyor; yeni JPEG medyayla
-yayinin gercekten ciktigi dogrulanacak.
+2026-11-26 00:58 Gonderi yayinlandi, hikaye Metanin yayimlama
+adiminda hata aldi (media cannot be found). Hikaye yeniden
+deneniyor.
