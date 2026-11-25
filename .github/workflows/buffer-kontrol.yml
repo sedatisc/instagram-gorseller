@@ -29,7 +29,19 @@ jobs:
             printf "# Buffer kontrolü\n\nBUFFER_TOKEN secret'ı bulunamadı.\n" > otomasyon/SON-BUFFER.md
           else
             python3 otomasyon/buffer_gonder.py --kontrol > /tmp/k.txt 2>&1 || true
-            { echo "# Buffer kontrolü"; echo; echo '```'; tail -20 /tmp/k.txt; echo '```'; } > otomasyon/SON-BUFFER.md
+            # İstek dosyasının ilk satırında "durum: <YYYY-AA-GG>" varsa o
+            # günün gönderilerinin Buffer'daki hâli de soruluyor.
+            GUN=$(grep -m1 '^durum:' otomasyon/kontrol-istek.txt \
+                  | sed 's/^durum: *//' || true)
+            if [ -n "$GUN" ]; then
+              python3 arac/buffer_durum.py "$GUN" > /tmp/d.txt 2>&1 || true
+            fi
+            { echo "# Buffer kontrolü"; echo; echo '```'; tail -20 /tmp/k.txt;
+              echo '```';
+              if [ -n "$GUN" ]; then
+                echo; echo "## $GUN gönderilerinin durumu"; echo;
+                echo '```'; tail -90 /tmp/d.txt; echo '```';
+              fi; } > otomasyon/SON-BUFFER.md
           fi
       - name: Sonucu kaydet
         run: |
