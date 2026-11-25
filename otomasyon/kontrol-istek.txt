@@ -1,4 +1,3 @@
 durum: 2026-11-26
 
-Yarinin gonderilerinde Buffer a hangi medya adresinin verildigi
-kontrol ediliyor.
+Hemen yayina alinan gonderi ve hikayenin Buffer durumu okunuyor.
