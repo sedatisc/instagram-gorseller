@@ -222,7 +222,11 @@ def gonder(kanal, metin, varliklar, zaman, tur, turler, baglanti=None,
     # shouldShareToFeed her Instagram gönderi türünde zorunlu. Yalnız
     # reels'e koyduğumuz için gönderi ve hikaye "required field" hatasıyla
     # geri dönüyordu; artık hepsine giriyor.
-    ig["shouldShareToFeed"] = True
+    # shouldShareToFeed her Instagram gönderi türünde zorunlu ama anlamı
+    # "akışta da paylaş": bu reels/gönderi için geçerli, hikaye için
+    # değil. Hepsine True konunca hikaye yayımlanırken "The media with
+    # <id> cannot be found" hatasına düşüyordu; hikayede False gidiyor.
+    ig["shouldShareToFeed"] = tur != "story"
     # Şemanın zorunlu tuttuğu başka alan varsa türüne uygun değerle
     # dolduruluyor; boş kalan alan isteğin tamamını düşürüyor.
     for a, t in ZORUNLU_ALAN:
