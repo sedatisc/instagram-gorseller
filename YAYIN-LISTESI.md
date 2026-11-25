@@ -16,18 +16,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 | 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/burgu-yilbasi-agaci-3d-baski-yilbasi-dekoru/hikaye.jpg` | 1 |
 | 19:40 | **Reels** | — | _boş — üretilecek_ | — |
 
-## 2026-11-26 · Perşembe
-
-| Saat | Tür | Slot | Klasör | Kare |
-|---|---|---|---|---|
-| 09:05 | Gönderi | BASKI ÜRÜNLERİ | `urun/vidali-yapim-tahtasi-tornavidali-sok-tak-egitici-oyuncak-seti` | 6 |
-| 09:45 | Hikaye | BASKI ÜRÜNLERİ | `urun/vidali-yapim-tahtasi-tornavidali-sok-tak-egitici-oyuncak-seti/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/cizgi-sanati-susler-yilbasi-agaci-susu` | 5 |
-| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/cizgi-sanati-susler-yilbasi-agaci-susu/hikaye.jpg` | 1 |
-| 17:24 | Gönderi | BASKI ÜRÜNLERİ | `urun/6-bolmeli-tezgah-duzenleyici-silk-parlak-3d-baski` | 8 |
-| 18:04 | Hikaye | BASKI ÜRÜNLERİ | `urun/6-bolmeli-tezgah-duzenleyici-silk-parlak-3d-baski/hikaye.jpg` | 1 |
-| 19:40 | **Reels** | — | _boş — üretilecek_ | — |
-
 ## 2026-11-27 · Cuma
 
 | Saat | Tür | Slot | Klasör | Kare |
@@ -2563,7 +2551,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 Bu slotlar için içerik henüz üretilmedi:
 
 - 2026-11-25 · REELS
-- 2026-11-26 · REELS
 - 2026-11-27 · REELS
 - 2026-11-28 · REELS
 - 2026-11-29 · REELS
