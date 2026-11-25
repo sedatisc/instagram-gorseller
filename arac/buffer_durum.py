@@ -76,11 +76,36 @@ def main():
     hata_ad, _ = alanlar("PostPublishingError")
     print("\n--- PostPublishingError alanlari ---\n  " + ", ".join(hata_ad))
 
+    # Gönderinin medyası: Buffer'a hangi adresi verdiğimizi görmek için.
+    varlik_tur = ""
+    try:
+        d = B._sorgu('query { __type(name: "Post") { fields { name type '
+                     '{ name kind ofType { name kind ofType '
+                     '{ name kind ofType { name } } } } } } }')
+        for f in ((d.get("__type") or {}).get("fields") or []):
+            if f["name"] != "assets":
+                continue
+            t = f["type"]
+            while t and not t.get("name"):
+                t = t.get("ofType")
+            varlik_tur = (t or {}).get("name") or ""
+    except Exception as e:
+        print("varlik turu okunamadi: %s" % e)
+    varlik_ad = []
+    if varlik_tur:
+        varlik_ad, _ = alanlar(varlik_tur)
+        print("\n--- %s alanlari ---\n  %s" % (varlik_tur,
+                                               ", ".join(varlik_ad)))
+
     sec = [a for a in ("id", "status", "dueAt", "sentAt",
                        "notificationStatus", "schedulingType", "sharedNow",
                        "shareMode", "channelId") if a in ad]
     if "error" in ad and hata_ad:
         sec.append("error { %s }" % " ".join(hata_ad))
+    varlik_sec = [a for a in ("id", "mimeType", "source", "thumbnail",
+                              "url", "type") if a in varlik_ad]
+    if varlik_sec:
+        sec.append("assets { %s }" % " ".join(varlik_sec))
 
     print("\n--- Gonderi durumlari ---")
     for x in kayit:

@@ -1,3 +1,4 @@
-durum: 2026-11-25
+durum: 2026-11-26
 
-Ucuncu deneme: PostInput alanlari dogrudan introspection ile.
+Yarinin gonderilerinde Buffer a hangi medya adresinin verildigi
+kontrol ediliyor.
