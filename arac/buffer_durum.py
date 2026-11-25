@@ -63,7 +63,14 @@ def main():
     ad, _ = alanlar("Post")
     print("\n--- Post alanlari ---\n  " + ", ".join(ad))
 
-    girdi = [a for a, _t, _z in B._alanlar("PostInput")]
+    try:
+        d = B._sorgu('query T($n: String!) { __type(name: $n) '
+                     '{ inputFields { name type { name kind ofType '
+                     '{ name } } } } }', {"n": "PostInput"})
+        girdi = [f["name"]
+                 for f in ((d.get("__type") or {}).get("inputFields") or [])]
+    except Exception as e:
+        girdi = ["(okunamadi: %s)" % e]
     print("\n--- PostInput alanlari ---\n  " + ", ".join(girdi))
 
     hata_ad, _ = alanlar("PostPublishingError")
