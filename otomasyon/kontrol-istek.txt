@@ -1,3 +1,3 @@
 durum: 2026-11-26
 
-Hikaye yeniden denemesinin sonucu okunuyor.
+shouldShareToFeed False ile hikaye denemesinin sonucu.
