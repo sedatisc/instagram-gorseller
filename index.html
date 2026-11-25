@@ -261,6 +261,7 @@ function e(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (
 function sayi(n, o) { return Number(n).toLocaleString('tr-TR', { minimumFractionDigits: o, maximumFractionDigits: o }); }
 function tl(k) { return sayi(k / 100, 2) + ' ₺'; }
 function fis(k) { var f = k / F; return (f < 0 ? '−' : '') + Number(Math.abs(f)).toLocaleString('tr-TR', { maximumFractionDigits: 1 }) + ' fiş'; }
+function pTL(k) { return (k < 0 ? '−' : '') + tl(Math.abs(k)); }
 function ikili(k) { return fis(k) + ' · ' + (k < 0 ? '−' : '') + tl(Math.abs(k)); }
 function tlOku(s) { var t = String(s).trim().replace(/\./g, '').replace(',', '.'); if (!/^-?\d+(\.\d{1,2})?$/.test(t)) return NaN; return Math.round(parseFloat(t) * 100); }
 function bugun() { var d = new Date(); return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2); }
@@ -341,7 +342,7 @@ function urunSatirlari(urunler, adet) {
   return urunler.map(function (u) {
     var n = adet[u.id] || 0;
     return '<div class="kart sat' + (n ? ' secili' : '') + '"><div><div style="font-size:19px;font-weight:700">' + e(u.ad) + '</div>' +
-      '<div class="gri kucuk">' + u.fis + ' fiş · ' + tl(u.fis * F) + '</div></div>' +
+      '<div class="gri kucuk">' + tl(u.fis * F) + '</div></div>' +
       '<div class="sat"><button class="yuv" data-eksi="' + u.id + '" aria-label="' + e(u.ad) + ' azalt">−</button>' +
       '<div class="adet">' + n + '</div>' +
       '<button class="yuv koyu" data-arti="' + u.id + '" aria-label="' + e(u.ad) + ' artır">+</button></div></div>';
@@ -523,8 +524,8 @@ function personel(ode) {
     app.innerHTML = bas('', true) +
       '<main class="ic dar"><section class="cuzdan' + (veri.bakiye_kurus < 0 ? ' eksi' : '') + '"><div class="cz-ad">' + e(veri.ad) + '</div>' +
       '<div class="cz-para"><span class="cz-simge" aria-hidden="true">₺</span><span class="cz-tutar">' + (veri.bakiye_kurus < 0 ? '−' : '') + sayi(Math.abs(veri.bakiye_kurus) / 100, 2) + '</span></div>' +
-      '<div class="cz-fis">' + fis(veri.bakiye_kurus) + '</div>' +
-      '<div class="cz-cubuk"><i style="width:' + oran + '%"></i></div><div class="cz-alt">Kullanılabilir: ' + (kul > 0 ? fis(kul) : '0 fiş') + '</div></section>' +
+
+      '<div class="cz-cubuk"><i style="width:' + oran + '%"></i></div><div class="cz-alt">Kullanılabilir: ' + pTL(Math.max(kul, 0)) + '</div></section>' +
       (veri.bekleyen.length ? '<h2>Bekleyen siparişiniz</h2>' + veri.bekleyen.map(function (s) {
         return '<div class="kart sut secili"><div class="sat"><b>' + e(s.ozet) + '</b><span class="gri kucuk">' + e(s.saat) + '</span></div>' +
           '<div class="sat"><span class="durum ' + (s.durum === 'hazir' ? 'yolda' : 'hazirlaniyor') + '">' + (s.durum === 'hazir' ? '🚶 Yolda' : '⏳ Hazırlanıyor') + '</span><span class="gri kucuk">' + e(s.yer || '') + '</span>' +
@@ -533,14 +534,14 @@ function personel(ode) {
       '<h2>' + (ode ? 'Çay ocağında ödeme' : 'Sipariş') + '</h2>' + urunSatirlari(veri.urunler, adet) +
       (ode ? '' : veri.oda && !odaDegis ? '<div class="oda-cip sat"><span>🚪 Siparişiniz <b>Oda ' + e(veri.oda) + '</b>\'ya gelecek</span><button class="d" id="odadegis" style="height:38px">Değiştir</button></div>'
         : '<div><label for="yer">Oda numarası</label><input id="yer" type="text" inputmode="numeric" maxlength="4" pattern="[0-9]*" autocomplete="off" placeholder="Örn. 105" value="' + e(yer) + '"></div>') +
-      '<div class="kart sut kucuk"><div class="sat"><span class="gri">Toplam</span><b>' + ikili(t) + '</b></div>' +
-      '<div class="sat"><span class="gri">Sonrası</span><b>' + ikili(veri.bakiye_kurus - t) + '</b></div></div>' +
-      '<button class="d ana tam" id="gonder"' + (t && !mesgul ? '' : ' disabled') + '>' + (ode ? 'Öde' : 'Sipariş ver') + (t ? ' · ' + fis(t) : '') + '</button>' +
+      '<div class="kart sut kucuk"><div class="sat"><span class="gri">Toplam</span><b>' + pTL(t) + '</b></div>' +
+      '<div class="sat"><span class="gri">Sonrası</span><b>' + pTL(veri.bakiye_kurus - t) + '</b></div></div>' +
+      '<button class="d ana tam" id="gonder"' + (t && !mesgul ? '' : ' disabled') + '>' + (ode ? 'Öde' : 'Sipariş ver') + (t ? ' · ' + pTL(t) : '') + '</button>' +
       '<a class="d" style="display:flex;align-items:center;justify-content:center;text-decoration:none;color:inherit" href="#' + (ode ? '' : 'ode') + '">' + (ode ? 'Odama sipariş ver' : 'Çay ocağındayım, burada öde') + '</a>' +
       '<h2 style="margin-top:8px">Son hareketler</h2><div class="kart tasma"><table><tbody>' +
       (veri.hareketler.length ? veri.hareketler.map(function (h) {
         return '<tr><td class="kucuk gri">' + e(h.zaman) + '</td><td class="kucuk">' + e(h.tur === 'yukleme' ? 'Nakit yükleme' : h.aciklama || h.tur) + '</td>' +
-          '<td class="sag ' + (h.tutar_kurus > 0 ? 'yesil' : '') + '">' + (h.tutar_kurus > 0 ? '+' : '') + fis(h.tutar_kurus) + '</td></tr>';
+          '<td class="sag ' + (h.tutar_kurus > 0 ? 'yesil' : '') + '">' + (h.tutar_kurus > 0 ? '+' : '') + pTL(h.tutar_kurus) + '</td></tr>';
       }).join('') : '<tr><td class="gri">Kayıt yok</td></tr>') + '</tbody></table></div></main>';
     adetBagla(adet, function () { istek = null; ciz(); });
     cikisBagla(function () { koy('cay_kisi', null); koy('cay_link', null); temizle(); kisiSec(ode); });
@@ -626,7 +627,7 @@ function ocakCalis(o) {
       gorulen = Math.max(gorulen || 0, enB);
       if (r.son_odeme && r.son_odeme.siparis_id !== sonOdeme) {
         var yeni = sonOdeme !== null; sonOdeme = r.son_odeme.siparis_id;
-        if (yeni) { bip(); goster({ ok: true, ad: r.son_odeme.ad, metin: r.son_odeme.ozet + ' · ' + fis(r.son_odeme.toplam_kurus) + ' düşüldü · Kalan ' + ikili(r.son_odeme.kalan_kurus) + ' · Karekod' }); return; }
+        if (yeni) { bip(); goster({ ok: true, ad: r.son_odeme.ad, metin: r.son_odeme.ozet + ' · ' + pTL(r.son_odeme.toplam_kurus) + ' düşüldü · Kalan ' + pTL(r.son_odeme.kalan_kurus) + ' · Karekod' }); return; }
       } else if (sonOdeme === null) sonOdeme = 0;
       ciz();
     }).catch(function (h) {
@@ -643,7 +644,7 @@ function ocakCalis(o) {
     mesgul = true;
     rpcTekrarli('ocak_kart', { p_o: o, p_kart: no, p_kalemler: k, p_istek: istekNo() }).then(function (r) {
       mesgul = false; varsayilan(); bip();
-      goster({ ok: true, ad: r.ad, metin: r.ozet + ' · ' + fis(r.toplam_kurus) + ' düşüldü · Kalan ' + ikili(r.kalan_kurus), siparis: r.siparis_id });
+      goster({ ok: true, ad: r.ad, metin: r.ozet + ' · ' + pTL(r.toplam_kurus) + ' düşüldü · Kalan ' + pTL(r.kalan_kurus), siparis: r.siparis_id });
     }).catch(function (h) { mesgul = false; goster({ ok: false, ad: h.message, metin: 'Kart: ' + no }); });
   }
   function ciz() {
@@ -652,7 +653,7 @@ function ocakCalis(o) {
       return;
     }
     var t = toplamFis(veri.urunler, adet) * F;
-    app.innerHTML = '<header class="bas">' + kurum() + '<div class="sat"><div class="ad">Çay Ocağı</div><div class="kucuk gri">1 fiş = ' + tl(F) + '</div></div></header>' +
+    app.innerHTML = '<header class="bas">' + kurum() + '<div class="sat"><div class="ad">Çay Ocağı</div></div></header>' +
       (hataSay > 1 ? '<div style="background:#8F2A1B;color:#fff;padding:10px 28px;font-weight:700">Bağlantı yok · Son güncelleme ' + e(sonGuncel) + '</div>' : '') +
       '<div class="tablet"><section class="sol"><div class="sat"><h2>Gelen siparişler</h2><div class="rozet">' + veri.bekleyen.length + '</div></div>' +
       (veri.bekleyen.length ? veri.bekleyen.map(function (s) {
@@ -661,7 +662,7 @@ function ocakCalis(o) {
           '<div class="sat"><button class="d" data-iptal="' + s.id + '">İptal</button><button class="d koyu" data-hazir="' + s.id + '">Hazırlandı</button></div></div>';
       }).join('') : '<div class="kart gri">Bekleyen sipariş yok</div>') + '</section>' +
       '<section class="sagk"><h2>Kartla ödeme</h2>' + urunSatirlari(veri.urunler, adet) +
-      '<div class="sat"><span class="gri">Seçilen: ' + ikili(t) + '</span><b>Kartı okuyucuya okutun</b></div>' +
+      '<div class="sat"><span class="gri">Seçilen: ' + pTL(t) + '</span><b>Kartı okuyucuya okutun</b></div>' +
       '<div class="sonuc' + (sonuc ? (sonuc.ok ? ' ok' : ' red') : '') + '" aria-live="polite">' + (sonuc ?
         '<div style="flex:1"><div class="' + (sonuc.ok ? 'yesil' : 'kirmizi') + '">' + (sonuc.ok ? 'Ödeme başarılı' : 'Ödeme yapılamadı') + '</div><div class="isim">' + e(sonuc.ad) + '</div><div>' + e(sonuc.metin) + '</div></div>' +
         (sonuc.siparis ? '<button class="d" id="tgeri">Geri al</button>' : '')
@@ -729,12 +730,12 @@ function dagitici() {
     q('#liste').innerHTML = k.map(function (x) {
       var dolu = !x.misafir && x.bakiye_kurus <= -LIMIT;
       var bakiye = x.misafir ? '<span class="gri kucuk">birim hesabı</span>' :
-        '<span class="kucuk ' + (x.bakiye_kurus < 0 ? 'kirmizi' : 'gri') + '">' + fis(x.bakiye_kurus) + (dolu ? ' · limit doldu' : '') + '</span>';
+        '<span class="kucuk ' + (x.bakiye_kurus < 0 ? 'kirmizi' : 'gri') + '">' + pTL(x.bakiye_kurus) + (dolu ? ' · limit doldu' : '') + '</span>';
       if (acik === x.id && !dolu) {
         return '<div class="kart sut secili"><div class="sat"><b style="font-size:18px">' + e(x.ad) + '</b>' + bakiye + '</div><div class="sat">' +
           veri.urunler.map(function (u, i) {
             var c = 'd urunb ur' + (i % 4) + (basilan === u.id ? ' basildi' : mesgul ? ' soluk' : '') + (biten === u.id ? ' tamam' : '');
-            return '<button class="' + c + '" data-sat="' + u.id + '"' + (mesgul ? ' disabled' : '') + '>' + (biten === u.id ? '✓ ' : '') + e(u.ad) + '<br><span class="kucuk">' + (basilan === u.id ? 'Kaydediliyor…' : biten === u.id ? 'Verildi' : u.fis + ' fiş') + '</span></button>';
+            return '<button class="' + c + '" data-sat="' + u.id + '"' + (mesgul ? ' disabled' : '') + '>' + (biten === u.id ? '✓ ' : '') + e(u.ad) + '<br><span class="kucuk">' + (basilan === u.id ? 'Kaydediliyor…' : biten === u.id ? 'Verildi' : tl(u.fis * F)) + '</span></button>';
           }).join('') + '</div></div>';
       }
       return '<button class="kart sat' + (dolu ? ' pasif' : '') + '" style="width:100%;text-align:left" data-kisi="' + x.id + '"><b>' + e(x.ad) + '</b>' + bakiye + '</button>';
