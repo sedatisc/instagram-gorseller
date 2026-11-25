@@ -71,8 +71,10 @@ jobs:
       # kabul etmiyor. Sitedeki ürün karelerinin JPEG kopyası depoya
       # aktarılıp gönderide o adres kullanılıyor; görsel aynı kalıyor.
       - name: Ürün görsellerini JPEG olarak aktar
+        timeout-minutes: 12
+        continue-on-error: true
         run: |
-          python3 arac/urun_gorsel_aktar.py --kilit || true
+          python3 -u arac/urun_gorsel_aktar.py --kilit || true
           git config user.name  "yayin-botu"
           git config user.email "noreply@github.com"
           git add -A gorsel/urun

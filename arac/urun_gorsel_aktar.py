@@ -17,9 +17,11 @@ depoya konuyor. Gönderi de depodaki hızlı adresi kullanıyor.
     python3 arac/urun_gorsel_aktar.py --urun kurdele-vazo-silk-parlak-3d-baski
     python3 arac/urun_gorsel_aktar.py --kilit --kuru # yalnız rapor
 """
+import concurrent.futures as cf
 import io
 import os
 import sys
+import time
 import urllib.request
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -38,9 +40,24 @@ KALITE = 88
 EN_DAR, EN_GENIS = 0.80, 1.91
 
 
+# Tek karenin indirilmesi için üst sınır. Site medyayı bazen çok yavaş
+# veriyor; 25 Kasım'da aktarım 20 dakikada tek kare bitirmeden iş akışı
+# zaman aşımına düştü. Takılan kare bütçeyi yemesin diye kısa tutuluyor,
+# denemesi yineleniyor.
+ZAMAN_ASIMI = 25
+DENEME = 3
+
+
 def indir(url):
-    r = urllib.request.Request(url, headers=AJAN)
-    return urllib.request.urlopen(r, timeout=90).read()
+    son = None
+    for d in range(DENEME):
+        try:
+            r = urllib.request.Request(url, headers=AJAN)
+            return urllib.request.urlopen(r, timeout=ZAMAN_ASIMI).read()
+        except Exception as e:
+            son = e
+            time.sleep(1 + d)
+    raise son
 
 
 def cevir(ham):
@@ -99,36 +116,50 @@ def main():
     if not kuru:
         os.makedirs(HEDEF, exist_ok=True)
     sl = slugler()
-    print("ürün: %d" % len(sl))
-    yeni = atlanan = hata = 0
+    print("ürün: %d" % len(sl), flush=True)
+
+    isler, atlanan, hata = [], 0, 0
     for s in sl:
         urller = UK.gorseller(UK.ONEK + s)
         if not urller:
-            print("  %s — site görseli yok" % s)
+            print("  %s — site görseli yok" % s, flush=True)
             hata += 1
             continue
         for i, u in enumerate(urller[:10], 1):
             ad = "%s-%d.jpg" % (s, i)
-            yol = os.path.join(HEDEF, ad)
-            if os.path.exists(yol) and not yenile:
+            if os.path.exists(os.path.join(HEDEF, ad)) and not yenile:
                 atlanan += 1
                 continue
-            try:
-                veri, boy = cevir(indir(u))
-            except Exception as e:
-                print("  %s — %s" % (ad, e))
+            isler.append((ad, u))
+    print("indirilecek kare: %d · zaten vardı: %d" % (len(isler), atlanan),
+          flush=True)
+
+    def getir(is_):
+        ad, u = is_
+        t = time.time()
+        try:
+            veri, boy = cevir(indir(u))
+        except Exception as e:
+            return ad, None, None, time.time() - t, str(e)
+        return ad, veri, boy, time.time() - t, ""
+
+    yeni = 0
+    with cf.ThreadPoolExecutor(6) as ex:
+        for ad, veri, boy, sure, e in ex.map(getir, isler):
+            if veri is None:
+                print("  %s — %.1f sn sonra: %s" % (ad, sure, e), flush=True)
                 hata += 1
                 continue
-            if kuru:
-                print("  %s  %dx%d  %d KB (kuru)"
-                      % (ad, boy[0], boy[1], len(veri) // 1024))
-            else:
-                with open(yol, "wb") as f:
+            if not kuru:
+                with open(os.path.join(HEDEF, ad), "wb") as f:
                     f.write(veri)
-                print("  %s  %dx%d  %d KB"
-                      % (ad, boy[0], boy[1], len(veri) // 1024))
+            print("  %s  %dx%d  %d KB  %.1f sn%s"
+                  % (ad, boy[0], boy[1], len(veri) // 1024, sure,
+                     " (kuru)" if kuru else ""), flush=True)
             yeni += 1
-    print("yeni: %d · zaten vardı: %d · hata: %d" % (yeni, atlanan, hata))
+
+    print("yeni: %d · zaten vardı: %d · hata: %d" % (yeni, atlanan, hata),
+          flush=True)
     return 1 if hata and not yeni else 0
 
 

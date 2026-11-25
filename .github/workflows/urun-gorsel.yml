@@ -1,0 +1,66 @@
+name: Ürün görsellerini JPEG'e aktar
+
+# Instagram medyayı verdiğimiz adresten kendisi indiriyor ve sitedeki
+# .webp kareyi kabul etmiyor. Bu iş akışı sitedeki karelerin JPEG
+# kopyasını depoya aktarıyor; gönderi o adresi kullanıyor. Elle
+# çalıştırılıyor, gece gönderimi de aynı adımı kendi içinde yapıyor.
+
+on:
+  workflow_dispatch:
+    inputs:
+      kapsam:
+        description: "kilit (onaylı günler) · gun:YYYY-AA-GG · urun:<slug>"
+        type: string
+        default: "kilit"
+      yenile:
+        description: "Var olan JPEG'leri de yeniden üret"
+        type: boolean
+        default: false
+      kuru:
+        description: "Kuru çalışma — dosya yazılmaz"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: urun-gorsel
+  cancel-in-progress: false
+
+jobs:
+  aktar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "pillow>=10.4"
+
+      - name: Aktar
+        run: |
+          K="${{ inputs.kapsam }}"
+          ARG="--kilit"
+          case "$K" in
+            gun:*)  ARG="--gun ${K#gun:}" ;;
+            urun:*) ARG="--urun ${K#urun:}" ;;
+          esac
+          if [ "${{ inputs.yenile }}" = "true" ]; then ARG="$ARG --yenile"; fi
+          if [ "${{ inputs.kuru }}" = "true" ]; then ARG="$ARG --kuru"; fi
+          python3 -u arac/urun_gorsel_aktar.py $ARG
+
+      - name: Kaydet
+        if: ${{ inputs.kuru != true }}
+        run: |
+          git config user.name  "yayin-botu"
+          git config user.email "noreply@github.com"
+          git add -A gorsel/urun
+          if git diff --cached --quiet; then
+            echo "Yeni JPEG yok."
+          else
+            git commit -m "Ürün görselleri JPEG olarak aktarıldı (otomatik)"
+            git pull --rebase --autostash origin main
+            git push origin HEAD:main
+          fi
