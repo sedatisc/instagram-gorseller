@@ -442,6 +442,10 @@ def main():
     yapilan = {g["anahtar"] for g in defter["gonderilen"]}
     simdi = yayinla.simdi().replace(tzinfo=None)
     isler = []
+    # Atlanan işler rapora da yazılıyor. 23 ve 25 Kasım'da rapor "bu gün
+    # için iş yok" dedi; işler aslında elenmişti ama sebebi yalnız iş
+    # günlüğünde kalıyordu, rapora bakan bunu göremiyordu.
+    atlanan = []
     # Onay kilidi: gece gönderimi yalnız hafta-kilit.json'daki onaylı
     # günlerde iş gönderiyor. Kilit bitince plan kendiliğinden ilerleyip
     # onaysız iş göndermiyor; hafta yeniden onaylanıp kilitlenene kadar
@@ -457,12 +461,14 @@ def main():
             continue
         if i.get("slot") != "kampanya" and gun_s not in onayli:
             print("Onaysız gün, atlandı: %s (%s)" % (i["anahtar"], gun_s))
+            atlanan.append((i["zaman"], i["anahtar"], "onaysız gün"))
             continue
         # Saati geçmiş iş Buffer'a planlanamıyor; sessizce atlanıyor ki
         # gün ortasında çalıştırılan gönderim hataya düşmesin.
         if datetime.fromisoformat(i["zaman"]) <= simdi:
             print("Saati geçti, atlandı: %s (%s)" % (i["anahtar"],
                                                      i["zaman"]))
+            atlanan.append((i["zaman"], i["anahtar"], "saati geçti"))
             continue
         # Gün içinde elle tetiklenen gönderimde yalnız tarihi elle
         # yazılmış (kampanya) işler gidiyor. Plan gün ortasında yeniden
@@ -573,6 +579,8 @@ def main():
         for k in sorted(klasorler):
             sira.komut_yayinlandi(k, gun_s)
 
+    for z, a, n in atlanan:
+        satir.append("| %s | %s | atlandı: %s |" % (z, a, n))
     if not satir:
         satir.append("| — | — | bu gün için iş yok |")
     with open(RAPOR, "w", encoding="utf-8") as f:

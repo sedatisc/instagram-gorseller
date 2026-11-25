@@ -32,8 +32,19 @@ on:
 
   # Gece gönderimi yalnız otomasyon/hafta-kilit.json içindeki onaylı
   # günlerde iş gönderiyor. Kilit bitince kendiliğinden duruyor.
+  #
+  # GitHub'ın zamanlayıcısı garanti değil: 23 Kasım'da 4, 24 Kasım'da 8
+  # saat gecikti, 25 Kasım gecesi hiç tetiklenmedi. Saati geçmiş iş
+  # Buffer'a planlanamadığı için tek bir saat yetmiyor. O yüzden gece
+  # boyunca beş deneme var; hepsi Türkiye saatiyle aynı güne ve ilk
+  # gönderiden (09.10) önceye düşüyor. Gönderim deftere bakıp gönderilmiş
+  # işi atladığı için ilk çalışan işi bitiriyor, kalanlar boş geçiyor.
   schedule:
-    - cron: "30 21 * * *"
+    - cron: "30 21 * * *"   # 00.30 TR
+    - cron: "30 23 * * *"   # 02.30 TR
+    - cron: "30 1 * * *"    # 04.30 TR
+    - cron: "30 3 * * *"    # 06.30 TR
+    - cron: "0 5 * * *"     # 08.00 TR
 
 permissions:
   contents: write
