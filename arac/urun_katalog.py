@@ -19,7 +19,24 @@ ONEK = "urun/"                      # icerik.json'daki sanal klasör öneki
 
 # Kategori -> gönderi metninde kullanılacak etiketler. Jenerik etiket
 # erişime katkı vermiyor, o yüzden ürüne özel olanlar seçiliyor.
+#
+# Sitenin kategorileri Kasım 2026'da genişledi: eski ince kırılımların
+# yerini on dört geniş kategori aldı. Yeni adlar aşağıda; eskiler, site
+# yeniden kırılıma dönerse çalışsın diye duruyor.
 ETIKET = {
+    "banyo": ["banyoduzeni", "banyodekorasyonu"],
+    "cocuk-oyuncaklari": ["egiticioyuncak", "cocukoyuncagi"],
+    "duvar-rafi-ve-askilar": ["duvarrafi", "duvaraskisi"],
+    "ev-dekorasyonu": ["evdekorasyonu", "dekoratifobje"],
+    "ev-duzeni-ve-saklama": ["evduzeni", "saklamakutusu"],
+    "evcil-hayvan": ["evcilhayvan", "kedikopek"],
+    "makyaj-ve-taki-duzenleyici": ["makyajorganizeri", "takiduzenleyici"],
+    "masa-ve-kutu-oyunlari": ["kutuoyunu", "masaoyunu"],
+    "masaustu-ve-ofis": ["masaduzeni", "masaustuduzenleyici"],
+    "mutfak-ve-sofra": ["mutfakduzeni", "sofradekoru"],
+    "vazo-ve-saksi": ["dekoratifvazo", "saksi"],
+    "yilbasi": ["yilbasisusu", "yilbasi"],
+
     "anahtarlik": ["anahtarlik", "cantasusu"],
     "aski": ["duvaraskisi", "portmanto"],
     "ayakkabilik": ["ayakkabilik", "antredüzeni"],
@@ -71,6 +88,18 @@ ETIKET = {
 # Kategori -> gönderiyi kime yollatacağımız. Gönderim, takipçi olmayana
 # ulaşmada en ağır sinyal; cümle ürüne göre değişiyor.
 YOLLA = {
+    "banyo": "Banyosunu toplamak isteyen birine yolla.",
+    "cocuk-oyuncaklari": "Küçük çocuğu olan bir arkadaşına yolla.",
+    "duvar-rafi-ve-askilar": "Duvarına raf arayan arkadaşına yolla.",
+    "ev-duzeni-ve-saklama": "Evini toplamayı seven bir arkadaşına yolla.",
+    "evcil-hayvan": "Kedisi ya da köpeği olan birine yolla.",
+    "makyaj-ve-taki-duzenleyici": "Makyaj masası dağınık olan birine yolla.",
+    "masa-ve-kutu-oyunlari": "Oyun gecesi kurduğun arkadaşına yolla.",
+    "masaustu-ve-ofis": "Masası dağınık olan arkadaşına yolla.",
+    "mutfak-ve-sofra": "Mutfağını toplamayı seven birine yolla.",
+    "vazo-ve-saksi": "Evi bitki dolu olan arkadaşına yolla.",
+    "yilbasi": "Yılbaşı hazırlığına başlayan arkadaşına yolla.",
+
     "bebek-ve-aktivite-oyuncaklari": "Küçük çocuğu olan bir arkadaşına yolla.",
     "egitici-oyuncak": "Küçük çocuğu olan bir arkadaşına yolla.",
     "boyama-seti": "Çocuğuyla vakit geçiren bir arkadaşına yolla.",
