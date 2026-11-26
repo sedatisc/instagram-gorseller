@@ -1,3 +1,5 @@
 durum: 2026-11-26
 
-shouldShareToFeed False ile hikaye denemesinin sonucu.
+26 Kasım sabah gönderisi (09.05) ve hikayesi (09.45) Instagram'a
+gerçekten çıktı mı? JPEG + raw.githubusercontent düzeltmesinin
+işe yarayıp yaramadığını görmek için sorulan okuma kontrolü.
