@@ -1,0 +1,121 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "orman",
+  "kapak": {
+    "tip": "rakam",
+    "ustbilgi": "ÖLÇÜ SAPMASI VE BÜZÜLME",
+    "satir1": "100 MM PARÇA",
+    "satir2": "KAÇ MM KAYBEDER?",
+    "rakam": "0,8 mm",
+    "rakam_alt": "100 mm ABS parçanın büzülme payı",
+    "spot": "Parça ölçüsünde çıkmıyor: malzeme soğurken büzüşüyor, delik küçük basılıyor. Pay slicer'da ölçek olarak veriliyor.",
+    "rozetler": [
+      [
+        "PLA %0,3",
+        "tema"
+      ],
+      [
+        "ABS %0,8",
+        "kirmizi"
+      ],
+      [
+        "Delik küçük çıkar",
+        "turuncu"
+      ]
+    ],
+    "tablo": [
+      [
+        "PLA",
+        "%0,2 - 0,4"
+      ],
+      [
+        "PETG",
+        "%0,4 - 0,6"
+      ],
+      [
+        "ABS / ASA",
+        "%0,7 - 0,8"
+      ],
+      [
+        "NAYLON",
+        "%1,0 - 1,5"
+      ],
+      [
+        "DELİK",
+        "0,1-0,2 mm küçük"
+      ],
+      [
+        "ÖLÇEK DÜZELTME",
+        "ABS'de %100,8"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Büzülme malzemenin kendi payı",
+      "aciklama": "Eriyik tabladan oda sıcaklığına inerken hacim kaybediyor. PLA %0,2-0,4, PETG %0,4-0,6, ABS ve ASA %0,7-0,8, naylon %1,0-1,5 civarında büzüşüyor. 100 mm'lik bir parçada bu PLA'da 0,3 mm, ABS'de 0,8 mm demek — geçme parçada bu fark tek başına işi bitiriyor.",
+      "tablo": [
+        [
+          "PLA",
+          "%0,2 - 0,4"
+        ],
+        [
+          "PETG",
+          "%0,4 - 0,6"
+        ],
+        [
+          "ABS / ASA",
+          "%0,7 - 0,8"
+        ],
+        [
+          "NAYLON",
+          "%1,0 - 1,5"
+        ]
+      ]
+    },
+    {
+      "baslik": "Delik küçük, dış yüzey büyük çıkıyor",
+      "aciklama": "Nozul daireyi kirişlerle dönüyor: delik modeldeki çapından 0,1-0,2 mm küçük basılıyor. Dış silindir ise hat genişliği ve ilk katman yayılmasıyla büyüyor. Bu yüzden delik büyük, mil küçük çizilir; alt kenara 0,5 mm pah elephant foot payını da alıyor.",
+      "tablo": [
+        [
+          "DELİK",
+          "0,1-0,2 mm küçük"
+        ],
+        [
+          "DIŞ SİLİNDİR",
+          "modelden büyük"
+        ],
+        [
+          "DÜZELTME",
+          "delik +, mil -"
+        ],
+        [
+          "ALT KENAR",
+          "0,5 mm pah"
+        ]
+      ]
+    },
+    {
+      "baslik": "Payı tahminle değil ölçerek ver",
+      "aciklama": "100 mm kenarlı bir kalibrasyon parçası bas, soğuduktan sonra kumpasla üç yerden ölç ve ortalamayı al. Sapma %0,8 çıktıysa slicer'da X ve Y ölçeğini %100,8 yap. Malzeme ya da marka değişince ölçümü yenile: aynı dosya PLA'da oturup ABS'de girmiyor.",
+      "tablo": [
+        [
+          "TEST PARÇASI",
+          "100 mm kenar"
+        ],
+        [
+          "ÖLÇÜM",
+          "kumpas · 3 yer"
+        ],
+        [
+          "SAPMA %0,8 İSE",
+          "ölçek %100,8"
+        ],
+        [
+          "YENİLEME",
+          "malzeme değişince"
+        ]
+      ]
+    }
+  ]
+}

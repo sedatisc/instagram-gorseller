@@ -1,0 +1,122 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "koyu",
+  "kapak": {
+    "tip": "carpisma",
+    "satir1": "KÖŞEDEKİ İKİ HATA",
+    "satir2": "İKİ AYRI AYAR",
+    "sol_etiket": "TİTREŞİM",
+    "sag_etiket": "BASINÇ",
+    "sol_metin": "Köşeden sonra duvarda yankı gibi tekrar eden dalga: gövde titriyor. Çözümü input shaping.",
+    "sag_metin": "Köşenin tam üstünde şişme, çıkışında boşluk: eriyik basıncı gecikiyor. Çözümü pressure advance.",
+    "spot": "İkisi de köşeyi bozuyor ama aynı şey değil. Hangisi olduğunu kusurun yerinden anlıyorsun: köşeden sonra tekrar eden dalga titreşim, köşenin kendisinde şişme basınç.",
+    "rozetler": [
+      [
+        "Dalga = titreşim",
+        "kirmizi"
+      ],
+      [
+        "Şişme = basınç",
+        "yesil"
+      ],
+      [
+        "İvmeyi açıyor",
+        "tema"
+      ]
+    ],
+    "tablo": [
+      [
+        "TİTREŞİM KUSURU",
+        "köşeden sonra dalga"
+      ],
+      [
+        "BASINÇ KUSURU",
+        "köşede şişme"
+      ],
+      [
+        "ÖLÇÜM",
+        "ADXL345 ivmeölçer"
+      ],
+      [
+        "REZONANS",
+        "30 - 60 Hz"
+      ],
+      [
+        "PA · DIRECT",
+        "0,02 - 0,05"
+      ],
+      [
+        "PA · BOWDEN",
+        "0,40 - 0,80"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Input shaping titreşimi siliyor",
+      "aciklama": "Gövde her yön değişiminde kendi frekansında salınıyor; bu salınım duvara hayalet dalga olarak basılıyor. Input shaping hareket komutunu o frekansı söndürecek şekilde bölüyor. Frekans ADXL345 ivmeölçerle ölçülüyor ve çoğu makinede 30-60 Hz çıkıyor.",
+      "tablo": [
+        [
+          "KUSUR",
+          "köşeden sonra dalga"
+        ],
+        [
+          "SEBEP",
+          "gövde rezonansı"
+        ],
+        [
+          "ÖLÇÜM",
+          "ADXL345"
+        ],
+        [
+          "TİPİK FREKANS",
+          "30 - 60 Hz"
+        ]
+      ]
+    },
+    {
+      "baslik": "Pressure advance basınç gecikmesini kapatıyor",
+      "aciklama": "Eriyik basıncı ekstruder adımını gecikmeli izliyor: köşeye girerken fazla, çıkarken eksik malzeme geliyor. Pressure advance bu gecikmeyi önden telafi ediyor. Direct tahrikte 0,02-0,05, bowden'da 0,40-0,80 aralığında; test deseni basıp köşeye bakarak seçiliyor.",
+      "tablo": [
+        [
+          "KUSUR",
+          "köşede şişme"
+        ],
+        [
+          "SEBEP",
+          "basınç gecikmesi"
+        ],
+        [
+          "PA · DIRECT",
+          "0,02 - 0,05"
+        ],
+        [
+          "PA · BOWDEN",
+          "0,40 - 0,80"
+        ]
+      ]
+    },
+    {
+      "baslik": "İkisi birlikte hızın kapısını açıyor",
+      "aciklama": "Titreşim sönünce ivmeyi 3.000 mm/s²'de tutma zorunluluğu kalkıyor, 10.000 mm/s² üstü kullanılabilir hale geliyor. Klipper ikisini de taşıyor; Marlin tarafında pressure advance karşılığı Linear Advance, input shaping 2.1 sürümlerinde geldi.",
+      "tablo": [
+        [
+          "ESKİ İVME SINIRI",
+          "3.000 mm/s²"
+        ],
+        [
+          "AYARDAN SONRA",
+          "10.000 mm/s²"
+        ],
+        [
+          "KLIPPER",
+          "ikisi de var"
+        ],
+        [
+          "MARLIN",
+          "Linear Advance"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "kobalt",
+  "kapak": {
+    "tip": "klasik",
+    "satir1": "SLICER PROFİLİ",
+    "satir2": "SIFIRDAN KURULUMU",
+    "spot": "Hazır profili kurcalamak yerine sırayı takip et: önce makinenin sınırı, sonra filamentin ölçüsü, en sonda hız. Ters sırada her ayar bir öncekini bozuyor.",
+    "rozetler": [
+      [
+        "Ölçü önce",
+        "tema"
+      ],
+      [
+        "Sonra sıcaklık",
+        "turuncu"
+      ],
+      [
+        "Hız en son",
+        "yesil"
+      ]
+    ],
+    "tablo": [
+      [
+        "KATMAN YÜKSEKLİĞİ",
+        "nozulun %25-75'i"
+      ],
+      [
+        "0,4 MM NOZUL",
+        "0,10 - 0,30 mm"
+      ],
+      [
+        "HAT GENİŞLİĞİ",
+        "0,40 - 0,48 mm"
+      ],
+      [
+        "İLK KATMAN",
+        "0,24 mm · 22 mm/s"
+      ],
+      [
+        "SICAKLIK KULESİ",
+        "190-225 °C · 5 °C"
+      ],
+      [
+        "GERİ ÇEKME",
+        "direct 0,8 · bowden 4 mm"
+      ]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "1. Makinenin sınırını yaz",
+      "aciklama": "Nozul çapı, tabla ölçüsü, azami ivme ve hacimsel akış sınırı profilin tabanı. Katman yüksekliği nozul çapının %25-75'i arasında kalacak: 0,4 mm nozulda 0,10-0,30 mm, günlük iş için 0,20 mm. Hat genişliği nozulun %100-120'si, yani 0,40-0,48 mm.",
+      "tablo": [
+        [
+          "KATMAN YÜKSEKLİĞİ",
+          "nozulun %25-75'i"
+        ],
+        [
+          "0,4 MM NOZUL",
+          "0,10 - 0,30 mm"
+        ],
+        [
+          "GÜNLÜK İŞ",
+          "0,20 mm"
+        ],
+        [
+          "HAT GENİŞLİĞİ",
+          "0,40 - 0,48 mm"
+        ]
+      ]
+    },
+    {
+      "baslik": "2. Filamentin ölçüsünü çıkar",
+      "aciklama": "Sıcaklık kulesi bas: 190 °C'den 225 °C'ye 5 °C adımlarla, hangisinde katman yapışması iyi ve stringing yok diye bak. Sonra tek duvarlı küp basıp kumpasla ölç; 0,4 mm hedeften sapma varsa akış çarpanını düzelt. Geri çekme direct tahrikte 0,8 mm, bowden'da 4 mm civarında başlıyor.",
+      "tablo": [
+        [
+          "SICAKLIK KULESİ",
+          "190 » 225 °C"
+        ],
+        [
+          "ADIM",
+          "5 °C"
+        ],
+        [
+          "AKIŞ TESTİ",
+          "tek duvarlı küp"
+        ],
+        [
+          "GERİ ÇEKME",
+          "direct 0,8 mm"
+        ]
+      ]
+    },
+    {
+      "baslik": "3. İlk katmanı ve hızı en sona bırak",
+      "aciklama": "İlk katmanı kalın ve yavaş ver: 0,24 mm yükseklik, 22 mm/s, nozul 5 °C sıcak. Ölçü ve sıcaklık oturduktan sonra hızı artır — ters sırada hız her ayarı yeniden bozuyor. Profili kaydetmeden önce 20×20 mm'lik bir test parçası bas ve ölçüyü doğrula.",
+      "tablo": [
+        [
+          "İLK KATMAN",
+          "0,24 mm"
+        ],
+        [
+          "İLK KATMAN HIZI",
+          "22 mm/s"
+        ],
+        [
+          "NOZUL PAYI",
+          "+5 °C"
+        ],
+        [
+          "SON ADIM",
+          "hızı artır"
+        ]
+      ]
+    }
+  ]
+}

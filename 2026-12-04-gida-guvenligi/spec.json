@@ -1,0 +1,164 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "acik",
+  "kapak": {
+    "tip": "izgara",
+    "satir1": "3D BASKI PARÇA",
+    "satir2": "GIDAYA DEĞER Mİ?",
+    "spot": "Soru malzemede değil, parçanın kendisinde. Filament gıdaya uygun olsa bile basılmış yüzey temizlenemiyor; nozul, katkı ve sıcaklık ayrı ayrı sorun çıkarıyor.",
+    "rozetler": [
+      [
+        "Katman izi sorun",
+        "kirmizi"
+      ],
+      [
+        "Paslanmaz nozul",
+        "turuncu"
+      ],
+      [
+        "Kalıp bas",
+        "yesil"
+      ]
+    ],
+    "tablo": [
+      [
+        "PİRİNÇ NOZUL",
+        "kurşun içeriyor"
+      ],
+      [
+        "KATMAN İZİ",
+        "temizlenemiyor"
+      ],
+      [
+        "PLA",
+        "55 °C'de yumuşuyor"
+      ],
+      [
+        "PETG",
+        "70-80 °C"
+      ],
+      [
+        "RENK KATKISI",
+        "belgesiz"
+      ],
+      [
+        "GÜVENLİ YOL",
+        "kalıp + silikon"
+      ]
+    ],
+    "kartlar": [
+      {
+        "etiket": "PİRİNÇ NOZUL",
+        "deger": "Kurşunlu",
+        "alt": "Gıdaya değen parçada paslanmaz nozul şart.",
+        "renk": "kirmizi",
+        "ikon": "nozzle",
+        "durum": "yanlis"
+      },
+      {
+        "etiket": "KATMAN İZİ",
+        "deger": "Oluklu",
+        "alt": "Bakteri oluğa yerleşiyor; yıkamayla çıkmıyor.",
+        "renk": "turuncu",
+        "ikon": "katman"
+      },
+      {
+        "etiket": "PLA SINIRI",
+        "deger": "55 °C",
+        "alt": "Yumuşuyor: sıcak sıvı ve bulaşık makinesi yok.",
+        "renk": "sari",
+        "ikon": "isi"
+      },
+      {
+        "etiket": "PETG SINIRI",
+        "deger": "70-80 °C",
+        "alt": "Isıya dayanıklı ama katman izi sorunu sürüyor.",
+        "renk": "mavi",
+        "ikon": "damla"
+      },
+      {
+        "etiket": "RENK KATKISI",
+        "deger": "Belgesiz",
+        "alt": "Pigment gıda onaylı değilse parça da değil.",
+        "renk": "mor",
+        "ikon": "uyari"
+      },
+      {
+        "etiket": "GÜVENLİ YOL",
+        "deger": "Kalıp bas",
+        "alt": "Kalıp olarak bas, gıda onaylı silikon dök.",
+        "renk": "yesil",
+        "ikon": "kalkan",
+        "durum": "dogru"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Sorun polimer değil, yüzey",
+      "aciklama": "Katkısız PLA ve PETG hammadde olarak gıdayla temasa uygun sayılıyor. Basılmış parça öyle değil: katman çizgileri mikron ölçekte oluk bırakıyor, bu oluklara yerleşen bakteri sıradan yıkamayla çıkmıyor. Pürüzsüz görünen yüzey bile mikroskopta oluklu.",
+      "tablo": [
+        [
+          "HAMMADDE",
+          "PLA · PETG uygun"
+        ],
+        [
+          "BASILMIŞ PARÇA",
+          "uygun değil"
+        ],
+        [
+          "SEBEP",
+          "katman oluğu"
+        ],
+        [
+          "TEMİZLİK",
+          "yıkamayla çıkmaz"
+        ]
+      ]
+    },
+    {
+      "baslik": "Nozul ve katkı ayrı iki risk",
+      "aciklama": "Pirinç nozullar kurşun içeriyor ve eriyikle temas ediyor; gıdaya değecek parça paslanmaz ya da sertleştirilmiş çelik nozulla basılmalı. Filamentin rengini veren pigment de üretici gıda teması için belgelemediyse parça belgesiz sayılıyor.",
+      "tablo": [
+        [
+          "PİRİNÇ NOZUL",
+          "kurşun içerir"
+        ],
+        [
+          "GEREKEN",
+          "paslanmaz çelik"
+        ],
+        [
+          "RENK PİGMENTİ",
+          "belgesiz"
+        ],
+        [
+          "SONUÇ",
+          "parça da belgesiz"
+        ]
+      ]
+    },
+    {
+      "baslik": "Sıcaklık sınırı ve işe yarayan yol",
+      "aciklama": "PLA 55-60 °C'de yumuşuyor: sıcak içecek ve bulaşık makinesi parçayı deforme ediyor. PETG 70-80 °C'ye dayanıyor ama katman izi sorunu sürüyor. Pratik çözüm parçayı kalıp olarak kullanıp gıda onaylı silikon dökmek ya da gıda sınıfı epoksiyle kaplamak.",
+      "tablo": [
+        [
+          "PLA SINIRI",
+          "55 - 60 °C"
+        ],
+        [
+          "PETG SINIRI",
+          "70 - 80 °C"
+        ],
+        [
+          "BULAŞIK MAKİNESİ",
+          "deforme eder"
+        ],
+        [
+          "ÇÖZÜM",
+          "kalıp + silikon"
+        ]
+      ]
+    }
+  ]
+}

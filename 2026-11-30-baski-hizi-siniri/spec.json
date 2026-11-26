@@ -1,0 +1,164 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "kiraz",
+  "kapak": {
+    "tip": "izgara",
+    "satir1": "HIZI ARTIRINCA",
+    "satir2": "İLK NE BOZULUR?",
+    "spot": "Hız ayarını yükseltince parça bir anda bozulmuyor; sıra belli. Önce köşeler dalgalanıyor, sonra hotend akışa yetişemiyor.",
+    "rozetler": [
+      [
+        "Köşe önce",
+        "tema"
+      ],
+      [
+        "Sonra akış",
+        "turuncu"
+      ],
+      [
+        "Dış duvar yavaş",
+        "yesil"
+      ]
+    ],
+    "tablo": [
+      [
+        "AKIŞ SINIRI",
+        "8-12 mm³/s"
+      ],
+      [
+        "AKIŞ HESABI",
+        "hat × katman × hız"
+      ],
+      [
+        "DIŞ DUVAR",
+        "50 mm/s"
+      ],
+      [
+        "DOLGU",
+        "200 mm/s"
+      ],
+      [
+        "İVME EŞİĞİ",
+        "3.000 mm/s²"
+      ],
+      [
+        "SOĞUTMA",
+        "%100 fan"
+      ]
+    ],
+    "kartlar": [
+      {
+        "etiket": "AKIŞ SINIRI",
+        "deger": "10 mm³/s",
+        "alt": "0,4 mm pirinç hotend PLA'da bu kadar eritiyor.",
+        "renk": "turuncu",
+        "ikon": "nozzle"
+      },
+      {
+        "etiket": "AKIŞ HESABI",
+        "deger": "8,4 mm³/s",
+        "alt": "0,42 mm hat × 0,2 mm katman × 100 mm/s. Sınırın dibi.",
+        "renk": "mavi",
+        "ikon": "olcu"
+      },
+      {
+        "etiket": "DIŞ DUVAR",
+        "deger": "50 mm/s",
+        "alt": "Yüzeyi bu belirliyor; burada hız artırılmaz.",
+        "renk": "yesil",
+        "ikon": "duvar",
+        "durum": "dogru"
+      },
+      {
+        "etiket": "İVME EŞİĞİ",
+        "deger": "3.000",
+        "alt": "mm/s² üstünde köşede hayalet dalga başlıyor.",
+        "renk": "kirmizi",
+        "ikon": "hiz",
+        "durum": "yanlis"
+      },
+      {
+        "etiket": "DOLGU",
+        "deger": "200 mm/s",
+        "alt": "Görünmeyen yerde hız serbest, akış izin verirse.",
+        "renk": "mor",
+        "ikon": "kup"
+      },
+      {
+        "etiket": "SOĞUTMA",
+        "deger": "%100",
+        "alt": "Katman süresi kısaldı; fan açılmazsa çıkıntı sarkar.",
+        "renk": "sari",
+        "ikon": "isi"
+      }
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Önce köşeler dalgalanıyor",
+      "aciklama": "Bozulan ilk şey mukavemet değil yüzey. Yazıcı köşede yön değiştirirken gövde titriyor ve bu titreşim duvara hayalet dalga olarak basılıyor. Eşik ivmede: bedslinger makinede 3.000 mm/s² üstü çoğu zaman görünür hale geliyor.",
+      "tablo": [
+        [
+          "İLK BOZULAN",
+          "köşe yüzeyi"
+        ],
+        [
+          "SEBEP",
+          "gövde titreşimi"
+        ],
+        [
+          "EŞİK İVME",
+          "3.000 mm/s²"
+        ],
+        [
+          "GÖRÜNÜMÜ",
+          "tekrar eden dalga"
+        ]
+      ]
+    },
+    {
+      "baslik": "Sonra hotend akışa yetişmiyor",
+      "aciklama": "Hacimsel akış hat genişliği × katman yüksekliği × hız. 0,42 mm hat ve 0,2 mm katmanda 100 mm/s zaten 8,4 mm³/s demek; 0,4 mm pirinç hotend 8-12 mm³/s civarında doyuyor. Üstüne çıkınca duvar inceliyor, üst yüzeyde boşluk kalıyor.",
+      "tablo": [
+        [
+          "AKIŞ FORMÜLÜ",
+          "hat × katman × hız"
+        ],
+        [
+          "0,42 × 0,2 × 100",
+          "8,4 mm³/s"
+        ],
+        [
+          "PİRİNÇ HOTEND",
+          "8-12 mm³/s"
+        ],
+        [
+          "AŞILINCA",
+          "duvar incelir"
+        ]
+      ]
+    },
+    {
+      "baslik": "Hızı her yerde değil, doğru yerde artır",
+      "aciklama": "Dış duvarı 50 mm/s civarında tut; gönderiyi gören kişi o yüzeye bakıyor. Dolguyu ve iç duvarı 150-200 mm/s'ye çıkarmak süreyi düşürürken görünür kaliteyi bozmuyor. Fanı tam aç: katman başına soğuma süresi kısaldı.",
+      "tablo": [
+        [
+          "DIŞ DUVAR",
+          "50 mm/s"
+        ],
+        [
+          "İÇ DUVAR",
+          "150 mm/s"
+        ],
+        [
+          "DOLGU",
+          "200 mm/s"
+        ],
+        [
+          "FAN",
+          "%100"
+        ]
+      ]
+    }
+  ]
+}
