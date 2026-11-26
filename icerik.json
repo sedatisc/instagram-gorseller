@@ -5756,6 +5756,44 @@
    "konu": "yayli-noel-baba-sapkasi-yilbasi-oyuncagi",
    "durum": "hazir",
    "kare": 3
+  },
+  {
+   "klasor": "2026-11-30-baski-hizi-siniri",
+   "kategori": "rehber",
+   "konu": "baski-hizi-siniri",
+   "durum": "hazir",
+   "kare": 4,
+   "reels": true
+  },
+  {
+   "klasor": "2026-12-01-slicer-profili",
+   "kategori": "rehber",
+   "konu": "slicer-profili",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "2026-12-02-input-shaping",
+   "kategori": "rehber",
+   "konu": "input-shaping",
+   "durum": "hazir",
+   "kare": 4
+  },
+  {
+   "klasor": "2026-12-03-buzulme-payi",
+   "kategori": "rehber",
+   "konu": "buzulme-payi",
+   "durum": "hazir",
+   "kare": 4,
+   "reels": true
+  },
+  {
+   "klasor": "2026-12-04-gida-guvenligi",
+   "kategori": "rehber",
+   "konu": "gida-guvenligi",
+   "durum": "hazir",
+   "kare": 4,
+   "reels": true
   }
  ],
  "kampanya": [
