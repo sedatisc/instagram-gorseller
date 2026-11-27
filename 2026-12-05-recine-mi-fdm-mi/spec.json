@@ -1,0 +1,59 @@
+{
+  "kategori": "3dbaski",
+  "zemin": "koyu",
+  "kapak": {
+    "tip": "carpisma",
+    "satir1": "REÇİNE Mİ",
+    "satir2": "FDM Mİ?",
+    "sol_etiket": "REÇİNE",
+    "sag_etiket": "FDM",
+    "sol_metin": "17 µm piksel, 0,01 mm katman: minyatür, figür, takı ve diş modeli. Yüzey zımpara istemiyor.",
+    "sag_metin": "256 mm küp hacim, tokluk, 0,4 mm nozul: kutu, braket, mekanik parça. Yıkama ve kür yok.",
+    "spot": "Soru hangisi daha iyi değil, parçanın ne iş yaptığı. Bakılacak parça reçineye, çalışacak parça FDM'ye gidiyor.",
+    "rozetler": [
+      ["Detay reçine", "kirmizi"],
+      ["İşlev FDM", "yesil"],
+      ["Kür gizli maliyet", "tema"]
+    ],
+    "tablo": [
+      ["REÇİNE PİKSELİ", "16,8 × 24,8 µm"],
+      ["FDM NOZUL", "0,4 mm"],
+      ["REÇİNE KATMANI", "0,01 - 0,1 mm"],
+      ["FDM KATMANI", "0,1 - 0,3 mm"],
+      ["REÇİNE HACMİ", "223 × 126 × 230 mm"],
+      ["FDM HACMİ", "256 × 256 × 256 mm"]
+    ]
+  },
+  "slaytlar": [
+    {
+      "baslik": "Reçinenin kazandığı yer: detay",
+      "aciklama": "MSLA yazıcıda çözünürlüğü LCD pikseli belirliyor; Anycubic Photon Mono M7 Pro'da bu 16,8 × 24,8 µm, Mono 4 Ultra'da 17 × 17 µm. Katman 0,01 mm'ye kadar inebiliyor, o yüzden 28 mm minyatürün yüz hatları ve takıdaki tırtıl çıkıyor. FDM'de en ince ayrıntıyı 0,4 mm nozul sınırlıyor; aynı yüzü basmak mümkün değil.",
+      "tablo": [
+        ["ÇÖZÜNÜRLÜK", "LCD pikseli belirler"],
+        ["M7 PRO PİKSEL", "16,8 × 24,8 µm"],
+        ["EN İNCE KATMAN", "0,01 mm"],
+        ["FDM SINIRI", "0,4 mm nozul"]
+      ]
+    },
+    {
+      "baslik": "FDM'nin kazandığı yer: işlev ve ölçü",
+      "aciklama": "Standart reçine parça sert ama kırılgan: düşünce çatlıyor, vidalı birleşimde zorlanıyor. PLA ve PETG parça tokluğunu koruyor, PETG 70-80 °C'ye dayanıyor. Hacim de farklı: Mono 4 Ultra 2,2 L, Bambu Lab A1 ise 256 mm küp. Büyük kutu ya da braket reçinede parçalara bölünmek zorunda.",
+      "tablo": [
+        ["REÇİNE PARÇA", "kırılgan"],
+        ["PETG DAYANIMI", "70 - 80 °C"],
+        ["REÇİNE HACMİ", "2,2 L"],
+        ["FDM HACMİ", "256 mm küp"]
+      ]
+    },
+    {
+      "baslik": "Kararı gizli maliyet veriyor",
+      "aciklama": "Reçine baskı tabladan çıkınca bitmiyor: IPA ile yıkama ve UV kür zorunlu, ikisi de ek makine. Koku ve buhar için havalandırma, eldiven ve gözlük şart; hazne filmi ~45.000 katmanda değişiyor. FDM'de baskı bittiğinde parça hazır. Haftada bir minyatür basacaksan bu zinciri kurmak pahalı, her gün basacaksan hemen amorti ediyor.",
+      "tablo": [
+        ["YIKAMA", "IPA, zorunlu"],
+        ["KÜR", "UV, zorunlu"],
+        ["HAZNE FİLMİ", "~45.000 katman"],
+        ["FDM SONRASI", "işlem yok"]
+      ]
+    }
+  ]
+}
