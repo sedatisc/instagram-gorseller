@@ -4,18 +4,6 @@ Günde **3 gönderi · 3 hikaye · 1 reels**. Hikaye, gönderiden 40 dakika sonr
 
 Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.json` içinde.
 
-## 2026-11-27 · Cuma
-
-| Saat | Tür | Slot | Klasör | Kare |
-|---|---|---|---|---|
-| 09:10 | Gönderi | BASKI ÜRÜNLERİ | `urun/vahsi-hayvan-kit-kartlari-kopar-tak-3d-hayvan-figur-seti` | 3 |
-| 09:50 | Hikaye | BASKI ÜRÜNLERİ | `urun/vahsi-hayvan-kit-kartlari-kopar-tak-3d-hayvan-figur-seti/hikaye.jpg` | 1 |
-| 12:38 | Gönderi | BASKI ÜRÜNLERİ | `urun/voronoi-aynali-makyaj-organizeri-silk-parlak-makyaj-fircaligi` | 8 |
-| 13:18 | Hikaye | BASKI ÜRÜNLERİ | `urun/voronoi-aynali-makyaj-organizeri-silk-parlak-makyaj-fircaligi/hikaye.jpg` | 1 |
-| 16:40 | Gönderi | BASKI ÜRÜNLERİ | `urun/japandi-agac-seti-masaustu-yilbasi-dekoru` | 6 |
-| 17:20 | Hikaye | BASKI ÜRÜNLERİ | `urun/japandi-agac-seti-masaustu-yilbasi-dekoru/hikaye.jpg` | 1 |
-| 19:20 | **Reels** | — | _boş — üretilecek_ | — |
-
 ## 2026-11-28 · Cumartesi
 
 | Saat | Tür | Slot | Klasör | Kare |
@@ -2564,7 +2552,6 @@ Bu dosya `sira.py` tarafından üretiliyor, elle düzenleme — içerik `icerik.
 
 Bu slotlar için içerik henüz üretilmedi:
 
-- 2026-11-27 · REELS
 - 2026-11-28 · REELS
 - 2026-11-29 · REELS
 - 2026-12-01 · REELS
