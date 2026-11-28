@@ -534,6 +534,36 @@
    "anahtar": "urun/japandi-agac-seti-masaustu-yilbasi-dekoru|hikaye",
    "buffer": "6b08fcdde94385a8fd6e9b5d",
    "zaman": "2026-11-27T17:20"
+  },
+  {
+   "anahtar": "urun/spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu|gonderi",
+   "buffer": "6b0a4a772a2e4f66caf6eb0f",
+   "zaman": "2026-11-28T11:10"
+  },
+  {
+   "anahtar": "urun/spiral-zeytin-vazo-kuru-cicek-ve-pampas-vazosu|hikaye",
+   "buffer": "6b0a4a7870e80ae8f1cb88aa",
+   "zaman": "2026-11-28T11:50"
+  },
+  {
+   "anahtar": "urun/japandi-saksi-ic-mekan-bitki-saksisi|gonderi",
+   "buffer": "6b0a4a7841454797eae88cd4",
+   "zaman": "2026-11-28T13:20"
+  },
+  {
+   "anahtar": "urun/japandi-saksi-ic-mekan-bitki-saksisi|hikaye",
+   "buffer": "6b0a4a78eab081a3f51cf55c",
+   "zaman": "2026-11-28T14:00"
+  },
+  {
+   "anahtar": "urun/agac-tepesi-yildizlari-yilbasi-agaci-susu|gonderi",
+   "buffer": "6b0a4a7870e80ae8f1cb88fb",
+   "zaman": "2026-11-28T17:10"
+  },
+  {
+   "anahtar": "urun/agac-tepesi-yildizlari-yilbasi-agaci-susu|hikaye",
+   "buffer": "6b0a4a7970e80ae8f1cb8927",
+   "zaman": "2026-11-28T17:50"
   }
  ]
 }
