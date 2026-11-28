@@ -48,6 +48,12 @@ def metin_basi(klasor):
 def kapak(klasor):
     """Gönderinin ilk karesi: ürün ise site adresi, değilse depo yolu."""
     if klasor.startswith(UK.ONEK):
+        # Depoya aktarılmış JPEG varsa o: hem indirme gerekmiyor hem de
+        # yayına gidecek karenin aynısı görünüyor.
+        import sira
+        y = sira.urun_kareleri(klasor)
+        if y:
+            return y[0]
         g = UK.gorseller(klasor)
         return g[0] if g else ""
     for ad in ("1.jpg", "1.png", "1.jpeg"):

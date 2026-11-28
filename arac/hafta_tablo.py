@@ -70,7 +70,11 @@ def indir(u):
         if not u.startswith(("http://", "https://")):
             yol = u if os.path.isabs(u) else os.path.join(KOK, u)
             return Image.open(yol).convert("RGB")
-        with urllib.request.urlopen(u, timeout=25) as r:
+        # Site, tarayıcı kimliği olmayan isteğe görsel yerine sayfa
+        # döndürüyor; kimlik konmayınca kapaklar boş çıkıyordu.
+        istek = urllib.request.Request(
+            u, headers={"User-Agent": "sermenkreatif-yayin/1.0"})
+        with urllib.request.urlopen(istek, timeout=25) as r:
             return Image.open(io.BytesIO(r.read())).convert("RGB")
     except Exception as e:                       # noqa: BLE001
         print("görsel alınamadı: %s (%s)" % (u, e))
