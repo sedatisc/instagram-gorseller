@@ -5767,46 +5767,115 @@
    "klasor": "2026-11-30-baski-hizi-siniri",
    "kategori": "rehber",
    "konu": "baski-hizi-siniri",
-   "durum": "hazir",
+   "durum": "beklemede",
    "kare": 4,
-   "reels": true
+   "reels": true,
+   "neden": "Elde kurulan pano tasarimi kullanilmiyor"
   },
   {
    "klasor": "2026-12-01-slicer-profili",
    "kategori": "rehber",
    "konu": "slicer-profili",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "beklemede",
+   "kare": 4,
+   "neden": "Elde kurulan pano tasarimi kullanilmiyor"
   },
   {
    "klasor": "2026-12-02-input-shaping",
    "kategori": "rehber",
    "konu": "input-shaping",
-   "durum": "hazir",
-   "kare": 4
+   "durum": "beklemede",
+   "kare": 4,
+   "neden": "Elde kurulan pano tasarimi kullanilmiyor"
   },
   {
    "klasor": "2026-12-03-buzulme-payi",
    "kategori": "rehber",
    "konu": "buzulme-payi",
-   "durum": "hazir",
+   "durum": "beklemede",
    "kare": 4,
-   "reels": true
+   "reels": true,
+   "neden": "Elde kurulan pano tasarimi kullanilmiyor"
   },
   {
    "klasor": "2026-12-04-gida-guvenligi",
    "kategori": "rehber",
    "konu": "gida-guvenligi",
-   "durum": "hazir",
+   "durum": "beklemede",
    "kare": 4,
-   "reels": true
+   "reels": true,
+   "neden": "Elde kurulan pano tasarimi kullanilmiyor"
   },
   {
    "klasor": "2026-12-05-recine-mi-fdm-mi",
    "kategori": "rehber",
    "konu": "recine-mi-fdm-mi",
+   "durum": "beklemede",
+   "kare": 4,
+   "neden": "Elde kurulan pano tasarimi kullanilmiyor"
+  },
+  {
+   "klasor": "2026-11-28-bambu-lab-s1",
+   "kategori": "magaza",
+   "konu": "bambu-lab-s1",
    "durum": "hazir",
-   "kare": 4
+   "kare": 1
+  },
+  {
+   "klasor": "2026-11-28-bambu-lab-yazici-serisi",
+   "kategori": "magaza",
+   "konu": "bambu-lab-seri",
+   "durum": "hazir",
+   "kare": 1
+  },
+  {
+   "klasor": "2026-11-28-bambu-lab-h3c",
+   "kategori": "magaza",
+   "konu": "bambu-lab-h3c-9renk",
+   "durum": "hazir",
+   "kare": 1
+  },
+  {
+   "klasor": "2026-11-28-bambu-lab-p3c",
+   "kategori": "magaza",
+   "konu": "bambu-lab-p3c",
+   "durum": "hazir",
+   "kare": 1
+  },
+  {
+   "klasor": "2026-11-28-creality-yazicilar",
+   "kategori": "magaza",
+   "konu": "creality-yazici",
+   "durum": "hazir",
+   "kare": 1
+  },
+  {
+   "klasor": "2026-11-28-snapmaker-u1",
+   "kategori": "magaza",
+   "konu": "snapmaker-u1",
+   "durum": "hazir",
+   "kare": 1
+  },
+  {
+   "klasor": "2026-11-28-phrozen-sonic-mega-8k-v2",
+   "kategori": "magaza",
+   "konu": "phrozen-mega-8k",
+   "durum": "hazir",
+   "kare": 1
+  },
+  {
+   "klasor": "2026-11-28-sunlu-filament-serisi",
+   "kategori": "magaza",
+   "konu": "sunlu-filament-seri",
+   "durum": "hazir",
+   "kare": 1
+  },
+  {
+   "klasor": "2026-11-28-creality-filament",
+   "kategori": "magaza",
+   "konu": "creality-filament",
+   "durum": "hazir",
+   "kare": 1
   }
  ],
  "kampanya": [
