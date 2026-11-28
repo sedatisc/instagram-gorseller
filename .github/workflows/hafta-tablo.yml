@@ -32,7 +32,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install "pillow>=10.4"
+      - run: pip install "pillow>=10.4" "requests>=2.32"
 
       - name: Hazırla ve çiz
         run: |
