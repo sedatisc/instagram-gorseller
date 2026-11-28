@@ -5819,63 +5819,72 @@
    "kategori": "magaza",
    "konu": "bambu-lab-s1",
    "durum": "hazir",
-   "kare": 1
+   "kare": 1,
+   "baslik": "Bambu Lab S1 · 3D tarayıcı"
   },
   {
    "klasor": "2026-11-28-bambu-lab-yazici-serisi",
    "kategori": "magaza",
    "konu": "bambu-lab-seri",
    "durum": "hazir",
-   "kare": 1
+   "kare": 1,
+   "baslik": "Bambu Lab 3D yazıcılar"
   },
   {
    "klasor": "2026-11-28-bambu-lab-h3c",
    "kategori": "magaza",
    "konu": "bambu-lab-h3c-9renk",
    "durum": "hazir",
-   "kare": 1
+   "kare": 1,
+   "baslik": "Bambu Lab H3C · 9 renk"
   },
   {
    "klasor": "2026-11-28-bambu-lab-p3c",
    "kategori": "magaza",
    "konu": "bambu-lab-p3c",
    "durum": "hazir",
-   "kare": 1
+   "kare": 1,
+   "baslik": "Bambu Lab P3C · ön siparişte"
   },
   {
    "klasor": "2026-11-28-creality-yazicilar",
    "kategori": "magaza",
    "konu": "creality-yazici",
    "durum": "hazir",
-   "kare": 1
+   "kare": 1,
+   "baslik": "Creality 3D yazıcılar"
   },
   {
    "klasor": "2026-11-28-snapmaker-u1",
    "kategori": "magaza",
    "konu": "snapmaker-u1",
    "durum": "hazir",
-   "kare": 1
+   "kare": 1,
+   "baslik": "Snapmaker U1 · 4 renk"
   },
   {
    "klasor": "2026-11-28-phrozen-sonic-mega-8k-v2",
    "kategori": "magaza",
    "konu": "phrozen-mega-8k",
    "durum": "hazir",
-   "kare": 1
+   "kare": 1,
+   "baslik": "Phrozen Sonic Mega 8K V2"
   },
   {
    "klasor": "2026-11-28-sunlu-filament-serisi",
    "kategori": "magaza",
    "konu": "sunlu-filament-seri",
    "durum": "hazir",
-   "kare": 1
+   "kare": 1,
+   "baslik": "Sunlu filament"
   },
   {
    "klasor": "2026-11-28-creality-filament",
    "kategori": "magaza",
    "konu": "creality-filament",
    "durum": "hazir",
-   "kare": 1
+   "kare": 1,
+   "baslik": "Creality filament"
   }
  ],
  "kampanya": [

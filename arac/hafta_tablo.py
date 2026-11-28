@@ -64,7 +64,12 @@ def gunadi(t):
 
 
 def indir(u):
+    # Depodaki kareler (mağaza gönderileri) adresle değil dosya yoluyla
+    # geliyor; sitenin ürün fotoğrafları adresle.
     try:
+        if not u.startswith(("http://", "https://")):
+            yol = u if os.path.isabs(u) else os.path.join(KOK, u)
+            return Image.open(yol).convert("RGB")
         with urllib.request.urlopen(u, timeout=25) as r:
             return Image.open(io.BytesIO(r.read())).convert("RGB")
     except Exception as e:                       # noqa: BLE001

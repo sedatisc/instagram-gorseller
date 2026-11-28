@@ -1,0 +1,58 @@
+name: Haftalık onay tablosu
+
+# Onaya sunulacak haftayı hazırlar ve tek görsel olarak çizer.
+# Kilit yazmaz — onay alınınca arac/hafta_kilitle.py çalıştırılıyor.
+# Sitenin ürün fotoğraflarını indirdiği için internet gerekiyor.
+
+on:
+  workflow_dispatch:
+    inputs:
+      baslangic:
+        description: "Başlangıç günü (YYYY-AA-GG). Boşsa yarın."
+        type: string
+        default: ""
+      gun:
+        description: "Gün sayısı"
+        type: string
+        default: "7"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hafta-tablo
+  cancel-in-progress: false
+
+jobs:
+  ciz:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "pillow>=10.4"
+
+      - name: Hazırla ve çiz
+        run: |
+          ARG=""
+          if [ -n "${{ inputs.baslangic }}" ]; then
+            ARG="${{ inputs.baslangic }} ${{ inputs.gun }}"
+          fi
+          python3 -u arac/hafta_onay.py $ARG
+          python3 -u arac/hafta_tablo.py otomasyon/hafta-onay.json \
+            otomasyon/hafta-onay.jpg
+
+      - name: Kaydet
+        run: |
+          git config user.name  "yayin-botu"
+          git config user.email "noreply@github.com"
+          git add -A otomasyon/hafta-onay.json otomasyon/hafta-onay.jpg
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok."
+          else
+            git commit -m "Haftalık onay tablosu (otomatik)"
+            git pull --rebase --autostash origin main
+            git push origin HEAD:main
+          fi
